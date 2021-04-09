@@ -2,15 +2,15 @@
 description: The open-source guide to machine translation
 ---
 
-# machinetranslate.org
+# Machine Translate
 
 Learn about machine translation technology and options
 
-### Community
-
-Ask questions and share your work
-
-
+> ### Community
+>
+> Read news, ask and answer questions and share your work
+>
+> Coming soon!
 
 ### Supporters and contributors
 

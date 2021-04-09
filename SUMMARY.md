@@ -1,4 +1,4 @@
 # Table of contents
 
-* [machinetranslate.org](README.md)
+* [Machine Translate](README.md)
 
