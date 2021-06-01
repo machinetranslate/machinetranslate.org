@@ -9,6 +9,10 @@ The history of machine translation companies begins in the defence sector.  Othe
 **ModelFront**  
 2019
 
+**Language I/O**  
+2017   
+$5.5M from Gutbrain, PBJ, Omega and angels
+
 **Intento**  
 2016  
 $4M from Berkeley Skydeck and angels
@@ -35,10 +39,6 @@ $91.2M from Caixa, Samsung, Scale, Notion, Faber, Greycroft, Structure, M12 and 
 **Iconic Translation Machines**  
 2013  
 Acquired by SDL/RWS for $20M in 2020
-
-**Language I/O**  
-2011  
-$5.5M from Gutbrain, PBJ, Omega and angels
 
 **KantanMT**  
 2011  
