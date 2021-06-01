@@ -1,5 +1,5 @@
 ---
-description: Parallel data for training and customizing machine translation
+description: Parallel data for training and customising machine translation
 ---
 
 # Training data
