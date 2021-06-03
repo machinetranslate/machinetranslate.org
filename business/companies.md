@@ -9,6 +9,10 @@ The history of machine translation companies begins in the defence sector.  Othe
 **ModelFront**  
 2019
 
+**Language I/O**  
+2017   
+$5.5M from Gutbrain, PBJ, Omega and angels
+
 **Intento**  
 2016  
 $4M from Berkeley Skydeck and angels
@@ -20,21 +24,21 @@ $4M from Berkeley Skydeck and angels
 2015  
 $37.5M from Sequoia, Redpoint, XSeed, Zetta and In-Q-Tel
 
-**Unbabel**  
-2013  
-$91.2M from Caixa, Samsung, Scale, Notion, Faber, Greycroft, Structure, M12 and Headline
-
 **Lexy**  
 2015  
 Raised from Slow Ventures and dissolved
 
+**Lengoo**  
+2014  
+$26.6M from INKEF, Redalpine, Polipo, Techstars, Creathor, Piton and angels
+
+**Unbabel**  
+2013  
+$91.2M from Caixa, Samsung, Scale, Notion, Faber, Greycroft, Structure, M12 and Headline
+
 **Iconic Translation Machines**  
 2013  
 Acquired by SDL/RWS for $20M in 2020
-
-**Language I/O**  
-2011  
-$5.5M from Gutbrain, PBJ, Omega and angels
 
 **KantanMT**  
 2011  
@@ -54,7 +58,6 @@ Acquired by Google Translate in 2014
 
 **Omniscien Technologies**  
 2006  
-Acquired by SDL/RWS for $42.5M in 2010
 
 **LanguageWeaver**  
 2002  
