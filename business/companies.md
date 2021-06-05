@@ -14,7 +14,7 @@ there are more and more growth companies backed by venture capital.
 
 ## ModelFront
 
-## 2017
+# 2017
 
 ## Language I/O 
 $5.5M from Gutbrain, PBJ, Omega and angels
@@ -45,11 +45,11 @@ $91.2M from Caixa, Samsung, Scale, Notion, Faber, Greycroft, Structure, M12 and 
 ## Iconic Translation Machines
 Acquired by SDL/RWS for $20M in 2020
 
-## 2011
+# 2011
 ## KantanMT
 Acquired by Keyword for €7M in 2019
 
-## 2009
+# 2009
 ## DeepL  
 Raised from Benchmark and btov
 
