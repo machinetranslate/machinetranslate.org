@@ -2,13 +2,13 @@
 description: 'Foundings, investments and acquisitions in the machine translation space'
 ---
 
-# Companies
+The history of machine translation companies begins in the defence and intelligence sector.
 
-The history of machine translation companies begins in the defence sector. 
 Other players, from technology giants to translation agencies to the European Union, 
-increasingly build their own machine translation. 
+increasingly build their own machine translation.
+
 Since the advent of statistical machine translation and neural machine translation, 
-there are more and more growth companies backed by venture capital.
+there are growth companies backed by venture capital.
 
 # 2019
 
