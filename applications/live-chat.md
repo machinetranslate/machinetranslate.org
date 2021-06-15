@@ -1,9 +1,15 @@
 ---
-description: Real time machine translation of multilingual chat interactions
+description: Machine translation for live chats
 ---
 
 # Live Chat
 
-In **Live Chats**, machine translation assists in interactions between people speaking different languages. Each user sends messages in their own language, which get translated before reaching the other person. This means that both inbound and outbound messages are machine translated in real time.
+Machine translation for **live chat** is used to translate messages between two users who do not speak a common language.
 
-The main benefit of this technology is that it reduces delays in the communication by first detecting the user language and then providing fast translations.
+Live chat messages are a type of **user-generated content**. Live chat is challenging for machine-translation because it is noisy and context-dependent.
+
+Common scenarios are in-game chat in **gaming** and customer support for **commerce and marketplaces**.
+
+### Companies
+- Unbabel
+- Language I/O

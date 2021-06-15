@@ -1,19 +1,23 @@
 ---
-description: Machine translation applied to the e-commerce field
+description: Machine translation for commerce and marketplaces
 ---
 
 # Commerce and Marketplaces
-Machine translation applied to **Commerce and Marketplaces** helps reach and engage wider and international customer communities with products that may not be available in their native language. The human translation of commerce and marketplace sites can be risky as it's a time-consuming process, and by the time the translation is ready, the products may already be sold out.
+Machine translation for **commerce and marketplaces** is the translation of product content, like product titles and descriptions, into the languages of consumers.
 
-### Training data
-These sites have similar information presented in a uniform style, which makes it easy to generate supporting material. Machine translation can be trained with specific glossaries and data to improve it's quality performance.
+The goals are:
 
-Editing the original information into simple and organized strings can also have a positive impact in quality.
+- sales conversion
+- **SEO** and site search
+- customer support
 
-### Benefits
-Commerce and Marketplace sites benefit from machine translation as it gives room for:
-- Cross-border business
-- Universal customer support
-- Faster trade
-- Competitive edge
-- Enhanced service reputation
+The top merchants and platforms cannot human-translate all products into all languages, because of the scale.
+
+The translation of product titles and descriptions is handled by the platforms, merchants or brands themselves.
+
+### Content types
+
+- Product
+- Product descriptions
+- Product reviews
+- Customer support chat and email

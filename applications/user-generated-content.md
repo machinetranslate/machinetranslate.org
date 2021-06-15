@@ -1,25 +1,17 @@
 ---
-description: User-generated content in websites and social media
+description: Machine translation for user-generated content
 ---
 
 # User-Generated Content
 
-**User-generated content (USG)** is content created and shared through websites and social media. Machine translation is used in UGC mainly for gisting purposes.
+Machine translation for **user-generated content (UGC)** is used mainly for **gisting**.
+User-generated content is a good fit for machine translation because it is very high-scale.
+User-generated content is challenging for machine translation because it is open-domain and noisy.
+
 
 ## Application
-Readers can choose to machine translate USG on a sentence- or document-basis, depending on their needs and interests.
+Readers can choose to machine translate USG on a sentence-basis.
 
-### Benefits
-By resorting to machine translation, users widen their audience and engage different communities.
-UGC is non-stop, and the amount of information published daily cannot be processed by a group of human translators. Using machine translation can help brands benefit from this content cross-border as a growing audience looks for this authentic and realistic information to make decisions related to purchases or subscriptions.
-
-### Scope
-- Comments
-- Reviews
-- Posts
-
-### Potential issues
-- Newly coined words or expressions
-- Messages written by non-native speakers
-
-Although typos could be considered a potential issue, many machine translation engines fix them before processing the translation.
+### Goals
+With machine translation, users widen their audience and engage different communities.
+The amount of UGC published daily is non-stop. Machine translation makes UGC cross-border for growing audiences who look for product and services information.

@@ -1,11 +1,17 @@
 ---
-description: Machine translation in social media content
+description: Machine translation for social media
 ---
 
 # Social Networks
-**Social networks** such as Facebook or Twitter have inserted machine translation technology that allows readers to get the translation of specific content of their choice. The machine translation quality is adequate for understanding purposes.
 
-In YouTube, the speech recognition technology generates automatic closed captions, which users can choose to machine translate into several languages. Its quality depends greatly on the speech recognition performance.
+Machine translation for **social networks** such as Facebook or Twitter is the translation of specific content chosen by the reader. The machine translation is used for gisting.
 
-### Scope
 While the static content of social networks is human-translated, machine translation is used for **user-generated content**.
+
+### Content types
+
+- Comments
+- Reviews
+- Posts
+
+In YouTube, machine translation is used in automatic closed captions.
