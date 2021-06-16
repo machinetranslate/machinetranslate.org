@@ -18,6 +18,6 @@ With **full post-editing**, the goal is to match human quality. Clients may requ
 ### Metrics
 **Post-editing distance** is a measure of how much the human translator post-edited the machine translation. It's both a metric for a specific translation, and also used in aggregate.
 
-It can be length-normalised and given as a percentage.
+It can be length-normalized and given as a percentage.
 
 **Post-editing effort** is an estimate of how much from the machine translation output needs to be post-edited and how much can be approved as is.
