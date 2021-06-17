@@ -3,7 +3,7 @@ description: Machine translation for commerce and marketplaces
 ---
 
 # Commerce and Marketplaces
-Machine translation for **commerce and marketplaces** is the translation of product content, like product titles and descriptions, into the languages of consumers.
+Machine translation for **commerce and marketplaces** is the translation of product content, like product titles and descriptions, into the languages of buyers.
 
 The goals are:
 
