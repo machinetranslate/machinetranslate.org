@@ -26,7 +26,7 @@ This guide is open-source.  You can contribute to the content.
 The open guide to machine translation is supported by [**ModelFront**](https://modelfront.com).
 
 
-##### Want to support Machine Translate?
+> Want to support Machine Translate?
 
 Shoot us an email at [contact@machinetranslate.org](mailto:contact@machinetranslate.org)
 
