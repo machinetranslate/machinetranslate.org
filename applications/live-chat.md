@@ -6,13 +6,13 @@ description: Machine translation for live chats
 
 Machine translation for **live chat** is used to translate messages between two users who do not speak a common language.
 
-Live chat messages are a type of [user-generated content](https://github.com/machinetranslate/machinetranslate.org/pull/user-generated-content). Live chat is challenging for machine-translation because it is noisy and context-dependent.
+Live chat messages are a type of [user-generated content](applications/user-generated-content.md). Live chat is challenging for machine-translation because it is noisy and context-dependent.
 
-Common scenarios are in-game chat in **gaming** and customer support for [commerce and marketplaces](https://github.com/machinetranslate/machinetranslate.org/pull/commerce-and-marketplaces).
+Common scenarios are in-game chat in [gaming](applications/gaming.md) and customer support for [commerce and marketplaces](applications/commerce-and-marketplaces.md).
 
 ### Companies
 - Unbabel
 - Language I/O
 
 ### See also
-- [Voice translation](https://github.com/machinetranslate/machinetranslate.org/pull/voice-translation)
+- [Voice translation](applications/voice-translation.md)

@@ -8,7 +8,7 @@ Machine translation for **commerce and marketplaces** is the translation of prod
 The goals are:
 
 - sales conversion
-- [SEO]((https://github.com/machinetranslate/machinetranslate.org/pull/seo)) and site search
+- [SEO](applications/seo.md) and site search
 - customer support
 
 The top merchants and platforms cannot human-translate all products into all languages, because of the scale.
@@ -17,7 +17,7 @@ The translation of product titles and descriptions is handled by the platforms, 
 
 ### Content types
 
-- Product
+- Product titles
 - Product descriptions
 - Product reviews
 - Customer support chat and email

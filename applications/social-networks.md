@@ -4,7 +4,7 @@ description: Machine translation for social media
 
 # Social Networks
 
-Machine translation for **social networks** is integrated into social networks for gisting dynamic content on demand.
+Machine translation is integrated into **social networks** for gisting dynamic content on demand.
 
 Social networks with a machine translation feature include:
 
@@ -16,7 +16,7 @@ Social networks with a machine translation feature include:
 - YouTube
 
 
-While the static content of social networks is human-translated, machine translation is used for [user-generated content](https://github.com/machinetranslate/machinetranslate.org/pull/user-generated-content).
+While the static content of social networks is human-translated, machine translation is used for [user-generated content](applications/user-generated-content.md).
 
 ### Content types
 
