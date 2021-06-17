@@ -4,7 +4,7 @@
 
 ## Applications
 
-* [Post-editing (human translation)](applications/post-editing.md)
+* [Post-editing \(human translation\)](applications/post-editing.md)
 * [Hybrid translation](applications/hybrid-translation.md)
 * [Gaming](applications/gaming.md)
 * [Commerce and marketplaces](applications/commerce-and-marketplaces.md)
@@ -33,4 +33,8 @@
 * [Join the community](https://form.typeform.com/c/ndac7OIs)
 * [Edit or create](https://github.com/machinetranslate/machinetranslate.org)
 * [Style](contributing/style.md)
+
+## Languages
+
+* [Russian](languages/russian.md)
 
