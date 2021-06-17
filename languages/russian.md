@@ -4,13 +4,15 @@ description: Machine translation for Russian
 
 # Russian
 
-Russian was one of the first languages for which machine translation was researched and developed, and remains one of the most supported language pairs.
+Russian was one of the first languages for which machine translation was researched and developed, and remains one of the best supported languages.
 
 Among those languages, it is notable for:
 
 * complex morphology - highly inflected, with gender agreement
 * monocentric - little dialect variation
-* the Cyrillic alphabet
+
+Russian has the best machine translation support among Slavic languages and languages written in the Cyrillic alphabet.
+
 
 #### Support
 
