@@ -4,9 +4,6 @@ description: How to edit and contribute to Machine Translate
 
 # Style
 
-### description: How to edit and contribute to Machine Translate
-
-## Style
 
 Machine Translate was founded as an open guide for people who want to use machine translation in their work, products or services. They are diverse and busy, so the content should be high-level and understandable.
 
