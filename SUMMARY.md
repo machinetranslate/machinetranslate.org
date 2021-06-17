@@ -1,8 +1,6 @@
 # Table of contents
 
 * [Machine Translate](README.md)
-* [Join the community](https://form.typeform.com/c/ndac7OIs)
-* [Edit or create](https://github.com/machinetranslate/machinetranslate.org)
 
 ## Customization
 
@@ -19,4 +17,9 @@
 ## Business
 
 * [Companies](business/companies.md)
+
+## About Machine Translate
+
+* [Join the community](https://form.typeform.com/c/ndac7OIs)
+* [Edit or create](https://github.com/machinetranslate/machinetranslate.org)
 
