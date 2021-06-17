@@ -4,7 +4,13 @@ description: The open guide to machine translation
 
 # Machine Translate
 
-Machine Translate is the open guide to machine translation, from technology to products to history.
+Machine Translate is the open guide to machine translation, from history to research to business.
+
+
+
+
+
+---
 
 ## Community
 
