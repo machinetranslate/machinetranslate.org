@@ -4,7 +4,13 @@
 
 ## Applications
 
-* [Post-editing \(Human translation\)](applications/post-editing.md)
+* [Post-editing (human translation)](applications/post-editing.md)
+* [Hybrid translation](applications/hybrid-translation.md)
+* [Gaming](applications/gaming.md)
+* [Commerce and marketplaces](applications/commerce-and-marketplaces.md)
+* [Social networks](applications/social-networks.md)
+* [Live chat](applications/live-chat.md)
+* [User-generated content](applications/user-generated-content.md)
 
 ## Customization
 
