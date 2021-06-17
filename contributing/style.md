@@ -1,6 +1,5 @@
-
 ---
-description: How to edit and contribute to Machine Translate
+description: 'How to edit and contribute to Machine Translate'
 ---
 
 # Style
