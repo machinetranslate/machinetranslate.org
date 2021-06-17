@@ -1,6 +1,3 @@
----
-description: Human editing of machine translation output
----
 
 # Post-editing
 
