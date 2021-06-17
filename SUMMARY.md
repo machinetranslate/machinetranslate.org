@@ -1,6 +1,11 @@
 # Table of contents
 * [Machine Translate](README.md)
 
+
+## Applications
+* [Post-editing (Human translation)](applications/post-editing)
+
+
 ## Customization
 
 * [Training data](customization/training-data.md)
