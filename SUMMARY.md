@@ -32,9 +32,11 @@
 
 * [Russian](languages/russian.md)
 
-## About Machine Translate
+---
+
+## Contributing
 
 * [Join the community](https://form.typeform.com/c/ndac7OIs)
 * [Edit or create](https://github.com/machinetranslate/machinetranslate.org)
-* [Style](about-machine-translate/style.md)
+* [Style](contributing/style.md)
 
