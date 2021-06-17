@@ -14,8 +14,8 @@ User-generated content is challenging for machine translation because it is open
 
 ## Content types
 
-* [Posts and comments](https://github.com/machinetranslate/machinetranslate.org/tree/415ba6e66b12dcd38178a7a4a36cf01cc08e18c2/applications/applications/social-networks.md)
-* [Live chat](https://github.com/machinetranslate/machinetranslate.org/tree/415ba6e66b12dcd38178a7a4a36cf01cc08e18c2/applications/applications/live-chat.md)
-* [Product titles, descriptions and reviews](https://github.com/machinetranslate/machinetranslate.org/tree/415ba6e66b12dcd38178a7a4a36cf01cc08e18c2/applications/applications/commerce-and-marketplaces.md)
-* [In-game content](https://github.com/machinetranslate/machinetranslate.org/tree/415ba6e66b12dcd38178a7a4a36cf01cc08e18c2/applications/applications/gaming.md)
+* [Posts and comments](/applications/social-networks.md)
+* [Live chat](/applications/live-chat.md)
+* [Product titles, descriptions and reviews](/applications/commerce-and-marketplaces.md)
+* [In-game content](/applications/gaming.md)
 
