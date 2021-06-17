@@ -3,7 +3,7 @@
 
 
 ## Applications
-* [Post-editing (Human translation)](applications/post-editing.md)
+* [Post-editing](applications/post-editing.md)
 
 
 ## Customization
