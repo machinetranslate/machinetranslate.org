@@ -20,3 +20,7 @@
 
 * [Companies](business/companies.md)
 
+## Contributing
+
+* [Style](contributing/style.md)
+
