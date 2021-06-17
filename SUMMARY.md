@@ -28,13 +28,15 @@
 
 * [Companies](business/companies.md)
 
-## Contributing
+## Languages
+
+* [Russian](languages/russian.md)
+
+
+## About Machine Translate
 
 * [Join the community](https://form.typeform.com/c/ndac7OIs)
 * [Edit or create](https://github.com/machinetranslate/machinetranslate.org)
 * [Style](contributing/style.md)
 
-## Languages
-
-* [Russian](languages/russian.md)
 
