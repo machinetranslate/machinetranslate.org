@@ -1,0 +1,23 @@
+---
+description: Human editing of machine translation output
+---
+
+# Post-editing
+
+Human **post-editing** is the review and correction of machine translation output. When post-editing, the human translator checks the original input and the machine translation output, and fixes errors in the output.
+
+Post-editing started to replace human translation because it is faster and cheaper than the traditional human translation process.
+
+With rising machine translation quality, it is becoming the dominant human translation workflow.
+
+### Flavors
+With **light post-editing**, the goal is that readers understand the idea of a text. Light post-editing provides the gist of a message. It is usually aimed at internal communications.
+
+With **full post-editing**, the goal is to match human quality. Full post-editing is suitable for publishable information.
+
+### Metrics
+**Post-editing distance** is a measure of how much the human translator post-edited the machine translation.
+
+**Post-editing effort** is an estimate of how much time the human translator spends post-editing a machine translation output.
+
+Post-editing metrics are used both for a specific translation and in aggregate - at the document, project or workflow level. They can be length-normalized and given as a percentage or score.
