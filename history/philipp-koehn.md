@@ -1,9 +1,17 @@
 ---
-description: German computer scientist who is one of the inventors of phrase-based machine translation
+description: Machine translation researcher
 ---
-Philipp Koehn is a German computer scientist who is one of the inventors of phrase-based machine translation method. 
-He created the platform Moses for developing Statistical machine translation system.
+# Philipp Koehn
+Philipp Koehn is a machine translation researcher and co-inventor of phrased-based machine translation.
 
-Philipp also led the research group that designed the Europarl corpus which contains the proceedings 
-of the European Parliament from 1996 to the present. The corpus is predominantly used for machine translation 
-system development purposes. 
+In 2003, while at the University of Southern California, he co-authored a paper on phrase-based statistical machine translation, 
+along with Franz Josef Och and Daniel Marcu.
+
+He is a professor at the University of Edinburgh and Johns Hopkins University, and Chief Scientist at Omniscien Technologies.
+
+His other contributions include:
+
+* the Moses machine translation system
+* the Europarl corpus
+
+
