@@ -1,1 +1,1 @@
-A French-Armenian engineer to receive a patent for a mechanical translator in the form of a paper tape in 1933. It was a general-purpose machine with many potential applications the main employment of which was a mechanical multilingual dictionary.  
+Georges Artsrouni was a French-Armenian engineer to receive a patent for a mechanical translator in the form of a paper tape in 1933. It was a general-purpose machine with many potential applications the main employment of which was a mechanical multilingual dictionary.  
