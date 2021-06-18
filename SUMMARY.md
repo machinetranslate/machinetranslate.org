@@ -1,6 +1,6 @@
 # Table of contents
 
-* [The open guide to machine translation](README.md)
+* [Machine Translate](README.md)
 
 ## Applications
 
