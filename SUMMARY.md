@@ -33,13 +33,14 @@
 
 * [Companies](business/companies.md)
 
+## People
+
+* [Georges Artsrouni](people/georges-artsrouni.md)
+
 ## Languages
 
 * [Russian](languages/russian.md)
 
-## People
-
-* [Georges Artsrouni](people/georges-artsrouni.md)
 
 ## Contributing
 
