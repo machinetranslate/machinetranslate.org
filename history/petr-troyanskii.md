@@ -1,0 +1,1 @@
+A Russian scholar to propose a scheme for an automatic bilingual dictionary and for coding interlingual grammatical rules based on Esperanto in 1933. The method suggested coding and interpreting grammatical functions using ‘universal’ symbols in a multilingual translation device.  
