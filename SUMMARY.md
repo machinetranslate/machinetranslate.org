@@ -32,6 +32,10 @@
 
 * [Russian](languages/russian.md)
 
+## History
+
+* [Georges Artsrouni](history/georges-artsrouni.md)
+
 ## Contributing
 
 * [Join the community](https://form.typeform.com/c/ndac7OIs)
