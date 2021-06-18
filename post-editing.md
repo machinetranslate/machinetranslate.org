@@ -1,10 +1,13 @@
-# Post-editing \(human translation\)
+---
+description: Workflow for human correction of machine translation
+---
+# Post-editing (human translation)
 
-Human **post-editing** is the review and correction of machine translation output. With the rise in machine translation quality, **human translation** often refers to a post-editing workflow.
+Human **post-editing** is the review and correction of machine translation output. With the rise in machine translation quality, **human translation** often refers to a post-editing workflow, rather than to pure human translation from scratch.
 
 When post-editing, the human translator checks the original input and the machine translation output, and fixes errors in the output.
 
-Post-editing started to replace pure human translation because it is faster and cheaper.
+Post-editing started to replace pure human translation in the 2000s because it is faster and cheaper, and became the standard for many content types in the 2010s.
 
 ## Flavors
 
