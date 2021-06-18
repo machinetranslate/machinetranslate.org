@@ -2,10 +2,15 @@
 
 * [Machine Translate](README.md)
 
+## Workflows
+
+---
+
+* [Post-editing \(human translation\)](post-editing.md)
+* [Hybrid translation](hybrid-translation.md)
+
 ## Applications
 
-* [Post-editing \(human translation\)](applications/post-editing.md)
-* [Hybrid translation](applications/hybrid-translation.md)
 * [Gaming](applications/gaming.md)
 * [Commerce and marketplaces](applications/commerce-and-marketplaces.md)
 * [Social networks](applications/social-networks.md)
