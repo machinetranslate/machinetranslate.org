@@ -32,9 +32,9 @@
 
 * [Russian](languages/russian.md)
 
-## History
+## People
 
-* [Georges Artsrouni](history/georges-artsrouni.md)
+* [Georges Artsrouni](people/georges-artsrouni.md)
 
 ## Contributing
 
