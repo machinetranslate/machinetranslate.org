@@ -1,11 +1,16 @@
 ---
-description: One of the pioneers of machine translation
+description: Early machine translation researcher
 ---
 # Warren Weaver
-Warren Weaver was an American scientist who designed several methods for developing Machine translation in 1949.
+Warren Weaver was a scientist and mathematician who designed methods for developing Machine translation.
 
-The methods included the use of wartime cryptography techniques, Shannon’s information theory, 
-statistical analysis and juxtaposition of logic and universal features of language.
+The methods included 
+* wartime cryptography techniques
+* Shannon’s information theory
+* statistical analysis
+* juxtaposition of logic and universal features of language.
 
-With this method, research in Machine translation was ignited and the first conference was convened. 
-The submitted papers leaned on controlled languages, construction of a sublanguage, as well as pre- and post-editing. 
+His work sparked more research in machine translation and the first conference.
+
+Weaver was the director of the Division of Natural Sciences at the Rockefeller Foundation.
+He was science consultant, trustee and later vice president at the Sloan-Kettering Institure for Cancer Research. 
