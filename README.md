@@ -1,9 +1,6 @@
 # The open guide to machine translation
 
-**Machine Translate** is the open guide to machine translation,
-from history to research to business.
-
----
+**Machine Translate** is the open guide to machine translation, from history to research to business.
 
 ## Community
 

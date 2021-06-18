@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Machine Translate](README.md)
+* [The open guide to machine translation](README.md)
 
 ## Applications
 
@@ -31,8 +31,6 @@
 ## Languages
 
 * [Russian](languages/russian.md)
-
----
 
 ## Contributing
 
