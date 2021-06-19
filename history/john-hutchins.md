@@ -2,11 +2,16 @@
 description: Linguist and early machine translation researcher
 ---
 # John Hutchins
-John Hutchins was a linguist and information scientist whose publications on Machine Translation 
-(particularly the book *An Introduction to Machine Translation* (1992)) are considered a comprehensive 
-guidebook on machine translation trajectory. 
+John Hutchins was a linguist and information scientist who researched machine translation.
 
-He served as editor of MT News International (1992-1997) and the Compendium of translation software (1992-2012).
+He studied at the University of Nottingham and the University of East Anglia.
+He worked at Durham University, the University of Sheffield and the University of East Anglia. 
 
-He was also the president of the European Association of Machine Translation (1995-2004) and the 
-International Association of Machine Translation (1999-2001). 
+In 1992 he published a history of machine translation, *An Introduction to Machine Translation*. 
+It was the most comprehensive guide to the history of machine translation for decades.
+
+He was the editor of *MT News International* from 1992 to 1997, and of *Compendium of translation software* from 1992 to 2012.
+
+He was the president of the [European Association of Machine Translation] (organizations/eamt.md) from 1995 to 2003, 
+and the [International Association of Machine Translation] (organizations/eamt.md) from 1999 to 2001.
+
