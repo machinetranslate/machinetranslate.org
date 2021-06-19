@@ -22,6 +22,13 @@ Default to American English orthography and to International English vocabulary
 
 Unlike Wikipedia, the goal is to provide a helpful overview that is easy to read in full and easy to maintain.
 
+Keep pages short, paragraphs short and sentences short and simple.
+
+Avoid parentheses, except for defining common abbreviations.
+
+> ... translation management system (TMS) ...
+
+
 ## No marketing
 
 Do not promote businesses and do not use cliché or meaningless terms
