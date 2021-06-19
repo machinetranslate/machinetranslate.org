@@ -36,6 +36,9 @@
 ## People
 
 * [Georges Artsrouni](people/georges-artsrouni.md)
+* [Warren Weaver](people/warren-weaver.md)
+* [John Hutchins](people/john-hutchins.md)
+* [Franz Josef Och](people/franz-josef-och.md)
 
 ## Languages
 
