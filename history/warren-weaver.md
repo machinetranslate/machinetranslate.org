@@ -2,13 +2,13 @@
 description: Early machine translation researcher
 ---
 # Warren Weaver
-Warren Weaver was a scientist and mathematician who designed methods for developing Machine translation.
+Warren Weaver was a scientist and mathematician who designed methods for machine translation.
 
-The methods included 
+The methods included: 
 * wartime cryptography techniques
 * Shannon’s information theory
 * statistical analysis
-* juxtaposition of logic and universal features of language.
+* juxtaposition of logic and universal features of language
 
 His work sparked more research in machine translation and the first conference.
 
