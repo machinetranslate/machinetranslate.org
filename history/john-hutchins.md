@@ -13,5 +13,5 @@ It was the most comprehensive guide to the history of machine translation for de
 He was the editor of *MT News International* from 1992 to 1997, and of *Compendium of translation software* from 1992 to 2012.
 
 He was the president of the [European Association of Machine Translation] (organizations/eamt.md) from 1995 to 2003, 
-and the [International Association of Machine Translation] (organizations/eamt.md) from 1999 to 2001.
+and the [International Association of Machine Translation] (organizations/iamt.md) from 1999 to 2001.
 
