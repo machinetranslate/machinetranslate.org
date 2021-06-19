@@ -4,10 +4,13 @@ description: Machine translation for SEO
 
 ### SEO
 
-Machine translation for **SEO** is the translation of website keywords.
+Machine translation for for **search engine optimization** (SEO) is the translation of website content into the languages in which users are searching.
 
-SEO translation is challenging because it is user-oriented and cultural-dependent.
-Since search engines can penalize automatically generated content, [post-editing](/applications/post-editing.md) is a good practice for SEO because it fixes translation errors, adapts content keywords to the target culture and improves user experience.
+Translations for search engine optimization is challenging for machine translation because the end goal is not just to convey the meaning, but to use the words that the users actually search for in the target language.
+
+Short input, like keywords and tags, and non-sentence input, like lists of keywords, are also a challenge for machine translation.
+
+Content can be purely machine-translated, [hybrid-translated](/applications/hybrid-translation.md) or human [post-edited](/applications/post-edition.md).
 
 ### Content types
 
@@ -16,7 +19,3 @@ Since search engines can penalize automatically generated content, [post-editing
 - Tags
 - Metadata
 - Descriptions
-
-### Goals
-
-Multilingual SEO in [commerce and marketplaces](/applications/commerce-and-marketplaces.md) leads to better search results and accesses international markets.

@@ -21,4 +21,4 @@ The translation of product titles and descriptions is handled by the platforms, 
 * Product titles
 * Product descriptions
 * Product reviews
-* Customer support [chat](/applications/live-chat/README.md) and email
+* Customer support [chat](/applications/live-chat.md) and email
