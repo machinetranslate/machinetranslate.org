@@ -17,11 +17,10 @@ In-game:
 * UI strings
 * On-screen text and images
 * Subtitles
-* [Live chat](https://github.com/machinetranslate/machinetranslate.org/tree/415ba6e66b12dcd38178a7a4a36cf01cc08e18c2/applications/applications/live-chat.md)
+* [Live chat](/applications/live-chat.md)
 
 Out-of-game:
 
 * Packaging and documents
 * Websites
 * Marketing
-
