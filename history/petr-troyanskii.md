@@ -9,7 +9,7 @@ or across multiple languages simultaneously.
 
 The method suggested coding and interpreting grammatical functions using universal symbols. 
 The interlingual grammatical rules were based on Esperanto. In the same years, 
-[Georges Artsrouni] (georges-artsrouni.md) independently filed a patent in Paris. 
+[Georges Artsrouni] (history/georges-artsrouni.md) independently filed a patent in Paris. 
 
 Troyanskii entered the University of St. Petersburg but did not finish it due to World War I. 
 Later he studied at the Institute of Red Professors. 
