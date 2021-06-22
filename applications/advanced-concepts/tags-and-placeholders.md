@@ -4,14 +4,35 @@ description: Tags and placeholders in machine translation
 
 # Tags and placeholders
 
-**Tags and placeholders** are pieces of non-translatable code. While tags format and structure texts, placeholders are variables for dynamic content.
+**Tags** and **placeholders** are pieces of non-translatable code inside the input text.
 
-## Challenges
 
-- The machine translation can misplace, corrupt or ignore tags and placeholders.
+## Tags
 
-In a phrase like "Susan's car", the genitive apostrophe can appear as a tag. When translated into Spanish, the appearance of the tag in the output introduces an error.
+Tags format, structure and annotate texts, and can also be used as placeholders. Tags are usually XML, for example HTML.
 
-- The machine translation output quality can be degraded when the final content replaces tags and placeholders.
+There are two approaches for working with tagged inputs:
 
-For example, placeholders can be replaced by a singular or plural value. Also, in gendered languages, a placeholder can stand for gendered words. These values are retrieved after the text has been translated.
+Tags can be kept in the training data and at run time. In this approach, the machine translation can misplace, corrupt or drop tags in the output.
+Tags can be removed from the training data and at run time, and then reinserted after translation. Tag reinsertion is challenging because it is inefficient and impacts on metrics.
+
+### Example
+
+Original in English: \<service\> account
+
+Expected translation: la cuenta de \<service\>
+
+Translation with misplaced tag: \<service\> cuenta
+
+## Placeholders
+
+Placeholders are variables for dynamic content.
+For machine translation, placeholders are challenging because their content can be ambiguous. They can also become corrupted in the output.
+
+### Example
+
+Original in English: There are {number} pages in the book.
+
+Expected translation: Hay {pages} páginas en el libro.
+
+Translation with corrupted placeholder: Hay { páginas } páginas en el libro.
