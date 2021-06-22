@@ -4,18 +4,14 @@ description: Tags and placeholders in machine translation
 
 # Tags and placeholders
 
-In-line **tags and placeholders** can negatively impact the machine translation quality when the engine cannot interpret what they are. In many cases, the machine translation treats these marks as delimiters or ordinary words, misplacing, corrupting or ignoring them.
+**Tags and placeholders** are pieces of non-translatable code. While tags format and structure texts, placeholders are variables for dynamic content.
 
-## Examples
+## Challenges
 
-### Tags
+- The machine translation can misplace, corrupt or ignore tags and placeholders.
 
-Tags format and structure texts.
+In a phrase like "Susan's car", the genitive apostrophe can appear as a tag. When translated into Spanish, the appearance of the tag in the output introduces an error.
 
-An example of a common issue is the treatment of the genitive apostrophe when it is coded as a tag. For instance, if the phrase "Susan's car" is translated into Spanish, the output will contain the apostrophe, which introduces an error.
+- The machine translation output quality can be degraded when the final content replaces tags and placeholders.
 
-### Placeholders
-
-Placeholders are variables for dynamic content.
-
-In gendered languages, sentences with placeholders need special attention at the time of translation because they may stand for gendered words, which modify the rest of the sentence.  
+For example, placeholders can be replaced by a singular or plural value. Also, in gendered languages, a placeholder can stand for gendered words. These values are retrieved after the text has been translated.
