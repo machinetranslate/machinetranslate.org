@@ -1,11 +1,20 @@
 ---
-description: Researcher and Professor of natural language processing
+description: Researcher and professor of natural language processing
 ---
 # Lucia Specia
-Lucia Specia is a researcher and Professor of natural language processing. 
-
+Lucia Specia is a researcher and professor of natural language processing. 
 In 2007, Specia received Ph.D. in computer science from the University of São Paulo. 
-Her main research interests and activities focus on machine translation, image captioning, quality estimation and text adaptation. 
+
+Her main research interests and activities focus on:
+* machine translation
+* image captioning
+* quality estimation
+* text adaptation
+
+Specia led early research on machine translation [quality estimation](/quality/quality-estimation.md) (QE). Her contribution to the matter includes: 
+* organising the QE task at WMT
+* publishing a book on QE
+* leading the research group that released a few early QE libraries
 
 In 2008, Specia joined Machine Learning for Document Access and Translation group at the Xerox Research Centre Europe as a research engineer. 
 
@@ -18,4 +27,4 @@ In 2020, she was invited as a part-time professor at Dublin City University.
 
 In 2019-2021, she acted as advisor for Facebook AI. 
 
-Specia has chaired a number of conferences in natural language processing, computational linguistics, and machine translation. 
+Specia has chaired a number of conferences in natural language processing, computational linguistics and machine translation. 
