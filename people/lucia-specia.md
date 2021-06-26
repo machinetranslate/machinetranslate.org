@@ -4,9 +4,9 @@ description: Researcher and professor of natural language processing
 # Lucia Specia
 Lucia Specia is a researcher and professor of natural language processing. 
 
-She led early research on machine translation [quality estimation](/quality/quality-estimation.md) (QE). 
+She led early research on machine translation [quality estimation](/quality/quality-estimation.md). 
 Her work on quality estimation includes:
-* organising the QE task at [WMT](/community/wmt.md)
+* organising the quality estimation task at [WMT](/community/wmt.md)
 * the book *Quality Estimation for Machine Translation*
 * leading the research group that created early quality libraries
 
@@ -26,6 +26,8 @@ In 2012, she started as senior lecturer in computer science and professor of lan
 
 In 2018, Specia joined Imperial College London as a professor of natural language processing. 
 
-In 2020, she was invited as a part-time professor at Dublin City University. 
-
 Starting in 2019, she advised Facebook AI Research on quality estimation.
+
+In 2020, Specia was invited as a part-time professor at Dublin City University.  
+
+
