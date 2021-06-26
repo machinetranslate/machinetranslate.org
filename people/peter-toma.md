@@ -2,7 +2,7 @@
 description: Developer of the first machine translation product
 ---
 # Peter Toma
-**Peter Toma** was a computer scientist and linguistics researcher. 
+**Peter Toma** was a computer scientist, linguistics researcher and entrepreneur.
 
 In 1956, Toma developed software for machine translation at the California Institute of Technology. 
 The system translated Russian texts into English. Later, he worked at Georgetown University on the 
@@ -15,5 +15,3 @@ In the mid-1960s, Toma programmed the [Systran](/business/companies.md#systran) 
 
 In 1968, he founded Latsec, which developed Systran for the United States Air Force.
 It was intended to translate large-scale scientific documents from Russian into English during the Cold War. 
-
-
