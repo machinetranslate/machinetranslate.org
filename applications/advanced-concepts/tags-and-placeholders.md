@@ -18,13 +18,18 @@ There are two approaches for working with tagged inputs:
 With either approach, tags may be misplaced, corrupted or dropped in the output.
 
 
-#### Example
+English original:
+`A <b>red</b> car`
 
-Original in English: \<service\> account
+Expected translation into Spanish:
+`Un auto <b>rojo</b>`
 
-Expected translation: la cuenta de \<service\>
+Translation into Spanish with misplaced tag:
+`Un <b>auto</b> rojo`
 
-Translation with misplaced tag: \<service\> cuenta
+Translation into Spanish with a corrupted tag:
+`Un auto b rojo b`
+
 
 ## Placeholders
 
@@ -32,10 +37,11 @@ Placeholders are variables for dynamic content.
 For machine translation, placeholders are challenging because their content can be ambiguous.
 Like tags, placeholders can also be misplaced, corrupted or dropped in the output.
 
-#### Example
+Original in English:
+`There are {number} pages in the book.`
 
-Original in English: There are {number} pages in the book.
+Expected translation into Spanish:
+`Hay {pages} páginas en el libro.`
 
-Expected translation: Hay {pages} páginas en el libro.
-
-Translation with corrupted placeholder: Hay { páginas } páginas en el libro.
+Translation into Spanish with corrupted placeholder:
+`Hay { páginas } páginas en el libro.`
