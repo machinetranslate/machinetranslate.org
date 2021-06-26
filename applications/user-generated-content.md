@@ -4,7 +4,7 @@ description: Machine translation for user-generated content
 
 # User-generated content
 
-Machine translation for **user-generated content** \(UGC\) is used mainly for **gisting**.
+Machine translation for **user-generated content** \(**UGC**\) is used mainly for **gisting**.
 
 ## Goals
 
@@ -18,4 +18,3 @@ User-generated content is challenging for machine translation because it is open
 * [Live chat](live-chat.md)
 * [Product titles, descriptions and reviews](commerce-and-marketplaces.md)
 * [In-game content](gaming.md)
-
