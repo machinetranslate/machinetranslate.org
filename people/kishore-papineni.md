@@ -2,7 +2,7 @@
 description: Research scientist and co-author of the BLEU metric
 ---
 # Kishore Papineni
-Kishore Papineni is a research scientist. In 2002, while at IBM, he co-authored the [BLEU](/metrics/bleu.md) metric 
+**Kishore Papineni** is a research scientist. In 2002, while at IBM, he co-authored the [BLEU](/metrics/bleu.md) metric 
 for automatic evaluation of machine translation output.  
 
 Papineni graduated from Rice University in 1995 with a Ph.D. in Electrical Engineering 

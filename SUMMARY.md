@@ -36,9 +36,15 @@
 ## People
 
 * [Georges Artsrouni](people/georges-artsrouni.md)
+* [Petr Troyanskii](people/petr-troyanskii.md)
 * [Warren Weaver](people/warren-weaver.md)
 * [John Hutchins](people/john-hutchins.md)
+* [Kishore Papineni](people/kishore-papineni.md)
 * [Franz Josef Och](people/franz-josef-och.md)
+* [Philipp Koehn](people/philipp-koehn.md)
+* [Peter Toma](people/peter-toma.md)
+* [Alon Lavie](people/alon-lavie.md)
+* [Lucia Specia](people/lucia-specia.md)
 
 ## Languages
 

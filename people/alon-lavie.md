@@ -1,5 +1,5 @@
 ---
-description: Machine translation researcher and entrepreneur
+description: Machine translation researcher, entrepreneur and engineering director
 ---
 # Alon Lavie
 **Alon Lavie** is a machine translation researcher and entrepeneur.
