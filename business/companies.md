@@ -87,6 +87,10 @@ Acquired for its WordLens app by Google Translate in 2014
 
 Acquired by SDL/RWS for $42.5M in 2010
 
+## 1999
+### Translated
+Raised $30M from Ardian and others
+
 ## 1991
 
 ### Tilde
