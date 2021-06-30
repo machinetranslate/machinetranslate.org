@@ -22,6 +22,9 @@ $5.5M from Gutbrain, PBJ, Omega and angels
 
 ## 2016
 
+### Kites
+Acquired by Zoom in 2021
+
 ### Intento
 
 $4M from Berkeley Skydeck and angels
@@ -72,7 +75,7 @@ Acquired by Amazon to create Amazon Translate in 2015
 
 ### Quest Visual
 
-Acquired by Google Translate in 2014
+Acquired for its WordLens app by Google Translate in 2014
 
 ## 2006
 
