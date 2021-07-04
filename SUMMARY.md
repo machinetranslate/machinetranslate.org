@@ -16,6 +16,12 @@
 * [Social networks](applications/social-networks.md)
 * [Live chat](applications/live-chat.md)
 * [User-generated content](applications/user-generated-content.md)
+* [Translation for SEO](applications/seo.md)
+* [Multilingual search](applications/multilingual-search.md)
+* [Translation and localization](applications/translation-and-localization.md)
+
+## Applications - Advanced
+* [Tags and placeholders](applications/advanced-concepts/tags-and-placeholders.md)
 
 ## Customization
 
