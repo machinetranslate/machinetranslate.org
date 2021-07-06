@@ -22,6 +22,7 @@
 
 ## Applications - Advanced
 * [Tags and placeholders](applications/advanced-concepts/tags-and-placeholders.md)
+* [Arbitrage](applications/advanced-concepts/arbitrage.md)
 
 ## Customization
 
@@ -62,4 +63,3 @@
 * [Join the community](https://form.typeform.com/c/ndac7OIs)
 * [Edit or create](https://github.com/machinetranslate/machinetranslate.org)
 * [Style](contributing/style.md)
-
