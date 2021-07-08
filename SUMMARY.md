@@ -39,6 +39,7 @@
 ## Business
 
 * [Companies](business/companies.md)
+* [Data confidentiality](business/data-confidentiality.md)
 
 ## People
 
