@@ -29,6 +29,7 @@
 * [Training data](customization/training-data.md)
 * [Glossaries](customization/glossaries.md)
 * [Filtering](customization/filtering.md)
+* [Parallel data](customization/parallel-data.md)
 
 ## Research
 
@@ -40,6 +41,7 @@
 
 * [Companies](business/companies.md)
 * [Data confidentiality](business/data-confidentiality.md)
+* [Products](business/products.md)
 
 ## People
 
