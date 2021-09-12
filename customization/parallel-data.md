@@ -4,7 +4,15 @@ description: Parallel data for machine translation
 
 # Parallel data
 
-**Parallel data** is a collection of sentences and their corresponding translation. Parallel data is aligned line-by-line. In machine translation, parallel data is also called parallel corpora.
+**Parallel data** or **parallel corpora** are datasets of **translation pairs** - sentences and their translations. They are used to train and test machine translation models.
+
+| Original | Translation |
+| ----------- | ----------- |
+| File | Archivo |
+
+Parallel datasets can include translations for one or more language pairs, and be directioned or directionless.
+
+Parallel data can be created by crawling and aligned monolingual test, and by [back-translation](customization/back-translation.md) or [back-copying](customization/back-translation.md).
 
 ### Goals
 

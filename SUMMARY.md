@@ -22,7 +22,7 @@
 
 ## Applications - Advanced
 * [Tags and placeholders](applications/advanced-concepts/tags-and-placeholders.md)
-* [Arbitrage](applications/advanced-concepts/arbitrage.md)
+* [Multi-engine machine translation](applications/advanced-concepts/multi-engine-machine-translation.md)
 
 ## Customization
 
