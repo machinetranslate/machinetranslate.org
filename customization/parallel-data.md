@@ -16,16 +16,28 @@ Parallel data can be created by crawling and aligned monolingual test, and by [b
 
 ### Goals
 
-Parallel data is necessary to train statistical and neural machine translation engines.
+Parallel data is used to train statistical and neural machine translation engines.
 
 ### Challenges
 
-Parallel data is available in most widely spoken languages, but not available in other language pairs.
+Parallel data is available for most widely written language pairs, but not available for other language pairs.
 
 Parallel data can have errors, like misaligned sentences, bad sentence segmentation, bad encodings, wrong or mixed language. Errors in parallel data are challenging because they affect the quality of the machine translation output. Parallel data errors can be solved via [filtering](customization/filtering.md).
 
-### Public parallel data repositories
+### Public parallel data
 
-- Clarin
-- OPUS
-- ParaCrawl
+| Name | Type |
+| ---- | ---- |
+| CCAligned | Data repository |
+| CCMatrix | Data repository |
+| Clarin | Data repository |
+| Europarl | Data set |
+| FLORES | Data set |
+| Hansard | Data set |
+| JESC | Data set |
+| Mozilla | Data repository |
+| OpenSubtitles | Data repository |
+| ParaCrawl | Data repository |
+| VoxPopuli | Data set |
+| WikiMatrix | Data repository |
+| WikiTitles | Data repository |

@@ -6,11 +6,17 @@ description: Data confidentiality in machine translation
 
 **Data confidentiality** terms or policies govern how machine translation providers use client data.
 
-Machine translation providers use client data to train and improve their translation systems. Machine translation clients require data confidentiality for:
+Machine translation providers use client data to train and improve their translation systems. Confidential data for machine translation include:
 
-- Compliance with regulations and standards like HIPAA and GDPR
-- Compliance with security reviews
-- Competitiveness
+- Client consumer user data
+- Client business transaction data
+- Client business data
+
+Data confidentiality terms or policies ensure that machine translation providers comply with:
+
+- Contracts
+- Laws, regulation, and standards, like HIPAA or GDPR
+- Security reviews
 
 ### Data types
 

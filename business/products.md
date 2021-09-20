@@ -17,7 +17,7 @@ They vary by:
 and other features, as well as underlying architecture.
 
 
-The alternative of using a machine translation provider is that the service is already working and can be integrated immediately. The alternative is to train a model from scratch or to use a pre-trained model, and deploy and maintain a machine translation system.
+An advantage of using a machine translation provider is that the service is already working and can be integrated immediately. An alternative to using a machine translation provider is to train a model from scratch or to use a pre-trained model, and deploy and maintain a machine translation system.
 
 Unlike raw models, production machine translation systems usually provide language identification and sentence segmentation.
 
