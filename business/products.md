@@ -45,6 +45,7 @@ Providers offer machine translation services via a platform, an API or both. Som
 | TextShuttle | TextShuttle AI Translation |
 | Globalese | Globalese |
 | RWS Group | Language Weaver (Iconic) |
+| Mirai Translate | Mirai Translator |
 
 ### Self-serve machine translation
 
@@ -60,3 +61,4 @@ Providers offer machine translation services via a platform, an API or both. Som
 - Alibaba Machine Translation
 - Systran
 - RWS Language Weaver (Iconic)
+- Mirai Translator
