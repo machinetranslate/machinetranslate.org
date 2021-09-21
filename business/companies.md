@@ -4,70 +4,108 @@ description: 'Foundings, investments and acquisitions in the machine translation
 
 # Companies
 
-The history of machine translation companies begins in the defence sector.  Other players, from technology giants to translation agencies to the European Union, increasingly build their own machine translation.  Since the advent of statistical machine translation and neural machine translation, there are more and more growth companies backed by venture capital.
+The history of machine translation companies begins in the defence and intelligence sector.
 
-**ModelFront**  
-2019
+Other players, from technology giants to translation agencies to the European Union, increasingly build their own machine translation.
 
-**Language I/O**  
-2017   
+Since the advent of statistical machine translation and neural machine translation, there are growth companies backed by venture capital.
+
+## 2019
+
+### ModelFront
+
+## 2017
+
+### Language I/O
+
 $5.5M from Gutbrain, PBJ, Omega and angels
 
-**Intento**  
-2016  
+## 2016
+
+### Kites
+Acquired by Zoom in 2021
+
+### Intento
+
 $4M from Berkeley Skydeck and angels
 
-**Lingvanex**  
-2016
+### Lingvanex
 
-**Lilt**  
-2015  
+## 2015
+
+### Lilt
+
 $37.5M from Sequoia, Redpoint, XSeed, Zetta and In-Q-Tel
 
-**Lexy**  
-2015  
+### Lexy
+
 Raised from Slow Ventures and dissolved
 
-**Lengoo**  
-2014  
+## 2014
+
+### Lengoo
+
 $26.6M from INKEF, Redalpine, Polipo, Techstars, Creathor, Piton and angels
 
-**Unbabel**  
-2013  
+## 2013
+
+### Unbabel
+
 $91.2M from Caixa, Samsung, Scale, Notion, Faber, Greycroft, Structure, M12 and Headline
 
-**Iconic Translation Machines**  
-2013  
+### Iconic Translation Machines
+
 Acquired by SDL/RWS for $20M in 2020
 
-**KantanMT**  
-2011  
+## 2011
+
+### KantanMT
+
 Acquired by Keyword for €7M in 2019
 
-**DeepL**  
-2009  
+## 2009
+
+### DeepL
+
 Raised from Benchmark and btov
 
-**Safaba**  
-2009  
+### Safaba
+
 Acquired by Amazon to create Amazon Translate in 2015
 
-**Quest Visual**  
-2009  
-Acquired by Google Translate in 2014
+### Quest Visual
 
-**Omniscien Technologies**  
-2006  
+Acquired for its WordLens app by Google Translate in 2014
 
-**LanguageWeaver**  
-2002  
+## 2006
+
+### Omniscien Technologies
+
+## 2002
+
+### LanguageWeaver
+
 Acquired by SDL/RWS for $42.5M in 2010
 
-**AppTek**  
-1990  
+## 1999
+### Translated
+Raised $30M from Ardian and others
+
+## 1991
+
+### Tilde
+
+Granted €98.8K by the European Union
+
+## 1990
+
+### AppTek
+
 Raised from SOS International
 
-**SYSTRAN**  
-1968  
+## 1968
+
+### SYSTRAN
+
 Owned by STIC and Softbank
 
