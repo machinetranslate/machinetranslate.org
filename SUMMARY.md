@@ -16,12 +16,20 @@
 * [Social networks](applications/social-networks.md)
 * [Live chat](applications/live-chat.md)
 * [User-generated content](applications/user-generated-content.md)
+* [Translation for SEO](applications/seo.md)
+* [Multilingual search](applications/multilingual-search.md)
+* [Translation and localization](applications/translation-and-localization.md)
+
+## Applications - Advanced
+* [Tags and placeholders](applications/advanced-concepts/tags-and-placeholders.md)
+* [Multi-engine machine translation](applications/advanced-concepts/multi-engine-machine-translation.md)
 
 ## Customization
 
 * [Training data](customization/training-data.md)
 * [Glossaries](customization/glossaries.md)
 * [Filtering](customization/filtering.md)
+* [Parallel data](customization/parallel-data.md)
 
 ## Research
 
@@ -32,6 +40,8 @@
 ## Business
 
 * [Companies](business/companies.md)
+* [Data confidentiality](business/data-confidentiality.md)
+* [Products](business/products.md)
 
 ## People
 
@@ -56,4 +66,3 @@
 * [Join the community](https://form.typeform.com/c/ndac7OIs)
 * [Edit or create](https://github.com/machinetranslate/machinetranslate.org)
 * [Style](contributing/style.md)
-
