@@ -6,7 +6,7 @@ description: Rule-based machine translation
 
 **Rule-based machine translation** is a machine translation approach based on the linguistic information of the source and target languages.
 
-A rule-based machine translation engine needs:
+### Requirements:
 
 - Monolingual and bilingual dictionaries to map input words to output words
 - Rules that represent the input language structure
