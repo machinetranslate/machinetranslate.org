@@ -9,6 +9,10 @@
 * [Post-editing \(human translation\)](post-editing.md)
 * [Hybrid translation](hybrid-translation.md)
 
+## General
+
+* [Rule-based machine translation](general/rule-based.md)
+
 ## Applications
 
 * [Gaming](applications/gaming.md)
@@ -26,6 +30,7 @@
 
 ## Customization
 
+* [Adaptive machine translation](customization/adaptive.md)
 * [Training data](customization/training-data.md)
 * [Glossaries](customization/glossaries.md)
 * [Filtering](customization/filtering.md)
