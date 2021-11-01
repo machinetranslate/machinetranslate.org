@@ -13,6 +13,7 @@ Adaptive machine translation is an example of online machine learning and human-
 ### Companies
 
 In 2019, ModernMT launched adaptive machine translation.
+
 In 2020, Amazon Translate launched Active Custom Translation, an adaptive machine translation feature.
 
 
