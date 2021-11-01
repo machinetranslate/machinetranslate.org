@@ -4,16 +4,23 @@ description: Adaptive machine translation
 
 # Adaptive machine translation
 
-**Adaptive machine translation** is a machine translation system that learns from human feedback and adapts its output on the fly. This paradigm is focused in the [post-editing](post-editing.md) phase.
+An **adaptive machine translation** system learns from human feedback and adapts its output on the fly. Adaptive machine translation is applicable to [post-editing](post-editing.md) workflows.
 
-Adaptive machine translation requires two language models: a static model and a dynamic model. The static model helps to generate translations as close to human translations as possible. The dynamic model is updated with the newly-learned fragments.
-When translating, the system gives more weight to the dynamic model.
+In adaptive machine translation, the system is customized while the human post-editor fixes the machine translation output, instead of after batch retraining.
+
+Adaptive machine translation is an example of online machine learning and human-in-the-loop (HITL).
+
+### Companies
+
+In 2019, ModernMT launched adaptive machine translation.
+In 2020, Amazon Translate launched Active Custom Translation, an adaptive machine translation feature.
+
 
 ### Workflow
 
 1. The engine generates a machine translated output.
 
-2. The output is fixed.
+2. The output is fixed or approved.
 
 3. The engine learns from the correction.
 
