@@ -65,6 +65,9 @@
 
 * [Russian](languages/russian.md)
 
+## Events
+* [WMT21](events/wmt21.md)
+
 
 ## Contributing
 
