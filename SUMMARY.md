@@ -83,7 +83,8 @@
 * [Style](contributing/style.md)
 
 ---
-## On other platforms
+## Contact
+* [Email](mailto:contact@machinetranslate.org)
 * [GitHub](https://github.com/machinetranslate)
 * [Twitter](https://twitter.com/machtranslate)
 * [LinkedIn](https://linkedin.com/company/machinetranslate)
