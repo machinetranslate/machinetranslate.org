@@ -27,27 +27,27 @@ The [Machine Translation Summit](/events/mtsummit) (MT Summit) is held by the re
 The current executive commitee will serve through MT Summit 2023.
 
 ### President
-Eiichiro Sumita, National Institute of Information and Communications Technology, Japan (AAMT). 
+Eiichiro Sumita, National Institute of Information and Communications Technology, Japan (AAMT)  
 eiichiro.sumitan@ict.go.jp
 
 ### Vice-president
-Helena Moniz, University of Lisbon (FLUL), INESC-ID, Portugal (EAMT). 
+Helena Moniz, University of Lisbon (FLUL), INESC-ID, Portugal (EAMT)  
 helena.moniz@campus.ul.pt
 
 ### Secretary
-Natalia Levitina, PTC (AMTA). 
+Natalia Levitina, PTC (AMTA)  
 nlevitina@ptc.com
 
 ### Treasurer
-Jen Doyon, MITRE Corp, USA (AMTA). 
+Jen Doyon, MITRE Corp, USA (AMTA)  
 doyon@mitre.org
 
 ### Member at large #1
-Carolina Scarton, University of Sheffield, UK (EAMT). 
+Carolina Scarton, University of Sheffield, UK (EAMT)  
 carol.scarton@gmail.com
 
 ### Member at large #2
-Sadao Kurohashi, Kyoto University, Japan (AAMT). 
+Sadao Kurohashi, Kyoto University, Japan (AAMT)  
 kuro@i.kyoto-u.ac.jp
 
 ## Bylaws
