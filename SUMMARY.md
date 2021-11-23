@@ -4,9 +4,7 @@
 
 ## Workflows
 
----
-
-* [Post-editing \(human translation\)](post-editing.md)
+* [Post-editing (human translation)](post-editing.md)
 * [Hybrid translation](hybrid-translation.md)
 
 ## General
@@ -25,6 +23,7 @@
 * [Translation and localization](applications/translation-and-localization.md)
 
 ## Applications - Advanced
+
 * [Tags and placeholders](applications/advanced-concepts/tags-and-placeholders.md)
 * [Multi-engine machine translation](applications/advanced-concepts/multi-engine-machine-translation.md)
 
@@ -65,18 +64,17 @@
 
 * [Russian](languages/russian.md)
 
-
 ## Organizations
-* [IAMT](/iamt.md)
-* [EAMT](/iamt.md)
-* [AATA](/iamt.md)
-* [AMTA](/amta.md)
 
+* [IAMT](iamt.md)
+*
+*
+* [AMTA](organizations/amta.md)
 
 ## Events
-* [MT Summit](events/mtsummit.md)
-* [WMT21](events/wmt21.md)
 
+* [MT Summit](events/mt-summit.md)
+* [WMT21](events/wmt21.md)
 
 ## Contributing
 
