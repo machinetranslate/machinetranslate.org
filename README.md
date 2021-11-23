@@ -20,13 +20,13 @@ This guide is open-source. You can contribute to the content.
 
 ## Supporters
 
-The open guide to machine translation is supported by [**ModelFront**](https://modelfront.com).
+The open guide to machine translation is supported by [**ModelFront**](https://modelfront.com) and people like you.
 
 > Want to support Machine Translate?
 
 Shoot us an email at [contact@machinetranslate.org](mailto:contact@machinetranslate.org)
 
----
+## Follow along
 
-Follow Machine Translate on [**Twitter**](https://twitter.com/machtranslate), [**LinkedIn**](https://linkedin.com/company/machinetranslate) or [**Facebook**](https://facebook.com/machinetranslate)
+Follow Machine Translate on [**GitHub**](https://github.com/machinetranslate), [**Twitter**](https://twitter.com/machtranslate), [**LinkedIn**](https://linkedin.com/company/machinetranslate) or [**Facebook**](https://facebook.com/machinetranslate)
 
