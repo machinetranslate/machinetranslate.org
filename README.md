@@ -28,5 +28,5 @@ Shoot us an email at [contact@machinetranslate.org](mailto:contact@machinetransl
 
 ## Follow along
 
-Follow Machine Translate on [**GitHub**](https://github.com/machinetranslate), [**Twitter**](https://twitter.com/machtranslate), [**LinkedIn**](https://linkedin.com/company/machinetranslate) or [**Facebook**](https://facebook.com/machinetranslate)
+Follow Machine Translate on [GitHub](https://github.com/machinetranslate), [Twitter](https://twitter.com/machtranslate), [LinkedIn](https://linkedin.com/company/machinetranslate) or [Facebook](https://facebook.com/machinetranslate)
 
