@@ -3,7 +3,7 @@ title: IAMT
 description: International Association for Machine Translation
 ---
 
-The International Associaton for Machine Translation was founded in 1992.
+The International Association for Machine Translation was founded in 1992.
 
 The mission of IAMT is:
 > Bring together users, developers and researchers of automated translation technology.
@@ -22,39 +22,37 @@ The [Machine Translation Summit](/events/mtsummit) (MT Summit) is held by the re
 [EAMT](/eamt) - European Association for Machine Translation
 
 
-## IAMT Executive Committee
+## Executive Committee
 
 The current executive commitee will serve through MT Summit 2023.
 
 ### President
-Eiichiro Sumita, National Institute of Information and Communications Technology, Japan (AAMT)
+Eiichiro Sumita, National Institute of Information and Communications Technology, Japan (AAMT). 
 eiichiro.sumitan@ict.go.jp
 
 ### Vice-president
-Helena Moniz, University of Lisbon (FLUL), INESC-ID, Portugal
-
+Helena Moniz, University of Lisbon (FLUL), INESC-ID, Portugal (EAMT). 
 helena.moniz@campus.ul.pt
 
 ### Secretary
-Natalia Levitina, PTC (AMTA)
-
+Natalia Levitina, PTC (AMTA). 
 nlevitina@ptc.com
 
 ### Treasurer
-Jen Doyon, MITRE Corp, USA (AMTA)
-
+Jen Doyon, MITRE Corp, USA (AMTA). 
 doyon@mitre.org
 
 ### Member at large #1
-Carolina Scarton, University of Sheffield, UK (EAMT)
+Carolina Scarton, University of Sheffield, UK (EAMT). 
 carol.scarton@gmail.com
 
 ### Member at large #2
-Sadao Kurohashi, Kyoto University, Japan (AAMT)
+Sadao Kurohashi, Kyoto University, Japan (AAMT). 
 kuro@i.kyoto-u.ac.jp
 
-## Bylaws of the International Association for Machine Translation Inc. (IAMT)
-Ratified by the General Assembly of the IAMT in Dublin on August 23, 2019
+## Bylaws
+
+The bylaws of IAMT were ratified by the General Assembly of the IAMT in Dublin in 2019.
 
 ### ARTICLE 1. NAME AND GENERAL STRUCTURE
 The name of this nonprofit association, a corporation organized and existing under the laws of the District of Columbia, United States of America, shall be International Association for Machine Translation, Inc. (IAMT). Provision is made herein for the establishment of three regional divisions within IAMT.
