@@ -26,3 +26,7 @@ The open guide to machine translation is supported by [**ModelFront**](https://m
 
 Shoot us an email at [contact@machinetranslate.org](mailto:contact@machinetranslate.org)
 
+---
+
+Follow Machine Translate on [**Twitter**](https://twitter.com/machtranslate), [**LinkedIn**](https://linkedin.com/company/machinetranslate) or [**Facebook**](https://facebook.com/machinetranslate)
+
