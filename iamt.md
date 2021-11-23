@@ -54,27 +54,27 @@ kuro@i.kyoto-u.ac.jp
 
 The bylaws of IAMT were ratified by the General Assembly of the IAMT in Dublin in 2019.
 
-### ARTICLE 1. NAME AND GENERAL STRUCTURE
+### Article 1. Name and General Structure
 
 The name of this nonprofit association, a corporation organized and existing under the laws of the District of Columbia, United States of America, shall be International Association for Machine Translation, Inc. (IAMT). Provision is made herein for the establishment of three regional divisions within IAMT.
 
-### ARTICLE 2. PURPOSES
+### Article 2. Purposes
 
 The purposes of the International Association for Machine Translation, Inc., shall be exclusively nonprofit, scientific, and educational. It shall bring together users, developers, researchers, sponsors, and other individuals or institutional or corporate entities interested in machine translation for the purpose of studying, evaluating, and understanding the science of machine translation and educating the public on important scientific techniques and principles of machine translation. It shall also be responsible to organize and hold a biannual MT Summit conference in odd years.
 
-### ARTICLE 3. MEMBERSHIP
+### Article 3. Membership
 
 Membership in a regional association automatically confers membership in IAMT. All matters relating to membership shall be decided by the regional divisions through their duly constituted associations, but each regional association should endeavour to make the benefits of membership (e.g., discounted conference rates) available to the members of the other regional associations.
 
-### ARTICLE 4. REGIONAL DIVISIONS
+### Article 4. Regional Divisions
 
 IAMT shall have three regional divisions, as follows: the Asia-Pacific Region, the Americas Region, and the European Region. Each region shall have its own association, and it is hereby established that the regional associations shall be an integral part of IAMT.
 
-### ARTICLE 5. ORGANS
+### Article 5. Organs
 
 The organs of IAMT shall be the General Assembly and the Executive Committee, which carries out the business of IAMT.
 
-### ARTICLE 6. GENERAL ASSEMBLY
+### Article 6. General Assembly
 
 #### Section 1. Sessions
 The General Assembly shall hold a regular session once every two years at the time of the biennial “MT Summit” conference, the site of which shall rotate regularly between the three regions of IAMT. Special sessions of the General Assembly may be convened by decision of the Executive Committee or by a written petition signed by ten (10) members of one of the regional associations and submitted through that association, or five (5) members each of two of the three regional associations and so submitted. Notice of any regular or special session of the Assembly, together with a provisional agenda, shall be published through the regional associations to all their members at least sixty (60) days in advance, the date and place having been fixed by the Executive Committee.
@@ -88,7 +88,7 @@ The General Assembly is entitled to deliberate validly regardless of the number 
 #### Section 4. Voting and Proxy
 Decisions of the General Assembly shall require a two-thirds majority vote of members either present or represented by proxies bearing written powers.
 
-### ARTICLE 7. EXECUTIVE COMMITTEE
+### Article 7. Executive Committee
 
 #### Section 1. Composition
 Each of the regional associations shall appoint two members to the Executive Committee. The Committee shall consist of 6 members, as follows: the President, the Vice-President, the Secretary, the Treasurer, and two at-large members. All six members shall have voting rights regarding the decisions of the Committee.
@@ -123,7 +123,8 @@ The affirmative vote of the majority of such quorum, or of the number of members
 
 Section 8. Voting by Mail or Email. Any action may be taken by the Executive Committee by mail or email ballot, provided that such action by the Executive Committee is approved in writing by two thirds of the members of the Executive Committee. The written record of such action shall be kept on file by the Secretary.
 
-### ARTICLE 8. DUTIES AND RESPONSIBILITIES OF THE OFFICERS
+### Article 8. Duties and Responsibilities of the Officers
+
 #### Section 1. General
 The officers shall carry out those duties prescribed by law, the Articles of Incorporation, these Bylaws, the General Assembly, and the majority decision of the Executive Committee.
 
@@ -154,11 +155,11 @@ f. Prepare the annual financial report and present it to the Executive Committee
 g. Perform such other duties as may be assigned by the President or the Executive Committee.
 Section 6. Compensation. No compensation shall be paid to officers or other members of the Executive Committee for their duties related to these positions.
 
-### ARTICLE 9. PARLIAMENTARY PROCEDURE
+### Article 9. Parliamentary Procedure
 
 The rules contained in Robert’s Rules of Order Newly Revised shall govern IAMT proceedings in all cases to which they are applicable and in which they are not inconsistent with the Articles of Incorporation, these Bylaws, and any standing or special rules of order adopted by IAMT.
 
-### ARTICLE 10. AMENDMENTS
+### Article 10. Amendments
 
 #### Section 1. Submission and Approval of Proposed Amendments
 Amendments to the Articles of Incorporation or to these Bylaws may be proposed by a member of the Executive Committee or by a written petition signed by ten (10) members of one of the three regional associations and submitted through that association, or five (5) members each of two of the three regional associations and so submitted. Such amendments shall require the unanimous approval of the Executive Committee.
@@ -166,6 +167,6 @@ Amendments to the Articles of Incorporation or to these Bylaws may be proposed b
 #### Section 2. Effect
 Amendments that have been duly approved shall become effective as of the date they are approved. They shall be published on the IAMT webpage and reported to the next General Assembly.
 
-### ARTICLE 11. IAMT Award of Honor
+### Article 11. IAMT Award of Honor
 The Executive Committee of IAMT shall confer an award on the occasion of its biennial “MT Summit” conference to the individual member who in its opinion has made an outstanding contribution to the promotion and development of machine translation and/or to the aims and objectives of IAMT as defined in Article 2 of the association’s Bylaws. Nominations for the award may be made to the Executive Committee by any member of the IAMT Award of Honor Nomination Committee, comprising one member appointed by each of the three regional associations, not less than six months before the next “MT Summit” conference. The name of the award shall be the “IAMT Award of Honor”.
 
