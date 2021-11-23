@@ -81,3 +81,10 @@
 * [Join the community](https://form.typeform.com/c/ndac7OIs)
 * [Edit or create](https://github.com/machinetranslate/machinetranslate.org)
 * [Style](contributing/style.md)
+
+---
+## On other platforms
+* [GitHub](https://github.com/machinetranslate)
+* [Twitter](https://twitter.com/machtranslate)
+* [LinkedIn](https://linkedin.com/company/machinetranslate)
+* [Facebook](https://facebook.com/machinetranslate)
