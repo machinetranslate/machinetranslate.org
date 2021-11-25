@@ -41,7 +41,7 @@ Original in English:
 `There are {number} pages in the book.`
 
 Expected translation into Spanish:  
-`Hay {pages} páginas en el libro.`
+`Hay {number} páginas en el libro.`
 
 Translation into Spanish with corrupted placeholder:  
 `Hay { páginas } páginas en el libro.`
