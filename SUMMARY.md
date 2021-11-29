@@ -2,10 +2,7 @@
 
 * [Machine Translate](README.md)
 
-## Workflows
 
-* [Post-editing (human translation)](post-editing.md)
-* [Hybrid translation](hybrid-translation.md)
 
 ## General
 
@@ -47,6 +44,15 @@
 * [Data confidentiality](business/data-confidentiality.md)
 * [Products](business/products.md)
 
+## Quality
+
+* [Quality estimation](quality/quality-estimation.md) 
+
+## Workflows
+
+* [Post-editing (human translation)](workflows/post-editing.md)
+* [Hybrid translation](workflows/hybrid-translation.md)
+
 ## People
 
 * [Georges Artsrouni](people/georges-artsrouni.md)
@@ -66,9 +72,7 @@
 
 ## Organizations
 
-* [IAMT](iamt.md)
-*
-*
+* [IAMT](organizations/iamt.md)
 * [AMTA](organizations/amta.md)
 
 ## Events
