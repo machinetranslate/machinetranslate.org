@@ -8,17 +8,24 @@ description: Quality estimation for machine translation
 
 English original:
 `July 30th, 2021`
+
 Translation into French:
 `30 juillet 2021`
+
 Quality estimation:
 `Good`
 
+
+
 English original:
 `This is my home.`
+
 Translation into Spanish:
 `Este es mi inicio.`
+
 Quality estimation:
 `Bad`
+
 
 Evaluation metrics like BLEU or post-editing distance require human reference translations, but there are no human reference translations for new content.
 
