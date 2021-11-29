@@ -6,25 +6,10 @@ description: Quality estimation for machine translation
 
 **Quality estimation** \(**QE**\) is a method for automatically assessing the quality of the machine translation output without human intervention. QE scores are independent from the expected translation output.
 
-English original:
-`July 30th, 2021`
-
-Translation into French:
-`30 juillet 2021`
-
-Quality estimation:
-`Good`
-
-
-
-English original:
-`This is my home.`
-
-Translation into Spanish:
-`Este es mi inicio.`
-
-Quality estimation:
-`Bad`
+| Original | Translation | Quality estimation |
+| --- | --- | --- |
+| `July 30th, 2021` | `30 juillet 2021` | `Good` |
+| `This is my home.` | `Este es mi inicio.` | `Bad` |
 
 
 Evaluation metrics like BLEU or post-editing distance require human reference translations, but there are no human reference translations for new content.
