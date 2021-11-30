@@ -2,8 +2,6 @@
 
 * [Machine Translate](README.md)
 
-
-
 ## General
 
 * [Rule-based machine translation](general/rule-based.md)
@@ -46,7 +44,7 @@
 
 ## Quality
 
-* [Quality estimation](quality/quality-estimation.md) 
+* [Quality estimation](quality/quality-estimation.md)
 
 ## Workflows
 
@@ -86,8 +84,8 @@
 * [Edit or create](https://github.com/machinetranslate/machinetranslate.org)
 * [Style](contributing/style.md)
 
----
 ## Contact
+
 * [Email](mailto:contact@machinetranslate.org)
 * [GitHub](https://github.com/machinetranslate)
 * [Twitter](https://twitter.com/machtranslate)
