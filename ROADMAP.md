@@ -37,6 +37,8 @@
 
 ### Advanced concepts - Research
 
+- Language models
+- n-grams
 - [Crawling](https://github.com/machinetranslate/machinetranslate.org/issues/72)
 - [Transformers](https://github.com/machinetranslate/machinetranslate.org/issues/73)
 - [Tokenization](https://github.com/machinetranslate/machinetranslate.org/issues/73)
