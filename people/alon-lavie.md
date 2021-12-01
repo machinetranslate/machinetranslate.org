@@ -18,6 +18,6 @@ Translation in the Americas. He was also a member of the Association for Computa
 In 2004, Lavie and Michael Denkowski published [METEOR](/metrics/meteor.md), an automatic metric
 for the evaluation of machine translation output.
 
-In 2009, he co-founded [Safaba](/business/companies#safaba). In 2015, it was acquired by Amazon, and became Amazon Translate.
+In 2009, he co-founded [Safaba](/business/companies.md#safaba). In 2015, it was acquired by Amazon, and became Amazon Translate.
 
 In 2019, Lavie joined Unbabel as Head of AI.
