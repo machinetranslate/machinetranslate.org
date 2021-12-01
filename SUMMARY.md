@@ -5,6 +5,7 @@
 ## General
 
 * [Rule-based machine translation](general/rule-based.md)
+* [Statistical machine translation](general/statistical.md)
 
 ## Applications
 

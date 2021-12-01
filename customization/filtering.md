@@ -30,7 +30,7 @@ Obvious noise includes, for example:
 ### Techniques
 
 * Normalization
-* [Tokenization](customization/tokenization.md)
+* [Tokenization](/customization/tokenization.md)
 * Removing duplicate segments
 * Removing non-alphabetical symbols
 * Removing irrelevant languages

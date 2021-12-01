@@ -20,8 +20,8 @@ QE predicts the quality based on either specific features or neural networks. Ex
 Quality estimation has offline and production use cases:
 
 * Comparing machine translation systems or translation models
-* [Hybrid translation](workflows/hybrid-translations.md)
-* Estimating [post-editing](wordflows/post-editing.md) effort
+* [Hybrid translation](/workflows/hybrid-translation.md)
+* Estimating [post-editing](/workflows/post-editing.md) effort
 * Validating final human translations
 * Filtering training data for machine translation
 
@@ -55,7 +55,7 @@ Multilingual quality estimation trains one model or system for many language pai
 
 ### Research
 
-In 2012, [Lucia Specia](../people/lucia-specia.md) and Radu Soricut organized the first Shared Task on Quality Estimation. In 2018, Lucia Specia, Carolina Scarton and Gustavo Henrique Paetzold published the book Quality Estimation for Machine Translation. There is also research on word-level quality estimation and paragraph-level quality estimation. In 2020, ModelFront launched a multilingual quality estimation API, Tharindu Rasinghe openly published pretrained quality estimation models and Facebook Research launched unsupervised quality estimation internally.
+In 2012, [Lucia Specia](/people/lucia-specia.md) and Radu Soricut organized the first Shared Task on Quality Estimation. In 2018, Lucia Specia, Carolina Scarton and Gustavo Henrique Paetzold published the book Quality Estimation for Machine Translation. There is also research on word-level quality estimation and paragraph-level quality estimation. In 2020, ModelFront launched a multilingual quality estimation API, Tharindu Rasinghe openly published pretrained quality estimation models and Facebook Research launched unsupervised quality estimation internally.
 
 ### Challenges
 

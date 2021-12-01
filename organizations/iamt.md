@@ -8,23 +8,23 @@ The International Association for Machine Translation was founded in 1992.
 The mission of IAMT is:
 > Bring together users, developers and researchers of automated translation technology.
 
-The [Machine Translation Summit](events/mt-summit.md) (MT Summit) is held by the regional associations of IAMT.
+The [Machine Translation Summit](/events/mt-summit.md) (MT Summit) is held by the regional associations of IAMT.
 
 ## Regional associations
 
 ### Americas
-[AMTA](organizations/amta.md) - Association for Machine Translation in the Americas
+[AMTA](/organizations/amta.md) - Association for Machine Translation in the Americas
 
 ### Asia-Pacific
-[AAMT](organizations/aamt.md) - Asia-Pacific Association for Machine Translation
+[AAMT](/organizations/aamt.md) - Asia-Pacific Association for Machine Translation
 
 ### Europe
-[EAMT](organizations/eamt.md) - European Association for Machine Translation
+[EAMT](/organizations/eamt.md) - European Association for Machine Translation
 
 
 ## Executive Committee
 
-The current executive commitee will serve through MT Summit 2023.
+The current executive committee will serve through MT Summit 2023.
 
 ### President
 Eiichiro Sumita, National Institute of Information and Communications Technology, Japan (AAMT)  
@@ -169,4 +169,3 @@ Amendments that have been duly approved shall become effective as of the date th
 
 ### Article 11. IAMT Award of Honor
 The Executive Committee of IAMT shall confer an award on the occasion of its biennial “MT Summit” conference to the individual member who in its opinion has made an outstanding contribution to the promotion and development of machine translation and/or to the aims and objectives of IAMT as defined in Article 2 of the association’s Bylaws. Nominations for the award may be made to the Executive Committee by any member of the IAMT Award of Honor Nomination Committee, comprising one member appointed by each of the three regional associations, not less than six months before the next “MT Summit” conference. The name of the award shall be the “IAMT Award of Honor”.
-

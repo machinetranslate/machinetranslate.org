@@ -79,6 +79,10 @@ Acquired for its WordLens app by Google Translate in 2014
 
 ## 2006
 
+### Tau you
+
+Acquired by TransPerfect in 2018
+
 ### Omniscien Technologies
 
 ## 2002
@@ -88,6 +92,7 @@ Acquired for its WordLens app by Google Translate in 2014
 Acquired by SDL/RWS for $42.5M in 2010
 
 ## 1999
+
 ### Translated
 Raised $30M from Ardian and others
 
@@ -108,4 +113,3 @@ Raised from SOS International
 ### SYSTRAN
 
 Owned by STIC and Softbank
-
