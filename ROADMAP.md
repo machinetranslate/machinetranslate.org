@@ -69,6 +69,7 @@
 - Filtering
 - [Training](https://github.com/machinetranslate/machinetranslate.org/issues/83)
 - Adaptive
+- Context
 - [Glossaries](https://github.com/machinetranslate/machinetranslate.org/issues/84)
 - [Controlled language](https://github.com/machinetranslate/machinetranslate.org/issues/85)
 
