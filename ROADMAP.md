@@ -37,13 +37,20 @@
 
 ### Advanced concepts - Research
 
-- Language models
-- n-grams
 - [Crawling](https://github.com/machinetranslate/machinetranslate.org/issues/72)
 - [Transformers](https://github.com/machinetranslate/machinetranslate.org/issues/73)
 - [Tokenization](https://github.com/machinetranslate/machinetranslate.org/issues/73)
 - [Byte-pair encoding](https://github.com/machinetranslate/machinetranslate.org/issues/75)
 - [Human-in-the-loop](https://github.com/machinetranslate/machinetranslate.org/issues/76)
+
+### Concepts - Foundational
+- Corpus
+- String
+- Token
+- n-gram
+- Vector
+- Language model
+
 
 ### Business
 
