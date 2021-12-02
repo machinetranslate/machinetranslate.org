@@ -118,6 +118,10 @@ Raised $30M from Ardian and others
 
 Granted €98.8K by the European Union
 
+### PROMT
+
+Raised from Svarog Capital Advisors in 2008
+
 
 ## 1990
 
