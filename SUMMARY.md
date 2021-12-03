@@ -65,6 +65,12 @@
 * [Alon Lavie](people/alon-lavie.md)
 * [Lucia Specia](people/lucia-specia.md)
 
+## Groups
+
+* [Lists](groups/lists.md)
+* [Online groups](groups/online-groups.md)
+* [Research groups](groups/research-groups.md)
+
 ## Languages
 
 * [Russian](languages/russian.md)

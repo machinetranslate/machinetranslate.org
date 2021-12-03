@@ -23,6 +23,14 @@
 - User-generated content
 - Gaming
 
+### Concepts - Foundational
+
+- [Corpus](https://github.com/machinetranslate/machinetranslate.org/issues/109)
+- [String](https://github.com/machinetranslate/machinetranslate.org/issues/110)
+- [Token](https://github.com/machinetranslate/machinetranslate.org/issues/111)
+- [n-gram](https://github.com/machinetranslate/machinetranslate.org/issues/108)
+- [Vector](https://github.com/machinetranslate/machinetranslate.org/issues/112)
+- [Language model](https://github.com/machinetranslate/machinetranslate.org/issues/107)
 
 ### Advanced concepts - Application
 
@@ -42,14 +50,6 @@
 - [Tokenization](https://github.com/machinetranslate/machinetranslate.org/issues/73)
 - [Byte-pair encoding](https://github.com/machinetranslate/machinetranslate.org/issues/75)
 - [Human-in-the-loop](https://github.com/machinetranslate/machinetranslate.org/issues/76)
-
-### Concepts - Foundational
-- Corpus
-- String
-- Token
-- n-gram
-- Vector
-- Language model
 
 
 ### Business

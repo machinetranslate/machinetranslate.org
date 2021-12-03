@@ -20,4 +20,4 @@ for the evaluation of machine translation output.
 
 In 2009, he co-founded [Safaba](/business/companies.md#safaba). In 2015, it was acquired by Amazon, and became Amazon Translate.
 
-In 2019, Lavie joined Unbabel as Head of AI.
+In 2019, Lavie joined [Unbabel](/business/companies.md#unbabel) as Head of AI.
