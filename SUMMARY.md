@@ -6,6 +6,7 @@
 
 * [Rule-based machine translation](general/rule-based.md)
 * [Statistical machine translation](general/statistical.md)
+* [Neural machine translation](general/neural.md)
 
 ## Applications
 
@@ -79,11 +80,14 @@
 
 * [IAMT](organizations/iamt.md)
 * [AMTA](organizations/amta.md)
+* [AAMT](organizations/aamt.md)
+* [EAMT](organizations/eamt.md)
 
 ## Events
 
 * [MT Summit](events/mt-summit.md)
 * [WMT21](events/wmt21.md)
+* [EAMT2022](events/eamt2022.md)
 
 ## Contributing
 
