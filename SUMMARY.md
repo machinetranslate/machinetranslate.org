@@ -92,8 +92,8 @@
 ## Contributing
 
 * [Join the community](https://form.typeform.com/c/ndac7OIs)
-* [Edit or create](https://github.com/machinetranslate/machinetranslate.org)
 * [Style](contributing/style.md)
+* [Contributing](contributing/contributing.md)
 
 ## Contact
 
