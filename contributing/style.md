@@ -16,13 +16,16 @@ Default to the Wikipedia's [Manual of Style](https://en.wikipedia.org/wiki/Wikip
 * Titles, capitalization, punctuation and formatting
 * Linking to other articles with relative paths
 
-Default to American English orthography and to International English vocabulary
+Default to American English orthography and to International English vocabulary.
+
 
 ## Minimal content
 
 Unlike Wikipedia, the goal is to provide a helpful overview that is easy to read in full and easy to maintain.
 
 Keep pages short, paragraphs short and sentences short and simple.
+
+Add lists for clarity at a glance.
 
 Avoid parentheses, except for defining common abbreviations.
 
@@ -31,16 +34,46 @@ Avoid parentheses, except for defining common abbreviations.
 
 ## No marketing
 
-Do not promote businesses and do not use cliché or meaningless terms
+Do not promote businesses and do not use cliché or meaningless terms.
 
 * _language barriers_
 * _multilingual audiences_
 
+
 ## Not too academic
 
-Talk straight and make complex topics simple
+Talk straight and make complex topics simple.
+
 
 ## Machine Translate and machinetranslate.org
 
-Refer to this project and community as _Machine Translate_
+Refer to this project and community as _Machine Translate_.
 
+
+# Markdown
+
+Machine Translate articles are written in [markdown](https://www.markdownguide.org/cheat-sheet/).
+
+Follow the structure used in the published Machine Translate articles.
+
+## Headers
+
+Article headers are H1. Article sub-headers are H3.
+
+## Description
+
+Add a description box at the beginning of each article.
+
+```
+---
+description: Training data for machine translation
+---
+```
+
+## Body
+
+Leave an empty line between headers or sub-headers and paragraphs.
+
+## Consistency
+
+Headers are consistent among articles. Refer to "Challenges" and "Advantages".

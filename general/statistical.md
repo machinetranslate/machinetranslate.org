@@ -4,17 +4,17 @@ description: Statistical machine translation
 
 # Statistical machine translation
 
-**Statistical machine translation** is a machine translation approach that finds the most probable translation for an input. Statistical machine translation uses statistical models to generate translations with parameters learned from existing human translations.
+**Statistical machine translation** is a machine translation approach that uses large volumes of bilingual data to find the most probable translation for a given input. Statistical machine translation systems learn to translate by analyzing the statistical relationships between original texts and their existing human translations.
 
 The most important components in statistical machine translation are the translation model and the language model.
 
 ### Language model
 
-The language model is built from the output language monolingual data. The language model finds the best choice from the candidate translations based on the translation language. The language model can be associated with fluency in the translation because it  gives the translated text its natural language flow.
+The language model is built from the output language monolingual data. The language model finds the best choice from the candidate translations based on the translation language. The language model can be associated with fluency in the translation because it gives the translated text its natural language flow.
 
 ### Translation model
 
-The statistical machine translation engine is trained with [parallel data](/customization/parallel-data.md) to create a translation model. A translation model is a table of aligned original phrases and its translation. The purpose of the translation model is to predict candidate translations for specific input texts. The translation model can be associated with adequacy because it preserves the meaning of the source.
+The statistical machine translation engine is trained with [parallel data](/customization/parallel-data.md) to create a translation model. A translation model is a table of aligned phrases and their translation. These phrases are called [n-grams](concepts/n-gram.md). The purpose of the translation model is to predict candidate translations for specific input texts. The translation model can be associated with adequacy because it preserves the meaning of the source.
 
 
 ### Process

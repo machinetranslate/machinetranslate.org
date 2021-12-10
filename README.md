@@ -8,15 +8,19 @@ description: The open guide to machine translation
 
 ## Community
 
-Read news, ask and answer questions and share your work
+Read news, ask and answer questions and share your work.
 
 [**Join our community**](https://form.typeform.com/c/ndac7OIs)
+
 
 ## Contribute
 
 This guide is open-source. You can contribute to the content.
 
-[**Edit or create**](https://github.com/machinetranslate/machinetranslate.org)
+[**Edit**](contributing/contributing.md#edit)
+
+[**Request**](contributing/contributing.md#request)
+
 
 ## Supporters
 
@@ -26,7 +30,7 @@ The open guide to machine translation is supported by [**ModelFront**](https://m
 
 Shoot us an email at [contact@machinetranslate.org](mailto:contact@machinetranslate.org)
 
+
 ## Follow along
 
 Follow Machine Translate on [GitHub](https://github.com/machinetranslate), [Twitter](https://twitter.com/machtranslate), [LinkedIn](https://linkedin.com/company/machinetranslate) or [Facebook](https://facebook.com/machinetranslate)
-
