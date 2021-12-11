@@ -9,7 +9,7 @@ In a **hybrid translation** workflow, some raw machine translations are never se
 Hybrid translation can be faster and cheaper than full human [post-editing](post-editing.md).
 It requires machine translation to be accurate enough that a signification portion of the machine translations are usable as-is.
 
-The key technology for a hybrid translation workflow is [**translation risk prediction**].
+The key technology for a hybrid translation workflow is [**translation risk prediction**](/quality/quality-estimation.md).
 
 Each machine translation is automatically classified as high-risk or low-risk, based on whether it is below or above the chosen risk **threshold**.
 
