@@ -6,10 +6,10 @@ description: Quality estimation for machine translation
 
 **Quality estimation** (**QE**) is a method for automatically assessing the quality of the machine translation output without human intervention. QE scores are independent from the expected translation output.
 
-| Original           | Translation          | Quality estimate   |
-| ------------------ | -------------------- | ------------------ |
-| `July 30th, 2021`  | `30 juillet 2021`    | `Good`             |
-| `This is my home.` | `Este es mi inicio.` | `Bad`              |
+| Original                     | Translation                    | Quality estimate     |
+| -----------------------------| -------------------------------| ---------------------|
+| `English` `July 30th, 2021`  | `French` `30 juillet 2021`     | `Good`               |
+| `English` `This is my home.` | `Spanish` `Este es mi inicio.` | `Bad`                |
 
 Evaluation metrics like BLEU or post-editing distance require human reference translations, but there are no human reference translations for new content.
 
@@ -37,10 +37,21 @@ Sentence-level scores can be aggregated into paragraph-level scores or document-
 
 ### Approaches
 
-Supervised quality estimation trains on parallel data that includes human labels or human post-edits. Unsupervised quality estimation trains on monolingual data or parallel data only. Supervised quality estimation relies on features. Glass-box features are extracted from the machine translation system itself. Blackbox features are independent of the machine translation system.
+Quality estimation is typically implemented as classification or regression.
 
+### Supervised
+Supervised quality estimation trains on parallel data that includes human labels or human post-edits. 
 
-### Feature engineering
+### Unsupervised
+Unsupervised quality estimation trains on monolingual data or parallel data only. Supervised quality estimation relies on labeled or post-edited data.
+
+### Glassbox
+Glassbox approaches are tied to the machine translation system itself.  A glassbox system makes a prediction based on the internal variables of the machine translation model.  It is like a confidence score.
+
+### Blackbox
+Blackbox approaches are independent of the machine translation system.  They are not necessarily trained on the same data, and can be used with any machine translation system.
+
+#### Feature engineering
 Early quality estimation approaches use machine learning with feature engineering.
 
 Examples of specific features are the number of noun or prepositional phrases in the source and target, the number of named entities, etc. Based on these features, a QE model is built using machine learning techniques.
