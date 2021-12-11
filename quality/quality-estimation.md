@@ -6,14 +6,15 @@ description: Quality estimation for machine translation
 
 **Quality estimation** (**QE**) is a method for automatically assessing the quality of the machine translation output without human intervention. QE scores are independent from the expected translation output.
 
-| Original           | Translation          | Quality estimation |
+| Original           | Translation          | Quality estimate   |
 | ------------------ | -------------------- | ------------------ |
 | `July 30th, 2021`  | `30 juillet 2021`    | `Good`             |
 | `This is my home.` | `Este es mi inicio.` | `Bad`              |
 
 Evaluation metrics like BLEU or post-editing distance require human reference translations, but there are no human reference translations for new content.
 
-QE predicts the quality based on either specific features or neural networks. Examples of specific features are the number of noun or prepositional phrases in the source and target, the number of named entities, etc. Based on these features, a QE model is built using machine learning techniques.
+QE models predicts the quality based on either specific features or deep learning.
+
 
 ### Use cases
 
@@ -36,22 +37,48 @@ Sentence-level scores can be aggregated into paragraph-level scores or document-
 
 ### Approaches
 
-Supervised quality estimation trains on parallel data that includes human labels or human post-edits. Unsupervised quality estimation trains on monolingual data or parallel data only. Supervised quality estimation relies on features. Glass-box features are extracted from the machine translation system itself. Blackbox features are system-independent.
+Supervised quality estimation trains on parallel data that includes human labels or human post-edits. Unsupervised quality estimation trains on monolingual data or parallel data only. Supervised quality estimation relies on features. Glass-box features are extracted from the machine translation system itself. Blackbox features are independent of the machine translation system.
 
-Early quality estimation approaches use machine learning with feature engineering. With the rise of deep learning, quality estimation technology resorts to deep learning architectures based on artificial neural networks.
 
-Multilingual quality estimation trains one model or system for many language pairs.
+### Feature engineering
+Early quality estimation approaches use machine learning with feature engineering.
 
-### Systems
+Examples of specific features are the number of noun or prepositional phrases in the source and target, the number of named entities, etc. Based on these features, a QE model is built using machine learning techniques.
 
-| Name       | Tool                               | Developer                   |
-| ---------- | ---------------------------------- | --------------------------- |
-| QuEst++    | Framework                          | University of Sheffield     |
-| DeepQuest  | Framework                          | University of Sheffield     |
-| OpenKiwi   | Framework                          | Unbabel                     |
-| TransQuest | Pretrained models                  | University of Wolverhampton |
-| KantanQES  | Feature of machine translation API | KantanAI                    |
-| ModelFront | API                                | ModelFront                  |
+#### Deep learning
+With the rise of deep learning, quality estimation technology resorts to deep learning architectures based on artificial neural networks.
+
+#### Single-language-pair
+Early quality estimation approaches created one model or system per language pair, similar to most machine translation systems at the time.
+
+#### Multilingual
+Multilingual quality estimation uses one model or system for many language pairs, similar to multilingual machine translation sytems.
+
+
+### Frameworks, models and systems
+
+A growing set of frameworks, models and systems are generally available.
+
+| Name       | Tool                                     | Owner                       | Approach
+| ---------- | ---------------------------------------- | --------------------------- | --------------------------- |
+| QuEst++    | Framework                                | University of Sheffield     | Feature engineering, blackbox |
+| DeepQuest  | Framework                                | University of Sheffield     | Deep learning, blackbox     |
+| OpenKiwi   | Framework                                | Unbabel                     | Deep learning, blackbox     |
+| TransQuest | Pretrained models                        | University of Wolverhampton | Deep learning, blackbox     |
+| KantanQES  | Feature of machine translation API       | KantanAI                    | Glassbox                    |
+| Memsource quality estimation  | Feature of translation management system | Memsource | Deep learning, blackbox    |
+| ModelFront | System with API and console              | ModelFront                  | Deep learning, multilingual, blackbox |
+
+More companies have researched quality estimation internally, but did not launch or do not provide quality estimation to others.
+- Amazon
+- Microsoft
+- Transperfect
+- Unbabel
+- VMware
+- eBay
+- Facebook AI Research
+
+*Note: This list is incomplete.*
 
 ### Research
 
