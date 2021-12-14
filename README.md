@@ -17,9 +17,9 @@ Read news, ask and answer questions and share your work.
 
 This guide is open-source. You can contribute to the content.
 
-[**Edit**](/contributing/contributing.md#edit)
+[**Edit an article**](/contributing/contributing.md#edit)
 
-[**Request**](/contributing/contributing.md#request)
+[**Request a topic**](/contributing/contributing.md#request)
 
 
 ## Supporters
