@@ -4,18 +4,21 @@ description: How to Contribute
 
 # Contributing
 
-Machine Translate is in [GitHub](https://github.com/machinetranslate/machinetranslate.org).
+Machine Translate is **created and edited by [contributors like you!](https://github.com/machinetranslate/machinetranslate.org/graphs/contributors)**  It is **open-source** and lives [**on GitHub**](https://github.com/machinetranslate/machinetranslate.org).
+
+We recommend reading the [**roadmap**](https://github.com/machinetranslate/machinetranslate.org/blob/master/ROADMAP.md) and [**style guide**](style.md) before you start contributing.
+
 
 ### Edit
 
-To edit an article, edit it on GitHub and send us a pull request.
+To add or edit an article, [**add**](https://github.com/machinetranslate/machinetranslate.org/new/master) or [**edit**](https://github.com/machinetranslate/machinetranslate.org) and send us a [pull request](https://github.com/machinetranslate/machinetranslate.org/pulls?q=is%3Apr).
+
+> See GitHub's article [*Creating a pull request*](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request) for more
+
 
 ### Request
 
-To request a topic, [create an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository).
+To request a topic, create a new [**issue**](https://github.com/machinetranslate/machinetranslate.org/issues).
 
-Future topics are included in our [Roadmap](https://github.com/machinetranslate/machinetranslate.org/blob/master/ROADMAP.md) and linked to issues.
+> See GitHub's article [*Creating an issue*](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) for more
 
-
-
-Follow Machine Translate [style guide](style.md) to write or edit an article.
