@@ -49,6 +49,11 @@ Talk straight and make complex topics simple.
 
 Refer to this project and community as _Machine Translate_.
 
+## Capitalization
+
+In headers, capitalize only the first letter.
+
+> How to contribute
 
 # Markdown
 
@@ -76,4 +81,7 @@ Leave an empty line between headers or sub-headers and paragraphs.
 
 ## Consistency
 
-Headers are consistent among articles. Refer to "Challenges" and "Advantages".
+Review other articles for consistency.
+
+- _Goals_
+- _Challenges_

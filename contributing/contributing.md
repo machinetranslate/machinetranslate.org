@@ -1,5 +1,5 @@
 ---
-description: How to Contribute
+description: How to contribute
 ---
 
 # Contributing
@@ -21,4 +21,3 @@ To add or edit an article, [**add**](https://github.com/machinetranslate/machine
 To request a topic, create a new [**issue**](https://github.com/machinetranslate/machinetranslate.org/issues).
 
 > See GitHub's article [*Creating an issue*](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) for more
-
