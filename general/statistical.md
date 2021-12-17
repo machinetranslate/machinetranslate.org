@@ -30,6 +30,7 @@ The statistical machine translation engine is trained with [parallel data](/cust
 - Phrase-based translation: The model translates sequences of words.
 - Syntax-based translation: The model translates syntactic units.
 - Hierarchical phrase-based translation: The model combines phrase-based methods with syntax-based methods.
+- Paraphrase-enhanced translation: The training data is augmented using monolingual sentence paraphrasing.
 
 ### Challenges
 
