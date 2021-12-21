@@ -67,6 +67,10 @@ $91.2M from Caixa, Samsung, Scale, Notion, Faber, Greycroft, Structure, M12 and 
 
 Acquired by SDL/RWS for $20M in 2020
 
+### Waverly Labs
+
+$7.1M in crowdfunding
+
 
 ## 2011
 
