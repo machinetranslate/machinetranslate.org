@@ -1,4 +1,4 @@
-# __HOW TO CONNECT FOUR POPULAR MTs TO TRADOS STUDIO 2021™ AND MEMOQ TRANSLATOR PRO 9.8™__
+# __HOW TO CONNECT POPULAR MTs TO CAT TOOLS__
 
 > ___The biggest challenge is to combine technology and the human side without losing the latter___ — Gordana Antonijević, Head of Translation Unit, Veris
 
