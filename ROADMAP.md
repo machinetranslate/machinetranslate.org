@@ -91,6 +91,7 @@
 - [Image translation](https://github.com/machinetranslate/machinetranslate.org/issues/92)
 - [Input correction](https://github.com/machinetranslate/machinetranslate.org/issues/93)
 - [Transliteration](https://github.com/machinetranslate/machinetranslate.org/issues/94)
+* Website translation
 
 ### Languages
 
@@ -119,6 +120,7 @@
 - Alon Lavie
 - Lucia Specia
 - [Jaime Carbonell](https://github.com/machinetranslate/machinetranslate.org/issues/106)
+- Ondřej Bojar
 
 ### Community
 
