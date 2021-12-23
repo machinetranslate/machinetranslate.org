@@ -24,6 +24,11 @@
 * [Tags and placeholders](applications/advanced-concepts/tags-and-placeholders.md)
 * [Multi-engine machine translation](applications/advanced-concepts/multi-engine-machine-translation.md)
 
+## Concepts
+
+* [Language model](concepts/language-model.md)
+
+
 ## Customization
 
 * [Adaptive machine translation](customization/adaptive.md)
