@@ -101,6 +101,8 @@
 - [Japanese](https://github.com/machinetranslate/machinetranslate.org/issues/99)
 - [Indic languages](https://github.com/machinetranslate/machinetranslate.org/issues/100)
 - Russian
+- Czech
+- German
 - [Chinese](https://github.com/machinetranslate/machinetranslate.org/issues/101)
 - [Spanish](https://github.com/machinetranslate/machinetranslate.org/issues/102)
 
