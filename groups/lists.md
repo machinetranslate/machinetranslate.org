@@ -30,3 +30,10 @@ Link to subscribe: https://groups.google.com/g/google-translate-api
 The **Special Interest Group for Machine Translation** or **SIGMT** Google Group is a mailing list created by the Association for Computational Linguistics.
 
 Link to subscribe: https://groups.google.com/g/sigmt
+
+
+### SIGSLT Google Group
+
+The **Special Interest Group on Spoken Language Translation** (**SIGSLT**) Google Group is a mailing list created by the Association for Computational Linguistics (ACL), the International Speech Communication Association (ISCA) and the European Language Resources Association.
+
+Link to subscribe: https://groups.google.com/g/sigslt
