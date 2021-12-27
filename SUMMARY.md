@@ -82,9 +82,11 @@
 * [AMTA](organizations/amta.md)
 * [AAMT](organizations/aamt.md)
 * [EAMT](organizations/eamt.md)
+* [SIGSLT](organizations/SIGSLT.md)
 
 ## Events
 
+* [MT Events](events/all-events.md)
 * [MT Summit](events/mt-summit.md)
 * [WMT21](events/wmt21.md)
 * [EAMT2022](events/eamt2022.md)
