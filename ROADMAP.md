@@ -12,8 +12,6 @@
 
 ### Applications
 
-- Post-editing
-- Hybrid translation
 - Translation and localization
 - Multilingual search
 - Translation for SEO
@@ -31,6 +29,12 @@
 - [n-gram](https://github.com/machinetranslate/machinetranslate.org/issues/108)
 - [Vector](https://github.com/machinetranslate/machinetranslate.org/issues/112)
 - [Language model](https://github.com/machinetranslate/machinetranslate.org/issues/107)
+- Word embeddings
+
+### Concepts - Translator-Machine interaction
+
+- Post-editing
+- Hybrid translation
 
 ### Advanced concepts - Application
 
@@ -50,6 +54,8 @@
 - [Tokenization](https://github.com/machinetranslate/machinetranslate.org/issues/73)
 - [Byte-pair encoding](https://github.com/machinetranslate/machinetranslate.org/issues/75)
 - [Human-in-the-loop](https://github.com/machinetranslate/machinetranslate.org/issues/76)
+- Unsupervised MT
+- Zero-shot
 
 
 ### Business
@@ -60,6 +66,7 @@
 - Companies / Startups / Acquisitions
 - Products / Providers
 - [Talent / Education / Jobs](https://github.com/machinetranslate/machinetranslate.org/issues/79)
+- CAT integration
 
 ### Customization
 
@@ -72,6 +79,8 @@
 - Context
 - [Glossaries](https://github.com/machinetranslate/machinetranslate.org/issues/84)
 - [Controlled language](https://github.com/machinetranslate/machinetranslate.org/issues/85)
+- Data augmentation
+- Tuning
 
 ### Quality
 
@@ -103,6 +112,7 @@
 - Russian
 - [Chinese](https://github.com/machinetranslate/machinetranslate.org/issues/101)
 - [Spanish](https://github.com/machinetranslate/machinetranslate.org/issues/102)
+- Under-resourced languages
 
 ### People
 
@@ -119,6 +129,7 @@
 - Alon Lavie
 - Lucia Specia
 - [Jaime Carbonell](https://github.com/machinetranslate/machinetranslate.org/issues/106)
+- Andy Way
 
 ### Community
 
