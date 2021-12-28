@@ -4,8 +4,6 @@ description: Machine translation research groups
 
 # Research groups
 
-### Corporate
-
 | Research laboratory | Organization | Type | Country | Website |
 | --- | --- | --- | --- | --- |
 | **ADAPT Centre** | Science Foundation Ireland | Academic | Ireland | https://www.adaptcentre.ie/ |
