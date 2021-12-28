@@ -86,7 +86,7 @@
 
 ## Events
 
-* [Machine translation events](events/all-events.md)
+* [Machine translation events](events/mt-events.md)
 * [MT Summit](events/mt-summit.md)
 * [WMT21](events/wmt21.md)
 * [EAMT2022](events/eamt2022.md)
