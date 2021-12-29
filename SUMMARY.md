@@ -22,6 +22,9 @@
   * [Transformers](research/transformers.md)
   * [Byte-pair encoding](research/byte-pair-encoding.md)
 
+* Fundamental concepts
+  * [String](concepts/string.md)
+
 * More concepts
   * [Tags and placeholders](applications/advanced-concepts/tags-and-placeholders.md)
   * [Multi-engine machine translation](applications/advanced-concepts/multi-engine-machine-translation.md)
