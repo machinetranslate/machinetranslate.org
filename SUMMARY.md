@@ -85,10 +85,10 @@
 * [SIGSLT](organizations/SIGSLT.md)
 
 ## Events
-* [Events](events/index.md)
-* [MT Summit](events/mt-summit.md)
-* [WMT21](events/wmt21.md)
-* [EAMT2022](events/eamt2022.md)
+* [Events](events/README.md)
+   * [MT Summit](events/mt-summit.md)
+   * [WMT21](events/wmt21.md)
+   * [EAMT2022](events/eamt2022.md)
 
 ## Contributing
 
