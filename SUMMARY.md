@@ -84,9 +84,7 @@
 * [EAMT](organizations/eamt.md)
 * [SIGSLT](organizations/SIGSLT.md)
 
-## Events
-
-* [Machine translation events](events/mt-events.md)
+## [Events](events/)
 * [MT Summit](events/mt-summit.md)
 * [WMT21](events/wmt21.md)
 * [EAMT2022](events/eamt2022.md)
