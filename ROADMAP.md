@@ -21,6 +21,7 @@
 - Social networks
 - Live chat
 - User-generated content
+- Website translation
 - Gaming
 
 ### Concepts - Foundational
@@ -119,6 +120,8 @@
 - Alon Lavie
 - Lucia Specia
 - [Jaime Carbonell](https://github.com/machinetranslate/machinetranslate.org/issues/106)
+- Ondřej Bojar
+- Martin Popel
 
 ### Community
 
