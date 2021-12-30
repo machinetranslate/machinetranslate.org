@@ -10,10 +10,32 @@ Example:
 - input: `the man is riding a ___`
 - output: `bike` 40%, `car`: 30%, `scooter`: 10%, `blue`: 0.5%, ...
 
-In the example this would mean that the article `bike` has a 40% probability of being the continuation and is the most likely.
+In this example, the word `bike` has a 40% probability of being the continuation and is the most likely.
+
+## Decoding
 
 It is possible to do *decoding*, which means repeatedly taking e.g. the most probable output, adding it to the text and so on.
-This way a language model can generate new text.
+This way a language model can generate new text as in the following example:
+
+- Step 6
+  - input: `<BOS> the man is riding a ___`
+  - output: `bike`: 40%, `car`: 30%, ...
+- Step 7
+  - input: `<BOS> the man is riding a bike ___`
+  - output: `to`: 20%, `on`: 10%, ...
+- Step 8:
+  - input: `<BOS> the man is riding a bike to ___`
+  - output: `the`: 30%, `a`: 25%, ...
+- ...
+- Step 11:
+  - input: `<BOS> the man is riding a bike to the store . ___`
+  - output: `<EOS>`: 98%, ...
+
+For the beginning the special token `<BOS>` (beginning of sentence) is used 
+When another special token `<EOS>` (end of sentence), the decoder stops.
+
+This kind of decoding where only the most probable token is considered is called **greedy decoding** and it may not always lead to the most fluent output.
+For this reason, the algorithm **beamsearch** is used that considers multiple most probable outputs at the same time.
 
 # Models
 
@@ -26,15 +48,15 @@ The easiest one is to count a number of occurrences of the pair
 <img src="https://render.githubusercontent.com/render/math?math=(w_1, w_2)"> and divide that by the number of occurrences of just 
 <img src="https://render.githubusercontent.com/render/math?math=w_1">.
 The result is the probability that with the history (now truncated to just <img src="https://render.githubusercontent.com/render/math?math=w_1">) the next word is <img src="https://render.githubusercontent.com/render/math?math=w_2">.
-Considering only the most recent history is called the Markov assumption.
 
-This model is quite limited because it can't reasonably consider any even mid-term sentence dependencies. 
-This model may be extended to consider longer histories, e.g. 3-grams but there are numerous issues that arise there.
-One solution to those is language model smoothing.
+Under the **Markov assumption**, the input is limited to the last word only.
+This model is quite restricted because it can't model well any even mid-term sentence dependencies. 
+There are models that take longer input, e.g. 3-grams, but they have create new issues, such as data sparsity.
+One solution to those is **language model smoothing**.
 
 ## Neural language model
 
-A neural language model is a neural network that computes the next word probability.
+A neural language model is a neural network that computes the probability of the next word.
 RNN-based approaches worked by considering the whole sentence history compressed into a single vector.
 They perform badly on long-term dependency phenomena.
 This was vastly improved with the advent of [attention](../concepts/attention.md).
