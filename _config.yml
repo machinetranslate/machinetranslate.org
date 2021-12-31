@@ -1,3 +1,4 @@
+url: "https://machinetranslate.org"
 title: Machine Translate
 description: Open resources and community for machine translation
 remote_theme: pmarsceill/just-the-docs
@@ -7,3 +8,5 @@ search:
   button: true
   heading_level: 3
 permalink: /:slug
+plugins:
+  - jekyll-sitemap
