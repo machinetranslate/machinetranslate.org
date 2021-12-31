@@ -38,7 +38,7 @@ defaults:
       path: "events"
       type: "pages"
     values:
-      permalink: /:basename\
+      permalink: /:basename
   -
     scope:
       path: "general"
