@@ -72,9 +72,17 @@
   * [SIGSLT](organizations/SIGSLT.md)
 
 * [Events](events/README.md)
-  * [MT Summit](events/mt-summit.md)
+  * [AMTA 2022](events/amta2022.md)
+  * [ASLTRM 2021](events/asltrm2021.md)
+  * [EAMT 2022](events/eamt2022.md)
+  * [LoResMT 2022](events/loresmt2022.md)
+  * [LoResMT 2021](events/loresmt2021.md)
+  * [MTM 2019](events/mtm2019.md)
+  * [MT Summit 2021](events/mtsummit2021.md)
+  * [PSLT 2021](events/pslt2021.md)
   * [WMT21](events/wmt21.md)
-  * [EAMT2022](events/eamt2022.md)
+  * [Zürich MT Meetup #9](events/zurich-9.md)
+
 
 * Contributing
   * [Join the community](https://form.typeform.com/c/ndac7OIs)

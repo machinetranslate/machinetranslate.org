@@ -4,11 +4,16 @@ description: Main machine translation events
 
 # Machine translation events
 
-| Event | Organizer | Next event | Last event |
-| --- | --- | --- | --- |
-| MT Summit | [AMTA](/organizations/amta.md) | MT Summit 2023 | [MT Summit 2021](mt-summit.md) |
-| WMT Conference | ACL [SIG MT](/groups/lists.md#SIG-MT-Google-Group) | WMT 2022 | [WMT 2021](wmt2021.md) |
-| EAMT Annual Conference | [EAMT](/organizations/eamt.md)  | [EAMT 2022](eamt2022.md) | EAMT 2020 |
-| AAMT Conference | [AAMT](/organizations/aamt.md) | AAMT 2022 | AAMT 2021 |
-| IWSLT | [SIGSLT](/organizations/SIGSLT.md) | [IWSLT 2022](https://iwslt.org/2022/) | [IWSLT 2021](https://iwslt.org/2021/) |
-| AMTA | [AMTA](/organizations/amta.md) | AMTA 2022 | AMTA 2020 |
+| Event | Next event | Last event |
+| --- | --- | --- |
+| [AAMT](/organizations/aamt.md) Conference | AAMT 2022 | AAMT 2021 |
+| [AMTA](/organizations/amta.md) | AMTA 2022 | AMTA 2020 |
+| ASLTRM | | [ASLTRM 2021](asltrm2021.md) |
+| [EAMT](/organizations/eamt.md) Annual Conference  | [EAMT 2022](eamt2022.md) | EAMT 2020 |
+| [SIGSLT](/organizations/SIGSLT.md) IWSLT | [IWSLT 2022](https://iwslt.org/2022/) | [IWSLT 2021](https://iwslt.org/2021/) |
+| LoResMT | [LoResMT 2022](loresmt2022.md) | [LoResMT 2021](loresmt2021.md) |
+| MT Marathon | MTM 2022 | [MTM 2019](mtm2019.md) |
+| Zürich MT Meetup | | [MT Meetup #9](zurich-9.md) |
+| MT Summit | MT Summit 2023 | [MT Summit 2021](mtsummit2021.md) |
+| PSLT | | [PSLT 2021](pslt2021.md) |
+| WMT Conference | WMT 2022 | [WMT 2021](wmt2021.md) |
