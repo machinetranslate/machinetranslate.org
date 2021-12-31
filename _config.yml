@@ -2,3 +2,7 @@ title: Machine Translate
 description: Open resources and community for machine translation
 remote_theme: pmarsceill/just-the-docs
 color_scheme: blue
+search:
+  rel_url: false
+  button: true
+  heading_level: 3
