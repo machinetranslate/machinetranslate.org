@@ -1,7 +1,5 @@
 # Table of contents
 
-* [Machine Translate](README.md)
-
 * Approaches
   * [Rule-based machine translation](general/rule-based.md)
   * [Statistical machine translation](general/statistical.md)
