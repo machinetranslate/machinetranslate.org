@@ -6,3 +6,4 @@ search:
   rel_url: false
   button: true
   heading_level: 3
+permalink: :slug
