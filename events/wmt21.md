@@ -1,6 +1,6 @@
 ---
 title: WMT21
-description: 'Sixth Conference on Machine Translation'
+description: Conference on Machine Translation
 ---
 
 The Sixth Conference on Machine Translation (**WMT21**) took place November 10th and 11th, 2021 at [EMNLP 2021](http://2021.emnlp.org/) in Punta Cana in the Dominican Republic and online.
