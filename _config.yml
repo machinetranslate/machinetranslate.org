@@ -10,3 +10,4 @@ search:
 permalink: /:slug
 plugins:
   - jekyll-sitemap
+  - jekyll-readme-index
