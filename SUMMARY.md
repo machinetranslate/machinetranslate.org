@@ -26,8 +26,6 @@
   * [Tags and placeholders](applications/advanced-concepts/tags-and-placeholders.md)
   * [Multi-engine machine translation](applications/advanced-concepts/multi-engine-machine-translation.md)
 
-## Use cases
-
 * Workflows
   * [Post-editing (human translation)](workflows/post-editing.md)
   * [Hybrid translation](workflows/hybrid-translation.md)
@@ -48,11 +46,8 @@
   * [Products](business/products.md)
 
 
-## Languages
-
-* [Russian](languages/russian.md)
-
-## Community
+* Languages
+  * [Russian](languages/russian.md)
 
 * People
   * [Georges Artsrouni](people/georges-artsrouni.md)
@@ -82,8 +77,6 @@
   * [MT Summit](events/mt-summit.md)
   * [WMT21](events/wmt21.md)
   * [EAMT2022](events/eamt2022.md)
-
-## About Machine Translate
 
 * Contributing
   * [Join the community](https://form.typeform.com/c/ndac7OIs)
