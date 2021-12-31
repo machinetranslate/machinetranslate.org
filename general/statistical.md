@@ -1,8 +1,7 @@
 ---
-description: Statistical machine translation
+title: Statistical machine translation
+description: Statistical approaches to machine translation
 ---
-
-# Statistical machine translation
 
 **Statistical machine translation** is a machine translation approach that uses large volumes of bilingual data to find the most probable translation for a given input. Statistical machine translation systems learn to translate by analyzing the statistical relationships between original texts and their existing human translations.
 

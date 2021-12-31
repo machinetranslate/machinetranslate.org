@@ -1,4 +1,9 @@
-# Roadmap
+---
+title: Roadmap
+description: Content roadmap for Machine Translate
+---
+
+{% include collapsible_toc.html %}
 
 ### General
 

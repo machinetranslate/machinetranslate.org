@@ -1,14 +1,110 @@
-url: "https://machinetranslate.org"
+domain: machinetranslate.org
+url: https://machinetranslate.org
 title: Machine Translate
 description: Open resources and community for machine translation
+
+# Site settings
+permalink: pretty
+
+# Pages permalink
+# TODO: remove this by moving them all under a content/ directory
+defaults:
+  -
+    scope:
+      path: "applications"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "business"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "contributing"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "customization"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "events"
+      type: "pages"
+    values:
+      permalink: /:basename\
+  -
+    scope:
+      path: "general"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "groups"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "languages"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "organizations"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "people"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "quality"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "research"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "workflows"
+      type: "pages"
+    values:
+      permalink: /:basename
+
+
 remote_theme: pmarsceill/just-the-docs
+
+logo: favicon.ico
 color_scheme: blue
+
 search:
   rel_url: false
   button: true
   heading_level: 3
-permalink: /:slug
+
 plugins:
   - jekyll-sitemap
   - jekyll-readme-index
   - jekyll-feed
+
+last_edit_timestamp: true
+
+back_to_top: true
+back_to_top_text: ↑

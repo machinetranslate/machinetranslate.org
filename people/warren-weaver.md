@@ -1,7 +1,8 @@
 ---
+title: Warren Weaver
 description: Early machine translation researcher
 ---
-# Warren Weaver
+
 **Warren Weaver** was a scientist and mathematician who designed methods for machine translation.
 
 The methods included: 

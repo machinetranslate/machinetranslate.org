@@ -1,7 +1,8 @@
 ---
+title: Alon Lavie
 description: Machine translation researcher, entrepreneur and engineering director
 ---
-# Alon Lavie
+
 **Alon Lavie** is a machine translation researcher and entrepeneur.
 
 His work on machine translation has included:

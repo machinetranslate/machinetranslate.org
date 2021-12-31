@@ -1,8 +1,7 @@
 ---
+title: Data confidentiality
 description: Data confidentiality in machine translation
 ---
-
-# Data confidentiality
 
 **Data confidentiality** terms or policies govern how machine translation providers use client data.
 

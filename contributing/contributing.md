@@ -1,8 +1,8 @@
 ---
-description: How to contribute
+title: Contributing
+description: How to create and edit content on Machine Translate
+has_children: true
 ---
-
-# Contributing
 
 Machine Translate is **created and edited by [contributors like you!](https://github.com/machinetranslate/machinetranslate.org/graphs/contributors)**  It is **open-source** and lives [**on GitHub**](https://github.com/machinetranslate/machinetranslate.org).
 

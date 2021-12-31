@@ -1,8 +1,7 @@
 ---
-description: Machine translation for professional translation and localization
+title: Translation and localization
+description: Machine translation for translation and localization
 ---
-
-# Translation and localization
 
 Machine translation is a key technology in professional **translation and localization** workflows.
 

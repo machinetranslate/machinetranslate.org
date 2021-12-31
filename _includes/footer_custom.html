@@ -1,5 +1,31 @@
+{% if page.nav_exclude != true or page.title == '404' %}
+  <center>
+    <p>
+      {% if page.layout == 'coming_soon' or page.title == '404' %}
+        <a
+          target="_blank"
+          href="https://github.com/machinetranslate/machinetranslate.org/new/master/{{ page.path }}">
+          <strong>Create this page</strong>
+        </a>
+      {% else %}
+        <a
+          target="_blank"
+          href="https://github.com/machinetranslate/machinetranslate.org/edit/master/{{ page.path }}">
+          <strong>Edit this page</strong>
+        </a>
+      {% endif %}
+    </p>
+  </center>
+{% endif %}
+
 <center>
-  <a href="https://github.com/machinetranslate/machinetranslate.org/edit/master{% page.url %}">
-    Edit this page
-  </a>
+  <p>
+      Machine Translate is created and edited by contributors like you!
+  </p>
+  <p>
+    <a
+      href="/contributing">
+      Learn more about contributing
+    </a>
+  </p>
 </center>

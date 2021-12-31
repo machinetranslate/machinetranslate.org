@@ -1,5 +1,6 @@
 ---
-description: Parallel data for machine translation
+title: Parallel data
+description: Parallel data for training machine translation
 ---
 
 # Parallel data

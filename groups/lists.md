@@ -1,8 +1,7 @@
 ---
+title: Lists
 description: Machine translation mailing lists
 ---
-
-# Lists
 
 ### MT-List
 

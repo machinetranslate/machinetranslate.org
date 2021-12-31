@@ -1,5 +1,6 @@
 ---
-description: Machine translation for live chats
+title: Live chat
+description: Machine translation for live chat
 ---
 
 # Live chat

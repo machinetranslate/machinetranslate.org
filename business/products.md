@@ -1,10 +1,9 @@
 ---
-description: Providers of machine translation services
+title: Products
+description: Machine translation products
 ---
 
-# Providers
-
-Machine translation **providers** offer ready-to-use machine translation systems. Typically the systems are provided as APIs, and also as applications or integrations.
+Machine translation products include ready-to-use machine translation APIs and applications.  Systems can also be made available via integrations.
 
 They vary by:
 

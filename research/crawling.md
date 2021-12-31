@@ -1,8 +1,5 @@
 ---
-description: Crawling the web for parallel training data
+layout: coming_soon
+title: Crawling
+description: Crawling the web for machine translation training data
 ---
-
-# Crawling
-
-**Coming soon!**
-

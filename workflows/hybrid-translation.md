@@ -1,8 +1,7 @@
 ---
+title: Hybrid translation
 description: Workflow with both human translations and pure machine translations
 ---
-
-# Hybrid translation
 
 In a **hybrid translation** workflow, some raw machine translations are never seen or touched by a human translator.
 

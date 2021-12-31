@@ -1,8 +1,7 @@
 ---
-description: Rule-based machine translation
+title: Rule-based machine translation
+description: Rule-based approaches to machine translation
 ---
-
-# Rule-based machine translation
 
 **Rule-based machine translation** is a machine translation approach based on the linguistic information of the source and target languages.
 

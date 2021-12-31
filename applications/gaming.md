@@ -1,8 +1,7 @@
 ---
+title: Gaming
 description: Machine translation for gaming
 ---
-
-# Gaming
 
 Machine translation for **gaming** is the translation of in-game and out-of-game text.
 

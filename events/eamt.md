@@ -1,5 +1,6 @@
 ---
-description: 23rd annual conference of the EAMT
+title: EAMT
+description: Annual conference of the European Association for Machine Translation
 ---
 
 # EAMT 2022

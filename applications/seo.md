@@ -1,8 +1,7 @@
 ---
+title: SEO
 description: Machine translation for SEO
 ---
-
-### SEO
 
 Machine translation for **search engine optimization** \(**SEO**\) is the translation of [commerce and marketplace](/applications/commerce-and-marketplaces) website content into the languages in which users are searching.
 

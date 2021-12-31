@@ -1,8 +1,7 @@
 ---
+title: Georges Artsrouni
 description: Engineer and early machine translation inventor
 ---
-
-# Georges Artsrouni
 
 **Georges Artsrouni** was an engineer who filed and received the first patent for a mechanical translator.
 

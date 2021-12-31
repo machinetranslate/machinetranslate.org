@@ -1,7 +1,8 @@
 ---
+title: Petr Troyanskii
 description: Scholar and early machine translation inventor
 ---
-# Petr Troyanskii
+
 **Petr Troyanskii** was an educator and scholar. In 1935, he filed and received USSR Patent 40995 for his machine translation invention.
 
 The machine selected and typed words when translating from one language to another 

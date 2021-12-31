@@ -1,4 +1,5 @@
 ---
+title: Research groups
 description: Machine translation research groups
 ---
 

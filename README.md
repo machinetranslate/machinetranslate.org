@@ -1,10 +1,13 @@
 ---
-description: The open guide to machine translation
+title: Machine Translate
+description: Open resources and community for machine translation
+permalink: /
 ---
 
 # Machine Translate
 
-**Machine Translate** is the open guide to machine translation, from history to research to business.
+**Machine Translate** provides open resources and community for machine translation, from history to research to business.
+
 
 ## Community
 

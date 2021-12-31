@@ -1,7 +1,8 @@
 ---
+title: John Hutchins
 description: Linguist and early machine translation researcher
 ---
-# John Hutchins
+
 **John Hutchins** was a linguist and information scientist who researched machine translation.
 
 He studied at the University of Nottingham and the University of East Anglia.

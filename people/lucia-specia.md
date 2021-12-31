@@ -1,7 +1,8 @@
 ---
+title: Lucia Specia
 description: Machine translation researcher
 ---
-# Lucia Specia
+
 **Lucia Specia** is a researcher and professor of natural language processing.
 She led early research on machine translation [quality estimation](/quality/quality-estimation.md).
 

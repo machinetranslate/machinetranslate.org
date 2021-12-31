@@ -1,8 +1,7 @@
 ---
-description: 'Foundings, investments and acquisitions in the machine translation space'
+title: Companies
+description: Companies in the machine translation space
 ---
-
-# Companies
 
 The history of machine translation companies begins in the defense and intelligence sector.
 

@@ -1,7 +1,8 @@
 ---
+title: Peter Toma
 description: Developer of the first machine translation product
 ---
-# Peter Toma
+
 **Peter Toma** was a computer scientist, linguistics researcher and entrepreneur.
 
 In 1956, Toma developed software for machine translation at the California Institute of Technology. 

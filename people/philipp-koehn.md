@@ -1,7 +1,8 @@
 ---
+title: Philipp Koehn
 description: Machine translation researcher
 ---
-# Philipp Koehn
+
 **Philipp Koehn** is a machine translation researcher and co-inventor of phrased-based machine translation.
 
 In 2003, while at the University of Southern California, he co-authored a paper on phrase-based statistical machine translation,
