@@ -32,6 +32,7 @@
 - [n-gram](https://github.com/machinetranslate/machinetranslate.org/issues/108)
 - [Vector](https://github.com/machinetranslate/machinetranslate.org/issues/112)
 - [Language model](https://github.com/machinetranslate/machinetranslate.org/issues/107)
+- Sentence splitting
 
 ### Advanced concepts - Application
 
