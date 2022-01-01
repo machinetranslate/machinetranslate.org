@@ -4,24 +4,23 @@ title: IAMT
 description: International Association for Machine Translation
 ---
 
-The International Association for Machine Translation was founded in 1992.
+The **International Association for Machine Translation** was founded in 1992.
 
 The mission of IAMT is:
 > Bring together users, developers and researchers of automated translation technology.
 
-The [Machine Translation Summit](/events/mt-summit.md) (MT Summit) is held by the regional associations of IAMT.
+The IAMT consists of regional associations.
+
+{% include collapsible_toc.html %}
 
 ## Regional associations
 
-### Americas
-[AMTA](/organizations/amta.md) - Association for Machine Translation in the Americas
+- [Association for Machine Translation in the Americas](/organizations/amta.md) (AMTA)
+- [Asia-Pacific Association for Machine Translation](/organizations/aamt.md) (AAMT)
+- [European Association for Machine Translation](/organizations/eamt.md) (EAMT)
 
-### Asia-Pacific
-[AAMT](/organizations/aamt.md) - Asia-Pacific Association for Machine Translation
-
-### Europe
-[EAMT](/organizations/eamt.md) - European Association for Machine Translation
-
+## Events
+The regional associations of IAMT hold the [MT Summit](/events/mt-summit.md).
 
 ## Executive Committee
 

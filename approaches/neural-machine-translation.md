@@ -1,5 +1,5 @@
 ---
-nav_order: 1
+nav_order: 30
 parent: Approaches
 has_children: true
 title: Neural machine translation

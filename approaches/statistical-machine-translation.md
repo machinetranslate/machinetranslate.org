@@ -1,5 +1,5 @@
 ---
-nav_order: 2
+nav_order: 20
 parent: Approaches
 title: Statistical machine translation
 description: Statistical approaches to machine translation

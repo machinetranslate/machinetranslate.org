@@ -1,5 +1,5 @@
 ---
-nav_order: 3
+nav_order: 10
 parent: Approaches
 title: Rule-based machine translation
 description: Rule-based approaches to machine translation
