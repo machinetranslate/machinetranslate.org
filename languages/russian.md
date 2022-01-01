@@ -1,4 +1,5 @@
 ---
+parent: Languages
 title: Russian
 description: Machine translation for Russian
 ---

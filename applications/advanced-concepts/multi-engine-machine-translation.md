@@ -1,4 +1,5 @@
 ---
+parent: Applications
 title: Multi-engine machine translation
 description: Machine translation with multiple systems
 ---

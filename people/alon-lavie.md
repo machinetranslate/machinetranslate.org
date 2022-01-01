@@ -1,4 +1,6 @@
 ---
+parent: People
+grand_parent: Community
 title: Alon Lavie
 description: Machine translation researcher, entrepreneur and engineering director
 ---
@@ -19,6 +21,6 @@ Translation in the Americas. He was also a member of the Association for Computa
 In 2004, Lavie and Michael Denkowski published [METEOR](/metrics/meteor.md), an automatic metric
 for the evaluation of machine translation output.
 
-In 2009, he co-founded [Safaba](/business/companies.md#safaba). In 2015, it was acquired by Amazon, and became Amazon Translate.
+In 2009, he co-founded [Safaba](/industry/companies.md#safaba). In 2015, it was acquired by Amazon, and became Amazon Translate.
 
-In 2019, Lavie joined [Unbabel](/business/companies.md#unbabel) as Head of AI.
+In 2019, Lavie joined [Unbabel](/industry/companies.md#unbabel) as Head of AI.

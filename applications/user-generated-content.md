@@ -1,4 +1,5 @@
 ---
+parent: Applications
 title: User-generated content
 description: Machine translation for user-generated content
 ---

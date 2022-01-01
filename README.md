@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: Machine Translate
 description: Open resources and community for machine translation
 permalink: /

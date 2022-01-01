@@ -1,9 +1,11 @@
 ---
+nav_order: 20
+parent: Community
 title: Research groups
 description: Machine translation research groups
 ---
 
-# Research groups
+Machine translation research groups
 
 | Research laboratory | Organization | Type | Country |
 | --- | --- | --- | --- |

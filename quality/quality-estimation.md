@@ -1,4 +1,5 @@
 ---
+parent: Quality
 title: Quality estimation
 description: Machine translation quality estimation
 ---

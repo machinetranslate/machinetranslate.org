@@ -1,4 +1,5 @@
 ---
+parent: Applications
 title: SEO
 description: Machine translation for SEO
 ---

@@ -1,4 +1,5 @@
 ---
+parent: Events
 title: Machine Translation Meetup
 description: Machine Translation Meetup (MTM) - Zurich 
 ---

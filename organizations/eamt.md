@@ -1,4 +1,5 @@
 ---
+parent: Organizations
 title: EAMT
 description: European Association for Machine Translation
 ---

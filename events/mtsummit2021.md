@@ -1,4 +1,5 @@
 ---
+parent: Events
 title: MT Summit 2021
 description: Machine Translation Summit
 ---

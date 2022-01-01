@@ -1,4 +1,5 @@
 ---
+parent: Industry
 title: Companies
 description: Companies in the machine translation space
 ---
@@ -8,6 +9,8 @@ The history of machine translation companies begins in the defense and intellige
 Other players, from technology giants to translation agencies to the European Union, increasingly build their own machine translation.
 
 Since the advent of statistical machine translation and neural machine translation, there are growth companies backed by venture capital.
+
+{% include collapsible_toc.html %}
 
 ## 2019
 

@@ -1,4 +1,6 @@
 ---
+grand_parent: Community
+parent: People
 title: Kishore Papineni
 description: Research scientist and co-author of the BLEU metric
 ---

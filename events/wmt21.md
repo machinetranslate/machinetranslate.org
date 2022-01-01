@@ -1,4 +1,5 @@
 ---
+parent: Events
 title: WMT21
 description: Conference on Machine Translation
 ---

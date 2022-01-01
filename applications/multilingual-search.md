@@ -1,4 +1,5 @@
 ---
+parent: Applications
 title: Multilingual search
 description: Machine translation for multilingual search
 ---

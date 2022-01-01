@@ -1,4 +1,5 @@
 ---
+parent: Events
 title: LoResMT 2021
 description: Workshop on Low-Resource Machine Translation
 ---

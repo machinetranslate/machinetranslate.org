@@ -1,4 +1,5 @@
 ---
+parent: Workflows
 title: Hybrid translation
 description: Workflow with both human translations and pure machine translations
 ---

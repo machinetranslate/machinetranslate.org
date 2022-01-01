@@ -1,4 +1,6 @@
 ---
+grand_parent: Community
+parent: People
 title: Georges Artsrouni
 description: Engineer and early machine translation inventor
 ---
@@ -13,12 +15,12 @@ The mechanical translator was in the form of a paper tape. It was a general-purp
 
 He then built a second version.  In 1937 it won the main prize for mechanography at an exhibition in Paris.
 
-In the same years, [Petr Troyanskii](/people/petr-troyanskii.md) independently filed a patent in Moscow. 
+In the same years, [Petr Troyanskii](/people/petr-troyanskii.md) independently filed a patent in Moscow.
 
 In the 1960s, the device was acquired by the Museum of Arts and Crafts in Paris.
 
 ---
 
- ##### Les machines à traduire de Georges Artsrouni*  
+ ##### Les machines à traduire de Georges Artsrouni*
  Maurice Daumas, *Revue d'histoire des sciences*, 1965
 

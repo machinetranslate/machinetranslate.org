@@ -1,4 +1,5 @@
 ---
+parent: Applications
 title: Translation and localization
 description: Machine translation for translation and localization
 ---

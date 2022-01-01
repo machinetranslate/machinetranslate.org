@@ -1,4 +1,5 @@
 ---
+parent: Applications
 title: Social networks
 description: Machine translation for social networks
 ---

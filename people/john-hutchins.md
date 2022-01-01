@@ -1,4 +1,6 @@
 ---
+grand_parent: Community
+parent: People
 title: John Hutchins
 description: Linguist and early machine translation researcher
 ---

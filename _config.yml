@@ -1,12 +1,12 @@
+# Site settings
+
 domain: machinetranslate.org
 url: https://machinetranslate.org
 title: Machine Translate
 description: Open resources and community for machine translation
 
-# Site settings
-permalink: pretty
-
 # Pages permalink
+permalink: pretty
 # TODO: remove this by moving them all under a content/ directory
 defaults:
   -
@@ -17,13 +17,25 @@ defaults:
       permalink: /:basename
   -
     scope:
-      path: "business"
+      path: "approaches"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "industry"
       type: "pages"
     values:
       permalink: /:basename
   -
     scope:
       path: "contributing"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "community"
       type: "pages"
     values:
       permalink: /:basename
@@ -36,18 +48,6 @@ defaults:
   -
     scope:
       path: "events"
-      type: "pages"
-    values:
-      permalink: /:basename
-  -
-    scope:
-      path: "general"
-      type: "pages"
-    values:
-      permalink: /:basename
-  -
-    scope:
-      path: "groups"
       type: "pages"
     values:
       permalink: /:basename
@@ -89,6 +89,8 @@ defaults:
       permalink: /:basename
 
 
+# Just the Docs
+
 remote_theme: pmarsceill/just-the-docs
 
 logo: favicon.ico
@@ -99,12 +101,17 @@ search:
   button: true
   heading_level: 3
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-readme-index
-  - jekyll-feed
-
 last_edit_timestamp: true
 
 back_to_top: true
 back_to_top_text: ↑
+
+
+# Plugins
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-readme-index
+  - jekyll-feed
+  - jekyll-target-blank
+

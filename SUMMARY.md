@@ -1,9 +1,7 @@
-# Table of contents
-
 * Approaches
-  * [Rule-based machine translation](general/rule-based.md)
-  * [Statistical machine translation](general/statistical.md)
-  * [Neural machine translation](general/neural.md)
+  * [Rule-based machine translation](approaches/rule-based.md)
+  * [Statistical machine translation](approaches/statistical.md)
+  * [Neural machine translation](approaches/neural.md)
 
 * Customization
   * [Adaptive machine translation](customization/adaptive.md)
@@ -14,6 +12,7 @@
 
 * Quality
   * [Quality estimation](quality/quality-estimation.md)
+  * [Quality evaluation](quality/quality-evaluation.md)
 
 * Research
   * [Crawling](research/crawling.md)
@@ -39,9 +38,9 @@
   * [Translation and localization](applications/translation-and-localization.md)
 
 * Business
-  * [Companies](business/companies.md)
-  * [Data confidentiality](business/data-confidentiality.md)
-  * [Products](business/products.md)
+  * [Companies](industry/companies.md)
+  * [Data confidentiality](industry/data-confidentiality.md)
+  * [Products](industry/products.md)
 
 
 * Languages

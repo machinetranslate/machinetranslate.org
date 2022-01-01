@@ -1,0 +1,18 @@
+// External links
+
+.main-content {
+
+  a[href]:not(:where(
+    /* exclude hash only links */
+    [href^="#"],
+    /* exclude relative links */
+    [href^="/"],
+    /* domains to exclude */
+    [href*="://machinetranslate.org"],
+    [href*="://localhost:"],
+
+    )):after {
+    content: ' ↗️';
+  }
+
+}

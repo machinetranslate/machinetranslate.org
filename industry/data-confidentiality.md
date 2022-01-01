@@ -1,4 +1,5 @@
 ---
+parent: Industry
 title: Data confidentiality
 description: Data confidentiality in machine translation
 ---

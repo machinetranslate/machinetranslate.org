@@ -1,4 +1,6 @@
 ---
+nav_order: 120
+has_children: true
 title: Events
 description: Machine translation events
 ---

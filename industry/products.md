@@ -1,4 +1,5 @@
 ---
+parent: Industry
 title: Products
 description: Machine translation products
 ---

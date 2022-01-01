@@ -1,4 +1,5 @@
 ---
+parent: Events
 title: ASLTRM 2021
 description: Workshop on Automatic Spoken Language Translation in Real-World Settings
 ---

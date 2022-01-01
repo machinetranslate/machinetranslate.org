@@ -1,4 +1,5 @@
 ---
+parent: Contributing
 title: Roadmap
 description: Content roadmap for Machine Translate
 ---
@@ -59,7 +60,7 @@ description: Content roadmap for Machine Translate
 - [Human-in-the-loop](https://github.com/machinetranslate/machinetranslate.org/issues/76)
 
 
-### Business
+### Industry
 
 - [Pricing](https://github.com/machinetranslate/machinetranslate.org/issues/77)
 - Data confidentiality

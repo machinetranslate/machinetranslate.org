@@ -1,4 +1,5 @@
 ---
+parent: Customization
 title: Adaptive machine translation
 description: Machine translation with online learning
 ---

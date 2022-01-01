@@ -1,4 +1,6 @@
 ---
+grand_parent: Community
+parent: People
 title: Philipp Koehn
 description: Machine translation researcher
 ---
@@ -14,6 +16,6 @@ His early contributions include:
 * the Europarl corpus
 * organizing the machine translation research community, including WMT
 
-He was a professor at the University of Edinburgh and then Johns Hopkins University and Chief Scientist at [Omniscien Technologies](business/companies.md#omniscien-technologies).
+He was a professor at the University of Edinburgh and then Johns Hopkins University and Chief Scientist at [Omniscien Technologies](industry/companies.md#omniscien-technologies).
 
 In 2021, he joined Facebook AI as a Research Scientist.

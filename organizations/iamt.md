@@ -1,4 +1,5 @@
 ---
+parent: Organizations
 title: IAMT
 description: International Association for Machine Translation
 ---

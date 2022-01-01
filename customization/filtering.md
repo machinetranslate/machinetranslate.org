@@ -1,4 +1,5 @@
 ---
+parent: Customization
 title: Filtering
 description: Filtering training data for machine translation
 ---
