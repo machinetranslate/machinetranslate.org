@@ -74,12 +74,24 @@ description: Training data for machine translation
 ---
 ```
 
-**Parent** is the name of the section. **Title** is the article title. **Description** is a phrase that summarizes the content.
+**Parent** is the name of the section.
+
+**Title** is the article header.
+
+**Description** is a phrase that summarizes the content.
 
 
 ## Headers
 
-The `title` in the description is the article header. Article sub-headers are H3.
+The `title` in the description is the article header.
+
+```
+---
+title: Training data
+---
+```
+
+Article sub-headers are H3.
 
 ```
 ### Challenges
