@@ -17,6 +17,7 @@ The new shared tasks focusing on the building of MT systems for COVID-related te
 - English <> Marathi
 
 ### Schedule
+
 | | |
 | -- | -- |
 | 08:00-08:15 | _**Opening remarks**_ |
