@@ -3,6 +3,8 @@ nav_order: 200
 has_children: true
 title: Contributing
 description: How to contribute to Machine Translate
+seo:
+  type: HowTo
 ---
 
 Machine Translate is **created and edited by [contributors like you!](https://github.com/machinetranslate/machinetranslate.org/graphs/contributors)**  It is **open-source** and lives [**on GitHub**](https://github.com/machinetranslate/machinetranslate.org).

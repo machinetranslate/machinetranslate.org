@@ -1,4 +1,5 @@
 ---
+nav_order: 1
 parent: Contributing
 title: Style
 description: The Machine Translate style guide

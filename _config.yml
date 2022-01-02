@@ -9,6 +9,13 @@ description: Open resources and community for machine translation
 permalink: pretty
 # TODO: remove this by moving them all under a content/ directory
 defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      image: /machinetranslate.png
+      seo:
+        type: Article
   -
     scope:
       path: "applications"
@@ -33,6 +40,8 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename
+      seo:
+        type: WebPage
   -
     scope:
       path: "community"
@@ -51,6 +60,8 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename
+      seo:
+        type: Event
   -
     scope:
       path: "languages"
@@ -63,12 +74,16 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename
+      seo:
+        type: Organization
   -
     scope:
       path: "people"
       type: "pages"
     values:
       permalink: /:basename
+      seo:
+        type: Person
   -
     scope:
       path: "quality"
@@ -106,6 +121,8 @@ last_edit_timestamp: true
 back_to_top: true
 back_to_top_text: ↑
 
+# Google Analytics
+ga_tracking: G-MJD8MHH513
 
 # Plugins
 
@@ -114,4 +131,24 @@ plugins:
   - jekyll-readme-index
   - jekyll-feed
   - jekyll-target-blank
+  - jekyll-seo-tag
 
+# Default theme settings
+# Unused
+minima:
+  social_links:
+    github: machinetranslate
+    twitter: machtranslate
+    facebook: machinetranslate
+    linkedin: machinetranslate
+
+# SEO settings
+
+seo:
+  type: organization
+
+social:
+  github: machinetranslate
+  twitter: machtranslate
+  facebook: machinetranslate
+  linkedin: machinetranslate

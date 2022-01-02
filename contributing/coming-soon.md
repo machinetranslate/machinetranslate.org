@@ -1,4 +1,5 @@
 ---
+nav_order: 2
 parent: Contributing
 title: Coming soon
 description: Articles that are coming soon to Machine Translate

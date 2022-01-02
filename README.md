@@ -3,16 +3,21 @@ nav_exclude: true
 title: Machine Translate
 description: Open resources and community for machine translation
 permalink: /
+seo:
+  type: Organization
 ---
 
 # Machine Translate
 
-**Machine Translate** is a set of **open resources and community for machine translation**, from history to products to research.
+**Machine Translate** is a set of **open resources and community for machine translation**, from products to research, and from history to news.
 
 
 ## Contributing
 
-This guide is open-source. You can create or edit the content.
+Machine Translate is open-source. You can create or edit the content.
+
+{% include contributions.html %}
+{{ site.github.contributors | size }} contributors have made {{ all_contributions }} contributions.
 
 [**Learn more about contributing**](/contributing/contributing.md)
 
@@ -28,13 +33,15 @@ Read news, ask and answer questions and share your work
 
 Machine Translate is supported by [**ModelFront**](https://modelfront.com) and people like you.
 
-> Want to support Machine Translate?
->
-> Shoot us an email at [contact@machinetranslate.org](mailto:contact@machinetranslate.org)
+[**Learn more about the foundation**](/about.md)
 
 
-## Follow along
+## Updates
 
-Watch and star the repo, browse and subscribe to issues and more on [GitHub](https://github.com/machinetranslate)
+Watch and star the content source repository, browse and subscribe to issues and more
 
-Follow Machine Translate on [Twitter](https://twitter.com/machtranslate), [LinkedIn](https://linkedin.com/company/machinetranslate) or [Facebook](https://facebook.com/machinetranslate)
+[**Visit Machine Translate on GitHub**](https://github.com/machinetranslate)
+
+[Follow Machine Translate on Twitter](https://twitter.com/machtranslate)  
+[Follow Machine Translate on LinkedIn](https://linkedin.com/company/machinetranslate)  
+[Follow Machine Translate on Facebook](https://facebook.com/machinetranslate)
