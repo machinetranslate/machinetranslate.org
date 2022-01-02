@@ -12,7 +12,11 @@
     [href*="://localhost:"],
 
     )):after {
-    content: ' ↗️';
+    /* ↗️ is too ugly on iOS and Firefox, so we hack it. */
+    content: '→';
+    transform: rotate(-45deg);
+    display: inline-block;
+    padding-left: 0.2em;
   }
 
 }
