@@ -4,7 +4,7 @@ title: MT Summit 2021
 description: Machine Translation Summit
 ---
 
-The **Machine Translation Summit 2021** (**MT Summit 2021**) took place on August 16-20th as a 5-day virtual event.
+The Machine Translation Summit 2021 (**MT Summit 2021**) took place on August 16-20th as a 5-day virtual event.
 
 ### Keynote Speakers
 
