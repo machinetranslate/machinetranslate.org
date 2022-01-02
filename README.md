@@ -9,7 +9,9 @@ seo:
 
 # Machine Translate
 
-**Machine Translate** is a set of **open resources and community for machine translation**, from products to research, and from history to news.
+**Machine Translate** is building **open resources and community for machine translation**.
+
+The content covers everything about machine translation, from products to research, and from history to news.
 
 
 ## Contributing
@@ -24,24 +26,25 @@ Machine Translate is open-source. You can create or edit the content.
 
 ## Community
 
-Read news, ask and answer questions and share your work
+Read news, ask and answer questions and share your work!
 
 [**Join our community**](https://form.typeform.com/c/ndac7OIs)
 
 
-## Supporters
-
-Machine Translate is supported by [**ModelFront**](https://modelfront.com) and people like you.
-
-[**Learn more about the foundation**](/about.md)
-
-
 ## Updates
 
-Watch and star the content source repository, browse and subscribe to issues and more
+Watch and star the content source repository, browse and subscribe to issues and more!
 
 [**Visit Machine Translate on GitHub**](https://github.com/machinetranslate)
 
 [Follow Machine Translate on Twitter](https://twitter.com/machtranslate)  
 [Follow Machine Translate on LinkedIn](https://linkedin.com/company/machinetranslate)  
 [Follow Machine Translate on Facebook](https://facebook.com/machinetranslate)
+
+
+## About Machine Translate
+
+Machine Translate is on a mission to make machine translation more accessible to more people.
+Our mission is supported by people like you.
+
+[**Learn more about the foundation**](/about.md)
