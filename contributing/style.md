@@ -61,9 +61,6 @@ Machine Translate articles are written in [markdown](https://www.markdownguide.o
 
 Follow the structure used in the published Machine Translate articles.
 
-## Headers
-
-Article headers are H1. Article sub-headers are H3.
 
 ## Description
 
@@ -71,14 +68,26 @@ Add a description box at the beginning of each article.
 
 ```
 ---
+parent: Customization
+title: Training data
 description: Training data for machine translation
 ---
+```
+
+**Parent** is the name of the section. **Title** is the article title. **Description** is a phrase that summarizes the content.
+
+
+## Headers
+
+The `title` in the description is the article header. Article sub-headers are H3.
+
+```
+### Challenges
 ```
 
 ## Body
 
 Leave an empty line between headers or sub-headers and paragraphs.
-
 ## Consistency
 
 Review other articles for consistency.
