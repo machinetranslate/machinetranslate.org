@@ -31,7 +31,7 @@
 - [Language model](https://github.com/machinetranslate/machinetranslate.org/issues/107)
 - Word embeddings
 
-### Concepts - Translator-Machine interaction
+### Concepts - Human translation
 
 - Post-editing
 - Hybrid translation
@@ -54,8 +54,8 @@
 - [Tokenization](https://github.com/machinetranslate/machinetranslate.org/issues/73)
 - [Byte-pair encoding](https://github.com/machinetranslate/machinetranslate.org/issues/75)
 - [Human-in-the-loop](https://github.com/machinetranslate/machinetranslate.org/issues/76)
-- Unsupervised MT
-- Zero-shot
+- Unsupervised machine translation
+- Zero-shot machine translation
 
 
 ### Business
@@ -112,7 +112,7 @@
 - Russian
 - [Chinese](https://github.com/machinetranslate/machinetranslate.org/issues/101)
 - [Spanish](https://github.com/machinetranslate/machinetranslate.org/issues/102)
-- Under-resourced languages
+- Low-resource languages
 
 ### People
 
