@@ -6,11 +6,11 @@ title: Neural machine translation
 description: Deep learning approaches to machine translation
 ---
 
-**Neural machine translation** (NMT) is a machine translation approach based on machine learning that uses large neural networks to predict the likelihood of correct translations. Like [statistical machine translation](statistical-machine-transalation.md), neural machine translation is data-driven.
+**Neural machine translation** (NMT) is a machine translation approach based on machine learning that uses large neural networks to predict the likelihood of correct translations. Like [statistical machine translation](statistical-machine-translation.md), neural machine translation is data-driven.
 
 ### Neural networks
 
-Neural networks use [training data](/customization/training-data.md) to create [vectors](concepts/vector.md) for every word and its relations, called word embeddings. Words with similar meaning cluster together and words with more than one meaning appear simultaneously in different clusters.
+Neural networks use [training data](../customization/training-data.md) to create [vectors](../concepts/vector.md) for every word and its relations, called word embeddings. Words with similar meaning cluster together and words with more than one meaning appear simultaneously in different clusters.
 
 **Cluster<sub>1</sub>**:
 - **Bank**
