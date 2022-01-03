@@ -88,6 +88,7 @@ More companies have researched quality estimation internally, but did not launch
 - VMware
 - eBay
 - Facebook AI Research
+- MusixMatch
 
 *Note: This list is incomplete.*
 

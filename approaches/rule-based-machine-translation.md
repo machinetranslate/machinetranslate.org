@@ -5,7 +5,7 @@ title: Rule-based machine translation
 description: Rule-based approaches to machine translation
 ---
 
-**Rule-based machine translation** or **rules-based machine translation** (RBMT) is a machine translation approach based on hardcoded linguistic rules.
+**Rule-based machine translation** or **rules-based machine translation** (**RBMT**) is a machine translation approach based on hardcoded linguistic rules.
 
 ### Requirements
 
