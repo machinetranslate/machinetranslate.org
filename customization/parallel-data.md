@@ -14,7 +14,13 @@ description: Parallel data for training machine translation
 
 Parallel datasets can include translations for one or more language pairs, and be directioned or directionless.
 
-Parallel data can be created by crawling and aligned monolingual test, and by [back-translation](/customization/back-translation.md) or [back-copying](/customization/back-translation.md).
+### Parallel data creation
+
+Parallel datasets can be created manually or automatically, or created synthetically from monolingual data.
+- Human translation or human [post-editing](/workflows/post-editing)
+- [Crawling](/research/crawling), [alignment](/research/alignment) and [filtering](/customization/filtering)
+- [Back-translation](/customization/back-translation.md)
+- [Back-copying](/customization/back-translation.md)
 
 ### Goals
 
