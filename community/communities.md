@@ -11,7 +11,7 @@ description: Machine translation communities
 
 ### MT-List
 
-**MT-List** (mt-list@eamt.org) is the mailing list of [EAMT](organizations/eamt.md).
+**MT-List** (mt-list@eamt.org) is the mailing list of [EAMT](eamt.md).
 
 > The EAMT has a mailing list dedicated to MT. This list is open to the public and serves as a forum for the discussion and exchange of information for all aspects of translation technology.
 
