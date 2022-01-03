@@ -109,7 +109,7 @@ defaults:
 remote_theme: pmarsceill/just-the-docs
 
 logo: favicon.ico
-color_scheme: blue
+color_scheme: swissred
 
 search:
   rel_url: false
