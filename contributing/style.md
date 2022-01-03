@@ -1,10 +1,11 @@
 ---
-description: How to edit and contribute to Machine Translate
+nav_order: 1
+parent: Contributing
+title: Style
+description: The Machine Translate style guide
 ---
 
-# Style
-
-Machine Translate was founded as an open guide for people who want to use machine translation in their work, products or services. They are diverse and busy, so the content should be high-level and understandable.
+Machine Translate was founded as open resources and community for people who want to use machine translation in their work, products or services. They are diverse and busy, so the content should be high-level and understandable.
 
 > **Less is more.**
 
@@ -61,9 +62,6 @@ Machine Translate articles are written in [markdown](https://www.markdownguide.o
 
 Follow the structure used in the published Machine Translate articles.
 
-## Headers
-
-Article headers are H1. Article sub-headers are H3.
 
 ## Description
 
@@ -71,14 +69,38 @@ Add a description box at the beginning of each article.
 
 ```
 ---
+parent: Customization
+title: Training data
 description: Training data for machine translation
 ---
+```
+
+**Parent** is the name of the section.
+
+**Title** is the article header.
+
+**Description** is a phrase that summarizes the content.
+
+
+## Headers
+
+The `title` in the description is the article header.
+
+```
+---
+title: Training data
+---
+```
+
+Article sub-headers are H3.
+
+```
+### Challenges
 ```
 
 ## Body
 
 Leave an empty line between headers or sub-headers and paragraphs.
-
 ## Consistency
 
 Review other articles for consistency.

@@ -1,0 +1,5 @@
+<!--- Sum contribution counts --->
+{% assign all_contributions = 0 %}
+{% for user in site.github.contributors %}
+  {% assign all_contributions = all_contributions | plus: user.contributions %}
+{% endfor %}

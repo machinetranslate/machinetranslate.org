@@ -1,11 +1,7 @@
-# Table of contents
-
-* [Machine Translate](README.md)
-
 * Approaches
-  * [Rule-based machine translation](general/rule-based.md)
-  * [Statistical machine translation](general/statistical.md)
-  * [Neural machine translation](general/neural.md)
+  * [Rule-based machine translation](approaches/rule-based.md)
+  * [Statistical machine translation](approaches/statistical.md)
+  * [Neural machine translation](approaches/neural.md)
 
 * Customization
   * [Adaptive machine translation](customization/adaptive.md)
@@ -16,6 +12,7 @@
 
 * Quality
   * [Quality estimation](quality/quality-estimation.md)
+  * [Quality evaluation](quality/quality-evaluation.md)
 
 * Research
   * [Crawling](research/crawling.md)
@@ -25,8 +22,6 @@
 * More concepts
   * [Tags and placeholders](applications/advanced-concepts/tags-and-placeholders.md)
   * [Multi-engine machine translation](applications/advanced-concepts/multi-engine-machine-translation.md)
-
-## Use cases
 
 * Workflows
   * [Post-editing (human translation)](workflows/post-editing.md)
@@ -43,16 +38,13 @@
   * [Translation and localization](applications/translation-and-localization.md)
 
 * Business
-  * [Companies](business/companies.md)
-  * [Data confidentiality](business/data-confidentiality.md)
-  * [Products](business/products.md)
+  * [Companies](industry/companies.md)
+  * [Data confidentiality](industry/data-confidentiality.md)
+  * [Products](industry/products.md)
 
 
-## Languages
-
-* [Russian](languages/russian.md)
-
-## Community
+* Languages
+  * [Russian](languages/russian.md)
 
 * People
   * [Georges Artsrouni](people/georges-artsrouni.md)
@@ -79,11 +71,17 @@
   * [SIGSLT](organizations/SIGSLT.md)
 
 * [Events](events/README.md)
-  * [MT Summit](events/mt-summit.md)
+  * [AMTA 2022](events/amta2022.md)
+  * [ASLTRM 2021](events/asltrm2021.md)
+  * [EAMT 2022](events/eamt2022.md)
+  * [LoResMT 2022](events/loresmt2022.md)
+  * [LoResMT 2021](events/loresmt2021.md)
+  * [MTM 2019](events/mtm2019.md)
+  * [MT Summit 2021](events/mtsummit2021.md)
+  * [PSLT 2021](events/pslt2021.md)
   * [WMT21](events/wmt21.md)
-  * [EAMT2022](events/eamt2022.md)
+  * [Zürich MT Meetup #9](events/zurich-9.md)
 
-## About Machine Translate
 
 * Contributing
   * [Join the community](https://form.typeform.com/c/ndac7OIs)

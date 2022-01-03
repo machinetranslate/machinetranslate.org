@@ -1,8 +1,8 @@
 ---
+parent: Applications
+title: Tags and placeholders
 description: Tags and placeholders in machine translation
 ---
-
-# Tags and placeholders
 
 **Tags** and **placeholders** are pieces of non-translatable code inside the input text.
 

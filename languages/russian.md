@@ -1,8 +1,8 @@
 ---
+parent: Languages
+title: Russian
 description: Machine translation for Russian
 ---
-
-# Russian
 
 Russian was one of the first languages for which machine translation was researched and developed, and remains one of the best supported languages.
 

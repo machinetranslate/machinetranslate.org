@@ -1,1 +1,154 @@
+# Site settings
 
+domain: machinetranslate.org
+url: https://machinetranslate.org
+title: Machine Translate
+description: Open resources and community for machine translation
+
+# Pages permalink
+permalink: pretty
+# TODO: remove this by moving them all under a content/ directory
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      image: /machinetranslate.png
+      seo:
+        type: Article
+  -
+    scope:
+      path: "applications"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "approaches"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "industry"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "contributing"
+      type: "pages"
+    values:
+      permalink: /:basename
+      seo:
+        type: WebPage
+  -
+    scope:
+      path: "community"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "customization"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "events"
+      type: "pages"
+    values:
+      permalink: /:basename
+      seo:
+        type: Event
+  -
+    scope:
+      path: "languages"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "organizations"
+      type: "pages"
+    values:
+      permalink: /:basename
+      seo:
+        type: Organization
+  -
+    scope:
+      path: "people"
+      type: "pages"
+    values:
+      permalink: /:basename
+      seo:
+        type: Person
+  -
+    scope:
+      path: "quality"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "research"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "workflows"
+      type: "pages"
+    values:
+      permalink: /:basename
+
+
+# Just the Docs
+
+remote_theme: pmarsceill/just-the-docs
+
+logo: favicon.ico
+color_scheme: blue
+
+search:
+  rel_url: false
+  button: true
+  heading_level: 3
+
+last_edit_timestamp: true
+
+back_to_top: true
+back_to_top_text: ↑
+
+# Google Analytics
+ga_tracking: G-MJD8MHH513
+
+# Plugins
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-readme-index
+  - jekyll-feed
+  - jekyll-target-blank
+  - jekyll-seo-tag
+
+# Default theme settings
+# Unused
+minima:
+  social_links:
+    github: machinetranslate
+    twitter: machtranslate
+    facebook: machinetranslate
+    linkedin: machinetranslate
+
+# SEO settings
+
+seo:
+  type: organization
+
+social:
+  github: machinetranslate
+  twitter: machtranslate
+  facebook: machinetranslate
+  linkedin: machinetranslate

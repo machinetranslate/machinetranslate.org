@@ -1,8 +1,6 @@
 ---
-description: Parallel data for training and customizing machine translation
+parent: Customization
+layout: coming_soon
+title: Training data
+description: Training data for customizing machine translation
 ---
-
-# Training data
-
-**Coming soon!**
-

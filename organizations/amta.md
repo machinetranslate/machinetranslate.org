@@ -1,4 +1,5 @@
 ---
+parent: Organizations
 title: AMTA
 description: European Association for Machine Translation
 ---
