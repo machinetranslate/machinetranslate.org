@@ -4,7 +4,7 @@ title: IAMT
 description: International Association for Machine Translation
 ---
 
-The **International Association for Machine Translation** was founded in 1992.
+The **International Association for Machine Translation** (**IAMT**) was founded in 1992.
 
 The mission of IAMT is:
 > Bring together users, developers and researchers of automated translation technology.
