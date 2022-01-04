@@ -88,14 +88,14 @@ When creating a new article, make sure its file name does not already exist.
 
 # 🔨 Markdown
 
-Machine Translate articles are written in [markdown](https://www.markdownguide.org/cheat-sheet/).
+Machine Translate articles are written in [Markdown](https://www.markdownguide.org/cheat-sheet/).
 
 Follow the structure from published Machine Translate articles.
 
 
-## Front matter
+## Front Matter
 
-Add front matter parameters at the beginning of each article.
+Add [Front Matter](https://jekyllrb.com/docs/front-matter/) variables at the beginning of each article.
 
 ```
 ---
@@ -105,22 +105,16 @@ description: Training data for machine translation
 ---
 ```
 
-- **Parent** is the name of the section.
-- **Title** is the article header.
-- **Description** is a phrase that summarizes the content.
+- `parent` is the name of the section.
+- `title` is the article header.
+- `description` is a phrase that summarizes the content.
 
 
 ## Headers
 
-The front matter `title` is the article header.
+The Front Matter `title` will automatically be displayed as an H1.
 
-```
----
-title: Training data
----
-```
-
-Create article sub-headers in H3.
+For sections header, use H3.
 
 ```
 ### Challenges
