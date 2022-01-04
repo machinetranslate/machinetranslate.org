@@ -9,15 +9,17 @@ Machine Translate was founded as open resources and community for people who wan
 
 > **Less is more.**
 
+# 📚 Content
+
 ## Default to Wikipedia style
 
-Default to the Wikipedia's [Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style) with regard to:
+Default to the Wikipedia's [Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style) and the [European Commission English Style Guide](https://ec.europa.eu/info/sites/default/files/styleguide_english_dgt_en.pdf) with regard to:
 
 * Content that's neutral, factual and evergreen
 * Titles, capitalization, punctuation and formatting
 * Linking to other articles with relative paths
 
-Default to American English orthography and to International English vocabulary.
+Default to UK English orthography and to International English vocabulary.
 
 
 ## Minimal content
@@ -50,22 +52,50 @@ Talk straight and make complex topics simple.
 
 Refer to this project and community as _Machine Translate_.
 
+
+# 🎨 Formatting
+
 ## Capitalization
 
 In headers, capitalize only the first letter.
 
 > How to contribute
 
-# Markdown
+## Spacing
 
-Machine Translate articles are written in [markdown](https://www.markdownguide.org/cheat-sheet/).
+Avoid double spaces and trailing spaces.
 
-Follow the structure used in the published Machine Translate articles.
+## Acronyms and abbreviations
+
+Only use widely understood acronyms. Expand acronyms they first time they appear in an article.
+
+> Neural machine translation (NMT)
+
+Do not overuse acronyms. Do not use abbreviations.
 
 
-## Description
+## Links
 
-Add a description box at the beginning of each article.
+Avoid **external** links, except for databases, important papers and events.
+
+Link anchor texts only the first time they appear in an article.
+
+
+## File names
+
+When creating a new article, make sure its file name does not already exist.
+
+
+# 🔨 Markdown
+
+Machine Translate articles are written in [Markdown](https://www.markdownguide.org/cheat-sheet/).
+
+Follow the structure from published Machine Translate articles.
+
+
+## Front Matter
+
+Add [Front Matter](https://jekyllrb.com/docs/front-matter/) variables at the beginning of each article.
 
 ```
 ---
@@ -75,24 +105,16 @@ description: Training data for machine translation
 ---
 ```
 
-**Parent** is the name of the section.
-
-**Title** is the article header.
-
-**Description** is a phrase that summarizes the content.
+- `parent` is the name of the section.
+- `title` is the article header.
+- `description` is a phrase that summarizes the content.
 
 
 ## Headers
 
-The `title` in the description is the article header.
+The Front Matter `title` will automatically be displayed as an H1.
 
-```
----
-title: Training data
----
-```
-
-Article sub-headers are H3.
+For sections header, use H3.
 
 ```
 ### Challenges
@@ -100,10 +122,22 @@ Article sub-headers are H3.
 
 ## Body
 
-Leave an empty line between headers or sub-headers and paragraphs.
+Leave an empty line between sub-headers and paragraphs.
+
+Leave an empty line between text and tables.
+
+```
+### Schedule
+
+|      |      |
+| ---- | ---- |
+| 8:00 | **Opening** |
+```
+
+
 ## Consistency
 
-Review other articles for consistency.
+Keep consistency with the other articles style.
 
 - _Goals_
 - _Challenges_
