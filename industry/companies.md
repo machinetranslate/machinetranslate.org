@@ -103,6 +103,10 @@ Acquired by TransPerfect in 2018
 
 Acquired by SDL/RWS for $42.5M in 2010
 
+## 2000
+
+### Pangeanic
+
 
 ## 1999
 
