@@ -7,7 +7,7 @@ seo:
   type: HowTo
 ---
 
-Machine Translate is **created and edited by [contributors like you!](https://github.com/machinetranslate/machinetranslate.org/graphs/contributors)**  It is **open-source** and lives [**on GitHub**](https://github.com/machinetranslate/machinetranslate.org).
+Machine Translate is **created and edited by [contributors like you!](contributors.md)**  It is **open-source** and lives [**on GitHub**](https://github.com/machinetranslate/machinetranslate.org).
 
 We recommend reading the [**roadmap**](/roadmap.md) and [**style guide**](style.md) before you start contributing.
 
