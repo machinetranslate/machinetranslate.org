@@ -17,10 +17,10 @@ Parallel datasets can include translations for one or more language pairs, and b
 ### Parallel data creation
 
 Parallel datasets can be created manually, automatically, or created synthetically from monolingual data.
-- Human translation or human [post-editing](/workflows/post-editing)
-- [Crawling](/research/crawling), [alignment](/research/alignment) and [filtering](/customization/filtering)
-- [Back-translation](/customization/back-translation.md)
-- [Back-copying](/customization/back-translation.md)
+- Human translation
+- Human [post-editing](/workflows/post-editing.md)
+- [Crawling](/research/crawling.md)
+- [Alignment](/research/alignment.md)
 
 ### Goals
 
@@ -36,16 +36,16 @@ Parallel data can have errors, like misaligned sentences, bad sentence segmentat
 
 | Name | Type |
 | ---- | ---- |
-| CCAligned | Data repository |
-| CCMatrix | Data repository |
-| Clarin | Data repository |
-| Europarl | Data set |
-| FLORES | Data set |
-| Hansard | Data set |
-| JESC | Data set |
-| Mozilla | Data repository |
-| OpenSubtitles | Data repository |
-| ParaCrawl | Data repository |
-| VoxPopuli | Data set |
-| WikiMatrix | Data repository |
-| WikiTitles | Data repository |
+| [CCAligned](https://opus.nlpl.eu/CCAligned.php) | Data repository |
+| [CCMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/CCMatrix) | Data repository |
+| [Clarin](https://www.clarin.eu/resource-families/parallel-corpora) | Data repository |
+| [Europarl](https://www.statmt.org/europarl/) | Data set |
+| [FLORES](https://github.com/facebookresearch/flores) | Data set |
+| [Hansard](https://catalog.ldc.upenn.edu/LDC95T20) | Data set |
+| [JESC](https://nlp.stanford.edu/projects/jesc/) | Data set |
+| [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | Data repository |
+| [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) | Data repository |
+| [ParaCrawl](https://paracrawl.eu/) | Data repository |
+| [VoxPopuli](https://github.com/facebookresearch/voxpopuli) | Data set |
+| [WikiMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/WikiMatrix) | Data repository |
+| [WikiTitles](https://huggingface.co/datasets/wmt/wikititles) | Data set |
