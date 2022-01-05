@@ -11,18 +11,18 @@ Machine Translate was founded as open resources and community for people who wan
 
 # 📚 Content
 
-## Default to Wikipedia style
+## 📋 Default to Wikipedia style
 
 Default to the Wikipedia's [Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style) and the [European Commission English Style Guide](https://ec.europa.eu/info/sites/default/files/styleguide_english_dgt_en.pdf) with regard to:
 
-* Content that's neutral, factual and evergreen
-* Titles, capitalization, punctuation and formatting
-* Linking to other articles with relative paths
+* Content that's neutral, factual and evergreen 🌿
+* Titles, capitalization, punctuation and formatting 📖
+* Linking to other articles with relative paths ⛓
 
 Default to UK English orthography and to International English vocabulary.
 
 
-## Minimal content
+## ♻️ Minimal content
 
 Unlike Wikipedia, the goal is to provide a helpful overview that is easy to read in full and easy to maintain.
 
@@ -35,7 +35,7 @@ Avoid parentheses, except for defining common abbreviations.
 > ... translation management system (TMS) ...
 
 
-## No marketing
+## ❌ No marketing
 
 Do not promote businesses and do not use cliché or meaningless terms.
 
@@ -43,47 +43,112 @@ Do not promote businesses and do not use cliché or meaningless terms.
 * _multilingual audiences_
 
 
-## Not too academic
+## 🙅 Not too academic
 
 Talk straight and make complex topics simple.
 
 
-## Machine Translate and machinetranslate.org
+## 🈹 Machine translation ready
+
+Machine Translate will be machine translated. Write articles that are ready for machine translation:
+
+- Follow the [Minimal content](#Minimal-content) guidelines.
+- Be concise and consistent.
+- Use active voice.
+- Check spelling.
+
+
+## 📅 Chronological order
+
+Arrange events, publications, and any information related to time in chronological order.
+
+
+## 👯 Consistency
+
+Keep consistency with the other articles style.
+
+- _Goals_
+- _Challenges_
+
+
+## 🎤 Machine Translate and machinetranslate.org
 
 Refer to this project and community as _Machine Translate_.
 
 
 # 🎨 Formatting
 
-## Capitalization
+## 🔠 Capitalization
 
 In headers, capitalize only the first letter.
 
 > How to contribute
 
-## Spacing
 
-Avoid double spaces and trailing spaces.
+## 🪐 Spacing
 
-## Acronyms and abbreviations
+❗️ Avoid double spaces and trailing spaces.
+
+
+## ✒️ Oxford comma
+
+Use the Oxford comma [where appropriate](https://en.wikipedia.org/wiki/Wikipedia:Guidance_on_applying_the_Manual_of_Style#Oxford_comma).
+
+
+## 👍 Apostrophes and quotation marks
+
+Use curly apostrophes and quotation marks.
+
+> ‘...’
+
+> “...”
+
+> ’
+
+
+## ⚠️ Acronyms and abbreviations
 
 Only use widely understood acronyms. Expand acronyms they first time they appear in an article.
 
 > Neural machine translation (NMT)
 
-Do not overuse acronyms. Do not use abbreviations.
+❗️ Do not overuse acronyms. Do not use abbreviations.
 
 
-## Links
+## 🧷 Links
+
+Only link **the same** word or phrase once per article.
 
 Avoid **external** links, except for databases, important papers and events.
 
-Link anchor texts only the first time they appear in an article.
 
+## ✅ Lists
 
-## File names
+For list items without a main verb, use initial lowercase and no end punctuation.
 
-When creating a new article, make sure its file name does not already exist.
+```
+For list items without verbs:
+
+- item 1
+- item 2
+- item 3
+
+```
+
+For list items with verbs, use initial uppercase and a period.
+
+```
+For list items with verbs:
+
+- Item 1 starts with uppercase and ends with a period.
+- Item 2 starts with uppercase and ends with a period.
+- Item 3 starts with uppercase and ends with a period.
+
+```
+
+## 👶 File names
+
+When creating a new article, give the file a name that does not exist in Machine Translate.
 
 
 # 🔨 Markdown
@@ -93,7 +158,7 @@ Machine Translate articles are written in [Markdown](https://www.markdownguide.o
 Follow the structure from published Machine Translate articles.
 
 
-## Front Matter
+## 📓 Front Matter
 
 Add [Front Matter](https://jekyllrb.com/docs/front-matter/) variables at the beginning of each article.
 
@@ -110,7 +175,7 @@ description: Training data for machine translation
 - `description` is a phrase that summarizes the content.
 
 
-## Headers
+## 📰 Headers
 
 The Front Matter `title` will automatically be displayed as an H1.
 
@@ -120,7 +185,7 @@ For sections header, use H3.
 ### Challenges
 ```
 
-## Body
+## 📜 Body
 
 Leave an empty line between sub-headers and paragraphs.
 
@@ -133,11 +198,3 @@ Leave an empty line between text and tables.
 | ---- | ---- |
 | 8:00 | **Opening** |
 ```
-
-
-## Consistency
-
-Keep consistency with the other articles style.
-
-- _Goals_
-- _Challenges_
