@@ -9,7 +9,7 @@ description: Machine translation researcher
 She led early research on machine translation [quality estimation](/quality/quality-estimation.md).
 
 Her work on quality estimation includes:
-* organizing the quality estimation shared task at [WMT](/community/wmt.md)
+* organising the quality estimation shared task at [WMT](/community/communities.md#Workshop_on_Statistical_Machine_Translation)
 * leading the research group that created early quality estimation libraries
 * the book *Quality Estimation for Machine Translation*
 
