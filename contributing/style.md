@@ -13,10 +13,10 @@ Machine Translate was founded as open resources and community for people who wan
 
 ## Default to Wikipedia style
 
-Default to the Wikipedia's [Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style) and the [European Commission English Style Guide](https://ec.europa.eu/info/sites/default/files/styleguide_english_dgt_en.pdf) with regard to:
+Default to the Wikipedia’s [Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style) and the [European Commission English Style Guide](https://ec.europa.eu/info/sites/default/files/styleguide_english_dgt_en.pdf) with regard to:
 
-* Content that's neutral, factual and evergreen
-* Titles, capitalization, punctuation and formatting
+* Content that is neutral, factual and evergreen
+* Titles, capitalisation, punctuation and formatting
 * Linking to other articles with relative paths
 
 Default to UK English orthography and to International English vocabulary.
@@ -37,10 +37,22 @@ Avoid parentheses, except for defining common abbreviations.
 
 ## No marketing
 
-Do not promote businesses and do not use cliché or meaningless terms.
+Do not promote businesses.
+
+
+## No empty phrases
+
+Do not use cliché or meaningless terms.
 
 * _language barriers_
 * _multilingual audiences_
+
+
+## No prescriptions
+
+Write about facts that are always true.
+
+* _Post-editing effort ~~may be~~ is..._
 
 
 ## Not too academic
@@ -56,7 +68,9 @@ Machine Translate will be machine translated. Write articles that are ready for 
 - Be concise and consistent.
 - Use active voice.
 - Check spelling.
+- Avoid anaphoras.
 
+> Tags format, structure and annotate texts. ~~They~~ Tags can also be used as placeholders.
 
 ## Chronological order
 
@@ -65,7 +79,7 @@ Arrange events, publications, and any information related to time in chronologic
 
 ## Consistency
 
-Keep consistency with the other articles style.
+Keep consistency with the other article’s style.
 
 - _Goals_
 - _Challenges_
@@ -78,9 +92,9 @@ Refer to this project and community as _Machine Translate_.
 
 # 🎨 Formatting
 
-## Capitalization
+## Capitalisation
 
-In headers, capitalize only the first letter.
+In headers, capitalise only the first letter.
 
 > How to contribute
 
@@ -124,6 +138,8 @@ Avoid **external** links, except for databases, important papers and events.
 
 ## Lists
 
+Introduce lists with full sentences.
+
 For list items without a main verb, use initial lowercase and no end punctuation.
 
 ```
@@ -164,7 +180,7 @@ Add [Front Matter](https://jekyllrb.com/docs/front-matter/) variables at the beg
 
 ```
 ---
-parent: Customization
+parent: Customisation
 title: Training data
 description: Training data for machine translation
 ---
