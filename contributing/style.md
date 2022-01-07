@@ -13,11 +13,11 @@ Machine Translate was founded as open resources and community for people who wan
 
 ## Default to Wikipedia style
 
-Default to the Wikipedia’s [Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style) and the [European Commission English Style Guide](https://ec.europa.eu/info/sites/default/files/styleguide_english_dgt_en.pdf) with regard to:
+Default to the Wikipedia’s [Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style) and the [European Commission English Style Guide](https://ec.europa.eu/info/sites/default/files/styleguide_english_dgt_en.pdf):
 
-* Content that is neutral, factual and evergreen
-* Titles, capitalisation, punctuation and formatting
-* Linking to other articles with relative paths
+* Create content that is neutral, factual and evergreen.
+* Follow their guidelines in titles, capitalisation, punctuation, and formatting.
+* Link to other articles with relative paths.
 
 Default to UK English orthography and to International English vocabulary.
 
