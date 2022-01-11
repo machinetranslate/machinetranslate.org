@@ -14,8 +14,8 @@ His early contributions include:
 
 * the Moses machine translation system
 * the Europarl corpus
-* organizing the machine translation research community, including [WMT](/community/communities.md#Workshop_on_Statistical_Machine_Translation)
+* organizing the machine translation research community, including [WMT](/community/communities.md#workshop_on_statistical_machine_translation)
 
-He was a professor at the University of Edinburgh and then Johns Hopkins University and Chief Scientist at [Omniscien Technologies](industry/companies.md#Omniscien_Technologies).
+He was a professor at the University of Edinburgh and then Johns Hopkins University and Chief Scientist at [Omniscien Technologies](industry/companies.md#omniscien_technologies).
 
 In 2021, he joined Facebook AI as a Research Scientist.
