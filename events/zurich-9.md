@@ -7,7 +7,7 @@ name: Machine Translation Meetup
 startDate: "2021-10-25"
 ---
 
-# Zürich Machine Translation Meetup 2021
+# Zurich Machine Translation Meetup 2021
 
 The ninth **Machine Translation Meetup** (**MTM**) in Zurich took place on October 25th, 2021.
 
