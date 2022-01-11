@@ -14,7 +14,8 @@ In this example, the word `bike` has a 40% probability of being the next word an
 
 ## Decoding
 
-It is possible to do *decoding*, which means repeatedly taking e.g. the most probable output, adding it to the text and so on.
+Decoding is used to convert an abstract representation into text.
+It is done, for example, by repeatedly taking the most probable output, adding it to the text and so on.
 This way a language model can generate new text as in the following example:
 
 - Step 6
@@ -44,7 +45,7 @@ There are many different ways in which language models are created.
 ## N-gram maximum likelihood estimate
 
 
-The easiest one is to count a number of occurrences of the pair 
+The easiest one is to count a number of occurrences of a phrase, in this case a pair, 
 <img src="https://render.githubusercontent.com/render/math?math=(w_1, w_2)"> and divide that by the number of occurrences of just 
 <img src="https://render.githubusercontent.com/render/math?math=w_1">.
 The result is the probability that with the history (now truncated to just <img src="https://render.githubusercontent.com/render/math?math=w_1">) the next word is <img src="https://render.githubusercontent.com/render/math?math=w_2">.
