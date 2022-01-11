@@ -1,22 +1,25 @@
 ---
-description: How to contribute
+nav_order: 200
+has_children: true
+title: Contributing
+description: How to contribute to Machine Translate
+seo:
+  type: HowTo
 ---
 
-# Contributing
+Machine Translate is **created and edited by [contributors like you!](contributors.md)**  It is **open-source** and lives [**on GitHub**](https://github.com/machinetranslate/machinetranslate.org).
 
-Machine Translate is **created and edited by [contributors like you!](https://github.com/machinetranslate/machinetranslate.org/graphs/contributors)**  It is **open-source** and lives [**on GitHub**](https://github.com/machinetranslate/machinetranslate.org).
-
-We recommend reading the [**roadmap**](https://github.com/machinetranslate/machinetranslate.org/blob/master/ROADMAP.md) and [**style guide**](style.md) before you start contributing.
+We recommend reading the [**roadmap**](/roadmap.md) and [**style guide**](style.md) before you start contributing.
 
 
-### Edit
+### Creating and editing articles
 
-To add or edit an article, [**add**](https://github.com/machinetranslate/machinetranslate.org/new/master) or [**edit**](https://github.com/machinetranslate/machinetranslate.org) and send us a [pull request](https://github.com/machinetranslate/machinetranslate.org/pulls?q=is%3Apr).
+To create or edit an article, [**create**](https://github.com/machinetranslate/machinetranslate.org/new/master) or [**edit**](https://github.com/machinetranslate/machinetranslate.org) and send us a [pull request](https://github.com/machinetranslate/machinetranslate.org/pulls?q=is%3Apr).
 
 > See GitHub's article [*Creating a pull request*](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request) for more
 
 
-### Request
+### Requesting articles
 
 To request a topic, create a new [**issue**](https://github.com/machinetranslate/machinetranslate.org/issues).
 

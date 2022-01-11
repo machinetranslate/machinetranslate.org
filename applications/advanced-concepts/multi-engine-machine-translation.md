@@ -1,8 +1,8 @@
 ---
-description: Multi-engine machine translation
+parent: Applications
+title: Multi-engine machine translation
+description: Machine translation with multiple systems
 ---
-
-# Multi-engine machine translation
 
 **Multi-engine machine translation** is an approach for evaluating and picking a machine translation engine. With multi-engine machine translation, the same input is sent to multiple machine-translation systems. The translations are then ranked to select the best one.
 

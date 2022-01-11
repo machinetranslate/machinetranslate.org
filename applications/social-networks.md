@@ -1,8 +1,8 @@
 ---
-description: Machine translation for social media
+parent: Applications
+title: Social networks
+description: Machine translation for social networks
 ---
-
-# Social networks
 
 Machine translation is integrated into **social networks** for gisting dynamic content on demand.
 

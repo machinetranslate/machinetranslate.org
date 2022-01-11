@@ -1,10 +1,10 @@
 ---
+parent: Languages
+title: Russian
 description: Machine translation for Russian
 ---
 
-# Russian
-
-Russian was one of the first languages for which machine translation was researched and developed, and remains one of the best supported languages.
+**Russian** was one of the first languages for which machine translation was researched and developed, and remains one of the best supported languages.
 
 Among those languages, it is notable for:
 
@@ -23,7 +23,7 @@ Russian-Chinese and Chinese-Russian are also significant translation pairs.
 
 ## History
 
-In 1935, Petr Trojanskii filed a USSR Patent 40995 on machine translation.
+In 1935, [Petr Troyanskii](/people/petr-troyanskii.md) filed a USSR Patent 40995 on machine translation.
 
 During the Cold War, English and Russian were the most important languages geopolitically, and much machine translation research and development was for defense and intelligence agencies.
 
