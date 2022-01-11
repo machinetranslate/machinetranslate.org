@@ -35,7 +35,7 @@ For the beginning the special token `<BOS>` (beginning of sentence) is used
 When another special token `<EOS>` (end of sentence), the decoder stops.
 
 This kind of decoding where only the most probable token is considered is called **greedy decoding** and it may not always lead to the most fluent output.
-For this reason, the algorithm **beamsearch** is used that considers multiple most probable outputs at the same time.
+For this reason, the algorithm **beam search** is used that considers multiple most probable outputs at the same time.
 
 # Models
 

@@ -1,109 +1,87 @@
-# Table of contents
+* [Approaches](approaches/approaches.md)
+  * [Rule-based machine translation](approaches/rule-based.md)
+  * [Statistical machine translation](approaches/statistical.md)
+  * [Neural machine translation](approaches/neural.md)
+    * [Transformers](research/transformers.md)
+    * [Byte-pair encoding](research/byte-pair-encoding.md)
 
-* [Machine Translate](README.md)
+* [Customization](customization/customization.md)
+  * [Adaptive machine translation](customization/adaptive.md)
+  * [Crawling](research/crawling.md)
+  * [Filtering](customization/filtering.md)
+  * [Glossaries](customization/glossaries.md)
+  * [Parallel data](customization/parallel-data.md)
+  * [Training data](customization/training-data.md)
 
-## General
+* [Quality](quality/quality.md)
+  * [Quality estimation](quality/quality-estimation.md)
+  * [Quality evaluation](quality/quality-evaluation.md)
 
-* [Rule-based machine translation](general/rule-based.md)
-* [Statistical machine translation](general/statistical.md)
-* [Neural machine translation](general/neural.md)
+* Fundamental concepts
+  * [Language model](concepts/language-model.md)
 
-## Applications
+* [Applications](applications/applications.md)
+  * [Commerce and marketplaces](applications/commerce-and-marketplaces.md)
+  * [Gaming](applications/gaming.md)
+  * [Live chat](applications/live-chat.md)
+  * [Multi-engine machine translation](applications/advanced-concepts/multi-engine-machine-translation.md)
+  * [Multilingual search](applications/multilingual-search.md)
+  * [SEO](applications/seo.md)
+  * [Social networks](applications/social-networks.md)
+  * [Tags and placeholders](applications/advanced-concepts/tags-and-placeholders.md)
+  * [Translation and localization](applications/translation-and-localization.md)
+  * [User-generated content](applications/user-generated-content.md)
 
-* [Gaming](applications/gaming.md)
-* [Commerce and marketplaces](applications/commerce-and-marketplaces.md)
-* [Social networks](applications/social-networks.md)
-* [Live chat](applications/live-chat.md)
-* [User-generated content](applications/user-generated-content.md)
-* [Translation for SEO](applications/seo.md)
-* [Multilingual search](applications/multilingual-search.md)
-* [Translation and localization](applications/translation-and-localization.md)
+* [Workflows](workflows/workflows.md)
+  * [Post-editing (human translation)](workflows/post-editing.md)
+  * [Hybrid translation](workflows/hybrid-translation.md)
 
-## Applications - Advanced
+* [Industry](industry/industry.md)
+  * [Companies](industry/companies.md)
+  * [Data confidentiality](industry/data-confidentiality.md)
+  * [Products](industry/products.md)    
 
-* [Tags and placeholders](applications/advanced-concepts/tags-and-placeholders.md)
-* [Multi-engine machine translation](applications/advanced-concepts/multi-engine-machine-translation.md)
+* [Organizations](organizations/organizations.md)
+  * [IAMT](organizations/iamt.md)
+  * [AMTA](organizations/amta.md)
+  * [AAMT](organizations/aamt.md)
+  * [EAMT](organizations/eamt.md)
+  * [SIGSLT](organizations/SIGSLT.md)
 
-## Concepts
+* [Languages](languages/languages.md)
+  * [Russian](languages/russian.md)
 
-* [Language model](concepts/language-model.md)
+* [Community](community/community.md)
+  * [Communities](community/communities.md)
+  * [Research groups](groups/research-groups.md)
+  * [People](community/people.md)
+    * [Georges Artsrouni](people/georges-artsrouni.md)
+    * [Petr Troyanskii](people/petr-troyanskii.md)
+    * [Warren Weaver](people/warren-weaver.md)
+    * [John Hutchins](people/john-hutchins.md)
+    * [Kishore Papineni](people/kishore-papineni.md)
+    * [Franz Josef Och](people/franz-josef-och.md)
+    * [Philipp Koehn](people/philipp-koehn.md)
+    * [Peter Toma](people/peter-toma.md)
+    * [Alon Lavie](people/alon-lavie.md)
+    * [Lucia Specia](people/lucia-specia.md)
 
+* [Events](events/events.md)
+  * [LoResMT 2022](events/loresmt2022.md)
+  * [AMTA 2022](events/amta2022.md)
+  * [EAMT 2022](events/eamt2022.md)
+  * [WMT21](events/wmt21.md)
+  * [Machine Translation Meetup](events/zurich-9.md)
+  * [ASLTRM 2021](events/asltrm2021.md)
+  * [LoResMT 2021](events/loresmt2021.md)
+  * [PSLT 2021](events/pslt2021.md)
+  * [MT Summit 2021](events/mtsummit2021.md)
+  * [MTM 2019](events/mtm2019.md)
 
-## Customization
-
-* [Adaptive machine translation](customization/adaptive.md)
-* [Training data](customization/training-data.md)
-* [Glossaries](customization/glossaries.md)
-* [Filtering](customization/filtering.md)
-* [Parallel data](customization/parallel-data.md)
-
-## Research
-
-* [Crawling](research/crawling.md)
-* [Transformers](research/transformers.md)
-* [Byte-pair encoding](research/byte-pair-encoding.md)
-
-## Business
-
-* [Companies](business/companies.md)
-* [Data confidentiality](business/data-confidentiality.md)
-* [Products](business/products.md)
-
-## Quality
-
-* [Quality estimation](quality/quality-estimation.md)
-
-## Workflows
-
-* [Post-editing (human translation)](workflows/post-editing.md)
-* [Hybrid translation](workflows/hybrid-translation.md)
-
-## People
-
-* [Georges Artsrouni](people/georges-artsrouni.md)
-* [Petr Troyanskii](people/petr-troyanskii.md)
-* [Warren Weaver](people/warren-weaver.md)
-* [John Hutchins](people/john-hutchins.md)
-* [Kishore Papineni](people/kishore-papineni.md)
-* [Franz Josef Och](people/franz-josef-och.md)
-* [Philipp Koehn](people/philipp-koehn.md)
-* [Peter Toma](people/peter-toma.md)
-* [Alon Lavie](people/alon-lavie.md)
-* [Lucia Specia](people/lucia-specia.md)
-
-## Groups
-
-* [Lists](groups/lists.md)
-* [Online groups](groups/online-groups.md)
-* [Research groups](groups/research-groups.md)
-
-## Languages
-
-* [Russian](languages/russian.md)
-
-## Organizations
-
-* [IAMT](organizations/iamt.md)
-* [AMTA](organizations/amta.md)
-* [AAMT](organizations/aamt.md)
-* [EAMT](organizations/eamt.md)
-
-## Events
-
-* [MT Summit](events/mt-summit.md)
-* [WMT21](events/wmt21.md)
-* [EAMT2022](events/eamt2022.md)
-
-## Contributing
-
-* [Join the community](https://form.typeform.com/c/ndac7OIs)
-* [Style](contributing/style.md)
 * [Contributing](contributing/contributing.md)
+  * [Style](contributing/style.md)
+  * [Coming soon](contributing/coming-soon.md)
+  * [Contributors](contributing/contributors.md)
+  * [Roadmap](contributing/roadmap.md)
 
-## Contact
-
-* [Email](mailto:contact@machinetranslate.org)
-* [GitHub](https://github.com/machinetranslate)
-* [Twitter](https://twitter.com/machtranslate)
-* [LinkedIn](https://linkedin.com/company/machinetranslate)
-* [Facebook](https://facebook.com/machinetranslate)
+* [🌍 About Machine Translate](about.md)
