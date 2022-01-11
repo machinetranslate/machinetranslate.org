@@ -11,7 +11,7 @@ The Machine Translation Summit 2021 (**MT Summit 2021**) took place on August 16
 | | |
 | -- | -- |
 | Aug 17, 9:00-10:00 | _**The New MT: One More Time**_ <br>Arle Lommel (CSA Research) |
-| Aug 17, 1:30-2:15 | _**The Road to Infinity**_ <br>Jane Nemcova (AI & ML Executive) |
+| Aug 17, 1:30-2:15 | _**The Road to Infinity**_ <br>Jane Nemcova (Lionbridge) |
 | Aug 18, 11:00-11:45 | _**Multimodal Simultaneous Machine Translation**_ <br>[Lucia Specia](/people/lucia-specia.md) (Imperial College London) |
 | Aug 19, 1:30-2:15 | _**Machine Translation at the Government of Canada: Reaching for the Future**_ <br>Lucie Seguin (Translation Bureau of Canada) |
 | Aug 19, 4:00-4:45 | _**Understanding and Improving Context Usage in Context-aware Translation**_ <br>Graham Neubig (Carnegie Mellon University) |
@@ -20,8 +20,8 @@ The Machine Translation Summit 2021 (**MT Summit 2021**) took place on August 16
 
 | | |
 | -- | -- |
-| Aug 16, 9:00-4:00  | **[The 4th Workshop on Technologies for MT of Low Resource Languages](lores2021.md)** |
-| Aug 16, 8:00-12:00 | **[The 9th Workshop on Patent and Scientific Literature Translation](pslt2021.md)** |
+| Aug 16, 9:00-4:00  | **[4th Workshop on Technologies for MT of Low Resource Languages](loresmt2021.md)** |
+| Aug 16, 8:00-12:00 | **[9th Workshop on Patent and Scientific Literature Translation](pslt2021.md)** |
 | Aug 17, 9:00-4:00 | **[Automated Spoken Language Translation in Real-World Settings](asltrw.md)** |
 | Aug 20, 9:00-4:00 | **1st International Workshop on Automatic Translation for Signed and Spoken Languages** |
 
