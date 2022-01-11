@@ -1,7 +1,10 @@
 ---
+grand_parent: Community
+parent: People
+title: Lucia Specia
 description: Machine translation researcher
 ---
-# Lucia Specia
+
 **Lucia Specia** is a researcher and professor of natural language processing.
 She led early research on machine translation [quality estimation](/quality/quality-estimation.md).
 
@@ -16,7 +19,7 @@ Specia studied at the University of São Paulo.  She then worked as a research e
 
 In 2012, she started as senior lecturer in computer science and professor of language engineering at the University of Sheffield.
 
-In 2018, Specia joined Imperial College London as a professor of natural language processing. 
+In 2018, Specia joined Imperial College London as a professor of natural language processing.
 
 Starting in 2019, she advised Facebook AI Research on quality estimation.
 

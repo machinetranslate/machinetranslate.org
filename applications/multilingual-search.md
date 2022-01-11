@@ -1,8 +1,8 @@
 ---
+parent: Applications
+title: Multilingual search
 description: Machine translation for multilingual search
 ---
-
-# Multilingual search
 
 Machine translation is implemented in **multilingual search** so that users can search in one language and get results in another. In multilingual search, platforms translate both the index and the query.
 

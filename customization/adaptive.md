@@ -1,10 +1,10 @@
 ---
-description: Adaptive machine translation
+parent: Customization
+title: Adaptive machine translation
+description: Machine translation with online learning
 ---
 
-# Adaptive machine translation
-
-An **adaptive machine translation** system learns from human feedback and adapts its output on the fly. Adaptive machine translation is applicable to [post-editing](../workflows/post-editing.md) workflows.
+An **adaptive machine translation** system learns from human feedback and adapts its output on the fly. Adaptive machine translation is applicable to [post-editing](/workflows/post-editing.md) workflows.
 
 In adaptive machine translation, the system is customized while the human post-editor fixes the machine translation output, instead of after batch retraining.
 

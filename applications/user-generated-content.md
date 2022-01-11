@@ -1,8 +1,8 @@
 ---
+parent: Applications
+title: User-generated content
 description: Machine translation for user-generated content
 ---
-
-# User-generated content
 
 Machine translation for **user-generated content** \(**UGC**\) is used mainly for **gisting**.
 

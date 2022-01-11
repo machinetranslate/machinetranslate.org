@@ -1,5 +1,7 @@
 ---
-description: Parallel data for machine translation
+parent: Customization
+title: Parallel data
+description: Parallel data for training machine translation
 ---
 
 # Parallel data

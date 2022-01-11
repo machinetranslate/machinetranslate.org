@@ -1,7 +1,8 @@
 ---
+parent: Workflows
+title: Post-editing (human translation)
 description: Workflow for human correction of machine translation
 ---
-# Post-editing (human translation)
 
 Human **post-editing** is the review and correction of machine translation output. With the rise in machine translation quality, **human translation** often refers to a post-editing workflow, rather than to pure human translation from scratch.
 

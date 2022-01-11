@@ -1,5 +1,7 @@
 ---
-description: Machine translation for live chats
+parent: Applications
+title: Live chat
+description: Machine translation for live chat
 ---
 
 # Live chat

@@ -1,8 +1,8 @@
 ---
-description: Quality estimation for machine translation
+parent: Quality
+title: Quality estimation
+description: Machine translation quality estimation
 ---
-
-# Quality estimation
 
 **Quality estimation** (**QE**) is a method for automatically assessing the quality of the machine translation output without human intervention. QE scores are independent from the expected translation output.
 
@@ -88,6 +88,7 @@ More companies have researched quality estimation internally, but did not launch
 - VMware
 - eBay
 - Facebook AI Research
+- MusixMatch
 
 *Note: This list is incomplete.*
 
