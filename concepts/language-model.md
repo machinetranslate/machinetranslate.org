@@ -4,13 +4,13 @@ description: Language model
 
 # Language model
 
-A language model takes text input (usually a history) and outputs the next word or character.
+A language model takes text input (usually the already written text, called history) and outputs the next word or character.
 
 Example:
 - input: `the man is riding a ___`
 - output: `bike` 40%, `car`: 30%, `scooter`: 10%, `blue`: 0.5%, ...
 
-In this example, the word `bike` has a 40% probability of being the continuation and is the most likely.
+In this example, the word `bike` has a 40% probability of being the next word and is the most likely.
 
 ## Decoding
 
