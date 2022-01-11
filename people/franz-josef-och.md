@@ -13,4 +13,4 @@ In 2003, while a research scientist at the University of Southern California, he
 
 In 2004, he joined Google, where he led Google Translate.
 
-In 2014, he left Google to join Human Longevity, Inc.  In 2016, he joined Grail.  In 2018 he joined Facebook.
+In 2014, he left Google to join Human Longevity, Inc.  In 2016, he joined Grail.  In 2018, he joined Facebook.

@@ -10,7 +10,7 @@ description: Deep learning approaches to machine translation
 
 ### Neural networks
 
-Neural networks use [training data](../customization/training-data.md) to create [vectors](../concepts/vector.md) for every word and its relations, called word embeddings. Words with similar meaning cluster together and words with more than one meaning appear simultaneously in different clusters.
+Neural networks use [training data](/customisation/training-data.md) to create [vectors](/concepts/vector.md) for every word and its relations, called word embeddings. Words with similar meaning cluster together, and words with more than one meaning appear simultaneously in different clusters.
 
 **Cluster<sub>1</sub>**:
 - **Bank**
@@ -26,7 +26,7 @@ Neural networks use [training data](../customization/training-data.md) to create
 - **Bank**
 - Banking
 
-Neural networks use cluster information to disambiguate the meaning of input words and model the most relevant translations.
+Neural networks use cluster information to disambiguate the meaning of input words and generate the most relevant translations.
 
 ### Sequence model
 
@@ -36,7 +36,7 @@ In general, neural machine translation can be seen as a sequence-to-sequence tas
 
 Neural machine translation architecture consists of an encoder and a decoder.
 
-The encoder analyzes the input sequence words and their relations. The result is the representation of the sentence, called context vector. The context vector summarizes the entire input sequence into a single fixed-length vector.
+The encoder analyses the input sequence words and their relations. The result is the representation of the sentence, called context vector. The context vector summarizes the entire input sequence into a single fixed-length vector.
 
 The decoder takes that sequence representation and produces the translation.
 

@@ -62,7 +62,7 @@ The Machine Translation Summit 2021 (**MT Summit 2021**) took place on August 16
 | | **Roundtable: Building MT Capacity and Competence In-House** <br>_**Digital Marketing Globalization at NetApp: A Case Study of Digital Transformation utilizing Neural Machine Translation**_ <br>Edith Bendermacher |
 | | **Roundtable: Building MT Capacity and Competence In-House** <br> _**Neural Machine Translation at Ford Motor Company**_ <br>Nestor Rychtyckyj |
 | | **Roundtable: Building MT Capacity and Competence In-House** <br> _**Salesforce NMT System: A Year Later**_ <br>Raffaella Buschiazzo |
-| | **Roundtable: Building MT Capacity and Competence In-House** <br>Autodesk: Neural Machine Translation – Localization and beyond <br>Emanuele Dias |
+| | **Roundtable: Building MT Capacity and Competence In-House** <br>Autodesk: Neural Machine Translation – Localisation and beyond <br>Emanuele Dias |
 | | _**From Research to Production: Fine-Grained Analysis of Terminology Integration**_ <br>Toms Bergmanis, Mārcis Pinnis and Paula Reichenberg |
 | | _**Glossary functionality in commercial machine translation: does it help? A first step to identify best practices for a language service provider**_ <br>Randy Scansani and Loïc Dugast |
 | | _**Selecting the best data filtering method for NMT training**_ <br>Fred Bane and Anna Zaretskaya |
@@ -79,7 +79,7 @@ The Machine Translation Summit 2021 (**MT Summit 2021**) took place on August 16
 | | _**Early-stage development of the SignON application and open framework – challenges and opportunities**_ <br>Dimitar Shterionov, John J O’Flaherty, Edward Keane, Connor O’Reilly, Marcello Paolo Scipioni, Marco Giovanelli and Matteo Villa |
 | | _**Deploying MT Quality Estimation on a large scale: Lessons learned and open questions**_ <br>Aleš Tamchyna |
 | | _**Validating Quality Estimation in a CAT Workflow: Speed, Cost and Quality Trade-off**_ <br>Fernando Alva-Manchego, Lucia Specia, Sara Szoc, Tom Vanallemeersch and Heidi Depraetere |
-| | _**Neural Translation for European Union (NTEU)**_ <br>Mercedes García-Martínez, Laurent Bié, Aleix Cerdà, Amando Estela, Manuel Herranz, Rihards Krišlauks, Maite Melero, Tony O'Dowd, Sinead O'Gorman, Marcis Pinnis, Artūrs Stafanovič, Riccardo Superbo and Artūrs Vasiļevskis |
+| | _**Neural Translation for European Union (NTEU)**_ <br>Mercedes García-Martínez, Laurent Bié, Aleix Cerdà, Amando Estela, Manuel Herranz, Rihards Krišlauks, Maite Melero, Tony O’Dowd, Sinead O’Gorman, Marcis Pinnis, Artūrs Stafanovič, Riccardo Superbo and Artūrs Vasiļevskis |
 | | _**A Data-Centric Approach to Real-World Custom NMT for Arabic**_ <br>Rebecca Jonsson, Ruba Jaikat, Abdallah Nasir, Nour Al-Khdour and Sara Alisis |
 | | _**Building MT systems in low resourced languages for Public Sector users in Croatia, Iceland, Ireland, and Norway**_ <br>Róisín Moran, Carla Para Escartín, Akshai Ramesh, Páraic Sheridan, Jane Dunne, Federico Gaspari, Sheila Castilho, Natalia Resende and Andy Way |
 | | _**Using speech technology in the translation process workflow in international organizations: A quantitative and qualitative study**_ <br>Pierrette Bouillon and Jeevanthi Liyanapathirana |

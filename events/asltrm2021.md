@@ -15,7 +15,7 @@ The online workshop explored topics including, but not limited to:
 - Automatic subtitling and dubbing
 - Communicative inclusion through SLT
 - Automatic or semi-automatic respeaking
-- Customization of SLT systems to real-world applications
+- Customisation of SLT systems to real-world applications
 - Computer-assisted interpreting
 - Data scarcity and underrepresented languages
 - Potential and risks of SLT

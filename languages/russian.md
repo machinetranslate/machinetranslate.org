@@ -25,7 +25,6 @@ Russian-Chinese and Chinese-Russian are also significant translation pairs.
 
 In 1935, [Petr Troyanskii](/people/petr-troyanskii.md) filed a USSR Patent 40995 on machine translation.
 
-During the Cold War, English and Russian were the most important languages geopolitically, and much machine translation research and development was for defense and intelligence agencies.
+During the Cold War, English and Russian were the most important languages geopolitically, and much machine translation research and development was for defence and intelligence agencies.
 
 In the 2010s, while most providers used bridging or pivoting via English for most language pairs, Yandex Translate launched direct translation between Russian and many languages.
-

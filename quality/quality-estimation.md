@@ -13,7 +13,7 @@ description: Machine translation quality estimation
 
 Evaluation metrics like BLEU or post-editing distance require human reference translations, but there are no human reference translations for new content.
 
-QE models predicts the quality based on either specific features or deep learning.
+Quality estimation models predict the quality based on either specific features or deep learning.
 
 
 ### Use cases
@@ -40,7 +40,7 @@ Sentence-level scores can be aggregated into paragraph-level scores or document-
 Quality estimation is typically implemented as classification or regression.
 
 ### Supervised
-Supervised quality estimation trains on parallel data that includes human labels or human post-edits. 
+Supervised quality estimation trains on parallel data that includes human labels or human post-edits.
 
 ### Unsupervised
 Unsupervised quality estimation trains on monolingual data or parallel data only. Supervised quality estimation relies on labeled or post-edited data.
@@ -54,7 +54,7 @@ Blackbox approaches are independent of the machine translation system.  They are
 #### Feature engineering
 Early quality estimation approaches use machine learning with feature engineering.
 
-Examples of specific features are the number of noun or prepositional phrases in the source and target, the number of named entities, etc. Based on these features, a QE model is built using machine learning techniques.
+Examples of specific features are the number of noun or prepositional phrases in the source and target, the number of named entities, etc. Based on these features, a quality estimation model is built using machine learning techniques.
 
 #### Deep learning
 With the rise of deep learning, quality estimation technology resorts to deep learning architectures based on artificial neural networks.
@@ -63,7 +63,7 @@ With the rise of deep learning, quality estimation technology resorts to deep le
 Early quality estimation approaches created one model or system per language pair, similar to most machine translation systems at the time.
 
 #### Multilingual
-Multilingual quality estimation uses one model or system for many language pairs, similar to multilingual machine translation sytems.
+Multilingual quality estimation uses one model or system for many language pairs, similar to multilingual machine translation systems.
 
 
 ### Frameworks, models and systems
@@ -98,4 +98,4 @@ In 2012, [Lucia Specia](/people/lucia-specia.md) and Radu Soricut organized the 
 
 ### Challenges
 
-QE models are likely to guess translation quality rather than estimate it if trained with publicly available datasets.
+Quality estimation models are likely to guess translation quality rather than estimate it if trained with publicly available datasets.

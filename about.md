@@ -10,7 +10,7 @@ seo:
 
 ## Mission
 
-Machine Translate's mission is to **make machine translation more accessible to more people** as the field of machine translation grows.
+Machine Translate’s mission is to **make machine translation more accessible to more people** as the field of machine translation grows.
 
 We do that by building open resources and community for machine translation.
 
