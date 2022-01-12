@@ -29,12 +29,12 @@ description: Machine translation events
 |     |     |
 | --- | --- |
 | AAMT | |
-| ASLTRM | [2021](asltrm2021.md) |
-| AT4SSL | [2021](at4ssl2021.md) |
-| EAMT | [2021]() |
-| LoResMT| [2021](loresmt2021.md) |
-| MTM | [2019](mtm2019.md) |
-| MT Summit | [2021](mtsummit2021.md) |
-| PSLT | [2021](pslt2021.md) |
-| WMT | [2021](wmt21.md) |
-| MTM Zurich | [9](zurich-9.md) |
+| ASLTRM | [Aug 17, 2021](asltrm2021.md) |
+| AT4SSL | [Aug 20, 2021](at4ssl2021.md) |
+| EAMT | May 28-30, 2018 |
+| LoResMT| [Aug 16, 2021](loresmt2021.md) |
+| MTM | [Aug 26-31, 2019](mtm2019.md) |
+| MT Summit | [Aug 16-20, 2021](mtsummit2021.md) |
+| PSLT | [Aug 16, 2021](pslt2021.md) |
+| WMT | [Nov 10-11, 2021](wmt21.md) |
+| MTM Zurich | [Oct 25, 2021](zurich-9.md) |
