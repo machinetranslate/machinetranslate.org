@@ -68,7 +68,7 @@ Machine Translate will be machine translated. Write articles that are ready for 
 - Be concise and consistent.
 - Use active voice.
 - Check spelling.
-- Avoid anaphoras.
+- Use nouns instead of pronouns.
 
 > Tags format, structure and annotate texts. ~~They~~ Tags can also be used as placeholders.
 
@@ -213,4 +213,37 @@ Leave an empty line between text and tables.
 |      |      |
 | ---- | ---- |
 | 8:00 | **Opening** |
+```
+
+## Links
+
+For articles that belong to the same directory, only link the article file name.
+
+```
+Like [statistical machine translation](statistical-machine-translation.md), neural machine translation is data-driven.
+```
+
+For articles that belong to another directory, add the directory name to the path.
+
+```
+She led early research on machine translation [quality estimation](/quality/quality-estimation.md).
+```
+
+For a specific section of an article, add a `#` after the article file name.
+
+```
+In the mid-1960s, Toma programmed the [Systran](/business/companies.md#systran) prototype`
+```
+
+## Mathematical notation
+
+To render short mathematical formulas, like <img src="https://render.githubusercontent.com/render/math?math=p(t_i|s_{1\ldots |s|}, t_{1\ldots (i-1)})">, use [LaTeX](https://www.latex-project.org/about/) notation and insert the LaTeX code after `=` in the below URL.
+
+`<img src="https://render.githubusercontent.com/render/math?math=[LaTeX Code]">`
+
+
+Include the complete URL to add the mathematical formula in the article.
+
+```
+<img src="https://render.githubusercontent.com/render/math?math=p(t_i|s_{1\ldots |s|}, t_{1\ldots (i-1)})">
 ```

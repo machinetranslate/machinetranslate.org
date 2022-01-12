@@ -89,3 +89,21 @@ Link: [https://stackoverflow.com/questions/tagged/machine-translation](https://s
 The **Machine-Translation** tag on Quora gathers user questions and answers related to machine translation, including its development and performance.
 
 Link: [https://www.quora.com/topic/Machine-Translation/](https://www.quora.com/topic/Machine-Translation/)
+
+
+## Communities
+
+### MaCoCu
+
+**MaCoCu** focuses on collecting monolingual and parallel data from the Internet, specially for under-resourced languages and DSI-specific data.
+
+This action takes place from June 2021 to June 2023 (2 years) and it is co-financed by the European Union.
+
+Link: [https://macocu.eu/](https://macocu.eu/)
+
+
+### TIL
+
+Turkic Interlingua (**TIL**) is a community of researchers, Machine Learning engineers, language enthusiasts and community leaders whose mission is to develop language technologies, collect diverse datasets, and explore linguistic phenomena through the lens of academic research for Turkic languages.
+
+Link: [https://turkic-interlingua.org/](https://turkic-interlingua.org/)
