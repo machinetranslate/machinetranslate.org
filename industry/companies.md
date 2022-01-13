@@ -4,7 +4,7 @@ title: Companies
 description: Companies in the machine translation space
 ---
 
-The history of machine translation companies begins in the defense and intelligence sector.
+The history of machine translation companies begins in the defence and intelligence sector.
 
 Other players, from technology giants to translation agencies to the European Union, increasingly build their own machine translation.
 
@@ -102,6 +102,10 @@ Acquired by TransPerfect in 2018
 ### LanguageWeaver
 
 Acquired by SDL/RWS for $42.5M in 2010
+
+## 2000
+
+### Pangeanic
 
 
 ## 1999

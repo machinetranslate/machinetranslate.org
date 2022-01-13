@@ -1,5 +1,5 @@
 ---
-parent: Organizations
+parent: Associations
 title: IAMT
 description: International Association for Machine Translation
 ---
@@ -15,9 +15,9 @@ The IAMT consists of regional associations.
 
 ## Regional associations
 
-- [Association for Machine Translation in the Americas](/organizations/amta.md) (AMTA)
-- [Asia-Pacific Association for Machine Translation](/organizations/aamt.md) (AAMT)
-- [European Association for Machine Translation](/organizations/eamt.md) (EAMT)
+- [Association for Machine Translation in the Americas](amta.md) (AMTA)
+- [Asia-Pacific Association for Machine Translation](aamt.md) (AAMT)
+- [European Association for Machine Translation](eamt.md) (EAMT)
 
 ## Events
 The regional associations of IAMT hold the [MT Summit](/events/mt-summit.md).

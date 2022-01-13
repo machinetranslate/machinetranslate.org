@@ -10,7 +10,7 @@ When post-editing, the human translator checks the original input and the machin
 
 Post-editing started to replace pure human translation in the 2000s because it is faster and cheaper, and became the standard for many content types in the 2010s.
 
-## Flavors
+## Flavours
 
 With **light post-editing**, the goal is that readers understand the idea of a text. Light post-editing provides the gist of a message. It is usually aimed at internal communications.
 
@@ -23,4 +23,3 @@ With **full post-editing**, the goal is to match human quality. Full post-editin
 **Post-editing effort** is an estimate of how much time the human translator spends post-editing a machine translation output.
 
 Post-editing metrics are used both for a specific translation and in aggregate - at the document, project or workflow level. They can be length-normalized and given as a percentage or score.
-

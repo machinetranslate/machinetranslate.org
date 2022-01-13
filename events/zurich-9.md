@@ -1,17 +1,20 @@
 ---
 parent: Events
 title: Machine Translation Meetup
-description: Machine Translation Meetup (MTM) - Zurich 
+description: Machine Translation Meetup (MTM) - Zurich
+location: Zurich, Switzerland
+name: Machine Translation Meetup
+startDate: "2021-10-25"
 ---
 
-# Zürich Machine Translation Meetup 2021
+# Zurich Machine Translation Meetup 2021
 
 The ninth **Machine Translation Meetup** (**MTM**) in Zurich took place on October 25th, 2021.
 
 The event theme was _**Terminology integration in machine translation: Does it work in practice?**_.
 
 ### Venue
-Impact Hub Zürich - Viadukt
+Impact Hub Zurich - Viadukt
 
 ### Experts
 

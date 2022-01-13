@@ -2,6 +2,10 @@
 parent: Events
 title: MT Summit 2021
 description: Machine Translation Summit
+location: online
+name: MT Summit 2021
+startDate: "2021-08-16"
+endDate: "2021-08-20"
 ---
 
 The Machine Translation Summit 2021 (**MT Summit 2021**) took place on August 16-20th as a 5-day virtual event.
@@ -10,20 +14,20 @@ The Machine Translation Summit 2021 (**MT Summit 2021**) took place on August 16
 
 | | |
 | -- | -- |
-| Aug 17, 9:00-10:00 | _**The New MT: One More Time**_ <br>Arle Lommel (CSA Research) |
-| Aug 17, 1:30-2:15 | _**The Road to Infinity**_ <br>Jane Nemcova (AI & ML Executive) |
-| Aug 18, 11:00-11:45 | _**Multimodal Simultaneous Machine Translation**_ <br>[Lucia Specia](/people/lucia-specia.md) (Imperial College London) |
-| Aug 19, 1:30-2:15 | _**Machine Translation at the Government of Canada: Reaching for the Future**_ <br>Lucie Seguin (Translation Bureau of Canada) |
-| Aug 19, 4:00-4:45 | _**Understanding and Improving Context Usage in Context-aware Translation**_ <br>Graham Neubig (Carnegie Mellon University) |
+| Aug 17 <br>09:00 - 10:00 | _**The New MT: One More Time**_ <br>Arle Lommel (CSA Research) |
+| Aug 17 <br>13:30 - 14:15 | _**The Road to Infinity**_ <br>Jane Nemcova (Lionbridge) |
+| Aug 18 <br>11:00 - 11:45 | _**Multimodal Simultaneous Machine Translation**_ <br>[Lucia Specia](/people/lucia-specia.md) (Imperial College London) |
+| Aug 19 <br>13:30 - 14:15 | _**Machine Translation at the Government of Canada: Reaching for the Future**_ <br>Lucie Seguin (Translation Bureau of Canada) |
+| Aug 19 <br>16:00 - 16:45 | _**Understanding and Improving Context Usage in Context-aware Translation**_ <br>Graham Neubig (Carnegie Mellon University) |
 
 ### Workshops
 
 | | |
 | -- | -- |
-| Aug 16, 9:00-4:00  | **[The 4th Workshop on Technologies for MT of Low Resource Languages](lores2021.md)** |
-| Aug 16, 8:00-12:00 | **[The 9th Workshop on Patent and Scientific Literature Translation](pslt2021.md)** |
-| Aug 17, 9:00-4:00 | **[Automated Spoken Language Translation in Real-World Settings](asltrw.md)** |
-| Aug 20, 9:00-4:00 | **1st International Workshop on Automatic Translation for Signed and Spoken Languages** |
+| Aug 16 <br>09:00 - 16:00  | **[4th Workshop on Technologies for MT of Low Resource Languages](loresmt2021.md)** |
+| Aug 16 <br>08:00 - 12:00 | **[9th Workshop on Patent and Scientific Literature Translation](pslt2021.md)** |
+| Aug 17 <br>09:00 - 16:00 | **[Automated Spoken Language Translation in Real-World Settings](asltrw.md)** |
+| Aug 20 <br>09:00 - 4:00 | **[1st International Workshop on Automatic Translation for Signed and Spoken Languages](at4ssl2021.md)** |
 
 ### Research track
 
@@ -62,7 +66,7 @@ The Machine Translation Summit 2021 (**MT Summit 2021**) took place on August 16
 | | **Roundtable: Building MT Capacity and Competence In-House** <br>_**Digital Marketing Globalization at NetApp: A Case Study of Digital Transformation utilizing Neural Machine Translation**_ <br>Edith Bendermacher |
 | | **Roundtable: Building MT Capacity and Competence In-House** <br> _**Neural Machine Translation at Ford Motor Company**_ <br>Nestor Rychtyckyj |
 | | **Roundtable: Building MT Capacity and Competence In-House** <br> _**Salesforce NMT System: A Year Later**_ <br>Raffaella Buschiazzo |
-| | **Roundtable: Building MT Capacity and Competence In-House** <br>Autodesk: Neural Machine Translation – Localization and beyond <br>Emanuele Dias |
+| | **Roundtable: Building MT Capacity and Competence In-House** <br>_**Autodesk: Neural Machine Translation – Localisation and beyond**_ <br>Emanuele Dias |
 | | _**From Research to Production: Fine-Grained Analysis of Terminology Integration**_ <br>Toms Bergmanis, Mārcis Pinnis and Paula Reichenberg |
 | | _**Glossary functionality in commercial machine translation: does it help? A first step to identify best practices for a language service provider**_ <br>Randy Scansani and Loïc Dugast |
 | | _**Selecting the best data filtering method for NMT training**_ <br>Fred Bane and Anna Zaretskaya |
@@ -79,7 +83,7 @@ The Machine Translation Summit 2021 (**MT Summit 2021**) took place on August 16
 | | _**Early-stage development of the SignON application and open framework – challenges and opportunities**_ <br>Dimitar Shterionov, John J O’Flaherty, Edward Keane, Connor O’Reilly, Marcello Paolo Scipioni, Marco Giovanelli and Matteo Villa |
 | | _**Deploying MT Quality Estimation on a large scale: Lessons learned and open questions**_ <br>Aleš Tamchyna |
 | | _**Validating Quality Estimation in a CAT Workflow: Speed, Cost and Quality Trade-off**_ <br>Fernando Alva-Manchego, Lucia Specia, Sara Szoc, Tom Vanallemeersch and Heidi Depraetere |
-| | _**Neural Translation for European Union (NTEU)**_ <br>Mercedes García-Martínez, Laurent Bié, Aleix Cerdà, Amando Estela, Manuel Herranz, Rihards Krišlauks, Maite Melero, Tony O'Dowd, Sinead O'Gorman, Marcis Pinnis, Artūrs Stafanovič, Riccardo Superbo and Artūrs Vasiļevskis |
+| | _**Neural Translation for European Union (NTEU)**_ <br>Mercedes García-Martínez, Laurent Bié, Aleix Cerdà, Amando Estela, Manuel Herranz, Rihards Krišlauks, Maite Melero, Tony O’Dowd, Sinead O’Gorman, Marcis Pinnis, Artūrs Stafanovič, Riccardo Superbo and Artūrs Vasiļevskis |
 | | _**A Data-Centric Approach to Real-World Custom NMT for Arabic**_ <br>Rebecca Jonsson, Ruba Jaikat, Abdallah Nasir, Nour Al-Khdour and Sara Alisis |
 | | _**Building MT systems in low resourced languages for Public Sector users in Croatia, Iceland, Ireland, and Norway**_ <br>Róisín Moran, Carla Para Escartín, Akshai Ramesh, Páraic Sheridan, Jane Dunne, Federico Gaspari, Sheila Castilho, Natalia Resende and Andy Way |
 | | _**Using speech technology in the translation process workflow in international organizations: A quantitative and qualitative study**_ <br>Pierrette Bouillon and Jeevanthi Liyanapathirana |

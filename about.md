@@ -10,7 +10,7 @@ seo:
 
 ## Mission
 
-Machine Translate's mission is to **make machine translation more accessible to more people** as the field of machine translation grows.
+Machine Translate’s mission is to **make machine translation more accessible to more people** as the field of machine translation grows.
 
 We do that by building open resources and community for machine translation.
 
@@ -32,7 +32,32 @@ Anybody in the world can read, contribute to, and see who has contributed to Mac
 Machine Translate content should be accessible to people from many backgrounds and who speak many languages.
 Machine Translate content should be easy to understand and easy to machine translate.
 
-<!--- TODO: Copyright and licensing --->
+## Licensing
+
+The content in this repository is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+The `CC BY-SA` licence is used for other open content, like Wikipedia, Mozilla, OpenStreetMap and Stack Overflow.
+
+### Rights
+- Sharing and reuse
+- Adaptation
+- Commercial use
+
+### Requirements
+- Attribution to Machine Translate
+- Linking to the licence
+- Licencing with the same licence
+
+### Restrictions
+- There is a restriction against adding more restrictions.
+
+The full licence text is in the [LICENSE](/LICENSE) file.
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 
 
 ## Foundation

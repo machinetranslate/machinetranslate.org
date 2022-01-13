@@ -1,10 +1,10 @@
 ---
 parent: Applications
-title: Translation and localization
-description: Machine translation for translation and localization
+title: Translation and localisation
+description: Machine translation for translation and localisation
 ---
 
-Machine translation is a key technology in professional **translation and localization** workflows.
+Machine translation is a key technology in professional **translation and localisation** workflows.
 
 ### Integrations
 

@@ -29,9 +29,9 @@ Data confidentiality terms or policies ensure that machine translation providers
 - Client-specific - The data is not used to train models for any other clients.
 - No-trace - The request data is never stored, but only in memory for the lifetime of the request.
 - Encryption - The training and request data are not human-readable.
-- Auto-delete - The request data is cached, and deleted after a set time period, for example after 72 hours.
-- Delete on request - The training data or request data is deleted upon the client's request.
-- On-premise deployment ("on-prem")
+- Auto-delete - The request data is cached, and deleted after a set period, for example after 72 hours.
+- Delete on request - The training data or request data is deleted upon the client’s request.
+- On-premise deployment (“on-prem”)
 - On-device models
 
 
