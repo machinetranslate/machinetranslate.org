@@ -23,4 +23,4 @@ Impact Hub Zurich - Viadukt
 - Donatella Pulitano, Staatskanzlei des Kantons Bern / Faculté de Traduction et d’Interprétation de l’Université de Genève
 
 ### Presentation
-[https://drive.google.com/drive/folders/1sCAGWyS1QIZYQZ4Xt4ZSP8dv5sK11g_Z](https://drive.google.com/drive/folders/1sCAGWyS1QIZYQZ4Xt4ZSP8dv5sK11g_Z)
+[drive.google.com/drive/folders/1sCAGWyS1QIZYQZ4Xt4ZSP8dv5sK11g_Z](https://drive.google.com/drive/folders/1sCAGWyS1QIZYQZ4Xt4ZSP8dv5sK11g_Z)

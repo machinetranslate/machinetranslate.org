@@ -21,6 +21,7 @@ description: Machine translation events
 | Date | Event |
 | ---- | ---- |
 | 2022 | WMT22 |
+| 2022 | AAMT 2022 |
 | 2023 | MT Summit 2023 |
 
 
@@ -28,7 +29,7 @@ description: Machine translation events
 
 |     |     |
 | --- | --- |
-| AAMT | |
+| AAMT | Dec 8-9, 2021 |
 | ASLTRM | [Aug 17, 2021](asltrm2021.md) |
 | AT4SSL | [Aug 20, 2021](at4ssl2021.md) |
 | EAMT | May 28-30, 2018 |
