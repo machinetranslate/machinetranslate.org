@@ -71,7 +71,7 @@ Link: [https://www.reddit.com/r/machinetranslation/](https://www.reddit.com/r/ma
 
 The **Machine Translation** Facebook group is intended to be an informal meeting place for everyone interested in machine translation.
 
-Link: [https://www.facebook.com/groups/1044644038896468](https://www.facebook.com/groups/1044644038896468)
+[facebook.com/groups/1044644038896468](https://www.facebook.com/groups/1044644038896468)
 
 
 
@@ -81,11 +81,41 @@ Link: [https://www.facebook.com/groups/1044644038896468](https://www.facebook.co
 
 The **machine-translation** tag on StackOverflow collects questions and answers about machine translation. The tag has been active since 2018.
 
-Link: [https://stackoverflow.com/questions/tagged/machine-translation](https://stackoverflow.com/questions/tagged/machine-translation)
+[stackoverflow.com/questions/tagged/machine-translation](https://stackoverflow.com/questions/tagged/machine-translation)
 
 
 ### Quora `Machine-Translation`
 
 The **Machine-Translation** tag on Quora gathers user questions and answers related to machine translation, including its development and performance.
 
-Link: [https://www.quora.com/topic/Machine-Translation/](https://www.quora.com/topic/Machine-Translation/)
+[quora.com/topic/Machine-Translation/](https://www.quora.com/topic/Machine-Translation/)
+
+
+## Communities
+
+### MaCoCu
+
+**MaCocu** creates open high quality parallel corpora to improve machine translation for the European Commission.
+
+> **MaCoCu** focuses on collecting monolingual and parallel data from the Internet, specially for under-resourced languages and DSI-specific data.
+
+MaCoCu started in June 2021 and will take place until June 2023.
+
+MaCoCu is lead by multiple groups:
+- Transducens research group (University of Alicante)
+- Prompsit
+- Computational Linguistics research group (University of Groningen)
+- Department of Knowledge Technologies (Jožef Stefan Institute)
+
+MaCoCu is co-financed by Connecting Europe Facility, from the European Union.
+
+[macocu.eu/](https://macocu.eu/)
+
+
+### TIL
+
+Turkic Interlingua (**TIL**) is “a community of NLP enthusiasts with a special interest in Turkic languages”.
+
+> Turkic Interlingua (**TIL**) is a community of researchers, Machine Learning engineers, language enthusiasts and community leaders whose mission is to develop language technologies, collect diverse datasets, and explore linguistic phenomena through the lens of academic research for Turkic languages.
+
+[turkic-interlingua.org/](https://turkic-interlingua.org/)

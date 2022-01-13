@@ -68,7 +68,7 @@ Machine Translate will be machine translated. Write articles that are ready for 
 - Be concise and consistent.
 - Use active voice.
 - Check spelling.
-- Avoid anaphoras.
+- Use nouns instead of pronouns.
 
 > Tags format, structure and annotate texts. ~~They~~ Tags can also be used as placeholders.
 
@@ -213,4 +213,37 @@ Leave an empty line between text and tables.
 |      |      |
 | ---- | ---- |
 | 8:00 | **Opening** |
+```
+
+## Links
+
+For articles in the **same directory**, use a **relative** path.
+
+```
+She researches quality estimation with [Kevin Johnson](kevin-johnson.md) at Microsoft.
+```
+
+For articles in any **other directory**, use an **absolute** path.
+
+```
+She researches [quality estimation](quality/quality-estimation.md) with Kevin Johnson at Microsoft.
+```
+
+For a specific **section** of an article, use the **fragment identifier**.
+
+```
+She researches quality estimation with Kevin Johnson at [Microsoft](industry/companies.md#microsoft).
+```
+
+## Mathematical notation
+
+To render short mathematical formulas, like <img src="https://render.githubusercontent.com/render/math?math=p(t_i|s_{1\ldots |s|}, t_{1\ldots (i-1)})">, use [LaTeX](https://www.latex-project.org/about/) notation and insert the LaTeX code after `=` in the below URL.
+
+`<img src="https://render.githubusercontent.com/render/math?math=[LaTeX Code]">`
+
+
+Include the complete URL to add the mathematical formula in the article.
+
+```
+<img src="https://render.githubusercontent.com/render/math?math=p(t_i|s_{1\ldots |s|}, t_{1\ldots (i-1)})">
 ```
