@@ -41,15 +41,15 @@ Parallel data can have errors, like misaligned sentences, bad sentence segmentat
 | Name | Type |
 | ---- | ---- |
 | [CCAligned](https://opus.nlpl.eu/CCAligned.php) | Data repository |
-| [CCMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/CCMatrix) | Data repository |
+| [CCMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/CCMatrix) | Data set |
 | [Clarin](https://www.clarin.eu/resource-families/parallel-corpora) | Data repository |
 | [Europarl](https://www.statmt.org/europarl/) | Data set |
 | [FLORES](https://github.com/facebookresearch/flores) | Data set |
 | [Hansard](https://catalog.ldc.upenn.edu/LDC95T20) | Data set |
 | [JESC](https://nlp.stanford.edu/projects/jesc/) | Data set |
-| [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | Data repository |
+| [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | Data set |
 | [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) | Data repository |
 | [ParaCrawl](https://paracrawl.eu/) | Data repository |
 | [VoxPopuli](https://github.com/facebookresearch/voxpopuli) | Data set |
-| [WikiMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/WikiMatrix) | Data repository |
+| [WikiMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/WikiMatrix) | Data set |
 | [WikiTitles](https://data.statmt.org/wikititles/) | Data set |
