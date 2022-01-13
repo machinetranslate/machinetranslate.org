@@ -4,7 +4,7 @@ title: Machine Translation Meetup
 description: Machine Translation Meetup (MTM) - Zurich
 location: Zurich, Switzerland
 name: Machine Translation Meetup
-startDate: "2021-10-25"
+startDate: 2021-10-25
 ---
 
 # Zurich Machine Translation Meetup 2021

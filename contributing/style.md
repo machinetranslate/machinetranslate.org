@@ -217,22 +217,22 @@ Leave an empty line between text and tables.
 
 ## Links
 
-For articles that belong to the same directory, only link the article file name.
+For articles in the **same directory**, use a **relative** path.
 
 ```
-Like [statistical machine translation](statistical-machine-translation.md), neural machine translation is data-driven.
+She researches quality estimation with [Kevin Johnson](kevin-johnson.md) at Microsoft.
 ```
 
-For articles that belong to another directory, add the directory name to the path.
+For articles in any **other directory**, use an **absolute** path.
 
 ```
-She led early research on machine translation [quality estimation](/quality/quality-estimation.md).
+She researches [quality estimation](quality/quality-estimation.md) with Kevin Johnson at Microsoft.
 ```
 
-For a specific section of an article, add a `#` after the article file name.
+For a specific **section** of an article, use the **fragment identifier**.
 
 ```
-In the mid-1960s, Toma programmed the [Systran](/business/companies.md#systran) prototype`
+She researches quality estimation with Kevin Johnson at [Microsoft](industry/companies.md#microsoft).
 ```
 
 ## Mathematical notation

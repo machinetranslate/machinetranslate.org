@@ -9,7 +9,7 @@ description: Machine translation events
 
 | Date | Event | Organization |
 | ---- | ---- | ---- |
-| May 25, 2022 | [An International Symposium on Lay Use and Perceptions of Machine](https://www.linkedin.com/dms/C4D06AQHt8KKvlxswhA/messaging-attachmentFile/0/1641848178898?m=AQL-3zWbIFlXwwAAAX5PO1tKZwCeYS5-DhEemNEl4ymIVAYZ9Rf6vrRzCw&ne=1&v=beta&t=HUcW-WEa5xHt0r4avXuyJ0Yk8n-Apt6EKYvfbRSHdpQ) |  Barl Ilan University  |
+| May 25, 2022 | [An International Symposium on Lay Use and Perceptions of Machine](https://www.linkedin.com/dms/C4D06AQHt8KKvlxswhA/messaging-attachmentFile/0/1641848178898?m=AQL-3zWbIFlXwwAAAX5PO1tKZwCeYS5-DhEemNEl4ymIVAYZ9Rf6vrRzCw&ne=1&v=beta&t=HUcW-WEa5xHt0r4avXuyJ0Yk8n-Apt6EKYvfbRSHdpQ) |  Bar Ilan University  |
 | May 26, 2022 | [IWSLT 2022](iwslt2022.md) | [SIGSLT](/associations/SIGSLT.md) |
 | Jun 01, 2022 | [EAMT 2022](eamt2022.md) |  [EAMT](/associations/eamt.md)  |
 | Sep 12, 2022 | [AMTA 2022](amta2022.md) | [AMTA](/associations/amta.md) |
