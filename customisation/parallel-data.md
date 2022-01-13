@@ -52,4 +52,4 @@ Parallel data can have errors, like misaligned sentences, bad sentence segmentat
 | [ParaCrawl](https://paracrawl.eu/) | Data repository |
 | [VoxPopuli](https://github.com/facebookresearch/voxpopuli) | Data set |
 | [WikiMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/WikiMatrix) | Data repository |
-| [WikiTitles](https://huggingface.co/datasets/wmt/wikititles) | Data set |
+| [WikiTitles](https://data.statmt.org/wikititles/) | Data set |
