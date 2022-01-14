@@ -14,6 +14,14 @@ description: Parallel data for training machine translation
 
 Parallel datasets can include translations for one or more language pairs, and be directioned or directionless.
 
+### Parallel data creation
+
+Parallel datasets can be created manually, automatically, or created synthetically from monolingual data.
+- Human translation
+- Human [post-editing](/workflows/post-editing.md)
+- [Crawling](/customization/crawling.md)
+- [Alignment](/research/alignment.md)
+
 Parallel data can be created by [crawling](crawling.md) and aligned monolingual test, and by [back-translation](back-translation.md) or [back-copying](back-translation.md).
 
 ### Goals
@@ -30,16 +38,16 @@ Parallel data can have errors, like misaligned sentences, bad sentence segmentat
 
 | Name | Type |
 | ---- | ---- |
-| CCAligned | Data repository |
-| CCMatrix | Data repository |
-| Clarin | Data repository |
-| Europarl | Data set |
-| FLORES | Data set |
-| Hansard | Data set |
-| JESC | Data set |
-| Mozilla | Data repository |
-| OpenSubtitles | Data repository |
-| ParaCrawl | Data repository |
-| VoxPopuli | Data set |
-| WikiMatrix | Data repository |
-| WikiTitles | Data repository |
+| [CCAligned](https://opus.nlpl.eu/CCAligned.php) | Data repository |
+| [CCMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/CCMatrix) | Data set |
+| [Clarin](https://www.clarin.eu/resource-families/parallel-corpora) | Data repository |
+| [Europarl](https://www.statmt.org/europarl/) | Data set |
+| [FLORES](https://github.com/facebookresearch/flores) | Data set |
+| [Hansard](https://catalog.ldc.upenn.edu/LDC95T20) | Data set |
+| [JESC](https://nlp.stanford.edu/projects/jesc/) | Data set |
+| [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | Data set |
+| [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) | Data repository |
+| [ParaCrawl](https://paracrawl.eu/) | Data repository |
+| [VoxPopuli](https://github.com/facebookresearch/voxpopuli) | Data set |
+| [WikiMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/WikiMatrix) | Data set |
+| [WikiTitles](https://data.statmt.org/wikititles/) | Data set |
