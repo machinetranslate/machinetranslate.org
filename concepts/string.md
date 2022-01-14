@@ -1,8 +1,8 @@
 ---
+parent: Concepts
+title: String
 description: A sequence of characters
 ---
-
-# String
 
 A string is a sequence of characters.
 In computer programming, strings are used to represent text.
@@ -14,9 +14,10 @@ It does not represent rich formatting or styles, like font size and color.
 - A string can contain even just a single character: `a`
 - A string can contain any character even outside the English alphabet, including emojis: `A man with a telescope 🔭 from the city of Třebíč`
 - A string can be very long and can contain control characters like _newline_:
+
    ```
    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-   
+
    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
    ```
 So a string can even be used for a paragraph or book.
@@ -53,7 +54,7 @@ The most common problem is when text is encoded with one standard, but decoded w
 > Example of an encoding problem
 > The text  
 > > `A man with a telescope 🔭 from the city of Třebíč`
-> 
+>
 > When encoded to UTF-8 and decoded from a Windows encoding  
 > > `A man with a telescope ð­ from the city of TÅebÃ­Ä`
 
