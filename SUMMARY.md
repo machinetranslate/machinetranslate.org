@@ -16,6 +16,9 @@
 * [Quality](quality/quality.md)
   * [Quality estimation](quality/quality-estimation.md)
   * [Quality evaluation](quality/quality-evaluation.md)
+  
+* Fundamental concepts
+  * [String](concepts/string.md)
 
 * [Applications](applications/applications.md)
   * [Commerce and marketplaces](applications/commerce-and-marketplaces.md)
