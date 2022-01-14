@@ -20,6 +20,9 @@
 * Fundamental concepts
   * [String](concepts/string.md)
 
+* Fundamental concepts
+  * [Language model](concepts/language-model.md)
+
 * [Applications](applications/applications.md)
   * [Commerce and marketplaces](applications/commerce-and-marketplaces.md)
   * [Gaming](applications/gaming.md)
