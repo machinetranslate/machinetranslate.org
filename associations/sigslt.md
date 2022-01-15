@@ -1,5 +1,5 @@
 ---
-parent: Organizations
+parent: Associations
 title: SIGSLT
 description: SIGSLT
 ---

@@ -11,7 +11,7 @@ They vary by:
 - language support
 - accuracy
 - price
-- customization options
+- customisation options
 - data confidentiality
 
 and other features, as well as underlying architecture.

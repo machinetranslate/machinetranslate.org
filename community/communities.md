@@ -11,7 +11,7 @@ description: Machine translation communities
 
 ### MT-List
 
-**MT-List** (mt-list@eamt.org) is the mailing list of [EAMT](/organizations/eamt.md).
+**MT-List** (mt-list@eamt.org) is the mailing list of [EAMT](/associations/eamt.md).
 
 > The EAMT has a mailing list dedicated to MT. This list is open to the public and serves as a forum for the discussion and exchange of information for all aspects of translation technology.
 
@@ -20,7 +20,7 @@ description: Machine translation communities
 
 ### Workshop on Statistical Machine Translation
 
-**Workshop on Statistical Machine Translation** (wmt-tasks@googlegroups.com) is the official mailing list of [WMT](events/wmt21.md).
+**Workshop on Statistical Machine Translation** (wmt-tasks@googlegroups.com) is the official mailing list of [WMT](/events/wmt21.md).
 
 > This is the announcement list for the shared tasks of the WMT Conference in Machine Translation.
 
@@ -29,7 +29,7 @@ description: Machine translation communities
 
 ### SIGMT
 
-**SIGMT** (sigmt@groups.google.com) is the official mailing list of [SIG MT](/organizations/sigmt.md), the ACL Special Interest Group for Machine Translation.
+**SIGMT** (sigmt@groups.google.com) is the official mailing list of [SIG MT](/associations/sigmt.md), the ACL Special Interest Group for Machine Translation.
 
 > ACL Special Interest Group for Machine Translation
 
@@ -38,7 +38,7 @@ description: Machine translation communities
 
 ### SIGSLT
 
-**SIGSLT** (sigslt@groups.google.com) is the official mailing list of [SIGSLT](/organizations/sigmt.md), the Special Interest Group on Spoken Language Translation of the Association for Computational Linguistics (ACL), the International Speech Communication Association (ISCA) and the European Language Resources Association (ELRA).
+**SIGSLT** (sigslt@groups.google.com) is the official mailing list of [SIGSLT](/associations/sigmt.md), the Special Interest Group on Spoken Language Translation of the Association for Computational Linguistics (ACL), the International Speech Communication Association (ISCA) and the European Language Resources Association (ELRA).
 
 > ACL/ISCA/ELRA Special Interest Group on Spoken Language Translation
 
@@ -71,7 +71,7 @@ Link: [https://www.reddit.com/r/machinetranslation/](https://www.reddit.com/r/ma
 
 The **Machine Translation** Facebook group is intended to be an informal meeting place for everyone interested in machine translation.
 
-Link: [https://www.facebook.com/groups/1044644038896468](https://www.facebook.com/groups/1044644038896468)
+[facebook.com/groups/1044644038896468](https://www.facebook.com/groups/1044644038896468)
 
 
 
@@ -79,13 +79,43 @@ Link: [https://www.facebook.com/groups/1044644038896468](https://www.facebook.co
 
 ### StackOverflow `machine-translation`
 
-The **machine-translation** tag on StackOverflow collects questions and answers abouts machine translation. The tag has been active since 2018.
+The **machine-translation** tag on StackOverflow collects questions and answers about machine translation. The tag has been active since 2018.
 
-Link: [https://stackoverflow.com/questions/tagged/machine-translation](https://stackoverflow.com/questions/tagged/machine-translation)
+[stackoverflow.com/questions/tagged/machine-translation](https://stackoverflow.com/questions/tagged/machine-translation)
 
 
 ### Quora `Machine-Translation`
 
 The **Machine-Translation** tag on Quora gathers user questions and answers related to machine translation, including its development and performance.
 
-Link: [https://www.quora.com/topic/Machine-Translation/](https://www.quora.com/topic/Machine-Translation/)
+[quora.com/topic/Machine-Translation/](https://www.quora.com/topic/Machine-Translation/)
+
+
+## Communities
+
+### MaCoCu
+
+**MaCocu** creates open high quality parallel corpora to improve machine translation for the European Commission.
+
+> **MaCoCu** focuses on collecting monolingual and parallel data from the Internet, specially for under-resourced languages and DSI-specific data.
+
+MaCoCu started in June 2021 and will take place until June 2023.
+
+MaCoCu is lead by multiple groups:
+- Transducens research group (University of Alicante)
+- Prompsit
+- Computational Linguistics research group (University of Groningen)
+- Department of Knowledge Technologies (Jožef Stefan Institute)
+
+MaCoCu is co-financed by Connecting Europe Facility, from the European Union.
+
+[macocu.eu/](https://macocu.eu/)
+
+
+### TIL
+
+Turkic Interlingua (**TIL**) is “a community of NLP enthusiasts with a special interest in Turkic languages”.
+
+> Turkic Interlingua (**TIL**) is a community of researchers, Machine Learning engineers, language enthusiasts and community leaders whose mission is to develop language technologies, collect diverse datasets, and explore linguistic phenomena through the lens of academic research for Turkic languages.
+
+[turkic-interlingua.org/](https://turkic-interlingua.org/)

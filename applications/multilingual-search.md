@@ -11,6 +11,6 @@ Users can use different terms to search for the same data. This is a challenge f
 
 # Content types
 
-- [Social networks](/applications/social-networks.md)
+- [Social networks](social-networks.md)
 - Messenger apps
-- [Commerce and marketplaces](/applications/commerce-and-marketplaces.md)
+- [Commerce and marketplaces](commerce-and-marketplaces.md)

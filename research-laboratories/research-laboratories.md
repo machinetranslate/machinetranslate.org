@@ -1,11 +1,9 @@
 ---
-nav_order: 20
-parent: Community
-title: Research groups
-description: Machine translation research groups
+nav_order: 70
+has_children: false
+title: Research laboratories
+description: Machine translation research laboratories
 ---
-
-Machine translation research groups
 
 | Research laboratory | Organization | Type | Country |
 | --- | --- | --- | --- |
@@ -17,7 +15,7 @@ Machine translation research groups
 | [**Computational Linguistics Research Group**](http://www.cs.toronto.edu/compling/) | University of Toronto | Academic | Canada |
 | [**Conversational AI & Natural-Language Processing**](https://www.amazon.science/research-areas/conversational-ai-natural-language-processing) | Amazon | Corporate | US |
 | [**FoTran**](https://www2.helsinki.fi/en/researchgroups/natural-language-understanding-with-cross-lingual-grounding ) | University of Helsinki | Academic | Finland |
-| [**GETALP**](http://lig-getalp.imag.fr/) | Laboratoire d'Informatique de Grenoble | Academic | France |
+| [**GETALP**](http://lig-getalp.imag.fr/) | Laboratoire d’Informatique de Grenoble | Academic | France |
 | [**Google Research**](https://research.google/research-areas/machine-translation/) | Google | Corporate | US |
 | [**Human Language Technology**](https://hlt-mt.fbk.eu/) | Fondazione Bruno Kessler | Corporate | Italy |
 | [**Institute of Formal and Applied Linguistics**](https://ufal.mff.cuni.cz/home-page) | Charles University | Academic | Czech Republic |

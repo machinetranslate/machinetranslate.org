@@ -17,7 +17,7 @@ Rules describe the grammatical structure of the input and output languages and u
 
 ### Process
 
-- A parser analyzes the grammatical input structure.
+- A parser analyses the grammatical input structure.
 - The parser creates an intermediate representation of the message. This representation can have different levels of abstraction.
 - The parser transfers that representation into the output language structure.
 

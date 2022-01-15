@@ -50,7 +50,7 @@ defaults:
       permalink: /:basename
   -
     scope:
-      path: "customization"
+      path: "customisation"
       type: "pages"
     values:
       permalink: /:basename
@@ -70,12 +70,12 @@ defaults:
       permalink: /:basename
   -
     scope:
-      path: "organizations"
+      path: "associations"
       type: "pages"
     values:
       permalink: /:basename
       seo:
-        type: Organization
+        type: Association
   -
     scope:
       path: "people"

@@ -13,11 +13,11 @@ Machine Translate was founded as open resources and community for people who wan
 
 ## Default to Wikipedia style
 
-Default to the Wikipedia's [Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style) and the [European Commission English Style Guide](https://ec.europa.eu/info/sites/default/files/styleguide_english_dgt_en.pdf) with regard to:
+Default to the Wikipedia’s [Manual of Style](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style) and the [European Commission English Style Guide](https://ec.europa.eu/info/sites/default/files/styleguide_english_dgt_en.pdf):
 
-* Content that's neutral, factual and evergreen
-* Titles, capitalization, punctuation and formatting
-* Linking to other articles with relative paths
+* Create content that is neutral, factual and evergreen.
+* Follow their guidelines in titles, capitalisation, punctuation, and formatting.
+* Link to other articles with relative paths.
 
 Default to UK English orthography and to International English vocabulary.
 
@@ -37,15 +37,52 @@ Avoid parentheses, except for defining common abbreviations.
 
 ## No marketing
 
-Do not promote businesses and do not use cliché or meaningless terms.
+Do not promote businesses.
+
+
+## No empty phrases
+
+Do not use cliché or meaningless terms.
 
 * _language barriers_
 * _multilingual audiences_
 
 
+## No prescriptions
+
+Write about facts that are always true.
+
+* _Post-editing effort ~~may be~~ is..._
+
+
 ## Not too academic
 
 Talk straight and make complex topics simple.
+
+
+## Machine translation ready
+
+Machine Translate will be machine translated. Write articles that are ready for machine translation:
+
+- Follow the [Minimal content](#Minimal-content) guidelines.
+- Be concise and consistent.
+- Use active voice.
+- Check spelling.
+- Use nouns instead of pronouns.
+
+> Tags format, structure and annotate texts. ~~They~~ Tags can also be used as placeholders.
+
+## Chronological order
+
+Arrange events, publications, and any information related to time in chronological order.
+
+
+## Consistency
+
+Keep consistency with the other article’s style.
+
+- _Goals_
+- _Challenges_
 
 
 ## Machine Translate and machinetranslate.org
@@ -55,15 +92,33 @@ Refer to this project and community as _Machine Translate_.
 
 # 🎨 Formatting
 
-## Capitalization
+## Capitalisation
 
-In headers, capitalize only the first letter.
+In headers, capitalise only the first letter.
 
 > How to contribute
+
 
 ## Spacing
 
 Avoid double spaces and trailing spaces.
+
+
+## Oxford comma
+
+Use the Oxford comma [where appropriate](https://en.wikipedia.org/wiki/Wikipedia:Guidance_on_applying_the_Manual_of_Style#Oxford_comma).
+
+
+## Apostrophes and quotation marks
+
+Use curly apostrophes and quotation marks.
+
+> ‘...’
+
+> “...”
+
+> ’
+
 
 ## Acronyms and abbreviations
 
@@ -76,51 +131,71 @@ Do not overuse acronyms. Do not use abbreviations.
 
 ## Links
 
+Only link **the same** word or phrase once per article.
+
 Avoid **external** links, except for databases, important papers and events.
 
-Link anchor texts only the first time they appear in an article.
 
+## Lists
+
+Introduce lists with full sentences.
+
+For list items without a main verb, use initial lowercase and no end punctuation.
+
+```
+For list items without verbs:
+
+- item 1
+- item 2
+- item 3
+
+```
+
+For list items with verbs, use initial uppercase and a period.
+
+```
+For list items with verbs:
+
+- Item 1 starts with uppercase and ends with a period.
+- Item 2 starts with uppercase and ends with a period.
+- Item 3 starts with uppercase and ends with a period.
+
+```
 
 ## File names
 
-When creating a new article, make sure its file name does not already exist.
+When creating a new article, give the file a name that does not exist in Machine Translate.
 
 
 # 🔨 Markdown
 
-Machine Translate articles are written in [markdown](https://www.markdownguide.org/cheat-sheet/).
+Machine Translate articles are written in [Markdown](https://www.markdownguide.org/cheat-sheet/).
 
 Follow the structure from published Machine Translate articles.
 
 
-## Front matter
+## Front Matter
 
-Add front matter parameters at the beginning of each article.
+Add [Front Matter](https://jekyllrb.com/docs/front-matter/) variables at the beginning of each article.
 
 ```
 ---
-parent: Customization
+parent: Customisation
 title: Training data
 description: Training data for machine translation
 ---
 ```
 
-- **Parent** is the name of the section.
-- **Title** is the article header.
-- **Description** is a phrase that summarizes the content.
+- `parent` is the name of the section.
+- `title` is the article header.
+- `description` is a phrase that summarizes the content.
 
 
 ## Headers
 
-The front matter `title` is the article header.
+The Front Matter `title` will automatically be displayed as an H1.
 
-```
----
-title: Training data
----
-```
-
-Create article sub-headers in H3.
+For sections header, use H3.
 
 ```
 ### Challenges
@@ -140,10 +215,35 @@ Leave an empty line between text and tables.
 | 8:00 | **Opening** |
 ```
 
+## Links
 
-## Consistency
+For articles in the **same directory**, use a **relative** path.
 
-Keep consistency with the other articles style.
+```
+She researches quality estimation with [Kevin Johnson](kevin-johnson.md) at Microsoft.
+```
 
-- _Goals_
-- _Challenges_
+For articles in any **other directory**, use an **absolute** path.
+
+```
+She researches [quality estimation](quality/quality-estimation.md) with Kevin Johnson at Microsoft.
+```
+
+For a specific **section** of an article, use the **fragment identifier**.
+
+```
+She researches quality estimation with Kevin Johnson at [Microsoft](industry/companies.md#microsoft).
+```
+
+## Mathematical notation
+
+To render short mathematical formulas, like <img src="https://render.githubusercontent.com/render/math?math=p(t_i|s_{1\ldots |s|}, t_{1\ldots (i-1)})">, use [LaTeX](https://www.latex-project.org/about/) notation and insert the LaTeX code after `=` in the below URL.
+
+`<img src="https://render.githubusercontent.com/render/math?math=[LaTeX Code]">`
+
+
+Include the complete URL to add the mathematical formula in the article.
+
+```
+<img src="https://render.githubusercontent.com/render/math?math=p(t_i|s_{1\ldots |s|}, t_{1\ldots (i-1)})">
+```
