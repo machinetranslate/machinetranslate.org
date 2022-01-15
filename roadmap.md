@@ -18,8 +18,6 @@ description: Content roadmap for Machine Translate
 
 ### Applications
 
-- Post-editing
-- Hybrid translation
 - Translation and localization
 - Multilingual search
 - Translation for SEO
@@ -39,6 +37,12 @@ description: Content roadmap for Machine Translate
 - [Vector](https://github.com/machinetranslate/machinetranslate.org/issues/112)
 - [Language model](https://github.com/machinetranslate/machinetranslate.org/issues/107)
 - Sentence splitting
+- Word embeddings
+
+### Concepts - Human translation
+
+- Post-editing
+- Hybrid translation
 
 ### Advanced concepts - Application
 
@@ -58,6 +62,8 @@ description: Content roadmap for Machine Translate
 - [Tokenization](https://github.com/machinetranslate/machinetranslate.org/issues/73)
 - [Byte-pair encoding](https://github.com/machinetranslate/machinetranslate.org/issues/75)
 - [Human-in-the-loop](https://github.com/machinetranslate/machinetranslate.org/issues/76)
+- Unsupervised machine translation
+- Zero-shot machine translation
 
 
 ### Industry
@@ -68,6 +74,7 @@ description: Content roadmap for Machine Translate
 - Companies / Startups / Acquisitions
 - Products / Providers
 - [Talent / Education / Jobs](https://github.com/machinetranslate/machinetranslate.org/issues/79)
+- CAT integration
 
 ### Customization
 
@@ -80,6 +87,8 @@ description: Content roadmap for Machine Translate
 - Context
 - [Glossaries](https://github.com/machinetranslate/machinetranslate.org/issues/84)
 - [Controlled language](https://github.com/machinetranslate/machinetranslate.org/issues/85)
+- Data augmentation
+- Tuning
 
 ### Quality
 
@@ -113,6 +122,7 @@ description: Content roadmap for Machine Translate
 - German
 - [Chinese](https://github.com/machinetranslate/machinetranslate.org/issues/101)
 - [Spanish](https://github.com/machinetranslate/machinetranslate.org/issues/102)
+- Low-resource languages
 
 ### People
 
@@ -131,6 +141,7 @@ description: Content roadmap for Machine Translate
 - [Jaime Carbonell](https://github.com/machinetranslate/machinetranslate.org/issues/106)
 - Ondřej Bojar
 - Martin Popel
+- Andy Way
 
 ### Community
 
