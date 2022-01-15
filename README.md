@@ -28,7 +28,10 @@ Machine Translate is open-source. You can create or edit the content.
 
 Read news, ask and answer questions and share your work!
 
-[**Join our community**](https://form.typeform.com/c/ndac7OIs)
+<a data-tf-slider="ndac7OIs" data-tf-width="550" data-tf-iframe-props="title=Machine Translate | Open resources and community for machine translation" data-tf-medium="snippet" style="cursor:pointer;">
+   Join the community
+</a>
+<script src="//embed.typeform.com/next/embed.js"></script>
 
 
 ## Updates
