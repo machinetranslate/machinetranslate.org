@@ -1,8 +1,8 @@
 ---
 name: Request an article
 about: Request a topic for a new article
-title: ''
-labels: ''
+title: 'Article: '
+labels: 'article'
 assignees: ''
 
 ---
