@@ -24,9 +24,9 @@
 * [Tags and placeholders](applications/advanced-concepts/tags-and-placeholders.md)
 * [Multi-engine machine translation](applications/advanced-concepts/multi-engine-machine-translation.md)
 
-## Postediting
+## Integrations
 
-* [HOW TO CONNECT POPULAR MTs TO CAT TOOLS](api_mt/index.md)
+* [How to connect CAT tools to machine translation APIs](api_mt/index.md)
 
 ## Customization
 
