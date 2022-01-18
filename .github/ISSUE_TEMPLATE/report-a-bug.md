@@ -1,8 +1,8 @@
 ---
 name: Report a bug
 about: Create a report to help us improve
-title: ''
-labels: ''
+title: 'Bug: '
+labels: 'bug'
 assignees: ''
 
 ---
