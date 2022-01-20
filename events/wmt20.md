@@ -10,7 +10,7 @@ endDate: 2020-11-11
 
 The Fifth Conference on Machine Translation (**WMT20**) took place online from 10 November to 11 November, 2020.
 
-[statmt.org/wmt21/program.html](http://www.statmt.org/wmt21/program.html)
+[statmt.org/wmt20/program.html](http://www.statmt.org/wmt20/program.html)
 
 {% include collapsible_toc.html %}
 
