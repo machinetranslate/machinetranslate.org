@@ -29,6 +29,12 @@ defaults:
     values:
       permalink: /:basename
   -
+      scope:
+        path: "concepts"
+        type: "pages"
+      values:
+        permalink: /:basename
+  -
     scope:
       path: "industry"
       type: "pages"

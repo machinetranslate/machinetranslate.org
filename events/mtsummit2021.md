@@ -8,7 +8,7 @@ startDate: 2021-08-16
 endDate: 2021-08-20
 ---
 
-The Machine Translation Summit 2021 (**MT Summit 2021**) took place on August 16-20th as a 5-day virtual event.
+The Machine Translation Summit 2021 (**MT Summit 2021**) took place from 16 August to 20 August as a 5-day virtual event.
 
 ### Keynote Speakers
 
