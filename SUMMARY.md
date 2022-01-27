@@ -53,6 +53,7 @@
 
 * [Languages](languages/languages.md)
   * [Russian](languages/russian.md)
+  * [Turkish](languages/turkish.md)
 
 * [Community](community/community.md)
   * [Communities](community/communities.md)
