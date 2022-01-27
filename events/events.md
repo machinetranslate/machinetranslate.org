@@ -7,11 +7,12 @@ description: Machine translation events
 
 ## Upcoming events
 
-| Date | Event | Organization |
+| Date | Event | Organisation |
 | ---- | ---- | ---- |
 | May 25, 2022 | [An International Symposium on Lay Use and Perceptions of Machine](https://www.linkedin.com/dms/C4D06AQHt8KKvlxswhA/messaging-attachmentFile/0/1641848178898?m=AQL-3zWbIFlXwwAAAX5PO1tKZwCeYS5-DhEemNEl4ymIVAYZ9Rf6vrRzCw&ne=1&v=beta&t=HUcW-WEa5xHt0r4avXuyJ0Yk8n-Apt6EKYvfbRSHdpQ) |  Bar Ilan University  |
 | May 26, 2022 | [IWSLT 2022](iwslt2022.md) | [SIGSLT](/associations/SIGSLT.md) |
 | Jun 01, 2022 | [EAMT 2022](eamt2022.md) |  [EAMT](/associations/eamt.md)  |
+| Jul 02, 2022 | [NeTTT Conference](nettt2022.md) | - Dimetra Academy for Translators <br> - Department of Foreign Languages, Translation and Interpreting and Department of Informatics (Ionian University) <br> - Adapt Centre (Dublin City University) <br> - Research Group in Computational Linguistics (University of Wolverhampton) <br> - Association of Computational Linguistics |
 | Sep 12, 2022 | [AMTA 2022](amta2022.md) | [AMTA](/associations/amta.md) |
 | Oct 12, 2022 | [LoResMT 2022](loresmt2022.md) | LoResMT |
 
