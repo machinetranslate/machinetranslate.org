@@ -30,6 +30,7 @@ description: Machine translation events
 
 |     |     |
 | --- | --- |
+| TQ2022 | [Jan 28, 2022](tq2022.md)
 | AAMT | [Dec 8-9, 2021](aamt2021.md) |
 | WMT21 | [Nov 10-11, 2021](wmt21.md) |
 | MTM Zurich | [Oct 25, 2021](zurich-9.md) |
