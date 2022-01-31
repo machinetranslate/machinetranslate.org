@@ -25,3 +25,8 @@ To create or edit an article, [**create**](https://github.com/machinetranslate/m
 To request a topic, create a new [**issue**](https://github.com/machinetranslate/machinetranslate.org/issues).
 
 > See GitHub’s article [*Creating an issue*](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) for more
+
+---
+<center>
+  {{ site.time | date_to_rfc822 }}
+</center>
