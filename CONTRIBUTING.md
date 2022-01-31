@@ -3,6 +3,7 @@ nav_order: 200
 has_children: true
 title: Contributing
 description: How to contribute to Machine Translate
+slug: contributing
 seo:
   type: HowTo
 ---
