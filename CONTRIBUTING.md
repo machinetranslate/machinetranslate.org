@@ -28,5 +28,5 @@ To request a topic, create a new [**issue**](https://github.com/machinetranslate
 
 ---
 <center>
-  {{ site.time | date_to_rfc822 }}
+  Last update: {{ site.time | date_to_rfc822 }}
 </center>
