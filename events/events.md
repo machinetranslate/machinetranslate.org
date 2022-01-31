@@ -9,7 +9,6 @@ description: Machine translation events
 
 | Date | Event | Organisation |
 | ---- | ---- | ---- |
-| May 25, 2022 | [An International Symposium on Lay Use and Perceptions of Machine](https://www.linkedin.com/dms/C4D06AQHt8KKvlxswhA/messaging-attachmentFile/0/1641848178898?m=AQL-3zWbIFlXwwAAAX5PO1tKZwCeYS5-DhEemNEl4ymIVAYZ9Rf6vrRzCw&ne=1&v=beta&t=HUcW-WEa5xHt0r4avXuyJ0Yk8n-Apt6EKYvfbRSHdpQ) |  Bar Ilan University  |
 | May 26, 2022 | [IWSLT 2022](iwslt2022.md) | [SIGSLT](/associations/SIGSLT.md) |
 | Jun 01, 2022 | [EAMT 2022](eamt2022.md) |  [EAMT](/associations/eamt.md)  |
 | Jul 02, 2022 | [NeTTT Conference](nettt2022.md) | [NeTTT Organisers](nettt2022.md#Organisers) |
@@ -42,3 +41,4 @@ description: Machine translation events
 | WMT20 | [Nov 10-11, 2020](wmt20.md) |
 | MTM | [Aug 26-31, 2019](mtm2019.md) |
 | EAMT | May 28-30, 2018 |
+| An International Symposium on Lay Use and Perceptions of Machine |  May 25, 2021  |
