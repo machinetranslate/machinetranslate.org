@@ -11,7 +11,6 @@ description: Machine translation events
 | November, 2022 | [**WMT22**](wmt22.md) | |
 | 2022 | AAMT 2022 | |
 | 2022 | MT Summit 2022 | |
-| May 25, 2022 | [Lay Use and Perceptions of Machine Translation](lay-use-and-perceptions-of-machine-translation.md) | online |
 | May 26, 2022 | [IWSLT 2022](iwslt2022.md) | Dublin, Ireland |
 | June 01, 2022 | [EAMT 2022](eamt2022.md) | Ghent, Belgium |
 | July 02, 2022 | [NeTTT Conference](nettt2022.md) | Rhodes, Greece |
@@ -27,6 +26,7 @@ description: Machine translation events
 | August 16, 2021 | [LoResMT 2021](loresmt2021.md) | |
 | August 16, 2021 | [PSLT 2021](pslt2021.md) | |
 | August 16-20, 2021 | [MT Summit 2021](mtsummit2021.md) | |
+| May 25, 2021 | [Lay Use and Perceptions of Machine Translation](lay-use-and-perceptions-of-machine-translation.md) | online |
 | | | |
 | November 10-11, 2020 | [**WMT20**](wmt20.md) | online |
 | November 3-5, 2020 | EAMT 2020 | Lisbon, Portugal |
