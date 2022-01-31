@@ -26,7 +26,3 @@ To request a topic, create a new [**issue**](https://github.com/machinetranslate
 
 > See GitHub’s article [*Creating an issue*](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) for more
 
----
-<center>
-  Last update: {{ site.time | date_to_rfc822 }}
-</center>
