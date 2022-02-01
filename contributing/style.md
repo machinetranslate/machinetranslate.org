@@ -35,6 +35,11 @@ Avoid parentheses, except for defining common abbreviations.
 > ... translation management system (TMS) ...
 
 
+## Consistency
+
+Use sister articles as reference and keep consistency with their structure.  Similar articles should have similar sections and focus on the same kind of information.
+
+
 ## No marketing
 
 Do not promote businesses.
@@ -77,14 +82,6 @@ Machine Translate will be machine translated. Write articles that are ready for 
 Arrange events, publications, and any information related to time in chronological order.
 
 
-## Consistency
-
-Keep consistency with the other article’s style.
-
-- _Goals_
-- _Challenges_
-
-
 ## Machine Translate and machinetranslate.org
 
 Refer to this project and community as _Machine Translate_.
@@ -101,7 +98,9 @@ In headers, capitalise only the first letter.
 
 ## Spacing
 
-Avoid double spaces and trailing spaces.
+Avoid trailing spaces and double spaces inside sentences.
+
+Separate sentences with two spaces.
 
 
 ## Oxford comma
@@ -122,11 +121,15 @@ Use curly apostrophes and quotation marks.
 
 ## Acronyms and abbreviations
 
-Only use widely understood acronyms. Expand acronyms they first time they appear in an article.
+Only use widely understood acronyms. Expand acronyms the first time they appear in an article.
 
 > Neural machine translation (NMT)
 
-Do not overuse acronyms. Do not use abbreviations.
+Do not overuse acronyms.
+
+Do not use abbreviations.  Do not use punctuation marks as abbreviations.
+
+> ~~USD/EUR~~ USD or EUR
 
 
 ## Links
@@ -169,14 +172,14 @@ When creating a new article, give the file a name that does not exist in Machine
 
 # 🔨 Markdown
 
-Machine Translate articles are written in [Markdown](https://www.markdownguide.org/cheat-sheet/).
+Machine Translate articles are written in [Markdown](https://www.markdownguide.org/cheat-sheet).
 
 Follow the structure from published Machine Translate articles.
 
 
 ## Front Matter
 
-Add [Front Matter](https://jekyllrb.com/docs/front-matter/) variables at the beginning of each article.
+Add [Front Matter](https://jekyllrb.com/docs/front-matter) variables at the beginning of each article.
 
 ```
 ---
@@ -234,6 +237,11 @@ For a specific **section** of an article, use the **fragment identifier**.
 ```
 She researches quality estimation with Kevin Johnson at [Microsoft](industry/companies.md#microsoft).
 ```
+
+Avoid trailing slashes at the end of links.
+
+> jekyllrb.com/docs/front-matter~~/~~
+
 
 ## Mathematical notation
 
