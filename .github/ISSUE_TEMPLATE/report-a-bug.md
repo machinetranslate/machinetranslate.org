@@ -1,15 +1,13 @@
 ---
 name: Report a bug
-about: Create a report to help us improve
+about: Create a report to help Machine Translate improve
 title: 'Bug: '
 labels: 'bug'
-assignees: ''
+assignees: 'cefoo'
 
 ---
 
-_Please replace the content with the relevant details._
-
-**Description:** _e.g. “The footer LinkedIn button leads nowhere.”_
+**Description:** *e.g. “The footer LinkedIn button leads nowhere.”*
 
 **Steps to reproduce the behavior:**
 1. Go to '...'
@@ -17,19 +15,13 @@ _Please replace the content with the relevant details._
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior:** _e.g. Upon clicking on the button, a new page should open in Machine Translate’s LinkedIn page._
+**Expected behavior:** *e.g. Upon clicking on the button, a new page should open in Machine Translate’s LinkedIn page.*
 
 **Screenshots [optional]:**
 
-**Desktop:**
- - OS: _e.g. iOS_
- - Browser _e.g. chrome, safari_
- - Version _e.g. 22_
+**Device:**
+ - OS: *e.g. iOS8.1*
+ - Browser *e.g. stock browser, safari*
+ - Version *e.g. 22*
 
-**Smartphone:**
- - Device: _e.g. iPhone6_
- - OS: _e.g. iOS8.1_
- - Browser _e.g. stock browser, safari_
- - Version _e.g. 22_
-
-**Additional context:** _e.g. “It works in Firefox, but it doesn’t work in Chrome.”_
+**Additional context:** *e.g. “It works in Firefox, but it doesn’t work in Chrome.”*
