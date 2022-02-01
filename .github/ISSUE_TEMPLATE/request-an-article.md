@@ -3,14 +3,15 @@ name: Request an article
 about: Request a topic for a new article
 title: 'Article: '
 labels: 'article'
-assignees: ''
+assignees: 'cefoo'
 
 ---
 
-_Please replace the content with the relevant details._
+**Article title:** *e.g. “Russian”*
 
-**Article title:** _e.g. “Multi-engine machine translation”_
+**Directory:** *e.g. “Languages”. If necessary, suggest a new directory.*
 
-**Directory:** _e.g. “Applications”. If necessary, suggest a new directory._
+**Description**: *e.g. “Machine translation for Russian”*
 
-**Description:** _e.g. “Multi-engine machine translation is an approach for evaluating and picking a machine translation engine”._
+**Definition**: *e.g. “**Russian** was one of the first languages for which machine translation was researched and developed, and remains one of the best supported languages.”*
+
