@@ -8,6 +8,6 @@ startDate: 2021-11-10
 endDate: 2021-11-11
 ---
 
-The **Seventh Conference on Machine Translation** (**WMT21**) is set to take place in November, 2022, at [EMNLP](http://emnlp.org) 2022.
+The **Seventh Conference on Machine Translation** (**WMT22**) is set to take place at [EMNLP](http://emnlp.org) 2022.
 
-The location is yet to be announced.
+The date and location are yet to be announced.
