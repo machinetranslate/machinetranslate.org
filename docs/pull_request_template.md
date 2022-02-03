@@ -1,12 +1,8 @@
 # Description
 
-_Please include a summary of the pull request._
-
 Fixes # _[Add the issue number]_
 
 ## Type of PR
-
-_Please delete options that are not relevant._
 
 - Creates the article _[article name]_
 - Edits _[article name]_
