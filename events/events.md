@@ -5,8 +5,6 @@ title: Events
 description: Machine translation events
 ---
 
-### 2022
-
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
