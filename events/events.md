@@ -8,9 +8,9 @@ description: Machine translation events
 ### 2022
 | Date | Event | Location |
 | ---- | ---- | ---- |
-| November, 2022 | [**WMT22**](wmt22.md) | |
+| 2023 | MT Summit 2023 | |
+| 2022 | [**WMT22**](wmt22.md) | |
 | 2022 | AAMT 2022 | |
-| 2022 | MT Summit 2022 | |
 | May 26, 2022 | [IWSLT 2022](iwslt2022.md) | Dublin, Ireland |
 | June 01, 2022 | [EAMT 2022](eamt2022.md) | Ghent, Belgium |
 | July 02, 2022 | [NeTTT Conference](nettt2022.md) | Rhodes, Greece |
@@ -32,9 +32,8 @@ description: Machine translation events
 | November 3-5, 2020 | EAMT 2020 | Lisbon, Portugal |
 | | | |
 | August 26-31, 2019 | [MTM](mtm2019.md) | Edinburgh, Scotland |
-| August 19-23, 2019 | MT Summit 2019 | Dublin, Ireland |
+| August 19-23, 2019 | [MT Summit 2019](mtsummit2019.md) | Dublin, Ireland |
 | | | |
 | May 28-30, 2018 | EAMT 2018 | Alacant, Spain |
 | | | |
 | May 29-31 | EAMT 2017 | Prague, Czechia |
-
