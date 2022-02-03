@@ -6,6 +6,7 @@ description: Machine translation events
 ---
 
 ### 2022
+
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 2023 | MT Summit 2023 | |
