@@ -7,11 +7,13 @@ description: Machine translation events
 
 
 # 2023
+
 | Date | Event | Location |
 | ---- | ---- | ---- |
 |  | MT Summit 2023 | |
 
 ## 2022
+
 |  |  |  |
 | ---- | ---- | ---- |
 |  | [**WMT22**](wmt22.md) | |
@@ -24,6 +26,7 @@ description: Machine translation events
 | January 28| [TQ2022](tq2022.md) | online |
 
 ## 2021
+
 |  |  |  |
 | ---- | ---- | ---- |
 | December 8-9 | [AAMT 2021](aamt2021.md) | online |
@@ -37,23 +40,27 @@ description: Machine translation events
 | May 25 | [Lay Use and Perceptions of Machine Translation](lay-use-and-perceptions-of-machine-translation.md) | online |
 
 ## 2020
+
 |  |  |  |
 | ---- | ---- | ---- |
 | November 10-11, 2020 | [**WMT20**](wmt20.md) | online |
 | November 3-5, 2020 | EAMT 2020 | Lisbon, Portugal |
 
 ## 2019
+
 |  |  |  |
 | ---- | ---- | ---- |
 | August 26-31 | [MTM](mtm2019.md) | Edinburgh, Scotland |
 | August 19-23 | [MT Summit 2019](mtsummit2019.md) | Dublin, Ireland |
 
 ## 2018
+
 |  |  |  |
 | ---- | ---- | ---- |
 | May 28-30 | EAMT 2018 | Alacant, Spain |
 
 ## 2017
+
 |  |  |  |
 | ---- | ---- | ---- |
 | May 29-31 | EAMT 2017 | Prague, Czechia |
