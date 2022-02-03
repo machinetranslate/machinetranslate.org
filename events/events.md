@@ -5,6 +5,11 @@ title: Events
 description: Machine translation events
 ---
 
+<style>
+    th {
+        display: none;
+    }
+</style>
 
 ## 2023
 
@@ -12,14 +17,9 @@ description: Machine translation events
 | ---- | ---- | ---- |
 |  | MT Summit 2023 | |
 
-<style>
-    th {
-        display: none;
-    }
-</style>
-
 ## 2022
 
+|  |  |  |
 | ---- | ---- | ---- |
 |  | [**WMT22**](wmt22.md) | |
 |  | AAMT 2022 | |
