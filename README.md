@@ -1,6 +1,8 @@
 
 
-*This README is for making changes to machinetranslate.org infrastructure, not Machine Translate content.  The Machine Translate landing page served at [https://machinetranslate.org](https://machinetranslate.org) is **[index.md](index.md)**.*
+*This README is for machinetranslate.org infrastructure, not Machine Translate content.*
+
+*For the Machine Translate landing page, visit **[index.md](index.md)**!*
 
 ### Infrastructure
 
