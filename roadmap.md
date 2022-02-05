@@ -1,5 +1,6 @@
 ---
 parent: Contributing
+nav_order: 5
 title: Roadmap
 description: Content roadmap for Machine Translate
 ---
