@@ -2,6 +2,7 @@
 parent: Quality
 title: Quality estimation
 description: Machine translation quality estimation
+featured: true
 ---
 
 **Quality estimation** (**QE**) is a method for automatically assessing the quality of the machine translation output without human intervention. QE scores are independent from the expected translation output.

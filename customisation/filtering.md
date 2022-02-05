@@ -2,6 +2,7 @@
 parent: Customisation
 title: Filtering
 description: Filtering training data for machine translation
+featured: true
 ---
 
 **Filtering** for machine translation is the process of cleaning [parallel data](parallel-data.md) for training a machine translation system.
