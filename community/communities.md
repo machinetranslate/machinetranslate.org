@@ -6,6 +6,8 @@ description: Machine translation communities
 featured: true
 ---
 
+Machine translation communities are mainly global, online lists, groups or fora.
+
 {% include collapsible_toc.html %}
 
 ## Research mailing lists
