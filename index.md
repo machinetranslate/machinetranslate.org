@@ -14,6 +14,11 @@ seo:
 The content covers everything about machine translation, from products to research, and from history to news.
 
 
+## Featured article
+
+{% include featured.html %}
+
+
 ## Contributing
 
 Machine Translate is open-source. You can create or edit the content.

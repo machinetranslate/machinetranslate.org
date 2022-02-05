@@ -2,6 +2,7 @@
 parent: Industry
 title: Companies
 description: Companies in the machine translation space
+featured: true
 ---
 
 The history of machine translation companies begins in the defence and intelligence sector.

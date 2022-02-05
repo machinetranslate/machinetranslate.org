@@ -3,6 +3,7 @@ nav_order: 10
 parent: Community
 title: Communities
 description: Machine translation communities
+featured: true
 ---
 
 {% include collapsible_toc.html %}
