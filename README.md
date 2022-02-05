@@ -6,6 +6,7 @@
 
 The machinetranslate.org technology stack:
 - Website: Jekyll
+- Theme: Just the Docs
 - CDN: GitHub Pages
 - DNS: Cloudflare
 
