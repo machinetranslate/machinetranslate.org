@@ -1,53 +1,40 @@
----
-nav_exclude: true
-title: Machine Translate
-description: Open resources and community for machine translation
-permalink: /
-seo:
-  type: Organization
----
-
-# Machine Translate
-
-**Machine Translate** is building **open resources and community for machine translation**.
-
-The content covers everything about machine translation, from products to research, and from history to news.
 
 
-## Contributing
+*This README is for making changes to machinetranslate.org infrastructure, not Machine Translate content.  The Machine Translate landing page served at [https://machinetranslate.org](https://machinetranslate.org) is **[index.md](index.md)**.*
 
-Machine Translate is open-source. You can create or edit the content.
+### Infrastructure
 
-{% include contributions.html %}
-{{ site.github.contributors | size }} contributors have made {{ all_contributions }} contributions.
+The machinetranslate.org technology stack:
+- Website: Jekyll
+- CDN: GitHub Pages
+- DNS: Cloudflare
 
-[**Learn more about contributing**](/contributing/contributing.md)
+### Running Jekyll locally
 
+Follow the [Jekyll Quickstart Instructions](https://jekyllrb.com/docs/#instructions):
 
-## Community
+> 1. Install all [prerequisites]({{ '/docs/installation/' | relative_url }}).
+> 2. Install the jekyll and bundler [gems]({{ '/docs/ruby-101/#gems' | relative_url }}).
+> ```sh
+> gem install jekyll bundler
+> ```
+> ...
+> ```
+> 5. Build the site and make it available on a local server.
+> ```sh
+> bundle exec jekyll serve
+> ```
+> 6. Browse to [http://localhost:4000](http://localhost:4000){:target="_blank"}
 
-Read news, ask and answer questions and share your work!
+### Paths
 
-<a data-tf-slider="ndac7OIs" data-tf-width="550" data-tf-iframe-props="title=Machine Translate | Open resources and community for machine translation" data-tf-medium="snippet" style="cursor:pointer; font-weight: bolder">
-   Join the community
-</a>
-<script src="//embed.typeform.com/next/embed.js"></script>
+This repository has a directory structure, but on the website the page paths are flat.
 
+> GitHub repository: `/quality/quality-estimation.md`
+> machinetranslate.org: `/quality-estimation`
 
-## Updates
-
-Watch and star the content source repository, browse and subscribe to issues and more!
-
-[**Visit Machine Translate on GitHub**](https://github.com/machinetranslate)
-
-[Follow Machine Translate on Twitter](https://twitter.com/machtranslate)  
-[Follow Machine Translate on LinkedIn](https://linkedin.com/company/machinetranslate)  
-[Follow Machine Translate on Facebook](https://facebook.com/machinetranslate)
-
-
-## About Machine Translate
-
-Machine Translate is on a mission to make machine translation more accessible to more people.
-Our mission is supported by people like you.
-
-[**Learn more about the foundation**](/about.md)
+How it works:
+- Jekyll removes the file extension (`.md`).
+- A Cloudflare Page Rule is configured to remove the directory from the path.
+- In the soure content on GitHub, relative paths are used.
+- Relative paths resolve on GitHub and on the website.
