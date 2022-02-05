@@ -1,5 +1,3 @@
-
-
 *This README is for machinetranslate.org infrastructure, not Machine Translate content.*
 
 *For the Machine Translate landing page, visit **[index.md](index.md)**!*
@@ -21,12 +19,12 @@ Follow the [Jekyll Quickstart Instructions](https://jekyllrb.com/docs/#instructi
 > gem install jekyll bundler
 > ```
 > ...
-> ```
 > 5. Build the site and make it available on a local server.
 > ```sh
 > bundle exec jekyll serve
 > ```
-> 6. Browse to [http://localhost:4000](http://localhost:4000){:target="_blank"}
+> 6. Browse to [http://localhost:4000](http://localhost:4000)
+
 
 ### Paths
 
