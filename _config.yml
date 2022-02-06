@@ -112,7 +112,7 @@ defaults:
 
 # Just the Docs
 
-remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
 
 logo: favicon.ico
 color_scheme: swissred
