@@ -11,6 +11,8 @@ The **Seventh Conference on Machine Translation** (**WMT22**) is set to take pla
 
 The date and location are yet to be announced.
 
+{% include collapsible_toc.html %}
+
 ## Tasks
 
 The *News* machine translation task will be renamed the *General* machine translation task.
