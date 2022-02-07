@@ -22,7 +22,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-|  | [**WMT22**](wmt22.md) | |
+| November 2022 | [**WMT22**](wmt22.md) | |
 |  | AAMT 2022 | |
 | May 26 | [IWSLT 2022](iwslt2022.md) | Dublin, Ireland |
 | June 01 | [EAMT 2022](eamt2022.md) | Ghent, Belgium |
