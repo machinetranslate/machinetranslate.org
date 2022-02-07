@@ -6,9 +6,10 @@ location: Punta Cana, Dominican Republic, and online
 name: WMT21
 startDate: 2021-11-10
 endDate: 2021-11-11
+featured: true
 ---
 
-The Sixth Conference on Machine Translation (**WMT21**) took place November 10th and 11th, 2021 at [EMNLP 2021](http://2021.emnlp.org/) in Punta Cana in the Dominican Republic and online.
+The **Sixth Conference on Machine Translation** (**WMT21**) took place from 10 November to 11 November, 2021, at [EMNLP 2021](http://2021.emnlp.org/) in Punta Cana in the Dominican Republic and online.
 
 [statmt.org/wmt21/program.html](http://www.statmt.org/wmt21/program.html)
 

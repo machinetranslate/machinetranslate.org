@@ -29,6 +29,12 @@ defaults:
     values:
       permalink: /:basename
   -
+      scope:
+        path: "concepts"
+        type: "pages"
+      values:
+        permalink: /:basename
+  -
     scope:
       path: "industry"
       type: "pages"
@@ -128,7 +134,6 @@ ga_tracking: G-MJD8MHH513
 
 plugins:
   - jekyll-sitemap
-  - jekyll-readme-index
   - jekyll-feed
   - jekyll-target-blank
   - jekyll-seo-tag

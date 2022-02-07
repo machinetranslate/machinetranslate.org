@@ -7,7 +7,7 @@ name: ASLTRM 2021
 startDate: 2021-08-17
 ---
 
-The Automatic Spoken Language Translation in Real-World Settings (**ASLTRW**) workshop was held online in the [MT Summit 2021](mtsummit2021.md) on August 17th, 2021.
+The Automatic Spoken Language Translation in Real-World Settings (**ASLTRW**) workshop was held online at the [MT Summit 2021](mtsummit2021.md) on 17 August, 2021.
 
 [cai.uni-mainz.de/asltrw/](https://cai.uni-mainz.de/asltrw/)
 

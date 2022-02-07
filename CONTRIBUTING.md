@@ -3,6 +3,7 @@ nav_order: 200
 has_children: true
 title: Contributing
 description: How to contribute to Machine Translate
+permalink: /contributing
 seo:
   type: HowTo
 ---
@@ -24,3 +25,9 @@ To create or edit an article, [**create**](https://github.com/machinetranslate/m
 To request a topic, create a new [**issue**](https://github.com/machinetranslate/machinetranslate.org/issues).
 
 > See GitHub’s article [*Creating an issue*](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) for more
+
+---
+
+### Contributing to infrastructure
+
+To contribute technical work not content, start by reading [README.md](github.com/machinetranslate/machinetranslate.org/README.md).

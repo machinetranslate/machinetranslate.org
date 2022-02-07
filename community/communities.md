@@ -3,7 +3,10 @@ nav_order: 10
 parent: Community
 title: Communities
 description: Machine translation communities
+featured: true
 ---
+
+Machine translation communities are mainly global, online lists, groups or fora.
 
 {% include collapsible_toc.html %}
 
@@ -109,7 +112,7 @@ MaCoCu is lead by multiple groups:
 
 MaCoCu is co-financed by Connecting Europe Facility, from the European Union.
 
-[macocu.eu/](https://macocu.eu/)
+[macocu.eu/](https://macocu.eu)
 
 
 ### TIL
@@ -124,6 +127,3 @@ Turkic Interlingua was founded in September 2020 and brings together over 100 NL
 - People: [https://turkic-interlingua.org/team](https://turkic-interlingua.org/team)
 - Papers: [https://github.com/turkic-interlingua/til-mt](https://github.com/turkic-interlingua/til-mt)
 - Datasets: [https://huggingface.co/datasets/turkic_xwmt](https://huggingface.co/datasets/turkic_xwmt)
-
-
-

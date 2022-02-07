@@ -7,7 +7,7 @@ description: Probability of a word in a sequence
 # Language model
 
 A language model takes text input and outputs the next word or character.
-The input is often called a "context" or "history", because it represents what has been written so far.
+The input is often called a “context” or “history”, because it represents what has been written so far.
 
 Example:
 - input: `the man is riding a ___`
@@ -35,7 +35,7 @@ This way a language model can generate new text as in the following example:
   - input: `<BOS> the man is riding a bike to the store . ___`
   - output: `<EOS>`: 98%, ...
 
-For the beginning the special token `<BOS>` (beginning of sentence) is used 
+For the beginning the special token `<BOS>` (beginning of sentence) is used.
 When another special token `<EOS>` (end of sentence), the decoder stops.
 
 This kind of decoding where only the most probable token is considered is called **greedy decoding** and it may not always lead to the most fluent output.
@@ -48,13 +48,13 @@ There are many different ways in which language models are created.
 ## N-gram maximum likelihood estimate
 
 
-The easiest one is to count a number of occurrences of a phrase, in this case a pair, 
-<img src="https://render.githubusercontent.com/render/math?math=(w_1, w_2)"> and divide that by the number of occurrences of just 
+The easiest one is to count a number of occurrences of a phrase, in this case a pair,
+<img src="https://render.githubusercontent.com/render/math?math=(w_1, w_2)"> and divide that by the number of occurrences of just
 <img src="https://render.githubusercontent.com/render/math?math=w_1">.
 The result is the probability that with the history (now truncated to just <img src="https://render.githubusercontent.com/render/math?math=w_1">) the next word is <img src="https://render.githubusercontent.com/render/math?math=w_2">.
 
 Under the **Markov assumption**, the input is limited to the last word only.
-This model is quite restricted because it can't model well any even mid-term sentence dependencies. 
+This model is quite restricted because it can’t model well any even mid-term sentence dependencies.
 There are models that take longer input, e.g. 3-grams, but they have create new issues, such as data sparsity.
 One solution to those is **language model smoothing**.
 
@@ -74,7 +74,7 @@ State-of-the-art neural language models are based on the [Transformer architectu
 That can be done trivially by using single-word phrases.
 The key missing ingredient is the cohesion between phrases, called fluency.
 Therefore, in the decoding phase of phrase-based machine translation, the score of a state is determined partly by the language model probability.
-Higher probabilities are prefered because they correspond to more natural-sounding sentences.
+Higher probabilities are preferred because they correspond to more natural-sounding sentences.
 
 In phrase-based machine translation, increasing the weight of the language model increases fluency but can decrease adequacy.
 
