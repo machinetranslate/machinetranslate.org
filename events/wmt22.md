@@ -13,7 +13,7 @@ The **Seventh Conference on Machine Translation** (**WMT22**) is set to take pla
 
 The date and location are yet to be announced.
 
-- https://statmt.org/wmt22/
+- [https://statmt.org/wmt22/](statmt.org/wmt22/)
 
 {% include collapsible_toc.html %}
 
