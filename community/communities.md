@@ -118,9 +118,12 @@ Turkic Interlingua (**TIL**) is “a community of NLP enthusiasts with a special
 
 > Turkic Interlingua (**TIL**) is a community of researchers, Machine Learning engineers, language enthusiasts and community leaders whose mission is to develop language technologies, collect diverse datasets, and explore linguistic phenomena through the lens of academic research for Turkic languages.
 
-TIL was founded in September 2020 and currently brings together over 100 NLP enthusiasts together from 10+ countries and regions. 
+Turkic Interlingua was founded in September 2020 and brings together over 100 NLP enthusiasts together from 10+ countries and regions. 
 
-More info about the community can be found at [turkic-interlingua.org/](https://turkic-interlingua.org/).
-TIL Machine Translation initiative details including papers and datasets can be obtained form [https://github.com/turkic-interlingua/til-mt](https://github.com/turkic-interlingua/til-mt).
+- Website: [turkic-interlingua.org/](https://turkic-interlingua.org/)
+- People: [https://turkic-interlingua.org/team](https://turkic-interlingua.org/team)
+- Papers: [https://github.com/turkic-interlingua/til-mt](https://github.com/turkic-interlingua/til-mt)
+- Datasets: [https://huggingface.co/datasets/turkic_xwmt](https://huggingface.co/datasets/turkic_xwmt)
+
 
 
