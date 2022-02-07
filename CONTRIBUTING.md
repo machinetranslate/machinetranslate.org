@@ -30,4 +30,4 @@ To request a topic, create a new [**issue**](https://github.com/machinetranslate
 
 ### Contributing to infrastructure
 
-To contribute technical work not content, start by reading [README.md](github.com/machinetranslate/machinetranslate.org/README.md).
+To contribute technical work not content, start by reading [README.md](https://github.com/machinetranslate/machinetranslate.org/blob/master/README.md).
