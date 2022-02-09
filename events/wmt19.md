@@ -29,7 +29,7 @@ The **Fourth Conference on Machine Translation** (**WMT20**) took place from 01 
 ## Program
 
 ### Day 1
-Thursday, August 1, 2019
+Thursday, 1 August 2019
 
 |     |     |
 | --- | --- |
