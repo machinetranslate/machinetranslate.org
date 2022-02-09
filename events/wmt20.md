@@ -16,7 +16,8 @@ The **Fifth Conference on Machine Translation** (**WMT20**) took place online fr
 
 ## Tasks
 
-### Translation tasks
+### Shared tasks
+
 - [News](http://www.statmt.org/wmt20/translation-task.html)
 - [Biomedical](https://www.statmt.org/wmt20/biomedical-translation-task.html)
 - [Similar languages](http://www.statmt.org/wmt20/similar.html)

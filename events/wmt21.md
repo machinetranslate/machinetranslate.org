@@ -17,7 +17,8 @@ The **Sixth Conference on Machine Translation** (**WMT21**) took place from 10 N
 
 ## Tasks
 
-### Translation tasks
+### Shared tasks
+
 - [News](http://www.statmt.org/wmt21/translation-task.html)
 - [Similar languages](http://www.statmt.org/wmt21/similar.html)
 - [Biomedical](http://www.statmt.org/wmt21/multilingualHeritage-translation-task.html)
