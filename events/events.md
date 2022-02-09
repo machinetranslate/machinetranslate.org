@@ -58,7 +58,7 @@ featured: true
 | ---- | ---- | ---- |
 | August 26-31 | [MTM](mtm2019.md) | Edinburgh, Scotland |
 | August 19-23 | [MT Summit 2019](mtsummit2019.md) | Dublin, Ireland |
-| August 01-02 | [WMT19](wmt9.md) | Florence, Italy |
+| August 01-02 | [**WMT19**](wmt9.md) | Florence, Italy |
 
 ## 2018
 
