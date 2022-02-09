@@ -1,8 +1,8 @@
 ---
 nav_order: 121
 has_children: true
-title: Publications
-description: Machine translation publications
+title: Resources
+description: Machine translation resources
 ---
 
 ### Calls for papers
