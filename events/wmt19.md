@@ -8,7 +8,7 @@ startDate: 2019-08-01
 endDate: 2019-08-02
 ---
 
-The **Fourth Conference on Machine Translation** (**WMT20**) took place from 01 August to 02 August, 2019 in Florence, Italy.
+The **Fourth Conference on Machine Translation** (**WMT19**) took place from 01 August to 02 August, 2019 in Florence, Italy.
 
 [statmt.org/wmt19/program.html](https://www.statmt.org/wmt19/program.html)
 
@@ -123,7 +123,7 @@ Thursday, 1 August 2019
 
 
 ### Day 2
-Friday, August 2, 2019
+Friday, 2 August, 2019
 
 |     |     |
 | --- | --- |
