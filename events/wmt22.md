@@ -17,23 +17,6 @@ The date and location are yet to be announced.
 
 {% include collapsible_toc.html %}
 
-## Tasks
-
-
-
-
-#### Language pairs
-
-Confirmed language pairs:
-- Chinese-English
-- Czech-English
-- German-English
-- German-French
-- Japanese-English
-- Russian-English
-
-To be announced:
-- Low-resource language pairs
 
 ## Important dates
 
@@ -66,6 +49,7 @@ To be announced:
 
 The *News* machine translation task has been renamed the *General* machine translation task.
 
+
 ### General machine translation
 
 - Multi-domain direction
@@ -85,6 +69,20 @@ The *News* machine translation task has been renamed the *General* machine trans
 - Pre-trained models in constrained setup allowed
 
 
+#### Language pairs
+
+Confirmed language pairs:
+- Chinese-English
+- Czech-English
+- German-English
+- German-French
+- Japanese-English
+- Russian-English
+
+To be announced:
+- Low-resource language pairs
+
+
 ## Scientific papers
 
 ### Topics:
@@ -100,6 +98,7 @@ The *News* machine translation task has been renamed the *General* machine trans
 - Manual and automatic methods for evaluating MT
 - Quality estimation for MT
 
+
 ### Research Papers
 
 > Research papers should describe original research corresponding to the categories listed above. Research papers that have been or will be submitted to other meetings or publications must indicate this at submission time, and must be withdrawn from the other venues if accepted and published at WMT 2022.
@@ -108,9 +107,11 @@ The *News* machine translation task has been renamed the *General* machine trans
 
 > For the research track, papers should be anonymised, be between 6 and 10 pages in length (excluding references) and may include supplementary material.
 
+
 ### System Papers
 
 > System papers must describe one or more shared task submissions. System paper submissions that we cannot link to a shared task submission will be rejected without review. System papers can overlap with other published work, and do not have to follow the double submission policy. There is no maximum length for system papers, but normally a short paper (4-6 pages) is appropriate. System papers should not be anonymised.
+
 
 ## Poster format
 
@@ -122,6 +123,7 @@ Details about poster format are to be determined.
 - Papers must be submitted [electronically](https://www.softconf.com/emnlp2022/WMT/).
 - Research and system papers have the same deadlines.
 - Research and system papers should follow [EMNLP2022 formatting guidelines](https://2022.emnlp.org/call-for-papers/style-and-formatting).
+
 
 ## Invited talk
 
