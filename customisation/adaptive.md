@@ -2,6 +2,7 @@
 parent: Customisation
 title: Adaptive machine translation
 description: Machine translation with online learning
+featured: true
 ---
 
 An **adaptive machine translation** system learns from human feedback and adapts its output on the fly. Adaptive machine translation is applicable to [post-editing](/workflows/post-editing.md) workflows.

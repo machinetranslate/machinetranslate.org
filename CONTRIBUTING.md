@@ -3,13 +3,14 @@ nav_order: 200
 has_children: true
 title: Contributing
 description: How to contribute to Machine Translate
+permalink: /contributing
 seo:
   type: HowTo
 ---
 
-Machine Translate is **created and edited by [contributors like you!](contributors.md)**  It is **open-source** and lives [**on GitHub**](https://github.com/machinetranslate/machinetranslate.org).
+Machine Translate is **created and edited by [contributors like you!](contributing/contributors.md)**  It is **open-source** and lives [**on GitHub**](https://github.com/machinetranslate/machinetranslate.org).
 
-We recommend reading the [**roadmap**](/roadmap.md) and [**style guide**](style.md) before you start contributing.
+We recommend reading the [**roadmap**](/roadmap.md) and [**style guide**](contributing/style.md) before you start contributing.
 
 
 ### Creating and editing articles
@@ -24,3 +25,9 @@ To create or edit an article, [**create**](https://github.com/machinetranslate/m
 To request a topic, create a new [**issue**](https://github.com/machinetranslate/machinetranslate.org/issues).
 
 > See GitHub’s article [*Creating an issue*](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) for more
+
+---
+
+### Contributing to infrastructure
+
+To contribute technical work not content, start by reading [README.md](https://github.com/machinetranslate/machinetranslate.org/blob/master/README.md).

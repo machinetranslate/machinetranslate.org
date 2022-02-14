@@ -3,7 +3,10 @@ nav_order: 10
 parent: Community
 title: Communities
 description: Machine translation communities
+featured: true
 ---
+
+Machine translation communities are mainly global, online lists, groups or fora.
 
 {% include collapsible_toc.html %}
 
@@ -109,7 +112,7 @@ MaCoCu is lead by multiple groups:
 
 MaCoCu is co-financed by Connecting Europe Facility, from the European Union.
 
-[macocu.eu/](https://macocu.eu/)
+[macocu.eu/](https://macocu.eu)
 
 
 ### TIL
@@ -118,4 +121,4 @@ Turkic Interlingua (**TIL**) is “a community of NLP enthusiasts with a special
 
 > Turkic Interlingua (**TIL**) is a community of researchers, Machine Learning engineers, language enthusiasts and community leaders whose mission is to develop language technologies, collect diverse datasets, and explore linguistic phenomena through the lens of academic research for Turkic languages.
 
-[turkic-interlingua.org/](https://turkic-interlingua.org/)
+[turkic-interlingua.org/](https://turkic-interlingua.org)

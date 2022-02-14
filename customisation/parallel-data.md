@@ -2,6 +2,7 @@
 parent: Customisation
 title: Parallel data
 description: Parallel data for training machine translation
+featured: true
 ---
 
 # Parallel data

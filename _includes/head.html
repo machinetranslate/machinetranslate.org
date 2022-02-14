@@ -1,0 +1,99 @@
+{% comment %}
+This file was copied from $(bundle info just-the-docs --path)/_includes/head.html.
+Based off just-the-docs v0.3.3.
+{% endcomment %}
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  {% unless site.plugins contains "jekyll-seo-tag" %}
+    <title>{{ page.title }} - {{ site.title }}</title>
+
+    {% if page.description %}
+      <meta name="Description" content="{{ page.description }}">
+    {% endif %}
+  {% endunless %}
+
+  <link rel="shortcut icon" href="{{ 'favicon.ico' | relative_url }}" type="image/x-icon">
+
+  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
+
+  {% if site.ga_tracking != nil %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.ga_tracking }}'{% unless site.ga_tracking_anonymize_ip == nil %}, { 'anonymize_ip': true }{% endunless %});
+    </script>
+
+  {% endif %}
+
+  {% if site.search_enabled != false %}
+    <script type="text/javascript" src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}"></script>
+  {% endif %}
+  <script type="text/javascript" src="{{ '/assets/js/just-the-docs.js' | relative_url }}"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% if page.seo.type != "Event" -%}
+    {% seo %}
+  {%- else -%}
+    {% comment %}
+    We need to override the information from the JSON-LD structured data section, since the
+    default behavior doesn't cover complex types other than the basic Article.
+    In order to achieve this, we capture the output from the SEO plugin and take over the section
+    within a _script_ tag.
+    {% endcomment %}
+    {% capture seo_text %}{% seo %}{% endcapture %}
+    
+    {% comment %} Extract script tag {% endcomment %}
+    {% assign open_tag = '<script type="application/ld+json">' %}
+    {% assign close_tag = "</script>" %}
+    
+    {% comment %} Remove script tag and contents from `seo_text` {% endcomment %}
+    {% assign extract = seo_text | split: open_tag | last | split: close_tag | first | prepend: open_tag | append: close_tag %}
+    {% assign seo_text = seo_text | remove: extract %}
+    
+    {% comment %}
+    Once we've removed the default value from the script tag, we output the rest of the content
+    and we apply our own -very naive- interpretation of what an JSON-LD Event looks like.
+    {% endcomment %}
+    {{ seo_text }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event"
+      {% if page.seo.name %},"name": "{{ page.seo.name }}"{% endif %}
+      {% if page.seo.startDate %},"startDate": "{{ page.seo.startDate }}"{% endif %}
+      {% if page.seo.endDate %},"endDate": "{{ page.seo.endDate }}"{% endif %}
+      {% if page.seo.eventAttendanceMode %},"eventAttendanceMode": "https://schema.org/{{ page.seo.eventAttendanceMode }}"{% endif %}
+      {% if page.seo.eventStatus %},"eventStatus": "https://schema.org/{{ page.seo.eventStatus }}"{% endif %}
+      {% if page.seo.location %},"location": {
+        "@type": "{{ page.seo.location.type }}",
+        {% if page.seo.location.name %},"name": "{{ page.seo.location.name }}"{% endif %}
+        {% if page.seo.location.type == "PostalAddress" %}
+          {% if page.seo.location.addressCountry %},"addressCountry": "{{ page.seo.location.addressCountry }}"{% endif %}
+          {% if page.seo.location.addressLocality %},"addressLocality": "{{ page.seo.location.addressLocality }}"{% endif %}
+          {% if page.seo.location.addressRegion %},"addressRegion": "{{ page.seo.location.addressRegion }}"{% endif %}
+        {% elsif page.seo.location.type == "VirtualLocation" %}
+          {% if page.seo.location.url %}"url": "{{ page.seo.location.url }}"{% endif %}
+        {% endif %}
+      }{% endif %}
+      {% if page.seo.description %},"description": "{{ page.seo.description }}"
+      {% elsif page.description %},"description": "{{ page.description }}"
+      {% endif %}
+      {% if page.seo.organizer %},"organizer": {
+        "@type": "{{ page.seo.organizer.type }}"
+        {% if page.seo.organizer.name %},"name": "{{ page.seo.organizer.name }}"{% endif %}
+        {% if page.seo.organizer.url %},"url": "{{ page.seo.organizer.url }}"{% endif %}
+      }{% endif %}
+    }
+    </script>
+    
+  {%- endif %}
+
+  {% include head_custom.html %}
+
+</head>

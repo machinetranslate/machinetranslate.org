@@ -12,16 +12,19 @@ They vary by:
 - accuracy
 - price
 - customisation options
-- data confidentiality
-
+- [data confidentiality](data-confidentiality.md)
 and other features, as well as underlying architecture.
 
+Some providers offer ready-to-use systems that can be integrated immediately.  These usually support many language pairs and their infrastructure is scalable.  An alternative is to train a model from scratch — or to use a pre-trained model — and deploy and maintain it.
 
-An advantage of using a machine translation provider is that the service is already working and can be integrated immediately. An alternative to using a machine translation provider is to train a model from scratch or to use a pre-trained model, and deploy and maintain a machine translation system.
+Raw models usually do not include the features included in many production systems:
+- language identification
+- segmentation
+- bridging (pivoting)
+- [glossary](/customisation/glossaries)
+- encoding options
+- HTML/XML tag handling
 
-Unlike raw models, production machine translation systems usually provide language identification and sentence segmentation.
-
-Providers offer machine translation services via a platform, an API or both. Some providers offer limited services for free or paid full services.
 
 | Company | Product |
 | ----------- | ----------- |
