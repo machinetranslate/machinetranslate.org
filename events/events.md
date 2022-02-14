@@ -3,6 +3,7 @@ nav_order: 120
 has_children: true
 title: Events
 description: Machine translation events
+featured: true
 ---
 
 <style>
@@ -21,7 +22,7 @@ description: Machine translation events
 
 |  |  |  |
 | ---- | ---- | ---- |
-|  | [**WMT22**](wmt22.md) | |
+| November 2022 | [**WMT22**](wmt22.md) | |
 |  | AAMT 2022 | |
 | May 26 | [IWSLT 2022](iwslt2022.md) | Dublin, Ireland |
 | June 01 | [EAMT 2022](eamt2022.md) | Ghent, Belgium |
@@ -57,6 +58,7 @@ description: Machine translation events
 | ---- | ---- | ---- |
 | August 26-31 | [MTM](mtm2019.md) | Edinburgh, Scotland |
 | August 19-23 | [MT Summit 2019](mtsummit2019.md) | Dublin, Ireland |
+| August 01-02 | [**WMT19**](wmt9.md) | Florence, Italy |
 
 ## 2018
 
