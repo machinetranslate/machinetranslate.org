@@ -35,7 +35,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| December 8-9 | [AAMT 2021](aamt2021.md) | online |
+| December 08-09 | [AAMT 2021](aamt2021.md) | online |
 | November 10-11 | [**WMT21**](wmt21.md) | Punta Cana, Dominican Republic |
 | October 25 | [Machine Translation Meetup](zurich-9.md) | online |
 | August 20 | [AT4SSL](at4ssl2021.md) | online |
@@ -50,7 +50,7 @@ featured: true
 |  |  |  |
 | ---- | ---- | ---- |
 | November 10-11, 2020 | [**WMT20**](wmt20.md) | online |
-| November 3-5, 2020 | EAMT 2020 | Lisbon, Portugal |
+| November 03-05, 2020 | EAMT 2020 | Lisbon, Portugal |
 
 ## 2019
 
@@ -64,10 +64,176 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
+| October 31-November 1 | **WMT18** | Brussels, Belgium |
 | May 28-30 | EAMT 2018 | Alacant, Spain |
 
 ## 2017
 
 |  |  |  |
 | ---- | ---- | ---- |
+| September 18-22 | MT Summit XVI | Nagoya, Japan |
+| September 07-08 | **WMT17** | Copenhagen, Denmark |
 | May 29-31 | EAMT 2017 | Prague, Czechia |
+
+## 2016
+
+|  |  |  |
+| ---- | ---- | ---- |
+| August 11-12 | **WMT16** | Berlin, Germany |
+| May 30-June 01 | EAMT 2016 | Riga, Latvia |
+
+## 2015
+
+|  |  |  |
+| ---- | ---- | ---- |
+| October 30–November 3 | MT Summit XV | Miami, Florida |
+| September 17-18 | **WMT15** | Lisbon, Portugal |
+| May 11-13 | EAMT 2015 | Antalya, Turkey |
+
+## 2014
+
+|  |  |  |
+| ---- | ---- | ---- |
+| June 26-27 | **WMT14** | Baltimore, USA |
+| June 16-18 | EAMT 2014 | Dubrovnik, Croatia |
+
+## 2013
+
+|  |  |  |
+| ---- | ---- | ---- |
+| September 02-06 | MT Summit XIV | Nice, France |
+| August 08-09 | **WMT13** | Sofia, Bulgaria |
+
+## 2012
+
+|  |  |  |
+| ---- | ---- | ---- |
+| June 07-08 | **WMT12** | Quebec, Canada |
+| May 28-30 | EAMT 2012 | Trento, Italy |
+
+## 2011
+
+|  |  |  |
+| ---- | ---- | ---- |
+| July 30-31 | **WMT11** | Edinburgh, United Kingdom  |
+| May 30-31 | EAMT 2011 | Leuven, Belgium |
+
+## 2010
+
+|  |  |  |
+| ---- | ---- | ---- |
+| July 15-16 | **WMT11** | Uppsala, Sweden |
+| May 27-28 | EAMT 2010 | Saint Raphaël, France |
+
+## 2009
+
+|  |  |  |
+| ---- | ---- | ---- |
+| March 30-31 | **WMT09** | Athens, Greece |
+| May 14-15 | EAMT 2009 | Barcelona, Spain |
+
+## 2008
+
+|  |  |  |
+| ---- | ---- | ---- |
+| September 22-23 | EAMT 2008 | Hamburg, Germany |
+| June 19 | **WMT08** | Ohio, USA |
+
+## 2007
+
+|  |  |  |
+| ---- | ---- | ---- |
+| September 10-14 | MT Summit 2007 | Copenhagen, Denmark |
+| June 23 | **WMT07** | Prague, Czechia |
+
+## 2006
+
+|  |  |  |
+| ---- | ---- | ---- |
+| June 19-20 | EAMT 2006 | Oslo, Norway |
+| June 08 - 09 | **WMT06** | New York City, USA |
+
+## 2005
+
+|  |  |  |
+| ---- | ---- | ---- |
+| June 29-30 | **WPT05** | Michigan, USA |
+| May 30-31 | EAMT 2005 | Budapest, Hungary |
+
+## 2004
+
+|  |  |  |
+| ---- | ---- | ---- |
+| April 26-27 | EAMT 2004 | Valletta, Malta |
+
+## 2003
+
+|  |  |  |
+| ---- | ---- | ---- |
+| May 15-17 | EAMT 2003 | Dublin, Ireland |
+
+## 2002
+
+|  |  |  |
+| ---- | ---- | ---- |
+| November 14-15 | EAMT 2002 | Manchester, UK |
+
+## 2001
+
+|  |  |  |
+| ---- | ---- | ---- |
+| September 18-23 | MT Summit 2001 | Galicia, Spain |
+
+## 2000
+
+|  |  |  |
+| ---- | ---- | ---- |
+| May 11-12 | EAMT 2000 | Ljubljana, Slovenia |
+
+## 1999
+
+|  |  |  |
+| ---- | ---- | ---- |
+| April 22-23 | EAMT 1999 | Prague, Czech Republic |
+
+## 1998
+
+|  |  |  |
+| ---- | ---- | ---- |
+| April 2-3 | EAMT 1998 | Geneva, Switzerland |
+
+## 1997
+
+|  |  |  |
+| ---- | ---- | ---- |
+| May 21-22 | EAMT 1997 | Copenhagen, Denmark |
+
+## 1996
+
+|  |  |  |
+| ---- | ---- | ---- |
+| August 29-30 | EAMT 1996 | Vienna, Austria |
+
+## 1995
+
+|  |  |  |
+| ---- | ---- | ---- |
+| July 10-13 | MT Summit 1995 | Luxembourg |
+
+## 1994
+
+|  |  |  |
+| ---- | ---- | ---- |
+| September 14-16 | EAMT 1994 | Hildesheim, Germany |
+
+## 1993
+
+|  |  |  |
+| ---- | ---- | ---- |
+| April 26-28 | EAMT 1993 | Heidelberg, Germany |
+
+## 1989
+
+|  |  |  |
+| ---- | ---- | ---- |
+| August 16-18 | MT Summit 1989 | Munich, Germany |
