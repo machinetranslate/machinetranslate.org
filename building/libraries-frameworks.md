@@ -4,9 +4,9 @@ title: Libraries and frameworks
 description: Libraries and frameworks for building machine translation systems
 ---
 
-## Neural machine translation software
+## Neural machine translation
 
-| Library | Framework | Language |
+| Machine translation library or framework | Machine learning framework | Programming language |
 | --- | --- | --- |
 | [**Argos Translate**](https://github.com/argosopentech/argos-translate) | [PyTorch](https://github.com/pytorch/pytorch) | Python |
 | [**Attention is all you need**](https://github.com/jadore801120/attention-is-all-you-need-pytorch) | PyTorch | Python |
@@ -27,3 +27,8 @@ description: Libraries and frameworks for building machine translation systems
 | [**THUMT-PyTorch**](https://github.com/THUNLP-MT/THUMT) | PyTorch | Python |
 | [**THUMT-TensorFlow**](https://github.com/THUNLP-MT/THUMT/tree/tensorflow) | TensorFlow | Python |
 | [**xnmt**](https://github.com/neulab/xnmt) | [Dynet](https://github.com/clab/dynet) | Python |
+
+
+### References
+
+- [modelfront.com/compare](https://modelfront.com/compare)
