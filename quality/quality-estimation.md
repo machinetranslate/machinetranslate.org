@@ -82,12 +82,12 @@ A growing set of frameworks, models and systems are generally available.
 | [ModelFront](https://modelfront.com) | System with API and console | [ModelFront](/industry/companies.md#modelfront) | Deep learning, multilingual, blackbox |
 
 
-Translation management systems have launched a generally available machine translation feature.
+A few translation management systems have launched a generally available machine translation feature.
 
 | Translation management system | Provider                   |
 | ----------------------------- | ---------------------------|
 | Memsource | Memsource |
-| [translate5](https://translate5.net) | ModelFront.         |
+| [translate5](https://translate5.net) | ModelFront          |
 | [GlobalDoc](https://globaldoc.com) LangXpert | ModelFront  |
 
 More companies have researched quality estimation internally, but did not launch or do not provide quality estimation to others.
