@@ -13,7 +13,7 @@ td:nth-child(1) {
   max-width: 20px;
 }
 td:nth-child(2) {
-  min-width: 200px;
+  min-width: 300px;
 }
 .main-content a {
   white-space: pre-wrap; 
