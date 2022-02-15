@@ -81,6 +81,12 @@ Machine Translate will be machine translated. Write articles that are ready for 
 
 Arrange events, publications, and any information related to time in chronological order.
 
+## Names list
+
+In lists, separate names with commas. Do not add “and” before the last name.
+
+> Philipp Koehn, Franz Josef Och, Daniel Marcu
+
 
 ## Machine Translate and machinetranslate.org
 

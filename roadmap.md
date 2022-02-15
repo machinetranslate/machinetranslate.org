@@ -111,7 +111,7 @@ description: Content roadmap for Machine Translate
 
 ### Building
 
-- [Libraries / Frameworks \[#87\]](https://github.com/machinetranslate/machinetranslate.org/issues/87)
+- ~~[Libraries / Frameworks](building/libraries-frameworks.md)~~
 - [Pre-trained models \[#88\]](https://github.com/machinetranslate/machinetranslate.org/issues/88)
 - [Open datasets \[#89\]](https://github.com/machinetranslate/machinetranslate.org/issues/89)
 
@@ -182,3 +182,8 @@ description: Content roadmap for Machine Translate
 - ~~[IWSLT](events/iwslt2022.md)~~
 - ~~[LoResMT](events/loresmt2022.md)~~
 - ~~[PSLT](events/pslt2021.md)~~
+
+### Resources
+
+- ~~[Calls for papers](resources/call-for-papers.md)~~
+- ~~[Publications](resources/publications.md)~~
