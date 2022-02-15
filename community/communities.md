@@ -117,8 +117,13 @@ MaCoCu is co-financed by Connecting Europe Facility, from the European Union.
 
 ### TIL
 
-Turkic Interlingua (**TIL**) is “a community of NLP enthusiasts with a special interest in Turkic languages”.
+**Turkic Interlingua** (**TIL**) is “a community of NLP enthusiasts with a special interest in Turkic languages”.
 
-> Turkic Interlingua (**TIL**) is a community of researchers, Machine Learning engineers, language enthusiasts and community leaders whose mission is to develop language technologies, collect diverse datasets, and explore linguistic phenomena through the lens of academic research for Turkic languages.
+> Turkic Interlingua (TIL) is a community of researchers, machine learning engineers, language enthusiasts and community leaders whose mission is to develop language technologies, collect diverse datasets, and explore linguistic phenomena through the lens of academic research for Turkic languages.
 
-[turkic-interlingua.org/](https://turkic-interlingua.org)
+Turkic Interlingua was founded in September 2020.  By 2022 it had over 100 members, mainly natural language processing enthusiasts, from more than 10 countries and regions.
+
+- Website: [turkic-interlingua.org/](https://turkic-interlingua.org/)
+- People: [https://turkic-interlingua.org/team](https://turkic-interlingua.org/team)
+- Papers: [https://github.com/turkic-interlingua/til-mt](https://github.com/turkic-interlingua/til-mt)
+- Datasets: [https://huggingface.co/datasets/turkic_xwmt](https://huggingface.co/datasets/turkic_xwmt)
