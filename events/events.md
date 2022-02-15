@@ -27,7 +27,7 @@ featured: true
 | May 26 | [IWSLT 2022](iwslt2022.md) | Dublin, Ireland |
 | June 01 | [EAMT 2022](eamt2022.md) | Ghent, Belgium |
 | July 02 | [NeTTT Conference](nettt2022.md) | Rhodes, Greece |
-| September 12 | [AMTA 2022](amta2022.md) | Orlando, Florida |
+| September 12 | [AMTA 2022](amta2022.md) | Orlando, United States |
 | October 12 | [LoResMT 2022](loresmt2022.md) | online |
 | January 28| [TQ2022](tq2022.md) | online |
 
@@ -65,7 +65,7 @@ featured: true
 |  |  |  |
 | ---- | ---- | ---- |
 | October 31-November 1 | **WMT18** | Brussels, Belgium |
-| May 28-30 | EAMT 2018 | Alacant, Spain |
+| May 28-30 | EAMT 2018 | Alicante, Spain |
 
 ## 2017
 
@@ -73,7 +73,7 @@ featured: true
 | ---- | ---- | ---- |
 | September 18-22 | MT Summit XVI | Nagoya, Japan |
 | September 07-08 | **WMT17** | Copenhagen, Denmark |
-| May 29-31 | EAMT 2017 | Prague, Czechia |
+| May 29-31 | EAMT 2017 | Prague, Czech Republic |
 
 ## 2016
 
@@ -86,7 +86,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| October 30–November 3 | MT Summit XV | Miami, Florida |
+| October 30–November 3 | MT Summit XV | Miami, United States |
 | September 17-18 | **WMT15** | Lisbon, Portugal |
 | May 11-13 | EAMT 2015 | Antalya, Turkey |
 
@@ -94,7 +94,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| June 26-27 | **WMT14** | Baltimore, USA |
+| June 26-27 | **WMT14** | Baltimore, United States |
 | June 16-18 | EAMT 2014 | Dubrovnik, Croatia |
 
 ## 2013
@@ -137,27 +137,27 @@ featured: true
 |  |  |  |
 | ---- | ---- | ---- |
 | September 22-23 | EAMT 2008 | Hamburg, Germany |
-| June 19 | **WMT08** | Ohio, USA |
+| June 19 | **WMT08** | Ohio, United States |
 
 ## 2007
 
 |  |  |  |
 | ---- | ---- | ---- |
 | September 10-14 | MT Summit 2007 | Copenhagen, Denmark |
-| June 23 | **WMT07** | Prague, Czechia |
+| June 23 | **WMT07** | Prague, Czech Republic |
 
 ## 2006
 
 |  |  |  |
 | ---- | ---- | ---- |
 | June 19-20 | EAMT 2006 | Oslo, Norway |
-| June 08 - 09 | **WMT06** | New York City, USA |
+| June 08 - 09 | **WMT06** | New York City, Unites States |
 
 ## 2005
 
 |  |  |  |
 | ---- | ---- | ---- |
-| June 29-30 | **WPT05** | Michigan, USA |
+| June 29-30 | **WPT05** | Ann Arbor, United States |
 | May 30-31 | EAMT 2005 | Budapest, Hungary |
 
 ## 2004
@@ -176,7 +176,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| November 14-15 | EAMT 2002 | Manchester, UK |
+| November 14-15 | EAMT 2002 | Manchester, United Kingdom |
 
 ## 2001
 
@@ -218,7 +218,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| July 10-13 | MT Summit 1995 | Luxembourg |
+| July 10-13 | MT Summit 1995 | Luxembourg, Luxembourg |
 
 ## 1994
 
