@@ -82,7 +82,7 @@ A growing set of frameworks, models and systems are generally available.
 | [ModelFront](https://modelfront.com) | System with API and console | [ModelFront](/industry/companies.md#modelfront) | Deep learning, multilingual, blackbox |
 
 
-Translation management systems have launched a machine translation feature.
+Translation management systems have launched a generally available machine translation feature.
 
 | Translation management system | Provider                   |
 | ----------------------------- | ---------------------------|
