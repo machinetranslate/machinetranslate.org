@@ -8,6 +8,9 @@ description: Scientific publications about machine translation
 {% include collapsible_toc.html %}
 
 <style>
+th {
+  display: none; 
+}
 td:nth-child(1) {
   min-width: 0px;
   max-width: 20px;
