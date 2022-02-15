@@ -17,8 +17,8 @@ description: Scientific publications about machine translation
 
 ### Model architecture
 
-|     |     |     |     |
-| --- | --- | --- | --- |
+|     |     |     |
+| --- | --- | --- |
 | 2018 | [***Self-Attention Generative Adversarial Networks***](https://arxiv.org/pdf/1805.08318.pdf) | Han Zhang, Ian Goodfellow, Dimitris Metaxas, Augustus Odena |
 | 2017 | [***Convolutional Sequence to Sequence Learning***](https://arxiv.org/pdf/1705.03122.pdf) | Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin |
 | 2017 | [***Attention is all you need***](https://arxiv.org/pdf/1706.03762.pdf) | Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin |
@@ -35,8 +35,8 @@ description: Scientific publications about machine translation
 
 ### Pre-training
 
-|     |     |     |     |
-| --- | --- | --- | --- |
+|     |     |     |
+| --- | --- | --- |
 | 2019 | [***Towards Making the Most of BERT in Neural Machine Translation***](https://arxiv.org/pdf/1908.05672.pdf) | Jiacheng Yang, Mingxuan Wang, Hao Zhou, Chengqi Zhao, Yong Yu, Weinan Zhang, Lei Li |
 | 2019 | [***On the use of BERT for Neural Machine Translation***](https://aclanthology.org/D19-5611.pdf) | Stephane Clinchant, Kweon Woo Jung, Vassilina Nikoulina |
 | 2018 | [***BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding***](https://arxiv.org/pdf/1810.04805.pdf) | Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova |
@@ -45,8 +45,8 @@ description: Scientific publications about machine translation
 
 ### Attention mechanism
 
-|     |     |     |     |
-| --- | --- | --- | --- |
+|     |     |     |
+| --- | --- | --- |
 | 2017 | [***A Structured Self-attentive Sentence Embedding***](https://arxiv.org/pdf/1703.03130.pdf) | Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, Yoshua Bengio |
 | 2016 | [***A Decomposable Attention Model for Natural Language Inference***](https://arxiv.org/pdf/1606.01933.pdf) | Ankur P. Parikh, Oscar Täckström, Dipanjan Das, Jakob Uszkoreit |
 | 2015 | [***Effective Approaches to Attention-based Neural Machine Translation***](https://aclanthology.org/D15-1166.pdf) | Thang Luong, Hieu Pham, Christopher D. Manning |
@@ -66,15 +66,15 @@ description: Scientific publications about machine translation
 
 ### Open vocabulary
 
-|     |     |     |     |
-| --- | --- | --- | --- |
+|     |     |     |
+| --- | --- | --- |
 | 2016 | [***Neural Machine Translation of Rare Words with Subword Units***](https://arxiv.org/pdf/1508.07909.pdf) | Rico Sennrich, Barry Haddow, Alexandra Birch |
 
 
 ## [Statistical machine translation](approaches/statistical-machine-translation.md)
 
-|     |     |     |     |
-| --- | --- | --- | --- |
+|     |     |     |
+| --- | --- | --- |
 | 2007 | [***Hierarchical Phrase-Based Translation***](https://aclanthology.org/J07-2003.pdf) | David Chiang |
 | 2003 | [***Statistical machine translation***](https://aclanthology.org/N03-1017.pdf) | Philipp Koehn, Franz Josef Och, Daniel Marcu |
 | 2003 | [***Statistical Phrase-Based Translation***](https://aclanthology.org/N03-1017.pdf) | Philipp Koehn, Franz Josef Och, Daniel Marcu |
