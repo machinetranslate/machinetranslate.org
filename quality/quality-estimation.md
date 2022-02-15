@@ -77,7 +77,7 @@ A growing set of frameworks, models and systems are generally available.
 | [DeepQuest](https://github.com/sheffieldnlp/deepQuest) | Framework                                | University of Sheffield     | Deep learning, blackbox     |
 | [OpenKiwi](https://github.com/Unbabel/OpenKiwi) | Framework                                | Unbabel                     | Deep learning, blackbox     |
 | [TransQuest](https://github.com/TharinduDR/TransQuest) | Pretrained models | University of Wolverhampton | Deep learning, blackbox     |
-| [KantanQES](https://www.kantanai.io/kantanqes-home/) | Feature of machine translation API       | KantanAI                    | Glassbox                    |
+| [KantanQES](https://www.kantanai.io/kantanqes-home/) | Feature of machine translation API       | [KantanAI](/industry/companies.md#kantanmt)               | Glassbox                    |
 | [Memsource quality estimation](https://www.memsource.com/features/translation-quality-estimation/)  | Feature of translation management system | Memsource | Deep learning, blackbox    |
 | [ModelFront](https://modelfront.com) | System with API and console | [ModelFront](/industry/companies.md#modelfront) | Deep learning, multilingual, blackbox |
 
