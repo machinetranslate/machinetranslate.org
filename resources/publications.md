@@ -7,6 +7,13 @@ description: Scientific publications about machine translation
 
 {% include collapsible_toc.html %}
 
+<script>
+td:nth-child(1) {
+  min-width: 0px;
+}
+</script>
+
+
 ## [Neural machine translation](approaches/neural.machine-translation.md)
 
 |     |     |     |
