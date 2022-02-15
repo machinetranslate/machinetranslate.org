@@ -24,7 +24,7 @@ td:nth-child(2) {
 </style>
 
 
-## [Neural machine translation](/approaches/neural.machine-translation.md)
+## [Neural machine translation](/approaches/neural-machine-translation.md)
 
 |     |     |     |
 | --- | --- | --- |
