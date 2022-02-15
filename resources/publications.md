@@ -10,11 +10,12 @@ description: Scientific publications about machine translation
 <style>
 td:nth-child(1) {
   min-width: 0px;
+  max-width: 20px;
 }
 td:nth-child(2) {
   min-width: 200px;
 }
-td > a {
+.maincontent td > a {
   white-space: pre-wrap; 
 }
 </style>
