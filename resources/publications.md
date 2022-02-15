@@ -24,7 +24,7 @@ td:nth-child(2) {
 </style>
 
 
-## [Neural machine translation](approaches/neural.machine-translation.md)
+## [Neural machine translation](/approaches/neural.machine-translation.md)
 
 |     |     |     |
 | --- | --- | --- |
@@ -88,7 +88,7 @@ td:nth-child(2) {
 | 2016 | [***Neural Machine Translation of Rare Words with Subword Units***](https://arxiv.org/pdf/1508.07909.pdf) | Rico Sennrich, Barry Haddow, Alexandra Birch |
 
 
-## [Statistical machine translation](approaches/statistical-machine-translation.md)
+## [Statistical machine translation](/approaches/statistical-machine-translation.md)
 
 |     |     |     |
 | --- | --- | --- |
