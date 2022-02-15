@@ -12,8 +12,7 @@ th {
   display: none; 
 }
 td:nth-child(1) {
-  min-width: 0px;
-  max-width: 20px;
+  min-width: 50px;
 }
 td:nth-child(2) {
   min-width: 300px;
