@@ -1,5 +1,5 @@
 ---
-parent: resources
+parent: Resources
 title: Publications
 description: Scientific publications about machine translation
 ---
