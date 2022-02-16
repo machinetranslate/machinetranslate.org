@@ -79,10 +79,10 @@ A growing set of frameworks, models and systems are generally available.
 | [TransQuest](https://github.com/TharinduDR/TransQuest) | Pretrained models | University of Wolverhampton | Deep learning, blackbox     |
 | [KantanQES](https://www.kantanai.io/kantanqes-home/) | Feature of machine translation API       | [KantanAI](/industry/companies.md#kantanmt)               | Glassbox                    |
 | [Memsource quality estimation](https://www.memsource.com/features/translation-quality-estimation/)  | Feature of translation management system | Memsource | Deep learning, blackbox    |
-| [ModelFront](https://modelfront.com) | System with API and console | [ModelFront](/industry/companies.md#modelfront) | Deep learning, multilingual, blackbox |
+| [ModelFront risk prediction](https://modelfront.com) | System with API and console | [ModelFront](/industry/companies.md#modelfront) | Deep learning, multilingual, blackbox |
 
 
-A few translation management systems have launched a generally available machine translation feature.
+A few translation management systems have launched a generally available machine translation quality estimation feature.
 
 | Translation management system | Provider                   |
 | ----------------------------- | ---------------------------|
