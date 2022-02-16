@@ -1,7 +1,7 @@
 ---
 parent: Associations
 title: AMTA
-description: North American Association for Machine Translation
+description: Association for Machine Translation in the Americas
 ---
 
 The **Association for Machine Translation in the Americas** (**AMTA**) is an association of researchers and users of machine translation technologies. Its purpose is to unite people interested in machine translation and to provide an opportunity for commercial machine translation developers, professional translators and research scientists to share ideas, experiences and priorities.
