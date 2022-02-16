@@ -10,4 +10,4 @@ The AMTA is the North American component of three regional associations of the I
 
 The AMTA was established in 1991 in Washington DC.
 
-[amtaweb.org/](https://amtaweb.org/)
+[amtaweb.org](https://amtaweb.org/)
