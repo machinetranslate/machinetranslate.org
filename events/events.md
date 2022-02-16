@@ -71,7 +71,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| September 18-22 | MT Summit XVI | Nagoya, Japan |
+| September 18-22 | [MT Summit XVI](mtsummit2017.md) | Nagoya, Japan |
 | September 07-08 | **WMT17** | Copenhagen, Denmark |
 | May 29-31 | EAMT 2017 | Prague, Czech Republic |
 
