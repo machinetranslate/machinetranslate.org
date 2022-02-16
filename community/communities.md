@@ -96,6 +96,18 @@ The **Machine-Translation** tag on Quora gathers user questions and answers rela
 
 ## Communities
 
+### MT Literacy
+
+**MT Literacy** is a teaching and research project that encourages awareness by describing the opportunities and limitations related to using machine translation.
+
+> We aim to help users learn how to use MT critically in order to maximize its effectiveness. This includes deciding whether MT is the right tool for a job, evaluating whether information is too sensitive to paste into a free online tool, learning how to write in a translation-friendly way, recognizing common (and not-so-common) MT errors, and learning how to fix them.
+
+MT Literacy was founded in 2019.
+
+MT Literacy is funded by the Government of Canada through the Social Sciences and Humanities Research Council.
+
+[sites.google.com/view/machinetranslationliteracy](https://sites.google.com/view/machinetranslationliteracy/)
+
 ### MaCoCu
 
 **MaCocu** creates open high quality parallel corpora to improve machine translation for the European Commission.

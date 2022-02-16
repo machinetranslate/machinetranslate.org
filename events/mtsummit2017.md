@@ -3,7 +3,7 @@ parent: Events
 title: MT Summit 2017
 description: Machine Translation Summit
 location: Nagoya, Japan
-name: MT Summit 2019
+name: MT Summit 2017
 startDate: 2017-09-18
 endDate: 2017-09-22
 ---
