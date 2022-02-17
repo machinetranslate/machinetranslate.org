@@ -5,11 +5,14 @@ description: Conference on Machine Translation
 name: WMT
 ---
 
-The Conference on Machine Translation, previously known as the Workshop on Machine Translation, **WMT**, is the main event for machine translation.
-
-During WMT's first years, the event held a series of workshops within the Empirical Methods in Natural Language Processing (EMNLP) conference organised by the Association for Computational Linguistics (ACL). In 2016, with the uprise of [neural machine translation](approaches/neural-machine-translation.md), WMT became a conference on its own, maintaining its name.
+**WMT** is the main event for machine translation and machine translation research.  The conference is held annually in connection with larger conferences on natural language processing.
 
 > The conference aims to bring together academic scientists, researchers and industry representatives to exchange and share their experiences and research results. WMT plays a key role for the entire industry of computational linguistics and machine translation.
+
+In 2006, the first **Workshop on Machine Translation** was held at the Empirical Methods in Natural Language Processing conference (EMNLP).  It was organised by the Association for Computational Linguistics (ACL).
+
+In 2016, with the rise of [neural machine translation](approaches/neural-machine-translation.md), WMT became a conference of its own.  The **Conference on Machine Translation** is still mainly known as *WMT*.
+
 
 ## Shared tasks
 
