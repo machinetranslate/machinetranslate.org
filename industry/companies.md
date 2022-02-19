@@ -114,7 +114,7 @@ Raised $7.1M in crowdfunding
 - [linguacustodia.finance](https://www.linguacustodia.finance/en/home/)
 - [Crunchbase - Lingua Custodia](https://www.crunchbase.com/organization/lingua-custodia)
 
-€2.7M from private investors
+Raised €2.7M from private investors
 
 ### KantanMT
 - [kantanai.io](https://www.kantanai.io/)
