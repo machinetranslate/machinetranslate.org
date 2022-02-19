@@ -13,6 +13,13 @@ Since the advent of statistical machine translation and neural machine translati
 
 {% include collapsible_toc.html %}
 
+## 2020
+
+### Viva Translate
+
+Raised pre-seed from Blue Ridge Foundation and $4M from General Catalyst, AIX Ventures, Fellows Fund, Hyphen Capital, First Check Ventures and angels
+
+
 ## 2019
 
 ### ModelFront
