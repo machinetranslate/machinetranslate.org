@@ -26,7 +26,7 @@ Raised pre-seed from Blue Ridge Foundation and $4M from General Catalyst, AIX Ve
 
 ### ModelFront
 - [modelfront.com](https://modelfront.com)
-- [Crunchbase - ModelFront](https://https://www.crunchbase.com/organization/modelfront)
+- [Crunchbase - ModelFront](https://www.crunchbase.com/organization/modelfront)
 
 
 ## 2018

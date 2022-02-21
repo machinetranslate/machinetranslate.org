@@ -4,14 +4,12 @@ title: WMT22
 description: Conference on Machine Translation
 location: To be announced
 name: WMT22
-startDate: 2021-11
-endDate: 2021-11
+startDate: 2021-12-12
+endDate: 2021-12-13
 featured: true
 ---
 
-The **Seventh Conference on Machine Translation** (**WMT22**) is set to take place in November 2022 at [EMNLP](http://emnlp.org) 2022 in Abu Dhabi.
-
-The exact date and venue are yet to be announced.
+The **Seventh Conference on Machine Translation** (**WMT22**) is set to take place in December 2022 at [EMNLP](http://emnlp.org) 2022 in Abu Dhabi.
 
 [statmt.org/wmt22/](https://statmt.org/wmt22/)
 

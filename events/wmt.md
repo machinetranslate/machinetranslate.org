@@ -86,7 +86,7 @@ The results published from WMT shared tasks represent benchmarks for the technol
 
 ### Long-time organisers
 
-- [Philipp Koehn](community/people/philipp-koehn.md)
+- [Philipp Koehn](/community/people/philipp-koehn.md)
 - Barry Haddow
 - Loïc Barrault
 - Ondřej Bojar
