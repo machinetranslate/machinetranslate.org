@@ -26,7 +26,7 @@ The **Fourth Conference on Machine Translation** (**WMT19**) took place from 1 A
 - [Parallel corpus filtering](https://www.statmt.org/wmt19/parallel-corpus-filtering.html)
 
 
-## Program
+## Schedule
 
 ### Day 1
 Thursday, 1 August 2019

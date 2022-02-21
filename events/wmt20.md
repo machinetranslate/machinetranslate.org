@@ -30,7 +30,7 @@ The **Fifth Conference on Machine Translation** (**WMT20**) took place online fr
 - [Chat translation](https://www.statmt.org/wmt20/chat-task.html)
 
 
-## Program
+## Schedule
 
 ### Day 1
 

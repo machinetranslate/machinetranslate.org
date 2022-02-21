@@ -47,6 +47,7 @@ During the main conference, researchers present the results of the shared tasks 
 
 WMT started in 2006 with a *translation* task. In the following years, WMT included themes on all aspects of machine translation, corpus preparation, training, and evaluation.
 
+The main task is the *General machine translation task*. Until 2022, it was known as the *News task* because traditionally the content to be translated was news articles.
 
 #### Translation tasks
 

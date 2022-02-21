@@ -14,7 +14,7 @@ His early contributions include:
 
 * the Moses machine translation system
 * the Europarl corpus
-* organizing the machine translation research community, including [WMT](/community/communities.md#workshop_on_statistical_machine_translation)
+* organising the machine translation research community, including [WMT](events/wmt.md)
 
 He was a professor at the University of Edinburgh and then Johns Hopkins University and Chief Scientist at [Omniscien Technologies](industry/companies.md#omniscien_technologies).
 
