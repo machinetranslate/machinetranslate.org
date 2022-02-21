@@ -11,7 +11,7 @@ name: WMT
 
 In 2006, the first **Workshop on Machine Translation** was held at the NAACL (North American Chapter of the Association for Computational Linguistics Annual Meeting).
 
-In 2016, with the rise of [neural machine translation](approaches/neural-machine-translation.md), WMT became a conference of its own.  The **Conference on Machine Translation** is still mainly known as *WMT*.
+In 2016, with the rise of [neural machine translation](/approaches/neural-machine-translation.md), WMT became a conference of its own.  The **Conference on Machine Translation** is still mainly known as *WMT*.
 
 Universities, research laboratories and big technology companies consistently participate in the conference and are represented in the organising committee.
 
@@ -21,7 +21,7 @@ Universities, research laboratories and big technology companies consistently pa
 | [WMT21](wmt21.md) Seventh Conference on Machine Translation | EMNLP 2021 |
 | [WMT20](wmt20.md) Sixth Conference on Machine Translation | EMNLP 2020 |
 | [WMT19](wmt19.md) Fourth Conference on Machine Translation | ACL 2019 |
-| [WMT18](wmt18.md) - Third Conference on Machine Translation | EMNLP 2018 |
+| [WMT18](wmt18.md) Third Conference on Machine Translation | EMNLP 2018 |
 | WMT17 - Second Conference on Machine Translation | EMNLP 2017 |
 | WMT16 - First Conference on Machine Translation | ACL 2016 |
 | Workshop on Statistical Machine Translation | EMNLP 2015 |
