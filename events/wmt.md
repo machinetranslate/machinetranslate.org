@@ -15,13 +15,37 @@ In 2016, with the rise of [neural machine translation](approaches/neural-machine
 
 Universities, research laboratories and big technology companies consistently participate in the conference and are represented in the organising committee.
 
+|     |     |
+| --- | --- |
+| [WMT22](wmt22.md) Eighth Conference on Machine Translation | EMNLP 2022 |
+| [WMT21](wmt21.md) Seventh Conference on Machine Translation | EMNLP 2021 |
+| [WMT20](wmt20.md) Sixth Conference on Machine Translation | EMNLP 2020 |
+| [WMT19](wmt19.md) Fourth Conference on Machine Translation | ACL 2019 |
+| [WMT18](wmt18.md) - Third Conference on Machine Translation | EMNLP 2018 |
+| WMT17 - Second Conference on Machine Translation | EMNLP 2017 |
+| WMT16 - First Conference on Machine Translation | ACL 2016 |
+| Workshop on Statistical Machine Translation | EMNLP 2015 |
+| Workshop on Statistical Machine Translation | ACL 2014 |
+| Workshop on Statistical Machine Translation | ACL 2013 |
+| Workshop on Statistical Machine Translation | NAACL 2012 |
+| Workshop on Statistical Machine Translation | EMNLP 2011 |
+| Workshop on Statistical Machine Translation | ACL 2010 |
+| Workshop on Statistical Machine Translation | EACL 2009 |
+| Workshop on Statistical Machine Translation | ACL 2008 |
+| Workshop on Statistical Machine Translation | ACL 2007 |
+| Workshop on Statistical Machine Translation | NAACL 2006 |
+
+{% include collapsible_toc.html %}
+
 ## Shared tasks
 
-WMT hosts shared tasks competitions prior to the conference. During the shared tasks, researchers tackle specific challenges from a list of themes. Researchers then compare their techniques against the techniques of other researchers in the field.
+WMT includes competitions on different aspects of machine translation. These competitions are known as *shared tasks*.
+
+Typically, the task organisers provide datasets and instructions. Teams submit the output of their systems. The submissions are ranked with human evaluation. The results of the competition are ready before the conference takes place.
 
 During the main conference, researchers present the results of the shared tasks and winners are announced.
 
-WMT started in 2006 with a *translation* task. In the following editions, WMT included themes on all aspects of machine translation, corpus preparation, training, and evaluation.
+WMT started in 2006 with a *translation* task. In the following years, WMT included themes on all aspects of machine translation, corpus preparation, training, and evaluation.
 
 
 #### Translation tasks
@@ -75,25 +99,3 @@ The results published from WMT shared tasks represent benchmarks for the technol
 - Matthias Huck
 - Christian Federmann
 - Christof Monz
-
-## Editions
-
-|     |     |
-| --- | --- |
-| [WMT22](wmt22.md) Eighth Conference on Machine Translation | EMNLP 2022 |
-| [WMT21](wmt21.md) Seventh Conference on Machine Translation | EMNLP 2021 |
-| [WMT20](wmt20.md) Sixth Conference on Machine Translation | EMNLP 2020 |
-| [WMT19](wmt19.md) Fourth Conference on Machine Translation | ACL 2019 |
-| [WMT18](wmt18.md) - Third Conference on Machine Translation | EMNLP 2018 |
-| WMT17 - Second Conference on Machine Translation | EMNLP 2017 |
-| WMT16 - First Conference on Machine Translation | ACL 2016 |
-| Workshop on Statistical Machine Translation | EMNLP 2015 |
-| Workshop on Statistical Machine Translation | ACL 2014 |
-| Workshop on Statistical Machine Translation | ACL 2013 |
-| Workshop on Statistical Machine Translation | NAACL 2012 |
-| Workshop on Statistical Machine Translation | EMNLP 2011 |
-| Workshop on Statistical Machine Translation | ACL 2010 |
-| Workshop on Statistical Machine Translation | EACL 2009 |
-| Workshop on Statistical Machine Translation | ACL 2008 |
-| Workshop on Statistical Machine Translation | ACL 2007 |
-| Workshop on Statistical Machine Translation | NAACL 2006 |
