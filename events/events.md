@@ -22,7 +22,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| December | [**WMT22**](wmt22.md) | |
+| December | [**WMT22**](wmt22.md) | Abu Dhabi, United Arab Emirates |
 |  | AAMT 2022 | |
 | October 12 | [LoResMT 2022](loresmt2022.md) | online |
 | September 12 | [AMTA 2022](amta2022.md) | Orlando, United States |
