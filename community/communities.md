@@ -47,7 +47,15 @@ Machine translation communities are mainly global, online lists, groups or fora.
 
 [groups.google.com/g/sigslt](https://groups.google.com/g/sigslt)
 
+## Government mailing lists
 
+### Open Machine Translation Evaluation (OpenMT)
+
+**MT_list** (mt_list@list.nist.gov) is the official mailing list of the National Institute of Standards and Technology (NIST) Open Machine Translation evaluation series.
+
+> The objective of the NIST Open Machine Translation (OpenMT) evaluation series is to support research in, and help advance the state of the art of, machine translation (MT) technologies. 
+
+[groups.google.com/a/list.nist.gov/g/mt_list](https://groups.google.com/a/list.nist.gov/g/mt_list)
 
 ## Product mailing lists
 
@@ -67,7 +75,7 @@ Machine translation communities are mainly global, online lists, groups or fora.
 
 The **machinetranslation** sub-reddit posts are news, projects and questions about machine translation research, engineering, product and industry.
 
-Link: [https://www.reddit.com/r/machinetranslation/](https://www.reddit.com/r/machinetranslation/)
+[https://www.reddit.com/r/machinetranslation/](https://www.reddit.com/r/machinetranslation/)
 
 
 ### *Machine Translation* on Facebook

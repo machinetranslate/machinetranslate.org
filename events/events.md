@@ -29,6 +29,7 @@ featured: true
 | July 02 | [NeTTT Conference](nettt2022.md) | Rhodes, Greece |
 | June 01 | [EAMT 2022](eamt2022.md) | Ghent, Belgium |
 | May 26 | [IWSLT 2022](iwslt2022.md) | Dublin, Ireland |
+| April 21 | [Neural Machine Translation – Foundations, Applications and Implications](nmt-foundations-applications-implications.md) | online |
 | February 03 | Machine Translation and Language Learning: What the Research Tells Us | online |
 | January 28| [TQ2022](tq2022.md) | online |
 
