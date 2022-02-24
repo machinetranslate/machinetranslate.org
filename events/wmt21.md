@@ -209,3 +209,32 @@ Thursday, November 11, 2021
 | 15:00 – 15:15 | [***Subword Mapping and Anchoring across Languages***](https://arxiv.org/pdf/2109.04556.pdf) <br>Giorgos Vernikos and Andrei Popescu-Belis |
 | 15:15 – 15:30 | [***Uncertainty-Aware Machine Translation Evaluation***](https://arxiv.org/pdf/2109.06352.pdf) <br>Taisiya Glushkova, Chrysoula Zerva, Ricardo Rei and André F. T. Martins |
 | 15:30 – 15:45 | [***Sometimes We Want Ungrammatical Translations***](https://aclanthology.org/2021.findings-emnlp.275.pdf) <br>Prasanna Parasarathi |
+
+## Results
+
+### Shared Task: Machine Translation of News
+
+#### Translation into-English (SR+DC)
+*Systems ordered by DA score z-score; systems within a cluster are considered tied; lines indicate clusters according to Wilcoxon rank-sum test p < 0.05*
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+| **Language pair** | **Rank** | **Ave.** | **Ave. z** | **System** |
+| Czech→English | 1–2 | 77.8 | 0.111 | Facebook-AI |
+| German→English | 1–5 | 71.9 | 0.126 | Borderline |
+| Hausa→English | 1 | 74.4 | 0.248 | Facebook-AI |
+| Icelandic→English | 1 | 74.5 | 0.293 | Facebook-AI |
+| Japanese→English | 1 | 73.8 | 0.141 | HW-TSC |
+| Russian→English | 1–5 | 77.5 | 0.137 | NVIDIA-NeMo |
+| Chinese→English | 1–5 | 75.0 | 0.042 | NiuTrans |
+
+#### Translation out-of-English
+*Systems ordered by DA score z-score; systems within a cluster are considered tied; lines indicate clusters according to Wilcoxon rank-sum test p < 0.05*
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+
+
+
+
+[Summary of the results](https://statmt.org/wmt21/pdf/2021.wmt-1.1.pdf)
