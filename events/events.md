@@ -16,20 +16,22 @@ featured: true
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
-|  | MT Summit 2023 | |
+|  | **MT Summit 2023** | |
 
 ## 2022
 
 |  |  |  |
 | ---- | ---- | ---- |
 | December | [**WMT22**](wmt22.md) | Abu Dhabi, United Arab Emirates |
-| December | AAMT 2022 | |
-| October 12 | [LoResMT 2022](loresmt2022.md) | online |
-| September 12 | [AMTA 2022](amta2022.md) | Orlando, United States |
-| July 02 | [NeTTT Conference](nettt2022.md) | Rhodes, Greece |
-| June 01 | [EAMT 2022](eamt2022.md) | Ghent, Belgium |
-| May 26 | [IWSLT 2022](iwslt2022.md) | Dublin, Ireland |
-| April 21 | [Neural Machine Translation – Foundations, Applications and Implications](nmt-foundations-applications-implications.md) | online |
+| December | **AAMT 2022** | |
+| October 12 | [**LoResMT 2022**](loresmt2022.md) | online |
+| September 12 | [**AMTA 2022**](amta2022.md) | Orlando, United States |
+| July 02 | [**NeTTT Conference**](nettt2022.md) | Rhodes, Greece |
+| June 01 | [**EAMT 2022**](eamt2022.md) | Ghent, Belgium |
+| May 26 | [**IWSLT 2022**](iwslt2022.md) | Dublin, Ireland |
+| April 21 | [**Neural Machine Translation – Foundations, Applications and Implications**](nmt-foundations-applications-implications.md) | online |
+| March 04 | [**Introducing Neural Machine Translation (NMT) to Translators**](https://www.surrey.ac.uk/events/20220304-introducing-neural-machine-translation-nmt-translators) | online |
+| March 01 | [**Simultaneous Speech-to-speech Translation with Transformer-based Incremental ASR, MT, and TTS**](https://iwslt.org/lectures/) | online |
 | February 03 | [Machine Translation and Language Learning: What the Research Tells Us](/files/mt-and-language-learning.pdf) | online |
 | January 28| [TQ2022](tq2022.md) | online |
 
