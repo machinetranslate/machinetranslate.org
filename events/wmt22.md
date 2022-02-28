@@ -1,8 +1,8 @@
 ---
 parent: Events
 title: WMT22
-description: Conference on Machine Translation
-location: To be announced
+description: Seventh Conference on Machine Translation
+location: Abu Dhabi
 name: WMT22
 startDate: 2021-12-12
 endDate: 2021-12-13
@@ -13,8 +13,9 @@ The **Seventh Conference on Machine Translation** (**WMT22**) is set to take pla
 
 [statmt.org/wmt22/](https://statmt.org/wmt22/)
 
+<span>
 {% include collapsible_toc.html %}
-
+</span>
 
 ## Important dates
 
