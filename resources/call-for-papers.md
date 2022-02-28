@@ -14,4 +14,4 @@ description: Calls for papers for machine translation events and publications
 | [EAMT 2022](events/eamt2022.md) | [EAMT](associations/eamt.md | 25 March 2022 |
 | [*Special Issue on Translation Platforms*](https://www.aclweb.org/portal/content/special-issue-translation-platforms) | ACL | 15 March 2022 |
 | [IWSLT 2022](events/iwslt2022.md) | IWSLT | 13 March 2022 |
-| [NETTT 2022](events/nettt2022.md) | | 01 March 2022 |
+| [NETTT 2022](events/nettt2022.md) | | 15 March 2022 |
