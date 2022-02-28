@@ -16,7 +16,7 @@ The content covers everything about machine translation, from products to resear
 
 ## Featured article
 
-> The [**Seventh Conference on Machine Translation**](/wmt22) ([**WMT22**](/wmt22)) is set to take place in December 2022 at EMNLP 2022 in Abu Dhabi.
+> The [**Seventh Conference on Machine Translation**](/wmt22) ([**WMT22**](/wmt22)) is set to take place in December 2022 at EMNLP 2022 in Abu Dhabi.  
 > [Read more](/wmt22)
 
 
