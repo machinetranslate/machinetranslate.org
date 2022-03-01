@@ -18,6 +18,7 @@ description: Machine translation research laboratories
 | [**GETALP**](http://lig-getalp.imag.fr/) | Laboratoire d’Informatique de Grenoble | Academic | France |
 | [**Google Research**](https://research.google/research-areas/machine-translation/) | Google | Corporate | US |
 | [**Human Language Technology**](https://hlt-mt.fbk.eu/) | Fondazione Bruno Kessler | Corporate | Italy |
+| [**Institute of Computational Linguistics**](https://www.cl.uzh.ch) | University of Zurich | Academic | Switzerland |
 | [**Institute of Formal and Applied Linguistics**](https://ufal.mff.cuni.cz/home-page) | Charles University | Academic | Czech Republic |
 | [**Language Technologies Institute**](https://www.lti.cs.cmu.edu/) | Carnegie Mellow University | Academic | US |
 | [**Language and Translation Technology group**](https://lt3.ugent.be/) | Ghent University | Academic | Belgium |
