@@ -216,8 +216,8 @@ Thursday, November 11, 2021
 
 ### News Translation
 
-#### → English (segment rating with document context (SR+DC))
-> *Systems ordered by DA score z-score; systems within a cluster are considered tied; lines indicate clusters according to Wilcoxon rank-sum test p < 0.05>*
+#### → English (segment rating with document context)
+> *Systems ordered by Direct Assessment score z-score; systems within a cluster are considered tied; lines indicate clusters according to Wilcoxon rank-sum test p < 0.05>*
 
 | Language pair | Average score | Average z-score (standard score) | System |
 | --- | --- | --- | --- |
@@ -229,8 +229,8 @@ Thursday, November 11, 2021
 | Russian→English | 77.5 | 0.137 | `NVIDIA-NeMo` |
 | Chinese→English | 75.0 | 0.042 | `NiuTrans`|
 
-#### English → (segment ranking in a full document (SR+FD))
-> *Systems ordered by DA score z-score; systems within a cluster are considered tied; lines indicate clusters according to Wilcoxon rank-sum test p < 0.05*
+#### English → (segment ranking in a full document)
+> *Systems ordered by Direct Assessment score z-score; systems within a cluster are considered tied; lines indicate clusters according to Wilcoxon rank-sum test p < 0.05*
 
 | Language pair | Average score | Average z-score (standard score) | System |
 | --- | --- | --- | --- |
@@ -245,7 +245,7 @@ Thursday, November 11, 2021
 | German→French | 87.9 | 0.160 | `Online-B`|
 
 #### Hindi to/from Bengali and Zulu to/from Xhosa
-> *Systems ordered by DA score z-score; systems within a cluster are considered tied; lines indicate clusters according to Wilcoxon rank-sum test p < 0.05*
+> *Systems ordered by Direct Assessment score z-score; systems within a cluster are considered tied; lines indicate clusters according to Wilcoxon rank-sum test p < 0.05*
 
 | Language pair | Average score | Average z-score (standard score) | System |
 | --- | --- | --- | --- |
