@@ -17,9 +17,6 @@ td:nth-child(1) {
 td:nth-child(2) {
   min-width: 300px;
 }
-.main-content a {
-  white-space: pre-wrap; 
-}
 </style>
 
 
