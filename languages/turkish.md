@@ -4,38 +4,50 @@ title: Turkish
 description: Machine translation for Turkish
 ---
 
-The first studies on machine translation in **Turkish** started to emerge in the 90s. Most of these studies were experimental studies and have not reached general-purpose use level.
+**Turkish** is the language with the best machine translation support in the Turkic language family.  
 
-In addition to machine translation systems designed for the English-Turkish language pair, systems have also been developed between Turkic languages ​​such as Uyghur, Turkmen, Azerbaijani and Tatar.
+Turkic languages, including Turkish, share significant morphological and syntactical characteristics:
 
-Although machine translation systems are easier to develop due to the structural closeness between Turkic languages, they also have their own unique challenges. One of these difficulties is the lack of resources in Turkic languages.
+- Agglutination
+- Subject-Object-Verb sentence order
 
-Turkish belongs to the Ural-Altaic language family and is an agglutinative language. In Turkish, words are formed by adding inflections and suffixes to the root word. Thousands of new words can be derived from root words with suffixes.
+Turkish also borrows words from other languages, such as French, Arabic or Persian.
 
-Turkish is a language that has some difficulties in terms of machine translation. Especially, its structural difference with languages ​​such as English, French and German, in which most studies in this field are conducted, is one of the biggest difficulties in terms of Turkish.
+For Turkic languages, direct system developments are significant.
 
-The fact that Turkish doesn't have enough parallel corpora to generate training data is one of the reasons that makes it difficult to develop a language model. Today, while there are many large-scale parallel corpora for Western languages, parallel corpora for Turkish are still under development.
 
-In 1993, İlker Hamzaoğlu developed a word-based machine translation system that translates between the Turkish-Azerbaijani language pair.
+### Support
 
-One of the first projects on machine translation systems in Turkey was supported by NATO within the scope of the Science for Stability Program in 1994, and the TU-Dil Project was developed in order to create a foundation for natural language processing research in Turkish.
+In 2016, Google Translate included Turkish in the launch of Google Neural Machine Translation.
 
-Another study is the English-Turkish Interlanguage Machine translation system, designed in collaboration with academics from Bilkent and Carnegie Melon University in 1998.
+By 2022, Turkish was supported by all the major translation applications and API providers, including Google Translate, Microsoft Translator, Yandex Translate, Amazon Translate, and IBM Watson.
 
-In 2001, Kemal Altıntaş developed a machine translation system from Turkish to Crimean Tatar language using finite state techniques.
+Yandex Translate has direct translation systems for Turkish-Russian and Turkish-German.  Turkish is one of the top languages for Yandex Translate.
 
-In 2003, Şenkal, Gürgör, and Kardeş developed a machine translation model for the Turkish-Spanish language pair.
+English to Turkish is one of the top language pairs for Systran.
 
-In 2006, a Turkish-English statistical machine translation system was developed by ‪İlknur Durgar El-Kahlout‬ and Kemal Oflazer, and it was aimed to find solutions to the problems arising from the structural differences between the two languages.
+### Direct systems
 
-In 2007, a Turkmen-Turkish machine translation system was developed by Tantuğ, Adalı and Oflazer. In this system, hybrid method is used and it consists of both information and rule-based and statistical components.
+ - Turkish-Azerbaijani, developed by Ilker Hamzaoǧlu
+ - Turkish-Crimean Tatar, developed by Kemal Altıntaş
+ - Turkish-Turkmen, developed by Cüneyd Tantuğ, Eşref Adali, and Kemal Oflazer
+ - Turkish–Tatar, developed by R. A. Gilmullin
 
-A Turkish-English machine translation system was designed by Türe in 2008. This system was based on the hybrid approach that combining the classical transfer-based approach with the statistical approach. This system would find the possible English equivalents of Turkish clauses based on the manual transfer rules, and then the probabilistic language model would choose the most probable of these translations.
 
-In another work in 2008, Cengizhan Tekin established the infrastructure of a rule-based machine translation module from English to Turkish and prepared an initial project.
+### History
 
-Some statistical machine translation studies were conducted by Köprü in 2009 and by Yeniterzi and Oflazer in 2010.
+In 1994, NATO supported two machine translation English to Turkish projects within the scope of the Science for Stability Program. These projects were [rule-based machine translation](/approaches/rule-based-machine-translation.md) systems within specific domains: news captions and IBM manuals.
 
-In 2010, a Uyghur-Turkish machine translation system was developed by Orhun, Adalı and Tantuğ.
+In 2011, Apertium launched the Apertium Turkic work group in an attempt to create resources for Turkic languages rule-based machine translation and natural language processing.
 
-**Source**: [Makine Çevirisi](https://www.amazon.com.tr/Makine-%C3%87evirisi-Erdin%C3%A7-Aslan/dp/6052814187), [Erdinç Aslan](https://avesis.marmara.edu.tr/erdinc.aslan), Hiperyayın, 1st Edition, İstanbul, 2019.
+In 2011, The TS Corpus project was launched with English-Turkish parallel databases.
+
+In 2019, Emel Alkım and Yalçın Çebi launched MT-Turk for Turkish, Kirghiz and Kazan Tatar.  MT-Turk is a rule-based machine translation system that uses interlingual and transfer systems.
+
+In 2020, [Turkic Interlingua](/community/communities.md#TIL) was created to develop language technology, including parallel corpora, in the most spoken Turkic languages.
+
+In 2021, the Literary Machine Translation Project started at the Department of Translation and Interpreting Studies from the Boğaziçi University.
+
+> This project aims to use MT to translate into Turkish literary texts whose style has been defined using corpus tools.
+
+The Turkish National Corpus (TNC) contains 50 million Turkish words.
