@@ -66,7 +66,7 @@ The main task is the *General machine translation task*. Until 2022, it was know
 - Machine translation using terminologies task
 - Sign language translation task
 - Robustness translation task
-- Triangual machine translation task
+- Triangular machine translation task
 - Large-scale multilingual machine translation task
 
 #### Evaluation tasks
@@ -91,12 +91,14 @@ The results published from WMT shared tasks represent benchmarks for the technol
 - Loïc Barrault
 - Ondřej Bojar
 - Marco Turchi
-- Martin Popel
 - Matt Post
 - Rajen Chatterjee
 - Christof Monz
 - Matteo Negri
-- Marco Turchi
 - Matthias Huck
 - Christian Federmann
 - Christof Monz
+- Lucia Specia
+- Yvette Graham
+- Mariana Neves
+- Tom Kocmi
