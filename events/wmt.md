@@ -98,7 +98,7 @@ The results published from WMT shared tasks represent benchmarks for the technol
 - Matthias Huck
 - Christian Federmann
 - Christof Monz
-- Lucia Specia
+- [Lucia Specia](/community/people/lucia-specia.md)
 - Yvette Graham
 - Mariana Neves
 - Tom Kocmi
