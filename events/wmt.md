@@ -75,7 +75,7 @@ The main task is the *General machine translation task*. Until 2022, it was know
 
 - Automatic post-editing task
 
-#### Uncontinued tasks
+#### Discontinued tasks
 
 - Medical text translation task
 - Pronoun translation task
