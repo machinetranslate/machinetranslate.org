@@ -49,19 +49,16 @@ WMT started in 2006 with a *translation* task. In the following years, WMT inclu
 
 The main task is the *General machine translation task*. Until 2022, it was known as the *News task* because traditionally the content to be translated was news articles.
 
-#### Translation tasks
+### Recurrent tasks
+
+### Translation tasks
 
 - General machine translation task (former News task)
-- Medical text translation task
 - Biomedical translation task
-- Pronoun translation task
-- Bilingual document alignment
 - Multimodal translation task
-- Similar language translation task
 - Unsupervised and very low resource translation task
 - Lifelong learning in machine translation task
 - Chat translation task
-- Multilingual low-resource translation task for Indo-European languages
 - Life-long learning in machine translation task
 - Machine translation using terminologies task
 - Sign language translation task
@@ -73,11 +70,19 @@ The main task is the *General machine translation task*. Until 2022, it was know
 
 - Metrics task
 - Quality estimation task
-- Tuning task
 
 #### Other tasks
 
 - Automatic post-editing task
+
+#### Uncontinued tasks
+
+- Medical text translation task
+- Pronoun translation task
+- Bilingual document alignment
+- Similar language translation task
+- Multilingual low-resource translation task for Indo-European languages
+- Tuning task
 - Parallel corpus filtering task
 - Task on training of neural machine translation
 - Task on bandit learning for machine translation
@@ -87,6 +92,7 @@ The results published from WMT shared tasks represent benchmarks for the technol
 ### Long-time organisers
 
 - [Philipp Koehn](/community/people/philipp-koehn.md)
+- [Lucia Specia](/community/people/lucia-specia.md)
 - Barry Haddow
 - Loïc Barrault
 - Ondřej Bojar
@@ -98,7 +104,6 @@ The results published from WMT shared tasks represent benchmarks for the technol
 - Matthias Huck
 - Christian Federmann
 - Christof Monz
-- [Lucia Specia](/community/people/lucia-specia.md)
 - Yvette Graham
 - Mariana Neves
 - Tom Kocmi
