@@ -43,7 +43,7 @@ The conference will be preceded by a two-day summer school in Neural Machine Tra
 
 |     |     |
 | --- | --- |
-| Submission deadline | 01 March 2022 |
+| Submission deadline | 15 March 2022 |
 | Notification of acceptance | 15 April 2022 |
 | Full paper submission | 20 June 2022 |
 | Summer school | 02 - 03 July 2022 |

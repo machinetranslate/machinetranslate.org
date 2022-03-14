@@ -1,26 +1,33 @@
 
 <center>
-  <p>
-    {% if page.title == '404' %}
+  {% if page.title == '404' %}
+    <p>
       <a
         target="_blank"
         href="https://github.com/machinetranslate/machinetranslate.org/new/master/{{ page.path }}">
         <strong>Create this article</strong>
       </a>
-    {% elsif page.layout == 'coming_soon' %}
+    </p>
+  {% elsif page.layout == 'coming_soon' %}
+    <p>
       <a
         target="_blank"
-        href="https://github.com/machinetranslate/machinetranslate.org/edit/master/{{ page.path }}">
+        href="https://github.com/machinetranslate/machinetranslate.org/blob/master/{{ page.path }}">
         <strong>Write this article</strong>
       </a>
-    {% else %}
+    </p>
+  {% else %}
+    <p id="edited" style="display: none;">
+      Edited on <span id="edited-date"></span> by <a id="edited-username"></a>
+    </p>
+    <p>
       <a
         target="_blank"
-        href="https://github.com/machinetranslate/machinetranslate.org/edit/master/{{ page.path }}">
+        href="https://github.com/machinetranslate/machinetranslate.org/blob/master/{{ page.path }}">
         <strong>Edit this article</strong>
       </a>
-    {% endif %}
-  </p>
+    </p>
+  {% endif %}
 </center>
 
 <center>
@@ -39,3 +46,24 @@
 <center>
   {% include social.html %}
 </center>
+
+<script>
+
+  function toLocaleString(date) {
+    var d = new Date(date);
+    return d.toLocaleString('en-UK', { day: 'numeric', month: 'long', year: 'numeric' });
+  }
+
+  var url = 'https://api.github.com/repos/{{ site.github.owner_name }}/{{ site.github.repository_name }}/commits?path={{ page.path }}';
+
+  fetch(url)
+  .then((response) => response.json())
+  .then((commits) => {
+    var date = commits[0].commit.committer.date.slice(0,10);
+    var username = commits[0].author.login;
+    document.getElementById('edited-date').textContent = toLocaleString(date);
+    document.getElementById('edited-username').textContent = username;
+    document.getElementById('edited-username').href = "https://github.com/" + username;
+    document.getElementById('edited').style.display = 'inline'
+  });
+</script>

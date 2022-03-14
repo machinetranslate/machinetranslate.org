@@ -14,10 +14,11 @@ description: Machine translation research laboratories
 | [**Computational Linguistics and Information Processing**](https://wiki.umiacs.umd.edu/clip/index.php/Main_Page) | University of Maryland | Academic | US |
 | [**Computational Linguistics Research Group**](http://www.cs.toronto.edu/compling/) | University of Toronto | Academic | Canada |
 | [**Conversational AI & Natural-Language Processing**](https://www.amazon.science/research-areas/conversational-ai-natural-language-processing) | Amazon | Corporate | US |
-| [**FoTran**](https://www2.helsinki.fi/en/researchgroups/natural-language-understanding-with-cross-lingual-grounding ) | University of Helsinki | Academic | Finland |
+| [**Helsinki-NLP**](https://blogs.helsinki.fi/language-technology/ ) | University of Helsinki | Academic | Finland |
 | [**GETALP**](http://lig-getalp.imag.fr/) | Laboratoire d’Informatique de Grenoble | Academic | France |
 | [**Google Research**](https://research.google/research-areas/machine-translation/) | Google | Corporate | US |
 | [**Human Language Technology**](https://hlt-mt.fbk.eu/) | Fondazione Bruno Kessler | Corporate | Italy |
+| [**Institute of Computational Linguistics**](https://www.cl.uzh.ch) | University of Zurich | Academic | Switzerland |
 | [**Institute of Formal and Applied Linguistics**](https://ufal.mff.cuni.cz/home-page) | Charles University | Academic | Czech Republic |
 | [**Language Technologies Institute**](https://www.lti.cs.cmu.edu/) | Carnegie Mellow University | Academic | US |
 | [**Language and Translation Technology group**](https://lt3.ugent.be/) | Ghent University | Academic | Belgium |

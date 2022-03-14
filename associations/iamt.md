@@ -11,6 +11,8 @@ The mission of IAMT is:
 
 The IAMT consists of regional associations.
 
+[eamt.org/international-association-for-machine-translation](https://eamt.org/international-association-for-machine-translation/)
+
 {% include collapsible_toc.html %}
 
 ## Regional associations

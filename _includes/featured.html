@@ -1,0 +1,10 @@
+{% assign page = site.pages | where: "featured", true | sample %}
+
+<blockquote>
+  <h3>{{ page.title }}</h3>
+  <h5>{{ page.description }}</h5>
+  <p>
+    {{ page.content | markdownify | strip_html | split: '\n' | first | truncate: 180 }}
+    <a href="{{ page.url }}">Read more</a>
+  </p>
+</blockquote>
