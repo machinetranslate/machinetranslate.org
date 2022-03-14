@@ -212,7 +212,7 @@ Thursday, November 11, 2021
 
 ## Results
 
-#### Full results of the shared tasks: [*Findings of the 2021 Conference on Machine Translation (WMT21)*](https://statmt.org/wmt21/pdf/2021.wmt-1.1.pdf)
+#### Full results of the shared tasks: [***Findings of the 2021 Conference on Machine Translation (WMT21)***](https://statmt.org/wmt21/pdf/2021.wmt-1.1.pdf)
 
 ### News Translation
 
