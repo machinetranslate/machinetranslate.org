@@ -14,5 +14,5 @@ description: Calls for papers for machine translation events and publications
 | [*Special issue on Translation Automation and Sustainability*](https://jostrans.org/2b.3%20Jostrans%20SI%2041.pdf) | JosTrans | 1 June 2022 |
 | [*The impact of Machine Translation in the Audiovisual Translation environment*](https://lans-tts.uantwerpen.be/index.php/LANS-TTS/announcement/view/21) | LANS – TTS | 01 April 2022 |
 | [EAMT 2022](events/eamt2022.md) | [EAMT](associations/eamt.md | 25 March 2022 |
-| ~~[NETTT 2022](events/nettt2022.md)~~ | | 15 March 2022 |
-| ~~[IWSLT 2022](events/iwslt2022.md)~~ | IWSLT | 13 March 2022 |
+| ~~[NETTT 2022](events/nettt2022.md)~~ | | ~~15 March 2022~~ |
+| ~~[IWSLT 2022](events/iwslt2022.md)~~ | IWSLT | ~~13 March 2022~~ |
