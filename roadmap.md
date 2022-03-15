@@ -14,9 +14,9 @@ description: Content roadmap for Machine Translate
 
 ### Approaches
 
-- ~~[Rule-based machine translation](/approaches/rule-based-machine-translation)~~
-- ~~[Statistical machine translation](/approaches/statistical-machine-translation)~~
-- ~~[Neural machine translation](/approaches/neural-machine-translation)~~
+- ~~[Rule-based machine translation](/approaches/rule-based-machine-translation.md)~~
+- ~~[Statistical machine translation](/approaches/statistical-machine-translation.md)~~
+- ~~[Neural machine translation](/approaches/neural-machine-translation.md)~~
 - [Transformers \[#73\]](https://github.com/machinetranslate/machinetranslate.org/issues/73)
 - [Byte-pair encoding \[#75\]](https://github.com/machinetranslate/machinetranslate.org/issues/75)
 - [Customisation / Consulting providers \[#29\]](https://github.com/machinetranslate/machinetranslate.org/issues/29)
@@ -133,7 +133,7 @@ description: Content roadmap for Machine Translate
 - [Arabic \[#98\]](https://github.com/machinetranslate/machinetranslate.org/issues/98)
 - [Japanese \[#99\]](https://github.com/machinetranslate/machinetranslate.org/issues/99)
 - [Indic languages \[#100\]](https://github.com/machinetranslate/machinetranslate.org/issues/100)
-- ~~[Russian \[#164\]](/languages/russian.md)~~
+- ~~[Russian](/languages/russian.md)~~
 - ~~[Turkish](/languages/turkish.md)~~
 - [Czech \[#165\]](https://github.com/machinetranslate/machinetranslate.org/issues/165)
 - [German \[#166\]](https://github.com/machinetranslate/machinetranslate.org/issues/166)
@@ -171,7 +171,7 @@ description: Content roadmap for Machine Translate
 
 ### Events
 
-- ~~[WMT](/events/wmt21.md)~~
+- ~~[WMT](/events/wmt.md)~~
 - ~~[EAMT](/events/eamt2022.md)~~
 - ~~[AMTA](/events/amta2022.md)~~
 - ~~[MTSummit](/events/mtsummit2021.md)~~
