@@ -225,7 +225,6 @@ Friday, November 20, 2020
 ### News Translation
 
 #### → English
-> *Systems ordered by Direct Assessment score z-score
 
 | Language pair | Annotation style | Average score | Average z-score (standard score) | System |
 | --- | --- | --- | --- | --- |
@@ -241,7 +240,6 @@ Friday, November 20, 2020
 | Tamil→English | Segment rating with document context | 68.7 | 0.203 | `GTCOM` |
 
 #### English →
-> *Systems ordered by Direct Assessment score z-score
 
 | Language pair | Annotation style | Average score | Average z-score (standard score) | System |
 | --- | --- | --- | --- | --- |
@@ -257,7 +255,6 @@ Friday, November 20, 2020
 | English→Pashto | Segment rating without document context | 73.0 | 0.244 | `GTCOM` |
 
 #### French to/from German (segment rating without document context)
-> *Systems ordered by Direct Assessment score z-score
 
 | Language pair | Average score | Average z-score (standard score) | System |
 | --- | --- | --- | --- |
