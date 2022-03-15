@@ -217,7 +217,6 @@ Thursday, November 11, 2021
 ### News Translation
 
 #### → English (segment rating with document context)
-> *Systems ordered by Direct Assessment score z-score
 
 | Language pair | Average score | Average z-score (standard score) | System |
 | --- | --- | --- | --- |
@@ -230,7 +229,6 @@ Thursday, November 11, 2021
 | Chinese→English | 75.0 | 0.042 | `NiuTrans`|
 
 #### English → (segment ranking in a full document)
-> *Systems ordered by Direct Assessment score z-score
 
 | Language pair | Average score | Average z-score (standard score) | System |
 | --- | --- | --- | --- |
@@ -244,8 +242,14 @@ Thursday, November 11, 2021
 | French→German | 87.7 | 0.088 | `Online-W`|
 | German→French | 87.9 | 0.160 | `Online-B`|
 
+#### French to/from German (segment rating in a full document)
+
+| Language pair | Average score | Average z-score (standard score) | System |
+| --- | --- | --- | --- |
+| French→German | 87.7 | 0.088 | `Online-W`|
+| German→French | 87.9 | 0.160 | `Online-B`|
+
 #### Hindi to/from Bengali and Zulu to/from Xhosa (segment rating without document context)
-> *Systems ordered by Direct Assessment score z-score
 
 | Language pair | Average score | Average z-score (standard score) | System |
 | --- | --- | --- | --- |
