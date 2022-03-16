@@ -254,7 +254,7 @@ Friday, November 20, 2020
 | English→Khmer | Segment rating without document context | 77.4 | 0.478 | `GTCOM` |
 | English→Pashto | Segment rating without document context | 73.0 | 0.244 | `GTCOM` |
 
-#### French to/from German (segment rating without document context)
+#### French ↔︎ German (segment rating without document context) 
 
 | Language pair | Average score | Average z-score (standard score) | System |
 | --- | --- | --- | --- |
