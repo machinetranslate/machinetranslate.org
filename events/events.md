@@ -30,6 +30,7 @@ featured: true
 | June 01 | [**EAMT 2022**](eamt2022.md) | Ghent, Belgium |
 | May 26 | [**IWSLT 2022**](iwslt2022.md) | Dublin, Ireland |
 | April 21 | [**Neural Machine Translation – Foundations, Applications and Implications**](nmt-foundations-applications-implications.md) | online |
+| March 15 | [**Machine Translation in Localization Workflows: Do’s, Don’ts, and How not to**](https://www.linkedin.com/events/machinetranslationinlocalizatio6908131259126550528/) | online |
 | March 04 | [Introducing Neural Machine Translation (NMT) to Translators](https://www.surrey.ac.uk/events/20220304-introducing-neural-machine-translation-nmt-translators) | online |
 | March 01 | [Simultaneous Speech-to-speech Translation with Transformer-based Incremental ASR, MT, and TTS](https://iwslt.org/lectures/) | online |
 | February 03 | [Machine Translation and Language Learning: What the Research Tells Us](/files/mt-and-language-learning.pdf) | online |
