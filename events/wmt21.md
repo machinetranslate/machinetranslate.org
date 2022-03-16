@@ -242,14 +242,14 @@ Thursday, November 11, 2021
 | French→German | 87.7 | 0.088 | `Online-W`|
 | German→French | 87.9 | 0.160 | `Online-B`|
 
-#### French to/from German (segment rating in a full document)
+#### French ↔︎ German (segment rating in a full document)
 
 | Language pair | Average score | Average z-score (standard score) | System |
 | --- | --- | --- | --- |
 | French→German | 87.7 | 0.088 | `Online-W`|
 | German→French | 87.9 | 0.160 | `Online-B`|
 
-#### Hindi to/from Bengali and Zulu to/from Xhosa (segment rating without document context)
+#### Hindi ↔︎ Bengali and Zulu ↔︎ Xhosa (segment rating without document context)
 
 | Language pair | Average score | Average z-score (standard score) | System |
 | --- | --- | --- | --- |
