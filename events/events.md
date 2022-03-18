@@ -29,7 +29,7 @@ featured: true
 | July 02 | [**NeTTT Conference**](nettt2022.md) | Rhodes, Greece |
 | June 01 | [**EAMT 2022**](eamt2022.md) | Ghent, Belgium |
 | May 26 | [**IWSLT 2022**](iwslt2022.md) | Dublin, Ireland |
-| April 29 | [**Using machine translation in healthcare**](https://www.eventbrite.co.uk/e/using-machine-translation-in-healthcare-tickets-257863335177?utm_source=eventbrite&utm_medium=email&utm_content=follow_notification&utm_campaign=following_published_event&utm_term=Using+machine+translation+in+healthcare&aff=ebemoffollowpublishemail) | online |
+| April 29 | [**Using machine translation in healthcare**](https://www.surrey.ac.uk/events/20220429-when-and-how-can-online-translation-tools-not-help-us-bridge-language-and-cultural-gap-between) | online |
 | April 21 | [**Neural Machine Translation – Foundations, Applications and Implications**](nmt-foundations-applications-implications.md) | online |
 | March 04 | [Introducing Neural Machine Translation (NMT) to Translators](https://www.surrey.ac.uk/events/20220304-introducing-neural-machine-translation-nmt-translators) | online |
 | March 01 | [Simultaneous Speech-to-speech Translation with Transformer-based Incremental ASR, MT, and TTS](https://iwslt.org/lectures/) | online |
