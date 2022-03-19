@@ -27,6 +27,7 @@ Quality estimation has offline and production use cases:
 * Validating final human translations
 * Filtering training data for machine translation
 
+
 ### Granularity
 
 * Word-level
@@ -66,25 +67,33 @@ Early quality estimation approaches created one model or system per language pai
 #### Multilingual
 Multilingual quality estimation uses one model or system for many language pairs, similar to multilingual machine translation systems.
 
+---
 
-### Frameworks
+In 2012, [Lucia Specia](/people/lucia-specia.md) and Google researcher Radu Soricut organized the first *Shared Task on Quality Estimation*.
+
+In 2018, Lucia Specia, Carolina Scarton and Gustavo Henrique Paetzold published the book *Quality Estimation for Machine Translation*. There was research on word-level quality estimation and paragraph-level quality estimation.
+
+In 2020, [ModelFront](/industry/companies.md#modelfront) launched a multilingual quality estimation API.  Tharindu Ranasinghe released pretrained models.  Facebook Research launched unsupervised quality estimation internally.
+
+---
 
 A growing set of frameworks, models and systems are generally available.
 
+### Frameworks
+
+Frameworks from academia and industry are available as open-source code and models.
+
+The first framework, QuEst, was released in 2013.
+
 | Name       | Owner                       | Approach
 | ---------- | --------------------------- | --------------------------- |
+| [QuEst](https://github.com/lspecia/quest) | University of Sheffield | Feature engineering, blackbox |
 | [QuEst++](https://www.quest.dcs.shef.ac.uk/) | University of Sheffield     | Feature engineering, blackbox |
 | [DeepQuest](https://github.com/sheffieldnlp/deepQuest) | University of Sheffield     | Deep learning, blackbox     |
 | [OpenKiwi](https://github.com/Unbabel/OpenKiwi) | Unbabel                     | Deep learning, blackbox     |
-
-
-### Models
-
-In 2020, Tharindu Ranasinghe trained models on [WMT](/events/wmt.md) data and made them publicly available.
-
-| Name | Owner | Approach |
-| --- | ---| --- |
 | [TransQuest](https://github.com/TharinduDR/TransQuest) | Tharindu Ranasinghe, University of Wolverhampton | Deep learning, blackbox |
+
+TransQuest also includes pretrained models.  The models were pretrained with [WMT](/events/wmt.md) data.
 
 
 ### Providers
@@ -125,19 +134,5 @@ More companies have researched and launched quality estimation internally.  They
 - MusixMatch
 
 *Note: This list is incomplete.*
-
-
-### Research
-
-In 2012, [Lucia Specia](/people/lucia-specia.md) and Radu Soricut organized the first Shared Task on Quality Estimation.
-
-In 2018, Lucia Specia, Carolina Scarton and Gustavo Henrique Paetzold published the book **Quality Estimation for Machine Translation**. There was research on word-level quality estimation and paragraph-level quality estimation.
-
-In 2020, [ModelFront](/industry/companies.md#modelfront) launched a multilingual quality estimation API.  Tharindu Rasinghe openly published pretrained quality estimation models.  Facebook Research launched unsupervised quality estimation internally.
-
-### Challenges
-
-Quality estimation models are likely to guess translation quality rather than estimate it if trained with publicly available datasets.
-
 
 
