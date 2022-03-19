@@ -87,11 +87,11 @@ The first framework, QuEst, was released in 2013.
 
 | Name       | Owner                       | Approach
 | ---------- | --------------------------- | --------------------------- |
-| [QuEst](https://github.com/lspecia/quest) | University of Sheffield | Feature engineering, blackbox |
-| [QuEst++](https://www.quest.dcs.shef.ac.uk/) | University of Sheffield     | Feature engineering, blackbox |
-| [DeepQuest](https://github.com/sheffieldnlp/deepQuest) | University of Sheffield     | Deep learning, blackbox     |
-| [OpenKiwi](https://github.com/Unbabel/OpenKiwi) | Unbabel                     | Deep learning, blackbox     |
-| [TransQuest](https://github.com/TharinduDR/TransQuest) | Tharindu Ranasinghe, University of Wolverhampton | Deep learning, blackbox |
+| [QuEst](https://github.com/lspecia/quest) | University of Sheffield | Feature engineering |
+| [QuEst++](https://www.quest.dcs.shef.ac.uk/) | University of Sheffield     | Feature engineering |
+| [DeepQuest](https://github.com/sheffieldnlp/deepQuest) | University of Sheffield     | Deep learning     |
+| [OpenKiwi](https://github.com/Unbabel/OpenKiwi) | Unbabel                     | Deep learning     |
+| [TransQuest](https://github.com/TharinduDR/TransQuest) | Tharindu Ranasinghe, University of Wolverhampton | Deep learning |
 
 TransQuest also includes pretrained models.  The models were pretrained with [WMT](/events/wmt.md) data.
 
