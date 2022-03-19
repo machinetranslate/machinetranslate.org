@@ -7,7 +7,14 @@ description: Workflow with both human translations and pure machine translations
 In a **hybrid translation** workflow, some raw machine translations are never seen or touched by a human translator.
 
 Hybrid translation can be faster and cheaper than full human [post-editing](post-editing.md).
-It requires machine translation to be accurate enough that a signification portion of the machine translations are usable as-is.
+
+Hybrid translation requires machine translation to be accurate enough that a signification portion of the machine translations are usable as-is.
+
+Typically the decision is at the segment level.
+
+> ### Workflow diagram
+> The hybrid translation workflow was first presented by Microsoft, VMWare and Unbabel.  This slide from a 2022 [ModelFront](/industry/companies.md#modelfront) presentation.
+> <img title='Hybrid translation workflow' src='hybrid-translation-workflow.png' width='700' />
 
 The key technology for a hybrid translation workflow is [**translation risk prediction**](/quality/quality-estimation.md).
 
