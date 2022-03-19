@@ -102,23 +102,24 @@ ModelFront launched a standalone production system for quality estimation.  By 2
 
 There are also providers that offer a quality estimation feature within another product.
 
-| Name | Availability | Owner | Approach |
+| Provider | Product | Availability | Approach |
 | --- | --- | --- | --- |
-| [KantanQES](https://www.kantanai.io/kantanqes-home/) | Feature of machine translation API | [KantanAI](/industry/companies.md#kantanmt) | Glassbox |
-| [Memsource quality estimation](https://www.memsource.com/features/translation-quality-estimation/) | Feature of translation management system | Memsource | Deep learning, blackbox |
-| [ModelFront risk prediction](https://modelfront.com) | System with API and console | [ModelFront](/industry/companies.md#modelfront) | Deep learning, multilingual, blackbox |
+| [KantanAI](/industry/companies.md#kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | Feature of machine translation API | Glassbox |
+| [ModelFront](/industry/companies.md#modelfront) | [ModelFront risk prediction](https://modelfront.com) | System with API and console | Deep learning, multilingual, blackbox |
 
 
 ### Features and integrations
 
-A few products have launched generally available features for quality estimation.
+A few translation management systems have launched generally available features for quality estimation.
 
-| Product | Feature |
-| ---| --- |
-| [KantanAI](/industry/companies.md#kantanmt)  machine translation | [KantanQES](https://www.kantanai.io/kantanqes-home/) |
-| Memsource translation management system | [Memsource quality estimation](https://www.memsource.com/features/translation-quality-estimation/)  |
-| [translate5](https://translate5.net) translation management system | ModelFront |
-| [GlobalDoc](https://globaldoc.com) LangXpert translation management system | ModelFront |
+| Product | Feature | Provider |
+| ---| --- | --- |
+| [KantanStream](/industry/companies.md#kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | KantanAI |
+| Memsource | [Memsource quality estimation](https://www.memsource.com/features/translation-quality-estimation/)  | Memsource |
+| [translate5](https://translate5.net) | Risk prediction | ModelFront |
+| [GlobalDoc](https://globaldoc.com) LangXpert | Effort estimation | ModelFront |
+
+translate5 is open-source.
 
 
 ### Internal systems
