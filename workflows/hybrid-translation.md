@@ -15,7 +15,7 @@ Typically the decision is at the segment level.
 > ### Workflow diagram
 > The hybrid translation workflow was first presented by Microsoft, VMWare and Unbabel.
 >
-> Slide from a 2022 [ModelFront](/industry/companies.md#modelfront) presentation
+> #### Slide from a [ModelFront](/industry/companies.md#modelfront) presentation
 > <img title='Hybrid translation workflow' src='/workflows/hybrid-translation-workflow.png' width='700' style='padding: 1em;' />
 
 Each machine translation is automatically classified as high-risk or low-risk, based on whether it is below or above the chosen risk **threshold**.
