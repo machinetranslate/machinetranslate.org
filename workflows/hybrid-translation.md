@@ -13,13 +13,17 @@ Hybrid translation requires machine translation to be accurate enough that a sig
 Typically the decision is at the segment level.
 
 > ### Workflow diagram
-> The hybrid translation workflow was first presented by Microsoft, VMWare and Unbabel.  This slide from a 2022 [ModelFront](/industry/companies.md#modelfront) presentation.
-> <img title='Hybrid translation workflow' src='hybrid-translation-workflow.png' width='700' />
-
-The key technology for a hybrid translation workflow is [**translation risk prediction**](/quality/quality-estimation.md).
+> The hybrid translation workflow was first presented by Microsoft, VMWare and Unbabel.
+>
+> Slide from a 2022 [ModelFront](/industry/companies.md#modelfront) presentation
+> <img title='Hybrid translation workflow' src='/workflows/hybrid-translation-workflow.png' width='700' style='padding: 1em;' />
 
 Each machine translation is automatically classified as high-risk or low-risk, based on whether it is below or above the chosen risk **threshold**.
 
 A low-risk machine translation is machine-approved as-is, while a high-risk translation is still sent to a human translator for post-editing.
 
-In the TMS and CAT tool, the machine-approved machine translations are visible but locked, just like translation memory matches.
+In the TMS and CAT tool, the machine-approved machine translations are handled like translation memory matches.  They are either locked or marked as approved.
+
+### Technology
+
+The key technology for a hybrid translation workflow is [**translation risk prediction**](/quality/quality-estimation.md).
