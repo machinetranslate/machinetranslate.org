@@ -67,30 +67,54 @@ Early quality estimation approaches created one model or system per language pai
 Multilingual quality estimation uses one model or system for many language pairs, similar to multilingual machine translation systems.
 
 
-### Frameworks, models and systems
+### Frameworks
 
 A growing set of frameworks, models and systems are generally available.
 
-| Name       | Tool                                     | Owner                       | Approach
-| ---------- | ---------------------------------------- | --------------------------- | --------------------------- |
-| [QuEst++](https://www.quest.dcs.shef.ac.uk/) | Framework                                | University of Sheffield     | Feature engineering, blackbox |
-| [DeepQuest](https://github.com/sheffieldnlp/deepQuest) | Framework                                | University of Sheffield     | Deep learning, blackbox     |
-| [OpenKiwi](https://github.com/Unbabel/OpenKiwi) | Framework                                | Unbabel                     | Deep learning, blackbox     |
-| [TransQuest](https://github.com/TharinduDR/TransQuest) | Pretrained models | University of Wolverhampton | Deep learning, blackbox     |
-| [KantanQES](https://www.kantanai.io/kantanqes-home/) | Feature of machine translation API       | [KantanAI](/industry/companies.md#kantanmt)               | Glassbox                    |
-| [Memsource quality estimation](https://www.memsource.com/features/translation-quality-estimation/)  | Feature of translation management system | Memsource | Deep learning, blackbox    |
+| Name       | Owner                       | Approach
+| ---------- | --------------------------- | --------------------------- |
+| [QuEst++](https://www.quest.dcs.shef.ac.uk/) | University of Sheffield     | Feature engineering, blackbox |
+| [DeepQuest](https://github.com/sheffieldnlp/deepQuest) | University of Sheffield     | Deep learning, blackbox     |
+| [OpenKiwi](https://github.com/Unbabel/OpenKiwi) | Unbabel                     | Deep learning, blackbox     |
+
+
+### Models
+
+In 2020, Tharindu Ranasinghe trained models on [WMT](/events/wmt.md) data and made them publicly available.
+
+| Name | Owner | Approach |
+| --- | ---| --- |
+| [TransQuest](https://github.com/TharinduDR/TransQuest) | Tharindu Ranasinghe, University of Wolverhampton | Deep learning, blackbox |
+
+
+### Providers
+
+ModelFront launched a standalone production system for quality estimation.  By 2020, it was generally available and supported more than 10000 language pairs.  It is provided as an API, so it can be integrated into other systems and products.
+
+There are also providers that offer a quality estimation feature within another product.
+
+| Name | Availability | Owner | Approach |
+| --- | --- | --- | --- |
+| [KantanQES](https://www.kantanai.io/kantanqes-home/) | Feature of machine translation API | [KantanAI](/industry/companies.md#kantanmt) | Glassbox |
+| [Memsource quality estimation](https://www.memsource.com/features/translation-quality-estimation/) | Feature of translation management system | Memsource | Deep learning, blackbox |
 | [ModelFront risk prediction](https://modelfront.com) | System with API and console | [ModelFront](/industry/companies.md#modelfront) | Deep learning, multilingual, blackbox |
 
 
-A few translation management systems have launched a generally available machine translation quality estimation feature.
+### Features and integrations
 
-| Translation management system | Provider                   |
-| ----------------------------- | ---------------------------|
-| Memsource | Memsource |
-| [translate5](https://translate5.net) | ModelFront          |
-| [GlobalDoc](https://globaldoc.com) LangXpert | ModelFront  |
+A few products have launched generally available features for quality estimation.
 
-More companies have researched quality estimation internally, but did not launch or do not provide quality estimation to others.
+| Product | Feature |
+| ---| --- |
+| [KantanAI](/industry/companies.md#kantanmt)  machine translation | [KantanQES](https://www.kantanai.io/kantanqes-home/) |
+| Memsource translation management system | [Memsource quality estimation](https://www.memsource.com/features/translation-quality-estimation/)  | Feature of translation management system |
+| [translate5](https://translate5.net) translation management system | ModelFront |
+| [GlobalDoc](https://globaldoc.com) LangXpert translation management system | ModelFront |
+
+
+### Internal systems
+
+More companies have researched and launched quality estimation internally.  They do not provide quality estimation to others.
 - Amazon
 - Microsoft
 - Transperfect
@@ -102,13 +126,14 @@ More companies have researched quality estimation internally, but did not launch
 
 *Note: This list is incomplete.*
 
+
 ### Research
 
 In 2012, [Lucia Specia](/people/lucia-specia.md) and Radu Soricut organized the first Shared Task on Quality Estimation.
 
 In 2018, Lucia Specia, Carolina Scarton and Gustavo Henrique Paetzold published the book **Quality Estimation for Machine Translation**. There was research on word-level quality estimation and paragraph-level quality estimation.
 
-In 2020, [ModelFront](/industry/companies.md#modelfront) launched a multilingual quality estimation API, Tharindu Rasinghe openly published pretrained quality estimation models and Facebook Research launched unsupervised quality estimation internally.
+In 2020, [ModelFront](/industry/companies.md#modelfront) launched a multilingual quality estimation API.  Tharindu Rasinghe openly published pretrained quality estimation models.  Facebook Research launched unsupervised quality estimation internally.
 
 ### Challenges
 
