@@ -116,7 +116,7 @@ A few products have launched generally available features for quality estimation
 | Product | Feature |
 | ---| --- |
 | [KantanAI](/industry/companies.md#kantanmt)  machine translation | [KantanQES](https://www.kantanai.io/kantanqes-home/) |
-| Memsource translation management system | [Memsource quality estimation](https://www.memsource.com/features/translation-quality-estimation/)  | Feature of translation management system |
+| Memsource translation management system | [Memsource quality estimation](https://www.memsource.com/features/translation-quality-estimation/)  |
 | [translate5](https://translate5.net) translation management system | ModelFront |
 | [GlobalDoc](https://globaldoc.com) LangXpert translation management system | ModelFront |
 
