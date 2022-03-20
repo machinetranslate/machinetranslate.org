@@ -212,48 +212,56 @@ Thursday, November 11, 2021
 
 ## Results
 
-#### Full results of the shared tasks: [***Findings of the 2021 Conference on Machine Translation (WMT21)***](https://statmt.org/wmt21/pdf/2021.wmt-1.1.pdf)
+Full results of the shared tasks: [*Findings of the 2021 Conference on Machine Translation (WMT21)*](https://statmt.org/wmt21/pdf/2021.wmt-1.1.pdf)
 
-### News Translation
+### News translation
 
-#### → English (segment rating with document context)
-
-| Language pair | Average score | Average z-score (standard score) | System |
-| --- | --- | --- | --- |
-| Czech→English | 77.8 | 0.111 | `Facebook-AI` |
-| German→English | 71.9 | 0.126 | `Borderline` |
-| Hausa→English | 74.4 | 0.248 | `Facebook-AI` |
-| Icelandic→English | 74.5 | 0.293 | `Facebook-AI` |
-| Japanese→English | 73.8 | 0.141 | `HW-TSC` |
-| Russian→English | 77.5 | 0.137 | `NVIDIA-NeMo` |
-| Chinese→English | 75.0 | 0.042 | `NiuTrans`|
-
-#### English → (segment ranking in a full document)
+#### → English
+Human evaluation based on segment ratings with document context.
 
 | Language pair | Average score | Average z-score (standard score) | System |
 | --- | --- | --- | --- |
-| English→Czech | 90.2 | 0.397 | `HUMAN-A` |
-| English→German | 83.3 | 0.266 | `Online-B` |
-| English→Hausa | 84.1 | 0.362 | `HUMAN-A` |
-| English→Icelandic | 88.1 | 0.872 | `HUMAN-A` |
-| English→Japanese | 86.4 | 0.430 | `Facebook-AI` |
-| English→Russian | 86.0 | 0.317 | `HUMAN-B` |
-| English→Chinese | 82.5 | 0.325 | `HUMAN-B`|
-| French→German | 87.7 | 0.088 | `Online-W`|
-| German→French | 87.9 | 0.160 | `Online-B`|
+| Czech → | 77.8 | 0.111 | `Facebook-AI` |
+| German → | 71.9 | 0.126 | `Borderline` |
+| Hausa → | 74.4 | 0.248 | `Facebook-AI` |
+| Icelandic → | 74.5 | 0.293 | `Facebook-AI` |
+| Japanese → | 73.8 | 0.141 | `HW-TSC` |
+| Russian → | 77.5 | 0.137 | `NVIDIA-NeMo` |
+| Chinese → | 75.0 | 0.042 | `NiuTrans`|
 
-#### French ↔︎ German (segment rating in a full document)
-
-| Language pair | Average score | Average z-score (standard score) | System |
-| --- | --- | --- | --- |
-| French→German | 87.7 | 0.088 | `Online-W`|
-| German→French | 87.9 | 0.160 | `Online-B`|
-
-#### Hindi ↔︎ Bengali and Zulu ↔︎ Xhosa (segment rating without document context)
+#### English →
+Human evaluation based on segment ratings in a full document.
 
 | Language pair | Average score | Average z-score (standard score) | System |
 | --- | --- | --- | --- |
-| Bengali→Hindi | 82.1 | 0.202 | `GTCOM` |
-| Xhosa→Zulu | 68.4 | 0.331 | `HW-TSC` |
-| Hindi→Bengali | 95.0 | 0.245 | `HW-TSC` |
-| Zulu→Xhosa | 80.7 | 0.502 | `TRANSSION` |
+| → Czech | 90.2 | 0.397 | `HUMAN-A` |
+| → German | 83.3 | 0.266 | `Online-B` |
+| → Hausa | 84.1 | 0.362 | `HUMAN-A` |
+| → Icelandic | 88.1 | 0.872 | `HUMAN-A` |
+| → Japanese | 86.4 | 0.430 | `Facebook-AI` |
+| → Russian | 86.0 | 0.317 | `HUMAN-B` |
+| → Chinese | 82.5 | 0.325 | `HUMAN-B`|
+
+#### French ↔︎ German
+Human evaluation based on segment ratings in a full document.
+
+| Language pair | Average score | Average z-score (standard score) | System |
+| --- | --- | --- | --- |
+| French → German | 87.7 | 0.088 | `Online-W`|
+| German → French | 87.9 | 0.160 | `Online-B`|
+
+#### Hindi ↔︎ Bengali
+Human evaluation based on segment ratings without document context.
+
+| Language pair | Average score | Average z-score (standard score) | System |
+| --- | --- | --- | --- |
+| Hindi → Bengali | 95.0 | 0.245 | `HW-TSC` |
+| Bengali → Hindi | 82.1 | 0.202 | `GTCOM` |
+
+#### Zulu ↔︎ Xhosa
+Human evaluation based on segment ratings without document context.
+
+| Language pair | Average score | Average z-score (standard score) | System |
+| --- | --- | --- | --- |
+| Zulu → Xhosa | 80.7 | 0.502 | `TRANSSION` |
+| Xhosa → Zulu | 68.4 | 0.331 | `HW-TSC` |
