@@ -18,9 +18,9 @@ To create or edit an article, [**create**](https://github.com/machinetranslate/m
 
 > See GitHub’s article [*Creating a pull request*](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request) for more.
 
-### Reviewing articles
+### Reviewing proposed changes
 
-You can also contribute by reviewing other contributors' [open pull requests](https://github.com/machinetranslate/machinetranslate.org/pulls?q=is%3Aopen+is%3Apr) via comments and iterate with them to improve the articles.
+You can also contribute by reviewing other contributors' [open pull requests](https://github.com/machinetranslate/machinetranslate.org/pulls?q=is%3Aopen+is%3Apr).
 
 > See GitHub’s article [*Commenting on a pull request*](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request ) for more.
 
