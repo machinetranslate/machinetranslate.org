@@ -21,10 +21,10 @@ The **Seventh Conference on Machine Translation** (**WMT22**) is set to take pla
 | --- | --- |
 | Release of training data for shared tasks	| February/March, 2022 |
 | Evaluation periods for shared tasks | June/July, 2022 |
-| Paper submission deadline |August, 2022 |
-| Paper notification | September, 2022 |
-| Camera-ready version | September, 2022 |
-| Conference | November , 2022 |
+| Paper submission deadline | 07 September, 2022 |
+| Paper notification | 09 October, 2022 |
+| Camera-ready version | 16 October, 2022 |
+| Conference | 07-08 December, 2022 |
 
 
 ## Shared tasks
@@ -32,8 +32,10 @@ The **Seventh Conference on Machine Translation** (**WMT22**) is set to take pla
 - [General Machine Translation](https://www.statmt.org/wmt22/translation-task.html)
 - [Biomedical](https://www.statmt.org/wmt22/biomedical-translation-task.html)
 - Automatic post-editing
+- [Word-level autocompletion](https://www.statmt.org/wmt22/word-autocompletion.html)
 - [Metrics](https://www.statmt.org/wmt22/metrics-task.html)
 - [Quality estimation](https://www.statmt.org/wmt22/quality-estimation-task.html)
+- [Translation suggestion](https://www.statmt.org/wmt22/translation-suggestion-task.html)
 - [Terminology](https://www.statmt.org/wmt22/terminology-task.html)
 - Chat
 - Sign language
@@ -67,15 +69,20 @@ The *News* machine translation task has been renamed the *General* machine trans
 #### Language pairs
 
 Confirmed language pairs:
-- Chinese-English
-- Czech-English
-- German-English
-- German-French
-- Japanese-English
-- Russian-English
+
+- English-Chinese
+- English-Czech
+- English-German
+- English-Japanese
+- English-Russian
+- French-German
+- Croatian-English
+- Livonian-English
+- Yakut-Russian
 
 To be announced:
-- Low-resource language pairs
+
+- Ukrainian
 
 
 ## Scientific papers
@@ -111,6 +118,7 @@ To be announced:
 ## Poster format
 
 Details about poster format are to be determined.
+Posters must be presented in Gather.Town.
 
 
 ## Paper submission
@@ -125,4 +133,4 @@ Details about poster format are to be determined.
 The invited talk is to be determined.
 
 
-*Last updated from statmt.org/wmt22 on February 11th, 2022*
+*Last updated from statmt.org/wmt22 on March 22nd, 2022*
