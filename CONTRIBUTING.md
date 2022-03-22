@@ -12,19 +12,23 @@ Machine Translate is **created and edited by [contributors like you!](contributi
 
 We recommend reading the [**roadmap**](/roadmap.md) and [**style guide**](contributing/style.md) before you start contributing.
 
-
 ### Creating and editing articles
 
 To create or edit an article, [**create**](https://github.com/machinetranslate/machinetranslate.org/new/master) or [**edit**](https://github.com/machinetranslate/machinetranslate.org) and send us a [pull request](https://github.com/machinetranslate/machinetranslate.org/pulls?q=is%3Apr).
 
-> See GitHub’s article [*Creating a pull request*](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request) for more
+> See GitHub’s article [*Creating a pull request*](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request) for more.
 
+### Reviewing proposed changes
+
+You can also contribute by reviewing other contributors' [open pull requests](https://github.com/machinetranslate/machinetranslate.org/pulls?q=is%3Aopen+is%3Apr).
+
+> See GitHub’s article [*Commenting on a pull request*](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request ) for more.
 
 ### Requesting articles
 
 To request a topic, create a new [**issue**](https://github.com/machinetranslate/machinetranslate.org/issues).
 
-> See GitHub’s article [*Creating an issue*](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) for more
+> See GitHub’s article [*Creating an issue*](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue#creating-an-issue-from-a-repository) for more.
 
 ---
 
