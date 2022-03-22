@@ -106,6 +106,7 @@ There are also providers that offer a quality estimation feature within another 
 | --- | --- | --- | --- |
 | [KantanAI](/industry/companies.md#kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | Feature of machine translation API | Glassbox |
 | [ModelFront](/industry/companies.md#modelfront) | [ModelFront risk prediction](https://modelfront.com) | System with API and console | Deep learning, multilingual, blackbox |
+| [Omniscien](/industry/companies.md#omniscien) | [Translation Confidence Scoring and Quality Estimates](https://omniscien.com/products/language-studio/) | Feature of machine translation API | Glassbox |
 
 
 ### Features and integrations
