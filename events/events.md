@@ -56,7 +56,7 @@ featured: true
 |  |  |  |
 | ---- | ---- | ---- |
 | November 10-11, 2020 | [**WMT20**](wmt20.md) | online |
-| November 03-05, 2020 | EAMT 2020 | Lisbon, Portugal |
+| November 03-05, 2020 | [EAMT 2020](eamt2022.md) | Lisbon, Portugal |
 
 ## 2019
 
@@ -85,14 +85,14 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| August 11-12 | **WMT16** | Berlin, Germany |
+| August 11-12 | [**WMT16**](wmt16.md) | Berlin, Germany |
 | May 30-June 01 | EAMT 2016 | Riga, Latvia |
 
 ## 2015
 
 |  |  |  |
 | ---- | ---- | ---- |
-| October 30–November 3 | MT Summit XV | Miami, United States |
+| October 30-November 03 | [MT Summit XV](mtsummit2015.md) | Miami, United States |
 | September 17-18 | **WMT15** | Lisbon, Portugal |
 | May 11-13 | EAMT 2015 | Antalya, Turkey |
 
