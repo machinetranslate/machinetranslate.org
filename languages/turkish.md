@@ -22,7 +22,7 @@ In 2016, Google Translate included Turkish in the launch of Google Neural Machin
 
 By 2022, Turkish was supported by all the major translation applications and API providers, including Google Translate, Microsoft Translator, Yandex Translate, Amazon Translate, and IBM Watson.
 
-Yandex Translate has direct translation systems for Turkish-Russian and Turkish-German.  Turkish is one of the top languages for Yandex Translate.
+By 2022, Yandex Translate had direct translation systems for Turkish-Russian and Turkish-German.  Turkish is one of the top languages for Yandex Translate.
 
 English to Turkish is one of the top language pairs for Systran.
 
