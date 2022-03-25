@@ -22,8 +22,8 @@ Universities, research laboratories and big technology companies consistently pa
 | [WMT20](wmt20.md) Sixth Conference on Machine Translation | EMNLP 2020 |
 | [WMT19](wmt19.md) Fourth Conference on Machine Translation | ACL 2019 |
 | [WMT18](wmt18.md) Third Conference on Machine Translation | EMNLP 2018 |
-| WMT17 - Second Conference on Machine Translation | EMNLP 2017 |
-| WMT16 - First Conference on Machine Translation | ACL 2016 |
+| [WMT17](wmt17.md) - Second Conference on Machine Translation | EMNLP 2017 |
+| [WMT16](wmt16.md) - First Conference on Machine Translation | ACL 2016 |
 | Workshop on Statistical Machine Translation | EMNLP 2015 |
 | Workshop on Statistical Machine Translation | ACL 2014 |
 | Workshop on Statistical Machine Translation | ACL 2013 |
