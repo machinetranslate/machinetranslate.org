@@ -79,10 +79,8 @@ Confirmed language pairs:
 - Croatian-English
 - Livonian-English
 - Yakut-Russian
-
-To be announced:
-
-- Ukrainian
+- Ukrainian-English
+- Ukrainian-Czech
 
 
 ## Scientific papers
