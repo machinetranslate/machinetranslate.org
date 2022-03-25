@@ -16,7 +16,6 @@ Evaluation metrics like BLEU or post-editing distance require human reference tr
 
 Quality estimation models predict the quality based on either specific features or deep learning.
 
-
 ### Use cases
 
 Quality estimation has offline and production use cases:
@@ -37,36 +36,6 @@ Quality estimation has offline and production use cases:
 
 Sentence-level scores can be aggregated into paragraph-level scores or document-level scores. Word-, phrase- and sentence-level scores can indicate if a machine translation output needs to be post-edited. Document-level scores indicate if a machine translation output can be used without human post-editing.
 
-### Approaches
-
-Quality estimation is typically implemented as classification or regression.
-
-### Supervised
-Supervised quality estimation trains on parallel data that includes human labels or human post-edits.
-
-### Unsupervised
-Unsupervised quality estimation trains on monolingual data or parallel data only. Supervised quality estimation relies on labeled or post-edited data.
-
-### Glassbox
-Glassbox approaches are tied to the machine translation system itself.  A glassbox system makes a prediction based on the internal variables of the machine translation model.  It is like a confidence score.
-
-### Blackbox
-Blackbox approaches are independent of the machine translation system.  They are not necessarily trained on the same data, and can be used with any machine translation system.
-
-#### Feature engineering
-Early quality estimation approaches use machine learning with feature engineering.
-
-Examples of specific features are the number of noun or prepositional phrases in the source and target, the number of named entities, etc. Based on these features, a quality estimation model is built using machine learning techniques.
-
-#### Deep learning
-With the rise of deep learning, quality estimation technology resorts to deep learning architectures based on artificial neural networks.
-
-#### Single-language-pair
-Early quality estimation approaches created one model or system per language pair, similar to most machine translation systems at the time.
-
-#### Multilingual
-Multilingual quality estimation uses one model or system for many language pairs, similar to multilingual machine translation systems.
-
 ---
 
 In 2012, [Lucia Specia](/people/lucia-specia.md) and Google researcher Radu Soricut organized the first *Shared Task on Quality Estimation*.
@@ -74,8 +43,6 @@ In 2012, [Lucia Specia](/people/lucia-specia.md) and Google researcher Radu Sori
 In 2018, Lucia Specia, Carolina Scarton and Gustavo Henrique Paetzold published the book *Quality Estimation for Machine Translation*. There was research on word-level quality estimation and paragraph-level quality estimation.
 
 In 2020, [ModelFront](/industry/companies.md#modelfront) launched a multilingual quality estimation API.  Tharindu Ranasinghe released pretrained models.  Facebook Research launched unsupervised quality estimation internally.
-
----
 
 A growing set of frameworks, models and systems are generally available.
 
@@ -137,4 +104,34 @@ More companies have researched and launched quality estimation internally.  They
 
 *Note: This list is incomplete.*
 
+## Types
 
+Quality estimation is typically implemented as classification or regression.
+
+### Supervised
+Supervised quality estimation trains on parallel data that includes human labels or human post-edits.
+
+### Unsupervised
+Unsupervised quality estimation trains on monolingual data or parallel data only. Supervised quality estimation relies on labeled or post-edited data.
+
+### Glassbox
+Glassbox approaches are tied to the machine translation system itself.  A glassbox system makes a prediction based on the internal variables of the machine translation model.  It is like a confidence score.
+
+### Blackbox
+Blackbox approaches are independent of the machine translation system.  They are not necessarily trained on the same data, and can be used with any machine translation system.
+
+## Approaches
+
+### Feature engineering
+Early quality estimation approaches use machine learning with feature engineering.
+
+Examples of specific features are the number of noun or prepositional phrases in the source and target, the number of named entities, etc. Based on these features, a quality estimation model is built using machine learning techniques.
+
+### Deep learning
+With the rise of deep learning, quality estimation technology resorts to deep learning architectures based on artificial neural networks.
+
+### Single-language-pair
+Early quality estimation approaches created one model or system per language pair, similar to most machine translation systems at the time.
+
+### Multilingual
+Multilingual quality estimation uses one model or system for many language pairs, similar to multilingual machine translation systems.
