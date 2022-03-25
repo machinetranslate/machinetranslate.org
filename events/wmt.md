@@ -87,7 +87,7 @@ The main task is the *General machine translation task*. Until 2022, it was know
 - Task on training of neural machine translation
 - Task on bandit learning for machine translation
 
-The results published from WMT shared tasks represent benchmarks for the technology.
+The published results from the shared tasks and the data sets released for WMT are standard benchmarks across machine translation research.
 
 ### Long-time organisers
 
