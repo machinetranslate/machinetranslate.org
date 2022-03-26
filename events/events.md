@@ -43,7 +43,7 @@ featured: true
 | ---- | ---- | ---- |
 | December 08-09 | [AAMT 2021](aamt2021.md) | online |
 | November 10-11 | [**WMT21**](wmt21.md) | Punta Cana, Dominican Republic |
-| October 25 | [Machine Translation Meetup](zurich-9.md) | online |
+| October 25 | [Machine Translation Meetup](zurich-9.md) | Zurich, Switzerland |
 | August 20 | [AT4SSL](at4ssl2021.md) | online |
 | August 17 | [ASLTRM](asltrm2021.md) | online |
 | August 16 | [LoResMT 2021](loresmt2021.md) | online |
