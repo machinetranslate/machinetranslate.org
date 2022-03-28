@@ -26,42 +26,26 @@ Raw models usually do not include the features included in many production syste
 - HTML/XML tag handling
 
 
-| Company | Product |
-| ----------- | ----------- |
-| Google | Google Translate |
-| LingvaNex | Translation API |
-| Yandex | Translate API |
-| Microsoft | Translator Text API |
-| Amazon | Translate API |
-| ModernMT | API |
-| IBM | Watson Language Translator |
-| Baidu | 翻译API |
-| DeepL | API |
-| Alibaba | Machine Translation |
-| Systran | Systran Translate Pro |
-| Unbabel | Unbabel Translate |
-| Lilt | Lilt Translate |
-| Tilde | TildeMT |
-| Omniscien | Language Studio |
-| KantanMT | Translate AI |
-| Pangeanic | PangeaMT |
-| TextShuttle | TextShuttle AI Translation |
-| Globalese | Globalese |
-| RWS Group | Language Weaver (Iconic) |
-| Mirai Translate | Mirai Translator |
-
-### Self-serve machine translation
-
-- Google Translate
-- LingvaNex Translate
-- Yandex Translate
-- Microsoft Translate
-- Amazon Translate
-- ModernMT
-- IBM Watson Language Translator
-- Baidu 翻译API
-- DeepL
-- Alibaba Machine Translation
-- Systran
-- RWS Language Weaver (Iconic)
-- Mirai Translator
+| Company | Product | Self-serve |
+| --- | --- | --- |
+| Google | Google Translate | Yes |
+| LingvaNex | Translation API | Yes |
+| Yandex | Translate API | Yes |
+| Microsoft | Translator Text API | Yes |
+| Amazon | Translate API | Yes |
+| ModernMT | API | Yes |
+| IBM | Watson Language Translator | Yes |
+| Baidu | 翻译API | Yes |
+| DeepL | API | Yes |
+| Alibaba | Machine Translation | Yes |
+| Systran | Systran Translate Pro | Yes |
+| Unbabel | Unbabel Translate | No |
+| Lilt | Lilt Translate | No |
+| Tilde | TildeMT | No |
+| Omniscien | Language Studio | No |
+| KantanMT | Translate AI | No |
+| Pangeanic | PangeaMT | No |
+| TextShuttle | TextShuttle AI Translation | No |
+| Globalese | Globalese | No |
+| RWS Group | Language Weaver (Iconic) | Yes |
+| Mirai Translate | Mirai Translator | Yes |
