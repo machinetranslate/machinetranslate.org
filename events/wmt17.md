@@ -8,7 +8,7 @@ startDate: 2017-09-07
 endDate: 2017-09-08
 ---
 
-The **Second Conference on Machine Translation** (**WMT17**) took place from 7 September to 8 September 2017 in Copenhagen, Denmark.
+The **Second Conference on Machine Translation** (**WMT17**) took place from 7 September to 8 September, 2017, in Copenhagen, Denmark.
 
 [statmt.org/wmt17/program.html](https://www.statmt.org/wmt17/program.html)
 
@@ -29,7 +29,7 @@ The **Second Conference on Machine Translation** (**WMT17**) took place from 7 S
 
 ### Day 1
 
-Thursday, September 7, 2016
+Thursday, 7 September, 2016
 
 |     |     |
 | --- | --- |
@@ -94,7 +94,7 @@ Thursday, September 7, 2016
 
 ### Day 2
 
-Friday, September 8, 2017
+Friday, 8 September, 2017
 
 |     |     |
 | --- | --- |

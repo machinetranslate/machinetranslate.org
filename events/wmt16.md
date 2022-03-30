@@ -8,7 +8,7 @@ startDate: 2016-08-11
 endDate: 2016-08-12
 ---
 
-The **First Conference on Machine Translation** (**WMT16**) took place from 11 August to 12 August 2016 in Berlin, Germany.
+The **First Conference on Machine Translation** (**WMT16**) took place from 11 August to 12 August, 2016, in Berlin, Germany.
 
 [statmt.org/wmt16/program.html](https://www.statmt.org/wmt16/program.html)
 
@@ -31,7 +31,7 @@ The **First Conference on Machine Translation** (**WMT16**) took place from 11 A
 
 ### Day 1
 
-11 August, 2015
+Tuesday, 11 August, 2015
 
 |     |     |
 | --- | --- |
@@ -104,7 +104,7 @@ The **First Conference on Machine Translation** (**WMT16**) took place from 11 A
 | 17:20 – 17:40	| [***Modeling Complement Types in Phrase-Based SMT***](https://aclanthology.org/W16-2205.pdf) <br>Marion Weller-Di Marco, Alexander Fraser, Sabine Schulte im Walde |
 
 ### Day 2
-12 August, 2016
+Wednesday, 12 August, 2016
 
 |     |     |
 | --- | --- |

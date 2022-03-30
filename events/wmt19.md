@@ -29,7 +29,7 @@ The **Fourth Conference on Machine Translation** (**WMT19**) took place from 1 A
 ## Schedule
 
 ### Day 1
-Thursday, 1 August 2019
+Thursday, 1 August, 2019
 
 |     |     |
 | --- | --- |

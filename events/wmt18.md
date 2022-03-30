@@ -28,7 +28,7 @@ The **Third Conference on Machine Translation** (**WMT18**) took place from 31 O
 
 ### Day 1
 
-Wednesday, October 31, 2018
+Wednesday, 31 October, 2018
 
 |     |     |
 | --- | --- |
@@ -113,7 +113,7 @@ Wednesday, October 31, 2018
 
 ### Day 2
 
-Thursday, November 1, 2018
+Thursday, 1 November, 2018
 
 |     |     |
 | --- | --- |
