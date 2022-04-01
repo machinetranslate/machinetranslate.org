@@ -32,13 +32,12 @@ featured: true
 | 16-17 May | [**ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science\***](https://waset.org/machine-translation-and-cognitive-science-conference-in-may-2022-in-sydney) | online |
 | 29 April | [**Using machine translation in healthcare**](https://www.surrey.ac.uk/events/20220429-when-and-how-can-online-translation-tools-not-help-us-bridge-language-and-cultural-gap-between) | online |
 | 21 April | [**Neural Machine Translation – Foundations, Applications and Implications**](nmt-foundations-applications-implications.md) | online |
-| 14-15 April | [**ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science\***](https://waset.org/machine-translation-and-cognitive-science-conference-in-april-2022-in-paris) | online |
+| 14-15 April | Fraud: [**ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science**](#icmtcs)| online |
 | 4 March | [Introducing Neural Machine Translation (NMT) to Translators](https://www.surrey.ac.uk/events/20220304-introducing-neural-machine-translation-nmt-translators) | online |
 | 1 March | [Simultaneous Speech-to-speech Translation with Transformer-based Incremental ASR, MT, and TTS](https://iwslt.org/lectures/) | online |
 | 3 February | [Machine Translation and Language Learning: What the Research Tells Us](/files/mt-and-language-learning.pdf) | online |
 | 28 January | [TQ2022](tq2022.md) | online |
 
-*[Multiple sources](https://en.wikipedia.org/wiki/World_Academy_of_Science,_Engineering_and_Technology) have described WASET conferences as a scam.
 
 ## 2021
 
@@ -280,3 +279,14 @@ featured: true
 |  |  |  |
 | ---- | ---- | ---- |
 | 16-18 August | MT Summit 1989 | Munich, Germany |
+
+## Frauds
+
+### ICMTCS
+
+The International Conference on Machine Translation and Cognitive Science is a fraudulent event created by [WASET](https://en.wikipedia.org/wiki/World_Academy_of_Science,_Engineering_and_Technology).
+
+> The publisher has been listed as a "potential, possible, or probable" predatory publisher by Jeffrey Beall and is listed as such by the Max Planck Society and Stop Predatory Journals.
+
+WASET was registered in Azerbaijan by a family of scammers operating out of Turkey.
+
