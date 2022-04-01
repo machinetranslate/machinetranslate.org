@@ -45,7 +45,7 @@ Funded by NAVER D2 Startup Factory and others
 - [zkfy.com](http://www.zkfy.com/)
 - [Crunchbase - Zhongke Fanyu Technology](https://www.crunchbase.com/organization/zhongke-fanyu-technology)
 
-Incubated by the Chinese Academy of Sciences’ Institute of Automation
+Incubated by the Institute of Automation at the Chinese Academy of Sciences
 
 
 ## 2017
