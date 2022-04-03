@@ -31,7 +31,7 @@ The **Seventh Conference on Machine Translation** (**WMT22**) is set to take pla
 
 - [General Machine Translation](https://www.statmt.org/wmt22/translation-task.html)
 - [Biomedical](https://www.statmt.org/wmt22/biomedical-translation-task.html)
-- Automatic post-editing
+- [Automatic post-editing](https://www.statmt.org/wmt22/ape-task.html)
 - [Word-level autocompletion](https://www.statmt.org/wmt22/word-autocompletion.html)
 - [Metrics](https://www.statmt.org/wmt22/metrics-task.html)
 - [Quality estimation](https://www.statmt.org/wmt22/quality-estimation-task.html)
