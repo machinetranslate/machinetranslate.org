@@ -1,5 +1,5 @@
 ---
-nav_order: 120
+nav_order: 20
 has_children: true
 title: Approaches
 description: Approaches to machine translation
