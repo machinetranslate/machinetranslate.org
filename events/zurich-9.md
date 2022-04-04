@@ -9,7 +9,7 @@ startDate: 2021-10-25
 
 # Zurich Machine Translation Meetup 2021
 
-The ninth **Machine Translation Meetup** (**MTM**) took place on 25 October, 2021 in Zurich, Switzerland.
+The ninth **Machine Translation Meetup** (**MTM**) took place on 25 October, 2021, in Zurich, Switzerland.
 
 The topic was _**Terminology integration in machine translation: Does it work in practice?**_.
 

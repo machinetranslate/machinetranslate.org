@@ -1,5 +1,5 @@
 ---
-nav_order: 120
+nav_order: 1
 has_children: true
 title: Events
 description: Machine translation events
@@ -289,4 +289,3 @@ The International Conference on Machine Translation and Cognitive Science is a f
 > The publisher has been listed as a "potential, possible, or probable" predatory publisher by Jeffrey Beall and is listed as such by the Max Planck Society and Stop Predatory Journals.
 
 WASET was registered in Azerbaijan by a family of scammers operating out of Turkey.
-
