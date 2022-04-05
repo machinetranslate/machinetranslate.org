@@ -60,10 +60,10 @@ featured: true
 | 2 December | AAMT 2020 | online |
 | 10-11 November, 2020 | [**WMT20**](wmt20.md) | online |
 | 3-5 November, 2020 | [EAMT 2020](eamt2022.md) | Lisbon, Portugal |
-| 2 November | Machine Translation Meetup 8 | Zurich, Switzerland |
+| 2 November | [Machine Translation Meetup 8](zurich-8.md) | Zurich, Switzerland |
 | 5-9 October | AMTA 2020 | online |
-| 19 May | Machine Translation webMeetup 7 | online |
-| 3 February | Machine Translation Meetup 6 | Zurich, Switzerland |
+| 19 May | [Machine Translation Meetup 7](zurich-7.md) | online |
+| 3 February | [Machine Translation Meetup 6](zurich-6.md) | Zurich, Switzerland |
 
 ## 2019
 
@@ -76,17 +76,17 @@ featured: true
 | 20 August | PSLT2019 | Dublin, Ireland |
 | 19-23 August | [MT Summit 2019](mtsummit2019.md) | Dublin, Ireland |
 | 1-2 August | [**WMT19**](wmt9.md) | Florence, Italy |
-| 3 June | Machine Translation Meetup 4 | Zurich, Switzerland |
-| 15 January | Machine Translation Meetup 3 | Zurich, Switzerland |
+| 3 June | [Machine Translation Meetup 4](zurich-4.md) | Zurich, Switzerland |
+| 15 January | [Machine Translation Meetup 3](zurich-3.md) | Zurich, Switzerland |
 
 ## 2018
 
 |  |  |  |
 | ---- | ---- | ---- |
 | 31 October-1 November | [**WMT18**](wmt18.md) | Brussels, Belgium |
-| 22 October | Machine Translation Meetup 2 | Zurich, Switzerland |
+| 22 October | [Machine Translation Meetup 2](zurich-2.md) | Zurich, Switzerland |
 | 28-30 May | EAMT 2018 | Alicante, Spain |
-| 19 April | Machine Translation Meetup 1 | Zurich, Switzerland |
+| 19 April | [Machine Translation Meetup 1](zurich-1.md) | Zurich, Switzerland |
 | 21 March | LoResMT 2018 | Massachusetts, United States |
 | 17-21 March | AMTA 2018 | Massachusetts, United States |
 
