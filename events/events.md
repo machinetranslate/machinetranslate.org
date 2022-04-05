@@ -114,7 +114,7 @@ featured: true
 | 3 November | WPTP 2015 | Miami, United States |
 | 3 November | PSLT2015 | Miami, United States |
 | 30 October-3 November | [MT Summit XV](mtsummit2015.md) | Miami, United States |
-| 17-18 September | **WMT15** | Lisbon, Portugal |
+| 17-18 September | [**WMT15**](wmt15.md) | Lisbon, Portugal |
 | 11-13 May | EAMT 2015 | Antalya, Turkey |
 
 ## 2014
