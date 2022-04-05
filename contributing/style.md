@@ -109,6 +109,24 @@ Avoid trailing spaces and double spaces inside sentences.
 Separate sentences with two spaces.
 
 
+## Dates
+
+Put dates before months.  Omit the leading `0` in single-digit dates.
+
+> 2 June, 2019
+
+
+## Times
+
+Include the leading `0` in single-digit hours.
+
+> 09:00
+
+Use `-` to separate time ranges.
+
+> 09:00 - 09:30
+
+
 ## Oxford comma
 
 Use the Oxford comma [where appropriate](https://en.wikipedia.org/wiki/Wikipedia:Guidance_on_applying_the_Manual_of_Style#Oxford_comma).
