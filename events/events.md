@@ -70,7 +70,7 @@ featured: true
 |  |  |  |
 | ---- | ---- | ---- |
 | 19 November | AAMT 2019 | Tokyo, Japan |
-| 28 October | Machine Translation Meetup 5 | Zurich, Switzerland |
+| 28 October | [Machine Translation Meetup 5](zurich-5.md) | Zurich, Switzerland |
 | 26-31 August | [MTM](mtm2019.md) | Edinburgh, Scotland |
 | 20 August | LoResMT 2019 | Dublin, Ireland |
 | 20 August | PSLT2019 | Dublin, Ireland |
