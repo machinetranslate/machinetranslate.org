@@ -58,6 +58,7 @@ description: Content roadmap for Machine Translate
 
 - ~~[Quality estimation](/quality/quality-estimation.md)~~
 - [Quality evaluation \[#86\]](https://github.com/machinetranslate/machinetranslate.org/issues/86)
+- [Human parity \[\197]](https://github.com/machinetranslate/machinetranslate.org/issues/197)
 
 
 ### Applications
@@ -168,6 +169,9 @@ description: Content roadmap for Machine Translate
 - [Martin Popel \[#170\]](https://github.com/machinetranslate/machinetranslate.org/issues/170)
 - [Andy Way \[#171\]](https://github.com/machinetranslate/machinetranslate.org/issues/171)
 - [Yehoshua Bar-Hillel \[177\]](https://github.com/machinetranslate/machinetranslate.org/issues/177)
+- [Jean Senellart \[227\]](https://github.com/machinetranslate/machinetranslate.org/issues/227)
+- [Margaret Masterman \[224\]](https://github.com/machinetranslate/machinetranslate.org/issues/224)
+
 
 ### Events
 
@@ -188,3 +192,4 @@ description: Content roadmap for Machine Translate
 
 - ~~[Calls for papers](/resources/call-for-papers.md)~~
 - ~~[Publications](/resources/publications.md)~~
+- [Early Years of Machine Translation \[205\]](https://github.com/machinetranslate/machinetranslate.org/issues/205)
