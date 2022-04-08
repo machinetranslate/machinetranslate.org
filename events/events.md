@@ -57,11 +57,11 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 2 December | AAMT 2020 | online |
+| 2 December | [AAMT 2020](aamt2020.md) | online |
 | 10-11 November, 2020 | [**WMT20**](wmt20.md) | online |
 | 3-5 November, 2020 | [EAMT 2020](eamt2022.md) | Lisbon, Portugal |
 | 2 November | [Machine Translation Meetup 8](zurich-8.md) | Zurich, Switzerland |
-| 5-9 October | AMTA 2020 | online |
+| 5-9 October | [AMTA 2020](amta2020.md) | online |
 | 19 May | [Machine Translation Meetup 7](zurich-7.md) | online |
 | 3 February | [Machine Translation Meetup 6](zurich-6.md) | Zurich, Switzerland |
 
@@ -69,7 +69,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 19 November | AAMT 2019 | Tokyo, Japan |
+| 19 November | [AAMT 2019](aamt2019.md) | Tokyo, Japan |
 | 28 October | [Machine Translation Meetup 5](zurich-5.md) | Zurich, Switzerland |
 | 26-31 August | [MTM](mtm2019.md) | Edinburgh, Scotland |
 | 20 August | LoResMT 2019 | Dublin, Ireland |
