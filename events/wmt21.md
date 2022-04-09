@@ -217,51 +217,51 @@ Full results of the shared tasks: [*Findings of the 2021 Conference on Machine T
 ### News translation
 
 #### → English
-Human evaluation based on segment ratings with document context.
+The human evaluation was based on segment ratings with document context.
 
-| Language pair | Average score | Average z-score (standard score) | System |
+| Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
-| Czech → | 77.8 | 0.111 | `Facebook-AI` |
-| German → | 71.9 | 0.126 | `Borderline` |
-| Hausa → | 74.4 | 0.248 | `Facebook-AI` |
-| Icelandic → | 74.5 | 0.293 | `Facebook-AI` |
-| Japanese → | 73.8 | 0.141 | `HW-TSC` |
-| Russian → | 77.5 | 0.137 | `NVIDIA-NeMo` |
-| Chinese → | 75.0 | 0.042 | `NiuTrans`|
+| Czech → | `Facebook-AI` | 77.8 | 0.111 |
+| German → | `Borderline` | 71.9 | 0.126 |
+| Hausa → | `Facebook-AI` | 74.4 | 0.248 |
+| Icelandic → | `Facebook-AI` | 74.5 | 0.293 |
+| Japanese → | `HW-TSC` | 73.8 | 0.141 |
+| Russian → | `NVIDIA-NeMo` | 77.5 | 0.137 |
+| Chinese → | `NiuTrans`| 75.0 | 0.042 |
 
 #### English →
-Human evaluation based on segment ratings in a full document.
+The human evaluation was based on segment ratings in a full document.
 
-| Language pair | Average score | Average z-score (standard score) | System |
+| Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
-| → Czech | 90.2 | 0.397 | `HUMAN-A` |
-| → German | 83.3 | 0.266 | `Online-B` |
-| → Hausa | 84.1 | 0.362 | `HUMAN-A` |
-| → Icelandic | 88.1 | 0.872 | `HUMAN-A` |
-| → Japanese | 86.4 | 0.430 | `Facebook-AI` |
-| → Russian | 86.0 | 0.317 | `HUMAN-B` |
-| → Chinese | 82.5 | 0.325 | `HUMAN-B`|
+| → Czech | `Facebook-AI` | 87.6 | 0.263 |
+| → German | `Online-B` | 83.3 | 0.266 |
+| → Hausa | `Facebook-AI` | 82.7 | 0.264 |
+| → Icelandic | `Facebook-AI` | 84.5 | 0.594 |
+| → Japanese | `Facebook-AI` | 86.4 | 0.430 |
+| → Russian | `Online-W` | 83.3 | 0.277 |
+| → Chinese | `HappyNewYear`| 74.9 | 0.284 |
 
 #### French ↔︎ German
-Human evaluation based on segment ratings in a full document.
+The human evaluation was based on segment ratings in a full document.
 
-| Language pair | Average score | Average z-score (standard score) | System |
+| Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
-| French → German | 87.7 | 0.088 | `Online-W`|
-| German → French | 87.9 | 0.160 | `Online-B`|
+| French → German | `Online-W`| 87.7 | 0.088 |
+| German → French | `Online-B`| 87.9 | 0.160 |
 
 #### Hindi ↔︎ Bengali
-Human evaluation based on segment ratings without document context.
+The human evaluation was based on segment ratings without document context.
 
-| Language pair | Average score | Average z-score (standard score) | System |
+| Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
-| Hindi → Bengali | 95.0 | 0.245 | `HW-TSC` |
-| Bengali → Hindi | 82.1 | 0.202 | `GTCOM` |
+| Hindi → Bengali | `HW-TSC` | 95.0 | 0.245 |
+| Bengali → Hindi | `GTCOM` | 82.1 | 0.202 |
 
 #### Zulu ↔︎ Xhosa
-Human evaluation based on segment ratings without document context.
+The human evaluation was based on segment ratings without document context.
 
-| Language pair | Average score | Average z-score (standard score) | System |
+| Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
-| Zulu → Xhosa | 80.7 | 0.502 | `TRANSSION` |
-| Xhosa → Zulu | 68.4 | 0.331 | `HW-TSC` |
+| Zulu → Xhosa | `TRANSSION` | 80.7 | 0.502 |
+| Xhosa → Zulu | `HW-TSC` | 68.4 | 0.331 |
