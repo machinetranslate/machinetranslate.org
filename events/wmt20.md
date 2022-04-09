@@ -225,51 +225,51 @@ Full results of the shared tasks: [*Findings of the 2020 Conference on Machine T
 ### News translation
 
 #### → English
-Human evaluation based on segment ratings with document context.
+The human evaluation was based on segment ratings with document context.
 
-| Language pair | Average score | Average z-score (standard score) | System |
+| Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
-| Chinese → | 77.5 | 0.102 | `VolcTrans` |
-| Czech → | 78.3 | 0.118 | `CUNI-DocTransformer` |
-| German → | 82.6 | 0.228 | `VolcTrans` |
-| Japanese → | 75.1 | 0.184 | `Tohoku-AIP-NTT` |
-| Polish → | 77.2 | 0.131 | `SRPOL` |
-| Russian → | 79.3 | 0.124 | `Online-G` |
-| Tamil → | 68.7 | 0.203 | `GTCOM` |
+| Chinese → | `VolcTrans` | 77.5 | 0.102 |
+| Czech → | `CUNI-DocTransformer` | 78.3 | 0.118 |
+| German → | `VolcTrans` | 82.6 | 0.228 |
+| Japanese → | `Tohoku-AIP-NTT` | 75.1 | 0.184 |
+| Polish → | `SRPOL` | 77.2 | 0.131 |
+| Russian → | `Online-G` | 79.3 | 0.124 |
+| Tamil → | `GTCOM` | 68.7 | 0.203 |
 
-Human evaluation based on segment ratings without document context.
+The human evaluation was based on segment ratings without document context.
 
-| Language pair | Average score | Average z-score (standard score) | System |
+| Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
-| Inuktitut → | 73.1 | 0.168 | `NiuTrans` |
-| Khmer → | 69.0 | 0.168 | `Online-B` |
-| Pashto → | 67.3 | 0.032 | `Online-B` |
+| Inuktitut → | `NiuTrans` | 73.1 | 0.168 |
+| Khmer → | `Online-B` | 69.0 | 0.168 |
+| Pashto → | `Online-B` | 67.3 | 0.032 |
 
 #### English →
-Human evaluation based on segment ratings with document context.
+The human evaluation was based on segment ratings with document context.
 
-| Language pair | Average score | Average z-score (standard score) | System |
+| Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
-| → Chinese | 80.6 | 0.568 | `HUMAN-B` |
-| → Czech | 85.6 | 0.654 | `HUMAN` |
-| → German | 90.5 | 0.569 | `HUMAN-B` |
-| → Japanese | 79.7 | 0.576 | `HUMAN` |
-| → Polish | 88.6 | 0.672 | `HUMAN` |
-| → Russian | 91.8 | 0.681 | `HUMAN` |
-| → Tamil | 83.4 | 0.762 | `HUMAN` |
+| → Chinese | `OPPO` | 80.0 | 0.447 |
+| → Czech | `CUNI-DocTransformer` | 82.2 | 0.546 |  
+| → German | `OPPO` | 87.4 | 0.495 |
+| → Japanese | `NiuTrans` | 77.7 | 0.502 |
+| → Polish | `SRPOL` | 76.4 | 0.493 |  
+| → Russian | `Online-G` | 81.5 | 0.469 |
+| → Tamil | `Facebook-AI` | 79.0 | 0.663 |
 
-Human evaluation based on segment ratings without document context.
+The human evaluation was based on segment ratings without document context.
 
-| Language pair | Average score | Average z-score (standard score) | System |
+| Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
-| → Inuktitut (News only) | 90.5 | 0.574 | `HUMAN` |
-| → Khmer | 77.4 | 0.478 | `GTCOM` |
-| → Pashto | 73.0 | 0.244 | `GTCOM` |
+| → Inuktitut (results are based only on the news part of the test set) | `MultiLingual-Ubiqus` | 75.3 | 0.425 |
+| → Khmer | `GTCOM` | 77.4 | 0.478 |
+| → Pashto | `GTCOM` | 73.0 | 0.244 |
 
 #### French ↔︎ German
-Human evaluation based on segment ratings without document context.
+The human evaluation was based on segment ratings without document context.
 
-| Language pair | Average score | Average z-score (standard score) | System |
+| Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
-| German → French | 90.4 | 0.279 | `OPPO` |
-| French → German | 89.8 | 0.334 | `VolcTrans` |
+| German → French | `OPPO` | 90.4 | 0.279 |
+| French → German | `VolcTrans` | 89.8 | 0.334 |
