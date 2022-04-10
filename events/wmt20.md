@@ -225,7 +225,7 @@ Full results of the shared tasks: [*Findings of the 2020 Conference on Machine T
 ### News translation
 
 #### → English
-The human evaluation was based on segment ratings with document context.
+The human evaluation used reference-based (monolingual) segment ratings with document context.
 
 | Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
@@ -237,7 +237,7 @@ The human evaluation was based on segment ratings with document context.
 | Russian → | `Online-G` | 79.3 | 0.124 |
 | Tamil → | `GTCOM` | 68.7 | 0.203 |
 
-The human evaluation was based on segment ratings without document context.
+The human evaluation used reference-based (monolingual) segment ratings without document context.
 
 | Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
@@ -246,7 +246,7 @@ The human evaluation was based on segment ratings without document context.
 | Pashto → | `Online-B` | 67.3 | 0.032 |
 
 #### English →
-The human evaluation was based on segment ratings with document context.
+The human evaluation used source-based (bilingual) segment ratings with document context.
 
 | Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
@@ -258,7 +258,7 @@ The human evaluation was based on segment ratings with document context.
 | → Russian | `Online-G` | 81.5 | 0.469 |
 | → Tamil | `Facebook-AI` | 79.0 | 0.663 |
 
-The human evaluation was based on segment ratings without document context.
+The human evaluation used source-based (bilingual) segment ratings without document context.
 
 | Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
@@ -267,7 +267,7 @@ The human evaluation was based on segment ratings without document context.
 | → Pashto | `GTCOM` | 73.0 | 0.244 |
 
 #### French ↔︎ German
-The human evaluation was based on segment ratings without document context.
+The human evaluation used source-based (bilingual) segment ratings without document context.
 
 | Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
