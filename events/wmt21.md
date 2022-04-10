@@ -217,7 +217,7 @@ Full results of the shared tasks: [*Findings of the 2021 Conference on Machine T
 ### News translation
 
 #### → English
-The human evaluation was based on segment ratings with document context.
+The human evaluation used reference-based (monolingual) segment ratings with document context.
 
 | Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
@@ -230,7 +230,7 @@ The human evaluation was based on segment ratings with document context.
 | Chinese → | `NiuTrans`| 75.0 | 0.042 |
 
 #### English →
-The human evaluation was based on segment ratings in a full document.
+The human evaluation used source-based (bilingual) segment ratings in a full document.
 
 | Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
@@ -243,7 +243,7 @@ The human evaluation was based on segment ratings in a full document.
 | → Chinese | `HappyNewYear`| 74.9 | 0.284 |
 
 #### French ↔︎ German
-The human evaluation was based on segment ratings in a full document.
+The human evaluation used source-based (bilingual) segment ratings in a full document.
 
 | Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
@@ -251,7 +251,7 @@ The human evaluation was based on segment ratings in a full document.
 | German → French | `Online-B`| 87.9 | 0.160 |
 
 #### Hindi ↔︎ Bengali
-The human evaluation was based on segment ratings without document context.
+The human evaluation used segment ratings without document context.
 
 | Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
@@ -259,7 +259,7 @@ The human evaluation was based on segment ratings without document context.
 | Bengali → Hindi | `GTCOM` | 82.1 | 0.202 |
 
 #### Zulu ↔︎ Xhosa
-The human evaluation was based on segment ratings without document context.
+The human evaluation used segment ratings without document context.
 
 | Language pair | System | Average score | Average z-score (standard score) |
 | --- | --- | --- | --- |
