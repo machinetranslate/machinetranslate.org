@@ -14,9 +14,10 @@ description: Machine translation research laboratories
 | [**Computational Linguistics and Information Processing**](https://wiki.umiacs.umd.edu/clip/index.php/Main_Page) | University of Maryland | Academic | US |
 | [**Computational Linguistics Research Group**](http://www.cs.toronto.edu/compling/) | University of Toronto | Academic | Canada |
 | [**Conversational AI & Natural-Language Processing**](https://www.amazon.science/research-areas/conversational-ai-natural-language-processing) | Amazon | Corporate | US |
-| [**Helsinki-NLP**](https://blogs.helsinki.fi/language-technology/ ) | University of Helsinki | Academic | Finland |
+| [**MT Team @ DFKI**](https://www.dfki.de/en/web/research/research-departments/multilinguality-and-language-technology/mt-team) | DFKI | Academic | Germany |
 | [**GETALP**](http://lig-getalp.imag.fr/) | Laboratoire d’Informatique de Grenoble | Academic | France |
 | [**Google Research**](https://research.google/research-areas/machine-translation/) | Google | Corporate | US |
+| [**Helsinki-NLP**](https://blogs.helsinki.fi/language-technology/ ) | University of Helsinki | Academic | Finland |
 | [**Human Language Technology**](https://hlt-mt.fbk.eu/) | Fondazione Bruno Kessler | Corporate | Italy |
 | [**Institute of Computational Linguistics**](https://www.cl.uzh.ch) | University of Zurich | Academic | Switzerland |
 | [**Institute of Formal and Applied Linguistics**](https://ufal.mff.cuni.cz/home-page) | Charles University | Academic | Czech Republic |
