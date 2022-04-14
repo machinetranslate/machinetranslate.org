@@ -89,7 +89,7 @@ The results published from WMT shared tasks represent benchmarks for the technol
 - [Philipp Koehn](/community/people/philipp-koehn.md)
 - Barry Haddow
 - Loïc Barrault
-- Ondřej Bojar
+- [Ondřej Bojar](/community/people/ondrej-bojar.md)
 - Marco Turchi
 - Martin Popel
 - Matt Post
