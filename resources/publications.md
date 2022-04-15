@@ -93,28 +93,22 @@ td:nth-child(2) {
 
 ## Metrics
 
-### Learnable metrics
+Machine translation metrics automatically assess quality of the machine translation output.
+There are two types of metrics: **quality evaluation**  and **quality estimation**.   
+* [Quality evaluation](/quality/quality-evaluation.md) metrics rely on human (reference) translation.
+* [Quality estimation](/quality/quality-estimation.md) metrics ***do not*** rely on human (reference) translation. 
 
-Directly optimize correlation with human judgments.
+### Quality evaluation
 
-|     |     |     |
-| --- | --- | --- |
-| 2020 | [***COMET: A Neural Framework for MT Evaluation***](https://aclanthology.org/2020.emnlp-main.213.pdf) | Ricardo Rei, Craig Stewart, Ana C. Farinha, Alon Lavie |
-| 2020 | [***BLEURT: Learning Robust Metrics for Text Generation***](https://aclanthology.org/2020.acl-main.704.pdf) | Thibault Sellam, Dipanjan Das, and Ankur Parikh |
+#### Similarity-based metrics
 
-### Embedding-based metrics
+These metrics evaluate similarity between machine translation and reference translation. This similarity can be based on:
+* n-gram matching
+* embeddings
 
-Use various word embeddings as an alternative to n-gram matching for capturing word semantics similarity.
+##### n-gram matching metrics
 
-|     |     |     |
-| --- | --- | --- |
-| 2020 | [***Bertscore: Evaluating text generation with bert***](https://openreview.net/forum?id=SkeHuCVFDr) | Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, and Yoav Artzi |
-| 2019 | [***MoverScore: Text generation evaluating with contextualized embeddings and earth mover distance***](https://aclanthology.org/D19-1053.pdf) | Wei Zhao, Maxime Peyrard, Fei Liu, Yang Gao, Christian M. Meyer, Steffen Eger |
-
-
-### n-gram matching metrics
-
-Using hand-crafted features, estimate MT quality by counting the number and fraction of n-grams that appear simultaneous in a candidate translation hypothesis and one or more human-generated references.
+These metrics evaluate similarity based on hand-crafted features and rules. For example, a metric can count the number and fraction of n-grams that appear in both the machine translation and the human translation.
 
 |     |     |     |
 | --- | --- | --- |
@@ -125,3 +119,31 @@ Using hand-crafted features, estimate MT quality by counting the number and frac
 | 2004 | [***ROUGE: A Package for Automatic Evaluation of Summaries***](https://aclanthology.org/W04-1013.pdf) | Chin-Yew Lin |
 | 2002 | [***Automatic Evaluation of Machine Translation Quality Using N-gram Co-Occurrence Statistics***](https://aclanthology.org/www.mt-archive.info/HLT-2002-Doddington.pdf) | George Doddington |
 | 2002 | [***BLEU: a Method for Automatic Evaluation of Machine Translation***](https://aclanthology.org/P02-1040.pdf) | Kishore Papineni, Salim Roukos, Todd Ward, Wei-Jing Zhu |
+
+##### Embedding-based metrics
+
+These metrics use various word embeddings as an alternative to n-gram matching for capturing word semantics similarity.
+
+|     |     |     |
+| --- | --- | --- |
+| 2020 | [***Bertscore: Evaluating text generation with bert***](https://openreview.net/forum?id=SkeHuCVFDr) | Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, and Yoav Artzi |
+| 2019 | [***MoverScore: Text generation evaluating with contextualized embeddings and earth mover distance***](https://aclanthology.org/D19-1053.pdf) | Wei Zhao, Maxime Peyrard, Fei Liu, Yang Gao, Christian M. Meyer, Steffen Eger |
+
+
+#### Learnable metrics
+
+Learnable metrics directly optimise correlation with human judgments.
+
+|     |     |     |
+| --- | --- | --- |
+| 2020 | [***COMET: A Neural Framework for MT Evaluation***](https://aclanthology.org/2020.emnlp-main.213.pdf) | Ricardo Rei, Craig Stewart, Ana C. Farinha, Alon Lavie |
+| 2020 | [***BLEURT: Learning Robust Metrics for Text Generation***](https://aclanthology.org/2020.acl-main.704.pdf) | Thibault Sellam, Dipanjan Das, and Ankur Parikh |
+
+
+### Quality estimation
+
+
+|     |     |     |
+| --- | --- | --- |
+| 2020 | [***COMET: A Neural Framework for MT Evaluation***](https://aclanthology.org/2020.emnlp-main.213.pdf) | Ricardo Rei, Craig Stewart, Ana C. Farinha, Alon Lavie |
+
