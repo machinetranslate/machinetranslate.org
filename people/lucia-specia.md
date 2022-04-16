@@ -25,4 +25,4 @@ Starting in 2019, she advised Facebook AI Research on quality estimation.
 
 In 2020, Specia also joined Dublin City University.
 
-In 2022, she co-founded [conteX.ai](https://contex.ai), as Chief Scientist.
+In 2021, she co-founded [conteX.ai](https://contex.ai), as Chief Scientist.
