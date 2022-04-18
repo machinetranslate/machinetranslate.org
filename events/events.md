@@ -32,7 +32,7 @@ featured: true
 | 16-17 May | Fraud: [**ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science**](#icmtcs) | online |
 | 29 April | [**Using machine translation in healthcare**](https://www.surrey.ac.uk/events/20220429-when-and-how-can-online-translation-tools-not-help-us-bridge-language-and-cultural-gap-between) | online |
 | 21 April | [**Neural Machine Translation – Foundations, Applications and Implications**](nmt-foundations-applications-implications.md) | online |
-| 14-15 April | Fraud: [**ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science**](#icmtcs)| online |
+| 14-15 April | Fraud: [ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science](#icmtcs)| online |
 | 4 March | [Introducing Neural Machine Translation (NMT) to Translators](https://www.surrey.ac.uk/events/20220304-introducing-neural-machine-translation-nmt-translators) | online |
 | 1 March | [Simultaneous Speech-to-speech Translation with Transformer-based Incremental ASR, MT, and TTS](https://iwslt.org/lectures/) | online |
 | 3 February | [Machine Translation and Language Learning: What the Research Tells Us](/files/mt-and-language-learning.pdf) | online |
