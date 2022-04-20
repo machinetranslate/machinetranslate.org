@@ -78,7 +78,7 @@ td:nth-child(2) {
 
 |     |     |     |
 | --- | --- | --- |
-| 2018 | [***Subword regularization: Improving neural network translation models with multiple subword candidates.***](https://aclanthology.org/P18-1007.pdf) | Taku Kudo |
+| 2018 | [***Subword regularization: Improving neural network translation models with multiple subword candidates***](https://aclanthology.org/P18-1007.pdf) | Taku Kudo |
 | 2016 | [***Neural Machine Translation of Rare Words with Subword Units***](https://arxiv.org/pdf/1508.07909.pdf) | Rico Sennrich, Barry Haddow, Alexandra Birch |
 
 
@@ -102,9 +102,9 @@ There are two types of metrics: **quality evaluation**  and **quality estimation
 
 #### Similarity-based metrics
 
-These metrics evaluate similarity between machine translation and reference translation. This similarity can be based on:
-* n-gram matching
-* embeddings
+These metrics evaluate similarity between machine translation and reference translation. There are two types of this similarity:
+* n-gram matching-based similarity
+* embedding-based similarity
 
 ##### n-gram matching metrics
 
@@ -112,7 +112,7 @@ These metrics evaluate similarity based on hand-crafted features and rules. For 
 
 |     |     |     |
 | --- | --- | --- |
-| 2015 | [***chrF: character n-gram f-score for automatic MT evaluation.***](https://www.cs.cmu.edu/~alavie/METEOR/pdf/meteor-1.5.pdf) |	Maja Popovic ́ |
+| 2015 | [***chrF: character n-gram f-score for automatic MT evaluation***](https://www.cs.cmu.edu/~alavie/METEOR/pdf/meteor-1.5.pdf) |	Maja Popovic  |
 | 2014 | [***METEOR Universal: Language Specific Translation Evaluation for Any Target Language***](https://www.cs.cmu.edu/~alavie/METEOR/pdf/meteor-1.5.pdf) |	Michael Denkowski, Alon Lavie |
 | 2006 | [***A study of Translation Edit Rate with Targeted Human Annotation***](https://www.cs.umd.edu/~snover/pub/amta06/ter_amta.pdf) | Matthew Snover, Bonnie Dorr, Rich Schwartz, Linnea Micciulla, John Makhoul |
 | 2005 | [***METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments***](http://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf) | Satanjeev Banerjee, Alon Lavie |
@@ -126,7 +126,7 @@ These metrics use various word embeddings as an alternative to n-gram matching f
 
 |     |     |     |
 | --- | --- | --- |
-| 2020 | [***Bertscore: Evaluating text generation with bert***](https://openreview.net/forum?id=SkeHuCVFDr) | Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, and Yoav Artzi |
+| 2020 | [***Bertscore: Evaluating text generation with bert***](https://openreview.net/forum?id=SkeHuCVFDr) | Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, Yoav Artzi |
 | 2019 | [***MoverScore: Text generation evaluating with contextualized embeddings and earth mover distance***](https://aclanthology.org/D19-1053.pdf) | Wei Zhao, Maxime Peyrard, Fei Liu, Yang Gao, Christian M. Meyer, Steffen Eger |
 
 
