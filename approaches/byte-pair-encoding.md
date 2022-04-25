@@ -36,6 +36,7 @@ In subword tokenisation, frequently occurring subwords are merged instead of rep
 
 ## Examples
 
-1. Unigram: `praise` 
-2. The unigram is split up into more frequent subwords. 
-3. The unigram is represented as `['__sow', 'pr', 'ai', 'se', 'd', '__eow']`, where `'__sow'` and `'__eow'` are the markers for start and end of the tokens.
+Unigram: `praise` 
+
+1. The unigram is split up into more frequent subwords. 
+2. The unigram is represented as `['__sow', 'pr', 'ai', 'se', 'd', '__eow']`, where `'__sow'` and `'__eow'` are the markers for start and end of the tokens.
