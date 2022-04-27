@@ -15,7 +15,7 @@ The content covers everything about machine translation, from products to resear
 
 ## Featured events
 
-> The first [**machine translation meetup**](https://www.meetup.com/machinetranslate/events/285533813/) in the San Francisco Bay Area will bring together researchers, engineers and localization teams from top tech companies and startups in Menlo Park on Wednesday, 11 May 2022.
+> The first [**machine translation meetup**](https://www.meetup.com/machinetranslate/events/285533813/) in the San Francisco Bay Area will bring together researchers, engineers and localization teams from top tech companies and startups in Menlo Park on Wednesday, 11 May 2022.  
 > [Register](https://www.meetup.com/machinetranslate/events/285533813/)
 
 > The [**Seventh Conference on Machine Translation**](/wmt22) ([**WMT22**](/wmt22)) is set to take place in December 2022 at EMNLP 2022 in Abu Dhabi.  
