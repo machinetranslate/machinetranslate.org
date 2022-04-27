@@ -1,5 +1,5 @@
 ---
-nav_order: 2
+nav_order: 3
 has_children: no
 title: Calls for papers
 description: Calls for papers for machine translation events and publications

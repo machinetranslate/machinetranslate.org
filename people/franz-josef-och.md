@@ -1,6 +1,7 @@
 ---
-grand_parent: Community
+grand_parent: More
 parent: People
+nav_order: 5
 title: Franz Josef Och
 description: Machine translation researcher and engineering director
 ---

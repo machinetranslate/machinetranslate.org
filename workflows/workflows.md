@@ -1,6 +1,7 @@
 ---
-nav_order: 50
+nav_order: 17
 has_children: true
-title: Workflows
+parent: Products and applications
+title: Human translation workflows
 description: Human-machine translation workflows
 ---

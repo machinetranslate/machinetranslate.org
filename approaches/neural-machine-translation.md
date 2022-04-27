@@ -1,7 +1,7 @@
 ---
-nav_order: 30
+grand_parent: Building and research
 parent: Approaches
-has_children: true
+nav_order: 102
 title: Neural machine translation
 description: Deep learning approaches to machine translation
 ---
@@ -10,7 +10,7 @@ description: Deep learning approaches to machine translation
 
 ### Neural networks
 
-Neural networks use [training data](/customisation/training-data.md) to create [vectors](/concepts/vector.md) for every word and its relations, called word embeddings. Words with similar meaning cluster together, and words with more than one meaning appear simultaneously in different clusters.
+Neural networks use [training data](/building-and-research/customisation/training-data.md) to create [vectors](/resources/concepts/vector.md) for every word and its relations, called word embeddings. Words with similar meaning cluster together, and words with more than one meaning appear simultaneously in different clusters.
 
 **Cluster<sub>1</sub>**:
 - **Bank**
@@ -45,3 +45,9 @@ The decoder takes that sequence representation and produces the translation.
 Single fixed-length vectors are too limited to cram all the information from long sentences.
 
 A solution to this problem is to employ an attention mechanism. An attention mechanism focuses on the input sentence areas that are relevant instead of looking at the complete input sentence. The attention mechanism also learns the alignment between the relevant information.
+
+
+## See also
+
+* [Byte-pair encoding](/advanced/byte-pair-encoding.md)
+* [Transformers](/advanced/transformers.md)

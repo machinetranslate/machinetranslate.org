@@ -1,4 +1,5 @@
 ---
+grand_parent: Products and applications
 parent: Applications
 title: Multilingual search
 description: Machine translation for multilingual search

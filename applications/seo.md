@@ -1,10 +1,11 @@
 ---
+grand_parent: Products and applications
 parent: Applications
 title: SEO
 description: Machine translation for SEO
 ---
 
-Machine translation for **search engine optimization** \(**SEO**\) is the translation of [commerce and marketplace](commerce-and-marketplaces) website content into the languages in which users are searching.
+Machine translation for **search engine optimization** \(**SEO**\) is the translation of [commerce and marketplace](commerce-and-marketplaces.md) website content into the languages in which users are searching.
 
 Translations for search engine optimization is challenging for machine translation because the end goal is not just to convey the meaning, but to use the words that the users actually search for in the target language.
 

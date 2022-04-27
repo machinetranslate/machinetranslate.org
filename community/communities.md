@@ -1,8 +1,9 @@
 ---
-nav_order: 10
-parent: Community
+nav_order: 245
+grand_parent: More
+parent: Organisations
 title: Communities
-description: Machine translation communities
+description: Machine translation associations, research groups and communities
 featured: true
 ---
 
@@ -53,7 +54,7 @@ Machine translation communities are mainly global, online lists, groups or fora.
 
 **MT_list** (mt_list@list.nist.gov) is the official mailing list of the National Institute of Standards and Technology (NIST) Open Machine Translation evaluation series.
 
-> The objective of the NIST Open Machine Translation (OpenMT) evaluation series is to support research in, and help advance the state of the art of, machine translation (MT) technologies. 
+> The objective of the NIST Open Machine Translation (OpenMT) evaluation series is to support research in, and help advance the state of the art of, machine translation (MT) technologies.
 
 [groups.google.com/a/list.nist.gov/g/mt_list](https://groups.google.com/a/list.nist.gov/g/mt_list)
 

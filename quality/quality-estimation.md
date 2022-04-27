@@ -1,5 +1,6 @@
 ---
-parent: Quality
+parent: Building and research
+nav_order: 165
 title: Quality estimation
 description: Machine translation quality estimation
 featured: true
@@ -12,7 +13,7 @@ featured: true
 | `English` `July 30th, 2021`  | `French` `30 juillet 2021`     | `Good`               |
 | `English` `This is my home.` | `Spanish` `Este es mi inicio.` | `Bad`                |
 
-Evaluation metrics like BLEU or post-editing distance require human reference translations, but there are no human reference translations for new content.
+Evaluation metrics like [BLEU](/metrics/bleu.md) or post-editing distance require human reference translations, but there are no human reference translations for new content.
 
 Quality estimation models predict the quality based on either specific features or deep learning.
 
@@ -21,8 +22,8 @@ Quality estimation models predict the quality based on either specific features 
 Quality estimation has offline and production use cases:
 
 * Comparing machine translation systems or translation models
-* [Hybrid translation](/workflows/hybrid-translation.md)
-* Estimating [post-editing](/workflows/post-editing.md) effort
+* [Hybrid translation](/products-and-applications/workflows/hybrid-translation.md)
+* Estimating [post-editing](/products-and-applications/workflows/post-editing.md) effort
 * Validating final human translations
 * Filtering training data for machine translation
 
@@ -38,11 +39,11 @@ Sentence-level scores can be aggregated into paragraph-level scores or document-
 
 ---
 
-In 2012, [Lucia Specia](/people/lucia-specia.md) and Google researcher Radu Soricut organized the first *Shared Task on Quality Estimation*.
+In 2012, [Lucia Specia](/more/people/lucia-specia.md) and Google researcher Radu Soricut organized the first *Shared Task on Quality Estimation*.
 
 In 2018, Lucia Specia, Carolina Scarton and Gustavo Henrique Paetzold published the book *Quality Estimation for Machine Translation*. There was research on word-level quality estimation and paragraph-level quality estimation.
 
-In 2020, [ModelFront](/industry/companies.md#modelfront) launched a multilingual quality estimation API.  Tharindu Ranasinghe released pretrained models.  Facebook Research launched unsupervised quality estimation internally.
+In 2020, [ModelFront](/more/organisations/companies.md#modelfront) launched a multilingual quality estimation API.  Tharindu Ranasinghe released pretrained models.  Facebook Research launched unsupervised quality estimation internally.
 
 A growing set of frameworks, models and systems are generally available.
 

@@ -1,4 +1,5 @@
 ---
+grand_parent: Products and applications
 parent: Applications
 title: Gaming
 description: Machine translation for gaming

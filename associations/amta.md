@@ -1,4 +1,5 @@
 ---
+grand_parent: More
 parent: Associations
 title: AMTA
 description: Association for Machine Translation in the Americas

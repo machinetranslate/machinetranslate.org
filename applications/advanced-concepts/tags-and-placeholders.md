@@ -1,4 +1,5 @@
 ---
+grand_parent: Products and applications
 parent: Applications
 title: Tags and placeholders
 description: Tags and placeholders in machine translation

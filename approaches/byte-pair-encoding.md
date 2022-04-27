@@ -1,5 +1,5 @@
 ---
-grand_parent: Approaches
+grant_parent: Approaches
 parent: Neural machine translation
 layout: coming_soon
 title: Byte-pair encoding
