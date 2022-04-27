@@ -56,13 +56,15 @@ Read news, ask and answer questions and share your work!
 
 ## Updates
 
-Watch and star the content source repository, browse and subscribe to issues and more!
-
-[**Visit Machine Translate on GitHub**](https://github.com/machinetranslate)
+Hear about news and events!
 
 [Follow Machine Translate on Twitter](https://twitter.com/machtranslate)  
 [Follow Machine Translate on LinkedIn](https://linkedin.com/company/machinetranslate)  
 [Follow Machine Translate on Facebook](https://facebook.com/machinetranslate)
+
+Watch and star the content source repository, browse and subscribe to issues and more!
+
+[Visit Machine Translate on GitHub](https://github.com/machinetranslate)
 
 
 ## About Machine Translate
