@@ -13,6 +13,11 @@ seo:
 
 The content covers everything about machine translation, from products to research, and from history to news.
 
+## Next event
+
+> The first San Francisco Bay Area [**machine translation meetup**](https://www.meetup.com/machinetranslate/events/285533813/) is set to take place in Menlo Park on Wednesday, 11 May 2022.  
+> [Read more](https://www.meetup.com/machinetranslate/events/285533813/)
+
 
 ## Featured article
 
