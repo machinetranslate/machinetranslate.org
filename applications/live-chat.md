@@ -22,7 +22,7 @@ Many commercial chat applications that have incorporated machine translation for
 
 ## Companies
 
-* [Unbabel](/more/companies.md#unbabel)
+* [Unbabel](/industry/companies.md#unbabel)
 * [Language I/O](/more/companies.md#language-io)
 * [Kantan](/more/companies.md#kantan)
 
