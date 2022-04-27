@@ -31,6 +31,7 @@ featured: true
 | 1 June | [**EAMT 2022**](eamt2022.md) | Ghent, Belgium |
 | 26 May | [**IWSLT 2022**](iwslt2022.md) | Dublin, Ireland |
 | 16-17 May | Fraud: [**ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science**](#icmtcs) | online |
+| 11 May | **San Francisco Bay Area machine translation meetup** | San Francisco, United States |
 | 29 April | [**Using machine translation in healthcare**](https://www.surrey.ac.uk/events/20220429-when-and-how-can-online-translation-tools-not-help-us-bridge-language-and-cultural-gap-between) | online |
 | 21 April | [Neural Machine Translation – Foundations, Applications and Implications](nmt-foundations-applications-implications.md) | online |
 | 14-15 April | Fraud: [ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science](#icmtcs)| online |
