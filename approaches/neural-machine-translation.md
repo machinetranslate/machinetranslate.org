@@ -10,7 +10,7 @@ description: Deep learning approaches to machine translation
 
 ### Neural networks
 
-Neural networks use [training data](/building-and-research/customisation/training-data.md) to create [vectors](/resources/concepts/vector.md) for every word and its relations, called word embeddings. Words with similar meaning cluster together, and words with more than one meaning appear simultaneously in different clusters.
+Neural networks use [training data](../customisation/training-data.md) to create [vectors](../concepts/vector.md) for every word and its relations, called word embeddings. Words with similar meaning cluster together, and words with more than one meaning appear simultaneously in different clusters.
 
 **Cluster<sub>1</sub>**:
 - **Bank**
@@ -49,5 +49,5 @@ A solution to this problem is to employ an attention mechanism. An attention mec
 
 ## See also
 
-* [Byte-pair encoding](/advanced/byte-pair-encoding.md)
-* [Transformers](/advanced/transformers.md)
+* [Byte-pair encoding](byte-pair-encoding.md)
+* [Transformers](transformers.md)

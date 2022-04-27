@@ -16,7 +16,7 @@ The Machine Translation Summit 2021 (**MT Summit 2021**) took place from 16 Augu
 | -- | -- |
 | Aug 17 <br>09:00 - 10:00 | _**The New MT: One More Time**_ <br>Arle Lommel (CSA Research) |
 | Aug 17 <br>13:30 - 14:15 | _**The Road to Infinity**_ <br>Jane Nemcova (Lionbridge) |
-| Aug 18 <br>11:00 - 11:45 | _**Multimodal Simultaneous Machine Translation**_ <br>[Lucia Specia](/people/lucia-specia.md) (Imperial College London) |
+| Aug 18 <br>11:00 - 11:45 | _**Multimodal Simultaneous Machine Translation**_ <br>[Lucia Specia](/../people/lucia-specia.md) (Imperial College London) |
 | Aug 19 <br>13:30 - 14:15 | _**Machine Translation at the Government of Canada: Reaching for the Future**_ <br>Lucie Seguin (Translation Bureau of Canada) |
 | Aug 19 <br>16:00 - 16:45 | _**Understanding and Improving Context Usage in Context-aware Translation**_ <br>Graham Neubig (Carnegie Mellon University) |
 

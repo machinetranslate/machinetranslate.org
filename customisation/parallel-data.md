@@ -20,11 +20,11 @@ Parallel datasets can include translations for one or more language pairs, and b
 
 Parallel datasets can be created manually, automatically, or created synthetically from monolingual data.
 - Human translation
-- Human [post-editing](/products-and-applications/workflows/post-editing.md)
+- Human [post-editing](../workflows/post-editing.md)
 - [Crawling](crawling.md)
 - [Alignment](alignment.md)
 
-Parallel data can be created by [crawling](crawling.md) and aligned monolingual test, and by [back-translation](back-translation.md) or [back-copying](back-translation.md).
+Parallel data can be created by crawling and aligned monolingual test, and by [back-translation](back-translation.md) or [back-copying](back-translation.md).
 
 ### Goals
 

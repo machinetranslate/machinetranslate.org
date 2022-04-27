@@ -21,7 +21,7 @@ Data confidentiality terms or policies ensure that machine translation providers
 
 ### Data types
 
-- [Training data](/building-and-research/customisation/training-data.md) - [parallel data](/building-and-research/customisation/parallel-data.md)
+- [Training data](../customisation/training-data.md) - [parallel data](../customisation/parallel-data.md)
 - Request data - original input
 
 

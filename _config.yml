@@ -108,7 +108,18 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename
-
+  -
+    scope:
+      path: "building-and-research"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
+    scope:
+      path: "products-and-applications"
+      type: "pages"
+    values:
+      permalink: /:basename
 
 # Just the Docs
 
