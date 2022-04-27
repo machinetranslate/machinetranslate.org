@@ -24,13 +24,13 @@ The content covers everything about machine translation, from products to resear
 ## Featured articles
 
 > [Research laboratories](/research-laboratories/research-laboratories.md)
->
+
 > [Quality estimation](/quality/quality-estimation)
-> 
+
 > [Data confidentiality](/industry/data-confidentiality.md)
->
+
 > [Companies](/industry/companies.md)
->
+
 > [Adaptive machine translation](customisation/adaptive.md)
 
 
