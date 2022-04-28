@@ -49,3 +49,8 @@ Raw models usually do not include the features included in many production syste
 | Globalese | Globalese | No |
 | RWS Group | Language Weaver (Iconic) | Yes |
 | Mirai Translate | Mirai Translator | Yes |
+
+
+## See also
+
+- [Companies](/../industry/companies.md)
