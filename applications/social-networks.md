@@ -1,6 +1,6 @@
 ---
-grand_parent: Products and applications
-parent: Applications
+nav_order: 3
+parent: Application areas
 title: Social networks
 description: Machine translation for social networks
 ---

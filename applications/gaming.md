@@ -1,6 +1,6 @@
 ---
-grand_parent: Products and applications
-parent: Applications
+nav_order: 2
+parent: Application areas
 title: Gaming
 description: Machine translation for gaming
 ---

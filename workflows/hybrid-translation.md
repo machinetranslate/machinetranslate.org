@@ -1,7 +1,7 @@
 ---
 nav_order: 2
-grand_parent: Products and applications
-parent: Human translation workflows
+grand_parent: Application areas
+parent: Translation and localisation
 title: Hybrid translation
 description: Workflow with both human translations and pure machine translations
 ---

@@ -1,6 +1,7 @@
 ---
-grand_parent: Products and applications
-parent: Applications
+nav_order: 4
+has_children: true
+parent: Application areas
 title: Translation and localisation
 description: Machine translation for translation and localisation
 ---
