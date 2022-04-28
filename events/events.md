@@ -25,13 +25,13 @@ featured: true
 | December | [**WMT22**](wmt22.md) | Abu Dhabi, United Arab Emirates |
 | December | **AAMT 2022** | |
 | 12 October | [**LoResMT 2022**](loresmt2022.md) | online |
-| 12 September | [**AMTA 2022**](amta2022.md) | Orlando, United States |
+| 12 September | [**AMTA 2022**](amta2022.md) | Orlando, Florida, United States |
 | 2 July | [**NeTTT Conference**](nettt2022.md) | Rhodes, Greece |
 | 13 June | [**Machine Translation Meetup 10**](zurich-10.md) | Zurich, Switzerland |
 | 1 June | [**EAMT 2022**](eamt2022.md) | Ghent, Belgium |
 | 26 May | [**IWSLT 2022**](iwslt2022.md) | Dublin, Ireland |
 | 16-17 May | Fraud: [**ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science**](#icmtcs) | online |
-| 11 May | [**San Francisco Bay Area machine translation meetup**](https://www.meetup.com/machinetranslate/events/285533813/) | San Francisco, United States |
+| 11 May | [**San Francisco Bay Area machine translation meetup**](https://www.meetup.com/machinetranslate/events/285533813/) | Menlo Park, California, United States |
 | 29 April | [**Using machine translation in healthcare**](https://www.surrey.ac.uk/events/20220429-when-and-how-can-online-translation-tools-not-help-us-bridge-language-and-cultural-gap-between) | online |
 | 21 April | [Neural Machine Translation – Foundations, Applications and Implications](nmt-foundations-applications-implications.md) | online |
 | 14-15 April | Fraud: [ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science](#icmtcs)| online |
@@ -105,7 +105,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 28 October-1 November | AMTA 2016 | Texas, United States |
+| 28 October-1 November | AMTA 2016 | Austin, Texas |
 | 11-12 August | [**WMT16**](wmt16.md) | Berlin, Germany |
 | 30 May-1 June | EAMT 2016 | Riga, Latvia |
 
@@ -113,9 +113,9 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 3 November | WPTP 2015 | Miami, United States |
-| 3 November | PSLT2015 | Miami, United States |
-| 30 October-3 November | [MT Summit XV](mtsummit2015.md) | Miami, United States |
+| 3 November | WPTP 2015 | Miami, Florida |
+| 3 November | PSLT2015 | Miami, Florida |
+| 30 October-3 November | [MT Summit XV](mtsummit2015.md) | Miami, Florida |
 | 17-18 September | [**WMT15**](wmt15.md) | Lisbon, Portugal |
 | 11-13 May | EAMT 2015 | Antalya, Turkey |
 
@@ -140,9 +140,9 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 28 October | WPTP 2012 | California, United States |
-| 28 October-1 November | AMTA 2012 | California, United States |
-| 7-8 June | **WMT12** | Quebec, Canada |
+| 28 October | WPTP 2012 | San Diego, California |
+| 28 October-1 November | AMTA 2012 | San Diego, California |
+| 7-8 June | **WMT12** | Montreal, Canada |
 | 28-30 May | EAMT 2012 | Trento, Italy |
 
 ## 2011
@@ -156,7 +156,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 31 October-4 November 4 | AMTA 2010 | Colorado, United States |
+| 31 October-4 November 4 | AMTA 2010 | Denver, Colorado |
 | 15-16 July | **WMT11** | Uppsala, Sweden |
 | 27-28 May | EAMT 2010 | Saint Raphaël, France |
 
