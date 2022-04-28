@@ -5,5 +5,6 @@ title: Products and applications
 description: Machine translation products and applications
 ---
 
-There is a growing set of **machine translation products and applications** on the market.
+Machine translation is applied to multiple areas.
 
+There is a growing set of machine translation products on the market.
