@@ -275,7 +275,6 @@ GEM
       unf_ext
     unf_ext (0.0.8)
     unicode-display_width (1.8.0)
-    webrick (1.7.0)
     zeitwerk (2.5.3)
 
 PLATFORMS
@@ -288,7 +287,6 @@ DEPENDENCIES
   jekyll-target-blank
   tzinfo (~> 1.2)
   tzinfo-data
-  webrick
 
 BUNDLED WITH
    2.3.6
