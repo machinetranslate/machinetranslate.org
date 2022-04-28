@@ -36,7 +36,7 @@ English to Turkish is one of the top language pairs for Systran.
 
 ### History
 
-In 1994, NATO supported two machine translation English to Turkish projects within the scope of the Science for Stability Program. These projects were [rule-based machine translation](/building-and-research/approaches/rule-based-machine-translation.md) systems within specific domains: news captions and IBM manuals.
+In 1994, NATO supported two machine translation English to Turkish projects within the scope of the Science for Stability Program. These projects were [rule-based machine translation](/../approaches/rule-based-machine-translation.md) systems within specific domains: news captions and IBM manuals.
 
 In 2011, Apertium launched the Apertium Turkic work group in an attempt to create resources for Turkic languages rule-based machine translation and natural language processing.
 
@@ -44,7 +44,7 @@ In 2011, The TS Corpus project was launched with English-Turkish parallel databa
 
 In 2019, Emel Alkım and Yalçın Çebi launched MT-Turk for Turkish, Kirghiz and Kazan Tatar.  MT-Turk is a rule-based machine translation system that uses interlingual and transfer systems.
 
-In 2020, [Turkic Interlingua](/more/organisations/communities.md#TIL) was created to develop language technology, including parallel corpora, in the most spoken Turkic languages.
+In 2020, [Turkic Interlingua](/../community/communities.md#til) was created to develop language technology, including parallel corpora, in the most spoken Turkic languages.
 
 In 2021, the Literary Machine Translation Project started at the Department of Translation and Interpreting Studies from the Boğaziçi University.
 
