@@ -28,4 +28,4 @@ Many commercial chat applications that have incorporated machine translation for
 
 ## See also
 
-* [Speech translation](/building-and-research/other-input-types/speech)
+* [Speech translation](/../other-input-types/speech.md)
