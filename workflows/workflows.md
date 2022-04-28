@@ -1,7 +1,7 @@
 ---
-nav_order: 17
+nav_order: 5
 has_children: true
-parent: Applications
+parent: Application areas
 title: Human translation workflows
 description: Human-machine translation workflows
 ---

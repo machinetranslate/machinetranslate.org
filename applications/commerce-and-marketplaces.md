@@ -1,5 +1,6 @@
 ---
-parent: Applications
+nav_order: 1
+parent: Application areas
 title: Commerce and marketplaces
 description: Machine translation for commerce and marketplaces
 ---

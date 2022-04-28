@@ -1,5 +1,6 @@
 ---
-parent: Applications
+nav_order: 8
+parent: Application areas
 title: Live chat
 description: Machine translation for live chat
 ---
