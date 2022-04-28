@@ -1,5 +1,5 @@
 ---
-parent: Building
+parent: Resources
 title: Libraries and frameworks
 description: Libraries and frameworks for building machine translation systems
 ---

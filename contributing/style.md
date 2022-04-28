@@ -69,7 +69,7 @@ Talk straight and make complex topics simple.
 
 Machine Translate will be machine translated. Write articles that are ready for machine translation:
 
-- Follow the [Minimal content](#Minimal-content) guidelines.
+- Follow the [Minimal content](#minimal-content) guidelines.
 - Be concise and consistent.
 - Use active voice.
 - Check spelling.

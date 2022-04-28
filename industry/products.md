@@ -1,5 +1,6 @@
 ---
-parent: Industry
+nav_order: 12
+parent: Products and applications
 title: Products
 description: Machine translation products
 ---
@@ -21,7 +22,7 @@ Raw models usually do not include the features included in many production syste
 - language identification
 - segmentation
 - bridging (pivoting)
-- [glossary](/customisation/glossaries)
+- [glossary](../customisation/glossaries.md)
 - encoding options
 - HTML/XML tag handling
 

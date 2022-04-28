@@ -1,5 +1,5 @@
 ---
-nav_order: 200
+nav_order: 400
 has_children: true
 title: Contributing
 description: How to contribute to Machine Translate

@@ -1,5 +1,5 @@
 ---
-nav_order: 300
+nav_order: 500
 title: 🌍 About Machine Translate
 description: The foundation for machine translation
 seo:

@@ -9,7 +9,7 @@ description: Scientific publications about machine translation
 
 <style>
 th {
-  display: none; 
+  display: none;
 }
 td:nth-child(1) {
   min-width: 50px;
@@ -20,7 +20,7 @@ td:nth-child(2) {
 </style>
 
 
-## [Neural machine translation](/approaches/neural-machine-translation.md)
+## [Neural machine translation](/../approaches/neural-machine-translation.md)
 
 |     |     |     |
 | --- | --- | --- |
@@ -82,7 +82,7 @@ td:nth-child(2) {
 | 2016 | [***Neural Machine Translation of Rare Words with Subword Units***](https://arxiv.org/pdf/1508.07909.pdf) | Rico Sennrich, Barry Haddow, Alexandra Birch |
 
 
-## [Statistical machine translation](/approaches/statistical-machine-translation.md)
+## [Statistical machine translation](/../approaches/statistical-machine-translation.md)
 
 |     |     |     |
 | --- | --- | --- |
@@ -95,8 +95,8 @@ td:nth-child(2) {
 
 Machine translation metrics automatically assess quality of the machine translation output.
 There are two types of metrics: **quality evaluation**  and **quality estimation**.   
-* [Quality evaluation](/quality/quality-evaluation.md) metrics rely on human (reference) translation.
-* [Quality estimation](/quality/quality-estimation.md) metrics ***do not*** rely on human (reference) translation. 
+* [Quality evaluation](/../quality/quality-evaluation.md) metrics rely on human (reference) translation.
+* [Quality estimation](/../quality/quality-estimation.md) metrics ***do not*** rely on human (reference) translation.
 
 ### Quality evaluation
 
@@ -146,4 +146,3 @@ Learnable metrics directly optimise correlation with human judgments.
 |     |     |     |
 | --- | --- | --- |
 | 2020 | [***COMET: A Neural Framework for MT Evaluation***](https://aclanthology.org/2020.emnlp-main.213.pdf) | Ricardo Rei, Craig Stewart, Ana C. Farinha, Alon Lavie |
-

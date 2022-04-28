@@ -1,6 +1,6 @@
 ---
-nav_order: 70
-has_children: false
+nav_order: 240
+parent: More
 title: Research laboratories
 description: Machine translation research laboratories
 ---

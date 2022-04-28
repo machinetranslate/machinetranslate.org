@@ -1,6 +1,7 @@
 ---
-nav_order: 10
+grand_parent: Building and research
 parent: Approaches
+nav_order: 100
 title: Rule-based machine translation
 description: Rule-based approaches to machine translation
 ---

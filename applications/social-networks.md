@@ -1,4 +1,5 @@
 ---
+grand_parent: Products and applications
 parent: Applications
 title: Social networks
 description: Machine translation for social networks

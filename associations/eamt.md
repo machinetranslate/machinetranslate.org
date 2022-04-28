@@ -1,4 +1,5 @@
 ---
+grand_parent: More
 parent: Associations
 title: EAMT
 description: European Association for Machine Translation

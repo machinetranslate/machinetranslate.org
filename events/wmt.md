@@ -11,7 +11,7 @@ name: WMT
 
 In 2006, the first **Workshop on Machine Translation** was held at the NAACL (North American Chapter of the Association for Computational Linguistics Annual Meeting).
 
-In 2016, with the rise of [neural machine translation](/approaches/neural-machine-translation.md), WMT became a conference of its own.  The **Conference on Machine Translation** is still mainly known as *WMT*.
+In 2016, with the rise of [neural machine translation](../approaches/neural-machine-translation.md), WMT became a conference of its own.  The **Conference on Machine Translation** is still mainly known as *WMT*.
 
 Universities, research laboratories and big technology companies consistently participate in the conference and are represented in the organising committee.
 
@@ -24,7 +24,7 @@ Universities, research laboratories and big technology companies consistently pa
 | [WMT18](wmt18.md) Third Conference on Machine Translation | EMNLP 2018 |
 | [WMT17](wmt17.md) - Second Conference on Machine Translation | EMNLP 2017 |
 | [WMT16](wmt16.md) - First Conference on Machine Translation | ACL 2016 |
-| Workshop on Statistical Machine Translation | EMNLP 2015 |
+| [Workshop on Statistical Machine Translation](wmt15.md) | EMNLP 2015 |
 | Workshop on Statistical Machine Translation | ACL 2014 |
 | Workshop on Statistical Machine Translation | ACL 2013 |
 | Workshop on Statistical Machine Translation | NAACL 2012 |
@@ -91,8 +91,8 @@ The published results from the shared tasks and the data sets released for WMT a
 
 ### Long-time organisers
 
-- [Philipp Koehn](/community/people/philipp-koehn.md)
-- [Lucia Specia](/community/people/lucia-specia.md)
+- [Philipp Koehn](../people/philipp-koehn.md)
+- [Lucia Specia](../people/lucia-specia.md)
 - Barry Haddow
 - Loïc Barrault
 - Ondřej Bojar

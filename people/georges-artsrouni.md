@@ -1,6 +1,7 @@
 ---
-grand_parent: Community
+grand_parent: More
 parent: People
+nav_order: 15
 title: Georges Artsrouni
 description: Engineer and early machine translation inventor
 ---

@@ -1,6 +1,6 @@
 ---
-nav_order: 121
+nav_order: 300
 has_children: true
 title: Resources
-description: Machine translation resources
+description: Resources for building machine translation systems
 ---

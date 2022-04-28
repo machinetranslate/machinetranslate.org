@@ -23,7 +23,7 @@ Russian-Chinese and Chinese-Russian are also significant translation pairs.
 
 ## History
 
-In 1935, [Petr Troyanskii](/people/petr-troyanskii.md) filed a USSR Patent 40995 on machine translation.
+In 1935, [Petr Troyanskii](/../people/petr-troyanskii.md) filed a USSR Patent 40995 on machine translation.
 
 During the Cold War, English and Russian were the most important languages geopolitically, and much machine translation research and development was for defence and intelligence agencies.
 
