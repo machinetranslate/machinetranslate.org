@@ -1,6 +1,6 @@
 ---
 nav_order: 12
-parent: Products
+has_children: true
 title: Products
 description: Machine translation products
 ---
