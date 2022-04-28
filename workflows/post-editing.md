@@ -1,7 +1,7 @@
 ---
 nav_order: 1
 grand_parent: Application areas
-parent: Human translation workflows
+parent: Translation and localisation
 title: Post-editing (human translation)
 description: Workflow for human correction of machine translation
 ---
