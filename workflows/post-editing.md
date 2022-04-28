@@ -1,6 +1,6 @@
 ---
 nav_order: 1
-grand_parent: Products and applications
+grand_parent: Applications
 parent: Human translation workflows
 title: Post-editing (human translation)
 description: Workflow for human correction of machine translation

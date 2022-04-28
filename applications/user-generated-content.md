@@ -1,5 +1,4 @@
 ---
-grand_parent: Products and applications
 parent: Applications
 title: User-generated content
 description: Machine translation for user-generated content

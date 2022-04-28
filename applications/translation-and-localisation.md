@@ -1,5 +1,4 @@
 ---
-grand_parent: Products and applications
 parent: Applications
 title: Translation and localisation
 description: Machine translation for translation and localisation

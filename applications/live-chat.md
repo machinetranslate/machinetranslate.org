@@ -1,5 +1,4 @@
 ---
-grand_parent: Products and applications
 parent: Applications
 title: Live chat
 description: Machine translation for live chat

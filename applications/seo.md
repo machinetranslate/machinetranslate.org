@@ -1,5 +1,4 @@
 ---
-grand_parent: Products and applications
 parent: Applications
 title: SEO
 description: Machine translation for SEO

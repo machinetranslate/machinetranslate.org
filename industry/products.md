@@ -1,6 +1,6 @@
 ---
 nav_order: 12
-parent: Products and applications
+parent: Products
 title: Products
 description: Machine translation products
 ---
