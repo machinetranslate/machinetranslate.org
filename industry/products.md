@@ -7,14 +7,13 @@ description: Machine translation products
 
 Machine translation products include ready-to-use machine translation APIs and applications.  Systems can also be made available via integrations.
 
-They vary by:
-
+They vary by features they offer:
 - language support
 - accuracy
 - price
 - customisation options
 - [data confidentiality](data-confidentiality.md)
-and other features, as well as underlying architecture.
+They also vary by their underlying architecture.
 
 Some providers offer ready-to-use systems that can be integrated immediately.  These usually support many language pairs and their infrastructure is scalable.  An alternative is to train a model from scratch — or to use a pre-trained model — and deploy and maintain it.
 
