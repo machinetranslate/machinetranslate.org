@@ -1,6 +1,6 @@
 ---
-grand_parent: Products and applications
-parent: Applications
+nav_order: 6
+parent: Application areas
 title: Multilingual search
 description: Machine translation for multilingual search
 ---

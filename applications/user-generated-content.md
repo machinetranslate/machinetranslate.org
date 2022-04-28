@@ -1,6 +1,6 @@
 ---
-grand_parent: Products and applications
-parent: Applications
+nav_order: 9
+parent: Application areas
 title: User-generated content
 description: Machine translation for user-generated content
 ---

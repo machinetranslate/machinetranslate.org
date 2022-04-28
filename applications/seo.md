@@ -1,6 +1,6 @@
 ---
-grand_parent: Products and applications
-parent: Applications
+nav_order: 7
+parent: Application areas
 title: SEO
 description: Machine translation for SEO
 ---
