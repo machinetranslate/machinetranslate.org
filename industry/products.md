@@ -51,7 +51,7 @@ Raw models usually do not include the features included in many production syste
 | Mirai Translate | Mirai Translator | &#10004; |
 
 
-### Machine translation aggregators
+## Machine translation aggregators
 
 | Company | Product | Self-serve |
 | --- | --- | :-: |
