@@ -23,7 +23,7 @@ description: Libraries and frameworks for building machine translation systems
 | [**Simple Transformers**](https://github.com/ThilinaRajapakse/simpletransformers) | PyTorch / TensorFlow, based on [HuggingFace Transformers](https://github.com/huggingface/transformers) | Python | &#10004; |
 | [**Sockeye**](https://github.com/awslabs/sockeye) | PyTorch / [MXNet](https://github.com/apache/incubator-mxnet) | Python | &#10004; |
 | [**Tensor2Tensor**](https://github.com/tensorflow/tensor2tensor) | TensorFlow | Python | |
-| [**Trax Transformer**](https://github.com/google/trax) | TensorFlow | Python | |
+| [**Trax**](https://github.com/google/trax) | TensorFlow | Python | &#10004; |
 | [**THUMT**](https://github.com/THUNLP-MT/THUMT) | PyTorch / TensorFlow | Python | |
 
 ### References
