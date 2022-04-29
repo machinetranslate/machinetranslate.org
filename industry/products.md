@@ -27,28 +27,37 @@ Raw models usually do not include the features included in many production syste
 
 
 | Company | Product | Self-serve |
-| --- | --- | --- |
-| Google | Google Translate | Yes |
-| LingvaNex | Translation API | Yes |
-| Yandex | Translate API | Yes |
-| Microsoft | Translator Text API | Yes |
-| Amazon | Translate API | Yes |
-| ModernMT | API | Yes |
-| IBM | Watson Language Translator | Yes |
-| Baidu | 翻译API | Yes |
-| DeepL | API | Yes |
-| Alibaba | Machine Translation | Yes |
-| Systran | Systran Translate Pro | Yes |
-| Unbabel | Unbabel Translate | No |
-| Lilt | Lilt Translate | No |
-| Tilde | TildeMT | No |
-| Omniscien | Language Studio | No |
-| KantanMT | Translate AI | No |
-| Pangeanic | PangeaMT | No |
-| TextShuttle | TextShuttle AI Translation | No |
-| Globalese | Globalese | No |
-| RWS Group | Language Weaver (Iconic) | Yes |
-| Mirai Translate | Mirai Translator | Yes |
+| --- | --- | :-: |
+| Google | Google Translate | &#10004; |
+| [LingvaNex](/../industry/companies.md#lingvanex) | Translation API | &#10004; |
+| Yandex | Translate API | &#10004; |
+| Microsoft | Translator Text API | &#10004; |
+| Amazon | Translate API | &#10004; |
+| [ModernMT](/../industry/companies.md#modernmt) | API | &#10004; |
+| IBM | Watson Language Translator | &#10004; |
+| Baidu | 翻译API | &#10004; |
+| [DeepL](/../industry/companies.md#deepl) | API | &#10004; |
+| Alibaba | Machine Translation | &#10004; |
+| [Systran](/../industry/companies.md#systran) | Systran Translate Pro | &#10004; |
+| [Unbabel](/../industry/companies.md#unbabel) | Unbabel Translate | |
+| [Lilt](/../industry/companies.md#lilt) | Lilt Translate | |
+| [Tilde](/../industry/companies.md#tilde) | TildeMT | |
+| [Omniscien](/../industry/companies.md#omniscien-technologies) | Language Studio | |
+| [KantanMT](/../industry/companies.md#kantanmt) | Translate AI | |
+| [Pangeanic](/../industry/companies.md#pangeanic) | PangeaMT | |
+| TextShuttle | TextShuttle AI Translation | |
+| Globalese | Globalese | |
+| RWS Group | Language Weaver (Iconic) | &#10004; |
+| Mirai Translate | Mirai Translator | &#10004; |
+
+
+### Machine translation aggregators
+
+| Company | Product | Self-serve |
+| --- | --- | :-: |
+| [ModelFront](/../industry/companies.md#modelfront) | ModelFront API | &#10004; |
+| [Intento](/../industry/companies.md#intento) | Intento API | &#10004; |
+| Eden AI | Eden AI for Machine Translation | &#10004; |
 
 
 ## See also
