@@ -188,3 +188,58 @@ Friday, 2 August, 2019
 | 16:45 – 17:00 |	[***Integration of Dubbing Constraints into Machine Translation***](https://aclanthology.org/W19-5210.pdf) <br>Ashutosh Saboo and Timo Baumann |
 | 17:00 – 17:15 |	[***Widening the Representation Bottleneck in Neural Machine Translation with Lexical Shortcuts***](https://aclanthology.org/W19-5211.pdf) <br>Denis Emelin, Ivan Titov and Rico Sennrich |
 | 17:15 – 17:30 |	[***A High-Quality Multilingual Dataset for Structured Documentation Translation***](https://aclanthology.org/W19-5212.pdf) <br>Kazuma Hashimoto, Raffaella Buschiazzo, James Bradbury, Teresa Marshall, Richard Socher and Caiming Xiong |
+
+## Results
+
+Full results of the shared tasks: [*Findings of the 2019 Conference on Machine Translation (WMT19)*](https://aclanthology.org/W19-5301.pdf)
+
+### News translation
+
+The results are determined through human evaluation. The winner systems are listed according to the average score and average z-score.
+
+#### → English
+The human evaluation used monolingual direct assessment without document context.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| Gujarati → | `NEU` | 64.8 | 0.210 |
+| Lithuanian → | `GTCOM-Primary` | 77.4 | 0.234 |
+| Russian → | `Facebook-FAIR` | 81.4 | 0.156 |
+| Chinese → | `Baidu` | 83.6 | 0.295 |
+| Kazakh → | `online-B` | 72.2 | 0.270 |
+| Finnish → | `MSRA-NAO` | 78.2 | 0.285 |
+
+The human evaluation used monolingual direct assessment with document context.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| German → | `Facebook-FAIR` | 81.6 | 0.146 |
+
+#### English →
+The human evaluation used bilingual direct assessment with document context.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| → German | `Facebook-FAIR` | 90.3 | 0.347 |
+| → Gujarati | `online-B` | 72.2 | 0.663 |
+| → Lithuanian | `tilde-nc-nmt` | 72.8 | 0.388 |
+| → Czech | `CUNI-DocTransformer-T2T` | 86.0 | 0.402 |
+| → Russian | `Facebook-FAIR` | 88.5 | 0.506 |
+| → Chinese | `KSAI` | 83.0 | 0.306 |
+| → Kazakh | `UAlacant-NMT` | 67.6 | 0.262 |
+| → Finnish | `GTCOM-Primary` | 82.6 | 0.586 |
+
+#### German →			
+The human evaluation used monolingual direct assessment without document context.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| → Czech |	`online-Y` | 63.9 |	0.426 |
+			
+#### French ↔︎ German			
+The human evaluation used monolingual direct assessment without document context.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| French → German	| `MSRA-MADL`	| 82.4| 0.267 |
+| German → French |	`MSRA-MADL` |	77.0 | 0.249 |
