@@ -182,3 +182,37 @@ Thursday, 1 November, 2018
 | 16:20 – 16:40	| [***Trivial Transfer Learning for Low-Resource Neural Machine Translation***](https://aclanthology.org/W18-6325.pdf) <br>Tom Kocmi, Ondřej Bojar |
 | 16:40 – 17:00	| [***Input Combination Strategies for Multi-Source Transformer Decoder***](https://aclanthology.org/W18-6326.pdf) <br>Jindřich Libovický, Jindřich Helcl, David Mareček |
 | 17:00 – 17:20	| [***Parameter Sharing Methods for Multilingual Self-Attentional Translation Models***](https://aclanthology.org/W18-6327.pdf) <br>Devendra Sachan and Graham Neubig |
+
+## Results
+
+Full results of the shared tasks: [*Findings of the 2018 Conference on Machine Translation (WMT18)*](https://aclanthology.org/W18-6401.pdf)
+
+### News translation
+
+The results are determined through human evaluation. The winner systems are listed according to the average score and average z-score.
+
+#### → English
+The human evaluation was based on monolingual direct assessment.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| Chinese →| `NIUTRANS` | 78.8 | 0.140 |
+| Czech → | `CUNI-TRANSFORMER` | 71.8 | 0.298 |
+| German → | `RWTH` | 79.9 | 0.413 |
+| Estonian → | `TILDE-NC-NMT` | 73.3 | 0.326 |
+| Finnish → | `NICT` | 75.2 | 0.153 |
+| Russian → | `ALIBABA` | 81.0 | 0.215 |
+| Turkish → | `ONLINE-G` | 70.2 | 0.101 |
+
+#### English →
+The human evaluation was based on monolingual direct assessment.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| → Chinese | `TENCENT-ENSEMBLE` | 80.7 | 0.219 |
+| → Czech | `CUNI-TRANSFORMER` | 67.2 | 0.594 |
+| → German | `FACEBOOK-FAIR` | 85.5 | 0.653 |
+| → Estonian | `TILDE-NC-NMT` | 64.9 | 0.549 |
+| → Finnish | `NICT` | 64.7 | 0.521 |
+| → Russian | `ALIBABA-ENS` | 72.0 | 0.352 |
+| → Turkish | `ONLINE-B` | 66.3 | 0.277 |
