@@ -241,5 +241,5 @@ The human evaluation used monolingual direct assessment without document context
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
-| French → German | `MSRA-MADL`	| 82.4| 0.267 |
+| French → German | `MSRA-MADL` | 82.4| 0.267 |
 | German → French | `MSRA-MADL` | 77.0 | 0.249 |
