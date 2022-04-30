@@ -234,12 +234,12 @@ The human evaluation used monolingual direct assessment without document context
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
-| → Czech |	`online-Y` | 63.9 |	0.426 |
+| → Czech | `online-Y` | 63.9 | 0.426 |
 			
 #### French ↔︎ German			
 The human evaluation used monolingual direct assessment without document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
-| French → German	| `MSRA-MADL`	| 82.4| 0.267 |
-| German → French |	`MSRA-MADL` |	77.0 | 0.249 |
+| French → German | `MSRA-MADL`	| 82.4| 0.267 |
+| German → French | `MSRA-MADL` | 77.0 | 0.249 |
