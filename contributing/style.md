@@ -69,7 +69,7 @@ Talk straight and make complex topics simple.
 
 Machine Translate will be machine translated. Write articles that are ready for machine translation:
 
-- Follow the [Minimal content](#Minimal-content) guidelines.
+- Follow the [Minimal content](#minimal-content) guidelines.
 - Be concise and consistent.
 - Use active voice.
 - Check spelling.
@@ -107,6 +107,24 @@ In headers, capitalise only the first letter.
 Avoid trailing spaces and double spaces inside sentences.
 
 Separate sentences with two spaces.
+
+
+## Dates
+
+Put dates before months.  Omit the leading `0` in single-digit dates.
+
+> 2 June, 2019
+
+
+## Times
+
+Include the leading `0` in single-digit hours.
+
+> 09:00
+
+Use `-` to separate time ranges.
+
+> 09:00 - 09:30
 
 
 ## Oxford comma

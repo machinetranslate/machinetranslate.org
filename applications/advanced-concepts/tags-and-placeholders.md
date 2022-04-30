@@ -1,5 +1,6 @@
 ---
-parent: Applications
+parent: Building and research
+nav_order: 162
 title: Tags and placeholders
 description: Tags and placeholders in machine translation
 ---

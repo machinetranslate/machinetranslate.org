@@ -1,20 +1,19 @@
 ---
 parent: Events
 title: WMT22
-description: Conference on Machine Translation
-location: To be announced
+description: Seventh Conference on Machine Translation
+location: Abu Dhabi
 name: WMT22
 startDate: 2021-12-12
 endDate: 2021-12-13
 featured: true
 ---
 
-The **Seventh Conference on Machine Translation** (**WMT22**) is set to take place in December 2022 at [EMNLP](http://emnlp.org) 2022 in Abu Dhabi.
+The **Seventh Conference on Machine Translation** (**WMT22**) is set to take place from 7 December to 8 December, 2022, at [EMNLP](http://emnlp.org) 2022 in Abu Dhabi.
 
 [statmt.org/wmt22/](https://statmt.org/wmt22/)
 
 {% include collapsible_toc.html %}
-
 
 ## Important dates
 
@@ -22,19 +21,22 @@ The **Seventh Conference on Machine Translation** (**WMT22**) is set to take pla
 | --- | --- |
 | Release of training data for shared tasks	| February/March, 2022 |
 | Evaluation periods for shared tasks | June/July, 2022 |
-| Paper submission deadline |August, 2022 |
-| Paper notification | September, 2022 |
-| Camera-ready version | September, 2022 |
-| Conference | November , 2022 |
+| Paper submission deadline | 07 September, 2022 |
+| Paper notification | 09 October, 2022 |
+| Camera-ready version | 16 October, 2022 |
+| Conference | 07-08 December, 2022 |
 
 
 ## Shared tasks
 
 - [General Machine Translation](https://www.statmt.org/wmt22/translation-task.html)
 - [Biomedical](https://www.statmt.org/wmt22/biomedical-translation-task.html)
-- Automatic post-editing
+- [Code-mixed](https://www.statmt.org/wmt22/code-mixed-translation-task.html)
+- [Automatic post-editing](https://www.statmt.org/wmt22/ape-task.html)
+- [Word-level autocompletion](https://www.statmt.org/wmt22/word-autocompletion.html)
 - [Metrics](https://www.statmt.org/wmt22/metrics-task.html)
 - [Quality estimation](https://www.statmt.org/wmt22/quality-estimation-task.html)
+- [Translation suggestion](https://www.statmt.org/wmt22/translation-suggestion-task.html)
 - [Terminology](https://www.statmt.org/wmt22/terminology-task.html)
 - Chat
 - Sign language
@@ -68,15 +70,18 @@ The *News* machine translation task has been renamed the *General* machine trans
 #### Language pairs
 
 Confirmed language pairs:
-- Chinese-English
-- Czech-English
-- German-English
-- German-French
-- Japanese-English
-- Russian-English
 
-To be announced:
-- Low-resource language pairs
+- English-Chinese
+- English-Czech
+- English-German
+- English-Japanese
+- English-Russian
+- French-German
+- Croatian-English
+- Livonian-English
+- Yakut-Russian
+- Ukrainian-English
+- Ukrainian-Czech
 
 
 ## Scientific papers
@@ -112,6 +117,7 @@ To be announced:
 ## Poster format
 
 Details about poster format are to be determined.
+Posters must be presented in Gather.Town.
 
 
 ## Paper submission
@@ -126,4 +132,4 @@ Details about poster format are to be determined.
 The invited talk is to be determined.
 
 
-*Last updated from statmt.org/wmt22 on February 11th, 2022*
+*Last updated from statmt.org/wmt22 on March 22nd, 2022*

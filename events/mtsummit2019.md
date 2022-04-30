@@ -135,11 +135,11 @@ The seventeenth Machine Translation Summit (**MT Summit 2019**) took place from 
 | | [***An Intrinsic Nearest Neighbor Analysis of Neural Machine Translation Architectures***](https://aclanthology.org/W19-6611.pdf) <br>Hamidreza Ghader, Christof Monz | |
 | | [***Improving Neural Machine Translation Using Noisy Parallel Data through Distillation***](https://aclanthology.org/W19-6612.pdf) <br>Praveen Dakwale, Christof Monz| |
 | | **Users 1 (Domain-specific MT)** | The Gallery |
-| | [***Collecting domain specific data for MT: an evaluation of the ParaCrawlpipeline***](https://aclanthology.org/W19-6733.pdf) <br>Arne Defauw, Tom Vanallemeersch, Sara Szoc, Frederic Everaert, Koen Van Winckel, Kim Scholte, Joris Brabers, Joachim Van den Bogaert | |
+| | [***Collecting domain specific data for MT: an evaluation of the ParaCrawl pipeline***](https://aclanthology.org/W19-6733.pdf) <br>Arne Defauw, Tom Vanallemeersch, Sara Szoc, Frederic Everaert, Koen Van Winckel, Kim Scholte, Joris Brabers, Joachim Van den Bogaert | |
 | | [***Monolingual backtranslation in a medical speech translation system for diagnostic interviews - a NMT approach***](https://aclanthology.org/W19-6734.pdf) <br>Jonathan Mutal, Pierrette Bouillon, Johanna Gerlach, Paula Estrella, Hervé Spechbach | |
-| | [***Improving Domain Adaptation for Machine Translation withTranslation Pieces***](https://aclanthology.org/W19-6735.pdf) <br>Catarina Silva | |
+| | [***Improving Domain Adaptation for Machine Translation with Translation Pieces***](https://aclanthology.org/W19-6735.pdf) <br>Catarina Silva | |
 | 10:30 - 11:00 | ☕️ | |
-| 11:00 - 12:30 | **Research 3 (Making better use of training data)*** | The Theatre |
+| 11:00 - 12:30 | **Research 3 (Making better use of training data)** | The Theatre |
 | | [***Exploiting Out-of-Domain Parallel Data through Multilingual Transfer Learning for Low-Resource Neural Machine Translation***](https://aclanthology.org/W19-6613.pdf) <br>Aizhan Imankulova, Raj Dabre, Atsushi Fujita, Kenji Imamura | |
 | | [***Improving Anaphora Resolution in Neural Machine Translation Using Curriculum Learning***](https://aclanthology.org/W19-6614.pdf) <br>Dario Stojanovski, Alexander Fraser | |
 | | [***Improving American Sign Language Recognition with Synthetic Data***](https://aclanthology.org/W19-6615.pdf) <br>Jungi Kim, Patricia O’Neill-Brown | |
@@ -151,7 +151,7 @@ The seventeenth Machine Translation Summit (**MT Summit 2019**) took place from 
 | 13:30 - 14:30 | **Invited talk** <br>**Machine translation is only part of it** <br>Laura Casanellas | The Theatre |
 | 14:30 - 15:00 | **Best Thesis Award** <br>Longyue Wang | The Theatre |
 | 15:00 - 15:30 | ☕️ | |
-| 15:30 - 16:00 | **Poster Boaster: Translators and research | The Theatre |
+| 15:30 - 16:00 | **Poster Boaster: Translators and research** | The Theatre |
 | 16:00 - 17:30 | **Poster Session** | Level 2 Foyer |
 | | **Research** | |
 | | [***Selecting Informative Context Sentence by Forced Back-Translation***](https://aclanthology.org/W19-6616.pdf) <br>Ryuichiro Kimura, Shohei Iida, Hongyi Cui, Po-Hsuan Hung, Takehito Utsuro, Masaaki Nagata | |
@@ -178,13 +178,13 @@ The seventeenth Machine Translation Summit (**MT Summit 2019**) took place from 
 
 |     |     |     |
 | --- | --- | --- |
-| 09:00 - 10:30 | **Research 4 (Lnguistic analysis and morphology) | The Theatre |
+| 09:00 - 10:30 | **Research 4 (Linguistic analysis and morphology)** | The Theatre |
 | | [***Lost in Translation: Loss and Decay of Linguistic Richness in Machine Translation***](https://aclanthology.org/W19-6622.pdf) <br>Eva Vanmassenhove, Dimitar Shterionov, Andy Way | |
 | | [***Identifying Fluently Inadequate Output in Neural and Statistical Machine Translation***](https://aclanthology.org/W19-6623.pdf) <br>Marianna Martindale, Marine Carpuat, Kevin Duh, Paul McNamee | |
 | | [***Character-Aware Decoder for Translation into Morphologically Rich Languages***](https://aclanthology.org/W19-6624.pdf) <br>Adithya Renduchintala, Pamela Shapiro, Kevin Duh, Philipp Koehn | |
 | | **User 2: Neural post-editing and quality estimation** | The Gallery |
-| | [***Raising the TM Threshold in Neural MT Post-Editing: a Case Study onTwo Datasets***](https://aclanthology.org/W19-6736.pdf) <br>Anna Zaretskaya | |
-| | [***Incremental Adaptation of NMT for Professional Post-editors: A User Study***](https://aclanthology.org/W19-6737.pdf) <br>Miguel Domingo, Mercedes García-Martínez, Álvaro Peris, Alexandre Helle, Amando Estela, Laurent Bié, Francisco Casacuberta, Manuel Herranz ] | |
+| | [***Raising the TM Threshold in Neural MT Post-Editing: a Case Study on Two Datasets***](https://aclanthology.org/W19-6736.pdf) <br>Anna Zaretskaya | |
+| | [***Incremental Adaptation of NMT for Professional Post-editors: A User Study***](https://aclanthology.org/W19-6737.pdf) <br>Miguel Domingo, Mercedes García-Martínez, Álvaro Peris, Alexandre Helle, Amando Estela, Laurent Bié, Francisco Casacuberta, Manuel Herranz | |
 | | [***When less is more in Neural Quality Estimation of Machine Translation. An industry case study***](https://aclanthology.org/W19-6738.pdf) <br>Dimitar Shterionov, Félix Do Carmo, Joss Moorkens, Eric Paquin, Dag Schmidtke, Declan Groves, Andy Way | |
 | 10:30 - 11:00 | ☕️ | |
 | 11:00 - 12:30 | **Research 5 (Post-editing)** | The Theatre |
@@ -192,9 +192,9 @@ The seventeenth Machine Translation Summit (**MT Summit 2019**) took place from 
 | | [***Post-editing Productivity with Neural Machine Translation: An Empirical Assessment of Speed and Quality in the Banking and Finance Domain***](https://aclanthology.org/W19-6626.pdf) <br>Samuel Läubli, Chantal Amrhein, Patrick Düggelin, Beatriz Gonzalez, Alena Zwahlen, Martin Volk | |
 | | [***Post-editese: an Exacerbated Translationese***](https://aclanthology.org/W19-6627.pdf) <br>Antonio Toral | |
 | 12:30 - 13:30 | 🍴 | |
-| 13:30 - 14:30 | **EAMT General Assembly | The Theatre |
-| 14:30 - 15:00 | **IAMT General Assembly | The Theatre |
+| 13:30 - 14:30 | **EAMT General Assembly** | The Theatre |
+| 14:30 - 15:00 | **IAMT General Assembly** | The Theatre |
 | 15:00 - 15:30 | ☕️ | |
 | 15:30 - 16:30 | **Invited talk** <br>**Understanding syntactic and semantic transfer in multilingual neural network models** <br>Arianna Bisazza | The Theatre |
-| 16:30 - 17:30 | **Closing ceremony, including IAMT Award of Honour, Best Paper Award.** <br>**Announcement: EAMT 2020, MT Summit 2021 | The Theatre |
+| 16:30 - 17:30 | **Closing ceremony, including IAMT Award of Honour, Best Paper Award.** <br>**Announcement: EAMT 2020, MT Summit 2021** | The Theatre |
 | 17:30 | **Close** |

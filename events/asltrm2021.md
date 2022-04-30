@@ -36,14 +36,14 @@ The online workshop explored topics including, but not limited to:
 | | |
 | -- | -- |
 | 09:00 - 09:10 | **Opening** <br>Claudio Fantinuoli & Marco Turchi |
-| 09:10 - 09:55 |	***End-to-end Speech Translation at Facebook*** <br>Invited talk <br>Juan Pino (Facebook AI) |
+| 09:10 - 09:55 |	**End-to-end Speech Translation at Facebook** <br>Invited talk <br>Juan Pino (Facebook AI) |
 | 09:55 - 10:15 | [***Operating a Complex SLT System with Speakers and Human Interpreters***](https://aclanthology.org/2021.mtsummit-asltrw.3.pdf) <br>Paper <br>Ondřej Bojar, Vojtěch Srdečný, Rishu Kumar, Otakar Smrž, Felix Schneider, Barry Haddow, Phil Williams, Chiara Canton |
 | 10:15 - 10:35 | [***Simultaneous Speech Translation for Live Subtitling: from Delay to Display***](https://aclanthology.org/2021.mtsummit-asltrw.4.pdf) <br>Paper <br>Alina Karakanta, Sara Papi, Matteo Negri, Marco Turchi |
 | 10:35 - 10:55 | [***Post-Editing Job Profiles for Subtitlers***](https://aclanthology.org/2021.mtsummit-asltrw.2.pdf) <br>Paper <br>Anke Tardel, Silvia Hansen-Schirra, Jean Nitzke |
 | 10:55 - 11:15 | [***Technology-Augmented Multilingual Communication Models***](https://aclanthology.org/2021.mtsummit-asltrw.5.pdf) <br>Paper <br>Francesco Saina |
-| 11:15 - 12:00 | [***Will it take another 19 years? Cognitive Ergonomics of Computer-Assisted Interpreting (CAI)***] <br>Invited talk <br>Bart Defrancq (Ghent University) |
+| 11:15 - 12:00 | **Will it take another 19 years? Cognitive Ergonomics of Computer-Assisted Interpreting (CAI)** <br>Invited talk <br>Bart Defrancq (Ghent University) |
 | 12:00 - 13:00 |	🍴 |
-| 13:00-13:45 | ***CompAsS - Computer-Assisted Subtitling*** <br>Invited talk <br>Silvia Hansen-Schirra (Mainz University) |
+| 13:00-13:45 | **CompAsS - Computer-Assisted Subtitling** <br>Invited talk <br>Silvia Hansen-Schirra (Mainz University) |
 | 13:45-14:05 |	[***Seed Words Based Data Selection for Language Model Adaptation***](https://aclanthology.org/2021.mtsummit-asltrw.1.pdf) <br>Paper <br>Roberto Gretter, Marco Matassoni, Daniele Falavigna |
-| 14:05-14:50 | ***Recent Efforts on Automatic Dubbing*** <br>Invited talk <br>Marcello Federico (Amazon AI) |
+| 14:05-14:50 | **Recent Efforts on Automatic Dubbing** <br>Invited talk <br>Marcello Federico (Amazon AI) |
 | 14:50-16:00 | **Discussion and closing remarks** <br>Claudio Fantinuoli & Marco Turchi |

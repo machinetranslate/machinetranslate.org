@@ -11,7 +11,7 @@ name: WMT
 
 In 2006, the first **Workshop on Machine Translation** was held at the NAACL (North American Chapter of the Association for Computational Linguistics Annual Meeting).
 
-In 2016, with the rise of [neural machine translation](/approaches/neural-machine-translation.md), WMT became a conference of its own.  The **Conference on Machine Translation** is still mainly known as *WMT*.
+In 2016, with the rise of [neural machine translation](../approaches/neural-machine-translation.md), WMT became a conference of its own.  The **Conference on Machine Translation** is still mainly known as *WMT*.
 
 Universities, research laboratories and big technology companies consistently participate in the conference and are represented in the organising committee.
 
@@ -22,9 +22,9 @@ Universities, research laboratories and big technology companies consistently pa
 | [WMT20](wmt20.md) Sixth Conference on Machine Translation | EMNLP 2020 |
 | [WMT19](wmt19.md) Fourth Conference on Machine Translation | ACL 2019 |
 | [WMT18](wmt18.md) Third Conference on Machine Translation | EMNLP 2018 |
-| WMT17 - Second Conference on Machine Translation | EMNLP 2017 |
-| WMT16 - First Conference on Machine Translation | ACL 2016 |
-| Workshop on Statistical Machine Translation | EMNLP 2015 |
+| [WMT17](wmt17.md) - Second Conference on Machine Translation | EMNLP 2017 |
+| [WMT16](wmt16.md) - First Conference on Machine Translation | ACL 2016 |
+| [Workshop on Statistical Machine Translation](wmt15.md) | EMNLP 2015 |
 | Workshop on Statistical Machine Translation | ACL 2014 |
 | Workshop on Statistical Machine Translation | ACL 2013 |
 | Workshop on Statistical Machine Translation | NAACL 2012 |
@@ -49,54 +49,61 @@ WMT started in 2006 with a *translation* task. In the following years, WMT inclu
 
 The main task is the *General machine translation task*. Until 2022, it was known as the *News task* because traditionally the content to be translated was news articles.
 
-#### Translation tasks
+### Recurrent tasks
+
+### Translation tasks
 
 - General machine translation task (former News task)
-- Medical text translation task
 - Biomedical translation task
-- Pronoun translation task
-- Bilingual document alignment
 - Multimodal translation task
-- Similar language translation task
 - Unsupervised and very low resource translation task
 - Lifelong learning in machine translation task
 - Chat translation task
-- Multilingual low-resource translation task for Indo-European languages
 - Life-long learning in machine translation task
 - Machine translation using terminologies task
 - Sign language translation task
 - Robustness translation task
-- Triangual machine translation task
+- Triangular machine translation task
 - Large-scale multilingual machine translation task
 
 #### Evaluation tasks
 
 - Metrics task
 - Quality estimation task
-- Tuning task
 
 #### Other tasks
 
 - Automatic post-editing task
+
+#### Discontinued tasks
+
+- Medical text translation task
+- Pronoun translation task
+- Bilingual document alignment
+- Similar language translation task
+- Multilingual low-resource translation task for Indo-European languages
+- Tuning task
 - Parallel corpus filtering task
 - Task on training of neural machine translation
 - Task on bandit learning for machine translation
 
-The results published from WMT shared tasks represent benchmarks for the technology.
+The published results from the shared tasks and the data sets released for WMT are standard benchmarks across machine translation research.
 
 ### Long-time organisers
 
-- [Philipp Koehn](/community/people/philipp-koehn.md)
+- [Philipp Koehn](../people/philipp-koehn.md)
+- [Lucia Specia](../people/lucia-specia.md)
 - Barry Haddow
 - Loïc Barrault
 - Ondřej Bojar
 - Marco Turchi
-- Martin Popel
 - Matt Post
 - Rajen Chatterjee
 - Christof Monz
 - Matteo Negri
-- Marco Turchi
 - Matthias Huck
 - Christian Federmann
 - Christof Monz
+- Yvette Graham
+- Mariana Neves
+- Tom Kocmi

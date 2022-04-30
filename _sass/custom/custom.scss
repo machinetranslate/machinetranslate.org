@@ -20,6 +20,11 @@
     font-weight: lighter;
   }
 
+  // all links
+  a {
+    white-space: pre-wrap;
+  }
+
   blockquote {
     background-color: $grey-lt-000;
     padding: 0.1em;

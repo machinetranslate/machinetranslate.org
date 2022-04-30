@@ -1,5 +1,6 @@
 ---
-parent: Industry
+nav_order: 235
+parent: More
 title: Companies
 description: Companies in the machine translation space
 featured: true
@@ -21,6 +22,12 @@ Since the advent of statistical machine translation and neural machine translati
 
 Raised pre-seed from Blue Ridge Foundation and $4M from General Catalyst, AIX Ventures, Fellows Fund, Hyphen Capital, First Check Ventures and angels
 
+### Bering Lab
+- [beringlab.com](https://www.beringlab.com/)
+- [Crunchbase - Bering Lab](https://www.crunchbase.com/organization/bering-lab)
+
+Funded by NAVER D2 Startup Factory and others
+
 
 ## 2019
 
@@ -34,6 +41,12 @@ Raised pre-seed from Blue Ridge Foundation and $4M from General Catalyst, AIX Ve
 ### ImageTranslate
 - [imagetranslate.com](https://www.imagetranslate.com/)
 - [Crunchbase - ImageTranslate](https://www.crunchbase.com/organization/imgtranslate)
+
+### Zhongke Fanyu Technology
+- [zkfy.com](http://www.zkfy.com/)
+- [Crunchbase - Zhongke Fanyu Technology](https://www.crunchbase.com/organization/zhongke-fanyu-technology)
+
+Incubated by the Institute of Automation at the Chinese Academy of Sciences
 
 
 ## 2017
@@ -141,6 +154,12 @@ Acquired by Amazon to create Amazon Translate in 2015
 - [Crunchbase - Quest Visual](https://www.crunchbase.com/organization/quest-visual)
 
 Acquired for its WordLens app by Google Translate in 2014
+
+### Yaraku
+- [yaraku.com](https://www.yaraku.com/)
+- [Crunchbase - Yaraku](https://www.crunchbase.com/organization/yaraku--inc-)
+
+Raised $1.1M from Advanced Media, So-net, and others
 
 
 ## 2006

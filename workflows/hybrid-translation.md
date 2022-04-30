@@ -1,5 +1,7 @@
 ---
-parent: Workflows
+nav_order: 2
+grand_parent: Application areas
+parent: Translation and localisation
 title: Hybrid translation
 description: Workflow with both human translations and pure machine translations
 ---
@@ -7,12 +9,23 @@ description: Workflow with both human translations and pure machine translations
 In a **hybrid translation** workflow, some raw machine translations are never seen or touched by a human translator.
 
 Hybrid translation can be faster and cheaper than full human [post-editing](post-editing.md).
-It requires machine translation to be accurate enough that a signification portion of the machine translations are usable as-is.
 
-The key technology for a hybrid translation workflow is [**translation risk prediction**](/quality/quality-estimation.md).
+Hybrid translation requires good machine translation.  A signification portion of the machine translated segments should be usable as-is.
 
-Each machine translation is automatically classified as high-risk or low-risk, based on whether it is below or above the chosen risk **threshold**.
+> ### Workflow diagram
+> The hybrid translation workflow was first presented by Microsoft, VMWare and [Unbabel](/../industry/companies.md#unbabel).
+>
+> ##### Slide from a [ModelFront](/../industry/companies.md#modelfront) presentation
+> <img title='Hybrid translation workflow' src='/workflows/hybrid-translation-workflow.png' width='700' style='padding: 1em;' />
 
-A low-risk machine translation is machine-approved as-is, while a high-risk translation is still sent to a human translator for post-editing.
+A risk **threshold** is set.  Each new machine translation is automatically classified as high-risk or low-risk.
 
-In the TMS and CAT tool, the machine-approved machine translations are visible but locked, just like translation memory matches.
+A low-risk machine translation is machine-approved as-is.
+
+A high-risk translation is still sent to a human translator for post-editing.
+
+In the translation management system (TMS) and computer-aided translation (CAT) tool, the machine-approved machine translations are handled like translation memory matches.  They are either locked or marked as approved.
+
+### Technology
+
+The key technology for a hybrid translation workflow is [**translation risk prediction**](/../quality/quality-estimation.md).

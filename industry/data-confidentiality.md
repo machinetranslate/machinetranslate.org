@@ -1,5 +1,6 @@
 ---
-parent: Industry
+nav_order: 14
+parent: Products
 title: Data confidentiality
 description: Data confidentiality in machine translation
 ---
@@ -20,7 +21,7 @@ Data confidentiality terms or policies ensure that machine translation providers
 
 ### Data types
 
-- Training data - parallel data
+- [Training data](../customisation/training-data.md) - [parallel data](../customisation/parallel-data.md)
 - Request data - original input
 
 

@@ -1,4 +1,5 @@
 ---
+grand_parent: More
 parent: Associations
 title: IAMT
 description: International Association for Machine Translation
