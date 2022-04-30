@@ -216,10 +216,12 @@ Full results of the shared tasks: [*Findings of the 2021 Conference on Machine T
 
 ### News translation
 
-#### → English
-The human evaluation used reference-based (monolingual) segment ratings with document context.
+The results are determined through human evaluation. The winner systems are listed according to the average score and average z-score.
 
-| Language pair | System | Average score | Average z-score (standard score) |
+#### → English
+The human evaluation used monolingual direct assessment with document context.
+
+| Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
 | Czech → | `Facebook-AI` | 77.8 | 0.111 |
 | German → | `Borderline` | 71.9 | 0.126 |
@@ -230,9 +232,9 @@ The human evaluation used reference-based (monolingual) segment ratings with doc
 | Chinese → | `NiuTrans`| 75.0 | 0.042 |
 
 #### English →
-The human evaluation used source-based (bilingual) segment ratings in a full document.
+The human evaluation used bilingual direct assessment in a full document.
 
-| Language pair | System | Average score | Average z-score (standard score) |
+| Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
 | → Czech | `Facebook-AI` | 87.6 | 0.263 |
 | → German | `Online-B` | 83.3 | 0.266 |
@@ -243,25 +245,25 @@ The human evaluation used source-based (bilingual) segment ratings in a full doc
 | → Chinese | `HappyNewYear`| 74.9 | 0.284 |
 
 #### French ↔︎ German
-The human evaluation used source-based (bilingual) segment ratings in a full document.
+The human evaluation used bilingual direct assessment in a full document.
 
-| Language pair | System | Average score | Average z-score (standard score) |
+| Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
 | French → German | `Online-W`| 87.7 | 0.088 |
 | German → French | `Online-B`| 87.9 | 0.160 |
 
 #### Hindi ↔︎ Bengali
-The human evaluation used segment ratings without document context.
+The human evaluation used direct assessment without document context.
 
-| Language pair | System | Average score | Average z-score (standard score) |
+| Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
 | Hindi → Bengali | `HW-TSC` | 95.0 | 0.245 |
 | Bengali → Hindi | `GTCOM` | 82.1 | 0.202 |
 
 #### Zulu ↔︎ Xhosa
-The human evaluation used segment ratings without document context.
+The human evaluation used direct assessment without document context.
 
-| Language pair | System | Average score | Average z-score (standard score) |
+| Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
 | Zulu → Xhosa | `TRANSSION` | 80.7 | 0.502 |
 | Xhosa → Zulu | `HW-TSC` | 68.4 | 0.331 |
