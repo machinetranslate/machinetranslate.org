@@ -26,7 +26,7 @@ The Machine Translation Summit 2021 (**MT Summit 2021**) took place from 16 Augu
 | -- | -- |
 | Aug 16 <br>09:00 - 16:00  | **[4th Workshop on Technologies for MT of Low Resource Languages](loresmt2021.md)** |
 | Aug 16 <br>08:00 - 12:00 | **[9th Workshop on Patent and Scientific Literature Translation](pslt2021.md)** |
-| Aug 17 <br>09:00 - 16:00 | **[Automated Spoken Language Translation in Real-World Settings](asltrw.md)** |
+| Aug 17 <br>09:00 - 16:00 | **[Automated Spoken Language Translation in Real-World Settings](asltrw2021.md)** |
 | Aug 20 <br>09:00 - 4:00 | **[1st International Workshop on Automatic Translation for Signed and Spoken Languages](at4ssl2021.md)** |
 
 ### Research track
