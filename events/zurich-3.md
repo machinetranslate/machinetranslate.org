@@ -1,9 +1,9 @@
 ---
 parent: Events
-title: Machine Translation Meetup 3
+title: Zurich machine translation meetup 3
 description: MT Meetup 3 - Zurich
 location: Zurich, Switzerland
-name: Machine Translation Meetup
+name: Zurich machine translation meetup
 startDate: 2019-01-15
 ---
 
