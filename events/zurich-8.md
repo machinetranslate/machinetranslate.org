@@ -1,9 +1,9 @@
 ---
 parent: Events
-title: Machine Translation Meetup 8
+title: Zurich machine translation meetup 8
 description: MT Meetup 8 - Zurich
 location: online
-name: Machine Translation Meetup
+name: Zurich machine translation meetup
 startDate: 2020-11-02
 ---
 

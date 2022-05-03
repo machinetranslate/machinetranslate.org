@@ -1,5 +1,6 @@
 ---
-parent: Applications
+nav_order: 8
+parent: Application areas
 title: Live chat
 description: Machine translation for live chat
 ---
@@ -21,9 +22,10 @@ Many commercial chat applications that have incorporated machine translation for
 
 ## Companies
 
-* Unbabel
-* Language I/O
+* [Unbabel](/../industry/companies.md/#unbabel)
+* [Language I/O](/../industry/companies.md/#language-io)
+* [KantanMT](/../industry/companies.md/#kantanmt)
 
 ## See also
 
-* [Speech-to-speech translation](speech-to-speech-translation.md)
+* [Speech translation](/../other-input-types/speech.md)

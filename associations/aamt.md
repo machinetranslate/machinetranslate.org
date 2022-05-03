@@ -1,4 +1,5 @@
 ---
+grand_parent: More
 parent: Associations
 title: AAMT
 description: Asia-Pacific Association for Machine Translation

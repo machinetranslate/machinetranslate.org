@@ -1,6 +1,9 @@
 ---
-nav_order: 50
+nav_order: 5
 has_children: true
-title: Workflows
+published: false
+grand_parent: Application areas
+parent: Translation and localisation
+title: Human translation workflows
 description: Human-machine translation workflows
 ---

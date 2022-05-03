@@ -1,6 +1,7 @@
 ---
 layout: coming_soon
-parent: Quality
+nav_order: 140
+parent: Building and research
 title: Quality evaluation
 description: Machine translation quality evaluation
 ---

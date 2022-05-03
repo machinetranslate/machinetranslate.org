@@ -1,5 +1,6 @@
 ---
-parent: Industry
+nav_order: 235
+parent: More
 title: Companies
 description: Companies in the machine translation space
 featured: true

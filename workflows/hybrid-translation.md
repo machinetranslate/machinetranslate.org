@@ -1,5 +1,7 @@
 ---
-parent: Workflows
+nav_order: 2
+grand_parent: Application areas
+parent: Translation and localisation
 title: Hybrid translation
 description: Workflow with both human translations and pure machine translations
 ---
@@ -11,9 +13,9 @@ Hybrid translation can be faster and cheaper than full human [post-editing](post
 Hybrid translation requires good machine translation.  A signification portion of the machine translated segments should be usable as-is.
 
 > ### Workflow diagram
-> The hybrid translation workflow was first presented by Microsoft, VMWare and [Unbabel](/industry/companies.md#unbabel).
+> The hybrid translation workflow was first presented by Microsoft, VMWare and [Unbabel](/../industry/companies.md#unbabel).
 >
-> ##### Slide from a [ModelFront](/industry/companies.md#modelfront) presentation
+> ##### Slide from a [ModelFront](/../industry/companies.md#modelfront) presentation
 > <img title='Hybrid translation workflow' src='/workflows/hybrid-translation-workflow.png' width='700' style='padding: 1em;' />
 
 A risk **threshold** is set.  Each new machine translation is automatically classified as high-risk or low-risk.
@@ -26,4 +28,4 @@ In the translation management system (TMS) and computer-aided translation (CAT) 
 
 ### Technology
 
-The key technology for a hybrid translation workflow is [**translation risk prediction**](/quality/quality-estimation.md).
+The key technology for a hybrid translation workflow is [**translation risk prediction**](/../quality/quality-estimation.md).

@@ -1,4 +1,5 @@
 ---
+grand_parent: Building and research
 parent: Customisation
 title: Filtering
 description: Filtering training data for machine translation
@@ -30,7 +31,7 @@ Obvious noise includes, for example:
 
 ### Techniques
 
-* Normalization
+* Normalisation
 * [Tokenisation](tokenisation.md)
 * Removing duplicate segments
 * Removing non-alphabetical symbols

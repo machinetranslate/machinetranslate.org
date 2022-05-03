@@ -1,9 +1,9 @@
 ---
 parent: Events
-title: ASLTRM 2021
+title: ASLTRW 2021
 description: Workshop on Automatic Spoken Language Translation in Real-World Settings
 location: online
-name: ASLTRM 2021
+name: ASLTRW 2021
 startDate: 2021-08-17
 ---
 

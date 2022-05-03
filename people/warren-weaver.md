@@ -1,6 +1,7 @@
 ---
-grand_parent: Community
+grand_parent: More
 parent: People
+nav_order: 19
 title: Warren Weaver
 description: Early machine translation researcher
 ---

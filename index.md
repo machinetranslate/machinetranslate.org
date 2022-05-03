@@ -13,11 +13,25 @@ seo:
 
 The content covers everything about machine translation, from products to research, and from history to news.
 
+## Featured events
 
-## Featured article
+> The first [**machine translation meetup**](https://www.meetup.com/machinetranslate/events/285533813/) in the San Francisco Bay Area will bring together researchers, engineers and localization teams from top tech companies and startups in Menlo Park on Wednesday, 11 May 2022.  
+> [Register](https://www.meetup.com/machinetranslate/events/285533813/)
 
 > The [**Seventh Conference on Machine Translation**](/wmt22) ([**WMT22**](/wmt22)) is set to take place in December 2022 at EMNLP 2022 in Abu Dhabi.  
 > [Read more](/wmt22)
+
+## Featured articles
+
+> [Research laboratories](/research-laboratories/research-laboratories.md)
+
+> [Quality estimation](/quality/quality-estimation.md)
+
+> [Data confidentiality](/industry/data-confidentiality.md)
+
+> [Companies](/industry/companies.md)
+
+> [Adaptive machine translation](/customisation/adaptive.md)
 
 
 ## Contributing
@@ -42,13 +56,15 @@ Read news, ask and answer questions and share your work!
 
 ## Updates
 
-Watch and star the content source repository, browse and subscribe to issues and more!
-
-[**Visit Machine Translate on GitHub**](https://github.com/machinetranslate)
+Hear about news and events!
 
 [Follow Machine Translate on Twitter](https://twitter.com/machtranslate)  
 [Follow Machine Translate on LinkedIn](https://linkedin.com/company/machinetranslate)  
 [Follow Machine Translate on Facebook](https://facebook.com/machinetranslate)
+
+Watch and star the content source repository, browse and subscribe to issues and more!
+
+[Visit Machine Translate on GitHub](https://github.com/machinetranslate)
 
 
 ## About Machine Translate

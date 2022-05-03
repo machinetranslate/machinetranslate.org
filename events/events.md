@@ -1,5 +1,5 @@
 ---
-nav_order: 1
+nav_order: 2
 has_children: true
 title: Events
 description: Machine translation events
@@ -25,15 +25,17 @@ featured: true
 | December | [**WMT22**](wmt22.md) | Abu Dhabi, United Arab Emirates |
 | December | **AAMT 2022** | |
 | 12 October | [**LoResMT 2022**](loresmt2022.md) | online |
-| 12 September | [**AMTA 2022**](amta2022.md) | Orlando, United States |
+| 12 September | [**AMTA 2022**](amta2022.md) | Orlando, Florida |
 | 5-10 September | [MT Marathon](https://ufal.mff.cuni.cz/mtm22/) | Prague, Czech Republic |
 | 2 July | [**NeTTT Conference**](nettt2022.md) | Rhodes, Greece |
+| 13 June | [**Machine Translation Meetup 10**](zurich-10.md) | Zurich, Switzerland |
 | 1 June | [**EAMT 2022**](eamt2022.md) | Ghent, Belgium |
 | 26 May | [**IWSLT 2022**](iwslt2022.md) | Dublin, Ireland |
 | 16-17 May | Fraud: [**ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science**](#icmtcs) | online |
-| 29 April | [**Using machine translation in healthcare**](https://www.surrey.ac.uk/events/20220429-when-and-how-can-online-translation-tools-not-help-us-bridge-language-and-cultural-gap-between) | online |
-| 21 April | [**Neural Machine Translation – Foundations, Applications and Implications**](nmt-foundations-applications-implications.md) | online |
-| 14-15 April | Fraud: [**ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science**](#icmtcs)| online |
+| 11 May | [**San Francisco Bay Area machine translation meetup**](https://www.meetup.com/machinetranslate/events/285533813/) | Menlo Park, California |
+| 29 April | [Using machine translation in healthcare](https://www.surrey.ac.uk/events/20220429-when-and-how-can-online-translation-tools-not-help-us-bridge-language-and-cultural-gap-between) | online |
+| 21 April | [Neural Machine Translation – Foundations, Applications and Implications](nmt-foundations-applications-implications.md) | online |
+| 14-15 April | Fraud: [ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science](#icmtcs)| online |
 | 4 March | [Introducing Neural Machine Translation (NMT) to Translators](https://www.surrey.ac.uk/events/20220304-introducing-neural-machine-translation-nmt-translators) | online |
 | 1 March | [Simultaneous Speech-to-speech Translation with Transformer-based Incremental ASR, MT, and TTS](https://iwslt.org/lectures/) | online |
 | 3 February | [Machine Translation and Language Learning: What the Research Tells Us](/files/mt-and-language-learning.pdf) | online |
@@ -91,8 +93,8 @@ featured: true
 | 28-30 May | EAMT 2018 | Alicante, Spain |
 | 21-25 May | MT Marathon in the Americas | Pittsburgh, United States |
 | 19 April | [Machine Translation Meetup 1](zurich-1.md) | Zurich, Switzerland |
-| 21 March | LoResMT 2018 | Massachusetts, United States |
-| 17-21 March | AMTA 2018 | Massachusetts, United States |
+| 21 March | LoResMT 2018 | Boston, Massachusetts |
+| 17-21 March | AMTA 2018 | Boston, Massachusetts |
 
 ## 2017
 
@@ -109,8 +111,12 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
+<<<<<<< HEAD
 | 28 October-1 November | AMTA 2016 | Texas, United States |
 | 12-17 September | [MT Marathon](https://ufal.mff.cuni.cz/mtm16/) | Prague, Czech Republic |
+=======
+| 28 October-1 November | AMTA 2016 | Austin, Texas |
+>>>>>>> master
 | 11-12 August | [**WMT16**](wmt16.md) | Berlin, Germany |
 | 30 May-1 June | EAMT 2016 | Riga, Latvia |
 | 16-21 May | MT Marathon in the Americas | Notre Dame, United States |
@@ -119,9 +125,9 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 3 November | WPTP 2015 | Miami, United States |
-| 3 November | PSLT2015 | Miami, United States |
-| 30 October-3 November | [MT Summit XV](mtsummit2015.md) | Miami, United States |
+| 3 November | WPTP 2015 | Miami, Florida |
+| 3 November | PSLT2015 | Miami, Florida |
+| 30 October-3 November | [MT Summit XV](mtsummit2015.md) | Miami, Florida |
 | 17-18 September | [**WMT15**](wmt15.md) | Lisbon, Portugal |
 | 7-12 September | MT Marathon | Prague, Czech Republic |
 | 11-13 May | EAMT 2015 | Antalya, Turkey |
@@ -131,10 +137,16 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
+<<<<<<< HEAD
 | 26 October | WPTP 2014 | British Columbia, Canada |
 | 22-26 October | AMTA 2014 | British Columbia, Canada |
 | 8-13 September | MT Marathon | Trento, Italy |
 | 26-27 June | **WMT14** | Baltimore, United States |
+=======
+| 26 October | WPTP 2014 | Vancouver, Canada |
+| 22-26 October | AMTA 2014 | Vancouver, Canada |
+| 26-27 June | **WMT14** | Baltimore, Maryland |
+>>>>>>> master
 | 16-18 June | EAMT 2014 | Dubrovnik, Croatia |
 
 ## 2013
@@ -150,10 +162,16 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
+<<<<<<< HEAD
 | 28 October | WPTP 2012 | California, United States |
 | 28 October-1 November | AMTA 2012 | California, United States |
 | 3-8 September | MT Marathon | Edinburgh, United Kingdom |
 | 7-8 June | **WMT12** | Quebec, Canada |
+=======
+| 28 October | WPTP 2012 | San Diego, California |
+| 28 October-1 November | AMTA 2012 | San Diego, California |
+| 7-8 June | **WMT12** | Montreal, Quebec |
+>>>>>>> master
 | 28-30 May | EAMT 2012 | Trento, Italy |
 
 ## 2011
@@ -168,8 +186,12 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
+<<<<<<< HEAD
 | 31 October-4 November 4 | AMTA 2010 | Colorado, United States |
 | 13-18 September | MT Marathon | Le Mans, France |
+=======
+| 31 October-4 November 4 | AMTA 2010 | Denver, Colorado |
+>>>>>>> master
 | 15-16 July | **WMT11** | Uppsala, Sweden |
 | 27-28 May | EAMT 2010 | Saint Raphaël, France |
 | 25-30 January | MT Marathon | Dublin, Ireland |
@@ -186,10 +208,14 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 21-25 October | AMTA 2008 | Hawaii, United States |
+| 21-25 October | AMTA 2008 | Waikiki, Hawaii |
 | 22-23 September | EAMT 2008 | Hamburg, Germany |
+<<<<<<< HEAD
 | 19 June | **WMT08** | Ohio, United States |
 | 12-20 May | MT Marathon | Berlin, Germany |
+=======
+| 19 June | **WMT08** | Columbus, Ohio |
+>>>>>>> master
 
 ## 2007
 
@@ -197,29 +223,33 @@ featured: true
 | ---- | ---- | ---- |
 | 10-14 September | MT Summit 2007 | Copenhagen, Denmark |
 | 23 June | **WMT07** | Prague, Czech Republic |
+<<<<<<< HEAD
 | 26 April | AMTA 2007 - “Syntax and structure in statistical translation” | New York, United States |
 | 16-20 April | MT Marathon | Edinburgh, United Kingdom |
+=======
+| 26 April | AMTA 2007 - “Syntax and structure in statistical translation” | Rochester, New York |
+>>>>>>> master
 
 ## 2006
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 8-12 August | AMTA 2006 - “Visions for the future of machine translation” | Massachusetts, United States |
+| 8-12 August | AMTA 2006 - “Visions for the future of machine translation” | Cambridge, Massachusetts |
 | 19-20 June | EAMT 2006 | Oslo, Norway |
-| 8-9 June | **WMT06** | New York City, Unites States |
+| 8-9 June | **WMT06** | New York City, New York |
 
 ## 2005
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 29-30 June | **WPT05** | Ann Arbor, United States |
+| 29-30 June | **WPT05** | Ann Arbor, Michigan |
 | 30-31 May | EAMT 2005 | Budapest, Hungary |
 
 ## 2004
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 28 September–2 October | AMTA 2004 - “Machine translation: from real users to research” | District of Columbia, Unites States |
+| 28 September–2 October | AMTA 2004 - “Machine translation: from real users to research” | Washington, District of Columbia |
 | 26-27 April | EAMT 2004 | Valletta, Malta |
 
 ## 2003
@@ -233,7 +263,7 @@ featured: true
 |  |  |  |
 | ---- | ---- | ---- |
 | 14-15 November | EAMT 2002 | Manchester, United Kingdom |
-| 8-12 October | AMTA 2002 - “Machine translation: from research to real users” | California, Unites States |
+| 8-12 October | AMTA 2002 - “Machine translation: from research to real users” | Tiburon, California |
 
 ## 2001
 
@@ -258,7 +288,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 28-31 October | AMTA 1998 - “Machine translation and the information soup” | Pennsylvania, United States |
+| 28-31 October | AMTA 1998 - “Machine translation and the information soup” | Langhorne, Pennsylvania |
 | 2-3 April | EAMT 1998 | Geneva, Switzerland |
 
 ## 1997
@@ -271,7 +301,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 2-5 October | AMTA 1996 - “Expanding MT horizons” | Quebec, Canada |
+| 2-5 October | AMTA 1996 - “Expanding MT horizons” | Montreal, Quebec |
 | 29-30 August | EAMT 1996 | Vienna, Austria |
 
 ## 1995
@@ -284,7 +314,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 5-8 October | AMTA 1994 - “Technology partnerships for crossing the language barrier” | Maryland, United States |
+| 5-8 October | AMTA 1994 - “Technology partnerships for crossing the language barrier” | Columbia, Maryland |
 | 14-16 September | EAMT 1994 | Hildesheim, Germany |
 
 ## 1993

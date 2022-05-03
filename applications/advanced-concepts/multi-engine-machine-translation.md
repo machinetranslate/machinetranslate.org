@@ -1,5 +1,6 @@
 ---
-parent: Applications
+parent: Building and research
+nav_order: 161
 title: Multi-engine machine translation
 description: Machine translation with multiple systems
 ---

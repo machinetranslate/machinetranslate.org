@@ -9,7 +9,7 @@ description: Scientific publications about machine translation
 
 <style>
 th {
-  display: none; 
+  display: none;
 }
 td:nth-child(1) {
   min-width: 50px;
@@ -20,7 +20,7 @@ td:nth-child(2) {
 </style>
 
 
-## [Neural machine translation](/approaches/neural-machine-translation.md)
+## [Neural machine translation](/../approaches/neural-machine-translation.md)
 
 |     |     |     |
 | --- | --- | --- |
@@ -32,14 +32,11 @@ td:nth-child(2) {
 
 |     |     |     |
 | --- | --- | --- |
-| 2018 | [***Self-Attention Generative Adversarial Networks***](https://arxiv.org/pdf/1805.08318.pdf) | Han Zhang, Ian Goodfellow, Dimitris Metaxas, Augustus Odena |
-| 2017 | [***Convolutional Sequence to Sequence Learning***](https://arxiv.org/pdf/1705.03122.pdf) | Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin |
 | 2017 | [***Attention is all you need***](https://arxiv.org/pdf/1706.03762.pdf) | Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin |
-| 2017 | [***Massive Exploration of Neural Machine Translation Architectures***](https://arxiv.org/pdf/1703.03906.pdf) | Denny Britz, Anna Goldie, Minh-Thang Luong, Quoc Le |
-| 2017 | [***A Deep Reinforced Model for Abstractive Summarization***](https://arxiv.org/pdf/1705.04304.pdf) | Romain Paulus, Caiming Xiong, Richard Socher |
+| 2017 | [***Convolutional Sequence to Sequence Learning***](https://arxiv.org/pdf/1705.03122.pdf) | Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, Yann N. Dauphin |
 | 2016 | [***Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation***](https://arxiv.org/pdf/1609.08144.pdf) | Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V. Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, Jeff Klingner, Apurva Shah, Melvin Johnson, Xiaobing Liu, Łukasz Kaiser, Stephan Gouws, Yoshikiyo Kato, Taku Kudo, Hideto Kazawa, Keith Stevens, George Kurian, Nishant Patil, Wei Wang, Cliff Young, Jason Smith, Jason Riesa, Alex Rudnick, Oriol Vinyals, Greg Corrado, Macduff Hughes, Jeffrey Dean |
-| 2016 | [***Long Short-Term Memory-Networks for Machine Reading***](https://arxiv.org/pdf/1601.06733.pdf) | Jianpeng Cheng, Li Dong, Mirella Lapata |
 | 2016 | [***Modeling Coverage for Neural Machine Translation***](https://aclanthology.org/P16-1008.pdf) | Zhaopeng Tu, Zhengdong Lu, Yang Li, Xiaohua Liu, Hang Li |
+| 2015 | [***Effective Approaches to Attention-based Neural Machine Translation***](https://arxiv.org/pdf/1508.04025.pdf) | Minh-Thang Luong, Hieu Pham, Christopher D. Manning |
 | 2015 | [***Neural Machine Translation by Jointly Learning to Align and Translate***](https://arxiv.org/pdf/1409.0473.pdf) | Dzmitry Bahdanau, KyungHyun Cho, Yoshua Bengio |
 | 2014 | [***On the Properties of Neural Machine Translation: Encoder-Decoder Approaches***](https://aclanthology.org/W14-4012.pdf) | Kyunghyun Cho, Bart van Merriënboer, Dzmitry Bahdanau, Yoshua Bengio |
 | 2014 | [***Sequence to sequence learning with Neural Networks***](https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf) | Ilya Sutskever, Oriol Vinyals, Quoc V. Le |
@@ -81,10 +78,11 @@ td:nth-child(2) {
 
 |     |     |     |
 | --- | --- | --- |
+| 2018 | [***Subword regularization: Improving neural network translation models with multiple subword candidates***](https://aclanthology.org/P18-1007.pdf) | Taku Kudo |
 | 2016 | [***Neural Machine Translation of Rare Words with Subword Units***](https://arxiv.org/pdf/1508.07909.pdf) | Rico Sennrich, Barry Haddow, Alexandra Birch |
 
 
-## [Statistical machine translation](/approaches/statistical-machine-translation.md)
+## [Statistical machine translation](/../approaches/statistical-machine-translation.md)
 
 |     |     |     |
 | --- | --- | --- |
@@ -95,12 +93,56 @@ td:nth-child(2) {
 
 ## Metrics
 
+Machine translation metrics automatically assess quality of the machine translation output.
+There are two types of metrics: **quality evaluation**  and **quality estimation**.   
+* [Quality evaluation](/../quality/quality-evaluation.md) metrics rely on human (reference) translation.
+* [Quality estimation](/../quality/quality-estimation.md) metrics ***do not*** rely on human (reference) translation.
+
+### Quality evaluation
+
+#### Similarity-based metrics
+
+These metrics evaluate similarity between machine translation and reference translation. There are two types of this similarity:
+* n-gram matching-based similarity
+* embedding-based similarity
+
+##### n-gram matching metrics
+
+These metrics evaluate similarity based on hand-crafted features and rules. For example, a metric can count the number and fraction of n-grams that appear in both the machine translation and the human translation.
+
 |     |     |     |
 | --- | --- | --- |
-| 2020 | [***COMET: A Neural Framework for MT Evaluation***](https://aclanthology.org/2020.emnlp-main.213.pdf) | Ricardo Rei, Craig Stewart, Ana C. Farinha, Alon Lavie |
+| 2015 | [***chrF: character n-gram f-score for automatic MT evaluation***](https://www.cs.cmu.edu/~alavie/METEOR/pdf/meteor-1.5.pdf) |	Maja Popovic  |
 | 2014 | [***METEOR Universal: Language Specific Translation Evaluation for Any Target Language***](https://www.cs.cmu.edu/~alavie/METEOR/pdf/meteor-1.5.pdf) |	Michael Denkowski, Alon Lavie |
 | 2006 | [***A study of Translation Edit Rate with Targeted Human Annotation***](https://www.cs.umd.edu/~snover/pub/amta06/ter_amta.pdf) | Matthew Snover, Bonnie Dorr, Rich Schwartz, Linnea Micciulla, John Makhoul |
 | 2005 | [***METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments***](http://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf) | Satanjeev Banerjee, Alon Lavie |
 | 2004 | [***ROUGE: A Package for Automatic Evaluation of Summaries***](https://aclanthology.org/W04-1013.pdf) | Chin-Yew Lin |
-| 2003 | [***Minimum Error Rate Training in Statistical Machine Translation***](https://aclanthology.org/P03-1021.pdf) | Franz Josef Och |
+| 2002 | [***Automatic Evaluation of Machine Translation Quality Using N-gram Co-Occurrence Statistics***](https://aclanthology.org/www.mt-archive.info/HLT-2002-Doddington.pdf) | George Doddington |
 | 2002 | [***BLEU: a Method for Automatic Evaluation of Machine Translation***](https://aclanthology.org/P02-1040.pdf) | Kishore Papineni, Salim Roukos, Todd Ward, Wei-Jing Zhu |
+
+##### Embedding-based metrics
+
+These metrics use various word embeddings as an alternative to n-gram matching for capturing word semantics similarity.
+
+|     |     |     |
+| --- | --- | --- |
+| 2020 | [***Bertscore: Evaluating text generation with bert***](https://openreview.net/forum?id=SkeHuCVFDr) | Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian Q. Weinberger, Yoav Artzi |
+| 2019 | [***MoverScore: Text generation evaluating with contextualized embeddings and earth mover distance***](https://aclanthology.org/D19-1053.pdf) | Wei Zhao, Maxime Peyrard, Fei Liu, Yang Gao, Christian M. Meyer, Steffen Eger |
+
+
+#### Learnable metrics
+
+Learnable metrics directly optimise correlation with human judgments.
+
+|     |     |     |
+| --- | --- | --- |
+| 2020 | [***COMET: A Neural Framework for MT Evaluation***](https://aclanthology.org/2020.emnlp-main.213.pdf) | Ricardo Rei, Craig Stewart, Ana C. Farinha, Alon Lavie |
+| 2020 | [***BLEURT: Learning Robust Metrics for Text Generation***](https://aclanthology.org/2020.acl-main.704.pdf) | Thibault Sellam, Dipanjan Das, and Ankur Parikh |
+
+
+### Quality estimation
+
+
+|     |     |     |
+| --- | --- | --- |
+| 2020 | [***COMET: A Neural Framework for MT Evaluation***](https://aclanthology.org/2020.emnlp-main.213.pdf) | Ricardo Rei, Craig Stewart, Ana C. Farinha, Alon Lavie |
