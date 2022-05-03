@@ -91,7 +91,7 @@ featured: true
 | 22 October | [Machine Translation Meetup 2](zurich-2.md) | Zurich, Switzerland |
 | 3-8 September | [MT Marathon](https://ufal.mff.cuni.cz/mtm18/) | Prague, Czech Republic |
 | 28-30 May | EAMT 2018 | Alicante, Spain |
-| 21-25 May | MT Marathon in the Americas | Pittsburgh, United States |
+| 21-25 May | MT Marathon in the Americas | Pittsburgh, Pennsylvania |
 | 19 April | [Machine Translation Meetup 1](zurich-1.md) | Zurich, Switzerland |
 | 21 March | LoResMT 2018 | Boston, Massachusetts |
 | 17-21 March | AMTA 2018 | Boston, Massachusetts |
@@ -105,21 +105,17 @@ featured: true
 | 7-8 September | [**WMT17**](wmt17.md) | Copenhagen, Denmark |
 | 28 August-2 September | MT Marathon | Lisbon, Portugal |
 | 29-31 May | EAMT 2017 | Prague, Czech Republic |
-| 22-26 May | MT Marathon in the Americas | Dayton, United States |
+| 22-26 May | MT Marathon in the Americas | Dayton, Ohio |
 
 ## 2016
 
 |  |  |  |
 | ---- | ---- | ---- |
-<<<<<<< HEAD
-| 28 October-1 November | AMTA 2016 | Texas, United States |
-| 12-17 September | [MT Marathon](https://ufal.mff.cuni.cz/mtm16/) | Prague, Czech Republic |
-=======
 | 28 October-1 November | AMTA 2016 | Austin, Texas |
->>>>>>> master
+| 12-17 September | [MT Marathon](https://ufal.mff.cuni.cz/mtm16/) | Prague, Czech Republic |
 | 11-12 August | [**WMT16**](wmt16.md) | Berlin, Germany |
 | 30 May-1 June | EAMT 2016 | Riga, Latvia |
-| 16-21 May | MT Marathon in the Americas | Notre Dame, United States |
+| 16-21 May | MT Marathon in the Americas | Notre Dame, Indiana |
 
 ## 2015
 
@@ -131,22 +127,16 @@ featured: true
 | 17-18 September | [**WMT15**](wmt15.md) | Lisbon, Portugal |
 | 7-12 September | MT Marathon | Prague, Czech Republic |
 | 11-13 May | EAMT 2015 | Antalya, Turkey |
-| 10-15 May | MT Marathon in the Americas | Urbana-Champaigne, United States |
+| 10-15 May | MT Marathon in the Americas | Urbana-Champaigne, Illinois |
 
 ## 2014
 
 |  |  |  |
 | ---- | ---- | ---- |
-<<<<<<< HEAD
-| 26 October | WPTP 2014 | British Columbia, Canada |
-| 22-26 October | AMTA 2014 | British Columbia, Canada |
-| 8-13 September | MT Marathon | Trento, Italy |
-| 26-27 June | **WMT14** | Baltimore, United States |
-=======
 | 26 October | WPTP 2014 | Vancouver, Canada |
 | 22-26 October | AMTA 2014 | Vancouver, Canada |
+| 8-13 September | MT Marathon | Trento, Italy |
 | 26-27 June | **WMT14** | Baltimore, Maryland |
->>>>>>> master
 | 16-18 June | EAMT 2014 | Dubrovnik, Croatia |
 
 ## 2013
@@ -162,16 +152,10 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-<<<<<<< HEAD
-| 28 October | WPTP 2012 | California, United States |
-| 28 October-1 November | AMTA 2012 | California, United States |
-| 3-8 September | MT Marathon | Edinburgh, United Kingdom |
-| 7-8 June | **WMT12** | Quebec, Canada |
-=======
 | 28 October | WPTP 2012 | San Diego, California |
 | 28 October-1 November | AMTA 2012 | San Diego, California |
+| 3-8 September | MT Marathon | Edinburgh, United Kingdom |
 | 7-8 June | **WMT12** | Montreal, Quebec |
->>>>>>> master
 | 28-30 May | EAMT 2012 | Trento, Italy |
 
 ## 2011
@@ -186,12 +170,8 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-<<<<<<< HEAD
-| 31 October-4 November 4 | AMTA 2010 | Colorado, United States |
-| 13-18 September | MT Marathon | Le Mans, France |
-=======
 | 31 October-4 November 4 | AMTA 2010 | Denver, Colorado |
->>>>>>> master
+| 13-18 September | MT Marathon | Le Mans, France |
 | 15-16 July | **WMT11** | Uppsala, Sweden |
 | 27-28 May | EAMT 2010 | Saint Raphaël, France |
 | 25-30 January | MT Marathon | Dublin, Ireland |
@@ -210,12 +190,8 @@ featured: true
 | ---- | ---- | ---- |
 | 21-25 October | AMTA 2008 | Waikiki, Hawaii |
 | 22-23 September | EAMT 2008 | Hamburg, Germany |
-<<<<<<< HEAD
-| 19 June | **WMT08** | Ohio, United States |
-| 12-20 May | MT Marathon | Berlin, Germany |
-=======
 | 19 June | **WMT08** | Columbus, Ohio |
->>>>>>> master
+| 12-20 May | MT Marathon | Berlin, Germany |
 
 ## 2007
 
@@ -223,12 +199,8 @@ featured: true
 | ---- | ---- | ---- |
 | 10-14 September | MT Summit 2007 | Copenhagen, Denmark |
 | 23 June | **WMT07** | Prague, Czech Republic |
-<<<<<<< HEAD
-| 26 April | AMTA 2007 - “Syntax and structure in statistical translation” | New York, United States |
-| 16-20 April | MT Marathon | Edinburgh, United Kingdom |
-=======
 | 26 April | AMTA 2007 - “Syntax and structure in statistical translation” | Rochester, New York |
->>>>>>> master
+| 16-20 April | MT Marathon | Edinburgh, United Kingdom |
 
 ## 2006
 
