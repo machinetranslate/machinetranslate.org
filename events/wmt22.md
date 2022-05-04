@@ -7,6 +7,22 @@ name: WMT22
 startDate: 2021-12-12
 endDate: 2021-12-13
 featured: true
+seo:
+  type: Event
+  name: WMT22
+  startDate: 2021-12-12
+  endDate: 2021-12-13
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+  location:
+    type: PostalAddress
+    addressCountry: United Arab Emirates
+    addressLocality: Abu Dhabi
+
+  organizer:
+    type: Organization
+    name: WMT
+    url: https://statmt.org/wmt22
 ---
 
 The **Seventh Conference on Machine Translation** (**WMT22**) is set to take place from 7 December to 8 December, 2022, at [EMNLP](http://emnlp.org) 2022 in Abu Dhabi.
