@@ -95,7 +95,7 @@ The published results from the shared tasks and the data sets released for WMT a
 - [Lucia Specia](../people/lucia-specia.md)
 - Barry Haddow
 - Loïc Barrault
-- Ondřej Bojar
+- [Ondřej Bojar](/community/people/ondrej-bojar.md)
 - Marco Turchi
 - Matt Post
 - Rajen Chatterjee
