@@ -1,6 +1,7 @@
 ---
-grand_parent: Community
+grand_parent: More
 parent: People
+nav_order: 5
 title: Ondřej Bojar
 description: Machine translation researcher and associate professor
 ---
