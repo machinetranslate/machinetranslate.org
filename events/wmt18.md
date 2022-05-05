@@ -189,10 +189,9 @@ Full results of the shared tasks: [*Findings of the 2018 Conference on Machine T
 
 ### News translation
 
-The results are determined through human evaluation. The winner systems are listed according to the average score and average z-score.
+The results are determined through human evaluation featuring monolingual direct assessment. The winner systems are listed according to the average score and average z-score.
 
 #### → English
-The human evaluation used monolingual direct assessment.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -205,7 +204,6 @@ The human evaluation used monolingual direct assessment.
 | Turkish → | `ONLINE-G` | 70.2 | 0.101 |
 
 #### English →
-The human evaluation used monolingual direct assessment.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
