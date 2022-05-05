@@ -189,10 +189,9 @@ Full results of the shared tasks: [*Findings of the 2016 Conference on Machine T
 
 ### News translation
 
-The results are determined through human evaluation. The winner systems are listed according to their score.
+The results are determined through human evaluation featuring relative ranking with the TrueSkill model. The winner systems are listed according to their score.
 
 #### → English
-The human evaluation used relative ranking with the TrueSkill model.
 
 | Language pair | System | Score |
 | --- | --- | --- |
@@ -204,7 +203,6 @@ The human evaluation used relative ranking with the TrueSkill model.
 | Finnish → | `UEDIN-PBMT` | 0.42 |
 
 #### English →
-The human evaluation used relative ranking with the TrueSkill model.
 
 | Language pair | System | Score |
 | --- | --- | --- |
