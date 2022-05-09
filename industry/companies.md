@@ -14,12 +14,17 @@ Since the advent of statistical machine translation and neural machine translati
 
 {% include collapsible_toc.html %}
 
+## 2022
+
+### Eleven
+- [elevenlabs.io](https://www.elevenlabs.io/)
+
+
 ## 2021
 
-### YOUS
-
-- [yous.ai](https://yous.ai)
-- [Crunchbase - YOUS](https://www.crunchbase.com/organization/yous-de50)
+### Vidby
+- [vidby.com](https://vidby.com/)
+- [Crunchbase - Vidby](https://www.crunchbase.com/organization/vidby)
 
 
 ## 2020
@@ -42,6 +47,12 @@ Funded by NAVER D2 Startup Factory and others
 ### ModelFront
 - [modelfront.com](https://modelfront.com)
 - [Crunchbase - ModelFront](https://www.crunchbase.com/organization/modelfront)
+
+### YOUS
+- [yous.ai](https://yous.ai/)
+- [Crunchbase - YOUS](https://www.crunchbase.com/organization/yous-de50)
+
+Raised $50K from angel investors
 
 
 ## 2018
@@ -98,6 +109,9 @@ Raised $37.5M from Sequoia, Redpoint, XSeed, Zetta and In-Q-Tel
 
 Raised from Slow Ventures and dissolved
 
+### Japan Patent Translation Co.
+- [npat.co.jp](https://www.npat.co.jp/#)
+
 
 ## 2014
 
@@ -127,6 +141,15 @@ Acquired by SDL/RWS for $20M in 2020
 - [Crunchbase - Waverly Labs](https://www.crunchbase.com/organization/waverly-labs)
 
 Raised $7.1M in crowdfunding
+
+
+## 2012 
+
+### Xiaoniu Fanyi
+- [niutrans.com](https://niutrans.com/)
+- [Crunchbase - Xiaoniu Fanyi](https://www.crunchbase.com/organization/xiaoniu-fanyi)
+
+Raised ¥33M from Shenyang Dehong Chuangzhan, Cretrend Capital, and others
 
 
 ## 2011
@@ -169,6 +192,12 @@ Acquired for its WordLens app by Google Translate in 2014
 
 Raised $1.1M from Advanced Media, So-net, and others
 
+### TextShuttle
+- [textshuttle.ai](https://www.textshuttle.ai/)
+- [Crunchbase - TextShuttle](https://www.crunchbase.com/organization/textshuttle)
+
+Raised CHF30K from Venture Kick
+
 
 ## 2006
 
@@ -190,6 +219,7 @@ Acquired by TransPerfect in 2018
 - [Crunchbase - Language Weaver](https://www.crunchbase.com/organization/language-weaver)
 
 Acquired by SDL/RWS for $42.5M in 2010
+
 
 ## 2000
 
