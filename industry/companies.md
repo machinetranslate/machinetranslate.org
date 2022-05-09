@@ -14,6 +14,14 @@ Since the advent of statistical machine translation and neural machine translati
 
 {% include collapsible_toc.html %}
 
+## 2021
+
+### YOUS
+
+- [yous.ai](https://yous.ai)
+- [Crunchbase - YOUS](https://www.crunchbase.com/organization/yous-de50)
+
+
 ## 2020
 
 ### Viva Translate
