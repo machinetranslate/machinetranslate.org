@@ -202,12 +202,12 @@ The results are determined through human evaluation. The winner systems are list
 | Language pair | System | Evaluation schema | Average score | Average z-score |
 | --- | --- | --- | --- | --- |
 | Gujarati → | `NEU` | Monolingual direct assessment without document context | 64.8 | 0.210 |
-| Lithuanian → | `GTCOM-Primary` | Monolingual direct assessment without document context | 77.4 | 0.234 |
-| Russian → | `Facebook-FAIR` | Monolingual direct assessment without document context | 81.4 | 0.156 |
-| Chinese → | `Baidu` | Monolingual direct assessment without document context | 83.6 | 0.295 |
-| Kazakh → | `online-B` | Monolingual direct assessment without document context | 72.2 | 0.270 |
-| Finnish → | `MSRA-NAO` | Monolingual direct assessment without document context | 78.2 | 0.285 |
-| German → | `Facebook-FAIR` | Monolingual direct assessment with document context | 81.6 | 0.146 |
+| Lithuanian → | `GTCOM-Primary` | ^^ | 77.4 | 0.234 |
+| Russian → | `Facebook-FAIR` | ^^ | 81.4 | 0.156 |
+| Chinese → | `Baidu` | ^^ | 83.6 | 0.295 |
+| Kazakh → | `online-B` | ^^ | 72.2 | 0.270 |
+| Finnish → | `MSRA-NAO` | ^^ | 78.2 | 0.285 |
+| German → | `Facebook-FAIR` | ^^ | 81.6 | 0.146 |
 
 #### English →
 
