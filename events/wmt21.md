@@ -219,51 +219,46 @@ Full results of the shared tasks: [*Findings of the 2021 Conference on Machine T
 The results are determined through human evaluation. The winner systems are listed according to the average score and average z-score.
 
 #### → English
-The human evaluation used monolingual direct assessment with document context.
 
-| Language pair | System | Average score | Average z-score |
-| --- | --- | --- | --- |
-| Czech → | `Facebook-AI` | 77.8 | 0.111 |
-| German → | `Borderline` | 71.9 | 0.126 |
-| Hausa → | `Facebook-AI` | 74.4 | 0.248 |
-| Icelandic → | `Facebook-AI` | 74.5 | 0.293 |
-| Japanese → | `HW-TSC` | 73.8 | 0.141 |
-| Russian → | `NVIDIA-NeMo` | 77.5 | 0.137 |
-| Chinese → | `NiuTrans`| 75.0 | 0.042 |
+| Language pair | System | Evaluation schema | Average score | Average z-score |
+| --- | --- | --- | --- | --- |
+| Czech → | `Facebook-AI` | Monolingual direct assessment with document context | 77.8 | 0.111 |
+| German → | `Borderline` | Monolingual direct assessment with document context | 71.9 | 0.126 |
+| Hausa → | `Facebook-AI` | Monolingual direct assessment with document context | 74.4 | 0.248 |
+| Icelandic → | `Facebook-AI` | Monolingual direct assessment with document context | 74.5 | 0.293 |
+| Japanese → | `HW-TSC` | Monolingual direct assessment with document context | 73.8 | 0.141 |
+| Russian → | `NVIDIA-NeMo` | Monolingual direct assessment with document context | 77.5 | 0.137 |
+| Chinese → | `NiuTrans`| Monolingual direct assessment with document context | 75.0 | 0.042 |
 
 #### English →
-The human evaluation used bilingual direct assessment in a full document.
 
-| Language pair | System | Average score | Average z-score |
-| --- | --- | --- | --- |
-| → Czech | `Facebook-AI` | 87.6 | 0.263 |
-| → German | `Online-B` | 83.3 | 0.266 |
-| → Hausa | `Facebook-AI` | 82.7 | 0.264 |
-| → Icelandic | `Facebook-AI` | 84.5 | 0.594 |
-| → Japanese | `Facebook-AI` | 86.4 | 0.430 |
-| → Russian | `Online-W` | 83.3 | 0.277 |
-| → Chinese | `HappyNewYear`| 74.9 | 0.284 |
+| Language pair | System | Evaluation schema | Average score | Average z-score |
+| --- | --- | --- | --- | --- |
+| → Czech | `Facebook-AI` | Bilingual direct assessment in a full document | 87.6 | 0.263 |
+| → German | `Online-B` | Bilingual direct assessment in a full document | 83.3 | 0.266 |
+| → Hausa | `Facebook-AI` | Bilingual direct assessment in a full document | 82.7 | 0.264 |
+| → Icelandic | `Facebook-AI` | Bilingual direct assessment in a full document | 84.5 | 0.594 |
+| → Japanese | `Facebook-AI` | Bilingual direct assessment in a full document | 86.4 | 0.430 |
+| → Russian | `Online-W` | Bilingual direct assessment in a full document | 83.3 | 0.277 |
+| → Chinese | `HappyNewYear`| Bilingual direct assessment in a full document | 74.9 | 0.284 |
 
 #### French ↔︎ German
-The human evaluation used bilingual direct assessment in a full document.
 
-| Language pair | System | Average score | Average z-score |
-| --- | --- | --- | --- |
-| French → German | `Online-W`| 87.7 | 0.088 |
-| German → French | `Online-B`| 87.9 | 0.160 |
+| Language pair | System | Evaluation schema | Average score | Average z-score |
+| --- | --- | --- | --- | --- |
+| French → German | `Online-W`| Bilingual direct assessment in a full document | 87.7 | 0.088 |
+| German → French | `Online-B`| Bilingual direct assessment in a full document | 87.9 | 0.160 |
 
 #### Hindi ↔︎ Bengali
-The human evaluation used direct assessment without document context.
 
-| Language pair | System | Average score | Average z-score |
-| --- | --- | --- | --- |
-| Hindi → Bengali | `HW-TSC` | 95.0 | 0.245 |
-| Bengali → Hindi | `GTCOM` | 82.1 | 0.202 |
+| Language pair | System | Evaluation schema | Average score | Average z-score |
+| --- | --- | --- | --- | --- |
+| Hindi → Bengali | `HW-TSC` | Direct assessment without document context | 95.0 | 0.245 |
+| Bengali → Hindi | `GTCOM` | Direct assessment without document context | 82.1 | 0.202 |
 
 #### Zulu ↔︎ Xhosa
-The human evaluation used direct assessment without document context.
 
-| Language pair | System | Average score | Average z-score |
-| --- | --- | --- | --- |
-| Zulu → Xhosa | `TRANSSION` | 80.7 | 0.502 |
-| Xhosa → Zulu | `HW-TSC` | 68.4 | 0.331 |
+| Language pair | System | Evaluation schema | Average score | Average z-score |
+| --- | --- | --- | --- | --- |
+| Zulu → Xhosa | `TRANSSION` | Direct assessment without document context | 80.7 | 0.502 |
+| Xhosa → Zulu | `HW-TSC` | Direct assessment without document context | 68.4 | 0.331 |
