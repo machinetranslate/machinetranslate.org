@@ -9,8 +9,6 @@ Machine Translate was founded as open resources and community for people who wan
 
 > **Less is more.**
 
-{% include collapsible_toc.html %}
-
 # 📚 Content
 
 ## Default to Wikipedia style
