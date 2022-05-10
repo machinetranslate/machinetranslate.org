@@ -12,4 +12,4 @@ description: Machine translation industry reports
 | Intento | [2019](https://blog.inten.to/state-of-the-machine-translation-june-2019-e3ffb457b76c) |
 | Intento | [2018](https://www.slideshare.net/KonstantinSavenkov/state-of-the-machine-translation-by-intento-july-2018) |
 | Intento | [2017](https://www.slideshare.net/KonstantinSavenkov/state-of-the-machine-translation-by-intento-november-2017-81574321) |
-| Memsource | [2020-2022 Q1](https://www.memsource.com/resources-directory/?content_type%5B0%5D=MT%20Report) |
+| Memsource | [2020-2022](https://www.memsource.com/resources-directory/?content_type%5B0%5D=MT%20Report) |
