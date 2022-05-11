@@ -28,4 +28,4 @@ In the translation management system (TMS) and computer-aided translation (CAT) 
 
 ### Technology
 
-The key technology for a hybrid translation workflow is [**translation risk prediction**](/../quality/quality-estimation.md).
+The key technology for a hybrid translation workflow is [**translation risk prediction**](/../quality/quality-estimation.md), which is known as *quality estimation* in the research world.
