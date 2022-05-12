@@ -106,7 +106,7 @@ In headers, capitalise only the first letter.
 
 Avoid trailing spaces and double spaces inside sentences.
 
-Separate sentences with two spaces.
+Separate sentences with a single enter.  Separate paragraphs with two enters.
 
 
 ## Dates
