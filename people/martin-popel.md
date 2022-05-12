@@ -2,7 +2,20 @@
 grand_parent: More
 parent: People
 nav_order: 2
-layout: coming_soon
 title: Martin Popel
-description:
+description: Machine translation researcher
 ---
+
+**Martin Popel** is a machine translation researcher at the [Institute of Formal and Applied Linguistics](https://ufal.mff.cuni.cz/) at Charles University in Prague.
+He is the first-author of CUBBITT, a system for English-Czech translation [published in Nature Communications](https://www.nature.com/articles/s41467-020-18073-9).
+It reaches translation quality comparable to human professionals in the news domain and is available [online](https://lindat.mff.cuni.cz/services/translation/).
+He is the technical editor of [The Prague Bulletin of Mathematical Linguistics](https://ufal.mff.cuni.cz/pbml).
+
+## Research topics
+- mainstream machine translation
+- machine translation evaluation
+- machine translation [post-editing](/../workflows/post-editing.md)
+
+## Projects
+- [Universal Dependencies](https://universaldependencies.org/): linguistic annotation framework
+- [LUSyD](https://ufal.mff.cuni.cz/grants/lusyd): language understanding in multilingual setting
