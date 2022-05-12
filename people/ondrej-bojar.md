@@ -19,3 +19,5 @@ He co-authored [Moses](http://www2.statmt.org/moses/), a system for statistical 
 - [Bergamot](https://browser.mt/): browser-based machine translation
 - [ELITR](https://elitr.eu/): simultaneous translation of European languages
 - [CzEng](https://ufal.mff.cuni.cz/czeng): large Czech-English parallel corpus
+
+[Personal webpage](https://www1.cuni.cz/~obo/).

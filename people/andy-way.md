@@ -6,3 +6,5 @@ layout: coming_soon
 title: Andy Way
 description:
 ---
+
+[Personal webpage](https://www.computing.dcu.ie/~away/).
