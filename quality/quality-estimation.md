@@ -136,3 +136,10 @@ Early quality estimation approaches created one model or system per language pai
 
 ### Multilingual
 Multilingual quality estimation uses one model or system for many language pairs, similar to multilingual machine translation systems.
+
+---
+
+### See also
+
+- [Hybrid translation](/../workflows/hybrid-translation.md)
+
