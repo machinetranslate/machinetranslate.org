@@ -224,41 +224,54 @@ Full results of the shared tasks: [*Findings of the 2020 Conference on Machine T
 
 ### News translation
 
-The results are determined through human evaluation. The winner systems are listed according to the average score and average z-score.
+The winner systems are listed according to the average score and average z-score.
 
 #### → English
+The results are determined through human evaluation featuring monolingual direct assessment with document context. 
 
-| Language pair | System | Evaluation schema | Average score | Average z-score |
-| --- | --- | --- | --- | --- |
-| Chinese → | `VolcTrans` | Monolingual direct assessment with document context | 77.5 | 0.102 |
-| Czech → | `CUNI-DocTransformer` | Monolingual direct assessment with document context | 78.3 | 0.118 |
-| German → | `VolcTrans` | Monolingual direct assessment with document context | 82.6 | 0.228 |
-| Japanese → | `Tohoku-AIP-NTT` | Monolingual direct assessment with document context | 75.1 | 0.184 |
-| Polish → | `SRPOL` | Monolingual direct assessment with document context | 77.2 | 0.131 |
-| Russian → | `Online-G` | Monolingual direct assessment with document context | 79.3 | 0.124 |
-| Tamil → | `GTCOM` | Monolingual direct assessment with document context | 68.7 | 0.203 |
-| Inuktitut → | `NiuTrans` | Monolingual direct assessment without document context | 73.1 | 0.168 |
-| Khmer → | `Online-B` | Monolingual direct assessment without document context | 69.0 | 0.168 |
-| Pashto → | `Online-B` | Monolingual direct assessment without document context | 67.3 | 0.032 |
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| Chinese → | `VolcTrans` | 77.5 | 0.102 |
+| Czech → | `CUNI-DocTransformer` | 78.3 | 0.118 |
+| German → | `VolcTrans` | 82.6 | 0.228 |
+| Japanese → | `Tohoku-AIP-NTT` | 75.1 | 0.184 |
+| Polish → | `SRPOL` | 77.2 | 0.131 |
+| Russian → | `Online-G` | 79.3 | 0.124 |
+| Tamil → | `GTCOM` | 68.7 | 0.203 |
+
+The results are determined through human evaluation featuring monolingual direct assessment without document context. 
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| Inuktitut → | `NiuTrans` | 73.1 | 0.168 |
+| Khmer → | `Online-B` | 69.0 | 0.168 |
+| Pashto → | `Online-B` | 67.3 | 0.032 |
 
 #### English →
+The results are determined through human evaluation featuring bilingual direct assessment with document context. 
 
-| Language pair | System | Evaluation schema | Average score | Average z-score |
-| --- | --- | --- | --- | --- |
-| → Chinese | `OPPO` | Bilingual direct assessment with document context | 80.0 | 0.447 |
-| → Czech | `CUNI-DocTransformer` | Bilingual direct assessment with document context | 82.2 | 0.546 |  
-| → German | `OPPO` | Bilingual direct assessment with document context | 87.4 | 0.495 |
-| → Japanese | `NiuTrans` | Bilingual direct assessment with document context | 77.7 | 0.502 |
-| → Polish | `SRPOL` | Bilingual direct assessment with document context | 76.4 | 0.493 |  
-| → Russian | `Online-G` | Bilingual direct assessment with document context | 81.5 | 0.469 |
-| → Tamil | `Facebook-AI` | Bilingual direct assessment with document context | 79.0 | 0.663 |
-| → Inuktitut | `MultiLingual-Ubiqus` | Bilingual direct assessment without document context | 75.3 | 0.425 |
-| → Khmer | `GTCOM` | Bilingual direct assessment without document context | 77.4 | 0.478 |
-| → Pashto | `GTCOM` | Bilingual direct assessment without document context | 73.0 | 0.244 |
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| → Chinese | `OPPO` | 80.0 | 0.447 |
+| → Czech | `CUNI-DocTransformer` | 82.2 | 0.546 |  
+| → German | `OPPO` | 87.4 | 0.495 |
+| → Japanese | `NiuTrans` | 77.7 | 0.502 |
+| → Polish | `SRPOL` | 76.4 | 0.493 |  
+| → Russian | `Online-G` | 81.5 | 0.469 |
+| → Tamil | `Facebook-AI` | 79.0 | 0.663 |
+
+The results are determined through human evaluation featuring bilingual direct assessment without document context. 
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| → Inuktitut | `MultiLingual-Ubiqus` | 75.3 | 0.425 |
+| → Khmer | `GTCOM` | 77.4 | 0.478 |
+| → Pashto | `GTCOM` | 73.0 | 0.244 |
 
 #### French ↔︎ German
+The results are determined through human evaluation featuring bilingual direct assessment without document context. 
 
-| Language pair | System | Evaluation schema | Average score | Average z-score |
-| --- | --- | --- | --- | --- |
-| German → French | `OPPO` | Bilingual direct assessment without document context | 90.4 | 0.279 |
-| French → German | `VolcTrans` | Bilingual direct assessment without document context | 89.8 | 0.334 |
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| German → French | `OPPO` | 90.4 | 0.279 |
+| French → German | `VolcTrans` | 89.8 | 0.334 |
