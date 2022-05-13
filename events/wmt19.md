@@ -195,42 +195,51 @@ Full results of the shared tasks: [*Findings of the 2019 Conference on Machine T
 
 ### News translation
 
-The results are determined through human evaluation. The winner systems are listed according to the average score and average z-score.
+The winner systems are listed according to the average score and average z-score.
 
 #### → English
+The results are determined through human evaluation featuring monolingual direct assessment without document context. 
 
-| Language pair | System | Evaluation schema | Average score | Average z-score |
-| --- | --- | --- | --- | --- |
-| Gujarati → | `NEU` | Monolingual direct assessment without document context | 64.8 | 0.210 |
-| Lithuanian → | `GTCOM-Primary` | Monolingual direct assessment without document context | 77.4 | 0.234 |
-| Russian → | `Facebook-FAIR` | Monolingual direct assessment without document context | 81.4 | 0.156 |
-| Chinese → | `Baidu` | Monolingual direct assessment without document context | 83.6 | 0.295 |
-| Kazakh → | `online-B` | Monolingual direct assessment without document context | 72.2 | 0.270 |
-| Finnish → | `MSRA-NAO` | Monolingual direct assessment without document context | 78.2 | 0.285 |
-| German → | `Facebook-FAIR` | Monolingual direct assessment with document context | 81.6 | 0.146 |
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| Gujarati → | `NEU` | 64.8 | 0.210 |
+| Lithuanian → | `GTCOM-Primary` | 77.4 | 0.234 |
+| Russian → | `Facebook-FAIR` | 81.4 | 0.156 |
+| Chinese → | `Baidu` | 83.6 | 0.295 |
+| Kazakh → | `online-B` | 72.2 | 0.270 |
+| Finnish → | `MSRA-NAO` | 78.2 | 0.285 |
+
+The results are determined through human evaluation featuring monolingual direct assessment with document context. 
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| German → | `Facebook-FAIR` | 81.6 | 0.146 |
 
 #### English →
+The results are determined through human evaluation featuring bilingual direct assessment with document context.
 
-| Language pair | System | Evaluation schema | Average score | Average z-score |
-| --- | --- | --- | --- | --- |
-| → German | `Facebook-FAIR` | Bilingual direct assessment with document context | 90.3 | 0.347 |
-| → Gujarati | `online-B` | Bilingual direct assessment with document context | 72.2 | 0.663 |
-| → Lithuanian | `tilde-nc-nmt` | Bilingual direct assessment with document context | 72.8 | 0.388 |
-| → Czech | `CUNI-DocTransformer-T2T` | Bilingual direct assessment with document context | 86.0 | 0.402 |
-| → Russian | `Facebook-FAIR` | Bilingual direct assessment with document context | 88.5 | 0.506 |
-| → Chinese | `KSAI` | Bilingual direct assessment with document context | 83.0 | 0.306 |
-| → Kazakh | `UAlacant-NMT` | Bilingual direct assessment with document context | 67.6 | 0.262 |
-| → Finnish | `GTCOM-Primary` | Bilingual direct assessment with document context | 82.6 | 0.586 |
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| → German | `Facebook-FAIR` | 90.3 | 0.347 |
+| → Gujarati | `online-B` | 72.2 | 0.663 |
+| → Lithuanian | `tilde-nc-nmt` | 72.8 | 0.388 |
+| → Czech | `CUNI-DocTransformer-T2T` | 86.0 | 0.402 |
+| → Russian | `Facebook-FAIR` | 88.5 | 0.506 |
+| → Chinese | `KSAI` | 83.0 | 0.306 |
+| → Kazakh | `UAlacant-NMT` | 67.6 | 0.262 |
+| → Finnish | `GTCOM-Primary` | 82.6 | 0.586 |
 
 #### German →
+The results are determined through human evaluation featuring monolingual direct assessment without document context.
 
-| Language pair | System | Evaluation schema | Average score | Average z-score |
-| --- | --- | --- | --- | --- |
-| → Czech | `online-Y` | Monolingual direct assessment without document context | 63.9 | 0.426 |
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| → Czech | `online-Y` | 63.9 | 0.426 |
 			
 #### French ↔︎ German
+The results are determined through human evaluation featuring monolingual direct assessment without document context.
 
-| Language pair | System | Evaluation schema | Average score | Average z-score |
-| --- | --- | --- | --- | --- |
-| French → German | `MSRA-MADL` | Monolingual direct assessment without document context | 82.4| 0.267 |
-| German → French | `MSRA-MADL` | Monolingual direct assessment without document context | 77.0 | 0.249 |
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| French → German | `MSRA-MADL` | 82.4| 0.267 |
+| German → French | `MSRA-MADL` | 77.0 | 0.249 |
