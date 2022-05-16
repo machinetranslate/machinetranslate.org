@@ -20,3 +20,5 @@ In 2010, Martin Popel started acting as the technical editor of [The Prague Bull
 ## Projects
 - [Universal Dependencies](https://universaldependencies.org/): linguistic annotation framework
 - [LUSyD](https://ufal.mff.cuni.cz/grants/lusyd): language understanding in multilingual setting
+
+[Personal webpage](https://ufal.mff.cuni.cz/martin-popel).
