@@ -24,15 +24,19 @@ seo:
     url: https://machinetranslate.org
 ---
 
-The first **Bay Area machine translation meetup** will take place on 11 May, 2022, in Menlo Park, California.
+The first **Bay Area machine translation meetup** took place on 11 May, 2022, in Menlo Park, California.
 
 ## Location
 
 Silicon Valley Italian Hub
 
-## Speakers
+## Program
 
-The Bay Area machine translation meetup will feature guest speakers from Amazon AI, SYSTRAN, Uber, Viva Translate, and more.
+- ***Overview of recent scientific advances in machine translation*** - Marcello Federico, AWS AI Labs
+- ***Customization of NMT on-the-fly using Neural Fuzzy Adaptation*** - Hugh Aitchison, SYSTRAN
+- **Providers panel** - Arjun Rattan, Google; Hugh Aitchison, SYSTRAN
+- **Users panel** - Belinda Mo, Viva Translate
+
 
 ## Link
 

@@ -59,6 +59,7 @@ The **Seventh Conference on Machine Translation** (**WMT22**) is set to take pla
 - Robustness
 - [Triangual machine translation](https://www.statmt.org/wmt22/triangular-mt-task.html)
 - [Large-scale multilingual](https://www.statmt.org/wmt22/large-scale-multilingual-translation-task.html)
+- [Efficiency](https://www.statmt.org/wmt22/efficiency-task.html)
 - To be determined
 
 The *News* machine translation task has been renamed the *General* machine translation task.

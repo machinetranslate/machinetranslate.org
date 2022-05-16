@@ -165,8 +165,8 @@ description: Content roadmap for Machine Translate
 - ~~[Alon Lavie](/community/people/alon-lavie.md)~~
 - ~~[Lucia Specia](/community/people/lucia-specia.md)~~
 - [Jaime Carbonell \[#106\]](https://github.com/machinetranslate/machinetranslate.org/issues/106)
-- [Ondřej Bojar \[#169\]](https://github.com/machinetranslate/machinetranslate.org/issues/169)
-- [Martin Popel \[#170\]](https://github.com/machinetranslate/machinetranslate.org/issues/170)
+- ~~[Ondřej Bojar \[#169\]](https://github.com/machinetranslate/machinetranslate.org/issues/169)~~
+- ~~[Martin Popel \[#170\]](https://github.com/machinetranslate/machinetranslate.org/issues/170)~~
 - [Andy Way \[#171\]](https://github.com/machinetranslate/machinetranslate.org/issues/171)
 - [Yehoshua Bar-Hillel \[177\]](https://github.com/machinetranslate/machinetranslate.org/issues/177)
 - [Jean Senellart \[227\]](https://github.com/machinetranslate/machinetranslate.org/issues/227)
