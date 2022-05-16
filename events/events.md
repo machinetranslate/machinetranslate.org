@@ -27,6 +27,7 @@ featured: true
 | 12 October | [**LoResMT 2022**](loresmt2022.md) | online |
 | 12 September | [**AMTA 2022**](amta2022.md) | Orlando, Florida |
 | 5-10 September | [**MT Marathon**](mtm2022.md) | Prague, Czech Republic |
+| 18-22 July | [**MT Marathon in the Americas**](https://mtma2022.z5.web.core.windows.net/) | Redmond, Washington |
 | 2 July | [**NeTTT Conference**](nettt2022.md) | Rhodes, Greece |
 | 13 June | [**Machine Translation Meetup 10**](zurich-10.md) | Zurich, Switzerland |
 | 1 June | [**EAMT 2022**](eamt2022.md) | Ghent, Belgium |
