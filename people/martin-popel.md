@@ -8,8 +8,8 @@ description: Machine translation researcher
 
 **Martin Popel** is a machine translation researcher at the [Institute of Formal and Applied Linguistics](https://ufal.mff.cuni.cz/) at Charles University in Prague.
 He is the first author of CUBBITT, a system for English-Czech translation published in [Nature Communications](https://www.nature.com/articles/s41467-020-18073-9).
-The system output quality is comparable to human translators quality in the news domain.
-CUBBITT is available online on the [LINDAT website](https://lindat.mff.cuni.cz/services/translation/)..
+The system output quality is comparable to human translators' quality in the news domain.
+CUBBITT is available online on the [LINDAT website](https://lindat.mff.cuni.cz/services/translation/).
 In 2010, Martin Popel started acting as the technical editor of [The Prague Bulletin of Mathematical Linguistics](https://ufal.mff.cuni.cz/pbml).
 
 ## Research topics
