@@ -38,6 +38,7 @@ Silicon Valley Italian Hub
 - **Users panel** - Belinda Mo, Viva Translate
 
 
-## Link
+## Links
 
 Meetup: [meetup.com/machinetranslate/events/285533813/](https://www.meetup.com/machinetranslate/events/285533813/)
+Systran: [Presentation](/files/SYSTRAN-NFA-Overview_hugh.pptx)
