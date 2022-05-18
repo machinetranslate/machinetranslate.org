@@ -40,5 +40,5 @@ Silicon Valley Italian Hub
 
 ## Links
 
-Meetup: [meetup.com/machinetranslate/events/285533813/](https://www.meetup.com/machinetranslate/events/285533813/)
-Systran: [Presentation](/files/SYSTRAN-NFA-Overview_hugh.pptx)
+- Meetup: [meetup.com/machinetranslate/events/285533813/](https://www.meetup.com/machinetranslate/events/285533813/)
+- Systran: [Neural Fuzzy Adaptation (NFA)](/files/SYSTRAN-NFA-Overview_hugh.pptx)
