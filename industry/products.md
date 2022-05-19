@@ -26,38 +26,52 @@ Raw models usually do not include the features included in many production syste
 - HTML/XML tag handling
 
 
-| Company | Product | Self-serve |
+| Product | Company | Self-serve |
 | --- | --- | :-: |
-| Google | Google Translate | &#10004; |
-| [LingvaNex](/../industry/companies.md#lingvanex) | Translation API | &#10004; |
-| Yandex | Translate API | &#10004; |
-| Microsoft | Translator Text API | &#10004; |
-| Amazon | Translate API | &#10004; |
-| [ModernMT](/../industry/companies.md#modernmt) | API | &#10004; |
-| IBM | Watson Language Translator | &#10004; |
-| Baidu | 翻译API | &#10004; |
-| [DeepL](/../industry/companies.md#deepl) | API | &#10004; |
-| Alibaba | Machine Translation | &#10004; |
-| [Systran](/../industry/companies.md#systran) | Systran Translate Pro | &#10004; |
-| [Unbabel](/../industry/companies.md#unbabel) | Unbabel Translate | |
-| [Lilt](/../industry/companies.md#lilt) | Lilt Translate | |
-| [Tilde](/../industry/companies.md#tilde) | TildeMT | |
-| [Omniscien](/../industry/companies.md#omniscien-technologies) | Language Studio | |
-| [KantanMT](/../industry/companies.md#kantanmt) | Translate AI | |
-| [Pangeanic](/../industry/companies.md#pangeanic) | PangeaMT | |
-| TextShuttle | TextShuttle AI Translation | |
-| Globalese | Globalese | |
-| RWS Group | Language Weaver (Iconic) | &#10004; |
-| Mirai Translate | Mirai Translator | &#10004; |
+| Google Translate | Google | &#10004; |
+| Translation API | [Lingvanex](/../industry/companies.md#lingvanex) | &#10004; |
+| Translate API | Yandex | &#10004; |
+| Translator Text API | Microsoft | &#10004; |
+| Translate API | Amazon | &#10004; |
+| ModernMT API | [Translated](/../industry/companies.md#translated) | |
+| Watson Language Translator | IBM | &#10004; |
+| 翻译API | Baidu | &#10004; |
+| API | [DeepL](/../industry/companies.md#deepl) | &#10004; |
+| Machine Translation | Alibaba | &#10004; |
+| Systran Translate Pro | [SYSTRAN](/../industry/companies.md#systran) | &#10004; |
+| Unbabel Translate | [Unbabel](/../industry/companies.md#unbabel) | |
+| Lilt Translate | [Lilt](/../industry/companies.md#lilt) | |
+| TildeMT | [Tilde](/../industry/companies.md#tilde) | |
+| Language Studio | [Omniscien Technologies](/../industry/companies.md#omniscien-technologies) | |
+| Translate AI | [KantanMT](/../industry/companies.md#kantanmt) | |
+| PangeaMT | [Pangeanic](/../industry/companies.md#pangeanic) | |
+| TextShuttle AI Translation | [TextShuttle](/../industry/companies.md#textshuttle) | |
+| Globalese API | Globalese | |
+| API | [ImageTranslate](/../industry/companies.md#imagetranslate) | |
+| Xinyi | [Zhongke Fanyu Technology](/../industry/companies.md#zhongke-fanyu-technology) | |
+| API | [Language I/O](/../industry/companies.md#language-io) | |
+| Lengoo Translate | [Lengoo](/../industry/companies.md#lengoo) | |
+| NICT NMT | [Japan Patent Translation Co.](/../industry/companies.md#japan-patent-translation-co) | |
+| API | [Xiaoniu Fanyi](/../industry/companies.md#xiaoniu-fanyi) | |
+| API | [Lingua Custodia](/../industry/companies.md#lingua-custodia) | |
+| PROMT Neural Translation Server | [PROMT](/../industry/companies.md#promt) | |
+| API | [AppTek](/../industry/companies.md#apptek) | |
+| Kode AI | Kodensha | |
+| Bering Lab MT | [Bering Lab](/../industry/companies.md#bering-lab) | &#10004; |
+| Language Weaver (Iconic) | RWS Group | &#10004; |
+| Mirai Translator | Mirai Translate | &#10004; |
+| LETR | Twigfarm | &#10004; |
+| Lex Machina | Hieronymus | &#10004; |
+| Judicio | CrossLang | &#10004; |
 
 
 ## Machine translation aggregators
 
-| Company | Product | Self-serve |
+| Product | Company | Self-serve |
 | --- | --- | :-: |
-| [ModelFront](/../industry/companies.md#modelfront) | ModelFront API | &#10004; |
-| [Intento](/../industry/companies.md#intento) | Intento API | &#10004; |
-| Eden AI | Eden AI for Machine Translation | &#10004; |
+| ModelFront API | [ModelFront](/../industry/companies.md#modelfront) | &#10004; |
+| Intento API | [Intento](/../industry/companies.md#intento) | &#10004; |
+| Eden AI for Machine Translation | Eden AI | &#10004; |
 
 
 ## See also
