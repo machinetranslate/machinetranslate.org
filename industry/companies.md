@@ -16,7 +16,7 @@ Since the advent of statistical machine translation and neural machine translati
 
 ## 2022
 
-### Eleven
+### Eleven Labs
 - [elevenlabs.io](https://www.elevenlabs.io/)
 
 
@@ -80,7 +80,6 @@ Raised $5.5M from Gutbrain, PBJ, Omega and angels
 ## 2016
 
 ### Kites
-- [kites.ai](https://www.kites.ai/)
 - [Crunchbase - Kites](https://www.crunchbase.com/organization/kites-edaf)
 
 Acquired by Zoom in 2021
@@ -210,6 +209,15 @@ Acquired by TransPerfect in 2018
 ### Omniscien Technologies
 - [omniscien.com](https://omniscien.com/)
 - [Crunchbase - Omniscien Technologies](https://www.crunchbase.com/organization/omniscien-technologies-trading)
+
+
+## 2005
+
+### ModernMT
+- [modernmt.com](https://www.modernmt.com/)
+- [Crunchbase - ModernMT](https://www.crunchbase.com/organization/modernmt)
+
+Merged with Translated in 2022
 
 
 ## 2002
