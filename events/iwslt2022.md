@@ -129,10 +129,10 @@ Friday, 27 May, 2022
 
 |    |    |
 | -- | -- |
-| Jan 15 | Release of shared task training and dev data |
-| Mar 13 | Technical paper submission deadline |
-| Mar 14-25 | Evaluation period |
-| Apr 1 | System paper submission deadline |
-| Apr 22 | Paper notification |
-| May 1 | Camera ready deadline |
-| May 26-27 | IWSLT conference |
+| 15 January | Release of shared task training and dev data |
+| 13 March | Technical paper submission deadline |
+| 14-25 March | Evaluation period |
+| 1 April | System paper submission deadline |
+| 22 April | Paper notification |
+| 1 May | Camera ready deadline |
+| 26-27 May | IWSLT conference |
