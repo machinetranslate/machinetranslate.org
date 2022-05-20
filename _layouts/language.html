@@ -2,6 +2,6 @@
 layout: default
 ---
 
-{% assign language = site.data.languages[page.language] %}
+{% assign language = site.data.languages | where: "code", "{{ page.code }}" | first %}
 
 <h1>{{ language.name }}</h1>
