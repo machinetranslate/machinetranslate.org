@@ -8,8 +8,8 @@ description: Machine translation language support
 <ul>
 {% for language in site.data.languages %}
   <li>
-    <a href="/{{ language.name | slugify }}">
-      {{ language.code }} {{ language.name }}
+    {{ language.code }} <a href="/{{ language.name | slugify }}">
+      {{ language.name }}
     </a>
   </li>
 {% endfor %}
