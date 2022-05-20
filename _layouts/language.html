@@ -3,19 +3,18 @@ layout: default
 parent: Languages
 ---
 
-{% assign language = site.data.languages | where: "code", page.code | first %}
-
-<h1>{{ language.name }}</h1>
-
+<h1>
+  {{ page.title }}
+</h1>
 <h2>
-  Machine translation for {{ language.name }}
+  {{ page.description }}
 </h2>
 
 <hr/>
 
 {{ content }}
 
-<hr/>
+{% assign language = site.data.languages | where: "code", page.code | first %}
 
 <h3>Support</h3>
 <ul>
