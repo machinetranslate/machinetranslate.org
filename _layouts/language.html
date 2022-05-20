@@ -1,16 +1,33 @@
 ---
 layout: default
+title: 
 ---
-
-<h1>Language</h1>
-
-{{ page.code }}
-
-{{ site.data.languages }}
 
 {% assign language = site.data.languages | where: "code", page.code | first %}
 
 {{ language }}
 
 <h1>{{ language.name }}</h1>
+
+<h2>
+  Machine translation for {{ language.name }}
+</h2>
+
+<hr/>
+
+{{ content }}
+
+<hr/>
+
+<ul>
+  {% for engine in site.data.engines %}
+    {% if engine.languages contains page.code %}
+      <li>
+        <a href="/{{ engine.name | slugify }}">
+          {{ engine.name }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
