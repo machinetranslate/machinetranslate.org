@@ -1,3 +1,5 @@
 ---
-- name: DeepL
+deepl:
+  name: DeepL
+  domain: deepl.com
   languages: [ bg, zh, cz, da, nl, en-us, en-gb, et, fi, fr, de, el, hu, id, it, ja, lv, lt, pl, pt-br, pt, ro, ru, sl, sk, es, sv, tr ]
