@@ -8,7 +8,7 @@ layout: default
 
 {{ site.data.languages }}
 
-{% assign language = site.data.languages | where: "code", "{{ page.code }}" | first %}
+{% assign language = site.data.languages | where: "code", page.code | first %}
 
 {{ language }}
 
