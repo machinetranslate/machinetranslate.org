@@ -1,5 +1,6 @@
 --- 
 es:
+  code: es
   name: Spanish
   family: roa
   scripts: [ Latn ]
@@ -9,6 +10,7 @@ es:
   variants: [ es, 419, ar, bo, cl, co, cr, do, ec, sv, gt, hn, mx, ni, pa, py, pe, pr, es, uy, ve, us ]
 
 tr:
+  code: tr
   name: Turkish
   family: trk
   scripts: [ Latn ]
@@ -18,6 +20,7 @@ tr:
   variants: [ tr, cy ]
 
 ru:
+  code: ru
   name: Russian
   family: sla
   scripts: [ Cyrl ]
