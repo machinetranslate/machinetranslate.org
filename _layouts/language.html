@@ -17,11 +17,9 @@ title:
 
 <hr/>
 
-{{ site.data.engines }}
-
+<h3>Support</h3>
 <ul>
   {% for engine in site.data.engines %}
-    {{ engine.languages }}
     {% if engine.languages contains page.code %}
       <li>
         <a href="/{{ engine.name | slugify }}">
@@ -31,4 +29,3 @@ title:
     {% endif %}
   {% endfor %}
 </ul>
-
