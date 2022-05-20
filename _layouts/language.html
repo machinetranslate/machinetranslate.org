@@ -5,8 +5,6 @@ title:
 
 {% assign language = site.data.languages | where: "code", page.code | first %}
 
-{{ language }}
-
 <h1>{{ language.name }}</h1>
 
 <h2>
@@ -19,8 +17,11 @@ title:
 
 <hr/>
 
+{{ site.data.engines }}
+
 <ul>
   {% for engine in site.data.engines %}
+    {{ engine.languages }}
     {% if engine.languages contains page.code %}
       <li>
         <a href="/{{ engine.name | slugify }}">
