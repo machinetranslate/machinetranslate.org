@@ -163,7 +163,7 @@ Raised €2.7M from private investors
 - [kantanai.io](https://www.kantanai.io/)
 - [Crunchbase - KantanMT](https://www.crunchbase.com/organization/kantanmt)
 
-Acquired by Keyword for €7M in 2019
+Acquired by Keywords Studios for €7M in 2019
 
 
 ## 2009
@@ -172,7 +172,7 @@ Acquired by Keyword for €7M in 2019
 - [deepl.com](https://www.deepl.com/translator)
 - [Crunchbase - DeepL](https://www.crunchbase.com/organization/linguee)
 
-Raised from Benchmark and btov
+Raised from Benchmark and btov Partners
 
 ### Safaba
 - [Crunchbase - Safaba](https://www.crunchbase.com/organization/safaba-translation-solutions)
