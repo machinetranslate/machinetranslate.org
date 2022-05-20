@@ -4,13 +4,3 @@ layout: default
 
 {{ page.code }}
 
-{{ site.data.languages }}
-
-{{ site.data.languages | where: "code", "{{ page.code }}" }}
-
-{% assign language = site.data.languages | where: "code", "{{ page.code }}" | first %}
-
-{{ language }}
-
-<h1>{{ language.name }}</h1>
-
