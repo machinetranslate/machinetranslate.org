@@ -1,5 +1,5 @@
 --- 
-es:
+-
   code: es
   name: Spanish
   family: roa
@@ -9,7 +9,7 @@ es:
     - inflected
   variants: [ es, 419, ar, bo, cl, co, cr, do, ec, sv, gt, hn, mx, ni, pa, py, pe, pr, es, uy, ve, us ]
 
-tr:
+-
   code: tr
   name: Turkish
   family: trk
@@ -19,7 +19,7 @@ tr:
     - agglutinative
   variants: [ tr, cy ]
 
-ru:
+-
   code: ru
   name: Russian
   family: sla
