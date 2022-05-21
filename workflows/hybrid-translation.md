@@ -30,6 +30,13 @@ In the translation management system (TMS) and computer-aided translation (CAT) 
 
 The key technology for a hybrid translation workflow is [**translation risk prediction**](/../quality/quality-estimation.md), which is known as *quality estimation* in the research world.
 
+### Adoption
+The first companies to adopt the hybrid translation workflow built quality estimation internally.
+- Microsoft
+- VMWare
+- Wayfair
+
+
 ---
 
 ### See also
