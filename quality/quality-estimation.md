@@ -102,6 +102,7 @@ More companies have researched and launched quality estimation internally.  They
 - eBay
 - Facebook AI Research
 - MusixMatch
+- Wayfair
 
 *Note: This list is incomplete.*
 
