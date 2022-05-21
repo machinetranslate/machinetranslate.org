@@ -21,11 +21,13 @@ Quality estimation models predict the quality based on either specific features 
 
 Quality estimation has offline and production use cases:
 
-* Comparing machine translation systems or translation models
 * [Hybrid translation](/../workflows/hybrid-translation.md)
 * Estimating [post-editing](/../workflows/post-editing.md) effort
 * Validating final human translations
+* Comparing machine translation systems or translation models
 * Filtering training data for machine translation
+
+The main use case is hybrid translation.
 
 
 ### Granularity
