@@ -98,14 +98,16 @@ translate5 is open-source.
 More companies have researched or launched quality estimation internally.  They do not provide quality estimation to others.
 - Amazon
 - Microsoft
-- Transperfect
-- Unbabel
 - VMware
+- Facebook AI Research
 - eBay
 - SAP
-- Facebook AI Research
 - MusixMatch
 - Wayfair
+- Unbabel
+- Transperfect
+- CrossLang
+- Fair Trade Translation
 
 *Note: This list is incomplete.*
 
