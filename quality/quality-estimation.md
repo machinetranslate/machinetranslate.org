@@ -93,13 +93,14 @@ translate5 is open-source.
 
 ### Internal systems
 
-More companies have researched and launched quality estimation internally.  They do not provide quality estimation to others.
+More companies have researched or launched quality estimation internally.  They do not provide quality estimation to others.
 - Amazon
 - Microsoft
 - Transperfect
 - Unbabel
 - VMware
 - eBay
+- SAP
 - Facebook AI Research
 - MusixMatch
 - Wayfair
