@@ -36,7 +36,6 @@ The first companies to adopt the hybrid translation workflow built quality estim
 - VMWare
 - Wayfair
 
-
 ---
 
 ### See also
