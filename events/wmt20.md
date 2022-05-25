@@ -224,7 +224,7 @@ Full results of the shared tasks: [*Findings of the 2020 Conference on Machine T
 
 ### News translation
 
-The winner systems are listed according to the average score and average z-score.
+The winner systems are listed according to their average score and z-score.
 
 #### → English
 The results are determined through human evaluation featuring monolingual direct assessment with document context. 
