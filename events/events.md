@@ -31,7 +31,7 @@ featured: true
 | 2 July | [**NeTTT Conference**](nettt2022.md) | Rhodes, Greece |
 | 13 June | [**Machine Translation Meetup 10**](zurich-10.md) | Zurich, Switzerland |
 | 1 June | [**EAMT 2022**](eamt2022.md) | Ghent, Belgium |
-| 26-27 May | [**IWSLT 2022**](iwslt2022.md) | Dublin, Ireland |
+| 26-27 May | [IWSLT 2022](iwslt2022.md) | Dublin, Ireland |
 | 16-17 May | Fraud: [ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science](#icmtcs) | online |
 | 11 May | [San Francisco Bay Area machine translation meetup](bay-area-meetup-1.md) | Menlo Park, California |
 | 29 April | [Using machine translation in healthcare](https://www.surrey.ac.uk/events/20220429-when-and-how-can-online-translation-tools-not-help-us-bridge-language-and-cultural-gap-between) | online |
