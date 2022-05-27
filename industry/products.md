@@ -26,53 +26,62 @@ Raw models usually do not include the features included in many production syste
 - HTML/XML tag handling
 
 
-| Product | Company | Self-serve |
-| --- | --- | :-: |
-| Google Translate | Google | &#10004; |
-| Translation API | [Lingvanex](/../industry/companies.md#lingvanex) | &#10004; |
-| Translate API | Yandex | &#10004; |
-| Translator Text API | Microsoft | &#10004; |
-| Translate API | Amazon | &#10004; |
-| ModernMT API | [Translated](/../industry/companies.md#translated) | |
-| Watson Language Translator | IBM | &#10004; |
-| 翻译API | Baidu | &#10004; |
-| API | [DeepL](/../industry/companies.md#deepl) | &#10004; |
-| Machine Translation | Alibaba | &#10004; |
-| Systran Translate Pro | [SYSTRAN](/../industry/companies.md#systran) | &#10004; |
-| Unbabel Translate | [Unbabel](/../industry/companies.md#unbabel) | |
-| Lilt Translate | [Lilt](/../industry/companies.md#lilt) | |
-| TildeMT | [Tilde](/../industry/companies.md#tilde) | |
-| Language Studio | [Omniscien Technologies](/../industry/companies.md#omniscien-technologies) | |
-| Translate AI | [KantanMT](/../industry/companies.md#kantanmt) | |
-| PangeaMT | [Pangeanic](/../industry/companies.md#pangeanic) | |
-| TextShuttle AI Translation | [TextShuttle](/../industry/companies.md#textshuttle) | |
-| Globalese API | Globalese | |
-| API | [ImageTranslate](/../industry/companies.md#imagetranslate) | |
-| Xinyi | [Zhongke Fanyu Technology](/../industry/companies.md#zhongke-fanyu-technology) | |
-| API | [Language I/O](/../industry/companies.md#language-io) | |
-| Lengoo Translate | [Lengoo](/../industry/companies.md#lengoo) | |
-| NICT NMT | [Japan Patent Translation Co.](/../industry/companies.md#japan-patent-translation-co) | |
-| API | [Xiaoniu Fanyi](/../industry/companies.md#xiaoniu-fanyi) | |
-| API | [Lingua Custodia](/../industry/companies.md#lingua-custodia) | |
-| PROMT Neural Translation Server | [PROMT](/../industry/companies.md#promt) | |
-| API | [AppTek](/../industry/companies.md#apptek) | |
-| Kode AI | Kodensha | |
-| Bering Lab MT | [Bering Lab](/../industry/companies.md#bering-lab) | &#10004; |
-| Language Weaver (Iconic) | RWS Group | &#10004; |
-| Mirai Translator | Mirai Translate | &#10004; |
-| LETR | Twigfarm | &#10004; |
-| Lex Machina | Hieronymus | &#10004; |
-| Judicio | CrossLang | &#10004; |
-
+| Product | Self-serve |
+| --- | --- |
+| NiuTrans API by **[Xiaoniu Fanyi](/../industry/companies.md#xiaoniu-fanyi)** | |
+| [KantanMT](/../industry/companies.md#kantanmt) by **Keywords Studios** | |
+| **Google** Translate | ✔ |
+| **Microsoft** Translator Text API | ✔ |
+| **[LingvaNex](/../industry/companies.md#lingvanex)** Translator | ✔ |
+| **[Language I/O](/../industry/companies.md#language-io)** Translation API | |
+| **Yandex** Translate | ✔ |
+| **BytePlus** Translate | ✔ |
+| **Amazon** Translate | ✔ |
+| Xinyi by **[Zhongke Fanyu Technology](/../industry/companies.md#zhongke-fanyu-technology)** | |
+| **[AppTek](/../industry/companies.md#apptek)** API | |
+| [Language Weaver](/../industry/companies.md#language-weaver) [(Iconic)](/../industry/companies.md#iconic-translation-machines) by **RWS Group** | ✔ |
+| [ModernMT](/../industry/companies.md#modernmt) by **[Translated](/../industry/companies.md#translated)** | ✔ |
+| **IBM** Watson Language Translator | ✔ |
+| **[SYSTRAN](/../industry/companies.md#systran)** Translate Pro | ✔ |
+| Language Studio by **[Omniscien Technologies](/../industry/companies.md#omniscien-technologies)** | |
+| **[Lilt](/../industry/companies.md#lilt)** Translate | |
+| **[PROMT](/../industry/companies.md#promt)** Neural Translation Server | |
+| **[ImageTranslate](/../industry/companies.md#imagetranslate)** API | |
+| Kode AI by **Kodensha** | |
+| **Globalese** API | |
+| NICT NMT by **[Japan Patent Translation Co.](/../industry/companies.md#japan-patent-translation-co)** | |
+| **[Unbabel](/../industry/companies.md#unbabel)** Translate | |
+| **Baidu** Translate | ✔ |
+| **[Tilde](/../industry/companies.md#tilde)** MT | |
+| **[DeepL](/../industry/companies.md#deepl)** API | ✔ |
+| **Alibaba** Machine Translation | ✔ |
+| **[Lengoo](/../industry/companies.md#lengoo)** Translate | |
+| **Mirai** Translator | ✔ |
+| PangeaMT by **[Pangeanic](/../industry/companies.md#pangeanic)** | |
+| **[Lingua Custodia](/../industry/companies.md#lingua-custodia)** API | |
+| **[TextShuttle](/../industry/companies.md#textshuttle)** AI Translation | |
+| Lex Machina by **Hieronymus** | ✔ |
+| Judicio by **CrossLang** | ✔ |
+| **[Bering Lab](/../industry/companies.md#bering-lab)** MT | ✔ |
+| LETR by **Twigfarm** | ✔ |
 
 ## Machine translation aggregators
 
-| Product | Company | Self-serve |
-| --- | --- | :-: |
-| ModelFront API | [ModelFront](/../industry/companies.md#modelfront) | &#10004; |
-| Intento API | [Intento](/../industry/companies.md#intento) | &#10004; |
-| Eden AI for Machine Translation | Eden AI | &#10004; |
+| Product | Self-serve |
+| --- | --- |
+| **[Intento](/../industry/companies.md#intento)** MT Hub | ✔ |
+| **[ModelFront](/../industry/companies.md#modelfront)** API | ✔ |
+| **Eden AI** API | ✔ |
 
+## Training and benchmarking tools
+
+| Product | Self-serve |
+| --- | --- |
+| **[Intento](/../industry/companies.md#intento)** MT Studio | ✔ |
+| **Lionbridge** MT Tracker | ✔ |
+| **[Unbabel](/../industry/companies.md#unbabel)** MT-Telescope | ✔ |
+| **aiXplain** MT | |
+| Custom.MT | |
 
 ## See also
 
