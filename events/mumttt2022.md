@@ -20,7 +20,8 @@ seo:
 ---
 
 The 5th Workshop on Multi-word Units in Machine Translation and Translation Technology (**MUMTTT 2022**) will be held in conjunction with the International Conference “Computational and Corpus-based Phraseology”.
-MUMTTT 2022 will take place on 5 September, 2022, in Malaga, Spain.
+
+The MUMTTT 2022 workshop will take place on 5 September, 2022, in Malaga, Spain.
 
 The conference is jointly organised by the European Association for Phraseology (EUROPHRAS), the University of Malaga, the University of Wolverhampton, and the Bulgarian Association for Computational Linguistics.
 
@@ -74,11 +75,15 @@ The conference is jointly organised by the European Association for Phraseology 
 ### Submission Guidelines
 
 ```
-Submissions must consist of full-text papers and should not exceed 7 pages excluding references, they should be minimum of 5 pages long. The accepted papers will be published as workshop e-proceedings together with Europhras short papers and posters with ISBN, will be assigned a DOI and will be also available at the time of the conference. The papers should be in English.
+Submissions must consist of full-text papers and should not exceed 7 pages excluding references, they should be minimum of 5 pages long.
+The accepted papers will be published as workshop e-proceedings together with Europhras short papers and posters with ISBN, will be assigned a DOI and will be also available at the time of the conference.
+The papers should be in English.
 
 Authors of accepted papers will receive guidelines regarding how to produce camera-ready versions of their papers for inclusion in the proceedings.
 
-Each submission will be reviewed by at least three programme committee members. Accepted papers will be presented orally or as posters, as determined by the programme committee. There will be no distinction in the workshop proceedings between papers presented orally or as posters.
+Each submission will be reviewed by at least three programme committee members.
+Accepted papers will be presented orally or as posters, as determined by the programme committee.
+There will be no distinction in the workshop proceedings between papers presented orally or as posters.
 
 ```
 
