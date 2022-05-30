@@ -90,9 +90,9 @@ Acquired by Zoom in 2021
 
 Raised $4M from Berkeley Skydeck and angels
 
-### Lingvanex
+### LingvaNex
 - [lingvanex.com](https://lingvanex.com/)
-- [Crunchbase - Lingvanex](https://www.crunchbase.com/organization/lingvanex)
+- [Crunchbase - LingvaNex](https://www.crunchbase.com/organization/lingvanex)
 
 
 ## 2015
@@ -217,7 +217,7 @@ Acquired by TransPerfect in 2018
 - [modernmt.com](https://www.modernmt.com/)
 - [Crunchbase - ModernMT](https://www.crunchbase.com/organization/modernmt)
 
-Merged with Translated in 2022
+Acquired by Translated in 2022
 
 
 ## 2002
