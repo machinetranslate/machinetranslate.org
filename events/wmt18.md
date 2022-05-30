@@ -189,7 +189,7 @@ Full results of the shared tasks: [*Findings of the 2018 Conference on Machine T
 
 ### News translation
 
-The results are determined through human evaluation featuring monolingual [direct assessment](events/wmt-terminology.md#direct-assessment). The winner systems are listed according to their [average score and z-score](events/wmt-terminology.md#average-score-and-z-score).
+The results are determined through human evaluation featuring [monolingual](events/wmt-terminology.md#monolingual-or-reference-based-evaluation) [direct assessment](events/wmt-terminology.md#direct-assessment). The winner systems are listed according to their [average score and z-score](events/wmt-terminology.md#average-score-and-z-score).
 
 #### → English
 
