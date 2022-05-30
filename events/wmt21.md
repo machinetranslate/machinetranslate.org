@@ -216,10 +216,10 @@ Full results of the shared tasks: [*Findings of the 2021 Conference on Machine T
 
 ### News translation
 
-The winner systems are listed according to their average score and z-score.
+The winner systems are listed according to their [average score and z-score](events/wmt-terminology.md#average-score-and-z-score).
 
 #### → English
-The results are determined through human evaluation featuring monolingual direct assessment with document context.
+The results are determined through human evaluation featuring [monolingual](events/wmt-terminology.md#monolingual-or-reference-based-evaluation) [direct assessment](events/wmt-terminology.md#direct-assessment) with document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -232,7 +232,7 @@ The results are determined through human evaluation featuring monolingual direct
 | Chinese → | `NiuTrans`| 75.0 | 0.042 |
 
 #### English →
-The results are determined through human evaluation featuring bilingual direct assessment in a full document.
+The results are determined through human evaluation featuring [bilingual](events/wmt-terminology.md#bilingual-or-source-based-evaluation) direct assessment in a full document.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
