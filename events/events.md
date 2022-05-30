@@ -25,7 +25,7 @@ featured: true
 | December | [**WMT22**](wmt22.md) | Abu Dhabi, United Arab Emirates |
 | December | **AAMT 2022** | |
 | 12 October | [**LoResMT 2022**](loresmt2022.md) | online |
-| 30 September | **MUMTTT 2022** | Malaga, Spain |
+| 30 September | [**MUMTTT 2022**](mumttt2022.md) | Malaga, Spain |
 | 12 September | [**AMTA 2022**](amta2022.md) | Orlando, Florida |
 | 5-10 September | [**MT Marathon**](mtm2022.md) | Prague, Czech Republic |
 | 18-22 July | [**MT Marathon in the Americas**](https://mtma2022.z5.web.core.windows.net/) | Redmond, Washington |
