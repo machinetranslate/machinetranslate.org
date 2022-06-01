@@ -49,6 +49,7 @@ Raw models usually do not include the features included in many production syste
 | **[ImageTranslate](/../industry/companies.md#imagetranslate)** API | |
 | Kode AI by **Kodensha** | ✔ |
 | **Globalese** API | |
+| **[XL8](/../industry/companies.md#xl8)** Skroll | ✔ |
 | NICT NMT by **[Japan Patent Translation Co.](/../industry/companies.md#japan-patent-translation-co)** | |
 | **[Unbabel](/../industry/companies.md#unbabel)** Translate | ✔ |
 | **Baidu** Translate | ✔ |
