@@ -54,6 +54,12 @@ Funded by NAVER D2 Startup Factory and others
 
 Raised $50K from angel investors
 
+### XL8
+- [xl8.ai](https://www.xl8.ai/)
+- [Crunchbase - XL8](https://www.crunchbase.com/organization/xl8-inc)
+
+Funded by FuturePlay
+
 
 ## 2018
 
