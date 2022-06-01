@@ -101,7 +101,6 @@ More companies have researched or launched quality estimation internally.  They 
 - VMware
 - Facebook AI Research
 - eBay
-- Netflix
 - SAP
 - MusixMatch
 - Wayfair
