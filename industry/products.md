@@ -82,7 +82,6 @@ Raw models usually do not include the features included in many production syste
 | **Lionbridge** MT Tracker | ✔ |
 | MT-Telescope by **[Unbabel](/../industry/companies.md#unbabel)** | ✔ |
 | Benchmark by **aiXplain** | ✔ |
-| Custom.MT | ✔ |
 
 ## See also
 
