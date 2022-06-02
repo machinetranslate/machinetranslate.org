@@ -122,7 +122,7 @@ MT Literacy is funded by the Government of Canada through the Social Sciences an
 
 > **MaCoCu** focuses on collecting monolingual and parallel data from the Internet, specially for under-resourced languages and DSI-specific data.
 
-MaCoCu started in June 2021 and will take place until June 2023.
+MaCoCu started in June 2021 and will take place until June 2023. In the first year of the project, it has made available massive monolingual and parallel web corpora for Turkish, Bulgarian, Croatian, Slovene, Macedonian, Icelandic and Maltese.
 
 MaCoCu is lead by multiple groups:
 - Transducens research group (University of Alicante)
