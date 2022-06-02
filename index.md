@@ -27,11 +27,13 @@ The content covers everything about machine translation, from products to resear
 
 > [Quality estimation](/quality/quality-estimation.md)
 
-> [Data confidentiality](/industry/data-confidentiality.md)
-
 > [Companies](/industry/companies.md)
 
+> [Parallel data](/customisation/parallel-data.md)
+
 > [Adaptive machine translation](/customisation/adaptive.md)
+
+> [Data confidentiality](/industry/data-confidentiality.md)
 
 
 ## Contributing
