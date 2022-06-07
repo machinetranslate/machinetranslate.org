@@ -1,9 +1,19 @@
 ---
 grand_parent: More
 parent: People
-nav_order: 13
+nav_order: 30
 title: John Hutchins
 description: Linguist and early machine translation researcher
+seo:
+  type: Person
+  birthDate: 1939-01-27
+  birthPlace: Saint Pancras, London
+  deathDate: 2021-01-19
+  additionalName: William John Hutchins
+
+  hasOccupation:
+   type: Occupation
+   name: linguist, information scientist
 ---
 
 **John Hutchins** was a linguist and information scientist who researched machine translation.
@@ -18,3 +28,11 @@ He was the editor of *MT News International* from 1992 to 1997, and of *Compendi
 
 He was the president of the [European Association of Machine Translation](/../associations/eamt.md) from 1995 to 2003,
 and the [International Association of Machine Translation](/../associations/iamt.md) from 1999 to 2001.
+
+---
+
+## See also
+
+- [The John W. Hutchins Machine Translation Archive](https://mt-archive.net/)
+- [Wikipedia](https://en.wikipedia.org/wiki/W._John_Hutchins)
+- [Obituary](https://eamt.org/2021/05/13/obituary-w-john-hutchins-librarian-and-historian-of-machine-translation/)

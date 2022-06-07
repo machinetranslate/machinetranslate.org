@@ -1,9 +1,12 @@
 ---
 grand_parent: More
 parent: People
-nav_order: 2
+nav_order: 95
 title: Martin Popel
 description: Machine translation researcher
+seo:
+  type: Person
+  jobTitle: visiting researcher
 ---
 
 **Martin Popel** is a machine translation researcher at the [Institute of Formal and Applied Linguistics](https://ufal.mff.cuni.cz/) at Charles University in Prague.
@@ -21,4 +24,9 @@ In 2010, Martin Popel started acting as the technical editor of [The Prague Bull
 - [Universal Dependencies](https://universaldependencies.org/): linguistic annotation framework
 - [LUSyD](https://ufal.mff.cuni.cz/grants/lusyd): language understanding in multilingual setting
 
-[Personal webpage](https://ufal.mff.cuni.cz/martin-popel).
+---
+
+## See more
+
+- [Personal webpage](https://ufal.mff.cuni.cz/martin-popel)
+- [Google Scholar](https://scholar.google.com/citations?user=og-mG6MAAAAJ&hl=en)

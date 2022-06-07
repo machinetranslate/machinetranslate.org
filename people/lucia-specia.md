@@ -1,9 +1,12 @@
 ---
 grand_parent: More
 parent: People
-nav_order: 1
+nav_order: 100
 title: Lucia Specia
 description: Machine translation researcher
+seo:
+  type: Person
+  jobTitle: researcher, professor
 ---
 
 **Lucia Specia** is a researcher and professor of natural language processing.
@@ -27,3 +30,11 @@ Starting in 2019, she advised Facebook AI Research on quality estimation.
 In 2020, Specia also joined Dublin City University.
 
 In 2021, she co-founded [conteX.ai](https://contex.ai), as Chief Scientist.
+
+---
+
+## See more
+
+- [Personal webpage](http://wp.doc.ic.ac.uk/lspecia/)
+- [Academic webpage](https://www.imperial.ac.uk/people/l.specia)
+- [Google Scholar](https://scholar.google.com/citations?user=wVl_z8kAAAAJ)
