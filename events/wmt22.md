@@ -54,7 +54,7 @@ The **Seventh Conference on Machine Translation** (**WMT22**) is set to take pla
 - [Quality estimation](https://www.statmt.org/wmt22/quality-estimation-task.html)
 - [Translation suggestion](https://www.statmt.org/wmt22/translation-suggestion-task.html)
 - [Terminology](https://www.statmt.org/wmt22/terminology-task.html)
-- Chat
+- [Chat](https://wmt-chat-task.github.io/)
 - [Sign language](https://www.wmt-slt.com/)
 - Robustness
 - [Triangual machine translation](https://www.statmt.org/wmt22/triangular-mt-task.html)
