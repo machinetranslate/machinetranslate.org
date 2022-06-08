@@ -4,6 +4,12 @@ parent: People
 nav_order: 15
 title: Georges Artsrouni
 description: Engineer and early machine translation inventor
+seo:
+  type: Person
+
+  hasOccupation:
+   type: Occupation
+   name: engineer, inventor
 ---
 
 **Georges Artsrouni** was an engineer who filed and received the first patent for a mechanical translator.
@@ -22,5 +28,6 @@ In the 1960s, the device was acquired by the Museum of Arts and Crafts in Paris.
 
 ---
 
- ##### Les machines à traduire de Georges Artsrouni*
- Maurice Daumas, *Revue d’histoire des sciences*, 1965
+## See also
+
+- [***Les machines à traduire de Georges Artsrouni***](https://www.persee.fr/doc/rhs_0048-7996_1965_num_18_3_2427), Maurice Daumas, *Revue d’histoire des sciences*, 1965
