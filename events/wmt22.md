@@ -140,7 +140,7 @@ Posters must be presented in Gather.Town.
 
 - Papers must be submitted [electronically](https://www.softconf.com/emnlp2022/WMT/).
 - Research and system papers have the same deadlines.
-- Research and system papers should follow [EMNLP2022 formatting guidelines](https://2022.emnlp.org/call-for-papers/style-and-formatting).
+- Research and system papers should follow [EMNLP2022 formatting guidelines](https://2022.emnlp.org/calls/style-and-formatting).
 
 
 ## Invited talk
