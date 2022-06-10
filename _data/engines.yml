@@ -103,7 +103,12 @@
 
 - name: Microsoft Translator
   url: http://translator.microsoft.com
-  languages: [ af, am, ar, as, az, ba, bg, bn, bo, bs, ca, cs, cy, da, de, dv, el, en, es, et, fa, fi, fil, fj, fr, fr-ca, ga, gu, he, hi, hr, hsb, ht, hu, hy, id, ikt, is, it, iu, iu-Latn, ja, ka, kk, km, kmr, kn, ko, ku, ky, lo, lt, lv, lzh, mg, mi, mk, ml, mn-Cyrl, mn-Mong, mr, ms, mt, mww, my, nb, ne, nl, or, otq, pa, pl, prs, ps, pt-br, pt-pt, ro, ru, sk, sl, sm, so, sq, sr-Cyrl, sr-Latn, sv, sw, ta, te, th, ti, tk, tlh-Latn, tlh-Piqd, to, tr, tt, ty, ug, uk, ur, uz, vi, yua, yue, zh-Hans, zh-Hant, zu ]
+  languages: [ af, am, ar, as, az, ba, bg, bn, bo, bs, ca, cs, cy, da, de, dv, el, en, es, et, eu, fa, fi, fil, fj, fo, fr, fr-ca, ga, gl, gu, he, hi, hr, hsb, ht, hu, hy, id, ikt, is, it, iu, iu-Latn, ja, ka, kk, km, kmr, kn, ko, ku, ky, lo, lt, lv, lzh, mg, mi, mk, ml, mn-Cyrl, mn-Mong, mr, ms, mt, mww, my, nb, ne, nl, or, otq, pa, pl, prs, ps, pt, pt-pt, ro, ru, sk, sl, sm, so, sq, sr-Cyrl, sr-Latn, sv, sw, ta, te, th, ti, tk, tlh-Latn, tlh-Piqd, to, tr, tt, ty, ug, uk, ur, uz, vi, yua, yue, zh-Hans, zh-Hant, zu ]
+  info_url: https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
+
+- name: Microsoft Translator (custom)
+  url: http://translator.microsoft.com
+  languages: [ af, ar, as, bg, bn, bs, ca, cs, cy, da, de, el, en, es, et, fa, fi, fil, fj, fr, ga, gu, he, hi, hr, hu, id, is, it, iu, ja, kn, ko, lt, lv, mg, mi, ml, mr, ms, mt, nb, nl, or, pa, pl, pt, ro, ru, sk, sl, sm, sr-Latn, sv, sw, ta, te, th, to, tr, ty, uk, ur, vi, zh-Hans, zh-Hant ]
   info_url: https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
 
 - name: Mirai Translate
