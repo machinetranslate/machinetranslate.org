@@ -1,30 +1,1065 @@
---- 
+---
+-
+  code: af
+  name: Afrikaans
+  family: ine
+  scripts: [ Latn ]
+  typology:
+    - SVO, VSO
+    - analytic
+  variants: [ za ]
+
+-
+  code: ar
+  name: Arabic
+  family: sem
+  scripts: [ Arab, Syrc ]
+  typology:
+    - VSO
+    - fusional
+  variants: [ dz, bh, eg, iq, jo, kw, lb, ly, ma, om, qa, sa, sy, tn, ae, ye, sa ]
+
+-
+  code: az
+  name: Azerbaijani
+  family: trk
+  scripts: [ Latn, Cyrl ]
+  typology:
+    - SOV
+    - agglutinative
+  variants: [ az ]
+
+-
+  code: be
+  name: Belarusian
+  family: sla
+  scripts: [ Cyrl ]
+  typology:
+    - SVO
+    - inflected
+  variants: [ by ]
+
+-
+  code: bg
+  name: Bulgarian
+  family: sla
+  scripts: [ Cyrl ]
+  typology:
+    - SVO
+    - analytic
+  variants: [ bg ]
+
+-
+  code: bn
+  name: Bengali
+  family: inc
+  scripts: Beng
+  typology:
+    - SOV
+    - inflected
+  variants: [ bd, in ]
+
+-
+  code: bs
+  name: Bosnian
+  family: sla
+  scripts: [ Cyrl, Latn ]
+  typology:
+    - SVO
+    - inflected
+  variants: [ ba ]
+
+-
+  code: ca
+  name: Catalan
+  family: roa
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - fusional
+  variants: [ es ]
+
+-
+  code: ceb
+  name: Cebuano
+  family: phi
+  scripts: [ Latn ]
+  typology:
+    - VSO
+    - inflected
+  variants: [ ph ]
+
+-
+  code: co
+  name: Corsican
+  family: roa
+  scripts: [ Latn ]
+  typology:
+    - SOV
+  variants: [ fr ]
+
+-
+  code: cs
+  name: Czech
+  family: zlw
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - fusional, inflected, agglutinative
+  variants: [ cz ]
+
+-
+  code: cy
+  name: Welsh
+  family: cel
+  scripts: [ Latn ]
+  typology:
+    - VSO
+    - inflected
+  variants: [ gb ]
+
+-
+  code: da
+  name: Danish
+  family: gmq
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - analytic
+  variants: [ dk ]
+
+-
+  code: de
+  name: German
+  family: gem
+  scripts: [ Latn ]
+  typology:
+    - SVO, VSO
+    - fusional
+  variants: [ at, de, li, lu, ch ]
+
+-
+  code: el
+  name: Greek
+  family: grk
+  scripts: [ Grek ]
+  typology:
+    - SVO
+    - fusional
+  variants: [ cy, gr ]
+
+-
+  code: en
+  name: English
+  family: gem
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - analytic
+  variants: [ au, bz, ca, 029, in, ie, jm, my, nz, ph, sg, za, tt, gb, us, zw ]
+
+-
+  code: eo
+  name: Esperanto
+  family: constructed language
+  scripts: [ Latn ]
+  typology:
+    - free word-order
+    - agglutinative
+  variants:
+
 -
   code: es
   name: Spanish
   family: roa
   scripts: [ Latn ]
-  typology: 
+  typology:
     - SVO
     - inflected
   variants: [ es, 419, ar, bo, cl, co, cr, do, ec, sv, gt, hn, mx, ni, pa, py, pe, pr, es, uy, ve, us ]
 
 -
-  code: tr
-  name: Turkish
-  family: trk
+  code: et
+  name: Estonian
+  family: fiu
   scripts: [ Latn ]
-  typology: 
+  typology:
+    - SVO
+    - agglutinative, fusional
+  variants: [ ee ]
+
+-
+  code: eu
+  name: Basque
+  family: isolating
+  scripts: [ Latn ]
+  typology:
+    - SOV
+    - agglutinative, fusional
+  variants: [ es ]
+
+-
+  code: fa
+  name: Persian
+  family: iir
+  scripts: [ Arab ]
+  typology:
     - SOV
     - agglutinative
-  variants: [ tr, cy ]
+  variants: [ af, ir ]
+
+-
+  code: fi
+  name: Finnish
+  family: fiu
+  scripts: [ Latn ]
+  typology:
+    - SVO, SOV
+    - synthetic, agglutinative
+  variants: [ fi ]
+-
+  code: fr
+  name: French
+  family: roa
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - inflected
+  variants: [ be, ca, fr, lu, mc, ch ]
+
+-
+  code: fy
+  name: Frisian
+  family: gem
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - analytic
+  variants: [ nl ]
+
+-
+  code: ga
+  name: Irish
+  family: cel
+  scripts: [ Latn ]
+  typology:
+    - VSO
+    - fusional
+  variants: [ ie ]
+
+-
+  code: gd
+  name: Scottish Gaelic
+  family: cel
+  scripts: [ Latn ]
+  typology:
+    - VSO
+    - inflected
+  variants: [ gb ]
+-
+  code: gl
+  name: Galician
+  family: roa
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - inflected
+  variants: [ es ]
+
+-
+  code: gu
+  name: Gujarati
+  family: inc
+  scripts: [ Gujr ]
+  typology:
+    - SOV
+    - inflected
+  variants: [ in ]
+
+-
+  code: ha
+  name: Hausa
+  family: afa
+  scripts: [ Latn, Arab ]
+  typology:
+    - SVO
+    - inflected
+  variants: [ ng ]
+
+-
+  code: haw
+  name: Hawaiian
+  family: pqe
+  scripts: [ Latn ]
+  typology:
+    - VSO
+    - analytic
+  variants: [ us ]
+
+-
+  code: he
+  name: Hebrew
+  family: sem
+  scripts: [ Hebr ]
+  typology:
+    - VSO
+    - analytic, inflected
+  variants: [ il ]
+
+-
+  code: hi
+  name: Hindi
+  family: inc
+  scripts: [ Deva, Latn, Mahj ]
+  typology:
+    - SOV
+  variants: [ in ]
+
+-
+  code: hmn
+  name:  	Hmong
+  family: hmx
+  scripts: [ Latn, Hmng ]
+  typology:
+    - SVO
+    - analytic
+  variants:
+
+-
+  code: hr
+  name: Croatian
+  family: sla
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - inflected, fusional
+  variants: [ hr, ba ]
+
+-
+  code: ht
+  name: Haitian
+  family: hat
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - analytic
+  variants: [ ht ]
+
+-
+  code: hu
+  name: Hungarian
+  family: fiu
+  scripts: [ Latn ]
+  typology:
+    - SOV
+    - agglutinative, synthetic
+  variants: [ hu ]
+
+-
+  code: id
+  name: Indonesian
+  family: mal
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - agglutinative
+  variants: [ id ]
+
+-
+  code: ig
+  name: Igbo
+  family: ibo
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - agglutinative
+  variants: [ ng ]
+
+-
+  code: is
+  name: Icelandic
+  family: ice
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - inflected
+  variants: [ is ]
+
+-
+  code: it
+  name: Italian
+  family: roa
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - fusional, synthetic
+  variants: [ ch, it ]
+
+-
+  code: ja
+  name: Japanese
+  family: jpn
+  scripts: [ Jpan ]
+  typology:
+    - SOV
+    - agglutinative, synthetic
+  variants: [ jp ]
+
+-
+  code: jv
+  name: Javanese
+  family: map
+  scripts: [ Java, Latn ]
+  typology:
+    - SVO
+    - agglutinative
+  variants: [ id ]
+
+-
+  code: ka
+  name: Georgian
+  family: cau
+  scripts: [ Geor ]
+  typology:
+    - SVO
+    - agglutinative, synthetic
+  variants: [ ge ]
+
+-
+  code: kk
+  name: Kazakh
+  family: trk
+  scripts: [ Cyrl, Arab, Latn ]
+  typology:
+    - SOV
+    - agglutinative
+  variants: [ kz ]
+
+-
+  code: km
+  name: Khmer
+  family: aav
+  scripts: [ Khmr ]
+  typology:
+    - SVO
+    - analytic, isolating
+  variants: [ kh ]
+
+-
+  code: kn
+  name: Kannada
+  family: dra
+  scripts: [ Knda ]
+  typology:
+    - SOV
+    - agglutinative
+  variants: [ id ]
+
+-
+  code: ko
+  name: Korean
+  family: kor
+  scripts: [ Kore ]
+  typology:
+    - SOV
+    - agglutinative
+  variants: [ kr ]
+
+-
+  code: ku
+  name: Kurdish
+  family: kur
+  scripts: [ 	Arab, Cyrl, Latn ]
+  typology:
+    - SOV
+    - inflected
+  variants: [ iq ]
+
+-
+  code: ky
+  name: Kyrgyz
+  family: trk
+  scripts: [ 	Arab, Cyrl, Latn ]
+  typology:
+    - SOV
+    - agglutinative
+  variants: [ kg ]
+
+-
+  code: la
+  name: Latin
+  family: lat
+  scripts: [ Latn ]
+  typology:
+    - SOV, SVO
+    - synthetic, fusional
+  variants:
+
+-
+  code: lb
+  name: Luxembourgish
+  family: gem
+  scripts: [ Latn ]
+  typology:
+    - V2 SOV
+    - synthetic
+  variants: [ lu ]
+
+-
+  code: lo
+  name: Lao
+  family: lao, tha
+  scripts: [ Laoo ]
+  typology:
+    - SVO
+    - isolating
+  variants: [ la ]
+
+-
+  code: lt
+  name: Lithuanian
+  family: lit
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - inflected, synthetic
+  variants: [ lt ]
+
+-
+  code: lv
+  name: Latvian
+  family: ine
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - synthetic
+  variants: [ lv ]
+
+-
+  code: mg
+  name: Malagasy
+  family: map
+  scripts: [ Latn ]
+  typology:
+    - VOS
+    - inflected
+  variants: [ mg ]
+
+-
+  code: mi
+  name: Maori
+  family: map
+  scripts: [ Latn ]
+  typology:
+    - VSO
+    - analytical
+  variants: [ nz ]
+
+-
+  code: mk
+  name: Macedonian
+  family: sla
+  scripts: [ Cyrl ]
+  typology:
+    - SVO
+    - analytic
+  variants: [ mk ]
+
+-
+  code: ml
+  name: Malayalam
+  family: mal
+  scripts: [ Mlym ]
+  typology:
+    - SOV
+    - synthetic
+  variants: [ in ]
+
+-
+  code: mn
+  name: Mongolian
+  family: mon
+  scripts: [ 	Cyrl,	Mong, Phags-pa ]
+  typology:
+    - SOV
+    - agglutinative
+  variants: [ mn ]
+
+-
+  code: mr
+  name: Marathi
+  family: mar
+  scripts: [ Deva, Modi ]
+  typology:
+    - SOV
+    - agglutinative, inflected, analytic
+  variants: [ in ]
+
+-
+  code: ms
+  name: Malay
+  family: may
+  scripts: [ Arab, Latn ]
+  typology:
+    - SVO
+    - agglutinative
+  variants: [ my, bn, sg ]
+
+-
+  code: mt
+  name: Maltese
+  family: afa
+  scripts: [ Latn ]
+  typology:
+    - SOV
+    - synthetic
+  variants: [ mt ]
+
+-
+  code: my
+  name: Burmese
+  family: sit
+  scripts: [ Mymr ]
+  typology:
+    - SOV
+    - analytic, isolating
+  variants: [ mm ]
+
+-
+  code: ne
+  name: Nepali
+  family: inc
+  scripts: [ Deva ]
+  typology:
+    - SOV
+    - agglutinative
+  variants: [ np ]
+
+-
+  code: nl
+  name: Dutch
+  family: gem
+  scripts: [ Latn ]
+  typology:
+    - SVO, VSO
+    - synthetic
+  variants: [ be, nl ]
+
+-
+  code: no
+  name: Norwegian
+  family: gem
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - fusional
+  variants: [ nb, nn, no ]
+
+-
+  code: ny
+  name: Chewa
+  family: bnt
+  scripts: [ Latn ]
+  typology:
+    - SVO
+  variants:
+
+-
+  code: or
+  name: Oriya
+  family: ori
+  scripts: [ Orya ]
+  typology:
+    - SOV
+    -
+  variants: [ id ]
+
+-
+  code: pa
+  name: Punjabi
+  family: inc
+  scripts: [ Arab, Guru ]
+  typology:
+    - SOV
+    - fusional
+  variants: [ pk, in ]
+
+-
+  code: pl
+  name: Polish
+  family: pol
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - fusional, synthetic
+  variants: [ pl ]
+
+-
+  code: ps
+  name: Pashto
+  family: pus
+  scripts: [ Arab ]
+  typology:
+    - SOV
+    - fusional
+  variants: [ af ]
+
+-
+  code: pt
+  name: Portuguese
+  family: roa
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - inflected
+  variants: [ br, pt ]
+
+-
+  code: ro
+  name: Romanian
+  family: rum
+  scripts: [ Cyrl, Latn ]
+  typology:
+    - SVO
+    - synthetic
+  variants: [ md, ro ]
 
 -
   code: ru
   name: Russian
   family: sla
   scripts: [ Cyrl ]
-  typology: 
+  typology:
+    - SVO
+    - inflected, fusional, synthetic
+  variants: [ ru, md, kz, ua ]
+
+-
+  code: rw
+  name: Kinyarwanda
+  family: bnt
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    -
+  variants: [ rw ]
+
+-
+  code: sd
+  name: Sindhi
+  family: snd
+  scripts: [ Arab, Deva, Khoj, Sind ]
+  typology:
+    - SOV
+    - inflected
+  variants:
+
+-
+  code: si
+  name: Sinhala
+  family: ine
+  scripts: [ Sinh ]
+  typology:
+    - SOV
+    - fusional
+  variants: [ lk ]
+
+-
+  code: sk
+  name: Slovak
+  family: ine
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - synthetic
+  variants: [ sk ]
+
+-
+  code: sl
+  name: Slovenian
+  family: ine
+  scripts: [ Latn ]
+  typology:
+    - SOV
+    - fusional, inflected
+  variants: [ si ]
+
+-
+  code: sm
+  name: Samoan
+  family: map
+  scripts: [ Latn ]
+  typology:
+    - VSO
+    - analytic
+  variants: [ ws ]
+
+-
+  code: sn
+  name: Shona
+  family: nic
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - agglutinative
+  variants:
+
+-
+  code: so
+  name: Somalia
+  family: afa
+  scripts: [ Arab, Latn, Osma ]
+  typology:
+    - SOV
+    - agglutinative
+  variants: [ dj, et, ke, so ]
+
+-
+  code: sq
+  name: Albanian
+  family: sqj
+  scripts: [ Latn, Elba ]
+  typology:
+    - SVO
+    - fusional
+  variants: [ al ]
+
+-
+  code: sr
+  name: Serbian
+  family: ine
+  scripts: [ Cyrl, Latn ]
+  typology:
+    - SVO
+    - synthetic
+  variants: [ ba, me, rs ]
+
+-
+  code: st
+  name: Southern Sotho
+  family: bnt
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - agglutinative
+  variants: [ za ]
+
+-
+  code: su
+  name: Sundanese
+  family: map
+  scripts: [ Latn, Sund ]
+  typology:
+    - SVO
+    -
+  variants:
+
+-
+  code: sv
+  name: Swedish
+  family: ine
+  scripts: [ Latn ]
+  typology:
     - SVO
     - inflected
-  variants: [ ru, md, kz, ua ]
+  variants: [ fi, se ]
+
+-
+  code: sw
+  name: Swahili
+  family: nic
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - agglutinative
+  variants: [ cd, ke, tz, ug ]
+
+-
+  code: ta
+  name: Tamil
+  family: dra
+  scripts: [ Taml ]
+  typology:
+    - SOV
+    - agglutinative
+  variants: [ in, lk, my, sg ]
+
+-
+  code: te
+  name: Telugu
+  family: dra
+  scripts: [ Telu ]
+  typology:
+    - SOV
+    - agglutinative
+  variants: [ in ]
+
+-
+  code: tg
+  name: Tajik
+  family: iir
+  scripts: [ Arab, Cyrl, Latn ]
+  typology:
+    - SOV
+    - analytic
+  variants: [ tj ]
+
+-
+  code: th
+  name: Thai
+  family: tai
+  scripts: [ Thai ]
+  typology:
+    - SVO
+    - analytic, isolating
+  variants: [ th ]
+
+-
+  code: tk
+  name: Turkmen
+  family: trk
+  scripts: [ Arab, Cyrl, Latn ]
+  typology:
+    - SOV
+    - agglutinative
+  variants: [ iq ]
+
+-
+  code: tl
+  name: Tagalog
+  family: map
+  scripts: [ Latn ]
+  typology:
+    - VSO
+    - agglutinative
+  variants: [ ph ]
+
+-
+  code: tr
+  name: Turkish
+  family: trk
+  scripts: [ Latn ]
+  typology:
+    - SOV
+    - agglutinative
+  variants: [ tr, cy ]
+
+-
+  code: tt
+  name: Tatar
+  family: trk
+  scripts: [ Cyrl ]
+  typology:
+    - SOV
+    - agglutinative
+  variants:
+
+-
+  code: ug
+  name: Uighur
+  family: trk
+  scripts: [ Arab, Cyrl, Latn ]
+  typology:
+    - SOV
+    - agglutinative
+  variants: [ cn ]
+
+-
+  code: uk
+  name: Ukrainian
+  family: sla
+  scripts: [ Cyrl ]
+  typology:
+    - SVO
+    - fusional, synthetic
+  variants: [ ua ]
+
+-
+  code: ur
+  name: Urdu
+  family: iir
+  scripts: [ Arab ]
+  typology:
+    - SOV
+    - fusional
+  variants: [ in, lk, pk ]
+
+-
+  code: uz
+  name: Uzbek
+  family: trk
+  scripts: [ Arab, Cyrl, Latn ]
+  typology:
+    - SOV
+    - agglutinative
+  variants: [ uz ]
+
+-
+  code: vi
+  name: Vietnamese
+  family: aav
+  scripts: [ Hani, Latn ]
+  typology:
+    - SVO
+    - analytic, isolating
+  variants: [ vn ]
+
+-
+  code: xh
+  name: Xhosa
+  family: nic
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - agglutinative
+  variants: [ za ]
+
+-
+  code: yi
+  name: Yiddish
+  family: gem
+  scripts: [ Hebr ]
+  typology:
+    - V2
+    - inflected
+  variants: [ il ]
+
+-
+  code: yo
+  name: Yoruba
+  family: nic
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - isolating
+  variants:
+
+-
+  code: zh
+  name: Chinese (Simplified)
+  family: sit
+  scripts: [ Hans ]
+  typology:
+    - SVO
+    - analytic, isolating
+  variants: [ cn, my, sg ]
+
+-
+  code: zh-Hant
+  name: Chinese ( Traditional)
+  family: sit
+  scripts: [ Hant ]
+  typology:
+    - SVO
+    - analytic, isolating
+  variants: [ hk, tw ]
+
+-
+  code: zu
+  name: Zulu
+  family: nic
+  scripts: [ Latn ]
+  typology:
+    - SVO
+    - agglutinative
+  variants: [ za ]
