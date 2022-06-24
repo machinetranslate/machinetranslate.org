@@ -31,7 +31,7 @@ parent: Languages
     
     <dt>Locale variants</dt><dd>
       {% for variant in language.variants %}
-        {{ language.code | append: "-" | append: variant }}
+    <code>{{ language.code | append: "-" | append: variant }}</code>
       {% endfor %}
     </dd>
     
