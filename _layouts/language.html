@@ -16,6 +16,10 @@ parent: Languages
 
 {% assign language = site.data.languages | where: "code", page.code | first %}
 
+<blockquote>
+  {{ language }}
+</blockquote>
+
 <h3>Support</h3>
 <ul>
   {% for engine in site.data.engines %}
@@ -28,3 +32,4 @@ parent: Languages
     {% endif %}
   {% endfor %}
 </ul>
+
