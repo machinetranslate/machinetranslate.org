@@ -17,7 +17,25 @@ parent: Languages
 {% assign language = site.data.languages | where: "code", page.code | first %}
 
 <blockquote>
-  {{ language }}
+  <code>{{ language.code }}</code>
+  <dl>
+    
+    <dt>Codes:</dt>
+    <dd><code>{{ language.code }}</code></dd>
+    
+    <dt>Typology:</dt>
+    <dd>{{ language.typology }}</dd>
+    
+    <dt>Language family:</dt>
+    <dd>{{ language.family }}</dd>
+    
+    <dt>Locale variants:</dt><dd>
+      {% for variant in language.variants %}
+        {{ language | append: "-" | append: variant }}
+      {% else %}
+    </dd>
+    
+  </dl>
 </blockquote>
 
 <h3>Support</h3>
