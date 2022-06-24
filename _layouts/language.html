@@ -27,7 +27,7 @@ parent: Languages
     <dd>{{ language.typology | join: ', ' }}</dd>
     
     <dt>Language family</dt>
-    <dd>{{ language.family }}</dd>
+    <dd>{{ site.data.languages[language.family] }}</dd>
     
     <dt>Locale variants</dt><dd>
       {% for variant in language.variants %}
