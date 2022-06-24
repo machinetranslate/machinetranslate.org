@@ -27,11 +27,19 @@ parent: Languages
     <dd>{{ language.typology | join: ', ' }}</dd>
     
     <dt>Language family</dt>
-    <dd>{{ site.data.language_families[language.family] or language.family }}</dd>
+    <dd>{{ site.data.language_families[language.family] or <code>language.family</code> }}</dd>
+        
+    <dt>Scripts</dt><dd>
+      {% for script in language.scripts %}
+        {{ site.data.scripts[script] or <code>script</code> }}
+        {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    </dd>
     
     <dt>Locale variants</dt><dd>
       {% for variant in language.variants %}
     <code>{{ language.code | append: "-" | append: variant }}</code>
+      {% unless forloop.last %},{% endunless %}
       {% endfor %}
     </dd>
     
