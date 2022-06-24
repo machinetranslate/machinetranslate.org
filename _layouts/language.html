@@ -14,30 +14,6 @@ parent: Languages
 
 {{ content }}
 
-{% assign language = site.data.languages | where: "code", page.code | first %}
-
-<blockquote>
-  <code>{{ language.code }}</code>
-  <dl>
-    
-    <dt>Codes</dt>
-    <dd><code>{{ language.code }}</code></dd>
-    
-    <dt>Typology</dt>
-    <dd>{{ language.typology | join: ', ' }}</dd>
-    
-    <dt>Language family</dt>
-    <dd>{{ site.data.languages[language.family] }}</dd>
-    
-    <dt>Locale variants</dt><dd>
-      {% for variant in language.variants %}
-    <code>{{ language.code | append: "-" | append: variant }}</code>
-      {% endfor %}
-    </dd>
-    
-  </dl>
-</blockquote>
-
 <h3>Engine support</h3>
 <ul>
   {% for engine in site.data.engines %}
@@ -51,3 +27,26 @@ parent: Languages
   {% endfor %}
 </ul>
 
+{% assign language = site.data.languages | where: "code", page.code | first %}
+
+<blockquote>
+  <code>{{ language.code }}</code>
+  <dl>
+    
+    <dt>Codes</dt>
+    <dd><code>{{ language.code }}</code></dd>
+    
+    <dt>Typology</dt>
+    <dd>{{ language.typology | join: ', ' }}</dd>
+    
+    <dt>Language family</dt>
+    <dd>{{ site.data.language_families[language.family] }}</dd>
+    
+    <dt>Locale variants</dt><dd>
+      {% for variant in language.variants %}
+    <code>{{ language.code | append: "-" | append: variant }}</code>
+      {% endfor %}
+    </dd>
+    
+  </dl>
+</blockquote>
