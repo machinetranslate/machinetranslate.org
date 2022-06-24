@@ -20,18 +20,18 @@ parent: Languages
   <code>{{ language.code }}</code>
   <dl>
     
-    <dt>Codes:</dt>
+    <dt>Codes</dt>
     <dd><code>{{ language.code }}</code></dd>
     
-    <dt>Typology:</dt>
-    <dd>{{ language.typology }}</dd>
+    <dt>Typology</dt>
+    <dd>{{ language.typology | join: ', ' }}</dd>
     
-    <dt>Language family:</dt>
+    <dt>Language family</dt>
     <dd>{{ language.family }}</dd>
     
-    <dt>Locale variants:</dt><dd>
+    <dt>Locale variants</dt><dd>
       {% for variant in language.variants %}
-        {{ language | append: "-" | append: variant }}
+        {{ language.code | append: "-" | append: variant }}
       {% endfor %}
     </dd>
     
