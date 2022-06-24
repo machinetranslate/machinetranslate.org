@@ -14,19 +14,6 @@ parent: Languages
 
 {{ content }}
 
-<h3>Engine support</h3>
-<ul>
-  {% for engine in site.data.engines %}
-    {% if engine.languages contains page.code %}
-      <li>
-        <a href="/{{ engine.name | slugify }}">
-          {{ engine.name }}
-        </a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
 {% assign language = site.data.languages | where: "code", page.code | first %}
 
 <blockquote>
@@ -50,3 +37,17 @@ parent: Languages
     
   </dl>
 </blockquote>
+
+
+<h3>Engine support</h3>
+<ul>
+  {% for engine in site.data.engines %}
+    {% if engine.languages contains page.code %}
+      <li>
+        <a href="/{{ engine.name | slugify }}">
+          {{ engine.name }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
