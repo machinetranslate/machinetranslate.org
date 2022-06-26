@@ -242,15 +242,6 @@ Acquired by SDL/RWS for $42.5M in 2010
 - [Crunchbase - Pangeanic](https://www.crunchbase.com/organization/pangeanic)
 
 
-## 1999
-
-### Translated
-- [translated.com](https://translated.com/welcome)
-- [Crunchbase - Translated](https://www.crunchbase.com/organization/translated)
-
-Raised $30M from Ardian and others
-
-
 ## 1998
 
 ### Reverso
