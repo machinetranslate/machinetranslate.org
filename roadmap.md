@@ -58,7 +58,7 @@ description: Content roadmap for Machine Translate
 
 - ~~[Quality estimation](/quality/quality-estimation.md)~~
 - [Quality evaluation \[#86\]](https://github.com/machinetranslate/machinetranslate.org/issues/86)
-- [Human parity \[\197\]](https://github.com/machinetranslate/machinetranslate.org/issues/197)
+- [Human parity \[#197\]](https://github.com/machinetranslate/machinetranslate.org/issues/197)
 
 
 ### Applications
