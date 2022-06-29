@@ -1,4 +1,27 @@
 ---
+#- id: [Lowercase, words separated by hyphen]
+#  name:
+#  description:
+#  url:
+#  cat: [Boolean]
+#  documentation: [Link]
+#  machine_translation_integrations:
+#    - service: [Use the corresponding engine id]
+#      custom: [Is the engine custom model available from the tool?]
+#      tone: [Is tone/formality selection available from the tool?]
+#      glossary: [Is the machine translation glossary/terminology/dictionary available from the tool?]
+#      adaptive: [Is the adaptive machine translation feature available from the tool?]
+#
+#  machine_translation_plugins:
+#    - service:
+#      custom:
+#      glossary:
+#      tone:
+#      adaptive:
+#
+#  features:
+#    - names:
+#      description:
 
 - id: crowdin
   name: crowdin
@@ -53,6 +76,7 @@
     - service: lilt
       custom: true
       glossary: true
+      adaptive: true
 
 - id: matecat
   names: MateCat
