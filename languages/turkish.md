@@ -1,7 +1,9 @@
 ---
+layout: language
 parent: Languages
 title: Turkish
 description: Machine translation for Turkish
+code: tr
 ---
 
 **Turkish** is the language with the best machine translation support in the Turkic language family.  
@@ -20,18 +22,11 @@ For Turkic languages, direct system developments are significant.
 
 In 2016, Google Translate included Turkish in the launch of Google Neural Machine Translation.
 
-By 2022, Turkish was supported by all the major translation applications and API providers, including Google Translate, Microsoft Translator, Yandex Translate, Amazon Translate, and IBM Watson.
+By 2022, Turkish was supported by all the major translation applications and API providers, including Google Translate, Microsoft Translator, Yandex Translate, Amazon Translate, and Watson Language Translator.
 
 By 2022, Yandex Translate had direct translation systems for Turkish-Russian and Turkish-German.  Turkish is one of the top languages for Yandex Translate.
 
 English to Turkish is one of the top language pairs for Systran.
-
-### Direct systems
-
- - Turkish-Azerbaijani, developed by Ilker Hamzaoǧlu
- - Turkish-Crimean Tatar, developed by Kemal Altıntaş
- - Turkish-Turkmen, developed by Cüneyd Tantuğ, Eşref Adali, and Kemal Oflazer
- - Turkish–Tatar, developed by R. A. Gilmullin
 
 
 ### History
@@ -50,4 +45,4 @@ In 2021, the Literary Machine Translation Project started at the Department of T
 
 > This project aims to use MT to translate into Turkish literary texts whose style has been defined using corpus tools.
 
-The Turkish National Corpus (TNC) contains 50 million Turkish words.
+The [Turkish National Corpus (TNC)](https://www.tnc.org.tr/) contains 50 million Turkish words.
