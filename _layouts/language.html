@@ -12,34 +12,32 @@ parent: Languages
 
 <hr/>
 
-{{ content }}
-
 {% assign language = site.data.languages | where: "code", page.code | first %}
 
 <blockquote>
   <dl>
-    
+
     <dt>Codes</dt>
     <dd><code>{{ language.code }}</code></dd>
-    
+
     <dt>Typology</dt>
     <dd>{{ language.typology | join: ', ' }}</dd>
-    
+
     <dt>Language family</dt>
     <dd>{{ site.data.language_families[language.family] or <code>language.family</code> }}</dd>
-        
+
     <dt>Scripts</dt><dd>
       {% for script in language.scripts %}
         {{ site.data.scripts[script] or <code>script</code> }}{% unless forloop.last %},{% endunless %}
       {% endfor %}
     </dd>
-    
+
     <dt>Locale variants</dt><dd>
       {% for variant in language.variants %}
        <code>{{ language.code | append: '-' | append: variant }}</code>{% unless forloop.last %},{% endunless %}
       {% endfor %}
     </dd>
-    
+
   </dl>
 </blockquote>
 
@@ -56,3 +54,7 @@ parent: Languages
     {% endif %}
   {% endfor %}
 </ul>
+
+<br>
+
+{{ content }}
