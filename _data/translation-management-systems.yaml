@@ -20,7 +20,7 @@
 #      adaptive:
 #
 #  features:
-#    - names:
+#    - name:
 #      description:
 
 - id: crowdin
@@ -60,14 +60,14 @@
     - service: globalese
 
   features:
-    - names: Local machine translation engine
+    - name: Local machine translation engine
       description: Users can use their local machine translation in the tool
 
-    - names: Suggestions from multiple machine translation engines
+    - name: Suggestions from multiple machine translation engines
       description: Users can see segment-level suggestions from several machine translation systems at the same time
 
 - id: lilt
-  names: Lilt
+  name: Lilt
   description: Computer-assisted software with interactive machine translation features
   url: https://www.lilt.com
   cat: true
@@ -79,7 +79,7 @@
       adaptive: true
 
 - id: matecat
-  names: MateCat
+  name: MateCat
   description: Web-based computer-assisted translation tool
   url: https://www.matecat.com
   cat: true
@@ -114,7 +114,7 @@
     - service: yandex
 
 - id: memoq
-  names: MemoQ
+  name: MemoQ
   description: Translation and localization management software
   url: https://www.memoq.com
   cat: true
@@ -167,17 +167,17 @@
     - service: globalese
 
   features:
-    - names: Local machine translation engine
+    - name: Local machine translation engine
       description: Users can use their local machine translation in the tool
 
-    - names: Suggestions from multiple machine translation engines
+    - name: Suggestions from multiple machine translation engines
       description: Users can see segment-level suggestions from several machine translation systems at the same time
 
-    - names: Fuzzy repair with machine translation
+    - name: Fuzzy repair with machine translation
       description: Content that changes in the new source is fixed in target with machine translation
 
 - id: memsource
-  names: Memsource
+  name: Memsource
   description: Cloud-based translation management system and computer-assisted translation tool
   url: https://www.memsource.com
   cat: true
@@ -258,11 +258,11 @@
       custom: false
 
   features:
-    - names: Machine translation autoselect
+    - name: Machine translation autoselect
       description: Automatic machine translation routing
 
 - id: omegat
-  names: OmegaT
+  name: OmegaT
   description: Open source translation memory application
   url: https://www.omegat.org
   cat: true
@@ -287,18 +287,18 @@
       link: https://github.com/yoyicue/omegat-tencent-plugin
 
   features:
-    - names: Local machine translation engine
+    - name: Local machine translation engine
       description: Users can use their local machine translation in the tool
 
-    - names: Fuzzy repair with machine translation
+    - name: Fuzzy repair with machine translation
       description: Content that changes in the new source is fixed in target with machine translation
       link: https://github.com/transducens/OmegaT-FuzzyMatchRepair-Plugin
 
-    - names: Suggestions from multiple machine translation engines
+    - name: Suggestions from multiple machine translation engines
       description: Users can see segment-level suggestions from several machine translation systems at the same time
 
 - id: passolo
-  names: Passolo
+  name: Passolo
   description: Software localization tool
   url: https://www.trados.com/products/passolo/
   cat: true
@@ -318,11 +318,11 @@
       link: https://appstore.rws.com/language/app/deepl-mt-provider-for-passolo/1088/
 
   features:
-    - names: Suggestions from multiple machine translation engines
+    - name: Suggestions from multiple machine translation engines
       description: Users can see segment-level suggestions from several machine translation systems at the same time
 
 - id: smartcat
-  names: Smartcat
+  name: Smartcat
   description: Cloud-based translation and localization platform
   url: https://www.smartcat.ai
   cat: true
@@ -355,11 +355,11 @@
       custom: true
 
   features:
-    - names: Suggestions from multiple machine translation engines
+    - name: Suggestions from multiple machine translation engines
       description: Users can see segment-level suggestions from several machine translation systems at the same time
 
 - id: smartling
-  names: Smartling
+  name: Smartling
   description: Online translation management and localization software
   url: https://www.smartling.com
   cat: true
@@ -387,11 +387,11 @@
       custom: true
 
   features:
-    - names: Local machine translation engine
+    - name: Local machine translation engine
       description: Users can use their local machine translation in the tool
 
 - id: trados
-  names: Trados Studio
+  name: Trados Studio
   description: Computer-aided tool and translation memory software
   url: https://www.trados.com/products/trados-studio
   cat: true
@@ -464,17 +464,17 @@
     - service: youdao
 
   features:
-    - names: Local machine translation engine
+    - name: Local machine translation engine
       description: Users can use their local machine translation in the tool
 
-    - names: Suggestions from multiple machine translation engines
+    - name: Suggestions from multiple machine translation engines
       description: Users can see segment-level suggestions from several machine translation systems at the same time
 
-    - names: Fuzzy repair with machine translation
+    - name: Fuzzy repair with machine translation
       description: Content that changes in the new source is fixed in target with machine translation
 
 - id: transifex
-  names: Transifex
+  name: Transifex
   description: Translation and localization management platform
   url: http://www.transifex.com
   cat: true
@@ -497,11 +497,11 @@
     - service: microsoft
 
   features:
-    - names: Local machine translation engine
+    - name: Local machine translation engine
       description: Users can use their local machine translation in the tool
 
 - id: translate5
-  names: translate5
+  name: translate5
   description: Open-source translation management system and editor
   url: https://translate5.net
   cat: true
@@ -529,11 +529,11 @@
       custom: true
 
   features:
-    - names: Edit distance
+    - name: Edit distance
       description: Number of character changes required to post-edit the machine translation output
 
 - id: wordbee
-  names: Wordbee
+  name: Wordbee
   description: Translation management system and editor
   url: http://www.wordbee.com
   cat: true
@@ -567,14 +567,14 @@
     - service: globalese
 
   features:
-    - names: Local machine translation engine
+    - name: Local machine translation engine
       description: Users can use their local machine translation in the tool
 
-    - names: Suggestions from multiple machine translation engines
+    - name: Suggestions from multiple machine translation engines
       description: Users can see segment-level suggestions from several machine translation systems at the same time
 
 - id: wordfast
-  names: Wordfast
+  name: Wordfast
   description: Online and desktop computer-aided translation tool
   url: http://www.wordfast.com
   cat: true
@@ -603,14 +603,14 @@
     - service: yandex
 
   features:
-    - names: Local machine translation engine
+    - name: Local machine translation engine
       description: Users can use their local machine translation in the tool
 
-    - names: Suggestions from multiple machine translation engines
+    - name: Suggestions from multiple machine translation engines
       description: Users can see segment-level suggestions from several machine translation systems at the same time
 
 - id: xtm
-  names: XTM
+  name: XTM
   description: Web-based translation management system with an integrated computer-aided translation tool
   url: http://xtm.cloud
   cat: true
@@ -659,11 +659,11 @@
     - service: globalese
 
   features:
-    - names: Local machine translation engine
+    - name: Local machine translation engine
       description: Users can use their local machine translation in the tool
 
-    - names: Suggestions from multiple machine translation engines
+    - name: Suggestions from multiple machine translation engines
       description: Users can see segment-level suggestions from several machine translation systems at the same time
 
-    - names: Fuzzy repair with machine translation
+    - name: Fuzzy repair with machine translation
       description: Content that changes in the new source is fixed in target with machine translation
