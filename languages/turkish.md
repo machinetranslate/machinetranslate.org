@@ -35,8 +35,6 @@ In 1994, NATO supported two machine translation English to Turkish projects with
 
 In 2011, Apertium launched the Apertium Turkic work group in an attempt to create resources for Turkic languages rule-based machine translation and natural language processing.
 
-In 2011, The TS Corpus project was launched with English-Turkish parallel databases.
-
 In 2019, Emel Alkım and Yalçın Çebi launched MT-Turk for Turkish, Kirghiz and Kazan Tatar.  MT-Turk is a rule-based machine translation system that uses interlingual and transfer systems.
 
 In 2020, [Turkic Interlingua](/../community/communities.md#til) was created to develop language technology, including parallel corpora, in the most spoken Turkic languages.
@@ -45,4 +43,11 @@ In 2021, the Literary Machine Translation Project started at the Department of T
 
 > This project aims to use MT to translate into Turkish literary texts whose style has been defined using corpus tools.
 
+
+### Datasets
+
 The [Turkish National Corpus (TNC)](https://www.tnc.org.tr/) contains 50 million Turkish words.
+
+The Turkish, Kurdish, and English [Bianet newspaper](https://opus.nlpl.eu/Bianet.php) parallel corpus contains 3,214 Turkish articles aligned with its Kurdish or English translations.
+
+The [TS Corpus](https://tscorpus.com/) project offers English-Turkish parallel databases for academic and research purposes.
