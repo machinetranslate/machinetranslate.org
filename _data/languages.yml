@@ -1063,7 +1063,7 @@
 
 -
   codes: [ zh ]
-  names: Chinese
+  names: [ Chinese, Simplified Chinese, Traditional Chinese, Mandarin Chinese, Mandarin ]
   family: sit
   scripts: [ Hans, Hant ]
   typology:
