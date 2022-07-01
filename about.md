@@ -61,8 +61,9 @@ The full licence text is in the [LICENSE](/LICENSE) file.
 
 ## Attribution
 
-This repository can be referenced using bibTeX citation style. 
+This repository can be referenced using bibTeX citation style.
 
+#### Example
 ```
 @misc{machinetranslate,
   title = {{M}achinetranslate.org},
