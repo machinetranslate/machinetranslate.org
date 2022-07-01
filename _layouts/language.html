@@ -50,13 +50,16 @@ parent: Languages
 <h3>Engine support</h3>
 <ul>
   {% for engine in site.data.engines %}
-    {% if engine.languages contains page.code %}
-      <li>
-        <a href="/{{ engine.name | slugify }}">
-          {{ engine.name }}
-        </a>
-      </li>
-    {% endif %}
+    {% for language in engine.languages %}
+      {% if language == page.code or language contains page.code %}
+        <li>
+          <a href="/{{ engine.name | slugify }}">
+            {{ engine.name }}
+          </a>
+        </li>
+        {% break %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </ul>
 
