@@ -13,10 +13,8 @@ parent: Languages
 <hr/>
 
 {% assign language = false %}
-
 {% for lang in site.data.languages %}
   {% if lang.codes.first == page.code %}
-    {{ lang.codes }}
     {% assign language = lang %}
   {% endif %}
 {% endfor %}
