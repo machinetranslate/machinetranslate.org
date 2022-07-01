@@ -18,7 +18,7 @@ parent: Languages
   <dl>
 
     <dt>Codes</dt>
-    <dd><code>{{ language.code }}</code></dd>
+    <dd><code>{{ language.codes | first }}</code></dd>
 
     <dt>Typology</dt>
     <dd>{{ language.typology | join: ', ' }}</dd>
@@ -33,7 +33,7 @@ parent: Languages
     </dd>
 
     <dt>Locale variants</dt><dd>
-      {% for variant in language.variants %}
+      {% for variant in language.territories %}
        <code>{{ language.code | append: '-' | append: variant }}</code>{% unless forloop.last %},{% endunless %}
       {% endfor %}
     </dd>
