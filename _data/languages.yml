@@ -1062,7 +1062,7 @@
   territories: [ ]
 
 -
-  codes: zh
+  codes: [ zh ]
   names: Chinese
   family: sit
   scripts: [ Hans, Hant ]
