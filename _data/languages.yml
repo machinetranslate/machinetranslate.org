@@ -1,6 +1,6 @@
 ---
 #-
-#  codes: [ no, nb, nn, nor, nno, nob ]
+#  codes: [ 'no', nb, nn, nor, nno, nob ]
 #  names: [ Norwegian ]
 #  variant_names: [ Bokmål, Nynorsk, Riksmål, Høgnorsk ]
 #  family: gem
@@ -8,7 +8,7 @@
 #  typology:
 #    - SVO
 #    - fusional
-#  territories: [ no ]
+#  territories: [ 'no' ]
 
 -
   codes: [ af, afr ]
@@ -674,7 +674,7 @@
   territories: [ 001, be, nl ]
 
 -
-  codes: [ no, nb, nn, nor, nno, nob ]
+  codes: [ 'no', nb, nn, nor, nno, nob ]
   names: [ Norwegian ]
   variant_names: [ Bokmål, Nynorsk, Riksmål, Høgnorsk ]
   family: gem
@@ -682,7 +682,7 @@
   typology:
     - SVO
     - fusional
-  territories: [ no ]
+  territories: [ 'no' ]
 
 -
   codes: [ ny ]
