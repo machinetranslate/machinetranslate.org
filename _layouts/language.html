@@ -12,6 +12,8 @@ parent: Languages
 
 <hr/>
 
+{{ site.data.languages | where: "codes.first", page.code }}
+
 {% assign language = site.data.languages | where: "codes.first", page.code | first %}
 
 <blockquote>
