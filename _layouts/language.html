@@ -16,8 +16,6 @@ parent: Languages
   {{ language.codes }}
 {% endfor %}
 
-{% assign language = site.data.languages | where: "codes.first", page.code | first %}
-
 
 <br>
 
