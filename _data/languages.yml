@@ -373,6 +373,16 @@
   territories: [ hu, ro, rs, sk, sl, at ]
 
 -
+  codes: [ hy, hye, hyw ]
+  names: [ Armenian]
+  family: ine
+  scripts: [ Armn ]
+  typology:
+    - SVO
+    - fusional, synthetic
+  territories: [ am, lb, ir, tr, ru, ge ]
+
+-
   codes: [ id, in, ind ]
   names: [ Indonesian ]
   family: map
