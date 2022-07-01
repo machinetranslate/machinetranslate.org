@@ -12,7 +12,7 @@ parent: Languages
 
 <hr/>
 
-{% assign language = site.data.languages | where: "codes.first", page.code | first %}
+{% assign language = site.data.languages | where: "codes.first", page.code %}
 
 {{ language }}
 
