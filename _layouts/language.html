@@ -12,10 +12,9 @@ parent: Languages
 
 <hr/>
 
-{% for language in site.data.languages %}
-  {{ language.codes | first }} <br/>
-{% endfor %}
+{% assign language = site.data.languages | where: "codes.first", page.code | first %}
 
+{{ language }}
 
 
 <br>
