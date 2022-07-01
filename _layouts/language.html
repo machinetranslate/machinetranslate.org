@@ -20,9 +20,6 @@ parent: Languages
     <dt>Codes</dt>
     <dd><code>{{ language.codes | first }}</code></dd>
 
-    <dt>Typology</dt>
-    <dd>{{ language.typology | join: ', ' }}</dd>
-
     <dt>Language family</dt>
     <dd>{{ site.data.language_families[language.family] or <code>language.family</code> }}</dd>
 
