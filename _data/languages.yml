@@ -190,14 +190,14 @@
   territories: [ 419, ar, bo, cl, co, cr, do, ec, es, gt, hn, mx, ni, pa, pe, pr, py, sv, us, uy, ve ]
 
 -
-  codes: [ et, est, ekk ]
+  codes: [ et, est, ekk, vro ]
   names: [ Estonian ]
   family: fiu
   scripts: [ Latn ]
   typology:
     - SVO
     - fusional, agglutinative
-  territories: [ ee ]
+  territories: [ ee, ru ]
 
 -
   codes: [ eu, eus, baq ]
@@ -207,7 +207,7 @@
   typology:
     - SOV
     - fusional, agglutinative
-  territories: [ es ]
+  territories: [ es, fr ]
 
 -
   codes: [ fa, fas, per, prs ]
@@ -218,7 +218,7 @@
   typology:
     - SOV
     - agglutinative
-  territories: [ af, ir ]
+  territories: [ ir, af ]
 
 -
   codes: [ fi, fin, fit, fkv ]
@@ -339,11 +339,12 @@
   typology:
     - SVO
     - analytic
-  territories: [ ]
+  territories: [ vn, cn, th, la, mm ]
 
 -
   codes: [ hr, hrv, hbs ]
-  names: [ Croatian, Serbo-Croatian ]
+  names: [ Croatian ]
+  variant_names: [ Serbo-Croatian ]
   family: sla
   scripts: [ Latn ]
   typology:
@@ -494,7 +495,7 @@
 -
   codes: [ ckb ]
   names: [ Sorani Kurdish, Central Kurdish ]
-  family: ine
+  family: iir
   scripts: [ Arab ]
   typology:
     - SOV
@@ -606,7 +607,7 @@
   codes: [ mn, mon ]
   names: [ Mongolian ]
   family: mon
-  scripts: [ 	Cyrl,	Mong, Phags-pa ]
+  scripts: [ Cyrl, Mong, Phags-pa ]
   typology:
     - SOV
     - agglutinative
@@ -706,7 +707,7 @@
   codes: [ pa, pan ]
   names: [ Punjabi, Panjabi ]
   family: inc
-  scripts: [ Arab, Guru ]
+  scripts: [ Guru, Arab ]
   typology:
     - SOV
     - fusional
@@ -999,7 +1000,7 @@
   typology:
     - SVO
     - fusional, synthetic
-  territories: [ ua ]
+  territories: [ ua, md ]
 
 -
   codes: [ ur, urd ]
@@ -1047,9 +1048,9 @@
   family: gem
   scripts: [ Hebr ]
   typology:
-    - V2
+    - SVO
     - inflected
-  territories: [ ru ]
+  territories: [ ba, nl, pl, ro, se, ua, ru, by, us, il ]
 
 -
   codes: [ yo, yor ]
