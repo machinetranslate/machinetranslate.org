@@ -12,51 +12,12 @@ parent: Languages
 
 <hr/>
 
+{% for language in site.data.languages %}
+  {{ language.codes }}
+{% endfor %}
+
 {% assign language = site.data.languages | where: "codes.first", page.code | first %}
 
-<blockquote>
-  <dl>
-
-    <dt>Codes</dt>
-    <dd><code>{{ language.codes | first }}</code></dd>
-    
-    <dt>Names</dt>
-    <dd>{{ language.names | join: ', ' }}</dd>
-
-    <dt>Language family</dt>
-    <dd>{{ site.data.language_families[language.family] or <code>language.family</code> }}</dd>
-    
-    <dt>Typology</dt>
-    <dd>{{ language.typology | join: ', ' }}</dd>
-
-    <dt>Scripts</dt><dd>
-      {% for script in language.scripts %}
-        {{ site.data.scripts[script] or <code>script</code> }}{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    </dd>
-
-    <dt>Locale variants</dt><dd>
-      {% for variant in language.territories %}
-       <code>{{ language.codes | first | append: '-' | append: variant }}</code>{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    </dd>
-
-  </dl>
-</blockquote>
-
-
-<h3>Engine support</h3>
-<ul>
-  {% for engine in site.data.engines %}
-    {% if engine.languages contains page.code %}
-      <li>
-        <a href="/{{ engine.name | slugify }}">
-          {{ engine.name }}
-        </a>
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
 
 <br>
 
