@@ -16,6 +16,8 @@ parent: Languages
   {{ language.codes | join: ', ' }} <br/>
 {% endfor %}
 
+{% assign language = site.data.languages | slice: 1, 10 | where: "codes.first", page.code | first %}
+
 
 <br>
 
