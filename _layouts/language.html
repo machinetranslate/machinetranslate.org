@@ -22,6 +22,9 @@ parent: Languages
 
     <dt>Language family</dt>
     <dd>{{ site.data.language_families[language.family] or <code>language.family</code> }}</dd>
+    
+    <dt>Typology</dt>
+    <dd>{{ language.typology | join: ', ' }}</dd>
 
     <dt>Scripts</dt><dd>
       {% for script in language.scripts %}
