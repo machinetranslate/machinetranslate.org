@@ -12,11 +12,6 @@ parent: Languages
 
 <hr/>
 
-
-Codes: {{ site.data.languages | map: "codes.first" }}
-
-Langs: {{ site.data.languages | where: "codes.first", page.code }}
-
 {% assign language = site.data.languages | where: "codes.first", page.code | first %}
 
 <blockquote>
