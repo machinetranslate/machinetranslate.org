@@ -177,7 +177,7 @@
   typology:
     - SVO, OVS, SOV, VOS, VSO
     - agglutinative
-  territories: [ no ]
+  territories: [ ]
 
 -
   codes: [ es, spa ]
