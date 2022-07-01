@@ -13,7 +13,7 @@ parent: Languages
 <hr/>
 
 {% for language in site.data.languages %}
-  {{ language.codes }}
+  {{ language.codes | join: ', ' }} <br/>
 {% endfor %}
 
 
