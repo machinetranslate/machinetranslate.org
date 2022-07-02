@@ -46,20 +46,41 @@ parent: Languages
   </dl>
 </blockquote>
 
-
+/* TODO: 
+ - move this somewhere else, add it to the collection
+ - remove locale
+*/
 <h3>Engine support</h3>
 <ul>
   {% for engine in site.data.engines %}
+  
+    {% assign languages = '' | split %}
     {% for language in engine.languages %}
-      {% if language == page.code or language contains page.code %}
-        <li>
-          <a href="/{{ engine.name | slugify }}">
-            {{ engine.name }}
-          </a>
-        </li>
-        {% break %}
+      {% unless language.first %}
+        {% assign language = language | split: '' %}
+      {% unless %}
+      {% assign languages = languages | concat: language | uniq %}
+    {% endfor %}
+ 
+    {% for language in languages %}
+      {% assign base_language = language | split: '-' | first %}
+      {% assign found = false %}
+      {% if base_language == page.code %}
+          {% unless found %}
+            <li>
+            <a href="/{{ engine.name | slugify }}">
+              {{ engine.name }}
+            </a>
+            {% assign found = true %}
+          {% endif %}
+          {% if base_language != language %}
+            <code>{{ language }}</code>
+          {% endif %}
       {% endif %}
     {% endfor %}
+    {% if found %}
+       </li>
+    {% endif %}
   {% endfor %}
 </ul>
 
