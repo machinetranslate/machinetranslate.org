@@ -24,7 +24,7 @@ parent: Languages
 
     <dt>Codes</dt>
     <dd><code>{{ language.codes | first }}</code></dd>
-    
+
     <dt>Names</dt>
     <dd>{{ language.names | join: ', ' }}</dd>
 
@@ -47,26 +47,27 @@ parent: Languages
 </blockquote>
 
 <!--
-TODO: 
+TODO:
  - move this somewhere else, add it to the collection
- - remove locale
 -->
 
-<h3>Engine support</h3>
+<h2>Engine support</h2>
 <ul>
   {% for engine in site.data.engines %}
-  
-    {% assign languages = '' | split %}
+    {% assign languages = '' | split: ',' %} <!-- Make an empty array [] -->
+
+
     {% for language in engine.languages %}
-      {% unless language.first %}
-        {% assign language = language | split: '' %}
-      {% unless %}
-      {% assign languages = languages | concat: language | uniq %}
+      {% if language[0].size > 1 %}
+        {% assign languages = languages | concat: language | uniq %}
+      {% else %}
+        {% assign language_arr = language | split: ' ' %} <!-- Make it an array -->
+        {% assign languages = languages | concat: language_arr | uniq %}
+      {% endif %}
     {% endfor %}
- 
+
     {% for language in languages %}
       {% assign base_language = language | split: '-' | first %}
-      {% assign found = false %}
       {% if base_language == page.code %}
           {% unless found %}
             <li>
@@ -74,18 +75,19 @@ TODO:
               {{ engine.name }}
             </a>
             {% assign found = true %}
-          {% endif %}
+          {% endunless %}
           {% if base_language != language %}
             <code>{{ language }}</code>
           {% endif %}
       {% endif %}
     {% endfor %}
-    {% if found %}
-       </li>
+    {% if found == true %}
+      </li>
     {% endif %}
+
   {% endfor %}
 </ul>
 
-<br>
+<hr/>
 
 {{ content }}
