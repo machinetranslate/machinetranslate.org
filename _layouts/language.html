@@ -66,6 +66,7 @@ TODO:
       {% endif %}
     {% endfor %}
 
+    {% assign found = false %}
     {% for language in languages %}
       {% assign base_language = language | split: '-' | first %}
       {% if base_language == page.code %}
