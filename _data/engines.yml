@@ -261,7 +261,7 @@
   id: textshuttle
   url: https://www.textshuttle.ai/
   languages: [ de, en, es, fr, it ]
-  custom_languages: *
+  custom_languages: '*'
   self-serve: false
   info_url: https://www.textshuttle.ai/product/features#subscription
 
