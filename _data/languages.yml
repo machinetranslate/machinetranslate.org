@@ -1,14 +1,4 @@
 ---
-#-
-#  codes: [ 'no', nb, nn, nor, nno, nob ]
-#  names: [ Norwegian ]
-#  variant_names: [ Bokmål, Nynorsk, Riksmål, Høgnorsk ]
-#  family: gem
-#  scripts: [ Latn ]
-#  typology:
-#    - SVO
-#    - fusional
-#  territories: [ 'no' ]
 
 -
   codes: [ af, afr ]
@@ -292,7 +282,7 @@
 
 -
   codes: [ ha, hau ]
-  names: Hausa
+  names: [ Hausa ]
   family: cdc
   scripts: [ Latn, Arab ]
   typology:
@@ -496,7 +486,7 @@
   codes: [ ku, kur, sdh, kmr ]
   names: [ Kurdish, Kurmanji Kurdish, Kurmanji, Northern Kurdish, Yezidi Kurdish, Yezidi ]
   family: iir
-  scripts: [ 	Arab, Cyrl, Latn ]
+  scripts: [ Arab, Cyrl, Latn ]
   typology:
     - SOV
     - inflected
@@ -516,7 +506,7 @@
   codes: [ ky, kir ]
   names: [ Kyrgyz ]
   family: trk
-  scripts: [ 	Arab, Cyrl, Latn ]
+  scripts: [ Arab, Cyrl, Latn ]
   typology:
     - SOV
     - agglutinative
