@@ -22,13 +22,13 @@
 
 -
   codes: [ az, aze, azj, azb ]
-  names: [ Azeri, Azerbaijani ]
+  names: [ Azeri, Azerbaijani, Azeri Turkish, Azerbaijani Turkish, Turkish, Turkmen, Caucasian Tatar ]
   family: trk
   scripts: [ Latn, Cyrl, Arab ]
   typology:
     - SOV
     - agglutinative
-  territories: [ az, ir ]
+  territories: [ az, ir, iq ]
 
 -
   codes: [ be, bel ]
@@ -202,7 +202,7 @@
 -
   codes: [ fa, fas, per, prs ]
   names: [ Persian, Farsi ]
-  variant_names: [ Dari ]
+  variant_names: [ Dari, Dari Persian, Afghan Persian, Eastern Persian, Tajiki Persian ]
   family: iir
   scripts: [ Arab ]
   typology:
@@ -930,7 +930,7 @@
   typology:
     - SOV
     - analytic
-  territories: [ tj ]
+  territories: [ tj, af ]
 
 -
   codes: [ th, tha ]
