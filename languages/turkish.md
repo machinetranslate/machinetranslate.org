@@ -11,13 +11,15 @@ code: tr
 Turkic languages, including Turkish, share significant morphological and syntactical characteristics:
 
 - Agglutination
-- Subject-Object-Verb sentence order
+- Subject-Object-Verb sentence order, although other word orders are possible in Turkish
+
+Turkish has Turkic vowel harmony. Vowels of suffixes must harmonize with the vowels of noun and verb stems. If the stem has a round vowel, the suffix must have a round vowel too.
 
 Turkish also borrows words from other languages, such as French, Arabic or Persian.
 
 For Turkic languages, direct system developments are significant.
 
-### History
+## History
 
 In 1994, NATO supported two machine translation English to Turkish projects within the scope of the Science for Stability Program.
 These projects were [rule-based machine translation](/../approaches/rule-based-machine-translation.md) systems within specific domains: news captions and IBM manuals.
@@ -33,7 +35,7 @@ In 2021, the Literary Machine Translation Project started at the Department of T
 
 > This project aims to use MT to translate into Turkish literary texts whose style has been defined using corpus tools.
 
-### Datasets
+## Datasets
 
 The [Turkish National Corpus (TNC)](https://www.tnc.org.tr/) contains 50 million Turkish words.
 
@@ -41,7 +43,7 @@ The Turkish, Kurdish, and English [Bianet newspaper](https://opus.nlpl.eu/Bianet
 
 The [TS Corpus](https://tscorpus.com/) project offers English-Turkish parallel databases for academic and research purposes.
 
-### Support
+## Support
 
 In 2016, Google Translate included Turkish in the launch of Google Neural Machine Translation.
 
