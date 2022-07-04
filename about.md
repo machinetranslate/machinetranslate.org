@@ -66,7 +66,7 @@ This repository can be referenced using bibTeX citation style.
 #### Example
 ```
 @misc{machinetranslate,
-  title = {{M}achinetranslate.org},
+  title = {machinetranslate.org},
   howpublished = {\url{https://machinetranslate.org/}},
   note = {Accessed: 2022-05-12}
 }
