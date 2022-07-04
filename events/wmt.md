@@ -5,13 +5,15 @@ description: Conference on Machine Translation
 name: WMT
 ---
 
-**WMT** is the main event for machine translation and machine translation research.  The conference is held annually in connection with larger conferences on natural language processing.
+**WMT** is the main event for machine translation and machine translation research.
+The conference is held annually in connection with larger conferences on natural language processing.
 
 > The conference aims to bring together academic scientists, researchers and industry representatives to exchange and share their experiences and research results. WMT plays a key role for the entire industry of computational linguistics and machine translation.
 
 In 2006, the first **Workshop on Machine Translation** was held at the NAACL (North American Chapter of the Association for Computational Linguistics Annual Meeting).
 
-In 2016, with the rise of [neural machine translation](../approaches/neural-machine-translation.md), WMT became a conference of its own.  The **Conference on Machine Translation** is still mainly known as *WMT*.
+In 2016, with the rise of [neural machine translation](../approaches/neural-machine-translation.md), WMT became a conference of its own.
+The **Conference on Machine Translation** is still mainly known as *WMT*.
 
 Universities, research laboratories and big technology companies consistently participate in the conference and are represented in the organising committee.
 
@@ -28,7 +30,7 @@ Universities, research laboratories and big technology companies consistently pa
 | Workshop on Statistical Machine Translation | ACL 2014 |
 | Workshop on Statistical Machine Translation | ACL 2013 |
 | Workshop on Statistical Machine Translation | NAACL 2012 |
-| Workshop on Statistical Machine Translation | EMNLP 2011 |
+| [Workshop on Statistical Machine Translation](wmt11.md) | EMNLP 2011 |
 | Workshop on Statistical Machine Translation | ACL 2010 |
 | Workshop on Statistical Machine Translation | EACL 2009 |
 | Workshop on Statistical Machine Translation | ACL 2008 |
@@ -39,15 +41,21 @@ Universities, research laboratories and big technology companies consistently pa
 
 ## Shared tasks
 
-WMT includes competitions on different aspects of machine translation. These competitions are known as *shared tasks*.
+WMT includes competitions on different aspects of machine translation.
+These competitions are known as *shared tasks*.
 
-Typically, the task organisers provide datasets and instructions. Teams submit the output of their systems. The submissions are ranked with human evaluation. The results of the competition are ready before the conference takes place.
+Typically, the task organisers provide datasets and instructions.
+Teams submit the output of their systems.
+The submissions are ranked with human evaluation.
+The results of the competition are ready before the conference takes place.
 
 During the main conference, researchers present the results of the shared tasks and winners are announced.
 
-WMT started in 2006 with a *translation* task. In the following years, WMT included themes on all aspects of machine translation, corpus preparation, training, and evaluation.
+WMT started in 2006 with a *translation* task.
+In the following years, WMT included themes on all aspects of machine translation, corpus preparation, training, and evaluation.
 
-The main task is the *General machine translation task*. Until 2022, it was known as the *News task* because traditionally the content to be translated was news articles.
+The main task is the *General machine translation task*.
+Until 2022, it was known as the *News task* because traditionally the content to be translated was news articles.
 
 ### Recurrent tasks
 

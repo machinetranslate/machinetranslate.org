@@ -90,7 +90,8 @@ The **Machine Translation** Facebook group is intended to be an informal meeting
 
 ### StackOverflow `machine-translation`
 
-The **machine-translation** tag on StackOverflow collects questions and answers about machine translation. The tag has been active since 2018.
+The **machine-translation** tag on StackOverflow collects questions and answers about machine translation.
+The tag has been active since 2018.
 
 [stackoverflow.com/questions/tagged/machine-translation](https://stackoverflow.com/questions/tagged/machine-translation)
 
@@ -122,7 +123,8 @@ MT Literacy is funded by the Government of Canada through the Social Sciences an
 
 > **MaCoCu** focuses on collecting monolingual and parallel data from the Internet, specially for under-resourced languages and DSI-specific data.
 
-MaCoCu started in June 2021 and will take place until June 2023. In May 2022, MaCoCu published the first batch of monolingual and parallel corpora, covering Turkish, Bulgarian, Croatian, Slovene, Macedonian, Icelandic and Maltese.
+MaCoCu started in June 2021 and will take place until June 2023.
+In May 2022, MaCoCu published the first batch of monolingual and parallel corpora, covering Turkish, Bulgarian, Croatian, Slovene, Macedonian, Icelandic and Maltese.
 
 MaCoCu is lead by multiple groups:
 - Transducens research group (University of Alicante)
@@ -141,7 +143,8 @@ MaCoCu is co-financed by Connecting Europe Facility, from the European Union.
 
 > Turkic Interlingua (TIL) is a community of researchers, machine learning engineers, language enthusiasts and community leaders whose mission is to develop language technologies, collect diverse datasets, and explore linguistic phenomena through the lens of academic research for Turkic languages.
 
-Turkic Interlingua was founded in September 2020.  By 2022 it had over 100 members, mainly natural language processing enthusiasts, from more than 10 countries and regions.
+Turkic Interlingua was founded in September 2020.
+By 2022 it had over 100 members, mainly natural language processing enthusiasts, from more than 10 countries and regions.
 
 - Website: [turkic-interlingua.org/](https://turkic-interlingua.org/)
 - People: [https://turkic-interlingua.org/team](https://turkic-interlingua.org/team)

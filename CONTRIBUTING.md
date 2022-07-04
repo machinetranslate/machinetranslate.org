@@ -8,7 +8,8 @@ seo:
   type: HowTo
 ---
 
-Machine Translate is **created and edited by [contributors like you!](contributing/contributors.md)**  It is **open-source** and lives [**on GitHub**](https://github.com/machinetranslate/machinetranslate.org).
+Machine Translate is **created and edited by [contributors like you!](contributing/contributors.md)**.
+It is **open-source** and lives [**on GitHub**](https://github.com/machinetranslate/machinetranslate.org).
 
 We recommend reading the [**roadmap**](/roadmap.md) and [**style guide**](contributing/style.md) before you start contributing.
 

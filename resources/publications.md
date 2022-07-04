@@ -102,13 +102,15 @@ There are two types of metrics: **quality evaluation**  and **quality estimation
 
 #### Similarity-based metrics
 
-These metrics evaluate similarity between machine translation and reference translation. There are two types of this similarity:
+These metrics evaluate similarity between machine translation and reference translation.
+There are two types of this similarity:
 * n-gram matching-based similarity
 * embedding-based similarity
 
 ##### n-gram matching metrics
 
-These metrics evaluate similarity based on hand-crafted features and rules. For example, a metric can count the number and fraction of n-grams that appear in both the machine translation and the human translation.
+These metrics evaluate similarity based on hand-crafted features and rules.
+For example, a metric can count the number and fraction of n-grams that appear in both the machine translation and the human translation.
 
 |     |     |     |
 | --- | --- | --- |

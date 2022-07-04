@@ -5,7 +5,8 @@ title: Style
 description: The Machine Translate style guide
 ---
 
-Machine Translate was founded as open resources and community for people who want to use machine translation in their work, products or services. They are diverse and busy, so the content should be high-level and understandable.
+Machine Translate was founded as open resources and community for people who want to use machine translation in their work, products or services.
+They are diverse and busy, so the content should be high-level and understandable.
 
 > **Less is more.**
 
@@ -37,7 +38,8 @@ Avoid parentheses, except for defining common abbreviations.
 
 ## Consistency
 
-Use sister articles as reference and keep consistency with their structure.  Similar articles should have similar sections and focus on the same kind of information.
+Use sister articles as reference and keep consistency with their structure.
+Similar articles should have similar sections and focus on the same kind of information.
 
 
 ## No marketing
@@ -67,7 +69,8 @@ Talk straight and make complex topics simple.
 
 ## Machine translation ready
 
-Machine Translate will be machine translated. Write articles that are ready for machine translation:
+Machine Translate will be machine translated.
+Write articles that are ready for machine translation:
 
 - Follow the [Minimal content](#minimal-content) guidelines.
 - Be concise and consistent.
@@ -83,7 +86,8 @@ Arrange events, publications, and any information related to time in chronologic
 
 ## Names list
 
-In lists, separate names with commas. Do not add “and” before the last name.
+In lists, separate names with commas.
+Do not add “and” before the last name.
 
 > Philipp Koehn, Franz Josef Och, Daniel Marcu
 
@@ -106,7 +110,8 @@ In headers, capitalise only the first letter.
 
 Avoid trailing spaces and double spaces inside sentences.
 
-Separate sentences with a single enter.  Separate paragraphs with two enters.
+Separate sentences with a single enter.
+Separate paragraphs with two enters.
 
 
 ## Dates
@@ -145,13 +150,15 @@ Use curly apostrophes and quotation marks.
 
 ## Acronyms and abbreviations
 
-Only use widely understood acronyms. Expand acronyms the first time they appear in an article.
+Only use widely understood acronyms.
+Expand acronyms the first time they appear in an article.
 
 > Neural machine translation (NMT)
 
 Do not overuse acronyms.
 
-Do not use abbreviations.  Do not use punctuation marks as abbreviations.
+Do not use abbreviations.
+Do not use punctuation marks as abbreviations.
 
 > ~~USD/EUR~~ USD or EUR
 

@@ -11,7 +11,8 @@ Translations for search engine optimization is challenging for machine translati
 
 Short input, like keywords and tags, and non-sentence input, like lists of keywords, are also a challenge for machine translation.
 
-Content can be purely machine-translated, [hybrid-translated](../workflows/hybrid-translation.md) or human [post-edited](../workflows/post-editing.md). Search engines can penalize machine-generated content, including purely machine-translated content.
+Content can be purely machine-translated, [hybrid-translated](../workflows/hybrid-translation.md) or human [post-edited](../workflows/post-editing.md).
+Search engines can penalize machine-generated content, including purely machine-translated content.
 
 ### Content types
 
