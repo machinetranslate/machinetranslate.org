@@ -1,0 +1,15 @@
+---
+
+- '*'
+  - es-la: es-419
+
+- microsoft
+  - fil: tl # Macrolanguage
+  - hmn: mww # Macrolanguage
+  - ku: ckb # → Sorani Kurdish (Central Kurdish)
+  - kmr: ku # → Kurmanji Kurdish (Northern Kurdish)
+
+- google
+  - in: id # Legacy
+  - iw: he # Legacy
+  - jw: jv # Legacy
