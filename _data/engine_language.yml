@@ -11,6 +11,7 @@
   - in: id # Legacy, Google
   - iw: he # Legacy, Google
   - jw: jv # Legacy, Google
+  - prs: fa # Macrolanguage, Microsoft
   - aar: aa
   - abk: ab
   - afr: af
