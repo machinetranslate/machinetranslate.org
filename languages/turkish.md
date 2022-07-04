@@ -8,10 +8,9 @@ code: tr
 
 **Turkish** is the language with the best machine translation support in the Turkic language family.  
 
-Turkic languages, including Turkish, share significant morphological and syntactical characteristics:
+Turkic languages, including Turkish, share significant morphological and syntactical characteristics, like agglutination.
 
-- Agglutination
-- Subject-Object-Verb sentence order, although other word orders are possible in Turkish
+Turkish follows the Subject-Object-Verb sentence order, although other word orders are possible.
 
 Turkish has Turkic vowel harmony. Vowels of suffixes must harmonize with the vowels of noun and verb stems. If the stem has a round vowel, the suffix must have a round vowel too.
 
