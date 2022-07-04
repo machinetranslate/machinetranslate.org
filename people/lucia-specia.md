@@ -19,7 +19,9 @@ Her work on quality estimation includes:
 
 She had also researched machine translation, image captioning and text adaptation.
 
-Specia studied at the University of São Paulo.  She then worked as a research engineer at Machine Learning for Document Access and Translation group at Xerox Research.  In 2009, Specia joined the computational linguistics research group at the University of Wolverhampton as a senior lecturer.
+Specia studied at the University of São Paulo.
+She then worked as a research engineer at Machine Learning for Document Access and Translation group at Xerox Research.
+In 2009, Specia joined the computational linguistics research group at the University of Wolverhampton as a senior lecturer.
 
 In 2012, she started as senior lecturer in computer science and professor of language engineering at the University of Sheffield.
 

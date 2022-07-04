@@ -11,8 +11,8 @@ description: Calls for papers for machine translation events and publications
 | --- | --- | --- |
 | [AmericasNLP Competition](http://turing.iimas.unam.mx/americasnlp/st.html) | NeurIPS | 30 September 2022 |
 | [**WMT22**](/events/wmt22.md) | [WMT](/../events/wmt.md) | 7 September 2022 |
-| [**MUMTTT 2022**](/events/mumttt2022.md) | | 1 July 2022 |
-| [***Special Issue on Translation Platforms***](https://www.aclweb.org/portal/content/special-issue-translation-platforms) | ACL | 30 June 2022 |
+| [~~MUMTTT 2022~~](/events/mumttt2022.md) | | 1 July 2022 |
+| [~~*Special Issue on Translation Platforms*~~](https://www.aclweb.org/portal/content/special-issue-translation-platforms) | ACL | 30 June 2022 |
 | [~~EMNLP 2022~~](https://2022.emnlp.org/calls/papers/Overview) | EMNLP | ~~24 June 2022~~ |
 | [~~AMTA 2022~~](/events/amta2022.md) | [AMTA](../associations/amta.md) | ~~13 June 2022~~ |
 | [~~Special issue on Translation Automation and Sustainability~~](https://jostrans.org/2b.3%20Jostrans%20SI%2041.pdf) | JosTrans | ~~1 June 2022~~ |

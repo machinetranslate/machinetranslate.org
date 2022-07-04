@@ -30,7 +30,7 @@ featured: true
 | 5-10 September | [**MT Marathon**](mtm2022.md) | Prague, Czech Republic |
 | 18-22 July | [**MT Marathon in the Americas (MTMA)**](mtma2022.md) | Redmond, Washington |
 | 15 July | [**Automatic Simultaneous Translation 3**](autosimtrans2022.md) | Seattle, Washington |
-| 2 July | [**NeTTT Conference**](nettt2022.md) | Rhodes, Greece |
+| 2 July | [NeTTT Conference](nettt2022.md) | Rhodes, Greece |
 | 13 June | [Machine Translation Meetup 10](zurich-10.md) | Zurich, Switzerland |
 | 1-3 June | [EAMT 2022](eamt2022.md) | Ghent, Belgium |
 | 26-27 May | [IWSLT 2022](iwslt2022.md) | Dublin, Ireland |

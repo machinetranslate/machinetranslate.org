@@ -8,7 +8,8 @@ featured: true
 
 # Parallel data
 
-**Parallel data** or **parallel corpora** are datasets of **translation pairs** - sentences and their translations. They are used to train and test machine translation models.
+**Parallel data** or **parallel corpora** are datasets of **translation pairs** - sentences and their translations.
+They are used to train and test machine translation models.
 
 | Original | Translation |
 | ----------- | ----------- |
@@ -34,7 +35,9 @@ Parallel data is used to train statistical and neural machine translation engine
 
 Parallel data is available for most widely written language pairs, but not available for other language pairs.
 
-Parallel data can have errors, like misaligned sentences, bad sentence segmentation, bad encodings, wrong or mixed language. Errors in parallel data are challenging because they affect the quality of the machine translation output. Parallel data errors can be solved via [filtering](filtering.md).
+Parallel data can have errors, like misaligned sentences, bad sentence segmentation, bad encodings, wrong or mixed language.
+Errors in parallel data are challenging because they affect the quality of the machine translation output.
+Parallel data errors can be solved via [filtering](filtering.md).
 
 ### Public parallel data
 

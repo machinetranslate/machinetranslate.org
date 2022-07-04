@@ -93,13 +93,16 @@ NeTTT invites two types of abstract submissions:
 - proposals for oral presentations: 750 words (+ references)
 - proposals for poster presentations: 500 words (+ references)
 
-The submission will be electronic at [softconf.com/j/nettt2022/](https://www.softconf.com/j/nettt2022/).  Authors will have to state to which track they are submitting.   
+The submission will be electronic at [softconf.com/j/nettt2022/](https://www.softconf.com/j/nettt2022/).
+Authors will have to state to which track they are submitting.   
 
-Papers that have been or will be submitted to other conferences or publications must be marked as such at the time of submission in the START submission form. A paper to be published at NeTTT must be withdrawn from other conferences.  
+Papers that have been or will be submitted to other conferences or publications must be marked as such at the time of submission in the START submission form.
+A paper to be published at NeTTT must be withdrawn from other conferences.  
 
 ## Templates
 
-Submissions are not blind. Authors will state their names and affiliations.
+Submissions are not blind.
+Authors will state their names and affiliations.
 
 ## Keynote speakers
 

@@ -14,7 +14,9 @@ Translation software, like translation management systems and CAT tools, integra
 
 ### Workflow
 
-The translation software fills in the machine translation for the human translator to [post-edit](../workflows/post-editing.md). The machine translation can be inserted in whole files at once or one line at a time. Some engines that translate line-by-line can learn from post-editions and adapt the machine translation output accordingly.
+The translation software fills in the machine translation for the human translator to [post-edit](../workflows/post-editing.md).
+The machine translation can be inserted in whole files at once or one line at a time.
+Some engines that translate line-by-line can learn from post-editions and adapt the machine translation output accordingly.
 
 ### Productivity
 
