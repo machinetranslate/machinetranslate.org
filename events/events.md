@@ -83,6 +83,7 @@ featured: true
 | 26-31 August | [MT Marathon](mtm2019.md) | Edinburgh, Scotland |
 | 20 August | LoResMT 2019 | Dublin, Ireland |
 | 20 August | PSLT2019 | Dublin, Ireland |
+| 19 August | [HAT19](hat19.md) | Dublin, Ireland |
 | 19-23 August | [MT Summit 2019](mtsummit2019.md) | Dublin, Ireland |
 | 1-2 August | [**WMT19**](wmt9.md) | Florence, Italy |
 | 3 June | [Machine Translation Meetup 4](zurich-4.md) | Zurich, Switzerland |
