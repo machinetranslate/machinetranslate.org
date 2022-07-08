@@ -8,9 +8,9 @@ startDate: 2021-07-02
 endDate: 2021-07-06
 ---
 
-The first New Trends in Translation and Technology (**NeTTT**) conference will take place in Rhodes, Greece, from 2 July to 6 July, 2022.
+The first New Trends in Translation and Technology (**NeTTT**) conference took place in Rhodes, Greece, from 2 July to 6 July, 2022.
 
-The conference will be preceded by a two-day summer school in Neural Machine Translation.
+The conference was preceded by a two-day summer school in Neural Machine Translation.
 
 > NeTTT is addressed to all academics, practitioners and industry specialists who would like to learn about recent trends, present their latest work, and/or share their experiences in the field.
 

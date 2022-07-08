@@ -24,7 +24,8 @@ featured: true
 | ---- | ---- | ---- |
 | December | [**WMT22**](wmt22.md) | Abu Dhabi, United Arab Emirates |
 | December | **AAMT 2022** | |
-| 12 October | [**LoResMT 2022**](loresmt2022.md) | online |
+| 16 October | [**LoResMT 2022**](loresmt2022.md) | Gyeongju, Republic of Korea |
+| 12-17 October | [**WAT 2022**](wat2022.md) | Gyeongju, Republic of Korea |
 | 30 September | [**MUMTTT 2022**](mumttt2022.md) | Malaga, Spain |
 | 12 September | [**AMTA 2022**](amta2022.md) | Orlando, Florida |
 | 5-10 September | [**MT Marathon**](mtm2022.md) | Prague, Czech Republic |
@@ -99,6 +100,7 @@ featured: true
 | 28-30 May | EAMT 2018 | Alicante, Spain |
 | 21-25 May | MT Marathon in the Americas | Pittsburgh, Pennsylvania |
 | 19 April | [Machine Translation Meetup 1](zurich-1.md) | Zurich, Switzerland |
+| 21 March | [Translation Quality Estimation and Automatic Post-Editing](tqeape.md) | Boston, Massachusetts |
 | 21 March | LoResMT 2018 | Boston, Massachusetts |
 | 17-21 March | AMTA 2018 | Boston, Massachusetts |
 
