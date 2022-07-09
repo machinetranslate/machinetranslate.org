@@ -48,5 +48,5 @@ The average z-score shows the distance between an **average score** and the mean
 ### Process
 
 1. Human assessment scores for translations are standardised according to each human assessor's overall mean and standard deviation.
-2. Standardised scores are computed for all segments of a given system.
-3. The average of all segments of a given system is computed as a system's z-score. The average scores for systems are computed similarly, but without any score standardisation applied.
+2. Standardised scores of a given system are computed at the segment level.
+3. With the segment-level results, the system-level average z-score is computed. The average scores for systems are computed similarly, but without any score standardisation applied.
