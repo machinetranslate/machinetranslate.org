@@ -1,4 +1,5 @@
 ---
+layout: coming_soon
 parent: Building and research
 has_children: true
 nav_order: 150

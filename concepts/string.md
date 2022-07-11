@@ -48,9 +48,11 @@ ASCII only has 128 characters.
 - control characters
 ASCII cannot represent `β`, `喂`, or even `é`.
 
-In the early days of the internet, multiple standards evolved to represent text content in more languages.  In the 2000s, the **UTF-8** standard became the most popular encoding on the internet.
+In the early days of the internet, multiple standards evolved to represent text content in more languages.
+In the 2000s, the **UTF-8** standard became the most popular encoding on the internet.
 
-The most common problem is when text is encoded with one standard, but decoded with another.  The result is often unreadable.
+The most common problem is when text is encoded with one standard, but decoded with another.
+The result is often unreadable.
 
 > Example of an encoding problem
 > The text  

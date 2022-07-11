@@ -12,19 +12,83 @@ parent: Languages
 
 <hr/>
 
+{% assign language = false %}
+{% for lang in site.data.languages %}
+  {% if lang.codes.first == page.code %}
+    {% assign language = lang %}
+  {% endif %}
+{% endfor %}
+
+<blockquote>
+  <dl>
+
+    <dt>Codes</dt>
+    <dd><code>{{ language.codes | first }}</code></dd>
+
+    <dt>Names</dt>
+    <dd>{{ language.names | join: ', ' }}</dd>
+
+    <dt>Language family</dt>
+    <dd>{{ site.data.language_families[language.family] or <code>language.family</code> }}</dd>
+
+    <dt>Scripts</dt><dd>
+      {% for script in language.scripts %}
+        {{ site.data.scripts[script] or <code>script</code> }}{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    </dd>
+
+    <dt>Locale variants</dt><dd>
+      {% for variant in language.territories %}
+       <code>{{ language.codes | first | append: '-' | append: variant }}</code>{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    </dd>
+
+  </dl>
+</blockquote>
+
+<!--
+TODO: move this somewhere else, so we only do it once per engine.
+-->
+
 {{ content }}
 
-{% assign language = site.data.languages | where: "code", page.code | first %}
 
-<h3>Support</h3>
+<h2>Engine support</h2>
 <ul>
   {% for engine in site.data.engines %}
-    {% if engine.languages contains page.code %}
-      <li>
-        <a href="/{{ engine.name | slugify }}">
-          {{ engine.name }}
-        </a>
+    {% assign languages = '' | split: ',' %} <!-- Make an empty array [] -->
+
+
+    {% for language in engine.languages %}
+      {% if language[0].size > 1 %}
+        {% assign languages = languages | concat: language | uniq %}
+      {% else %}
+        {% assign language_arr = language | split: ' ' %} <!-- Make it an array -->
+        {% assign languages = languages | concat: language_arr | uniq %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign found = false %}
+    {% for language in languages %}
+      {% assign base_language = language | split: '-' | first %}
+      {% if base_language == page.code %}
+          {% unless found %}
+            <li>
+            <a href="/{{ engine.name | slugify }}">
+              {{ engine.name }}
+            </a>
+            {% assign found = true %}
+          {% endunless %}
+          {% if base_language != language %}
+            <code>{{ language }}</code>
+          {% endif %}
+      {% endif %}
+    {% endfor %}
+    {% if found == true %}
       </li>
     {% endif %}
+
   {% endfor %}
 </ul>
+
+<hr/>

@@ -9,7 +9,8 @@ endDate: 2022-04-21
 ---
 
 
-The **Neural Machine Translation – Foundations, Applications and Implications** event took place on 21 April 2022 online.  It was co-hosted by the Training Committee, International Association for Translation and Intercultural Studies (IATIS) and the Institute of Translation and Multilingual Communication at TH Köln.
+The **Neural Machine Translation – Foundations, Applications and Implications** event took place on 21 April 2022 online.
+It was co-hosted by the Training Committee, International Association for Translation and Intercultural Studies (IATIS) and the Institute of Translation and Multilingual Communication at TH Köln.
 
 [th-koeln.de/informations-und-kommunikationswissenschaften/iatis-training-event-neural-machine-translation--foundations-applications-and-implications_87375.php](https://www.th-koeln.de/informations-und-kommunikationswissenschaften/iatis-training-event-neural-machine-translation--foundations-applications-and-implications_87375.php)
 

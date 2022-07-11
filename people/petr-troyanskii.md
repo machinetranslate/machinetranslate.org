@@ -15,14 +15,17 @@ seo:
    name: educator, scholar
 ---
 
-**Petr Troyanskii** was an educator and scholar. In 1935, he filed and received USSR Patent 40995 for his machine translation invention.
+**Petr Troyanskii** was an educator and scholar.
+In 1935, he filed and received USSR Patent 40995 for his machine translation invention.
 
 The machine selected and typed words when translating from one language to another or across multiple languages simultaneously.
 
 The method suggested coding and interpreting grammatical functions using universal symbols.
-The interlingual grammatical rules were based on Esperanto. In the same years, [Georges Artsrouni](georges-artsrouni.md) independently filed a patent in Paris.
+The interlingual grammatical rules were based on Esperanto.
+In the same years, [Georges Artsrouni](georges-artsrouni.md) independently filed a patent in Paris.
 
-Troyanskii dedicated almost two decades of his life to the mechanisation of translation. His ideas included:
+Troyanskii dedicated almost two decades of his life to the mechanisation of translation.
+His ideas included:
 * pre-editing and [post-editing](/../workflows/post-editing.md) of the text
 * automatic bilingual dictionary
 * coding scheme for interlingual grammatical correspondences

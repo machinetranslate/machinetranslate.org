@@ -38,7 +38,8 @@ The content covers everything about machine translation, from products to resear
 
 ## Contributing
 
-Machine Translate is open-source. You can create or edit the content.
+Machine Translate is open-source.
+You can create or edit the content.
 
 {% include contributions.html %}
 {{ site.github.contributors | size }} contributors have made {{ all_contributions }} contributions.

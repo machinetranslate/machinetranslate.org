@@ -8,9 +8,9 @@ startDate: 2021-07-02
 endDate: 2021-07-06
 ---
 
-The first New Trends in Translation and Technology (**NeTTT**) conference will take place in Rhodes, Greece, from 2 July to 6 July, 2022.
+The first New Trends in Translation and Technology (**NeTTT**) conference took place in Rhodes, Greece, from 2 July to 6 July, 2022.
 
-The conference will be preceded by a two-day summer school in Neural Machine Translation.
+The conference was preceded by a two-day summer school in Neural Machine Translation.
 
 > NeTTT is addressed to all academics, practitioners and industry specialists who would like to learn about recent trends, present their latest work, and/or share their experiences in the field.
 
@@ -93,13 +93,16 @@ NeTTT invites two types of abstract submissions:
 - proposals for oral presentations: 750 words (+ references)
 - proposals for poster presentations: 500 words (+ references)
 
-The submission will be electronic at [softconf.com/j/nettt2022/](https://www.softconf.com/j/nettt2022/).  Authors will have to state to which track they are submitting.   
+The submission will be electronic at [softconf.com/j/nettt2022/](https://www.softconf.com/j/nettt2022/).
+Authors will have to state to which track they are submitting.   
 
-Papers that have been or will be submitted to other conferences or publications must be marked as such at the time of submission in the START submission form. A paper to be published at NeTTT must be withdrawn from other conferences.  
+Papers that have been or will be submitted to other conferences or publications must be marked as such at the time of submission in the START submission form.
+A paper to be published at NeTTT must be withdrawn from other conferences.  
 
 ## Templates
 
-Submissions are not blind. Authors will state their names and affiliations.
+Submissions are not blind.
+Authors will state their names and affiliations.
 
 ## Keynote speakers
 

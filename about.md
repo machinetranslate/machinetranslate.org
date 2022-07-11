@@ -59,6 +59,18 @@ The full licence text is in the [LICENSE](/LICENSE) file.
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://i.creativecommons.org/l/by-sa/4.0/88x31.png
 
+## Attribution
+
+This repository can be referenced using bibTeX citation style.
+
+#### Example
+```
+@misc{machinetranslate,
+  title = {machinetranslate.org},
+  howpublished = {\url{https://machinetranslate.org/}},
+  note = {Accessed: 2022-05-12}
+}
+```
 
 ## Foundation
 **Machine Translate GmbH** was founded in 2021.

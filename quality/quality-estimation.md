@@ -6,7 +6,8 @@ description: Machine translation quality estimation
 featured: true
 ---
 
-**Quality estimation** (**QE**) is a method for automatically assessing the quality of the machine translation output without human intervention. QE scores are independent from the expected translation output.
+**Quality estimation** (**QE**) is a method for automatically assessing the quality of the machine translation output without human intervention.
+QE scores are independent from the expected translation output.
 
 | Original                     | Translation                    | Quality estimate     |
 | -----------------------------| -------------------------------| ---------------------|
@@ -37,15 +38,20 @@ The main use case is hybrid translation.
 * Sentence-level
 * Document-level
 
-Sentence-level scores can be aggregated into paragraph-level scores or document-level scores. Word-, phrase- and sentence-level scores can indicate if a machine translation output needs to be post-edited. Document-level scores indicate if a machine translation output can be used without human post-editing.
+Sentence-level scores can be aggregated into paragraph-level scores or document-level scores.
+Word-, phrase- and sentence-level scores can indicate if a machine translation output needs to be post-edited.
+Document-level scores indicate if a machine translation output can be used without human post-editing.
 
 ---
 
 In 2012, [Lucia Specia](/../people/lucia-specia.md) and Google researcher Radu Soricut organized the first *Shared Task on Quality Estimation*.
 
-In 2018, Lucia Specia, Carolina Scarton and Gustavo Henrique Paetzold published the book *Quality Estimation for Machine Translation*. There was research on word-level quality estimation and paragraph-level quality estimation.
+In 2018, Lucia Specia, Carolina Scarton and Gustavo Henrique Paetzold published the book *Quality Estimation for Machine Translation*.
+There was research on word-level quality estimation and paragraph-level quality estimation.
 
-In 2020, [ModelFront](/../industry/companies.md#modelfront) launched a multilingual quality estimation API.  Tharindu Ranasinghe released pretrained models.  Facebook Research launched unsupervised quality estimation internally.
+In 2020, [ModelFront](/../industry/companies.md#modelfront) launched a multilingual quality estimation API.
+Tharindu Ranasinghe released pretrained models.
+Facebook Research launched unsupervised quality estimation internally.
 
 A growing set of frameworks, models and systems are generally available.
 
@@ -68,7 +74,9 @@ TransQuest also includes pretrained models.  The models were pretrained with [WM
 
 ### Providers
 
-ModelFront launched a standalone production system for quality estimation.  By 2020, it was generally available and supported more than 10000 language pairs.  It is provided as an API, so it can be integrated into other systems and products.
+ModelFront launched a standalone production system for quality estimation.
+By 2020, it was generally available and supported more than 10000 language pairs.
+It is provided as an API, so it can be integrated into other systems and products.
 
 There are also providers that offer a quality estimation feature within another product.
 
@@ -95,7 +103,8 @@ translate5 is open-source.
 
 ### Internal systems
 
-More companies have researched or launched quality estimation internally.  They do not provide quality estimation to others.
+More companies have researched or launched quality estimation internally.
+They do not provide quality estimation to others.
 - Amazon
 - Microsoft
 - VMware
@@ -119,20 +128,25 @@ Quality estimation is typically implemented as classification or regression.
 Supervised quality estimation trains on parallel data that includes human labels or human post-edits.
 
 ### Unsupervised
-Unsupervised quality estimation trains on monolingual data or parallel data only. Supervised quality estimation relies on labeled or post-edited data.
+Unsupervised quality estimation trains on monolingual data or parallel data only.
+Supervised quality estimation relies on labeled or post-edited data.
 
 ### Glassbox
-Glassbox approaches are tied to the machine translation system itself.  A glassbox system makes a prediction based on the internal variables of the machine translation model.  It is like a confidence score.
+Glassbox approaches are tied to the machine translation system itself.
+A glassbox system makes a prediction based on the internal variables of the machine translation model.
+It is like a confidence score.
 
 ### Blackbox
-Blackbox approaches are independent of the machine translation system.  They are not necessarily trained on the same data, and can be used with any machine translation system.
+Blackbox approaches are independent of the machine translation system.
+They are not necessarily trained on the same data, and can be used with any machine translation system.
 
 ## Approaches
 
 ### Feature engineering
 Early quality estimation approaches use machine learning with feature engineering.
 
-Examples of specific features are the number of noun or prepositional phrases in the source and target, the number of named entities, etc. Based on these features, a quality estimation model is built using machine learning techniques.
+Examples of specific features are the number of noun or prepositional phrases in the source and target, the number of named entities, etc.
+Based on these features, a quality estimation model is built using machine learning techniques.
 
 ### Deep learning
 With the rise of deep learning, quality estimation technology resorts to deep learning architectures based on artificial neural networks.
@@ -148,4 +162,3 @@ Multilingual quality estimation uses one model or system for many language pairs
 ### See also
 
 - [Hybrid translation](/../workflows/hybrid-translation.md)
-

@@ -24,12 +24,14 @@ featured: true
 | ---- | ---- | ---- |
 | December | [**WMT22**](wmt22.md) | Abu Dhabi, United Arab Emirates |
 | December | **AAMT 2022** | |
-| 12 October | [**LoResMT 2022**](loresmt2022.md) | online |
+| 16 October | [**LoResMT 2022**](loresmt2022.md) | Gyeongju, Republic of Korea |
+| 12-17 October | [**WAT 2022**](wat2022.md) | Gyeongju, Republic of Korea |
 | 30 September | [**MUMTTT 2022**](mumttt2022.md) | Malaga, Spain |
 | 12 September | [**AMTA 2022**](amta2022.md) | Orlando, Florida |
 | 5-10 September | [**MT Marathon**](mtm2022.md) | Prague, Czech Republic |
 | 18-22 July | [**MT Marathon in the Americas (MTMA)**](mtma2022.md) | Redmond, Washington |
-| 2 July | [**NeTTT Conference**](nettt2022.md) | Rhodes, Greece |
+| 15 July | [**Automatic Simultaneous Translation 3**](autosimtrans2022.md) | Seattle, Washington |
+| 2-6 July | [NeTTT Conference](nettt2022.md) | Rhodes, Greece |
 | 13 June | [Machine Translation Meetup 10](zurich-10.md) | Zurich, Switzerland |
 | 1-3 June | [EAMT 2022](eamt2022.md) | Ghent, Belgium |
 | 26-27 May | [IWSLT 2022](iwslt2022.md) | Dublin, Ireland |
@@ -57,6 +59,7 @@ featured: true
 | 16 August | [LoResMT 2021](loresmt2021.md) | online |
 | 16 August | [PSLT 2021](pslt2021.md) | online |
 | 16-20 August | [MT Summit 2021](mtsummit2021.md) | online |
+| 10 June | Automatic Simultaneous Translation 2 | Mexico City, Mexico |
 | 25 May | [Lay Use and Perceptions of Machine Translation](lay-use-and-perceptions-of-machine-translation.md) | online |
 
 ## 2020
@@ -68,6 +71,7 @@ featured: true
 | 3-5 November, 2020 | [EAMT 2020](eamt2022.md) | Lisbon, Portugal |
 | 2 November | [Machine Translation Meetup 8](zurich-8.md) | Zurich, Switzerland |
 | 5-9 October | [AMTA 2020](amta2020.md) | online |
+| 10 July | Automatic Simultaneous Translation 1 | Seattle, Washington |
 | 19 May | [Machine Translation Meetup 7](zurich-7.md) | online |
 | 3 February | [Machine Translation Meetup 6](zurich-6.md) | Zurich, Switzerland |
 
@@ -80,6 +84,7 @@ featured: true
 | 26-31 August | [MT Marathon](mtm2019.md) | Edinburgh, Scotland |
 | 20 August | LoResMT 2019 | Dublin, Ireland |
 | 20 August | PSLT2019 | Dublin, Ireland |
+| 19 August | [HAT19](hat19.md) | Dublin, Ireland |
 | 19-23 August | [MT Summit 2019](mtsummit2019.md) | Dublin, Ireland |
 | 1-2 August | [**WMT19**](wmt9.md) | Florence, Italy |
 | 3 June | [Machine Translation Meetup 4](zurich-4.md) | Zurich, Switzerland |
@@ -95,6 +100,7 @@ featured: true
 | 28-30 May | EAMT 2018 | Alicante, Spain |
 | 21-25 May | MT Marathon in the Americas | Pittsburgh, Pennsylvania |
 | 19 April | [Machine Translation Meetup 1](zurich-1.md) | Zurich, Switzerland |
+| 21 March | [Translation Quality Estimation and Automatic Post-Editing](tqeape.md) | Boston, Massachusetts |
 | 21 March | LoResMT 2018 | Boston, Massachusetts |
 | 17-21 March | AMTA 2018 | Boston, Massachusetts |
 
