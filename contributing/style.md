@@ -196,6 +196,15 @@ For list items with verbs:
 
 ```
 
+## Examples
+
+Write examples between backticks.
+
+```
+Italian: `Il corso è lungo.`
+Translation into English: `The course is long.`
+```
+
 ## File names
 
 When creating a new article, give the file a name that does not exist in Machine Translate.
