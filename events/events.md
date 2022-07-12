@@ -22,7 +22,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| December | [**WMT22**](wmt22.md) | Abu Dhabi, United Arab Emirates |
+| 7-8 December | [**WMT22**](wmt22.md) | Abu Dhabi, United Arab Emirates |
 | December | **AAMT 2022** | |
 | 16 October | [**LoResMT 2022**](loresmt2022.md) | Gyeongju, Republic of Korea |
 | 12-17 October | [**WAT 2022**](wat2022.md) | Gyeongju, Republic of Korea |
