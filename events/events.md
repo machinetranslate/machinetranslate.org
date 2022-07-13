@@ -59,7 +59,7 @@ featured: true
 | 16 August | [LoResMT 2021](loresmt2021.md) | online |
 | 16 August | [PSLT 2021](pslt2021.md) | online |
 | 16-20 August | [MT Summit 2021](mtsummit2021.md) | online |
-| 6 August | [WAT21](wat21.md) | Bangkok, Thailand |
+| 6 August | [WAT21](wat2021.md) | Bangkok, Thailand |
 | 10 June | Automatic Simultaneous Translation 2 | Mexico City, Mexico |
 | 25 May | [Lay Use and Perceptions of Machine Translation](lay-use-and-perceptions-of-machine-translation.md) | online |
 
