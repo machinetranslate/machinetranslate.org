@@ -244,6 +244,9 @@ For sections header, use H3.
 ### Challenges
 ```
 
+Leave a space between `#` and the title.
+
+
 ## Body
 
 Leave an empty line between sub-headers and paragraphs.
