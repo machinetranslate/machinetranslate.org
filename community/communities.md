@@ -153,11 +153,11 @@ By 2022 it had over 100 members, mainly natural language processing enthusiasts,
 
 ### LibreTranslate
 
-**LibreTranslate** is a community building open source translation software.
+**LibreTranslate** is a community building open-source translation software founded in 2020.
 
 LibreTranslate is a self-hosted free and open-source machine translation API.
 LibreTranslate does not use third-party proprietary providers.
-LibreTranslate is powered by the open source Argos Translate library.
+LibreTranslate is powered by the open-source Argos Translate library.
 
 - Website: [libretranslate.com](https://libretranslate.com/)
 - Community Forum: [community.libretranslate.com/](https://community.libretranslate.com/)
