@@ -1,41 +1,42 @@
 ---
-#- id: [lowercase, words separated by hyphen]
-#  name:
-#  url:
-#  type: [ tms, cat ]
-#  platform: [ cloud-based or desktop ]
-#  open_source: [ boolean ]
-#  documentation_url: [Link]
-#  engine_integrations:
-#    - service: [Use the corresponding engine id]
-#      custom: [Is the engine custom model available from the tool?]
-#      tone: [Is tone/formality selection available from the tool?]
-#      glossary: [Is the machine translation glossary/terminology/dictionary available from the tool?]
-#      adaptive: [Is the adaptive machine translation feature available from the tool?]
+# - id: <string> # slug
+#   name: <string>
+#   url: <string> # link
+#   types: [ 'tms' | 'cat', ... ] # Functionality that it has
+#   open_source: true | false
+#   engine_integrations:
+#      - <string>: # slug of the corresponding engine id
+#          custom: true | false # Is the engine custom model available from the tool?
+#          tone: true | false # Is tone/formality selection available from the tool?
+#          glossary true | false # Is the machine translation glossary/terminology/dictionary available from the tool?
+#          adaptive true | false # Is the adaptive machine translation feature available from the tool?
 #
-#  engine_plugins:
-#    - service:
-#      custom:
-#      glossary:
-#      tone:
-#      adaptive:
+#   engine_plugins:
+#      - <string>: # slug of the corresponding engine plugin id
+#          custom: true | false # Is the engine custom model available from the tool?
+#          tone: true | false # Is tone/formality selection available from the tool?
+#          glossary true | false # Is the machine translation glossary/terminology/dictionary available from the tool?
+#          adaptive true | false # Is the adaptive machine translation feature available from the tool?
 #
-#  quality_estimation: [ boolean ]
-#  quality_estimation_software:
-#    name:
-#    custom:
+#   engine_aggregator_integrations:
+#      - <string>: # slug of the corresponding integrator id
 #
-#  local_engine_support: [ boolean]
-#  fuzzy_repair: [ boolean ]
-#  fuzzy_repair_plugin: [ link ]
-#  multiple_engine_suggestions: [ boolean ]
-#  routing: [ boolean ]
+#   quality_estimation:
+#      - <string> # slug
+#        custom: true | false
+#
+#   local_engine_support: [ boolean]
+#   fuzzy_repair: [ boolean ]
+#   fuzzy_repair_plugin: [ link ]
+#   multiple_engine_suggestions: [ boolean ]
+#   routing: [ boolean ]
 
 - id: crowdin
   name: crowdin
   url: https://www.crowdin.com
-  type: [ tms, cat ]
-  platform: [ cloud-based ]
+  type:
+    - tms: true
+    - cat: true
   documentation_url: https://support.crowdin.com/configuring-machine-translation-engines/
   engine_integrations:
     - amazon:
@@ -48,8 +49,6 @@
         custom: true
         glossary: true
 
-    - intento:
-        custom: true
 
     - microsoft:
         custom: true
@@ -63,14 +62,18 @@
   engine_plugins:
     - globalese
 
+  engine_aggregator_integrations:
+    - intento:
+      custom: true
+
   local_engine_support: true
   multiple_engine_suggestions: true
 
 - id: lilt
   name: Lilt
   url: https://www.lilt.com
-  type: [ cat ]
-  platform: [ cloud-based ]
+  type:
+    - cat: true
   documentation_url: https://support.lilt.com/kb/
   engine_integrations:
     - lilt:
@@ -81,16 +84,14 @@
 - id: matecat
   name: MateCat
   url: https://www.matecat.com
-  type: [ cat ]
-  platform: [ cloud-based ]
+  type:
+    - cat: true
   documentation_url: https://site.matecat.com/support/
   engine_integrations:
     - apertium
 
     - google:
         custom: true
-
-    - intento:
 
     - language-weaver
 
@@ -113,11 +114,15 @@
 
     - yandex
 
+  engine_aggregator_integrations:
+    - intento
+
 - id: memoq
   name: MemoQ
   url: https://www.memoq.com
-  type: [ tms, cat ]
-  platform: [ cloud-based, desktop ]
+  type:
+    - tms: true
+    - cat: true
   documentation_url: https://docs.memoq.com/current/en/Welcome/welcome-memoq-docs.html
   engine_integrations:
     - alexa-ai
@@ -136,9 +141,6 @@
 
     - google:
         custom: true
-        glossary: true
-
-    - intento:
         glossary: true
 
     - kantanmt:
@@ -161,10 +163,14 @@
         custom: true
         glossary: true
 
-    - tmxmall
-
   engine_plugins:
     - globalese
+
+  engine_aggregator_integrations:
+    - intento:
+      glossary: true
+
+    - tmxmall
 
   local_engine_support: true
   multiple_engine_suggestions: true
@@ -173,8 +179,9 @@
 - id: memsource
   name: Memsource
   url: https://www.memsource.com
-  type: [ tms, cat ]
-  platform: [ cloud-based, desktop ]
+  type:
+    - tms: true
+    - cat: true
   documentation_url: https://help.memsource.com/hc/en-us
   engine_integrations:
     - aisa
@@ -185,8 +192,6 @@
         glossary: true
 
     - apertium
-
-    - crosslang
 
     - deepl:
         glossary: true
@@ -247,14 +252,18 @@
 
     - yandex
 
-  quality_estimation: true
+  engine_aggregator_integrations:
+    - crosslang
+
+  quality_estimation:
+    - memsource-mtqe
+
   routing: true
 
 - id: omegat
   name: OmegaT
   url: https://www.omegat.org
   type: [ cat ]
-  platform: [ desktop ]
   open_source: true
   documentation_url: https://omegat.org/documentation
   engine_integrations:
@@ -285,7 +294,6 @@
   name: Passolo
   url: https://www.trados.com/products/passolo/
   type: [ cat ]
-  platform: [ desktop ]
   documentation_url: https://docs.rws.com/914743/262054/passolo-help/welcome-to-the-------------passolo-documentation
   engine_integrations:
     - google:
@@ -307,7 +315,6 @@
   name: Smartcat
   url: https://www.smartcat.ai
   type: [ tms, cat ]
-  platform: [ cloud-based ]
   documentation_url: https://help.smartcat.com/hc/en-us/
   engine_integrations:
     - amazon:
@@ -319,9 +326,6 @@
 
     - google:
         custom: true
-        glossary: true
-
-    - intento:
         glossary: true
 
     - microsoft:
@@ -336,13 +340,16 @@
     - globalese:
         custom: true
 
+    engine_aggregator_integrations:
+    - intento:
+        glossary: true
+
   multiple_engine_suggestions: true
 
 - id: smartling
   name: Smartling
   url: https://www.smartling.com
   type: [ tms, cat ]
-  platform: [ cloud-based ]
   documentation_url: https://help.smartling.com/hc/en-us
   engine_integrations:
     - amazon
@@ -354,8 +361,6 @@
         glossary: true
         link: https://help.smartling.com/hc/en-us/articles/1260805168070-Translating-with-Google-AutoML
 
-    - intento
-
     - microsoft:
         custom: true
 
@@ -366,6 +371,9 @@
     - watson:
         custom: true
 
+  engine_aggregator_integrations:
+    - intento
+
   local_engine_support: true
   routing: true
 
@@ -373,7 +381,6 @@
   name: Trados Studio
   url: https://www.trados.com/products/trados-studio
   type: [ cat ]
-  platform: [ cloud-based, desktop ]
   documentation_url: https://docs.rws.com/980998/261377/trados-studio-2022/welcome-to-the-------------trados-studio-2022-documentation
   engine_integrations:
     - language-weaver:
@@ -385,17 +392,12 @@
     - amazon:
         link: https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3315/amazon-translate-mt-provider
 
-    - crosslang
-
     - deepl:
         link: https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3266/deepl-translation-provider
 
     - globalese:
         custom: true
         link: https://globalese.atlassian.net/servicedesk/customer/portal/2/article/2232746052
-
-    - intento:
-        glossary: true
 
     - kantanmt:
         custom: true
@@ -442,6 +444,12 @@
 
     - youdao
 
+  engine_aggregator_integrations:
+    - crosslang
+
+    - intento:
+        glossary: true
+
   local_engine_support: true
   multiple_engine_suggestions: true
   fuzzy_repair: true
@@ -450,7 +458,6 @@
   name: Transifex
   url: http://www.transifex.com
   type: [ tms, cat ]
-  platform: [ cloud-based ]
   documentation_url: https://docs.transifex.com/
   engine_integrations:
     - amazon:
@@ -475,7 +482,6 @@
   name: translate5
   url: https://translate5.net
   type: [ tms, cat ]
-  platform: [ desktop ]
   open_source: true
   documentation_url: https://confluence.translate5.net/spacedirectory/view.action
   engine_integrations:
@@ -507,16 +513,12 @@
   name: Wordbee
   url: http://www.wordbee.com
   type: [ tms, cat ]
-  platform: [ cloud-based ]
   documentation_url: https://wordbee.atlassian.net/wiki/spaces/WBT/overview
   engine_integrations:
     - deepl
 
     - google:
         custom: true
-
-    - intento:
-        link: https://help.inten.to/hc/en-us/articles/360017136300-Configure-your-Intento-connector-in-Wordbee
 
     - kantanmt:
         custom: true
@@ -537,6 +539,10 @@
   engine_plugins:
     - globalese
 
+  engine_aggregator_integrations:
+    - intento:
+        link: https://help.inten.to/hc/en-us/articles/360017136300-Configure-your-Intento-connector-in-Wordbee
+
   local_engine_support: true
   multiple_engine_suggestions: true
 
@@ -544,7 +550,6 @@
   name: Wordfast
   url: http://www.wordfast.com
   type: [ tms, cat ]
-  platform: [ cloud-based, desktop ]
   documentation_url: https://www.wordfast.com/WFP/5.8/t2117287.html
   engine_integrations:
     - deepl:
@@ -552,9 +557,6 @@
 
     - google:
         custom: true
-
-    - intento:
-        link: https://help.inten.to/hc/en-us/articles/360018425379-How-to-set-up-Intento-plugin-for-Wordfast-Anywhere
 
     - kantanmt:
         custom: true
@@ -569,6 +571,10 @@
 
     - yandex
 
+  engine_aggregator_integrations:
+    - intento:
+        link: https://help.inten.to/hc/en-us/articles/360018425379-How-to-set-up-Intento-plugin-for-Wordfast-Anywhere
+
   local_engine_support: true
   multiple_engine_suggestions: true
 
@@ -576,7 +582,6 @@
   name: XTM
   url: http://xtm.cloud
   type: [ tms, cat ]
-  platform: [ cloud-based ]
   documentation_url: https://xtm.cloud/docs/xtm-editor.x56164.pdf
   engine_integrations:
     - amazon:
@@ -591,8 +596,6 @@
 
     - google:
         custom: true
-
-    - intento
 
     - kantanmt:
         custom: false
@@ -620,6 +623,9 @@
     - crosslang
 
     - globalese
+
+  engine_aggregator_integrations:
+    - intento
 
   local_engine_support: true
   multiple_engine_suggestions: true
