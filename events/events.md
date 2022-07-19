@@ -59,7 +59,7 @@ featured: true
 | 16 August | [LoResMT 2021](loresmt2021.md) | online |
 | 16 August | [PSLT 2021](pslt2021.md) | online |
 | 16-20 August | [MT Summit 2021](mtsummit2021.md) | online |
-| 6 August | [WAT21](wat2021.md) | Bangkok, Thailand |
+| 6 August | [WAT 2021](wat2021.md) | Bangkok, Thailand |
 | 10 June | Automatic Simultaneous Translation 2 | Mexico City, Mexico |
 | 25 May | [Lay Use and Perceptions of Machine Translation](lay-use-and-perceptions-of-machine-translation.md) | online |
 
@@ -67,6 +67,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
+| 4 December | WAT 2020 | online |
 | 2 December | [AAMT 2020](aamt2020.md) | online |
 | 10-11 November, 2020 | [**WMT20**](wmt20.md) | online |
 | 3-5 November, 2020 | [EAMT 2020](eamt2022.md) | Lisbon, Portugal |
@@ -81,6 +82,7 @@ featured: true
 |  |  |  |
 | ---- | ---- | ---- |
 | 19 November | [AAMT 2019](aamt2019.md) | Tokyo, Japan |
+| 4 November | WAT 2019 | Hong Kong, China |
 | 28 October | [Machine Translation Meetup 5](zurich-5.md) | Zurich, Switzerland |
 | 26-31 August | [MT Marathon](mtm2019.md) | Edinburgh, Scotland |
 | 20 August | LoResMT 2019 | Dublin, Ireland |
@@ -95,6 +97,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
+| 3 December | WAT 2018 | Hong Kong, China |
 | 31 October-1 November | [**WMT18**](wmt18.md) | Brussels, Belgium |
 | 22 October | [Machine Translation Meetup 2](zurich-2.md) | Zurich, Switzerland |
 | 3-8 September | [MT Marathon](https://ufal.mff.cuni.cz/mtm18/) | Prague, Czech Republic |
@@ -109,6 +112,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
+| 27 November | WAT 2017 | Taipei, China |
 | 22 September | PSLT2017 | Nagoya, Japan |
 | 18-22 September | [MT Summit XVI](mtsummit2017.md) | Nagoya, Japan |
 | 7-8 September | [**WMT17**](wmt17.md) | Copenhagen, Denmark |
@@ -120,6 +124,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
+| 12 December | WAT 2016 | Osaka, Japan |
 | 28 October-1 November | AMTA 2016 | Austin, Texas |
 | 12-17 September | [MT Marathon](https://ufal.mff.cuni.cz/mtm16/) | Prague, Czech Republic |
 | 11-12 August | [**WMT16**](wmt16.md) | Berlin, Germany |
@@ -133,6 +138,7 @@ featured: true
 | 3 November | WPTP 2015 | Miami, Florida |
 | 3 November | PSLT2015 | Miami, Florida |
 | 30 October-3 November | [MT Summit XV](mtsummit2015.md) | Miami, Florida |
+| 16 October | WAT 2015 | Kyoto, Japan |
 | 17-18 September | [**WMT15**](wmt15.md) | Lisbon, Portugal |
 | 7-12 September | MT Marathon | Prague, Czech Republic |
 | 11-13 May | EAMT 2015 | Antalya, Turkey |
@@ -144,6 +150,7 @@ featured: true
 | ---- | ---- | ---- |
 | 26 October | WPTP 2014 | Vancouver, Canada |
 | 22-26 October | AMTA 2014 | Vancouver, Canada |
+| 4 October | WAT 2014 | Tokyo, Japan |
 | 8-13 September | MT Marathon | Trento, Italy |
 | 26-27 June | **WMT14** | Baltimore, Maryland |
 | 16-18 June | EAMT 2014 | Dubrovnik, Croatia |
