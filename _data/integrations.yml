@@ -64,7 +64,7 @@
 
   engine_aggregator_integrations:
     - intento:
-      custom: true
+        custom: true
 
   local_engine_support: true
   multiple_engine_suggestions: true
@@ -168,7 +168,7 @@
 
   engine_aggregator_integrations:
     - intento:
-      glossary: true
+        glossary: true
 
     - tmxmall
 
