@@ -115,3 +115,14 @@ The published results from the shared tasks and the data sets released for WMT a
 - Yvette Graham
 - Mariana Neves
 - Tom Kocmi
+
+<details>
+<summary><h3>Definitions</summary>
+  
+- [TrueSkill](events/wmt-terminology.md#trueskill)
+- [Relative ranking](events/wmt-terminology.md#relative-ranking)
+- [Direct assessment](events/wmt-terminology.md#direct-assessment)
+  - [Monolingual or reference-based evaluation](events/wmt-terminology.md#monolingual-or-reference-based-evaluation)
+  - [Bilingual or source-based evaluation](events/wmt-terminology.md#bilingual-or-source-based-evaluation)
+- [Average score and z-score](events/wmt-terminology.md#average-score-and-z-score)
+</details>
