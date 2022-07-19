@@ -112,7 +112,7 @@
 -
   codes: [ cy, wel, cym ]
   names: [ Welsh ]
-  family: cel
+  family: ine
   scripts: [ Latn ]
   typology:
     - VSO
@@ -152,7 +152,7 @@
 -
   codes: [ en, eng ]
   names: [ English ]
-  family: gmw
+  family: gem
   scripts: [ Latn ]
   typology:
     - SVO
@@ -234,7 +234,7 @@
 -
   codes: [ fy, fry, frr, frs ]
   names: [ Frisian ]
-  family: gmw
+  family: gem
   scripts: [ Latn ]
   typology:
     - SVO
@@ -244,7 +244,7 @@
 -
   codes: [ ga, gle ]
   names: [ Irish, Gaelic ]
-  family: cel
+  family: ine
   scripts: [ Latn ]
   typology:
     - VSO
@@ -254,7 +254,7 @@
 -
   codes: [ gd, gla ]
   names: [ Scottish Gaelic, Scots Gaelic, Gaelic ]
-  family: cel
+  family: ine
   scripts: [ Latn ]
   typology:
     - VSO
@@ -293,7 +293,7 @@
 -
   codes: [ haw ]
   names: [ Hawaiian ]
-  family: poz
+  family: map
   scripts: [ Latn ]
   typology:
     - VSO
@@ -345,7 +345,7 @@
 -
   codes: [ ht, hat ]
   names: [ Haitian, Haitian Creole ]
-  family: cpf
+  family: ine
   scripts: [ Latn ]
   typology:
     - SVO
@@ -475,7 +475,7 @@
 -
   codes: [ ko, kor ]
   names: [ Korean ]
-  family: kor
+  family:
   scripts: [ Kore ]
   typology:
     - SOV
@@ -606,8 +606,8 @@
 -
   codes: [ mn, mon ]
   names: [ Mongolian ]
-  family: mon
-  scripts: [ Cyrl, Mong, Phags-pa ]
+  family: xgn
+  scripts: [ Cyrl, Mong, Phag ]
   typology:
     - SOV
     - agglutinative
@@ -836,7 +836,7 @@
 -
   codes: [ so, som ]
   names: [ Somali ]
-  family: afa
+  family: cus
   scripts: [ Arab, Latn, Osma ]
   typology:
     - SOV
