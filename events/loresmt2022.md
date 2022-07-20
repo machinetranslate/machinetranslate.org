@@ -32,10 +32,12 @@ Github: [github.com/loresmt](https://github.com/loresmt)
 
 |     |     |
 | --- | --- |
-| Submission Open Until| July 30, 2022 (Saturday) at 23:59 (Anywhere on Earth) |
+| Submission deadline | 30 July |
 | Notification of acceptance | 22 August |
 | Camera-ready papers deadline | 5 September |
 | LoResMT workshop | 16 October |
+
+*All deadlines are anywhere on Earth.*
 
 ## Topics
 
