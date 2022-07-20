@@ -25,8 +25,8 @@ seo:
 
 The fifth Low Resource Machine Translation (**LoResMT 2022**) workshop will be held by the 29th International Conference on Computational Linguistics (COLING) on 16 October, 2022, in Gyeongju, Republic of Korea.
 
-Website: [sites.google.com/view/loresmt/](https://sites.google.com/view/loresmt/)
-Github: [github.com/loresmt](https://github.com/loresmt)
+- Website: [sites.google.com/view/loresmt/](https://sites.google.com/view/loresmt/)
+- Github: [github.com/loresmt](https://github.com/loresmt)
 
 ## Important dates
 
