@@ -19,7 +19,7 @@ seo:
     addressLocality: Gyeongju
 
   organizer:
-    type: Person
+    type: Online
     url: https://sites.google.com/view/loresmt/
 ---
 
@@ -32,10 +32,12 @@ Github: [github.com/loresmt](https://github.com/loresmt)
 
 |     |     |
 | --- | --- |
-| Papers deadline | 18 July |
+| Submission deadline | 30 July |
 | Notification of acceptance | 22 August |
 | Camera-ready papers deadline | 5 September |
 | LoResMT workshop | 16 October |
+
+*All deadlines are anywhere on Earth.*
 
 ## Topics
 
