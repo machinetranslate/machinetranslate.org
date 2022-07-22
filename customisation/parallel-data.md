@@ -60,5 +60,4 @@ Parallel data errors can be solved via [filtering](filtering.md).
 | [WikiTitles](https://data.statmt.org/wikititles/) | Data set |
 
 
-[MTData](https://github.com/thammegowda/mtdata) curates datasets from many of the above sources and offers an unified interface. 
-MTData normalizes language codes and standardizes dataset IDs; its [search interface](https://gowda.ai/mtdata/search.html) is helpful to quickly locate available datasets.
+[MTData](https://github.com/thammegowda/mtdata) offers an easy and unified way of retrieving datasets from many of the [above sources](https://thammegowda.github.io/mtdata/search.html). 
