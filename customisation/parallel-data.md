@@ -41,8 +41,8 @@ Parallel data errors can be solved via [filtering](filtering.md).
 
 ### Public parallel data
 
-| Name | Type ||
-| ---- | ---- |----|
+| Name | Type |
+| ---- | ---- |
 | [OPUS](https://opus.nlpl.eu/) | Data repository |
 | [CCAligned](https://opus.nlpl.eu/CCAligned.php) | Data repository |
 | [CCMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/CCMatrix) | Data set |
