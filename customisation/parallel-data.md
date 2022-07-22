@@ -41,8 +41,8 @@ Parallel data errors can be solved via [filtering](filtering.md).
 
 ### Public parallel data
 
-| Name | Type |
-| ---- | ---- |
+| Name | Type ||
+| ---- | ---- |----|
 | [OPUS](https://opus.nlpl.eu/) | Data repository |
 | [CCAligned](https://opus.nlpl.eu/CCAligned.php) | Data repository |
 | [CCMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/CCMatrix) | Data set |
@@ -58,3 +58,7 @@ Parallel data errors can be solved via [filtering](filtering.md).
 | [VoxPopuli](https://github.com/facebookresearch/voxpopuli) | Data set |
 | [WikiMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/WikiMatrix) | Data set |
 | [WikiTitles](https://data.statmt.org/wikititles/) | Data set |
+
+
+[MTData](https://github.com/thammegowda/mtdata) curates datasets from many of the above sources and offers an unified interface. 
+MTData normalizes language codes and standardizes dataset IDs; its [search interface](https://gowda.ai/mtdata/search.html) is helpful to quickly locate available datasets.
