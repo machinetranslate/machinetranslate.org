@@ -42,9 +42,19 @@ Machine Translate is open-source.
 You can create or edit the content.
 
 {% include contributions.html %}
-{{ site.github.contributors | size }} contributors have made {{ all_contributions }} contributions.
 
-[**Learn more about contributing**](/contributing/contributing.md)
+<div style="display: flex; justify-content: center; gap: 20%;">
+  <div>
+    <h1>{{ site.github.contributors | size }}</h1>
+    contributors
+  </div>
+  <div>
+   <h1>{{ all_contributions }}</h1>
+    contributions
+  </div>
+</div>
+
+[**Learn more about contributing →**](/contributing/contributing.md)
 
 
 ## Community
@@ -75,4 +85,4 @@ Watch and star the content source repository, browse and subscribe to issues and
 Machine Translate is on a mission to make machine translation more accessible to more people.
 Our mission is supported by people like you.
 
-[**Learn more about the foundation**](/about.md)
+[**Learn more about the foundation →**](/about.md)

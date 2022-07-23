@@ -4,22 +4,40 @@ title: LoResMT 2022
 description: Workshop on Low-Resource Machine Translation
 location: Gyeongju, Republic of Korea
 name: LoResMT 2022
-startDate: 2022-10-12
-endDate: 2022-10-17
+seo:
+  type: Event
+  name: LoResMT 2022
+  description: Workshop on Low-Resource Machine Translation
+  startDate: 2022-10-16
+  endDate: 2022-10-16
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: Republic of Korea
+    addressLocality: Gyeongju
+
+  organizer:
+    type: Online
+    url: https://sites.google.com/view/loresmt/
 ---
 
 The fifth Low Resource Machine Translation (**LoResMT 2022**) workshop will be held by the 29th International Conference on Computational Linguistics (COLING) on 16 October, 2022, in Gyeongju, Republic of Korea.
 
-[sites.google.com/view/loresmt/](https://sites.google.com/view/loresmt/)
+- Website: [sites.google.com/view/loresmt/](https://sites.google.com/view/loresmt/)
+- Github: [github.com/loresmt](https://github.com/loresmt)
 
 ## Important dates
 
 |     |     |
 | --- | --- |
-| Papers deadline | 18 July |
+| Submission deadline | 30 July |
 | Notification of acceptance | 22 August |
 | Camera-ready papers deadline | 5 September |
 | LoResMT workshop | 16 October |
+
+*All deadlines are anywhere on Earth.*
 
 ## Topics
 

@@ -26,9 +26,9 @@ seo:
     url: https://autosimtrans.github.io/organization
 ---
 
-The 3rd Workshop on **Automatic Simultaneous Translation** (**AutoSimTrans**) will be held by the North American Chapter of the Association for Computational Linguistics (NAACL) in Seattle on 15 July, 2022.  
+The 3rd Workshop on **Automatic Simultaneous Translation** (**AutoSimTrans**) was held by the North American Chapter of the Association for Computational Linguistics (NAACL) in Seattle on 15 July, 2022.  
 
-The topic will be ***Challenges, Recent Advances, and Future Directions***.
+The topic was ***Challenges, Recent Advances, and Future Directions***.
 
 [autosimtrans.github.io/](https://autosimtrans.github.io/)
 

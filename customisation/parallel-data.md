@@ -43,6 +43,7 @@ Parallel data errors can be solved via [filtering](filtering.md).
 
 | Name | Type |
 | ---- | ---- |
+| [OPUS](https://opus.nlpl.eu/) | Data repository |
 | [CCAligned](https://opus.nlpl.eu/CCAligned.php) | Data repository |
 | [CCMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/CCMatrix) | Data set |
 | [Clarin](https://www.clarin.eu/resource-families/parallel-corpora) | Data repository |

@@ -42,6 +42,8 @@ The Turkish, Kurdish, and English [Bianet newspaper](https://opus.nlpl.eu/Bianet
 
 The [TS Corpus](https://tscorpus.com/) project offers English-Turkish parallel databases for academic and research purposes.
 
+The [TDD](https://tdd.ai/) project serves a series of [corpora](https://corpus.tdd.ai/) based on the datasets published under their [data hub](https://data.tdd.ai).
+
 ## Support
 
 In 2016, Google Translate included Turkish in the launch of Google Neural Machine Translation.

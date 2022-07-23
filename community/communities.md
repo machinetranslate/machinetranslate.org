@@ -150,3 +150,15 @@ By 2022 it had over 100 members, mainly natural language processing enthusiasts,
 - People: [https://turkic-interlingua.org/team](https://turkic-interlingua.org/team)
 - Papers: [https://github.com/turkic-interlingua/til-mt](https://github.com/turkic-interlingua/til-mt)
 - Datasets: [https://huggingface.co/datasets/turkic_xwmt](https://huggingface.co/datasets/turkic_xwmt)
+
+### LibreTranslate
+
+**LibreTranslate** is a community building open-source translation software founded in 2020.
+
+LibreTranslate is a self-hosted free and open-source machine translation API.
+LibreTranslate does not use third-party proprietary providers.
+LibreTranslate is powered by the open-source Argos Translate library.
+
+- Website: [libretranslate.com](https://libretranslate.com/)
+- Community Forum: [community.libretranslate.com/](https://community.libretranslate.com/)
+- GitHub: [LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate)
