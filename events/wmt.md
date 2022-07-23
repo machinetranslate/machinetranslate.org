@@ -117,52 +117,49 @@ The published results from the shared tasks and the data sets released for WMT a
 - Tom Kocmi
 
 <details>
-<summary><h2>Definitions</summary>
+<summary>
+
+## Evaluation
+</summary>
+
+
+### Average score and average z-score
+
+For the **average score**, human assessment scores for translations are standardised according to each human assessor's overall mean and standard deviation.  Then a system-level score is computed.
+
+**Average z-score** is a normalised version.  It shows the distance between the average score for a system and the mean average score across all systems.
+
+Average score and average z-score are the main metrics used in the results for the translation shared task since WMT17.
+
 
 ### TrueSkill
 
 **TrueSkill** is a gaming rating system. Microsoft Research originally developed it for the Xbox Live gaming community. 
-For [WMT](wmt.md), TrueSkill was adapted to machine translation evaluation. During [WMT15](wmt15.md) and [WMT16](wmt16.md), TrueSkill was introduced as the human evaluation ranking for all WMT translation tasks. 
-
-#### Process
-
-  1. 1,000 samples are extracted from the available data.
-  2. TrueSkill is run over each dataset.
-  3. A rank range for each system is computed. 
+For WMT, TrueSkill was adapted to machine translation evaluation.
+For WMT15 and WMT16, TrueSkill was used as the human evaluation ranking for all translation shared tasks.
 
 ### Relative ranking
+In **relative ranking**, for each input, humans rank the outputs from all systems.
+  
+There is no absolute score or label, so there is no measure of absolute quality.
+  
+The sequence-level rankings are used to calculate system-level rankings, for example with TrueSkill.
 
-From 2014 to 2016, the **relative ranking** approach was the official scoring mechanism of the WMT conference. 
+Relative ranking was the official ranking for the translation shared task at WMT14, WMT15 and WMT16.
 
-#### Process
-
-  1. Annotators use relative ranking to rate the outputs of five different systems for each input.
-  2. These rankings generate compared pairs of translations.
-  3. WMT produces overall system rankings using the TrueSkill algorithm. The compared pairs denote only relative ability between system pairs. They cannot be used to infer their absolute quality. 
 
 ### Direct assessment
+In **direct assessment**, for each input, humans rate the output from each system with an absolute score or label.
 
-WMT16 added **direct assessment** scoring of system outputs as an investigatory ranking. Since [WMT17](wmt17.md), the approach has been the official scoring mechanism of the conference.
+The sequence-level ratings can then be used to calculate system-level ranking.
 
-Annotators use direct assessment to evaluate the system output quality relative to a reference translation.
+Direct assessment was first added as investigatory ranking for WMT16.
+Direct assessment is the official ranking for the translation shared task since WMT17.
 
-#### Monolingual or reference-based evaluation
-  
-  Human assessors use **monolingual or reference-based evaluation** to rate the system output. They compare the output to the human-generated reference without considering the source input.
-  
-#### Bilingual or source-based evaluation
-  
-  Human assessors use **bilingual or source-based evaluation** to rate the source input and system output without any reference translation.
-  
-### Average score and z-score
+There are different types of direct assessment.
+- Monolingual: Human raters see the system output only.
+- Bilingual: Human raters see the system input and output.
+- Reference-based: Human raters see the system output and a reference output.
 
-**Average score and z-score** are the main scores used in WMT.
-The **average z-score** has been the official ranking of the conference results since 2017.
-The average z-score shows the distance between an **average score** and the mean.
 
-#### Process
-
-  1. Human assessment scores for translations are standardised according to each human assessor's overall mean and standard deviation.
-  2. Standardised scores of a given system are computed at the segment level.
-  3. With the segment-level results, the system-level average z-score is computed. The average scores for systems are computed similarly, but without any score standardisation applied.
 </details>
