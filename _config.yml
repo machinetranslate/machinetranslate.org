@@ -7,7 +7,7 @@ description: Open resources and community for machine translation
 
 markdown: CommonMarkGhPages
 commonmark:
-  options: ["UNSAFE"] # Render HTML
+  options: ["UNSAFE", "SMART" ] # Render HTML
   extensions: ["autolink", "table"]
 
 # Pages permalink
