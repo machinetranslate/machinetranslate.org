@@ -5,6 +5,10 @@ url: https://machinetranslate.org
 title: Machine Translate
 description: Open resources and community for machine translation
 
+markdown: CommonMarkGhPages
+commonmark:
+  options: ["UNSAFE"] # Render HTML
+
 # Pages permalink
 permalink: pretty
 # TODO: remove this by moving them all under a content/ directory
