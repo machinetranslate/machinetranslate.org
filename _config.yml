@@ -5,10 +5,9 @@ url: https://machinetranslate.org
 title: Machine Translate
 description: Open resources and community for machine translation
 
-markdown: CommonMarkGhPages
-commonmark:
-  options: ["UNSAFE", "SMART" ] # Render HTML
-  extensions: ["autolink", "table"]
+# markdown: kramdown # The default
+kramdown:
+  parse_block_html: true # For collapsible <summary>/<detail>
 
 # Pages permalink
 permalink: pretty
