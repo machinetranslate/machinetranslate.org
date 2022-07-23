@@ -46,11 +46,11 @@ You can create or edit the content.
 <div style="display: flex; justify-content: center; gap: 20%;">
   <div>
     <h1>{{ site.github.contributors | size }}</h1>
-    contributors
+    👩🏻‍💻 contributors
   </div>
   <div>
    <h1>{{ all_contributions }}</h1>
-    contributions
+    ✏️ contributions
   </div>
 </div>
 
@@ -61,23 +61,35 @@ You can create or edit the content.
 
 Read news, ask and answer questions and share your work!
 
-<a data-tf-slider="ndac7OIs" data-tf-width="550" data-tf-iframe-props="title=Machine Translate | Open resources and community for machine translation" data-tf-medium="snippet" style="cursor:pointer; font-weight: bolder">
+<button data-tf-slider="ndac7OIs" data-tf-width="550" data-tf-iframe-props="title=Machine Translate | Open resources and community for machine translation" data-tf-medium="snippet" style="cursor:pointer; font-weight: bolder">
    Join the community
-</a>
+</button>
 <script src="//embed.typeform.com/next/embed.js"></script>
 
 
 ## Updates
 
-Hear about news and events!
+Hear about news and events by following Machine Translate!
 
-[Follow Machine Translate on Twitter](https://twitter.com/machtranslate)  
-[Follow Machine Translate on LinkedIn](https://linkedin.com/company/machinetranslate)  
-[Follow Machine Translate on Facebook](https://facebook.com/machinetranslate)
+<div style="display: flex; justify-content: center; gap: 10%;">
+  <div>
+    <a href="https://twitter.com/machtranslate">Twitter</a>
+  </div>
+  <div>
+    <a href="https://linkedin.com/company/machinetranslate">Linkedin</a>
+  </div>
+  <div>
+    <a href="https://facebook.com/machinetranslate">Facebook</a>
+  </div>
+</div>
 
 Watch and star the content source repository, browse and subscribe to issues and more!
 
 [Visit Machine Translate on GitHub](https://github.com/machinetranslate)
+
+<center>
+  {% include social.html %}
+</center>
 
 
 ## About Machine Translate
