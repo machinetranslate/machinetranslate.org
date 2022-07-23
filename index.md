@@ -16,7 +16,7 @@ The content covers everything about machine translation, from products to resear
 
 ## Featured events
 
-> [**AMTA2022**](/amta22)) is set to take place in December in September in Orlando.  
+> [**AMTA2022**](/amta22) is set to take place in September in Orlando.  
 > [Read more](/amta22)
 
 > The [**Seventh Conference on Machine Translation**](/wmt22) ([**WMT22**](/wmt22)) is set to take place in December at EMNLP 2022 in Abu Dhabi.  
