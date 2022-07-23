@@ -5,7 +5,6 @@ layout: coming_soon
 title: Glossaries
 description: Terminology lists for customising machine translation
 ---
-# Glossaries
 
 Multilingual glossaries are lists of terms in one language aligned to their translation in one or more languages.
 Glossaries can be used to customise machine translation for specific words and phrases.
@@ -17,7 +16,7 @@ Glossaries can be used to customise machine translation for specific words and p
 
 Unlike parallel data, glossaries are typically applied at translation time, not at training time.
 
-When a glossary term is matched in the source sentence, its translation is inserted in the output.
+When a glossary term is matched in the source [string](concepts/string.md), its translation is inserted in the output.
 
 The insertion of a glossary term in the output happens regardless of the context.
 
