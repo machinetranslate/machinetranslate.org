@@ -35,12 +35,12 @@ The **Seventh Conference on Machine Translation** (**WMT22**) is set to take pla
 
 |     |     |
 | --- | --- |
-| Release of training data for shared tasks	| February/March, 2022 |
-| Evaluation periods for shared tasks | June/July, 2022 |
-| Paper submission deadline | 07 September, 2022 |
-| Paper notification | 09 October, 2022 |
+| Release of training data for shared tasks	| February-March, 2022 |
+| Evaluation periods for shared tasks | June-July, 2022 |
+| Paper submission deadline | 7 September, 2022 |
+| Paper notification | 9 October, 2022 |
 | Camera-ready version | 16 October, 2022 |
-| Conference | 07-08 December, 2022 |
+| Conference | 7-8 December, 2022 |
 
 
 ## Shared tasks
