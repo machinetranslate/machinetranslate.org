@@ -8,7 +8,6 @@ description: Open resources and community for machine translation
 # markdown: kramdown # The default
 kramdown:
   parse_block_html: true # For collapsible <summary>/<detail>
-  smart_quotes: true
 
 # Pages permalink
 permalink: pretty
