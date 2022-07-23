@@ -43,14 +43,14 @@ You can create or edit the content.
 
 {% include contributions.html %}
 
-<div class="flex-container">
+<div style="display: flex; justify-content: center; gap: 20%;">
   <div>
     <h1>{{ site.github.contributors | size }}</h1>
-    <h3>contributors</h3>
+    contributors
   </div>
   <div>
    <h1>{{ all_contributions }}</h1>
-    <h3>contributions</h3>
+    contributions
   </div>
 </div>
 
