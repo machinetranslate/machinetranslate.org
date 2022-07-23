@@ -45,12 +45,16 @@ You can create or edit the content.
 
 <div style="display: flex; justify-content: center; gap: 20%;">
   <div>
-    <h1>{{ site.github.contributors | size }}</h1>
-    👩🏻‍💻 contributors
+    <center>
+      <h1>{{ site.github.contributors | size }}</h1>
+      👩🏻‍💻 contributors
+    </center>
   </div>
   <div>
-   <h1>{{ all_contributions }}</h1>
-    ✏️ contributions
+    <center>
+      <h1>{{ all_contributions }}</h1>
+      ✏️ contributions
+    </center>
   </div>
 </div>
 
