@@ -99,13 +99,15 @@ Until 2022, it was known as the *News task* because traditionally the content to
 
 The published results from the shared tasks and the data sets released for WMT are standard benchmarks across machine translation research.
 
-### Long-time organisers
+## Organisers
+**Organisers** are the people responsible for the contents for the main event and the contents, guidelines, datasets and results for each shared task.
 
+Some people have been organisers over many years:
 - [Philipp Koehn](../people/philipp-koehn.md)
-- [Lucia Specia](../people/lucia-specia.md)
 - Barry Haddow
 - Loïc Barrault
 - [Ondřej Bojar](/community/people/ondrej-bojar.md)
+- [Lucia Specia](../people/lucia-specia.md)
 - Marco Turchi
 - Matt Post
 - Rajen Chatterjee
