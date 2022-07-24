@@ -16,17 +16,17 @@ The content covers everything about machine translation, from products to resear
 
 #### Featured events
 
-> ##### [AMTA2022](/amta2022) - September - Orlando
+> [AMTA2022](/amta2022) - September, Orlando
 
-> ##### [WMT22](/wmt22) - December - Abu Dhabi
+> [WMT22](/wmt22) - December, Abu Dhabi
 
 #### Featured articles
 
-> ##### [Adaptive machine translation](/customisation/adaptive.md)
+> [Adaptive machine translation](/customisation/adaptive.md)
 
-> ##### [Quality estimation](/quality/quality-estimation.md)  
+> [Quality estimation](/quality/quality-estimation.md)  
 
-> ##### [Companies](/industry/companies.md)
+> [Companies](/industry/companies.md)
 
 ## Community
 
