@@ -26,7 +26,7 @@ The content covers everything about machine translation, from products to resear
 
 Read news, ask and answer questions and share your work!
 
-<button data-tf-slider="ndac7OIs" data-tf-width="550" data-tf-iframe-props="title=Machine Translate | Open resources and community for machine translation" data-tf-medium="snippet">
+<button class="button" data-tf-slider="ndac7OIs" data-tf-width="550" data-tf-iframe-props="title=Machine Translate | Open resources and community for machine translation" data-tf-medium="snippet">
    Join the community
 </button>
 <script src="//embed.typeform.com/next/embed.js"></script>
