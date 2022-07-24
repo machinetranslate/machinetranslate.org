@@ -79,8 +79,8 @@ Watch and star the content source repository, browse and subscribe to issues and
   <div class="social-links">
     {% include github.html %}
   </div>
-  <a href="https://github.com/machinetranslate" target="_blank">Visit Machine Translate on GitHub</a>
 </center>
+
 
 
 ## About Machine Translate
