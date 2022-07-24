@@ -195,10 +195,10 @@ Full results of the shared tasks: [*Findings of the 2019 Conference on Machine T
 
 ### News translation
 
-The winner systems are listed according to their [average score and z-score](events/wmt-terminology.md#average-score-and-z-score).
+The winner systems are listed according to their [average score and z-score](events/wmt.md#average-score-and-average-z-score).
 
 #### → English
-The results are determined through human evaluation featuring [monolingual](events/wmt-terminology.md#monolingual-or-reference-based-evaluation) [direct assessment](events/wmt-terminology.md#direct-assessment) without document context. 
+The results are determined through human evaluation featuring monolingual [direct assessment](events/wmt.md#direct-assessment) without document context. 
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -216,7 +216,7 @@ The results are determined through human evaluation featuring monolingual direct
 | German → | `Facebook-FAIR` | 81.6 | 0.146 |
 
 #### English →
-The results are determined through human evaluation featuring [bilingual](events/wmt-terminology.md#bilingual-or-source-based-evaluation) direct assessment with document context.
+The results are determined through human evaluation featuring bilingual direct assessment with document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
