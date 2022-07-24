@@ -21,25 +21,25 @@ Universities, research laboratories and big technology companies consistently pa
 
 ## Events
 
-|     |     |
-| --- | --- |
-| **[WMT22](wmt22.md) Eighth Conference on Machine Translation** | EMNLP 2022 |
-| [WMT21](wmt21.md) Seventh Conference on Machine Translation | EMNLP 2021 |
-| [WMT20](wmt20.md) Sixth Conference on Machine Translation | EMNLP 2020 |
-| [WMT19](wmt19.md) Fourth Conference on Machine Translation | ACL 2019 |
-| [WMT18](wmt18.md) Third Conference on Machine Translation | EMNLP 2018 |
-| [WMT17](wmt17.md) - Second Conference on Machine Translation | EMNLP 2017 |
-| [WMT16](wmt16.md) - First Conference on Machine Translation | ACL 2016 |
-| [Workshop on Statistical Machine Translation](wmt15.md) | EMNLP 2015 |
-| Workshop on Statistical Machine Translation | ACL 2014 |
-| Workshop on Statistical Machine Translation | ACL 2013 |
-| Workshop on Statistical Machine Translation | NAACL 2012 |
-| [Workshop on Statistical Machine Translation](wmt11.md) | EMNLP 2011 |
-| Workshop on Statistical Machine Translation | ACL 2010 |
-| Workshop on Statistical Machine Translation | EACL 2009 |
-| Workshop on Statistical Machine Translation | ACL 2008 |
-| Workshop on Statistical Machine Translation | ACL 2007 |
-| Workshop on Statistical Machine Translation | NAACL 2006 |
+|     |     |     |
+| --- | --- | --- |
+| **[WMT22](wmt22.md) | Eighth Conference on Machine Translation** | EMNLP 2022 |
+| [WMT21](wmt21.md) | Seventh Conference on Machine Translation | EMNLP 2021 |
+| [WMT20](wmt20.md) | Sixth Conference on Machine Translation | EMNLP 2020 |
+| [WMT19](wmt19.md) | Fourth Conference on Machine Translation | ACL 2019 |
+| [WMT18](wmt18.md) | Third Conference on Machine Translation | EMNLP 2018 |
+| [WMT17](wmt17.md) | Second Conference on Machine Translation | EMNLP 2017 |
+| [WMT16](wmt16.md) | First Conference on Machine Translation | ACL 2016 |
+| [WMT15](wmt15.md) | Workshop on Statistical Machine Translation | EMNLP 2015 |
+| WMT14 | Workshop on Statistical Machine Translation | ACL 2014 |
+| WMT13 | Workshop on Statistical Machine Translation | ACL 2013 |
+| WMT12 | Workshop on Statistical Machine Translation | NAACL 2012 |
+| [WMT11](wmt11.md) | Workshop on Statistical Machine Translation | EMNLP 2011 |
+| WMT10 | Workshop on Statistical Machine Translation | ACL 2010 |
+| WMT09 | Workshop on Statistical Machine Translation | EACL 2009 |
+| WMT08 | Workshop on Statistical Machine Translation | ACL 2008 |
+| WMT07 | Workshop on Statistical Machine Translation | ACL 2007 |
+| WMT06 | Workshop on Statistical Machine Translation | NAACL 2006 |
 
 ## Shared tasks
 
