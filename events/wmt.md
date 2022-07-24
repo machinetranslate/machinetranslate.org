@@ -17,6 +17,10 @@ The **Conference on Machine Translation** is still mainly known as *WMT*.
 
 Universities, research laboratories and big technology companies consistently participate in the conference and are represented in the organising committee.
 
+{% include collapsible_toc.html %}
+
+## Events
+
 |     |     |
 | --- | --- |
 | [WMT22](wmt22.md) Eighth Conference on Machine Translation | EMNLP 2022 |
@@ -36,8 +40,6 @@ Universities, research laboratories and big technology companies consistently pa
 | Workshop on Statistical Machine Translation | ACL 2008 |
 | Workshop on Statistical Machine Translation | ACL 2007 |
 | Workshop on Statistical Machine Translation | NAACL 2006 |
-
-{% include collapsible_toc.html %}
 
 ## Shared tasks
 
