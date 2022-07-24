@@ -43,7 +43,7 @@ button {
   cursor: pointer;
   font-weight: 500;
 }
-button:hover {
+button:hover, button:active, button:focus {
   color: white;
   background-color: $btn-primary-color;
   border-color: white;
