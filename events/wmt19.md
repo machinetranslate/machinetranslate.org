@@ -195,7 +195,7 @@ Full results of the shared tasks: [*Findings of the 2019 Conference on Machine T
 
 ### News translation
 
-The winner systems are listed according to their [average score and z-score](events/wmt.md#average-score-and-average-z-score).
+The winner systems are listed according to their [average score and average z-score](events/wmt.md#average-score-and-average-z-score).
 
 #### → English
 The results are determined through human evaluation featuring monolingual [direct assessment](events/wmt.md#direct-assessment) without document context. 
