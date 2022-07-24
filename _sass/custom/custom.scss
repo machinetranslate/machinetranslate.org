@@ -69,7 +69,7 @@ button:hover, button:active, button:focus {
 
 .social-links {display: inline-block; vertical-align: middle; }
 .social-links:after {content: ""; display: block; clear: both;}
-.social-links > div {
+.social-links > a {
     position: relative;
     text-align: left;
     height: 64px;
@@ -78,19 +78,19 @@ button:hover, button:active, button:focus {
     text-align: center;
 }
 
-.social-links > div > svg {
+.social-links > a > svg {
   height: 40px;
   fill: $btn-primary-color;
   margin-top: 16px;
 }
 
-footer .social-links > div > svg {
+footer .social-links > a > svg {
   height: 20px;
   fill: #d5d5d5;
   margin-top: 8px;
 }
 
-footer .social-links > div {
+footer .social-links > a {
     position: relative;
     text-align: left;
     height: 36px;
@@ -99,8 +99,9 @@ footer .social-links > div {
     text-align: center;
 }
 
-.social-links > div:hover {cursor: pointer;}
-.social-links > div.github:hover > svg {fill: #171515;}
-.social-links > div.facebook:hover > svg {fill: #3B5998;}
-.social-links > div.twitter:hover > svg {fill: #55ACEE;}
-.social-links > div.linkedin:hover > svg {fill: #0077b5;}
+.social-links > a:hover {cursor: pointer;}
+.social-links > a.github:hover > svg {fill: #171515;}
+.social-links > a.facebook:hover > svg {fill: #3B5998;}
+.social-links > a.twitter:hover > svg {fill: #55ACEE;}
+.social-links > a.linkedin:hover > svg {fill: #0077b5;}
+

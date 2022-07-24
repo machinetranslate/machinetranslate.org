@@ -14,7 +14,7 @@ seo:
 The content covers everything about machine translation, from products to research, and from history to news.
 
 > #### Featured events
-> - [AMTA2022](/amta2022) - September, Orlando
+> - [AMTA 2022](/amta2022) - September, Orlando
 > - [WMT22](/wmt22) - December, Abu Dhabi
 > 
 > #### Featured articles
@@ -40,9 +40,12 @@ Read news, ask and answer questions and share your work!
 Hear about news and events by following Machine Translate!
 
 <center>
-  {% include social.html %}
+  <div class="social-links">
+    {% include twitter.html %}
+    {% include linkedin.html %}
+    {% include facebook.html %}
+  </div>
 </center>
-
 
 ## Contributing
 
@@ -72,8 +75,13 @@ You can create or edit the content.
 
 Watch and star the content source repository, browse and subscribe to issues and more!
 
-[**Visit Machine Translate on GitHub →**](https://github.com/machinetranslate)
+<center>
+  <div class="social-links">
+    {% include github.html %}
 
+    [**Visit Machine Translate on GitHub →**](https://github.com/machinetranslate)
+  </div>
+</center>
 
 
 ## About Machine Translate
