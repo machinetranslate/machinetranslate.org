@@ -147,5 +147,6 @@ Posters must be presented in Gather.Town.
 
 The invited talk is to be determined.
 
+---
 
-*Last updated from statmt.org/wmt22 on March 22nd, 2022*
+*Last updated from https://statmt.org/wmt22 on 22 March, 2022*
