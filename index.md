@@ -16,11 +16,9 @@ The content covers everything about machine translation, from products to resear
 
 #### Featured events
 
-> ##### [AMTA2022](/amta22)  
-> September, Orlando
+> ##### [AMTA2022](/amta2022) - September - Orlando
 
-> ##### [WMT22](/wmt22)  
-> December, Abu Dhabi
+> ##### [WMT22](/wmt22) - December - Abu Dhabi
 
 #### Featured articles
 
