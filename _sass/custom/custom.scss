@@ -34,7 +34,7 @@
 
 }
 
-.button {
+button {
   background-color: white;
   color: $btn-primary-color;
   border-radius: 3px;
@@ -43,7 +43,7 @@
   cursor: pointer;
   font-weight: 500;
 }
-.button: hover {
+button:hover {
   color: white;
   background-color: $btn-primary-color;
   border-color: white;
