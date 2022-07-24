@@ -120,12 +120,12 @@ Some people have been organisers over many years:
 - Mariana Neves
 - Tom Kocmi
 
-<details>
+<details markdown=1>
+
 <summary>
 
 ## Evaluation
 </summary>
-
 
 ### Average score and average z-score
 
