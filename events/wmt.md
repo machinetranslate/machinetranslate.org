@@ -23,7 +23,7 @@ Universities, research laboratories and big technology companies consistently pa
 
 |     |     |
 | --- | --- |
-| [WMT22](wmt22.md) Eighth Conference on Machine Translation | EMNLP 2022 |
+| **[WMT22](wmt22.md) Eighth Conference on Machine Translation** | EMNLP 2022 |
 | [WMT21](wmt21.md) Seventh Conference on Machine Translation | EMNLP 2021 |
 | [WMT20](wmt20.md) Sixth Conference on Machine Translation | EMNLP 2020 |
 | [WMT19](wmt19.md) Fourth Conference on Machine Translation | ACL 2019 |
