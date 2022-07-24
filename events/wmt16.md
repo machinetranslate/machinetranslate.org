@@ -189,7 +189,7 @@ Full results of the shared tasks: [*Findings of the 2016 Conference on Machine T
 
 ### News translation
 
-The results are determined through human evaluation featuring [relative ranking](events/wmt-terminology.md#relative-ranking) with the [TrueSkill](events/wmt-terminology.md#trueskill) model. The winner systems are listed according to their score.
+The results are determined through human evaluation featuring [relative ranking](events/wmt.md#relative-ranking) with the [TrueSkill](events/wmt.md#trueskill) model. The winner systems are listed according to their score.
 
 #### → English
 
