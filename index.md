@@ -14,29 +14,21 @@ seo:
 The content covers everything about machine translation, from products to research, and from history to news.
 
 
-## Featured events
+#### Featured events
 
-> [**AMTA2022**](/amta22) is set to take place in September in Orlando.  
-> [Read more](/amta22)
+> ##### [AMTA2022](/amta22)  
+> September, Orlando
 
-> The [**Seventh Conference on Machine Translation**](/wmt22) ([**WMT22**](/wmt22)) is set to take place in December at EMNLP 2022 in Abu Dhabi.  
-> [Read more](/wmt22)
+> ##### [WMT22](/wmt22)  
+> December, Abu Dhabi
 
+#### Featured articles
 
-## Featured articles
+> ##### [Adaptive machine translation](/customisation/adaptive.md)
 
-> [Research laboratories](/research-laboratories/research-laboratories.md)
+> ##### [Quality estimation](/quality/quality-estimation.md)  
 
-> [Quality estimation](/quality/quality-estimation.md)
-
-> [Companies](/industry/companies.md)
-
-> [Parallel data](/customisation/parallel-data.md)
-
-> [Adaptive machine translation](/customisation/adaptive.md)
-
-> [Data confidentiality](/industry/data-confidentiality.md)
-
+> ##### [Companies](/industry/companies.md)
 
 ## Community
 
@@ -83,14 +75,16 @@ You can create or edit the content.
 <div style="display: flex; justify-content: center; gap: 20%;">
   <div>
     <center>
+      👩🏻‍💻
       <h1>{{ site.github.contributors | size }}</h1>
-      👩🏻‍💻 contributors
+      contributors
     </center>
   </div>
   <div>
     <center>
+      ✏️
       <h1>{{ all_contributions }}</h1>
-      ✏️ contributions
+      contributions
     </center>
   </div>
 </div>
