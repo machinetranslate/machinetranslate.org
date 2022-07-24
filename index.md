@@ -16,6 +16,7 @@ The content covers everything about machine translation, from products to resear
 > #### Featured events
 > - [AMTA2022](/amta2022) - September, Orlando
 > - [WMT22](/wmt22) - December, Abu Dhabi
+> 
 > #### Featured articles
 > - [Adaptive machine translation](/customisation/adaptive.md)
 > - [Quality estimation](/quality/quality-estimation.md)
@@ -26,31 +27,17 @@ The content covers everything about machine translation, from products to resear
 
 Read news, ask and answer questions and share your work!
 
-<button class="button" data-tf-slider="ndac7OIs" data-tf-width="550" data-tf-iframe-props="title=Machine Translate | Open resources and community for machine translation" data-tf-medium="snippet">
-   Join the community
-</button>
+<center>
+  <button data-tf-slider="ndac7OIs" data-tf-width="550" data-tf-iframe-props="title=Machine Translate | Open resources and community for machine translation" data-tf-medium="snippet">
+     Join the community
+  </button>
+</center>
 <script src="//embed.typeform.com/next/embed.js"></script>
 
 
 ## Updates
 
 Hear about news and events by following Machine Translate!
-
-<div style="display: flex; justify-content: center; gap: 10%;">
-  <div>
-    <a href="https://twitter.com/machtranslate">Twitter</a>
-  </div>
-  <div>
-    <a href="https://linkedin.com/company/machinetranslate">Linkedin</a>
-  </div>
-  <div>
-    <a href="https://facebook.com/machinetranslate">Facebook</a>
-  </div>
-</div>
-
-Watch and star the content source repository, browse and subscribe to issues and more!
-
-[Visit Machine Translate on GitHub](https://github.com/machinetranslate)
 
 <center>
   {% include social.html %}
@@ -82,6 +69,11 @@ You can create or edit the content.
 </div>
 
 [**Learn more about contributing →**](/contributing/contributing.md)
+
+Watch and star the content source repository, browse and subscribe to issues and more!
+
+[**Visit Machine Translate on GitHub →**](https://github.com/machinetranslate)
+
 
 
 ## About Machine Translate
