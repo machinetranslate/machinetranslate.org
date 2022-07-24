@@ -58,25 +58,32 @@
 .social-links > div {
     position: relative;
     text-align: left;
+    height: 64px;
+    width: 64pxpx;
+    float: left;
+    text-align: center;
+}
+
+.social-links > div > svg {
+  height: 40px;
+  fill: $btn-primary-color;
+  margin-top: 16px;
+}
+
+footer .social-links > div > svg {
+  height: 20px;
+  fill: #d5d5d5;
+  margin-top: 8px;
+}
+
+footer .social-links > div {
+    position: relative;
+    text-align: left;
     height: 36px;
     width: 32px;
     float: left;
     text-align: center;
 }
-
-.social-links > div > svg {height: 32px; fill: #d5d5d5; margin-top: 20px;}
-
-footer > .social-links > div.github > svg {height: 38px; margin-top: 14px;}
-footer > .social-links > div.facebook > svg {height: 36px; margin-top: 18px;}
-footer > .social-links > div.twitter > svg {height: 40px; margin-top: 16px;}
-footer > .social-links > div.linkedin > svg {height: 38px; margin-top: 14px;}
-
-footer > .social-links > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
-
-footer > .social-links > div.github > svg {height: 19px; margin-top: 7px;}
-footer > .social-links > div.facebook > svg {height: 18px; margin-top: 9px;}
-footer > .social-links > div.twitter > svg {height: 20px; margin-top: 8px;}
-footer > .social-links > div.linkedin > svg {height: 19px; margin-top: 7px;}
 
 .social-links > div:hover {cursor: pointer;}
 .social-links > div.github:hover > svg {fill: #171515;}
