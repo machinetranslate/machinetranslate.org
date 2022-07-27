@@ -125,7 +125,7 @@ Full results of the shared tasks: [*Findings of the 2015 Workshop on Statistical
 
 ### News translation
 
-The results are determined through human evaluation featuring [relative ranking](events/wmt.md#relative-ranking) with the [TrueSkill](events/wmt.md#trueskill) model.
+The results are determined through human evaluation featuring [relative ranking](wmt.md#relative-ranking) with the [TrueSkill](wmt.md#trueskill) model.
 The winner systems are listed according to their score.
 
 #### → English

@@ -195,10 +195,10 @@ Full results of the shared tasks: [*Findings of the 2019 Conference on Machine T
 
 ### News translation
 
-The winner systems are listed according to their [average score and average z-score](events/wmt.md#average-score-and-average-z-score).
+The winner systems are listed according to their [average score and average z-score](wmt.md#average-score-and-average-z-score).
 
 #### → English
-The results are determined through human evaluation featuring monolingual [direct assessment](events/wmt.md#direct-assessment) without document context. 
+The results are determined through human evaluation featuring monolingual [direct assessment](wmt.md#direct-assessment) without document context. 
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -209,7 +209,7 @@ The results are determined through human evaluation featuring monolingual [direc
 | Kazakh → | `online-B` | 72.2 | 0.270 |
 | Finnish → | `MSRA-NAO` | 78.2 | 0.285 |
 
-The results are determined through human evaluation featuring monolingual direct assessment with document context. 
+The results are determined through human evaluation featuring monolingual direct assessment with document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -235,7 +235,7 @@ The results are determined through human evaluation featuring monolingual direct
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
 | → Czech | `online-Y` | 63.9 | 0.426 |
-			
+
 #### French ↔︎ German
 The results are determined through human evaluation featuring monolingual direct assessment without document context.
 
