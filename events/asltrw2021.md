@@ -5,6 +5,22 @@ description: Workshop on Automatic Spoken Language Translation in Real-World Set
 location: online
 name: ASLTRW 2021
 startDate: 2021-08-17
+seo:
+  type: Event
+  name: AMTA2020
+  description: Workshop on Automatic Spoken Language Translation in Real-World Settings
+  startDate: 2021-08-17
+  endDate: 2021-08-17
+  eventAttendanceMode: OnlineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: VirtualLocation
+    url: https://cai.uni-mainz.de/asltrw/
+
+  organizer:
+    type: Person
+    url: https://cai.uni-mainz.de/asltrw/#organizers
 ---
 
 The Automatic Spoken Language Translation in Real-World Settings (**ASLTRW**) workshop was held online at the [MT Summit 2021](mtsummit2021.md) on 17 August, 2021.

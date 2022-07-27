@@ -4,8 +4,21 @@ title: NeTTT
 description: New Trends in Translation and Technology
 location: Rhodes, Greece
 name: NeTTT
-startDate: 2021-07-02
-endDate: 2021-07-06
+startDate: 2022-07-02
+
+seo:
+  type: Event
+  name: NeTTT
+  description: New Trends in Translation and Technology
+  startDate: 2022-07-02
+  endDate: 2022-07-06
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: Greece
+    addressLocality: Rhodes
 ---
 
 The first New Trends in Translation and Technology (**NeTTT**) conference took place in Rhodes, Greece, from 2 July to 6 July, 2022.

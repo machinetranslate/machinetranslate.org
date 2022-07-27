@@ -5,7 +5,24 @@ description: Conference on Machine Translation
 location: Brussels, Belgium
 name: WMT18
 startDate: 2018-10-31
-endDate: 2018-11-01
+
+seo:
+  type: Event
+  name: WMT18
+  description: Workshop on Machine Translation
+  startDate: 2018-10-31
+  endDate: 2018-11-01
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: Belgium
+    addressLocality: Brussels
+
+  organizer:
+    type: Person
+    url: https://www.statmt.org/wmt18/
 ---
 
 The **Third Conference on Machine Translation** (**WMT18**) took place from 31 October to 1 November 2018 in Brussels, Belgium.

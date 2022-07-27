@@ -2,26 +2,25 @@
 parent: Events
 title: WMT22
 description: Seventh Conference on Machine Translation
-location: Abu Dhabi
+location: Abu Dhabi, United Arab Emirates
 name: WMT22
-startDate: 2021-12-12
-endDate: 2021-12-13
+startDate: 2022-12-07
 featured: true
 seo:
   type: Event
   name: WMT22
-  startDate: 2021-12-12
-  endDate: 2021-12-13
+  startDate: 2022-12-07
+  endDate: 2022-12-08
   eventAttendanceMode: OfflineEventAttendanceMode
   eventStatus: EventScheduled
+
   location:
     type: PostalAddress
     addressCountry: United Arab Emirates
     addressLocality: Abu Dhabi
 
   organizer:
-    type: Organization
-    name: WMT
+    type: Person
     url: https://statmt.org/wmt22
 ---
 

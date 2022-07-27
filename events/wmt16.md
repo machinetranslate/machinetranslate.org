@@ -5,7 +5,24 @@ description: Conference on Machine Translation
 location: Berlin, Germany
 name: WMT16
 startDate: 2016-08-11
-endDate: 2016-08-12
+
+seo:
+  type: Event
+  name: WMT16
+  description: Workshop on Machine Translation
+  startDate: 2016-08-11
+  endDate: 2016-08-12
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: Germany
+    addressLocality: Berlin
+
+  organizer:
+    type: Person
+    url: https://www.statmt.org/wmt16/
 ---
 
 The **First Conference on Machine Translation** (**WMT16**) took place from 11 August to 12 August, 2016, in Berlin, Germany.

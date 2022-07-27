@@ -5,6 +5,21 @@ description: Workshop on Low-Resource Machine Translation
 location: online
 name: LoResMT 2021
 startDate: 2021-08-16
+seo:
+  type: Event
+  name: LoResMT 2021
+  description: Workshop on Low-Resource Machine Translation
+  startDate: 2021-08-16
+  endDate: 2021-08-16
+  eventAttendanceMode: OnlineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: VirtualLocation
+
+  organizer:
+    type: Online
+    url: https://sites.google.com/view/loresmt/
 ---
 
 The fourth Low-Resource Machine Translation workshop (**LoResMT 2021**) was held online in the [MT Summit 2021](mtsummit2021.md) on 16 August, 2021.

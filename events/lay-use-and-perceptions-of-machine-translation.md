@@ -5,13 +5,33 @@ description: An international symposium on lay use and perceptions of machine tr
 location: online
 name: Lay Use and Perceptions of Machine Translation
 startDate: 2021-05-25
-endDate: 2021-05-25
+
+seo:
+  type: Event
+  name: Lay Use and Perceptions of Machine Translation
+  description: An international symposium on lay use and perceptions of machine translation
+  startDate: 2021-05-25
+  endDate: 2021-05-25
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: Ireland
+    addressLocality: Dublin
+
+  organizer:
+    type: Organization
+    name: Department of Translation and Interpreting Studies, Bar-Ilan University
+    url: https://translation.biu.ac.il/en
 ---
 
 The online symposium was held by the Department of Translation and Interpeting Studies at Bar Ilan University.
 
-> Machine translation (MT) has had an increasing effect on multilingual communication and understanding in a globalized world. 
+> Machine translation (MT) has had an increasing effect on multilingual communication and understanding in a globalized world.
 > This symposium presents emerging research on lay use and perceptions of MT.
+
+[translation.biu.ac.il/en/node/848](https://translation.biu.ac.il/en/node/848)
 
 13:30-13:45
 ### Opening remarks
@@ -41,5 +61,3 @@ Omri Asscher and Ella Glikson, Bar-Ilan University
 
 #### Believability and misleading machine translation
 Marianna Martindale, University of Maryland
-
-

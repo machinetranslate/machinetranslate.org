@@ -5,6 +5,17 @@ description: MT Meetup 7 - Zurich
 location: online
 name: Zurich machine translation meetup
 startDate: 2020-05-19
+
+seo:
+  type: Event
+  name: Zurich machine translation meetup 7
+  startDate: 2020-05-19
+  endDate: 2020-05-19
+  eventAttendanceMode: OnlineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: VirtualLocation
 ---
 
 # Zurich Machine Translation Meetup 2020

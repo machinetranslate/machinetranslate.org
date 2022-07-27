@@ -5,7 +5,22 @@ description: Conference on Machine Translation
 location: online
 name: WMT20
 startDate: 2020-11-10
-endDate: 2020-11-11
+
+seo:
+  type: Event
+  name: WMT20
+  description: Workshop on Machine Translation
+  startDate: 2020-11-10
+  endDate: 2020-11-11
+  eventAttendanceMode: OnlineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: VirtualLocation
+
+  organizer:
+    type: Person
+    url: https://www.statmt.org/wmt20/
 ---
 
 The **Fifth Conference on Machine Translation** (**WMT20**) took place online from 10 November to 11 November, 2020.
@@ -227,7 +242,7 @@ Full results of the shared tasks: [*Findings of the 2020 Conference on Machine T
 The winner systems are listed according to their [average score and average z-score](wmt.md#average-score-and-average-z-score).
 
 #### → English
-The results are determined through human evaluation featuring monolingual [direct assessment](wmt.md#direct-assessment) with document context. 
+The results are determined through human evaluation featuring monolingual [direct assessment](wmt.md#direct-assessment) with document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |

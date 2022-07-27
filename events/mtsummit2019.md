@@ -5,7 +5,25 @@ description: Machine Translation Summit
 location: Dublin, Ireland
 name: MT Summit 2019
 startDate: 2019-08-19
-endDate: 2019-08-23
+
+seo:
+  type: Event
+  name: MT Summit 2019
+  description: Machine Translation Summit
+  startDate: 2019-08-19
+  endDate: 2019-08-23
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: Ireland
+    addressLocality: Dublin
+
+  organizer:
+    type: Organization
+    name: European Association of Machine Translation
+    url: https://eamt.org
 ---
 
 The seventeenth Machine Translation Summit (**MT Summit 2019**) took place from 19 August to 23 August at Dublin, Ireland.

@@ -3,9 +3,26 @@ parent: Events
 title: WMT15
 description: Workshop on Machine Translation
 location: Lisbon, Portugal
-name: WMT16
+name: WMT15
 startDate: 2015-09-17
-endDate: 2015-09-18
+
+seo:
+  type: Event
+  name: WMT15
+  description: Workshop on Machine Translation
+  startDate: 2015-09-17
+  endDate: 2015-09-18
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: Portugal
+    addressLocality: Lisbon
+
+  organizer:
+    type: Person
+    url: https://www.statmt.org/wmt15/
 ---
 
 The **Tenth Workshop on Machine Translation** (**WMT15**) took place from 17 September to 18 September, 2015, in Lisbon, Portugal.

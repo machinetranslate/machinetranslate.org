@@ -5,7 +5,24 @@ description: Conference on Machine Translation
 location: Florence, Italy
 name: WMT19
 startDate: 2019-08-01
-endDate: 2019-08-02
+
+seo:
+  type: Event
+  name: WMT19
+  description: Workshop on Machine Translation
+  startDate: 2019-08-01
+  endDate: 2019-08-02
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: Italy
+    addressLocality: Florence
+
+  organizer:
+    type: Person
+    url: https://www.statmt.org/wmt19/
 ---
 
 The **Fourth Conference on Machine Translation** (**WMT19**) took place from 1 August to 2 August 2019 in Florence, Italy.
@@ -198,7 +215,7 @@ Full results of the shared tasks: [*Findings of the 2019 Conference on Machine T
 The winner systems are listed according to their [average score and average z-score](wmt.md#average-score-and-average-z-score).
 
 #### → English
-The results are determined through human evaluation featuring monolingual [direct assessment](wmt.md#direct-assessment) without document context. 
+The results are determined through human evaluation featuring monolingual [direct assessment](wmt.md#direct-assessment) without document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
