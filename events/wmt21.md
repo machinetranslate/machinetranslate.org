@@ -209,3 +209,61 @@ Thursday, November 11, 2021
 | 15:00 – 15:15 | [***Subword Mapping and Anchoring across Languages***](https://arxiv.org/pdf/2109.04556.pdf) <br>Giorgos Vernikos and Andrei Popescu-Belis |
 | 15:15 – 15:30 | [***Uncertainty-Aware Machine Translation Evaluation***](https://arxiv.org/pdf/2109.06352.pdf) <br>Taisiya Glushkova, Chrysoula Zerva, Ricardo Rei and André F. T. Martins |
 | 15:30 – 15:45 | [***Sometimes We Want Ungrammatical Translations***](https://aclanthology.org/2021.findings-emnlp.275.pdf) <br>Prasanna Parasarathi |
+
+## Results
+
+Full results of the shared tasks: [*Findings of the 2021 Conference on Machine Translation (WMT21)*](https://statmt.org/wmt21/pdf/2021.wmt-1.1.pdf)
+
+### News translation
+
+The winner systems are listed according to their [average score and average z-score](events/wmt.md#average-score-and-average-z-score).
+
+#### → English
+The results are determined through human evaluation featuring monolingual [direct assessment](events/wmt.md#direct-assessment) with document context.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| Czech → | `Facebook-AI` | 77.8 | 0.111 |
+| German → | `Borderline` | 71.9 | 0.126 |
+| Hausa → | `Facebook-AI` | 74.4 | 0.248 |
+| Icelandic → | `Facebook-AI` | 74.5 | 0.293 |
+| Japanese → | `HW-TSC` | 73.8 | 0.141 |
+| Russian → | `NVIDIA-NeMo` | 77.5 | 0.137 |
+| Chinese → | `NiuTrans`| 75.0 | 0.042 |
+
+#### English →
+The results are determined through human evaluation featuring bilingual direct assessment in a full document.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| → Czech | `Facebook-AI` | 87.6 | 0.263 |
+| → German | `Online-B` | 83.3 | 0.266 |
+| → Hausa | `Facebook-AI` | 82.7 | 0.264 |
+| → Icelandic | `Facebook-AI` | 84.5 | 0.594 |
+| → Japanese | `Facebook-AI` | 86.4 | 0.430 |
+| → Russian | `Online-W` | 83.3 | 0.277 |
+| → Chinese | `HappyNewYear`| 74.9 | 0.284 |
+
+#### French ↔︎ German
+The results are determined through human evaluation featuring bilingual direct assessment in a full document.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| French → German | `Online-W`| 87.7 | 0.088 |
+| German → French | `Online-B`| 87.9 | 0.160 |
+
+#### Hindi ↔︎ Bengali
+The results are determined through human evaluation featuring direct assessment without document context.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| Hindi → Bengali | `HW-TSC` | 95.0 | 0.245 |
+| Bengali → Hindi | `GTCOM` | 82.1 | 0.202 |
+
+#### Zulu ↔︎ Xhosa
+The results are determined through human evaluation featuring direct assessment without document context.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| Zulu → Xhosa | `TRANSSION` | 80.7 | 0.502 |
+| Xhosa → Zulu | `HW-TSC` | 68.4 | 0.331 |
