@@ -2,15 +2,13 @@
 parent: Events
 title: WMT21
 description: Conference on Machine Translation
-location: Punta Cana, Dominican Republic, and online
-name: WMT21
+location: Punta Cana, La Altagracia Province, Punta Cana
 startDate: 2021-11-10
-
+name: WMT21
 featured: true
 seo:
   type: Event
   name: WMT21
-  description: Workshop on Machine Translation
   startDate: 2021-11-10
   endDate: 2021-11-11
   eventAttendanceMode: OfflineEventAttendanceMode
