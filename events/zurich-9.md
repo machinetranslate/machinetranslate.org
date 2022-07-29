@@ -16,8 +16,10 @@ seo:
 
   location:
     type: PostalAddress
+    streetAddress: Viaduktstrasse 93
     addressCountry: Switzerland
     addressLocality: Zurich
+    addressRegion: Zurich
 ---
 
 # Zurich Machine Translation Meetup 2021

@@ -16,6 +16,7 @@ seo:
 
   location:
     type: VirtualLocation
+    url: https://zoom.us/j/95204848531?pwd=K0REanlsV2xUcTBwTVJ0WWtBOGx3QT09
 ---
 
 # Zurich Machine Translation Meetup 2020
