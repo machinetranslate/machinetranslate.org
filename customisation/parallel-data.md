@@ -60,4 +60,9 @@ Many of the largest data sets are publicly available.
 | [WikiTitles](https://data.statmt.org/wikititles/) | Data set |
 
 
-[MTData](https://github.com/thammegowda/mtdata) offers an easy and unified way of retrieving datasets from many of the [above sources](https://thammegowda.github.io/mtdata/search.html). 
+### Search and download
+
+* [MTData](https://github.com/thammegowda/mtdata)
+* [OPUSTools](https://github.com/Helsinki-NLP/OpusTools/blob/master/opustools_pkg/README.md)
+* [Huggingface Datasets](https://huggingface.co/datasets?task_categories=task_categories:translation)
+
