@@ -38,7 +38,7 @@ The sequence model arranges a sentence order by calculating the probability of t
 
 ### Encoder/decoder framework
 
-Neural machine translation architecture consists of an encoder and a decoder.
+Neural machine translation architecture consists of an encoder and a [decoder](/concepts/language-model#decoding).
 
 The encoder analyses the input sequence words and their relations.
 The result is the representation of the sentence, called context vector.
