@@ -5,7 +5,25 @@ description: Machine Translation Summit
 location: Nagoya, Japan
 name: MT Summit XVI
 startDate: 2017-09-18
-endDate: 2017-09-22
+
+seo:
+  type: Event
+  name: MT Summit XVI
+  description: Machine Translation Summit
+  startDate: 2017-09-18
+  endDate: 2017-09-22
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: Japan
+    addressLocality: Nagoya
+
+  organizer:
+    type: Organization
+    name: Asian-Pacific Association for Machine Translation
+    url: https://aamt.info/
 ---
 
 The sixteenth Machine Translation Summit (**MT Summit XVI**) took place from 18 September to 22 September, 2017, at Nagoya, Japan.

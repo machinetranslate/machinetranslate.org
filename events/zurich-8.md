@@ -5,6 +5,18 @@ description: MT Meetup 8 - Zurich
 location: online
 name: Zurich machine translation meetup
 startDate: 2020-11-02
+
+seo:
+  type: Event
+  name: Zurich machine translation meetup 8
+  startDate: 2020-11-02
+  endDate: 2020-11-02
+  eventAttendanceMode: OnlineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: VirtualLocation
+    url: https://zoom.us/j/95204848531?pwd=K0REanlsV2xUcTBwTVJ0WWtBOGx3QT09
 ---
 
 # Zurich Machine Translation Meetup 2020

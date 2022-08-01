@@ -5,7 +5,24 @@ description: Conference on Machine Translation
 location: Berlin, Germany
 name: WMT16
 startDate: 2016-08-11
-endDate: 2016-08-12
+
+seo:
+  type: Event
+  name: WMT16
+  description: Workshop on Machine Translation
+  startDate: 2016-08-11
+  endDate: 2016-08-12
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: Germany
+    addressLocality: Berlin
+
+  organizer:
+    type: Person
+    url: https://www.statmt.org/wmt16/
 ---
 
 The **First Conference on Machine Translation** (**WMT16**) took place from 11 August to 12 August, 2016, in Berlin, Germany.
@@ -182,3 +199,34 @@ Wednesday, 12 August, 2016
 | 16:00 – 16:40	| [***Fast and highly parallelizable phrase table for statistical machine translation***](https://aclanthology.org/W16-2211.pdf) <br>Nikolay Bogoychev, Hieu Hoang |
 | 16:00 – 17:00	| [***A Comparative Study on Vocabulary Reduction for Phrase Table Smoothing***](https://aclanthology.org/W16-2212.pdf) <br>Yunsu Kim, Andreas Guta, Joern Wuebker, Hermann Ney |
 | 17:00 – 17:20	| [***Examining the Relationship between Preordering and Word Order Freedom in Machine Translation***](https://aclanthology.org/W16-2213.pdf) <br>Joachim Daiber, Miloš Stanojević, Wilker Aziz, Khalil Sima’an |
+
+## Results
+
+Full results of the shared tasks: [*Findings of the 2016 Conference on Machine Translation (WMT16)*](https://aclanthology.org/W16-2301.pdf)
+
+### News translation
+
+The results are determined through human evaluation featuring [relative ranking](wmt.md#relative-ranking) with the [TrueSkill](wmt.md#trueskill) model.
+The winner systems are listed according to their score.
+
+#### → English
+
+| Language pair | System | Score |
+| --- | --- | --- |
+| Czech → | `UEDIN-NMT` | 0.62 |
+| Romanian → | `ONLINE-B` | 0.58 |
+| German → | `UEDIN-NMT` | 0.82 |
+| Russian → | `AMU-UEDIN` | 0.45 |
+| Turkish → | `ONLINE-B` | 0.82 |
+| Finnish → | `UEDIN-PBMT` | 0.42 |
+
+#### English →
+
+| Language pair | System | Score |
+| --- | --- | --- |
+| → Czech | `UEDIN-NMT` | 0.59 |
+| → Romanian | `UEDIN-NMT` | 0.45 |
+| → German | `UEDIN-NMT` | 0.49 |
+| → Russian | `PROMT-RULE` | 0.79 |
+| → Turkish | `ONLINE-G` | 0.76 |
+| → Finnish | `ONLINE-G` | 0.36 |

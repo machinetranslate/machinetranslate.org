@@ -2,7 +2,8 @@
 parent: Events
 title: Automatic Simultaneous Translation 2022
 description: Third Workshop on Automatic Simultaneous Translation
-location: hybrid
+location: Seattle, United States of America
+startDate: 2022-07-15
 name: Automatic Simultaneous Translation 2022
 seo:
   type: Event
@@ -15,8 +16,8 @@ seo:
 
   location:
     type: PostalAddress
-    addressCountry: United States
-    addressLocality: Seattle
+    addressCountry: United States of America
+    addressRegion: Washington
 
     type: VirtualLocation
     url: https://zoom.us/j/94678981515?pwd=L2R4R0haanBTV2l6V1NubGExOTNRQT09

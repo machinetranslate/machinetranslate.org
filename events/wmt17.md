@@ -5,7 +5,24 @@ description: Conference on Machine Translation
 location: Copenhagen, Denmark
 name: WMT17
 startDate: 2017-09-07
-endDate: 2017-09-08
+
+seo:
+  type: Event
+  name: WMT17
+  description: Workshop on Machine Translation
+  startDate: 2017-09-07
+  endDate: 2017-09-08
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: Denmark
+    addressLocality: Copenhagen
+
+  organizer:
+    type: Person
+    url: https://www.statmt.org/wmt17/
 ---
 
 The **Second Conference on Machine Translation** (**WMT17**) took place from 7 September to 8 September, 2017, in Copenhagen, Denmark.
@@ -151,3 +168,36 @@ Friday, 8 September, 2017
 | 16:30 – 16:45 | [***Adapting Neural Machine Translation with Parallel Synthetic Data***](https://aclanthology.org/W17-4714.pdf) <br>Mara Chinea-Rios, Álvaro Peris, Francisco Casacuberta |
 | 16:45 – 17:00	| [***Copied Monolingual Data Improves Low-Resource Neural Machine Translation***](https://aclanthology.org/W17-4715.pdf) <br>Anna Currey, Antonio Valerio Miceli Barone, Kenneth Heafield |
 | 17:00 – 17:15	| [***Guiding Neural Machine Translation Decoding with External Knowledge***](https://aclanthology.org/W17-4716.pdf) <br>Rajen Chatterjee, Matteo Negri, Marco Turchi, Marcello Federico, Lucia Specia, Frédéric Blain |
+
+## Results
+
+Full results of the shared tasks: [*Findings of the 2017 Conference on Machine Translation (WMT17)*](https://aclanthology.org/W17-4717.pdf)
+
+### News translation
+
+The results are determined through human evaluation featuring monolingual [direct assessment](wmt.md#direct-assessment).
+The winner systems are listed according to their [average score and average z-score](wmt.md#average-score-and-average-z-score).
+
+#### → English
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| Chinese →| `SogouKnowing-nmt` | 73.2 | 0.209 |
+| Czech → | `uedin-nmt` | 74.6 | 0.181 |
+| German → | `online-B` | 78.2 | 0.213 |
+| Finnish → | `online-B` | 73.8 | 0.407 |
+| Latvian → | `online-B` | 76.2 | 0.266 |
+| Russian → | `online-B` | 82.0 | 0.271 |
+| Turkish → | `online-B` | 68.8 | 0.294 |
+
+#### English →
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| → Chinese | `SogouKnowing-nmt` | 73.2 | 0.208 |
+| → Czech | `uedin-nmt` | 62.0 | 0.308 |
+| → German | `LMU-nmt-reranke`d | 72.9 | 0.257 |
+| → Finnish | `online-B` | 59.6 | 0.378 |
+| → Latvian | `tilde-nc-nmt-smt` | 54.4 | 0.196 |
+| → Russian | `online-B` | 75.4 | 0.402 |
+| → Turkish | `online-B` | 53.4 | 0.513 |

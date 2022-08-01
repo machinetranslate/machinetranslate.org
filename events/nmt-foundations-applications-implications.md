@@ -5,7 +5,22 @@ description: IATIS Training Event on Neural Machine Translation
 location: online
 name: Neural Machine Translation – Foundations, Applications and Implications
 startDate: 2022-04-21
-endDate: 2022-04-21
+
+seo:
+  type: Event
+  name: Neural Machine Translation – Foundations, Applications and Implications
+  description: IATIS Training Event on Neural Machine Translation
+  startDate: 2022-04-21
+  endDate: 2022-04-21
+  eventAttendanceMode: OnlineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+  type: VirtualLocation
+
+  organizer:
+    type: Organization
+    name: International Association for Translation and Intercultural Studies, Institute of Translation and Multilingual Communication
 ---
 
 

@@ -5,7 +5,22 @@ description: Conference on Machine Translation
 location: online
 name: WMT20
 startDate: 2020-11-10
-endDate: 2020-11-11
+
+seo:
+  type: Event
+  name: WMT20
+  description: Workshop on Machine Translation
+  startDate: 2020-11-10
+  endDate: 2020-11-11
+  eventAttendanceMode: OnlineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: VirtualLocation
+
+  organizer:
+    type: Person
+    url: https://www.statmt.org/wmt20/
 ---
 
 The **Fifth Conference on Machine Translation** (**WMT20**) took place online from 10 November to 11 November, 2020.
@@ -217,3 +232,61 @@ Friday, November 20, 2020
 | | [***The Tatoeba Translation Challenge – Realistic Data Sets for Low Resource and Multilingual MT***](https://aclanthology.org/2020.wmt-1.139.pdf) <br>Jörg Tiedemann |
 | | [***Human-Paraphrased References Improve Neural Machine Translation***](https://aclanthology.org/2020.wmt-1.140.pdf) <br>Markus Freitag, George Foster, David Grangier and Colin Cherry |
 | |	[***Incorporating Terminology Constraints in Automatic Post-Editing***](https://aclanthology.org/2020.wmt-1.141.pdf) <br>David Wan, Chris Kedzie, Faisal Ladhak, Marine Carpuat and Kathleen McKeown |
+
+## Results
+
+Full results of the shared tasks: [*Findings of the 2020 Conference on Machine Translation (WMT20)*](https://aclanthology.org/2020.wmt-1.1.pdf)
+
+### News translation
+
+The winner systems are listed according to their [average score and average z-score](wmt.md#average-score-and-average-z-score).
+
+#### → English
+The results are determined through human evaluation featuring monolingual [direct assessment](wmt.md#direct-assessment) with document context.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| Chinese → | `VolcTrans` | 77.5 | 0.102 |
+| Czech → | `CUNI-DocTransformer` | 78.3 | 0.118 |
+| German → | `VolcTrans` | 82.6 | 0.228 |
+| Japanese → | `Tohoku-AIP-NTT` | 75.1 | 0.184 |
+| Polish → | `SRPOL` | 77.2 | 0.131 |
+| Russian → | `Online-G` | 79.3 | 0.124 |
+| Tamil → | `GTCOM` | 68.7 | 0.203 |
+
+The results are determined through human evaluation featuring monolingual direct assessment without document context.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| Inuktitut → | `NiuTrans` | 73.1 | 0.168 |
+| Khmer → | `Online-B` | 69.0 | 0.168 |
+| Pashto → | `Online-B` | 67.3 | 0.032 |
+
+#### English →
+The results are determined through human evaluation featuring bilingual direct assessment with document context.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| → Chinese | `OPPO` | 80.0 | 0.447 |
+| → Czech | `CUNI-DocTransformer` | 82.2 | 0.546 |  
+| → German | `OPPO` | 87.4 | 0.495 |
+| → Japanese | `NiuTrans` | 77.7 | 0.502 |
+| → Polish | `SRPOL` | 76.4 | 0.493 |  
+| → Russian | `Online-G` | 81.5 | 0.469 |
+| → Tamil | `Facebook-AI` | 79.0 | 0.663 |
+
+The results are determined through human evaluation featuring bilingual direct assessment without document context.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| → Inuktitut | `MultiLingual-Ubiqus` | 75.3 | 0.425 |
+| → Khmer | `GTCOM` | 77.4 | 0.478 |
+| → Pashto | `GTCOM` | 73.0 | 0.244 |
+
+#### French ↔︎ German
+The results are determined through human evaluation featuring bilingual direct assessment without document context.
+
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| German → French | `OPPO` | 90.4 | 0.279 |
+| French → German | `VolcTrans` | 89.8 | 0.334 |

@@ -14,8 +14,8 @@ The machinetranslate.org technology stack:
 
 Follow the [Jekyll Quickstart Instructions](https://jekyllrb.com/docs/#instructions):
 
-> 1. Install all [prerequisites]({{ '/docs/installation/' | relative_url }}).
-> 2. Install the jekyll and bundler [gems]({{ '/docs/ruby-101/#gems' | relative_url }}).
+> 1. Install all [prerequisites](https://jekyllrb.com/docs/installation/).
+> 2. Install the jekyll and bundler [gems](https://jekyllrb.com/docs/ruby-101/#gems).
 > ```sh
 > gem install jekyll bundler
 > ```

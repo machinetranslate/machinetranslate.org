@@ -3,9 +3,26 @@ parent: Events
 title: WMT15
 description: Workshop on Machine Translation
 location: Lisbon, Portugal
-name: WMT16
+name: WMT15
 startDate: 2015-09-17
-endDate: 2015-09-18
+
+seo:
+  type: Event
+  name: WMT15
+  description: Workshop on Machine Translation
+  startDate: 2015-09-17
+  endDate: 2015-09-18
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: Portugal
+    addressLocality: Lisbon
+
+  organizer:
+    type: Person
+    url: https://www.statmt.org/wmt15/
 ---
 
 The **Tenth Workshop on Machine Translation** (**WMT15**) took place from 17 September to 18 September, 2015, in Lisbon, Portugal.
@@ -118,3 +135,32 @@ Friday, 18 September, 2015
 | |	[***Local System Voting Feature for Machine Translation System Combination***](https://aclanthology.org/W15-3060.pdf) ([slides](https://www.statmt.org/wmt15/slides/freitag.pdf)) <br>Markus Freitag, Jan-Thorsten Peter, Stephan Peitz, Minwei Feng, Hermann Ney |
 | 15:20 – 16:00	| ☕️ |
 | 16:00 – 17:00	| **Session 10: Closing and Open Discussion** |
+
+## Results
+
+Full results of the shared tasks: [*Findings of the 2015 Workshop on Statistical Machine Translation*](https://aclanthology.org/W15-3001.pdf)
+
+### News translation
+
+The results are determined through human evaluation featuring [relative ranking](wmt.md#relative-ranking) with the [TrueSkill](wmt.md#trueskill) model.
+The winner systems are listed according to their score.
+
+#### → English
+
+| Language pair | System | Score |
+| --- | --- | --- |
+| Czech → | `ONLINE-B` | 0.619 |
+| French → | `ONLINE-B` | 0.498 |
+| German → | `ONLINE-B` | 0.567 |
+| Russian → | `ONLINE-G` | 0.494 |
+| Finnish → | `ONLINE-B` | 0.675 |
+
+#### English →
+
+| Language pair | System | Score |
+| --- | --- | --- |
+| → Czech | `CU-CHIMERA` | 0.686 |
+| → French | `LIMSI-CNRS` | 0.540 |
+| → German | `UEDIN-SYNTAX` | 0.359 |
+| → Russian | `PROMT-RULE` | 1.015 |
+| → Finnish | `ONLINE-B` | 1.069 |

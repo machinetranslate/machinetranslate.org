@@ -5,7 +5,25 @@ description: Machine Translation Summit
 location: Florida, United States
 name: MT Summit XV
 startDate: 2015-10-29
-endDate: 2015-11-03
+
+seo:
+  type: Event
+  name: MT Summit XV
+  description: Machine Translation Summit
+  startDate: 2015-10-29
+  endDate: 2015-11-03
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: United States of America
+    addressLocality: Florida
+
+  organizer:
+    type: Organization
+    name: Association for Machine Translation in the Americas
+    url: https://amtaweb.org
 ---
 
 The fifteenth Machine Translation Summit (**MT Summit XV**) took place from 29 October to 03 November, 2015, at Florida, United States.

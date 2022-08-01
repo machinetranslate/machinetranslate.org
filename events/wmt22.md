@@ -2,26 +2,25 @@
 parent: Events
 title: WMT22
 description: Seventh Conference on Machine Translation
-location: Abu Dhabi
+location: Abu Dhabi, United Arab Emirates
 name: WMT22
-startDate: 2021-12-12
-endDate: 2021-12-13
+startDate: 2022-12-07
 featured: true
 seo:
   type: Event
   name: WMT22
-  startDate: 2021-12-12
-  endDate: 2021-12-13
+  startDate: 2022-12-07
+  endDate: 2022-12-08
   eventAttendanceMode: OfflineEventAttendanceMode
   eventStatus: EventScheduled
+
   location:
     type: PostalAddress
     addressCountry: United Arab Emirates
     addressLocality: Abu Dhabi
 
   organizer:
-    type: Organization
-    name: WMT
+    type: Person
     url: https://statmt.org/wmt22
 ---
 
@@ -35,12 +34,12 @@ The **Seventh Conference on Machine Translation** (**WMT22**) is set to take pla
 
 |     |     |
 | --- | --- |
-| Release of training data for shared tasks	| February/March, 2022 |
-| Evaluation periods for shared tasks | June/July, 2022 |
-| Paper submission deadline | 07 September, 2022 |
-| Paper notification | 09 October, 2022 |
+| Release of training data for shared tasks	| February-March, 2022 |
+| Evaluation periods for shared tasks | June-July, 2022 |
+| Paper submission deadline | 7 September, 2022 |
+| Paper notification | 9 October, 2022 |
 | Camera-ready version | 16 October, 2022 |
-| Conference | 07-08 December, 2022 |
+| Conference | 7-8 December, 2022 |
 
 
 ## Shared tasks
@@ -147,5 +146,6 @@ Posters must be presented in Gather.Town.
 
 The invited talk is to be determined.
 
+---
 
-*Last updated from statmt.org/wmt22 on March 22nd, 2022*
+*Last updated from https://statmt.org/wmt22 on 22 March, 2022*

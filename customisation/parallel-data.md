@@ -6,20 +6,18 @@ description: Parallel data for training machine translation
 featured: true
 ---
 
-# Parallel data
-
-**Parallel data** or **parallel corpora** are datasets of **translation pairs** - sentences and their translations.
+**Parallel data** or **parallel corpora** are data sets of **translation pairs** - sentences and their translations.
 They are used to train and test machine translation models.
 
 | Original | Translation |
 | ----------- | ----------- |
 | File | Archivo |
 
-Parallel datasets can include translations for one or more language pairs, and be directioned or directionless.
+Parallel data sets can include translations for one or more language pairs, and be directioned or directionless.
 
-### Parallel data creation
+### Creation
 
-Parallel datasets can be created manually, automatically, or created synthetically from monolingual data.
+Parallel data sets can be created manually, automatically, or created synthetically from monolingual data.
 - Human translation
 - Human [post-editing](../workflows/post-editing.md)
 - [Crawling](crawling.md)
@@ -39,7 +37,9 @@ Parallel data can have errors, like misaligned sentences, bad sentence segmentat
 Errors in parallel data are challenging because they affect the quality of the machine translation output.
 Parallel data errors can be solved via [filtering](filtering.md).
 
-### Public parallel data
+### Open data sets
+
+Many of the largest data sets are publicly available.
 
 | Name | Type |
 | ---- | ---- |

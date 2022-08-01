@@ -148,6 +148,7 @@ plugins:
   - jekyll-feed
   - jekyll-target-blank
   - jekyll-seo-tag
+  - html-proofer
 
 # Default theme settings
 # Unused

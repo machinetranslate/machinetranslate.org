@@ -5,6 +5,19 @@ description: MT Meetup 1 - Zurich
 location: Zurich, Switzerland
 name: Zurich machine translation meetup
 startDate: 2018-04-19
+
+seo:
+  type: Event
+  name: Zurich machine translation meetup 1
+  startDate: 2018-04-19
+  endDate: 2018-04-19
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: Switzerland
+    addressLocality: Zurich
 ---
 
 # Zurich Machine Translation Meetup 2018

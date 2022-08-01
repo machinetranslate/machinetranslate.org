@@ -5,6 +5,19 @@ description: MT Meetup 6 - Zurich
 location: Zurich, Switzerland
 name: Zurich machine translation meetup
 startDate: 2020-02-03
+
+seo:
+  type: Event
+  name: Zurich machine translation meetup 6
+  startDate: 2020-02-03
+  endDate: 2020-02-03
+  eventAttendanceMode: OfflineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: PostalAddress
+    addressCountry: Switzerland
+    addressLocality: Zurich
 ---
 
 # Zurich Machine Translation Meetup 2020

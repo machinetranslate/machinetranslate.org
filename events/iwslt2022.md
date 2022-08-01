@@ -4,6 +4,8 @@ title: IWSLT 2022
 description: International Conference on Spoken Language Translation (IWSLT)
 location: Dublin, Ireland
 name: IWSLT 2022
+startDate: 2022-05-26
+
 seo:
   type: Event
   name: IWSLT 2022

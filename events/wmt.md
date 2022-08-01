@@ -17,27 +17,29 @@ The **Conference on Machine Translation** is still mainly known as *WMT*.
 
 Universities, research laboratories and big technology companies consistently participate in the conference and are represented in the organising committee.
 
-|     |     |
-| --- | --- |
-| [WMT22](wmt22.md) Eighth Conference on Machine Translation | EMNLP 2022 |
-| [WMT21](wmt21.md) Seventh Conference on Machine Translation | EMNLP 2021 |
-| [WMT20](wmt20.md) Sixth Conference on Machine Translation | EMNLP 2020 |
-| [WMT19](wmt19.md) Fourth Conference on Machine Translation | ACL 2019 |
-| [WMT18](wmt18.md) Third Conference on Machine Translation | EMNLP 2018 |
-| [WMT17](wmt17.md) - Second Conference on Machine Translation | EMNLP 2017 |
-| [WMT16](wmt16.md) - First Conference on Machine Translation | ACL 2016 |
-| [Workshop on Statistical Machine Translation](wmt15.md) | EMNLP 2015 |
-| Workshop on Statistical Machine Translation | ACL 2014 |
-| Workshop on Statistical Machine Translation | ACL 2013 |
-| Workshop on Statistical Machine Translation | NAACL 2012 |
-| [Workshop on Statistical Machine Translation](wmt11.md) | EMNLP 2011 |
-| Workshop on Statistical Machine Translation | ACL 2010 |
-| Workshop on Statistical Machine Translation | EACL 2009 |
-| Workshop on Statistical Machine Translation | ACL 2008 |
-| Workshop on Statistical Machine Translation | ACL 2007 |
-| Workshop on Statistical Machine Translation | NAACL 2006 |
-
 {% include collapsible_toc.html %}
+
+## Events
+
+|     |     |     |
+| :-: | :-: | :-: |
+| **[WMT22](wmt22.md)** | Eighth Conference on Machine Translation | EMNLP 2022 |
+| [WMT21](wmt21.md) | Seventh Conference on Machine Translation | EMNLP 2021 |
+| [WMT20](wmt20.md) | Sixth Conference on Machine Translation | EMNLP 2020 |
+| [WMT19](wmt19.md) | Fourth Conference on Machine Translation | ACL 2019 |
+| [WMT18](wmt18.md) | Third Conference on Machine Translation | EMNLP 2018 |
+| [WMT17](wmt17.md) | Second Conference on Machine Translation | EMNLP 2017 |
+| [WMT16](wmt16.md) | First Conference on Machine Translation | ACL 2016 |
+| [WMT15](wmt15.md) | Workshop on Statistical Machine Translation | EMNLP 2015 |
+| WMT14 | Workshop on Statistical Machine Translation | ACL 2014 |
+| WMT13 | Workshop on Statistical Machine Translation | ACL 2013 |
+| WMT12 | Workshop on Statistical Machine Translation | NAACL 2012 |
+| [WMT11](wmt11.md) | Workshop on Statistical Machine Translation | EMNLP 2011 |
+| WMT10 | Workshop on Statistical Machine Translation | ACL 2010 |
+| WMT09 | Workshop on Statistical Machine Translation | EACL 2009 |
+| WMT08 | Workshop on Statistical Machine Translation | ACL 2008 |
+| WMT07 | Workshop on Statistical Machine Translation | ACL 2007 |
+| WMT06 | Workshop on Statistical Machine Translation | NAACL 2006 |
 
 ## Shared tasks
 
@@ -97,13 +99,15 @@ Until 2022, it was known as the *News task* because traditionally the content to
 
 The published results from the shared tasks and the data sets released for WMT are standard benchmarks across machine translation research.
 
-### Long-time organisers
+## Organisers
+**Organisers** are the people responsible for the contents for the main event and the contents, guidelines, datasets and results for each shared task.
 
+Some people have been organisers over many years:
 - [Philipp Koehn](../people/philipp-koehn.md)
-- [Lucia Specia](../people/lucia-specia.md)
 - Barry Haddow
 - Loïc Barrault
 - [Ondřej Bojar](/community/people/ondrej-bojar.md)
+- [Lucia Specia](../people/lucia-specia.md)
 - Marco Turchi
 - Matt Post
 - Rajen Chatterjee
@@ -115,3 +119,51 @@ The published results from the shared tasks and the data sets released for WMT a
 - Yvette Graham
 - Mariana Neves
 - Tom Kocmi
+
+<details markdown=1>
+
+<summary markdown=1>
+
+## Evaluation
+</summary>
+
+### Average score and average z-score
+
+For the **average score**, human assessment scores for translations are standardised according to each human assessor's overall mean and standard deviation.  Then a system-level score is computed.
+
+**Average z-score** is a normalised version.  It shows the distance between the average score for a system and the mean average score across all systems.
+
+Average score and average z-score are the main metrics used in the results for the translation shared task since WMT17.
+
+
+### TrueSkill
+
+**TrueSkill** is a gaming rating system. Microsoft Research originally developed it for the Xbox Live gaming community. 
+For WMT, TrueSkill was adapted to machine translation evaluation.
+For WMT15 and WMT16, TrueSkill was used as the human evaluation ranking for all translation shared tasks.
+
+### Relative ranking
+In **relative ranking**, for each input, humans rank the outputs from all systems.
+  
+There is no absolute score or label, so there is no measure of absolute quality.
+  
+The sequence-level rankings are used to calculate system-level rankings, for example with TrueSkill.
+
+Relative ranking was the official ranking for the translation shared task at WMT14, WMT15 and WMT16.
+
+
+### Direct assessment
+In **direct assessment**, for each input, humans rate the output from each system with an absolute score or label.
+
+The sequence-level ratings can then be used to calculate system-level ranking.
+
+Direct assessment was first added as investigatory ranking for WMT16.
+Direct assessment is the official ranking for the translation shared task since WMT17.
+
+There are different types of direct assessment.
+- Monolingual: Human raters see the system output only.
+- Bilingual: Human raters see the system input and output.
+- Reference-based: Human raters see the system output and a reference output.
+
+
+</details>

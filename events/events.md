@@ -17,6 +17,7 @@ featured: true
 | Date | Event | Location |
 | ---- | ---- | ---- |
 |  | **MT Summit 2023** | |
+|  | **EAMT 2023** | Tampere, Finland |
 
 ## 2022
 

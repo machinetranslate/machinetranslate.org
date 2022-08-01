@@ -4,6 +4,7 @@ title: HAT19
 description: Workshop on Human-Aided Translation
 location: Dublin, Ireland
 name: HAT'19
+startDate: 2019-08-19
 seo:
   type: Event
   name: HAT19
@@ -19,9 +20,8 @@ seo:
     addressLocality: Dublin
 
   organizer:
-    type: Organization
-    name: European Association for Machine Translation
-    url: https://machinetranslate.org/eamt
+    type: Person
+    url: https://sites.google.com/unbabel.com/hat19/home#h.p_8TeSBOWoIVS4
 ---
 
 The workshop on Human-Aided Translation (**HAT**) took place in Dublin, Ireland, on 19 August, 2019.

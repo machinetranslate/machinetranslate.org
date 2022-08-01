@@ -4,6 +4,7 @@ title: Translation Quality Estimation and Automatic Post-Editing
 description: Workshop on Translation Quality Estimation and Automatic Post-Editing
 location: Boston, Massachusetts
 name: Translation Quality Estimation and Automatic Post-Editing
+startDate: 2019-03-21
 seo:
   type: Event
   name: Translation Quality Estimation and Automatic Post-Editing

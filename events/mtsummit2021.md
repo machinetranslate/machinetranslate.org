@@ -5,7 +5,23 @@ description: Machine Translation Summit
 location: online
 name: MT Summit 2021
 startDate: 2021-08-16
-endDate: 2021-08-20
+
+seo:
+  type: Event
+  name: MT Summit 2021
+  description: Machine Translation Summit
+  startDate: 2021-08-16
+  endDate: 2021-08-20
+  eventAttendanceMode: OnlineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+    type: VirtualLocation
+
+  organizer:
+    type: Organization
+    name: Association for Machine Translation in the Americas
+    url: https://amtaweb.org
 ---
 
 The Machine Translation Summit 2021 (**MT Summit 2021**) took place from 16 August to 20 August as a 5-day virtual event.

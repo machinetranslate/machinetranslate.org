@@ -4,13 +4,14 @@ title: LoResMT 2022
 description: Workshop on Low-Resource Machine Translation
 location: Gyeongju, Republic of Korea
 name: LoResMT 2022
+startDate: 2022-10-16
 seo:
   type: Event
   name: LoResMT 2022
   description: Workshop on Low-Resource Machine Translation
   startDate: 2022-10-16
   endDate: 2022-10-16
-  eventAttendanceMode: OfflineEventAttendanceMode
+  eventAttendanceMode: OnlineEventAttendanceMode
   eventStatus: EventScheduled
 
   location:

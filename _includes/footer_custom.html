@@ -1,3 +1,4 @@
+<small>
 
 <center>
   {% if page.title == '404' %}
@@ -5,7 +6,7 @@
       <a
         target="_blank"
         href="https://github.com/machinetranslate/machinetranslate.org/new/master/{{ page.path }}">
-        <strong>Create this article</strong>
+        <strong>Create this article →</strong>
       </a>
     </p>
   {% elsif page.layout == 'coming_soon' %}
@@ -13,16 +14,18 @@
       <a
         target="_blank"
         href="https://github.com/machinetranslate/machinetranslate.org/blob/master/{{ page.path }}">
-        <strong>Write this article</strong>
+        <strong>Write this article →</strong>
       </a>
     </p>
   {% else %}
     <p id="edited" style="display: none;">
       Edited on <span id="edited-date"></span> by <a id="edited-username"></a>.
+    <p>
+    </p>
       <a
         target="_blank"
         href="https://github.com/machinetranslate/machinetranslate.org/blob/master/{{ page.path }}">
-        <strong>Edit this article</strong>
+        <strong>Edit this article →</strong>
       </a>
     </p>
   {% endif %}
@@ -33,23 +36,32 @@
       Machine Translate is created and edited by contributors like you!
     </p>
     <p>
-      <a href="/contributing">Learn more about contributing.</a>
-      Licensed under <a target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a>.
+      <a href="/contributing">Learn more about contributing →</a>
     </p>
   {% if page.layout != "coming_soon" %}
+    <p>
+      Licensed under <a target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA-4.0</a>.
+    </p>
     <p>
       <a
         target="_blank"
         href="https://machinetranslate.org/about/#attribution">
-        <small>Cite this article</small>
+        Cite this article →
       </a>
     </p>
   {% endif %}
 </center>
 
+</small>
+
 <hr/>
 <center>
-  {% include social.html %}
+  <div class="social-links">
+    {% include github.html %}
+    {% include twitter.html %}
+    {% include linkedin.html %}
+    {% include facebook.html %}
+  </div>
 </center>
 
 <script>
