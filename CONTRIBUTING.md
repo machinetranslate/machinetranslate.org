@@ -6,6 +6,27 @@ description: How to contribute to Machine Translate
 permalink: /contributing
 seo:
   type: HowTo
+  name: Contributing
+  step:
+    type: HowToStep
+    name: Read the roadmap
+    position: 1
+  step:
+    type: HowToStep
+    name: Create and edit articles
+    position: 2
+  step:
+    type: HowToStep
+    name: Review proposed changes
+    position: 3
+  step:
+    type: HowToStep
+    name: Request articles
+    position: 4
+  step:
+    type: HowToStep
+    name: Contribute to infrastructure
+    position: 5
 ---
 
 Machine Translate is **created and edited by [contributors like you!](contributing/contributors.md)**.
