@@ -58,3 +58,11 @@ Many of the largest data sets are publicly available.
 | [VoxPopuli](https://github.com/facebookresearch/voxpopuli) | Data set |
 | [WikiMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/WikiMatrix) | Data set |
 | [WikiTitles](https://data.statmt.org/wikititles/) | Data set |
+
+
+### Search and download
+
+* [MTData](https://github.com/thammegowda/mtdata)
+* [OPUSTools](https://github.com/Helsinki-NLP/OpusTools/blob/master/opustools_pkg/README.md)
+* [Huggingface Datasets](https://huggingface.co/datasets?task_categories=task_categories:translation)
+
