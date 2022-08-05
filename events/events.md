@@ -180,7 +180,7 @@ featured: true
 |  |  |  |
 | ---- | ---- | ---- |
 | 5-10 September | MT Marathon | Trento, Italy |
-| 30-31 July | **WMT11** | Edinburgh, United Kingdom  |
+| 30-31 July | [**WMT11**](wmt11.md) | Edinburgh, United Kingdom  |
 | 30-31 May | EAMT 2011 | Leuven, Belgium |
 
 ## 2010
@@ -189,7 +189,7 @@ featured: true
 | ---- | ---- | ---- |
 | 31 October-4 November 4 | AMTA 2010 | Denver, Colorado |
 | 13-18 September | MT Marathon | Le Mans, France |
-| 15-16 July | **WMT11** | Uppsala, Sweden |
+| 15-16 July | **WMT10** | Uppsala, Sweden |
 | 27-28 May | EAMT 2010 | Saint Raphaël, France |
 | 25-30 January | MT Marathon | Dublin, Ireland |
 
