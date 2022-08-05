@@ -3,8 +3,8 @@ parent: Events
 title: Automatic Simultaneous Translation 2022
 description: Third Workshop on Automatic Simultaneous Translation
 location: Seattle, United States of America
-startDate: 2022-07-15
 name: Automatic Simultaneous Translation 2022
+startDate: 2022-07-15
 seo:
   type: Event
   name: Automatic Simultaneous Translation 2022
@@ -27,7 +27,7 @@ seo:
     url: https://autosimtrans.github.io/organization
 ---
 
-The 3rd Workshop on **Automatic Simultaneous Translation** (**AutoSimTrans**) was held by the North American Chapter of the Association for Computational Linguistics (NAACL) in Seattle on 15 July, 2022.  
+The third Workshop on **Automatic Simultaneous Translation** (**AutoSimTrans**) was held by the North American Chapter of the Association for Computational Linguistics (NAACL) in Seattle on 15 July, 2022.  
 
 The topic was ***Challenges, Recent Advances, and Future Directions***.
 

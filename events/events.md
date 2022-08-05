@@ -56,19 +56,19 @@ featured: true
 | 10-11 November | [**WMT21**](wmt21.md) | Punta Cana, Dominican Republic |
 | 25 October | [Machine Translation Meetup 9](zurich-9.md) | Zurich, Switzerland |
 | 20 August | [AT4SSL](at4ssl2021.md) | online |
-| 17 August | [ASLTRM](asltrm2021.md) | online |
+| 17 August | [ASLTRW](asltrw2021.md) | online |
 | 16 August | [LoResMT 2021](loresmt2021.md) | online |
 | 16 August | [PSLT 2021](pslt2021.md) | online |
 | 16-20 August | [MT Summit 2021](mtsummit2021.md) | online |
 | 6 August | [WAT 2021](wat2021.md) | Bangkok, Thailand |
-| 10 June | Automatic Simultaneous Translation 2 | Mexico City, Mexico |
+| 10 June | [Automatic Simultaneous Translation 2](autosimtrans2021.md) | Mexico City, Mexico |
 | 25 May | [Lay Use and Perceptions of Machine Translation](lay-use-and-perceptions-of-machine-translation.md) | online |
 
 ## 2020
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 4 December | WAT 2020 | online |
+| 4 December | [WAT 2020](wat2020.md) | online |
 | 2 December | [AAMT 2020](aamt2020.md) | online |
 | 10-11 November, 2020 | [**WMT20**](wmt20.md) | online |
 | 3-5 November, 2020 | [EAMT 2020](eamt2022.md) | Lisbon, Portugal |
