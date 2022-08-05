@@ -172,7 +172,7 @@ featured: true
 | 28 October | WPTP 2012 | San Diego, California |
 | 28 October-1 November | AMTA 2012 | San Diego, California |
 | 3-8 September | MT Marathon | Edinburgh, United Kingdom |
-| 7-8 June | **WMT12** | Montreal, Quebec |
+| 7-8 June | [**WMT12**](wmt12.md) | Montreal, Quebec |
 | 28-30 May | EAMT 2012 | Trento, Italy |
 
 ## 2011
