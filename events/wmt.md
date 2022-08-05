@@ -33,7 +33,7 @@ Universities, research laboratories and big technology companies consistently pa
 | [WMT15](wmt15.md) | Workshop on Statistical Machine Translation | EMNLP 2015 |
 | WMT14 | Workshop on Statistical Machine Translation | ACL 2014 |
 | WMT13 | Workshop on Statistical Machine Translation | ACL 2013 |
-| WMT12 | Workshop on Statistical Machine Translation | NAACL 2012 |
+| [WMT12](wmt12.md) | Workshop on Statistical Machine Translation | NAACL 2012 |
 | [WMT11](wmt11.md) | Workshop on Statistical Machine Translation | EMNLP 2011 |
 | WMT10 | Workshop on Statistical Machine Translation | ACL 2010 |
 | WMT09 | Workshop on Statistical Machine Translation | EACL 2009 |
