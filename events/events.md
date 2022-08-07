@@ -153,7 +153,7 @@ featured: true
 | 22-26 October | AMTA 2014 | Vancouver, Canada |
 | 4 October | WAT 2014 | Tokyo, Japan |
 | 8-13 September | MT Marathon | Trento, Italy |
-| 26-27 June | **WMT14** | Baltimore, Maryland |
+| 26-27 June | [**WMT14**](wmt14.md) | Baltimore, Maryland |
 | 16-18 June | EAMT 2014 | Dubrovnik, Croatia |
 
 ## 2013
@@ -163,7 +163,7 @@ featured: true
 | 9-14 September | [MT Marathon](https://ufal.mff.cuni.cz/mtm13/) | Prague, Czech Republic |
 | 2 September | WPTP 2013 | Nice, France |
 | 2-6 September | MT Summit XIV | Nice, France |
-| 8-9 August | **WMT13** | Sofia, Bulgaria |
+| 8-9 August | [**WMT13**](wmt13.md) | Sofia, Bulgaria |
 
 ## 2012
 
