@@ -2,7 +2,7 @@
 parent: Events
 title: WMT14
 description: Workshop on Machine Translation
-location: Baltimore, United States
+location: Baltimore, Maryland
 name: WMT14
 startDate: 2014-06-26
 
@@ -17,7 +17,7 @@ seo:
 
   location:
     type: PostalAddress
-    addressCountry: United States
+    addressCountry: Maryland
     addressLocality: Baltimore
 
   organizer:
@@ -25,7 +25,7 @@ seo:
     url: https://www.statmt.org/wmt14/
 ---
 
-The **Ninth Workshop on Machine Translation** (**WMT14**) took place from 26 June to 27 June, 2014, in Baltimore, United States.
+The **Ninth Workshop on Machine Translation** (**WMT14**) took place from 26 June to 27 June, 2014, in Baltimore, Maryland.
 
 [statmt.org/wmt14/program.html](https://statmt.org/wmt14/program.html)
 
