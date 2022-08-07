@@ -31,8 +31,8 @@ Universities, research laboratories and big technology companies consistently pa
 | [WMT17](wmt17.md) | Second Conference on Machine Translation | EMNLP 2017 |
 | [WMT16](wmt16.md) | First Conference on Machine Translation | ACL 2016 |
 | [WMT15](wmt15.md) | Workshop on Statistical Machine Translation | EMNLP 2015 |
-| WMT14 | Workshop on Statistical Machine Translation | ACL 2014 |
-| WMT13 | Workshop on Statistical Machine Translation | ACL 2013 |
+| [WMT14](wmt14.md) | Workshop on Statistical Machine Translation | ACL 2014 |
+| [WMT13](wmt13.md) | Workshop on Statistical Machine Translation | ACL 2013 |
 | [WMT12](wmt12.md) | Workshop on Statistical Machine Translation | NAACL 2012 |
 | [WMT11](wmt11.md) | Workshop on Statistical Machine Translation | EMNLP 2011 |
 | WMT10 | Workshop on Statistical Machine Translation | ACL 2010 |
@@ -140,7 +140,7 @@ Average score and average z-score are the main metrics used in the results for t
 
 **TrueSkill** is a gaming rating system. Microsoft Research originally developed it for the Xbox Live gaming community. 
 For WMT, TrueSkill was adapted to machine translation evaluation.
-For WMT15 and WMT16, TrueSkill was used as the human evaluation ranking for all translation shared tasks.
+For WMT14, WMT15 and WMT16, TrueSkill was used as the human evaluation ranking for all translation shared tasks.
 
 ### Relative ranking
 In **relative ranking**, for each input, humans rank the outputs from all systems.
@@ -149,7 +149,7 @@ There is no absolute score or label, so there is no measure of absolute quality.
   
 The sequence-level rankings are used to calculate system-level rankings, for example with TrueSkill.
 
-Relative ranking was the official ranking for the translation shared task at WMT14, WMT15 and WMT16.
+Relative ranking was the official ranking for the translation shared task at from WMT07 to WMT16.
 
 
 ### Direct assessment
