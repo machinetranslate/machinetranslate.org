@@ -149,7 +149,7 @@ There is no absolute score or label, so there is no measure of absolute quality.
   
 The sequence-level rankings are used to calculate system-level rankings, for example with TrueSkill.
 
-Relative ranking was the official ranking for the translation shared task at from WMT07 to WMT16.
+Relative ranking was the official ranking for the translation shared task from WMT07 to WMT16.
 
 
 ### Direct assessment
