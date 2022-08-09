@@ -128,26 +128,26 @@ Full results of the shared tasks: [*Findings of the 2012 Workshop on Statistical
 
 ### News translation
 
-The results are determined through human evaluation featuring [relative ranking](wmt.md#relative-ranking).
-The winner systems are listed according to their > others score.
-It shows how frequently the winners were judged to be better than any other system.
+The results were determined with a [relative ranking](wmt.md#relative-ranking), the `> others` ("greater than others") score.
+
+It measures how often a system was judged to be better than any other system.
 
 #### → English
 
-| Language pair | System | > others |
+| Language pair | System | `> others` |
 | --- | --- | --- |
-| Czech → <br> | `ONLINE-B` <br>`UEDIN`  | 0.65 <br>0.60 |
-| Spanish → <br> <br> <br> | `ONLINE-A` <br>`ONLINE-B` <br>`QCRI` <br>`UEDIN` | 0.62 <br>0.61 <br>0.60 <br>0.58 |
-| French → <br> <br> <br> <br> | `LIMSI` <br>`KIT` <br>`ONLINE-A` <br>`CMU` <br>`ONLINE-B` | 0.63 <br>0.61 <br>0.59 <br>0.57 <br>0.57 |
-| German → <br> <br> <br> <br> | `ONLINE-A` <br>`ONLINE-B` <br>`UEDIN` <br>`RWTH` <br>`KIT` | 0.65 <br>0.65 <br>0.60 <br>0.56 <br>0.55 |
+| Czech → | `ONLINE-B` <br>`UEDIN`  | 0.65 <br>0.60 |
+| Spanish → | `ONLINE-A` <br>`ONLINE-B` <br>`QCRI` <br>`UEDIN` | 0.62 <br>0.61 <br>0.60 <br>0.58 |
+| French → | `LIMSI` <br>`KIT` <br>`ONLINE-A` <br>`CMU` <br>`ONLINE-B` | 0.63 <br>0.61 <br>0.59 <br>0.57 <br>0.57 |
+| German → | `ONLINE-A` <br>`ONLINE-B` <br>`UEDIN` <br>`RWTH` <br>`KIT` | 0.65 <br>0.65 <br>0.60 <br>0.56 <br>0.55 |
 
 #### English →
 
-| Language pair | System | > others |
+| Language pair | System | `> others` |
 | --- | --- | --- |
-| → Czech <br> <br> <br> | `CU-DEPFIX` <br>`UEDIN` <br>`CU-BOJAR` <br>`CU-TECTOMT` | 0.66 <br>0.56 <br>0.54 <br>0.53 |
-| → Spanish <br> <br> <br> | `ONLINE-B` <br>`ONLINE-A` <br>`UPC` <br>`UEDIN` | 0.65 <br>0.56 <br>0.52 <br>0.52 |
-| → French <br> | `LIMSI` <br>`KIT` | 0.66 <br>0.59 |
-| → German <br> <br> <br> <br> <br> <br> | `ONLINE-B` <br>`RBMT-4` <br>`LIMSI` <br>`UEDIN-WILLIAMS` <br>`KIT` <br>`UEDIN` <br>`RWTH` | 0.64 <br>0.58 <br>0.55 <br>0.51 <br>0.50 <br>0.47 <br>0.47 |
+| → Czech | `CU-DEPFIX` <br>`UEDIN` <br>`CU-BOJAR` <br>`CU-TECTOMT` | 0.66 <br>0.56 <br>0.54 <br>0.53 |
+| → Spanish | `ONLINE-B` <br>`ONLINE-A` <br>`UPC` <br>`UEDIN` | 0.65 <br>0.56 <br>0.52 <br>0.52 |
+| → French | `LIMSI` <br>`KIT` | 0.66 <br>0.59 |
+| → German | `ONLINE-B` <br>`RBMT-4` <br>`LIMSI` <br>`UEDIN-WILLIAMS` <br>`KIT` <br>`UEDIN` <br>`RWTH` | 0.64 <br>0.58 <br>0.55 <br>0.51 <br>0.50 <br>0.47 <br>0.47 |
 
 
