@@ -41,8 +41,6 @@ The **Seventh Workshop on Machine Translation** (**WMT12**) took place from 7 Ju
 
 ### Day 1
 
-Thursday, 7 June, 2012
-
 |     |     |
 | --- | --- |
 | 09:00 – 09:10	| **Opening Remarks: Future Funding and Research Survey Wiki** |
@@ -77,7 +75,7 @@ Thursday, 7 June, 2012
 | 17:00 – 17:20	| [***Comparing human perceptions of post-editing effort with post-editing operations***](https://www.aclanthology.org/W12-3123.pdf) <br>Maarit Koponen |
 | 17:20 – 17:40	| [***Review of Hypothesis Alignment Algorithms for MT System Combination via Confusion Network Decoding***](https://www.aclanthology.org/W12-3124.pdf) <br>Antti-Veikko Rosti, Xiaodong He, Damianos Karakos, Gregor Leusch, Yuan Cao, Markus Freitag, Spyros Matsoukas, Hermann Ney, Jason Smith, Bing Zhang |
 
-Friday, 8 June, 2012
+### Day 2
 
 |     |     |
 | --- | --- |
