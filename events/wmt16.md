@@ -48,8 +48,6 @@ The **First Conference on Machine Translation** (**WMT16**) took place from 11 A
 
 ### Day 1
 
-Tuesday, 11 August, 2015
-
 |     |     |
 | --- | --- |
 | 08:45 – 09:00	| **Opening Remarks** |
@@ -121,7 +119,6 @@ Tuesday, 11 August, 2015
 | 17:20 – 17:40	| [***Modeling Complement Types in Phrase-Based SMT***](https://aclanthology.org/W16-2205.pdf) <br>Marion Weller-Di Marco, Alexander Fraser, Sabine Schulte im Walde |
 
 ### Day 2
-Wednesday, 12 August, 2016
 
 |     |     |
 | --- | --- |
@@ -206,12 +203,11 @@ Full results of the shared tasks: [*Findings of the 2016 Conference on Machine T
 
 ### News translation
 
-The results are determined through human evaluation featuring [relative ranking](wmt.md#relative-ranking) with the [TrueSkill](wmt.md#trueskill) model.
-The winner systems are listed according to their score.
+The results were determined with a [relative ranking](wmt.md#relative-ranking) through the [TrueSkill](wmt.md#trueskill) model.
 
 #### → English
 
-| Language pair | System | Score |
+| Language pair | System | Score ↓ |
 | --- | --- | --- |
 | Czech → | `UEDIN-NMT` | 0.62 |
 | Romanian → | `ONLINE-B` | 0.58 |
@@ -222,7 +218,7 @@ The winner systems are listed according to their score.
 
 #### English →
 
-| Language pair | System | Score |
+| Language pair | System | Score ↓ |
 | --- | --- | --- |
 | → Czech | `UEDIN-NMT` | 0.59 |
 | → Romanian | `UEDIN-NMT` | 0.45 |
