@@ -42,8 +42,6 @@ The **Ninth Workshop on Machine Translation** (**WMT14**) took place from 26 Jun
 
 ### Day 1
 
-Thursday, 26 June, 2014
-
 |     |     |
 | --- | --- |
 | 09:00 – 09:10 | **Opening Remarks** |
@@ -92,8 +90,6 @@ Thursday, 26 June, 2014
 
 ### Day 2
 
-Friday, 27 June, 2014
-
 |     |     |
 | --- | --- |
 | 09:00 – 09:30	| **Session 5: Shared Evaluation Metrics and Quality Estimation Tasks** <br>Quality Estimation Shared Task |
@@ -138,12 +134,11 @@ Full results of the shared tasks: [*Findings of the 2014 Workshop on Statistical
 
 ### News translation
 
-The results are determined through human evaluation featuring [relative ranking](wmt.md#relative-ranking) with the [TrueSkill](wmt.md#trueskill) model.
-The winner systems are listed according to their score.
+The results were determined with a [relative ranking](wmt.md#relative-ranking) through the [TrueSkill](wmt.md#trueskill) model.
 
 #### → English
 
-| Language pair | System | Score |
+| Language pair | System | Score ↓ |
 | --- | --- | --- |
 | Czech → | `ONLINE-B` | 0.591 |
 | Russian → | `AFRL-PE` | 0.583 |
@@ -153,7 +148,7 @@ The winner systems are listed according to their score.
 
 #### English →
 
-| Language pair | System | Score |
+| Language pair | System | Score ↓ |
 | --- | --- | --- |
 | → Czech | `CU-DEPFIX` | 0.371 |
 | → Russian | `PROMT-RULE` | 0.575 |
