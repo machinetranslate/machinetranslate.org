@@ -147,5 +147,3 @@ It measures how often a system was judged to be better than any other system.
 | → Spanish | `ONLINE-B` <br>`ONLINE-A` <br>`UPC` <br>`UEDIN` | 0.65 <br>0.56 <br>0.52 <br>0.52 |
 | → French | `LIMSI` <br>`KIT` | 0.66 <br>0.59 |
 | → German | `ONLINE-B` <br>`RBMT-4` <br>`LIMSI` <br>`UEDIN-WILLIAMS` <br>`KIT` <br>`UEDIN` <br>`RWTH` | 0.64 <br>0.58 <br>0.55 <br>0.51 <br>0.50 <br>0.47 <br>0.47 |
-
-
