@@ -47,8 +47,6 @@ The tunable metrics shared task was invitation-only.
 
 ### Day 1
 
-Saturday, 30 July, 2011
-
 |     |     |
 | --- | --- |
 | 09:00 – 09:25 | **Session 1: Shared Tasks and Evaluation** <br>Chair: Chris Callison-Burch <br>[***A Grain of Salt for the WMT Manual Evaluation***](https://www.aclanthology.org/W11-2101.pdf) <br>Ondrej Bojar, Miloš Ercegovčević, Martin Popel, Omar Zaidan |
@@ -87,8 +85,6 @@ Saturday, 30 July, 2011
 | 17:25 – 17:50	| [***Productive Generation of Compound Words in Statistical Machine Translation***](https://www.aclanthology.org/W11-2129.pdf) <br>Sara Stymne, Nicola Cancedda |
 
 ### Day 2
-
-Sunday, 31 July, 2011
 
 |     |     |
 | --- | --- |
@@ -142,25 +138,25 @@ Full results of the shared tasks: [*Findings of the 2011 Workshop on Statistical
 
 ### News translation
 
-The results are determined through human evaluation featuring [relative ranking](wmt.md#relative-ranking).
-The winner systems are listed according to their ≥ others score.
-It shows how frequently the winners were judged to be better than or equal to any other system.
+The results were determined with a [relative ranking](wmt.md#relative-ranking), the `≥ others` ("greater than or equal to others") score.
+
+It measures how often a system was judged to be better than or equal to any other system.
 
 #### → English
 
-| Language pair | System | ≥ others |
+| Language pair | System | `≥ others` |
 | --- | --- | --- |
-| Czech → <br> | `UEDIN` <br>`ONLINE-B`  | 0.69 <br>0.68 |
-| Spanish → <br> <br> <br> <br> | `ONLINE-B` <br>`ONLINE-A` <br>`KOC` <br>`SYSTRAN` <br>`ALACANT` | 0.72 <br>0.72 <br>0.67 <br>0.66 <br>0.66 |
-| French → <br> <br> <br> <br> <br> | `ONLINE-A` <br>`LIMSI` <br>`ONLINE-B` <br>`KIT` <br>`CMU-DENKOWSKI` <br>`RBMT-1` | 0.66 <br>0.66 <br>0.66 <br>0.64 <br>0.62 <br>0.58 |
-| German → <br> <br> <br> | `ONLINE-B` <br>`CMU-DYER` <br>`ONLINE-A` <br>`RWTH-WUEBKER` | 0.72 <br>0.66 <br>0.66 <br>0.59 |
+| Czech → | `UEDIN` <br>`ONLINE-B`  | 0.69 <br>0.68 |
+| Spanish → | `ONLINE-B` <br>`ONLINE-A` <br>`KOC` <br>`SYSTRAN` <br>`ALACANT` | 0.72 <br>0.72 <br>0.67 <br>0.66 <br>0.66 |
+| French → | `ONLINE-A` <br>`LIMSI` <br>`ONLINE-B` <br>`KIT` <br>`CMU-DENKOWSKI` <br>`RBMT-1` | 0.66 <br>0.66 <br>0.66 <br>0.64 <br>0.62 <br>0.58 |
+| German → | `ONLINE-B` <br>`CMU-DYER` <br>`ONLINE-A` <br>`RWTH-WUEBKER` | 0.72 <br>0.66 <br>0.66 <br>0.59 |
 
 #### English →
 
-| Language pair | System | ≥ others |
+| Language pair | System | `≥ others` |
 | --- | --- | --- |
-| → Czech <br> <br> <br> | `ONLINE-B` <br>`CU-MARECEK` <br>`UEDIN` <br>`CU-POPEL` | 0.65 <br>0.63 <br>0.59 <br>0.58 |
-| → Spanish <br> <br> <br> <br> <br> <br> | `ONLINE-B` <br>`ONLINE-A` <br>`RBMT-3` <br>`PROMT` <br>`CEU-UPV` <br>`UEDIN` <br>`UPPSALA` | 0.74 <br>0.72 <br>0.71 <br>0.70 <br>0.65 <br>0.64 <br>0.61 |
-| → French <br> <br> | `LIMSI` <br>`ONLINE-B` <br>`KIT` | 0.73 <br>0.70 <br>0.69 |
-| → German <br> <br> <br> <br> <br> <br> <br> <br> <br> | `RBMT-3` <br>`ONLINE-B` <br>`RBMT-1` <br>`DFKI-FEDERMANN` <br>`RBMT-4` <br>`RBMT-2` <br>`ONLINE-A` <br>`LIMSI` <br>`KIT` <br>`COPENHAGEN` | 0.73 <br>0.73 <br>0.70 <br>0.68 <br>0.66 <br>0.66 <br>0.65 <br>0.65 <br>0.64 <br>0.56 |
+| → Czech | `ONLINE-B` <br>`CU-MARECEK` <br>`UEDIN` <br>`CU-POPEL` | 0.65 <br>0.63 <br>0.59 <br>0.58 |
+| → Spanish | `ONLINE-B` <br>`ONLINE-A` <br>`RBMT-3` <br>`PROMT` <br>`CEU-UPV` <br>`UEDIN` <br>`UPPSALA` | 0.74 <br>0.72 <br>0.71 <br>0.70 <br>0.65 <br>0.64 <br>0.61 |
+| → French | `LIMSI` <br>`ONLINE-B` <br>`KIT` | 0.73 <br>0.70 <br>0.69 |
+| → German | `RBMT-3` <br>`ONLINE-B` <br>`RBMT-1` <br>`DFKI-FEDERMANN` <br>`RBMT-4` <br>`RBMT-2` <br>`ONLINE-A` <br>`LIMSI` <br>`KIT` <br>`COPENHAGEN` | 0.73 <br>0.73 <br>0.70 <br>0.68 <br>0.66 <br>0.66 <br>0.65 <br>0.65 <br>0.64 <br>0.56 |
 
