@@ -41,8 +41,6 @@ The **Eighth Workshop on Machine Translation** (**WMT13**) took place from 8 Aug
 
 ### Day 1
 
-Thursday, 8 August, 2013
-
 |     |     |
 | --- | --- |
 | 09:00 – 09:10 |	**Opening Remarks** |
@@ -89,8 +87,6 @@ Thursday, 8 August, 2013
 
 ### Day 2
 
-Friday, 9 August, 2013
-
 |     |     |
 | --- | --- |
 | 09:00 – 09:20	| **Session 6: Learning** <br>[***Multi-Task Learning for Improved Discriminative Training in SMT***](https://www.aclanthology.org/W13-2236.pdf) <br>Patrick Simianer, Stefan Riezler |
@@ -134,12 +130,11 @@ Full results of the shared tasks: [*Findings of the 2013 Workshop on Statistical
 
 ### News translation
 
-The results are determined through human evaluation featuring [relative ranking](wmt.md#relative-ranking).
-The winner systems are listed according to their score.
+The results were determined with a [relative ranking](wmt.md#relative-ranking).
 
 #### → English
 
-| Language pair | System | Score |
+| Language pair | System | Score ↓ |
 | --- | --- | --- |
 | Czech → | `UEDIN-HEAFIELD` | 0.607 |
 | Spanish → | `UEDIN-HEAFIELD` | 0.624 |
@@ -149,7 +144,7 @@ The winner systems are listed according to their score.
 
 #### English →
 
-| Language pair | System | Score |
+| Language pair | System | Score ↓ |
 | --- | --- | --- |
 | → Czech | `CU-BOJAR` | 0.580 |
 | → Spanish | `ONLINE-B` | 0.637 |
