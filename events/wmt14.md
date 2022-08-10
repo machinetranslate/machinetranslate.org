@@ -138,7 +138,7 @@ The results were determined with a [relative ranking](wmt.md#relative-ranking) t
 
 #### → English
 
-| Language pair | System | Score ↓ |
+| Language pair | System | Score |
 | --- | --- | --- |
 | Czech → | `ONLINE-B` | 0.591 |
 | Russian → | `AFRL-PE` | 0.583 |
@@ -148,7 +148,7 @@ The results were determined with a [relative ranking](wmt.md#relative-ranking) t
 
 #### English →
 
-| Language pair | System | Score ↓ |
+| Language pair | System | Score |
 | --- | --- | --- |
 | → Czech | `CU-DEPFIX` | 0.371 |
 | → Russian | `PROMT-RULE` | 0.575 |
