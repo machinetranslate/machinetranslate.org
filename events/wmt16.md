@@ -207,7 +207,7 @@ The results were determined with a [relative ranking](wmt.md#relative-ranking) t
 
 #### → English
 
-| Language pair | System | Score ↓ |
+| Language pair | System | Score |
 | --- | --- | --- |
 | Czech → | `UEDIN-NMT` | 0.62 |
 | Romanian → | `ONLINE-B` | 0.58 |
@@ -218,7 +218,7 @@ The results were determined with a [relative ranking](wmt.md#relative-ranking) t
 
 #### English →
 
-| Language pair | System | Score ↓ |
+| Language pair | System | Score |
 | --- | --- | --- |
 | → Czech | `UEDIN-NMT` | 0.59 |
 | → Romanian | `UEDIN-NMT` | 0.45 |
