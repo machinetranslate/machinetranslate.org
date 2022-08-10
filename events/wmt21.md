@@ -43,18 +43,19 @@ The **Sixth Conference on Machine Translation** (**WMT21**) took place from 10 N
 - [Terminology](http://www.statmt.org/wmt21/terminology-task.html)
 - [Unsupervised and low-resource](http://www.statmt.org/wmt21/unsup_and_very_low_res.html)
 - [Lifelong learning](http://www.statmt.org/wmt21/lifelong-learning-task.html)
+
 ### Evaluation tasks
+
 - [Quality estimation](http://www.statmt.org/wmt21/quality-estimation-task.html)
 - [Metrics](http://www.statmt.org/wmt21/metrics-task.html)
+
 ### Other tasks
+
 - [Automatic post-editing](http://www.statmt.org/wmt21/ape-task.html)
 
 ## Schedule
-*Last updated from statmt.org/wmt21/program.html on November 3rd, 2021*
-
 
 ### Day 1
-Wednesday, November 10, 2021
 
 |     |     |
 | --- | --- |
@@ -147,7 +148,6 @@ Wednesday, November 10, 2021
 | 16:45 – 18:15 | [***Pushing the Right Buttons: Adversarial Evaluation of Quality Estimation***](https://www.statmt.org/wmt21/pdf/2021.wmt-1.67.pdf) <br>Diptesh Kanojia, Marina Fomicheva, Tharindu Ranasinghe, Frédéric Blain, Constantin Orăsan and Lucia Specia |
 
 ### Day 2
-Thursday, November 11, 2021
 
 |     |     |
 | --- | --- |
@@ -230,10 +230,11 @@ Full results of the shared tasks: [*Findings of the 2021 Conference on Machine T
 
 ### News translation
 
-The winner systems are listed according to their [average score and average z-score](wmt.md#average-score-and-average-z-score).
+The winner systems were listed according to their [average score and average z-score](wmt.md#average-score-and-average-z-score).
 
 #### → English
-The results are determined through human evaluation featuring monolingual [direct assessment](wmt.md#direct-assessment) with document context.
+
+The results were determined with a monolingual [direct assessment](wmt.md#direct-assessment) with document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -246,7 +247,8 @@ The results are determined through human evaluation featuring monolingual [direc
 | Chinese → | `NiuTrans`| 75.0 | 0.042 |
 
 #### English →
-The results are determined through human evaluation featuring bilingual direct assessment in a full document.
+
+The results were determined with a bilingual direct assessment in a full document.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -259,7 +261,8 @@ The results are determined through human evaluation featuring bilingual direct a
 | → Chinese | `HappyNewYear`| 74.9 | 0.284 |
 
 #### French ↔︎ German
-The results are determined through human evaluation featuring bilingual direct assessment in a full document.
+
+The results were determined with a bilingual direct assessment in a full document.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -267,7 +270,8 @@ The results are determined through human evaluation featuring bilingual direct a
 | German → French | `Online-B`| 87.9 | 0.160 |
 
 #### Hindi ↔︎ Bengali
-The results are determined through human evaluation featuring direct assessment without document context.
+
+The results were determined with a direct assessment without document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -275,7 +279,8 @@ The results are determined through human evaluation featuring direct assessment 
 | Bengali → Hindi | `GTCOM` | 82.1 | 0.202 |
 
 #### Zulu ↔︎ Xhosa
-The results are determined through human evaluation featuring direct assessment without document context.
+
+The results were determined with a direct assessment without document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
