@@ -46,7 +46,6 @@ The **Fourth Conference on Machine Translation** (**WMT19**) took place from 1 A
 ## Schedule
 
 ### Day 1
-Thursday, 1 August, 2019
 
 |     |     |
 | --- | --- |
@@ -138,9 +137,7 @@ Thursday, 1 August, 2019
 | 17:00 – 17:15 | [***Generalizing Back-Translation in Neural Machine Translation***](https://aclanthology.org/W19-5205.pdf) <br>Miguel Graça, Yunsu Kim, Julian Schamper, Shahram Khadivi and Hermann Ney |
 | 17:15 – 17:30 | [***Tagged Back-Translation***](https://aclanthology.org/W19-5206.pdf) <br>Isaac Caswell, Ciprian Chelba and David Grangier |
 
-
 ### Day 2
-Friday, 2 August, 2019
 
 |     |     |
 | --- | --- |
@@ -212,10 +209,11 @@ Full results of the shared tasks: [*Findings of the 2019 Conference on Machine T
 
 ### News translation
 
-The winner systems are listed according to their [average score and average z-score](wmt.md#average-score-and-average-z-score).
+The winner systems were listed according to their [average score and average z-score](wmt.md#average-score-and-average-z-score).
 
 #### → English
-The results are determined through human evaluation featuring monolingual [direct assessment](wmt.md#direct-assessment) without document context.
+
+The results were determined with a monolingual [direct assessment](wmt.md#direct-assessment) without document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -226,14 +224,15 @@ The results are determined through human evaluation featuring monolingual [direc
 | Kazakh → | `online-B` | 72.2 | 0.270 |
 | Finnish → | `MSRA-NAO` | 78.2 | 0.285 |
 
-The results are determined through human evaluation featuring monolingual direct assessment with document context.
+The results were determined with a monolingual direct assessment with document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
 | German → | `Facebook-FAIR` | 81.6 | 0.146 |
 
 #### English →
-The results are determined through human evaluation featuring bilingual direct assessment with document context.
+
+The results were determined with a bilingual direct assessment with document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -247,14 +246,16 @@ The results are determined through human evaluation featuring bilingual direct a
 | → Finnish | `GTCOM-Primary` | 82.6 | 0.586 |
 
 #### German →
-The results are determined through human evaluation featuring monolingual direct assessment without document context.
+
+The results were determined with a monolingual direct assessment without document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
 | → Czech | `online-Y` | 63.9 | 0.426 |
 
 #### French ↔︎ German
-The results are determined through human evaluation featuring monolingual direct assessment without document context.
+
+The results were determined with a monolingual direct assessment without document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
