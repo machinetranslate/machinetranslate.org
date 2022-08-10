@@ -44,12 +44,9 @@ The **Fifth Conference on Machine Translation** (**WMT20**) took place online fr
 - [Lifelong learning](http://www.statmt.org/wmt20/lifelong-learning-task.html)
 - [Chat translation](https://www.statmt.org/wmt20/chat-task.html)
 
-
 ## Schedule
 
 ### Day 1
-
-Thursday, November 19, 2020
 
 |     |     |
 | --- | --- |
@@ -138,7 +135,6 @@ Thursday, November 19, 2020
 | | [***Language Models not just for Pre-training: Fast Online Neural Noisy Channel Modeling***](https://aclanthology.org/2020.wmt-1.69.pdf) <br>Shruti Bhosale, Kyra Yee, Sergey Edunov and Michael Auli |
 
 ### Day 2
-Friday, November 20, 2020
 
 |     |     |
 | --- | --- |
@@ -239,10 +235,11 @@ Full results of the shared tasks: [*Findings of the 2020 Conference on Machine T
 
 ### News translation
 
-The winner systems are listed according to their [average score and average z-score](wmt.md#average-score-and-average-z-score).
+The winner systems were listed according to their [average score and average z-score](wmt.md#average-score-and-average-z-score).
 
 #### → English
-The results are determined through human evaluation featuring monolingual [direct assessment](wmt.md#direct-assessment) with document context.
+
+The results were determined with a monolingual [direct assessment](wmt.md#direct-assessment) with document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -254,7 +251,7 @@ The results are determined through human evaluation featuring monolingual [direc
 | Russian → | `Online-G` | 79.3 | 0.124 |
 | Tamil → | `GTCOM` | 68.7 | 0.203 |
 
-The results are determined through human evaluation featuring monolingual direct assessment without document context.
+The results were determined with a monolingual direct assessment without document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -263,7 +260,8 @@ The results are determined through human evaluation featuring monolingual direct
 | Pashto → | `Online-B` | 67.3 | 0.032 |
 
 #### English →
-The results are determined through human evaluation featuring bilingual direct assessment with document context.
+
+The results were determined with a bilingual direct assessment with document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -275,7 +273,7 @@ The results are determined through human evaluation featuring bilingual direct a
 | → Russian | `Online-G` | 81.5 | 0.469 |
 | → Tamil | `Facebook-AI` | 79.0 | 0.663 |
 
-The results are determined through human evaluation featuring bilingual direct assessment without document context.
+The results were determined with a bilingual direct assessment without document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -284,7 +282,8 @@ The results are determined through human evaluation featuring bilingual direct a
 | → Pashto | `GTCOM` | 73.0 | 0.244 |
 
 #### French ↔︎ German
-The results are determined through human evaluation featuring bilingual direct assessment without document context.
+
+The results were determined with a bilingual direct assessment without document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
