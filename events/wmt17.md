@@ -46,8 +46,6 @@ The **Second Conference on Machine Translation** (**WMT17**) took place from 7 S
 
 ### Day 1
 
-Thursday, 7 September, 2016
-
 |     |     |
 | --- | --- |
 | 08:45 – 09:00	| **Opening Remarks** |
@@ -111,8 +109,6 @@ Thursday, 7 September, 2016
 
 ### Day 2
 
-Friday, 8 September, 2017
-
 |     |     |
 | --- | --- |
 | 09:00 – 09:20	| **Shared Task: Quality Estimation** |
@@ -175,8 +171,7 @@ Full results of the shared tasks: [*Findings of the 2017 Conference on Machine T
 
 ### News translation
 
-The results are determined through human evaluation featuring monolingual [direct assessment](wmt.md#direct-assessment).
-The winner systems are listed according to their [average score and average z-score](wmt.md#average-score-and-average-z-score).
+The results were determined with a monolingual [direct assessment](wmt.md#direct-assessment), the [average score and average z-score](wmt.md#average-score-and-average-z-score).
 
 #### → English
 
