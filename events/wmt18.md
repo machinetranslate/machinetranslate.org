@@ -45,8 +45,6 @@ The **Third Conference on Machine Translation** (**WMT18**) took place from 31 O
 
 ### Day 1
 
-Wednesday, 31 October, 2018
-
 |     |     |
 | --- | --- |
 | 08:45 – 09:00 | **Opening Remarks** |
@@ -130,8 +128,6 @@ Wednesday, 31 October, 2018
 
 ### Day 2
 
-Thursday, 1 November, 2018
-
 |     |     |
 | --- | --- |
 | 09:00 – 10:30 | **Session 5: Shared Tasks Overview Presentations I** |
@@ -206,8 +202,7 @@ Full results of the shared tasks: [*Findings of the 2018 Conference on Machine T
 
 ### News translation
 
-The results are determined through human evaluation featuring monolingual [direct assessment](wmt.md#direct-assessment).
-The winner systems are listed according to their [average score and average z-score](wmt.md#average-score-and-average-z-score).
+The results were determined with a monolingual [direct assessment](wmt.md#direct-assessment), the [average score and average z-score](wmt.md#average-score-and-average-z-score).
 
 #### → English
 
