@@ -134,7 +134,7 @@ The results were determined with a [relative ranking](wmt.md#relative-ranking).
 
 #### → English
 
-| Language pair | System | Score ↓ |
+| Language pair | System | Score |
 | --- | --- | --- |
 | Czech → | `UEDIN-HEAFIELD` | 0.607 |
 | Spanish → | `UEDIN-HEAFIELD` | 0.624 |
@@ -144,7 +144,7 @@ The results were determined with a [relative ranking](wmt.md#relative-ranking).
 
 #### English →
 
-| Language pair | System | Score ↓ |
+| Language pair | System | Score |
 | --- | --- | --- |
 | → Czech | `CU-BOJAR` | 0.580 |
 | → Spanish | `ONLINE-B` | 0.637 |
