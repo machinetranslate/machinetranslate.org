@@ -142,7 +142,7 @@ The results were determined with a [relative ranking](wmt.md#relative-ranking) t
 
 #### → English
 
-| Language pair | System | Score ↓ |
+| Language pair | System | Score |
 | --- | --- | --- |
 | Czech → | `ONLINE-B` | 0.619 |
 | French → | `ONLINE-B` | 0.498 |
@@ -152,7 +152,7 @@ The results were determined with a [relative ranking](wmt.md#relative-ranking) t
 
 #### English →
 
-| Language pair | System | Score ↓ |
+| Language pair | System | Score |
 | --- | --- | --- |
 | → Czech | `CU-CHIMERA` | 0.686 |
 | → French | `LIMSI-CNRS` | 0.540 |
