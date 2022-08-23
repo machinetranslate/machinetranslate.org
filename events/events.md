@@ -30,6 +30,7 @@ featured: true
 | 30 September | [**MUMTTT 2022**](mumttt2022.md) | Malaga, Spain |
 | 12-16 September | [**AMTA 2022**](amta2022.md) | Orlando, Florida |
 | 5-10 September | [**MT Marathon**](mtm2022.md) | Prague, Czech Republic |
+| 19 August | [Workshop on Pronouns and Machine Translation](pronouns-and-mt-2022.md) | online |
 | 18-22 July | [MT Marathon in the Americas (MTMA)](mtma2022.md) | Redmond, Washington |
 | 15 July | [Automatic Simultaneous Translation 3](autosimtrans2022.md) | Seattle, Washington |
 | 2-6 July | [NeTTT Conference](nettt2022.md) | Rhodes, Greece |
