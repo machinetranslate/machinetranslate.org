@@ -47,8 +47,6 @@ The tuning task is a continuation of the [WMT11](wmt11.md) tunable metrics task.
 
 ### Day 1
 
-Thursday, 17 September, 2015
-
 |     |     |
 | --- | --- |
 | 09:00 – 09:05	| [**Opening Remarks**](https://www.statmt.org/wmt15/slides/intro.pdf) |
@@ -92,8 +90,6 @@ Thursday, 17 September, 2015
 | 16:40 – 17:00	| [***ListNet-based MT Rescoring***](https://aclanthology.org/W15-3030.pdf) ([slides](https://www.statmt.org/wmt15/slides/niehues.pdf)) <br>Jan Niehues, Quoc-Khanh Do, Alexandre Allauzen, Alex Waibel |
 
 ### Day 2
-
-Friday, 18 September, 2015
 
 |     |     |
 | --- | --- |
@@ -142,8 +138,7 @@ Full results of the shared tasks: [*Findings of the 2015 Workshop on Statistical
 
 ### News translation
 
-The results are determined through human evaluation featuring [relative ranking](wmt.md#relative-ranking) with the [TrueSkill](wmt.md#trueskill) model.
-The winner systems are listed according to their score.
+The results were determined with a [relative ranking](wmt.md#relative-ranking) through the [TrueSkill](wmt.md#trueskill) model.
 
 #### → English
 
