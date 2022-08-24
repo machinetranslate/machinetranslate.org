@@ -28,10 +28,10 @@ featured: true
 | 16 October | [**LoResMT 2022**](loresmt2022.md) | Gyeongju, Republic of Korea |
 | 12 - 17 October | [**WAT 2022**](wat2022.md) | Gyeongju, Republic of Korea |
 | 30 September | [**MUMTTT 2022**](mumttt2022.md) | Malaga, Spain |
-| 12-16 September | [**AMTA 2022**](amta2022.md) | Orlando, Florida |
-| 5-10 September | [**MT Marathon**](mtm2022.md) | Prague, Czech Republic |
+| 12 - 16 September | [**AMTA 2022**](amta2022.md) | Orlando, Florida |
+| 5 - 10 September | [**MT Marathon**](mtm2022.md) | Prague, Czech Republic |
 | 19 August | [Workshop on Pronouns and Machine Translation](pronouns-and-mt-2022.md) | online |
-| 18-22 July | [MT Marathon in the Americas (MTMA)](mtma2022.md) | Redmond, Washington |
+| 18 - 22 July | [MT Marathon in the Americas (MTMA)](mtma2022.md) | Redmond, Washington |
 | 15 July | [Automatic Simultaneous Translation 3](autosimtrans2022.md) | Seattle, Washington |
 | 2 - 6 July | [NeTTT Conference](nettt2022.md) | Rhodes, Greece |
 | 13 June | [Machine Translation Meetup 10](zurich-10.md) | Zurich, Switzerland |
@@ -71,8 +71,8 @@ featured: true
 | ---- | ---- | ---- |
 | 4 December | [WAT 2020](wat2020.md) | online |
 | 2 December | [AAMT 2020](aamt2020.md) | online |
-| 10 - 11 November, 2020 | [**WMT20**](wmt20.md) | online |
-| 3 - 5 November, 2020 | [EAMT 2020](eamt2022.md) | Lisbon, Portugal |
+| 10 - 11 November | [**WMT20**](wmt20.md) | online |
+| 3 - 5 November | [EAMT 2020](eamt2022.md) | Lisbon, Portugal |
 | 2 November | [Machine Translation Meetup 8](zurich-8.md) | Zurich, Switzerland |
 | 5 - 9 October | [AMTA 2020](amta2020.md) | online |
 | 10 July | Automatic Simultaneous Translation 1 | Seattle, Washington |
@@ -188,9 +188,9 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 31 October - 4 November 4 | AMTA 2010 | Denver, Colorado |
+| 31 October - 4 November | AMTA 2010 | Denver, Colorado |
 | 13 - 18 September | MT Marathon | Le Mans, France |
-| 15 - 16 July | **WMT10** | Uppsala, Sweden |
+| 15 - 16 July | [**WMT10**](wmt10.md) | Uppsala, Sweden |
 | 27 - 28 May | EAMT 2010 | Saint Raphaël, France |
 | 25 - 30 January | MT Marathon | Dublin, Ireland |
 
@@ -239,7 +239,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 28 September–2 October | AMTA 2004 - “Machine translation: from real users to research” | Washington, District of Columbia |
+| 28 September – 2 October | AMTA 2004 - “Machine translation: from real users to research” | Washington, District of Columbia |
 | 26 - 27 April | EAMT 2004 | Valletta, Malta |
 
 ## 2003
