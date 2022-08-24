@@ -6,8 +6,8 @@
   family: ine
   scripts: [ Latn ]
   typology:
-    - SVO
-    - analytic
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
   territories: [ na, za ]
 
 -
@@ -16,8 +16,8 @@
   family: sem
   scripts: [ Arab, Syrc ]
   typology:
-    - VSO
-    - fusional, synthetic
+    word_order: [ VSO ]
+    morphosyntax: [ fusional, synthetic ]
   territories: [ ae, bh, dj, dz, eg, er, iq, jo, kw, lb, ly, ma, mr, om, ps, qa, sa, sd, so, sy, tn, ye ]
 
 -
@@ -26,8 +26,8 @@
   family: trk
   scripts: [ Latn, Cyrl, Arab ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ az, ir, iq ]
 
 -
@@ -36,8 +36,8 @@
   family: sla
   scripts: [ Cyrl ]
   typology:
-    - SVO
-    - inflected
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
   territories: [ by ]
 
 -
@@ -46,8 +46,8 @@
   family: sla
   scripts: [ Cyrl ]
   typology:
-    - SVO
-    - analytic
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
   territories: [ bg ]
 
 -
@@ -56,8 +56,8 @@
   family: inc
   scripts: [ Beng ]
   typology:
-    - SOV
-    - inflected
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
   territories: [ bd, in ]
 
 -
@@ -66,8 +66,8 @@
   family: sla
   scripts: [ Cyrl, Latn ]
   typology:
-    - SVO
-    - inflected
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
   territories: [ ba ]
 
 -
@@ -76,8 +76,8 @@
   family: roa
   scripts: [ Latn ]
   typology:
-    - SVO
-    - fusional
+    word_order: [ SVO ]
+    morphosyntax: [ fusional ]
   territories: [ ad, es, fr ]
 
 -
@@ -86,8 +86,8 @@
   family: map
   scripts: [ Latn ]
   typology:
-    - VSO
-    - inflected
+    word_order: [ VSO ]
+    morphosyntax: [ inflected ]
   territories: [ ph ]
 
 -
@@ -96,7 +96,7 @@
   family: roa
   scripts: [ Latn ]
   typology:
-    - SOV
+    word_order: [ SOV ]
   territories: [ fr ]
 
 -
@@ -105,8 +105,8 @@
   family: sla
   scripts: [ Latn ]
   typology:
-    - SVO
-    - fusional, inflected
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, inflected ]
   territories: [ cz ]
 
 -
@@ -115,8 +115,8 @@
   family: ine
   scripts: [ Latn ]
   typology:
-    - VSO
-    - inflected
+    word_order: [ VSO ]
+    morphosyntax: [ inflected ]
   territories: [ gb ]
 
 -
@@ -125,8 +125,8 @@
   family: gem
   scripts: [ Latn ]
   typology:
-    - SVO
-    - analytic
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
   territories: [ dk ]
 
 -
@@ -135,8 +135,8 @@
   family: gem
   scripts: [ Latn ]
   typology:
-    - SVO, VSO
-    - fusional
+    word_order: [ SVO, VSO ]
+    morphosyntax: [ fusional ]
   territories: [ at, ch, de, li, lu ]
 
 -
@@ -145,8 +145,8 @@
   family: grk
   scripts: [ Grek ]
   typology:
-    - SVO
-    - fusional, synthetic
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, synthetic ]
   territories: [ cy, gr ]
 
 -
@@ -155,8 +155,8 @@
   family: gem
   scripts: [ Latn ]
   typology:
-    - SVO
-    - analytic
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
   territories: [ au, bz, ca, 029, in, ie, jm, my, nz, ph, sg, za, tt, gb, us, zw ]
 
 -
@@ -165,8 +165,8 @@
   family: ine
   scripts: [ Latn ]
   typology:
-    - SVO, OVS, SOV, VOS, VSO
-    - agglutinative
+    word_order: [ SVO, OVS, SOV, VOS, VSO ]
+    morphosyntax: [ agglutinative ]
   territories: [ ]
 
 -
@@ -175,8 +175,8 @@
   family: roa
   scripts: [ Latn ]
   typology:
-    - SVO
-    - fusional, inflected
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, inflected ]
   territories: [ 419, ar, bo, cl, co, cr, do, ec, es, gt, hn, mx, ni, pa, pe, pr, py, sv, us, uy, ve ]
 
 -
@@ -185,8 +185,8 @@
   family: fiu
   scripts: [ Latn ]
   typology:
-    - SVO
-    - fusional, agglutinative
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, agglutinative ]
   territories: [ ee, ru ]
 
 -
@@ -195,8 +195,8 @@
   family:
   scripts: [ Latn ]
   typology:
-    - SOV
-    - fusional, agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ fusional, agglutinative ]
   territories: [ es, fr ]
 
 -
@@ -206,8 +206,8 @@
   family: iir
   scripts: [ Arab ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ ir, af ]
 
 -
@@ -217,8 +217,8 @@
   family: fiu
   scripts: [ Latn ]
   typology:
-    - SVO, SOV
-    - agglutinative
+    word_order: [ SVO, SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ fi ]
 
 -
@@ -227,8 +227,8 @@
   family: roa
   scripts: [ Latn ]
   typology:
-    - SVO
-    - inflected
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
   territories: [ be, ca, ch, fr, lu, mc ]
 
 -
@@ -237,8 +237,8 @@
   family: gem
   scripts: [ Latn ]
   typology:
-    - SVO
-    - analytic
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
   territories: [ nl, de ]
 
 -
@@ -247,8 +247,8 @@
   family: ine
   scripts: [ Latn ]
   typology:
-    - VSO
-    - fusional
+    word_order: [ VSO ]
+    morphosyntax: [ fusional ]
   territories: [ ie ]
 
 -
@@ -257,8 +257,8 @@
   family: ine
   scripts: [ Latn ]
   typology:
-    - VSO
-    - inflected
+    word_order: [ VSO ]
+    morphosyntax: [ inflected ]
   territories: [ gb ]
 -
   codes: [ gl, glg ]
@@ -266,8 +266,8 @@
   family: roa
   scripts: [ Latn ]
   typology:
-    - SVO
-    - inflected
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
   territories: [ es ]
 
 -
@@ -276,8 +276,8 @@
   family: iir
   scripts: [ Gujr ]
   typology:
-    - SOV
-    - inflected
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
   territories: [ in, pk ]
 
 -
@@ -286,8 +286,8 @@
   family: cdc
   scripts: [ Latn, Arab ]
   typology:
-    - SVO
-    - inflected
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
   territories: [ ng ]
 
 -
@@ -296,8 +296,8 @@
   family: map
   scripts: [ Latn ]
   typology:
-    - VSO
-    - analytic
+    word_order: [ VSO ]
+    morphosyntax: [ analytic ]
   territories: [ us ]
 
 -
@@ -306,8 +306,8 @@
   family: sem
   scripts: [ Hebr ]
   typology:
-    - VSO, SVO
-    - fusional, inflected
+    word_order: [ VSO, SVO ]
+    morphosyntax: [ fusional, inflected ]
   territories: [ il ]
 
 -
@@ -316,8 +316,8 @@
   family: inc
   scripts: [ Deva, Latn, Mahj ]
   typology:
-    - SOV
-    - fusional, synthetic
+    word_order: [ SOV ]
+    morphosyntax: [ fusional, synthetic ]
   territories: [ in, za, ae ]
 
 -
@@ -327,8 +327,8 @@
   family: hmx
   scripts: [ Latn, Hmng ]
   typology:
-    - SVO
-    - analytic
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
   territories: [ vn, cn, th, la, mm ]
 
 -
@@ -338,8 +338,8 @@
   family: sla
   scripts: [ Latn ]
   typology:
-    - SVO
-    - fusional, inflected
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, inflected ]
   territories: [ hr, ba, rs, at ]
 
 -
@@ -348,8 +348,8 @@
   family: ine
   scripts: [ Latn ]
   typology:
-    - SVO
-    - analytic
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
   territories: [ ht ]
 
 -
@@ -358,8 +358,8 @@
   family: fiu
   scripts: [ Latn ]
   typology:
-    - SOV
-    - agglutinative, synthetic
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative, synthetic ]
   territories: [ hu, ro, rs, sk, sl, at ]
 
 -
@@ -368,8 +368,8 @@
   family: ine
   scripts: [ Armn ]
   typology:
-    - SVO
-    - fusional, synthetic
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, synthetic ]
   territories: [ am, lb, ir, tr, ru, ge ]
 
 -
@@ -378,8 +378,8 @@
   family: map
   scripts: [ Latn ]
   typology:
-    - SVO
-    - agglutinative
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
   territories: [ id ]
 
 -
@@ -388,8 +388,8 @@
   family: nic
   scripts: [ Latn ]
   typology:
-    - SVO
-    - agglutinative
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
   territories: [ ng ]
 
 -
@@ -398,8 +398,8 @@
   family: gem
   scripts: [ Latn ]
   typology:
-    - SVO
-    - inflected
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
   territories: [ is ]
 
 -
@@ -408,8 +408,8 @@
   family: roa
   scripts: [ Latn ]
   typology:
-    - SVO
-    - fusional, synthetic
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, synthetic ]
   territories: [ ch, it ]
 
 -
@@ -418,8 +418,8 @@
   family: jpx
   scripts: [ Jpan ]
   typology:
-    - SOV
-    - agglutinative, synthetic
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative, synthetic ]
   territories: [ jp ]
 
 -
@@ -428,8 +428,8 @@
   family: map
   scripts: [ Java, Latn ]
   typology:
-    - SVO
-    - agglutinative
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
   territories: [ id ]
 
 -
@@ -438,8 +438,8 @@
   family: ccs
   scripts: [ Geor ]
   typology:
-    - SVO
-    - agglutinative, synthetic
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative, synthetic ]
   territories: [ ge ]
 
 -
@@ -448,8 +448,8 @@
   family: trk
   scripts: [ Cyrl, Arab, Latn ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ kz ]
 
 -
@@ -458,8 +458,8 @@
   family: aav
   scripts: [ Khmr ]
   typology:
-    - SVO
-    - analytic, isolating
+    word_order: [ SVO ]
+    morphosyntax: [ analytic, isolating ]
   territories: [ kh ]
 
 -
@@ -468,8 +468,8 @@
   family: dra
   scripts: [ Knda ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ id ]
 
 -
@@ -478,8 +478,8 @@
   family:
   scripts: [ Kore ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ kr ]
 
 -
@@ -488,8 +488,8 @@
   family: iir
   scripts: [ Arab, Cyrl, Latn ]
   typology:
-    - SOV
-    - inflected
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
   territories: [ am, tr, sy, ir, iq, ge, tm ]
 
 -
@@ -498,8 +498,8 @@
   family: iir
   scripts: [ Arab ]
   typology:
-    - SOV
-    - inflected
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
   territories: [ iq ]
 
 -
@@ -508,8 +508,8 @@
   family: trk
   scripts: [ Arab, Cyrl, Latn ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ kg ]
 
 -
@@ -518,8 +518,8 @@
   family: roa
   scripts: [ Latn ]
   typology:
-    - SOV, SVO
-    - synthetic, fusional
+    word_order: [ SOV, SVO ]
+    morphosyntax: [ synthetic, fusional ]
   territories: [ ]
 
 -
@@ -528,8 +528,8 @@
   family: gem
   scripts: [ Latn ]
   typology:
-    - V2 SOV
-    - synthetic
+    word_order: [ V2, SOV ]
+    morphosyntax: [ synthetic ]
   territories: [ lu ]
 
 -
@@ -538,8 +538,8 @@
   family: tai
   scripts: [ Laoo ]
   typology:
-    - SVO
-    - isolating
+    word_order: [ SVO ]
+    morphosyntax: [ isolating ]
   territories: [ la ]
 
 -
@@ -548,8 +548,8 @@
   family: bat
   scripts: [ Latn ]
   typology:
-    - SVO
-    - inflected
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
   territories: [ lt ]
 
 -
@@ -558,8 +558,8 @@
   family: bat
   scripts: [ Latn ]
   typology:
-    - SVO
-    - inflected
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
   territories: [ lv ]
 
 -
@@ -569,8 +569,8 @@
   family: map
   scripts: [ Latn ]
   typology:
-    - VOS
-    - inflected
+    word_order: [ VOS ]
+    morphosyntax: [ inflected ]
   territories: [ mg ]
 
 -
@@ -579,8 +579,8 @@
   family: map
   scripts: [ Latn ]
   typology:
-    - VSO
-    - analytical
+    word_order: [ VSO ]
+    morphosyntax: [ analytical ]
   territories: [ nz ]
 
 -
@@ -589,8 +589,8 @@
   family: sla
   scripts: [ Cyrl ]
   typology:
-    - SVO
-    - analytic
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
   territories: [ mk ]
 
 -
@@ -599,8 +599,8 @@
   family: dra
   scripts: [ Mlym ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ in ]
 
 -
@@ -609,8 +609,8 @@
   family: xgn
   scripts: [ Cyrl, Mong, Phag ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ mn ]
 
 -
@@ -619,8 +619,8 @@
   family: inc
   scripts: [ Deva, Modi ]
   typology:
-    - SOV
-    - agglutinative, inflected, analytic
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative, inflected, analytic ]
   territories: [ in ]
 
 -
@@ -629,8 +629,8 @@
   family: map
   scripts: [ Arab, Latn ]
   typology:
-    - SVO
-    - agglutinative
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
   territories: [ my, bn, sg ]
 
 -
@@ -639,8 +639,8 @@
   family: sem
   scripts: [ Latn ]
   typology:
-    - SOV
-    - inflected
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
   territories: [ mt ]
 
 -
@@ -649,8 +649,8 @@
   family: sit
   scripts: [ Mymr ]
   typology:
-    - SOV
-    - analytic, isolating
+    word_order: [ SOV ]
+    morphosyntax: [ analytic, isolating ]
   territories: [ mm ]
 
 -
@@ -659,8 +659,8 @@
   family: inc
   scripts: [ Deva ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ np ]
 
 -
@@ -669,8 +669,8 @@
   family: gem
   scripts: [ Latn ]
   typology:
-    - SVO
-    - synthetic
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic ]
   territories: [ 001, be, nl ]
 
 -
@@ -680,8 +680,8 @@
   family: gem
   scripts: [ Latn ]
   typology:
-    - SVO
-    - fusional
+    word_order: [ SVO ]
+    morphosyntax: [ fusional ]
   territories: [ 'no' ]
 
 -
@@ -690,7 +690,7 @@
   family: nic
   scripts: [ Latn ]
   typology:
-    - SVO
+    word_order: [ SVO ]
   territories: [ mw, zw ]
 
 -
@@ -699,8 +699,8 @@
   family: inc
   scripts: [ Orya ]
   typology:
-    - SOV
-    - inflected
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
   territories: [ id ]
 
 -
@@ -709,8 +709,8 @@
   family: inc
   scripts: [ Guru, Arab ]
   typology:
-    - SOV
-    - fusional
+    word_order: [ SOV ]
+    morphosyntax: [ fusional ]
   territories: [ pk, in ]
 
 -
@@ -719,8 +719,8 @@
   family: sla
   scripts: [ Latn ]
   typology:
-    - SVO
-    - fusional, synthetic
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, synthetic ]
   territories: [ pl ]
 
 -
@@ -729,8 +729,8 @@
   family: iir
   scripts: [ Arab ]
   typology:
-    - SOV
-    - fusional
+    word_order: [ SOV ]
+    morphosyntax: [ fusional ]
   territories: [ af ]
 
 -
@@ -739,8 +739,8 @@
   family: roa
   scripts: [ Latn ]
   typology:
-    - SVO
-    - inflected
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
   territories: [ br, pt ]
 
 -
@@ -749,8 +749,8 @@
   family: roa
   scripts: [ Cyrl, Latn ]
   typology:
-    - SVO
-    - synthetic
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic ]
   territories: [ md, ro ]
 
 -
@@ -759,8 +759,8 @@
   family: sla
   scripts: [ Cyrl ]
   typology:
-    - SVO
-    - inflected, fusional, synthetic
+    word_order: [ SVO ]
+    morphosyntax: [ inflected, fusional, synthetic ]
   territories: [ ru, md, kz, ua ]
 
 -
@@ -769,8 +769,8 @@
   family: bnt
   scripts: [ Latn ]
   typology:
-    - SVO
-    - inflected
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
   territories: [ rw ]
 
 -
@@ -779,8 +779,8 @@
   family: inc
   scripts: [ Arab, Deva, Khoj, Sind ]
   typology:
-    - SOV
-    - inflected
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
   territories: [ in, pk ]
 
 -
@@ -789,8 +789,8 @@
   family: inc
   scripts: [ Sinh ]
   typology:
-    - SOV
-    - fusional
+    word_order: [ SOV ]
+    morphosyntax: [ fusional ]
   territories: [ lk ]
 
 -
@@ -799,8 +799,8 @@
   family: sla
   scripts: [ Latn ]
   typology:
-    - SVO
-    - synthetic
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic ]
   territories: [ sk ]
 
 -
@@ -809,8 +809,8 @@
   family: sla
   scripts: [ Latn ]
   typology:
-    - SOV
-    - fusional, inflected
+    word_order: [ SOV ]
+    morphosyntax: [ fusional, inflected ]
   territories: [ si ]
 
 -
@@ -819,8 +819,8 @@
   family: map
   scripts: [ Latn ]
   typology:
-    - VSO
-    - analytic
+    word_order: [ VSO ]
+    morphosyntax: [ analytic ]
   territories: [ ws ]
 
 -
@@ -829,8 +829,8 @@
   family: nic
   scripts: [ Latn ]
   typology:
-    - SVO
-    - agglutinative
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
   territories: [ zw ]
 
 -
@@ -839,8 +839,8 @@
   family: cus
   scripts: [ Arab, Latn, Osma ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ dj, et, ke, so ]
 
 -
@@ -849,8 +849,8 @@
   family: ine
   scripts: [ Latn, Elba ]
   typology:
-    - SVO
-    - fusional
+    word_order: [ SVO ]
+    morphosyntax: [ fusional ]
   territories: [ al, mk, sr, gr, me, it ]
 
 -
@@ -859,8 +859,8 @@
   family: sla
   scripts: [ Cyrl, Latn ]
   typology:
-    - SVO
-    - inflected
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
   territories: [ ba, me, rs ]
 
 -
@@ -869,8 +869,8 @@
   family: bnt
   scripts: [ Latn ]
   typology:
-    - SVO
-    - agglutinative
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
   territories: [ ls, za, zw ]
 
 -
@@ -879,7 +879,7 @@
   family: map
   scripts: [ Latn, Sund ]
   typology:
-    - SVO
+    word_order: [ SVO ]
   territories: [ id ]
 
 -
@@ -888,8 +888,8 @@
   family: gem
   scripts: [ Latn ]
   typology:
-    - V2, SVO
-    - inflected
+    word_order: [ V2, SVO ]
+    morphosyntax: [ inflected ]
   territories: [ fi, se ]
 
 -
@@ -898,8 +898,8 @@
   family: bnt
   scripts: [ Latn ]
   typology:
-    - SVO
-    - agglutinative
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
   territories: [ cd, ke, tz, ug ]
 
 -
@@ -908,8 +908,8 @@
   family: dra
   scripts: [ Taml ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ in, lk, my, sg ]
 
 -
@@ -918,8 +918,8 @@
   family: dra
   scripts: [ Telu ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ in ]
 
 -
@@ -928,8 +928,8 @@
   family: iir
   scripts: [ Arab, Cyrl, Latn ]
   typology:
-    - SOV
-    - analytic
+    word_order: [ SOV ]
+    morphosyntax: [ analytic ]
   territories: [ tj, af ]
 
 -
@@ -938,8 +938,8 @@
   family: tai
   scripts: [ Thai ]
   typology:
-    - SVO
-    - analytic, isolating
+    word_order: [ SVO ]
+    morphosyntax: [ analytic, isolating ]
   territories: [ th ]
 
 -
@@ -948,8 +948,8 @@
   family: trk
   scripts: [ Arab, Cyrl, Latn ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ iq, tm, ir, af ]
 
 -
@@ -958,8 +958,8 @@
   family: map
   scripts: [ Latn ]
   typology:
-    - VSO
-    - agglutinative
+    word_order: [ VSO ]
+    morphosyntax: [ agglutinative ]
   territories: [ ph ]
 
 -
@@ -968,8 +968,8 @@
   family: trk
   scripts: [ Latn ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ tr, cy ]
 
 -
@@ -978,8 +978,8 @@
   family: trk
   scripts: [ Cyrl, Latn, Arab ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ ru, cn ]
 
 -
@@ -988,8 +988,8 @@
   family: trk
   scripts: [ Arab, Cyrl, Latn ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ cn ]
 
 -
@@ -998,8 +998,8 @@
   family: sla
   scripts: [ Cyrl ]
   typology:
-    - SVO
-    - fusional, synthetic
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, synthetic ]
   territories: [ ua, md ]
 
 -
@@ -1008,8 +1008,8 @@
   family: iir
   scripts: [ Arab ]
   typology:
-    - SOV
-    - fusional
+    word_order: [ SOV ]
+    morphosyntax: [ fusional ]
   territories: [ in, lk, pk ]
 
 -
@@ -1018,8 +1018,8 @@
   family: trk
   scripts: [ Latn, Cyrl, Arab ]
   typology:
-    - SOV
-    - agglutinative
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
   territories: [ uz ]
 
 -
@@ -1028,8 +1028,8 @@
   family: aav
   scripts: [ Hani, Latn ]
   typology:
-    - SVO
-    - analytic, isolating
+    word_order: [ SVO ]
+    morphosyntax: [ analytic, isolating ]
   territories: [ vn ]
 
 -
@@ -1038,8 +1038,8 @@
   family: bnt
   scripts: [ Latn ]
   typology:
-    - SVO
-    - agglutinative
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
   territories: [ za ]
 
 -
@@ -1048,8 +1048,8 @@
   family: gem
   scripts: [ Hebr ]
   typology:
-    - SVO
-    - inflected
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
   territories: [ ba, nl, pl, ro, se, ua, ru, by, us, il ]
 
 -
@@ -1058,8 +1058,8 @@
   family: nic
   scripts: [ Latn ]
   typology:
-    - SVO
-    - isolating
+    word_order: [ SVO ]
+    morphosyntax: [ isolating ]
   territories: [ ]
 
 -
@@ -1069,8 +1069,8 @@
   family: sit
   scripts: [ Hans, Hant ]
   typology:
-    - SVO
-    - analytic, isolating
+    word_order: [ SVO ]
+    morphosyntax: [ analytic, isolating ]
   territories: [ cn, my, sg, hk, tw ]
 
 -
@@ -1079,6 +1079,6 @@
   family: bnt
   scripts: [ Latn ]
   typology:
-    - SVO
-    - agglutinative
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
   territories: [ za ]
