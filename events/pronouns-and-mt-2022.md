@@ -21,6 +21,7 @@ seo:
   organizer:
     type: Person
     name: Christian Hardmeier
+    url: http://christianhardmeier.rax.ch
 ---
 
 The **Workshop on Pronouns and Machine Translation** took place online on 19 August.
