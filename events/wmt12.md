@@ -67,7 +67,7 @@ The **Seventh Workshop on Machine Translation** (**WMT12**) took place from 7 Ju
 | | [***The SDL Language Weaver Systems in the WMT12 Quality Estimation Shared Task***](https://www.aclanthology.org/W12-3118.pdf) <br>Radu Soricut, Nguyen Bach, Ziyuan Wang |
 | | [***Regression with Phrase Indicators for Estimating MT Quality***](https://www.aclanthology.org/W12-3119.pdf) <br>Chunyang Wu, Hai Zhao |
 | 12:40 – 14:00	| 🍴 |
-| 14:00 – 15:30	| **Session 3: Invited Talk** <br>**Deployment of SMT for the IBM Enterprise** <br>Salim Roukos |
+| 14:00 – 15:30	| **Session 3: Invited Talk** <br>**Deployment of SMT for the IBM Enterprise** <br>[Salim Roukos](/../people/salim-roukos.md) |
 | 15:30 – 16:00	| ☕️ |
 | 16:00 – 16:20	| **Session 4: Confidence Estimation and System Combination** <br>[***Non-Linear Models for Confidence Estimation***](https://www.aclanthology.org/W12-3120.pdf) <br>Yong Zhuang, Guillaume Wisniewski, François Yvon |
 | 16:20 – 16:40	| [***Combining Quality Prediction and System Selection for Improved Automatic Translation Output***](https://www.aclanthology.org/W12-3121.pdf) <br>Radu Soricut, Sushant Narsale |

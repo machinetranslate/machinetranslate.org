@@ -120,7 +120,7 @@ For example, a metric can count the number and fraction of n-grams that appear i
 | 2005 | [***METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments***](http://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf) | Satanjeev Banerjee, Alon Lavie |
 | 2004 | [***ROUGE: A Package for Automatic Evaluation of Summaries***](https://aclanthology.org/W04-1013.pdf) | Chin-Yew Lin |
 | 2002 | [***Automatic Evaluation of Machine Translation Quality Using N-gram Co-Occurrence Statistics***](https://aclanthology.org/www.mt-archive.info/HLT-2002-Doddington.pdf) | George Doddington |
-| 2002 | [***BLEU: a Method for Automatic Evaluation of Machine Translation***](https://aclanthology.org/P02-1040.pdf) | Kishore Papineni, Salim Roukos, Todd Ward, Wei-Jing Zhu |
+| 2002 | [***BLEU: a Method for Automatic Evaluation of Machine Translation***](https://aclanthology.org/P02-1040.pdf) | Kishore Papineni, [Salim Roukos](/../people/salim-roukos.md), Todd Ward, Wei-Jing Zhu |
 
 ##### Embedding-based metrics
 
