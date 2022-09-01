@@ -198,7 +198,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 30 - 31 March | **WMT09** | Athens, Greece |
+| 30 - 31 March | [**WMT09**](wmt09.md) | Athens, Greece |
 | 14 - 15 May | EAMT 2009 | Barcelona, Spain |
 | 26 - 30 January | [MT Marathon](https://ufal.mff.cuni.cz/euromatrix/mtmarathon/) | Prague, Czech Republic |
 
