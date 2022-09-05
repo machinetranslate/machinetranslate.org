@@ -47,20 +47,21 @@ with open('_data/engines.yml', 'r') as stream:
       name = engine['name']
       if type(name) is not str:
         raise Exception(name)
-      id = engine['id']
-      if type(id) is not str:
-        raise Exception(id)
+      slug = engine['id']
+      if type(slug) is not str:
+        raise Exception(slug)
       languages = engine['languages']
       if type(languages) is not list:
         raise Exception(languages)
       engine['languages'] = flatten(languages)
       # TODO: language pairs
 
-      filepath = f'engines/{ id }.md'
+      filepath = f'engines/{ slug }.md'
       if True: #not exists(filepath):
         markdown = f'''\
 ---
 layout: engine
+id: { slug }
 title: { name }
 description: The { name } machine translation API
 parent: Engines
