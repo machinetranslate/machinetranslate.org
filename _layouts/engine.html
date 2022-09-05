@@ -20,8 +20,11 @@ parent: Engines
 {% endfor %}
 
 <blockquote>
-  <a href="{{ engine.url }}">{{ engine.url | remove_first: 'https://' | | remove_first: 'http://' }}</a>
-  <a href="{{ engine.info_url }}">{{ engine.info_url | remove_first: 'https://' | | remove_first: 'http://' }}</a>
+
+  <a href="{{ engine.url }}">{{ engine.url | remove_first: 'https://' | remove_first: 'http://' }}</a>
+  
+  <a href="{{ engine.info_url }}">{{ engine.info_url | remove_first: 'https://' | remove_first: 'http://' }}</a>
+
 </blockquote>
 
 {{ content }}
@@ -30,9 +33,9 @@ parent: Engines
 <h2>Language support</h2>
 <ul>
   {% for code in engine.languages %}
+    {% assign base_code = code | split: '-' | first %}
     {% for language in site.data.languages %}
-      {% assign base_language = language | split: '-' | first %}
-      {% if language.code == base_language %}
+      {% if base_code == language %}
         {% assign name = language.names[0] %}
         {% assign slug = name | slugify %}
         <li>
