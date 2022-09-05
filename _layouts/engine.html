@@ -30,14 +30,16 @@ parent: Engines
 <h2>Language support</h2>
 <ul>
   {% for code in engine.languages %}
-    {% assign language = site.data.languages[code] %}
-    {% assign name = language.names[0] %}
-    {% assign slug = name | slugify %}
-    <li>
-        <a href="/{{ slug }}">
-            <code>{{ code }}</code> {{ name }}
-        </a>
-    </li>
-
+    {% for language in site.data.languages %}
+      {% if language.code == code %}
+        {% assign name = language.names[0] %}
+        {% assign slug = name | slugify %}
+        <li>
+            <a href="/{{ slug }}">
+                <code>{{ code }}</code> {{ name }}
+            </a>
+        </li>
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </ul>
