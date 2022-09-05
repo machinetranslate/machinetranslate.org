@@ -70,10 +70,20 @@ defaults:
         type: Event
   -
     scope:
+      path: "engines"
+      type: "pages"
+    values:
+      permalink: /:basename
+      seo:
+        type: Product
+  -
+    scope:
       path: "languages"
       type: "pages"
     values:
       permalink: /:basename
+        seo:
+          type: Language
   -
     scope:
       path: "associations"
