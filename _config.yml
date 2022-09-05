@@ -82,8 +82,8 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename
-        seo:
-          type: Language
+      seo:
+        type: Language
   -
     scope:
       path: "associations"
