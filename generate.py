@@ -31,7 +31,6 @@ parent: Languages
 
 ### Generate engines
 
-#def expand_languages(languages):
 def flatten(l):
   _ = []
   for item in l:
@@ -54,6 +53,7 @@ with open('_data/engines.yml', 'r') as stream:
       languages = engine['languages']
       if type(languages) is not list:
         raise Exception(languages)
+      engine['languages'] = flatten(languages)
       # TODO: language pairs
 
       filepath = f'engines/{ id }.md'
@@ -64,7 +64,6 @@ layout: engine
 title: { name }
 description: The { name } machine translation API
 parent: Engines
-languages: { ', '.join(flatten(languages)) }
 ---
 '''
         with open(filepath, 'w', encoding='utf8') as f:

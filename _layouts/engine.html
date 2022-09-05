@@ -12,6 +12,14 @@ parent: Engines
 
 <hr/>
 
+{% assign engine = false %}
+{% for eng in site.data.engines %}
+  {% if eng.id == page.id %}
+    {% assign engine = eng %}
+  {% endif %}
+{% endfor %}
+
+
 <a href="{{ engine.url }}">{{ engine.url }}</a>
 <a href="{{ engine.info_url }}">{{ engine.info_url }}</a>
 
@@ -20,7 +28,7 @@ parent: Engines
 
 <h2>Language support</h2>
 <ul>
-  {% for code in page.languages %}
+  {% for code in engine.languages %}
     {% assign language = site.data.languages[code] %}
     {% assign name = language.name[0] %}
     {% assign slug = name | slugify %}
