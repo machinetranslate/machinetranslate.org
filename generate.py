@@ -2,20 +2,26 @@
 import yaml
 from os.path import exists
 
+OVERWRITE_LANGUAGES = False
+OVERWRITE_ENGINES = False
+
 ### Generate languages
 with open('_data/languages.yml', 'r') as stream:
     data = yaml.safe_load(stream)
     for language in data:
+
       code = language['codes'][0]
-      name = language['names'][0]
       if type(language['codes']) is not list:
         raise Exception(language)
+
+      name = language['names'][0]
       if type(language['names']) is not list:
         raise Exception(language)
 
-      filename = name.lower().replace(' ', '-')
-      filepath = f'languages/{ filename }.md'
-      if not exists(filepath):
+      slug = name.lower().replace(' ', '-') # Should work *exactly* like in Liquid!
+
+      filepath = f'languages/{ slug }.md'
+      if OVERWRITE_LANGUAGES or not exists(filepath):
         markdown = f'''\
 ---
 layout: language
@@ -55,9 +61,10 @@ with open('_data/engines.yml', 'r') as stream:
         raise Exception(languages)
       engine['languages'] = flatten(languages)
       # TODO: language pairs
+      # TODO: order them in the nav (nav_order: ) by number of supported language pairs
 
       filepath = f'engines/{ slug }.md'
-      if True: #not exists(filepath):
+      if OVERWRITE_ENGINES or not exists(filepath):
         markdown = f'''\
 ---
 layout: engine

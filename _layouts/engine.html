@@ -19,9 +19,10 @@ parent: Engines
   {% endif %}
 {% endfor %}
 
-
-<a href="{{ engine.url }}">{{ engine.url }}</a>
-<a href="{{ engine.info_url }}">{{ engine.info_url }}</a>
+<blockquote>
+  <a href="{{ engine.url }}">{{ engine.url | remove_first: 'https://' | | remove_first: 'http://' }}</a>
+  <a href="{{ engine.info_url }}">{{ engine.info_url | remove_first: 'https://' | | remove_first: 'http://' }}</a>
+</blockquote>
 
 {{ content }}
 
@@ -30,10 +31,10 @@ parent: Engines
 <ul>
   {% for code in engine.languages %}
     {% assign language = site.data.languages[code] %}
-    {% assign name = language.name[0] %}
+    {% assign name = language.names[0] %}
     {% assign slug = name | slugify %}
     <li>
-        <a href="{{ slug }}">
+        <a href="/{{ slug }}">
             <code>{{ code }}</code> {{ name }}
         </a>
     </li>
