@@ -1,0 +1,7 @@
+---
+layout: engine
+title: Niutrans
+description: The Niutrans machine translation API
+parent: Engines
+languages: adh, ace, acr, acu, af, agr, ake, am, amk, amu, any, ar, ata, aym, az, azb, ba, bam, bba, bch, bdh, bdu, be, bem, ber, bfa, bg, bi, bn, bno, bnp, bqj, bqp, br, bs, bsn, bus, byr, ca, cak, cas, cbl, ccp, cdf, ceb, cfm, cha, che, chq, chr, cht, cjp, ckb, cki, cnh, cni, co, cop, cpb, crh, crs, cs, ctd, cv, cy, czt, da, de, dik, dje, djk, dop, dtp, duo, dv, dyu, dz, ee, el, en, enx, eo, es, et, eu, fa, fi, fil, fj, fo, fr, fuv, fy, ga, gbi, gbo, gd, gil, gl, gnw, gof, gu, gub, gur, gv, ha, haw, he, hi, hlb, hmo, hr, ht, hu, hui, huv, hwc, hy, id, ifa, ifb, ify, ig, ikk, iou, is, it, izz, ja, jac, jae, jiv, jmc, jv, jy, ka, kab, kac, kbh, kbo, kek, keo, kg, kk, kle, km, kn, knj, ko, kpg, krs, ksd, ku, ky, kyu, la, lb, lcm, lcp, lg, ln, lnd, lo, lsi, lt, lv, mad, mah, mam, map, mbb, mdy, me, meu, mg, mhr, mi, mk, ml, mn, mni, mo, mos, mps, mr, mrj, mrw, ms, mt, muv, mww, my, ne, ngl, nhg, nl, no, nop, ntm, ny, nyy, ojb, om, ond, or, os, otq, pa, pap, pck, pil, pl, poh, pot, ppk, prk, ps, pss, pt, ptu, quc, quh, quw, quz, qxr, rmn, rn, ro, ru, rug, rw, sd, sg, shi, shp, si, sid, sk, sl, sm, sn, so, spy, sq, sr, ssd, ssx, st, su, sv, sw, swp, syc, ta, tbz, te, teo, tet, tex, tg, th, ti, tig, tih, tk, tmh, tn, to, tpi, tpm, tr, ts, tt, tw, ty, tyv, udm, uk, ur, usp, uy, uz, ve, vi, vun, wal, war, wlx, wol, wrs, wsk, xal, xh, xsm, yi, yo, yon, yua, yue, zh, zu, zyb
+---

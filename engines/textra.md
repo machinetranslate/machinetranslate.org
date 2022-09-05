@@ -1,0 +1,7 @@
+---
+layout: engine
+title: TexTra
+description: The TexTra machine translation API
+parent: Engines
+languages: ar, en, ar, ja, ar, ja, de, en, de, en, de, ja, de, ja, de, ja, en, ar, en, ar, en, de, en, de, en, de, en, es, en, es, en, fil, en, fr, en, fr, en, fr, en, id, en, it, en, it, en, ja, en, ja, en, ja, en, ja, en, ja, en, ja, en, km, en, ko, en, ko, en, mn, en, my, en, ne, en, pt, en, pt, en, ru, en, th, en, vi, en, vi, en, zh-cn, en, zh-cn, en, zh-cn, en, zh-tw, en, zh-tw, en, zh-tw, es, en, es, ja, es, ja, fil, en, fil, ja, fil, ja, fr, en, fr, en, fr, ja, fr, ja, fr, ja, id, en, id, ja, id, ja, it, en, it, ja, it, ja, ja, ar, ja, ar, ja, de, ja, de, ja, de, ja, en, ja, en, ja, en, ja, en, ja, en, ja, en, ja, es, ja, es, ja, fil, ja, fil, ja, fr, ja, fr, ja, fr, ja, id, ja, id, ja, it, ja, it, ja, km, ja, km, ja, ko, ja, ko, ja, ko, ja, mn, ja, mn, ja, my, ja, my, ja, ne, ja, ne, ja, pt, ja, pt, ja, ru, ja, ru, ja, th, ja, th, ja, vi, ja, vi, ja, zh-cn, ja, zh-cn, ja, zh-cn, ja, zh-cn, ja, zh-tw, ja, zh-tw, ja, zh-tw, ja, zh-tw, km, en, km, ja, km, ja, ko, en, ko, ja, ko, ja, ko, ja, mn, en, mn, ja, mn, ja, my, en, my, ja, my, ja, ne, en, ne, ja, ne, ja, pt, en, pt, ja, pt, ja, ru, en, ru, ja, ru, ja, th, en, th, ja, th, ja, vi, en, vi, ja, vi, ja, zh-cn, en, zh-cn, en, zh-cn, ja, zh-cn, ja, zh-cn, ja, zh-cn, ja, zh-tw, en, zh-tw, en, zh-tw, ja, zh-tw, ja, zh-tw, ja, zh-tw, ja
+---

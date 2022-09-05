@@ -27,3 +27,45 @@ parent: Languages
 '''
         with open(filepath, 'w', encoding='utf8') as f:
           f.write(markdown)
+
+
+### Generate engines
+
+#def expand_languages(languages):
+def flatten(l):
+  _ = []
+  for item in l:
+    if type(item) is list:
+      _ += flatten(item)
+    else:
+      _.append(item)
+  return _
+
+with open('_data/engines.yml', 'r') as stream:
+    data = yaml.safe_load(stream)
+    for engine in data:
+      print(engine)
+      name = engine['name']
+      if type(name) is not str:
+        raise Exception(name)
+      id = engine['id']
+      if type(id) is not str:
+        raise Exception(id)
+      languages = engine['languages']
+      if type(languages) is not list:
+        raise Exception(languages)
+      # TODO: language pairs
+
+      filepath = f'engines/{ id }.md'
+      if True: #not exists(filepath):
+        markdown = f'''\
+---
+layout: engine
+title: { name }
+description: The { name } machine translation API
+parent: Engines
+languages: { ', '.join(flatten(languages)) }
+---
+'''
+        with open(filepath, 'w', encoding='utf8') as f:
+          f.write(markdown)

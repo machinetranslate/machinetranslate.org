@@ -1,0 +1,34 @@
+---
+layout: default
+parent: Engines
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+<h2>
+  {{ page.description }}
+</h2>
+
+<hr/>
+
+<a href="{{ engine.url }}">{{ engine.url }}</a>
+<a href="{{ engine.info_url }}">{{ engine.info_url }}</a>
+
+{{ content }}
+
+
+<h2>Language support</h2>
+<ul>
+  {% for code in page.languages %}
+    {% assign language = site.data.languages[code] %}
+    {% assign name = language.name[0] %}
+    {% assign slug = name | slugify %}
+    <li>
+        <a href="{{ slug }}">
+            <code>{{ code }}</code> {{ name }}
+        </a>
+    </li>
+
+  {% endfor %}
+</ul>
