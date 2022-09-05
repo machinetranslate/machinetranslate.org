@@ -163,13 +163,6 @@ Do not use punctuation marks as abbreviations.
 > ~~USD/EUR~~ USD or EUR
 
 
-## Links
-
-Only link **the same** word or phrase once per article.
-
-Avoid **external** links, except for databases, important papers and events.
-
-
 ## Lists
 
 Introduce lists with full sentences.
@@ -263,6 +256,11 @@ Leave an empty line between text and tables.
 
 ## Links
 
+Only link **the same** word or phrase once per article.
+
+Avoid **external** links, except for databases, important papers and events.
+
+### Paths
 For articles in the **same directory**, use a **relative** path.
 
 ```
@@ -272,7 +270,7 @@ She researches quality estimation with [Kevin Johnson](kevin-johnson.md) at Micr
 For articles in any **other directory**, use an **absolute** path.
 
 ```
-She researches [quality estimation](quality/quality-estimation.md) with Kevin Johnson at Microsoft.
+She researches [quality estimation](/quality/quality-estimation.md) with Kevin Johnson at Microsoft.
 ```
 
 For a specific **section** of an article, use the **fragment identifier**.
