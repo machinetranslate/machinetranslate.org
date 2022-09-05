@@ -31,7 +31,8 @@ parent: Engines
 <ul>
   {% for code in engine.languages %}
     {% for language in site.data.languages %}
-      {% if language.code == code %}
+      {% assign base_language = language | split: '-' | first %}
+      {% if language.code == base_language %}
         {% assign name = language.names[0] %}
         {% assign slug = name | slugify %}
         <li>
