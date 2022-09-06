@@ -15,7 +15,7 @@ microsoft:
   fa-prs: fa-af  # Macrolanguage, Apptek for Dari
   prs: fa-af # Macrolanguage, Microsoft for Dari
   fil: tl # Macrolanguage, Microsoft for Tagalog
-  hmn: mww # Macrolanguage, Microsoft for Hmong
+  mww: hmn # Macrolanguage, Microsoft for Hmong
   aar: aa
   abk: ab
   afr: af

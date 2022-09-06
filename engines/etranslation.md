@@ -143,6 +143,4 @@ nav_order: 974
 
 ---
 
-eTranslation is developed by the European Commission.
 
-> eTranslation allows public administrations to access machine translation to translate from and into any official EU language.

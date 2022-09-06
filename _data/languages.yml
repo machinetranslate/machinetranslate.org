@@ -497,7 +497,7 @@
   codes: [ ku, kur, sdh, kmr ]
   names: [ Kurdish, Kurmanji Kurdish, Kurmanji, Northern Kurdish, Yezidi Kurdish, Yezidi ]
   family: ira
-  scripts: [ Arab, Cyrl, Latn ]
+  scripts: [ Latn, Cyrl, Arab ]
   typology:
     word_order: [ SOV ]
     morphosyntax: [ inflected ]

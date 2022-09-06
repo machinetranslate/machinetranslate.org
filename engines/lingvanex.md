@@ -177,8 +177,8 @@ supported_languages:
   name: Hindi
 - slug: hmong
   code: hmn-cn
-  normalized_code: mww
-  base_code: mww
+  normalized_code: hmn-cn
+  base_code: hmn
   name: Hmong
 - slug: croatian
   code: hr-hr

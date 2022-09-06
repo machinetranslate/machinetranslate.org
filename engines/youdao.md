@@ -334,8 +334,8 @@ supported_languages:
   name: Maltese
 - slug: hmong
   code: mww
-  normalized_code: mww
-  base_code: mww
+  normalized_code: hmn
+  base_code: hmn
   name: Hmong
 - slug: burmese
   code: my
