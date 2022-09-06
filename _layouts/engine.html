@@ -19,8 +19,8 @@ parent: Engines
     <li>
       <a href="{{ url }}">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' }}</a>
     </li>
+    {% endfor %}
   </ul>
-
 </blockquote>
 
 {{ content }}
