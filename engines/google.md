@@ -11,6 +11,9 @@ supported_languages:
 - slug: afrikaans
   code: af
   name: Afrikaans
+- slug: null
+  code: am
+  name: null
 - slug: arabic
   code: ar
   name: Arabic
@@ -104,9 +107,6 @@ supported_languages:
 - slug: hindi
   code: hi
   name: Hindi
-- slug: hmong
-  code: hmn
-  name: Hmong
 - slug: hmong
   code: hmn
   name: Hmong
@@ -327,12 +327,15 @@ supported_languages:
   code: yo
   name: Yoruba
 - slug: chinese
-  code: zh
+  code: zh-cn
+  name: Chinese
+- slug: chinese
+  code: zh-tw
   name: Chinese
 - slug: zulu
   code: zu
   name: Zulu
-nav_order: 892
+nav_order: 891
 
 ---
 

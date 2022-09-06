@@ -11,13 +11,13 @@ supported_languages:
   code: en
   name: English
 - slug: spanish
-  code: es
+  code: es-419
   name: Spanish
 - slug: french
-  code: fr
+  code: fr-ca
   name: French
 - slug: portuguese
-  code: pt
+  code: pt-br
   name: Portuguese
 - slug: chinese
   code: zh

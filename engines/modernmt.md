@@ -41,6 +41,9 @@ supported_languages:
 - slug: spanish
   code: es
   name: Spanish
+- slug: spanish
+  code: es-419
+  name: Spanish
 - slug: estonian
   code: et
   name: Estonian
@@ -101,12 +104,12 @@ supported_languages:
 - slug: maltese
   code: mt
   name: Maltese
-- slug: dutch
-  code: nl
-  name: Dutch
 - slug: norwegian
   code: nb
   name: Norwegian
+- slug: dutch
+  code: nl
+  name: Dutch
 - slug: norwegian
   code: nn
   name: Norwegian
@@ -115,6 +118,9 @@ supported_languages:
   name: Polish
 - slug: portuguese
   code: pt
+  name: Portuguese
+- slug: portuguese
+  code: pt-br
   name: Portuguese
 - slug: romanian
   code: ro
@@ -132,7 +138,10 @@ supported_languages:
   code: sq
   name: Albanian
 - slug: serbian
-  code: sr
+  code: sr-Cyr
+  name: Serbian
+- slug: serbian
+  code: sr-Latn
   name: Serbian
 - slug: swedish
   code: sv
@@ -161,10 +170,13 @@ supported_languages:
 - slug: chinese
   code: zh
   name: Chinese
+- slug: chinese
+  code: zh-tw
+  name: Chinese
 - slug: zulu
   code: zu
   name: Zulu
-nav_order: 948
+nav_order: 944
 
 ---
 

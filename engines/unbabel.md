@@ -29,6 +29,9 @@ supported_languages:
 - slug: spanish
   code: es
   name: Spanish
+- slug: spanish
+  code: es-419
+  name: Spanish
 - slug: finnish
   code: fi
   name: Finnish
@@ -44,12 +47,12 @@ supported_languages:
 - slug: italian
   code: it
   name: Italian
-- slug: japanese
-  code: ja
-  name: Japanese
 - slug: korean
   code: ko
   name: Korean
+- slug: japanese
+  code: ja
+  name: Japanese
 - slug: dutch
   code: nl
   name: Dutch
@@ -61,6 +64,9 @@ supported_languages:
   name: Polish
 - slug: portuguese
   code: pt
+  name: Portuguese
+- slug: portuguese
+  code: pt-br
   name: Portuguese
 - slug: romanian
   code: ro
@@ -81,9 +87,12 @@ supported_languages:
   code: vi
   name: Vietnamese
 - slug: chinese
-  code: zh
+  code: zh-cn
   name: Chinese
-nav_order: 975
+- slug: chinese
+  code: zh-tw
+  name: Chinese
+nav_order: 972
 
 ---
 

@@ -124,22 +124,23 @@ for engine in ENGINES:
 
   # "Join"
   # TODO: use language/engine mapping
-  # TODO: display the language code (including locale) as used by the engine
-  supported_language_codes = list(map(base_language_code, flatten(languages)))
+  supported_language_codes = flatten(languages)
   # TODO: language *pairs*
 
   supported_languages = []
-  for language in LANGUAGES:
-    for code in language['codes']:
-      if code in supported_language_codes:
-        language_name = language['names'][0]
-        supported_languages.append({
-          'slug': slugify(language_name),
-          'code': code,
-          'name': language_name
-        })
 
-  # TODO: *order* engines in the nav (nav_order: ) by number of supported language pairs
+  for code in supported_language_codes:
+    language_name = None
+    language_slug = None
+    for language in LANGUAGES:
+      if base_language_code(code) in language['codes']:
+        language_name = language['names'][0]
+        language_slug = slugify(language_name)
+    supported_languages.append({
+      'slug': language_slug,
+      'code': code,
+      'name': language_name
+    })
 
   frontmatter = {
     'layout': 'engine',

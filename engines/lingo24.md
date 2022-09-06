@@ -36,7 +36,10 @@ supported_languages:
   code: pl
   name: Polish
 - slug: portuguese
-  code: pt
+  code: pt-br
+  name: Portuguese
+- slug: portuguese
+  code: pt-pt
   name: Portuguese
 - slug: russian
   code: ru
@@ -47,7 +50,7 @@ supported_languages:
 - slug: turkish
   code: tr
   name: Turkish
-nav_order: 987
+nav_order: 986
 
 ---
 

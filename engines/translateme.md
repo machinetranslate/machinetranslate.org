@@ -17,31 +17,58 @@ supported_languages:
 - slug: spanish
   code: es
   name: Spanish
+- slug: english
+  code: en
+  name: English
 - slug: french
   code: fr
   name: French
+- slug: english
+  code: en
+  name: English
 - slug: italian
   code: it
   name: Italian
+- slug: english
+  code: en
+  name: English
 - slug: dutch
   code: nl
   name: Dutch
+- slug: english
+  code: en
+  name: English
 - slug: portuguese
   code: pt
   name: Portuguese
+- slug: english
+  code: en
+  name: English
 - slug: russian
   code: ru
   name: Russian
+- slug: english
+  code: en
+  name: English
 - slug: turkish
   code: tr
   name: Turkish
+- slug: english
+  code: en
+  name: English
 - slug: chinese
   code: zh
   name: Chinese
+- slug: english
+  code: en
+  name: English
 - slug: zulu
   code: zu
   name: Zulu
-nav_order: 989
+- slug: english
+  code: en
+  name: English
+nav_order: 980
 
 ---
 

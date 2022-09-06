@@ -13,6 +13,9 @@ supported_languages:
 - slug: afrikaans
   code: af
   name: Afrikaans
+- slug: null
+  code: am
+  name: null
 - slug: arabic
   code: ar
   name: Arabic
@@ -76,6 +79,9 @@ supported_languages:
 - slug: finnish
   code: fi
   name: Finnish
+- slug: null
+  code: fj
+  name: null
 - slug: french
   code: fr
   name: French
@@ -106,9 +112,6 @@ supported_languages:
 - slug: hindi
   code: hi
   name: Hindi
-- slug: hmong
-  code: mww
-  name: Hmong
 - slug: croatian
   code: hr
   name: Croatian
@@ -199,6 +202,9 @@ supported_languages:
 - slug: maltese
   code: mt
   name: Maltese
+- slug: hmong
+  code: mww
+  name: Hmong
 - slug: burmese
   code: my
   name: Burmese
@@ -214,6 +220,9 @@ supported_languages:
 - slug: chewa
   code: ny
   name: Chewa
+- slug: null
+  code: otq
+  name: null
 - slug: punjabi
   code: pa
   name: Punjabi
@@ -257,7 +266,10 @@ supported_languages:
   code: sq
   name: Albanian
 - slug: serbian
-  code: sr
+  code: sr-Cyrl
+  name: Serbian
+- slug: serbian
+  code: sr-Latn
   name: Serbian
 - slug: sotho
   code: st
@@ -286,9 +298,18 @@ supported_languages:
 - slug: tagalog
   code: tl
   name: Tagalog
+- slug: null
+  code: tlh
+  name: null
+- slug: null
+  code: to
+  name: null
 - slug: turkish
   code: tr
   name: Turkish
+- slug: null
+  code: ty
+  name: null
 - slug: ukrainian
   code: uk
   name: Ukrainian
@@ -310,13 +331,22 @@ supported_languages:
 - slug: yoruba
   code: yo
   name: Yoruba
+- slug: null
+  code: yua
+  name: null
+- slug: null
+  code: yue
+  name: null
 - slug: chinese
-  code: zh
+  code: zh-cn
+  name: Chinese
+- slug: chinese
+  code: zh-tw
   name: Chinese
 - slug: zulu
   code: zu
   name: Zulu
-nav_order: 898
+nav_order: 888
 
 ---
 

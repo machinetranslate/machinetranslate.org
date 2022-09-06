@@ -9,330 +9,333 @@ urls:
 - https://docs.lingvanex.com/reference/user-guide
 supported_languages:
 - slug: afrikaans
-  code: af
+  code: af-za
   name: Afrikaans
+- slug: albanian
+  code: sq-al
+  name: Albanian
+- slug: null
+  code: am-et
+  name: null
 - slug: arabic
-  code: ar
+  code: ar-sa
   name: Arabic
+- slug: armenian
+  code: hy-am
+  name: Armenian
 - slug: azerbaijani
-  code: az
+  code: az-az
   name: Azerbaijani
+- slug: basque
+  code: eu-es
+  name: Basque
 - slug: belarusian
-  code: be
+  code: be-by
   name: Belarusian
-- slug: bulgarian
-  code: bg
-  name: Bulgarian
 - slug: bengali
-  code: bn
+  code: bn-bd
   name: Bengali
 - slug: bosnian
-  code: bs
+  code: bs-ba
   name: Bosnian
+- slug: bulgarian
+  code: bg-bg
+  name: Bulgarian
 - slug: catalan
-  code: ca
+  code: ca-es
   name: Catalan
 - slug: cebuano
-  code: ceb
+  code: ceb-ph
   name: Cebuano
+- slug: chewa
+  code: ny-mw
+  name: Chewa
+- slug: chinese
+  code: zh-Hans-cn
+  name: Chinese
+- slug: chinese
+  code: zh-Hant-tw
+  name: Chinese
 - slug: corsican
-  code: co
+  code: co-fr
   name: Corsican
+- slug: haitian
+  code: ht-ht
+  name: Haitian
+- slug: croatian
+  code: hr-hr
+  name: Croatian
 - slug: czech
-  code: cs
+  code: cs-cz
   name: Czech
-- slug: welsh
-  code: cy
-  name: Welsh
 - slug: danish
-  code: da
+  code: da-dk
   name: Danish
-- slug: german
-  code: de
-  name: German
-- slug: greek
-  code: el
-  name: Greek
+- slug: dutch
+  code: nl-nl
+  name: Dutch
 - slug: english
-  code: en
+  code: en-us
   name: English
 - slug: esperanto
   code: eo
   name: Esperanto
-- slug: spanish
-  code: es
-  name: Spanish
 - slug: estonian
-  code: et
+  code: et-ee
   name: Estonian
-- slug: basque
-  code: eu
-  name: Basque
-- slug: persian
-  code: fa
-  name: Persian
 - slug: finnish
-  code: fi
+  code: fi-fi
   name: Finnish
 - slug: french
-  code: fr
+  code: fr-ca
   name: French
 - slug: frisian
-  code: fy
+  code: fy-nl
   name: Frisian
-- slug: irish
-  code: ga
-  name: Irish
-- slug: scottish-gaelic
-  code: gd
-  name: Scottish Gaelic
 - slug: galician
-  code: gl
+  code: gl-es
   name: Galician
+- slug: georgian
+  code: ka-ge
+  name: Georgian
+- slug: german
+  code: de-de
+  name: German
+- slug: greek
+  code: el-gr
+  name: Greek
 - slug: gujarati
-  code: gu
+  code: gu-in
   name: Gujarati
 - slug: hausa
-  code: ha
+  code: ha-ne
   name: Hausa
 - slug: hawaiian
-  code: haw
+  code: haw-us
   name: Hawaiian
 - slug: hebrew
-  code: he
+  code: he-il
   name: Hebrew
 - slug: hindi
-  code: hi
+  code: hi-in
   name: Hindi
 - slug: hmong
-  code: hmn
+  code: hmn-cn
   name: Hmong
-- slug: hmong
-  code: hmn
-  name: Hmong
-- slug: croatian
-  code: hr
-  name: Croatian
-- slug: haitian
-  code: ht
-  name: Haitian
 - slug: hungarian
-  code: hu
+  code: hu-hu
   name: Hungarian
-- slug: armenian
-  code: hy
-  name: Armenian
-- slug: indonesian
-  code: id
-  name: Indonesian
-- slug: igbo
-  code: ig
-  name: Igbo
 - slug: icelandic
-  code: is
+  code: is-is
   name: Icelandic
+- slug: igbo
+  code: ig-ng
+  name: Igbo
+- slug: indonesian
+  code: id-id
+  name: Indonesian
+- slug: irish
+  code: ga-ie
+  name: Irish
 - slug: italian
-  code: it
+  code: it-it
   name: Italian
 - slug: japanese
-  code: ja
+  code: ja-jp
   name: Japanese
 - slug: javanese
-  code: jv
+  code: jv-id
   name: Javanese
-- slug: georgian
-  code: ka
-  name: Georgian
+- slug: kannada
+  code: kn-in
+  name: Kannada
 - slug: kazakh
-  code: kk
+  code: kk-kz
   name: Kazakh
 - slug: khmer
-  code: km
+  code: km-kh
   name: Khmer
-- slug: kannada
-  code: kn
-  name: Kannada
+- slug: kinyarwanda
+  code: rw-rw
+  name: Kinyarwanda
 - slug: korean
-  code: ko
+  code: ko-kr
   name: Korean
 - slug: kurdish
-  code: ku
+  code: ku-ir
   name: Kurdish
 - slug: kyrgyz
-  code: ky
+  code: ky-kg
   name: Kyrgyz
-- slug: latin
-  code: la
-  name: Latin
-- slug: luxembourgish
-  code: lb
-  name: Luxembourgish
 - slug: lao
-  code: lo
+  code: lo-la
   name: Lao
-- slug: lithuanian
-  code: lt
-  name: Lithuanian
+- slug: latin
+  code: la-vat
+  name: Latin
 - slug: latvian
-  code: lv
+  code: lv-lv
   name: Latvian
-- slug: malagasy
-  code: mg
-  name: Malagasy
-- slug: maori
-  code: mi
-  name: Maori
+- slug: lithuanian
+  code: lt-lt
+  name: Lithuanian
+- slug: luxembourgish
+  code: lb-lu
+  name: Luxembourgish
 - slug: macedonian
-  code: mk
+  code: mk-mk
   name: Macedonian
-- slug: malayalam
-  code: ml
-  name: Malayalam
-- slug: mongolian
-  code: mn
-  name: Mongolian
-- slug: marathi
-  code: mr
-  name: Marathi
+- slug: malagasy
+  code: mg-mg
+  name: Malagasy
 - slug: malay
-  code: ms
+  code: ms-my
   name: Malay
+- slug: malayalam
+  code: ml-in
+  name: Malayalam
 - slug: maltese
-  code: mt
+  code: mt-mt
   name: Maltese
+- slug: maori
+  code: mi-nz
+  name: Maori
+- slug: marathi
+  code: mr-in
+  name: Marathi
+- slug: mongolian
+  code: mn-mn
+  name: Mongolian
 - slug: burmese
-  code: my
+  code: my-mm
   name: Burmese
 - slug: nepali
-  code: ne
+  code: ne-np
   name: Nepali
-- slug: dutch
-  code: nl
-  name: Dutch
 - slug: norwegian
-  code: 'no'
+  code: no-no
   name: Norwegian
-- slug: chewa
-  code: ny
-  name: Chewa
 - slug: oriya
-  code: or
+  code: or-or
   name: Oriya
-- slug: punjabi
-  code: pa
-  name: Punjabi
-- slug: polish
-  code: pl
-  name: Polish
 - slug: pashto
-  code: ps
+  code: ps-af
   name: Pashto
+- slug: persian
+  code: fa-ir
+  name: Persian
+- slug: polish
+  code: pl-pl
+  name: Polish
 - slug: portuguese
-  code: pt
+  code: pt-pt
   name: Portuguese
+- slug: punjabi
+  code: pa-pk
+  name: Punjabi
 - slug: romanian
-  code: ro
+  code: ro-ro
   name: Romanian
 - slug: russian
-  code: ru
+  code: ru-ru
   name: Russian
-- slug: kinyarwanda
-  code: rw
-  name: Kinyarwanda
-- slug: sindhi
-  code: sd
-  name: Sindhi
-- slug: sinhala
-  code: si
-  name: Sinhala
-- slug: slovak
-  code: sk
-  name: Slovak
-- slug: slovenian
-  code: sl
-  name: Slovenian
 - slug: samoan
-  code: sm
+  code: sm-ws
   name: Samoan
-- slug: shona
-  code: sn
-  name: Shona
-- slug: somali
-  code: so
-  name: Somali
-- slug: albanian
-  code: sq
-  name: Albanian
+- slug: scottish-gaelic
+  code: gd-gb
+  name: Scottish Gaelic
 - slug: serbian
-  code: sr
+  code: sr-Cyrl-rs
   name: Serbian
 - slug: sotho
-  code: st
+  code: st-ls
   name: Sotho
+- slug: shona
+  code: sn-zw
+  name: Shona
+- slug: sindhi
+  code: sd-pk
+  name: Sindhi
+- slug: sinhala
+  code: si-lk
+  name: Sinhala
+- slug: slovak
+  code: sk-sk
+  name: Slovak
+- slug: slovenian
+  code: sl-si
+  name: Slovenian
+- slug: somali
+  code: so-so
+  name: Somali
+- slug: spanish
+  code: es-es
+  name: Spanish
 - slug: sundanese
-  code: su
+  code: su-id
   name: Sundanese
-- slug: swedish
-  code: sv
-  name: Swedish
 - slug: swahili
-  code: sw
+  code: sw-tz
   name: Swahili
-- slug: tamil
-  code: ta
-  name: Tamil
-- slug: telugu
-  code: te
-  name: Telugu
-- slug: tajik
-  code: tg
-  name: Tajik
-- slug: thai
-  code: th
-  name: Thai
-- slug: turkmen
-  code: tk
-  name: Turkmen
+- slug: swedish
+  code: sv-se
+  name: Swedish
 - slug: tagalog
-  code: tl
+  code: tl-ph
   name: Tagalog
-- slug: turkish
-  code: tr
-  name: Turkish
+- slug: tajik
+  code: tg-tj
+  name: Tajik
+- slug: tamil
+  code: ta-in
+  name: Tamil
 - slug: tatar
-  code: tt
+  code: tt-tt
   name: Tatar
-- slug: uyghur
-  code: ug
-  name: Uyghur
+- slug: telugu
+  code: te-in
+  name: Telugu
+- slug: thai
+  code: th-th
+  name: Thai
+- slug: turkish
+  code: tr-tr
+  name: Turkish
+- slug: turkmen
+  code: tk-tk
+  name: Turkmen
 - slug: ukrainian
-  code: uk
+  code: uk-ua
   name: Ukrainian
 - slug: urdu
-  code: ur
+  code: ur-pk
   name: Urdu
+- slug: uyghur
+  code: ug-ug
+  name: Uyghur
 - slug: uzbek
-  code: uz
+  code: uz-uz
   name: Uzbek
 - slug: vietnamese
-  code: vi
+  code: vi-vn
   name: Vietnamese
+- slug: welsh
+  code: cy-gb
+  name: Welsh
 - slug: xhosa
-  code: xh
+  code: xh-za
   name: Xhosa
 - slug: yiddish
-  code: yi
+  code: yi-il
   name: Yiddish
 - slug: yoruba
-  code: yo
+  code: yo-ng
   name: Yoruba
-- slug: chinese
-  code: zh
-  name: Chinese
 - slug: zulu
-  code: zu
+  code: zu-za
   name: Zulu
-nav_order: 892
+nav_order: 891
 
 ---
 

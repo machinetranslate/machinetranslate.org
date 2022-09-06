@@ -14,8 +14,11 @@ supported_languages:
 - slug: arabic
   code: ar
   name: Arabic
+- slug: null
+  code: as-in
+  name: null
 - slug: azerbaijani
-  code: az
+  code: az-tr
   name: Azerbaijani
 - slug: belarusian
   code: be
@@ -24,8 +27,11 @@ supported_languages:
   code: bg
   name: Bulgarian
 - slug: bengali
-  code: bn
+  code: bn-in
   name: Bengali
+- slug: null
+  code: bo
+  name: null
 - slug: bosnian
   code: bs
   name: Bosnian
@@ -41,11 +47,20 @@ supported_languages:
 - slug: german
   code: de
   name: German
+- slug: null
+  code: dv
+  name: null
 - slug: greek
   code: el
   name: Greek
 - slug: english
-  code: en
+  code: en-au
+  name: English
+- slug: english
+  code: en-gb
+  name: English
+- slug: english
+  code: en-us
   name: English
 - slug: spanish
   code: es
@@ -56,12 +71,12 @@ supported_languages:
 - slug: persian
   code: fa
   name: Persian
-- slug: persian
-  code: prs
-  name: Persian
 - slug: finnish
   code: fi
   name: Finnish
+- slug: tagalog
+  code: fil
+  name: Tagalog
 - slug: french
   code: fr
   name: French
@@ -69,10 +84,10 @@ supported_languages:
   code: gl
   name: Galician
 - slug: gujarati
-  code: gu
+  code: gu-in
   name: Gujarati
 - slug: hausa
-  code: ha
+  code: ha-gh
   name: Hausa
 - slug: hebrew
   code: he
@@ -90,7 +105,7 @@ supported_languages:
   code: id
   name: Indonesian
 - slug: igbo
-  code: ig
+  code: ig-ng
   name: Igbo
 - slug: italian
   code: it
@@ -102,22 +117,22 @@ supported_languages:
   code: ka
   name: Georgian
 - slug: kazakh
-  code: kk
+  code: kk-kz
   name: Kazakh
 - slug: khmer
-  code: km
+  code: km-kh
   name: Khmer
 - slug: kannada
-  code: kn
+  code: kn-in
   name: Kannada
 - slug: korean
   code: ko
   name: Korean
 - slug: kurdish
-  code: ku
+  code: ku-ir
   name: Kurdish
 - slug: lao
-  code: lo
+  code: lo-la
   name: Lao
 - slug: lithuanian
   code: lt
@@ -132,13 +147,13 @@ supported_languages:
   code: mk
   name: Macedonian
 - slug: malayalam
-  code: ml
+  code: ml-in
   name: Malayalam
 - slug: mongolian
   code: mn
   name: Mongolian
 - slug: marathi
-  code: mr
+  code: mr-in
   name: Marathi
 - slug: malay
   code: ms
@@ -156,16 +171,22 @@ supported_languages:
   code: 'no'
   name: Norwegian
 - slug: punjabi
-  code: pa
+  code: pa-in
   name: Punjabi
 - slug: polish
   code: pl
   name: Polish
+- slug: persian
+  code: prs-af
+  name: Persian
 - slug: pashto
-  code: ps
+  code: ps-af
   name: Pashto
 - slug: portuguese
   code: pt
+  name: Portuguese
+- slug: portuguese
+  code: pt-br
   name: Portuguese
 - slug: romanian
   code: ro
@@ -174,10 +195,10 @@ supported_languages:
   code: ru
   name: Russian
 - slug: kinyarwanda
-  code: rw
+  code: rw-ug
   name: Kinyarwanda
 - slug: sinhala
-  code: si
+  code: si-lk
   name: Sinhala
 - slug: slovak
   code: sk
@@ -198,20 +219,17 @@ supported_languages:
   code: sv
   name: Swedish
 - slug: swahili
-  code: swh
+  code: swh-tz
   name: Swahili
 - slug: tamil
-  code: ta
+  code: ta-in
   name: Tamil
 - slug: telugu
-  code: te
+  code: te-in
   name: Telugu
 - slug: thai
   code: th
   name: Thai
-- slug: tagalog
-  code: fil
-  name: Tagalog
 - slug: turkish
   code: tr
   name: Turkish
@@ -219,7 +237,7 @@ supported_languages:
   code: uk
   name: Ukrainian
 - slug: urdu
-  code: ur
+  code: ur-in
   name: Urdu
 - slug: uzbek
   code: uz
@@ -228,10 +246,10 @@ supported_languages:
   code: vi
   name: Vietnamese
 - slug: xhosa
-  code: xh
+  code: xh-zw
   name: Xhosa
 - slug: yoruba
-  code: yo
+  code: yo-ng
   name: Yoruba
 - slug: chinese
   code: zh
@@ -239,7 +257,7 @@ supported_languages:
 - slug: zulu
   code: zu
   name: Zulu
-nav_order: 923
+nav_order: 917
 
 ---
 

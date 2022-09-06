@@ -30,7 +30,7 @@ supported_languages:
   code: ko
   name: Korean
 - slug: chinese
-  code: zh
+  code: zh-cn
   name: Chinese
 nav_order: 992
 

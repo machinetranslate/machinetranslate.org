@@ -61,12 +61,12 @@ supported_languages:
 - slug: maltese
   code: mt
   name: Maltese
-- slug: dutch
-  code: nl
-  name: Dutch
 - slug: norwegian
   code: nb
   name: Norwegian
+- slug: dutch
+  code: nl
+  name: Dutch
 - slug: polish
   code: pl
   name: Polish

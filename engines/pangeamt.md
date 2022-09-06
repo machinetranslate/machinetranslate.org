@@ -32,7 +32,10 @@ supported_languages:
 - slug: chinese
   code: zh
   name: Chinese
-nav_order: 992
+- slug: chinese
+  code: zh-tw
+  name: Chinese
+nav_order: 991
 
 ---
 

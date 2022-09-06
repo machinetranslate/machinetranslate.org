@@ -34,9 +34,15 @@ parent: Engines
 <ul>
   {% for language in page.supported_languages %}
     <li>
-      <a href="/{{ language.slug }}">
-        <code>{{ language.code }}</code> {{ language.name }}
-      </a>
+      {% if language.slug %}
+        <a href="/{{ language.slug }}">
+          <code>{{ language.code }}</code> {{ language.name }}
+        </a>
+      {% else %}
+        <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" target="_blank">
+          <code>{{ language.code }}</code>
+        </a>
+      {% endif }
     </li>
   {% endfor %}
 </ul>

@@ -44,14 +44,14 @@ supported_languages:
 - slug: persian
   code: fa
   name: Persian
-- slug: persian
-  code: prs
-  name: Persian
 - slug: finnish
   code: fi
   name: Finnish
 - slug: french
   code: fr
+  name: French
+- slug: french
+  code: fr-ca
   name: French
 - slug: hausa
   code: ha
@@ -119,11 +119,17 @@ supported_languages:
 - slug: polish
   code: pl
   name: Polish
+- slug: persian
+  code: prs
+  name: Persian
 - slug: pashto
   code: ps
   name: Pashto
 - slug: portuguese
   code: pt
+  name: Portuguese
+- slug: portuguese
+  code: pt-br
   name: Portuguese
 - slug: romanian
   code: ro
@@ -171,9 +177,12 @@ supported_languages:
   code: vi
   name: Vietnamese
 - slug: chinese
-  code: zh
+  code: zh-cn
   name: Chinese
-nav_order: 945
+- slug: chinese
+  code: zh-tw
+  name: Chinese
+nav_order: 942
 
 ---
 

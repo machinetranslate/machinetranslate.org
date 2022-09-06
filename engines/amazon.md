@@ -11,6 +11,9 @@ supported_languages:
 - slug: afrikaans
   code: af
   name: Afrikaans
+- slug: null
+  code: am
+  name: null
 - slug: arabic
   code: ar
   name: Arabic
@@ -50,17 +53,26 @@ supported_languages:
 - slug: spanish
   code: es
   name: Spanish
+- slug: spanish
+  code: es-mx
+  name: Spanish
 - slug: estonian
   code: et
   name: Estonian
 - slug: persian
   code: fa
   name: Persian
+- slug: persian
+  code: fa-af
+  name: Persian
 - slug: finnish
   code: fi
   name: Finnish
 - slug: french
   code: fr
+  name: French
+- slug: french
+  code: fr-ca
   name: French
 - slug: irish
   code: ga
@@ -155,6 +167,9 @@ supported_languages:
 - slug: portuguese
   code: pt
   name: Portuguese
+- slug: portuguese
+  code: pt-pt
+  name: Portuguese
 - slug: romanian
   code: ro
   name: Romanian
@@ -215,7 +230,10 @@ supported_languages:
 - slug: chinese
   code: zh
   name: Chinese
-nav_order: 931
+- slug: chinese
+  code: zh-tw
+  name: Chinese
+nav_order: 925
 
 ---
 

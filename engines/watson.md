@@ -23,6 +23,9 @@ supported_languages:
 - slug: catalan
   code: ca
   name: Catalan
+- slug: null
+  code: cnr
+  name: null
 - slug: czech
   code: cs
   name: Czech
@@ -53,6 +56,9 @@ supported_languages:
 - slug: finnish
   code: fi
   name: Finnish
+- slug: french
+  code: fr
+  name: French
 - slug: french
   code: fr
   name: French
@@ -101,15 +107,15 @@ supported_languages:
 - slug: maltese
   code: mt
   name: Maltese
+- slug: norwegian
+  code: nb
+  name: Norwegian
 - slug: nepali
   code: ne
   name: Nepali
 - slug: dutch
   code: nl
   name: Dutch
-- slug: norwegian
-  code: nb
-  name: Norwegian
 - slug: polish
   code: pl
   name: Polish
@@ -161,7 +167,10 @@ supported_languages:
 - slug: chinese
   code: zh
   name: Chinese
-nav_order: 949
+- slug: chinese
+  code: zh-TW
+  name: Chinese
+nav_order: 946
 
 ---
 

@@ -11,6 +11,9 @@ supported_languages:
 - slug: afrikaans
   code: af
   name: Afrikaans
+- slug: null
+  code: am
+  name: null
 - slug: arabic
   code: ar
   name: Arabic
@@ -293,7 +296,7 @@ supported_languages:
 - slug: zulu
   code: zu
   name: Zulu
-nav_order: 905
+nav_order: 904
 
 ---
 

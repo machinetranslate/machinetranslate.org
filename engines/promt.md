@@ -123,9 +123,15 @@ supported_languages:
   code: uz
   name: Uzbek
 - slug: chinese
-  code: zh
+  code: zh-cn
   name: Chinese
-nav_order: 961
+- slug: chinese
+  code: zh-tw
+  name: Chinese
+- slug: null
+  code: zsm
+  name: null
+nav_order: 959
 
 ---
 

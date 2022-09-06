@@ -11,12 +11,18 @@ supported_languages:
 - slug: afrikaans
   code: af
   name: Afrikaans
+- slug: null
+  code: am
+  name: null
 - slug: arabic
   code: ar
   name: Arabic
 - slug: azerbaijani
   code: az
   name: Azerbaijani
+- slug: null
+  code: ba
+  name: null
 - slug: belarusian
   code: be
   name: Belarusian
@@ -155,6 +161,9 @@ supported_languages:
 - slug: malagasy
   code: mg
   name: Malagasy
+- slug: null
+  code: mhr
+  name: null
 - slug: maori
   code: mi
   name: Maori
@@ -170,6 +179,9 @@ supported_languages:
 - slug: marathi
   code: mr
   name: Marathi
+- slug: null
+  code: mrj
+  name: null
 - slug: malay
   code: ms
   name: Malay
@@ -191,6 +203,9 @@ supported_languages:
 - slug: punjabi
   code: pa
   name: Punjabi
+- slug: null
+  code: pap
+  name: null
 - slug: polish
   code: pl
   name: Polish
@@ -248,6 +263,9 @@ supported_languages:
 - slug: tatar
   code: tt
   name: Tatar
+- slug: null
+  code: udm
+  name: null
 - slug: ukrainian
   code: uk
   name: Ukrainian
@@ -269,7 +287,7 @@ supported_languages:
 - slug: chinese
   code: zh
   name: Chinese
-nav_order: 913
+nav_order: 907
 
 ---
 

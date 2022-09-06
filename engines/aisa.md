@@ -14,14 +14,17 @@ supported_languages:
   code: de
   name: German
 - slug: spanish
-  code: es
+  code: es-es
   name: Spanish
 - slug: french
-  code: fr
+  code: fr-fr
   name: French
 - slug: hindi
   code: hi
   name: Hindi
+- slug: null
+  code: huyu
+  name: null
 - slug: indonesian
   code: id
   name: Indonesian
@@ -38,7 +41,7 @@ supported_languages:
   code: ms
   name: Malay
 - slug: portuguese
-  code: pt
+  code: pt-pt
   name: Portuguese
 - slug: russian
   code: ru
@@ -50,9 +53,12 @@ supported_languages:
   code: vi
   name: Vietnamese
 - slug: chinese
-  code: zh
+  code: zh-cn
   name: Chinese
-nav_order: 985
+- slug: chinese
+  code: zh-tw
+  name: Chinese
+nav_order: 983
 
 ---
 
