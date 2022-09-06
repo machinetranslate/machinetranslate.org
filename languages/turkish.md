@@ -99,17 +99,9 @@ nav_order: 970
 
 ---
 
-**Turkish** is the language with the best machine translation support in the Turkic language family.  
+Turkish is the language with the best machine translation support in the Turkic language family.  
 
-Turkic languages, including Turkish, share significant morphological and syntactical characteristics, like agglutination.
-
-Turkish follows the Subject-Object-Verb sentence order, although other word orders are possible.
-
-Turkish has Turkic vowel harmony. Vowels of suffixes must harmonize with the vowels of noun and verb stems. If the stem has a round vowel, the suffix must have a round vowel too.
-
-Turkish also borrows words from other languages, such as French, Arabic or Persian.
-
-For Turkic languages, direct system developments are significant.
+Turkic languages are agglutinative and usually have vowel harmony.
 
 ## History
 

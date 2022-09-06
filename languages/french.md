@@ -133,3 +133,6 @@ nav_order: 959
 ---
 
 
+French is one of the best supported languages for machine translation.
+
+The two main variants supported are Parisian French and Canadian French.

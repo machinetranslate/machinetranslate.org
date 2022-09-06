@@ -114,7 +114,7 @@ nav_order: 965
 
 ---
 
-**Russian** was one of the first languages for which machine translation was researched and developed, and remains one of the best supported languages.
+Russian was one of the first languages for which machine translation was researched and developed, and remains one of the best supported languages.
 
 Among the best supported languages, it is notable for a few features:
 * complex morphology - highly inflected, with gender agreement
