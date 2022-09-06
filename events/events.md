@@ -84,7 +84,7 @@ featured: true
 |  |  |  |
 | ---- | ---- | ---- |
 | 19 November | [AAMT 2019](aamt2019.md) | Tokyo, Japan |
-| 4 November | WAT 2019 | Hong Kong, China |
+| 4 November | [WAT 2019](wat2019.md) | Hong Kong, China |
 | 28 October | [Machine Translation Meetup 5](zurich-5.md) | Zurich, Switzerland |
 | 26 - 31 August | [MT Marathon](mtm2019.md) | Edinburgh, Scotland |
 | 20 August | LoResMT 2019 | Dublin, Ireland |
