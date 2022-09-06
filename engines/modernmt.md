@@ -181,8 +181,8 @@ supported_languages:
   normalized_code: sq
   name: Albanian
 - slug: serbian
-  code: sr-Cyr
-  normalized_code: sr-cyr
+  code: sr-Cyrl
+  normalized_code: sr-Cyrl
   name: Serbian
 - slug: serbian
   code: sr-Latn

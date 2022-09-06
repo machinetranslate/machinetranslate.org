@@ -55,7 +55,7 @@ supported_engines:
   supported_language_count: 54
 - id: wordlingo
   name: Wordlingo
-  supported_language_count: 66
+  supported_language_count: 65
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70

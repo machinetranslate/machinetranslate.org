@@ -18,6 +18,7 @@ with open('_data/engine_language.yml', 'r') as stream:
   ENGINE_LANGUAGE = yaml.safe_load(stream)
 
 def base_language_code(locale_code):
+  locale_code = locale_code.replace('_', '-')
   return locale_code.split('-')[0]
 
 def normalize_locale_casing(locale_code):
@@ -31,6 +32,7 @@ def _normalize_language_code(locale_code, engine_id):
   return ENGINE_LANGUAGE[engine_id][locale_code]
 
 def normalize_language_code(locale_code, engine_id):
+  locale_code = locale_code.replace('_', '-')
   locale_code = normalize_locale_casing(locale_code)
   return _normalize_language_code(base_language_code(locale_code), engine_id) \
     or _normalize_language_code(locale_code, '*') \
@@ -75,7 +77,6 @@ for engine in ENGINES:
 
   SUPPORTED_LANGUAGE_BASE_CODES[engine_id] = list(set(codes))
 
-
 ### Write languages
 for language in LANGUAGES:
   code = language['codes'][0]
@@ -95,7 +96,7 @@ for language in LANGUAGES:
         'id': engine['id'],
         'name': engine['name'],
         'supported_language_count': len(codes)
-      })    
+      })
 
   supported_engines.sort(key=lambda engine: engine['supported_language_count'])
 
@@ -123,9 +124,9 @@ for language in LANGUAGES:
 { content }
 ''')
 
+UNLISTED_LANGUAGES = {}
 
 ### Generate engines
-
 for engine in ENGINES:
 
   name = engine['name']
@@ -158,12 +159,18 @@ for engine in ENGINES:
       if base_language_code(normalized_code) in language['codes']:
         language_name = language['names'][0]
         language_slug = slugify(language_name)
+        break
     supported_languages.append({
       'slug': language_slug,
       'code': code,
       'normalized_code': normalized_code,
       'name': language_name
     })
+    if not language_slug:
+      if code in UNLISTED_LANGUAGES:
+        UNLISTED_LANGUAGES[code] += 1
+      else:
+        UNLISTED_LANGUAGES[code] = 1
   
   frontmatter = {
     'layout': 'engine',
@@ -187,3 +194,8 @@ for engine in ENGINES:
 
 { content }
 ''')
+
+print('Codes to add to languages.md')
+for code, count in sorted(UNLISTED_LANGUAGES.items(), key=lambda x: x[1]):
+  if count > 1 or len(code) == 2:
+    print(code + ': ' + str(count))

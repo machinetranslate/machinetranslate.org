@@ -264,14 +264,14 @@ supported_languages:
   code: yi
   normalized_code: yi
   name: Yiddish
-- slug: null
+- slug: chinese
   code: zh_cn
-  normalized_code: zh_cn
-  name: null
-- slug: null
+  normalized_code: zh-Hans
+  name: Chinese
+- slug: chinese
   code: zh_tw
-  normalized_code: zh_tw
-  name: null
+  normalized_code: zh-Hant
+  name: Chinese
 nav_order: 934
 
 ---

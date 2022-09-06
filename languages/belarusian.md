@@ -13,7 +13,7 @@ supported_engines:
   supported_language_count: 65
 - id: wordlingo
   name: Wordlingo
-  supported_language_count: 66
+  supported_language_count: 65
 - id: lingmo
   name: Lingmo Translation
   supported_language_count: 79

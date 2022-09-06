@@ -13,7 +13,7 @@ supported_engines:
   supported_language_count: 52
 - id: wordlingo
   name: Wordlingo
-  supported_language_count: 66
+  supported_language_count: 65
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

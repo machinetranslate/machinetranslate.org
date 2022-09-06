@@ -73,12 +73,13 @@
 -
   codes: [ bs, bos ]
   names: [ Bosnian ]
+  variant_names: [ Serbo-Croatian ]
   family: sla
-  scripts: [ Cyrl, Latn ]
+  scripts: [ Latn, Cyrl ]
   typology:
     word_order: [ SVO ]
-    morphosyntax: [ inflected ]
-  territories: [ ba ]
+    morphosyntax: [ fusional, inflected ]
+  territories: [ ba, hr, sr, me ]
 
 -
   codes: [ ca, cat ]
@@ -485,7 +486,7 @@
 -
   codes: [ ko, kor ]
   names: [ Korean ]
-  family:
+  family: kor
   scripts: [ Kore ]
   typology:
     word_order: [ SOV ]
@@ -755,9 +756,9 @@
 
 -
   codes: [ ro, ron, rum ]
-  names: [ Romanian, Rumanian ]
+  names: [ Romanian, Rumanian, Moldovan ]
   family: roa
-  scripts: [ Cyrl, Latn ]
+  scripts: [ Latn, Cyrl ]
   typology:
     word_order: [ SVO ]
     morphosyntax: [ synthetic ]
@@ -866,12 +867,13 @@
 -
   codes: [ sr, srp ]
   names: [ Serbian ]
+  variant_names: [ Serbo-Croatian, Montenegrin ]
   family: sla
   scripts: [ Cyrl, Latn ]
   typology:
     word_order: [ SVO ]
-    morphosyntax: [ inflected ]
-  territories: [ ba, me, rs ]
+    morphosyntax: [ fusional, inflected ]
+  territories: [ ba, me, rs, hr ]
 
 -
   codes: [ st, sot ]
@@ -936,7 +938,7 @@
   codes: [ tg, tgk ]
   names: [ Tajik, Tajiki Persian ]
   family: iir
-  scripts: [ Arab, Cyrl, Latn ]
+  scripts: [ Cyrl, Latn, Arab ]
   typology:
     word_order: [ SOV ]
     morphosyntax: [ analytic ]
@@ -956,7 +958,7 @@
   codes: [ tk, tuk ]
   names: [ Turkmen ]
   family: trk
-  scripts: [ Arab, Cyrl, Latn ]
+  scripts: [ Cyrl, Latn, Arab ]
   typology:
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]
@@ -996,7 +998,7 @@
   codes: [ ug, uig ]
   names: [ Uyghur, Uighur ]
   family: trk
-  scripts: [ Arab, Cyrl, Latn ]
+  scripts: [ Latn, Cyrl, Arab ]
   typology:
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]

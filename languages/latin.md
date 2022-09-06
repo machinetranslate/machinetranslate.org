@@ -7,7 +7,7 @@ parent: Languages
 supported_engines:
 - id: wordlingo
   name: Wordlingo
-  supported_language_count: 66
+  supported_language_count: 65
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
