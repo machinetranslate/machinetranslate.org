@@ -399,12 +399,21 @@
         custom: true
         link: https://globalese.atlassian.net/servicedesk/customer/portal/2/article/2232746052
 
+    - google:
+        custom: true
+        glossary: true
+        link: https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
+    
     - kantanmt:
         custom: true
 
     - language-wire:
         link: https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
 
+    - microsoft:
+        custom: true    
+        link: https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
+    
     - mirai
 
     - modernmt:
