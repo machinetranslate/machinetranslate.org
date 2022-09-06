@@ -34,7 +34,7 @@ parent: Engines
 <ul>
   {% for language in page.supported_languages %}
     <li>
-      {% if language.slug %}
+      {% if language.slug != null %}
         <a href="/{{ language.slug }}">
           <code>{{ language.code }}</code> {{ language.name }}
         </a>
