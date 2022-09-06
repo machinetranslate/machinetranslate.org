@@ -12,6 +12,10 @@ parent: Languages
 
 <hr/>
 
+<p>
+  <strong>{{ page.title }}</strong> is supported by <a href="#api-support">{{ page.supported_engines | size }} APIs</a>.
+</p>
+
 {% assign language = false %}
 {% for lang in site.data.languages %}
   {% if lang.codes.first == page.code %}
@@ -20,10 +24,6 @@ parent: Languages
 {% endfor %}
 
 <blockquote>
-
-  <p>
-    Supported by <strong></strong><a href="#api-support">{{ page.supported_engines | size }} APIs</strong></a>
-  </p>
 
   <dl>
 
@@ -58,8 +58,6 @@ parent: Languages
 
 
 <h2 id="api-support">API support</h2>
-
-<p><strong>{{ page.supported_engines | size }}</strong> APIs support {{ page.title }}.</p>
 
 <ul>
   {% for engine in page.supported_engines %}
