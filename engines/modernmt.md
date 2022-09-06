@@ -7,6 +7,9 @@ parent: Engines
 urls:
 - https://modernmt.com
 - https://www.modernmt.com/api/#languages
+self_serve: true
+customization:
+- Adaptive
 supported_languages:
 - slug: arabic
   code: ar

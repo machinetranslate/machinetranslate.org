@@ -7,6 +7,8 @@ parent: Engines
 urls:
 - https://ai.baidu.com/tech/mt/text_trans
 - https://github.com/machinetranslate/machinetranslate.org/issues/268
+self_serve: true
+customization: []
 supported_languages:
 - slug: null
   code: ach

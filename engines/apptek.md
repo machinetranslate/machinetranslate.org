@@ -7,6 +7,9 @@ parent: Engines
 urls:
 - https://www.apptek.com
 - https://docs.apptek.com/reference/machine-translation
+self_serve: true
+customization:
+- Formality
 supported_languages:
 - slug: afrikaans
   code: af

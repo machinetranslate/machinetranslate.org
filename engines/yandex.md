@@ -7,6 +7,8 @@ parent: Engines
 urls:
 - https://yandex.com/dev/translate/doc/dg/concepts/api-overview.html
 - https://translate.yandex.com/
+self_serve: true
+customization: []
 supported_languages:
 - slug: afrikaans
   code: af

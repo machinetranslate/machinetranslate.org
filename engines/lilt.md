@@ -7,6 +7,9 @@ parent: Engines
 urls:
 - https://lilt.com
 - https://support.lilt.com/kb/11075725.html
+self_serve: false
+customization:
+- Adaptive
 supported_languages:
 - slug: afrikaans
   code: af

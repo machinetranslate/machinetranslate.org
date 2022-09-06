@@ -5,15 +5,15 @@ description: Machine translation for Galician
 code: gl
 parent: Languages
 supported_engines:
+- id: lingmo
+  name: Lingmo Translation
+  supported_language_count: 26
 - id: apertium
   name: Apertium
   supported_language_count: 44
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65
-- id: lingmo
-  name: Lingmo Translation
-  supported_language_count: 79
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

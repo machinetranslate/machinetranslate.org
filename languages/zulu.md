@@ -11,9 +11,6 @@ supported_engines:
 - id: modernmt
   name: ModernMT
   supported_language_count: 52
-- id: lingmo
-  name: Lingmo Translation
-  supported_language_count: 79
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96
@@ -35,7 +32,7 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 990
+nav_order: 991
 
 ---
 

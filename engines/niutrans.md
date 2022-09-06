@@ -7,6 +7,9 @@ parent: Engines
 urls:
 - https://niutrans.com
 - https://niutrans.com/documents/overview?id=2
+self_serve: true
+customization:
+- Glossary
 supported_languages:
 - slug: null
   code: ace

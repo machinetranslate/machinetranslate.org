@@ -7,6 +7,10 @@ parent: Engines
 urls:
 - https://www.deepl.com
 - https://www.deepl.com/en/docs-api/
+self_serve: true
+customization:
+- Glossary
+- Formality
 supported_languages:
 - slug: bulgarian
   code: bg

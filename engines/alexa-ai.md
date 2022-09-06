@@ -6,6 +6,8 @@ id: alexa-ai
 parent: Engines
 urls:
 - https://alexatranslations.com/alexa-translations-a-i
+self_serve: false
+customization: []
 supported_languages:
 - slug: english
   code: en

@@ -6,6 +6,8 @@ id: etranslation
 parent: Engines
 urls:
 - https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en#translateonline
+self_serve: true
+customization: []
 supported_languages:
 - slug: bulgarian
   code: bg

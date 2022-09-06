@@ -8,9 +8,6 @@ supported_engines:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
-- id: lingmo
-  name: Lingmo Translation
-  supported_language_count: 79
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96
@@ -32,7 +29,7 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 991
+nav_order: 992
 
 ---
 

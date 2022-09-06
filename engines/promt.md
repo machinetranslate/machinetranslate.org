@@ -7,6 +7,8 @@ parent: Engines
 urls:
 - https://www.promt.com
 - https://www.promt.com/translation_software/corporate/developer/promt-cloud-api/
+self_serve: false
+customization: []
 supported_languages:
 - slug: arabic
   code: ar

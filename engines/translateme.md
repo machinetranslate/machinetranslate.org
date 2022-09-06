@@ -7,6 +7,8 @@ parent: Engines
 urls:
 - https://translateme.network
 - https://translateme.network/api/
+self_serve: true
+customization: []
 supported_languages:
 - slug: german
   code: de

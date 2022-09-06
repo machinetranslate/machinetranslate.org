@@ -7,6 +7,8 @@ parent: Engines
 urls:
 - https://www.jukkou.com
 - https://www.jukkou.com/form/lang.html
+self_serve: false
+customization: []
 supported_languages:
 - slug: afrikaans
   code: af

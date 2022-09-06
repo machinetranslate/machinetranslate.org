@@ -143,6 +143,16 @@ for engine in ENGINES:
 
   urls = engine['urls']
 
+  self_serve = engine.get('self-serve', True)
+
+  customization = []
+  if engine.get('adaptive', False):
+    customization.append('Adaptive')
+  if engine.get('glossary', False):
+    customization.append('Glossary')
+  if engine.get('formality', False):
+    customization.append('Formality')
+
   # "Join"
   # TODO: use language/engine mapping
   supported_language_codes = list(set(flatten(languages)))
@@ -179,6 +189,8 @@ for engine in ENGINES:
     'id': engine_id,
     'parent': 'Engines',
     'urls': urls,
+    'self_serve': self_serve,
+    'customization': customization,
     'supported_languages': supported_languages,
     'nav_order': 1000 - len(supported_languages)
   }

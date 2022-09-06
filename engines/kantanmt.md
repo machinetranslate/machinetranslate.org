@@ -7,6 +7,10 @@ parent: Engines
 urls:
 - https://www.kantanai.io
 - https://kantanmt.docs.apiary.io/#reference
+self_serve: false
+customization:
+- Adaptive
+- Glossary
 supported_languages:
 - slug: arabic
   code: ar

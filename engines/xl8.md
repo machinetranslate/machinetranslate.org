@@ -7,6 +7,8 @@ parent: Engines
 urls:
 - https://www.xl8.ai
 - https://api.xl8.ai/v1/trans/languages
+self_serve: true
+customization: []
 supported_languages:
 - slug: arabic
   code: ar

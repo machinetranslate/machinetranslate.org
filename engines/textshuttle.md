@@ -7,6 +7,8 @@ parent: Engines
 urls:
 - https://www.textshuttle.ai/
 - https://www.textshuttle.ai/product/features#subscription
+self_serve: false
+customization: []
 supported_languages:
 - slug: german
   code: de

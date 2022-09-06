@@ -7,6 +7,8 @@ parent: Engines
 urls:
 - https://eco.pangeamt.com/main
 - https://prod.pangeamt.com/
+self_serve: false
+customization: []
 supported_languages:
 - slug: german
   code: de

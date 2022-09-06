@@ -7,6 +7,9 @@ parent: Engines
 urls:
 - https://omniscien.com
 - https://omniscien.com/machine-translation/supported-languages/
+self_serve: false
+customization:
+- Glossary
 supported_languages:
 - slug: arabic
   code: ar

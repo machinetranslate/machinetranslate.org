@@ -41,6 +41,9 @@ supported_engines:
 - id: unbabel
   name: Unbabel
   supported_language_count: 25
+- id: lingmo
+  name: Lingmo Translation
+  supported_language_count: 26
 - id: deepl
   name: DeepL
   supported_language_count: 27
@@ -86,9 +89,6 @@ supported_engines:
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70
-- id: lingmo
-  name: Lingmo Translation
-  supported_language_count: 79
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

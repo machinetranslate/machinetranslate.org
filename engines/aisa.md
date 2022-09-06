@@ -6,6 +6,8 @@ id: aisa
 parent: Engines
 urls:
 - https://www.aisa.digital/machine-translation-api
+self_serve: false
+customization: []
 supported_languages:
 - slug: arabic
   code: ar

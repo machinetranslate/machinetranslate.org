@@ -14,6 +14,20 @@ parent: Engines
 
 <blockquote>
 
+  <p>
+    Support for <a href="#language-support"<strong>{{ page.supported_languages | size }} languages</strong></a>
+  </p>
+
+  {% for customization_type in page.customization %}
+  <ul>
+    <li>{{ customization_type }}</li>
+  </ul>
+  {% endfor %}
+
+  {% unless language.self_serve %}
+  <p>No self-service</p>
+  {$ endunless %}
+
   <ul>
     {% for url in page.urls %}
     <li>
@@ -28,7 +42,7 @@ parent: Engines
 
 
 
-<h2>Language support</h2>
+<h2 id="language-support">Language support</h2>
 <p>{{ page.title }} supports <strong>{{ page.supported_languages | size }}</strong> languages.</p>
 
 <ul>

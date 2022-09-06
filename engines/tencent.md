@@ -6,6 +6,8 @@ id: tencent
 parent: Engines
 urls:
 - https://cloud.tencent.com/product/tmt
+self_serve: true
+customization: []
 supported_languages:
 - slug: arabic
   code: ar

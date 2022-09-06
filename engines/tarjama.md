@@ -7,6 +7,8 @@ parent: Engines
 urls:
 - https://www.tarjama.com/tarjama-machine-translation/
 - https://github.com/tarjama/translate
+self_serve: false
+customization: []
 supported_languages:
 - slug: arabic
   code: ar

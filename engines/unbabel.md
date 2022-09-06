@@ -7,6 +7,8 @@ parent: Engines
 urls:
 - https://unbabel.com
 - https://developers.unbabel.com/docs
+self_serve: false
+customization: []
 supported_languages:
 - slug: arabic
   code: ar

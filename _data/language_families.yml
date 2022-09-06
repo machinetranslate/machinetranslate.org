@@ -2,8 +2,13 @@
 aav: Austroasiatic
 bat: Baltic
 bnt: Bantu
-cdc: Chadic
 ccs: Kartvelian
+cdc: Chadic
+cel: Celtic
+cpe: English-based creoles
+cpf: French-based creoles
+cpp: Portuguese-based creoles
+crp: Creoles
 cus: Cushitic
 dra: Dravidian
 fiu: Finno-Ugric
@@ -12,8 +17,9 @@ grk: Hellenic
 hmx: Hmong-Mien
 ine: Indo-European
 inc: Indo-Aryan
-iir: Indo-Iranian
+ira: Iranic
 jpx: Japonic
+kor: Koreanic # There is no standard code for this.
 map: Austronesian
 nic: Niger-Congo
 roa: Romance
@@ -23,4 +29,3 @@ sla: Slavic
 tai: Tai
 trk: Turkic
 xgn: Mongolic
-kor: Koreanic

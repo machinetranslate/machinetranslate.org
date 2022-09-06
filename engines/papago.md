@@ -7,6 +7,10 @@ parent: Engines
 urls:
 - https://papago.naver.com/business
 - https://www.ncloud.com/product/aiService/papagoTranslation
+self_serve: true
+customization:
+- Glossary
+- Formality
 supported_languages:
 - slug: german
   code: de

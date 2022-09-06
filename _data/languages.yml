@@ -3,7 +3,7 @@
 -
   codes: [ af, afr ]
   names: [ Afrikaans ]
-  family: ine
+  family: gem
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -123,7 +123,7 @@
 -
   codes: [ cy, wel, cym ]
   names: [ Welsh ]
-  family: ine
+  family: cel
   scripts: [ Latn ]
   typology:
     word_order: [ VSO ]
@@ -214,7 +214,7 @@
   codes: [ fa, fas, per, prs ]
   names: [ Persian, Farsi ]
   variant_names: [ Dari, Dari Persian, Afghan Persian, Eastern Persian, Tajiki Persian ]
-  family: iir
+  family: ira
   scripts: [ Arab ]
   typology:
     word_order: [ SOV ]
@@ -254,8 +254,8 @@
 
 -
   codes: [ ga, gle ]
-  names: [ Irish, Gaelic ]
-  family: ine
+  names: [ Irish, Gaelic, Irish Gaelic ]
+  family: cel
   scripts: [ Latn ]
   typology:
     word_order: [ VSO ]
@@ -265,7 +265,7 @@
 -
   codes: [ gd, gla ]
   names: [ Scottish Gaelic, Scots Gaelic, Gaelic ]
-  family: ine
+  family: cel
   scripts: [ Latn ]
   typology:
     word_order: [ VSO ]
@@ -284,7 +284,7 @@
 -
   codes: [ gu, guj ]
   names: [ Gujarati ]
-  family: iir
+  family: inc
   scripts: [ Gujr ]
   typology:
     word_order: [ SOV ]
@@ -356,7 +356,7 @@
 -
   codes: [ ht, hat ]
   names: [ Haitian, Haitian Creole ]
-  family: ine
+  family: cpf
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -496,7 +496,7 @@
 -
   codes: [ ku, kur, sdh, kmr ]
   names: [ Kurdish, Kurmanji Kurdish, Kurmanji, Northern Kurdish, Yezidi Kurdish, Yezidi ]
-  family: iir
+  family: ira
   scripts: [ Arab, Cyrl, Latn ]
   typology:
     word_order: [ SOV ]
@@ -506,7 +506,7 @@
 -
   codes: [ ckb ]
   names: [ Sorani Kurdish, Central Kurdish ]
-  family: iir
+  family: ira
   scripts: [ Arab ]
   typology:
     word_order: [ SOV ]
@@ -737,7 +737,7 @@
 -
   codes: [ ps, pus, pbt, pbu, pst ]
   names: [ Pashto ]
-  family: iir
+  family: ira
   scripts: [ Arab ]
   typology:
     word_order: [ SOV ]
@@ -937,7 +937,7 @@
 -
   codes: [ tg, tgk ]
   names: [ Tajik, Tajiki Persian ]
-  family: iir
+  family: ira
   scripts: [ Cyrl, Latn, Arab ]
   typology:
     word_order: [ SOV ]
@@ -1017,7 +1017,7 @@
 -
   codes: [ ur, urd ]
   names: [ Urdu ]
-  family: iir
+  family: inc
   scripts: [ Arab ]
   typology:
     word_order: [ SOV ]

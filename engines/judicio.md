@@ -6,6 +6,8 @@ id: judicio
 parent: Engines
 urls:
 - https://judic.io
+self_serve: false
+customization: []
 supported_languages:
 - slug: german
   code: de

@@ -5,6 +5,9 @@ description: Machine translation for Catalan
 code: ca
 parent: Languages
 supported_engines:
+- id: lingmo
+  name: Lingmo Translation
+  supported_language_count: 26
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 38
@@ -29,9 +32,6 @@ supported_engines:
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70
-- id: lingmo
-  name: Lingmo Translation
-  supported_language_count: 79
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

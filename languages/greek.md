@@ -53,9 +53,6 @@ supported_engines:
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70
-- id: lingmo
-  name: Lingmo Translation
-  supported_language_count: 79
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
@@ -80,7 +77,7 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 975
+nav_order: 976
 
 ---
 

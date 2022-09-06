@@ -7,6 +7,8 @@ parent: Engines
 urls:
 - https://lingvanex.com
 - https://docs.lingvanex.com/reference/user-guide
+self_serve: true
+customization: []
 supported_languages:
 - slug: afrikaans
   code: af-za

@@ -7,6 +7,8 @@ parent: Engines
 urls:
 - https://www.sapstore.com/solutions/40076/SAP-Translation-Hub
 - https://help.sap.com/docs/SAP_TRANSLATION_HUB/ed6ce7a29bdd42169f5f0d7868bce6eb/1b15cf69580449c0bd8525696c97b90d.html?locale=en-US
+self_serve: true
+customization: []
 supported_languages:
 - slug: arabic
   code: ar

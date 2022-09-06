@@ -7,6 +7,10 @@ parent: Engines
 urls:
 - https://www.systransoft.com
 - https://docs.systran.net/translatePro/en/index.html
+self_serve: true
+customization:
+- Adaptive
+- Glossary
 supported_languages:
 - slug: arabic
   code: ar

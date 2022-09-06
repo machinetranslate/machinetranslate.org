@@ -7,6 +7,8 @@ parent: Engines
 urls:
 - https://www.globalese-mt.com
 - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069899/Stock+corpora
+self_serve: true
+customization: []
 supported_languages:
 - slug: arabic
   code: ar

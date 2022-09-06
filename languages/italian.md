@@ -44,6 +44,9 @@ supported_engines:
 - id: etranslation
   name: eTranslation
   supported_language_count: 26
+- id: lingmo
+  name: Lingmo Translation
+  supported_language_count: 26
 - id: deepl
   name: DeepL
   supported_language_count: 27
@@ -92,9 +95,6 @@ supported_engines:
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70
-- id: lingmo
-  name: Lingmo Translation
-  supported_language_count: 79
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

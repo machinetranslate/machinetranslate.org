@@ -23,7 +23,10 @@ parent: Languages
 
   <dl>
 
-    <dt>Codes</dt>
+    <dt>Support</dt>
+    <dd><a href="#api-support">{{ page.supported_engines | size }} APIs</a></dd>
+
+    <dt>Code</dt>
     <dd><code>{{ language.codes | first }}</code></dd>
 
     <dt>Names</dt>
@@ -53,9 +56,9 @@ parent: Languages
 {{ content }}
 
 
-<h2>Engine support</h2>
+<h2 id="api-support">API support</h2>
 
-<p><strong>{{ page.supported_engines | size }}</strong> engines support {{ page.title }}.</p>
+<p><strong>{{ page.supported_engines | size }}</strong> APIs support {{ page.title }}.</p>
 
 <ul>
   {% for engine in page.supported_engines %}

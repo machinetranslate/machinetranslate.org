@@ -5,9 +5,6 @@ description: Machine translation for Yoruba
 code: yo
 parent: Languages
 supported_engines:
-- id: lingmo
-  name: Lingmo Translation
-  supported_language_count: 79
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96
@@ -26,7 +23,7 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 993
+nav_order: 994
 
 ---
 
