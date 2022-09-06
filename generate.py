@@ -115,11 +115,7 @@ for engine in ENGINES:
   if type(languages) is not list:
     raise Exception(languages)
 
-  urls = []
-  if 'url' in engine:
-    urls.append(engine['url'])
-  if 'info_url' in engine:
-    urls.append(engine['info_url'])
+  urls = engine['urls']
 
   # "Join"
   # TODO: use language/engine mapping

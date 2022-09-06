@@ -5,9 +5,8 @@ description: The Google Translate machine translation API
 id: google
 parent: Engines
 urls:
-- https://console.cloud.google.com/apis/library/translate.googleapis.com
-- - https://cloud.google.com/translate/docs/languages
-  - https://cloud.google.com/translate/automl/docs/languages
+- https://cloud.google.com/translate/docs/languages
+- https://cloud.google.com/translate/automl/docs/languages
 supported_languages:
 - slug: afrikaans
   code: af

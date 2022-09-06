@@ -6,7 +6,6 @@ id: textra
 parent: Engines
 urls:
 - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/
-- https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/help/?q_type=faq#
 supported_languages:
 - slug: arabic
   code: ar

@@ -6,7 +6,7 @@ id: cloudtranslation
 parent: Engines
 urls:
 - https://www.cloudtranslation.com
-- https://cloudtranslation.com/static/api_en.html#_1
+- https://cloudtranslation.com/static/api_en.html
 supported_languages:
 - slug: german
   code: de

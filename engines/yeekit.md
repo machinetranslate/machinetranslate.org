@@ -5,8 +5,8 @@ description: The YeeKit machine translation API
 id: yeekit
 parent: Engines
 urls:
-- https://api.yeekit.com
 - https://api.yeekit.com/mannual.php#docs
+- https://api.yeekit.com
 supported_languages:
 - slug: english
   code: en
