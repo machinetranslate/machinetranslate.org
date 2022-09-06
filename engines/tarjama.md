@@ -13,10 +13,12 @@ supported_languages:
 - slug: arabic
   code: ar
   normalized_code: ar
+  base_code: ar
   name: Arabic
 - slug: english
   code: en
   normalized_code: en
+  base_code: en
   name: English
 nav_order: 998
 

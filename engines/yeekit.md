@@ -13,10 +13,12 @@ supported_languages:
 - slug: english
   code: en
   normalized_code: en
+  base_code: en
   name: English
 - slug: chinese
   code: zh
   normalized_code: zh
+  base_code: zh
   name: Chinese
 nav_order: 998
 

@@ -15,10 +15,12 @@ supported_languages:
 - slug: english
   code: en
   normalized_code: en
+  base_code: en
   name: English
 - slug: finnish
   code: fi
   normalized_code: fi
+  base_code: fi
   name: Finnish
 nav_order: 998
 

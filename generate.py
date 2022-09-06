@@ -166,7 +166,8 @@ for engine in ENGINES:
     language_slug = None
     for language in LANGUAGES:
       normalized_code = normalize_language_code(code, engine_id)
-      if base_language_code(normalized_code) in language['codes']:
+      base_code = base_language_code(normalized_code)
+      if base_code in language['codes']:
         language_name = language['names'][0]
         language_slug = slugify(language_name)
         break
@@ -174,6 +175,7 @@ for engine in ENGINES:
       'slug': language_slug,
       'code': code,
       'normalized_code': normalized_code,
+      'base_code': base_code,
       'name': language_name
     })
     if not language_slug:
@@ -208,6 +210,13 @@ for engine in ENGINES:
 ''')
 
 print('Codes to add to languages.md')
-for code, count in sorted(UNLISTED_LANGUAGES.items(), key=lambda x: x[1]):
+
+for code, count in sorted(UNLISTED_LANGUAGES.items(), key=lambda x: x[1] * 10 - len(x[0]), reverse=True):
+  text = code + ': ' + str(count)
   if count > 1 or len(code) == 2:
-    print(code + ': ' + str(count))
+    text = '**' + text + '**'
+  base_code = code.split('-')[0].lower()
+  
+  link = f'https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#{ base_code }' if len(base_code) == 2 else f'https://en.wikipedia.org/wiki/ISO_639:{ base_code }'
+
+  print(f'[{ text }]({ link })')
