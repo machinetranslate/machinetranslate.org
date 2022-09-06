@@ -4,6 +4,9 @@ title: Papago Translation
 description: The Papago Translation machine translation API
 id: papago
 parent: Engines
+urls:
+- https://papago.naver.com/business
+- https://www.ncloud.com/product/aiService/papagoTranslation
 supported_languages:
 - slug: german
   code: de

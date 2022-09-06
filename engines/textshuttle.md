@@ -4,6 +4,9 @@ title: TextShuttle
 description: The TextShuttle machine translation API
 id: textshuttle
 parent: Engines
+urls:
+- https://www.textshuttle.ai/
+- https://www.textshuttle.ai/product/features#subscription
 supported_languages:
 - slug: german
   code: de

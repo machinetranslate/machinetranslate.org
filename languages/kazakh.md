@@ -31,6 +31,7 @@ supported_engines:
   name: Yandex Translate
 - id: youdao
   name: Youdao Translate
+nav_order: 31
 
 ---
 

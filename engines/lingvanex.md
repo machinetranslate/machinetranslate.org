@@ -4,6 +4,9 @@ title: LingvaNex
 description: The LingvaNex machine translation API
 id: lingvanex
 parent: Engines
+urls:
+- https://lingvanex.com
+- https://docs.lingvanex.com/reference/user-guide
 supported_languages:
 - slug: afrikaans
   code: af

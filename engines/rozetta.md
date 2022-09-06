@@ -4,6 +4,9 @@ title: Rozetta T-400
 description: The Rozetta T-400 machine translation API
 id: rozetta
 parent: Engines
+urls:
+- https://www.jukkou.com
+- https://www.jukkou.com/form/lang.html
 supported_languages:
 - slug: afrikaans
   code: af

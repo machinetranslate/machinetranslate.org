@@ -4,6 +4,9 @@ title: Microsoft Translator
 description: The Microsoft Translator machine translation API
 id: microsoft
 parent: Engines
+urls:
+- https://translator.microsoft.com
+- https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
 supported_languages:
 - slug: afrikaans
   code: af

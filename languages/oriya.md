@@ -13,6 +13,7 @@ supported_engines:
   name: Microsoft Translator
 - id: niutrans
   name: Niutrans
+nav_order: 40
 
 ---
 

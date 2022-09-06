@@ -4,6 +4,9 @@ title: SYSTRAN
 description: The SYSTRAN machine translation API
 id: systran
 parent: Engines
+urls:
+- https://www.systransoft.com
+- https://docs.systran.net/translatePro/en/index.html
 supported_languages:
 - slug: arabic
   code: ar

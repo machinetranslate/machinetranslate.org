@@ -4,6 +4,9 @@ title: PROMT
 description: The PROMT machine translation API
 id: promt
 parent: Engines
+urls:
+- https://www.promt.com
+- https://www.promt.com/translation_software/corporate/developer/promt-cloud-api/
 supported_languages:
 - slug: arabic
   code: ar

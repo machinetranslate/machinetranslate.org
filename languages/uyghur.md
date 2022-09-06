@@ -11,6 +11,7 @@ supported_engines:
   name: LingvaNex
 - id: microsoft
   name: Microsoft Translator
+nav_order: 41
 
 ---
 

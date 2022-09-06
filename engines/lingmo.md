@@ -4,6 +4,9 @@ title: Lingmo Translation
 description: The Lingmo Translation machine translation API
 id: lingmo
 parent: Engines
+urls:
+- https://lingmointernationalnet.wordpress.com
+- https://lingmointernationalnet.wordpress.com/Lingmo-translation-API/
 supported_languages:
 - slug: afrikaans
   code: af

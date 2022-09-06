@@ -4,6 +4,9 @@ title: TranslateMe
 description: The TranslateMe machine translation API
 id: translateme
 parent: Engines
+urls:
+- https://translateme.network
+- https://translateme.network/api/
 supported_languages:
 - slug: german
   code: de

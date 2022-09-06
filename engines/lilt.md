@@ -4,6 +4,9 @@ title: Lilt
 description: The Lilt machine translation API
 id: lilt
 parent: Engines
+urls:
+- https://lilt.com
+- https://support.lilt.com/kb/11075725.html
 supported_languages:
 - slug: afrikaans
   code: af

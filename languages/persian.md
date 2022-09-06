@@ -35,6 +35,7 @@ supported_engines:
   name: Youdao Translate
 - id: wordlingo
   name: Wordlingo
+nav_order: 29
 
 ---
 

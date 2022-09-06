@@ -4,6 +4,8 @@ title: AISA
 description: The AISA machine translation API
 id: aisa
 parent: Engines
+urls:
+- https://www.aisa.digital/machine-translation-api
 supported_languages:
 - slug: arabic
   code: ar

@@ -4,6 +4,9 @@ title: DeepL
 description: The DeepL machine translation API
 id: deepl
 parent: Engines
+urls:
+- https://www.deepl.com
+- https://www.deepl.com/en/docs-api/
 supported_languages:
 - slug: bulgarian
   code: bg

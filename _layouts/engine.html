@@ -14,6 +14,11 @@ parent: Engines
 
 <blockquote>
 
+  <dl>
+    <dt>Supported languages</dt>
+    <dd><code>{{ page.supported_languages | size }}</code></dd>
+  </dl>
+
   <ul>
     {% for url in page.urls %}
     <li>
@@ -21,6 +26,7 @@ parent: Engines
     </li>
     {% endfor %}
   </ul>
+
 </blockquote>
 
 {{ content }}

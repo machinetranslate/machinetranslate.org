@@ -4,6 +4,9 @@ title: Alibaba Translate
 description: The Alibaba Translate machine translation API
 id: alibaba
 parent: Engines
+urls:
+- https://www.alibabacloud.com/es/product/machine-translation
+- https://www.alibabacloud.com/help/en/machine-translation/latest/general-version-of-machine-translation
 supported_languages:
 - slug: arabic
   code: ar

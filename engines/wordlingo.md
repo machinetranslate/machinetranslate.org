@@ -4,6 +4,9 @@ title: Wordlingo
 description: The Wordlingo machine translation API
 id: wordlingo
 parent: Engines
+urls:
+- https://www.worldlingo.com/en/products/worldlingo_api.html
+- https://www.worldlingo.com/en/downloads/ServiceAPI.pdf
 supported_languages:
 - slug: afrikaans
   code: af

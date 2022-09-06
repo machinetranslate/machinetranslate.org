@@ -4,6 +4,9 @@ title: ModernMT
 description: The ModernMT machine translation API
 id: modernmt
 parent: Engines
+urls:
+- https://modernmt.com
+- https://www.modernmt.com/api/#languages
 supported_languages:
 - slug: arabic
   code: ar

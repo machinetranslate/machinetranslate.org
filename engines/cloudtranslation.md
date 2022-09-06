@@ -4,6 +4,9 @@ title: CloudTranslation
 description: The CloudTranslation machine translation API
 id: cloudtranslation
 parent: Engines
+urls:
+- https://www.cloudtranslation.com
+- https://cloudtranslation.com/static/api_en.html#_1
 supported_languages:
 - slug: german
   code: de

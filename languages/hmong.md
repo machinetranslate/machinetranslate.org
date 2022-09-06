@@ -9,6 +9,7 @@ supported_engines:
   name: Google Translate
 - id: lingvanex
   name: LingvaNex
+nav_order: 42
 
 ---
 

@@ -4,6 +4,9 @@ title: Apertium
 description: The Apertium machine translation API
 id: apertium
 parent: Engines
+urls:
+- https://www.apertium.org
+- https://wiki.apertium.org/wiki/Main_Page
 supported_languages:
 - slug: afrikaans
   code: af

@@ -4,6 +4,9 @@ title: Lingo24
 description: The Lingo24 machine translation API
 id: lingo24
 parent: Engines
+urls:
+- https://www.lingo24.com
+- https://developer.lingo24.com/documentation
 supported_languages:
 - slug: arabic
   code: ar

@@ -4,6 +4,9 @@ title: Mirai Translate
 description: The Mirai Translate machine translation API
 id: mirai
 parent: Engines
+urls:
+- https://miraitranslate.com/en/
+- https://miraitranslate.com/en/service/miraitranslator/
 supported_languages:
 - slug: german
   code: de

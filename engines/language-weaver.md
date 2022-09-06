@@ -4,6 +4,9 @@ title: Language Weaver
 description: The Language Weaver machine translation API
 id: language-weaver
 parent: Engines
+urls:
+- https://www.rws.com/language-weaver
+- https://docs.rws.com/791593/662987/language-weaver/welcome-to-the-------------language-weaver-documentation
 supported_languages:
 - slug: arabic
   code: ar

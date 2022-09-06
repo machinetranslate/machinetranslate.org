@@ -19,6 +19,7 @@ supported_engines:
   name: PROMT
 - id: yandex
   name: Yandex Translate
+nav_order: 37
 
 ---
 

@@ -23,6 +23,7 @@ supported_engines:
   name: TranslateMe
 - id: youdao
   name: Youdao Translate
+nav_order: 35
 
 ---
 

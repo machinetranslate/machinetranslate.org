@@ -4,6 +4,9 @@ title: Globalese
 description: The Globalese machine translation API
 id: globalese
 parent: Engines
+urls:
+- https://www.globalese-mt.com
+- https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069899/Stock+corpora
 supported_languages:
 - slug: arabic
   code: ar

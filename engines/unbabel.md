@@ -4,6 +4,9 @@ title: Unbabel
 description: The Unbabel machine translation API
 id: unbabel
 parent: Engines
+urls:
+- https://unbabel.com
+- https://developers.unbabel.com/docs
 supported_languages:
 - slug: arabic
   code: ar

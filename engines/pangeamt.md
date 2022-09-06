@@ -4,6 +4,9 @@ title: PangeaMT
 description: The PangeaMT machine translation API
 id: pangeamt
 parent: Engines
+urls:
+- https://eco.pangeamt.com/main
+- https://prod.pangeamt.com/
 supported_languages:
 - slug: german
   code: de

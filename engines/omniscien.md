@@ -4,6 +4,9 @@ title: Omniscien Technologies
 description: The Omniscien Technologies machine translation API
 id: omniscien
 parent: Engines
+urls:
+- https://omniscien.com
+- https://omniscien.com/machine-translation/supported-languages/
 supported_languages:
 - slug: arabic
   code: ar

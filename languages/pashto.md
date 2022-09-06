@@ -27,6 +27,7 @@ supported_engines:
   name: SYSTRAN
 - id: youdao
   name: Youdao Translate
+nav_order: 33
 
 ---
 

@@ -13,6 +13,25 @@ with open('_data/languages.yml', 'r') as stream:
 with open('_data/engines.yml', 'r') as stream:
   ENGINES = yaml.safe_load(stream)
 
+### Read engine-language conversions
+with open('_data/engine_language.yml', 'r') as stream:
+  ENGINE_LANGUAGE = yaml.safe_load(stream)
+
+def base_language_code(locale_code):
+  return locale_code.split('-')[0]
+
+def _normalize_language_code(locale_code, engine_id):
+  if ENGINE_LANGUAGE[engine_id]:
+    if ENGINE_LANGUAGE[engine_id][locale_code]:
+      return ENGINE_LANGUAGE[engine_id][locale_code]
+  return None
+
+def _normalize_language_code(locale_code, engine_id):
+  return _normalize_language_code(base_language_code(locale_code), engine_id) \
+    or _normalize_language_code(locale_code, '*') \
+    or _normalize_language_code(base_language_code(locale_code), '*') \
+    or locale_code
+
 def slugify(name):
   # Should work *exactly* like in Liquid!
   return name.lower().replace(' ', '-')
@@ -25,9 +44,6 @@ def flatten(l):
     else:
       _.append(item)
   return _
-
-def base_language_code(locale_code):
-  return locale_code.split('-')[0]
 
 def read_content(filepth):
   content = ''
@@ -64,7 +80,8 @@ for language in LANGUAGES:
     'description': f'Machine translation for { name }',
     'code': code,
     'parent': 'Languages',
-    'supported_engines': supported_engines
+    'supported_engines': supported_engines,
+    'nav_order': len(ENGINES) - len(supported_engines)
   }
 
   slug = slugify(name)
@@ -85,17 +102,28 @@ for language in LANGUAGES:
 ### Generate engines
 
 for engine in ENGINES:
+
   name = engine['name']
   if type(name) is not str:
     raise Exception(name)
+
   slug = engine['id']
   if type(slug) is not str:
     raise Exception(slug)
+
   languages = engine['languages']
   if type(languages) is not list:
     raise Exception(languages)
 
+  urls = []
+  if 'url' in engine:
+    urls.append(engine['url'])
+  if 'info_url' in engine:
+    urls.append(engine['info_url'])
+
   # "Join"
+  # TODO: use language/engine mapping
+  # TODO: display the language code (including locale) as used by the engine
   supported_language_codes = list(map(base_language_code, flatten(languages)))
   # TODO: language *pairs*
 
@@ -118,9 +146,12 @@ for engine in ENGINES:
     'description': f'The { name } machine translation API',
     'id': slug,
     'parent': 'Engines',
+    'urls': urls,
     'supported_languages': supported_languages,
     'nav_order': len(LANGUAGES) - len(supported_languages)
   }
+
+  content = read_content(filepath)
 
   filepath = f'engines/{ slug }.md'
   with open(filepath, 'w', encoding='utf8') as f:

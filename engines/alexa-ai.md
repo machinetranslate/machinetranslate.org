@@ -4,6 +4,8 @@ title: Alexa Translations A.I.
 description: The Alexa Translations A.I. machine translation API
 id: alexa-ai
 parent: Engines
+urls:
+- https://alexatranslations.com/alexa-translations-a-i
 supported_languages:
 - slug: english
   code: en

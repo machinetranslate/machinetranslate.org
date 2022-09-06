@@ -15,6 +15,7 @@ supported_engines:
   name: Rozetta T-400
 - id: youdao
   name: Youdao Translate
+nav_order: 39
 
 ---
 

@@ -4,6 +4,9 @@ title: Yandex Translate
 description: The Yandex Translate machine translation API
 id: yandex
 parent: Engines
+urls:
+- https://translate.yandex.com/
+- https://yandex.com/dev/translate/doc/dg/concepts/api-overview.html
 supported_languages:
 - slug: afrikaans
   code: af

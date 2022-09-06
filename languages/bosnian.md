@@ -29,6 +29,7 @@ supported_engines:
   name: Youdao Translate
 - id: watson
   name: Watson Language Translator
+nav_order: 32
 
 ---
 

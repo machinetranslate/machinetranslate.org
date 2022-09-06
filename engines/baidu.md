@@ -4,6 +4,9 @@ title: Baidu Translate
 description: The Baidu Translate machine translation API
 id: baidu
 parent: Engines
+urls:
+- https://ai.baidu.com/tech/mt/text_trans
+- https://github.com/machinetranslate/machinetranslate.org/issues/268
 supported_languages:
 - slug: afrikaans
   code: afr

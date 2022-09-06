@@ -19,6 +19,7 @@ supported_engines:
   name: Rozetta T-400
 - id: yandex
   name: Yandex Translate
+nav_order: 37
 
 ---
 

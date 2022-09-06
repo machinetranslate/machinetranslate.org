@@ -4,6 +4,9 @@ title: KantanMT
 description: The KantanMT machine translation API
 id: kantanmt
 parent: Engines
+urls:
+- https://www.kantanai.io
+- https://kantanmt.docs.apiary.io/#reference
 supported_languages:
 - slug: arabic
   code: ar

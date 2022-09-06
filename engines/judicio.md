@@ -4,6 +4,8 @@ title: Judicio
 description: The Judicio machine translation API
 id: judicio
 parent: Engines
+urls:
+- https://judic.io
 supported_languages:
 - slug: german
   code: de

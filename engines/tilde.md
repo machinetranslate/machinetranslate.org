@@ -4,6 +4,9 @@ title: Tilde
 description: The Tilde machine translation API
 id: tilde
 parent: Engines
+urls:
+- https://www.tilde.com/products-and-services/machine-translation
+- https://www.tilde.com/developers/machine-translation-api
 supported_languages:
 - slug: czech
   code: cs

@@ -7,6 +7,7 @@ parent: Languages
 supported_engines:
 - id: niutrans
   name: Niutrans
+nav_order: 43
 
 ---
 

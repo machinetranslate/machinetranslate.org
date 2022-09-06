@@ -4,6 +4,9 @@ title: Tencent Machine Translation
 description: The Tencent Machine Translation machine translation API
 id: tencent
 parent: Engines
+urls:
+- https://cloud.tencent.com/product/tmt
+- https://cloud.tencent.com/document/api/551/15619
 supported_languages:
 - slug: arabic
   code: ar

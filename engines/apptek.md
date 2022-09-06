@@ -4,6 +4,9 @@ title: AppTek
 description: The AppTek machine translation API
 id: apptek
 parent: Engines
+urls:
+- https://www.apptek.com
+- https://docs.apptek.com/reference/machine-translation
 supported_languages:
 - slug: afrikaans
   code: af

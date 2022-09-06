@@ -4,6 +4,9 @@ title: Niutrans
 description: The Niutrans machine translation API
 id: niutrans
 parent: Engines
+urls:
+- https://niutrans.com
+- https://niutrans.com/documents/overview?id=2
 supported_languages:
 - slug: afrikaans
   code: af

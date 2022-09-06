@@ -13,6 +13,7 @@ supported_engines:
   name: LingvaNex
 - id: niutrans
   name: Niutrans
+nav_order: 40
 
 ---
 
