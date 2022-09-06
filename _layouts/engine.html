@@ -18,11 +18,16 @@ parent: Engines
     Support for <a href="#language-support"<strong>{{ page.supported_languages | size }} languages</strong></a>
   </p>
 
-  {% for customization_type in page.customization %}
-  <ul>
-    <li>{{ customization_type }}</li>
-  </ul>
-  {% endfor %}
+  {% if page.customization.size > 0 %}
+    <p>
+      Customization:
+      <ul>
+      {% for customization_type in page.customization %}
+        <li>{{ customization_type }}</li>
+      {% endfor %}
+      </ul>
+    </p>
+  {% endif %}
 
   {% unless language.self_serve %}
   <p>No self-service</p>
