@@ -5,19 +5,25 @@ description: Machine translation for Latin
 code: la
 parent: Languages
 supported_engines:
-- id: google
-  name: Google Translate
-- id: lingvanex
-  name: LingvaNex
-- id: niutrans
-  name: Niutrans
-- id: yandex
-  name: Yandex Translate
-- id: youdao
-  name: Youdao Translate
 - id: wordlingo
   name: Wordlingo
-nav_order: 38
+  supported_language_count: 66
+- id: yandex
+  name: Yandex Translate
+  supported_language_count: 93
+- id: google
+  name: Google Translate
+  supported_language_count: 108
+- id: lingvanex
+  name: LingvaNex
+  supported_language_count: 108
+- id: youdao
+  name: Youdao Translate
+  supported_language_count: 110
+- id: niutrans
+  name: Niutrans
+  supported_language_count: 302
+nav_order: 994
 
 ---
 

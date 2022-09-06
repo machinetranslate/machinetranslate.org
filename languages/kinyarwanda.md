@@ -5,15 +5,19 @@ description: Machine translation for Kinyarwanda
 code: rw
 parent: Languages
 supported_engines:
-- id: google
-  name: Google Translate
 - id: lingmo
   name: Lingmo Translation
+  supported_language_count: 80
+- id: google
+  name: Google Translate
+  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
+  supported_language_count: 108
 - id: niutrans
   name: Niutrans
-nav_order: 40
+  supported_language_count: 302
+nav_order: 996
 
 ---
 

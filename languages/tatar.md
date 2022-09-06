@@ -5,21 +5,28 @@ description: Machine translation for Tatar
 code: tt
 parent: Languages
 supported_engines:
-- id: apertium
-  name: Apertium
-- id: google
-  name: Google Translate
-- id: lingvanex
-  name: LingvaNex
-- id: microsoft
-  name: Microsoft Translator
-- id: niutrans
-  name: Niutrans
 - id: promt
   name: PROMT
+  supported_language_count: 40
+- id: apertium
+  name: Apertium
+  supported_language_count: 44
 - id: yandex
   name: Yandex Translate
-nav_order: 37
+  supported_language_count: 93
+- id: microsoft
+  name: Microsoft Translator
+  supported_language_count: 104
+- id: google
+  name: Google Translate
+  supported_language_count: 108
+- id: lingvanex
+  name: LingvaNex
+  supported_language_count: 108
+- id: niutrans
+  name: Niutrans
+  supported_language_count: 302
+nav_order: 993
 
 ---
 

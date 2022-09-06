@@ -14,7 +14,7 @@ supported_languages:
 - slug: english
   code: en
   name: English
-nav_order: 106
+nav_order: 998
 
 ---
 

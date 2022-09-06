@@ -173,7 +173,7 @@ supported_languages:
 - slug: chinese
   code: zh
   name: Chinese
-nav_order: 53
+nav_order: 945
 
 ---
 

@@ -47,7 +47,7 @@ supported_languages:
 - slug: turkish
   code: tr
   name: Turkish
-nav_order: 95
+nav_order: 987
 
 ---
 

@@ -5,59 +5,85 @@ description: Machine translation for Thai
 code: th
 parent: Languages
 supported_engines:
-- id: aisa
-  name: AISA
-- id: alibaba
-  name: Alibaba Translate
-- id: amazon
-  name: Amazon Translate
-- id: apptek
-  name: AppTek
-- id: google
-  name: Google Translate
-- id: language-weaver
-  name: Language Weaver
-- id: lilt
-  name: Lilt
-- id: lingmo
-  name: Lingmo Translation
-- id: lingvanex
-  name: LingvaNex
-- id: microsoft
-  name: Microsoft Translator
-- id: mirai
-  name: Mirai Translate
-- id: modernmt
-  name: ModernMT
-- id: niutrans
-  name: Niutrans
-- id: omniscien
-  name: Omniscien Technologies
 - id: papago
   name: Papago Translation
-- id: rozetta
-  name: Rozetta T-400
-- id: sap
-  name: SAP Translation Hub
-- id: systran
-  name: SYSTRAN
+  supported_language_count: 12
+- id: mirai
+  name: Mirai Translate
+  supported_language_count: 13
+- id: aisa
+  name: AISA
+  supported_language_count: 16
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 17
 - id: tencent
   name: Tencent Machine Translation
+  supported_language_count: 17
 - id: textra
   name: TexTra
+  supported_language_count: 19
 - id: unbabel
   name: Unbabel
+  supported_language_count: 25
 - id: xl8
   name: Xl8
-- id: yandex
-  name: Yandex Translate
-- id: youdao
-  name: Youdao Translate
+  supported_language_count: 29
+- id: sap
+  name: SAP Translation Hub
+  supported_language_count: 38
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 45
+- id: lilt
+  name: Lilt
+  supported_language_count: 51
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 52
 - id: watson
   name: Watson Language Translator
+  supported_language_count: 52
+- id: systran
+  name: SYSTRAN
+  supported_language_count: 53
+- id: language-weaver
+  name: Language Weaver
+  supported_language_count: 55
+- id: apptek
+  name: AppTek
+  supported_language_count: 65
 - id: wordlingo
   name: Wordlingo
-nav_order: 18
+  supported_language_count: 66
+- id: amazon
+  name: Amazon Translate
+  supported_language_count: 70
+- id: lingmo
+  name: Lingmo Translation
+  supported_language_count: 80
+- id: yandex
+  name: Yandex Translate
+  supported_language_count: 93
+- id: rozetta
+  name: Rozetta T-400
+  supported_language_count: 96
+- id: microsoft
+  name: Microsoft Translator
+  supported_language_count: 104
+- id: google
+  name: Google Translate
+  supported_language_count: 108
+- id: lingvanex
+  name: LingvaNex
+  supported_language_count: 108
+- id: youdao
+  name: Youdao Translate
+  supported_language_count: 110
+- id: niutrans
+  name: Niutrans
+  supported_language_count: 302
+nav_order: 974
 
 ---
 

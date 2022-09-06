@@ -113,7 +113,7 @@ supported_languages:
 - slug: urdu
   code: ur
   name: Urdu
-nav_order: 73
+nav_order: 965
 
 ---
 

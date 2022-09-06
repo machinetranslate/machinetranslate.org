@@ -41,7 +41,7 @@ supported_languages:
 - slug: zulu
   code: zu
   name: Zulu
-nav_order: 97
+nav_order: 989
 
 ---
 

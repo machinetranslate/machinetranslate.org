@@ -68,11 +68,16 @@ for language in LANGUAGES:
   # "Join"
   supported_engines = []
   for engine in ENGINES:
-    if code in map(base_language_code, flatten(engine['languages'])):
+    supported_language_base_codes = list(set(map(base_language_code, flatten(engine['languages']))))
+    print(engine['name'] + ': ' + str(supported_language_base_codes))
+    if code in supported_language_base_codes:
       supported_engines.append({
         'id': engine['id'],
-        'name': engine['name']
-      })
+        'name': engine['name'],
+        'supported_language_count': len(supported_language_base_codes)
+      })    
+
+  supported_engines.sort(key=lambda engine: engine['supported_language_count'])
 
   frontmatter = {
     'layout': 'language',
@@ -81,7 +86,7 @@ for language in LANGUAGES:
     'code': code,
     'parent': 'Languages',
     'supported_engines': supported_engines,
-    'nav_order': len(ENGINES) - len(supported_engines)
+    'nav_order': 1000 - len(supported_engines)
   }
 
   slug = slugify(name)
@@ -144,7 +149,7 @@ for engine in ENGINES:
     'parent': 'Engines',
     'urls': urls,
     'supported_languages': supported_languages,
-    'nav_order': len(LANGUAGES) - len(supported_languages)
+    'nav_order': 1000 - len(supported_languages)
   }
 
   content = read_content(filepath)

@@ -6,7 +6,6 @@ id: etranslation
 parent: Engines
 urls:
 - https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en#translateonline
-- https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en#translateonline
 supported_languages:
 - slug: bulgarian
   code: bg
@@ -86,7 +85,7 @@ supported_languages:
 - slug: swedish
   code: sv
   name: Swedish
-nav_order: 82
+nav_order: 974
 
 ---
 

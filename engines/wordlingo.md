@@ -200,7 +200,7 @@ supported_languages:
 - slug: yiddish
   code: yi
   name: Yiddish
-nav_order: 44
+nav_order: 936
 
 ---
 

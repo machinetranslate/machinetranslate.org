@@ -7,9 +7,11 @@ parent: Languages
 supported_engines:
 - id: google
   name: Google Translate
+  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
-nav_order: 42
+  supported_language_count: 108
+nav_order: 998
 
 ---
 

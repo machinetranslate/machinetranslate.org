@@ -7,7 +7,8 @@ parent: Languages
 supported_engines:
 - id: niutrans
   name: Niutrans
-nav_order: 43
+  supported_language_count: 302
+nav_order: 999
 
 ---
 

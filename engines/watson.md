@@ -161,7 +161,7 @@ supported_languages:
 - slug: chinese
   code: zh
   name: Chinese
-nav_order: 57
+nav_order: 949
 
 ---
 

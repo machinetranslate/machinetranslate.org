@@ -5,37 +5,52 @@ description: Machine translation for Irish
 code: ga
 parent: Languages
 supported_engines:
-- id: amazon
-  name: Amazon Translate
 - id: etranslation
   name: eTranslation
-- id: globalese
-  name: Globalese
-- id: google
-  name: Google Translate
+  supported_language_count: 26
 - id: kantanmt
   name: KantanMT
-- id: lingvanex
-  name: LingvaNex
-- id: microsoft
-  name: Microsoft Translator
-- id: modernmt
-  name: ModernMT
-- id: niutrans
-  name: Niutrans
+  supported_language_count: 33
+- id: globalese
+  name: Globalese
+  supported_language_count: 34
 - id: omniscien
   name: Omniscien Technologies
-- id: rozetta
-  name: Rozetta T-400
-- id: yandex
-  name: Yandex Translate
-- id: youdao
-  name: Youdao Translate
+  supported_language_count: 45
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 52
 - id: watson
   name: Watson Language Translator
+  supported_language_count: 52
 - id: wordlingo
   name: Wordlingo
-nav_order: 29
+  supported_language_count: 66
+- id: amazon
+  name: Amazon Translate
+  supported_language_count: 70
+- id: yandex
+  name: Yandex Translate
+  supported_language_count: 93
+- id: rozetta
+  name: Rozetta T-400
+  supported_language_count: 96
+- id: microsoft
+  name: Microsoft Translator
+  supported_language_count: 104
+- id: google
+  name: Google Translate
+  supported_language_count: 108
+- id: lingvanex
+  name: LingvaNex
+  supported_language_count: 108
+- id: youdao
+  name: Youdao Translate
+  supported_language_count: 110
+- id: niutrans
+  name: Niutrans
+  supported_language_count: 302
+nav_order: 985
 
 ---
 

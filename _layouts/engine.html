@@ -19,7 +19,7 @@ parent: Engines
   <ul>
     {% for url in page.urls %}
     <li>
-      <a href="{{ url }}">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 25 }}</a>
+      <a href="{{ url }}" target="_blank">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
     </li>
     {% endfor %}
   </ul>

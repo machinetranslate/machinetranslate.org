@@ -14,7 +14,7 @@ supported_languages:
 - slug: finnish
   code: fi
   name: Finnish
-nav_order: 106
+nav_order: 998
 
 ---
 

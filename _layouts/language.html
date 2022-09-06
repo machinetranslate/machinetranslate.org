@@ -20,9 +20,10 @@ parent: Languages
 {% endfor %}
 
 <blockquote>
-  <dl>
 
-    <p>Supported by {{ page.supported_engines | size }} engines</p>
+  <p>Supported by {{ page.supported_engines | size }} engines</p>
+
+  <dl>
 
     <dt>Codes</dt>
     <dd><code>{{ language.codes | first }}</code></dd>

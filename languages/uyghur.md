@@ -5,13 +5,16 @@ description: Machine translation for Uyghur
 code: ug
 parent: Languages
 supported_engines:
-- id: google
-  name: Google Translate
-- id: lingvanex
-  name: LingvaNex
 - id: microsoft
   name: Microsoft Translator
-nav_order: 41
+  supported_language_count: 104
+- id: google
+  name: Google Translate
+  supported_language_count: 108
+- id: lingvanex
+  name: LingvaNex
+  supported_language_count: 108
+nav_order: 997
 
 ---
 

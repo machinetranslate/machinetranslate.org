@@ -5,17 +5,22 @@ description: Machine translation for Corsican
 code: co
 parent: Languages
 supported_engines:
-- id: google
-  name: Google Translate
-- id: lingvanex
-  name: LingvaNex
-- id: niutrans
-  name: Niutrans
 - id: rozetta
   name: Rozetta T-400
+  supported_language_count: 96
+- id: google
+  name: Google Translate
+  supported_language_count: 108
+- id: lingvanex
+  name: LingvaNex
+  supported_language_count: 108
 - id: youdao
   name: Youdao Translate
-nav_order: 39
+  supported_language_count: 110
+- id: niutrans
+  name: Niutrans
+  supported_language_count: 302
+nav_order: 995
 
 ---
 

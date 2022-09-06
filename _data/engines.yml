@@ -80,7 +80,6 @@
   id: etranslation
   urls:
    - https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en#translateonline
-   - https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en#translateonline
   languages: [ bg, cs, da, de, el, en, es, et, fi, fr, ga, hr, hu, is, it, lt, lv, mt, nb, nl, pl, pt, ro, sk, sl, sv ]
   self-serve: true
 

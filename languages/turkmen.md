@@ -5,19 +5,25 @@ description: Machine translation for Turkmen
 code: tk
 parent: Languages
 supported_engines:
-- id: apptek
-  name: AppTek
-- id: google
-  name: Google Translate
-- id: lingvanex
-  name: LingvaNex
-- id: microsoft
-  name: Microsoft Translator
-- id: niutrans
-  name: Niutrans
 - id: promt
   name: PROMT
-nav_order: 38
+  supported_language_count: 40
+- id: apptek
+  name: AppTek
+  supported_language_count: 65
+- id: microsoft
+  name: Microsoft Translator
+  supported_language_count: 104
+- id: google
+  name: Google Translate
+  supported_language_count: 108
+- id: lingvanex
+  name: LingvaNex
+  supported_language_count: 108
+- id: niutrans
+  name: Niutrans
+  supported_language_count: 302
+nav_order: 994
 
 ---
 

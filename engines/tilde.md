@@ -62,7 +62,7 @@ supported_languages:
 - slug: swedish
   code: sv
   name: Swedish
-nav_order: 90
+nav_order: 982
 
 ---
 
