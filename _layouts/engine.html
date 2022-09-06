@@ -14,8 +14,6 @@ parent: Engines
 
 <blockquote>
 
-  <p>{{ page.supported_languages | size }} supported languages</p>
-
   <ul>
     {% for url in page.urls %}
     <li>
@@ -31,6 +29,8 @@ parent: Engines
 
 
 <h2>Language support</h2>
+<p>{{ page.title }} supports <strong>{{ page.supported_languages | size }}</strong> languages.</p>
+
 <ul>
   {% for language in page.supported_languages %}
     <li>

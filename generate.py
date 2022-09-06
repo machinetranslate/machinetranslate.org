@@ -20,6 +20,9 @@ with open('_data/engine_language.yml', 'r') as stream:
 def base_language_code(locale_code):
   return locale_code.split('-')[0]
 
+def normalize_locale_casing(locale_code):
+  return '-'.join([ part.capitalize() if len(part) == 4 else part.lower() for part in locale_code.split('-') ])
+
 def _normalize_language_code(locale_code, engine_id):
   if engine_id not in ENGINE_LANGUAGE:
     return None
@@ -28,10 +31,11 @@ def _normalize_language_code(locale_code, engine_id):
   return ENGINE_LANGUAGE[engine_id][locale_code]
 
 def normalize_language_code(locale_code, engine_id):
+  locale_code = normalize_locale_casing(locale_code)
   return _normalize_language_code(base_language_code(locale_code), engine_id) \
     or _normalize_language_code(locale_code, '*') \
     or _normalize_language_code(base_language_code(locale_code), '*') \
-    or locale_code
+    or normalize_locale_casing(locale_code)
 
 def slugify(name):
   # Should work *exactly* like in Liquid!

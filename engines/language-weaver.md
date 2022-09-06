@@ -158,7 +158,7 @@ supported_languages:
   name: Polish
 - slug: persian
   code: prs
-  normalized_code: fa
+  normalized_code: fa-af
   name: Persian
 - slug: pashto
   code: ps
@@ -234,11 +234,11 @@ supported_languages:
   name: Vietnamese
 - slug: chinese
   code: zh-cn
-  normalized_code: zh-cn
+  normalized_code: zh-Hans
   name: Chinese
 - slug: chinese
   code: zh-tw
-  normalized_code: zh-tw
+  normalized_code: zh-Hant
   name: Chinese
 nav_order: 942
 

@@ -12,10 +12,10 @@ supported_languages:
   code: af
   normalized_code: af
   name: Afrikaans
-- slug: null
+- slug: amharic
   code: am
   normalized_code: am
-  name: null
+  name: Amharic
 - slug: arabic
   code: ar
   normalized_code: ar

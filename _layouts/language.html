@@ -21,8 +21,6 @@ parent: Languages
 
 <blockquote>
 
-  <p>Supported by {{ page.supported_engines | size }} engines</p>
-
   <dl>
 
     <dt>Codes</dt>
@@ -56,6 +54,9 @@ parent: Languages
 
 
 <h2>Engine support</h2>
+
+<p><strong>{{ page.supported_engines | size }}</strong> engines support {{ page.title }}.</p>
+
 <ul>
   {% for engine in page.supported_engines %}
     <li>

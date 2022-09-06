@@ -162,11 +162,11 @@ supported_languages:
   name: Uzbek
 - slug: chinese
   code: zh-cn
-  normalized_code: zh-cn
+  normalized_code: zh-Hans
   name: Chinese
 - slug: chinese
   code: zh-tw
-  normalized_code: zh-tw
+  normalized_code: zh-Hant
   name: Chinese
 - slug: null
   code: zsm

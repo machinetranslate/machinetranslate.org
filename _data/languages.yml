@@ -11,6 +11,16 @@
   territories: [ na, za ]
 
 -
+  codes: [ am, amh ]
+  names: [ Amharic ]
+  family: sem
+  scripts: [ Ethi ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [  fusional, synthetic ]
+  territories: [ et ]
+
+-
   codes: [ ar, ara ]
   names: [ Arabic ]
   family: sem

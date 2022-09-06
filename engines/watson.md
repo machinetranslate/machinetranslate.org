@@ -218,7 +218,7 @@ supported_languages:
   name: Chinese
 - slug: chinese
   code: zh-TW
-  normalized_code: zh-TW
+  normalized_code: zh-Hant
   name: Chinese
 nav_order: 947
 

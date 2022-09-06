@@ -36,10 +36,10 @@ supported_languages:
   code: ake
   normalized_code: ake
   name: null
-- slug: null
+- slug: amharic
   code: am
   normalized_code: am
-  name: null
+  name: Amharic
 - slug: null
   code: amk
   normalized_code: amk

@@ -102,7 +102,7 @@ supported_languages:
   name: Portuguese
 - slug: portuguese
   code: pt-BR
-  normalized_code: pt-BR
+  normalized_code: pt-br
   name: Portuguese
 - slug: romanian
   code: ro
@@ -134,11 +134,11 @@ supported_languages:
   name: Vietnamese
 - slug: chinese
   code: zh-cn
-  normalized_code: zh-cn
+  normalized_code: zh-Hans
   name: Chinese
 - slug: chinese
   code: zh-tw
-  normalized_code: zh-tw
+  normalized_code: zh-Hant
   name: Chinese
 nav_order: 967
 

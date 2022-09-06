@@ -5,11 +5,15 @@ microsoft:
   kmr: ku # → Kurmanji Kurdish (Northern Kurdish)
 
 '*':
+  zh-tw: zh-Hant
+  zh-hk: zh-Hant
+  zh-cn: zh-Hans
   es-la: es-419 # Ignorance, Globalese...
   in: id # Legacy, Google
   iw: he # Legacy, Google
   jw: jv # Legacy, Google
-  prs: fa # Macrolanguage, Microsoft for Dari
+  fa-prs: fa-af  # Macrolanguage, Apptek for Dari
+  prs: fa-af # Macrolanguage, Microsoft for Dari
   fil: tl # Macrolanguage, Microsoft for Tagalog
   hmn: mww # Macrolanguage, Microsoft for Hmong
   aar: aa

@@ -182,7 +182,7 @@ supported_languages:
   name: Albanian
 - slug: serbian
   code: sr-Cyr
-  normalized_code: sr-Cyr
+  normalized_code: sr-cyr
   name: Serbian
 - slug: serbian
   code: sr-Latn
@@ -226,7 +226,7 @@ supported_languages:
   name: Chinese
 - slug: chinese
   code: zh-tw
-  normalized_code: zh-tw
+  normalized_code: zh-Hant
   name: Chinese
 - slug: zulu
   code: zu

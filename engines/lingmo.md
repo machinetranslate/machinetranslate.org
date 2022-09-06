@@ -234,7 +234,7 @@ supported_languages:
   name: Polish
 - slug: persian
   code: prs-af
-  normalized_code: fa
+  normalized_code: fa-af
   name: Persian
 - slug: pashto
   code: ps-af

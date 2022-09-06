@@ -38,7 +38,7 @@ supported_languages:
   name: Korean
 - slug: chinese
   code: zh-cn
-  normalized_code: zh-cn
+  normalized_code: zh-Hans
   name: Chinese
 nav_order: 992
 

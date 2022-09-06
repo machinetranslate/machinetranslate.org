@@ -12,10 +12,10 @@ supported_languages:
   code: af
   normalized_code: af
   name: Afrikaans
-- slug: null
+- slug: amharic
   code: am
   normalized_code: am
-  name: null
+  name: Amharic
 - slug: arabic
   code: ar
   normalized_code: ar
@@ -82,7 +82,7 @@ supported_languages:
   name: Persian
 - slug: persian
   code: fa-prs
-  normalized_code: fa-prs
+  normalized_code: fa-af
   name: Persian
 - slug: finnish
   code: fi
@@ -294,11 +294,11 @@ supported_languages:
   name: Uzbek
 - slug: chinese
   code: zh-cn
-  normalized_code: zh-cn
+  normalized_code: zh-Hans
   name: Chinese
 - slug: chinese
   code: zh-tw
-  normalized_code: zh-tw
+  normalized_code: zh-Hant
   name: Chinese
 nav_order: 927
 

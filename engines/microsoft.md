@@ -12,10 +12,10 @@ supported_languages:
   code: af
   normalized_code: af
   name: Afrikaans
-- slug: null
+- slug: amharic
   code: am
   normalized_code: am
-  name: null
+  name: Amharic
 - slug: arabic
   code: ar
   normalized_code: ar
@@ -310,7 +310,7 @@ supported_languages:
   name: Polish
 - slug: persian
   code: prs
-  normalized_code: fa
+  normalized_code: fa-af
   name: Persian
 - slug: pashto
   code: ps
