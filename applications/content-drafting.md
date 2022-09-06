@@ -1,4 +1,4 @@
-Authors can use machine translation to quickly **draft content** in a natural language. 
+Authors and localization engineers can use machine translation to quickly **draft content** in a natural language. 
 
 ## Use cases
 
@@ -47,10 +47,10 @@ Authors can use machine translation to draft a text in foreign language which th
 
 #### Workflow
 
-- Authors write paragraphs in their native language
+- Authors write paragraphs in their native language.
 - Authors edit the machine output for accuracy (conveying the message), terminology and consistency. 
 
-This technique solves the basic difficulty of post-editing. The post-editor may not understand the source, but the original author knows exactly what they want to communicate. 
+This technique omits the basic difficulty of post-editing: while the post-editor needs some effort to understand the source, the original author knows exactly what they want to communicate. 
 
 <!-- example of drafting text in DeepL -->
 
