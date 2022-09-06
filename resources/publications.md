@@ -20,7 +20,7 @@ td:nth-child(2) {
 </style>
 
 
-## [Neural machine translation](/../approaches/neural-machine-translation.md)
+## [Neural machine translation](/approaches/neural-machine-translation.md)
 
 |     |     |     |
 | --- | --- | --- |
@@ -82,12 +82,12 @@ td:nth-child(2) {
 | 2016 | [***Neural Machine Translation of Rare Words with Subword Units***](https://arxiv.org/pdf/1508.07909.pdf) | Rico Sennrich, Barry Haddow, Alexandra Birch |
 
 
-## [Statistical machine translation](/../approaches/statistical-machine-translation.md)
+## [Statistical machine translation](/approaches/statistical-machine-translation.md)
 
 |     |     |     |
 | --- | --- | --- |
 | 2007 | [***Hierarchical Phrase-Based Translation***](https://aclanthology.org/J07-2003.pdf) | David Chiang |
-| 2003 | [***Statistical machine translation***](https://aclanthology.org/N03-1017.pdf) | [Philipp Koehn](/../people/philipp-koehn.md), [Franz Josef Och](/../people/franz-josef-och.md), [Daniel Marcu](/../people/daniel-marcu.md) |
+| 2003 | [***Statistical machine translation***](https://aclanthology.org/N03-1017.pdf) | [Philipp Koehn](/people/philipp-koehn.md), [Franz Josef Och](/people/franz-josef-och.md), [Daniel Marcu](/people/daniel-marcu.md) |
 | 2003 | [***Statistical Phrase-Based Translation***](https://aclanthology.org/N03-1017.pdf) | Philipp Koehn, Franz Josef Och, Daniel Marcu |
 
 
@@ -95,8 +95,8 @@ td:nth-child(2) {
 
 Machine translation metrics automatically assess quality of the machine translation output.
 There are two types of metrics: **quality evaluation**  and **quality estimation**.   
-* [Quality evaluation](/../quality/quality-evaluation.md) metrics rely on human (reference) translation.
-* [Quality estimation](/../quality/quality-estimation.md) metrics ***do not*** rely on human (reference) translation.
+* [Quality evaluation](/quality/quality-evaluation.md) metrics rely on human (reference) translation.
+* [Quality estimation](/quality/quality-estimation.md) metrics ***do not*** rely on human (reference) translation.
 
 ### Quality evaluation
 
@@ -115,12 +115,12 @@ For example, a metric can count the number and fraction of n-grams that appear i
 |     |     |     |
 | --- | --- | --- |
 | 2015 | [***chrF: character n-gram f-score for automatic MT evaluation***](https://www.cs.cmu.edu/~alavie/METEOR/pdf/meteor-1.5.pdf) |	Maja Popovic  |
-| 2014 | [***METEOR Universal: Language Specific Translation Evaluation for Any Target Language***](https://www.cs.cmu.edu/~alavie/METEOR/pdf/meteor-1.5.pdf) |	Michael Denkowski, [Alon Lavie](/../people/alon-lavie.md) |
+| 2014 | [***METEOR Universal: Language Specific Translation Evaluation for Any Target Language***](https://www.cs.cmu.edu/~alavie/METEOR/pdf/meteor-1.5.pdf) |	Michael Denkowski, [Alon Lavie](/people/alon-lavie.md) |
 | 2006 | [***A study of Translation Edit Rate with Targeted Human Annotation***](https://www.cs.umd.edu/~snover/pub/amta06/ter_amta.pdf) | Matthew Snover, Bonnie Dorr, Rich Schwartz, Linnea Micciulla, John Makhoul |
 | 2005 | [***METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments***](http://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf) | Satanjeev Banerjee, Alon Lavie |
 | 2004 | [***ROUGE: A Package for Automatic Evaluation of Summaries***](https://aclanthology.org/W04-1013.pdf) | Chin-Yew Lin |
 | 2002 | [***Automatic Evaluation of Machine Translation Quality Using N-gram Co-Occurrence Statistics***](https://aclanthology.org/www.mt-archive.info/HLT-2002-Doddington.pdf) | George Doddington |
-| 2002 | [***BLEU: a Method for Automatic Evaluation of Machine Translation***](https://aclanthology.org/P02-1040.pdf) | [Kishore Papineni](/../people/kishore-papineni.md), [Salim Roukos](/../people/salim-roukos.md), Todd Ward, Wei-Jing Zhu |
+| 2002 | [***BLEU: a Method for Automatic Evaluation of Machine Translation***](https://aclanthology.org/P02-1040.pdf) | [Kishore Papineni](/people/kishore-papineni.md), [Salim Roukos](/people/salim-roukos.md), Todd Ward, Wei-Jing Zhu |
 
 ##### Embedding-based metrics
 

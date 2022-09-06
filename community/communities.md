@@ -14,7 +14,7 @@ Machine translation communities are mainly global, online lists, groups or fora.
 
 ### MT-List
 
-**MT-List** (mt-list@eamt.org) is the mailing list of [EAMT](/../associations/eamt.md).
+**MT-List** (mt-list@eamt.org) is the mailing list of [EAMT](/associations/eamt.md).
 
 > The EAMT has a mailing list dedicated to MT. This list is open to the public and serves as a forum for the discussion and exchange of information for all aspects of translation technology.
 
@@ -23,7 +23,7 @@ Machine translation communities are mainly global, online lists, groups or fora.
 
 ### Workshop on Statistical Machine Translation
 
-**Workshop on Statistical Machine Translation** (wmt-tasks@googlegroups.com) is the official mailing list of [WMT](/../events/wmt.md).
+**Workshop on Statistical Machine Translation** (wmt-tasks@googlegroups.com) is the official mailing list of [WMT](/events/wmt.md).
 
 > This is the announcement list for the shared tasks of the WMT Conference in Machine Translation.
 
@@ -32,7 +32,7 @@ Machine translation communities are mainly global, online lists, groups or fora.
 
 ### SIGMT
 
-**SIGMT** (sigmt@groups.google.com) is the official mailing list of [SIG MT](/../associations/sigmt.md), the ACL Special Interest Group for Machine Translation.
+**SIGMT** (sigmt@groups.google.com) is the official mailing list of [SIG MT](/associations/sigmt.md), the ACL Special Interest Group for Machine Translation.
 
 > ACL Special Interest Group for Machine Translation
 
@@ -41,7 +41,7 @@ Machine translation communities are mainly global, online lists, groups or fora.
 
 ### SIGSLT
 
-**SIGSLT** (sigslt@groups.google.com) is the official mailing list of [SIGSLT](/../associations/sigslt.md), the Special Interest Group on Spoken Language Translation of the Association for Computational Linguistics (ACL), the International Speech Communication Association (ISCA) and the European Language Resources Association (ELRA).
+**SIGSLT** (sigslt@groups.google.com) is the official mailing list of [SIGSLT](/associations/sigslt.md), the Special Interest Group on Spoken Language Translation of the Association for Computational Linguistics (ACL), the International Speech Communication Association (ISCA) and the European Language Resources Association (ELRA).
 
 > ACL/ISCA/ELRA Special Interest Group on Spoken Language Translation
 

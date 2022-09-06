@@ -14,7 +14,7 @@ QE scores are independent from the expected translation output.
 | `English` `July 30th, 2021`  | `French` `30 juillet 2021`     | `Good`               |
 | `English` `This is my home.` | `Spanish` `Este es mi inicio.` | `Bad`                |
 
-Evaluation metrics like [BLEU](/../building-and-research/metrics/bleu.md) or post-editing distance require human reference translations, but there are no human reference translations for new content.
+Evaluation metrics like [BLEU](/building-and-research/metrics/bleu.md) or post-editing distance require human reference translations, but there are no human reference translations for new content.
 
 Quality estimation models predict the quality based on either specific features or deep learning.
 
@@ -22,8 +22,8 @@ Quality estimation models predict the quality based on either specific features 
 
 Quality estimation has offline and production use cases:
 
-* [Hybrid translation](/../workflows/hybrid-translation.md)
-* Estimating [post-editing](/../workflows/post-editing.md) effort
+* [Hybrid translation](/workflows/hybrid-translation.md)
+* Estimating [post-editing](/workflows/post-editing.md) effort
 * Validating final human translations
 * Comparing machine translation systems or translation models
 * Filtering training data for machine translation
@@ -44,12 +44,12 @@ Document-level scores indicate if a machine translation output can be used witho
 
 ---
 
-In 2012, [Lucia Specia](/../people/lucia-specia.md) and Google researcher Radu Soricut organized the first *Shared Task on Quality Estimation*.
+In 2012, [Lucia Specia](/people/lucia-specia.md) and Google researcher Radu Soricut organized the first *Shared Task on Quality Estimation*.
 
 In 2018, Lucia Specia, Carolina Scarton and Gustavo Henrique Paetzold published the book *Quality Estimation for Machine Translation*.
 There was research on word-level quality estimation and paragraph-level quality estimation.
 
-In 2020, [ModelFront](/../industry/companies.md#modelfront) launched a multilingual quality estimation API.
+In 2020, [ModelFront](/industry/companies.md#modelfront) launched a multilingual quality estimation API.
 Tharindu Ranasinghe released pretrained models.
 Facebook Research launched unsupervised quality estimation internally.
 
@@ -69,7 +69,7 @@ The first framework, QuEst, was released in 2013.
 | [OpenKiwi](https://github.com/Unbabel/OpenKiwi) | Unbabel                     | Deep learning     |
 | [TransQuest](https://github.com/TharinduDR/TransQuest) | Tharindu Ranasinghe, University of Wolverhampton | Deep learning |
 
-TransQuest also includes pretrained models.  The models were pretrained with [WMT](/../events/wmt.md) data.
+TransQuest also includes pretrained models.  The models were pretrained with [WMT](/events/wmt.md) data.
 
 
 ### Providers
@@ -82,9 +82,9 @@ There are also providers that offer a quality estimation feature within another 
 
 | Provider | Product | Availability | Approach |
 | --- | --- | --- | --- |
-| [KantanAI](/../industry/companies.md#kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | Feature of machine translation API | Glassbox |
-| [ModelFront](/../industry/companies.md#modelfront) | [ModelFront risk prediction](https://modelfront.com) | System with API and console | Deep learning, multilingual, blackbox |
-| [Omniscien](/../industry/companies.md#omniscien-technologies) | [Translation Confidence Scoring and Quality Estimates](https://omniscien.com/products/language-studio/) | Feature of machine translation API | Glassbox |
+| [KantanAI](/industry/companies.md#kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | Feature of machine translation API | Glassbox |
+| [ModelFront](/industry/companies.md#modelfront) | [ModelFront risk prediction](https://modelfront.com) | System with API and console | Deep learning, multilingual, blackbox |
+| [Omniscien](/industry/companies.md#omniscien-technologies) | [Translation Confidence Scoring and Quality Estimates](https://omniscien.com/products/language-studio/) | Feature of machine translation API | Glassbox |
 
 
 ### Features and integrations
@@ -93,7 +93,7 @@ A few translation management systems have launched generally available features 
 
 | Product | Feature | Provider |
 | ---| --- | --- |
-| [KantanStream](/../industry/companies.md#kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | KantanAI |
+| [KantanStream](/industry/companies.md#kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | KantanAI |
 | Memsource | [Memsource quality estimation](https://www.memsource.com/features/translation-quality-estimation/)  | Memsource |
 | [translate5](https://translate5.net) | Risk prediction | ModelFront |
 | [GlobalDoc](https://globaldoc.com) LangXpert | Effort estimation | ModelFront |
@@ -161,4 +161,4 @@ Multilingual quality estimation uses one model or system for many language pairs
 
 ### See also
 
-- [Hybrid translation](/../workflows/hybrid-translation.md)
+- [Hybrid translation](/workflows/hybrid-translation.md)

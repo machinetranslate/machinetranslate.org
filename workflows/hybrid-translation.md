@@ -14,9 +14,9 @@ Hybrid translation requires good machine translation.
 A signification portion of the machine translated segments should be usable as-is.
 
 > ### Workflow diagram
-> The hybrid translation workflow was first presented by Microsoft, VMWare and [Unbabel](/../industry/companies.md#unbabel).
+> The hybrid translation workflow was first presented by Microsoft, VMWare and [Unbabel](/industry/companies.md#unbabel).
 >
-> ##### Slide from a [ModelFront](/../industry/companies.md#modelfront) presentation
+> ##### Slide from a [ModelFront](/industry/companies.md#modelfront) presentation
 > <img title='Hybrid translation workflow' src='/workflows/hybrid-translation-workflow.png' width='700' style='padding: 1em;' />
 
 A risk **threshold** is set.
@@ -31,7 +31,7 @@ They are either locked or marked as approved.
 
 ### Technology
 
-The key technology for a hybrid translation workflow is [**translation risk prediction**](/../quality/quality-estimation.md), which is known as *quality estimation* in the research world.
+The key technology for a hybrid translation workflow is [**translation risk prediction**](/quality/quality-estimation.md), which is known as *quality estimation* in the research world.
 
 ### Adoption
 The first companies to adopt the hybrid translation workflow built quality estimation internally.
@@ -43,4 +43,4 @@ The first companies to adopt the hybrid translation workflow built quality estim
 
 ### See also
 
-- [**Quality estimation**](/../quality/quality-estimation.md)
+- [**Quality estimation**](/quality/quality-estimation.md)

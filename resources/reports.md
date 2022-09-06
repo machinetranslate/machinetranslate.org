@@ -6,7 +6,7 @@ description: Machine translation industry reports
 
 |     |     |
 | --- | --- |
-| [Intento](/../industry/companies.md#intento) | [2022](https://inten.to/machine-translation-report-2022/) |
+| [Intento](/industry/companies.md#intento) | [2022](https://inten.to/machine-translation-report-2022/) |
 | Memsource | [2022 Q2](https://go.memsource.com/machine-translation-report) |
 | Intento | [2021](https://try.inten.to/machine-translation-report-2021/?utm_campaign=MT%20Report%202021&utm_source=machine_translate) |
 | Memsource | [2020-2022](https://www.memsource.com/resources-directory/?content_type%5B0%5D=MT%20Report) |
