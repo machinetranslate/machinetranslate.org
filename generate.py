@@ -69,7 +69,6 @@ for language in LANGUAGES:
   supported_engines = []
   for engine in ENGINES:
     supported_language_base_codes = list(set(map(base_language_code, flatten(engine['languages']))))
-    print(engine['name'] + ': ' + str(supported_language_base_codes))
     if code in supported_language_base_codes:
       supported_engines.append({
         'id': engine['id'],
@@ -124,7 +123,8 @@ for engine in ENGINES:
 
   # "Join"
   # TODO: use language/engine mapping
-  supported_language_codes = list(set(flatten(languages))).sort()
+  supported_language_codes = list(set(flatten(languages)))
+  supported_language_codes.sort()
   # TODO: language *pairs*
 
   supported_languages = []

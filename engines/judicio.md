@@ -7,18 +7,18 @@ parent: Engines
 urls:
 - https://judic.io
 supported_languages:
-- slug: english
-  code: en
-  name: English
-- slug: dutch
-  code: nl
-  name: Dutch
-- slug: french
-  code: fr
-  name: French
 - slug: german
   code: de
   name: German
+- slug: english
+  code: en
+  name: English
+- slug: french
+  code: fr
+  name: French
+- slug: dutch
+  code: nl
+  name: Dutch
 nav_order: 996
 
 ---

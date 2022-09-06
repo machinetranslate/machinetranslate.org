@@ -8,105 +8,105 @@ urls:
 - https://www.xl8.ai
 - https://api.xl8.ai/v1/trans/languages
 supported_languages:
-- slug: burmese
-  code: my
-  name: Burmese
-- slug: french
-  code: fr
-  name: French
-- slug: norwegian
-  code: 'no'
-  name: Norwegian
-- slug: romanian
-  code: ro
-  name: Romanian
-- slug: korean
-  code: ko
-  name: Korean
-- slug: hungarian
-  code: hu
-  name: Hungarian
 - slug: arabic
   code: ar
   name: Arabic
-- slug: vietnamese
-  code: vi
-  name: Vietnamese
-- slug: portuguese
-  code: pt
-  name: Portuguese
-- slug: german
-  code: de
-  name: German
-- slug: finnish
-  code: fi
-  name: Finnish
-- slug: slovak
-  code: sk
-  name: Slovak
-- slug: italian
-  code: it
-  name: Italian
-- slug: greek
-  code: el
-  name: Greek
-- slug: russian
-  code: ru
-  name: Russian
-- slug: hebrew
-  code: he
-  name: Hebrew
 - slug: czech
   code: cs
   name: Czech
-- slug: spanish
-  code: es
-  name: Spanish
-- slug: chinese
-  code: zh-tw
-  name: Chinese
 - slug: danish
   code: da
   name: Danish
-- slug: spanish
-  code: es-419
-  name: Spanish
-- slug: japanese
-  code: ja
-  name: Japanese
-- slug: burmese
-  code: my-zawgyi
-  name: Burmese
-- slug: swedish
-  code: sv
-  name: Swedish
-- slug: polish
-  code: pl
-  name: Polish
-- slug: chinese
-  code: zh-cn
-  name: Chinese
+- slug: german
+  code: de
+  name: German
+- slug: greek
+  code: el
+  name: Greek
 - slug: english
   code: en
   name: English
-- slug: dutch
-  code: nl
-  name: Dutch
-- slug: malay
-  code: ms
-  name: Malay
+- slug: spanish
+  code: es
+  name: Spanish
+- slug: spanish
+  code: es-419
+  name: Spanish
+- slug: finnish
+  code: fi
+  name: Finnish
+- slug: french
+  code: fr
+  name: French
+- slug: hebrew
+  code: he
+  name: Hebrew
+- slug: hungarian
+  code: hu
+  name: Hungarian
 - slug: indonesian
   code: id
   name: Indonesian
-- slug: turkish
-  code: tr
-  name: Turkish
+- slug: italian
+  code: it
+  name: Italian
+- slug: japanese
+  code: ja
+  name: Japanese
+- slug: korean
+  code: ko
+  name: Korean
+- slug: malay
+  code: ms
+  name: Malay
+- slug: burmese
+  code: my
+  name: Burmese
+- slug: burmese
+  code: my-zawgyi
+  name: Burmese
+- slug: dutch
+  code: nl
+  name: Dutch
+- slug: norwegian
+  code: 'no'
+  name: Norwegian
+- slug: polish
+  code: pl
+  name: Polish
+- slug: portuguese
+  code: pt
+  name: Portuguese
 - slug: portuguese
   code: pt-BR
   name: Portuguese
+- slug: romanian
+  code: ro
+  name: Romanian
+- slug: russian
+  code: ru
+  name: Russian
+- slug: slovak
+  code: sk
+  name: Slovak
+- slug: swedish
+  code: sv
+  name: Swedish
 - slug: thai
   code: th
   name: Thai
+- slug: turkish
+  code: tr
+  name: Turkish
+- slug: vietnamese
+  code: vi
+  name: Vietnamese
+- slug: chinese
+  code: zh-cn
+  name: Chinese
+- slug: chinese
+  code: zh-tw
+  name: Chinese
 nav_order: 967
 
 ---

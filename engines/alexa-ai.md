@@ -10,18 +10,18 @@ supported_languages:
 - slug: english
   code: en
   name: English
-- slug: french
-  code: fr-ca
-  name: French
-- slug: chinese
-  code: zh
-  name: Chinese
 - slug: spanish
   code: es-419
   name: Spanish
+- slug: french
+  code: fr-ca
+  name: French
 - slug: portuguese
   code: pt-br
   name: Portuguese
+- slug: chinese
+  code: zh
+  name: Chinese
 nav_order: 995
 
 ---

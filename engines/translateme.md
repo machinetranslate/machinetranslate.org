@@ -8,39 +8,39 @@ urls:
 - https://translateme.network
 - https://translateme.network/api/
 supported_languages:
-- slug: portuguese
-  code: pt
-  name: Portuguese
-- slug: spanish
-  code: es
-  name: Spanish
-- slug: zulu
-  code: zu
-  name: Zulu
-- slug: french
-  code: fr
-  name: French
-- slug: english
-  code: en
-  name: English
-- slug: dutch
-  code: nl
-  name: Dutch
 - slug: german
   code: de
   name: German
+- slug: english
+  code: en
+  name: English
+- slug: spanish
+  code: es
+  name: Spanish
+- slug: french
+  code: fr
+  name: French
+- slug: italian
+  code: it
+  name: Italian
+- slug: dutch
+  code: nl
+  name: Dutch
+- slug: portuguese
+  code: pt
+  name: Portuguese
+- slug: russian
+  code: ru
+  name: Russian
 - slug: turkish
   code: tr
   name: Turkish
 - slug: chinese
   code: zh
   name: Chinese
-- slug: italian
-  code: it
-  name: Italian
-- slug: russian
-  code: ru
-  name: Russian
+- slug: zulu
+  code: zu
+  name: Zulu
 nav_order: 989
 
 ---

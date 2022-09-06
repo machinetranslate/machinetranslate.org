@@ -8,12 +8,12 @@ urls:
 - https://www.tarjama.com/tarjama-machine-translation/
 - https://github.com/tarjama/translate
 supported_languages:
-- slug: english
-  code: en
-  name: English
 - slug: arabic
   code: ar
   name: Arabic
+- slug: english
+  code: en
+  name: English
 nav_order: 998
 
 ---
