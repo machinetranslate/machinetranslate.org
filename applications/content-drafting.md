@@ -1,4 +1,4 @@
-Authors and localization engineers can use machine translation to quickly **draft content** in a natural language. 
+Authors and localisation engineers can use machine translation to quickly **draft content** in a natural language. 
 
 ## Use cases
 
