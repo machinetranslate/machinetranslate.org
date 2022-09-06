@@ -49,19 +49,19 @@ supported_engines:
   supported_language_count: 45
 - id: lilt
   name: Lilt
-  supported_language_count: 51
+  supported_language_count: 50
 - id: modernmt
   name: ModernMT
+  supported_language_count: 52
+- id: systran
+  name: SYSTRAN
   supported_language_count: 52
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
-- id: systran
-  name: SYSTRAN
-  supported_language_count: 53
 - id: language-weaver
   name: Language Weaver
-  supported_language_count: 55
+  supported_language_count: 54
 - id: apptek
   name: AppTek
   supported_language_count: 65
@@ -73,7 +73,7 @@ supported_engines:
   supported_language_count: 70
 - id: lingmo
   name: Lingmo Translation
-  supported_language_count: 80
+  supported_language_count: 79
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
@@ -82,7 +82,7 @@ supported_engines:
   supported_language_count: 96
 - id: microsoft
   name: Microsoft Translator
-  supported_language_count: 104
+  supported_language_count: 103
 - id: google
   name: Google Translate
   supported_language_count: 108
@@ -92,10 +92,13 @@ supported_engines:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: baidu
+  name: Baidu Translate
+  supported_language_count: 197
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 970
+nav_order: 969
 
 ---
 

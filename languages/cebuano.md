@@ -22,7 +22,7 @@ supported_engines:
   supported_language_count: 110
 - id: baidu
   name: Baidu Translate
-  supported_language_count: 198
+  supported_language_count: 197
 - id: niutrans
   name: Niutrans
   supported_language_count: 302

@@ -8,12 +8,12 @@ supported_engines:
 - id: apertium
   name: Apertium
   supported_language_count: 44
+- id: systran
+  name: SYSTRAN
+  supported_language_count: 52
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
-- id: systran
-  name: SYSTRAN
-  supported_language_count: 53
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 66
@@ -28,7 +28,7 @@ supported_engines:
   supported_language_count: 96
 - id: microsoft
   name: Microsoft Translator
-  supported_language_count: 104
+  supported_language_count: 103
 - id: google
   name: Google Translate
   supported_language_count: 108
@@ -38,10 +38,13 @@ supported_engines:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: baidu
+  name: Baidu Translate
+  supported_language_count: 197
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 988
+nav_order: 987
 
 ---
 

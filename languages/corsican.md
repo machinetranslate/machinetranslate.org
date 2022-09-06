@@ -17,10 +17,13 @@ supported_engines:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: baidu
+  name: Baidu Translate
+  supported_language_count: 197
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 995
+nav_order: 994
 
 ---
 

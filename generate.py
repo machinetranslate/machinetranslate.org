@@ -21,12 +21,13 @@ def base_language_code(locale_code):
   return locale_code.split('-')[0]
 
 def _normalize_language_code(locale_code, engine_id):
-  if ENGINE_LANGUAGE[engine_id]:
-    if ENGINE_LANGUAGE[engine_id][locale_code]:
-      return ENGINE_LANGUAGE[engine_id][locale_code]
-  return None
+  if engine_id not in ENGINE_LANGUAGE:
+    return None
+  if locale_code not in ENGINE_LANGUAGE[engine_id]:
+    return None
+  return ENGINE_LANGUAGE[engine_id][locale_code]
 
-def _normalize_language_code(locale_code, engine_id):
+def normalize_language_code(locale_code, engine_id):
   return _normalize_language_code(base_language_code(locale_code), engine_id) \
     or _normalize_language_code(locale_code, '*') \
     or _normalize_language_code(base_language_code(locale_code), '*') \
@@ -55,6 +56,22 @@ def read_content(filepth):
     i += len('\n---\n')
     return page[i:].strip()
 
+SUPPORTED_LANGUAGE_BASE_CODES = {}
+for engine in ENGINES:
+  engine_id = engine['id']
+
+  codes = flatten(engine['languages'])
+
+  def normalize(code):
+    return normalize_language_code(code, engine_id)
+
+  codes = map(normalize, codes)
+
+  codes = map(base_language_code, codes)
+
+  SUPPORTED_LANGUAGE_BASE_CODES[engine_id] = list(set(codes))
+
+
 ### Write languages
 for language in LANGUAGES:
   code = language['codes'][0]
@@ -68,12 +85,12 @@ for language in LANGUAGES:
   # "Join"
   supported_engines = []
   for engine in ENGINES:
-    supported_language_base_codes = list(set(map(base_language_code, flatten(engine['languages']))))
-    if code in supported_language_base_codes:
+    codes = SUPPORTED_LANGUAGE_BASE_CODES[engine['id']]
+    if code in codes:
       supported_engines.append({
         'id': engine['id'],
         'name': engine['name'],
-        'supported_language_count': len(supported_language_base_codes)
+        'supported_language_count': len(codes)
       })    
 
   supported_engines.sort(key=lambda engine: engine['supported_language_count'])
@@ -111,9 +128,9 @@ for engine in ENGINES:
   if type(name) is not str:
     raise Exception(name)
 
-  slug = engine['id']
-  if type(slug) is not str:
-    raise Exception(slug)
+  engine_id = engine['id']
+  if type(engine_id) is not str:
+    raise Exception(engine_id)
 
   languages = engine['languages']
   if type(languages) is not list:
@@ -133,12 +150,14 @@ for engine in ENGINES:
     language_name = None
     language_slug = None
     for language in LANGUAGES:
-      if base_language_code(code) in language['codes']:
+      normalized_code = normalize_language_code(code, engine_id)
+      if normalized_code in language['codes']:
         language_name = language['names'][0]
         language_slug = slugify(language_name)
     supported_languages.append({
       'slug': language_slug,
       'code': code,
+      'normalized_code': normalized_code,
       'name': language_name
     })
   
@@ -146,7 +165,7 @@ for engine in ENGINES:
     'layout': 'engine',
     'title': name,
     'description': f'The { name } machine translation API',
-    'id': slug,
+    'id': engine_id,
     'parent': 'Engines',
     'urls': urls,
     'supported_languages': supported_languages,
@@ -155,7 +174,7 @@ for engine in ENGINES:
 
   content = read_content(filepath)
 
-  filepath = f'engines/{ slug }.md'
+  filepath = f'engines/{ engine_id }.md'
   with open(filepath, 'w', encoding='utf8') as f:
     f.write(f'''\
 ---

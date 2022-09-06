@@ -9,18 +9,23 @@ urls:
 supported_languages:
 - slug: english
   code: en
+  normalized_code: en
   name: English
-- slug: spanish
+- slug: null
   code: es-419
-  name: Spanish
-- slug: french
+  normalized_code: es-419
+  name: null
+- slug: null
   code: fr-ca
-  name: French
-- slug: portuguese
+  normalized_code: fr-ca
+  name: null
+- slug: null
   code: pt-br
-  name: Portuguese
+  normalized_code: pt-br
+  name: null
 - slug: chinese
   code: zh
+  normalized_code: zh
   name: Chinese
 nav_order: 995
 

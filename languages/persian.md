@@ -13,13 +13,13 @@ supported_engines:
   supported_language_count: 45
 - id: lilt
   name: Lilt
-  supported_language_count: 51
+  supported_language_count: 50
 - id: systran
   name: SYSTRAN
-  supported_language_count: 53
+  supported_language_count: 52
 - id: language-weaver
   name: Language Weaver
-  supported_language_count: 55
+  supported_language_count: 54
 - id: apptek
   name: AppTek
   supported_language_count: 65
@@ -31,13 +31,13 @@ supported_engines:
   supported_language_count: 70
 - id: lingmo
   name: Lingmo Translation
-  supported_language_count: 80
+  supported_language_count: 79
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
 - id: microsoft
   name: Microsoft Translator
-  supported_language_count: 104
+  supported_language_count: 103
 - id: google
   name: Google Translate
   supported_language_count: 108

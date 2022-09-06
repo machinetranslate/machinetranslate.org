@@ -16,13 +16,13 @@ supported_engines:
   supported_language_count: 45
 - id: language-weaver
   name: Language Weaver
-  supported_language_count: 55
+  supported_language_count: 54
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
 - id: microsoft
   name: Microsoft Translator
-  supported_language_count: 104
+  supported_language_count: 103
 - id: google
   name: Google Translate
   supported_language_count: 108
@@ -32,10 +32,13 @@ supported_engines:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: baidu
+  name: Baidu Translate
+  supported_language_count: 197
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 990
+nav_order: 989
 
 ---
 

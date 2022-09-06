@@ -37,6 +37,9 @@ parent: Engines
       {% if language.slug %}
       <a href="/{{ language.slug }}">
         <code>{{ language.code }}</code> {{ language.name }}
+        {% if language.normalized_code != language.code %}
+          (<code>{{ language.normalized_code }}</code>)
+        {% endif %}
       </a>
       {% else %}
       <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes" target="_blank">

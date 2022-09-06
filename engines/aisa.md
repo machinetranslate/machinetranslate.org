@@ -9,55 +9,72 @@ urls:
 supported_languages:
 - slug: arabic
   code: ar
+  normalized_code: ar
   name: Arabic
 - slug: german
   code: de
+  normalized_code: de
   name: German
-- slug: spanish
+- slug: null
   code: es-es
-  name: Spanish
-- slug: french
+  normalized_code: es-es
+  name: null
+- slug: null
   code: fr-fr
-  name: French
+  normalized_code: fr-fr
+  name: null
 - slug: hindi
   code: hi
+  normalized_code: hi
   name: Hindi
 - slug: null
   code: huyu
+  normalized_code: huyu
   name: null
 - slug: indonesian
   code: id
+  normalized_code: id
   name: Indonesian
 - slug: italian
   code: it
+  normalized_code: it
   name: Italian
 - slug: japanese
   code: ja
+  normalized_code: ja
   name: Japanese
 - slug: korean
   code: ko
+  normalized_code: ko
   name: Korean
 - slug: malay
   code: ms
+  normalized_code: ms
   name: Malay
-- slug: portuguese
+- slug: null
   code: pt-pt
-  name: Portuguese
+  normalized_code: pt-pt
+  name: null
 - slug: russian
   code: ru
+  normalized_code: ru
   name: Russian
 - slug: thai
   code: th
+  normalized_code: th
   name: Thai
 - slug: vietnamese
   code: vi
+  normalized_code: vi
   name: Vietnamese
-- slug: chinese
+- slug: null
   code: zh-cn
-  name: Chinese
-- slug: chinese
+  normalized_code: zh-cn
+  name: null
+- slug: null
   code: zh-tw
-  name: Chinese
+  normalized_code: zh-tw
+  name: null
 nav_order: 983
 
 ---

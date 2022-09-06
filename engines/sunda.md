@@ -10,9 +10,11 @@ urls:
 supported_languages:
 - slug: english
   code: en
+  normalized_code: en
   name: English
 - slug: finnish
   code: fi
+  normalized_code: fi
   name: Finnish
 nav_order: 998
 

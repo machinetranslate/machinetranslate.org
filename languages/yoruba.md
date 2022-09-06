@@ -7,7 +7,7 @@ parent: Languages
 supported_engines:
 - id: lingmo
   name: Lingmo Translation
-  supported_language_count: 80
+  supported_language_count: 79
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96
@@ -20,10 +20,13 @@ supported_engines:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: baidu
+  name: Baidu Translate
+  supported_language_count: 197
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 994
+nav_order: 993
 
 ---
 

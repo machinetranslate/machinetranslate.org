@@ -13,7 +13,7 @@ supported_engines:
   supported_language_count: 52
 - id: language-weaver
   name: Language Weaver
-  supported_language_count: 55
+  supported_language_count: 54
 - id: apptek
   name: AppTek
   supported_language_count: 65
@@ -28,7 +28,7 @@ supported_engines:
   supported_language_count: 96
 - id: microsoft
   name: Microsoft Translator
-  supported_language_count: 104
+  supported_language_count: 103
 - id: google
   name: Google Translate
   supported_language_count: 108

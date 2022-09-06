@@ -10,28 +10,36 @@ urls:
 supported_languages:
 - slug: german
   code: de
+  normalized_code: de
   name: German
 - slug: english
   code: en
+  normalized_code: en
   name: English
 - slug: spanish
   code: es
+  normalized_code: es
   name: Spanish
 - slug: french
   code: fr
+  normalized_code: fr
   name: French
 - slug: indonesian
   code: id
+  normalized_code: id
   name: Indonesian
 - slug: japanese
   code: ja
+  normalized_code: ja
   name: Japanese
 - slug: korean
   code: ko
+  normalized_code: ko
   name: Korean
-- slug: chinese
+- slug: null
   code: zh-cn
-  name: Chinese
+  normalized_code: zh-cn
+  name: null
 nav_order: 992
 
 ---
