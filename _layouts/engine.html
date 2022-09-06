@@ -14,15 +14,12 @@ parent: Engines
 
 <blockquote>
 
-  <dl>
-    <dt>Supported languages</dt>
-    <dd><code>{{ page.supported_languages | size }}</code></dd>
-  </dl>
+  <p>{{ page.supported_languages | size }} supported languages</p>
 
   <ul>
     {% for url in page.urls %}
     <li>
-      <a href="{{ url }}">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' }}</a>
+      <a href="{{ url }}">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 25 }}</a>
     </li>
     {% endfor %}
   </ul>
