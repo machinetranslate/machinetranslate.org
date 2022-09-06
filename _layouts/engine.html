@@ -37,8 +37,8 @@ parent: Engines
       {% if language.slug %}
       <a href="/{{ language.slug }}">
         <code>{{ language.code }}</code> {{ language.name }}
-        {% if language.normalized_base_code != language.code %}
-          (<code>{{ language.normalized_base_code }}</code>)
+        {% if language.normalized_code != language.code %}
+          (<code>{{ language.normalized_code }}</code>)
         {% endif %}
       </a>
       {% else %}
