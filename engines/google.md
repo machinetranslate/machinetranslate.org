@@ -432,14 +432,14 @@ supported_languages:
   code: yo
   normalized_code: yo
   name: Yoruba
-- slug: null
+- slug: chinese
   code: zh-cn
   normalized_code: zh-cn
-  name: null
-- slug: null
+  name: Chinese
+- slug: chinese
   code: zh-tw
   normalized_code: zh-tw
-  name: null
+  name: Chinese
 - slug: zulu
   code: zu
   normalized_code: zu

@@ -44,14 +44,14 @@ supported_languages:
   code: pl
   normalized_code: pl
   name: Polish
-- slug: null
+- slug: portuguese
   code: pt-br
   normalized_code: pt-br
-  name: null
-- slug: null
+  name: Portuguese
+- slug: portuguese
   code: pt-pt
   normalized_code: pt-pt
-  name: null
+  name: Portuguese
 - slug: russian
   code: ru
   normalized_code: ru

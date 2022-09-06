@@ -151,7 +151,7 @@ for engine in ENGINES:
     language_slug = None
     for language in LANGUAGES:
       normalized_code = normalize_language_code(code, engine_id)
-      if normalized_code in language['codes']:
+      if base_language_code(normalized_code) in language['codes']:
         language_name = language['names'][0]
         language_slug = slugify(language_name)
     supported_languages.append({

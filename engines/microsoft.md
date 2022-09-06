@@ -116,10 +116,10 @@ supported_languages:
   code: fr
   normalized_code: fr
   name: French
-- slug: null
+- slug: french
   code: fr-ca
   normalized_code: fr-ca
-  name: null
+  name: French
 - slug: irish
   code: ga
   normalized_code: ga
@@ -252,14 +252,14 @@ supported_languages:
   code: ml
   normalized_code: ml
   name: Malayalam
-- slug: null
+- slug: mongolian
   code: mn-Cyrl
   normalized_code: mn-Cyrl
-  name: null
-- slug: null
+  name: Mongolian
+- slug: mongolian
   code: mn-Mong
   normalized_code: mn-Mong
-  name: null
+  name: Mongolian
 - slug: marathi
   code: mr
   normalized_code: mr
@@ -320,10 +320,10 @@ supported_languages:
   code: pt
   normalized_code: pt
   name: Portuguese
-- slug: null
+- slug: portuguese
   code: pt-pt
   normalized_code: pt-pt
-  name: null
+  name: Portuguese
 - slug: romanian
   code: ro
   normalized_code: ro
@@ -352,14 +352,14 @@ supported_languages:
   code: sq
   normalized_code: sq
   name: Albanian
-- slug: null
+- slug: serbian
   code: sr-Cyrl
   normalized_code: sr-Cyrl
-  name: null
-- slug: null
+  name: Serbian
+- slug: serbian
   code: sr-Latn
   normalized_code: sr-Latn
-  name: null
+  name: Serbian
 - slug: swedish
   code: sv
   normalized_code: sv
@@ -440,14 +440,14 @@ supported_languages:
   code: yue
   normalized_code: yue
   name: null
-- slug: null
+- slug: chinese
   code: zh-Hans
   normalized_code: zh-Hans
-  name: null
-- slug: null
+  name: Chinese
+- slug: chinese
   code: zh-Hant
   normalized_code: zh-Hant
-  name: null
+  name: Chinese
 - slug: zulu
   code: zu
   normalized_code: zu

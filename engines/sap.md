@@ -36,14 +36,14 @@ supported_languages:
   code: el
   normalized_code: el
   name: Greek
-- slug: null
+- slug: english
   code: en-us
   normalized_code: en-us
-  name: null
-- slug: null
+  name: English
+- slug: spanish
   code: es-es
   normalized_code: es-es
-  name: null
+  name: Spanish
 - slug: estonian
   code: et
   normalized_code: et
@@ -52,10 +52,10 @@ supported_languages:
   code: fi
   normalized_code: fi
   name: Finnish
-- slug: null
+- slug: french
   code: fr-fr
   normalized_code: fr-fr
-  name: null
+  name: French
 - slug: hebrew
   code: he
   normalized_code: he
@@ -112,10 +112,10 @@ supported_languages:
   code: pl
   normalized_code: pl
   name: Polish
-- slug: null
+- slug: portuguese
   code: pt-br
   normalized_code: pt-br
-  name: null
+  name: Portuguese
 - slug: romanian
   code: ro
   normalized_code: ro
@@ -132,10 +132,10 @@ supported_languages:
   code: sl
   normalized_code: sl
   name: Slovenian
-- slug: null
+- slug: serbian
   code: sr-Latn
   normalized_code: sr-Latn
-  name: null
+  name: Serbian
 - slug: swedish
   code: sv
   normalized_code: sv
@@ -156,14 +156,14 @@ supported_languages:
   code: vi
   normalized_code: vi
   name: Vietnamese
-- slug: null
+- slug: chinese
   code: zh-cn
   normalized_code: zh-cn
-  name: null
-- slug: null
+  name: Chinese
+- slug: chinese
   code: zh-tw
   normalized_code: zh-tw
-  name: null
+  name: Chinese
 nav_order: 961
 
 ---

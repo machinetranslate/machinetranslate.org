@@ -216,14 +216,14 @@ supported_languages:
   code: fin
   normalized_code: fi
   name: Finnish
-- slug: null
+- slug: french
   code: fr-ca
   normalized_code: fr-ca
-  name: null
-- slug: null
+  name: French
+- slug: french
   code: fr-fr
   normalized_code: fr-fr
-  name: null
+  name: French
 - slug: null
   code: frm
   normalized_code: frm
@@ -580,14 +580,14 @@ supported_languages:
   code: pol
   normalized_code: pl
   name: Polish
-- slug: null
+- slug: portuguese
   code: pt-br
   normalized_code: pt-br
-  name: null
-- slug: null
+  name: Portuguese
+- slug: portuguese
   code: pt-pt
   normalized_code: pt-pt
-  name: null
+  name: Portuguese
 - slug: pashto
   code: pus
   normalized_code: ps
@@ -800,14 +800,14 @@ supported_languages:
   code: zaz
   normalized_code: zaz
   name: null
-- slug: null
+- slug: chinese
   code: zh-cn
   normalized_code: zh-cn
-  name: null
-- slug: null
+  name: Chinese
+- slug: chinese
   code: zh-tw
   normalized_code: zh-tw
-  name: null
+  name: Chinese
 - slug: zulu
   code: zul
   normalized_code: zu

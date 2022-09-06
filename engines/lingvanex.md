@@ -8,442 +8,442 @@ urls:
 - https://lingvanex.com
 - https://docs.lingvanex.com/reference/user-guide
 supported_languages:
-- slug: null
+- slug: afrikaans
   code: af-za
   normalized_code: af-za
-  name: null
+  name: Afrikaans
 - slug: null
   code: am-et
   normalized_code: am-et
   name: null
-- slug: null
+- slug: arabic
   code: ar-sa
   normalized_code: ar-sa
-  name: null
-- slug: null
+  name: Arabic
+- slug: azerbaijani
   code: az-az
   normalized_code: az-az
-  name: null
-- slug: null
+  name: Azerbaijani
+- slug: belarusian
   code: be-by
   normalized_code: be-by
-  name: null
-- slug: null
+  name: Belarusian
+- slug: bulgarian
   code: bg-bg
   normalized_code: bg-bg
-  name: null
-- slug: null
+  name: Bulgarian
+- slug: bengali
   code: bn-bd
   normalized_code: bn-bd
-  name: null
-- slug: null
+  name: Bengali
+- slug: bosnian
   code: bs-ba
   normalized_code: bs-ba
-  name: null
-- slug: null
+  name: Bosnian
+- slug: catalan
   code: ca-es
   normalized_code: ca-es
-  name: null
-- slug: null
+  name: Catalan
+- slug: cebuano
   code: ceb-ph
   normalized_code: ceb-ph
-  name: null
-- slug: null
+  name: Cebuano
+- slug: corsican
   code: co-fr
   normalized_code: co-fr
-  name: null
-- slug: null
+  name: Corsican
+- slug: czech
   code: cs-cz
   normalized_code: cs-cz
-  name: null
-- slug: null
+  name: Czech
+- slug: welsh
   code: cy-gb
   normalized_code: cy-gb
-  name: null
-- slug: null
+  name: Welsh
+- slug: danish
   code: da-dk
   normalized_code: da-dk
-  name: null
-- slug: null
+  name: Danish
+- slug: german
   code: de-de
   normalized_code: de-de
-  name: null
-- slug: null
+  name: German
+- slug: greek
   code: el-gr
   normalized_code: el-gr
-  name: null
-- slug: null
+  name: Greek
+- slug: english
   code: en-us
   normalized_code: en-us
-  name: null
+  name: English
 - slug: esperanto
   code: eo
   normalized_code: eo
   name: Esperanto
-- slug: null
+- slug: spanish
   code: es-es
   normalized_code: es-es
-  name: null
-- slug: null
+  name: Spanish
+- slug: estonian
   code: et-ee
   normalized_code: et-ee
-  name: null
-- slug: null
+  name: Estonian
+- slug: basque
   code: eu-es
   normalized_code: eu-es
-  name: null
-- slug: null
+  name: Basque
+- slug: persian
   code: fa-ir
   normalized_code: fa-ir
-  name: null
-- slug: null
+  name: Persian
+- slug: finnish
   code: fi-fi
   normalized_code: fi-fi
-  name: null
-- slug: null
+  name: Finnish
+- slug: french
   code: fr-ca
   normalized_code: fr-ca
-  name: null
-- slug: null
+  name: French
+- slug: frisian
   code: fy-nl
   normalized_code: fy-nl
-  name: null
-- slug: null
+  name: Frisian
+- slug: irish
   code: ga-ie
   normalized_code: ga-ie
-  name: null
-- slug: null
+  name: Irish
+- slug: scottish-gaelic
   code: gd-gb
   normalized_code: gd-gb
-  name: null
-- slug: null
+  name: Scottish Gaelic
+- slug: galician
   code: gl-es
   normalized_code: gl-es
-  name: null
-- slug: null
+  name: Galician
+- slug: gujarati
   code: gu-in
   normalized_code: gu-in
-  name: null
-- slug: null
+  name: Gujarati
+- slug: hausa
   code: ha-ne
   normalized_code: ha-ne
-  name: null
-- slug: null
+  name: Hausa
+- slug: hawaiian
   code: haw-us
   normalized_code: haw-us
-  name: null
-- slug: null
+  name: Hawaiian
+- slug: hebrew
   code: he-il
   normalized_code: he-il
-  name: null
-- slug: null
+  name: Hebrew
+- slug: hindi
   code: hi-in
   normalized_code: hi-in
-  name: null
+  name: Hindi
 - slug: hmong
   code: hmn-cn
   normalized_code: mww
   name: Hmong
-- slug: null
+- slug: croatian
   code: hr-hr
   normalized_code: hr-hr
-  name: null
-- slug: null
+  name: Croatian
+- slug: haitian
   code: ht-ht
   normalized_code: ht-ht
-  name: null
-- slug: null
+  name: Haitian
+- slug: hungarian
   code: hu-hu
   normalized_code: hu-hu
-  name: null
-- slug: null
+  name: Hungarian
+- slug: armenian
   code: hy-am
   normalized_code: hy-am
-  name: null
-- slug: null
+  name: Armenian
+- slug: indonesian
   code: id-id
   normalized_code: id-id
-  name: null
-- slug: null
+  name: Indonesian
+- slug: igbo
   code: ig-ng
   normalized_code: ig-ng
-  name: null
-- slug: null
+  name: Igbo
+- slug: icelandic
   code: is-is
   normalized_code: is-is
-  name: null
-- slug: null
+  name: Icelandic
+- slug: italian
   code: it-it
   normalized_code: it-it
-  name: null
-- slug: null
+  name: Italian
+- slug: japanese
   code: ja-jp
   normalized_code: ja-jp
-  name: null
-- slug: null
+  name: Japanese
+- slug: javanese
   code: jv-id
   normalized_code: jv-id
-  name: null
-- slug: null
+  name: Javanese
+- slug: georgian
   code: ka-ge
   normalized_code: ka-ge
-  name: null
-- slug: null
+  name: Georgian
+- slug: kazakh
   code: kk-kz
   normalized_code: kk-kz
-  name: null
-- slug: null
+  name: Kazakh
+- slug: khmer
   code: km-kh
   normalized_code: km-kh
-  name: null
-- slug: null
+  name: Khmer
+- slug: kannada
   code: kn-in
   normalized_code: kn-in
-  name: null
-- slug: null
+  name: Kannada
+- slug: korean
   code: ko-kr
   normalized_code: ko-kr
-  name: null
-- slug: null
+  name: Korean
+- slug: kurdish
   code: ku-ir
   normalized_code: ku-ir
-  name: null
-- slug: null
+  name: Kurdish
+- slug: kyrgyz
   code: ky-kg
   normalized_code: ky-kg
-  name: null
-- slug: null
+  name: Kyrgyz
+- slug: latin
   code: la-vat
   normalized_code: la-vat
-  name: null
-- slug: null
+  name: Latin
+- slug: luxembourgish
   code: lb-lu
   normalized_code: lb-lu
-  name: null
-- slug: null
+  name: Luxembourgish
+- slug: lao
   code: lo-la
   normalized_code: lo-la
-  name: null
-- slug: null
+  name: Lao
+- slug: lithuanian
   code: lt-lt
   normalized_code: lt-lt
-  name: null
-- slug: null
+  name: Lithuanian
+- slug: latvian
   code: lv-lv
   normalized_code: lv-lv
-  name: null
-- slug: null
+  name: Latvian
+- slug: malagasy
   code: mg-mg
   normalized_code: mg-mg
-  name: null
-- slug: null
+  name: Malagasy
+- slug: maori
   code: mi-nz
   normalized_code: mi-nz
-  name: null
-- slug: null
+  name: Maori
+- slug: macedonian
   code: mk-mk
   normalized_code: mk-mk
-  name: null
-- slug: null
+  name: Macedonian
+- slug: malayalam
   code: ml-in
   normalized_code: ml-in
-  name: null
-- slug: null
+  name: Malayalam
+- slug: mongolian
   code: mn-mn
   normalized_code: mn-mn
-  name: null
-- slug: null
+  name: Mongolian
+- slug: marathi
   code: mr-in
   normalized_code: mr-in
-  name: null
-- slug: null
+  name: Marathi
+- slug: malay
   code: ms-my
   normalized_code: ms-my
-  name: null
-- slug: null
+  name: Malay
+- slug: maltese
   code: mt-mt
   normalized_code: mt-mt
-  name: null
-- slug: null
+  name: Maltese
+- slug: burmese
   code: my-mm
   normalized_code: my-mm
-  name: null
-- slug: null
+  name: Burmese
+- slug: nepali
   code: ne-np
   normalized_code: ne-np
-  name: null
-- slug: null
+  name: Nepali
+- slug: dutch
   code: nl-nl
   normalized_code: nl-nl
-  name: null
-- slug: null
+  name: Dutch
+- slug: norwegian
   code: no-no
   normalized_code: no-no
-  name: null
-- slug: null
+  name: Norwegian
+- slug: chewa
   code: ny-mw
   normalized_code: ny-mw
-  name: null
-- slug: null
+  name: Chewa
+- slug: oriya
   code: or-or
   normalized_code: or-or
-  name: null
-- slug: null
+  name: Oriya
+- slug: punjabi
   code: pa-pk
   normalized_code: pa-pk
-  name: null
-- slug: null
+  name: Punjabi
+- slug: polish
   code: pl-pl
   normalized_code: pl-pl
-  name: null
-- slug: null
+  name: Polish
+- slug: pashto
   code: ps-af
   normalized_code: ps-af
-  name: null
-- slug: null
+  name: Pashto
+- slug: portuguese
   code: pt-pt
   normalized_code: pt-pt
-  name: null
-- slug: null
+  name: Portuguese
+- slug: romanian
   code: ro-ro
   normalized_code: ro-ro
-  name: null
-- slug: null
+  name: Romanian
+- slug: russian
   code: ru-ru
   normalized_code: ru-ru
-  name: null
-- slug: null
+  name: Russian
+- slug: kinyarwanda
   code: rw-rw
   normalized_code: rw-rw
-  name: null
-- slug: null
+  name: Kinyarwanda
+- slug: sindhi
   code: sd-pk
   normalized_code: sd-pk
-  name: null
-- slug: null
+  name: Sindhi
+- slug: sinhala
   code: si-lk
   normalized_code: si-lk
-  name: null
-- slug: null
+  name: Sinhala
+- slug: slovak
   code: sk-sk
   normalized_code: sk-sk
-  name: null
-- slug: null
+  name: Slovak
+- slug: slovenian
   code: sl-si
   normalized_code: sl-si
-  name: null
-- slug: null
+  name: Slovenian
+- slug: samoan
   code: sm-ws
   normalized_code: sm-ws
-  name: null
-- slug: null
+  name: Samoan
+- slug: shona
   code: sn-zw
   normalized_code: sn-zw
-  name: null
-- slug: null
+  name: Shona
+- slug: somali
   code: so-so
   normalized_code: so-so
-  name: null
-- slug: null
+  name: Somali
+- slug: albanian
   code: sq-al
   normalized_code: sq-al
-  name: null
-- slug: null
+  name: Albanian
+- slug: serbian
   code: sr-Cyrl-rs
   normalized_code: sr-Cyrl-rs
-  name: null
-- slug: null
+  name: Serbian
+- slug: sotho
   code: st-ls
   normalized_code: st-ls
-  name: null
-- slug: null
+  name: Sotho
+- slug: sundanese
   code: su-id
   normalized_code: su-id
-  name: null
-- slug: null
+  name: Sundanese
+- slug: swedish
   code: sv-se
   normalized_code: sv-se
-  name: null
-- slug: null
+  name: Swedish
+- slug: swahili
   code: sw-tz
   normalized_code: sw-tz
-  name: null
-- slug: null
+  name: Swahili
+- slug: tamil
   code: ta-in
   normalized_code: ta-in
-  name: null
-- slug: null
+  name: Tamil
+- slug: telugu
   code: te-in
   normalized_code: te-in
-  name: null
-- slug: null
+  name: Telugu
+- slug: tajik
   code: tg-tj
   normalized_code: tg-tj
-  name: null
-- slug: null
+  name: Tajik
+- slug: thai
   code: th-th
   normalized_code: th-th
-  name: null
-- slug: null
+  name: Thai
+- slug: turkmen
   code: tk-tk
   normalized_code: tk-tk
-  name: null
-- slug: null
+  name: Turkmen
+- slug: tagalog
   code: tl-ph
   normalized_code: tl-ph
-  name: null
-- slug: null
+  name: Tagalog
+- slug: turkish
   code: tr-tr
   normalized_code: tr-tr
-  name: null
-- slug: null
+  name: Turkish
+- slug: tatar
   code: tt-tt
   normalized_code: tt-tt
-  name: null
-- slug: null
+  name: Tatar
+- slug: uyghur
   code: ug-ug
   normalized_code: ug-ug
-  name: null
-- slug: null
+  name: Uyghur
+- slug: ukrainian
   code: uk-ua
   normalized_code: uk-ua
-  name: null
-- slug: null
+  name: Ukrainian
+- slug: urdu
   code: ur-pk
   normalized_code: ur-pk
-  name: null
-- slug: null
+  name: Urdu
+- slug: uzbek
   code: uz-uz
   normalized_code: uz-uz
-  name: null
-- slug: null
+  name: Uzbek
+- slug: vietnamese
   code: vi-vn
   normalized_code: vi-vn
-  name: null
-- slug: null
+  name: Vietnamese
+- slug: xhosa
   code: xh-za
   normalized_code: xh-za
-  name: null
-- slug: null
+  name: Xhosa
+- slug: yiddish
   code: yi-il
   normalized_code: yi-il
-  name: null
-- slug: null
+  name: Yiddish
+- slug: yoruba
   code: yo-ng
   normalized_code: yo-ng
-  name: null
-- slug: null
+  name: Yoruba
+- slug: chinese
   code: zh-Hans-cn
   normalized_code: zh-Hans-cn
-  name: null
-- slug: null
+  name: Chinese
+- slug: chinese
   code: zh-Hant-tw
   normalized_code: zh-Hant-tw
-  name: null
-- slug: null
+  name: Chinese
+- slug: zulu
   code: zu-za
   normalized_code: zu-za
-  name: null
+  name: Zulu
 nav_order: 891
 
 ---

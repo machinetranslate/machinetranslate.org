@@ -36,10 +36,10 @@ supported_languages:
   code: ko
   normalized_code: ko
   name: Korean
-- slug: null
+- slug: chinese
   code: zh-cn
   normalized_code: zh-cn
-  name: null
+  name: Chinese
 nav_order: 992
 
 ---

@@ -60,18 +60,18 @@ supported_languages:
   code: en
   normalized_code: en
   name: English
-- slug: null
+- slug: spanish
   code: es-es
   normalized_code: es-es
-  name: null
-- slug: null
+  name: Spanish
+- slug: spanish
   code: es-mx
   normalized_code: es-mx
-  name: null
-- slug: null
+  name: Spanish
+- slug: spanish
   code: es-us
   normalized_code: es-us
-  name: null
+  name: Spanish
 - slug: estonian
   code: et
   normalized_code: et
@@ -80,10 +80,10 @@ supported_languages:
   code: fa
   normalized_code: fa
   name: Persian
-- slug: null
+- slug: persian
   code: fa-prs
   normalized_code: fa-prs
-  name: null
+  name: Persian
 - slug: finnish
   code: fi
   normalized_code: fi
@@ -92,14 +92,14 @@ supported_languages:
   code: fr
   normalized_code: fr
   name: French
-- slug: null
+- slug: french
   code: fr-ca
   normalized_code: fr-ca
-  name: null
-- slug: null
+  name: French
+- slug: french
   code: fr-fr
   normalized_code: fr-fr
-  name: null
+  name: French
 - slug: gujarati
   code: gu
   normalized_code: gu
@@ -212,14 +212,14 @@ supported_languages:
   code: ps
   normalized_code: ps
   name: Pashto
-- slug: null
+- slug: portuguese
   code: pt-br
   normalized_code: pt-br
-  name: null
-- slug: null
+  name: Portuguese
+- slug: portuguese
   code: pt-pt
   normalized_code: pt-pt
-  name: null
+  name: Portuguese
 - slug: romanian
   code: ro
   normalized_code: ro
@@ -248,10 +248,10 @@ supported_languages:
   code: sr
   normalized_code: sr
   name: Serbian
-- slug: null
+- slug: serbian
   code: sr-Latn
   normalized_code: sr-Latn
-  name: null
+  name: Serbian
 - slug: swedish
   code: sv
   normalized_code: sv
@@ -292,14 +292,14 @@ supported_languages:
   code: uz
   normalized_code: uz
   name: Uzbek
-- slug: null
+- slug: chinese
   code: zh-cn
   normalized_code: zh-cn
-  name: null
-- slug: null
+  name: Chinese
+- slug: chinese
   code: zh-tw
   normalized_code: zh-tw
-  name: null
+  name: Chinese
 nav_order: 927
 
 ---

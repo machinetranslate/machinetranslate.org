@@ -16,14 +16,14 @@ supported_languages:
   code: en
   normalized_code: en
   name: English
-- slug: null
+- slug: spanish
   code: es-es
   normalized_code: es-es
-  name: null
-- slug: null
+  name: Spanish
+- slug: french
   code: fr-fr
   normalized_code: fr-fr
-  name: null
+  name: French
 - slug: indonesian
   code: id
   normalized_code: id
@@ -40,10 +40,10 @@ supported_languages:
   code: ko
   normalized_code: ko
   name: Korean
-- slug: null
+- slug: portuguese
   code: pt-pt
   normalized_code: pt-pt
-  name: null
+  name: Portuguese
 - slug: russian
   code: ru
   normalized_code: ru
@@ -56,14 +56,14 @@ supported_languages:
   code: vi
   normalized_code: vi
   name: Vietnamese
-- slug: null
+- slug: chinese
   code: zh-cn
   normalized_code: zh-cn
-  name: null
-- slug: null
+  name: Chinese
+- slug: chinese
   code: zh-tw
   normalized_code: zh-tw
-  name: null
+  name: Chinese
 nav_order: 986
 
 ---

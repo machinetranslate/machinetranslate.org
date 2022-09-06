@@ -32,14 +32,14 @@ supported_languages:
   code: en
   normalized_code: en
   name: English
-- slug: null
+- slug: english
   code: en-gb
   normalized_code: en-gb
-  name: null
-- slug: null
+  name: English
+- slug: english
   code: en-us
   normalized_code: en-us
-  name: null
+  name: English
 - slug: spanish
   code: es
   normalized_code: es
@@ -92,14 +92,14 @@ supported_languages:
   code: pt
   normalized_code: pt
   name: Portuguese
-- slug: null
+- slug: portuguese
   code: pt-br
   normalized_code: pt-br
-  name: null
-- slug: null
+  name: Portuguese
+- slug: portuguese
   code: pt-pt
   normalized_code: pt-pt
-  name: null
+  name: Portuguese
 - slug: romanian
   code: ro
   normalized_code: ro
@@ -124,14 +124,14 @@ supported_languages:
   code: tr
   normalized_code: tr
   name: Turkish
-- slug: null
+- slug: chinese
   code: zh-cn
   normalized_code: zh-cn
-  name: null
-- slug: null
+  name: Chinese
+- slug: chinese
   code: zh-tw
   normalized_code: zh-tw
-  name: null
+  name: Chinese
 - slug: null
   code: zn-cn
   normalized_code: zn-cn

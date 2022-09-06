@@ -20,10 +20,10 @@ supported_languages:
   code: as-in
   normalized_code: as-in
   name: null
-- slug: null
+- slug: azerbaijani
   code: az-tr
   normalized_code: az-tr
-  name: null
+  name: Azerbaijani
 - slug: belarusian
   code: be
   normalized_code: be
@@ -32,10 +32,10 @@ supported_languages:
   code: bg
   normalized_code: bg
   name: Bulgarian
-- slug: null
+- slug: bengali
   code: bn-in
   normalized_code: bn-in
-  name: null
+  name: Bengali
 - slug: null
   code: bo
   normalized_code: bo
@@ -68,18 +68,18 @@ supported_languages:
   code: el
   normalized_code: el
   name: Greek
-- slug: null
+- slug: english
   code: en-au
   normalized_code: en-au
-  name: null
-- slug: null
+  name: English
+- slug: english
   code: en-gb
   normalized_code: en-gb
-  name: null
-- slug: null
+  name: English
+- slug: english
   code: en-us
   normalized_code: en-us
-  name: null
+  name: English
 - slug: spanish
   code: es
   normalized_code: es
@@ -108,14 +108,14 @@ supported_languages:
   code: gl
   normalized_code: gl
   name: Galician
-- slug: null
+- slug: gujarati
   code: gu-in
   normalized_code: gu-in
-  name: null
-- slug: null
+  name: Gujarati
+- slug: hausa
   code: ha-gh
   normalized_code: ha-gh
-  name: null
+  name: Hausa
 - slug: hebrew
   code: he
   normalized_code: he
@@ -136,10 +136,10 @@ supported_languages:
   code: id
   normalized_code: id
   name: Indonesian
-- slug: null
+- slug: igbo
   code: ig-ng
   normalized_code: ig-ng
-  name: null
+  name: Igbo
 - slug: italian
   code: it
   normalized_code: it
@@ -152,30 +152,30 @@ supported_languages:
   code: ka
   normalized_code: ka
   name: Georgian
-- slug: null
+- slug: kazakh
   code: kk-kz
   normalized_code: kk-kz
-  name: null
-- slug: null
+  name: Kazakh
+- slug: khmer
   code: km-kh
   normalized_code: km-kh
-  name: null
-- slug: null
+  name: Khmer
+- slug: kannada
   code: kn-in
   normalized_code: kn-in
-  name: null
+  name: Kannada
 - slug: korean
   code: ko
   normalized_code: ko
   name: Korean
-- slug: null
+- slug: kurdish
   code: ku-ir
   normalized_code: ku-ir
-  name: null
-- slug: null
+  name: Kurdish
+- slug: lao
   code: lo-la
   normalized_code: lo-la
-  name: null
+  name: Lao
 - slug: lithuanian
   code: lt
   normalized_code: lt
@@ -192,18 +192,18 @@ supported_languages:
   code: mk
   normalized_code: mk
   name: Macedonian
-- slug: null
+- slug: malayalam
   code: ml-in
   normalized_code: ml-in
-  name: null
+  name: Malayalam
 - slug: mongolian
   code: mn
   normalized_code: mn
   name: Mongolian
-- slug: null
+- slug: marathi
   code: mr-in
   normalized_code: mr-in
-  name: null
+  name: Marathi
 - slug: malay
   code: ms
   normalized_code: ms
@@ -224,10 +224,10 @@ supported_languages:
   code: 'no'
   normalized_code: 'no'
   name: Norwegian
-- slug: null
+- slug: punjabi
   code: pa-in
   normalized_code: pa-in
-  name: null
+  name: Punjabi
 - slug: polish
   code: pl
   normalized_code: pl
@@ -236,18 +236,18 @@ supported_languages:
   code: prs-af
   normalized_code: fa
   name: Persian
-- slug: null
+- slug: pashto
   code: ps-af
   normalized_code: ps-af
-  name: null
+  name: Pashto
 - slug: portuguese
   code: pt
   normalized_code: pt
   name: Portuguese
-- slug: null
+- slug: portuguese
   code: pt-br
   normalized_code: pt-br
-  name: null
+  name: Portuguese
 - slug: romanian
   code: ro
   normalized_code: ro
@@ -256,14 +256,14 @@ supported_languages:
   code: ru
   normalized_code: ru
   name: Russian
-- slug: null
+- slug: kinyarwanda
   code: rw-ug
   normalized_code: rw-ug
-  name: null
-- slug: null
+  name: Kinyarwanda
+- slug: sinhala
   code: si-lk
   normalized_code: si-lk
-  name: null
+  name: Sinhala
 - slug: slovak
   code: sk
   normalized_code: sk
@@ -288,18 +288,18 @@ supported_languages:
   code: sv
   normalized_code: sv
   name: Swedish
-- slug: null
+- slug: swahili
   code: swh-tz
   normalized_code: swh-tz
-  name: null
-- slug: null
+  name: Swahili
+- slug: tamil
   code: ta-in
   normalized_code: ta-in
-  name: null
-- slug: null
+  name: Tamil
+- slug: telugu
   code: te-in
   normalized_code: te-in
-  name: null
+  name: Telugu
 - slug: thai
   code: th
   normalized_code: th
@@ -312,10 +312,10 @@ supported_languages:
   code: uk
   normalized_code: uk
   name: Ukrainian
-- slug: null
+- slug: urdu
   code: ur-in
   normalized_code: ur-in
-  name: null
+  name: Urdu
 - slug: uzbek
   code: uz
   normalized_code: uz
@@ -324,14 +324,14 @@ supported_languages:
   code: vi
   normalized_code: vi
   name: Vietnamese
-- slug: null
+- slug: xhosa
   code: xh-zw
   normalized_code: xh-zw
-  name: null
-- slug: null
+  name: Xhosa
+- slug: yoruba
   code: yo-ng
   normalized_code: yo-ng
-  name: null
+  name: Yoruba
 - slug: chinese
   code: zh
   normalized_code: zh

@@ -64,10 +64,10 @@ supported_languages:
   code: fr
   normalized_code: fr
   name: French
-- slug: null
+- slug: french
   code: fr-ca
   normalized_code: fr-ca
-  name: null
+  name: French
 - slug: hausa
   code: ha
   normalized_code: ha
@@ -168,10 +168,10 @@ supported_languages:
   code: pt
   normalized_code: pt
   name: Portuguese
-- slug: null
+- slug: portuguese
   code: pt-br
   normalized_code: pt-br
-  name: null
+  name: Portuguese
 - slug: romanian
   code: ro
   normalized_code: ro
@@ -232,14 +232,14 @@ supported_languages:
   code: vi
   normalized_code: vi
   name: Vietnamese
-- slug: null
+- slug: chinese
   code: zh-cn
   normalized_code: zh-cn
-  name: null
-- slug: null
+  name: Chinese
+- slug: chinese
   code: zh-tw
   normalized_code: zh-tw
-  name: null
+  name: Chinese
 nav_order: 942
 
 ---

@@ -11,18 +11,18 @@ supported_languages:
   code: en
   normalized_code: en
   name: English
-- slug: null
+- slug: spanish
   code: es-419
   normalized_code: es-419
-  name: null
-- slug: null
+  name: Spanish
+- slug: french
   code: fr-ca
   normalized_code: fr-ca
-  name: null
-- slug: null
+  name: French
+- slug: portuguese
   code: pt-br
   normalized_code: pt-br
-  name: null
+  name: Portuguese
 - slug: chinese
   code: zh
   normalized_code: zh

@@ -140,10 +140,10 @@ supported_languages:
   code: vi
   normalized_code: vi
   name: Vietnamese
-- slug: null
+- slug: chinese
   code: zh-cn
   normalized_code: zh-cn
-  name: null
+  name: Chinese
 nav_order: 966
 
 ---

@@ -40,10 +40,10 @@ supported_languages:
   code: es
   normalized_code: es
   name: Spanish
-- slug: null
+- slug: spanish
   code: es-la
   normalized_code: es-419
-  name: null
+  name: Spanish
 - slug: estonian
   code: et
   normalized_code: et
@@ -56,10 +56,10 @@ supported_languages:
   code: fr
   normalized_code: fr
   name: French
-- slug: null
+- slug: french
   code: fr-ca
   normalized_code: fr-ca
-  name: null
+  name: French
 - slug: irish
   code: ga
   normalized_code: ga
@@ -92,10 +92,10 @@ supported_languages:
   code: ja
   normalized_code: ja
   name: Japanese
-- slug: null
+- slug: japanese
   code: ja-ja
   normalized_code: ja-ja
-  name: null
+  name: Japanese
 - slug: korean
   code: ko
   normalized_code: ko
@@ -124,10 +124,10 @@ supported_languages:
   code: pt
   normalized_code: pt
   name: Portuguese
-- slug: null
+- slug: portuguese
   code: pt-br
   normalized_code: pt-br
-  name: null
+  name: Portuguese
 - slug: romanian
   code: ro
   normalized_code: ro
@@ -152,14 +152,14 @@ supported_languages:
   code: tr
   normalized_code: tr
   name: Turkish
-- slug: null
+- slug: chinese
   code: zh-cn
   normalized_code: zh-cn
-  name: null
-- slug: null
+  name: Chinese
+- slug: chinese
   code: zh-tw
   normalized_code: zh-tw
-  name: null
+  name: Chinese
 nav_order: 962
 
 ---

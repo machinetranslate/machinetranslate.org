@@ -52,10 +52,10 @@ supported_languages:
   code: es
   normalized_code: es
   name: Spanish
-- slug: null
+- slug: spanish
   code: es-419
   normalized_code: es-419
-  name: null
+  name: Spanish
 - slug: estonian
   code: et
   normalized_code: et
@@ -156,10 +156,10 @@ supported_languages:
   code: pt
   normalized_code: pt
   name: Portuguese
-- slug: null
+- slug: portuguese
   code: pt-br
   normalized_code: pt-br
-  name: null
+  name: Portuguese
 - slug: romanian
   code: ro
   normalized_code: ro
@@ -180,14 +180,14 @@ supported_languages:
   code: sq
   normalized_code: sq
   name: Albanian
-- slug: null
+- slug: serbian
   code: sr-Cyr
   normalized_code: sr-Cyr
-  name: null
-- slug: null
+  name: Serbian
+- slug: serbian
   code: sr-Latn
   normalized_code: sr-Latn
-  name: null
+  name: Serbian
 - slug: swedish
   code: sv
   normalized_code: sv
@@ -224,10 +224,10 @@ supported_languages:
   code: zh
   normalized_code: zh
   name: Chinese
-- slug: null
+- slug: chinese
   code: zh-tw
   normalized_code: zh-tw
-  name: null
+  name: Chinese
 - slug: zulu
   code: zu
   normalized_code: zu

@@ -5,7 +5,7 @@ description: The Youdao Translate machine translation API
 id: youdao
 parent: Engines
 urls:
-- https://ai.youdao.com/?keyfrom=fanyi-new-nav#/
+- https://ai.youdao.com/
 - "https://ai.youdao.com/DOCSIRMA/html/\u81EA\u7136\u8BED\u8A00\u7FFB\u8BD1/API\u6587\
   \u6863/\u6587\u672C\u7FFB\u8BD1\u670D\u52A1/\u6587\u672C\u7FFB\u8BD1\u670D\u52A1\
   -API\u6587\u6863.html"
@@ -350,14 +350,14 @@ supported_languages:
   code: sq
   normalized_code: sq
   name: Albanian
-- slug: null
+- slug: serbian
   code: sr-Cyrl
   normalized_code: sr-Cyrl
-  name: null
-- slug: null
+  name: Serbian
+- slug: serbian
   code: sr-Latn
   normalized_code: sr-Latn
-  name: null
+  name: Serbian
 - slug: sotho
   code: st
   normalized_code: st
@@ -446,14 +446,14 @@ supported_languages:
   code: yue
   normalized_code: yue
   name: null
-- slug: null
+- slug: chinese
   code: zh-cn
   normalized_code: zh-cn
-  name: null
-- slug: null
+  name: Chinese
+- slug: chinese
   code: zh-tw
   normalized_code: zh-tw
-  name: null
+  name: Chinese
 - slug: zulu
   code: zu
   normalized_code: zu

@@ -40,10 +40,10 @@ supported_languages:
   code: zh
   normalized_code: zh
   name: Chinese
-- slug: null
+- slug: chinese
   code: zh-tw
   normalized_code: zh-tw
-  name: null
+  name: Chinese
 nav_order: 991
 
 ---

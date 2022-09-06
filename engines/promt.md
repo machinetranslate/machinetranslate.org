@@ -160,14 +160,14 @@ supported_languages:
   code: uz
   normalized_code: uz
   name: Uzbek
-- slug: null
+- slug: chinese
   code: zh-cn
   normalized_code: zh-cn
-  name: null
-- slug: null
+  name: Chinese
+- slug: chinese
   code: zh-tw
   normalized_code: zh-tw
-  name: null
+  name: Chinese
 - slug: null
   code: zsm
   normalized_code: zsm
