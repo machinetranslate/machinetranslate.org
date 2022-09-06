@@ -46,48 +46,17 @@ parent: Languages
   </dl>
 </blockquote>
 
-<!--
-TODO: move this somewhere else, so we only do it once per engine.
--->
 
 {{ content }}
 
 
 <h2>Engine support</h2>
 <ul>
-  {% for engine in site.data.engines %}
-    {% assign languages = '' | split: ',' %} <!-- Make an empty array [] -->
-
-
-    {% for language in engine.languages %}
-      {% if language[0].size > 1 %}
-        {% assign languages = languages | concat: language | uniq %}
-      {% else %}
-        {% assign language_arr = language | split: ' ' %} <!-- Make it an array -->
-        {% assign languages = languages | concat: language_arr | uniq %}
-      {% endif %}
-    {% endfor %}
-
-    {% assign found = false %}
-    {% for language in languages %}
-      {% assign base_language = language | split: '-' | first %}
-      {% if base_language == page.code %}
-          {% unless found %}
-            <li>
-            <a href="/{{ engine.name | slugify }}">
-              {{ engine.name }}
-            </a>
-            {% assign found = true %}
-          {% endunless %}
-          {% if base_language != language %}
-            <code>{{ language }}</code>
-          {% endif %}
-      {% endif %}
-    {% endfor %}
-    {% if found == true %}
-      </li>
-    {% endif %}
-
+  {% for engine in page.supported_engines %}
+    <li>
+      <a href="/{{ engine.id }}">
+        {{ engine.name }}
+      </a>
+    </li>
   {% endfor %}
 </ul>
-

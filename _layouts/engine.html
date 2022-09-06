@@ -12,38 +12,28 @@ parent: Engines
 
 <hr/>
 
-{% assign engine = false %}
-{% for eng in site.data.engines %}
-  {% if eng.id == page.id %}
-    {% assign engine = eng %}
-  {% endif %}
-{% endfor %}
-
 <blockquote>
 
-  <a href="{{ engine.url }}">{{ engine.url | remove_first: 'https://' | remove_first: 'http://' }}</a>
-  
-  <a href="{{ engine.info_url }}">{{ engine.info_url | remove_first: 'https://' | remove_first: 'http://' }}</a>
+  <ul>
+    {% for url in page.urls %}
+    <li>
+      <a href="{{ url }}">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' }}</a>
+    </li>
+  </ul>
 
 </blockquote>
 
 {{ content }}
 
 
+
 <h2>Language support</h2>
 <ul>
-  {% for code in engine.languages %}
-    {% assign base_code = code | split: '-' | first %}
-    {% for language in site.data.languages %}
-      {% if language.codes contains base_code %}
-        {% assign name = language.names[0] %}
-        {% assign slug = name | slugify %}
-        <li>
-            <a href="/{{ slug }}">
-                <code>{{ code }}</code> {{ name }}
-            </a>
-        </li>
-      {% endif %}
-    {% endfor %}
+  {% for language in page.supported_languages %}
+    <li>
+      <a href="/{{ language.slug }}">
+        <code>{{ language.code }}</code> {{ language.name }}
+      </a>
+    </li>
   {% endfor %}
 </ul>

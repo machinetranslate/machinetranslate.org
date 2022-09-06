@@ -22,7 +22,7 @@
 
 -
   codes: [ az, aze, azj, azb ]
-  names: [ Azeri, Azerbaijani, Azeri Turkish, Azerbaijani Turkish, Turkish, Turkmen, Caucasian Tatar ]
+  names: [ Azerbaijani, Azeri, Azeri Turkish, Azerbaijani Turkish, Turkish, Turkmen, Caucasian Tatar ]
   family: trk
   scripts: [ Latn, Cyrl, Arab ]
   typology:

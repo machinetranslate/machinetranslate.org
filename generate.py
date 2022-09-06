@@ -2,40 +2,20 @@
 import yaml
 from os.path import exists
 
-OVERWRITE_LANGUAGES = False
-OVERWRITE_ENGINES = False
+LANGUAGES = None
+ENGINES = None
 
-### Generate languages
+### Read languages
 with open('_data/languages.yml', 'r') as stream:
-    data = yaml.safe_load(stream)
-    for language in data:
+  LANGUAGES = yaml.safe_load(stream)
 
-      code = language['codes'][0]
-      if type(language['codes']) is not list:
-        raise Exception(language)
+### Read engines
+with open('_data/engines.yml', 'r') as stream:
+  ENGINES = yaml.safe_load(stream)
 
-      name = language['names'][0]
-      if type(language['names']) is not list:
-        raise Exception(language)
-
-      slug = name.lower().replace(' ', '-') # Should work *exactly* like in Liquid!
-
-      filepath = f'languages/{ slug }.md'
-      if OVERWRITE_LANGUAGES or not exists(filepath):
-        markdown = f'''\
----
-layout: language
-title: { name }
-description: Machine translation for { name }
-code: { code }
-parent: Languages
----
-'''
-        with open(filepath, 'w', encoding='utf8') as f:
-          f.write(markdown)
-
-
-### Generate engines
+def slugify(name):
+  # Should work *exactly* like in Liquid!
+  return name.lower().replace(' ', '-')
 
 def flatten(l):
   _ = []
@@ -46,33 +26,108 @@ def flatten(l):
       _.append(item)
   return _
 
-with open('_data/engines.yml', 'r') as stream:
-    data = yaml.safe_load(stream)
-    for engine in data:
-      print(engine)
-      name = engine['name']
-      if type(name) is not str:
-        raise Exception(name)
-      slug = engine['id']
-      if type(slug) is not str:
-        raise Exception(slug)
-      languages = engine['languages']
-      if type(languages) is not list:
-        raise Exception(languages)
-      engine['languages'] = flatten(languages)
-      # TODO: language pairs
-      # TODO: order them in the nav (nav_order: ) by number of supported language pairs
+def base_language_code(locale_code):
+  return locale_code.split('-')[0]
 
-      filepath = f'engines/{ slug }.md'
-      if OVERWRITE_ENGINES or not exists(filepath):
-        markdown = f'''\
+def read_content(filepth):
+  content = ''
+  if not exists(filepath):
+    return ''
+  with open(filepath, 'r') as f:
+    page = f.read()
+    i = page.find('\n---\n', 3)
+    i += len('\n---\n')
+    return page[i:].strip()
+
+### Write languages
+for language in LANGUAGES:
+  code = language['codes'][0]
+  if type(language['codes']) is not list:
+    raise Exception(language)
+  
+  name = language['names'][0]
+  if type(language['names']) is not list:
+    raise Exception(language)
+
+  # "Join"
+  supported_engines = []
+  for engine in ENGINES:
+    if code in map(base_language_code, flatten(engine['languages'])):
+      supported_engines.append({
+        'id': engine['id'],
+        'name': engine['name']
+      })
+
+  frontmatter = {
+    'layout': 'language',
+    'title': name,
+    'description': f'Machine translation for { name }',
+    'code': code,
+    'parent': 'Languages',
+    'supported_engines': supported_engines
+  }
+
+  slug = slugify(name)
+  filepath = f'languages/{ slug }.md'
+
+  content = read_content(filepath)
+
+  with open(filepath, 'w', encoding='utf8') as f:
+    f.write(f'''\
 ---
-layout: engine
-id: { slug }
-title: { name }
-description: The { name } machine translation API
-parent: Engines
+{ yaml.dump(frontmatter, sort_keys=False) }
 ---
-'''
-        with open(filepath, 'w', encoding='utf8') as f:
-          f.write(markdown)
+
+{ content }
+''')
+
+
+### Generate engines
+
+for engine in ENGINES:
+  name = engine['name']
+  if type(name) is not str:
+    raise Exception(name)
+  slug = engine['id']
+  if type(slug) is not str:
+    raise Exception(slug)
+  languages = engine['languages']
+  if type(languages) is not list:
+    raise Exception(languages)
+
+  # "Join"
+  supported_language_codes = list(map(base_language_code, flatten(languages)))
+  # TODO: language *pairs*
+
+  supported_languages = []
+  for language in LANGUAGES:
+    for code in language['codes']:
+      if code in supported_language_codes:
+        language_name = language['names'][0]
+        supported_languages.append({
+          'slug': slugify(language_name),
+          'code': code,
+          'name': language_name
+        })
+
+  # TODO: *order* engines in the nav (nav_order: ) by number of supported language pairs
+
+  frontmatter = {
+    'layout': 'engine',
+    'title': name,
+    'description': f'The { name } machine translation API',
+    'id': slug,
+    'parent': 'Engines',
+    'supported_languages': supported_languages,
+    'nav_order': len(LANGUAGES) - len(supported_languages)
+  }
+
+  filepath = f'engines/{ slug }.md'
+  with open(filepath, 'w', encoding='utf8') as f:
+    f.write(f'''\
+---
+{ yaml.dump(frontmatter, sort_keys=False) }
+---
+
+{ content }
+''')

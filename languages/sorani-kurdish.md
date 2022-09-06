@@ -4,4 +4,10 @@ title: Sorani Kurdish
 description: Machine translation for Sorani Kurdish
 code: ckb
 parent: Languages
+supported_engines:
+- id: niutrans
+  name: Niutrans
+
 ---
+
+
