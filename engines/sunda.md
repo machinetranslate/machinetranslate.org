@@ -14,13 +14,7 @@ supported_languages:
 - slug: finnish
   code: fi
   name: Finnish
-- slug: finnish
-  code: fi
-  name: Finnish
-- slug: english
-  code: en
-  name: English
-nav_order: 996
+nav_order: 998
 
 ---
 

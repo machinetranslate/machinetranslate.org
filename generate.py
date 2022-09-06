@@ -124,7 +124,7 @@ for engine in ENGINES:
 
   # "Join"
   # TODO: use language/engine mapping
-  supported_language_codes = flatten(languages)
+  supported_language_codes = list(set(flatten(languages))).sort()
   # TODO: language *pairs*
 
   supported_languages = []
@@ -141,7 +141,7 @@ for engine in ENGINES:
       'code': code,
       'name': language_name
     })
-
+  
   frontmatter = {
     'layout': 'engine',
     'title': name,

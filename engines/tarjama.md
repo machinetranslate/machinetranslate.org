@@ -14,13 +14,7 @@ supported_languages:
 - slug: arabic
   code: ar
   name: Arabic
-- slug: arabic
-  code: ar
-  name: Arabic
-- slug: english
-  code: en
-  name: English
-nav_order: 996
+nav_order: 998
 
 ---
 
