@@ -20,11 +20,13 @@ When a glossary term is matched in the source [string](/concepts/string.md), its
 The insertion of a glossary term in the output happens regardless of the context.
 
 The terms included in the glossary should therefore be unambiguous and context-independent, as in the following examples:
+
 - English: `Respiratory syndrome`
 - English: `Balance sheet`
 - English: `Paraffin`
 
 Ambiguous terms can have a negative impact on the output:
+
 - English: `Spread`
 - English: `Cookies`
 - English: `Surface treatment`
