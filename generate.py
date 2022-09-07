@@ -2,16 +2,21 @@
 import yaml
 from os.path import exists
 
+SCRIPTS = None
 LANGUAGES = None
 ENGINES = None
 LANGUAGE_FAMILIES = None
 
 
+### Read scripts
+with open('_data/scripts.yml', 'r') as stream:
+  SCRIPTS = yaml.safe_load(stream)
+
 ### Read languages
 with open('_data/languages.yml', 'r') as stream:
   LANGUAGES = yaml.safe_load(stream)
 
-### Read language familiy
+### Read language families
 with open('_data/language-families.yml', 'r') as stream:
   LANGUAGE_FAMILIES = yaml.safe_load(stream)
 
@@ -43,7 +48,21 @@ def normalize_language_code(locale_code, engine_id):
   return _normalize_language_code(base_language_code(locale_code), engine_id) \
     or _normalize_language_code(locale_code, '*') \
     or _normalize_language_code(base_language_code(locale_code), '*') \
-    or normalize_locale_casing(locale_code)
+    or locale_code
+
+def get_language_variant_name(locale_code):
+  parts = normalize_locale_casing(locale_code.replace('_', '-')).split('-')
+  names = []
+  if parts == 'lzh':
+    names.append('Literary')
+  for part in parts[1:]:
+    if part in SCRIPTS:
+      names.append(SCRIPTS[part])
+    # TODO: if part in country
+  print(locale_code, names)
+  if not names:
+    return None
+  return ' - '.join(names)
 
 def slugify(name):
   # Should work *exactly* like in Liquid!
@@ -231,12 +250,14 @@ for engine in ENGINES:
         language_name = language['names'][0]
         language_slug = slugify(language_name)
         break
+    variant_name = get_language_variant_name(code)
     supported_languages.append({
       'slug': language_slug,
       'code': code,
       'normalized_code': normalized_code,
       'base_code': base_code,
-      'name': language_name
+      'name': language_name,
+      'variant_name': variant_name
     })
     if not language_slug:
       if code in UNLISTED_LANGUAGES:

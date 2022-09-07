@@ -32,9 +32,8 @@ parent: Engines
       {% endfor %}
       </ul>
     </p>
+    <hr/>
   {% endif %}
-
-  <hr/>
 
   <ul>
     {% for url in page.urls %}
@@ -58,14 +57,21 @@ parent: Engines
     <li>
       {% if language.slug %}
       <a href="/{{ language.slug }}">
-        <code>{{ language.code }}</code> {{ language.name }}
+        <code>{{ language.code }}</code>
         {% if language.normalized_code != language.code %}
           (<code>{{ language.normalized_code }}</code>)
+        {% endif %}
+        {{ language.name }}
+        {% if language.variant_name %}
+          | {{ language.variant_name }}
         {% endif %}
       </a>
       {% else %}
       <a href="https://en.wikipedia.org/wiki/ISO_639:{{ language.base_code }}" target="_blank">
         <code>{{ language.code }}</code>
+        {% if language.variant_name %}
+          | {{ language.variant_name }}
+        {% endif %}
       </a>
       {% endif %}
     </li>
