@@ -3,7 +3,7 @@
 -
   codes: [ af, afr ]
   names: [ Afrikaans ]
-  family: gem
+  family: [ gem, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -13,7 +13,7 @@
 -
   codes: [ am, amh ]
   names: [ Amharic ]
-  family: sem
+  family: [ sem, afa ]
   scripts: [ Ethi ]
   typology:
     word_order: [ SOV ]
@@ -23,7 +23,7 @@
 -
   codes: [ ar, ara ]
   names: [ Arabic ]
-  family: sem
+  family: [ sem, afa ]
   scripts: [ Arab, Syrc ]
   typology:
     word_order: [ VSO ]
@@ -33,7 +33,7 @@
 -
   codes: [ az, aze, azj, azb ]
   names: [ Azerbaijani, Azeri, Azeri Turkish, Azerbaijani Turkish, Turkish, Turkmen, Caucasian Tatar ]
-  family: trk
+  family: [ trk ]
   scripts: [ Latn, Cyrl, Arab ]
   typology:
     word_order: [ SOV ]
@@ -43,7 +43,7 @@
 -
   codes: [ be, bel ]
   names: [ Belarusian ]
-  family: sla
+  family: [ sla, ine ]
   scripts: [ Cyrl ]
   typology:
     word_order: [ SVO ]
@@ -53,7 +53,7 @@
 -
   codes: [ bg, bul ]
   names: [ Bulgarian ]
-  family: sla
+  family: [ sla, ine ]
   scripts: [ Cyrl ]
   typology:
     word_order: [ SVO ]
@@ -63,7 +63,7 @@
 -
   codes: [ bn, ben ]
   names: [ Bengali, Bangla ]
-  family: inc
+  family: [ inc, iir, ine ]
   scripts: [ Beng ]
   typology:
     word_order: [ SOV ]
@@ -74,7 +74,7 @@
   codes: [ bs, bos ]
   names: [ Bosnian ]
   variant_names: [ Serbo-Croatian ]
-  family: sla
+  family: [ sla, ine ]
   scripts: [ Latn, Cyrl ]
   typology:
     word_order: [ SVO ]
@@ -84,7 +84,7 @@
 -
   codes: [ ca, cat ]
   names: [ Catalan ]
-  family: roa
+  family: [ roa, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -94,7 +94,7 @@
 -
   codes: [ ceb ]
   names: [ Cebuano, Bisaya, Binisaya ]
-  family: map
+  family: [ map ]
   scripts: [ Latn ]
   typology:
     word_order: [ VSO ]
@@ -104,7 +104,7 @@
 -
   codes: [ co, cos ]
   names: [ Corsican ]
-  family: roa
+  family: [ roa, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SOV ]
@@ -113,7 +113,7 @@
 -
   codes: [ cs, ces, cze ]
   names: [ Czech ]
-  family: sla
+  family: [ sla, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -123,7 +123,7 @@
 -
   codes: [ cy, wel, cym ]
   names: [ Welsh ]
-  family: cel
+  family: [ cel, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ VSO ]
@@ -133,7 +133,7 @@
 -
   codes: [ da, dan ]
   names: [ Danish ]
-  family: gem
+  family: [ gem, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -143,7 +143,7 @@
 -
   codes: [ de, deu, ger ]
   names: [ German ]
-  family: gem
+  family: [ gem, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO, VSO ]
@@ -153,7 +153,7 @@
 -
   codes: [ el, gre, ell ]
   names: [ Greek ]
-  family: grk
+  family: [ grk, ine ]
   scripts: [ Grek ]
   typology:
     word_order: [ SVO ]
@@ -163,7 +163,7 @@
 -
   codes: [ en, eng ]
   names: [ English ]
-  family: gem
+  family: [ gem, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -173,7 +173,7 @@
 -
   codes: [ eo, epo ]
   names: [ Esperanto ]
-  family: ine
+  family: [ ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO, OVS, SOV, VOS, VSO ]
@@ -183,7 +183,7 @@
 -
   codes: [ es, spa ]
   names: [ Spanish ]
-  family: roa
+  family: [ roa, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -193,7 +193,7 @@
 -
   codes: [ et, est, ekk, vro ]
   names: [ Estonian ]
-  family: fiu
+  family: [ fiu ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -203,7 +203,7 @@
 -
   codes: [ eu, eus, baq ]
   names: [ Basque, Euskara ]
-  family:
+  family: [ eus ]
   scripts: [ Latn ]
   typology:
     word_order: [ SOV ]
@@ -214,7 +214,7 @@
   codes: [ fa, fas, per, prs ]
   names: [ Persian, Farsi ]
   variant_names: [ Dari, Dari Persian, Afghan Persian, Eastern Persian, Tajiki Persian ]
-  family: ira
+  family: [ ira, iir, ine ]
   scripts: [ Arab ]
   typology:
     word_order: [ SOV ]
@@ -225,7 +225,7 @@
   codes: [ fi, fin, fit, fkv ]
   names: [ Finnish ]
   variant_names: [ Meänkieli, Kven ]
-  family: fiu
+  family: [ fiu ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO, SOV ]
@@ -235,7 +235,7 @@
 -
   codes: [ fr, fra, fre ]
   names: [ French ]
-  family: roa
+  family: [ roa, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -245,7 +245,7 @@
 -
   codes: [ fy, fry, frr, frs ]
   names: [ Frisian ]
-  family: gem
+  family: [ gem, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -255,7 +255,7 @@
 -
   codes: [ ga, gle ]
   names: [ Irish, Gaelic, Irish Gaelic ]
-  family: cel
+  family: [ cel, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ VSO ]
@@ -265,7 +265,7 @@
 -
   codes: [ gd, gla ]
   names: [ Scottish Gaelic, Scots Gaelic, Gaelic ]
-  family: cel
+  family: [ cel, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ VSO ]
@@ -274,7 +274,7 @@
 -
   codes: [ gl, glg ]
   names: [ Galician, Gallego ]
-  family: roa
+  family: [ roa, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -284,7 +284,7 @@
 -
   codes: [ gu, guj ]
   names: [ Gujarati ]
-  family: inc
+  family: [ inc, iir, ine ]
   scripts: [ Gujr ]
   typology:
     word_order: [ SOV ]
@@ -294,7 +294,7 @@
 -
   codes: [ ha, hau ]
   names: [ Hausa ]
-  family: cdc
+  family: [ cdc, afa ]
   scripts: [ Latn, Arab ]
   typology:
     word_order: [ SVO ]
@@ -304,7 +304,7 @@
 -
   codes: [ haw ]
   names: [ Hawaiian ]
-  family: map
+  family: [ map ]
   scripts: [ Latn ]
   typology:
     word_order: [ VSO ]
@@ -314,7 +314,7 @@
 -
   codes: [ he, heb, iw ]
   names: [ Hebrew ]
-  family: sem
+  family: [ sem, afa ]
   scripts: [ Hebr ]
   typology:
     word_order: [ VSO, SVO ]
@@ -324,7 +324,7 @@
 -
   codes: [ hi, hin, hif ]
   names: [ Hindi, Modern Standard Hindi ]
-  family: inc
+  family: [ inc, iir, ine ]
   scripts: [ Deva, Latn, Mahj ]
   typology:
     word_order: [ SOV ]
@@ -335,7 +335,7 @@
   codes: [ hmn, hma, hmc, hme, hmf, hmg, hmh, hmi, hml, hmm, hmn, hmp, hmv, hmw, hmy, hmz, hnj, huj, mww ]
   names: [ Hmong, Mong, Miao–Yao ]
   variant_names: [ Southern Mashan Hmong, Central Huishui Hmong, Eastern Huishui Hmong, Hmong Don, Southwestern Guiyang Hmong, Southwestern Huishui Hmong, Northern Huishui Hmong, Luopohe Hmong, Central Mashan Hmong, Mong Northern Mashan Hmong, Hmong Dô, Western Mashan Hmong, Southern Guiyang Hmong, Hmong Shua, Hmong Njua, Northern Guiyang Hmong ]
-  family: hmx
+  family: [ hmx ]
   scripts: [ Latn, Hmng ]
   typology:
     word_order: [ SVO ]
@@ -346,7 +346,7 @@
   codes: [ hr, hrv, hbs ]
   names: [ Croatian ]
   variant_names: [ Serbo-Croatian ]
-  family: sla
+  family: [ sla, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -356,7 +356,7 @@
 -
   codes: [ ht, hat ]
   names: [ Haitian, Haitian Creole ]
-  family: cpf
+  family: [ cpf ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -366,7 +366,7 @@
 -
   codes: [ hu, hun ]
   names: [ Hungarian ]
-  family: fiu
+  family: [ fiu ]
   scripts: [ Latn ]
   typology:
     word_order: [ SOV ]
@@ -376,7 +376,7 @@
 -
   codes: [ hy, hye, hyw ]
   names: [ Armenian]
-  family: ine
+  family: [ ine ]
   scripts: [ Armn ]
   typology:
     word_order: [ SVO ]
@@ -386,7 +386,7 @@
 -
   codes: [ id, in, ind ]
   names: [ Indonesian ]
-  family: map
+  family: [ map ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -396,7 +396,7 @@
 -
   codes: [ ig, ibo ]
   names: [ Igbo ]
-  family: nic
+  family: [ nic ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -406,7 +406,7 @@
 -
   codes: [ is, isl, ice ]
   names: [ Icelandic ]
-  family: gem
+  family: [ gem, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -416,7 +416,7 @@
 -
   codes: [ it, ita ]
   names: [ Italian ]
-  family: roa
+  family: [ roa, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -426,7 +426,7 @@
 -
   codes: [ ja, jpn ]
   names: [ Japanese ]
-  family: jpx
+  family: [ jpx ]
   scripts: [ Jpan ]
   typology:
     word_order: [ SOV ]
@@ -436,7 +436,7 @@
 -
   codes: [ jv, jav, jw ]
   names: [ Javanese ]
-  family: map
+  family: [ map ]
   scripts: [ Java, Latn ]
   typology:
     word_order: [ SVO ]
@@ -446,7 +446,7 @@
 -
   codes: [ ka, kat, geo ]
   names: [ Georgian ]
-  family: ccs
+  family: [ ccs ]
   scripts: [ Geor ]
   typology:
     word_order: [ SVO ]
@@ -456,7 +456,7 @@
 -
   codes: [ kk, kaz ]
   names: [ Kazakh ]
-  family: trk
+  family: [ trk ]
   scripts: [ Cyrl, Arab, Latn ]
   typology:
     word_order: [ SOV ]
@@ -466,7 +466,7 @@
 -
   codes: [ km, khm, kxm ]
   names: [ Khmer ]
-  family: aav
+  family: [ aav ]
   scripts: [ Khmr ]
   typology:
     word_order: [ SVO ]
@@ -476,7 +476,7 @@
 -
   codes: [ kn, kan, kfi ]
   names: [ Kannada ]
-  family: dra
+  family: [ dra ]
   scripts: [ Knda ]
   typology:
     word_order: [ SOV ]
@@ -486,7 +486,7 @@
 -
   codes: [ ko, kor ]
   names: [ Korean ]
-  family: kor
+  family: [ kor ]
   scripts: [ Kore ]
   typology:
     word_order: [ SOV ]
@@ -496,7 +496,7 @@
 -
   codes: [ ku, kur, sdh, kmr ]
   names: [ Kurdish, Kurmanji Kurdish, Kurmanji, Northern Kurdish, Yezidi Kurdish, Yezidi ]
-  family: ira
+  family: [ ira, iir, ine ]
   scripts: [ Latn, Cyrl, Arab ]
   typology:
     word_order: [ SOV ]
@@ -506,7 +506,7 @@
 -
   codes: [ ckb ]
   names: [ Sorani Kurdish, Central Kurdish ]
-  family: ira
+  family: [ ira, iir, ine ]
   scripts: [ Arab ]
   typology:
     word_order: [ SOV ]
@@ -516,7 +516,7 @@
 -
   codes: [ ky, kir ]
   names: [ Kyrgyz ]
-  family: trk
+  family: [ trk ]
   scripts: [ Arab, Cyrl, Latn ]
   typology:
     word_order: [ SOV ]
@@ -526,7 +526,7 @@
 -
   codes: [ la, lat ]
   names: [ Latin ]
-  family: roa
+  family: [ roa, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SOV, SVO ]
@@ -536,7 +536,7 @@
 -
   codes: [ lb, ltz ]
   names: [ Luxembourgish, Luxemburgish, Letzeburgesch ]
-  family: gem
+  family: [ gem, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ V2, SOV ]
@@ -546,7 +546,7 @@
 -
   codes: [ lo, lao ]
   names: [ Lao ]
-  family: tai
+  family: [ tai ]
   scripts: [ Laoo ]
   typology:
     word_order: [ SVO ]
@@ -556,7 +556,7 @@
 -
   codes: [ lt, lit ]
   names: [ Lithuanian ]
-  family: bat
+  family: [ bat, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -566,7 +566,7 @@
 -
   codes: [ lv, lav ]
   names: [ Latvian, Lettish ]
-  family: bat
+  family: [ bat, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -577,7 +577,7 @@
   codes: [ mg, mlg, xmv, bhr, buc, msh, bmm, plt, skg, bzc, tdx, txy, tkg, xmw ]
   names: [ Malagasy ]
   variant_names: [ Antankarana, Bara, Bushi, Masikoro, Northern Betsimisaraka, Plateau Malagasy, Sakalava, Southern Betsimisaraka, Tandroy-Mafahaly, Tanosy, Tesaka, Tsimihety ]
-  family: map
+  family: [ map ]
   scripts: [ Latn ]
   typology:
     word_order: [ VOS ]
@@ -587,7 +587,7 @@
 -
   codes: [ mi, mri, mao ]
   names: [ Maori, Māori, Te Reo Māori ]
-  family: map
+  family: [ map ]
   scripts: [ Latn ]
   typology:
     word_order: [ VSO ]
@@ -596,8 +596,8 @@
 
 -
   codes: [ mk, mkd, mac ]
-  names: [ Macedonian ]
-  family: sla
+  names: [ Macedonian, Macedonian Slavic ]
+  family: [ sla, ine ]
   scripts: [ Cyrl ]
   typology:
     word_order: [ SVO ]
@@ -607,7 +607,7 @@
 -
   codes: [ ml ]
   names: [ Malayalam ]
-  family: dra
+  family: [ dra ]
   scripts: [ Mlym ]
   typology:
     word_order: [ SOV ]
@@ -617,7 +617,7 @@
 -
   codes: [ mn, mon ]
   names: [ Mongolian ]
-  family: xgn
+  family: [ xgn ]
   scripts: [ Cyrl, Mong, Phag ]
   typology:
     word_order: [ SOV ]
@@ -627,7 +627,7 @@
 -
   codes: [ mr, mar ]
   names: [ Marathi ]
-  family: inc
+  family: [ inc, iir, ine ]
   scripts: [ Deva, Modi ]
   typology:
     word_order: [ SOV ]
@@ -637,8 +637,8 @@
 -
   codes: [ ms, msa, may ]
   names: [ Malay ]
-  family: map
-  scripts: [ Arab, Latn ]
+  family: [ map ]
+  scripts: [ Latn, Arab ]
   typology:
     word_order: [ SVO ]
     morphosyntax: [ agglutinative ]
@@ -647,7 +647,7 @@
 -
   codes: [ mt, mlt ]
   names: [ Maltese ]
-  family: sem
+  family: [ sem, afa ]
   scripts: [ Latn ]
   typology:
     word_order: [ SOV ]
@@ -657,7 +657,7 @@
 -
   codes: [ my, mya, bur ]
   names: [ Burmese ]
-  family: sit
+  family: [ sit ]
   scripts: [ Mymr ]
   typology:
     word_order: [ SOV ]
@@ -667,7 +667,7 @@
 -
   codes: [ ne, nep ]
   names: [ Nepali ]
-  family: inc
+  family: [ inc, iir, ine ]
   scripts: [ Deva ]
   typology:
     word_order: [ SOV ]
@@ -677,7 +677,7 @@
 -
   codes: [ nl, nld, dut ]
   names: [ Dutch ]
-  family: gem
+  family: [ gem, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -688,7 +688,7 @@
   codes: [ 'no', nb, nn, nor, nno, nob ]
   names: [ Norwegian ]
   variant_names: [ Bokmål, Nynorsk, Riksmål, Høgnorsk ]
-  family: gem
+  family: [ gem, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -698,7 +698,7 @@
 -
   codes: [ ny ]
   names: [ Chewa, Nyanja ]
-  family: nic
+  family: [ nic ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -707,7 +707,7 @@
 -
   codes: [ or, ori ]
   names: [ Oriya, Odia ]
-  family: inc
+  family: [ inc, iir, ine ]
   scripts: [ Orya ]
   typology:
     word_order: [ SOV ]
@@ -717,7 +717,7 @@
 -
   codes: [ pa, pan ]
   names: [ Punjabi, Panjabi ]
-  family: inc
+  family: [ inc, iir, ine ]
   scripts: [ Guru, Arab ]
   typology:
     word_order: [ SOV ]
@@ -727,7 +727,7 @@
 -
   codes: [ pl, pol ]
   names: [ Polish ]
-  family: sla
+  family: [ sla, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -737,7 +737,7 @@
 -
   codes: [ ps, pus, pbt, pbu, pst ]
   names: [ Pashto ]
-  family: ira
+  family: [ ira, iir, ine ]
   scripts: [ Arab ]
   typology:
     word_order: [ SOV ]
@@ -747,7 +747,7 @@
 -
   codes: [ pt, por ]
   names: [ Portuguese ]
-  family: roa
+  family: [ roa, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -757,7 +757,7 @@
 -
   codes: [ ro, ron, rum ]
   names: [ Romanian, Rumanian, Moldovan ]
-  family: roa
+  family: [ roa, ine ]
   scripts: [ Latn, Cyrl ]
   typology:
     word_order: [ SVO ]
@@ -767,7 +767,7 @@
 -
   codes: [ ru, rus ]
   names: [ Russian ]
-  family: sla
+  family: [ sla, ine ]
   scripts: [ Cyrl ]
   typology:
     word_order: [ SVO ]
@@ -777,7 +777,7 @@
 -
   codes: [ rw, kin ]
   names: [ Kinyarwanda, Rwandan, Ikinyarwanda ]
-  family: bnt
+  family: [ bnt, nic ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -787,7 +787,7 @@
 -
   codes: [ sd, snd ]
   names: [ Sindhi ]
-  family: inc
+  family: [ inc, iir, ine ]
   scripts: [ Arab, Deva, Khoj, Sind ]
   typology:
     word_order: [ SOV ]
@@ -797,7 +797,7 @@
 -
   codes: [ si, sin ]
   names: [ Sinhala, Sinhalese ]
-  family: inc
+  family: [ inc, iir, ine ]
   scripts: [ Sinh ]
   typology:
     word_order: [ SOV ]
@@ -807,7 +807,7 @@
 -
   codes: [ sk, slk, slo ]
   names: [ Slovak ]
-  family: sla
+  family: [ sla, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -817,7 +817,7 @@
 -
   codes: [ sl, slv ]
   names: [ Slovenian, Slovene ]
-  family: sla
+  family: [ sla, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SOV ]
@@ -827,7 +827,7 @@
 -
   codes: [ sm, smo ]
   names: [ Samoan ]
-  family: map
+  family: [ map ]
   scripts: [ Latn ]
   typology:
     word_order: [ VSO ]
@@ -837,7 +837,7 @@
 -
   codes: [ sn, sna ]
   names: [ Shona ]
-  family: nic
+  family: [ nic ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -847,7 +847,7 @@
 -
   codes: [ so, som ]
   names: [ Somali ]
-  family: cus
+  family: [ cus, afa ]
   scripts: [ Arab, Latn, Osma ]
   typology:
     word_order: [ SOV ]
@@ -857,7 +857,7 @@
 -
   codes: [ sq, sqi, alb ]
   names: [ Albanian ]
-  family: ine
+  family: [ ine ]
   scripts: [ Latn, Elba ]
   typology:
     word_order: [ SVO ]
@@ -868,7 +868,7 @@
   codes: [ sr, srp ]
   names: [ Serbian ]
   variant_names: [ Serbo-Croatian, Montenegrin ]
-  family: sla
+  family: [ sla, ine ]
   scripts: [ Cyrl, Latn ]
   typology:
     word_order: [ SVO ]
@@ -878,7 +878,7 @@
 -
   codes: [ st, sot ]
   names: [ Sotho, Sesotho ]
-  family: bnt
+  family: [ bnt, nic ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -888,7 +888,7 @@
 -
   codes: [ su, sun ]
   names: [ Sundanese ]
-  family: map
+  family: [ map ]
   scripts: [ Latn, Sund ]
   typology:
     word_order: [ SVO ]
@@ -897,7 +897,7 @@
 -
   codes: [ sv, swe ]
   names: [ Swedish ]
-  family: gem
+  family: [ gem, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ V2, SVO ]
@@ -907,7 +907,7 @@
 -
   codes: [ sw, swa, swc, swh ]
   names: [ Swahili, Kiswahili ]
-  family: bnt
+  family: [ bnt, nic ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -917,7 +917,7 @@
 -
   codes: [ ta, tam ]
   names: [ Tamil ]
-  family: dra
+  family: [ dra ]
   scripts: [ Taml ]
   typology:
     word_order: [ SOV ]
@@ -927,7 +927,7 @@
 -
   codes: [ te, tel ]
   names: [ Telugu ]
-  family: dra
+  family: [ dra ]
   scripts: [ Telu ]
   typology:
     word_order: [ SOV ]
@@ -937,7 +937,7 @@
 -
   codes: [ tg, tgk ]
   names: [ Tajik, Tajiki Persian ]
-  family: ira
+  family: [ ira, iir, ine ]
   scripts: [ Cyrl, Latn, Arab ]
   typology:
     word_order: [ SOV ]
@@ -947,7 +947,7 @@
 -
   codes: [ th, tha ]
   names: [ Thai, Central Thai ]
-  family: tai
+  family: [ tai ]
   scripts: [ Thai ]
   typology:
     word_order: [ SVO ]
@@ -957,7 +957,7 @@
 -
   codes: [ tk, tuk ]
   names: [ Turkmen ]
-  family: trk
+  family: [ trk ]
   scripts: [ Cyrl, Latn, Arab ]
   typology:
     word_order: [ SOV ]
@@ -967,7 +967,7 @@
 -
   codes: [ tl, tgl, fil ]
   names: [ Tagalog, Filipino ]
-  family: map
+  family: [ map ]
   scripts: [ Latn ]
   typology:
     word_order: [ VSO ]
@@ -977,7 +977,7 @@
 -
   codes: [ tr, tur ]
   names: [ Turkish ]
-  family: trk
+  family: [ trk ]
   scripts: [ Latn ]
   typology:
     word_order: [ SOV ]
@@ -987,7 +987,7 @@
 -
   codes: [ tt, tat ]
   names: [ Tatar ]
-  family: trk
+  family: [ trk ]
   scripts: [ Cyrl, Latn, Arab ]
   typology:
     word_order: [ SOV ]
@@ -997,7 +997,7 @@
 -
   codes: [ ug, uig ]
   names: [ Uyghur, Uighur ]
-  family: trk
+  family: [ trk ]
   scripts: [ Latn, Cyrl, Arab ]
   typology:
     word_order: [ SOV ]
@@ -1007,7 +1007,7 @@
 -
   codes: [ uk, ukr ]
   names: [ Ukrainian ]
-  family: sla
+  family: [ sla, ine ]
   scripts: [ Cyrl ]
   typology:
     word_order: [ SVO ]
@@ -1017,7 +1017,7 @@
 -
   codes: [ ur, urd ]
   names: [ Urdu ]
-  family: inc
+  family: [ inc, iir, ine ]
   scripts: [ Arab ]
   typology:
     word_order: [ SOV ]
@@ -1027,7 +1027,7 @@
 -
   codes: [ uz, uzb, uzn, uzs ]
   names: [ Uzbek ]
-  family: trk
+  family: [ trk ]
   scripts: [ Latn, Cyrl, Arab ]
   typology:
     word_order: [ SOV ]
@@ -1037,7 +1037,7 @@
 -
   codes: [ vi, vie ]
   names: [ Vietnamese ]
-  family: aav
+  family: [ aav ]
   scripts: [ Hani, Latn ]
   typology:
     word_order: [ SVO ]
@@ -1047,7 +1047,7 @@
 -
   codes: [ xh, xho ]
   names: [ Xhosa, isiXhosa ]
-  family: bnt
+  family: [ bnt, nic ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -1057,7 +1057,7 @@
 -
   codes: [ yi, yid, ydd, yih ]
   names: [ Yiddish ]
-  family: gem
+  family: [ gem, ine ]
   scripts: [ Hebr ]
   typology:
     word_order: [ SVO ]
@@ -1067,7 +1067,7 @@
 -
   codes: [ yo, yor ]
   names: [ Yoruba ]
-  family: nic
+  family: [ nic ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -1078,7 +1078,7 @@
   codes: [ zh ]
   names: [ Chinese, Mandarin Chinese, Mandarin ]
   variant_names: [ Simplified Chinese, Traditional Chinese ]
-  family: sit
+  family: [ sit ]
   scripts: [ Hans, Hant ]
   typology:
     word_order: [ SVO ]
@@ -1088,7 +1088,7 @@
 -
   codes: [ zu, zul ]
   names: [ Zulu ]
-  family: bnt
+  family: [ bnt, nic ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]

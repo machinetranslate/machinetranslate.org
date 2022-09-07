@@ -4,10 +4,16 @@ from os.path import exists
 
 LANGUAGES = None
 ENGINES = None
+LANGUAGE_FAMILIES = None
+
 
 ### Read languages
 with open('_data/languages.yml', 'r') as stream:
   LANGUAGES = yaml.safe_load(stream)
+
+### Read language familiy
+with open('_data/language_families.yml', 'r') as stream:
+  LANGUAGE_FAMILIES = yaml.safe_load(stream)
 
 ### Read engines
 with open('_data/engines.yml', 'r') as stream:
@@ -114,6 +120,42 @@ for language in LANGUAGES:
   filepath = f'languages/{ slug }.md'
 
   content = read_content(filepath)
+
+  with open(filepath, 'w', encoding='utf8') as f:
+    f.write(f'''\
+---
+{ yaml.dump(frontmatter, sort_keys=False) }
+---
+
+{ content }
+''')
+
+### Write language families
+for code in LANGUAGE_FAMILIES:
+
+  name = LANGUAGE_FAMILIES[code]
+
+  slug = slugify(name)
+  filepath = f'language_families/{ slug }.md'
+
+  content = read_content(filepath)
+
+  languages = []
+  for language in LANGUAGES:
+    if code in language['family']:
+      language_name = language['names'][0]
+      languages.append({
+        'slug': slugify(language_name),
+        'name': language_name
+      })
+
+  frontmatter = {
+    'layout': 'language_family',
+    'title': name,
+    'description': f'Machine translation for the { name } language family',
+    'code': code,
+    'languages': languages,
+  }
 
   with open(filepath, 'w', encoding='utf8') as f:
     f.write(f'''\

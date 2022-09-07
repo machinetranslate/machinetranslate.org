@@ -11,6 +11,7 @@ cpp: Portuguese-based creoles
 crp: Creoles
 cus: Cushitic
 dra: Dravidian
+eus: Basque # There is no standard code for this.
 fiu: Finno-Ugric
 gem: Germanic
 grk: Hellenic
@@ -26,6 +27,6 @@ roa: Romance
 sem: Semitic
 sit: Sino-Tibetan
 sla: Slavic
-tai: Tai
+tai: Tai # There is no standard code for Kra-Dai, but both Thai and Lao are in the Tai subfamily.
 trk: Turkic
 xgn: Mongolic

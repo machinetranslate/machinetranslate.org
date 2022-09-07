@@ -1,0 +1,43 @@
+---
+layout: default
+parent: Languages
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+<h2>
+  {{ page.description }}
+</h2>
+
+<hr/>
+
+<p>
+  {{ page.languages | size }} languages in the <strong>{{ page.title }}</strong> language family are supported by machine translation APIs</a>.
+</p>
+
+<blockquote>
+
+  <dl>
+
+    <dt>Code</dt>
+    <dd><code>{{ page.code }}</code></dd>
+
+  </dl>
+</blockquote>
+
+
+{{ content }}
+
+
+<h2 id="languages">Languages</h2>
+
+<ul>
+  {% for language in page.languages %}
+    <li>
+      <a href="/{{ language.slug }}">
+        {{ language.name }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
