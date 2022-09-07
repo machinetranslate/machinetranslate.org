@@ -12,7 +12,7 @@ with open('_data/languages.yml', 'r') as stream:
   LANGUAGES = yaml.safe_load(stream)
 
 ### Read language familiy
-with open('_data/language_families.yml', 'r') as stream:
+with open('_data/language-families.yml', 'r') as stream:
   LANGUAGE_FAMILIES = yaml.safe_load(stream)
 
 ### Read engines
@@ -20,7 +20,7 @@ with open('_data/engines.yml', 'r') as stream:
   ENGINES = yaml.safe_load(stream)
 
 ### Read engine-language conversions
-with open('_data/engine_language.yml', 'r') as stream:
+with open('_data/engine-language.yml', 'r') as stream:
   ENGINE_LANGUAGE = yaml.safe_load(stream)
 
 def base_language_code(locale_code):
@@ -145,7 +145,7 @@ for code in LANGUAGE_FAMILIES:
   name = LANGUAGE_FAMILIES[code]
 
   slug = slugify(name)
-  filepath = f'languages/families/{ slug }.md'
+  filepath = f'language-families/{ slug }.md'
 
   content = read_content(filepath)
 
