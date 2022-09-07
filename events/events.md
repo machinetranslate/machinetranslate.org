@@ -208,7 +208,7 @@ featured: true
 | ---- | ---- | ---- |
 | 21 - 25 October | AMTA 2008 | Waikiki, Hawaii |
 | 22 - 23 September | EAMT 2008 | Hamburg, Germany |
-| 19 June | **WMT08** | Columbus, Ohio |
+| 19 June | [**WMT08**](wmt08.md) | Columbus, Ohio |
 | 12 - 20 May | MT Marathon | Berlin, Germany |
 
 ## 2007
