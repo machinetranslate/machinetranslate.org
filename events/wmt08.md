@@ -133,7 +133,7 @@ The results were determined with a [constituent ranking](wmt.md#constituent-rank
 | → German | `RBMT4` | 0.748 | 
 | → Spanish | `RBMT4` | 0.754 | 
 
-The results were determined with a [yes/no constituent judgements](wmt.md#yes-no-constituent-judgements), the acceptability score. 
+The results were determined with [yes or no constituent judgements](wmt.md#yes-or-no-constituent-judgements), the acceptability score. 
 
 It measures the percent of a system translation that was judged to be acceptable.
 
