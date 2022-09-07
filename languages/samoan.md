@@ -1,4 +1,6 @@
 ---
+nav_order: 993
+parent: Languages
 layout: language
 title: Samoan
 description: Machine translation for Samoan
@@ -6,7 +8,6 @@ code: sm
 family:
 - slug: austronesian
   name: Austronesian
-parent: Languages
 supported_engines:
 - id: rozetta
   name: Rozetta T-400
@@ -29,7 +30,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 993
 
 ---
 

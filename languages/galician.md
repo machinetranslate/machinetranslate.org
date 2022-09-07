@@ -1,4 +1,6 @@
 ---
+nav_order: 989
+parent: Languages
 layout: language
 title: Galician
 description: Machine translation for Galician
@@ -8,7 +10,6 @@ family:
   name: Romance
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: lingmo
   name: Lingmo Translation
@@ -43,7 +44,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 989
 
 ---
 

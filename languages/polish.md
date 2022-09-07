@@ -1,4 +1,6 @@
 ---
+nav_order: 970
+parent: Languages
 layout: language
 title: Polish
 description: Machine translation for Polish
@@ -8,7 +10,6 @@ family:
   name: Slavic
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: lingo24
   name: Lingo24
@@ -100,7 +101,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 970
 
 ---
 

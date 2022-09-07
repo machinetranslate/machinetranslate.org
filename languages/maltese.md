@@ -1,4 +1,6 @@
 ---
+nav_order: 983
+parent: Languages
 layout: language
 title: Maltese
 description: Machine translation for Maltese
@@ -8,7 +10,6 @@ family:
   name: Semitic
 - slug: afro-asiatic
   name: Afro-Asiatic
-parent: Languages
 supported_engines:
 - id: etranslation
   name: eTranslation
@@ -61,7 +62,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 983
 
 ---
 

@@ -1,4 +1,6 @@
 ---
+nav_order: 962
+parent: Languages
 layout: language
 title: Italian
 description: Machine translation for Italian
@@ -8,7 +10,6 @@ family:
   name: Romance
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: textshuttle
   name: TextShuttle
@@ -124,7 +125,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 962
 
 ---
 

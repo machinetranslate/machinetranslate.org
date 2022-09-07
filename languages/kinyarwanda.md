@@ -1,4 +1,6 @@
 ---
+nav_order: 996
+parent: Languages
 layout: language
 title: Kinyarwanda
 description: Machine translation for Kinyarwanda
@@ -8,7 +10,6 @@ family:
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
-parent: Languages
 supported_engines:
 - id: google
   name: Google Translate
@@ -22,7 +23,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 996
 
 ---
 

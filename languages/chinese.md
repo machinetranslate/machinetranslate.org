@@ -1,4 +1,6 @@
 ---
+nav_order: 964
+parent: Languages
 layout: language
 title: Chinese
 description: Machine translation for Chinese
@@ -6,7 +8,6 @@ code: zh
 family:
 - slug: sino-tibetan
   name: Sino-Tibetan
-parent: Languages
 supported_engines:
 - id: yeekit
   name: YeeKit
@@ -116,7 +117,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 964
 
 ---
 

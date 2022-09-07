@@ -1,4 +1,6 @@
 ---
+nav_order: 987
+parent: Languages
 layout: language
 title: Azerbaijani
 description: Machine translation for Azerbaijani
@@ -6,7 +8,6 @@ code: az
 family:
 - slug: turkic
   name: Turkic
-parent: Languages
 supported_engines:
 - id: promt
   name: PROMT
@@ -47,7 +48,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 987
 
 ---
 

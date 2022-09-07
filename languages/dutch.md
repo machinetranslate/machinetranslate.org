@@ -1,4 +1,6 @@
 ---
+nav_order: 969
+parent: Languages
 layout: language
 title: Dutch
 description: Machine translation for Dutch
@@ -8,7 +10,6 @@ family:
   name: Germanic
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: judicio
   name: Judicio
@@ -103,7 +104,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 969
 
 ---
 

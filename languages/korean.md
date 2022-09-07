@@ -1,4 +1,6 @@
 ---
+nav_order: 969
+parent: Languages
 layout: language
 title: Korean
 description: Machine translation for Korean
@@ -6,7 +8,6 @@ code: ko
 family:
 - slug: koreanic
   name: Koreanic
-parent: Languages
 supported_engines:
 - id: cloudtranslation
   name: CloudTranslation
@@ -101,7 +102,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 969
 
 ---
 

@@ -1,4 +1,6 @@
 ---
+nav_order: 970
+parent: Languages
 layout: language
 title: Indonesian
 description: Machine translation for Indonesian
@@ -6,7 +8,6 @@ code: id
 family:
 - slug: austronesian
   name: Austronesian
-parent: Languages
 supported_engines:
 - id: cloudtranslation
   name: CloudTranslation
@@ -98,7 +99,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 970
 
 ---
 

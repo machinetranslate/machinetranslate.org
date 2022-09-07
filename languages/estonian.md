@@ -1,4 +1,6 @@
 ---
+nav_order: 977
+parent: Languages
 layout: language
 title: Estonian
 description: Machine translation for Estonian
@@ -6,7 +8,6 @@ code: et
 family:
 - slug: finno-ugric
   name: Finno-Ugric
-parent: Languages
 supported_engines:
 - id: tilde
   name: Tilde
@@ -77,7 +78,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 977
 
 ---
 

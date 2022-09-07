@@ -1,4 +1,6 @@
 ---
+nav_order: 988
+parent: Languages
 layout: language
 title: Somali
 description: Machine translation for Somali
@@ -8,7 +10,6 @@ family:
   name: Cushitic
 - slug: afro-asiatic
   name: Afro-Asiatic
-parent: Languages
 supported_engines:
 - id: systran
   name: SYSTRAN
@@ -46,7 +47,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 988
 
 ---
 

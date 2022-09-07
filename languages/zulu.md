@@ -1,4 +1,6 @@
 ---
+nav_order: 991
+parent: Languages
 layout: language
 title: Zulu
 description: Machine translation for Zulu
@@ -8,7 +10,6 @@ family:
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
-parent: Languages
 supported_engines:
 - id: translateme
   name: TranslateMe
@@ -37,7 +38,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 991
 
 ---
 

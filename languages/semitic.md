@@ -1,4 +1,6 @@
 ---
+nav_exclude: true
+parent: Language families
 layout: language_family
 title: Semitic
 description: Machine translation for the Semitic language family

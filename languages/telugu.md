@@ -1,4 +1,6 @@
 ---
+nav_order: 987
+parent: Languages
 layout: language
 title: Telugu
 description: Machine translation for Telugu
@@ -6,7 +8,6 @@ code: te
 family:
 - slug: dravidian
   name: Dravidian
-parent: Languages
 supported_engines:
 - id: lilt
   name: Lilt
@@ -47,7 +48,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 987
 
 ---
 

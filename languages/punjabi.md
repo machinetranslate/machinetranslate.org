@@ -1,4 +1,6 @@
 ---
+nav_order: 988
+parent: Languages
 layout: language
 title: Punjabi
 description: Machine translation for Punjabi
@@ -10,7 +12,6 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: lilt
   name: Lilt
@@ -48,7 +49,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 988
 
 ---
 

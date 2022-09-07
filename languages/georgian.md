@@ -1,4 +1,6 @@
 ---
+nav_order: 986
+parent: Languages
 layout: language
 title: Georgian
 description: Machine translation for Georgian
@@ -6,7 +8,6 @@ code: ka
 family:
 - slug: kartvelian
   name: Kartvelian
-parent: Languages
 supported_engines:
 - id: promt
   name: PROMT
@@ -50,7 +51,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 986
 
 ---
 

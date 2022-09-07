@@ -1,4 +1,6 @@
 ---
+nav_exclude: true
+parent: Language families
 layout: language_family
 title: Finno-Ugric
 description: Machine translation for the Finno-Ugric language family

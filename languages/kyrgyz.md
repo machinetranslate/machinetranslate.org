@@ -1,4 +1,6 @@
 ---
+nav_order: 990
+parent: Languages
 layout: language
 title: Kyrgyz
 description: Machine translation for Kyrgyz
@@ -6,7 +8,6 @@ code: ky
 family:
 - slug: turkic
   name: Turkic
-parent: Languages
 supported_engines:
 - id: promt
   name: PROMT
@@ -38,7 +39,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 990
 
 ---
 

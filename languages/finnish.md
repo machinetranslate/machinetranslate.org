@@ -1,4 +1,6 @@
 ---
+nav_order: 972
+parent: Languages
 layout: language
 title: Finnish
 description: Machine translation for Finnish
@@ -6,7 +8,6 @@ code: fi
 family:
 - slug: finno-ugric
   name: Finno-Ugric
-parent: Languages
 supported_engines:
 - id: sunda
   name: Sunda Translator
@@ -92,7 +93,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 972
 
 ---
 

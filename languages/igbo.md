@@ -1,4 +1,6 @@
 ---
+nav_order: 993
+parent: Languages
 layout: language
 title: Igbo
 description: Machine translation for Igbo
@@ -6,7 +8,6 @@ code: ig
 family:
 - slug: niger-congo
   name: Niger-Congo
-parent: Languages
 supported_engines:
 - id: lilt
   name: Lilt
@@ -29,7 +30,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 993
 
 ---
 

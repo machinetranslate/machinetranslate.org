@@ -1,4 +1,6 @@
 ---
+nav_order: 979
+parent: Languages
 layout: language
 title: Malay
 description: Machine translation for Malay
@@ -6,7 +8,6 @@ code: ms
 family:
 - slug: austronesian
   name: Austronesian
-parent: Languages
 supported_engines:
 - id: aisa
   name: AISA
@@ -71,7 +72,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 979
 
 ---
 

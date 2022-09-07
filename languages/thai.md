@@ -1,4 +1,6 @@
 ---
+nav_order: 973
+parent: Languages
 layout: language
 title: Thai
 description: Machine translation for Thai
@@ -6,7 +8,6 @@ code: th
 family:
 - slug: tai
   name: Tai
-parent: Languages
 supported_engines:
 - id: papago
   name: Papago Translation
@@ -89,7 +90,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 973
 
 ---
 

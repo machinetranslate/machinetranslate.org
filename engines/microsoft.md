@@ -291,11 +291,11 @@ supported_languages:
   normalized_code: lv
   base_code: lv
   name: Latvian
-- slug: null
+- slug: chinese
   code: lzh
   normalized_code: lzh
   base_code: lzh
-  name: null
+  name: Chinese
 - slug: malagasy
   code: mg
   normalized_code: mg

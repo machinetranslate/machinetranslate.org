@@ -1,4 +1,6 @@
 ---
+nav_order: 993
+parent: Languages
 layout: language
 title: Scottish Gaelic
 description: Machine translation for Scottish Gaelic
@@ -8,7 +10,6 @@ family:
   name: Celtic
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: yandex
   name: Yandex Translate
@@ -31,7 +32,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 993
 
 ---
 

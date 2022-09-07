@@ -1,4 +1,6 @@
 ---
+nav_order: 992
+parent: Languages
 layout: language
 title: Xhosa
 description: Machine translation for Xhosa
@@ -8,7 +10,6 @@ family:
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
-parent: Languages
 supported_engines:
 - id: modernmt
   name: ModernMT
@@ -34,7 +35,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 992
 
 ---
 

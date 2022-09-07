@@ -1,4 +1,6 @@
 ---
+nav_order: 985
+parent: Languages
 layout: language
 title: Swahili
 description: Machine translation for Swahili
@@ -8,7 +10,6 @@ family:
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
-parent: Languages
 supported_engines:
 - id: omniscien
   name: Omniscien Technologies
@@ -55,7 +56,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 985
 
 ---
 

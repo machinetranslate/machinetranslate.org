@@ -1,4 +1,6 @@
 ---
+nav_order: 991
+parent: Languages
 layout: language
 title: Tajik
 description: Machine translation for Tajik
@@ -10,7 +12,6 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: promt
   name: PROMT
@@ -39,7 +40,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 991
 
 ---
 

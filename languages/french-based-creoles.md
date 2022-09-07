@@ -1,4 +1,6 @@
 ---
+nav_exclude: true
+parent: Language families
 layout: language_family
 title: French-based creoles
 description: Machine translation for the French-based creoles language family

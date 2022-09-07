@@ -1,4 +1,6 @@
 ---
+nav_order: 987
+parent: Languages
 layout: language
 title: Welsh
 description: Machine translation for Welsh
@@ -8,7 +10,6 @@ family:
   name: Celtic
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: apertium
   name: Apertium
@@ -49,7 +50,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 987
 
 ---
 

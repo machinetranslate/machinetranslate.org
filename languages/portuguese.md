@@ -1,4 +1,6 @@
 ---
+nav_order: 963
+parent: Languages
 layout: language
 title: Portuguese
 description: Machine translation for Portuguese
@@ -8,7 +10,6 @@ family:
   name: Romance
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: alexa-ai
   name: Alexa Translations A.I.
@@ -121,7 +122,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 963
 
 ---
 

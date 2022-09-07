@@ -1,4 +1,6 @@
 ---
+nav_order: 991
+parent: Languages
 layout: language
 title: Javanese
 description: Machine translation for Javanese
@@ -6,7 +8,6 @@ code: jv
 family:
 - slug: austronesian
   name: Austronesian
-parent: Languages
 supported_engines:
 - id: lilt
   name: Lilt
@@ -35,7 +36,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 991
 
 ---
 

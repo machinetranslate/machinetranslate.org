@@ -1,4 +1,6 @@
 ---
+nav_order: 968
+parent: Languages
 layout: language
 title: Japanese
 description: Machine translation for Japanese
@@ -6,7 +8,6 @@ code: ja
 family:
 - slug: japonic
   name: Japonic
-parent: Languages
 supported_engines:
 - id: cloudtranslation
   name: CloudTranslation
@@ -104,7 +105,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 968
 
 ---
 

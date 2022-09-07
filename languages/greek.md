@@ -1,4 +1,6 @@
 ---
+nav_order: 976
+parent: Languages
 layout: language
 title: Greek
 description: Machine translation for Greek
@@ -8,7 +10,6 @@ family:
   name: Hellenic
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: unbabel
   name: Unbabel
@@ -82,7 +83,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 976
 
 ---
 

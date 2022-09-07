@@ -1,4 +1,6 @@
 ---
+nav_order: 992
+parent: Languages
 layout: language
 title: Kurdish
 description: Machine translation for Kurdish
@@ -10,7 +12,6 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: language-weaver
   name: Language Weaver
@@ -36,7 +37,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 992
 
 ---
 

@@ -1,10 +1,11 @@
 ---
+nav_order: 989
+parent: Languages
 layout: language
 title: Basque
 description: Machine translation for Basque
 code: eu
 family: []
-parent: Languages
 supported_engines:
 - id: apertium
   name: Apertium
@@ -39,7 +40,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 989
 
 ---
 

@@ -560,11 +560,11 @@ supported_languages:
   normalized_code: lg
   base_code: lg
   name: null
-- slug: null
+- slug: chinese
   code: lzh
   normalized_code: lzh
   base_code: lzh
-  name: null
+  name: Chinese
 - slug: null
   code: mah
   normalized_code: mh

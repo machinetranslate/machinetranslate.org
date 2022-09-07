@@ -1,4 +1,6 @@
 ---
+nav_order: 980
+parent: Languages
 layout: language
 title: Ukrainian
 description: Machine translation for Ukrainian
@@ -8,7 +10,6 @@ family:
   name: Slavic
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: globalese
   name: Globalese
@@ -70,7 +71,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 980
 
 ---
 

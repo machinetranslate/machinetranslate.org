@@ -1,4 +1,6 @@
 ---
+nav_order: 974
+parent: Languages
 layout: language
 title: Hungarian
 description: Machine translation for Hungarian
@@ -6,7 +8,6 @@ code: hu
 family:
 - slug: finno-ugric
   name: Finno-Ugric
-parent: Languages
 supported_engines:
 - id: tilde
   name: Tilde
@@ -86,7 +87,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 974
 
 ---
 

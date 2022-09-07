@@ -1,4 +1,6 @@
 ---
+nav_order: 988
+parent: Languages
 layout: language
 title: Uzbek
 description: Machine translation for Uzbek
@@ -6,7 +8,6 @@ code: uz
 family:
 - slug: turkic
   name: Turkic
-parent: Languages
 supported_engines:
 - id: promt
   name: PROMT
@@ -44,7 +45,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 988
 
 ---
 

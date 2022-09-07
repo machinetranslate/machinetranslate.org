@@ -1,4 +1,6 @@
 ---
+nav_order: 996
+parent: Languages
 layout: language
 title: Uyghur
 description: Machine translation for Uyghur
@@ -6,7 +8,6 @@ code: ug
 family:
 - slug: turkic
   name: Turkic
-parent: Languages
 supported_engines:
 - id: microsoft
   name: Microsoft Translator
@@ -20,7 +21,6 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
-nav_order: 996
 
 ---
 

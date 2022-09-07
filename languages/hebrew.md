@@ -1,4 +1,6 @@
 ---
+nav_order: 977
+parent: Languages
 layout: language
 title: Hebrew
 description: Machine translation for Hebrew
@@ -8,7 +10,6 @@ family:
   name: Semitic
 - slug: afro-asiatic
   name: Afro-Asiatic
-parent: Languages
 supported_engines:
 - id: lingmo
   name: Lingmo Translation
@@ -79,7 +80,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 977
 
 ---
 

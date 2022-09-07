@@ -1,4 +1,6 @@
 ---
+nav_order: 990
+parent: Languages
 layout: language
 title: Hausa
 description: Machine translation for Hausa
@@ -8,7 +10,6 @@ family:
   name: Chadic
 - slug: afro-asiatic
   name: Afro-Asiatic
-parent: Languages
 supported_engines:
 - id: language-weaver
   name: Language Weaver
@@ -40,7 +41,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 990
 
 ---
 

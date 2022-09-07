@@ -108,11 +108,13 @@ for code in LANGUAGE_FAMILIES:
   languages.sort(key=lambda language: language['name'])
 
   frontmatter = {
+    'nav_exclude': True,
+    'parent': 'Language families',
     'layout': 'language_family',
     'title': name,
     'description': f'Machine translation for the { name } language family',
     'code': code,
-    'languages': languages,
+    'languages': languages
   }
 
   with open(filepath, 'w', encoding='utf8') as f:
@@ -157,14 +159,14 @@ for language in LANGUAGES:
   supported_engines.sort(key=lambda engine: engine['supported_language_count'])
 
   frontmatter = {
+    'nav_order': 1000 - len(supported_engines),
+    'parent': 'Languages',
     'layout': 'language',
     'title': name,
     'description': f'Machine translation for { name }',
     'code': code,
     'family': family,
-    'parent': 'Languages',
-    'supported_engines': supported_engines,
-    'nav_order': 1000 - len(supported_engines)
+    'supported_engines': supported_engines
   }
 
   slug = slugify(name)

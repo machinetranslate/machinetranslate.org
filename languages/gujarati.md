@@ -1,4 +1,6 @@
 ---
+nav_order: 986
+parent: Languages
 layout: language
 title: Gujarati
 description: Machine translation for Gujarati
@@ -10,7 +12,6 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: omniscien
   name: Omniscien Technologies
@@ -54,7 +55,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 986
 
 ---
 

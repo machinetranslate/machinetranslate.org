@@ -1,4 +1,6 @@
 ---
+nav_order: 994
+parent: Languages
 layout: language
 title: Sotho
 description: Machine translation for Sotho
@@ -8,7 +10,6 @@ family:
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
-parent: Languages
 supported_engines:
 - id: rozetta
   name: Rozetta T-400
@@ -28,7 +29,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 994
 
 ---
 

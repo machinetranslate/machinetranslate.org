@@ -1075,9 +1075,9 @@
   territories: [ ]
 
 -
-  codes: [ zh ]
+  codes: [ zh, lzh ]
   names: [ Chinese, Mandarin Chinese, Mandarin ]
-  variant_names: [ Simplified Chinese, Traditional Chinese ]
+  variant_names: [ Simplified Chinese, Traditional Chinese, Literary Chinese ]
   family: [ sit ]
   scripts: [ Hans, Hant ]
   typology:

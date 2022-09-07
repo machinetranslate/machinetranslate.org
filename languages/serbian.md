@@ -1,4 +1,6 @@
 ---
+nav_order: 983
+parent: Languages
 layout: language
 title: Serbian
 description: Machine translation for Serbian
@@ -8,7 +10,6 @@ family:
   name: Slavic
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: sap
   name: SAP Translation Hub
@@ -61,7 +62,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 983
 
 ---
 

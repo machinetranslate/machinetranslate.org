@@ -1,4 +1,6 @@
 ---
+nav_order: 984
+parent: Languages
 layout: language
 title: Bengali
 description: Machine translation for Bengali
@@ -10,7 +12,6 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: omniscien
   name: Omniscien Technologies
@@ -60,7 +61,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 984
 
 ---
 

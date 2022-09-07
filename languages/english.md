@@ -1,4 +1,6 @@
 ---
+nav_order: 957
+parent: Languages
 layout: language
 title: English
 description: Machine translation for English
@@ -8,7 +10,6 @@ family:
   name: Germanic
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: sunda
   name: Sunda Translator
@@ -139,7 +140,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 957
 
 ---
 

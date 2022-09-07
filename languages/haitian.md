@@ -1,4 +1,6 @@
 ---
+nav_order: 990
+parent: Languages
 layout: language
 title: Haitian
 description: Machine translation for Haitian
@@ -6,7 +8,6 @@ code: ht
 family:
 - slug: french-based-creoles
   name: French-based creoles
-parent: Languages
 supported_engines:
 - id: wordlingo
   name: Wordlingo
@@ -38,7 +39,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 990
 
 ---
 

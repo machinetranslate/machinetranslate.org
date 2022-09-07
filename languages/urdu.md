@@ -1,4 +1,6 @@
 ---
+nav_order: 983
+parent: Languages
 layout: language
 title: Urdu
 description: Machine translation for Urdu
@@ -10,7 +12,6 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: apertium
   name: Apertium
@@ -63,7 +64,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 983
 
 ---
 

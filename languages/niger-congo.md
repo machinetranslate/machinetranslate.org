@@ -1,4 +1,6 @@
 ---
+nav_exclude: true
+parent: Language families
 layout: language_family
 title: Niger-Congo
 description: Machine translation for the Niger-Congo language family

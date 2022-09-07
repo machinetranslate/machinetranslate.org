@@ -1,4 +1,6 @@
 ---
+nav_order: 993
+parent: Languages
 layout: language
 title: Latin
 description: Machine translation for Latin
@@ -8,7 +10,6 @@ family:
   name: Romance
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: wordlingo
   name: Wordlingo
@@ -31,7 +32,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 993
 
 ---
 

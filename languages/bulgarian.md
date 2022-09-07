@@ -1,4 +1,6 @@
 ---
+nav_order: 975
+parent: Languages
 layout: language
 title: Bulgarian
 description: Machine translation for Bulgarian
@@ -8,7 +10,6 @@ family:
   name: Slavic
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: unbabel
   name: Unbabel
@@ -85,7 +86,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 975
 
 ---
 

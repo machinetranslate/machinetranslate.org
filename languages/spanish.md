@@ -1,4 +1,6 @@
 ---
+nav_order: 960
+parent: Languages
 layout: language
 title: Spanish
 description: Machine translation for Spanish
@@ -8,7 +10,6 @@ family:
   name: Romance
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: alexa-ai
   name: Alexa Translations A.I.
@@ -130,7 +131,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 960
 
 ---
 

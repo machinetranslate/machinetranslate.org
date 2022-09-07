@@ -1,4 +1,6 @@
 ---
+nav_order: 974
+parent: Languages
 layout: language
 title: Vietnamese
 description: Machine translation for Vietnamese
@@ -6,7 +8,6 @@ code: vi
 family:
 - slug: austroasiatic
   name: Austroasiatic
-parent: Languages
 supported_engines:
 - id: papago
   name: Papago Translation
@@ -86,7 +87,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 974
 
 ---
 

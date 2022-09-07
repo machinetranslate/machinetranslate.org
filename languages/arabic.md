@@ -1,4 +1,6 @@
 ---
+nav_order: 969
+parent: Languages
 layout: language
 title: Arabic
 description: Machine translation for Arabic
@@ -8,7 +10,6 @@ family:
   name: Semitic
 - slug: afro-asiatic
   name: Afro-Asiatic
-parent: Languages
 supported_engines:
 - id: tarjama
   name: Tarjama MT
@@ -103,7 +104,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 969
 
 ---
 

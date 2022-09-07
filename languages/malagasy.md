@@ -1,4 +1,6 @@
 ---
+nav_order: 992
+parent: Languages
 layout: language
 title: Malagasy
 description: Machine translation for Malagasy
@@ -6,7 +8,6 @@ code: mg
 family:
 - slug: austronesian
   name: Austronesian
-parent: Languages
 supported_engines:
 - id: yandex
   name: Yandex Translate
@@ -32,7 +33,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 992
 
 ---
 

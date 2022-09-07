@@ -1,4 +1,6 @@
 ---
+nav_order: 991
+parent: Languages
 layout: language
 title: Sinhala
 description: Machine translation for Sinhala
@@ -10,7 +12,6 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: watson
   name: Watson Language Translator
@@ -39,7 +40,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 991
 
 ---
 

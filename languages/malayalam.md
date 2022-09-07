@@ -1,4 +1,6 @@
 ---
+nav_order: 988
+parent: Languages
 layout: language
 title: Malayalam
 description: Machine translation for Malayalam
@@ -6,7 +8,6 @@ code: ml
 family:
 - slug: dravidian
   name: Dravidian
-parent: Languages
 supported_engines:
 - id: lilt
   name: Lilt
@@ -44,7 +45,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 988
 
 ---
 

@@ -1,4 +1,6 @@
 ---
+nav_order: 975
+parent: Languages
 layout: language
 title: Hindi
 description: Machine translation for Hindi
@@ -10,7 +12,6 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: aisa
   name: AISA
@@ -87,7 +88,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 975
 
 ---
 

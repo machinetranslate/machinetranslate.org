@@ -1,4 +1,6 @@
 ---
+nav_order: 979
+parent: Languages
 layout: language
 title: Croatian
 description: Machine translation for Croatian
@@ -8,7 +10,6 @@ family:
   name: Slavic
 - slug: indo-european
   name: Indo-European
-parent: Languages
 supported_engines:
 - id: etranslation
   name: eTranslation
@@ -73,7 +74,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 979
 
 ---
 

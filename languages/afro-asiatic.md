@@ -1,4 +1,6 @@
 ---
+nav_exclude: true
+parent: Language families
 layout: language_family
 title: Afro-Asiatic
 description: Machine translation for the Afro-Asiatic language family

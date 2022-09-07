@@ -1,4 +1,6 @@
 ---
+nav_order: 984
+parent: Languages
 layout: language
 title: Tagalog
 description: Machine translation for Tagalog
@@ -6,7 +8,6 @@ code: tl
 family:
 - slug: austronesian
   name: Austronesian
-parent: Languages
 supported_engines:
 - id: textra
   name: TexTra
@@ -56,7 +57,6 @@ supported_engines:
 - id: niutrans
   name: Niutrans
   supported_language_count: 302
-nav_order: 984
 
 ---
 
