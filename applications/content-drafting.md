@@ -1,3 +1,10 @@
+---
+nav_order: 10
+parent: Application areas
+title: Content drafting
+description: Machine translation for drafting content
+---
+
 Authors and localisation engineers can use machine translation to quickly **draft content** in a natural language. 
 
 ## Use cases
