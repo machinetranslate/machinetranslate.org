@@ -40,10 +40,6 @@ parent: Language families
 
 <ul>
   {% for language in page.languages %}
-    <li>
-      <a href="/{{ language.slug }}">
-        {{ language.name }}
-      </a>
-    </li>
+    <li><a href="/{{ language.slug }}">{{ language.name }}</a></li>
   {% endfor %}
 </ul>

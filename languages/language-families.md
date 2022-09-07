@@ -2,5 +2,5 @@
 nav_exclude: true
 has_children: true
 title: Language families
-description: Machine translation support by language family
+description: Machine translation API support by language family
 ---

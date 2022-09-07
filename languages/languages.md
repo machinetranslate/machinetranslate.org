@@ -2,7 +2,7 @@
 nav_order: 50
 has_children: true
 title: Languages
-description: Machine translation language support
+description: Languages supported by machine translation APIs
 ---
 
 More than a hundred languages and locales are supported by more than one [machine translation APIs](/engines/engines.md)

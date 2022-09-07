@@ -83,6 +83,48 @@ for engine in ENGINES:
 
   SUPPORTED_LANGUAGE_BASE_CODES[engine_id] = list(set(codes))
 
+
+### Write language families
+for code in LANGUAGE_FAMILIES:
+
+  name = LANGUAGE_FAMILIES[code]
+
+  slug = slugify(name)
+  filepath = f'languages/{ slug }.md'
+
+  # TODO: check that it won't be overwritten by a language
+
+  content = read_content(filepath)
+
+  # "Join"
+  languages = []
+  for language in LANGUAGES:
+    if code in language['family']:
+      language_name = language['names'][0]
+      languages.append({
+        'slug': slugify(language_name),
+        'name': language_name
+      })
+  languages.sort(key=lambda language: language['name'])
+
+  frontmatter = {
+    'layout': 'language_family',
+    'title': name,
+    'description': f'Machine translation for the { name } language family',
+    'code': code,
+    'languages': languages,
+  }
+
+  with open(filepath, 'w', encoding='utf8') as f:
+    f.write(f'''\
+---
+{ yaml.dump(frontmatter, sort_keys=False) }
+---
+
+{ content }
+''')
+
+
 ### Write languages
 for language in LANGUAGES:
   code = language['codes'][0]
@@ -139,43 +181,6 @@ for language in LANGUAGES:
 { content }
 ''')
 
-### Write language families
-for code in LANGUAGE_FAMILIES:
-
-  name = LANGUAGE_FAMILIES[code]
-
-  slug = slugify(name)
-  filepath = f'language-families/{ slug }.md'
-
-  content = read_content(filepath)
-
-  # "Join"
-  languages = []
-  for language in LANGUAGES:
-    if code in language['family']:
-      language_name = language['names'][0]
-      languages.append({
-        'slug': slugify(language_name),
-        'name': language_name
-      })
-  languages.sort(key=lambda language: language['name'])
-
-  frontmatter = {
-    'layout': 'language_family',
-    'title': name,
-    'description': f'Machine translation for the { name } language family',
-    'code': code,
-    'languages': languages,
-  }
-
-  with open(filepath, 'w', encoding='utf8') as f:
-    f.write(f'''\
----
-{ yaml.dump(frontmatter, sort_keys=False) }
----
-
-{ content }
-''')
 
 UNLISTED_LANGUAGES = {}
 

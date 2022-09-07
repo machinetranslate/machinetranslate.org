@@ -86,14 +86,6 @@ defaults:
         type: Language
   -
     scope:
-      path: "language-families"
-      type: "pages"
-    values:
-      permalink: /:basename
-      seo:
-        type: Language
-  -
-    scope:
       path: "associations"
       type: "pages"
     values:

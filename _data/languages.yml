@@ -201,7 +201,7 @@
   territories: [ ee, ru ]
 
 -
-  codes: [ eu, eus, baq ]
+  codes: [ eu, eus, baq, bas ]
   names: [ Basque, Euskara ]
   family: [ ]
   scripts: [ Latn ]
