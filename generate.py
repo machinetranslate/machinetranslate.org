@@ -145,7 +145,7 @@ for code in LANGUAGE_FAMILIES:
   name = LANGUAGE_FAMILIES[code]
 
   slug = slugify(name)
-  filepath = f'language_families/{ slug }.md'
+  filepath = f'languages/families/{ slug }.md'
 
   content = read_content(filepath)
 
