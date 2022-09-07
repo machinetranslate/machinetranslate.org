@@ -3,6 +3,11 @@ layout: language
 title: Polish
 description: Machine translation for Polish
 code: pl
+family:
+- slug: slavic
+  name: Slavic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: lingo24

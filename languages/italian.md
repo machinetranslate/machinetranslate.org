@@ -3,6 +3,11 @@ layout: language
 title: Italian
 description: Machine translation for Italian
 code: it
+family:
+- slug: romance
+  name: Romance
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: textshuttle

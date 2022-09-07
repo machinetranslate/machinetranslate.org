@@ -3,6 +3,9 @@ layout: language
 title: Sundanese
 description: Machine translation for Sundanese
 code: su
+family:
+- slug: austronesian
+  name: Austronesian
 parent: Languages
 supported_engines:
 - id: yandex

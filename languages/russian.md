@@ -3,6 +3,11 @@ layout: language
 title: Russian
 description: Machine translation for Russian
 code: ru
+family:
+- slug: slavic
+  name: Slavic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: translateme

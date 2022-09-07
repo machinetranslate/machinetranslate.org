@@ -3,6 +3,11 @@ layout: language
 title: Dutch
 description: Machine translation for Dutch
 code: nl
+family:
+- slug: germanic
+  name: Germanic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: judicio

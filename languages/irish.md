@@ -3,6 +3,11 @@ layout: language
 title: Irish
 description: Machine translation for Irish
 code: ga
+family:
+- slug: celtic
+  name: Celtic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: etranslation

@@ -3,6 +3,11 @@ layout: language
 title: Norwegian
 description: Machine translation for Norwegian
 code: 'no'
+family:
+- slug: germanic
+  name: Germanic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: unbabel

@@ -3,6 +3,11 @@ layout: language
 title: Catalan
 description: Machine translation for Catalan
 code: ca
+family:
+- slug: romance
+  name: Romance
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: lingmo

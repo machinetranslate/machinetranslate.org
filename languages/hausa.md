@@ -3,6 +3,11 @@ layout: language
 title: Hausa
 description: Machine translation for Hausa
 code: ha
+family:
+- slug: chadic
+  name: Chadic
+- slug: afro-asiatic
+  name: Afro-Asiatic
 parent: Languages
 supported_engines:
 - id: language-weaver

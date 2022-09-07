@@ -3,6 +3,11 @@ layout: language
 title: Zulu
 description: Machine translation for Zulu
 code: zu
+family:
+- slug: bantu
+  name: Bantu
+- slug: niger-congo
+  name: Niger-Congo
 parent: Languages
 supported_engines:
 - id: translateme

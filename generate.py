@@ -93,6 +93,14 @@ for language in LANGUAGES:
   if type(language['names']) is not list:
     raise Exception(language)
 
+  family = []
+  for language_family_code in language['family']:
+    language_family_name = LANGUAGE_FAMILIES[language_family_code]
+    family.append({
+      'slug': slugify(language_family_name),
+      'name': language_family_name
+    })
+
   # "Join"
   supported_engines = []
   for engine in ENGINES:
@@ -111,6 +119,7 @@ for language in LANGUAGES:
     'title': name,
     'description': f'Machine translation for { name }',
     'code': code,
+    'family': family,
     'parent': 'Languages',
     'supported_engines': supported_engines,
     'nav_order': 1000 - len(supported_engines)
@@ -140,6 +149,7 @@ for code in LANGUAGE_FAMILIES:
 
   content = read_content(filepath)
 
+  # "Join"
   languages = []
   for language in LANGUAGES:
     if code in language['family']:

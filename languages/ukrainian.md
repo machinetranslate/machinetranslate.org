@@ -3,6 +3,11 @@ layout: language
 title: Ukrainian
 description: Machine translation for Ukrainian
 code: uk
+family:
+- slug: slavic
+  name: Slavic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: globalese

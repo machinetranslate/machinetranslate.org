@@ -3,6 +3,9 @@ layout: language
 title: Georgian
 description: Machine translation for Georgian
 code: ka
+family:
+- slug: kartvelian
+  name: Kartvelian
 parent: Languages
 supported_engines:
 - id: promt

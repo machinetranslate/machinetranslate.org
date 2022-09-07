@@ -3,6 +3,11 @@ layout: language
 title: Frisian
 description: Machine translation for Frisian
 code: fy
+family:
+- slug: germanic
+  name: Germanic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: rozetta

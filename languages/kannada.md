@@ -3,6 +3,9 @@ layout: language
 title: Kannada
 description: Machine translation for Kannada
 code: kn
+family:
+- slug: dravidian
+  name: Dravidian
 parent: Languages
 supported_engines:
 - id: lilt

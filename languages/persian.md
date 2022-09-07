@@ -3,6 +3,13 @@ layout: language
 title: Persian
 description: Machine translation for Persian
 code: fa
+family:
+- slug: iranic
+  name: Iranic
+- slug: indo-iranian
+  name: Indo-Iranian
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: promt

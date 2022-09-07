@@ -3,6 +3,9 @@ layout: language
 title: Igbo
 description: Machine translation for Igbo
 code: ig
+family:
+- slug: niger-congo
+  name: Niger-Congo
 parent: Languages
 supported_engines:
 - id: lilt

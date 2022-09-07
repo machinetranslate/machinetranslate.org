@@ -3,6 +3,9 @@ layout: language
 title: Lao
 description: Machine translation for Lao
 code: lo
+family:
+- slug: tai
+  name: Tai
 parent: Languages
 supported_engines:
 - id: yandex

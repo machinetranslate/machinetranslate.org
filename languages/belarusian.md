@@ -3,6 +3,11 @@ layout: language
 title: Belarusian
 description: Machine translation for Belarusian
 code: be
+family:
+- slug: slavic
+  name: Slavic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: apertium

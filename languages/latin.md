@@ -3,6 +3,11 @@ layout: language
 title: Latin
 description: Machine translation for Latin
 code: la
+family:
+- slug: romance
+  name: Romance
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: wordlingo

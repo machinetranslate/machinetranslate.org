@@ -3,6 +3,9 @@ layout: language
 title: Malayalam
 description: Machine translation for Malayalam
 code: ml
+family:
+- slug: dravidian
+  name: Dravidian
 parent: Languages
 supported_engines:
 - id: lilt

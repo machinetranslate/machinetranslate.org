@@ -3,6 +3,9 @@ layout: language
 title: Estonian
 description: Machine translation for Estonian
 code: et
+family:
+- slug: finno-ugric
+  name: Finno-Ugric
 parent: Languages
 supported_engines:
 - id: tilde

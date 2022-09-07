@@ -3,6 +3,9 @@ layout: language
 title: Turkish
 description: Machine translation for Turkish
 code: tr
+family:
+- slug: turkic
+  name: Turkic
 parent: Languages
 supported_engines:
 - id: translateme

@@ -3,6 +3,13 @@ layout: language
 title: Tajik
 description: Machine translation for Tajik
 code: tg
+family:
+- slug: iranic
+  name: Iranic
+- slug: indo-iranian
+  name: Indo-Iranian
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: promt

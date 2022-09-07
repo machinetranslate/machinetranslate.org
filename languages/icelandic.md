@@ -3,6 +3,11 @@ layout: language
 title: Icelandic
 description: Machine translation for Icelandic
 code: is
+family:
+- slug: germanic
+  name: Germanic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: etranslation

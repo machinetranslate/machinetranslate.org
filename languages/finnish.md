@@ -3,6 +3,9 @@ layout: language
 title: Finnish
 description: Machine translation for Finnish
 code: fi
+family:
+- slug: finno-ugric
+  name: Finno-Ugric
 parent: Languages
 supported_engines:
 - id: sunda

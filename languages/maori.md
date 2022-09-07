@@ -3,6 +3,9 @@ layout: language
 title: Maori
 description: Machine translation for Maori
 code: mi
+family:
+- slug: austronesian
+  name: Austronesian
 parent: Languages
 supported_engines:
 - id: yandex

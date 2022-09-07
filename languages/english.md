@@ -3,6 +3,11 @@ layout: language
 title: English
 description: Machine translation for English
 code: en
+family:
+- slug: germanic
+  name: Germanic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: sunda

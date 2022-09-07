@@ -3,6 +3,13 @@ layout: language
 title: Punjabi
 description: Machine translation for Punjabi
 code: pa
+family:
+- slug: indo-aryan
+  name: Indo-Aryan
+- slug: indo-iranian
+  name: Indo-Iranian
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: lilt

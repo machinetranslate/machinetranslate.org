@@ -3,6 +3,11 @@ layout: language
 title: Xhosa
 description: Machine translation for Xhosa
 code: xh
+family:
+- slug: bantu
+  name: Bantu
+- slug: niger-congo
+  name: Niger-Congo
 parent: Languages
 supported_engines:
 - id: modernmt

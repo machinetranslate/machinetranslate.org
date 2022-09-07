@@ -3,6 +3,9 @@ layout: language
 title: Yoruba
 description: Machine translation for Yoruba
 code: yo
+family:
+- slug: niger-congo
+  name: Niger-Congo
 parent: Languages
 supported_engines:
 - id: rozetta

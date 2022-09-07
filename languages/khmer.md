@@ -3,6 +3,9 @@ layout: language
 title: Khmer
 description: Machine translation for Khmer
 code: km
+family:
+- slug: austroasiatic
+  name: Austroasiatic
 parent: Languages
 supported_engines:
 - id: textra

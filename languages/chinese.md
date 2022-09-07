@@ -3,6 +3,9 @@ layout: language
 title: Chinese
 description: Machine translation for Chinese
 code: zh
+family:
+- slug: sino-tibetan
+  name: Sino-Tibetan
 parent: Languages
 supported_engines:
 - id: yeekit

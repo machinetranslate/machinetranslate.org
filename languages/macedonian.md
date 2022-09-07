@@ -3,6 +3,11 @@ layout: language
 title: Macedonian
 description: Machine translation for Macedonian
 code: mk
+family:
+- slug: slavic
+  name: Slavic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: apertium

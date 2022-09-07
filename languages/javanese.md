@@ -3,6 +3,9 @@ layout: language
 title: Javanese
 description: Machine translation for Javanese
 code: jv
+family:
+- slug: austronesian
+  name: Austronesian
 parent: Languages
 supported_engines:
 - id: lilt

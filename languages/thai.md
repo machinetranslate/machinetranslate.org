@@ -3,6 +3,9 @@ layout: language
 title: Thai
 description: Machine translation for Thai
 code: th
+family:
+- slug: tai
+  name: Tai
 parent: Languages
 supported_engines:
 - id: papago

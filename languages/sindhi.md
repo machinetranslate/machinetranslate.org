@@ -3,6 +3,13 @@ layout: language
 title: Sindhi
 description: Machine translation for Sindhi
 code: sd
+family:
+- slug: indo-aryan
+  name: Indo-Aryan
+- slug: indo-iranian
+  name: Indo-Iranian
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: rozetta

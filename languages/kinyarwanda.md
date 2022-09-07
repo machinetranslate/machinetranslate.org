@@ -3,6 +3,11 @@ layout: language
 title: Kinyarwanda
 description: Machine translation for Kinyarwanda
 code: rw
+family:
+- slug: bantu
+  name: Bantu
+- slug: niger-congo
+  name: Niger-Congo
 parent: Languages
 supported_engines:
 - id: google

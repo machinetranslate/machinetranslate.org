@@ -3,6 +3,9 @@ layout: language
 title: Malay
 description: Machine translation for Malay
 code: ms
+family:
+- slug: austronesian
+  name: Austronesian
 parent: Languages
 supported_engines:
 - id: aisa

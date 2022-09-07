@@ -3,6 +3,11 @@ layout: language
 title: Romanian
 description: Machine translation for Romanian
 code: ro
+family:
+- slug: romance
+  name: Romance
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: tilde

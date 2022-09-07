@@ -3,6 +3,11 @@ layout: language
 title: Serbian
 description: Machine translation for Serbian
 code: sr
+family:
+- slug: slavic
+  name: Slavic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: sap

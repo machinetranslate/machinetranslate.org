@@ -3,6 +3,11 @@ layout: language
 title: Hebrew
 description: Machine translation for Hebrew
 code: he
+family:
+- slug: semitic
+  name: Semitic
+- slug: afro-asiatic
+  name: Afro-Asiatic
 parent: Languages
 supported_engines:
 - id: lingmo

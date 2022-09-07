@@ -3,6 +3,13 @@ layout: language
 title: Marathi
 description: Machine translation for Marathi
 code: mr
+family:
+- slug: indo-aryan
+  name: Indo-Aryan
+- slug: indo-iranian
+  name: Indo-Iranian
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: lilt

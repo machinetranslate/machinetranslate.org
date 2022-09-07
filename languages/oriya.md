@@ -3,6 +3,13 @@ layout: language
 title: Oriya
 description: Machine translation for Oriya
 code: or
+family:
+- slug: indo-aryan
+  name: Indo-Aryan
+- slug: indo-iranian
+  name: Indo-Iranian
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: microsoft

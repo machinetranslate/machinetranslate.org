@@ -3,6 +3,9 @@ layout: language
 title: Armenian
 description: Machine translation for Armenian
 code: hy
+family:
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: promt

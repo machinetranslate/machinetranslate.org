@@ -3,6 +3,11 @@ layout: language
 title: German
 description: Machine translation for German
 code: de
+family:
+- slug: germanic
+  name: Germanic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: judicio

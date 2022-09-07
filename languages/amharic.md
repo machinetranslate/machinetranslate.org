@@ -3,6 +3,11 @@ layout: language
 title: Amharic
 description: Machine translation for Amharic
 code: am
+family:
+- slug: semitic
+  name: Semitic
+- slug: afro-asiatic
+  name: Afro-Asiatic
 parent: Languages
 supported_engines:
 - id: apptek

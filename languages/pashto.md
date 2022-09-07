@@ -3,6 +3,13 @@ layout: language
 title: Pashto
 description: Machine translation for Pashto
 code: ps
+family:
+- slug: iranic
+  name: Iranic
+- slug: indo-iranian
+  name: Indo-Iranian
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: lilt

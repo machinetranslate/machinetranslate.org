@@ -3,6 +3,9 @@ layout: language
 title: Tatar
 description: Machine translation for Tatar
 code: tt
+family:
+- slug: turkic
+  name: Turkic
 parent: Languages
 supported_engines:
 - id: promt

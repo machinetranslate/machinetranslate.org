@@ -3,6 +3,9 @@ layout: language
 title: Vietnamese
 description: Machine translation for Vietnamese
 code: vi
+family:
+- slug: austroasiatic
+  name: Austroasiatic
 parent: Languages
 supported_engines:
 - id: papago

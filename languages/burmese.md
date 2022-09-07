@@ -3,6 +3,9 @@ layout: language
 title: Burmese
 description: Machine translation for Burmese
 code: my
+family:
+- slug: sino-tibetan
+  name: Sino-Tibetan
 parent: Languages
 supported_engines:
 - id: textra

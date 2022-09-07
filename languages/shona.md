@@ -3,6 +3,9 @@ layout: language
 title: Shona
 description: Machine translation for Shona
 code: sn
+family:
+- slug: niger-congo
+  name: Niger-Congo
 parent: Languages
 supported_engines:
 - id: rozetta

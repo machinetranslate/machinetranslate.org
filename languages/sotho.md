@@ -3,6 +3,11 @@ layout: language
 title: Sotho
 description: Machine translation for Sotho
 code: st
+family:
+- slug: bantu
+  name: Bantu
+- slug: niger-congo
+  name: Niger-Congo
 parent: Languages
 supported_engines:
 - id: rozetta

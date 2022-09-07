@@ -3,6 +3,9 @@ layout: language
 title: Hungarian
 description: Machine translation for Hungarian
 code: hu
+family:
+- slug: finno-ugric
+  name: Finno-Ugric
 parent: Languages
 supported_engines:
 - id: tilde

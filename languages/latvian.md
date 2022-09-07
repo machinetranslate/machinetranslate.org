@@ -3,6 +3,11 @@ layout: language
 title: Latvian
 description: Machine translation for Latvian
 code: lv
+family:
+- slug: baltic
+  name: Baltic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: tilde

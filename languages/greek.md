@@ -3,6 +3,11 @@ layout: language
 title: Greek
 description: Machine translation for Greek
 code: el
+family:
+- slug: hellenic
+  name: Hellenic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: unbabel

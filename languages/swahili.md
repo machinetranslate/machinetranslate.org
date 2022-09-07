@@ -3,6 +3,11 @@ layout: language
 title: Swahili
 description: Machine translation for Swahili
 code: sw
+family:
+- slug: bantu
+  name: Bantu
+- slug: niger-congo
+  name: Niger-Congo
 parent: Languages
 supported_engines:
 - id: omniscien

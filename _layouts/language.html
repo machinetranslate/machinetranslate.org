@@ -35,7 +35,7 @@ parent: Languages
 
     <dt>Language family</dt>
     <dd>
-      {% for family in language.family %}
+      {% for family in page.family %}
        <a href="/{{ family.slug }}">{{ family.name }}</a> {% unless forloop.last %}<{% endunless %}
       {% endfor %}
 
@@ -62,7 +62,7 @@ parent: Languages
 
 <h2 id="api-support">API support</h2>
 
-<p><strong>{{ page.supported_engines | size }}</strong> APIs support {{ page.title }}</p>
+<p><strong>{{ page.supported_engines | size }}</strong> APIs support {{ page.title }}.</p>
 
 <ul>
   {% for engine in page.supported_engines %}

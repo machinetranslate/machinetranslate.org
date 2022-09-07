@@ -3,6 +3,9 @@ layout: language
 title: Uyghur
 description: Machine translation for Uyghur
 code: ug
+family:
+- slug: turkic
+  name: Turkic
 parent: Languages
 supported_engines:
 - id: microsoft

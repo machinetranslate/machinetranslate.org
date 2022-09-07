@@ -3,6 +3,9 @@ layout: language
 title: Mongolian
 description: Machine translation for Mongolian
 code: mn
+family:
+- slug: mongolic
+  name: Mongolic
 parent: Languages
 supported_engines:
 - id: textra

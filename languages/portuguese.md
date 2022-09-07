@@ -3,6 +3,11 @@ layout: language
 title: Portuguese
 description: Machine translation for Portuguese
 code: pt
+family:
+- slug: romance
+  name: Romance
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: alexa-ai

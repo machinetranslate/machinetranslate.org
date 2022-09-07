@@ -3,6 +3,13 @@ layout: language
 title: Bengali
 description: Machine translation for Bengali
 code: bn
+family:
+- slug: indo-aryan
+  name: Indo-Aryan
+- slug: indo-iranian
+  name: Indo-Iranian
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: omniscien

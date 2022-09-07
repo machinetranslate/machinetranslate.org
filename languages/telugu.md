@@ -3,6 +3,9 @@ layout: language
 title: Telugu
 description: Machine translation for Telugu
 code: te
+family:
+- slug: dravidian
+  name: Dravidian
 parent: Languages
 supported_engines:
 - id: lilt

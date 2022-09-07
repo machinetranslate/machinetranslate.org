@@ -3,6 +3,11 @@ layout: language
 title: Afrikaans
 description: Machine translation for Afrikaans
 code: af
+family:
+- slug: germanic
+  name: Germanic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: apertium

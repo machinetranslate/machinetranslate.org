@@ -3,6 +3,11 @@ layout: language
 title: Spanish
 description: Machine translation for Spanish
 code: es
+family:
+- slug: romance
+  name: Romance
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: alexa-ai

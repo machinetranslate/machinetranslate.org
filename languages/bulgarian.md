@@ -3,6 +3,11 @@ layout: language
 title: Bulgarian
 description: Machine translation for Bulgarian
 code: bg
+family:
+- slug: slavic
+  name: Slavic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: unbabel

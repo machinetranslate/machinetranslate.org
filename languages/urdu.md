@@ -3,6 +3,13 @@ layout: language
 title: Urdu
 description: Machine translation for Urdu
 code: ur
+family:
+- slug: indo-aryan
+  name: Indo-Aryan
+- slug: indo-iranian
+  name: Indo-Iranian
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: apertium

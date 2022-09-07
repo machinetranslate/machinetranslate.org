@@ -3,6 +3,13 @@ layout: language
 title: Nepali
 description: Machine translation for Nepali
 code: ne
+family:
+- slug: indo-aryan
+  name: Indo-Aryan
+- slug: indo-iranian
+  name: Indo-Iranian
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: textra

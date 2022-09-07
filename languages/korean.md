@@ -3,6 +3,9 @@ layout: language
 title: Korean
 description: Machine translation for Korean
 code: ko
+family:
+- slug: koreanic
+  name: Koreanic
 parent: Languages
 supported_engines:
 - id: cloudtranslation

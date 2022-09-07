@@ -3,6 +3,11 @@ layout: language
 title: Lithuanian
 description: Machine translation for Lithuanian
 code: lt
+family:
+- slug: baltic
+  name: Baltic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: tilde

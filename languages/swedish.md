@@ -3,6 +3,11 @@ layout: language
 title: Swedish
 description: Machine translation for Swedish
 code: sv
+family:
+- slug: germanic
+  name: Germanic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: lingo24

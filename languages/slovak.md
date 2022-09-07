@@ -3,6 +3,11 @@ layout: language
 title: Slovak
 description: Machine translation for Slovak
 code: sk
+family:
+- slug: slavic
+  name: Slavic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: etranslation

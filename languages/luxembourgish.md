@@ -3,6 +3,11 @@ layout: language
 title: Luxembourgish
 description: Machine translation for Luxembourgish
 code: lb
+family:
+- slug: germanic
+  name: Germanic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: yandex

@@ -3,6 +3,11 @@ layout: language
 title: Yiddish
 description: Machine translation for Yiddish
 code: yi
+family:
+- slug: germanic
+  name: Germanic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: wordlingo

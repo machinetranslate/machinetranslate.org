@@ -3,6 +3,11 @@ layout: language
 title: Czech
 description: Machine translation for Czech
 code: cs
+family:
+- slug: slavic
+  name: Slavic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: tilde

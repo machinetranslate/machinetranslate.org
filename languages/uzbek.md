@@ -3,6 +3,9 @@ layout: language
 title: Uzbek
 description: Machine translation for Uzbek
 code: uz
+family:
+- slug: turkic
+  name: Turkic
 parent: Languages
 supported_engines:
 - id: promt

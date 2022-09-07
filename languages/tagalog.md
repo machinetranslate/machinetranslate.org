@@ -3,6 +3,9 @@ layout: language
 title: Tagalog
 description: Machine translation for Tagalog
 code: tl
+family:
+- slug: austronesian
+  name: Austronesian
 parent: Languages
 supported_engines:
 - id: textra

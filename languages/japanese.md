@@ -3,6 +3,9 @@ layout: language
 title: Japanese
 description: Machine translation for Japanese
 code: ja
+family:
+- slug: japonic
+  name: Japonic
 parent: Languages
 supported_engines:
 - id: cloudtranslation

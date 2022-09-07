@@ -3,6 +3,11 @@ layout: language
 title: Croatian
 description: Machine translation for Croatian
 code: hr
+family:
+- slug: slavic
+  name: Slavic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: etranslation

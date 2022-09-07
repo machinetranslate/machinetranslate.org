@@ -3,6 +3,9 @@ layout: language
 title: Haitian
 description: Machine translation for Haitian
 code: ht
+family:
+- slug: french-based-creoles
+  name: French-based creoles
 parent: Languages
 supported_engines:
 - id: wordlingo

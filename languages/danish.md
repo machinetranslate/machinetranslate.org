@@ -3,6 +3,11 @@ layout: language
 title: Danish
 description: Machine translation for Danish
 code: da
+family:
+- slug: germanic
+  name: Germanic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: lingo24

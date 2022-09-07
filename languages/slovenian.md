@@ -3,6 +3,11 @@ layout: language
 title: Slovenian
 description: Machine translation for Slovenian
 code: sl
+family:
+- slug: slavic
+  name: Slavic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: etranslation

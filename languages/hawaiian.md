@@ -3,6 +3,9 @@ layout: language
 title: Hawaiian
 description: Machine translation for Hawaiian
 code: haw
+family:
+- slug: austronesian
+  name: Austronesian
 parent: Languages
 supported_engines:
 - id: rozetta

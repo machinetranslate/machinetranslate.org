@@ -3,6 +3,9 @@ layout: language
 title: Azerbaijani
 description: Machine translation for Azerbaijani
 code: az
+family:
+- slug: turkic
+  name: Turkic
 parent: Languages
 supported_engines:
 - id: promt

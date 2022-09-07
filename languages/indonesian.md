@@ -3,6 +3,9 @@ layout: language
 title: Indonesian
 description: Machine translation for Indonesian
 code: id
+family:
+- slug: austronesian
+  name: Austronesian
 parent: Languages
 supported_engines:
 - id: cloudtranslation

@@ -3,6 +3,9 @@ layout: language
 title: Hmong
 description: Machine translation for Hmong
 code: hmn
+family:
+- slug: hmong-mien
+  name: Hmong-Mien
 parent: Languages
 supported_engines:
 - id: microsoft

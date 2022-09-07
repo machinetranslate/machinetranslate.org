@@ -3,6 +3,11 @@ layout: language
 title: Bosnian
 description: Machine translation for Bosnian
 code: bs
+family:
+- slug: slavic
+  name: Slavic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: modernmt

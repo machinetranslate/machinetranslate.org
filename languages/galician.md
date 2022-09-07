@@ -3,6 +3,11 @@ layout: language
 title: Galician
 description: Machine translation for Galician
 code: gl
+family:
+- slug: romance
+  name: Romance
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: lingmo

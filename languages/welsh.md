@@ -3,6 +3,11 @@ layout: language
 title: Welsh
 description: Machine translation for Welsh
 code: cy
+family:
+- slug: celtic
+  name: Celtic
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: apertium

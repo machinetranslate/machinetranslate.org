@@ -3,6 +3,9 @@ layout: language
 title: Turkmen
 description: Machine translation for Turkmen
 code: tk
+family:
+- slug: turkic
+  name: Turkic
 parent: Languages
 supported_engines:
 - id: promt

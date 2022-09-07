@@ -3,6 +3,9 @@ layout: language
 title: Albanian
 description: Machine translation for Albanian
 code: sq
+family:
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: lilt

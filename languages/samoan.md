@@ -3,6 +3,9 @@ layout: language
 title: Samoan
 description: Machine translation for Samoan
 code: sm
+family:
+- slug: austronesian
+  name: Austronesian
 parent: Languages
 supported_engines:
 - id: rozetta

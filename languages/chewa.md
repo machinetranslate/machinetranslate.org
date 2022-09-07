@@ -3,6 +3,9 @@ layout: language
 title: Chewa
 description: Machine translation for Chewa
 code: ny
+family:
+- slug: niger-congo
+  name: Niger-Congo
 parent: Languages
 supported_engines:
 - id: rozetta

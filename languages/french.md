@@ -3,6 +3,11 @@ layout: language
 title: French
 description: Machine translation for French
 code: fr
+family:
+- slug: romance
+  name: Romance
+- slug: indo-european
+  name: Indo-European
 parent: Languages
 supported_engines:
 - id: judicio

@@ -3,6 +3,11 @@ layout: language
 title: Somali
 description: Machine translation for Somali
 code: so
+family:
+- slug: cushitic
+  name: Cushitic
+- slug: afro-asiatic
+  name: Afro-Asiatic
 parent: Languages
 supported_engines:
 - id: systran

@@ -3,6 +3,11 @@ layout: language
 title: Maltese
 description: Machine translation for Maltese
 code: mt
+family:
+- slug: semitic
+  name: Semitic
+- slug: afro-asiatic
+  name: Afro-Asiatic
 parent: Languages
 supported_engines:
 - id: etranslation
