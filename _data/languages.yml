@@ -1038,7 +1038,7 @@
   codes: [ vi, vie ]
   names: [ Vietnamese ]
   family: [ aav ]
-  scripts: [ Hani, Latn ]
+  scripts: [ Latn, Hani ]
   typology:
     word_order: [ SVO ]
     morphosyntax: [ analytic, isolating ]

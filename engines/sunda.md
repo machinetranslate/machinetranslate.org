@@ -17,11 +17,13 @@ supported_languages:
   normalized_code: en
   base_code: en
   name: English
+  variant_name: null
 - slug: finnish
   code: fi
   normalized_code: fi
   base_code: fi
   name: Finnish
+  variant_name: null
 nav_order: 998
 
 ---

@@ -38,15 +38,12 @@ parent: Languages
       {% for family in page.family %}
        <a href="/{{ family.slug }}">{{ family.name }}</a> {% unless forloop.last %}<{% endunless %}
       {% endfor %}
-      {% if page.family | size == 0 %}
-      <a href="https://en.wikipedia.org/wiki/Language_isolate" target="_blank">isolate</a>
-      {% endif %}
     </dd>
 
     <dt>Scripts</dt>
     <dd>
       {% for script in language.scripts %}
-        {{ site.data.scripts[script] or <code>script</code> }}{% unless forloop.last %},{% endunless %}
+        {{ site.data.scripts[script] or <code>{{ script }}</code> }}{% unless forloop.last %},{% endunless %}
       {% endfor %}
     </dd>
 
