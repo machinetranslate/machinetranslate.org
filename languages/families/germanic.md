@@ -8,18 +8,18 @@ languages:
   name: Afrikaans
 - slug: danish
   name: Danish
-- slug: german
-  name: German
+- slug: dutch
+  name: Dutch
 - slug: english
   name: English
 - slug: frisian
   name: Frisian
+- slug: german
+  name: German
 - slug: icelandic
   name: Icelandic
 - slug: luxembourgish
   name: Luxembourgish
-- slug: dutch
-  name: Dutch
 - slug: norwegian
   name: Norwegian
 - slug: swedish

@@ -8,8 +8,6 @@ languages:
   name: Catalan
 - slug: corsican
   name: Corsican
-- slug: spanish
-  name: Spanish
 - slug: french
   name: French
 - slug: galician
@@ -22,6 +20,8 @@ languages:
   name: Portuguese
 - slug: romanian
   name: Romanian
+- slug: spanish
+  name: Spanish
 
 ---
 

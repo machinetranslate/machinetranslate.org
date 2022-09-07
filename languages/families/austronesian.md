@@ -14,10 +14,10 @@ languages:
   name: Javanese
 - slug: malagasy
   name: Malagasy
-- slug: maori
-  name: Maori
 - slug: malay
   name: Malay
+- slug: maori
+  name: Maori
 - slug: samoan
   name: Samoan
 - slug: sundanese

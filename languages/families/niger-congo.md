@@ -4,10 +4,10 @@ title: Niger-Congo
 description: Machine translation for the Niger-Congo language family
 code: nic
 languages:
-- slug: igbo
-  name: Igbo
 - slug: chewa
   name: Chewa
+- slug: igbo
+  name: Igbo
 - slug: kinyarwanda
   name: Kinyarwanda
 - slug: shona

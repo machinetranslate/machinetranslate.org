@@ -6,30 +6,30 @@ code: iir
 languages:
 - slug: bengali
   name: Bengali
-- slug: persian
-  name: Persian
 - slug: gujarati
   name: Gujarati
 - slug: hindi
   name: Hindi
 - slug: kurdish
   name: Kurdish
-- slug: sorani-kurdish
-  name: Sorani Kurdish
 - slug: marathi
   name: Marathi
 - slug: nepali
   name: Nepali
 - slug: oriya
   name: Oriya
-- slug: punjabi
-  name: Punjabi
 - slug: pashto
   name: Pashto
+- slug: persian
+  name: Persian
+- slug: punjabi
+  name: Punjabi
 - slug: sindhi
   name: Sindhi
 - slug: sinhala
   name: Sinhala
+- slug: sorani-kurdish
+  name: Sorani Kurdish
 - slug: tajik
   name: Tajik
 - slug: urdu

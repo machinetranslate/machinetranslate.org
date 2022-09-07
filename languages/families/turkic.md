@@ -10,12 +10,12 @@ languages:
   name: Kazakh
 - slug: kyrgyz
   name: Kyrgyz
-- slug: turkmen
-  name: Turkmen
-- slug: turkish
-  name: Turkish
 - slug: tatar
   name: Tatar
+- slug: turkish
+  name: Turkish
+- slug: turkmen
+  name: Turkmen
 - slug: uyghur
   name: Uyghur
 - slug: uzbek

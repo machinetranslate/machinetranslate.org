@@ -158,6 +158,7 @@ for code in LANGUAGE_FAMILIES:
         'slug': slugify(language_name),
         'name': language_name
       })
+  languages.sort(key=lambda language: language['name'])
 
   frontmatter = {
     'layout': 'language_family',

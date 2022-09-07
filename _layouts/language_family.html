@@ -1,6 +1,5 @@
 ---
 layout: default
-parent: Languages
 nav_exclude: true
 ---
 
@@ -14,7 +13,11 @@ nav_exclude: true
 <hr/>
 
 <p>
-  {{ page.languages | size }} languages in the <strong>{{ page.title }}</strong> language family are supported by machine translation APIs</a>.
+  {% if page.languages | size == 1 %}
+  Only one language in the <strong>{{ page.title }}</strong> language family is supported by a <a href="/engines"></a>machine translation API</a>.
+  {% else %}
+  {{ page.languages | size }} languages in the <strong>{{ page.title }}</strong> language family are supported by <a href="/engines"></a>machine translation APIs</a>.
+  {% endif %}
 </p>
 
 <blockquote>
