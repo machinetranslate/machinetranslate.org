@@ -68,6 +68,9 @@ parent: Engines
         <code>{{ language.code }}</code>
       </a>
       {% endif %}
+      {% if language.variant_name %}
+        | {{ language.variant_name }}
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
