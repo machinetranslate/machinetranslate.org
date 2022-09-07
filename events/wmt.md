@@ -37,7 +37,7 @@ Universities, research laboratories and big technology companies consistently pa
 | [WMT11](wmt11.md) | Workshop on Statistical Machine Translation | EMNLP 2011 |
 | [WMT10](wmt10.md) | Workshop on Statistical Machine Translation | ACL 2010 |
 | [WMT09](wmt09.md) | Workshop on Statistical Machine Translation | EACL 2009 |
-| WMT08 | Workshop on Statistical Machine Translation | ACL 2008 |
+| [WMT08](wmt08.md) | Workshop on Statistical Machine Translation | ACL 2008 |
 | WMT07 | Workshop on Statistical Machine Translation | ACL 2007 |
 | WMT06 | Workshop on Statistical Machine Translation | NAACL 2006 |
 
@@ -143,6 +143,7 @@ For WMT, TrueSkill was adapted to machine translation evaluation.
 For WMT14, WMT15 and WMT16, TrueSkill was used as the human evaluation ranking for all translation shared tasks.
 
 ### Relative ranking
+
 In **relative ranking**, for each input, humans rank the outputs from all systems.
   
 There is no absolute score or label, so there is no measure of absolute quality.
@@ -151,13 +152,25 @@ The sequence-level rankings are used to calculate system-level rankings, for exa
 
 Relative ranking was the official ranking for the translation shared task from WMT07 to WMT16.
 
+### Constituent ranking
+
+In **constituent ranking**, for each input, humans rank the outputs of an automatically selected syntactic constituent instead of the complete sentences.
+
+Constituent ranking was the official ranking for the translation shared task from WMT07 to WMT08.
+
+### Yes or no constituent judgement
+
+In **yes or no constituent judgement**, for each input, humans rank the acceptability of the outputs of an automatically selected syntactic constituent.
+
+Yes or no constituent judgement was first added as an official ranking for WMT08.
 
 ### Direct assessment
+
 In **direct assessment**, for each input, humans rate the output from each system with an absolute score or label.
 
 The sequence-level ratings can then be used to calculate system-level ranking.
 
-Direct assessment was first added as investigatory ranking for WMT16.
+Direct assessment was first added as an investigatory ranking for WMT16.
 Direct assessment is the official ranking for the translation shared task since WMT17.
 
 There are different types of direct assessment.
