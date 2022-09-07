@@ -86,7 +86,7 @@ defaults:
         type: Language
   -
     scope:
-      path: "language_families"
+      path: "language-families"
       type: "pages"
     values:
       permalink: /:basename

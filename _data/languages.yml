@@ -203,7 +203,7 @@
 -
   codes: [ eu, eus, baq ]
   names: [ Basque, Euskara ]
-  family: [ eus ]
+  family: [ ]
   scripts: [ Latn ]
   typology:
     word_order: [ SOV ]

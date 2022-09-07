@@ -3,9 +3,7 @@ layout: language
 title: Basque
 description: Machine translation for Basque
 code: eu
-family:
-- slug: basque
-  name: Basque
+family: []
 parent: Languages
 supported_engines:
 - id: apertium
