@@ -13,7 +13,7 @@ parent: Language families
 <hr/>
 
 <p>
-  {% if page.languages | size == 1 %}
+  {% if page.languages.size == 1 %}
   Only one language in the <strong>{{ page.title }}</strong> language family is supported by a <a href="/engines"></a>machine translation API</a>.
   {% else %}
   {{ page.languages | size }} languages in the <strong>{{ page.title }}</strong> language family are supported by <a href="/engines"></a>machine translation APIs</a>.
