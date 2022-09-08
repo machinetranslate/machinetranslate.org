@@ -28,7 +28,7 @@ Post-editors work three to four times faster than traditional translators.
 **Translation** is the transformation of a text in its original language into the same text in the target language.
 
 #### Localisation
-Localisation is the transformation of an object from one cultural environment to another.
+**Localisation** is the transformation of an object from one cultural environment to another.
 An object is a document, a software, a film, a book, and so on.
 In localisation, the object retains its most salient features, and the cultural-unfit features are replaced, as far as possible, by their adequate counterparts.
 
