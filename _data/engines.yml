@@ -330,7 +330,7 @@
   languages: [ ar, bg, da, de, el, en, es, es-419, fi, fr, hi, id, it, ko, ja, nl, 'no', pl, pt, pt-br, ro, ru, sv, th, tr, vi, zh-cn, zh-tw ]
   self-serve: false
 
-- name: Xl8
+- name: XL8
   id: xl8
   urls:
    - https://www.xl8.ai
