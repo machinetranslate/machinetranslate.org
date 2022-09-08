@@ -1,7 +1,7 @@
 ---
 layout: engine
-title: Xl8
-description: The Xl8 machine translation API
+title: XL8
+description: The XL8 machine translation API
 id: xl8
 parent: Engines
 urls:
