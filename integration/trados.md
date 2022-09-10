@@ -22,13 +22,13 @@ Read [here](api-keys.md#amazon-translate-aws) for more details.
 
 
 
-![How to set up the Trados Studio 2021™ plugin for Amazon Translate (AWS)pic1](trados_for_amazon1.png)
+![How to set up the Trados Studio 2021™ plugin for Amazon Translate (AWS)pic1](trados-images/trados_for_amazon1.png)
 
 
-![How to set up the Trados Studio 2021™ plugin for Amazon Translate (AWS)pic2](trados_for_amazon2.png)  
+![How to set up the Trados Studio 2021™ plugin for Amazon Translate (AWS)pic2](trados-images/trados_for_amazon2.png)  
 
 
-4.  Enter necessary credentials in the **Authentication** window.
+1.  Enter necessary credentials in the **Authentication** window.
 
 
     4.1  Select **Access key  / Secret access key** in the **Choose AWS auth type** drop-down menu.
@@ -37,7 +37,7 @@ Read [here](api-keys.md#amazon-translate-aws) for more details.
     
     4.2 Confirm by clicking **OK**.
 
-![How to set up the Trados Studio 2021™ plugin for Amazon Translate (AWS)pic3](trados_for_amazon3.png)  
+![How to set up the Trados Studio 2021™ plugin for Amazon Translate (AWS)pic3](trados-images/trados_for_amazon3.png)  
 
 
 The **Amazon Translate Trados Plugin** plugin is now visible in the **Translation Memory and Automated Translation** settings window. You may start using this service now.
@@ -64,7 +64,7 @@ Read [here](api-keys.md#deepl) for more details.
 3.  Go to **Project Settings**. In the **Translation Memory and Automated Translation** settings window select the provider by clicking **Use...** > **DeepL MT Translation Provider**.
 
 
-![How to set up the Trados Studio 2021™ plugin for Deeplpic1](trados_for_deepl1.png)  
+![How to set up the Trados Studio 2021™ plugin for Deeplpic1](trados-images/trados_for_deepl1.png)  
 
 
 4.  Enter the API key. Click **OK**.
@@ -101,19 +101,19 @@ Read [here](api-keys.md#modernmt) for more details.
 
 
 
-![How to set up the Trados Studio 2021™ plugin for ModernMTpic1](trados_for_modernmt1.png)
+![How to set up the Trados Studio 2021™ plugin for ModernMTpic1](trados-images/trados_for_modernmt1.png)
 
 
 
 4. Enter the API key. Click **OK**.
 
 
-![How to set up the Trados Studio 2021™ plugin for ModernMTpic2](trados_for_modernmt2.png)
+![How to set up the Trados Studio 2021™ plugin for ModernMTpic2](trados-images/trados_for_modernmt2.png)
 
  
 5.  You may select one or more translation memories to use with your project. Check the **Use** check box for each translation memory you wish to use. If you check the **Update** check box of a translation memory, it will learn from the corrections you make in a given translation. You may select this check box for only one translation memory.
 
-![How to set up the Trados Studio 2021™ plugin for ModernMTpic3](trados_for_modernmt3.png)
+![How to set up the Trados Studio 2021™ plugin for ModernMTpic3](trados-images/trados_for_modernmt3.png)
 
 
 The **Modern MT Adaptive Neural Machine Translation** plugin is now visible in the **Translation Memory and Automated Translation** settings window. You may start using this service now.
@@ -137,7 +137,7 @@ Read [here](api-keys.md#google-cloud-translation-basic-or-google-translate-api-v
 2.  Go to **Add-ins > RWS AppStore**. Search for **MT Enhanced Plugin for Trados Studio** and download it.
 
 
-![How to set up the Trados Studio 2021™ plugin for Google Translation Basicpic1](trados_for_google1.png)
+![How to set up the Trados Studio 2021™ plugin for Google Translation Basicpic1](trados-images/trados_for_google1.png)
 
 
 3.  Restart Trados Studio 2021™.
@@ -147,7 +147,7 @@ Read [here](api-keys.md#google-cloud-translation-basic-or-google-translate-api-v
 
 
 
-![How to set up the Trados Studio 2021™ plugin for Google Translation Basicpic2](trados_for_google2.png)
+![How to set up the Trados Studio 2021™ plugin for Google Translation Basicpic2](trados-images/trados_for_google2.png)
 
 
 
@@ -163,7 +163,7 @@ Read [here](api-keys.md#google-cloud-translation-basic-or-google-translate-api-v
 8.  Click **OK**.
 
 
-![How to set up the Trados Studio 2021™ plugin for Google Translation Basicpic3](trados_for_google3.png)
+![How to set up the Trados Studio 2021™ plugin for Google Translation Basicpic3](trados-images/trados_for_google3.png)
 
 
 The **MT Enhanced Plugin for Trados Studio** plugin is now visible in the **Translation Memory and Automated Translation** settings window. It is displayed as **MT Enhanced using Google Translate Basics** in the opened window. You may start using this service now.
@@ -176,7 +176,7 @@ The **MT Enhanced Plugin for Trados Studio** plugin is now visible in the **Tran
 This plugin is not required for the **Google Cloud Translation Basic (or Google Translate API v2)** service to work with Trados Studio 2021™, but it enhances the usability of this MT. The plugin has been developed to provide a simple and fast way to validate the credentials being used to access the Google Translate API.
 
 
-![How to set up the Trados Studio 2021™ plugin for Google Translation Basicpic4](trados_for_google4.png)
+![How to set up the Trados Studio 2021™ plugin for Google Translation Basicpic4](trados-images/trados_for_google4.png)
 
 
 1.  Open your desktop version of Trados Studio 2021™.
