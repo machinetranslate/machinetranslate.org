@@ -33,13 +33,13 @@ More information on how the MT vendors listed in [MT vendors described](#mt-vend
  [https://www.modernmt.com/privacy/](https://www.modernmt.com/privacy/)
 
 
-# [How to set up Trados Studio 2021™ plugins](trados/trados.md)  
+# [How to set up Trados Studio 2021™ plugins](trados.md)  
 
 
-# [How to set up memoQ Translator Pro 9.8™ plugins](memoq/memoq.md)  
+# [How to set up memoQ Translator Pro 9.8™ plugins](memoq.md)  
 
 
-# [How to obtain API keys for MT plugins](api_keys.md)  
+# [How to obtain API keys for MT plugins](api-keys.md)  
 
 
 # References  
