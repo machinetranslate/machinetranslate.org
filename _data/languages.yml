@@ -955,6 +955,16 @@
   territories: [ th ]
 
 -
+  codes: [ ti, tir ]
+  names: [ Tigrinya ]
+  family: [ sem, afa ]
+  scripts: [ Geez ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [  fusional, synthetic ]
+  territories: [ et, er ]
+  
+-
   codes: [ tk, tuk ]
   names: [ Turkmen ]
   family: [ trk ]
