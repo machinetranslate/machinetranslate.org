@@ -7,7 +7,7 @@
 ### How to obtain an API key  
 
 
-Read [here](../api_keys.md#amazon-translate-aws) for more details.  
+Read [here](api-keys.md#amazon-translate-aws) for more details.  
 
 
 ### How to set up the memoQ Translator Pro 9.8™ plugin for Amazon Translate (AWS) (for a local profile)  
@@ -53,7 +53,7 @@ You may start using this service now.
 ### How to obtain an API key  
 
 
-Read [here](../api_keys.md#deepl) for more details.  
+Read [here](api-keys.md#deepl) for more details.  
 
 
 ### How to set up the memoQ Translator Pro 9.8™ plugin for DeepL  
@@ -107,7 +107,7 @@ You may start using this service now.
 ### How to obtain an API key  
 
 
-Read [here](../api_keys.md#modernmt) for more details.   
+Read [here](api-keys.md#modernmt) for more details.   
 
 
 ### How to set up the memoQ Translator Pro 9.8™ plugin for ModernMT  
@@ -165,7 +165,7 @@ You may start using this service now.
 ### How to obtain an API key  
 
 
-Read [here](../api_keys.md#google-cloud-translation-basic-or-google-translate-api-v2) for details.  
+Read [here](api-keys.md#google-cloud-translation-basic-or-google-translate-api-v2) for details.  
 
 
 ### How to set up the memoQ Translator Pro 9.8™ plugin for Google Cloud Translation Basic (or Google Translate API v2)  

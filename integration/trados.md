@@ -7,7 +7,7 @@
 ### How to obtain an API key
 
 
-Read [here](../api_keys.md#amazon-translate-aws) for more details.  
+Read [here](api-keys.md#amazon-translate-aws) for more details.  
 
 
 ### How to set up the Trados Studio 2021™ plugin for Amazon Translate (AWS)
@@ -49,7 +49,7 @@ The **Amazon Translate Trados Plugin** plugin is now visible in the **Translatio
 ### How to obtain an API key
 
 
-Read [here](../api_keys.md#deepl) for more details.  
+Read [here](api-keys.md#deepl) for more details.  
 
 
 ### How to set up the Trados Studio 2021™ plugin for DeepL
@@ -85,7 +85,7 @@ The **DeepL MT Translation Provider** plugin is now visible in the **Translation
 ### How to obtain an API key  
 
 
-Read [here](../api_keys.md#modernmt) for more details.  
+Read [here](api-keys.md#modernmt) for more details.  
 
 
 ### How to set up the Trados Studio 2021™ plugin for ModernMT
@@ -125,7 +125,7 @@ The **Modern MT Adaptive Neural Machine Translation** plugin is now visible in t
 ### How to obtain an API key
 
 
-Read [here](../api_keys.md#google-cloud-translation-basic-or-google-translate-api-v2) for more details.  
+Read [here](api-keys.md#google-cloud-translation-basic-or-google-translate-api-v2) for more details.  
 
 
 ### How to set up the Trados Studio 2021™ plugin for Google Cloud Translation Basic (or Google Translate API v2)
