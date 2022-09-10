@@ -11,7 +11,7 @@ A machine translation API key is required to integrate machine translation into 
 Create an **[AWS account](https://aws.amazon.com/)**
 ![How to obtain an API key for Amazon Translate AWSpic1](api-images/amazon4.png)  
 
-1. You need your debit/credit card to accomplish this step. One USD/EUR is then temporarily charged to your bank account. Provide your personal details. In the next step select the payment plan:  
+1. You need your debit or credit card to accomplish this step. One USD or EUR is then temporarily charged to your bank account. Provide your personal details. In the next step select the payment plan:  
 
 ![How to obtain an API key for Amazon Translate AWSpic2](api-images/amazon5.png)  
 
@@ -40,13 +40,13 @@ Create an **[AWS account](https://aws.amazon.com/)**
 You have successfully set up your AWS credentials, incl. your API key.  
 
 
-## 4.2 DeepL  
+## DeepL  
 
 
 Create a DeepL account [here](https://www.deepl.com/pro.html)  
 
 
-1. Select DeepL Pro payment plan. You need your debit/credit card to register your account. Provide your personal details. Confirm each step.  
+1. Select the DeepL Pro payment plan. You need your debit or credit card to register your account. Provide your personal details. Confirm each step.  
 
  
 2. Press **Retrieve your Authentication Key** on the last screen. 
@@ -55,7 +55,7 @@ Create a DeepL account [here](https://www.deepl.com/pro.html)
 3. Go to **Account**. Your API key is at the bottom of the screen under ** Authentication Key for DeepL API**. Copy it and store it in a safe location.  
 
 
-## 4.3 ModernMT  
+## ModernMT  
 
 
 Create a ModernMT account [here](https://www.modernmt.com/pricing/).  
@@ -63,7 +63,7 @@ Create a ModernMT account [here](https://www.modernmt.com/pricing/).
 1. Click **Plugins for translators** > **Get a license**.  
 
 
-2. You need your debit/credit card to register your account. Provide your personal details.  
+2. You need your debit or credit card to register your account. Provide your personal details.  
 
 
 3. Click **Start your plan**.  
