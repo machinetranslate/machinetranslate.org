@@ -226,7 +226,7 @@ featured: true
 | ---- | ---- | ---- |
 | 8 - 12 August | AMTA 2006 - “Visions for the future of machine translation” | Cambridge, Massachusetts |
 | 19 - 20 June | EAMT 2006 | Oslo, Norway |
-| 8 - 9 June | **WMT06** | New York City, New York |
+| 8 - 9 June | [**WMT06**](wmt06.md) | New York City, New York |
 
 ## 2005
 
