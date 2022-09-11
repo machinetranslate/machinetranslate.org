@@ -38,7 +38,7 @@ Universities, research laboratories and big technology companies consistently pa
 | [WMT10](wmt10.md) | Workshop on Statistical Machine Translation | ACL 2010 |
 | [WMT09](wmt09.md) | Workshop on Statistical Machine Translation | EACL 2009 |
 | [WMT08](wmt08.md) | Workshop on Statistical Machine Translation | ACL 2008 |
-| WMT07 | Workshop on Statistical Machine Translation | ACL 2007 |
+| [WMT07](wmt07.md) | Workshop on Statistical Machine Translation | ACL 2007 |
 | WMT06 | Workshop on Statistical Machine Translation | NAACL 2006 |
 
 ## Shared tasks
@@ -129,25 +129,30 @@ Some people have been organisers over many years:
 
 ### Average score and average z-score
 
-For the **average score**, human assessment scores for translations are standardised according to each human assessor's overall mean and standard deviation.  Then a system-level score is computed.
+For the **average score**, human assessment scores for translations are standardised according to each human assessor's overall mean and standard deviation. Then a system-level score is computed.
 
-**Average z-score** is a normalised version.  It shows the distance between the average score for a system and the mean average score across all systems.
+**Average z-score** is a normalised version. It shows the distance between the average score for a system and the mean average score across all systems.
 
 Average score and average z-score are the main metrics used in the results for the translation shared task since WMT17.
-
 
 ### TrueSkill
 
 **TrueSkill** is a gaming rating system. Microsoft Research originally developed it for the Xbox Live gaming community. 
 For WMT, TrueSkill was adapted to machine translation evaluation.
+
 For WMT14, WMT15 and WMT16, TrueSkill was used as the human evaluation ranking for all translation shared tasks.
+
+### Adequacy and fluency judgement
+
+In **adequacy and fluency judgement**, for each input, humans rank the output from each system for both adequacy and fluency, on five-point scales.
+
+Adequacy and fluency judgement was the official ranking for the translation shared task from WMT06 to WMT07.
 
 ### Relative ranking
 
 In **relative ranking**, for each input, humans rank the outputs from all systems.
-  
 There is no absolute score or label, so there is no measure of absolute quality.
-  
+
 The sequence-level rankings are used to calculate system-level rankings, for example with TrueSkill.
 
 Relative ranking was the official ranking for the translation shared task from WMT07 to WMT16.
@@ -162,12 +167,11 @@ Constituent ranking was the official ranking for the translation shared task fro
 
 In **yes or no constituent judgement**, for each input, humans rank the acceptability of the outputs of an automatically selected syntactic constituent.
 
-Yes or no constituent judgement was first added as an official ranking for WMT08.
+Yes or no constituent judgement was added as an official ranking for WMT08.
 
 ### Direct assessment
 
 In **direct assessment**, for each input, humans rate the output from each system with an absolute score or label.
-
 The sequence-level ratings can then be used to calculate system-level ranking.
 
 Direct assessment was first added as an investigatory ranking for WMT16.
