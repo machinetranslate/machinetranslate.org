@@ -39,7 +39,7 @@ Universities, research laboratories and big technology companies consistently pa
 | [WMT09](wmt09.md) | Workshop on Statistical Machine Translation | EACL 2009 |
 | [WMT08](wmt08.md) | Workshop on Statistical Machine Translation | ACL 2008 |
 | [WMT07](wmt07.md) | Workshop on Statistical Machine Translation | ACL 2007 |
-| WMT06 | Workshop on Statistical Machine Translation | NAACL 2006 |
+| [WMT06](wmt06.md) | Workshop on Statistical Machine Translation | NAACL 2006 |
 
 ## Shared tasks
 
