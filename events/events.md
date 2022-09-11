@@ -216,7 +216,7 @@ featured: true
 |  |  |  |
 | ---- | ---- | ---- |
 | 10 - 14 September | MT Summit 2007 | Copenhagen, Denmark |
-| 23 June | **WMT07** | Prague, Czech Republic |
+| 23 June | [**WMT07**](wmt07.md) | Prague, Czech Republic |
 | 26 April | AMTA 2007 - “Syntax and structure in statistical translation” | Rochester, New York |
 | 16 - 20 April | MT Marathon | Edinburgh, United Kingdom |
 
