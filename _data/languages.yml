@@ -958,10 +958,10 @@
   codes: [ ti, tir ]
   names: [ Tigrinya ]
   family: [ sem, afa ]
-  scripts: [ Geez ]
+  scripts: [ Ethi ]
   typology:
     word_order: [ SOV ]
-    morphosyntax: [  fusional, synthetic ]
+    morphosyntax: [ fusional, synthetic ]
   territories: [ et, er ]
   
 -
