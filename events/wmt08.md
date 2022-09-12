@@ -91,7 +91,7 @@ Full results of the shared tasks: [*Further Meta-Evaluation of Machine Translati
 
 ### Translation
 
-The results were determined with a [relative ranking](wmt.md#relative-ranking), the `≥ others` (“greater than or equal to others”) score, [constituent ranking](wmt.md#constituent-ranking), and [yes or no constituent judgement](wmt.md#yes-or-no-constituent-judgement).
+The results were determined with a [relative ranking](wmt.md#relative-ranking), the `≥ others` (“greater than or equal to others”) score, a [constituent ranking](wmt.md#constituent-ranking), and a [yes or no constituent judgement](wmt.md#yes-or-no-constituent-judgement).
 
 The `≥ others` score measures how often a system was judged to be better than or equal to any other system.
 
