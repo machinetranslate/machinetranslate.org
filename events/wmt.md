@@ -144,7 +144,8 @@ For WMT14, WMT15 and WMT16, TrueSkill was used as the human evaluation ranking f
 
 ### Adequacy and fluency judgement
 
-In **adequacy and fluency judgement**, for each input, humans rank the output from each system for both adequacy and fluency, on five-point scales.
+In **adequacy and fluency judgement**, for each input, humans rank the output from each system for both adequacy and fluency.
+Adequacy and fluency scores indicate the meaning adequacy and translation fluency of the system outputs on a five-point scale.
 
 Adequacy and fluency judgement was the official ranking for the translation shared task from WMT06 to WMT07.
 
@@ -160,12 +161,14 @@ Relative ranking was the official ranking for the translation shared task from W
 ### Constituent ranking
 
 In **constituent ranking**, for each input, humans rank the outputs of an automatically selected syntactic constituent instead of the complete sentences.
+The constituent score measures how often a system was judged to be better than any other system.
 
 Constituent ranking was the official ranking for the translation shared task from WMT07 to WMT08.
 
 ### Yes or no constituent judgement
 
 In **yes or no constituent judgement**, for each input, humans rank the acceptability of the outputs of an automatically selected syntactic constituent.
+The acceptability score measures the per cent of a system translation that was judged to be acceptable.
 
 Yes or no constituent judgement was added as an official ranking for WMT08.
 
