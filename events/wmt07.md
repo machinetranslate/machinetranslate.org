@@ -93,12 +93,6 @@ Full results of the shared task: [*(Meta-) Evaluation of Machine Translation*](h
 
 The results were determined with a [relative ranking](wmt.md#relative-ranking), the `> others` (“greater than others”) score, an [adequacy and fluency judgement](wmt.md#adequacy-and-fluency judgement), and a [constituent ranking](wmt.md#constituent-ranking).
 
-The `> others` score measures how often a system was judged to be better than any other system.
-
-Adequacy and fluency scores indicate the meaning adequacy and translation fluency of the system outputs on a five-point scale.
-
-The constituent score measures how often a system was judged to be better than any other system in the constituent-based evaluation.
-
 #### → English
 
 | Language pair | System | `> others` | Adequacy | Fluency | Constituent |
