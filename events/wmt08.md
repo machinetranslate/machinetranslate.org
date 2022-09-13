@@ -93,12 +93,6 @@ Full results of the shared tasks: [*Further Meta-Evaluation of Machine Translati
 
 The results were determined with a [relative ranking](wmt.md#relative-ranking), the `≥ others` (“greater than or equal to others”) score, a [constituent ranking](wmt.md#constituent-ranking), and a [yes or no constituent judgement](wmt.md#yes-or-no-constituent-judgement).
 
-The `≥ others` score measures how often a system was judged to be better than or equal to any other system.
-
-The constituent score measures how often a system was judged to be better than or equal to any other system in the constituent-based evaluation.
-
-The acceptability score measures the per cent of a system translation that was judged to be acceptable.
-
 #### → English
 
 | Language pair | System | `≥ others` | Constituent | Acceptability |
