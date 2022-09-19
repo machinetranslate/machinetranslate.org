@@ -1,4 +1,4 @@
-# __How to connect MTs to CAT tools__  
+# How to connect MTs to CAT tools 
 
 
 > ___&ldquo;The biggest challenge is to combine technology and the human side without losing the latter&rdquo;___ — Gordana Antonijević  
@@ -8,7 +8,7 @@
 
 
 # Introduction  
-Machine Translation (MT) technology allows you to automatically translate your text from one language to another. Both Trados Studio 2021™ and memoQ translator pro 9.8™ use plugins to connect to machine translation engine vendors. This manual provides information as to how to obtain API keys from MT vendors and enter them into the plugins. 
+Machine Translation (MT) technology allows you to automatically translate your text from one language to another. Both Trados and memoQ use plugins to connect to machine translation engine vendors. This manual provides information as to how to obtain API keys from MT vendors and enter them into the plugins. 
 
 ## MT vendors described  
 This manual shows how to obtain APIs to the following MTs:
@@ -21,7 +21,7 @@ This manual shows how to obtain APIs to the following MTs:
 | Modern MT   |  40+ | Glossaries, Adaptive customization for all pairs  | Easy | $25 per month for professionals/unlimited no. of characters, $50 for real-time adaptive | No-trace, ISO 27001 and GDPR-compliant |
 
 # Privacy
-More information on how the MT vendors listed in [MT vendors described](#mt-vendors-described) process your data is available from:
+More information on how the MT vendors process your data is available from:
 
  - for DeepL:
  [https://www.deepl.com/pro-data-security/](https://www.deepl.com/pro-data-security/)
@@ -33,13 +33,13 @@ More information on how the MT vendors listed in [MT vendors described](#mt-vend
  [https://www.modernmt.com/privacy/](https://www.modernmt.com/privacy/)
 
 
-# [How to set up Trados Studio 2021™ plugins](trados/trados.md)  
+# [How to set up Trados plugins](trados.md)  
 
 
-# [How to set up memoQ Translator Pro 9.8™ plugins](memoq/memoq.md)  
+# [How to set up memoQ plugins](memoq.md)  
 
 
-# [How to obtain API keys for MT plugins](api_keys.md)  
+# [How to obtain API keys for MT plugins](api-keys.md)  
 
 
 # References  
