@@ -89,68 +89,34 @@ The **Third Workshop on Machine Translation** (**WMT08**) took place on 19 June,
 
 Full results of the shared tasks: [*Further Meta-Evaluation of Machine Translation*](https://www.statmt.org/wmt08/pdf/WMT09.pdf)
 
-### News translation
+### Translation
 
-The results were determined with a [relative ranking](wmt.md#relative-ranking), the `≥ others` ("greater than or equal to others") score.
-
-It measures how often a system was judged to be better than or equal to any other system.
+The results were determined with a [relative ranking](wmt.md#relative-ranking), the `≥ others` (“greater than or equal to others”) score, a [constituent ranking](wmt.md#constituent-ranking), and a [yes or no constituent judgement](wmt.md#yes-or-no-constituent-judgement).
 
 #### → English
 
-| Language pair | System | `≥ others` |
-| --- | --- | --- |
-| Czech → | `DCU` | 0.675 | 
-| French → | `LIUM-SYS-CONTR` | 0.693 | 
-| German → | `RBMT2` | 0.742 | 
-| Spanish → | `RBMT4` | 0.768 | 
-| Hungarian → | `MORPHOLOGIC` | 0.853 | 
+| Language pair | System | `≥ others` | Constituent | Acceptability |
+| --- | --- | --- | --- | --- |
+| Czech Commentary → | `DCU` | 0.745 | - | - |
+| Czech News → | `DCU` | 0.675 | - | - |
+| French Europarl → | `LIUM-SYSTRAN` <br>`UEDIN` | 0.792 <br>- | 0.917 <br>- | - <br>0.910 |
+| French News → | `LIUM-SYS-CONTR` <br>`LIMSI` | 0.693 <br>- | - <br>0.801 | - <br>0.805 | 
+| German Europarl → | `UEDIN` <br>`SAAR` | 0.679 <br>- | - <br>0.843 | 0.856 <br>- |
+| German News → | `RBMT2` <br>`SAAR-CONTR` <br>`RBMT4` | 0.742 <br>- <br>- | - <br>0.775 <br>-| - <br>- <br>0.738 |
+| Spanish Europarl → | `LIMSI` <br>`SAAR` | 0.780 <br>- | - <br>0.893 | 0.902 <br>- |
+| Spanish News → | `RBMT4` <br>`CUED-CONTR` <br>`UPC` | 0.768 <br>- <br>- | - <br>0.818 <br>- | - <br>- <br>0.707 |
+| Hungarian News → | `MORPHOLOGIC` | 0.853 | - | - |
 
 #### English →
 
-| Language pair | System | `≥ others` |
-| --- | --- | --- |
-| → Czech | `PC-TRANSLATOR` | 0.715 | 
-| → French | `RBMT4` | 0.780 | 
-| → German | `RBMT2` | 0.787 | 
-| → Spanish | `RBMT5` | 0.724 | 
-
-The results were determined with a [constituent ranking](wmt.md#constituent-ranking), the `≥ others` ("greater than or equal to others") score.
-
-#### → English
-
-| Language pair | System | `≥ others` |
-| --- | --- | --- |
-| French → | `LIMSI` | 0.801 | 
-| German → | `SAAR-CONTR` | 0.775 | 
-| Spanish → | `CUED-CONTR` | 0.818 | 
-
-#### English →
-
-| Language pair | System | `≥ others` |
-| --- | --- | --- |
-| → Czech | `PC-TRANSLATOR` | 0.674 | 
-| → French | `RBMT4` | 0.768 | 
-| → German | `RBMT4` | 0.748 | 
-| → Spanish | `RBMT4` | 0.754 | 
-
-The results were determined with a [yes or no constituent judgement](wmt.md#yes-or-no-constituent-judgement), the acceptability score. 
-
-It measures the per cent of a system translation that was judged to be acceptable.
-
-#### → English
-
-| Language pair | System | Acceptability |
-| --- | --- | --- |
-| French → | `LIMSI` | 0.805 | 
-| German → | `RBMT4` | 0.738 | 
-| Spanish → | `UPC` | 0.707 |
-
-#### English →
-
-| Language pair | System | Acceptability |
-| --- | --- | --- |
-| → Czech | `CU-BOJAR` | 0.540 | 
-| → French | `LIUM-SYSTRAN` | 0.748 | 
-| → German | `RBMT4` | 0.750 | 
-| → Spanish | `RBMT4` | 0.759 | 
+| Language pair | System | `≥ others` | Constituent | Acceptability |
+| --- | --- | --- | --- | --- |
+| → Czech Commentary | `CU-BOJAR` | 0.714 | 0.732 | 0.594 |
+| → Czech News | `PC-TRANSLATOR` <br>`CU-BOJAR` | 0.715 <br>- | 0.674 <br>- | - <br>0.540 |
+| → French Europarl | `LIMSI` <br>`LIUM-SYSTRAN` | 0.791 <br>- | - <br>0.881 | - <br>0.843 | 
+| → French News | `RBMT4` <br>`LIUM-SYSTRAN` | 0.780 <br>- | 0.768 <br>- | - <br>0.748 |
+| → German Europarl | `RBMT4` <br>`UEDIN` | 0.681 <br>- | - <br>0.822 | - <br>0.849 |
+| → German News | `RBMT2` <br>`RBMT4` | 0.787 <br>- | - <br>0.748 | - <br>0.750 |
+| → Spanish Europarl | `LIMSI` <br>`UPC` | 0.737 <br>- | 0.855 <br>- | - <br>0.903 |
+| → Spanish News | `RBMT5` <br>`RBMT4` | 0.724 <br>- | - <br>0.754 | - <br>0.759 |
 
