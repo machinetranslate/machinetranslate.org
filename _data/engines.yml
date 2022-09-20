@@ -1,0 +1,381 @@
+---
+- name: AISA
+  id: aisa
+  urls:
+   - https://www.aisa.digital/machine-translation-api
+  languages: [ ar, de, es-es, fr-fr, hi, huyu, id, it, ja, ko, ms, pt-pt, ru, th, vi, zh-cn, zh-tw ]
+  self-serve: false
+
+- name: Alexa Translations A.I.
+  id: alexa-ai
+  urls:
+   - https://alexatranslations.com/alexa-translations-a-i
+  languages: [ en, es-419, fr-ca, pt-br, zh ]
+  self-serve: false
+
+- name: Alibaba Translate
+  id: alibaba
+  urls:
+   - https://www.alibabacloud.com/es/product/machine-translation
+   - https://www.alibabacloud.com/help/en/machine-translation/latest/general-version-of-machine-translation
+  languages: [ ar, de, en, es, fr, id, it, ja, ko, pl, pt, ru, th, tr, vi, zh, [zh-cn, zh-tw], [zh-tw, zh-cn], [zh-cn, yue] ]
+  self-serve: true
+
+- name: Amazon Translate
+  id: amazon
+  urls:
+   - https://aws.amazon.com/es/translate
+   - https://docs.aws.amazon.com/translate/latest/dg/what-is.html
+  languages: [ af, am, ar, az, bg, bn, bs, ca, cs, cy, da, de, el, en, es, es-mx, et, fa, fa-af, fi, fr, fr-ca, ga, gu, ha, he, hi, hr, ht, hu, hy, id, is, it, ja, ka, kk, kn, ko, lt, lv, mk, ml, mn, mr, ms, mt, nl, 'no', pa, pl, ps, pt, pt-pt, ro, ru, si, sk, sl, so, sq, sr, sv, sw, ta, te, th, tl, tr, uk, ur, uz, vi, zh, zh-tw ]
+  glossary: true
+  formality: true
+  adaptive: true
+  self-serve: true
+
+- name: Apertium
+  id: apertium
+  urls:
+   - https://www.apertium.org
+   - https://wiki.apertium.org/wiki/Main_Page
+  languages: [ [af, nl], [an, ca], [an, es], [ar, mt], [ast, es], [be, ru], [bg, mk], [br, fr], [ca, an], [ca, en], [ca, eo], [ca, es], [ca, fr], [ca, it], [ca, oc], [ca, pt], [ca, ro], [ca, sc], [crh, tr], [cy, en], [da, sv], [en, ca], [en, cy], [en, eo], [en, es], [en, gl], [en, hbs], [en, kk], [eo, en], [es, an], [es, ast], [es, ca], [es, en], [es, eo], [es, fr], [es, gl], [es, it], [es, oc], [es, pt], [es, ro], [eu, en], [eu, es], [fr, ca], [fr, eo], [fr, es], [fr, oc], [gl, en], [gl, es], [gl, pt], [hbs, en], [hbs, mk], [hbs, sl], [hi, ur], [id, zlm], [is, en], [is, sv], [it, ca], [it, es], [it, sc], [kk, en], [kk, ru], [kk, tt], [mk, bg], [mk, en], [mk, hbs], [mt, ar], [nb, nn], [nl, af], [nn, nb], ['no', da], ['no', sv], [oc, ca], [oc, es], [oc, fr], [pl, szl], [pt, ca], [pt, es], [pt, gl], [ro, ca], [ro, es], [ru, be], [ru, kk], [ru, uk], [sc, ca], [sc, it], [se, nb], [sl, hbs], [sv, da], [sv, is], [szl, pl], [tr, crh], [tt, kk], [uk, ru], [ur, hi], [zlm, id] ]
+  self-serve: true
+
+- name: AppTek
+  id: apptek
+  urls:
+   - https://www.apptek.com
+   - https://docs.apptek.com/reference/machine-translation
+  languages: [ af, am, ar, az, be, bg, bn, bs, cs, da, de, el, en, es-es, es-mx, es-us, et, fa, fa-prs, fi, fr, fr-ca, fr-fr, gu, ha, he, hi, hr, hu, hy, id, is, it, ja, ka, kk, kn, ko, ky, lt, lv, mk, ml, mn, mr, ms, nl, 'no', pa, pl, ps, pt-br, pt-pt, ro, ru, sk, sl, so, sq, sr, sr-Latn, sv, te, th, ti, tk, tl, tr, uk, ur, uz, zh-cn, zh-tw ]
+  formality: true
+  self-serve: true
+
+- name: Baidu Translate
+  id: baidu
+  urls:
+   - https://ai.baidu.com/tech/mt/text_trans
+   - https://github.com/machinetranslate/machinetranslate.org/issues/268
+  languages: [ ach, afr, aka, alb, amh, ang, ara, arg, arm, arq, asm, ast, aym, aze, bak, bal, bel, bem, ben, ber, bho, bis, bli, bod, bos, bre, bul, cat, ceb, ces, chr, chv, cnr, cor, cos, cre, crh, csb, cym, dan, deu, div, eab, ell, eng, epo, est, eus, fao, fil, fin, fr-ca, fr-fr, frm, ful, fur, fry, geo, gla, gle, glg, glv, grc, grn, guj, hak, hat, hau, haw, hbs, heb, hin, hil, hsb, hup, hrv, hun, ibo, ind, isl, ido, iku, ina, inh, ita, jav, jpn, kab, kal, kan, kas, kau, kaz, khm, kin, kir, tlh, kok, kon, kor, kur, ltg, lao, lat, lav, lim, lin, lit, ltz, nds, dsb, lug, lzh, mah, mai, mal, mar, mkd, mri, msa, mlg, mlt, mon, mya, nap, nbl, nep, nld, nno, nob, nor, nqo, nso, nya, oci, oji, ori, orm, oss, pam, pan, pap, per, pol, pt-br, pt-pt, pus, que, ron, rom, roh, rus, rsk, san, sco, shn, sin, slk, slv, smo, sme, sna, snd, son, som, sot, spa, srd, srp, swa, swe, syr, szl, tam, tat, tel, tet, tgk, tgl, tha, tir, tso, tur, tuk, twi, uig, ukr, urd, uzb, ven, vie, wln, wol, xho, yid, yor, yue, zaz, zh-cn, zh-tw, zul ]
+  self-serve: true
+  info_url:
+
+- name: CloudTranslation
+  id: cloudtranslation
+  urls:
+   - https://www.cloudtranslation.com
+   - https://cloudtranslation.com/static/api_en.html
+  languages: [ de, en, es, fr, id, ja, ko, zh-cn ]
+  self-serve: false
+
+- name: DeepL
+  id: deepl
+  urls:
+   - https://www.deepl.com
+   - https://www.deepl.com/en/docs-api/
+  languages: [ [bg, cs], [bg, da], [bg, de], [bg, el], [bg, en], [bg, es], [bg, et], [bg, fi], [bg, fr], [bg, hu], [bg, id], [bg, it], [bg, ja], [bg, lt], [bg, lv], [bg, nl], [bg, pl], [bg, pt-br], [bg, pt-pt], [bg, ro], [bg, ru], [bg, sk], [bg, sl], [bg, sv], [bg, tr], [bg, zh-cn], [cs, bg], [cs, da], [cs, de], [cs, el], [cs, en], [cs, es], [cs, et], [cs, fi], [cs, fr], [cs, hu], [cs, id], [cs, it], [cs, ja], [cs, lt], [cs, lv], [cs, nl], [cs, pl], [cs, pt-br], [cs, pt-pt], [cs, ro], [cs, ru], [cs, sk], [cs, sl], [cs, sv], [cs, tr], [cs, zh-cn], [da, cs], [da, bg], [da, de], [da, el], [da, en], [da, es], [da, et], [da, fi], [da, fr], [da, hu], [da, id], [da, it], [da, ja], [da, lt], [da, lv], [da, nl], [da, pl], [da, pt-br], [da, pt-pt], [da, ro], [da, ru], [da, sk], [da, sl], [da, sv], [da, tr], [da, zh-cn], [de, cs], [de, da], [de, bg], [de, el], [de, en-gb], [de, en-us], [de, es], [de, et], [de, fi], [de, fr], [de, hu], [de, id], [de, it], [de, ja], [de, lt], [de, lv], [de, nl], [de, pl], [de, pt-br], [de, pt-pt], [de, ro], [de, ru], [de, sk], [de, sl], [de, sv], [de, tr], [de, zh-cn],  [el, cs], [el, da], [el, de], [el, bg], [el, en], [el, es], [el, et], [el, fi], [el, fr], [el, hu], [el, id], [el, it], [el, ja], [el, lt], [el, lv], [el, nl], [el, pl], [el, pt-br], [el, pt-pt], [el, ro], [el, ru], [el, sk], [el, sl], [el, sv], [el, tr], [el, zh-cn], [en, cs], [en, da], [en, de], [en, el], [en, bg], [en, es], [en, et], [en, fi], [en, fr], [en, hu], [en, id], [en, it], [en, ja], [en, lt], [en, lv], [en, nl], [en, pl], [en, pt-br], [en, pt-pt], [en, ro], [en, ru], [en, sk], [en, sl], [en, sv], [en, tr], [en, zh-cn], [es, cs], [es, da], [es, de], [es, el], [es, en-gb], [es, en-us], [es, bg], [es, et], [es, fi], [es, fr], [es, hu], [es, id], [es, it], [es, ja], [es, lt], [es, lv], [es, nl], [es, pl], [es, pt-br], [es, pt-pt], [es, ro], [es, ru], [es, sk], [es, sl], [es, sv], [es, tr], [es, zh-cn], [et, cs], [et, da], [et, de], [et, el], [et, en], [et, es], [et, bg], [et, fi], [et, fr], [et, hu], [et, id], [et, it], [et, ja], [et, lt], [et, lv], [et, nl], [et, pl], [et, pt-br], [et, pt-pt], [et, ro], [et, ru], [et, sk], [et, sl], [et, sv], [et, tr], [et, zh-cn], [fi, cs], [fi, da], [fi, de], [fi, el], [fi, en], [fi, es], [fi, et], [fi, bg], [fi, fr], [fi, hu], [fi, id], [fi, it], [fi, ja], [fi, lt], [fi, lv], [fi, nl], [fi, pl], [fi, pt-br], [fi, pt-pt], [fi, ro], [fi, ru], [fi, sk], [fi, sl], [fi, sv], [fi, tr], [fi, zh-cn], [fr, cs], [fr, da], [fr, de], [fr, el], [fr, en-gb], [fr, en-us], [fr, es], [fr, et], [fr, fi], [fr, bg], [fr, hu], [fr, id], [fr, it], [fr, ja], [fr, lt], [fr, lv], [fr, nl], [fr, pl], [fr, pt-br], [fr, pt-pt], [fr, ro], [fr, ru], [fr, sk], [fr, sl], [fr, sv], [fr, tr], [fr, zh-cn], [hu, cs], [hu, da], [hu, de], [hu, el], [hu, en], [hu, es], [hu, et], [hu, fi], [hu, fr], [hu, bg], [hu, id], [hu, it], [hu, ja], [hu, lt], [hu, lv], [hu, nl], [hu, pl], [hu, pt-br], [hu, pt-pt], [hu, ro], [hu, ru], [hu, sk], [hu, sl], [hu, sv], [hu, tr], [hu, zh-cn], [id, cs], [id, da], [id, de], [id, el], [id, en-gb], [id, en-us], [id, es], [id, et], [id, fi], [id, fr], [id, hu], [id, bg], [id, it], [id, ja], [id, lt], [id, lv], [id, nl], [id, pl], [id, pt-br], [id, pt-pt], [id, ro], [id, ru], [id, sk], [id, sl], [id, sv], [id, tr], [id, zh-cn], [it, cs], [it, da], [it, de], [it, el], [it, en-gb], [it, en-us], [it, es], [it, et], [it, fi], [it, fr], [it, hu], [it, id], [it, bg], [it, ja], [it, lt], [it, lv], [it, nl], [it, pl], [it, pt-br], [it, pt-pt], [it, ro], [it, ru], [it, sk], [it, sl], [it, sv], [it, tr], [it, zh-cn], [ja, cs], [ja, da], [ja, de], [ja, el], [ja, en-gb], [ja, en-us], [ja, es], [ja, et], [ja, fi], [ja, fr], [ja, hu], [ja, id], [ja, it], [ja, bg], [ja, lt], [ja, lv], [ja, nl], [ja, pl], [ja, pt-br], [ja, pt-pt], [ja, ro], [ja, ru], [ja, sk], [ja, sl], [ja, sv], [ja, tr], [ja, zh-cn], [lt, cs], [lt, da], [lt, de], [lt, el], [lt, en], [lt, es], [lt, et], [lt, fi], [lt, fr], [lt, hu], [lt, id], [lt, it], [lt, ja], [lt, bg], [lt, lv], [lt, nl], [lt, pl], [lt, pt-br], [lt, pt-pt], [lt, ro], [lt, ru], [lt, sk], [lt, sl], [lt, sv], [lt, tr], [lt, zh-cn], [lv, cs], [lv, da], [lv, de], [lv, el], [lv, en], [lv, es], [lv, et], [lv, fi], [lv, fr], [lv, hu], [lv, id], [lv, it], [lv, ja], [lv, lt], [lv, bg], [lv, nl], [lv, pl], [lv, pt-br], [lv, pt-pt], [lv, ro], [lv, ru], [lv, sk], [lv, sl], [lv, sv], [lv, tr], [lv, zh-cn], [nl, cs], [nl, da], [nl, de], [nl, el], [nl, en-gb], [nl, en-us], [nl, es], [nl, et], [nl, fi], [nl, fr], [nl, hu], [nl, id], [nl, it], [nl, ja], [nl, lt], [nl, lv], [nl, bg], [nl, pl], [nl, pt-br], [nl, pt-pt], [nl, ro], [nl, ru], [nl, sk], [nl, sl], [nl, sv], [nl, tr], [nl, zh-cn], [pl, cs], [pl, da], [pl, de], [pl, el], [pl, en-gb], [pl, en-us], [pl, es], [pl, et], [pl, fi], [pl, fr], [pl, hu], [pl, id], [pl, it], [pl, ja], [pl, lt], [pl, lv], [pl, nl], [pl, bg], [pl, pt-br], [pl, pt-pt], [pl, ro], [pl, ru], [pl, sk], [pl, sl], [pl, sv], [pl, tr], [pl, zh-cn], [pt, cs], [pt, da], [pt, de], [pt, el], [pt, en-gb], [pt, en-us], [pt, es], [pt, et], [pt, fi], [pt, fr], [pt, hu], [pt, id], [pt, it], [pt, ja], [pt, lt], [pt, lv], [pt, nl], [pt, pl], [pt, bg], [pt, ro], [pt, ru], [pt, sk], [pt, sl], [pt, sv], [pt, tr], [pt, zh-cn], [ro, cs], [ro, da], [ro, de], [ro, el], [ro, en], [ro, es], [ro, et], [ro, fi], [ro, fr], [ro, hu], [ro, id], [ro, it], [ro, ja], [ro, lt], [ro, lv], [ro, nl], [ro, pl], [ro, pt-br], [ro, pt-pt], [ro, bg], [ro, ru], [ro, sk], [ro, sl], [ro, sv], [ro, tr], [ro, zh-cn], [ru, cs], [ru, da], [ru, de], [ru, el], [ru, en-gb], [ru, en-us], [ru, es], [ru, et], [ru, fi], [ru, fr], [ru, hu], [ru, id], [ru, it], [ru, ja], [ru, lt], [ru, lv], [ru, nl], [ru, pl], [ru, pt-br], [ru, pt-pt], [ru, ro], [ru, bg], [ru, sk], [ru, sl], [ru, sv], [ru, tr], [ru, zh-cn], [sk, cs], [sk, da], [sk, de], [sk, el], [sk, en], [sk, es], [sk, et], [sk, fi], [sk, fr], [sk, hu], [sk, id], [sk, it], [sk, ja], [sk, lt], [sk, lv], [sk, nl], [sk, pl], [sk, pt-br], [sk, pt-pt], [sk, ro], [sk, ru], [sk, bg], [sk, sl], [sk, sv], [sk, tr], [sk, zh-cn], [sl, cs], [sl, da], [sl, de], [sl, el], [sl, en], [sl, es], [sl, et], [sl, fi], [sl, fr], [sl, hu], [sl, id], [sl, it], [sl, ja], [sl, lt], [sl, lv], [sl, nl], [sl, pl], [sl, pt-br], [sl, pt-pt], [sl, ro], [sl, ru], [sl, sk], [sl, bg], [sl, sv], [sl, tr], [sl, zh-cn], [sv, cs], [sv, da], [sv, de], [sv, el], [sv, en], [sv, es], [sv, et], [sv, fi], [sv, fr], [sv, hu], [sv, id], [sv, it], [sv, ja], [sv, lt], [sv, lv], [sv, nl], [sv, pl], [sv, pt-br], [sv, pt-pt], [sv, ro], [sv, ru], [sv, sk], [sv, sl], [sv, bg], [sv, tr], [sv, zh-cn], [tr, cs], [tr, da], [tr, de], [tr, el], [tr, en-gb], [tr, en-us], [tr, es], [tr, et], [tr, fi], [tr, fr], [tr, hu], [tr, id], [tr, it], [tr, ja], [tr, lt], [tr, lv], [tr, nl], [tr, pl], [tr, pt-br], [tr, pt-pt], [tr, ro], [tr, ru], [tr, sk], [tr, sl], [tr, sv], [tr, bg], [tr, zh-cn], [zh-cn, cs], [zh-cn, da], [zh-cn, de], [zh-cn, el], [zh-cn, en-gb], [zn-cn, en-us], [zh-cn, es], [zh-cn, et], [zh-cn, fi], [zh-cn, fr], [zh-cn, hu], [zh-cn, id], [zh-cn, it], [zh-cn, ja], [zh-cn, lt], [zh-cn, lv], [zh-cn, nl], [zh-cn, pl], [zh-cn, pt], [zh-cn, ro], [zh-cn, ru], [zh-cn, sk], [zh-cn, sl], [zh-cn, sv], [zh-cn, tr], [zh-cn, bg], [zh-tw, cs], [zh-tw, da], [zh-tw, de], [zh-tw, el], [zh-tw, en-gb], [zh-tw, en-us], [zh-tw, es], [zh-tw, et], [zh-tw, fi], [zh-tw, fr], [zh-tw, hu], [zh-tw, id], [zh-tw, it], [zh-tw, ja], [zh-tw, lt], [zh-tw, lv], [zh-tw, nl], [zh-tw, pl], [zh-tw, pt], [zh-tw, ro], [zh-tw, ru], [zh-tw, sk], [zh-tw, sl], [zh-tw, sv], [zh-tw, tr], [zh-tw, bg] ]
+  glossary: true
+  formality: true
+  self-serve: true
+
+- name: eTranslation
+  id: etranslation
+  urls:
+   - https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en#translateonline
+  languages: [ bg, cs, da, de, el, en, es, et, fi, fr, ga, hr, hu, is, it, lt, lv, mt, nb, nl, pl, pt, ro, sk, sl, sv ]
+  self-serve: true
+
+- name: Judicio
+  id: judicio
+  urls:
+   - https://judic.io
+  languages: [ de, en, fr, nl ]
+  self-serve: false
+
+- name: Globalese
+  id: globalese
+  urls:
+   - https://www.globalese-mt.com
+   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069899/Stock+corpora
+  languages: [ [ar, en], [bg, en], [cs, de], [cs, en], [cs, sk], [da, de], [da, en], [da, fr], [de, es], [de, hu], [de, it], [de, pl], [de, pt], [de, ro], [de, ru], [de, sk], [de, sl], [de, sv], [de, uk], [en, de], [en, el], [en, es], [en, et], [en, fi], [en, fr], [en, ga], [en, he], [en, hu], [en, it], [en, ja], [en, ko], [en, lt], [en, lv], [en, mt], [en, nb], [en, pl], [en, pt], [en, ro], [en, ru], [en, sk], [en, sl], [en, sv], [en, tr], [en, uk], [en, vi], [fr, de], [fr, es], [fr, hu], [fr, it], [fr, pt], [fr, ru], [fr, sv], [hr, en], [hu, sk], [it, es], [it, pt], [it, sl], [nl, de], [nl, en], [nl, fr], [pt, es], [ru, es], [zh-cn, en], [zh-cn, ru] ]
+  self-serve: true
+
+- name: Google Translate
+  alternative_names: [ Google Cloud Translation API, Google Cloud Translation AutoML ]
+  id: google
+  urls:
+   - https://console.cloud.google.com/apis/library/translate.googleapis.com
+  languages: [ af, am, ar, az, be, bg, bn, bs, ca, ceb, co, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, fy, ga, gd, gl, gu, ha, haw, he, hi, hmn, hr, ht, hu, hy, id, ig, is, it, ja, jv, ka, kk, km, kn, ko, ku, ky, la, lb, lo, lt, lv, mg, mi, mk, ml, mn, mr, ms, mt, my, ne, nl, 'no', ny, or, pa, pl, ps, pt, ro, ru, rw, sd, si, sk, sl, sm, sn, so, sq, sr, st, su, sv, sw, ta, te, tg, th, tk, tl, tr, tt, ug, uk, ur, uz, vi, xh, yi, yo, zh-cn, zh-tw, zu ]
+  custom_languages: [ af, am, ar, az, be, bg, bn, bs, ca, ceb, co, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, fy, ga, gd, gl, gu, ha, haw, he, hi, hmn, hr, ht, hu, hy, id, ig, is, it, ja, jv, ka, kk, km, kn, ko, ku, ky, la, lb, lo, lt, lv, mg, mi, mk, ml, mn, mr, ms, mt, my, ne, nl, 'no', ny, or, pa, pl, ps, pt, ro, ru, rw, sd, si, sk, sl, sm, sn, so, sq, sr, st, su, sv, sw, ta, te, tg, th, tk, tl, tr, tt, ug, uk, ur, uz, vi, xh, yi, yo, zh-cn, zh-tw, zu ]
+  glossary: true
+  self-serve: true
+  urls:
+    - https://cloud.google.com/translate/docs/languages
+    - https://cloud.google.com/translate/automl/docs/languages
+
+- name: KantanMT
+  id: kantanmt
+  urls:
+   - https://www.kantanai.io
+   - https://kantanmt.docs.apiary.io/#reference
+  languages: [ [ar, en], [bg, en], [cs, de], [cs, en], [cs, pl], [cs, sk], [da, en], [da, de], [de, en], [de, cs], [de, es], [de, et], [de, fi], [de, fr], [de, hr], [de, it], [de, ja], [de, ru], [de, sv], [de, zh-cn], [de, da], [de, bg], [de, pl], [de, el], [de, hu], [de, lt], [de, lv], [de, nl], [de, pt], [de, ro], [el, en], [en, da], [en, de], [en, es], [en, fr-ca], [en, fr], [en, it], [en, ja], [en, pt], [en, sv], [en, zh-cn], [en, ar], [en, bg], [en, cs], [en, el], [en, fi], [en, ga], [en, he], [en, hr], [en, hu], [en, id], [en, lt], [en, nl], [en, 'no'], [en, pl], [en, pt-br], [en, ru], [en, tr], [en, ro], [en, ja-ja], [en, ko], [en, sk], [en, zh-tw], [en, hi], [en, lv], [en, et], [en, sl], [es, en], [es, de], [es, it], [es, pt], [es, fr], [es-la, en], [fi, en], [fi, de], [fr, en], [fr, nl], [fr, pt], [fr, sv], [fr, de], [fr, es], [fr, it], [fr, pl], [fr, bg], [fr, cs], [fr-ca, en], [fr-ca, nl], [fr-ca, pt], [fr-ca, sv], [fr-ca, de], [fr-ca, es], [fr-ca, it], [fr-ca, pl], [fr-ca, bg], [fr-ca, cs], [ga, en], [he, en], [hi, en], [hr, en], [hu, en], [hu, pl], [id, en], [it, de], [it, en], [it, es], [ja, de], [ja, en], [ja, zh-cn], [ko, en], [lt, en], [lv, en], [nl, en], [nl, fr], [nl, pl], [nl, de], ['no', en], [pl, en], [pl, cs], [pl, hu], [pl, nl], [pl, sk], [pl, de], [pt, en], [pt, es], [pt-br, es], [pt-br, en], [ro, en], [ru, en], [sk, pl], [sk, en], [sl, en], [sv, en], [sv, de], [tr, en], [zh-cn, en], [zh-cn, ja ] ]
+  glossary: true
+  self-serve: false
+  adaptive: true
+
+- name: Language Weaver
+  id: language-weaver
+  urls:
+   - https://www.rws.com/language-weaver
+   - https://docs.rws.com/791593/662987/language-weaver/welcome-to-the-------------language-weaver-documentation
+  languages: [ ar, bg, bn, ca, cs, da, de, el, en, es, et, fa, fi, fr, fr-ca, ha, he, hi, hr, hu, hy, id, it, ja, jv, ka, km, ko, ku, lt, lv, ms, mt, my, nl, 'no', pl, prs, ps, pt, pt-br, ro, ru, sk, sl, so, sq, sr, sv, sw, th, tr, uk, ur, uz, vi, zh-cn, zh-tw ]
+  self-serve: true
+
+- name: Lilt
+  id: lilt
+  urls:
+   - https://lilt.com
+   - https://support.lilt.com/kb/11075725.html
+  languages: [ [af, en], [ar, en], [bg, en], [bn, en], [cs, en], [da, en], [de, en], [de, fr], [de, it], [de, tr], [el, en], [en, af], [en, ar], [en, bg], [en, bn], [en, cs], [en, da], [en, de], [en, el], [en, es], [en, fa], [en, fi], [en, fr], [en, gu], [en, he], [en, hi], [en, hr], [en, hu], [en, id], [en, it], [en, ja], [en, kn], [en, ko], [en, ml], [en, mr], [en, nl], [en, 'no'], [en, pa], [en, pl], [en, pt], [en, ro], [en, ru], [en, sk], [en, sl], [en, sq], [en, sv], [en, sw], [en, ta], [en, te], [en, th], [en, tl], [en, tr], [en, uk], [en, vi], [en, zh-cn], [en, zh-tw], [es, en], [es, pt], [fa, en], [fa, he], [fi, en], [fr, en], [gu, en], [he, en], [hi, en], [hr, en], [hu, en], [id, en], [ig, en], [it, en], [ja, en], [ja, zh-cn], [jv, en], [ko, en], [ml, en], [mr, en], [ms, en], [nl, en], ['no', en], [pa, en], [pl, en], [prs, en], [ps, en], [pt, en], [pt, es], [ro, en], [ru, en], [sk, en], [sl, en], [sq, en], [sv, en], [sw, en], [ta, en], [te, en], [th, en], [tl, en], [tr, en], [uk, en], [ur, en], [vi, en], [zh-cn, en], [zh-cn, ja], [zh-tw, en] ]
+  self-serve: false
+  adaptive: true
+
+- name: Lingmo Translation
+  id: lingmo
+  urls:
+   - https://lingmointernationalnet.wordpress.com
+   - http://live.lingmo-api.com/support/lingmo-translation-languages.html
+  languages: [ ar-sa, ca-es, cs-cz, de-de, en-gb, en-us, es-es, fi-fi, fr-fr, gl-es, he-il, hi-in, hu-hu, id-id, it-it, ja-jp, ko-kr, nl-nl, nn-no, pl-pl, pt-br, ru-ru, sk-sk, sv-se, th-th, tr-tr, zh-cn ]
+  self-serve: false
+
+- name: Lingo24
+  id: lingo24
+  urls:
+   - https://www.lingo24.com
+   - https://developer.lingo24.com/documentation
+  languages: [ ar, da, de, en, es, fr, it, nl, pl, pt-br, pt-pt, ru, sv, tr ]
+  self-serve: true
+
+- name: LingvaNex
+  id: lingvanex
+  urls:
+   - https://lingvanex.com
+   - https://docs.lingvanex.com/reference/user-guide
+  languages: [ af-za, sq-al, am-et, ar-sa, hy-am, az-az, eu-es, be-by, bn-bd, bs-ba, bg-bg, ca-es, ceb-ph, ny-mw, zh-Hans-cn, zh-Hant-tw, co-fr, ht-ht, hr-hr, cs-cz, da-dk, nl-nl, en-us, eo, et-ee, fi-fi, fr-ca, fy-nl, gl-es, ka-ge, de-de, el-gr, gu-in, ha-ne, haw-us, he-il, hi-in, hmn-cn, hu-hu, is-is, ig-ng, id-id, ga-ie, it-it, ja-jp, jv-id, kn-in, kk-kz, km-kh, rw-rw, ko-kr, ku-ir, ky-kg, lo-la, la-vat, lv-lv, lt-lt, lb-lu, mk-mk, mg-mg, ms-my, ml-in, mt-mt, mi-nz, mr-in, mn-mn, my-mm, ne-np, 'no-no', or-or, ps-af, fa-ir, pl-pl, pt-pt, pa-pk, ro-ro, ru-ru, sm-ws, gd-gb, sr-Cyrl-rs, st-ls, sn-zw, sd-pk, si-lk, sk-sk, sl-si, so-so, es-es, su-id, sw-tz, sv-se, tl-ph, tg-tj, ta-in, tt-tt, te-in, th-th, tr-tr, tk-tk, uk-ua, ur-pk, ug-ug, uz-uz, vi-vn, cy-gb, xh-za, yi-il, yo-ng, zu-za ]
+  self-serve: true
+
+- name: Microsoft Translator
+  id: microsoft
+  urls:
+   - https://translator.microsoft.com
+   - https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
+  languages: [ af, am, ar, as, az, ba, bg, bn, bo, bs, ca, cs, cy, da, de, dv, el, en, es, et, eu, fa, fi, fil, fj, fo, fr, fr-ca, ga, gl, gu, he, hi, hr, hsb, ht, hu, hy, id, ikt, is, it, iu, iu-Latn, ja, ka, kk, km, kmr, kn, ko, ku, ky, lo, lt, lv, lzh, mg, mi, mk, ml, mn-Cyrl, mn-Mong, mr, ms, mt, mww, my, nb, ne, nl, or, otq, pa, pl, prs, ps, pt, pt-pt, ro, ru, sk, sl, sm, so, sq, sr-Cyrl, sr-Latn, sv, sw, ta, te, th, ti, tk, tlh-Latn, tlh-Piqd, to, tr, tt, ty, ug, uk, ur, uz, vi, yua, yue, zh-Hans, zh-Hant, zu ]
+  custom_languages: [ af, ar, as, bg, bn, bs, ca, cs, cy, da, de, el, en, es, et, fa, fi, fil, fj, fr, ga, gu, he, hi, hr, hu, id, is, it, iu, ja, kn, ko, lt, lv, mg, mi, ml, mr, ms, mt, nb, nl, or, pa, pl, pt, ro, ru, sk, sl, sm, sr-Latn, sv, sw, ta, te, th, to, tr, ty, uk, ur, vi, zh-Hans, zh-Hant ]
+  glossary: true
+  self-serve: true
+
+- name: Mirai Translate
+  id: mirai
+  urls:
+   - https://miraitranslate.com/en/
+   - https://miraitranslate.com/en/service/miraitranslator/
+  languages: [ [de, en], [en, de], [en, es-es], [en, fr-fr], [en, id], [en, it], [en, ja], [en, ko], [en, pt-pt], [en, ru], [en, th], [en, vi], [en, zh-cn], [en, zh-tw], [es-es, en], [fr-fr, en], [id, en], [it, en], [ja, en], [ko, en], [pt-pt, en], [ru, en], [th, en], [vi, en], [zh-cn, en], [zh-tw, en] ]
+  glossary: true
+  adaptive: true
+  self-serve: true
+
+- name: ModernMT
+  id: modernmt
+  urls:
+   - https://modernmt.com
+   - https://www.modernmt.com/api/#languages
+  languages: [ ar, az, bg, bs, ca, cs, da, de, el, en, es, es-419, et, fi, fr, ga, he, hi, hr, hu, hy, id, is, it, ja, ka, ko, lt, lv, mk, ms, mt, nb, nl, nn, pl, pt, pt-br, ro, ru, sk, sl, sq, sr-Cyrl, sr-Latn, sv, sw, th, tl, tr, uk, vi, xh, zh, zh-tw, zu ]
+  adaptive: true
+  self-serve: true
+
+- name: Niutrans
+  id: niutrans
+  urls:
+   - https://niutrans.com
+   - https://niutrans.com/documents/overview?id=2
+  languages: [ adh, ace, acr, acu, af, agr, ake, am, amk, amu, any, ar, ata, aym, az, azb, ba, bam, bba, bch, bdh, bdu, be, bem, ber, bfa, bg, bi, bn, bno, bnp, bqj, bqp, br, bs, bsn, bus, byr, ca, cak, cas, cbl, ccp, cdf, ceb, cfm, cha, che, chq, chr, cht, cjp, ckb, cki, cnh, cni, co, cop, cpb, crh, crs, cs, ctd, cv, cy, czt, da, de, dik, dje, djk, dop, dtp, duo, dv, dyu, dz, ee, el, en, enx, eo, es, et, eu, fa, fi, fil, fj, fo, fr, fuv, fy, ga, gbi, gbo, gd, gil, gl, gnw, gof, gu, gub, gur, gv, ha, haw, he, hi, hlb, hmo, hr, ht, hu, hui, huv, hwc, hy, id, ifa, ifb, ify, ig, ikk, iou, is, it, izz, ja, jac, jae, jiv, jmc, jv, jy, ka, kab, kac, kbh, kbo, kek, keo, kg, kk, kle, km, kn, knj, ko, kpg, krs, ksd, ku, ky, kyu, la, lb, lcm, lcp, lg, ln, lnd, lo, lsi, lt, lv, mad, mah, mam, map, mbb, mdy, me, meu, mg, mhr, mi, mk, ml, mn, mni, mo, mos, mps, mr, mrj, mrw, ms, mt, muv, mww, my, ne, ngl, nhg, nl, 'no', nop, ntm, ny, nyy, ojb, om, ond, or, os, otq, pa, pap, pck, pil, pl, poh, pot, ppk, prk, ps, pss, pt, ptu, quc, quh, quw, quz, qxr, rmn, rn, ro, ru, rug, rw, sd, sg, shi, shp, si, sid, sk, sl, sm, sn, so, spy, sq, sr, ssd, ssx, st, su, sv, sw, swp, syc, ta, tbz, te, teo, tet, tex, tg, th, ti, tig, tih, tk, tmh, tn, to, tpi, tpm, tr, ts, tt, tw, ty, tyv, udm, uk, ur, usp, uy, uz, ve, vi, vun, wal, war, wlx, wol, wrs, wsk, xal, xh, xsm, yi, yo, yon, yua, yue, zh, zu, zyb ]
+  glossary: true
+  self-serve: true
+
+- name: Omniscien Technologies
+  id: omniscien
+  urls:
+   - https://omniscien.com
+   - https://omniscien.com/machine-translation/supported-languages/
+  languages: [ [ar, en], [id, ms], [id, en], [ms, id], [ms, en], [bn, en], [bg, cs], [bg, da], [bg, nl], [bg, en], [bg, et], [bg, fi], [bg, fr], [bg, de], [bg, el], [bg, hu], [bg, ga], [bg, it], [bg, lv], [bg, lt], [bg, mt], [bg, 'no'], [bg, pl], [bg, pt], [bg, ro], [bg, sk], [bg, sl], [bg, es], [bg, sv], [my, en], [km, en], [zh, en], [zh, de], [cs, bg], [cs, da], [cs, nl], [cs, en], [cs, et], [cs, fi], [cs, fr], [cs, de], [cs, el], [cs, hu], [cs, ga], [cs, it], [cs, lv], [cs, lt], [cs, mt], [cs, 'no'], [cs, pl], [cs, pt], [cs, ro], [cs, sk], [cs, sl], [cs, es], [cs, sv], [da, bg], [da, cs], [da, nl], [da, en], [da, et], [da, fi], [da, fr], [da, de], [da, el], [da, hu], [da, ga], [da, it], [da, lv], [da, lt], [da, mt], [da, 'no'], [da, pl], [da, pt], [da, ro], [da, sk], [da, sl], [da, es], [da, sv], [nl, bg], [nl, cs], [nl, da], [nl, en], [nl, et], [nl, fi], [nl, fr], [nl, de], [nl, el], [nl, hu], [nl, ga], [nl, it], [nl, lv], [nl, lt], [nl, mt], [nl, 'no'], [nl, pl], [nl, pt], [nl, ro], [nl, sk], [nl, sl], [nl, es], [nl, sv], [en, ar], [en, id], [en, ms], [en, bn], [en, bg], [en, my], [en, km], [en, zh], [en, cs], [en, da], [en, nl], [en, et], [en, fa], [en, fi], [en, fr], [en, de], [en, el], [en, he], [en, hi], [en, hu], [en, ga], [en, it], [en, ja], [en, ko], [en, lv], [en, lt], [en, mt], [en, ne], [en, 'no'], [en, pl], [en, pt], [en, ro], [en, ru], [en, sk], [en, sl], [en, es], [en, sw], [en, sv], [en, tl], [en, th], [en, tr], [en, ur], [en, vi], [et, bg], [et, cs], [et, da], [et, nl], [et, en], [et, fi], [et, fr], [et, de], [et, el], [et, hu], [et, ga], [et, it], [et, lv], [et, lt], [et, mt], [et, 'no'], [et, pl], [et, pt], [et, ro], [et, ru], [et, sk], [et, sl], [et, es], [et, sv], [fa, en], [fi, bg], [fi, cs], [fi, da], [fi, nl], [fi, en], [fi, et], [fi, fr], [fi, de], [fi, el], [fi, hu], [fi, ga], [fi, it], [fi, lv], [fi, lt], [fi, mt], [fi, 'no'], [fi, pl], [fi, pt], [fi, ro], [fi, ru], [fi, sk], [fi, sl], [fi, es], [fi, sv], [fr, bg], [fr, my], [fr, cs], [fr, da], [fr, nl], [fr, en], [fr, et], [fr, fi], [fr, de], [fr, el], [fr, hu], [fr, ga], [fr, it], [fr, lv], [fr, lt], [fr, mt], [fr, 'no'], [fr, pl], [fr, pt], [fr, ro], [fr, ru], [fr, sk], [fr, sl], [fr, es], [fr, sv], [de, bg], [de, my], [de, cs], [de, da], [de, nl], [de, en], [de, et], [de, fi], [de, fr], [de, el], [de, hu], [de, ga], [de, it], [de, lv], [de, lt], [de, mt], [de, 'no'], [de, pl], [de, pt], [de, ro], [de, ru], [de, sk], [de, sl], [de, es], [de, sv], [el, bg], [el, cs], [el, da], [el, nl], [el, en], [el, et], [el, fi], [el, fr], [el, de], [el, hu], [el, ga], [el, it], [el, lv], [el, lt], [el, mt], [el, 'no'], [el, pl], [el, pt], [el, ro], [el, ru], [el, sk], [el, sl], [el, es], [el, sv], [hi, en], [hu, bg], [hu, cs], [hu, da], [hu, nl], [hu, en], [hu, et], [hu, fi], [hu, fr], [hu, de], [hu, el], [hu, gu], [hu, ga], [hu, it], [hu, lv], [hu, lt], [hu, mt], [hu, 'no'], [hu, pl], [hu, pt], [hu, ro], [hu, sk], [hu, sl], [hu, es], [hu, sv], [ga, en], [it, bg], [it, cs], [it, da], [it, nl], [it, en], [it, et], [it, fi], [it, fr], [it, de], [it, el], [it, gu], [it, hu], [it, ga], [it, lv], [it, lt], [it, mt], [it, 'no'], [it, pl], [it, pt], [it, ro], [it, sk], [it, sl], [it, es], [it, sv], [ja, en], [ko, en], [lv, bg], [lv, cs], [lv, da], [lv, nl], [lv, en], [lv, et], [lv, fi], [lv, fr], [lv, de], [lv, el], [lv, hu], [lv, ga], [lv, it], [lv, lt], [lv, mt], [lv, 'no'], [lv, pl], [lv, ro], [lv, sk], [lv, sl], [lv, es], [lv, sv], [lt, bg], [lt, cs], [lt, da], [lt, nl], [lt, en], [lt, et], [lt, fi], [lt, fr], [lt, de], [lt, el], [lt, hu], [lt, ga], [lt, it], [lt, lv], [lt, mt], [lt, 'no'], [lt, pl], [lt, pt], [lt, ro], [lt, sk], [lt, sl], [lt, es], [lt, sv], [mt, bg], [mt, cs], [mt, da], [mt, nl], [mt, en], [mt, et], [mt, fi], [mt, fr], [mt, de], [mt, el], [mt, hu], [mt, ga], [mt, it], [mt, lv], [mt, lt], [mt, 'no'], [mt, pl], [mt, pt], [mt, ro], [mt, sk], [mt, sl], [mt, es], [mt, sv], [ne, en], ['no', bg], ['no', cs], ['no', da], ['no', nl], ['no', en], ['no', et], ['no', fi], ['no', fr], ['no', de], ['no', el], ['no', hu], ['no', ga], ['no', it], ['no', lv], ['no', lt], ['no', mt], ['no', pl], ['no', pt], ['no', ro], ['no', sk], ['no', sl], ['no', es], ['no', sv], [pl, bg], [pl, cs], [pl, da], [pl, nl], [pl, en], [pl, et], [pl, fi], [pl, fr], [pl, de], [pl, el], [pl, hu], [pl, ga], [pl, it], [pl, lv], [pl, lt], [pl, mt], [pl, 'no'], [pl, pt], [pl, ro], [pl, sk], [pl, sl], [pl, es], [pl, sv], [pt, bg], [pt, cs], [pt, da], [pt, nl], [pt, en], [pt, et], [pt, fi], [pt, fr], [pt, de], [pt, el], [pt, hu], [pt, ga], [pt, it], [pt, lv], [pt, lt], [pt, mt], [pt, 'no'], [pt, pl], [pt, ro], [pt, sk], [pt, sl], [pt, es], [pt, sv], [ro, bg], [ro, cs], [ro, da], [ro, nl], [ro, en], [ro, et], [ro, fi], [ro, fr], [ro, de], [ro, el], [ro, hu], [ro, ga], [ro, it], [ro, lv], [ro, lt], [ro, mt], [ro, 'no'], [ro, pl], [ro, pt], [ro, sk], [ro, sl], [ro, es], [ro, sv], [ru, en], [sk, bg], [sk, cs], [sk, da], [sk, nl], [sk, en], [sk, et], [sk, fi], [sk, fr], [sk, de], [sk, el], [sk, hu], [sk, ga], [sk, it], [sk, lv], [sk, lt], [sk, mt], [sk, 'no'], [sk, pl], [sk, pt], [sk, ro], [sk, sl], [sk, es], [sk, sv], [sl, bg], [sl, cs], [sl, da], [sl, nl], [sl, en], [sl, et], [sl, fi], [sl, fr], [sl, de], [sl, el], [sl, hu], [sl, ga], [sl, it], [sl, lv], [sl, lt], [sl, mt], [sl, 'no'], [sl, pl], [sl, pt], [sl, ro], [sl, sk], [sl, es], [sl, sv], [es, bg], [es, cs], [es, da], [es, nl], [es, en], [es, et], [es, fi], [es, fr], [es, de], [es, el], [es, hu], [es, ga], [es, it], [es, lv], [es, lt], [es, mt], [es, 'no'], [es, pl], [es, pt], [es, ro], [es, sk], [es, sl], [es, sv], [sw, en], [sv, bg], [sv, cs], [sv, da], [sv, nl], [sv, en], [sv, et], [sv, fi], [sv, fr], [sv, de], [sv, el], [sv, hu], [sv, ga], [sv, it], [sv, lv], [sv, lt], [sv, mt], [sv, 'no'], [sv, pl], [sv, pt], [sv, ro], [sv, sl], [sv, es] ]
+  glossary: true
+  self-serve: false
+
+- name: PangeaMT
+  id: pangeamt
+  urls:
+   - https://eco.pangeamt.com/main
+   - https://prod.pangeamt.com/
+  languages: [ de, en, es, fr, it, ja, pt, zh, zh-tw ]
+  self-serve: false
+
+- name: Papago Translation
+  id: papago
+  urls:
+   - https://papago.naver.com/business
+   - https://www.ncloud.com/product/aiService/papagoTranslation
+  languages: [ [ko, en], [ko, zh-cn], [ko, zh-tw], [ko, fr], [ko, es], [ko, vi], [ko, th], [ko, id], [ko, ja], [ko, ru], [ko, de], [ko, it], [en, ja], [en, fr], [zh, en], [zh, ja] ]
+  glossary: true
+  formality: true
+  self-serve: true
+
+- name: PROMT
+  id: promt
+  urls:
+   - https://www.promt.com
+   - https://www.promt.com/translation_software/corporate/developer/promt-cloud-api/
+  languages: [ ar, az, bg, cs, da, de, en, es, et, fa, fi, fr, he, hi, hr, hu, hy, it, ja, ka, kk, ko, ky, lt, lv, nl, pl, pt, ru, sk, sr, sv, tg, tk, tr, tt, uk, uz, zh-cn, zh-tw, zsm ]
+  self-serve: false
+
+- name: Rozetta T-400
+  id: rozetta
+  urls:
+   - https://www.jukkou.com
+   - https://www.jukkou.com/form/lang.html
+  languages: [ af, am, ar, az, be, bg, bn, bs, ca, ceb, co, cs, cy, da, de, el, en, eo, es, et, eu, fi, fr, fy, ga, gd, gl, gu, ha, haw, he, hi, hr, ht, hu, hy, id, ig, it, jv, ka, kk, km, kn, ko, ku, ky, lb, lo, lt, lv, mg, mi, mk, ml, mn, mr, ms, mt, ne, nl, 'no', ny, pa, pl, pt, ro, ru, sd, si, sk, sl, sm, sn, so, sq, sr, st, su, sv, sw, ta, te, tg, th, tl, tr, uk, ur, uz, vi, xh, yi, yo, zh, zu ]
+  self-serve: false
+
+- name: SAP Translation Hub
+  id: sap
+  urls:
+   - https://www.sapstore.com/solutions/40076/SAP-Translation-Hub
+   - https://help.sap.com/docs/SAP_TRANSLATION_HUB/ed6ce7a29bdd42169f5f0d7868bce6eb/1b15cf69580449c0bd8525696c97b90d.html?locale=en-US
+  languages: [ [ar, en-us], [bg, en-us], [ca, en-us], [cs, en-us], [da, en-us], [de, bg], [de, cs], [de, en-us], [de, es-es], [de, fr-fr], [de, hr], [de, hu], [de, it], [de, pl], [de, ro], [de, ru], [de, sk], [de, sl], [de, sr-Latn], [de, zh-cn], [el, en-us], [en-us, ar], [en-us, bg], [en-us, ca], [en-us, cs], [en-us, da], [en-us, de], [en-us, el], [en-us, es-es], [en-us, et], [en-us, fi], [en-us, fr-fr], [en-us, he], [en-us, hi], [en-us, hr], [en-us, hu], [en-us, it], [en-us, ja], [en-us, kk], [en-us, ko], [en-us, lt], [en-us, lv], [en-us, ms], [en-us, nl], [en-us, 'no'], [en-us, pl], [en-us, pt-br], [en-us, ro], [en-us, ru], [en-us, sk], [en-us, sl], [en-us, sr-Latn], [en-us, sv], [en-us, th], [en-us, tr], [en-us, uk], [en-us, vi], [en-us, zh-cn], [en-us, zh-tw], [es-es, en-us], [et, en-us], [fi, en-us], [fr-fr, en-us], [he, en-us], [hi, en-us], [hr, en-us], [hu, en-us], [it, en-us], [ja, en-us], [kk, en-us], [ko, en-us], [lt, en-us], [lv, en-us], [ms, en-us], [nl, en-us], ['no', en-us], [pl, en-us], [pt-br, en-us], [ro, en-us], [ru, en-us], [sk, en-us], [sl, en-us], [sr-Latn, en-us], [sv, en-us], [th, en-us], [tr, en-us], [uk, en-us], [vi, en-us], [zh-cn, en-us], [zh-tw, en-us] ]
+  self-serve: true
+
+- name: Sunda Translator
+  id: sunda
+  urls:
+   - https://www.sunda.fi
+   - https://www.sunda.fi/en/technology-tools.html
+  languages: [ [en, fi], [fi, en] ]
+  adaptive: true
+  glossary: true
+  self-serve: true
+
+- name: SYSTRAN
+  id: systran
+  urls:
+   - https://www.systransoft.com
+   - https://docs.systran.net/translatePro/en/index.html
+  languages: [ [de, en], [de, es], [de, fr], [de, it], [de, ko], [de, pt], [en, ar], [en, bg], [en, bn], [en, ca], [en, cs], [en, cy], [en, da], [en, de], [en, el], [en, es], [en, et], [en, fa], [en, fi], [en, fr], [en, he], [en, hi], [en, hr], [en, hu], [en, id], [en, is], [en, it], [en, ja], [en, ka], [en, ko], [en, lt], [en, lv], [en, ms], [en, nl], [en, 'no'], [en, pl], [en, ps], [en, pt], [en, ro], [en, ru], [en, sk], [en, sl], [en, sr], [en, sv], [en, sw], [en, ta], [en, th], [en, tl], [en, tr], [en, uk], [en, ur], [en, vi], [en, zh-cn], [en, zh-tw], [es, ar], [es, de], [es, en], [es, fr], [es, it], [es, ko], [es, pt], [fr, ar], [fr, de], [fr, el], [fr, en], [fr, es], [fr, it], [fr, nl], [fr, pt], [fr, zh-cn], [fr, zh-tw], [ko, de], [ko, en], [ko, es], [ko, fr], [ko, id], [ko, ja], [ko, ru], [ko, th], [ko, vi], [ko, zh-cn], [ko, zh-tw], [pa, en], [prs, en], [ru, ar], [ru, en], [ru, ko], [so, en], [sq, en], [tg, en] ]
+  adaptive: true
+  glossary: true
+  self-serve: true
+
+- name: Tarjama MT
+  id: tarjama
+  urls:
+   - https://www.tarjama.com/tarjama-machine-translation/
+   - https://github.com/tarjama/translate
+  languages: [ [en, ar], [ar, en] ]
+  self-serve: false
+
+- name: Tencent Machine Translation
+  id: tencent
+  urls:
+   - https://cloud.tencent.com/product/tmt
+  languages: [ [zh-cn, en], [zh-cn, ja], [zh-cn, ko], [zh-cn, fr], [zh-cn, es], [zh-cn, it], [zh-cn, de], [zh-cn, tr], [zh-cn, ru], [zh-cn, pt], [zh-cn, vi], [zh-cn, id], [zh-cn, th], [zh-cn, ms], [zh-tw, en], [zh-tw, ja], [zh-tw, ko], [zh-tw, fr], [zh-tw, es], [zh-tw, it], [zh-tw, de], [zh-tw, tr], [zh-tw, ru], [zh-tw, pt], [zh-tw, vi], [zh-tw, id], [zh-tw, th], [zh-tw, ms], [en, zh], [en, ja], [en, ko], [en, fr], [en, es], [en, it], [en, de], [en, tr], [en, ru], [en, pt], [en, vi], [en, id], [en, th], [en, ms], [en, ar], [en, hi], [ja, zh], [ja, en], [ja, ko], [ko, zh], [ko, en], [ko, ja], [fr, zh], [fr, en], [fr, es], [fr, it], [fr, de], [fr, tr], [fr, ru], [fr, pt], [es, zh], [es, en], [es, fr], [es, it], [es, de], [es, tr], [es, ru], [es, pt], [it, zh], [it, en], [it, fr], [it, es], [it, de], [it, tr], [it, ru], [it, pt], [de, zh], [de, en], [de, fr], [de, es], [de, it], [de, tr], [de, ru], [de, pt], [tr, zh], [tr, en], [tr, fr], [tr, es], [tr, it], [tr, de], [tr, ru], [tr, pt], [ru, zh], [ru, en], [ru, fr], [ru, es], [ru, it], [ru, de], [ru, tr], [ru, pt], [pt, zh], [pt, en], [pt, fr], [pt, es], [pt, it], [pt, de], [pt, tr], [pt, ru], [vi, zh], [vi, en], [id, zh], [id, en], [th, zh], [th, en], [ms, zh], [ms, en], [ar, en], [hi, en] ]
+  self-serve: true
+  info_url: https://cloud.tencent.com/document/api/551/15619
+
+- name: TextShuttle
+  id: textshuttle
+  urls:
+   - https://www.textshuttle.ai/
+   - https://www.textshuttle.ai/product/features#subscription
+  languages: [ de, en, es, fr, it ]
+  custom_languages: '*'
+  self-serve: false
+
+- name: TexTra
+  id: textra
+  urls:
+   - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/
+  languages: [ [ar, en], [ar, ja], [ar, ja], [de, en], [de, en], [de, ja], [de, ja], [de, ja], [en, ar], [en, ar], [en, de], [en, de], [en, de], [en, es], [en, es], [en, fil], [en, fr], [en, fr], [en, fr], [en, id], [en, it], [en, it], [en, ja], [en, ja], [en, ja], [en, ja], [en, ja], [en, ja], [en, km], [en, ko], [en, ko], [en, mn], [en, my], [en, ne], [en, pt], [en, pt], [en, ru], [en, th], [en, vi], [en, vi], [en, zh-cn], [en, zh-cn], [en, zh-cn], [en, zh-tw], [en, zh-tw], [en, zh-tw], [es, en], [es, ja], [es, ja], [fil, en], [fil, ja], [fil, ja], [fr, en], [fr, en], [fr, ja], [fr, ja], [fr, ja], [id, en], [id, ja], [id, ja], [it, en], [it, ja], [it, ja], [ja, ar], [ja, ar], [ja, de], [ja, de], [ja, de], [ja, en], [ja, en], [ja, en], [ja, en], [ja, en], [ja, en], [ja, es], [ja, es], [ja, fil], [ja, fil], [ja, fr], [ja, fr], [ja, fr], [ja, id], [ja, id], [ja, it], [ja, it], [ja, km], [ja, km], [ja, ko], [ja, ko], [ja, ko], [ja, mn], [ja, mn], [ja, my], [ja, my], [ja, ne], [ja, ne], [ja, pt], [ja, pt], [ja, ru], [ja, ru], [ja, th], [ja, th], [ja, vi], [ja, vi], [ja, zh-cn], [ja, zh-cn], [ja, zh-cn], [ja, zh-cn], [ja, zh-tw], [ja, zh-tw], [ja, zh-tw], [ja, zh-tw], [km, en], [km, ja], [km, ja], [ko, en], [ko, ja], [ko, ja], [ko, ja], [mn, en], [mn, ja], [mn, ja], [my, en], [my, ja], [my, ja], [ne, en], [ne, ja], [ne, ja], [pt, en], [pt, ja], [pt, ja], [ru, en], [ru, ja], [ru, ja], [th, en], [th, ja], [th, ja], [vi, en], [vi, ja], [vi, ja], [zh-cn, en], [zh-cn, en], [zh-cn, ja], [zh-cn, ja], [zh-cn, ja], [zh-cn, ja], [zh-tw, en], [zh-tw, en], [zh-tw, ja], [zh-tw, ja], [zh-tw, ja], [zh-tw, ja] ]
+  self-serve: true
+  info_url: https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/help/?q_type=faq#
+
+- name: Tilde
+  id: tilde
+  urls:
+   - https://www.tilde.com/products-and-services/machine-translation
+   - https://www.tilde.com/developers/machine-translation-api
+  languages: [ [en, cs], [en, da], [en, de], [en, es], [en, et], [en, fi], [en, fr], [en, hu], [en, it], [en, lt], [en, lv], [en, nl], [en, pl], [en, pt], [en, ro], [en, ru], [en, sv], [de, cs], [de, da], [de, en], [de, es], [de, et], [de, fi], [de, fr], [de, hu], [de, it], [de, lt], [de, lv], [de, nl], [de, pl], [de, pt], [de, ro], [de, ru], [de, sv], [fr, cs], [fr, da], [fr, de], [fr, en], [fr, es], [fr, et], [fr, fi], [fr, hu], [fr, it], [fr, lt], [fr, lv], [fr, nl], [fr, pl], [fr, pt], [fr, ro], [fr, ru], [fr, sv], [ru, cs], [ru, da], [ru, de], [ru, en], [ru, es], [ru, et], [ru, fi], [ru, fr], [ru, hu], [ru, it], [ru, lt], [ru, lv], [ru, nl], [ru, pl], [ru, pt], [ru, ro], [ru, sv], [es, cs], [es, da], [es, de], [es, en], [es, et], [es, fi], [es, fr], [es, hu], [es, it], [es, lt], [es, lv], [es, nl], [es, pl], [es, pt], [es, ro], [es, ru], [es, sv], [lv, cs], [lv, da], [lv, de], [lv, en], [lv, es], [lv, et], [lv, fi], [lv, fr], [lv, hu], [lv, it], [lv, lt], [lv, nl], [lv, pl], [lv, pt], [lv, ro], [lv, ru], [lv, sv], [fi, cs], [fi, da], [fi, de], [fi, en], [fi, es], [fi, et], [fi, fr], [fi, hu], [fi, it], [fi, lt], [fi, lv], [fi, nl], [fi, pl], [fi, pt], [fi, ro], [fi, ru], [fi, sv], [ro, cs], [ro, da], [ro, de], [ro, en], [ro, es], [ro, et], [ro, fi], [ro, fr], [ro, hu], [ro, it], [ro, lt], [ro, lv], [ro, nl], [ro, pl], [ro, pt], [ro, ru], [ro, sv], [it, cs], [it, da], [it, de], [it, en], [it, es], [it, et], [it, fi], [it, fr], [it, hu], [it, lt], [it, lv], [it, nl], [it, pl], [it, pt], [it, ro], [it, ru], [it, sv], [lt, cs], [lt, da], [lt, de], [lt, en], [lt, es], [lt, et], [lt, fi], [lt, fr], [lt, hu], [lt, it], [lt, lv], [lt, nl], [lt, pl], [lt, pt], [lt, ro], [lt, ru], [lt, sv], [nl, cs], [nl, da], [nl, de], [nl, en], [nl, es], [nl, et], [nl, fi], [nl, fr], [nl, hu], [nl, it], [nl, lt], [nl, lv], [nl, pl], [nl, pt], [nl, ro], [nl, ru], [nl, sv], [pl, cs], [pl, da], [pl, de], [pl, en], [pl, es], [pl, et], [pl, fi], [pl, fr], [pl, hu], [pl, it], [pl, lt], [pl, lv], [pl, nl], [pl, pt], [pl, ro], [pl, ru], [pl, sv], [pt, cs], [pt, da], [pt, de], [pt, en], [pt, es], [pt, et], [pt, fi], [pt, fr], [pt, hu], [pt, it], [pt, lt], [pt, lv], [pt, nl], [pt, pl], [pt, ro], [pt, ru], [pt, sv], [da, cs], [da, de], [da, en], [da, es], [da, et], [da, fi], [da, fr], [da, hu], [da, it], [da, lt], [da, lv], [da, nl], [da, pl], [da, pt], [da, ro], [da, ru], [da, sv], [sv, cs], [sv, da], [sv, de], [sv, en], [sv, es], [sv, et], [sv, fi], [sv, fr], [sv, hu], [sv, it], [sv, lt], [sv, lv], [sv, nl], [sv, pl], [sv, pt], [sv, ro], [sv, ru], [et, cs], [et, da], [et, de], [et, en], [et, es], [et, fi], [et, fr], [et, hu], [et, it], [et, lt], [et, lv], [et, nl], [et, pl], [et, pt], [et, ro], [et, ru], [et, sv], [cs, da], [cs, de], [cs, en], [cs, es], [cs, et], [cs, fi], [cs, fr], [cs, hu], [cs, it], [cs, lt], [cs, lv], [cs, nl], [cs, pl], [cs, pt], [cs, ro], [cs, ru], [cs, sv], [hu, cs], [hu, da], [hu, de], [hu, en], [hu, es], [hu, et], [hu, fi], [hu, fr], [hu, it], [hu, lt], [hu, lv], [hu, nl], [hu, pl], [hu, pt], [hu, ro], [hu, ru], [hu, sv] ]
+  adaptive: true
+  glossary: true
+  self-serve: false
+
+- name: TranslateMe
+  id: translateme
+  urls:
+   - https://translateme.network
+   - https://translateme.network/api/
+  languages: [ [de, en], [es, en], [fr, en], [it, en], [nl, en], [pt, en], [ru, en], [tr, en], [zh, en], [zu, en] ]
+  self-serve: true
+
+- name: Unbabel
+  id: unbabel
+  urls:
+   - https://unbabel.com
+   - https://developers.unbabel.com/docs
+  languages: [ ar, bg, da, de, el, en, es, es-419, fi, fr, hi, id, it, ko, ja, nl, 'no', pl, pt, pt-br, ro, ru, sv, th, tr, vi, zh-cn, zh-tw ]
+  self-serve: false
+
+- name: XL8
+  id: xl8
+  urls:
+   - https://www.xl8.ai
+   - https://api.xl8.ai/v1/trans/languages
+  languages: [ [en, ar], [en, cs], [en, da], [en, de], [en, el], [en, es], [en, es-419], [en, fi], [en, fr], [en, he], [en, hu], [en, id], [en, it], [en, ja], [en, ko], [en, ms], [en, my], [en, my-zawgyi], [en, nl], [en, 'no'], [en, pl], [en, pt], [en, pt-BR], [en, ro], [en, ru], [en, sk], [en, sv], [en, th], [en, tr], [en, vi], [en, zh-cn], [en, zh-tw], [fi, da], [fi, en], [fi, 'no'], [fi, sv], [fr, en], ['no', da], ['no', en], ['no', fi], ['no', sv], [sv, da], [sv, en], [sv, fi], [sv, 'no'], [th, en], [zh-cn, en], [zh-tw, en], [es, en], [ko, en], [ko, ja], [ko, th], [ko, zh-cn], [ar, en], [nl, en], [pt, en], [es-419, en], [ja, en], [tr, en], [da, en], [da, fi], [da, 'no'], [da, sv], [de, en], [pl, en] ]
+  self-serve: true
+
+- name: Yandex Translate
+  id: yandex
+  urls:
+   - https://yandex.com/dev/translate/doc/dg/concepts/api-overview.html
+   - https://translate.yandex.com/
+  languages: [ af, am, ar, az, ba, be, bg, bn, bs, ca, ceb, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, ga, gd, gl, gu, he, hi, hr, ht, hu, hy, id, is, it, ja, jv, ka, kk, km, kn, ko, ky, la, lb, lo, lt, lv, mg, mhr, mi, mk, ml, mn, mr, mrj, ms, mt, my, ne, nl, 'no', pa, pap, pl, pt, ro, ru, si, sk, sl, sq, sr, su, sv, sw, ta, te, tg, th, tl, tr, tt, udm, uk, ur, uz, vi, xh, yi, zh ]
+  self-serve: true
+
+- name: YeeKit
+  id: yeekit
+  urls:
+   - https://api.yeekit.com/mannual.php#docs
+   - https://api.yeekit.com
+  languages: [ en, zh ]
+  self-serve: true
+
+- name: Youdao Translate
+  id: youdao
+  urls:
+   - https://ai.youdao.com/
+   - https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html
+  languages: [ af, am, ar, az, be, bg, bn, bs, ca, ceb, co, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fj, fr, fy, ga, gd, gl, gu, ha, haw, he, hi, hr, ht, hu, hy, id, ig, is, it, ja, jw, ka, kk, km, kn, ko, ku, ky, la, lb, lo, lt, lv, mg, mi, mk, ml, mn, mr, ms, mt, mww, my, ne, nl, 'no', ny, otq, pa, pl, ps, pt, ro, ru, sd, si, sk, sl, sm, sn, so, sq, sr-Cyrl, sr-Latn, st, su, sv, sw, ta, te, tg, th, tl, tlh, to, tr, ty, uk, ur, uz, vi, xh, yi, yo, yua, yue, zh-cn, zh-tw, zu ]
+  self-serve: true
+
+- name: Watson Language Translator
+  id: watson
+  urls:
+   - https://ibm.com/cloud/watson-language-translator
+   - https://cloud.ibm.com/docs/language-translator?topic=language-translator-translation-models
+  languages: [ ar, bg, bn, bs, ca, cnr, cs, cy, da, de, el, en, es, et, eu, fi, fr, fr, ga, gu, he, hi, hr, hu, id, it, ja, ko, lt, lv, ml, ms, mt, nb, ne, nl, pl, pt, ro, ru, si, sk, sl, sr, sv, ta, te, th, tr, uk, ur, vi, zh, zh-TW ]
+  custom_languages: [ [ar, en], [bg, en], [bn, en], [bs, en], [ca, es], [cs, en], [cy, en], [da, en], [de, en], [de, fr], [de, it], [el, en], [en, ar], [en, bg], [en, bn], [en, bs], [en, cs], [en, cy], [en, da], [en, de], [en, el], [en, es], [en, et], [en, fi], [en, fr], [en, fr-ca], [en, ga], [en, gu], [en, he], [en, hi], [en, hr], [en, hu], [en, id], [en, it], [en, ja], [en, ko], [en, lt], [en, lv], [en, ml], [en, ms], [en, mt], [en, nb], [en, ne], [en, nl], [en, pl], [en, pt], [en, ro], [en, ru], [en, si], [en, sk], [en, sl], [en, sr], [en, sv], [en, ta], [en, te], [en, th], [en, tr], [en, uk], [en, ur], [en, vi], [en, zh], [en, zh-tw], [es, ca], [es, en], [es, eu], [es, fr], [et, en], [eu, es], [fi, en], [fr-ca, en], [fr, en], [ga, en], [gu, en], [he, en], [hi, en], [hr, en], [hu, en], [id, en], [it, de], [it, en], [ja, en], [ko, en], [lt, en], [lv, en], [ml, en], [ms, en], [mt, en], [nb, en], [ne, en], [nl, en], [pl, en], [pt, en], [ro, en], [ru, en], [si, en], [sk, en], [sl, en], [sr-Cyrl, en], [sv, en], [ta, en], [te, en], [th, en], [tr, en], [uk, en], [ur, en], [vi, en], [zh, en], [zh-tw, en] ]
+  glossary: true
+  self-serve: true
+
+- name: Wordlingo
+  id: wordlingo
+  urls:
+   - https://www.worldlingo.com/en/products/worldlingo_api.html
+   - https://www.worldlingo.com/en/downloads/ServiceAPI.pdf
+  languages: [ af, ar, az, be, bg, bn, ca, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, ga, gl, gu, ha, he, hi, hr, ht, hu, id, is, it, ja, ka, kn, ko, la, lt, lv, mk, ms, mt, nl, 'no', pl, pt, ro, ru, sk, sl, so, sq, sr, sv, sw, ta, te, th, tl, tr, uk, ur, vi, yi, zh_cn, zh_tw ]
+  self-serve: false

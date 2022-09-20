@@ -1,0 +1,77 @@
+---
+layout: default
+parent: Languages
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+<h2>
+  {{ page.description }}
+</h2>
+
+<hr/>
+
+<p>
+  Machine translation for the <strong>{{ page.title }}</strong> language is supported by <a href="#api-support">{{ page.supported_engines | size }} machine translation APIs</a>.
+</p>
+
+{% assign language = false %}
+{% for lang in site.data.languages %}
+  {% if lang.codes.first == page.code %}
+    {% assign language = lang %}
+  {% endif %}
+{% endfor %}
+
+<blockquote>
+
+  <dl>
+
+    <dt>Code</dt>
+    <dd><code>{{ language.codes | first }}</code></dd>
+
+    <dt>Names</dt>
+    <dd>{{ language.names | join: ', ' }}</dd>
+
+    <dt>Language family</dt>
+    <dd>
+      {% for family in page.family %}
+       <a href="/{{ family.slug }}">{{ family.name }}</a> {% unless forloop.last %}<{% endunless %}
+      {% endfor %}
+    </dd>
+
+    <dt>Scripts</dt>
+    <dd>
+      {% for script in language.scripts %}
+        {% assign script_name = site.data.scripts[script] %}
+        {% if script_name %}{{ script_name }}{% else %}<code>{{ script }}</code>{% endif %}{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    </dd>
+
+    <dt>Locale variants</dt>
+    <dd>
+      {% for variant in language.territories %}
+       <code style="white-space: nowrap;">{{ language.codes | first | append: '-' | append: variant }}</code>{% unless forloop.last %}{% endunless %}
+      {% endfor %}
+    </dd>
+
+  </dl>
+</blockquote>
+
+
+{{ content }}
+
+
+<h2 id="api-support">API support</h2>
+
+<p><strong>{{ page.supported_engines | size }}</strong> APIs support {{ page.title }}.</p>
+
+<ul>
+  {% for engine in page.supported_engines %}
+    <li>
+      <a href="/{{ engine.id }}">
+        {{ engine.name }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

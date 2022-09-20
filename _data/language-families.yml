@@ -1,0 +1,33 @@
+---
+aav: Austroasiatic
+afa: Afro-Asiatic
+bat: Baltic
+bnt: Bantu
+ccs: Kartvelian
+cdc: Chadic
+cel: Celtic
+cpe: English-based creoles
+cpf: French-based creoles
+cpp: Portuguese-based creoles
+crp: Creoles
+cus: Cushitic
+dra: Dravidian
+fiu: Finno-Ugric
+gem: Germanic
+grk: Hellenic
+hmx: Hmong-Mien
+iir: Indo-Iranian
+ine: Indo-European
+inc: Indo-Aryan
+ira: Iranic
+jpx: Japonic
+kor: Koreanic # There is no standard code for this.
+map: Austronesian
+nic: Niger-Congo
+roa: Romance
+sem: Semitic
+sit: Sino-Tibetan
+sla: Slavic
+tai: Tai # There is no standard code for Kra-Dai, but both Thai and Lao are in the Tai subfamily.
+trk: Turkic
+xgn: Mongolic

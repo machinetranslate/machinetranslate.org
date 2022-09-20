@@ -1,36 +1,41 @@
----
-description: The open guide to machine translation
----
+*This README is for machinetranslate.org infrastructure, not Machine Translate content.*
 
-# Machine Translate
+*For the Machine Translate landing page, visit **[index.md](index.md)**!*
 
-**Machine Translate** is the open guide to machine translation, from history to research to business.
+### Infrastructure
 
-## Community
+The machinetranslate.org technology stack:
+- Website: Jekyll
+- Theme: Just the Docs
+- CDN: GitHub Pages
+- DNS: Cloudflare
 
-Read news, ask and answer questions and share your work.
+### Running Jekyll locally
 
-[**Join our community**](https://form.typeform.com/c/ndac7OIs)
+Follow the [Jekyll Quickstart Instructions](https://jekyllrb.com/docs/#instructions):
 
-
-## Contribute
-
-This guide is open-source. You can contribute to the content.
-
-[**Edit an article**](/contributing/contributing.md#edit)
-
-[**Request a topic**](/contributing/contributing.md#request)
-
-
-## Supporters
-
-The open guide to machine translation is supported by [**ModelFront**](https://modelfront.com) and people like you.
-
-> Want to support Machine Translate?
-
-Shoot us an email at [contact@machinetranslate.org](mailto:contact@machinetranslate.org)
+> 1. Install all [prerequisites](https://jekyllrb.com/docs/installation/).
+> 2. Install the jekyll and bundler [gems](https://jekyllrb.com/docs/ruby-101/#gems).
+> ```sh
+> gem install jekyll bundler
+> ```
+> ...
+> 5. Build the site and make it available on a local server.
+> ```sh
+> bundle exec jekyll serve
+> ```
+> 6. Browse to [http://localhost:4000](http://localhost:4000)
 
 
-## Follow along
+### Paths
 
-Follow Machine Translate on [GitHub](https://github.com/machinetranslate), [Twitter](https://twitter.com/machtranslate), [LinkedIn](https://linkedin.com/company/machinetranslate) or [Facebook](https://facebook.com/machinetranslate)
+This repository has a directory structure, but on the website the page paths are flat.
+
+> GitHub repository: `/quality/quality-estimation.md`
+> machinetranslate.org: `/quality-estimation`
+
+How it works:
+- Jekyll removes the file extension (`.md`).
+- A Cloudflare Page Rule is configured to remove the directory from the path.
+- In the soure content on GitHub, relative paths are used.
+- Relative paths resolve on GitHub and on the website.

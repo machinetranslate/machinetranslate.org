@@ -1,0 +1,107 @@
+.main-content {
+
+  // External links
+
+  a[href]:not(:where(
+    /* exclude hash only links */
+    [href^="#"],
+    /* exclude relative links */
+    [href^="/"],
+    /* domains to exclude */
+    [href*="://machinetranslate.org"],
+    [href*="://localhost:"],
+
+    )):after {
+    /* ↗️ is too ugly on iOS and Firefox, so we hack it. */
+    content: '→';
+    transform: rotate(-45deg);
+    display: inline-block;
+    padding-left: 0.2em;
+    font-weight: lighter;
+  }
+
+  // all links
+  a {
+    white-space: pre-wrap;
+  }
+
+  blockquote {
+    background-color: $grey-lt-000;
+    padding: 0.1em;
+    padding-left: 2em;
+    padding-right: 1em;
+  }
+
+}
+
+button {
+  background-color: white;
+  color: $btn-primary-color;
+  border-radius: 3px;
+  padding: 0.5em;
+  border: 1px solid $btn-primary-color;
+  cursor: pointer;
+  font-weight: 500;
+}
+button:hover, button:active, button:focus {
+  color: white;
+  background-color: $btn-primary-color;
+  border-color: white;
+}
+
+// Hide 'Just the Docs' branding
+
+.site-footer {
+  display: none;
+}
+
+.site-logo {
+  width: 50px;
+}
+
+.site-title {
+  padding-left: 0em;
+  padding-right: 0em;
+}
+
+
+// Icons for other platforms
+
+.social-links {display: inline-block; vertical-align: middle; }
+.social-links:after {content: ""; display: block; clear: both;}
+.social-links > a {
+    position: relative;
+    text-align: left;
+    height: 64px;
+    width: 64px;
+    float: left;
+    text-align: center;
+}
+
+.social-links > a > svg {
+  height: 40px;
+  fill: $btn-primary-color;
+  margin-top: 16px;
+}
+
+footer .social-links > a > svg {
+  height: 20px;
+  fill: #d5d5d5;
+  margin-top: 8px;
+}
+
+footer .social-links > a {
+    position: relative;
+    text-align: left;
+    height: 36px;
+    width: 32px;
+    float: left;
+    text-align: center;
+}
+
+.social-links > a:hover {cursor: pointer;}
+.social-links > a.github:hover > svg {fill: #171515;}
+.social-links > a.facebook:hover > svg {fill: #3B5998;}
+.social-links > a.twitter:hover > svg {fill: #55ACEE;}
+.social-links > a.linkedin:hover > svg {fill: #0077b5;}
+
