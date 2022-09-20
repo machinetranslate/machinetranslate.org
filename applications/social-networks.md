@@ -1,8 +1,9 @@
 ---
-description: Machine translation for social media
+nav_order: 3
+parent: Application areas
+title: Social networks
+description: Machine translation for social networks
 ---
-
-# Social networks
 
 Machine translation is integrated into **social networks** for gisting dynamic content on demand.
 
@@ -15,7 +16,7 @@ Social networks with a machine translation feature include:
 * Sina Weibo
 * YouTube
 
-While the static content of social networks is human-translated, machine translation is used for [user-generated content](/applications/user-generated-content.md).
+While the static content of social networks is human-translated, machine translation is used for [user-generated content](user-generated-content.md).
 
 ## Content types
 

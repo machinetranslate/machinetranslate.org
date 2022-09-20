@@ -1,0 +1,44 @@
+---
+layout: default
+parent: Language families
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+<h2>
+  {{ page.description }}
+</h2>
+
+<hr/>
+
+<p>
+  {% if page.languages.size == 1 %}
+  Only one language in the <strong>{{ page.title }}</strong> language family is supported by a <a href="/engines"></a>machine translation API</a>.
+  {% else %}
+  {{ page.languages | size }} languages in the <strong>{{ page.title }}</strong> language family are supported by <a href="/engines"></a>machine translation APIs</a>.
+  {% endif %}
+</p>
+
+<blockquote>
+
+  <dl>
+
+    <dt>ISO code</dt>
+    <dd><a href="https://en.wikipedia.org/wiki/ISO_639:{{ page. code }}" target="_blank"><code>{{ page.code }}</code></a></dd>
+
+  </dl>
+
+</blockquote>
+
+
+{{ content }}
+
+
+<h2 id="languages">Languages</h2>
+
+<ul>
+  {% for language in page.languages %}
+    <li><a href="/{{ language.slug }}">{{ language.name }}</a></li>
+  {% endfor %}
+</ul>

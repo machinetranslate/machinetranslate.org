@@ -1,0 +1,1106 @@
+---
+
+-
+  codes: [ af, afr ]
+  names: [ Afrikaans ]
+  family: [ gem, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
+  territories: [ na, za ]
+
+-
+  codes: [ am, amh ]
+  names: [ Amharic ]
+  family: [ sem, afa ]
+  scripts: [ Ethi ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [  fusional, synthetic ]
+  territories: [ et ]
+
+-
+  codes: [ ar, ara ]
+  names: [ Arabic ]
+  family: [ sem, afa ]
+  scripts: [ Arab, Syrc ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ fusional, synthetic ]
+  territories: [ ae, bh, dj, dz, eg, er, iq, jo, kw, lb, ly, ma, mr, om, ps, qa, sa, sd, so, sy, tn, ye ]
+
+-
+  codes: [ az, aze, azj, azb ]
+  names: [ Azerbaijani, Azeri, Azeri Turkish, Azerbaijani Turkish, Turkish, Turkmen, Caucasian Tatar ]
+  family: [ trk ]
+  scripts: [ Latn, Cyrl, Arab ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ az, ir, iq ]
+
+-
+  codes: [ be, bel ]
+  names: [ Belarusian ]
+  family: [ sla, ine ]
+  scripts: [ Cyrl ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ by ]
+
+-
+  codes: [ bg, bul ]
+  names: [ Bulgarian ]
+  family: [ sla, ine ]
+  scripts: [ Cyrl ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
+  territories: [ bg ]
+
+-
+  codes: [ bn, ben ]
+  names: [ Bengali, Bangla ]
+  family: [ inc, iir, ine ]
+  scripts: [ Beng ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ bd, in ]
+
+-
+  codes: [ bs, bos ]
+  names: [ Bosnian ]
+  variant_names: [ Serbo-Croatian ]
+  family: [ sla, ine ]
+  scripts: [ Latn, Cyrl ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, inflected ]
+  territories: [ ba, hr, sr, me ]
+
+-
+  codes: [ ca, cat ]
+  names: [ Catalan ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional ]
+  territories: [ ad, es, fr ]
+
+-
+  codes: [ ceb ]
+  names: [ Cebuano, Bisaya, Binisaya ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ inflected ]
+  territories: [ ph ]
+
+-
+  codes: [ co, cos ]
+  names: [ Corsican ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+  territories: [ fr ]
+
+-
+  codes: [ cs, ces, cze ]
+  names: [ Czech ]
+  family: [ sla, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, inflected ]
+  territories: [ cz ]
+
+-
+  codes: [ cy, wel, cym ]
+  names: [ Welsh ]
+  family: [ cel, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ inflected ]
+  territories: [ gb ]
+
+-
+  codes: [ da, dan ]
+  names: [ Danish ]
+  family: [ gem, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
+  territories: [ dk ]
+
+-
+  codes: [ de, deu, ger ]
+  names: [ German ]
+  family: [ gem, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO, VSO ]
+    morphosyntax: [ fusional ]
+  territories: [ at, ch, de, li, lu ]
+
+-
+  codes: [ el, gre, ell ]
+  names: [ Greek ]
+  family: [ grk, ine ]
+  scripts: [ Grek ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, synthetic ]
+  territories: [ cy, gr ]
+
+-
+  codes: [ en, eng ]
+  names: [ English ]
+  family: [ gem, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
+  territories: [ au, bz, ca, 029, in, ie, jm, my, nz, ph, sg, za, tt, gb, us, zw ]
+
+-
+  codes: [ eo, epo ]
+  names: [ Esperanto ]
+  family: [ ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO, OVS, SOV, VOS, VSO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ]
+
+-
+  codes: [ es, spa ]
+  names: [ Spanish ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, inflected ]
+  territories: [ 419, ar, bo, cl, co, cr, do, ec, es, gt, hn, mx, ni, pa, pe, pr, py, sv, us, uy, ve ]
+
+-
+  codes: [ et, est, ekk, vro ]
+  names: [ Estonian ]
+  family: [ fiu ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, agglutinative ]
+  territories: [ ee, ru ]
+
+-
+  codes: [ eu, eus, baq, bas ]
+  names: [ Basque, Euskara ]
+  family: [ ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ fusional, agglutinative ]
+  territories: [ es, fr ]
+
+-
+  codes: [ fa, fas, per, prs ]
+  names: [ Persian, Farsi ]
+  variant_names: [ Dari, Dari Persian, Afghan Persian, Eastern Persian, Tajiki Persian ]
+  family: [ ira, iir, ine ]
+  scripts: [ Arab ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ir, af ]
+
+-
+  codes: [ fi, fin, fit, fkv ]
+  names: [ Finnish ]
+  variant_names: [ Meänkieli, Kven ]
+  family: [ fiu ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO, SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ fi ]
+
+-
+  codes: [ fr, fra, fre ]
+  names: [ French ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ be, ca, ch, fr, lu, mc ]
+
+-
+  codes: [ fy, fry, frr, frs ]
+  names: [ Frisian ]
+  family: [ gem, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
+  territories: [ nl, de ]
+
+-
+  codes: [ ga, gle ]
+  names: [ Irish, Gaelic, Irish Gaelic ]
+  family: [ cel, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ fusional ]
+  territories: [ ie ]
+
+-
+  codes: [ gd, gla ]
+  names: [ Scottish Gaelic, Scots Gaelic, Gaelic ]
+  family: [ cel, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ inflected ]
+  territories: [ gb ]
+-
+  codes: [ gl, glg ]
+  names: [ Galician, Gallego ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ es ]
+
+-
+  codes: [ gu, guj ]
+  names: [ Gujarati ]
+  family: [ inc, iir, ine ]
+  scripts: [ Gujr ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ in, pk ]
+
+-
+  codes: [ ha, hau ]
+  names: [ Hausa ]
+  family: [ cdc, afa ]
+  scripts: [ Latn, Arab ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ ng ]
+
+-
+  codes: [ haw ]
+  names: [ Hawaiian ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ analytic ]
+  territories: [ us ]
+
+-
+  codes: [ he, heb, iw ]
+  names: [ Hebrew ]
+  family: [ sem, afa ]
+  scripts: [ Hebr ]
+  typology:
+    word_order: [ VSO, SVO ]
+    morphosyntax: [ fusional, inflected ]
+  territories: [ il ]
+
+-
+  codes: [ hi, hin, hif ]
+  names: [ Hindi, Modern Standard Hindi ]
+  family: [ inc, iir, ine ]
+  scripts: [ Deva, Latn, Mahj ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ fusional, synthetic ]
+  territories: [ in, za, ae ]
+
+-
+  codes: [ hmn, hma, hmc, hme, hmf, hmg, hmh, hmi, hml, hmm, hmn, hmp, hmv, hmw, hmy, hmz, hnj, huj, mww ]
+  names: [ Hmong, Mong, Miao–Yao ]
+  variant_names: [ Southern Mashan Hmong, Central Huishui Hmong, Eastern Huishui Hmong, Hmong Don, Southwestern Guiyang Hmong, Southwestern Huishui Hmong, Northern Huishui Hmong, Luopohe Hmong, Central Mashan Hmong, Mong Northern Mashan Hmong, Hmong Dô, Western Mashan Hmong, Southern Guiyang Hmong, Hmong Shua, Hmong Njua, Northern Guiyang Hmong ]
+  family: [ hmx ]
+  scripts: [ Latn, Hmng ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
+  territories: [ vn, cn, th, la, mm ]
+
+-
+  codes: [ hr, hrv, hbs ]
+  names: [ Croatian ]
+  variant_names: [ Serbo-Croatian ]
+  family: [ sla, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, inflected ]
+  territories: [ hr, ba, rs, at ]
+
+-
+  codes: [ ht, hat ]
+  names: [ Haitian, Haitian Creole ]
+  family: [ cpf ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
+  territories: [ ht ]
+
+-
+  codes: [ hu, hun ]
+  names: [ Hungarian ]
+  family: [ fiu ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative, synthetic ]
+  territories: [ hu, ro, rs, sk, sl, at ]
+
+-
+  codes: [ hy, hye, hyw ]
+  names: [ Armenian]
+  family: [ ine ]
+  scripts: [ Armn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, synthetic ]
+  territories: [ am, lb, ir, tr, ru, ge ]
+
+-
+  codes: [ id, in, ind ]
+  names: [ Indonesian ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ id ]
+
+-
+  codes: [ ig, ibo ]
+  names: [ Igbo ]
+  family: [ nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ng ]
+
+-
+  codes: [ is, isl, ice ]
+  names: [ Icelandic ]
+  family: [ gem, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ is ]
+
+-
+  codes: [ it, ita ]
+  names: [ Italian ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, synthetic ]
+  territories: [ ch, it ]
+
+-
+  codes: [ ja, jpn ]
+  names: [ Japanese ]
+  family: [ jpx ]
+  scripts: [ Jpan ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative, synthetic ]
+  territories: [ jp ]
+
+-
+  codes: [ jv, jav, jw ]
+  names: [ Javanese ]
+  family: [ map ]
+  scripts: [ Java, Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ id ]
+
+-
+  codes: [ ka, kat, geo ]
+  names: [ Georgian ]
+  family: [ ccs ]
+  scripts: [ Geor ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative, synthetic ]
+  territories: [ ge ]
+
+-
+  codes: [ kk, kaz ]
+  names: [ Kazakh ]
+  family: [ trk ]
+  scripts: [ Cyrl, Arab, Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ kz ]
+
+-
+  codes: [ km, khm, kxm ]
+  names: [ Khmer ]
+  family: [ aav ]
+  scripts: [ Khmr ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic, isolating ]
+  territories: [ kh ]
+
+-
+  codes: [ kn, kan, kfi ]
+  names: [ Kannada ]
+  family: [ dra ]
+  scripts: [ Knda ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ id ]
+
+-
+  codes: [ ko, kor ]
+  names: [ Korean ]
+  family: [ kor ]
+  scripts: [ Kore ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ kr ]
+
+-
+  codes: [ ku, kur, sdh, kmr ]
+  names: [ Kurdish, Kurmanji Kurdish, Kurmanji, Northern Kurdish, Yezidi Kurdish, Yezidi ]
+  family: [ ira, iir, ine ]
+  scripts: [ Latn, Cyrl, Arab ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ am, tr, sy, ir, iq, ge, tm ]
+
+-
+  codes: [ ckb ]
+  names: [ Sorani Kurdish, Central Kurdish ]
+  family: [ ira, iir, ine ]
+  scripts: [ Arab ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ iq ]
+
+-
+  codes: [ ky, kir ]
+  names: [ Kyrgyz ]
+  family: [ trk ]
+  scripts: [ Arab, Cyrl, Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ kg ]
+
+-
+  codes: [ la, lat ]
+  names: [ Latin ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV, SVO ]
+    morphosyntax: [ synthetic, fusional ]
+  territories: [ ]
+
+-
+  codes: [ lb, ltz ]
+  names: [ Luxembourgish, Luxemburgish, Letzeburgesch ]
+  family: [ gem, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ V2, SOV ]
+    morphosyntax: [ synthetic ]
+  territories: [ lu ]
+
+-
+  codes: [ lo, lao ]
+  names: [ Lao ]
+  family: [ tai ]
+  scripts: [ Laoo ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ isolating ]
+  territories: [ la ]
+
+-
+  codes: [ lt, lit ]
+  names: [ Lithuanian ]
+  family: [ bat, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ lt ]
+
+-
+  codes: [ lv, lav ]
+  names: [ Latvian, Lettish ]
+  family: [ bat, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ lv ]
+
+-
+  codes: [ mg, mlg, xmv, bhr, buc, msh, bmm, plt, skg, bzc, tdx, txy, tkg, xmw ]
+  names: [ Malagasy ]
+  variant_names: [ Antankarana, Bara, Bushi, Masikoro, Northern Betsimisaraka, Plateau Malagasy, Sakalava, Southern Betsimisaraka, Tandroy-Mafahaly, Tanosy, Tesaka, Tsimihety ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VOS ]
+    morphosyntax: [ inflected ]
+  territories: [ mg ]
+
+-
+  codes: [ mi, mri, mao ]
+  names: [ Maori, Māori, Te Reo Māori ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ analytical ]
+  territories: [ nz ]
+
+-
+  codes: [ mk, mkd, mac ]
+  names: [ Macedonian, Macedonian Slavic ]
+  family: [ sla, ine ]
+  scripts: [ Cyrl ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
+  territories: [ mk ]
+
+-
+  codes: [ ml ]
+  names: [ Malayalam ]
+  family: [ dra ]
+  scripts: [ Mlym ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ in ]
+
+-
+  codes: [ mn, mon ]
+  names: [ Mongolian ]
+  family: [ xgn ]
+  scripts: [ Cyrl, Mong, Phag ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ mn ]
+
+-
+  codes: [ mr, mar ]
+  names: [ Marathi ]
+  family: [ inc, iir, ine ]
+  scripts: [ Deva, Modi ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative, inflected, analytic ]
+  territories: [ in ]
+
+-
+  codes: [ ms, msa, may ]
+  names: [ Malay ]
+  family: [ map ]
+  scripts: [ Latn, Arab ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ my, bn, sg ]
+
+-
+  codes: [ mt, mlt ]
+  names: [ Maltese ]
+  family: [ sem, afa ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ mt ]
+
+-
+  codes: [ my, mya, bur ]
+  names: [ Burmese, Myanmar ]
+  family: [ sit ]
+  scripts: [ Mymr ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ analytic, isolating ]
+  territories: [ mm ]
+
+-
+  codes: [ ne, nep ]
+  names: [ Nepali ]
+  family: [ inc, iir, ine ]
+  scripts: [ Deva ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ np ]
+
+-
+  codes: [ nl, nld, dut ]
+  names: [ Dutch ]
+  family: [ gem, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic ]
+  territories: [ 001, be, nl ]
+
+-
+  codes: [ 'no', nb, nn, nor, nno, nob ]
+  names: [ Norwegian ]
+  variant_names: [ Bokmål, Nynorsk, Riksmål, Høgnorsk ]
+  family: [ gem, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional ]
+  territories: [ 'no' ]
+
+-
+  codes: [ ny ]
+  names: [ Chichewa, Chewa, Nyanja ]
+  family: [ nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+  territories: [ mw, zw ]
+
+-
+  codes: [ or, ori ]
+  names: [ Oriya, Odia ]
+  family: [ inc, iir, ine ]
+  scripts: [ Orya ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ id ]
+
+-
+  codes: [ pa, pan ]
+  names: [ Punjabi, Panjabi ]
+  family: [ inc, iir, ine ]
+  scripts: [ Guru, Arab ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ fusional ]
+  territories: [ pk, in ]
+
+-
+  codes: [ pl, pol ]
+  names: [ Polish ]
+  family: [ sla, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, synthetic ]
+  territories: [ pl ]
+
+-
+  codes: [ ps, pus, pbt, pbu, pst ]
+  names: [ Pashto ]
+  family: [ ira, iir, ine ]
+  scripts: [ Arab ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ fusional ]
+  territories: [ af ]
+
+-
+  codes: [ pt, por ]
+  names: [ Portuguese ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ br, pt ]
+
+-
+  codes: [ ro, ron, rum ]
+  names: [ Romanian, Rumanian, Moldovan ]
+  family: [ roa, ine ]
+  scripts: [ Latn, Cyrl ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic ]
+  territories: [ md, ro ]
+
+-
+  codes: [ ru, rus ]
+  names: [ Russian ]
+  family: [ sla, ine ]
+  scripts: [ Cyrl ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected, fusional, synthetic ]
+  territories: [ ru, md, kz, ua ]
+
+-
+  codes: [ rw, kin ]
+  names: [ Kinyarwanda, Rwandan, Ikinyarwanda ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ rw ]
+
+-
+  codes: [ sd, snd ]
+  names: [ Sindhi ]
+  family: [ inc, iir, ine ]
+  scripts: [ Arab, Deva, Khoj, Sind ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ in, pk ]
+
+-
+  codes: [ si, sin ]
+  names: [ Sinhala, Sinhalese ]
+  family: [ inc, iir, ine ]
+  scripts: [ Sinh ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ fusional ]
+  territories: [ lk ]
+
+-
+  codes: [ sk, slk, slo ]
+  names: [ Slovak ]
+  family: [ sla, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic ]
+  territories: [ sk ]
+
+-
+  codes: [ sl, slv ]
+  names: [ Slovenian, Slovene ]
+  family: [ sla, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ fusional, inflected ]
+  territories: [ si ]
+
+-
+  codes: [ sm, smo ]
+  names: [ Samoan ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ analytic ]
+  territories: [ ws ]
+
+-
+  codes: [ sn, sna ]
+  names: [ Shona ]
+  family: [ nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ zw ]
+
+-
+  codes: [ so, som ]
+  names: [ Somali ]
+  family: [ cus, afa ]
+  scripts: [ Arab, Latn, Osma ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ dj, et, ke, so ]
+
+-
+  codes: [ sq, sqi, alb ]
+  names: [ Albanian ]
+  family: [ ine ]
+  scripts: [ Latn, Elba ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional ]
+  territories: [ al, mk, sr, gr, me, it ]
+
+-
+  codes: [ sr, srp ]
+  names: [ Serbian ]
+  variant_names: [ Serbo-Croatian, Montenegrin ]
+  family: [ sla, ine ]
+  scripts: [ Cyrl, Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, inflected ]
+  territories: [ ba, me, rs, hr ]
+
+-
+  codes: [ st, sot ]
+  names: [ Sotho, Sesotho ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ls, za, zw ]
+
+-
+  codes: [ su, sun ]
+  names: [ Sundanese ]
+  family: [ map ]
+  scripts: [ Latn, Sund ]
+  typology:
+    word_order: [ SVO ]
+  territories: [ id ]
+
+-
+  codes: [ sv, swe ]
+  names: [ Swedish ]
+  family: [ gem, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ V2, SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ fi, se ]
+
+-
+  codes: [ sw, swa, swc, swh ]
+  names: [ Swahili, Kiswahili ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ cd, ke, tz, ug ]
+
+-
+  codes: [ ta, tam ]
+  names: [ Tamil ]
+  family: [ dra ]
+  scripts: [ Taml ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ in, lk, my, sg ]
+
+-
+  codes: [ te, tel ]
+  names: [ Telugu ]
+  family: [ dra ]
+  scripts: [ Telu ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ in ]
+
+-
+  codes: [ tg, tgk ]
+  names: [ Tajik, Tajiki Persian ]
+  family: [ ira, iir, ine ]
+  scripts: [ Cyrl, Latn, Arab ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ analytic ]
+  territories: [ tj, af ]
+
+-
+  codes: [ th, tha ]
+  names: [ Thai, Central Thai ]
+  family: [ tai ]
+  scripts: [ Thai ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic, isolating ]
+  territories: [ th ]
+
+-
+  codes: [ ti, tir ]
+  names: [ Tigrinya ]
+  family: [ sem, afa ]
+  scripts: [ Ethi ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ fusional, synthetic ]
+  territories: [ et, er ]
+  
+-
+  codes: [ tk, tuk ]
+  names: [ Turkmen ]
+  family: [ trk ]
+  scripts: [ Cyrl, Latn, Arab ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ iq, tm, ir, af ]
+
+-
+  codes: [ tl, tgl, fil ]
+  names: [ Tagalog, Filipino ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ph ]
+
+-
+  codes: [ tr, tur ]
+  names: [ Turkish ]
+  family: [ trk ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ tr, cy ]
+
+-
+  codes: [ tt, tat ]
+  names: [ Tatar ]
+  family: [ trk ]
+  scripts: [ Cyrl, Latn, Arab ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ru, cn ]
+
+-
+  codes: [ ug, uig ]
+  names: [ Uyghur, Uighur ]
+  family: [ trk ]
+  scripts: [ Latn, Cyrl, Arab ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ cn ]
+
+-
+  codes: [ uk, ukr ]
+  names: [ Ukrainian ]
+  family: [ sla, ine ]
+  scripts: [ Cyrl ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, synthetic ]
+  territories: [ ua, md ]
+
+-
+  codes: [ ur, urd ]
+  names: [ Urdu ]
+  family: [ inc, iir, ine ]
+  scripts: [ Arab ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ fusional ]
+  territories: [ in, lk, pk ]
+
+-
+  codes: [ uz, uzb, uzn, uzs ]
+  names: [ Uzbek ]
+  family: [ trk ]
+  scripts: [ Latn, Cyrl, Arab ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ uz ]
+
+-
+  codes: [ vi, vie ]
+  names: [ Vietnamese ]
+  family: [ aav ]
+  scripts: [ Latn, Hani ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic, isolating ]
+  territories: [ vn ]
+
+-
+  codes: [ xh, xho ]
+  names: [ Xhosa, isiXhosa ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ za ]
+
+-
+  codes: [ yi, yid, ydd, yih ]
+  names: [ Yiddish ]
+  family: [ gem, ine ]
+  scripts: [ Hebr ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ ba, nl, pl, ro, se, ua, ru, by, us, il ]
+
+-
+  codes: [ yo, yor ]
+  names: [ Yoruba ]
+  family: [ nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ isolating ]
+  territories: [ ]
+
+-
+  codes: [ zh, lzh ]
+  names: [ Chinese, Mandarin Chinese, Mandarin ]
+  variant_names: [ Simplified Chinese, Traditional Chinese, Literary Chinese ]
+  family: [ sit ]
+  scripts: [ Hans, Hant ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic, isolating ]
+  territories: [ cn, my, sg, hk, tw ]
+
+-
+  codes: [ zu, zul ]
+  names: [ Zulu ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ za ]
