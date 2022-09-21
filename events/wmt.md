@@ -129,15 +129,18 @@ Some people have been organisers over many years:
 
 ### Average score and average z-score
 
-For the **average score**, human assessment scores for translations are standardised according to each human assessor's overall mean and standard deviation. Then a system-level score is computed.
+For the **average score**, human assessment scores for translations are standardised according to each human assessor's overall mean and standard deviation.
+Then a system-level score is computed.
 
-**Average z-score** is a normalised version. It shows the distance between the average score for a system and the mean average score across all systems.
+**Average z-score** is a normalised version.
+It shows the distance between the average score for a system and the mean average score across all systems.
 
 Average score and average z-score are the main metrics used in the results for the translation shared task since WMT17.
 
 ### TrueSkill
 
-**TrueSkill** is a gaming rating system. Microsoft Research originally developed it for the Xbox Live gaming community. 
+**TrueSkill** is a gaming rating system.
+Microsoft Research originally developed it for the Xbox Live gaming community. 
 For WMT, TrueSkill was adapted to machine translation evaluation.
 
 For WMT14, WMT15 and WMT16, TrueSkill was used as the human evaluation ranking for all translation shared tasks.
