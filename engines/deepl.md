@@ -186,6 +186,12 @@ supported_languages:
   base_code: tr
   name: Turkish
   variant_name: null
+- slug: ukrainian
+  code: uk
+  normalized_code: uk
+  base_code: uk
+  name: Ukrainian
+  variant_name: null
 - slug: chinese
   code: zh-cn
   normalized_code: zh-Hans
@@ -207,5 +213,3 @@ supported_languages:
 nav_order: 968
 
 ---
-
-
