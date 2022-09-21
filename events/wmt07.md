@@ -93,6 +93,8 @@ Full results of the shared task: [*(Meta-) Evaluation of Machine Translation*](h
 
 The results were determined with a [relative ranking](wmt.md#relative-ranking), the `> others` (“greater than others”) score, an [adequacy and fluency judgement](wmt.md#adequacy-and-fluency judgement), and a [constituent ranking](wmt.md#constituent-ranking).
 
+The automatic evaluation results were excluded from the article as the findings conclude the human judgments to be authoritative.
+
 #### → English
 
 | Language pair | System | `> others` | Adequacy | Fluency | Constituent |
