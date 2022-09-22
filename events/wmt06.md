@@ -81,3 +81,11 @@ The **First Workshop on Machine Translation** (**WMT06**) took place from 8 June
 | 16:30 – 16:45	| [***N-gram-based SMT System Enhanced with Reordering Patterns***](https://www.statmt.org/wmt06/proceedings/pdf/WMT25.pdf) <br>Josep M. Crego, Adrià de Gispert, Patrik Lambert, Marta R. Costa-jussà, Maxim Khalilov, Rafael Banchs, José B. Mariño, José A. R. Fonollosa |
 | 16:45 – 17:00	| [***The LDV-COMBO system for SMT***](https://www.statmt.org/wmt06/proceedings/pdf/WMT26.pdf) <br>Jesús Giménez, Lluís Màrquez |
 | 17:00 – 18:00	| **Panel Discussion** |
+
+## Results
+
+Full results of the shared task: [*Manual and Automatic Evaluation of Machine Translation between European Languages*](https://www.statmt.org/wmt06/proceedings/pdf/WMT14.pdf)
+
+*Note: The manual and automatic evaluation results were excluded from the article.
+Due to many similarly performing systems, there were no strong conclusions on the correlation between manual and automatic evaluation metrics.*
+
