@@ -114,14 +114,24 @@ supported_languages:
   base_code: ru
   name: Russian
   variant_name: null
+- slug: slovak
+  code: sk
+  normalized_code: sk
+  base_code: sk
+  name: Slovak
+  variant_name: null
 - slug: swedish
   code: sv
   normalized_code: sv
   base_code: sv
   name: Swedish
   variant_name: null
+- slug: ukrainian
+  code: uk
+  normalized_code: uk
+  base_code: uk
+  name: Ukrainian
+  variant_name: null
 nav_order: 982
 
 ---
-
-
