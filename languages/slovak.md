@@ -11,6 +11,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_engines:
+- id: tilde
+  name: Tilde
+  supported_language_count: 22
 - id: etranslation
   name: eTranslation
   supported_language_count: 26
@@ -88,5 +91,3 @@ supported_engines:
   supported_language_count: 302
 
 ---
-
-

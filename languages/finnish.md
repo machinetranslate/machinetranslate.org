@@ -14,7 +14,7 @@ supported_engines:
   supported_language_count: 2
 - id: tilde
   name: Tilde
-  supported_language_count: 18
+  supported_language_count: 22
 - id: unbabel
   name: Unbabel
   supported_language_count: 25
@@ -95,5 +95,3 @@ supported_engines:
   supported_language_count: 302
 
 ---
-
-

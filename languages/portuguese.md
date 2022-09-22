@@ -37,7 +37,7 @@ supported_engines:
   supported_language_count: 17
 - id: tilde
   name: Tilde
-  supported_language_count: 18
+  supported_language_count: 22
 - id: textra
   name: TexTra
   supported_language_count: 19
