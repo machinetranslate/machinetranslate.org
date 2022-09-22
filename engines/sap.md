@@ -1,12 +1,12 @@
 ---
 layout: engine
 title: SAP Translation Hub
-description: The SAP Translation Hub machine translation API
+description: Document Translation Service – the machine translation API in SAP Translation Hub
 id: sap
 parent: Engines
 urls:
 - https://www.sapstore.com/solutions/40076/SAP-Translation-Hub
-- https://help.sap.com/docs/SAP_TRANSLATION_HUB/ed6ce7a29bdd42169f5f0d7868bce6eb/1b15cf69580449c0bd8525696c97b90d.html?locale=en-US
+- https://help.sap.com/docs/SAP_TRANSLATION_HUB/9f73362817cd48339dd8a6acba160f7f/c07bd4ee447b477b9ccb31b3abf5dae3.html?locale=en-US
 self_serve: true
 customization: []
 supported_languages:
@@ -247,5 +247,3 @@ supported_languages:
 nav_order: 961
 
 ---
-
-
