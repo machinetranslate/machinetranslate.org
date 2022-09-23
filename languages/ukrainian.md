@@ -11,6 +11,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_engines:
+- id: deepl
+  name: DeepL
+  supported_language_count: 27
 - id: tilde
   name: Tilde
   supported_language_count: 22
