@@ -10,6 +10,7 @@ urls:
 self_serve: true
 customization:
 - Glossary
+supported_languages_comment: The consumer app usually covers more languages than the API.
 supported_languages:
 - slug: afrikaans
   code: af
@@ -668,5 +669,3 @@ supported_languages:
 nav_order: 891
 
 ---
-
-

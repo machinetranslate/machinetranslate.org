@@ -50,6 +50,10 @@ parent: Engines
 
 
 <h2 id="language-support">Language support</h2>
+{% if page.supported_languages_comment %}
+<p>{{ page.supported_languages_comment }}</p>
+{% endif %}
+
 <p>{{ page.title }} supports <strong>{{ page.supported_languages | size }}</strong> languages.</p>
 
 <ul>
