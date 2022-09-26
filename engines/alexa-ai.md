@@ -9,6 +9,18 @@ urls:
 self_serve: false
 customization: []
 supported_languages:
+- slug: arabic
+  code: ar
+  normalized_code: ar
+  base_code: ar
+  name: Arabic
+  variant_name: null
+- slug: german
+  code: de
+  normalized_code: de
+  base_code: de
+  name: German
+  variant_name: null
 - slug: english
   code: en
   normalized_code: en
@@ -27,6 +39,24 @@ supported_languages:
   base_code: fr
   name: French
   variant_name: null
+- slug: italian
+  code: it
+  normalized_code: it
+  base_code: it
+  name: Italian
+  variant_name: null
+- slug: japanese
+  code: ja
+  normalized_code: ja
+  base_code: ja
+  name: Japanese
+  variant_name: null
+- slug: korean
+  code: ko
+  normalized_code: ko
+  base_code: ko
+  name: Korean
+  variant_name: null
 - slug: portuguese
   code: pt-br
   normalized_code: pt-br
@@ -42,5 +72,3 @@ supported_languages:
 nav_order: 995
 
 ---
-
-

@@ -10,7 +10,7 @@
   id: alexa-ai
   urls:
    - https://alexatranslations.com/alexa-translations-a-i
-  languages: [ en, es-419, fr-ca, pt-br, zh ]
+  languages: [ ar, de, en, es-419, fr-ca, it, ja, ko, pt-br, zh ]
   self-serve: false
 
 - name: Alibaba Translate
