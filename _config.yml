@@ -133,7 +133,7 @@ defaults:
 
 # Just the Docs
 
-remote_theme: pmarsceill/just-the-docs
+remote_theme: pmarsceill/just-the-docs@v0.3.3
 
 logo: favicon.ico
 color_scheme: swissred
