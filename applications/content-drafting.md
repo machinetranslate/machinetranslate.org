@@ -39,12 +39,11 @@ Detecting these issues at an early phase allows taking corrective actions, in pa
 
 The source image in English relies on the exact length of English text:
 
-<img title='English image' src='/applications/_images/image_with_text_eng.svg' />
+![English image](_images/image_with_text_eng.svg)
 
 Localised images will have different text lengths depending on the target language. For example, German text is usually longer and does not fit, so some work is needed after the translation to adjust the localised images:
 
-<img title='German image' src='/applications/_images/image_with_text_ger.svg' />
-
+![German image](_images/image_with_text_ger.svg)
 <!-- example of mock-up UI localisation with wrong sorting of a translated list -->
 
 
@@ -66,4 +65,4 @@ This technique omits the basic difficulty of post-editing: while the post-editor
 
 An author may use DeepL in the browser to draft an English paragraph from a Polish source.
 
-<img title='Drafting text in DeepL' src='/applications/_images/drafting-text-deepl.png' width='700' />
+![Drafting text in DeepL](_images/drafting-text-deepl.png)
