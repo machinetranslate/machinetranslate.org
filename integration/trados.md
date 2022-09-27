@@ -1,7 +1,11 @@
 ---
+nav_order: 3
+grand_parent: Tutorials
+parent: Connecting engines to translation software
 title: How to get machine translation in Trados
 description: Setting up machine translation plugins in Trados
 ---
+
 
 **Trados** is a translation management system with **machine translation plugins** for many machine translation providers.
 
@@ -22,10 +26,10 @@ Read [here](api-keys.md#amazon-translate-aws) for more details.
 
 
 1. Open your desktop version of Trados.
- 
+
 2. Go to **Add-ins > RWS AppStore**. Search for **Amazon Translate MT Provider** and download it. Restart Trados.
 
- 
+
 3.  Go to **Project Settings**. In the **Translation Memory and Automated Translation** settings window select the provider by clicking **Use...** > **Amazon Translate Trados Plugin**.
 
 
@@ -40,9 +44,9 @@ Read [here](api-keys.md#amazon-translate-aws) for more details.
 
 
     4.1  Select **Access key  / Secret access key** in the **Choose AWS auth type** drop-down menu.
-		
+
     4.2 Enter the **AWS region name**, **Access key**, and **Secret access key** credentials in the appropriate fields. Check the **Save access keys for future sessions** option.
-    
+
     4.2 Confirm by clicking **OK**.
 
 ![How to set up the Trados plugin for Amazon Translate (AWS)pic3](trados-images/trados_for_amazon3.png)  
@@ -77,7 +81,7 @@ Read [here](api-keys.md#deepl) for more details.
 
 4.  Enter the API key. Click **OK**.
 
- 
+
 5.  Add the following domains to your firewall/antivirus exceptions: www2.deepl.com and www.api.deepl.com.
 
 
@@ -118,7 +122,7 @@ Read [here](api-keys.md#modernmt) for more details.
 
 ![How to set up the Trados plugin for ModernMTpic2](trados-images/trados_for_modernmt2.png)
 
- 
+
 5.  You may select one or more translation memories to use with your project. Check the **Use** check box for each translation memory you wish to use. If you check the **Update** check box of a translation memory, it will learn from the corrections you make in a given translation. You may select this check box for only one translation memory.
 
 ![How to set up the Trados plugin for ModernMTpic3](trados-images/trados_for_modernmt3.png)
@@ -167,7 +171,7 @@ Read [here](api-keys.md#google-cloud-translation-basic-or-google-translate-api-v
 
 7.  Enter the API key in the field below. Check the **Save Google key**.
 
- 
+
 8.  Click **OK**.
 
 
@@ -191,7 +195,7 @@ This plugin is not required for the **Google Cloud Translation Basic (or Google 
 
 
 2.  Go to **Add-ins > RWS AppStore**. Search for **Google API Validator** and download it. By default, it is saved in the following destination: C:\Users\User1\AppData\Roaming\SDL Community\AppStore Integration\Downloads\GoogleApiValidator.Setup.zip.
- 
+
 In your system, the \Users\User1 part of the path shown here will most likely be different. The path has been included here as an example, not a precise indication of the .zip file location.
 
 
@@ -202,7 +206,5 @@ In your system, the \Users\User1 part of the path shown here will most likely be
 2.  After the plugin is installed, restart Trados. The plugin is now ready for use.
 
 
- 
+
  More information on this plugin is available **[here](https://community.sdl.com/product-groups/translationproductivity/w/customer-experience/5493/google-api-validator).**
-
-

@@ -1,17 +1,25 @@
-# How to get API keys for machine translation engines
+---
+nav_order: 1
+grand_parent: Tutorials
+parent: Connecting engines to translation software
+title: Machine translation API keys
+description: How to get API keys for machine translation engines
+---
 
-A machine translation API key is required to integrate machine translation into other applications and systems, either as a developer or as an user, for example:
+A machine translation application programming interfaces (API) key is required to integrate machine translation into other applications and systems, either as a developer or as an user.
+
+#### Examples
+
 - To integrate a machine translation API into systems and applications.
-- To use machine translation in a translation application, like a TMS or CAT tool.
+- To use machine translation in a translation application, like a translation management systems (TMS) or computer-aided translation (CAT) tool.
 
 
 ## Amazon Translate (AWS)  
 
-
 Create an **[AWS account](https://aws.amazon.com/)**
 ![How to obtain an API key for Amazon Translate AWSpic1](api-images/amazon4.png)  
 
-1. You need your debit or credit card to accomplish this step. One USD or EUR is then temporarily charged to your bank account. Provide your personal details. In the next step select the payment plan:  
+1. You will need a debit or credit card. One USD or EUR is temporarily charged to your bank account. Provide your personal details. In the next step select the payment plan:  
 
 ![How to obtain an API key for Amazon Translate AWSpic2](api-images/amazon5.png)  
 
@@ -20,17 +28,17 @@ Create an **[AWS account](https://aws.amazon.com/)**
 ![How to obtain an API key for Amazon Translate AWSpic3](api-images/amazon6.png)  
 
 3. Look for necessary credentials in your **AWS Management Console**.  
- 
+
 4. Click the name of your account in the upper, right corner of the page.  
 
 5. Select **My Security Credentials**.  
 
 6. Click **Access keys (access key ID and secret access key)**.  
- 
+
 7. Generate the key. Download the key file. Remember to store it in a safe place.  
- 
+
 8. Run AWS CL by **[opening a windows command prompt](https://www.lifewire.com/how-to-open-command-prompt-2618089).** Type in `aws configure`.  
- 
+
 9. When prompted enter the required data. Confirm by pressing Enter after each line. When prompted for the **Default region name** enter `us-west-2` or follow the instructions given here: [https://docs.aws.amazon.com/general/latest/gr/rande.html](https://docs.aws.amazon.com/general/latest/gr/rande.html).  
 
 10. Type in `aws configure` again. This is an example of what you should see then:  
@@ -48,8 +56,8 @@ Create a DeepL account [here](https://www.deepl.com/pro.html)
 
 1. Select the DeepL Pro payment plan. You need your debit or credit card to register your account. Provide your personal details. Confirm each step.  
 
- 
-2. Press **Retrieve your Authentication Key** on the last screen. 
+
+2. Press **Retrieve your Authentication Key** on the last screen.
 
 
 3. Go to **Account**. Your API key is at the bottom of the screen under ** Authentication Key for DeepL API**. Copy it and store it in a safe location.  
@@ -78,7 +86,7 @@ Create a ModernMT account [here](https://www.modernmt.com/pricing/).
 To use this MT vendor you need to have your regular Google Account. Set it up and log in to it. Then log in [here](https://console.developers.google.com/cloud-resource-manager).
 
 1. Go to **Billing** > **Add a billing account**. Accomplish all the required steps of the procedure.  
- 
+
 ![How to obtain an API key_Google_pic1](api-images/google5.png)  
 
 2. You should find yourself in the **Dashboard** view. As there are frequent changes to the **Google Cloud Platform** the page you find yourself may be different.  
@@ -86,7 +94,7 @@ To use this MT vendor you need to have your regular Google Account. Set it up an
 ![How to obtain an API key_Google_pic2](api-images/google6.png)  
 
 3. Type in `new project` in the search window. Click **Create a Project IAM & Admin**.  
- 
+
 ![How to obtain an API key_Google_pic3](api-images/google7.png)  
 
 4. Assign a name to your project in the **Project name** field (for example **CATpluginproject**). Write it down for future use. Click **Create**.  
@@ -104,41 +112,41 @@ To use this MT vendor you need to have your regular Google Account. Set it up an
  ![How to obtain an API key_Google_pic6](api-images/google10.png)
 
 8. Click **ENABLE APIS AND SERVICES**.  
- 
+
 ![How to obtain an API key_Google_pic7](api-images/google11.png)
 
 9. In the left margin click **Machine Learning**.  
- 
+
 ![How to obtain an API key_Google_pic8](api-images/google12.png)
 
 10. Click **Cloud Translation API** > **Enable**.  
- 
+
 ![How to obtain an API key_Google_pic9](api-images/google13.png)  
 ![How to obtain an API key_Google_pic10](api-images/google14.png)  
 
 11. To use this API, you need credentials. Click **Create credentials** to get started.  
- 
+
 ![How to obtain an API key_Google_pic11](api-images/google15.png)
 
 12. From the **Select an API** drop-down menu select **Cloud Translation API**.  
- 
+
 ![How to obtain an API key_Google_pic12](api-images/google16.png)  
 
 13. Click **Cancel**.  
- 
+
 ![How to obtain an API key_Google_pic13](api-images/google17.png)  
 
 14. In the upper part of the dashboard, click **CREATE CREDENTIALS** > **API key**.  
- 
+
 ![How to obtain an API key_Google_pic14](api-images/google18.png)  
 ![How to obtain an API key_Google_pic15](api-images/google19.png)  
 
 15. Wait for the API key to be created. Remember to copy it and store it in a safe location. Click **RESTRICT KEY** to prevent unauthorized use in production.  
- 
+
 ![How to obtain an API key_Google_pic16](api-images/google20.png)   
 
 16. Allow the **Restrict key** option. In the drop-down menu select **Cloud Translation API**. Click **Save**.  
-  
+
 ![How to obtain an API key_Google_pic17](api-images/google21.png)  
 
 

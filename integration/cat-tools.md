@@ -1,17 +1,29 @@
-# How to connect MTs to CAT tools 
+---
+nav_order: 1
+parent: Tutorials
+has_children: true
+title: Connecting engines to translation software
+description: How to connect machine translation engines to computer-aided translation tools
+---
 
 
 > ___&ldquo;The biggest challenge is to combine technology and the human side without losing the latter&rdquo;___ — Gordana Antonijević  
 
 
 
+Machine Translation technology allows users to automatically translate text from one language to another.
+Both Trados and memoQ use plugins to connect to machine translation engine vendors.
+This tutorial provides information as to how to obtain application programming interfaces (API) keys from machine translation vendors and enter them into the plugins.
 
 
-# Introduction  
-Machine Translation (MT) technology allows you to automatically translate your text from one language to another. Both Trados and memoQ use plugins to connect to machine translation engine vendors. This manual provides information as to how to obtain API keys from MT vendors and enter them into the plugins. 
+#### [How to set up Trados plugins](trados.md)  
 
-## MT vendors described  
-This manual shows how to obtain APIs to the following MTs:
+#### [How to set up memoQ plugins](memoq.md)  
+
+#### [How to obtain API keys for MT plugins](api-keys.md)  
+
+
+### MT vendors described
 
 | API | Language pairs | Customization | Setup | Cost | Privacy |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
@@ -20,8 +32,9 @@ This manual shows how to obtain APIs to the following MTs:
 | Amazon Translate (AWS)   |  75 | Glossaries, Adaptive customization, to and from English only  | Difficult | $15 per 1 M characters, $60 for adaptive customization per 1 M characters | Amazon shared responsibility model, ISO 27001-compliant |
 | Modern MT   |  40+ | Glossaries, Adaptive customization for all pairs  | Easy | $25 per month for professionals/unlimited no. of characters, $50 for real-time adaptive | No-trace, ISO 27001 and GDPR-compliant |
 
-# Privacy
-More information on how the MT vendors process your data is available from:
+#### Privacy
+
+More information on how the machine translation vendors process your data is available in their websites:
 
  - for DeepL:
  [https://www.deepl.com/pro-data-security/](https://www.deepl.com/pro-data-security/)
@@ -33,16 +46,7 @@ More information on how the MT vendors process your data is available from:
  [https://www.modernmt.com/privacy/](https://www.modernmt.com/privacy/)
 
 
-# [How to set up Trados plugins](trados.md)  
-
-
-# [How to set up memoQ plugins](memoq.md)  
-
-
-# [How to obtain API keys for MT plugins](api-keys.md)  
-
-
-# References  
+### References  
 
 
 - [https://docs.memoQ.com/current/en/Places/modernmt-settings.html](https://docs.memoQ.com/current/en/Places/modernmt-settings.html), accessed on 29/09/2021
@@ -68,6 +72,4 @@ More information on how the MT vendors process your data is available from:
 - [https://www.deepl.com/pl/pro-tool_integration.html](https://www.deepl.com/pl/pro-tool_integration.html), accessed on 27/09/2021
 - [https://developers.google.com/tech-writing/one/short-sentences](https://developers.google.com/tech-writing/one/short-sentences), accessed on 26/09/2021
 - [https://modernmt-website.s3.amazonaws.com/downloads/ModernMT+Plugin+Guide+for+SDL+Trados+Studio.pdf](https://modernmt-website.s3.amazonaws.com/downloads/ModernMT+Plugin+Guide+for+SDL+Trados+Studio.pdf), accessed on 28/09/2021
-- [https://docs.memoQ.com/ggl-tst/Places/mt-settings.html](https://docs.memoQ.com/ggl-tst/Places/mt-settings.html), accessed on 29/09/2021 
-
-
+- [https://docs.memoQ.com/ggl-tst/Places/mt-settings.html](https://docs.memoQ.com/ggl-tst/Places/mt-settings.html), accessed on 29/09/2021
