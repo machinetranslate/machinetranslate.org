@@ -35,7 +35,7 @@ In localisation, the object retains its most salient features, and the cultural-
 Localisation of a software consists of the following steps:
 1. Identifying the software usability in the target culture. 
 2. Identifying the features that need to be replaced or adapted.
-3. Translating the content of user interface and user assistance (help).
+3. Translating the content of user interface and user assistance.
 4. Replacing or adapting the non-transferrable features.
 5. Building the localised versions with target locale settings and translated content and features.
 6. Testing the localised versions: 
