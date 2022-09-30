@@ -62,3 +62,7 @@ The result is often unreadable.
 > > `A man with a telescope ð­ from the city of TÅebÃ­Ä`
 
 This problem often happens at the interfaces between different components or systems.
+
+## See also
+
+[Segment](segment.md)
