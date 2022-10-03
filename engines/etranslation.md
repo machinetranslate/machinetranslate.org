@@ -9,6 +9,12 @@ urls:
 self_serve: true
 customization: []
 supported_languages:
+- slug: arabic
+  code: ar
+  normalized_code: ar
+  base_code: ar
+  name: Arabic
+  variant_name: null
 - slug: bulgarian
   code: bg
   normalized_code: bg
@@ -80,6 +86,12 @@ supported_languages:
   normalized_code: hr
   base_code: hr
   name: Croatian
+  variant_name: null
+- slug: japanese
+  code: ja
+  normalized_code: ja
+  base_code: ja
+  name: Japanese
   variant_name: null
 - slug: hungarian
   code: hu
@@ -165,8 +177,18 @@ supported_languages:
   base_code: sv
   name: Swedish
   variant_name: null
+- slug: turkish
+  code: tr
+  normalized_code: tr
+  base_code: tr
+  name: Turkish
+  variant_name: null
+- slug: ukrainian
+  code: uk
+  normalized_code: uk
+  base_code: uk
+  name: Ukrainian
+  variant_name: null
 nav_order: 974
 
 ---
-
-
