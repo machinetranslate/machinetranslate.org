@@ -7,7 +7,7 @@ description: Machine translation for commerce and marketplaces
 
 Machine translation for **commerce and marketplaces** is the translation of product content, like product titles and descriptions, into the languages of buyers.
 
-The goals are:
+## Goals
 
 * sales conversion
 * [SEO](seo.md) and site search
