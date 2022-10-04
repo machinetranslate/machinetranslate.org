@@ -6,7 +6,7 @@ id: tarjama
 parent: Engines
 urls:
 - https://www.tarjama.com/tarjama-machine-translation/
-- https://github.com/tarjama/translate
+- https://github.com/machinetranslate/machinetranslate.org/blob/c7a75040f1bdfce144272231a7d253273b58cb33/files/C-TarjamaMTAPIDescription-150622-0817.pdf
 self_serve: false
 customization: []
 supported_languages:
@@ -25,5 +25,3 @@ supported_languages:
 nav_order: 998
 
 ---
-
-

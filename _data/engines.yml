@@ -56,7 +56,7 @@
    - https://github.com/machinetranslate/machinetranslate.org/issues/268
   languages: [ ach, afr, aka, alb, amh, ang, ara, arg, arm, arq, asm, ast, aym, aze, bak, bal, bel, bem, ben, ber, bho, bis, bli, bod, bos, bre, bul, cat, ceb, ces, chr, chv, cnr, cor, cos, cre, crh, csb, cym, dan, deu, div, eab, ell, eng, epo, est, eus, fao, fil, fin, fr-ca, fr-fr, frm, ful, fur, fry, geo, gla, gle, glg, glv, grc, grn, guj, hak, hat, hau, haw, hbs, heb, hin, hil, hsb, hup, hrv, hun, ibo, ind, isl, ido, iku, ina, inh, ita, jav, jpn, kab, kal, kan, kas, kau, kaz, khm, kin, kir, tlh, kok, kon, kor, kur, ltg, lao, lat, lav, lim, lin, lit, ltz, nds, dsb, lug, lzh, mah, mai, mal, mar, mkd, mri, msa, mlg, mlt, mon, mya, nap, nbl, nep, nld, nno, nob, nor, nqo, nso, nya, oci, oji, ori, orm, oss, pam, pan, pap, per, pol, pt-br, pt-pt, pus, que, ron, rom, roh, rus, rsk, san, sco, shn, sin, slk, slv, smo, sme, sna, snd, son, som, sot, spa, srd, srp, swa, swe, syr, szl, tam, tat, tel, tet, tgk, tgl, tha, tir, tso, tur, tuk, twi, uig, ukr, urd, uzb, ven, vie, wln, wol, xho, yid, yor, yue, zaz, zh-cn, zh-tw, zul ]
   self-serve: true
-  info_url:
+
 
 - name: CloudTranslation
   id: cloudtranslation
@@ -275,7 +275,7 @@
   id: tarjama
   urls:
    - https://www.tarjama.com/tarjama-machine-translation/
-   - https://github.com/tarjama/translate
+   - https://github.com/machinetranslate/machinetranslate.org/blob/c7a75040f1bdfce144272231a7d253273b58cb33/files/C-TarjamaMTAPIDescription-150622-0817.pdf
   languages: [ [en, ar], [ar, en] ]
   self-serve: false
 
@@ -283,9 +283,9 @@
   id: tencent
   urls:
    - https://cloud.tencent.com/product/tmt
+   - https://cloud.tencent.com/document/api/551/15619
   languages: [ [zh-cn, en], [zh-cn, ja], [zh-cn, ko], [zh-cn, fr], [zh-cn, es], [zh-cn, it], [zh-cn, de], [zh-cn, tr], [zh-cn, ru], [zh-cn, pt], [zh-cn, vi], [zh-cn, id], [zh-cn, th], [zh-cn, ms], [zh-tw, en], [zh-tw, ja], [zh-tw, ko], [zh-tw, fr], [zh-tw, es], [zh-tw, it], [zh-tw, de], [zh-tw, tr], [zh-tw, ru], [zh-tw, pt], [zh-tw, vi], [zh-tw, id], [zh-tw, th], [zh-tw, ms], [en, zh], [en, ja], [en, ko], [en, fr], [en, es], [en, it], [en, de], [en, tr], [en, ru], [en, pt], [en, vi], [en, id], [en, th], [en, ms], [en, ar], [en, hi], [ja, zh], [ja, en], [ja, ko], [ko, zh], [ko, en], [ko, ja], [fr, zh], [fr, en], [fr, es], [fr, it], [fr, de], [fr, tr], [fr, ru], [fr, pt], [es, zh], [es, en], [es, fr], [es, it], [es, de], [es, tr], [es, ru], [es, pt], [it, zh], [it, en], [it, fr], [it, es], [it, de], [it, tr], [it, ru], [it, pt], [de, zh], [de, en], [de, fr], [de, es], [de, it], [de, tr], [de, ru], [de, pt], [tr, zh], [tr, en], [tr, fr], [tr, es], [tr, it], [tr, de], [tr, ru], [tr, pt], [ru, zh], [ru, en], [ru, fr], [ru, es], [ru, it], [ru, de], [ru, tr], [ru, pt], [pt, zh], [pt, en], [pt, fr], [pt, es], [pt, it], [pt, de], [pt, tr], [pt, ru], [vi, zh], [vi, en], [id, zh], [id, en], [th, zh], [th, en], [ms, zh], [ms, en], [ar, en], [hi, en] ]
   self-serve: true
-  info_url: https://cloud.tencent.com/document/api/551/15619
 
 - name: TextShuttle
   id: textshuttle
@@ -300,9 +300,10 @@
   id: textra
   urls:
    - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/
+   - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/help/?q_type=faq#
   languages: [ [ar, en], [ar, ja], [ar, ja], [de, en], [de, en], [de, ja], [de, ja], [de, ja], [en, ar], [en, ar], [en, de], [en, de], [en, de], [en, es], [en, es], [en, fil], [en, fr], [en, fr], [en, fr], [en, id], [en, it], [en, it], [en, ja], [en, ja], [en, ja], [en, ja], [en, ja], [en, ja], [en, km], [en, ko], [en, ko], [en, mn], [en, my], [en, ne], [en, pt], [en, pt], [en, ru], [en, th], [en, vi], [en, vi], [en, zh-cn], [en, zh-cn], [en, zh-cn], [en, zh-tw], [en, zh-tw], [en, zh-tw], [es, en], [es, ja], [es, ja], [fil, en], [fil, ja], [fil, ja], [fr, en], [fr, en], [fr, ja], [fr, ja], [fr, ja], [id, en], [id, ja], [id, ja], [it, en], [it, ja], [it, ja], [ja, ar], [ja, ar], [ja, de], [ja, de], [ja, de], [ja, en], [ja, en], [ja, en], [ja, en], [ja, en], [ja, en], [ja, es], [ja, es], [ja, fil], [ja, fil], [ja, fr], [ja, fr], [ja, fr], [ja, id], [ja, id], [ja, it], [ja, it], [ja, km], [ja, km], [ja, ko], [ja, ko], [ja, ko], [ja, mn], [ja, mn], [ja, my], [ja, my], [ja, ne], [ja, ne], [ja, pt], [ja, pt], [ja, ru], [ja, ru], [ja, th], [ja, th], [ja, vi], [ja, vi], [ja, zh-cn], [ja, zh-cn], [ja, zh-cn], [ja, zh-cn], [ja, zh-tw], [ja, zh-tw], [ja, zh-tw], [ja, zh-tw], [km, en], [km, ja], [km, ja], [ko, en], [ko, ja], [ko, ja], [ko, ja], [mn, en], [mn, ja], [mn, ja], [my, en], [my, ja], [my, ja], [ne, en], [ne, ja], [ne, ja], [pt, en], [pt, ja], [pt, ja], [ru, en], [ru, ja], [ru, ja], [th, en], [th, ja], [th, ja], [vi, en], [vi, ja], [vi, ja], [zh-cn, en], [zh-cn, en], [zh-cn, ja], [zh-cn, ja], [zh-cn, ja], [zh-cn, ja], [zh-tw, en], [zh-tw, en], [zh-tw, ja], [zh-tw, ja], [zh-tw, ja], [zh-tw, ja] ]
   self-serve: true
-  info_url: https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/help/?q_type=faq#
+
 
 - name: Tilde
   id: tilde
@@ -358,7 +359,7 @@
   id: youdao
   urls:
    - https://ai.youdao.com/
-#   - https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html
+   - https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html
   languages: [ af, am, ar, az, be, bg, bn, bs, ca, ceb, co, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fj, fr, fy, ga, gd, gl, gu, ha, haw, he, hi, hr, ht, hu, hy, id, ig, is, it, ja, jw, ka, kk, km, kn, ko, ku, ky, la, lb, lo, lt, lv, mg, mi, mk, ml, mn, mr, ms, mt, mww, my, ne, nl, 'no', ny, otq, pa, pl, ps, pt, ro, ru, sd, si, sk, sl, sm, sn, so, sq, sr-Cyrl, sr-Latn, st, su, sv, sw, ta, te, tg, th, tl, tlh, to, tr, ty, uk, ur, uz, vi, xh, yi, yo, yua, yue, zh-cn, zh-tw, zu ]
   self-serve: true
 
