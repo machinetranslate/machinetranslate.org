@@ -9,6 +9,7 @@ description: Calls for papers for machine translation events and publications
 
 | Publication | Organisers | Deadline |
 | --- | --- | --- |
+| [~~AAMT 2022~~](https://www.aamt.info/event/aamttokyo2022/aamttokyo2022-kobo/) | AAMT | ~~30 September 2022~~ |
 | [~~AmericasNLP Competition~~](http://turing.iimas.unam.mx/americasnlp/st.html) | NeurIPS | ~~30 September 2022~~ |
 | [~~WMT22~~](/events/wmt22.md) | [WMT](/events/wmt.md) | ~~7 September 2022~~ |
 | [~~MTMA22~~](/events/mtma2022.md) | | ~~28 July~~ |

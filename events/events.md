@@ -24,7 +24,7 @@ featured: true
 |  |  |  |
 | ---- | ---- | ---- |
 | 7 - 8 December | [**WMT22**](wmt22.md) | Abu Dhabi, United Arab Emirates |
-| December | **AAMT 2022** | |
+| 1 December | [**AAMT 2022**](aamt2022.md) | Tokyo, Japan |
 | 16 October | [**LoResMT 2022**](loresmt2022.md) | Gyeongju, Republic of Korea |
 | 12 - 17 October | [**WAT 2022**](wat2022.md) | Gyeongju, Republic of Korea |
 | 30 September | [MUMTTT 2022](mumttt2022.md) | Malaga, Spain |
