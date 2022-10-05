@@ -27,6 +27,7 @@ featured: true
 | 1 December | [**AAMT 2022**](aamt2022.md) | Tokyo, Japan |
 | 16 October | [**LoResMT 2022**](loresmt2022.md) | Gyeongju, Republic of Korea |
 | 12 - 17 October | [**WAT 2022**](wat2022.md) | Gyeongju, Republic of Korea |
+| 6 October | [**Literary Machine Translation as a Human-Machine Dialectic**](human-machine-dialectic.md) | Liège, Belgium |
 | 30 September | [MUMTTT 2022](mumttt2022.md) | Malaga, Spain |
 | 28 September | [AAMT Seminar](aamt-seminar-1.md) | online |
 | 12 - 16 September | [AMTA 2022](amta2022.md) | Orlando, Florida |
