@@ -25,7 +25,7 @@ featured: true
 | ---- | ---- | ---- |
 | 7 - 8 December | [**WMT22**](wmt22.md) | Abu Dhabi, United Arab Emirates |
 | 1 December | [**AAMT 2022**](aamt2022.md) | Tokyo, Japan |
-| 20 - 21 October | [Literary Translation and AI: assessing changes in translation theory, practice and creativity](lit-translation-and-ai.md) | Paris, France |
+| 20 - 21 October | [**Literary Translation and AI: assessing changes in translation theory, practice and creativity**](lit-translation-and-ai.md) | Paris, France |
 | 16 October | [**LoResMT 2022**](loresmt2022.md) | Gyeongju, Republic of Korea |
 | 12 - 17 October | [**WAT 2022**](wat2022.md) | Gyeongju, Republic of Korea |
 | 6 October | [Literary Machine Translation as a Human-Machine Dialectic](human-machine-dialectic.md) | Liège, Belgium |
