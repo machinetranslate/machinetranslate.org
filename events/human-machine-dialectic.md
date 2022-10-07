@@ -1,15 +1,15 @@
 ---
 parent: Events
 title: Literary Machine Translation as a Human-Machine Dialectic
-description: Three panels on creating MT systems adapted to literature, creativity and uses of MT in the literary domain
+description: Panels on creating machine translation systems in the literary domain
 location: Liège, Belgium
-name: EAMT2022
+name: Literary Machine Translation as a Human-Machine Dialectic
 startDate: 2022-10-06
 
 seo:
   type: Event
   name: Literary Machine Translation as a Human-Machine Dialectic
-  description: Three panels on creating MT systems adapted to literature, creativity and uses of MT in the literary domain
+  description: Panels on creating machine translation systems in the literary domain
   startDate: 2022-10-06
   endDate: 2022-10-06
   eventAttendanceMode: OfflineEventAttendanceMode
