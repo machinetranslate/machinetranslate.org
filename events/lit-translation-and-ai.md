@@ -1,15 +1,15 @@
 ---
 parent: Events
-title: Literary Translation and AI: assessing changes in translation theory, practice and creativity
-description: Traduction et communication transculturelle Conference 38
+title: Literary Translation and AI
+description: Assessing changes in translation theory, practice and creativity
 location: Paris, France
-name: Literary Translation and AI: assessing changes in translation theory, practice and creativity
+name: Literary Translation and AI
 startDate: 2022-10-20
 
 seo:
   type: Event
-  name: Literary Translation and AI: assessing changes in translation theory, practice and creativity
-  description: Traduction et communication transculturelle Conference 38
+  name: Literary Translation and AI
+  description: Assessing changes in translation theory, practice and creativity
   startDate: 2022-10-20
   endDate: 2022-10-21
   eventAttendanceMode: OfflineEventAttendanceMode
