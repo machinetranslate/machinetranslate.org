@@ -26,7 +26,7 @@ featured: true
 | 7 - 8 December | [**WMT22**](wmt22.md) | Abu Dhabi, United Arab Emirates |
 | 1 December | [**AAMT 2022**](aamt2022.md) | Tokyo, Japan |
 | December | [**Second AmericasNLP Competition**](americasnlp-2.md) | online |
-| 21 October | [Bay Area machine translation meetup](bay-area-meetup-2.md) | online |
+| 21 October | [**Bay Area machine translation meetup**](bay-area-meetup-2.md) | online |
 | 20 - 21 October | [**Literary Translation and AI: assessing changes in translation theory, practice and creativity**](lit-translation-and-ai.md) | Paris, France |
 | 16 October | [**LoResMT 2022**](loresmt2022.md) | Gyeongju, Republic of Korea |
 | 14 October | [**Debunking 'No language left behind', 'Human parity' and other machine translation myths**](debunking-nllb.md) | online |
