@@ -84,6 +84,9 @@ Incubated by the Institute of Automation at the Chinese Academy of Sciences
 
 Raised $5.5M from Gutbrain, PBJ, Omega and angels
 
+### Panlingua
+- [Panlingua Langauge Processing LLP](http://panlingua.co.in/)
+- [GitHub](https://github.com/panlingua)
 
 ## 2016
 
