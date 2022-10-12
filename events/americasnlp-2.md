@@ -1,0 +1,82 @@
+---
+parent: Events
+title: AmericasNLP Competition
+description: Speech-to-Text Translation for Indigenous Languages of the Americas
+location: online
+name: AmericasNLP Competition
+startDate: 2022-12-02
+
+seo:
+  type: Event
+  name: AmericasNLP Competition
+  description:
+  startDate: 2022-12-02
+  endDate: 2022-12-09
+  eventAttendanceMode: OnlineEventAttendanceMode
+  eventStatus: EventScheduled
+
+  location:
+  type: VirtualLocation
+  url:  http://turing.iimas.unam.mx/americasnlp/st.html
+
+  organizer:
+    type: Person
+    url: http://turing.iimas.unam.mx/americasnlp/st.html
+---
+
+The **Second AmericasNLP Competition, Speech-to-Text Translation for Indigenous Languages of the Americas** will take place online in December, 2022, at NeurIPS 2022.
+
+```
+The Second AmericasNLP Competition is aimed at encouraging the development of machine translation systems for indigenous languages of the Americas.
+```
+
+[turing.iimas.unam.mx/americasnlp/st.html](http://turing.iimas.unam.mx/americasnlp/st.html)
+
+## Tasks
+
+Participants will build systems for three tasks.
+
+ - Automatic speech recognition (ASR)
+ - Machine translation (text-to-text translation)
+ - Speech-to-text translation
+
+## Language pairs
+
+- Bribri–Spanish
+- Guaraní–Spanish
+- Kotiria–Portuguese
+- Wa'ikhana–Portuguese
+- Quechua–Spanish
+
+## Organisers
+
+- Manuel Mager
+- Katharina Kann
+- Abteen Ebrahimi
+- Arturo Oncevay
+- Rodolfo Zevallos
+- Adam Wiemerslage
+- Pavel Denisov
+- John E. Ortega
+- Kristine Stenzel
+- Aldo Alvarez
+- Luis Chiruzzo
+- Rolando Coto-Solano
+- Hilaria Cruz
+- Sofía Flores-Solórzano
+- Ivan Vladimir Meza Ruiz
+- Alexis Palmer
+- Ngoc Thang Vu
+
+## Important dates
+
+|     |     |
+| --- | --- |
+| 23 May | Release of pilot data and evaluation script |
+| 6 June | Release of training and development data and baseline systems |
+| 20 September | Release of test input/start of evaluation phase (ASR and Speech-to-text) |
+| 14 October | Submission of translations by participants/end of competition (ASR and Speech-to-text translation) |
+| 15 September | Release of test input/start of evaluation phase (MT tasks) |
+| 25 October | Submission of translations by participants/end of competition (Machine Translation) |
+| 29 October | Announcements of results |
+| December | Competition track meeting at NeurIPS (virtual event) |

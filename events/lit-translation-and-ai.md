@@ -66,7 +66,7 @@ Day 1
 
 |     |     |
 | --- | --- |
-| 08:30 | **Registration** and ☕️ |
+| 08:30 | **Registration** <br>☕️ |
 | 09:00 | **Opening** |
 | 09:30 - 10:30 | **Keynote** <br>**Can machines inspire literary translators?** <br>Antonio Toral, Computational Linguistics Group, Center for Language and Cognition, Université de Groningen <br>Chair: Bruno Poncharal |
 | 10:30 | ☕️ |
