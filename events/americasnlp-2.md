@@ -27,7 +27,7 @@ seo:
 The **Second AmericasNLP Competition, Speech-to-Text Translation for Indigenous Languages of the Americas** will take place online in December, 2022, at NeurIPS 2022.
 
 ```
-The Second AmericasNLP Competition is aimed at encouraging the development of machine translation systems for indigenous languages of the Americas.
+The competition aims at encouraging the development of machine translation systems for indigenous languages of the Americas.
 ```
 
 [turing.iimas.unam.mx/americasnlp/st.html](http://turing.iimas.unam.mx/americasnlp/st.html)
