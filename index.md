@@ -14,7 +14,7 @@ seo:
 The content covers everything about machine translation, from products to research, and from history to news.
 
 > #### Featured events
-> - [AMTA 2022](/amta2022) - September, Orlando
+> - [Bay Area machine translation meetup](/bay-area-meetup-2.md) - 21 October, online
 > - [WMT22](/wmt22) - December, Abu Dhabi
 >
 > #### Featured articles
