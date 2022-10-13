@@ -32,6 +32,15 @@ It will be a panel with representatives from Meta AI, NeuralSpace, Makashane, an
 
 The machine translation meetup is organised by Machine Translate.
 
+
+| Time | Zone |
+| --- | --- |
+| 08:00 | San Francisco |
+| 10:00 | Bogotá |
+| 11:00 | New York |
+| 16:00 | Nigeria |
+| 20:30 | India |
+
 <center>
   <button id="airtable-button">
      Register
