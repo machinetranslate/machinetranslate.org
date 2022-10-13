@@ -1,14 +1,14 @@
 ---
 parent: Events
-title: Bay Area machine translation meetup 1
-description: Machine translation meetup 1 - Amazon AI, SYSTRAN, Uber, Viva Translate...
+title: Machine Translation meetup 1
+description: Bay Area Machine Translation meetup
 location: Menlo Park, California
 startDate: 2022-05-11
-name: Bay Area machine translation meetup 1
+name: Machine Translation meetup 1
 seo:
   type: Event
-  name: Bay Area machine translation meetup 1
-  description: Machine translation meetup 1 - Amazon AI, SYSTRAN, Uber, Viva Translate...
+  name: Machine Translation meetup 1
+  description: Bay Area Machine Translation meetup
   startDate: 2022-05-11
   endDate: 2022-05-11
   eventAttendanceMode: OfflineEventAttendanceMode
@@ -25,7 +25,9 @@ seo:
     url: https://machinetranslate.org/about/
 ---
 
-The first **Bay Area machine translation meetup** took place on 11 May, 2022, in Menlo Park, California.
+The first Bay Area **Machine Translation meetup** took place on 11 May, 2022, in Menlo Park, California.
+
+It was organised by Machine Translate.
 
 ## Location
 
