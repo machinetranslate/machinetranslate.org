@@ -25,6 +25,7 @@ seo:
 ---
 
 The **Second AmericasNLP Competition** will take place online in December, 2022, at NeurIPS 2022.
+The competition focuses on creating machine translation systems for indigenous languages from the Americas.
 
 [turing.iimas.unam.mx/americasnlp/st.html](http://turing.iimas.unam.mx/americasnlp/st.html)
 
