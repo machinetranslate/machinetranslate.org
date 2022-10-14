@@ -26,28 +26,13 @@ seo:
 
 The second **machine translation meetup** will take place online on 21 October, 2022.
 
-The topic will be *Low resource languages*.
-
-The event will be 30 minutes long.
+The topic will be ***Low resource languages***.
 
 It will be a panel with representatives from Meta AI, NeuralSpace, Makashane, and LoResMT.
 
 The machine translation meetup is organised by Machine Translate.
 
-
-### Time
-
-08:00 San Francisco
-
-10:00 Bogotá
-
-11:00 New York
-
-16:00 Nigeria
-
-17:00 Spain
-
-20:30 India
+The event will be 30 minutes long at 08:00 San Francisco / 10:00 Bogotá / 11:00 New York / 16:00 Nigeria / 17:00 Spain / 20:30 India.
 
 <center>
   <button id="airtable-button">
