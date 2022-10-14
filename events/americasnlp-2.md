@@ -1,14 +1,14 @@
 ---
 parent: Events
-title: AmericasNLP Competition
+title: Second AmericasNLP Competition
 description: Machine translation for indigenous languages of the Americas
 location: online
-name: AmericasNLP Competition
+name: Second AmericasNLP Competition
 startDate: 2022-12-02
 
 seo:
   type: Event
-  name: AmericasNLP Competition
+  name: Second AmericasNLP Competition
   description:
   startDate: 2022-12-02
   endDate: 2022-12-09
