@@ -1,7 +1,7 @@
 ---
 parent: Events
 title: AmericasNLP Competition
-description: Speech-to-Text Translation for Indigenous Languages of the Americas
+description: Machine translation for indigenous languages of the Americas
 location: online
 name: AmericasNLP Competition
 startDate: 2022-12-02
@@ -24,11 +24,7 @@ seo:
     url: http://turing.iimas.unam.mx/americasnlp/st.html
 ---
 
-The **Second AmericasNLP Competition, Speech-to-Text Translation for Indigenous Languages of the Americas** will take place online in December, 2022, at NeurIPS 2022.
-
-```
-The competition aims at encouraging the development of machine translation systems for indigenous languages of the Americas.
-```
+The **Second AmericasNLP Competition** will take place online in December, 2022, at NeurIPS 2022.
 
 [turing.iimas.unam.mx/americasnlp/st.html](http://turing.iimas.unam.mx/americasnlp/st.html)
 
