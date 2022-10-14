@@ -26,7 +26,7 @@ seo:
 
 The second **machine translation meetup** will take place online on 21 October, 2022.
 
-The event will be 30 minutes long and will start at 8:00 in San Francisco, 10:00 in Bogota, 11:00 in New York, 16:00 in Nigeria, and 20:30 in India.
+The event will be 30 minutes long and will start at 8:00 PST.
 
 The topic will be *Low resource languages*.
 
