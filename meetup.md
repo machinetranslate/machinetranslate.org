@@ -35,7 +35,6 @@ The panel will feature guests from the key organisations in the field of low-res
   <h3>Francisco Guzman</h3>
   <h2>Meta AI</h2>
   <h3>John E. Ortega</h3>
-  <h3>LoResMT</h3>
   <h3>Atul Kr. Ojha</h3>
   <h2>LoResMT</h2>
   <h2>Ayushman Dash</h3>
