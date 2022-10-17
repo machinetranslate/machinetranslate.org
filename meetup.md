@@ -30,9 +30,7 @@ The second Machine Translate open community meetup will be a 30-minute online pa
 
 The panel will feature guests from the key organisations in the field of low-resource machine translation.
 
-<center>
-  Featuring
-  
+<center>  
   <h2>Francisco Guzman</h2>
   <h3>Meta AI</h3>
   
