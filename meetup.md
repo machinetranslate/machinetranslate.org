@@ -33,6 +33,16 @@ The Machine Translate community meetup on machine translation for low-resource l
 The machine translation meetup is organised by Machine Translate.
 
 <center>
+  <h3 id="date">
+    <script>
+      const d = new Date('2022-10-21T15:00:00+00:00');
+      const dText = new Intl.DateTimeFormat('en-GB', { dateStyle: 'full', timeStyle: 'long' }).format(d);
+      document.getElementById('date').innerText = dText;
+    </script>
+  </h3>
+</center>
+
+<center>
   <button id="airtable-button">
      Register
   </button>
