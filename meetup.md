@@ -26,7 +26,7 @@ seo:
 
 The second Machine Translate open community meetup will be a 30-minute online panel on machine translation for low-resource [languages](/languages).
 
-<h1>Low-resource machine translation</h1>
+<center><h1 style="font-weight: bold;">Low-resource machine translation</h1></center>
 
 The panel will feature guests from the key organisations in the field of low-resource machine translation.
 
