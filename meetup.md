@@ -28,6 +28,13 @@ The second Machine Translate open community meetup will be a 30-minute online pa
 
 <center><h1 style="font-weight: bold;">Low-resource machine translation</h1></center>
 
+<center style="padding: 2em;">
+  <button id="airtable-button">
+     Register now
+  </button>
+</center>
+
+
 The panel will feature guests from the key organisations in the field of low-resource machine translation.
 
 <center>  
@@ -56,12 +63,6 @@ The panel will feature guests from the key organisations in the field of low-res
       document.getElementById('date').innerText = dText + ' ' + tzText;
     </script>
   </h2>
-</center>
-
-<center style="padding: 2em;">
-  <button id="airtable-button">
-     Register now
-  </button>
 </center>
 
 The machine translation meetup is organised by Machine Translate.
