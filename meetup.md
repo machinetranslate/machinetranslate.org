@@ -6,8 +6,8 @@ startDate: 2022-10-21
 name: Low-resource machine translation
 seo:
   type: Event
-  name: Machine Translation meetup 2
-  description: Meetup organised by Machine Translate
+  name: Meetup - Low-resource machine translation
+  description: Open community meetup on machine translation for low-resource languages
   startDate: 2022-10-21
   endDate: 2022-10-21
   eventAttendanceMode: OnlineEventAttendanceMode
@@ -24,7 +24,7 @@ seo:
 ---
 
 
-The second Machine Translate open community meetup will be a 30-minute online panel on machine translation for low-resource languages.
+The second Machine Translate open community meetup will be a 30-minute online panel on machine translation for low-resource [languages](/languages).
 
 <h1>Low-resource machine translation</h1>
 
