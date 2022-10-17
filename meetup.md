@@ -1,6 +1,6 @@
 ---
-title: Low-resource machine translation
-description: The Machine Translate community meetup on machine translation for low-resource languages
+title: Meetup - Low-resource machine translation
+description: Open community meetup on machine translation for low-resource languages
 location: online
 startDate: 2022-10-21
 name: Low-resource machine translation
@@ -23,37 +23,44 @@ seo:
     url: https://machinetranslate.org/about/
 ---
 
-<center>
 
-<h3>Featuring guests from <b>Meta AI</b>, <b>NeuralSpace</b>, <b>Masakhane</b> and <b>LoResMT</b></h3>
+The second Machine Translate open community meetup will be a 30-minute online panel on machine translation for low-resource languages.
+
+<h1>Low-resource machine translation</h1>
+
+The panel will feature guests from the key organisations in the field of low-resource machine translation.
+
+<center>
+  Featuring
+  <h3>Francisco Guzman</h3>
+  <h2>Meta AI</h2>
+  <h3>John E. Ortega</h3>
+  <h3>LoResMT</h3>
+  <h3>Atul Kr. Ojha</h3>
+  <h2>LoResMT</h2>
+  <h2>Ayushman Dash</h3>
+  <h2>NeuralSpace</h3>
+  <h3>Idris Abdulmumin</h3>
+  <h2>Masakhane</h2>
 </center>
 
-The Machine Translate community meetup on machine translation for low-resource languages will feature a panel of guests from Meta AI, NeuralSpace, Masakhane and LoResMT.
-
-- Francisco Guzman, Meta AI
-- John E. Ortega, LoResMT
-- Atul Kr. Ojha, LoResMT
-- Ayushman Dash, NeuralSpace
-- Idris Abdulmumin, Masakhane
-
-
-The machine translation meetup is organised by Machine Translate.
-
 <center>
-  <h3 id="date">
+  <h2 id="date">
     <script>
       const d = new Date('2022-10-21T15:00:00+00:00');
       const dText = new Intl.DateTimeFormat('en-GB', { dateStyle: 'full', timeStyle: 'long' }).format(d);
       document.getElementById('date').innerText = dText;
     </script>
-  </h3>
+  </h2>
 </center>
 
 <center>
   <button id="airtable-button">
-     Register
+     Register now
   </button>
 </center>
+
+The machine translation meetup is organised by Machine Translate.
 
 <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe id="airtable-iframe" class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr6DbSCuZ3SDCYPR?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="986" style="background: transparent; border: 1px solid #ccc; display: none; margin-top: 20px;"></iframe>
 <script>
@@ -68,3 +75,4 @@ The machine translation meetup is organised by Machine Translate.
         }
     })
 </script>
+
