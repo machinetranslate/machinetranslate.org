@@ -30,6 +30,13 @@ seo:
 
 The Machine Translate community meetup on machine translation for low-resource languages will feature a panel of guests from Meta AI, NeuralSpace, Masakhane and LoResMT.
 
+- Francisco Guzman, Meta AI
+- John E. Ortega, LoResMT
+- Atul Kr. Ojha, LoResMT
+- Ayushman Dash, NeuralSpace
+- Idris Abdulmumin, Masakhane
+
+
 The machine translation meetup is organised by Machine Translate.
 
 <center>
