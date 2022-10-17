@@ -1,6 +1,6 @@
 ---
 title: Low-resource machine translation
-description: The Machine Translate community meetup on machine translation for low-resource languages will feature a panel of guests from Meta AI, NeuralSpace, Masakhane and LoResMT.
+description: The Machine Translate community meetup on machine translation for low-resource languages
 location: online
 startDate: 2022-10-21
 name: Low-resource machine translation
@@ -23,17 +23,16 @@ seo:
     url: https://machinetranslate.org/about/
 ---
 
-
 <center>
-<h1>Low-resource machine translation</h1>
-<h2>Machine Translate community meetup on machine translation for low-resource languages</h2>
 
 <h3>Featuring guests from <b>Meta AI</b>, <b>NeuralSpace</b>, <b>Masakhane</b> and <b>LoResMT</b></h3>
+</center>
 
 The Machine Translate community meetup on machine translation for low-resource languages will feature a panel of guests from Meta AI, NeuralSpace, Masakhane and LoResMT.
 
 The machine translation meetup is organised by Machine Translate.
 
+<center>
   <button id="airtable-button">
      Register
   </button>
