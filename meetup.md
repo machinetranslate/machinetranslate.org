@@ -37,7 +37,7 @@ The panel will feature guests from the key organisations in the field of low-res
   <h3>John E. Ortega</h3>
   <h3>Atul Kr. Ojha</h3>
   <h2>LoResMT</h2>
-  <h2>Ayushman Dash</h3>
+  <h3>Ayushman Dash</h3>
   <h2>NeuralSpace</h3>
   <h3>Idris Abdulmumin</h3>
   <h2>Masakhane</h2>
