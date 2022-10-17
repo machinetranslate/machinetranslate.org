@@ -1,12 +1,12 @@
 ---
-title: Meetup - Low-resource machine translation
+title: Meetup on low-resource machine translation
 description: Open community meetup on machine translation for low-resource languages
 location: online
 startDate: 2022-10-21
 name: Low-resource machine translation
 seo:
   type: Event
-  name: Meetup - Low-resource machine translation
+  name: Meetup on low-resource machine translation
   description: Open community meetup on machine translation for low-resource languages
   startDate: 2022-10-21
   endDate: 2022-10-21
@@ -49,17 +49,18 @@ The panel will feature guests from the key organisations in the field of low-res
   <h3>Masakhane</h3>
 </center>
 
-<center>
+<center style="padding: 2em;">
   <h2 id="date">
     <script>
       const d = new Date('2022-10-21T15:00:00+00:00');
-      const dText = new Intl.DateTimeFormat('en-GB', { dateStyle: 'full', timeStyle: 'long' }).format(d);
-      document.getElementById('date').innerText = dText;
+      const dText = new Intl.DateTimeFormat('en-GB', { dateStyle: 'full', timeStyle: 'short' }).format(d);
+      const tzText = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      document.getElementById('date').innerText = dText + ' ' + tzText;
     </script>
   </h2>
 </center>
 
-<center>
+<center style="padding: 2em;">
   <button id="airtable-button">
      Register now
   </button>
