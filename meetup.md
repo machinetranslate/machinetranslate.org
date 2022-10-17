@@ -24,7 +24,7 @@ seo:
 ---
 
 
-The second Machine Translate open community meetup will be a 30-minute online panel on machine translation for low-resource [languages](/languages).
+The second Machine Translate open community meetup will be a 25-minute online panel on machine translation for low-resource [languages](/languages).
 
 <center><h1 style="font-weight: bold;">Low-resource machine translation</h1></center>
 
@@ -40,7 +40,7 @@ The panel will feature guests from the key organisations in the field of low-res
 <center>  
   <h2>Francisco Guzman</h2>
   <h3>Meta AI</h3>
-  
+
   <h2>John E. Ortega</h2>
   <h3>LoResMT</h3>
 
@@ -49,7 +49,7 @@ The panel will feature guests from the key organisations in the field of low-res
 
   <h2>Ayushman Dash</h2>
   <h3>NeuralSpace</h3>
-  
+
   <h2>Idris Abdulmumin</h2>
   <h3>Masakhane</h3>
 </center>
@@ -80,4 +80,3 @@ The machine translation meetup is organised by Machine Translate.
         }
     })
 </script>
-
