@@ -1,4 +1,5 @@
 ---
+nav_exclude: true
 title: Meetup on low-resource machine translation
 description: Friday, 21 October open community meetup on machine translation for low-resource languages
 location: online
