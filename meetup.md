@@ -24,7 +24,7 @@ seo:
 ---
 
 
-The second Machine Translate open community meetup will be a 25-minute online panel on machine translation for low-resource [languages](/languages).
+The second Machine Translate open community meetup will be a **25-minute online panel** on machine translation for **low-resource [languages](/languages)**.
 
 <center><h1 style="font-weight: bold;">Low-resource machine translation</h1></center>
 
@@ -34,8 +34,22 @@ The second Machine Translate open community meetup will be a 25-minute online pa
   </button>
 </center>
 
+<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe id="airtable-iframe" class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr6DbSCuZ3SDCYPR?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="986" style="background: transparent; border: 1px solid #ccc; display: none; margin-top: 20px;"></iframe>
+<script>
+    airtable_iframe = document.getElementById("airtable-iframe");
+    airtable_button = document.getElementById("airtable-button");
+    airtable_button.addEventListener("click", function() {
+        if (airtable_iframe.style.display === "block") {
+            airtable_iframe.style.display = "none";
+        } else {
+            airtable_iframe.height = "986";
+            airtable_iframe.style.display = "block";
+        }
+    })
+</script>
 
-The panel will feature guests from the key organisations in the field of low-resource machine translation.
+
+The panel will feature guests from the key organisations for low-resource machine translation.
 
 <center>  
   <h2>Francisco Guzman</h2>
@@ -67,16 +81,3 @@ The panel will feature guests from the key organisations in the field of low-res
 
 The machine translation meetup is organised by Machine Translate.
 
-<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe id="airtable-iframe" class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr6DbSCuZ3SDCYPR?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="986" style="background: transparent; border: 1px solid #ccc; display: none; margin-top: 20px;"></iframe>
-<script>
-    airtable_iframe = document.getElementById("airtable-iframe");
-    airtable_button = document.getElementById("airtable-button");
-    airtable_button.addEventListener("click", function() {
-        if (airtable_iframe.style.display === "block") {
-            airtable_iframe.style.display = "none";
-        } else {
-            airtable_iframe.height = "986";
-            airtable_iframe.style.display = "block";
-        }
-    })
-</script>
