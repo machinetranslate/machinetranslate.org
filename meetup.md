@@ -1,13 +1,13 @@
 ---
 title: Meetup on low-resource machine translation
-description: Open community meetup on machine translation for low-resource languages
+description: Friday, 21 October open community meetup on machine translation for low-resource languages
 location: online
 startDate: 2022-10-21
 name: Low-resource machine translation
 seo:
   type: Event
   name: Meetup on low-resource machine translation
-  description: Open community meetup on machine translation for low-resource languages
+  description: Friday, 21 October open community meetup on machine translation for low-resource languages
   startDate: 2022-10-21
   endDate: 2022-10-21
   eventAttendanceMode: OnlineEventAttendanceMode
@@ -24,7 +24,7 @@ seo:
 ---
 
 
-The second Machine Translate open community meetup will be a **25-minute online panel** on machine translation for **low-resource [languages](/languages)**.
+The second Machine Translate open community **meetup** will be a **25-minute online panel** on machine translation for **low-resource [languages](/languages)**.
 
 <center><h1 style="font-weight: bold;">Low-resource machine translation</h1></center>
 
@@ -69,14 +69,15 @@ The panel will feature guests from the key organisations for low-resource machin
 </center>
 
 <center style="padding: 2em;">
-  <h2 id="date">
+  <h2>Online</h2>
+  <h3 id="date">
     <script>
       const d = new Date('2022-10-21T15:00:00+00:00');
       const dText = new Intl.DateTimeFormat('en-GB', { dateStyle: 'full', timeStyle: 'short' }).format(d);
       const tzText = Intl.DateTimeFormat().resolvedOptions().timeZone;
       document.getElementById('date').innerText = dText + ' ' + tzText;
     </script>
-  </h2>
+  </h3>
 </center>
 
 The machine translation meetup is organised by Machine Translate.
