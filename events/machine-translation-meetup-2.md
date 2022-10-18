@@ -7,7 +7,7 @@ startDate: 2022-10-21
 name: Machine translation meetup 2
 seo:
   type: Event
-  name: Machine Translation meetup 2
+  name: Machine translation meetup 2
   description: Meetup organised by Machine Translate
   startDate: 2022-10-21
   endDate: 2022-10-21
@@ -26,9 +26,7 @@ seo:
 
 The second **machine translation meetup** will take place online on 21 October, 2022.
 
-The topic will be ***Low resource languages***.
-
-It will be a panel with representatives from Meta AI, NeuralSpace, Masakhane, and LoResMT.
+A panel of guests from from Meta AI, NeuralSpace, Masakhane, and LoResMT will discuss ***machine translation for low-resource languages***.
 
 The machine translation meetup is organised by Machine Translate.
 
