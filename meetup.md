@@ -25,10 +25,11 @@ seo:
 ---
 
 
-The second Machine Translate open community **meetup** will be a **25-minute online panel** on machine translation for **low-resource [languages](/languages)**.
+The second Machine Translate open community **meetup** was an **online panel** on machine translation for **low-resource [languages](/languages)**.
 
 <center><h1 style="font-weight: bold;">Low-resource machine translation</h1></center>
 
+<!--
 <center style="padding: 2em;">
   <button id="airtable-button">
      Register now
@@ -48,9 +49,9 @@ The second Machine Translate open community **meetup** will be a **25-minute onl
         }
     })
 </script>
+-->
 
-
-The panel will feature guests from the key organisations for low-resource machine translation.
+The panel featured guests from the key organisations for low-resource machine translation.
 
 <center>  
   <h2>Francisco Guzman</h2>
@@ -81,5 +82,4 @@ The panel will feature guests from the key organisations for low-resource machin
   </h3>
 </center>
 
-The machine translation meetup is organised by Machine Translate.
-
+The machine translation meetup was organised by Machine Translate.

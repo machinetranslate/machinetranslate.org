@@ -24,10 +24,10 @@ seo:
     url: https://machinetranslate.org/about/
 ---
 
-The second **machine translation meetup** will take place online on 21 October, 2022.
+The second **machine translation meetup** took place online on 21 October, 2022.
 
-A panel of guests from from Meta AI, NeuralSpace, Masakhane, and LoResMT will discuss ***machine translation for low-resource languages***.
+A panel of guests from from Meta AI, NeuralSpace, Masakhane, and LoResMT discussed ***machine translation for low-resource languages***.
 
-The machine translation meetup is organised by Machine Translate.
+The machine translation meetup was organised by Machine Translate.
 
 [machinetranslate.org/meetup](http://machinetranslate.org/meetup)
