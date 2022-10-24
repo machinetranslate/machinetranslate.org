@@ -26,8 +26,8 @@ seo:
     url: http://www.taus.net
 ---
 
-The **Massively Multilingual Conference & Expo** will take place from 11 to 13 October, 2022 in San Jose, California.
-The event is organised by TAUS.
+The **Massively Multilingual Conference & Expo** took place from 11 to 13 October, 2022 in San Jose, California.
+The event was organised by TAUS.
 
 [taus.net/events/conferences/taus-massively-multilingual-conference-expo-2022](https://www.taus.net/events/conferences/taus-massively-multilingual-conference-expo-2022/)
 

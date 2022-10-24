@@ -26,7 +26,7 @@ seo:
     url: http://www.univ-paris3.fr/tract-traduction-et-communication-transculturelle--200423.kjsp?RH=1247239932896
 ---
 
-The **Literary Translation and AI: assessing changes in translation theory, practice and creativity** will take place on 20 and 21 October, 2022, in Université Sorbonne Nouvelle, Paris, France.
+The **Literary Translation and AI: assessing changes in translation theory, practice and creativity** took place on 20 and 21 October, 2022, in Université Sorbonne Nouvelle, Paris, France.
 
 [lit-trans-ai.sciencesconf.org](https://lit-trans-ai.sciencesconf.org/)
 
