@@ -9,6 +9,7 @@ description: Calls for papers for machine translation events and publications
 
 | Publication | Organisers | Deadline |
 | --- | --- | --- |
+| 15 November 2022 | [Web-based machine translation in language teaching](https://calico.org/calico-journal-special-issue-machine-translation-call-for-papers/) | CALICO |
 | ~~30 September 2022~~ | [~~AAMT 2022~~](https://www.aamt.info/event/aamttokyo2022/aamttokyo2022-kobo/) | AAMT |
 | ~~30 September 2022~~ | [~~AmericasNLP Competition~~](http://turing.iimas.unam.mx/americasnlp/st.html) | NeurIPS |
 | ~~7 September 2022~~ | [~~WMT22~~](/events/wmt22.md) | [WMT](/events/wmt.md) |
