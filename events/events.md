@@ -23,7 +23,7 @@ featured: true
 
 |  |  |  |
 | ---- | ---- | ---- |
-| 12 December | [Machine Translation Meetup 11](zurich-11.md) | Zurich, Switzerland |
+| 12 December | [**Machine Translation Meetup 11**](zurich-11.md) | Zurich, Switzerland |
 | 7 - 8 December | [**WMT22**](wmt22.md) | Abu Dhabi, United Arab Emirates |
 | 1 December | [**AAMT 2022**](aamt2022.md) | Tokyo, Japan |
 | December | [**Second AmericasNLP Competition**](americasnlp-2.md) | online |
