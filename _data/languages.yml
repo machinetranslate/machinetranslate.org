@@ -172,7 +172,7 @@
   territories: [ fr ]
 
 -
-  codes: [ bs, bos ]
+  codes: [ bs, bos, cnr ]
   names: [ Bosnian ]
   variant_names: [ Serbo-Croatian ]
   family: [ sla, ine ]
