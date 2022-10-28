@@ -292,7 +292,7 @@
   urls:
    - https://www.textshuttle.ai/
    - https://www.textshuttle.ai/product/features#subscription
-  languages: [ de, en, es, fr, it ]
+  languages: [ cz, da, de, en, es, fr, it, nl, 'no', pl, pt, rm, ru, sk, sv ]
   custom_languages: '*'
   self-serve: false
 
