@@ -1,13 +1,13 @@
 ---
 parent: Events
-title: Machine Translation: What’s the Current State?
+title: Machine Translation - What’s the Current State?
 description: Live Panel Discussion
 location: Seattle, United States of America
-name: Machine Translation: What’s the Current State?
+name: Machine Translation - What’s the Current State?
 startDate: 2022-10-26
 seo:
   type: Event
-  name: Machine Translation: What’s the Current State?
+  name: Machine Translation - What’s the Current State?
   description: Live Panel Discussion
   startDate: 2022-10-26
   endDate: 2022-10-26
