@@ -1,13 +1,13 @@
 ---
 parent: Events
-title: "Machine Translation: What’s the Current State?"
-description: Live Panel Discussion
+title: CSA Research live panel discussion
+description: Machine Translation: What’s the Current State?
 location: online
-name: "Machine Translation: What’s the Current State?"
+name: CSA Research live panel discussion
 startDate: 2022-10-26
 seo:
   type: Event
-  name: "Machine Translation: What’s the Current State?"
+  name: CSA Research live panel discussion
   startDate: 2022-10-26
   endDate: 2022-10-26
   eventAttendanceMode: OnlineEventAttendanceMode
@@ -21,6 +21,8 @@ seo:
     name: CSA Research
     url: https://csa-research.com/
 ---
+
+## Machine Translation: What’s the Current State?
 
 The CSA Research live panel discussion **Machine Translation: What’s the Current State?** took place online on 26 October, 2022.
 
