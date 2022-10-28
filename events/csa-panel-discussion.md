@@ -1,6 +1,6 @@
 ---
 parent: Events
-title: : Machine Translation: What’s the Current State?
+title: Machine Translation: What’s the Current State?
 description: Live Panel Discussion
 location: Seattle, United States of America
 name: Machine Translation: What’s the Current State?
