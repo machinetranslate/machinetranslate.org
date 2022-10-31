@@ -44,9 +44,9 @@ The machine translation meetup was organised by Machine Translate.
 ## Audience questions
 
 
-#### *What causes a low-resource language to get on the radar of researchers, or to get launched in major products?*
+<h4>*What causes a low-resource language to get on the radar of researchers, or to get launched in major products?*</h4>
 
-<h3>Francisco Guzman</h3>
+<h5>Francisco Guzman</h5>
 
 I think a number of factors might be at play:
   - Number of speakers of the languages
@@ -55,22 +55,22 @@ I think a number of factors might be at play:
   - Influence from advocacy groups
 
 
-#### *Are your approaches also applicable to historical languages, to dead languages, which are mostly "very low-resource"?*
+- *Are your approaches also applicable to historical languages, to dead languages, which are mostly "very low-resource"?*
 
-<h3>Francisco Guzman</h3>
+<h5>Francisco Guzman</h5>
 
 Although it’s interesting to see historical languages as low-resource, I’m focusing my research on languages that would be most impactful to bridge language barriers of living people.
 As such, historical languages are not very impactful.
 
-#### *Concretely, how much training data is the minimum for obtaining useful results?*
+<h4>*Concretely, how much training data is the minimum for obtaining useful results?*</h4>
 
-<h3>Francisco Guzman</h3>
+<h5>Francisco Guzman</h5>
 
 Quality of translation depends on a myriad of factors, not only the amount of training data.
 For example, whether there is a related language that you can co-train or not.
 However, in No Languages Left Behind we found that a clean seed data of approximately 6 thousand sentence pairs was useful to bootstrap mining, backtranslation and training.
 
-<h3>Idris Abdulmumin</h3>
+<h5>Idris Abdulmumin</h5>
 
 In machine translation, and natural language processing in general, quality is most associated with performance on some metrics, and seldom, on some form of human evaluation.
 But this is most times constraint on the test set in consideration.
@@ -78,9 +78,9 @@ The actual ‘quality’ of translation systems that don’t get the required at
 To achieve this, we need way more than the 6 thousand sentences that was suggested in No Languages Left Behind.
 
 
-#### *How effective is crowdsourcing MT data?*
+<h4>*How effective is crowdsourcing MT data?*</h4>
 
-<h3>Francisco Guzman</h3>
+<h5>Francisco Guzman</h5>
 
 Generating translations of data is expensive and time consuming.
 For benchmark data (like [FLORES](/customisation/parallel-data.md)) crowdsourcing translation is not appropriate, as it lacks the quality process needed.
@@ -88,62 +88,62 @@ It’s possible that it is more appropriate for bilingual training data, which i
 I think there is a lot of potential for monolingual data generation, which is not readily available in many low-resource languages.
 
 
-#### *Marcin from Microsoft says that a lot of low-resource machine translation is just taking high-res language datasets, making them smaller, but this doesn’t really reflect a real low-resource scenario.  How are low-resource language datasets in reality?*
+<h4>*Marcin from Microsoft says that a lot of low-resource machine translation is just taking high-res language datasets, making them smaller, but this doesn’t really reflect a real low-resource scenario.  How are low-resource language datasets in reality?*</h4>
 
-<h3>Francisco Guzman</h3>
+<h5>Francisco Guzman</h5>
 
 I agree with this observation.
 As a reviewer, I push back when people label “ablated” datasets, that is, smaller versions of a larger dataset, as low-resource.
 Real low-resource languages are noisier, include code-switching, have different scripts, non standardized orthography (that is, same word can be spelled differently in the same dataset).
 
-<h3>Idris Abdulmumin</h3>
+<h5>Idris Abdulmumin</h5>
 
 This is sadly true.
 A lot of researchers work on these big datasets and then simulate low resource conditions on the high resource datasets just to generalize their findings.
 Simulated low resource dataset usually consist of random text and, as a result, lacks the authenticity of document level texts.
 Actual low resource data is more structured and also more restrictive in its coverage of the actual language in consideration while simulation just produces a lot of different texts.
 
-#### *Do you have advice on useful approaches, tools and methods of creating parallel corpora from scratch?*
+<h4>*Do you have advice on useful approaches, tools and methods of creating parallel corpora from scratch?*</h4>
 
-<h3>Francisco Guzman</h3>
+<h5>Francisco Guzman</h5>
 
 Always check that you’re not paying human translation price for machine translation price.
 That is, if you’re asking an language service provider to provide translations, verify that translators are not post-editing Google Translate, Microsoft Translator, Amazon Translate, or that the post-editing rates are clearly stated.
 This is super important if you want to build a benchmark.
 You don’t want to limit the research community to what the current translation engines are capable of.
 
-<h3>Idris Abdulmumin</h3>
+<h5>Idris Abdulmumin</h5>
 
 I have seen situations where non-natives are paid to translate for a language just because they are from a country where that language is spoken, or where translators have not lived within the community for a long time.
 It is worthwhile ensuring that translators should not only be speakers of the language but should live where the language is spoken.
 Language changes with time.
 
-#### *Do we need very different quality evaluations for assimilation and for dissemination?*
+<h4>*Do we need very different quality evaluations for assimilation and for dissemination?*</h4>
 
-<h3>Francisco Guzman</h3>
+<h5>Francisco Guzman</h5>
 
 Probably.
 Most of the evaluation metrics right (say in the metrics task at [WMT](/wmt.md)) are focused on cases where minute differences of high-quality translations are important (dissemination), while others like BLEU/XSTS are more than adequate for assimilation use cases.
 
 
-#### *At this time, what is the minimum investment in terms of training set size to make machine translation for a low-resource language usable? (I know this is a very generalizing question - looking for rough estimate)*
+<h4>*At this time, what is the minimum investment in terms of training set size to make machine translation for a low-resource language usable? (I know this is a very generalizing question - looking for rough estimate)*</h4>
 
-<h3>Francisco Guzman</h3>
+<h5>Francisco Guzman</h5>
 
 This questions was answered before.
 
-<h3>Idris Abdulmumin</h3>
+<h5>Idris Abdulmumin</h5>
 
 With the availability of pre-trained language models and other supporting resources, it will be advisable to have at least 50 thousand to 100 thousand of qualitative and diverse human translations.
 
-#### *What has been the major factors for low resource languages progress? Dataset? Multilinguality?*
+<h4>*What has been the major factors for low resource languages progress? Dataset? Multilinguality?*</h4>
 
-<h3>Francisco Guzman</h3>
+<h5>Francisco Guzman</h5>
 
 The availability of training data, multilingual models and evaluation benchmarks.
 
-#### *For commerce, do companies hesitate deciding if they will do a low-resource language or a major language that is also spoken, and they already have it? For example, do you want to go to India with English, to Africa with French, English or Portuguese? These are the colonizer’s languages.*
+<h4>*For commerce, do companies hesitate deciding if they will do a low-resource language or a major language that is also spoken, and they already have it? For example, do you want to go to India with English, to Africa with French, English or Portuguese? These are the colonizer’s languages.*</h4>
 
-<h3>Francisco Guzman</h3>
+<h5>Francisco Guzman</h5>
 
 We don’t do translation for commerce or e-commerce.
