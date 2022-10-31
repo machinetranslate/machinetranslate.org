@@ -119,4 +119,4 @@ The availability of training data, multilingual models and evaluation benchmarks
 
 - Paco Guzman
 
-We don't do translation for commerce or e-commerce.
+We don’t do translation for commerce or e-commerce.
