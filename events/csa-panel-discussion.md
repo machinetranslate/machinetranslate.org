@@ -13,6 +13,7 @@ seo:
   eventAttendanceMode: OnlineEventAttendanceMode
   eventStatus: EventScheduled
 
+  location:
     type: VirtualLocation
     url: https://www.linkedin.com/video/event/urn:li:ugcPost:6988526044190314496/
 
