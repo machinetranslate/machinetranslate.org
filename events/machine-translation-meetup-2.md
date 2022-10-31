@@ -26,7 +26,15 @@ seo:
 
 The second **machine translation meetup** took place online on 21 October, 2022.
 
-A panel of guests from from Meta AI, NeuralSpace, Masakhane, and LoResMT discussed ***machine translation for low-resource languages***.
+A panel of guests discussed ***machine translation for low-resource languages***.
+
+## Panel
+
+- Francisco Guzman, Meta AI
+- John E. Ortega, AmericasNLP
+- Atul Kr. Ojha, LoResMT
+- Ayushman Dash, NeuralSpace
+- Idris Abdulmumin, Masakhane
 
 The machine translation meetup was organised by Machine Translate.
 

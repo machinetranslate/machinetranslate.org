@@ -29,6 +29,8 @@ The second Machine Translate open community **meetup** was an **online panel** o
 
 <center><h1 style="font-weight: bold;">Low-resource machine translation</h1></center>
 
+[machinetranslate.org/machine-translation-meetup-2](http://machinetranslate.org/machine-translation-meetup-2)
+
 <!--
 <center style="padding: 2em;">
   <button id="airtable-button">
@@ -49,7 +51,7 @@ The second Machine Translate open community **meetup** was an **online panel** o
         }
     })
 </script>
--->
+
 
 The panel featured guests from the key organisations for low-resource machine translation.
 
@@ -83,3 +85,4 @@ The panel featured guests from the key organisations for low-resource machine tr
 </center>
 
 The machine translation meetup was organised by Machine Translate.
+-->
