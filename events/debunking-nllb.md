@@ -9,15 +9,14 @@ startDate: 2022-10-20
 seo:
   type: Event
   name: Why is ‘human parity’ a machine translation myth?
-  description:
   startDate: 2022-10-14
   endDate: 2022-10-14
   eventAttendanceMode: OnlineEventAttendanceMode
   eventStatus: EventScheduled
 
   location:
-  type: VirtualLocation
-  url:  https://videoconf-colibri.zoom.us/meeting/register/tJcoduusqjojGtVXcP35d56Eo-5YyH1DSDfr
+    type: VirtualLocation
+    url:  https://videoconf-colibri.zoom.us/meeting/register/tJcoduusqjojGtVXcP35d56Eo-5YyH1DSDfr
 
   organizer:
     type: Organization
