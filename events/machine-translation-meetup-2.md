@@ -55,7 +55,7 @@ I think a number of factors might be at play:
   - Influence from advocacy groups
 
 
-<h3>Are your approaches also applicable to historical languages, to dead languages, which are mostly “very low-resource”?</h3>
+<h3>Are your approaches also applicable to historical / dead languages, which are mostly “very low-resource”?</h3>
 
 <h4>Francisco Guzman</h4>
 
@@ -78,7 +78,7 @@ The actual ‘quality’ of translation systems that don’t get the required at
 To achieve this, we need way more than the 6 thousand sentences that was suggested in No Languages Left Behind.
 
 
-<h3>How effective is crowdsourcing MT data?</h3>
+<h3>How effective is crowdsourcing machine translation data?</h3>
 
 <h4>Francisco Guzman</h4>
 
@@ -103,7 +103,7 @@ A lot of researchers work on these big datasets and then simulate low resource c
 Simulated low resource dataset usually consist of random text and, as a result, lacks the authenticity of document level texts.
 Actual low resource data is more structured and also more restrictive in its coverage of the actual language in consideration while simulation just produces a lot of different texts.
 
-<h3>Do you have advice on useful approaches, tools and methods for creating parallel corpora from scratch?</h3>
+<h3>Do you have any advice on useful approaches, tools and methods for creating parallel corpora from scratch?</h3>
 
 <h4>Francisco Guzman</h4>
 
