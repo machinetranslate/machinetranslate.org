@@ -30,12 +30,10 @@ The speaker was Félix do Carmo, from the Centre of Translation Studies at the U
 
 The talk was part of the Language in the human-machine era project.
 
-```
-In the talk, Félix will show how the language used in scientific papers published by the machine translation community, sometimes inadvertently, creates false beliefs in the power of this technology.
 
-Concepts like ‘zero-shot translation’, ‘interlingua’, ‘human parity’ and the assumptions created by the No language left behind paper will be presented.
+> In the talk, Félix will show how the language used in scientific papers published by the machine translation community, sometimes inadvertently, creates false beliefs in the power of this technology.
+> Concepts like ‘zero-shot translation’, ‘interlingua’, ‘human parity’ and the assumptions created by the No language left behind paper will be presented.
+> The analysis focuses on what is written in those papers, but the critical perspective comes from the basic concepts in Translation Studies.
 
-The analysis focuses on what is written in those papers, but the critical perspective comes from the basic concepts in Translation Studies.
-```
 
 [videoconf-colibri.zoom.us/meeting/register/tJcoduusqjojGtVXcP35d56Eo-5YyH1DSDfr](https://videoconf-colibri.zoom.us/meeting/register/tJcoduusqjojGtVXcP35d56Eo-5YyH1DSDfr)

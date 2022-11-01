@@ -29,9 +29,9 @@ seo:
 The **Literary Machine Translation as a Human-Machine Dialectic** conference took place on 6 October 2022, in Liège, Belgium.
 It was organised by the Centre Interdisciplinaire de Recherche en Traduction et en Interprétation of the University of Liège.
 
-```
-Three panels on creating MT systems adapted to literature, creativity and uses of MT in the literary domain
-```
+
+> Three panels on creating MT systems adapted to literature, creativity and uses of MT in the literary domain
+
 
 [cirti.uliege.be/litMT2022](https://www.cirti.uliege.be/litMT2022)
 
