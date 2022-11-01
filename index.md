@@ -14,7 +14,7 @@ seo:
 The content covers everything about machine translation, from products to research, and from history to news.
 
 > #### Featured events
-> - [Machine translation meetup](/machine-translation-meetup-2) - 21 October, online
+> - [Machine translation meetup](/machine-translation-meetup-2) - 21 October, online - **New: Answers to audience questions!**
 > - [WMT22](/wmt22) - December, Abu Dhabi
 >
 > #### Featured articles
