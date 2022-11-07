@@ -176,13 +176,13 @@
   multiple_engine_suggestions: true
   fuzzy_repair: true
 
-- id: memsource
-  name: Memsource
-  url: https://www.memsource.com
+- id: phrase
+  name: Phrase TMS
+  url: https://phrase.com/products/phrase-tms/
   type:
     - tms: true
     - cat: true
-  documentation_url: https://help.memsource.com/hc/en-us
+  documentation_url: https://support.phrase.com/hc/en-us/categories/5709486381084-Phrase-TMS
   engine_integrations:
     - aisa
 
@@ -256,7 +256,7 @@
     - crosslang
 
   quality_estimation:
-    - memsource-mtqe
+    - phrase-mtqe
 
   routing: true
 
@@ -403,7 +403,7 @@
         custom: true
         glossary: true
         link: https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
-    
+
     - kantanmt:
         custom: true
 
@@ -411,9 +411,9 @@
         link: https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
 
     - microsoft:
-        custom: true    
+        custom: true
         link: https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
-    
+
     - mirai
 
     - modernmt:
