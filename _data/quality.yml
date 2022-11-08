@@ -1,10 +1,12 @@
+---
 - name: ModelFront
   id: modelfront
   description: Translation quality prediction
   languages: [ af, sq, am, ar, hy, as, az, ba, eu, be, bn, bs, bg, my, yue, ca, ceb, zh, zh-Hans, zh-Hant, co, hr, cs, da, prs, dv, nl, en, en-gb, en-us, et, fj, fi, fr, fr-ca, fr-fr, fr-ch, fy, gl, ka, de, de-at, de-de, de-ch, el, gu, ht, ha, haw, he, hi, hmn, hu, is, ig, id, iu, ga, it, it-it, it-ch, ja, jv, kn, kk, km, rw, ko, kmr, ckb, ky, lo, la, lv, lt, lmo, nds, lb, mk, mg, ms, ml, mt, mi, mr, yua, mn, ne, 'no', nb, nn, ny, or, otq, ps, fa, pl, pt, pt-br, pt-pt, pa, ro, ru, sm, gd, sr, sr-Cyrl, sr-Latn, st, sn, sd, si, sk, sl, so, dsb, hsb, es, es-419, es-es, su, sw, sv, tl, ty, tg, ta, tt, te, th, bo, ti, to, tr, tk, uk, ur, ug, uz, uz-Cyrl, uz-Latn, vi, cy, xh, yi, yo, zu ]
   customisation: true
-  url: [ https://modelfront.com ]
-  info_url: [ https://docs.modelfront.com/api/ ]
+  urls:
+    - https://modelfront.com
+    - https://docs.modelfront.com/api/
 
  - name: KantanQES
    id: kantanmt
@@ -21,8 +23,8 @@
    languages: [ [ar, en], [ca, es], [cs, bg], [cs, de], [cs, en], [cs, es], [cs, fr], [cs, hu], [cs, it], [cs, pl], [cs, ro], [cs, ru], [cs, sk], [cs, sl], [cs, sv], [cs, uk], [cy, en], [da, de], [da, en], [da, es], [da, fi], [da, fr], [da, nb], [da, nl], [da, pl], [da, sv], [de, cs], [de, da], [de, en], [de, es], [de, fi], [de, fr], [de, it], [de, lv], [de, nb], [de, nl], [de, pl], [de, ro], [de, ru], [de, sk], [de, sl], [de, sr], [de, sv], [el, en], [en, af], [en, ar], [en, as], [en, az], [en, bg], [en, bn], [en, bs], [en, ca], [en, cs], [en, cy], [en, da], [en, de], [en, el], [en, es], [en, et], [en, fa], [en, fi], [en, fil], [en, fr], [en, ga], [en, gu], [en, he], [en, hi], [en, hr], [en, hu], [en, hy], [en, id], [en, is], [en, it], [en, ja], [en, kk], [en, kn], [en, ko], [en, lt], [en, lv], [en, mi], [en, ml], [en, mr], [en, ms], [en, mt], [en, nb], [en, ne], [en, nl], [en, or], [en, pa], [en, pl], [en, pt], [en, ro], [en, ru], [en, sk], [en, sl], [en, sq], [en, sr], [en, sv], [en, ta], [en, te], [en, th], [en, tl], [en, tr], [en, uk], [en, ur], [en, vi], [en, zh-cn], [en, zh-tw], [es, cs], [es, de], [es, en], [es, fr], [es, it], [es, nl], [es, pt], [es, ru], [et, en], [et, fi], [et, lt], [et, lv], [et, ru], [fi, de], [fi, en], [fi, et], [fi, ru], [fi, sv], [fr, ar], [fr, cs], [fr, de], [fr, en], [fr, es], [fr, id], [fr, it], [fr, nl], [fr, pt], [fr, ru], [hr, de], [hr, en], [id, en], [it, cs], [it, de], [it, en], [it, es], [it, fr], [it, pl], [it, pt], [it, ru], [ja, en], [ja, es], [ja, fr], [ja, id], [ja, ko], [ja, ru], [ja, zh-cn], [ja, zh-tw], [ko, en], [ko, ja], [lt, en], [lt, et], [lt, lv], [lt, pl], [lt, ru], [lv, en], [lv, et], [lv, ru], [nb, da], [nb, de], [nb, en], [nb, fi], [nb, nn], [nb, sv], [nl, de], [nl, en], [nl, fr], [pl, cs], [pl, de], [pl, en], [pl, it], [pl, lt], [pl, nl], [pl, ro], [pl, ru], [pl, sk], [pt, en], [pt, es], [pt, fr], [pt, it], [ro, en], [ru, cs], [ru, el], [ru, en], [ru, es], [ru, et], [ru, fr], [ru, ky], [ru, lt], [ru, lv], [ru, pt], [sk, cs], [sk, de], [sk, en], [sk, hu], [sl, en], [sr, en], [sv, ar], [sv, da], [sv, de], [sv, en], [sv, es], [sv, et], [sv, fa], [sv, fi], [sv, fr], [sv, is], [sv, it], [sv, nb], [sv, nl], [sv, pl], [sv, ru], [th, en], [tr, ar], [tr, en], [uk, en], [vi, en], [zh-cn, en], [zh-cn, ja], [zh-tw, en] ]
    customisation: false
    urls:
-     - https://www.memsource.com/features/translation-quality-estimation/
-     - https://help.memsource.com/hc/en-us/articles/360012527380-Machine-Translation-Quality-Estimation#UUID-d435d748-e1b8-88e6-7089-9cc73e1320d2_UUID-214925cb-c5c0-5f9a-fc53-7fb3e60045d2
+     - https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-
+     - https://support.phrase.com/hc/en-us/articles/5709672289180#UUID-d435d748-e1b8-88e6-7089-9cc73e1320d2_UUID-214925cb-c5c0-5f9a-fc53-7fb3e60045d2
 
  - name: Confidence Scores
    id: omniscien
