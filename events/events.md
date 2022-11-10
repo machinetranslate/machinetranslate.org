@@ -129,7 +129,7 @@ featured: true
 | 18 - 22 September | [MT Summit XVI](mtsummit2017.md) | Nagoya, Japan |
 | 7 - 8 September | [**WMT17**](wmt17.md) | Copenhagen, Denmark |
 | 28 August - 2 September | MT Marathon | Lisbon, Portugal |
-| 4 August | WNMT17 | Vancouver, Canada |
+| 4 August | [WNMT17](wnmt17.md) | Vancouver, Canada |
 | 29 - 31 May | EAMT 2017 | Prague, Czech Republic |
 | 22 - 26 May | MT Marathon in the Americas | Dayton, Ohio |
 
