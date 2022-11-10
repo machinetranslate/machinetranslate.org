@@ -112,6 +112,7 @@ featured: true
 | 31 October - 1 November | [**WMT18**](wmt18.md) | Brussels, Belgium |
 | 22 October | [Machine Translation Meetup 2](zurich-2.md) | Zurich, Switzerland |
 | 3 - 8 September | [MT Marathon](https://ufal.mff.cuni.cz/mtm18/) | Prague, Czech Republic |
+| 20 July | [WNMT18](wnmt18.md) | Melbourne, Australia |
 | 28 - 30 May | EAMT 2018 | Alicante, Spain |
 | 21 - 25 May | MT Marathon in the Americas | Pittsburgh, Pennsylvania |
 | 19 April | [Machine Translation Meetup 1](zurich-1.md) | Zurich, Switzerland |
@@ -128,6 +129,7 @@ featured: true
 | 18 - 22 September | [MT Summit XVI](mtsummit2017.md) | Nagoya, Japan |
 | 7 - 8 September | [**WMT17**](wmt17.md) | Copenhagen, Denmark |
 | 28 August - 2 September | MT Marathon | Lisbon, Portugal |
+| 4 August | WNMT17 | Vancouver, Canada |
 | 29 - 31 May | EAMT 2017 | Prague, Czech Republic |
 | 22 - 26 May | MT Marathon in the Americas | Dayton, Ohio |
 

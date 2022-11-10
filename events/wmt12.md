@@ -17,8 +17,8 @@ seo:
 
   location:
     type: PostalAddress
-    addressCountry: Quebec
-    addressLocality: Montreal
+    addressCountry: Canada
+    addressLocality: Quebec
 
   organizer:
     type: Person

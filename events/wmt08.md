@@ -17,8 +17,8 @@ seo:
 
   location:
     type: PostalAddress
-    addressCountry: Columbus
-    addressLocality: Ohio
+    addressCountry: Unites States of America
+    addressLocality: Columbus
 
   organizer:
     type: Person
@@ -100,7 +100,7 @@ The results were determined with a [relative ranking](wmt.md#relative-ranking), 
 | Czech Commentary → | `DCU` | 0.745 | - | - |
 | Czech News → | `DCU` | 0.675 | - | - |
 | French Europarl → | `LIUM-SYSTRAN` <br>`UEDIN` | 0.792 <br>- | 0.917 <br>- | - <br>0.910 |
-| French News → | `LIUM-SYS-CONTR` <br>`LIMSI` | 0.693 <br>- | - <br>0.801 | - <br>0.805 | 
+| French News → | `LIUM-SYS-CONTR` <br>`LIMSI` | 0.693 <br>- | - <br>0.801 | - <br>0.805 |
 | German Europarl → | `UEDIN` <br>`SAAR` | 0.679 <br>- | - <br>0.843 | 0.856 <br>- |
 | German News → | `RBMT2` <br>`SAAR-CONTR` <br>`RBMT4` | 0.742 <br>- <br>- | - <br>0.775 <br>-| - <br>- <br>0.738 |
 | Spanish Europarl → | `LIMSI` <br>`SAAR` | 0.780 <br>- | - <br>0.893 | 0.902 <br>- |
@@ -113,10 +113,9 @@ The results were determined with a [relative ranking](wmt.md#relative-ranking), 
 | --- | --- | --- | --- | --- |
 | → Czech Commentary | `CU-BOJAR` | 0.714 | 0.732 | 0.594 |
 | → Czech News | `PC-TRANSLATOR` <br>`CU-BOJAR` | 0.715 <br>- | 0.674 <br>- | - <br>0.540 |
-| → French Europarl | `LIMSI` <br>`LIUM-SYSTRAN` | 0.791 <br>- | - <br>0.881 | - <br>0.843 | 
+| → French Europarl | `LIMSI` <br>`LIUM-SYSTRAN` | 0.791 <br>- | - <br>0.881 | - <br>0.843 |
 | → French News | `RBMT4` <br>`LIUM-SYSTRAN` | 0.780 <br>- | 0.768 <br>- | - <br>0.748 |
 | → German Europarl | `RBMT4` <br>`UEDIN` | 0.681 <br>- | - <br>0.822 | - <br>0.849 |
 | → German News | `RBMT2` <br>`RBMT4` | 0.787 <br>- | - <br>0.748 | - <br>0.750 |
 | → Spanish Europarl | `LIMSI` <br>`UPC` | 0.737 <br>- | 0.855 <br>- | - <br>0.903 |
 | → Spanish News | `RBMT5` <br>`RBMT4` | 0.724 <br>- | - <br>0.754 | - <br>0.759 |
-

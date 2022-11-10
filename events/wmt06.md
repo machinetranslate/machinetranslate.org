@@ -17,7 +17,7 @@ seo:
 
   location:
     type: PostalAddress
-    addressCountry: New York City
+    addressCountry: United States of America
     addressLocality: New York
 
   organizer:
@@ -88,4 +88,3 @@ Full results of the shared task: [*Manual and Automatic Evaluation of Machine Tr
 
 *Note: The manual and automatic evaluation results were excluded from the article.
 Due to many similarly performing systems, there were no strong conclusions on the correlation between manual and automatic evaluation metrics.*
-
