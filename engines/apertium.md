@@ -172,6 +172,12 @@ supported_languages:
   base_code: nl
   name: Dutch
   variant_name: null
+- slug: null
+  code: ms
+  normalized_code: ms
+  base_code: ms
+  name: Malay
+  variant_name: null  
 - slug: norwegian
   code: nn
   normalized_code: nn
@@ -268,14 +274,5 @@ supported_languages:
   base_code: ur
   name: Urdu
   variant_name: null
-- slug: null
-  code: zlm
-  normalized_code: zlm
-  base_code: zlm
-  name: null
-  variant_name: null
 nav_order: 956
-
 ---
-
-
