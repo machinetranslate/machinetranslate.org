@@ -268,12 +268,6 @@ supported_languages:
   base_code: dsb
   name: null
   variant_name: null
-- slug: null
-  code: eab
-  normalized_code: eab
-  base_code: eab
-  name: null
-  variant_name: null
 - slug: greek
   code: ell
   normalized_code: el
@@ -760,6 +754,12 @@ supported_languages:
   base_code: nds
   name: null
   variant_name: null
+- slug: null
+  code: nea
+  normalized_code: nea
+  base_code: nea
+  name: null
+  variant_name: null
 - slug: nepali
   code: nep
   normalized_code: ne
@@ -1219,5 +1219,3 @@ supported_languages:
 nav_order: 799
 
 ---
-
-
