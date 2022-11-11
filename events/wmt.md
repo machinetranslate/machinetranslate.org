@@ -1,7 +1,7 @@
 ---
 parent: Events
 title: WMT
-description: Conference on Machine Translation
+description: Description of the Conference on Machine Translation
 name: WMT
 ---
 
@@ -140,7 +140,7 @@ Average score and average z-score are the main metrics used in the results for t
 ### TrueSkill
 
 **TrueSkill** is a gaming rating system.
-Microsoft Research originally developed it for the Xbox Live gaming community. 
+Microsoft Research originally developed it for the Xbox Live gaming community.
 For WMT, TrueSkill was adapted to machine translation evaluation.
 
 For WMT14, WMT15 and WMT16, TrueSkill was used as the human evaluation ranking for all translation shared tasks.
