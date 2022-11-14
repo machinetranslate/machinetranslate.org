@@ -4,7 +4,7 @@ title: Why is ‘human parity’ a machine translation myth?
 description: Debunking 'No language left behind', 'Human parity' and other machine translation myths
 location: online
 name: Why is ‘human parity’ a machine translation myth?
-startDate: 2022-10-20
+startDate: 2022-10-14
 
 seo:
   type: Event
