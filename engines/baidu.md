@@ -6,6 +6,7 @@ id: baidu
 parent: Engines
 urls:
 - https://ai.baidu.com/tech/mt/text_trans
+- https://ai.baidu.com/ai-doc/MT/4kqryjku9#语种列表
 - https://github.com/machinetranslate/machinetranslate.org/issues/268
 self_serve: true
 customization: []
