@@ -10,7 +10,8 @@ description: Calls for papers for machine translation events and publications
 | Publication | Organisers | Deadline |
 | --- | --- | --- |
 | 1 February 2023 | [***The Role of Context in Neural Machine Translation Systems and its Evaluation***](https://sites.google.com/dcu.ie/nlecontextnmt/home) | JNLE |
-| 15 November 2022 | [***Web-based machine translation in language teaching***](https://calico.org/calico-journal-special-issue-machine-translation-call-for-papers/) | CALICO |
+| 23 December 2022 | [***Machine translation evaluation in the context of scholarly communication***](https://www.operas-eu.org/machine-translation-evaluation-in-the-context-of-scholarly-communication-open-call/) | OPERAS |
+| ~~15 November 2022~~ | [~~Web-based machine translation in language teaching~~](https://calico.org/calico-journal-special-issue-machine-translation-call-for-papers/) | CALICO |
 | ~~30 September 2022~~ | [~~AAMT 2022~~](https://www.aamt.info/event/aamttokyo2022/aamttokyo2022-kobo/) | AAMT |
 | ~~30 September 2022~~ | [~~AmericasNLP Competition~~](http://turing.iimas.unam.mx/americasnlp/st.html) | NeurIPS |
 | ~~7 September 2022~~ | [~~WMT22~~](/events/wmt22.md) | [WMT](/events/wmt.md) |
