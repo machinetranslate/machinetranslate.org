@@ -4,6 +4,7 @@
   urls:
    - https://www.aisa.digital/machine-translation-api
   languages: [ ar, de, es-es, fr-fr, hi, huyu, id, it, ja, ko, ms, pt-pt, ru, th, vi, zh-cn, zh-tw ]
+  glossary: true
   self-serve: false
 
 - name: Alexa Translations A.I.
