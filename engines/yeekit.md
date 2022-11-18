@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: YeeKit
 description: The YeeKit machine translation API
 id: yeekit
-parent: Engines
+parent: APIs
 urls:
 - https://api.yeekit.com/mannual.php#docs
 - https://api.yeekit.com
@@ -25,5 +25,3 @@ supported_languages:
 nav_order: 998
 
 ---
-
-

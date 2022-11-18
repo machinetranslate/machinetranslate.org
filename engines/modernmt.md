@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: ModernMT
 description: The ModernMT machine translation API
 id: modernmt
-parent: Engines
+parent: APIs
 urls:
 - https://modernmt.com
 - https://www.modernmt.com/api/#languages
@@ -350,5 +350,3 @@ supported_languages:
 nav_order: 944
 
 ---
-
-

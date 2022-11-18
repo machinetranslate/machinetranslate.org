@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Language Weaver
 description: The Language Weaver machine translation API
 id: language-weaver
-parent: Engines
+parent: APIs
 urls:
 - https://www.rws.com/language-weaver
 - https://docs.rws.com/791593/662987/language-weaver/welcome-to-the-------------language-weaver-documentation
@@ -361,5 +361,3 @@ supported_languages:
 nav_order: 942
 
 ---
-
-

@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: SYSTRAN
 description: The SYSTRAN machine translation API
 id: systran
-parent: Engines
+parent: APIs
 urls:
 - https://www.systransoft.com
 - https://docs.systran.net/translatePro/en/index.html
@@ -339,5 +339,3 @@ supported_languages:
 nav_order: 946
 
 ---
-
-

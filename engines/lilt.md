@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Lilt
 description: The Lilt machine translation API
 id: lilt
-parent: Engines
+parent: APIs
 urls:
 - https://lilt.com
 - https://support.lilt.com/kb/11075725.html
@@ -326,5 +326,3 @@ supported_languages:
 nav_order: 948
 
 ---
-
-

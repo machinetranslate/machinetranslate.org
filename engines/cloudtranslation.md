@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: CloudTranslation
 description: The CloudTranslation machine translation API
 id: cloudtranslation
-parent: Engines
+parent: APIs
 urls:
 - https://www.cloudtranslation.com
 - https://cloudtranslation.com/static/api_en.html
@@ -61,5 +61,3 @@ supported_languages:
 nav_order: 992
 
 ---
-
-

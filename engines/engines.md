@@ -1,8 +1,8 @@
 ---
 nav_order: 50
 has_children: true
-title: Engines
-description: Machine translation engines
+title: APIs
+description: Machine translation APIs
 ---
 
 There is a growing set of machine translation engines available.

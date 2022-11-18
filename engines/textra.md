@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: TexTra
 description: The TexTra machine translation API
 id: textra
-parent: Engines
+parent: APIs
 urls:
 - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/
 self_serve: true
@@ -132,5 +132,3 @@ supported_languages:
 nav_order: 980
 
 ---
-
-

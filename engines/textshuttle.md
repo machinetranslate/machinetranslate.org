@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: TextShuttle
 description: The TextShuttle machine translation API
 id: textshuttle
-parent: Engines
+parent: APIs
 urls:
 - https://www.textshuttle.ai/
 - https://www.textshuttle.ai/product/features#subscription

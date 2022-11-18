@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Globalese
 description: The Globalese machine translation API
 id: globalese
-parent: Engines
+parent: APIs
 urls:
 - https://www.globalese-mt.com
 - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069899/Stock+corpora
@@ -217,5 +217,3 @@ supported_languages:
 nav_order: 966
 
 ---
-
-

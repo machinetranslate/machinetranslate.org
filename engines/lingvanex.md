@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: LingvaNex
 description: The LingvaNex machine translation API
 id: lingvanex
-parent: Engines
+parent: APIs
 urls:
 - https://lingvanex.com
 - https://docs.lingvanex.com/reference/user-guide
@@ -667,5 +667,3 @@ supported_languages:
 nav_order: 891
 
 ---
-
-

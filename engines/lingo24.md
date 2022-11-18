@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Lingo24
 description: The Lingo24 machine translation API
 id: lingo24
-parent: Engines
+parent: APIs
 urls:
 - https://www.lingo24.com
 - https://developer.lingo24.com/documentation
@@ -97,5 +97,3 @@ supported_languages:
 nav_order: 986
 
 ---
-
-

@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Tarjama MT
 description: The Tarjama MT machine translation API
 id: tarjama
-parent: Engines
+parent: APIs
 urls:
 - https://www.tarjama.com/amt/
 - https://github.com/machinetranslate/machinetranslate.org/blob/c7a75040f1bdfce144272231a7d253273b58cb33/files/C-TarjamaMTAPIDescription-150622-0817.pdf

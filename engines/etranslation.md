@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: eTranslation
 description: The eTranslation machine translation API
 id: etranslation
-parent: Engines
+parent: APIs
 urls:
 - https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en#translateonline
 self_serve: true

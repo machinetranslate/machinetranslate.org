@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Papago Translation
 description: The Papago Translation machine translation API
 id: papago
-parent: Engines
+parent: APIs
 urls:
 - https://papago.naver.com/business
 - https://www.ncloud.com/product/aiService/papagoTranslation
@@ -99,5 +99,3 @@ supported_languages:
 nav_order: 986
 
 ---
-
-

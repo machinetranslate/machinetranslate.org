@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: AISA
 description: The AISA machine translation API
 id: aisa
-parent: Engines
+parent: APIs
 urls:
 - https://www.aisa.digital/machine-translation-api
 self_serve: false
@@ -114,5 +114,3 @@ supported_languages:
 nav_order: 983
 
 ---
-
-

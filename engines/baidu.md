@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Baidu Translate
 description: The Baidu Translate machine translation API
 id: baidu
-parent: Engines
+parent: APIs
 urls:
 - https://ai.baidu.com/tech/mt/text_trans
 - https://ai.baidu.com/ai-doc/MT/4kqryjku9#语种列表

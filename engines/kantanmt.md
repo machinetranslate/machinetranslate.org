@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: KantanMT
 description: The KantanMT machine translation API
 id: kantanmt
-parent: Engines
+parent: APIs
 urls:
 - https://www.kantanai.io
 - https://kantanmt.docs.apiary.io/#reference
@@ -243,5 +243,3 @@ supported_languages:
 nav_order: 962
 
 ---
-
-

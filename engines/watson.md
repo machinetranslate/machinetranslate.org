@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Watson Language Translator
 description: The Watson Language Translator machine translation API
 id: watson
-parent: Engines
+parent: APIs
 urls:
 - https://ibm.com/cloud/watson-language-translator
 - https://cloud.ibm.com/docs/language-translator?topic=language-translator-translation-models
@@ -332,5 +332,3 @@ supported_languages:
 nav_order: 947
 
 ---
-
-
