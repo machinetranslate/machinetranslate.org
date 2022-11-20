@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Unbabel
 description: The Unbabel machine translation API
 id: unbabel
-parent: Engines
+parent: APIs
 urls:
 - https://unbabel.com
 - https://developers.unbabel.com/docs
@@ -181,5 +181,3 @@ supported_languages:
 nav_order: 972
 
 ---
-
-

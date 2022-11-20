@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Lingmo Translation
 description: The Lingmo Translation machine translation API
 id: lingmo
-parent: Engines
+parent: APIs
 urls:
 - https://lingmointernationalnet.wordpress.com
 - http://live.lingmo-api.com/support/lingmo-translation-languages.html
@@ -175,5 +175,3 @@ supported_languages:
 nav_order: 973
 
 ---
-
-

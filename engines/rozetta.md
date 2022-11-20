@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: SAP_TRANSLATION_HUB
 title: Rozetta T-400
 description: The Rozetta T-400 machine translation API
 id: rozetta
-parent: Engines
+parent: APIs
 urls:
 - https://www.jukkou.com
 - https://www.jukkou.com/form/lang.html
@@ -589,5 +589,3 @@ supported_languages:
 nav_order: 904
 
 ---
-
-

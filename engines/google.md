@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Google Translate
 description: The Google Translate machine translation API
 id: google
-parent: Engines
+parent: APIs
 urls:
 - https://cloud.google.com/translate/docs/languages
 - https://cloud.google.com/translate/automl/docs/languages

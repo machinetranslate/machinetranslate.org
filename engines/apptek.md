@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: AppTek
 description: The AppTek machine translation API
 id: apptek
-parent: Engines
+parent: APIs
 urls:
 - https://www.apptek.com
 - https://docs.apptek.com/reference/machine-translation
@@ -452,5 +452,3 @@ supported_languages:
 nav_order: 927
 
 ---
-
-

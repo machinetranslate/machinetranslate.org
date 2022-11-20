@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Judicio
 description: The Judicio machine translation API
 id: judicio
-parent: Engines
+parent: APIs
 urls:
 - https://judic.io
 self_serve: false
@@ -36,5 +36,3 @@ supported_languages:
 nav_order: 996
 
 ---
-
-

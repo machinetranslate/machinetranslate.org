@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: PROMT
 description: The PROMT machine translation API
 id: promt
-parent: Engines
+parent: APIs
 urls:
 - https://www.promt.com
 - https://www.promt.com/translation_software/corporate/developer/promt-cloud-api/
@@ -259,5 +259,3 @@ supported_languages:
 nav_order: 959
 
 ---
-
-

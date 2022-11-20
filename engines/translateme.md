@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: TranslateMe
 description: The TranslateMe machine translation API
 id: translateme
-parent: Engines
+parent: APIs
 urls:
 - https://translateme.network
 - https://translateme.network/api/
@@ -79,5 +79,3 @@ supported_languages:
 nav_order: 989
 
 ---
-
-

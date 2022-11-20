@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Mirai Translate
 description: The Mirai Translate machine translation API
 id: mirai
-parent: Engines
+parent: APIs
 urls:
 - https://miraitranslate.com/en/
 - https://miraitranslate.com/en/service/miraitranslator/
@@ -99,5 +99,3 @@ supported_languages:
 nav_order: 986
 
 ---
-
-

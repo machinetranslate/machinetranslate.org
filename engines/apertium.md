@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Apertium
 description: The Apertium machine translation API
 id: apertium
-parent: Engines
+parent: APIs
 urls:
 - https://www.apertium.org
 - https://wiki.apertium.org/wiki/Main_Page

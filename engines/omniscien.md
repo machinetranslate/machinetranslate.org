@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Omniscien Technologies
 description: The Omniscien Technologies machine translation API
 id: omniscien
-parent: Engines
+parent: APIs
 urls:
 - https://omniscien.com
 - https://omniscien.com/machine-translation/supported-languages/
@@ -284,5 +284,3 @@ supported_languages:
 nav_order: 955
 
 ---
-
-

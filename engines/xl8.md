@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: XL8
 description: The XL8 machine translation API
 id: xl8
-parent: Engines
+parent: APIs
 urls:
 - https://www.xl8.ai
 - https://api.xl8.ai/v1/trans/languages
@@ -211,5 +211,3 @@ supported_languages:
 nav_order: 967
 
 ---
-
-

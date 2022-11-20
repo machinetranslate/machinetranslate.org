@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: PangeaMT
 description: The PangeaMT machine translation API
 id: pangeamt
-parent: Engines
+parent: APIs
 urls:
 - https://eco.pangeamt.com/main
 - https://prod.pangeamt.com/
@@ -67,5 +67,3 @@ supported_languages:
 nav_order: 991
 
 ---
-
-

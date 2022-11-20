@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Wordlingo
 description: The Wordlingo machine translation API
 id: wordlingo
-parent: Engines
+parent: APIs
 urls:
 - https://www.worldlingo.com/en/products/worldlingo_api.html
 - https://www.worldlingo.com/en/downloads/ServiceAPI.pdf
@@ -409,5 +409,3 @@ supported_languages:
 nav_order: 934
 
 ---
-
-

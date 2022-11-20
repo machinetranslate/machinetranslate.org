@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: DeepL
 description: The DeepL machine translation API
 id: deepl
-parent: Engines
+parent: APIs
 urls:
 - https://www.deepl.com
 - https://www.deepl.com/en/docs-api/

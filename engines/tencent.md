@@ -1,9 +1,9 @@
 ---
-layout: engine
+layout: api
 title: Tencent Machine Translation
 description: The Tencent Machine Translation machine translation API
 id: tencent
-parent: Engines
+parent: APIs
 urls:
 - https://cloud.tencent.com/product/tmt
 self_serve: true
@@ -126,5 +126,3 @@ supported_languages:
 nav_order: 981
 
 ---
-
-
