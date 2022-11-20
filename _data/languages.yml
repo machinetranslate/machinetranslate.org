@@ -163,7 +163,6 @@
 -
   codes: [ br, bre, xbm, obt ]
   names: [ Breton ]
-  variant_names: [ Modern Breton, Middle Breton, Old Breton ]
   family: [ cel, ine ]
   scripts: [ Latn ]
   typology:
@@ -229,7 +228,7 @@
   typology:
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]
-  territories: [ ro, ru, uk ]
+  territories: [ ro, ru, ua ]
 
 -
   codes: [ cs, ces, cze ]
@@ -381,7 +380,7 @@
   typology:
     word_order: [ SVO ]
     morphosyntax: [ inflected ]
-  territories: [ fo ]
+  territories: [ fo, da ]
 
 -
   codes: [ fr, fra, fre ]
@@ -777,7 +776,7 @@
 
 -
   codes: [ mhr ]
-  names: [ Meadow Mari, Meadow-Eastern Mari, Eastern Mari ]
+  names: [ Meadow Mari, Eastern Mari ]
   family: [ fiu ]
   scripts: [ Cyrl ]
   typology:
@@ -1443,7 +1442,7 @@
   typology:
     word_order: [ SVO ]
     morphosyntax: [ analytic, isolating ]
-  territories: [ hk, mo ]
+  territories: [ hk, mo, cn ]
 
 -
   codes: [ zh, lzh ]
@@ -1454,7 +1453,7 @@
   typology:
     word_order: [ SVO ]
     morphosyntax: [ analytic, isolating ]
-  territories: [ cn, my, sg, hk, tw ]
+  territories: [ cn, tw, hk, mo, sg, my, id, ph, vn, mm ]
 
 -
   codes: [ zu, zul ]
