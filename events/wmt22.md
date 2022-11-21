@@ -55,8 +55,6 @@ The **Seventh Conference on Machine Translation** (**WMT22**) is set to take pla
 - [Terminology](https://www.statmt.org/wmt22/terminology-task.html)
 - [Chat](https://wmt-chat-task.github.io/)
 - [Sign language](https://www.wmt-slt.com/)
-- Robustness
-- [Triangual machine translation](https://www.statmt.org/wmt22/triangular-mt-task.html)
 - [Large-scale multilingual](https://www.statmt.org/wmt22/large-scale-multilingual-translation-task.html)
 - [Efficiency](https://www.statmt.org/wmt22/efficiency-task.html)
 - [Unsupervised machine translation and very low resource supervised machine translation](https://www.statmt.org/wmt22/unsup_and_very_low_res.html)
