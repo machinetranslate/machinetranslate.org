@@ -1,5 +1,5 @@
 ---
-layout: SAP_TRANSLATION_HUB
+layout: api
 title: Rozetta T-400
 description: The Rozetta T-400 machine translation API
 id: rozetta
