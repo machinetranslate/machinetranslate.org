@@ -70,7 +70,7 @@ defaults:
         type: Event
   -
     scope:
-      path: "engines"
+      path: "apis"
       type: "pages"
     values:
       permalink: /:basename
