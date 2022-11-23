@@ -1,0 +1,641 @@
+---
+# - id: <string> # slug
+#   name: <string>
+#   url: <string> # link
+#   types: [ 'tms' | 'cat', ... ] # Functionality that it has
+#   open_source: true | false
+#   engine_integrations:
+#      - <string>: # slug of the corresponding engine id
+#          custom: true | false # Is the engine custom model available from the tool?
+#          tone: true | false # Is tone/formality selection available from the tool?
+#          glossary true | false # Is the machine translation glossary/terminology/dictionary available from the tool?
+#          adaptive true | false # Is the adaptive machine translation feature available from the tool?
+#
+#   engine_plugins:
+#      - <string>: # slug of the corresponding engine plugin id
+#          custom: true | false # Is the engine custom model available from the tool?
+#          tone: true | false # Is tone/formality selection available from the tool?
+#          glossary true | false # Is the machine translation glossary/terminology/dictionary available from the tool?
+#          adaptive true | false # Is the adaptive machine translation feature available from the tool?
+#
+#   engine_aggregator_integrations:
+#      - <string>: # slug of the corresponding integrator id
+#
+#   quality_estimation:
+#      - <string> # slug
+#        custom: true | false
+#
+#   local_engine_support: [ boolean]
+#   fuzzy_repair: [ boolean ]
+#   fuzzy_repair_plugin: [ link ]
+#   multiple_engine_suggestions: [ boolean ]
+#   routing: [ boolean ]
+
+- id: crowdin
+  name: crowdin
+  url: https://www.crowdin.com
+  type:
+    - tms: true
+    - cat: true
+  documentation_url: https://support.crowdin.com/configuring-machine-translation-engines/
+  engine_integrations:
+    - amazon:
+        glossary: true
+
+    - deepl:
+        tone: true
+
+    - google:
+        custom: true
+        glossary: true
+
+
+    - microsoft:
+        custom: true
+
+    - modernmt
+
+    - watson
+
+    - yandex
+
+  engine_plugins:
+    - globalese
+
+  engine_aggregator_integrations:
+    - intento:
+        custom: true
+
+  local_engine_support: true
+  multiple_engine_suggestions: true
+
+- id: lilt
+  name: Lilt
+  url: https://www.lilt.com
+  type:
+    - cat: true
+  documentation_url: https://support.lilt.com/kb/
+  engine_integrations:
+    - lilt:
+        custom: true
+        glossary: true
+        adaptive: true
+
+- id: matecat
+  name: MateCat
+  url: https://www.matecat.com
+  type:
+    - cat: true
+  documentation_url: https://site.matecat.com/support/
+  engine_integrations:
+    - apertium
+
+    - google:
+        custom: true
+
+    - language-weaver
+
+    - microsoft:
+        custom: true
+
+    - modernmt:
+        custom: true
+
+    - moses
+
+    - prompsit
+
+    - smartmate
+
+    - tauyou
+
+    - tilde:
+        custom: true
+
+    - yandex
+
+  engine_aggregator_integrations:
+    - intento
+
+- id: memoq
+  name: MemoQ
+  url: https://www.memoq.com
+  type:
+    - tms: true
+    - cat: true
+  documentation_url: https://docs.memoq.com/current/en/Welcome/welcome-memoq-docs.html
+  engine_integrations:
+    - alexa-ai
+
+    - amazon:
+        custom: true
+        glossary: true
+
+    - crosslang
+
+    - deepl:
+        glossary: true
+        tone: true
+
+    - etranslation
+
+    - google:
+        custom: true
+        glossary: true
+
+    - kantanmt:
+        custom: true
+
+    - microsoft:
+        custom: true
+
+    - mirai
+
+    - pangeamt:
+        glossary: true
+
+    - systran:
+        custom: true
+
+    - textra
+
+    - tilde:
+        custom: true
+        glossary: true
+
+  engine_plugins:
+    - globalese
+
+  engine_aggregator_integrations:
+    - intento:
+        glossary: true
+
+    - tmxmall
+
+  local_engine_support: true
+  multiple_engine_suggestions: true
+  fuzzy_repair: true
+
+- id: phrase
+  name: Phrase TMS
+  url: https://phrase.com/products/phrase-tms/
+  type:
+    - tms: true
+    - cat: true
+  documentation_url: https://support.phrase.com/hc/en-us/categories/5709486381084-Phrase-TMS
+  engine_integrations:
+    - aisa
+
+    - alexa-ai
+
+    - amazon:
+        glossary: true
+
+    - apertium
+
+    - deepl:
+        glossary: true
+
+    - fair-trade
+
+    - google:
+        custom: true
+        glossary: true
+
+    - globalese
+
+    - human-science
+
+    - kantanmt:
+        custom: true
+
+    - microsoft:
+        custom: true
+        glossary: true
+
+    - mirai
+
+    - omniscien:
+        custom: true
+
+    - pangeamt:
+        custom: true
+
+    - prompsit
+
+    - promt:
+        custom: true
+        glossary: true
+
+    - rozetta:
+        custom: true
+        glossary: true
+
+    - language-weaver:
+        custom: true
+        offline_glossary: true
+
+    - sundamt
+
+    - systran:
+        custom: true
+
+    - tauyou
+
+    - tencent
+
+    - tilde:
+        custom: true
+
+    - ubiqus:
+        glossary: true
+
+    - yandex
+
+  engine_aggregator_integrations:
+    - crosslang
+
+  quality_estimation:
+    - phrase-mtqe
+
+  routing: true
+
+- id: omegat
+  name: OmegaT
+  url: https://www.omegat.org
+  type: [ cat ]
+  open_source: true
+  documentation_url: https://omegat.org/documentation
+  engine_integrations:
+    - apertium
+
+    - deepl
+
+    - google
+
+    - watson
+
+    - microsoft
+
+    - moses
+
+    - yandex
+
+  engine_plugins:
+    - tencent:
+        link: https://github.com/yoyicue/omegat-tencent-plugin
+
+  local_engine_support: true
+  fuzzy_repair: true
+  fuzzy_repair_plugin: https://github.com/transducens/OmegaT-FuzzyMatchRepair-Plugin
+  multiple_engine_suggestions: true
+
+- id: passolo
+  name: Passolo
+  url: https://www.trados.com/products/passolo/
+  type: [ cat ]
+  documentation_url: https://docs.rws.com/914743/262054/passolo-help/welcome-to-the-------------passolo-documentation
+  engine_integrations:
+    - google:
+        custom: true
+
+    - language-weaver:
+        custom: true
+
+    - microsoft:
+        custom: true
+
+  engine_plugins:
+    - deepl:
+        link: https://appstore.rws.com/language/app/deepl-mt-provider-for-passolo/1088/
+
+  multiple_engine_suggestions: true
+
+- id: smartcat
+  name: Smartcat
+  url: https://www.smartcat.ai
+  type: [ tms, cat ]
+  documentation_url: https://help.smartcat.com/hc/en-us/
+  engine_integrations:
+    - amazon:
+        custom: true
+
+    - baidu
+
+    - deepl
+
+    - google:
+        custom: true
+        glossary: true
+
+    - microsoft:
+        custom: true
+
+    - modernmt:
+        custom: true
+
+    - yandex
+
+    engine_plugins:
+    - globalese:
+        custom: true
+
+    engine_aggregator_integrations:
+    - intento:
+        glossary: true
+
+  multiple_engine_suggestions: true
+
+- id: smartling
+  name: Smartling
+  url: https://www.smartling.com
+  type: [ tms, cat ]
+  documentation_url: https://help.smartling.com/hc/en-us
+  engine_integrations:
+    - amazon
+
+    - deepl
+
+    - google:
+        custom: true
+        glossary: true
+        link: https://help.smartling.com/hc/en-us/articles/1260805168070-Translating-with-Google-AutoML
+
+    - microsoft:
+        custom: true
+
+    - promt
+
+    - systran
+
+    - watson:
+        custom: true
+
+  engine_aggregator_integrations:
+    - intento
+
+  local_engine_support: true
+  routing: true
+
+- id: trados
+  name: Trados Studio
+  url: https://www.trados.com/products/trados-studio
+  type: [ cat ]
+  documentation_url: https://docs.rws.com/980998/261377/trados-studio-2022/welcome-to-the-------------trados-studio-2022-documentation
+  engine_integrations:
+    - language-weaver:
+        custom: true
+
+  engine_plugins:
+    - alexa-ai
+
+    - amazon:
+        link: https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3315/amazon-translate-mt-provider
+
+    - deepl:
+        link: https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3266/deepl-translation-provider
+
+    - globalese:
+        custom: true
+        link: https://globalese.atlassian.net/servicedesk/customer/portal/2/article/2232746052
+
+    - google:
+        custom: true
+        glossary: true
+        link: https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
+
+    - kantanmt:
+        custom: true
+
+    - language-wire:
+        link: https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
+
+    - microsoft:
+        custom: true
+        link: https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
+
+    - mirai
+
+    - modernmt:
+        custom: true
+        link: https://s3.amazonaws.com/modernmt.prod.public.us-east-1/downloads/ModernMT+Plugin+Guide+for+SDL+Trados+Studio.pdf
+
+    - niutrans
+
+    - pangeamt:
+        custom: true
+
+    - rozetta:
+        custom: true
+
+    - sogou
+
+    - sundamt:
+        glossary: true
+        tone: true
+        link: https://www.sunda.fi/en/human-translators.html
+
+    - systran:
+        custom: true
+        link: https://help.systrangroup.com/hc/en-us/articles/360025571833--Plugins-SDL-Trados-studio-connector-How-to-add-Systran-server-in-SDL-Trados-Studio
+
+    - textshuttle
+
+    - textra
+
+    - tilde:
+        custom: true
+
+    - ubiqus
+
+    - xl8:
+        link: https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf
+
+    - youdao
+
+  engine_aggregator_integrations:
+    - crosslang
+
+    - intento:
+        glossary: true
+
+  local_engine_support: true
+  multiple_engine_suggestions: true
+  fuzzy_repair: true
+
+- id: transifex
+  name: Transifex
+  url: http://www.transifex.com
+  type: [ tms, cat ]
+  documentation_url: https://docs.transifex.com/
+  engine_integrations:
+    - amazon:
+        glossary: true
+        link: https://docs.transifex.com/machine-translation/glossary-for-amazon-machine-translation-mt
+
+    - deepl:
+        tone: true
+
+    - google:
+        custom: true
+
+    - kantanmt:
+        custom: true
+        link: https://docs.transifex.com/machine-translation/working-with-kantan-mt
+
+    - microsoft
+
+  local_engine_support: true
+
+- id: translate5
+  name: translate5
+  url: https://translate5.net
+  type: [ tms, cat ]
+  open_source: true
+  documentation_url: https://confluence.translate5.net/spacedirectory/view.action
+  engine_integrations:
+    - google
+
+    - lucy
+
+    - moses
+
+    - microsoft
+
+    - language-weaver
+
+  engine_plugins:
+    - deepl
+
+    - globalese
+
+    - pangeamt
+
+  quality_estimation: true
+  quality_estimation_software:
+    name: modelfront
+    custom: true
+
+  edit_distance: true
+
+- id: wordbee
+  name: Wordbee
+  url: http://www.wordbee.com
+  type: [ tms, cat ]
+  documentation_url: https://wordbee.atlassian.net/wiki/spaces/WBT/overview
+  engine_integrations:
+    - deepl
+
+    - google:
+        custom: true
+
+    - kantanmt:
+        custom: true
+
+    - lingua-custodia
+
+    - microsoft
+
+    - reverso
+
+    - tauyou
+
+    - textshuttle
+
+    - tilde:
+        custom: true
+
+  engine_plugins:
+    - globalese
+
+  engine_aggregator_integrations:
+    - intento:
+        link: https://help.inten.to/hc/en-us/articles/360017136300-Configure-your-Intento-connector-in-Wordbee
+
+  local_engine_support: true
+  multiple_engine_suggestions: true
+
+- id: wordfast
+  name: Wordfast
+  url: http://www.wordfast.com
+  type: [ tms, cat ]
+  documentation_url: https://www.wordfast.com/WFP/5.8/t2117287.html
+  engine_integrations:
+    - deepl:
+        tone: true
+
+    - google:
+        custom: true
+
+    - kantanmt:
+        custom: true
+        online_custom_training: true
+
+    - microsoft
+
+    - systran:
+        custom: true
+
+    - wordlingo
+
+    - yandex
+
+  engine_aggregator_integrations:
+    - intento:
+        link: https://help.inten.to/hc/en-us/articles/360018425379-How-to-set-up-Intento-plugin-for-Wordfast-Anywhere
+
+  local_engine_support: true
+  multiple_engine_suggestions: true
+
+- id: xtm
+  name: XTM
+  url: http://xtm.cloud
+  type: [ tms, cat ]
+  documentation_url: https://xtm.cloud/docs/xtm-editor.x56164.pdf
+  engine_integrations:
+    - amazon:
+        glossary: true
+
+    - language-weaver:
+        glossary: true
+
+    - deepl:
+        glossary: true
+        tone: true
+
+    - google:
+        custom: true
+
+    - kantanmt:
+        custom: false
+
+    - language-weaver:
+        glossary: true
+
+    - lingo24
+
+    - microsoft:
+        custom: true
+
+    - omniscien:
+        custom: true
+
+    - sap
+
+    - smartmate
+
+    - systran
+
+    - tauyou
+
+  engine_plugins:
+    - crosslang
+
+    - globalese
+
+  engine_aggregator_integrations:
+    - intento
+
+  local_engine_support: true
+  multiple_engine_suggestions: true
+  fuzzy_repair: true
