@@ -336,11 +336,11 @@
 
     - yandex
 
-    engine_plugins:
+  engine_plugins:
     - globalese:
         custom: true
 
-    engine_aggregator_integrations:
+  engine_aggregator_integrations:
     - intento:
         glossary: true
 
