@@ -3,17 +3,18 @@ grand_parent: Building and research
 parent: Metrics
 nav_order: 4
 title: YiSi
-description: Crosslingual Optimized Metric for Evaluation of Translation
+description: Evaluation metric using sentence representation
 ---
 
-**YiSi** is computes the similarity in meaning of the machine translation output with the input text and the reference translation.
+**YiSi** is a metric for automatic evaluation of machine translation that calculates the similarity between a machine translation output and a reference translation using sentence representation.
+
 The term YiSi comes from the Cantonese word 意思, which means ‘meaning’.
 
 > YiSi is a unified semantic MT quality evaluation and estimation metric for languages with different levels of available resources.
 
 ### Variants
 
-YiSi offers different flavours depending on the resources available for the evaluation.
+YiSi offers different variants depending on the resources available for the evaluation.
 
 | YiSi-0 | YiSi-1 | YiSi-2 |
 | --- | --- | --- |

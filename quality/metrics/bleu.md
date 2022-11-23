@@ -3,10 +3,11 @@ grand_parent: Building and research
 parent: Metrics
 nav_order: 1
 title: BLEU
-description: BiLingual Evaluation Understudy
+description: Evaluation metric based on n-gram precision
 ---
 
 **BLEU** (**BiLingual Evaluation Understudy**) is a metric for automatic evaluation of machine translation that calculates the similarity between a machine translation output and a reference translation using [n-gram](/../concepts/n-gram.md) precision.
+
 Its basic unit of evaluation is the sentence.
 
 > The closer a machine translation is to a professional human translation, the better it is.
