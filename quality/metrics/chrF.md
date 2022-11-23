@@ -6,15 +6,17 @@ title: chrF
 description: CHaRacter-level F-score
 ---
 
-**chrF** (CHaRacter-level F-score) was introduced in 2015 by Maja Popovic.
-chrF is a string-based metric.
+**chrF** (**CHaRacter-level F-score**) is a metric for machine translation evaluation that calculates the similarity between a machine translation output and a reference translation using character [n-grams](/../concepts/n-gram.md), not word n-grams.
+Metrics based on word n-grams are especially problematic for high-morphology languages.
+
+chrF was introduced in 2015 by Maja Popović.
 
 The chrF metric compares the machine translation output with reference translations, looking at character sequences. Character sequences matching help in recognizing different forms of a single word.
 
 > It is language-independent, tokenisation-independent and it shows good correlations with human judgments both on the system- as well as with on the segment-level, especially the CHRF3 variant.
 
 
-### Flavours
+### Variants
 
 - chrF3
 - chrF++

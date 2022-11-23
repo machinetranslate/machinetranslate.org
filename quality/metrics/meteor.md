@@ -6,7 +6,7 @@ title: METEOR
 description: Metric for Evaluation of Translation with Explicit ORdering
 ---
 
-**METEOR** (Metric for Evaluation of Translation with Explicit ORdering) is an [n-gram](/../concepts/n-gram.md) word-based metric.
+**METEOR** (**Metric for Evaluation of Translation with Explicit ORdering**) is an [n-gram](/../concepts/n-gram.md) word-based metric.
 It is used for evaluation.
 
 > Meteor evaluates a translation by computing a score based on explicit word-to-word matches between the translation and a given reference translation.
@@ -15,7 +15,7 @@ Apart from exact word matching, METEOR adds matching for synonyms and simple mor
 
 METEOR takes into account both the precision and recall while evaluating a match.
 
-### Flavours
+### Variants
 
 - METEOR-NEXT
 

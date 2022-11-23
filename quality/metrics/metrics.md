@@ -20,31 +20,39 @@ String-based metrics are challenging because there are many possible translation
 
 ### Examples
 
-- BLEU
-- METEOR
-- NIST
-- chrF
-- TER
+- [BLEU](bleu.md)
+- [METEOR](meteor.md)
+- [NIST](nist.md)
+- [chrF](chrf.md)
+- [TER](ter.md)
 
 *Note: The list is incomplete.*
 
-### Pre-trained metrics
+## Machine learning metrics
 
-Pre-trained metrics use a language model. These metrics embed the source sentence into a multidimesional space to calculate the differences.
+Machine learning metrics use a language model. These metrics embed the source sentence into a multidimesional space to calculate the differences.
 
-- COMET
-- YiSi
-- BERTscore
+- [COMET](comet.md)
+- [YiSi](yisi.md)
+- [BERTscore](bertscore.md)
 
 *Note: The list is incomplete.*
 
-| String-based metrics | Pre-trained metrics |
-| --- | --- |
-| Support any language | Support only pre-trained language |
-| Need reference | Do not reference |
-| Low correlation with human evaluation | High correlation with human evaluation |
+## Language support
 
-### Metrics timeline
+String-based metrics can support any language. But the density of words and characters vary by language. So the accuracy varies by language pair, and the results cannot be compared across language pairs.
+
+Machine learning-based metrics require a model that was trained on data with the source and target languages.
+
+
+## Accuracy
+
+Machine learning-based metrics have a higher correlation with human evaluation.
+
+But metrics based on machine learning are not explainable or fair, so they cannot be used in a research competition.
+
+
+### History
 >
 > ##### Slide from [Unbabel](/industry/companies.md#unbabel) for [AMTA 2022](/events/amta2022.md)
 > <img title='Evaluation timeline' src='/quality/metrics/timeline.jpg' width='700' style='padding: 1em;' />

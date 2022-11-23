@@ -6,19 +6,20 @@ title: BLEU
 description: BiLingual Evaluation Understudy
 ---
 
-**BLEU** (BiLingual Evaluation Understudy) is the standard metric for machine translation evaluation.
+**BLEU** (**BiLingual Evaluation Understudy**) is a metric for automatic evaluation of machine translation that calculates the similarity between a machine translation output and a reference translation using [n-gram](/../concepts/n-gram.md) precision.
+Its basic unit of evaluation is the sentence.
 
 > The closer a machine translation is to a professional human translation, the better it is.
 
-BLEU compares machine translation output to a single reference translation.
-BLEU is an [n-gram](/../concepts/n-gram.md) word-based metric.
+BLEU is the standard metric for machine translation evaluation.
 
-BLEU is based on translation precision.
-Its basic unit of evaluation is the sentence.
+BLEU compares machine translation output to a single reference translation.
 
 BLEU treats all n-grams equally.
 
-### Flavours
+Because BLEU is not an exactly defined metric, BLEU scores are not comparable.
+So researchers have created variants that are more concretely defined.
+Here are some of the most well-known variants of BLEU:
 
 - sacreBLEU
 - BLEUrt

@@ -12,7 +12,7 @@ description: Translation Error Rate
 
 TER corresponds to [post-editing effort](https://machinetranslate.org/post-editing#metrics).
 
-### Flavours
+### Variants
 
 - hTER
 - TERp
