@@ -28,7 +28,7 @@ featured: true
 | 1 December | [**AAMT 2022**](aamt2022.md) | Tokyo, Japan |
 | December | [**Second AmericasNLP Competition**](americasnlp-2.md) | online |
 | 24 - 25 November | [**TC44**](tc44.md) | Luxembourg City, Luxembourg |
-| 23 November | [**Debunking a few machine translation myths**](debunking-mt-myths.md) | online |
+| 23 November | [Debunking a few machine translation myths](debunking-mt-myths.md) | online |
 | 21 November | [Artificial Intelligence and Language Technologies: 2023 and Beyond](ai-and-language-technologies.md) | online |
 | 26 October | [Live Panel Discussion: Machine Translation: What’s the Current State?](csa-panel-discussion.md) | online |
 | 21 October | [Meetup 2 - Low-resource machine translation](machine-translation-meetup-2.md) | online |
