@@ -1,0 +1,23 @@
+---
+nav_order: 998
+parent: Languages
+layout: language
+title: Romansh
+description: Machine translation for Romansh
+code: rm
+family:
+- slug: romance
+  name: Romance
+- slug: indo-european
+  name: Indo-European
+supported_apis:
+- id: textshuttle
+  name: TextShuttle
+  supported_language_count: 15
+- id: baidu
+  name: Baidu Translate
+  supported_language_count: 197
+
+---
+
+

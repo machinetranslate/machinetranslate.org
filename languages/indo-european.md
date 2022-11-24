@@ -10,14 +10,20 @@ languages:
   name: Afrikaans
 - slug: albanian
   name: Albanian
+- slug: aragonese
+  name: Aragonese
 - slug: armenian
   name: Armenian
+- slug: assamese
+  name: Assamese
 - slug: belarusian
   name: Belarusian
 - slug: bengali
   name: Bengali
 - slug: bosnian
   name: Bosnian
+- slug: breton
+  name: Breton
 - slug: bulgarian
   name: Bulgarian
 - slug: catalan
@@ -30,6 +36,8 @@ languages:
   name: Czech
 - slug: danish
   name: Danish
+- slug: divehi
+  name: Divehi
 - slug: dutch
   name: Dutch
 - slug: english
@@ -74,6 +82,8 @@ languages:
   name: Nepali
 - slug: norwegian
   name: Norwegian
+- slug: occitan
+  name: Occitan
 - slug: oriya
   name: Oriya
 - slug: pashto
@@ -88,12 +98,18 @@ languages:
   name: Punjabi
 - slug: romanian
   name: Romanian
+- slug: romansh
+  name: Romansh
 - slug: russian
   name: Russian
+- slug: sardinian
+  name: Sardinian
 - slug: scottish-gaelic
   name: Scottish Gaelic
 - slug: serbian
   name: Serbian
+- slug: silesian
+  name: Silesian
 - slug: sindhi
   name: Sindhi
 - slug: sinhala
@@ -112,6 +128,8 @@ languages:
   name: Tajik
 - slug: ukrainian
   name: Ukrainian
+- slug: upper-sorbian
+  name: Upper Sorbian
 - slug: urdu
   name: Urdu
 - slug: welsh

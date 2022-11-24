@@ -8,7 +8,7 @@ code: lo
 family:
 - slug: tai
   name: Tai
-supported_engines:
+supported_apis:
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

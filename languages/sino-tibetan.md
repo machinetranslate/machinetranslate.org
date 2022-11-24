@@ -8,8 +8,12 @@ code: sit
 languages:
 - slug: burmese
   name: Burmese
+- slug: cantonese
+  name: Cantonese
 - slug: chinese
   name: Chinese
+- slug: tibetan
+  name: Tibetan
 
 ---
 

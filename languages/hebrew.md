@@ -10,12 +10,12 @@ family:
   name: Semitic
 - slug: afro-asiatic
   name: Afro-Asiatic
-supported_engines:
+supported_apis:
 - id: lingmo
   name: Lingmo Translation
   supported_language_count: 26
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
 - id: kantanmt
   name: KantanMT

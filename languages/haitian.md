@@ -8,7 +8,7 @@ code: ht
 family:
 - slug: french-based-creoles
   name: French-based creoles
-supported_engines:
+supported_apis:
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65

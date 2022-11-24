@@ -8,19 +8,19 @@ code: zh
 family:
 - slug: sino-tibetan
   name: Sino-Tibetan
-supported_engines:
+supported_apis:
 - id: yeekit
   name: YeeKit
   supported_language_count: 2
-- id: alexa-ai
-  name: Alexa Translations A.I.
-  supported_language_count: 5
 - id: cloudtranslation
   name: CloudTranslation
   supported_language_count: 8
 - id: pangeamt
   name: PangeaMT
   supported_language_count: 8
+- id: alexa-ai
+  name: Alexa Translations A.I.
+  supported_language_count: 10
 - id: translateme
   name: TranslateMe
   supported_language_count: 11
@@ -50,9 +50,9 @@ supported_engines:
   supported_language_count: 26
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 28
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
 - id: kantanmt
   name: KantanMT

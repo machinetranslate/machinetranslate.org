@@ -8,7 +8,7 @@ code: kk
 family:
 - slug: turkic
   name: Turkic
-supported_engines:
+supported_apis:
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 38
@@ -17,7 +17,7 @@ supported_engines:
   supported_language_count: 40
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: apptek
   name: AppTek
   supported_language_count: 65

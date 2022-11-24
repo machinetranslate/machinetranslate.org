@@ -10,10 +10,10 @@ family:
   name: Celtic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: etranslation
   name: eTranslation
-  supported_language_count: 26
+  supported_language_count: 30
 - id: kantanmt
   name: KantanMT
   supported_language_count: 33

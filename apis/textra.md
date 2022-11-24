@@ -6,6 +6,7 @@ id: textra
 parent: APIs
 urls:
 - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/
+- https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/help/?q_type=faq#
 self_serve: true
 customization: []
 supported_languages:
@@ -132,3 +133,5 @@ supported_languages:
 nav_order: 980
 
 ---
+
+

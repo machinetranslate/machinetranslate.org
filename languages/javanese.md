@@ -8,7 +8,7 @@ code: jv
 family:
 - slug: austronesian
   name: Austronesian
-supported_engines:
+supported_apis:
 - id: lilt
   name: Lilt
   supported_language_count: 50

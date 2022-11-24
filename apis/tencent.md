@@ -6,6 +6,7 @@ id: tencent
 parent: APIs
 urls:
 - https://cloud.tencent.com/product/tmt
+- https://cloud.tencent.com/document/api/551/15619
 self_serve: true
 customization: []
 supported_languages:
@@ -126,3 +127,5 @@ supported_languages:
 nav_order: 981
 
 ---
+
+

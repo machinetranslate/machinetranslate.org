@@ -10,13 +10,13 @@ family:
   name: Slavic
 - slug: indo-european
   name: Indo-European
-supported_engines:
-- id: etranslation
-  name: eTranslation
-  supported_language_count: 26
+supported_apis:
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 28
+- id: etranslation
+  name: eTranslation
+  supported_language_count: 30
 - id: kantanmt
   name: KantanMT
   supported_language_count: 33
@@ -28,7 +28,7 @@ supported_engines:
   supported_language_count: 38
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 45

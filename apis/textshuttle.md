@@ -100,6 +100,6 @@ supported_languages:
   base_code: sv
   name: Swedish
   variant_name: null
-nav_order: 995
+nav_order: 985
 
 ---

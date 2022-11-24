@@ -1,5 +1,5 @@
 ---
-nav_order: 970
+nav_order: 969
 parent: Languages
 layout: language
 title: Turkish
@@ -8,7 +8,7 @@ code: tr
 family:
 - slug: turkic
   name: Turkic
-supported_engines:
+supported_apis:
 - id: translateme
   name: TranslateMe
   supported_language_count: 11
@@ -29,10 +29,13 @@ supported_engines:
   supported_language_count: 26
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 28
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
+- id: etranslation
+  name: eTranslation
+  supported_language_count: 30
 - id: kantanmt
   name: KantanMT
   supported_language_count: 33
@@ -47,7 +50,7 @@ supported_engines:
   supported_language_count: 40
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 45
@@ -113,12 +116,12 @@ These projects were [rule-based machine translation](/approaches/rule-based-mach
 
 In 2011, Apertium launched the Apertium Turkic work group in an attempt to create resources for Turkic languages rule-based machine translation and natural language processing.
 
-In 2019, Emel Alkım and Yalçın Çebi launched MT-Turk for Turkish, Kirghiz and Kazan Tatar.
+In 2019, Emel AlkÄ±m and YalÃ§Ä±n Ã‡ebi launched MT-Turk for Turkish, Kirghiz and Kazan Tatar.
 MT-Turk is a rule-based machine translation system that uses interlingual and transfer systems.
 
 In 2020, [Turkic Interlingua](/community/communities.md#til) was created to develop language technology, including parallel corpora, in the most spoken Turkic languages.
 
-In 2021, the Literary Machine Translation Project started at the Department of Translation and Interpreting Studies from the Boğaziçi University.
+In 2021, the Literary Machine Translation Project started at the Department of Translation and Interpreting Studies from the BoÄŸaziÃ§i University.
 
 > This project aims to use MT to translate into Turkish literary texts whose style has been defined using corpus tools.
 

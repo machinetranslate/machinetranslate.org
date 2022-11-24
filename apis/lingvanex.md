@@ -418,11 +418,11 @@ supported_languages:
   base_code: 'no'
   name: Norwegian
   variant_name: null
-- slug: chewa
+- slug: chichewa
   code: ny-mw
   normalized_code: ny-mw
   base_code: ny
-  name: Chewa
+  name: Chichewa
   variant_name: null
 - slug: oriya
   code: or-or
@@ -667,3 +667,5 @@ supported_languages:
 nav_order: 891
 
 ---
+
+

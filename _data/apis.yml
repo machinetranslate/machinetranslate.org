@@ -19,7 +19,7 @@
   urls:
    - https://www.alibabacloud.com/es/product/machine-translation
    - https://www.alibabacloud.com/help/en/machine-translation/latest/general-version-of-machine-translation
-  languages: [ ar, de, en, es, fr, id, it, ja, ko, pl, pt, ru, th, tr, vi, zh, [zh-cn, zh-tw], [zh-tw, zh-cn], [zh-cn, yue] ]
+  languages: [ ab, ace, af, ak, am, an, ar, as, ast, ay, az, ba, bal, be, bem, ber, bg, bho, bi, bm, bn, br, bs, byn, ca, cbk, ceb, ch, chm, chr, cnr, co, crh, cs, csb, cv, cy, da, de, dtp, dv, ee, el, en, eo, es, et, eu, fa, fi, fil, fj, fo, fr, fur, fvr, fy, ga, gil, gl, gn, gos, gu, gv, ha, haw, hbs, he, hi, hil, hmn, hsb, ht, hu, hup, hy, ia, iba, id, ie, ig, ilo, inh, io, is, it, iu, ja, jbo, jv, ka, kab, kdx, kek, kg, kha, kk, kl, km, kn, ko, kr, ks, ku, kw, ky, la, lb, lfn, lg, li, ln, lo, lt, ltg, lv, mai, mfe, mg, mh, mi, mk, ml, mn, mr, ms, mt, mus, my, nch, nds, ne, ngu, niu, nl, no, nv, ny, oc, oj, om, or, os, pa, pag, pap, pl, pmn, ps, pt, qu, quc, rm, rn, ro, rom, ru, rue, rw, sa, sco, sd, se, sg, shn, si, sk, sl, sm, sn, so, sq, su, sv, sw, syr, szl, ta, te, tet, tg, th, ti, tk, tl, tlh, to, toi, tpi, tr, ts, tt, tvl, tw, ty, tyv, udm, umb, ur, uz, ve, vi, vo, wa, war, wo, xh, yi, yo, yue, zh, zh-tw, zu, zza ]
   self-serve: true
 
 - name: Amazon Translate
@@ -295,7 +295,7 @@
   urls:
    - https://www.textshuttle.ai/
    - https://www.textshuttle.ai/product/features#subscription
-  languages: [ cz, da, de, en, es, fr, it, nl, 'no', pl, pt, rm, ru, sk, sv ]
+  languages: [ cs, da, de, en, es, fr, it, nl, 'no', pl, pt, rm, ru, sk, sv ]
   custom_languages: '*'
   self-serve: false
 

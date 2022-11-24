@@ -8,7 +8,7 @@ code: haw
 family:
 - slug: austronesian
   name: Austronesian
-supported_engines:
+supported_apis:
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96

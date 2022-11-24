@@ -1,5 +1,5 @@
 ---
-nav_order: 969
+nav_order: 968
 parent: Languages
 layout: language
 title: Korean
@@ -8,10 +8,13 @@ code: ko
 family:
 - slug: koreanic
   name: Koreanic
-supported_engines:
+supported_apis:
 - id: cloudtranslation
   name: CloudTranslation
   supported_language_count: 8
+- id: alexa-ai
+  name: Alexa Translations A.I.
+  supported_language_count: 10
 - id: papago
   name: Papago Translation
   supported_language_count: 12
@@ -37,7 +40,7 @@ supported_engines:
   name: Lingmo Translation
   supported_language_count: 26
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
 - id: kantanmt
   name: KantanMT

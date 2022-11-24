@@ -1,5 +1,5 @@
 ---
-nav_order: 979
+nav_order: 978
 parent: Languages
 layout: language
 title: Malay
@@ -8,7 +8,7 @@ code: ms
 family:
 - slug: austronesian
   name: Austronesian
-supported_engines:
+supported_apis:
 - id: aisa
   name: AISA
   supported_language_count: 16
@@ -16,11 +16,14 @@ supported_engines:
   name: Tencent Machine Translation
   supported_language_count: 17
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 38
+- id: apertium
+  name: Apertium
+  supported_language_count: 45
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 45

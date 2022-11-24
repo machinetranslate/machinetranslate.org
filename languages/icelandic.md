@@ -10,13 +10,13 @@ family:
   name: Germanic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: etranslation
   name: eTranslation
-  supported_language_count: 26
+  supported_language_count: 30
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: modernmt
   name: ModernMT
   supported_language_count: 52

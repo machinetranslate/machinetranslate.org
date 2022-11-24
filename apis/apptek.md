@@ -395,11 +395,11 @@ supported_languages:
   base_code: th
   name: Thai
   variant_name: null
-- slug: null
+- slug: tigrinya
   code: ti
   normalized_code: ti
   base_code: ti
-  name: null
+  name: Tigrinya
   variant_name: null
 - slug: turkmen
   code: tk
@@ -452,3 +452,5 @@ supported_languages:
 nav_order: 927
 
 ---
+
+

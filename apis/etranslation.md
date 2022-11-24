@@ -87,12 +87,6 @@ supported_languages:
   base_code: hr
   name: Croatian
   variant_name: null
-- slug: japanese
-  code: ja
-  normalized_code: ja
-  base_code: ja
-  name: Japanese
-  variant_name: null
 - slug: hungarian
   code: hu
   normalized_code: hu
@@ -110,6 +104,12 @@ supported_languages:
   normalized_code: it
   base_code: it
   name: Italian
+  variant_name: null
+- slug: japanese
+  code: ja
+  normalized_code: ja
+  base_code: ja
+  name: Japanese
   variant_name: null
 - slug: lithuanian
   code: lt
@@ -189,6 +189,8 @@ supported_languages:
   base_code: uk
   name: Ukrainian
   variant_name: null
-nav_order: 974
+nav_order: 970
 
 ---
+
+

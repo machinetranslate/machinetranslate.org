@@ -6,7 +6,9 @@ id: youdao
 parent: APIs
 urls:
 - https://ai.youdao.com/
-- https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html
+- "https://ai.youdao.com/DOCSIRMA/html/\u81EA\u7136\u8BED\u8A00\u7FFB\u8BD1/API\u6587\
+  \u6863/\u6587\u672C\u7FFB\u8BD1\u670D\u52A1/\u6587\u672C\u7FFB\u8BD1\u670D\u52A1\
+  -API\u6587\u6863.html"
 self_serve: true
 customization: []
 supported_languages:
@@ -148,11 +150,11 @@ supported_languages:
   base_code: fi
   name: Finnish
   variant_name: null
-- slug: null
+- slug: fijian
   code: fj
   normalized_code: fj
   base_code: fj
-  name: null
+  name: Fijian
   variant_name: null
 - slug: french
   code: fr
@@ -424,17 +426,17 @@ supported_languages:
   base_code: 'no'
   name: Norwegian
   variant_name: null
-- slug: chewa
+- slug: chichewa
   code: ny
   normalized_code: ny
   base_code: ny
-  name: Chewa
+  name: Chichewa
   variant_name: null
-- slug: null
+- slug: northwestern-otomi
   code: otq
   normalized_code: otq
   base_code: otq
-  name: null
+  name: Northwestern Otomi
   variant_name: null
 - slug: punjabi
   code: pa
@@ -586,17 +588,17 @@ supported_languages:
   base_code: tl
   name: Tagalog
   variant_name: null
-- slug: null
+- slug: klingon
   code: tlh
   normalized_code: tlh
   base_code: tlh
-  name: null
+  name: Klingon
   variant_name: null
-- slug: null
+- slug: tonga
   code: to
   normalized_code: to
   base_code: to
-  name: null
+  name: Tonga
   variant_name: null
 - slug: turkish
   code: tr
@@ -604,11 +606,11 @@ supported_languages:
   base_code: tr
   name: Turkish
   variant_name: null
-- slug: null
+- slug: tahitian
   code: ty
   normalized_code: ty
   base_code: ty
-  name: null
+  name: Tahitian
   variant_name: null
 - slug: ukrainian
   code: uk
@@ -652,17 +654,17 @@ supported_languages:
   base_code: yo
   name: Yoruba
   variant_name: null
-- slug: null
+- slug: yucatec-maya
   code: yua
   normalized_code: yua
   base_code: yua
-  name: null
+  name: Yucatec Maya
   variant_name: null
-- slug: null
+- slug: cantonese
   code: yue
   normalized_code: yue
   base_code: yue
-  name: null
+  name: Cantonese
   variant_name: null
 - slug: chinese
   code: zh-cn

@@ -10,7 +10,7 @@ family:
   name: Chadic
 - slug: afro-asiatic
   name: Afro-Asiatic
-supported_engines:
+supported_apis:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54

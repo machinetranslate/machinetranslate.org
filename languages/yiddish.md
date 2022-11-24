@@ -10,7 +10,7 @@ family:
   name: Germanic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65

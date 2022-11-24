@@ -8,6 +8,8 @@ code: iir
 languages:
 - slug: bengali
   name: Bengali
+- slug: divehi
+  name: Divehi
 - slug: gujarati
   name: Gujarati
 - slug: hindi

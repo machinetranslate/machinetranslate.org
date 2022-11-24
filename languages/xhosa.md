@@ -10,7 +10,7 @@ family:
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
-supported_engines:
+supported_apis:
 - id: modernmt
   name: ModernMT
   supported_language_count: 52

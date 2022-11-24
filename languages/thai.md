@@ -8,7 +8,7 @@ code: th
 family:
 - slug: tai
   name: Tai
-supported_engines:
+supported_apis:
 - id: papago
   name: Papago Translation
   supported_language_count: 12
@@ -34,7 +34,7 @@ supported_engines:
   name: Lingmo Translation
   supported_language_count: 26
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
 - id: sap
   name: SAP Translation Hub

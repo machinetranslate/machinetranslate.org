@@ -10,7 +10,7 @@ family:
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
-supported_engines:
+supported_apis:
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 45

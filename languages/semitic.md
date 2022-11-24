@@ -14,6 +14,8 @@ languages:
   name: Hebrew
 - slug: maltese
   name: Maltese
+- slug: tigrinya
+  name: Tigrinya
 
 ---
 

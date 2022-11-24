@@ -5,12 +5,12 @@ description: The Google Translate machine translation API
 id: google
 parent: APIs
 urls:
+- https://console.cloud.google.com/apis/library/translate.googleapis.com
 - https://cloud.google.com/translate/docs/languages
 - https://cloud.google.com/translate/automl/docs/languages
 self_serve: true
 customization:
 - Glossary
-supported_languages_comment: The consumer app usually covers more languages than the API.
 supported_languages:
 - slug: afrikaans
   code: af
@@ -420,11 +420,11 @@ supported_languages:
   base_code: 'no'
   name: Norwegian
   variant_name: null
-- slug: chewa
+- slug: chichewa
   code: ny
   normalized_code: ny
   base_code: ny
-  name: Chewa
+  name: Chichewa
   variant_name: null
 - slug: oriya
   code: or
@@ -669,3 +669,5 @@ supported_languages:
 nav_order: 891
 
 ---
+
+

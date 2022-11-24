@@ -8,7 +8,7 @@ code: te
 family:
 - slug: dravidian
   name: Dravidian
-supported_engines:
+supported_apis:
 - id: lilt
   name: Lilt
   supported_language_count: 50

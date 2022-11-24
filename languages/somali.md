@@ -10,7 +10,7 @@ family:
   name: Cushitic
 - slug: afro-asiatic
   name: Afro-Asiatic
-supported_engines:
+supported_apis:
 - id: systran
   name: SYSTRAN
   supported_language_count: 52

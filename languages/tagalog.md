@@ -8,7 +8,7 @@ code: tl
 family:
 - slug: austronesian
   name: Austronesian
-supported_engines:
+supported_apis:
 - id: textra
   name: TexTra
   supported_language_count: 19

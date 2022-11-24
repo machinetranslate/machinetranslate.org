@@ -10,7 +10,7 @@ family:
   name: Slavic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: modernmt
   name: ModernMT
   supported_language_count: 52

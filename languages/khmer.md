@@ -8,7 +8,7 @@ code: km
 family:
 - slug: austroasiatic
   name: Austroasiatic
-supported_engines:
+supported_apis:
 - id: textra
   name: TexTra
   supported_language_count: 19

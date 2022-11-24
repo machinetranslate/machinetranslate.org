@@ -10,7 +10,7 @@ family:
   name: Germanic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: sunda
   name: Sunda Translator
   supported_language_count: 2
@@ -23,18 +23,15 @@ supported_engines:
 - id: judicio
   name: Judicio
   supported_language_count: 4
-- id: alexa-ai
-  name: Alexa Translations A.I.
-  supported_language_count: 5
-- id: textshuttle
-  name: TextShuttle
-  supported_language_count: 5
 - id: cloudtranslation
   name: CloudTranslation
   supported_language_count: 8
 - id: pangeamt
   name: PangeaMT
   supported_language_count: 8
+- id: alexa-ai
+  name: Alexa Translations A.I.
+  supported_language_count: 10
 - id: translateme
   name: TranslateMe
   supported_language_count: 11
@@ -47,6 +44,9 @@ supported_engines:
 - id: mirai
   name: Mirai Translate
   supported_language_count: 13
+- id: textshuttle
+  name: TextShuttle
+  supported_language_count: 15
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 17
@@ -55,25 +55,25 @@ supported_engines:
   supported_language_count: 17
 - id: tilde
   name: Tilde
-  supported_language_count: 22
+  supported_language_count: 18
 - id: textra
   name: TexTra
   supported_language_count: 19
 - id: unbabel
   name: Unbabel
   supported_language_count: 25
-- id: etranslation
-  name: eTranslation
-  supported_language_count: 26
 - id: lingmo
   name: Lingmo Translation
   supported_language_count: 26
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 28
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
+- id: etranslation
+  name: eTranslation
+  supported_language_count: 30
 - id: kantanmt
   name: KantanMT
   supported_language_count: 33
@@ -88,7 +88,7 @@ supported_engines:
   supported_language_count: 40
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 45
@@ -142,3 +142,5 @@ supported_engines:
   supported_language_count: 302
 
 ---
+
+

@@ -1,5 +1,5 @@
 ---
-nav_order: 982
+nav_order: 981
 parent: Languages
 layout: language
 title: Norwegian
@@ -10,12 +10,15 @@ family:
   name: Germanic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
+- id: textshuttle
+  name: TextShuttle
+  supported_language_count: 15
 - id: unbabel
   name: Unbabel
   supported_language_count: 25
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
 - id: kantanmt
   name: KantanMT
@@ -25,7 +28,7 @@ supported_engines:
   supported_language_count: 38
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 45

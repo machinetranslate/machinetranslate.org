@@ -1,5 +1,5 @@
 ---
-nav_order: 980
+nav_order: 978
 parent: Languages
 layout: language
 title: Ukrainian
@@ -10,13 +10,13 @@ family:
   name: Slavic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: deepl
   name: DeepL
-  supported_language_count: 27
-- id: tilde
-  name: Tilde
-  supported_language_count: 22
+  supported_language_count: 28
+- id: etranslation
+  name: eTranslation
+  supported_language_count: 30
 - id: globalese
   name: Globalese
   supported_language_count: 34
@@ -28,7 +28,7 @@ supported_engines:
   supported_language_count: 40
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: lilt
   name: Lilt
   supported_language_count: 50
@@ -79,3 +79,5 @@ supported_engines:
   supported_language_count: 302
 
 ---
+
+

@@ -8,7 +8,7 @@ code: vi
 family:
 - slug: austroasiatic
   name: Austroasiatic
-supported_engines:
+supported_apis:
 - id: papago
   name: Papago Translation
   supported_language_count: 12
@@ -31,7 +31,7 @@ supported_engines:
   name: Unbabel
   supported_language_count: 25
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
 - id: globalese
   name: Globalese

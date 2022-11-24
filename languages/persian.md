@@ -12,7 +12,7 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: promt
   name: PROMT
   supported_language_count: 40

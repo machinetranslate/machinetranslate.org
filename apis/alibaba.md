@@ -100,11 +100,11 @@ supported_languages:
   base_code: vi
   name: Vietnamese
   variant_name: null
-- slug: null
+- slug: cantonese
   code: yue
   normalized_code: yue
   base_code: yue
-  name: null
+  name: Cantonese
   variant_name: null
 - slug: chinese
   code: zh
@@ -127,3 +127,5 @@ supported_languages:
 nav_order: 981
 
 ---
+
+

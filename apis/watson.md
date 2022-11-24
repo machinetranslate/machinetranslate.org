@@ -41,11 +41,11 @@ supported_languages:
   base_code: ca
   name: Catalan
   variant_name: null
-- slug: null
+- slug: bosnian
   code: cnr
   normalized_code: cnr
   base_code: cnr
-  name: null
+  name: Bosnian
   variant_name: null
 - slug: czech
   code: cs
@@ -332,3 +332,5 @@ supported_languages:
 nav_order: 947
 
 ---
+
+

@@ -10,16 +10,16 @@ family:
   name: Semitic
 - slug: afro-asiatic
   name: Afro-Asiatic
-supported_engines:
+supported_apis:
 - id: etranslation
   name: eTranslation
-  supported_language_count: 26
+  supported_language_count: 30
 - id: globalese
   name: Globalese
   supported_language_count: 34
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 45

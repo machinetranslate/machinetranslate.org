@@ -8,12 +8,12 @@ code: my
 family:
 - slug: sino-tibetan
   name: Sino-Tibetan
-supported_engines:
+supported_apis:
 - id: textra
   name: TexTra
   supported_language_count: 19
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
 - id: omniscien
   name: Omniscien Technologies

@@ -6,6 +6,8 @@ title: Bantu
 description: Machine translation for the Bantu language family
 code: bnt
 languages:
+- slug: bemba
+  name: Bemba
 - slug: kinyarwanda
   name: Kinyarwanda
 - slug: sotho

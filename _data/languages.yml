@@ -1287,7 +1287,7 @@
   territories: [ ]
 
 -
-  code: [ to, ton ]
+  codes: [ to, ton ]
   names: [ Tonga, Tongan ]
   family: [ map ]
   scripts: [ Latn ]

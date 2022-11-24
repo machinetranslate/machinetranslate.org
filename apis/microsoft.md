@@ -29,11 +29,11 @@ supported_languages:
   base_code: ar
   name: Arabic
   variant_name: null
-- slug: null
+- slug: assamese
   code: as
   normalized_code: as
   base_code: as
-  name: null
+  name: Assamese
   variant_name: null
 - slug: azerbaijani
   code: az
@@ -41,11 +41,11 @@ supported_languages:
   base_code: az
   name: Azerbaijani
   variant_name: null
-- slug: null
+- slug: bashkir
   code: ba
   normalized_code: ba
   base_code: ba
-  name: null
+  name: Bashkir
   variant_name: null
 - slug: bulgarian
   code: bg
@@ -59,11 +59,11 @@ supported_languages:
   base_code: bn
   name: Bengali
   variant_name: null
-- slug: null
+- slug: tibetan
   code: bo
   normalized_code: bo
   base_code: bo
-  name: null
+  name: Tibetan
   variant_name: null
 - slug: bosnian
   code: bs
@@ -101,11 +101,11 @@ supported_languages:
   base_code: de
   name: German
   variant_name: null
-- slug: null
+- slug: divehi
   code: dv
   normalized_code: dv
   base_code: dv
-  name: null
+  name: Divehi
   variant_name: null
 - slug: greek
   code: el
@@ -155,17 +155,17 @@ supported_languages:
   base_code: tl
   name: Tagalog
   variant_name: null
-- slug: null
+- slug: fijian
   code: fj
   normalized_code: fj
   base_code: fj
-  name: null
+  name: Fijian
   variant_name: null
-- slug: null
+- slug: faroese
   code: fo
   normalized_code: fo
   base_code: fo
-  name: null
+  name: Faroese
   variant_name: null
 - slug: french
   code: fr
@@ -215,11 +215,11 @@ supported_languages:
   base_code: hr
   name: Croatian
   variant_name: null
-- slug: null
+- slug: upper-sorbian
   code: hsb
   normalized_code: hsb
   base_code: hsb
-  name: null
+  name: Upper Sorbian
   variant_name: null
 - slug: haitian
   code: ht
@@ -245,11 +245,11 @@ supported_languages:
   base_code: id
   name: Indonesian
   variant_name: null
-- slug: null
+- slug: inuktitut
   code: ikt
   normalized_code: ikt
   base_code: ikt
-  name: null
+  name: Inuktitut
   variant_name: null
 - slug: icelandic
   code: is
@@ -263,17 +263,17 @@ supported_languages:
   base_code: it
   name: Italian
   variant_name: null
-- slug: null
+- slug: inuktitut
   code: iu
   normalized_code: iu
   base_code: iu
-  name: null
+  name: Inuktitut
   variant_name: null
-- slug: null
+- slug: inuktitut
   code: iu-Latn
   normalized_code: iu-Latn
   base_code: iu
-  name: null
+  name: Inuktitut
   variant_name: Latin
 - slug: japanese
   code: ja
@@ -443,11 +443,11 @@ supported_languages:
   base_code: or
   name: Oriya
   variant_name: null
-- slug: null
+- slug: northwestern-otomi
   code: otq
   normalized_code: otq
   base_code: otq
-  name: null
+  name: Northwestern Otomi
   variant_name: null
 - slug: punjabi
   code: pa
@@ -569,11 +569,11 @@ supported_languages:
   base_code: th
   name: Thai
   variant_name: null
-- slug: null
+- slug: tigrinya
   code: ti
   normalized_code: ti
   base_code: ti
-  name: null
+  name: Tigrinya
   variant_name: null
 - slug: turkmen
   code: tk
@@ -581,23 +581,23 @@ supported_languages:
   base_code: tk
   name: Turkmen
   variant_name: null
-- slug: null
+- slug: klingon
   code: tlh-Latn
   normalized_code: tlh-Latn
   base_code: tlh
-  name: null
+  name: Klingon
   variant_name: Latin
-- slug: null
+- slug: klingon
   code: tlh-Piqd
   normalized_code: tlh-Piqd
   base_code: tlh
-  name: null
+  name: Klingon
   variant_name: null
-- slug: null
+- slug: tonga
   code: to
   normalized_code: to
   base_code: to
-  name: null
+  name: Tonga
   variant_name: null
 - slug: turkish
   code: tr
@@ -611,11 +611,11 @@ supported_languages:
   base_code: tt
   name: Tatar
   variant_name: null
-- slug: null
+- slug: tahitian
   code: ty
   normalized_code: ty
   base_code: ty
-  name: null
+  name: Tahitian
   variant_name: null
 - slug: uyghur
   code: ug
@@ -647,17 +647,17 @@ supported_languages:
   base_code: vi
   name: Vietnamese
   variant_name: null
-- slug: null
+- slug: yucatec-maya
   code: yua
   normalized_code: yua
   base_code: yua
-  name: null
+  name: Yucatec Maya
   variant_name: null
-- slug: null
+- slug: cantonese
   code: yue
   normalized_code: yue
   base_code: yue
-  name: null
+  name: Cantonese
   variant_name: null
 - slug: chinese
   code: zh-Hans
@@ -680,3 +680,5 @@ supported_languages:
 nav_order: 889
 
 ---
+
+

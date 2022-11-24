@@ -12,12 +12,6 @@ customization:
 - Adaptive
 - Glossary
 supported_languages:
-- slug: bulgarian
-  code: bg
-  normalized_code: bg
-  base_code: bg
-  name: Bulgarian
-  variant_name: null
 - slug: czech
   code: cs
   normalized_code: cs
@@ -65,12 +59,6 @@ supported_languages:
   normalized_code: fr
   base_code: fr
   name: French
-  variant_name: null
-- slug: croatian
-  code: hr
-  normalized_code: hr
-  base_code: hr
-  name: Croatian
   variant_name: null
 - slug: hungarian
   code: hu
@@ -126,24 +114,14 @@ supported_languages:
   base_code: ru
   name: Russian
   variant_name: null
-- slug: slovak
-  code: sk
-  normalized_code: sk
-  base_code: sk
-  name: Slovak
-  variant_name: null
 - slug: swedish
   code: sv
   normalized_code: sv
   base_code: sv
   name: Swedish
   variant_name: null
-- slug: ukrainian
-  code: uk
-  normalized_code: uk
-  base_code: uk
-  name: Ukrainian
-  variant_name: null
 nav_order: 982
 
 ---
+
+

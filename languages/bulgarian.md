@@ -10,19 +10,16 @@ family:
   name: Slavic
 - slug: indo-european
   name: Indo-European
-supported_engines:
-- id: tilde
-  name: Tilde
-  supported_language_count: 22
+supported_apis:
 - id: unbabel
   name: Unbabel
   supported_language_count: 25
-- id: etranslation
-  name: eTranslation
-  supported_language_count: 26
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 28
+- id: etranslation
+  name: eTranslation
+  supported_language_count: 30
 - id: kantanmt
   name: KantanMT
   supported_language_count: 33
@@ -37,7 +34,7 @@ supported_engines:
   supported_language_count: 40
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 45
@@ -91,3 +88,5 @@ supported_engines:
   supported_language_count: 302
 
 ---
+
+

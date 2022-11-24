@@ -34,11 +34,11 @@ supported_languages:
   base_code: az
   name: Azerbaijani
   variant_name: null
-- slug: null
+- slug: bashkir
   code: ba
   normalized_code: ba
   base_code: ba
-  name: null
+  name: Bashkir
   variant_name: null
 - slug: belarusian
   code: be
@@ -316,11 +316,11 @@ supported_languages:
   base_code: mg
   name: Malagasy
   variant_name: null
-- slug: null
+- slug: meadow-mari
   code: mhr
   normalized_code: mhr
   base_code: mhr
-  name: null
+  name: Meadow Mari
   variant_name: null
 - slug: maori
   code: mi
@@ -352,11 +352,11 @@ supported_languages:
   base_code: mr
   name: Marathi
   variant_name: null
-- slug: null
+- slug: hill-mari
   code: mrj
   normalized_code: mrj
   base_code: mrj
-  name: null
+  name: Hill Mari
   variant_name: null
 - slug: malay
   code: ms
@@ -400,11 +400,11 @@ supported_languages:
   base_code: pa
   name: Punjabi
   variant_name: null
-- slug: null
+- slug: papiamento
   code: pap
   normalized_code: pap
   base_code: pap
-  name: null
+  name: Papiamento
   variant_name: null
 - slug: polish
   code: pl
@@ -520,11 +520,11 @@ supported_languages:
   base_code: tt
   name: Tatar
   variant_name: null
-- slug: null
+- slug: udmurt
   code: udm
   normalized_code: udm
   base_code: udm
-  name: null
+  name: Udmurt
   variant_name: null
 - slug: ukrainian
   code: uk
@@ -571,3 +571,5 @@ supported_languages:
 nav_order: 907
 
 ---
+
+

@@ -10,7 +10,7 @@ family:
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
-supported_engines:
+supported_apis:
 - id: google
   name: Google Translate
   supported_language_count: 108

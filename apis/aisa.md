@@ -7,7 +7,8 @@ parent: APIs
 urls:
 - https://www.aisa.digital/machine-translation-api
 self_serve: false
-customization: []
+customization:
+- Glossary
 supported_languages:
 - slug: arabic
   code: ar
@@ -114,3 +115,5 @@ supported_languages:
 nav_order: 983
 
 ---
+
+

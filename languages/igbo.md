@@ -8,7 +8,7 @@ code: ig
 family:
 - slug: niger-congo
   name: Niger-Congo
-supported_engines:
+supported_apis:
 - id: lilt
   name: Lilt
   supported_language_count: 50

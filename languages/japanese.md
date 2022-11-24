@@ -1,5 +1,5 @@
 ---
-nav_order: 968
+nav_order: 966
 parent: Languages
 layout: language
 title: Japanese
@@ -8,13 +8,16 @@ code: ja
 family:
 - slug: japonic
   name: Japonic
-supported_engines:
+supported_apis:
 - id: cloudtranslation
   name: CloudTranslation
   supported_language_count: 8
 - id: pangeamt
   name: PangeaMT
   supported_language_count: 8
+- id: alexa-ai
+  name: Alexa Translations A.I.
+  supported_language_count: 10
 - id: papago
   name: Papago Translation
   supported_language_count: 12
@@ -41,10 +44,13 @@ supported_engines:
   supported_language_count: 26
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 28
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
+- id: etranslation
+  name: eTranslation
+  supported_language_count: 30
 - id: kantanmt
   name: KantanMT
   supported_language_count: 33

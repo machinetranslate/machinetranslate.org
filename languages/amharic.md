@@ -10,7 +10,7 @@ family:
   name: Semitic
 - slug: afro-asiatic
   name: Afro-Asiatic
-supported_engines:
+supported_apis:
 - id: apptek
   name: AppTek
   supported_language_count: 65

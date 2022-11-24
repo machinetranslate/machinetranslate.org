@@ -1,5 +1,5 @@
 ---
-nav_order: 965
+nav_order: 964
 parent: Languages
 layout: language
 title: Russian
@@ -10,7 +10,7 @@ family:
   name: Slavic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: translateme
   name: TranslateMe
   supported_language_count: 11
@@ -23,6 +23,9 @@ supported_engines:
 - id: mirai
   name: Mirai Translate
   supported_language_count: 13
+- id: textshuttle
+  name: TextShuttle
+  supported_language_count: 15
 - id: aisa
   name: AISA
   supported_language_count: 16
@@ -34,7 +37,7 @@ supported_engines:
   supported_language_count: 17
 - id: tilde
   name: Tilde
-  supported_language_count: 22
+  supported_language_count: 18
 - id: textra
   name: TexTra
   supported_language_count: 19
@@ -46,9 +49,9 @@ supported_engines:
   supported_language_count: 26
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 28
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
 - id: kantanmt
   name: KantanMT
@@ -64,7 +67,7 @@ supported_engines:
   supported_language_count: 40
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 45

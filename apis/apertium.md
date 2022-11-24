@@ -16,11 +16,11 @@ supported_languages:
   base_code: af
   name: Afrikaans
   variant_name: null
-- slug: null
+- slug: aragonese
   code: an
   normalized_code: an
   base_code: an
-  name: null
+  name: Aragonese
   variant_name: null
 - slug: arabic
   code: ar
@@ -28,11 +28,11 @@ supported_languages:
   base_code: ar
   name: Arabic
   variant_name: null
-- slug: null
+- slug: asturian
   code: ast
   normalized_code: ast
   base_code: ast
-  name: null
+  name: Asturian
   variant_name: null
 - slug: belarusian
   code: be
@@ -46,11 +46,11 @@ supported_languages:
   base_code: bg
   name: Bulgarian
   variant_name: null
-- slug: null
+- slug: breton
   code: br
   normalized_code: br
   base_code: br
-  name: null
+  name: Breton
   variant_name: null
 - slug: catalan
   code: ca
@@ -58,11 +58,11 @@ supported_languages:
   base_code: ca
   name: Catalan
   variant_name: null
-- slug: null
+- slug: crimean-tatar
   code: crh
   normalized_code: crh
   base_code: crh
-  name: null
+  name: Crimean Tatar
   variant_name: null
 - slug: welsh
   code: cy
@@ -154,6 +154,12 @@ supported_languages:
   base_code: mk
   name: Macedonian
   variant_name: null
+- slug: malay
+  code: ms
+  normalized_code: ms
+  base_code: ms
+  name: Malay
+  variant_name: null
 - slug: maltese
   code: mt
   normalized_code: mt
@@ -172,12 +178,6 @@ supported_languages:
   base_code: nl
   name: Dutch
   variant_name: null
-- slug: null
-  code: ms
-  normalized_code: ms
-  base_code: ms
-  name: Malay
-  variant_name: null  
 - slug: norwegian
   code: nn
   normalized_code: nn
@@ -190,11 +190,11 @@ supported_languages:
   base_code: 'no'
   name: Norwegian
   variant_name: null
-- slug: null
+- slug: occitan
   code: oc
   normalized_code: oc
   base_code: oc
-  name: null
+  name: Occitan
   variant_name: null
 - slug: polish
   code: pl
@@ -220,17 +220,17 @@ supported_languages:
   base_code: ru
   name: Russian
   variant_name: null
-- slug: null
+- slug: sardinian
   code: sc
   normalized_code: sc
   base_code: sc
-  name: null
+  name: Sardinian
   variant_name: null
-- slug: null
+- slug: northern-sami
   code: se
   normalized_code: se
   base_code: se
-  name: null
+  name: Northern Sami
   variant_name: null
 - slug: slovenian
   code: sl
@@ -244,11 +244,11 @@ supported_languages:
   base_code: sv
   name: Swedish
   variant_name: null
-- slug: null
+- slug: silesian
   code: szl
   normalized_code: szl
   base_code: szl
-  name: null
+  name: Silesian
   variant_name: null
 - slug: turkish
   code: tr
@@ -274,5 +274,14 @@ supported_languages:
   base_code: ur
   name: Urdu
   variant_name: null
-nav_order: 956
+- slug: null
+  code: zlm
+  normalized_code: zlm
+  base_code: zlm
+  name: null
+  variant_name: null
+nav_order: 955
+
 ---
+
+

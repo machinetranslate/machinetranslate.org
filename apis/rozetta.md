@@ -382,11 +382,11 @@ supported_languages:
   base_code: 'no'
   name: Norwegian
   variant_name: null
-- slug: chewa
+- slug: chichewa
   code: ny
   normalized_code: ny
   base_code: ny
-  name: Chewa
+  name: Chichewa
   variant_name: null
 - slug: punjabi
   code: pa
@@ -589,3 +589,5 @@ supported_languages:
 nav_order: 904
 
 ---
+
+

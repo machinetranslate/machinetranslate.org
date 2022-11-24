@@ -12,10 +12,10 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 45

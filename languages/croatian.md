@@ -10,13 +10,10 @@ family:
   name: Slavic
 - slug: indo-european
   name: Indo-European
-supported_engines:
-- id: tilde
-  name: Tilde
-  supported_language_count: 22
+supported_apis:
 - id: etranslation
   name: eTranslation
-  supported_language_count: 26
+  supported_language_count: 30
 - id: kantanmt
   name: KantanMT
   supported_language_count: 33
@@ -79,3 +76,5 @@ supported_engines:
   supported_language_count: 302
 
 ---
+
+

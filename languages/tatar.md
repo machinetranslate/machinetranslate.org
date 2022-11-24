@@ -8,13 +8,13 @@ code: tt
 family:
 - slug: turkic
   name: Turkic
-supported_engines:
+supported_apis:
 - id: promt
   name: PROMT
   supported_language_count: 40
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

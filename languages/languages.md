@@ -5,7 +5,7 @@ title: Languages
 description: Languages supported by machine translation APIs
 ---
 
-More than a hundred languages and locales are supported by more than one [machine translation APIs](/engines/engines.md)
+More than a hundred languages and locales are supported by more than one [machine translation APIs](/apis/apis.md)
 
 Most engines support translation between any two language that they support.
 Some engines only support translation to and from a major language like English.

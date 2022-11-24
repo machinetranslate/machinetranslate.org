@@ -24,12 +24,16 @@ languages:
   name: Russian
 - slug: serbian
   name: Serbian
+- slug: silesian
+  name: Silesian
 - slug: slovak
   name: Slovak
 - slug: slovenian
   name: Slovenian
 - slug: ukrainian
   name: Ukrainian
+- slug: upper-sorbian
+  name: Upper Sorbian
 
 ---
 

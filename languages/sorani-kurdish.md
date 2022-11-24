@@ -12,7 +12,7 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103

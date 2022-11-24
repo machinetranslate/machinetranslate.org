@@ -8,6 +8,8 @@ code: map
 languages:
 - slug: cebuano
   name: Cebuano
+- slug: fijian
+  name: Fijian
 - slug: hawaiian
   name: Hawaiian
 - slug: indonesian
@@ -26,6 +28,12 @@ languages:
   name: Sundanese
 - slug: tagalog
   name: Tagalog
+- slug: tahitian
+  name: Tahitian
+- slug: tetum
+  name: Tetum
+- slug: tonga
+  name: Tonga
 
 ---
 

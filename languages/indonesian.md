@@ -8,7 +8,7 @@ code: id
 family:
 - slug: austronesian
   name: Austronesian
-supported_engines:
+supported_apis:
 - id: cloudtranslation
   name: CloudTranslation
   supported_language_count: 8
@@ -38,16 +38,16 @@ supported_engines:
   supported_language_count: 26
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 28
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
 - id: kantanmt
   name: KantanMT
   supported_language_count: 33
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 45

@@ -10,7 +10,7 @@ family:
   name: Romance
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: lingmo
   name: Lingmo Translation
   supported_language_count: 26
@@ -19,7 +19,7 @@ supported_engines:
   supported_language_count: 38
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: modernmt
   name: ModernMT
   supported_language_count: 52

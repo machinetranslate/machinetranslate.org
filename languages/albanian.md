@@ -8,7 +8,7 @@ code: sq
 family:
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: lilt
   name: Lilt
   supported_language_count: 50
