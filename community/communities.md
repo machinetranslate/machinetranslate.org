@@ -23,7 +23,7 @@ Machine translation communities are mainly global, online lists, groups or fora.
 
 ### Workshop on Statistical Machine Translation
 
-**Workshop on Statistical Machine Translation** (wmt-tasks@googlegroups.com) is the official mailing list of [WMT](/events/wmt.md).
+**Workshop on Statistical Machine Translation** (wmt-tasks@googlegroups.com) is the official mailing list of [WMT](/associations/wmt.md).
 
 > This is the announcement list for the shared tasks of the WMT Conference in Machine Translation.
 

@@ -141,7 +141,7 @@ There was not enough time to answer all of the audience questions during the mee
 >
 > > Probably.
 > >
-> > Most of the evaluation metrics right (say in the metrics task at [WMT](/wmt.md)) are focused on cases where minute differences of high-quality translations are important (dissemination), while others like BLEU/XSTS are more than adequate for assimilation use cases.
+> > Most of the evaluation metrics right (say in the metrics task at [WMT](/associations/wmt.md)) are focused on cases where minute differences of high-quality translations are important (dissemination), while others like [BLEU](/metrics/bleu.md)/XSTS are more than adequate for assimilation use cases.
 
 > ### What is the minimum investment in terms of training set size to make machine translation for a low-resource language usable?
 >

@@ -1,5 +1,5 @@
 ---
-parent: Events
+parent: Associations
 title: WMT
 description: Description of the Conference on Machine Translation
 name: WMT
