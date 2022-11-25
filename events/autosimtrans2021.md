@@ -5,7 +5,7 @@ description: Second Workshop on Automatic Simultaneous Translation
 location: Mexico City, Mexico
 name: Automatic Simultaneous Translation 2021
 startDate: 2021-06-10
-nav_order:
+
 seo:
   type: Event
   name: Automatic Simultaneous Translation 2021

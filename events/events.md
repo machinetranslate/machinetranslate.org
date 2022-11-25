@@ -1,6 +1,6 @@
 ---
 nav_order: 2
-has_children: true
+has_children: false
 title: Events
 description: Machine translation events
 featured: true
@@ -103,7 +103,7 @@ featured: true
 | 20 August | PSLT2019 | Dublin, Ireland |
 | 19 August | [HAT19](hat19.md) | Dublin, Ireland |
 | 19 - 23 August | [MT Summit 2019](mtsummit2019.md) | Dublin, Ireland |
-| 1 - 2 August | [**WMT19**](wmt9.md) | Florence, Italy |
+| 1 - 2 August | [**WMT19**](wmt19.md) | Florence, Italy |
 | 3 June | [Machine Translation Meetup 4](zurich-4.md) | Zurich, Switzerland |
 | 15 January | [Machine Translation Meetup 3](zurich-3.md) | Zurich, Switzerland |
 
