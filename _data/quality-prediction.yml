@@ -52,4 +52,5 @@
   customisation: false
   urls:
     - https://cloud.google.com/translation-hub/docs/user-post-edit#segment-details
+    - https://cloud.google.com/translation-hub/docs/supported-languages#machine_translation_quality_prediction_model
 
