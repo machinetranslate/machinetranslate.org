@@ -7,7 +7,7 @@ description: Calls for papers for machine translation events and publications
 
 ### Calls for papers
 
-| Deadline | Organisers | Publication |
+| Deadline | Publication | Organisers |
 | --- | --- | --- |
 | **1 February 2023** | [***The Role of Context in Neural Machine Translation Systems and its Evaluation***](https://sites.google.com/dcu.ie/nlecontextnmt/home) | JNLE |
 | **23 December 2022** | [***Machine translation evaluation in the context of scholarly communication***](https://www.operas-eu.org/machine-translation-evaluation-in-the-context-of-scholarly-communication-open-call/) | OPERAS |
