@@ -754,7 +754,7 @@
   territories: [ lv ]
 
 -
-  codes: [ mah ]
+  codes: [ mh, mah ]
   names: [ Marshallese, Ebon ]
   family: [ aav ]
   scripts: [ Latn ]
@@ -1387,7 +1387,7 @@
   territories: [ vn ]
 
 -
-  codes: [ wol ]
+  codes: [ wo, wol ]
   names: [ Wolof ]
   family: [ nic ]
   scripts: [ Latn, Arab ]
