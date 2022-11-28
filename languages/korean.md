@@ -24,9 +24,6 @@ supported_apis:
 - id: aisa
   name: AISA
   supported_language_count: 16
-- id: alibaba
-  name: Alibaba Translate
-  supported_language_count: 17
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17
@@ -102,10 +99,12 @@ supported_apis:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

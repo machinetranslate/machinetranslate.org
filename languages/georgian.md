@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 985
 parent: Languages
 layout: language
 title: Georgian
@@ -48,10 +48,12 @@ supported_apis:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

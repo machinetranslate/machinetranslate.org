@@ -1,7 +1,7 @@
 ---
 layout: api
 title: SAP Translation Hub
-description: Document Translation Service – the machine translation API in SAP Translation Hub
+description: The SAP Translation Hub machine translation API
 id: sap
 parent: APIs
 urls:
@@ -247,3 +247,4 @@ supported_languages:
 nav_order: 961
 
 ---
+

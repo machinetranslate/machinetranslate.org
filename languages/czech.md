@@ -1,5 +1,5 @@
 ---
-nav_order: 974
+nav_order: 972
 parent: Languages
 layout: language
 title: Czech
@@ -11,6 +11,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: textshuttle
+  name: TextShuttle
+  supported_language_count: 15
 - id: tilde
   name: Tilde
   supported_language_count: 18
@@ -86,10 +89,12 @@ supported_apis:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

@@ -15,9 +15,6 @@ supported_apis:
 - id: lingo24
   name: Lingo24
   supported_language_count: 13
-- id: alibaba
-  name: Alibaba Translate
-  supported_language_count: 17
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17
@@ -99,12 +96,14 @@ supported_apis:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 Turkish is the language with the best machine translation support in the Turkic language family.  
 
 Turkic languages are agglutinative and usually have vowel harmony.
@@ -116,12 +115,12 @@ These projects were [rule-based machine translation](/approaches/rule-based-mach
 
 In 2011, Apertium launched the Apertium Turkic work group in an attempt to create resources for Turkic languages rule-based machine translation and natural language processing.
 
-In 2019, Emel AlkÄ±m and YalÃ§Ä±n Ã‡ebi launched MT-Turk for Turkish, Kirghiz and Kazan Tatar.
+In 2019, Emel AlkÃƒÆ’Ã¢â‚¬Å¾Ãƒâ€šÃ‚Â±m and YalÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â‚¬Å¾Ãƒâ€šÃ‚Â±n ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ebi launched MT-Turk for Turkish, Kirghiz and Kazan Tatar.
 MT-Turk is a rule-based machine translation system that uses interlingual and transfer systems.
 
 In 2020, [Turkic Interlingua](/community/communities.md#til) was created to develop language technology, including parallel corpora, in the most spoken Turkic languages.
 
-In 2021, the Literary Machine Translation Project started at the Department of Translation and Interpreting Studies from the BoÄŸaziÃ§i University.
+In 2021, the Literary Machine Translation Project started at the Department of Translation and Interpreting Studies from the BoÃƒÆ’Ã¢â‚¬Å¾Ãƒâ€¦Ã‚Â¸aziÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§i University.
 
 > This project aims to use MT to translate into Turkish literary texts whose style has been defined using corpus tools.
 

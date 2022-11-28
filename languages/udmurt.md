@@ -1,5 +1,5 @@
 ---
-nav_order: 998
+nav_order: 997
 parent: Languages
 layout: language
 title: Udmurt
@@ -12,10 +12,12 @@ supported_apis:
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

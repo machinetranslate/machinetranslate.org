@@ -1,5 +1,5 @@
 ---
-nav_order: 994
+nav_order: 993
 parent: Languages
 layout: language
 title: Corsican
@@ -26,10 +26,12 @@ supported_apis:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

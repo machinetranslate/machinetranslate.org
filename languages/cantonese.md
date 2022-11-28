@@ -9,9 +9,6 @@ family:
 - slug: sino-tibetan
   name: Sino-Tibetan
 supported_apis:
-- id: alibaba
-  name: Alibaba Translate
-  supported_language_count: 17
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
@@ -21,10 +18,12 @@ supported_apis:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

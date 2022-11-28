@@ -117,18 +117,17 @@ It measures how often a system was judged to be better than or equal to any othe
 
 | Language pair | System | `≥ others` |
 | --- | --- | --- |
-| French → | `GOOGLE` <br>`DCU` <br>`LIMSI` <br>`JHU` <br>`UEDIN` <br>`CMU-STATXFER` <br>`RWTH` | 0.76 <br>0.66 <br>0.65 <br>0.62 <br>0.61 <br>0.58 <br>0.52 | 
-| German → | `USAAR` <br>`GOOGLE` <br>`RBMT2` <br>`STUTTGART` <br>`SYSTRAN` <br>`UEDIN` <br>`UKA` <br>`UMD` <br>`LIU` | 0.65 <br>0.65 <br>0.64 <br>0.61 <br>0.60 <br>0.59 <br>0.58 <br>0.56 <br>0.50 | 
-| Spanish → | `GOOGLE` <br>`TALP-UPC` <br>`UEDIN` <br>`RBMT1` <br>`RBMT3` <br>`RBMT5` <br>`RBMT4` <br>`RWTH` | 0.70 <br>0.59 <br>0.56 <br>0.55 <br>0.55 <br>0.55 <br>0.53 <br>0.51 | 
-| Czech → | `GOOGLE` <br>`UEDIN` <br>`CU-BOJAR` | 0.75 <br>0.57 <br>0.51 | 
-| Hungarian → | `MORPHO` <br>`UMD` | 0.75 <br>0.66 | 
+| French → | `GOOGLE` <br>`DCU` <br>`LIMSI` <br>`JHU` <br>`UEDIN` <br>`CMU-STATXFER` <br>`RWTH` | 0.76 <br>0.66 <br>0.65 <br>0.62 <br>0.61 <br>0.58 <br>0.52 |
+| German → | `USAAR` <br>`GOOGLE` <br>`RBMT2` <br>`STUTTGART` <br>`SYSTRAN` <br>`UEDIN` <br>`UKA` <br>`UMD` <br>`LIU` | 0.65 <br>0.65 <br>0.64 <br>0.61 <br>0.60 <br>0.59 <br>0.58 <br>0.56 <br>0.50 |
+| Spanish → | `GOOGLE` <br>`TALP-UPC` <br>`UEDIN` <br>`RBMT1` <br>`RBMT3` <br>`RBMT5` <br>`RBMT4` <br>`RWTH` | 0.70 <br>0.59 <br>0.56 <br>0.55 <br>0.55 <br>0.55 <br>0.53 <br>0.51 |
+| Czech → | `GOOGLE` <br>`UEDIN` <br>`CU-BOJAR` | 0.75 <br>0.57 <br>0.51 |
+| Hungarian → | `MORPHO` <br>`UMD` | 0.75 <br>0.66 |
 
 #### English →
 
 | Language pair | System | `≥ others` |
 | --- | --- | --- |
-| → French | `LIUM-SYSTRAN` <br>`GOOGLE` <br>`UKA` <br>`SYSTRAN` <br>`RBMT3` <br>`DCU` <br>`LIMSI` <br>`UEDIN` | 0.73 <br>0.68 <br>0.66 <br>0.65 <br>0.65 <br>0.65 <br>0.64 <br>0.60 | 
-| → German | `RBMT2` <br>`RBMT3` <br>`RBMT5` <br>`UKA` <br>`UEDIN` <br>`LIU` <br>`RWTH` | 0.66 <br>0.64 <br>0.64 <br>0.54 <br>0.51 <br>0.49 <br>0.48 | 
-| → Spanish | `RBMT3` <br>`UEDIN` <br>`GOOGLE` <br>`RBMT5` <br>`NUS` | 0.66 <br>0.66 <br>0.65 <br>0.64 <br>0.59 | 
-| → Czech | `PCTRANS` <br>`EUROTRANXP` <br>`CU-BOJAR` | 0.67 <br>0.67 <br>0.61 | 
-
+| → French | `LIUM-SYSTRAN` <br>`GOOGLE` <br>`UKA` <br>`SYSTRAN` <br>`RBMT3` <br>`DCU` <br>`LIMSI` <br>`UEDIN` | 0.73 <br>0.68 <br>0.66 <br>0.65 <br>0.65 <br>0.65 <br>0.64 <br>0.60 |
+| → German | `RBMT2` <br>`RBMT3` <br>`RBMT5` <br>`UKA` <br>`UEDIN` <br>`LIU` <br>`RWTH` | 0.66 <br>0.64 <br>0.64 <br>0.54 <br>0.51 <br>0.49 <br>0.48 |
+| → Spanish | `RBMT3` <br>`UEDIN` <br>`GOOGLE` <br>`RBMT5` <br>`NUS` | 0.66 <br>0.66 <br>0.65 <br>0.64 <br>0.59 |
+| → Czech | `PCTRANS` <br>`EUROTRANXP` <br>`CU-BOJAR` | 0.67 <br>0.67 <br>0.61 |

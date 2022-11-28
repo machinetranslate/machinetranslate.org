@@ -1,5 +1,5 @@
 ---
-nav_order: 984
+nav_order: 983
 parent: Languages
 layout: language
 title: Bengali
@@ -58,10 +58,12 @@ supported_apis:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

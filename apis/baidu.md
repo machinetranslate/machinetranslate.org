@@ -6,7 +6,6 @@ id: baidu
 parent: APIs
 urls:
 - https://ai.baidu.com/tech/mt/text_trans
-- "https://ai.baidu.com/ai-doc/MT/4kqryjku9#\u8BED\u79CD\u5217\u8868"
 - https://github.com/machinetranslate/machinetranslate.org/issues/268
 self_serve: true
 customization: []
@@ -59,11 +58,11 @@ supported_languages:
   base_code: an
   name: Aragonese
   variant_name: null
-- slug: null
+- slug: armenian
   code: arm
-  normalized_code: arm
-  base_code: arm
-  name: null
+  normalized_code: hy
+  base_code: hy
+  name: Armenian
   variant_name: null
 - slug: null
   code: arq
@@ -677,11 +676,11 @@ supported_languages:
   base_code: lzh
   name: Chinese
   variant_name: null
-- slug: null
+- slug: marshallese
   code: mah
   normalized_code: mh
   base_code: mh
-  name: null
+  name: Marshallese
   variant_name: null
 - slug: null
   code: mai
@@ -1163,11 +1162,11 @@ supported_languages:
   base_code: wa
   name: null
   variant_name: null
-- slug: null
+- slug: wolof
   code: wol
   normalized_code: wo
   base_code: wo
-  name: null
+  name: Wolof
   variant_name: null
 - slug: xhosa
   code: xho
@@ -1220,3 +1219,4 @@ supported_languages:
 nav_order: 799
 
 ---
+
