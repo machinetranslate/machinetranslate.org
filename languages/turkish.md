@@ -115,12 +115,12 @@ These projects were [rule-based machine translation](/approaches/rule-based-mach
 
 In 2011, Apertium launched the Apertium Turkic work group in an attempt to create resources for Turkic languages rule-based machine translation and natural language processing.
 
-In 2019, Emel AlkÃƒÆ’Ã¢â‚¬Å¾Ãƒâ€šÃ‚Â±m and YalÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã¢â‚¬Å¾Ãƒâ€šÃ‚Â±n ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¡ebi launched MT-Turk for Turkish, Kirghiz and Kazan Tatar.
+In 2019, Emel Alkım and Yalçın Çebi launched MT-Turk for Turkish, Kirghiz and Kazan Tatar.
 MT-Turk is a rule-based machine translation system that uses interlingual and transfer systems.
 
 In 2020, [Turkic Interlingua](/community/communities.md#til) was created to develop language technology, including parallel corpora, in the most spoken Turkic languages.
 
-In 2021, the Literary Machine Translation Project started at the Department of Translation and Interpreting Studies from the BoÃƒÆ’Ã¢â‚¬Å¾Ãƒâ€¦Ã‚Â¸aziÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§i University.
+In 2021, the Literary Machine Translation Project started at the Department of Translation and Interpreting Studies from the Boğaziçi University.
 
 > This project aims to use MT to translate into Turkish literary texts whose style has been defined using corpus tools.
 
