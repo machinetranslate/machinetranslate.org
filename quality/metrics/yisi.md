@@ -11,6 +11,8 @@ description: Evaluation metric using sentence representation
 The term YiSi comes from the Cantonese word 意思, which means ‘meaning’.
 
 > YiSi is a unified semantic MT quality evaluation and estimation metric for languages with different levels of available resources.
+>
+> [*YiSi - A unified semantic MT quality evaluation and estimation metric for languages with different levels of available resources*](https://aclanthology.org/W19-5358.pdf)
 
 ### Variants
 

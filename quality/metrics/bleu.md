@@ -11,6 +11,8 @@ description: Evaluation metric based on n-gram precision
 Its basic unit of evaluation is the sentence.
 
 > The closer a machine translation is to a professional human translation, the better it is.
+>
+> [*BLEU: a Method for Automatic Evaluation of Machine Translation*](https://aclanthology.org/P02-1040.pdf)
 
 BLEU is the standard metric for machine translation evaluation.
 
