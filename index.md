@@ -13,6 +13,21 @@ seo:
 
 The content covers everything about machine translation, from products to research, and from history to news.
 
+<div style="display: flex; justify-content: center; gap: 20%;">
+  <div>
+    <center>
+      <h1>44</h1>
+      <a href="/apis">APIs</a>
+    </center>
+  </div>
+  <div>
+    <center>
+      <h1>147</h1>
+      <a href="/languages">languages</a>
+    </center>
+  </div>
+</div>
+
 > #### Featured events
 > - [Machine translation meetup](/machine-translation-meetup-2) - 21 October, online - **New: Answers to audience questions!**
 > - [WMT22](/wmt22) - December, Abu Dhabi
