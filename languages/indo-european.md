@@ -78,6 +78,8 @@ languages:
   name: Macedonian
 - slug: marathi
   name: Marathi
+- slug: montenegrin
+  name: Montenegrin
 - slug: nepali
   name: Nepali
 - slug: norwegian

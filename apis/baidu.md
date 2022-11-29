@@ -6,6 +6,7 @@ id: baidu
 parent: APIs
 urls:
 - https://ai.baidu.com/tech/mt/text_trans
+- "https://ai.baidu.com/ai-doc/MT/4kqryjku9#\u8BED\u79CD\u5217\u8868"
 - https://github.com/machinetranslate/machinetranslate.org/issues/268
 self_serve: true
 customization: []
@@ -202,11 +203,11 @@ supported_languages:
   base_code: cv
   name: null
   variant_name: null
-- slug: bosnian
+- slug: montenegrin
   code: cnr
   normalized_code: cnr
   base_code: cnr
-  name: Bosnian
+  name: Montenegrin
   variant_name: null
 - slug: null
   code: cor
@@ -1219,4 +1220,3 @@ supported_languages:
 nav_order: 799
 
 ---
-

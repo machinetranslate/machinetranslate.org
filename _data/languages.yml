@@ -72,7 +72,7 @@
 
 -
   codes: [ az, aze, azj, azb ]
-  names: [ Azerbaijani, Azeri, Azeri Turkish, Azerbaijani Turkish, Turkish, Turkmen, Caucasian Tatar ]
+  names: [ Azerbaijani, Azeri, Azeri Turkish, Azerbaijani Turkish, Turkish, Turkmen, Caucasian Tatar, South Azerbaijani, North Azerbaijani ]
   family: [ trk ]
   scripts: [ Latn, Cyrl, Arab ]
   typology:
@@ -171,7 +171,7 @@
   territories: [ fr ]
 
 -
-  codes: [ bs, bos, cnr ]
+  codes: [ bs, bos ]
   names: [ Bosnian ]
   variant_names: [ Serbo-Croatian ]
   family: [ sla, ine ]
@@ -229,6 +229,17 @@
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]
   territories: [ ro, ru, ua ]
+
+-
+  codes: [ cnr ]
+  names: [ Montenegrin ]
+  variant_names: [ Serbo-Croatian ]
+  family: [ sla, ine ]
+  scripts: [ Latn, Cyrl ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, inflected ]
+  territories: [ me ]
 
 -
   codes: [ cs, ces, cze ]
@@ -990,13 +1001,13 @@
 
 -
   codes: [ pt, por ]
-  names: [ Portuguese ]
+  names: [ Portuguese, European Portuguese, Brazilian Portuguese ]
   family: [ roa, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
     morphosyntax: [ inflected ]
-  territories: [ br, pt ]
+  territories: [ br, pt, ao, mz ]
 
 -
   codes: [ ro, ron, rum ]
