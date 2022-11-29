@@ -11,9 +11,7 @@ seo:
 
 **Machine Translate** is building **open resources and community for machine translation**.
 
-The content covers everything about machine translation, from products to research, and from history to news.
-
-<div style="display: flex; justify-content: center; gap: 20%;">
+<div style="display: flex; justify-content: center; gap: 20%; padding: 1em;">
   <div>
     <center>
       <h1>44</h1>
@@ -27,6 +25,9 @@ The content covers everything about machine translation, from products to resear
     </center>
   </div>
 </div>
+
+The content covers everything about machine translation, from products to research, and from history to news.
+
 
 > #### Featured events
 > - [Machine translation meetup](/machine-translation-meetup-2) - 21 October, online - **New: Answers to audience questions!**
