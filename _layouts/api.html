@@ -68,7 +68,7 @@ parent: APIs
         {% endif %}
       </a>
         {% if language.normalized_code != language.code %}
-           Note: {{ page.title }} uses <code>{{ language.code }}</code>.
+           ⚠️ {{ page.title }} uses <code>{{ language.code }}</code>.
         {% endif %}
       {% else %}
       <a href="https://en.wikipedia.org/wiki/ISO_639:{{ language.base_code }}" target="_blank">
