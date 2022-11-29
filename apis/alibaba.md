@@ -190,11 +190,11 @@ supported_languages:
   base_code: chr
   name: Cherokee
   variant_name: null
-- slug: bosnian
+- slug: montenegrin
   code: cnr
   normalized_code: cnr
   base_code: cnr
-  name: Bosnian
+  name: Montenegrin
   variant_name: null
 - slug: corsican
   code: co

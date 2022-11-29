@@ -18,6 +18,8 @@ languages:
   name: Czech
 - slug: macedonian
   name: Macedonian
+- slug: montenegrin
+  name: Montenegrin
 - slug: polish
   name: Polish
 - slug: russian
