@@ -61,15 +61,15 @@ parent: APIs
     <li>
       {% if language.slug %}
       <a href="/{{ language.slug }}">
-        <code>{{ language.code }}</code>
+        <code>{{ language.normalized_code }}</code>
         {{ language.name }}
         {% if language.variant_name %}
           | {{ language.variant_name }}
         {% endif %}
-        {% if language.normalized_code != language.code %}
-          Note: {{ page.title }} uses <code>{{ language.normalized_code }}</code>.
-        {% endif %}
       </a>
+        {% if language.normalized_code != language.code %}
+           Note: {{ page.title }} uses <code>{{ language.code }}</code>.
+        {% endif %}
       {% else %}
       <a href="https://en.wikipedia.org/wiki/ISO_639:{{ language.base_code }}" target="_blank">
         <code>{{ language.code }}</code>
