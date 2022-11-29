@@ -62,12 +62,12 @@ parent: APIs
       {% if language.slug %}
       <a href="/{{ language.slug }}">
         <code>{{ language.code }}</code>
-        {% if language.normalized_code != language.code %}
-          (<code>{{ language.normalized_code }}</code>)
-        {% endif %}
         {{ language.name }}
         {% if language.variant_name %}
           | {{ language.variant_name }}
+        {% endif %}
+        {% if language.normalized_code != language.code %}
+          Note: {{ page.title }} uses <code>{{ language.normalized_code }}</code>.
         {% endif %}
       </a>
       {% else %}
