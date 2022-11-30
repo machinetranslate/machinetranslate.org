@@ -274,7 +274,10 @@ for api in APIS:
   for integration in INTEGRATIONS:
     for i in api_integrations:
       if i is api_id:
-        integrations.append(i)
+        integrations.append({
+          'name': integration['name'],
+          'documentation_url': integration['documentation_url']
+        })
   
   frontmatter = {
     'layout': 'api',
