@@ -81,3 +81,17 @@ parent: APIs
     </li>
   {% endfor %}
 </ul>
+
+
+
+<h2 id="integrations">Integrations</h2>
+
+<p><strong>{{ page.integrations | size }}</strong> translation management systems have integrated {{ page.title }}.</p>
+
+<ul>
+  {% for integration in page.integrations %}
+    <li>
+      {{ integration.name }}
+    </li>
+  {% endfor %}
+</ul>
