@@ -14,14 +14,18 @@ seo:
 <div style="display: flex; justify-content: center; gap: 20%; padding: 1em;">
   <div>
     <center>
-      <h1>44</h1>
-      <a href="/apis">APIs</a>
+      <a href="/apis">
+        <h1>44</h1>
+        APIs
+      </a>
     </center>
   </div>
   <div>
     <center>
-      <h1>147</h1>
-      <a href="/languages">languages</a>
+      <a href="/languages">
+        <h1>147</h1>
+        languages
+      </a>
     </center>
   </div>
 </div>
