@@ -114,7 +114,7 @@ Confirmed language pairs:
 | 11:00 - 12:40 | **Session 2: Research Papers on Evaluation and Bias** |
 | 11:00 - 11:20 | [***Embarrassingly Easy Document-Level MT Metrics: How to Convert Any Pretrained Metric into a Document-Level Metric***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.6.pdf) <br>Giorgos Vernikos, Brian Thompson, Prashant Mathur, Marcello Federico |
 | 11:20 - 11:40 | [***Searching for a Higher Power in the Human Evaluation of MT***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.7.pdf) <br>Johnny Wei, Tom Kocmi, Christian Federmann |
-| 11:40 - 12:00 | [***Test Set Sampling Affects System Rankings: Expanded Human Evaluation of WMT20 English-Inuktitut Systems***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.8.pdf) <br>Rebecca Knowles, Chi-kiu Lo |
+| 11:40 - 12:00 | [***Analyzing the Use of Influence Functions for Instance-Specific Data Filtering in Neural Machine Translation***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.23.pdf) <br>Tsz Kin Lam, Eva Hasler, Felix Hieber |
 | 12:00 - 12:20 | [***Continuous Rating as Reliable Human Evaluation of Simultaneous Speech Translation***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.9.pdf) <br>Dávid Javorský, Dominik Macháček, Ondřej Bojar |
 | 12:20 - 12:40 |	[***Gender Bias Mitigation for NMT Involving Genderless Languages***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.10.pdf) <br>Ander Corral, Xabier Saralegi |
 | 12:40 - 14:00 | 🍴 |
@@ -122,8 +122,10 @@ Confirmed language pairs:
 | 14:00 - 14:20 |	[***Exploring the Benefits and Limitations of Multilinguality for Non-autoregressive Machine Translation***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.11.pdf) <br>Sweta Agrawal, Julia Kreutzer, Colin Cherry |
 | 14:20 - 14:40 |	[***Learning an Artificial Language for Knowledge-Sharing in Multilingual Translation***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.12.pdf) <br>Danni Liu, Jan Niehues |
 | 14:40 - 15:00 |	[***Don’t Discard Fixed-Window Audio Segmentation in Speech-to-Text Translation***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.13.pdf) <br>Chantal Amrhein, Barry Haddow |
-| 15:00 - 15:20|	[***Additive Interventions Yield Robust Multi-Domain Machine Translation Models***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.14.pdf) <br>Elijah Rippeth, Matt Post |
-| 15:20 - 16:00 |	☕️ |
+| 15:00 - 15:20 |	[***Additive Interventions Yield Robust Multi-Domain Machine Translation Models***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.14.pdf) <br>Elijah Rippeth, Matt Post |
+| 15:20 - 15:40	| [***Test Set Sampling Affects System Rankings: Expanded Human Evaluation of WMT20 English-Inuktitut Systems***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.8.pdf) <br>Rebecca Knowles, Chi-kiu Lo |
+| 15:40 - 16:00 | [***Can Domains Be Transferred across Languages in Multi-Domain Multilingual Neural Machine Translation?***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.34.pdf) <br>Thuy-Trang Vu, Shahram Khadivi, Xuanli He, Dinh Phung, Gholamreza Haffari |
+| 15:30 - 16:00 |	☕️ |
 | 16:00 - 17:30 | **Session 4: Shared Task System Description Posters I** |
 | 16:00 - 17:30 | **News Translation Task** |
 | 16:00 - 17:30 | [***Inria-ALMAnaCH at WMT 2022: Does Transcription Help Cross-Script Machine Translation?***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.15.pdf) <br>Jesujoba Alabi, Lydia Nishimwe, Benjamin Muller, Camille Rey, Benoît Sagot, Rachel Bawden |
@@ -134,7 +136,6 @@ Confirmed language pairs:
 | 16:00 - 17:30 | [***Manifold’s English-Chinese System at WMT22 General MT Task***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.20.pdf) <br>Chang Jin, Tingxun Shi, Zhengshan Xue, Xiaodong Lin |
 | 16:00 - 17:30 |	[***CUNI-Bergamot Submission at WMT22 General Translation Task***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.21.pdf) <br>Josef Jon, Martin Popel, Ondřej Bojar |
 | 16:00 - 17:30 | [***KYB General Machine Translation Systems for WMT22***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.22.pdf) <br>Shivam Kalkar, Yoko Matsuzaki, Ben Li |
-| 16:00 - 17:30 | [***Analyzing the Use of Influence Functions for Instance-Specific Data Filtering in Neural Machine Translation***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.23.pdf) <br>Tsz Kin Lam, Eva Hasler, Felix Hieber |
 | 16:00 - 17:30 |	[***The AISP-SJTU Translation System for WMT 2022***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.24.pdf) <br>Guangfeng Liu, Qinpei Zhu, Xingyu Chen, Renjie Feng, Jianxin Ren, Renshou Wu, Qingliang Miao, Rui Wang, Kai Yu |
 | 16:00 - 17:30 | [***NT5 at WMT 2022 General Translation Task***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.25.pdf) <br>Makoto Morishita, Keito Kudo, Yui Oka, Katsuki Chousa, Shun Kiyono, Sho Takase, Jun Suzuki |
 | 16:00 - 17:30 | [***Adam Mickiewicz University at WMT 2022: NER-Assisted and Quality-Aware Neural Machine Translation***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.26.pdf) <br>Artur Nowakowski, Gabriela Pałka, Kamil Guttmann, Mikołaj Pokrywka |
@@ -145,7 +146,6 @@ Confirmed language pairs:
 | 16:00 - 17:30 | [***The ARC-NKUA Submission for the English-Ukrainian General Machine Translation Shared Task at WMT22***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.31.pdf) <br>Dimitrios Roussis, Vassilis Papavassiliou |
 | 16:00 - 17:30 | [***The NiuTrans Machine Translation Systems for WMT22***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.32.pdf) <br>Weiqiao Shan, Zhiquan Cao, Yuchen Han, Siming Wu, Yimin Hu, jie wang, Yi Zhang, Hou Baoyu, Hang Cao, Chenghao Gao, Xiaowen Liu, Tong Xiao, Anxiang Ma, Jingbo Zhu |
 | 16:00 - 17:30 | [***Teaching Unseen Low-resource Languages to Large Translation Models***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.33.pdf) <br>Maali Tars, Taido Purason, Andre Tättar |
-| 16:00 - 17:30 | [***Can Domains Be Transferred across Languages in Multi-Domain Multilingual Neural Machine Translation?***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.34.pdf) <br>Thuy-Trang Vu, Shahram Khadivi, Xuanli He, Dinh Phung, Gholamreza Haffari |
 | 16:00 - 17:30 | [***DUTNLP Machine Translation System for WMT22 General MT Task***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.35.pdf) <br>Ting Wang, Huan Liu, Junpeng Liu, Degen Huang |
 | 16:00 - 17:30 |	[***HW-TSC’s Submissions to the WMT 2022 General Machine Translation Shared Task***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.36.pdf) <br>Daimeng Wei, Zhiqiang Rao, Zhanglin Wu, Shaojun Li, Yuanchang Luo, Yuhao Xie, Xiaoyu Chen, Hengchao Shang, Zongyao Li, Zhengzhe Yu, Jinlong Yang, Miaomiao Ma, Lizhi Lei, Hao Yang, Ying Qin |
 | 16:00 - 17:30 |	[***Vega-MT: The JD Explore Academy Machine Translation System for WMT22***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.37.pdf) <br>Changtong Zan, keqin Peng, Liang Ding, Baopu Qiu, Boan Liu, Shwai He, Qingyu Lu, Zheng Zhang, Chuang Liu, Weifeng Liu, Yibing Zhan, Dacheng Tao |
