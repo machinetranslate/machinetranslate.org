@@ -4,14 +4,14 @@ title: Second AmericasNLP Competition
 description: Machine translation for indigenous languages of the Americas
 location: online
 name: Second AmericasNLP Competition
-startDate: 2022-12-02
+startDate: 2022-12-07
 
 seo:
   type: Event
   name: Second AmericasNLP Competition
   description:
-  startDate: 2022-12-02
-  endDate: 2022-12-09
+  startDate: 2022-12-07
+  endDate: 2022-12-07
   eventAttendanceMode: OnlineEventAttendanceMode
   eventStatus: EventScheduled
 
@@ -76,4 +76,4 @@ Participants will build systems for three tasks.
 | 15 September | Release of test input/start of evaluation phase (MT tasks) |
 | 25 October | Submission of translations by participants/end of competition (Machine Translation) |
 | 29 October | Announcements of results |
-| December | Competition track meeting at NeurIPS (virtual event) |
+| 7 December | Competition track meeting at NeurIPS (virtual event) |
