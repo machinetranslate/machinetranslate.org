@@ -7,15 +7,23 @@ parent: APIs
 urls:
 - https://omniscien.com
 - https://omniscien.com/machine-translation/supported-languages/
-self_serve: false
+self_serve: true
 customization:
+- Adaptive
 - Glossary
+- Formality
 supported_languages:
 - slug: arabic
   code: ar
   normalized_code: ar
   base_code: ar
   name: Arabic
+  variant_name: null
+- slug: belarusian
+  code: be
+  normalized_code: be
+  base_code: be
+  name: Belarusian
   variant_name: null
 - slug: bulgarian
   code: bg
@@ -28,6 +36,12 @@ supported_languages:
   normalized_code: bn
   base_code: bn
   name: Bengali
+  variant_name: null
+- slug: catalan
+  code: ca
+  normalized_code: ca
+  base_code: ca
+  name: Catalan
   variant_name: null
 - slug: czech
   code: cs
@@ -84,6 +98,12 @@ supported_languages:
   name: Finnish
   variant_name: null
 - slug: french
+  code: fr-ca
+  normalized_code: fr-ca
+  base_code: fr
+  name: French
+  variant_name: null
+- slug: french
   code: fr
   normalized_code: fr
   base_code: fr
@@ -113,6 +133,12 @@ supported_languages:
   base_code: hi
   name: Hindi
   variant_name: null
+- slug: croatian
+  code: hr
+  normalized_code: hr
+  base_code: hr
+  name: Croatian
+  variant_name: null
 - slug: hungarian
   code: hu
   normalized_code: hu
@@ -124,6 +150,12 @@ supported_languages:
   normalized_code: id
   base_code: id
   name: Indonesian
+  variant_name: null
+- slug: icelandic
+  code: is
+  normalized_code: is
+  base_code: is
+  name: Icelandic
   variant_name: null
 - slug: italian
   code: it
@@ -137,7 +169,7 @@ supported_languages:
   base_code: ja
   name: Japanese
   variant_name: null
-- slug: khmer
+- slug: georgian
   code: km
   normalized_code: km
   base_code: km
@@ -148,6 +180,18 @@ supported_languages:
   normalized_code: ko
   base_code: ko
   name: Korean
+  variant_name: null
+- slug: kurdish
+  code: ku
+  normalized_code: kk
+  base_code: ku
+  name: Kurdish
+  variant_name: null
+- slug: luxembourgish
+  code: lb
+  normalized_code: lb
+  base_code: lb
+  name: Luxembourgish
   variant_name: null
 - slug: lithuanian
   code: lt
@@ -179,12 +223,6 @@ supported_languages:
   base_code: my
   name: Burmese
   variant_name: null
-- slug: nepali
-  code: ne
-  normalized_code: ne
-  base_code: ne
-  name: Nepali
-  variant_name: null
 - slug: dutch
   code: nl
   normalized_code: nl
@@ -192,10 +230,16 @@ supported_languages:
   name: Dutch
   variant_name: null
 - slug: norwegian
-  code: 'no'
-  normalized_code: 'no'
-  base_code: 'no'
+  code: no
+  normalized_code: no
+  base_code: no
   name: Norwegian
+  variant_name: null
+- slug: punjabi
+  code: pa
+  normalized_code: pa
+  base_code: pa
+  name: Punjabi
   variant_name: null
 - slug: polish
   code: pl
@@ -204,8 +248,14 @@ supported_languages:
   name: Polish
   variant_name: null
 - slug: portuguese
+  code: pt-pt
+  normalized_code: pt-pt
+  base_code: pt
+  name: Portuguese
+  variant_name: null
+- slug: portuguese
   code: pt
-  normalized_code: pt
+  normalized_code: pt-pt
   base_code: pt
   name: Portuguese
   variant_name: null
@@ -221,6 +271,12 @@ supported_languages:
   base_code: ru
   name: Russian
   variant_name: null
+- slug: sinhala
+  code: si
+  normalized_code: si
+  base_code: si
+  name: Sinhala
+  variant_name: null
 - slug: slovak
   code: sk
   normalized_code: sk
@@ -232,6 +288,24 @@ supported_languages:
   normalized_code: sl
   base_code: sl
   name: Slovenian
+  variant_name: null
+- slug: somali
+  code: so
+  normalized_code: so
+  base_code: so
+  name: Somali
+  variant_name: null
+- slug: albanian
+  code: sq
+  normalized_code: sq
+  base_code: sq
+  name: Albanian
+  variant_name: null
+- slug: serbian
+  code: sr
+  normalized_code: sr
+  base_code: sr
+  name: Serbian
   variant_name: null
 - slug: swedish
   code: sv
@@ -245,11 +319,23 @@ supported_languages:
   base_code: sw
   name: Swahili
   variant_name: null
+- slug: tamil
+  code: ta
+  normalized_code: ta
+  base_code: ta
+  name: Tamil
+  variant_name: null
 - slug: thai
   code: th
   normalized_code: th
   base_code: th
   name: Thai
+  variant_name: null
+- slug: turkmen
+  code: tk
+  normalized_code: tk
+  base_code: tk
+  name: Turkmen
   variant_name: null
 - slug: tagalog
   code: tl
@@ -262,6 +348,12 @@ supported_languages:
   normalized_code: tr
   base_code: tr
   name: Turkish
+  variant_name: null
+- slug: ukrainian
+  code: uk
+  normalized_code: uk
+  base_code: uk
+  name: Ukrainian
   variant_name: null
 - slug: urdu
   code: ur
@@ -278,6 +370,12 @@ supported_languages:
 - slug: chinese
   code: zh
   normalized_code: zh
+  base_code: zh
+  name: Chinese
+  variant_name: null
+- slug: chinese
+  code: zh-tw
+  normalized_code: zh-Hant
   base_code: zh
   name: Chinese
   variant_name: null
