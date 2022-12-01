@@ -230,9 +230,9 @@ supported_languages:
   name: Dutch
   variant_name: null
 - slug: norwegian
-  code: no
-  normalized_code: no
-  base_code: no
+  code: 'no'
+  normalized_code: 'no'
+  base_code: 'no'
   name: Norwegian
   variant_name: null
 - slug: punjabi
