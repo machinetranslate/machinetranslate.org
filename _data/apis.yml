@@ -208,7 +208,7 @@
   urls:
    - https://omniscien.com
    - https://omniscien.com/machine-translation/supported-languages/
-  languages: [ ar, be, bg, bn, ca, cz, da, de, el, en, es, et, fa, fi, fr, fr, ga, gu, he, hi, hr, hu, id, is, it, ja, km, ko, ku, lb, lt, lv, ms, mt, my, nl, no, pa, pl, pt, pt, ro, ru, si, sk, sl, so, sq, sr, sv, sw, ta, th, tk, tl, tr, uk, ur, vi, zh, zh ]
+  languages: [ ar, be, bg, bn, ca, cz, da, de, el, en, es, et, fa, fi, fr, fr, ga, gu, he, hi, hr, hu, id, is, it, ja, km, ko, ku, lb, lt, lv, ms, mt, my, nl, 'no', pa, pl, pt, pt, ro, ru, si, sk, sl, so, sq, sr, sv, sw, ta, th, tk, tl, tr, uk, ur, vi, zh, zh ]
   glossary: true
   formality: true
   adaptive: true
