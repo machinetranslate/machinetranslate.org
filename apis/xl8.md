@@ -149,7 +149,7 @@ supported_languages:
   name: Portuguese
   variant_name: null
 - slug: portuguese
-  code: pt-BR
+  code: pt-br
   normalized_code: pt-br
   base_code: pt
   name: Portuguese
