@@ -81,7 +81,7 @@ def read_content(filepth):
   content = ''
   if not exists(filepath):
     return ''
-  with open(filepath, 'r') as f:
+  with open(filepath, 'r', encoding='utf8') as f:
     page = f.read()
     i = page.find('\n---\n', 3)
     i += len('\n---\n')
