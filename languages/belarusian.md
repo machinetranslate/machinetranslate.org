@@ -1,5 +1,5 @@
 ---
-nav_order: 989
+nav_order: 988
 parent: Languages
 layout: language
 title: Belarusian
@@ -14,6 +14,9 @@ supported_apis:
 - id: apertium
   name: Apertium
   supported_language_count: 45
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65

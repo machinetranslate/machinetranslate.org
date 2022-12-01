@@ -1,5 +1,5 @@
 ---
-nav_order: 992
+nav_order: 991
 parent: Languages
 layout: language
 title: Luxembourgish
@@ -11,6 +11,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

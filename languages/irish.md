@@ -20,15 +20,15 @@ supported_apis:
 - id: globalese
   name: Globalese
   supported_language_count: 34
-- id: omniscien
-  name: Omniscien Technologies
-  supported_language_count: 45
 - id: modernmt
   name: ModernMT
   supported_language_count: 52
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65

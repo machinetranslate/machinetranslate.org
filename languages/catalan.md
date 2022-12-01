@@ -1,5 +1,5 @@
 ---
-nav_order: 982
+nav_order: 981
 parent: Languages
 layout: language
 title: Catalan
@@ -32,6 +32,9 @@ supported_apis:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65

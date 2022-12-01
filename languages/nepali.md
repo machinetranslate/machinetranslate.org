@@ -1,5 +1,5 @@
 ---
-nav_order: 988
+nav_order: 989
 parent: Languages
 layout: language
 title: Nepali
@@ -16,9 +16,6 @@ supported_apis:
 - id: textra
   name: TexTra
   supported_language_count: 19
-- id: omniscien
-  name: Omniscien Technologies
-  supported_language_count: 45
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52

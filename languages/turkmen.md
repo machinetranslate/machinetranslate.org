@@ -1,5 +1,5 @@
 ---
-nav_order: 992
+nav_order: 991
 parent: Languages
 layout: language
 title: Turkmen
@@ -12,6 +12,9 @@ supported_apis:
 - id: promt
   name: PROMT
   supported_language_count: 40
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65

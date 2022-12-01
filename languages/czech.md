@@ -1,5 +1,5 @@
 ---
-nav_order: 972
+nav_order: 973
 parent: Languages
 layout: language
 title: Czech
@@ -41,9 +41,6 @@ supported_apis:
 - id: promt
   name: PROMT
   supported_language_count: 40
-- id: omniscien
-  name: Omniscien Technologies
-  supported_language_count: 45
 - id: lilt
   name: Lilt
   supported_language_count: 50

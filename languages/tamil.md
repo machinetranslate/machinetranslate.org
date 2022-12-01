@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 985
 parent: Languages
 layout: language
 title: Tamil
@@ -18,6 +18,9 @@ supported_apis:
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65

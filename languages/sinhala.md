@@ -1,5 +1,5 @@
 ---
-nav_order: 990
+nav_order: 989
 parent: Languages
 layout: language
 title: Sinhala
@@ -16,6 +16,9 @@ supported_apis:
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70

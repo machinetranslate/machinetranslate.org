@@ -1,5 +1,5 @@
 ---
-nav_order: 987
+nav_order: 986
 parent: Languages
 layout: language
 title: Punjabi
@@ -19,6 +19,9 @@ supported_apis:
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65

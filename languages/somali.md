@@ -1,5 +1,5 @@
 ---
-nav_order: 987
+nav_order: 986
 parent: Languages
 layout: language
 title: Somali
@@ -17,6 +17,9 @@ supported_apis:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65

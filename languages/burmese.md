@@ -15,12 +15,12 @@ supported_apis:
 - id: xl8
   name: XL8
   supported_language_count: 29
-- id: omniscien
-  name: Omniscien Technologies
-  supported_language_count: 45
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

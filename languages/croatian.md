@@ -1,5 +1,5 @@
 ---
-nav_order: 979
+nav_order: 978
 parent: Languages
 layout: language
 title: Croatian
@@ -41,6 +41,9 @@ supported_apis:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65

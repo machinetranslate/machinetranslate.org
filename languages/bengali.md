@@ -13,9 +13,6 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
-- id: omniscien
-  name: Omniscien Technologies
-  supported_language_count: 45
 - id: lilt
   name: Lilt
   supported_language_count: 50
@@ -28,6 +25,9 @@ supported_apis:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65

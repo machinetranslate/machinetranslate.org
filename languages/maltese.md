@@ -20,9 +20,6 @@ supported_apis:
 - id: apertium
   name: Apertium
   supported_language_count: 45
-- id: omniscien
-  name: Omniscien Technologies
-  supported_language_count: 45
 - id: modernmt
   name: ModernMT
   supported_language_count: 52
@@ -32,6 +29,9 @@ supported_apis:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65

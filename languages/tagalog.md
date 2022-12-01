@@ -12,9 +12,6 @@ supported_apis:
 - id: textra
   name: TexTra
   supported_language_count: 19
-- id: omniscien
-  name: Omniscien Technologies
-  supported_language_count: 45
 - id: lilt
   name: Lilt
   supported_language_count: 50
@@ -24,6 +21,9 @@ supported_apis:
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65
