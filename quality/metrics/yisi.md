@@ -1,7 +1,7 @@
 ---
 grand_parent: Building and research
 parent: Metrics
-nav_order: 4
+nav_order: 5
 title: YiSi
 description: Evaluation metric using sentence representation
 ---
@@ -12,7 +12,7 @@ The term YiSi comes from the Cantonese word 意思, which means ‘meaning’.
 
 > YiSi is a unified semantic MT quality evaluation and estimation metric for languages with different levels of available resources.
 >
-> [*YiSi - A unified semantic MT quality evaluation and estimation metric for languages with different levels of available resources*](https://aclanthology.org/W19-5358.pdf)
+> [*YiSi - A unified semantic MT quality evaluation and estimation metric for languages with different levels of available resources*](#resources-and-papers)
 
 ### Variants
 
@@ -26,7 +26,7 @@ YiSi offers different variants depending on the resources available for the eval
 | | | Can also estimate quality without any reference |
 
 
-### References
+### Resources and papers
 
+- [*YiSi - A unified semantic MT quality evaluation and estimation metric for languages with different levels of available resources*](https://aclanthology.org/W19-5358.pdf)
 - [github.com/chikiulo/yisi](https://github.com/chikiulo/yisi)
-- [aclanthology.org/W19-5358.pdf](https://aclanthology.org/W19-5358.pdf)

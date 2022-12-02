@@ -6,19 +6,35 @@ title: Metrics
 description: Metrics for evaluating machine translation
 ---
 
-Metrics are formulas that represent the quality of the machine translation output.
+**Metrics** are formulas that represent the quality of the machine translation output.
 
-Machine translation quality metrics are divided into string-based metrics and pre-trained metrics.
+Human evaluation and automatic evaluation are different approaches to machine translation quality and have different metrics.
 
-## String-based metrics
+## Human evaluation metrics
+
+- [MQM](human-evaluation-metrics.md#mqm)
+- [Average score and average z-score](human-evaluation-metrics.md#average-score-and-average-z-score)
+- [TrueSkill](human-evaluation-metrics.md#trueskill)
+- [Adecuacy and fluency judgement](human-evaluation-metrics.md#adequacy-and-fluency-judgement)
+- [Relative ranking](human-evaluation-metrics.md#relative-ranking)
+- [Constituent ranking](human-evaluation-metrics.md#constituent-ranking)
+- [Yes or no constituent judgement](human-evaluation-metrics.md#yes-and-no-constituent-judgement)
+- [Direct assessment](human-evaluation-metrics.md#direct-assessment)
+
+
+## Automatic evaluation metrics
+
+Automatic quality metrics are divided into string-based metrics and pre-trained metrics.
+
+### String-based metrics
 
 String-based metrics measure the lexical matching between the system output and the reference translation.
 
-### Challenges
+#### Challenges
 
 String-based metrics are challenging because there are many possible translations for a single source text.
 
-### Examples
+#### Examples
 
 - [BLEU](bleu.md)
 - [METEOR](meteor.md)
@@ -30,7 +46,7 @@ String-based metrics are challenging because there are many possible translation
 
 ## Machine learning metrics
 
-Machine learning metrics use a language model. These metrics embed the source sentence into a multidimesional space to calculate the differences.
+Machine learning metrics use a language model. These metrics embed the source sentence into a multidimensional space to calculate the differences.
 
 - [COMET](comet.md)
 - [YiSi](yisi.md)

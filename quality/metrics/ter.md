@@ -1,7 +1,7 @@
 ---
 grand_parent: Building and research
 parent: Metrics
-nav_order: 8
+nav_order: 9
 title: TER
 description: Translation Error Rate
 ---
@@ -10,15 +10,15 @@ description: Translation Error Rate
 
 > TER is defined as the minimum number of edits needed to change a hypothesis so that it exactly matches one of the references, normalized by the average length of the references.
 >
-> [*A Study of Translation Edit Rate with Targeted Human Annotation*](https://www.cs.umd.edu/~snover/pub/amta06/ter_amta.pdf)
+> [*A Study of Translation Edit Rate with Targeted Human Annotation*](#resources-and-papers)
 
-TER corresponds to [post-editing effort](https://machinetranslate.org/post-editing#metrics).
+TER corresponds to [post-editing effort](/../workflows/post-editing#metrics).
 
 ### Variants
 
 - hTER
 - TERp
 
-### See more:
+### Resources and papers
 
-- [Metrics](/../resources/publications#metrics)
+- [*A Study of Translation Edit Rate with Targeted Human Annotation*](https://www.cs.umd.edu/~snover/pub/amta06/ter_amta.pdf)

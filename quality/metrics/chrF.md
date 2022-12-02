@@ -1,7 +1,7 @@
 ---
 grand_parent: Building and research
 parent: Metrics
-nav_order: 5
+nav_order: 6
 title: chrF
 description: CHaRacter-level F-score
 ---
@@ -16,7 +16,7 @@ The chrF metric compares the machine translation output with reference translati
 
 > It is language-independent, tokenisation-independent and it shows good correlations with human judgments both on the system- as well as with on the segment-level, especially the CHRF3 variant.
 >
-> [*chrF: character n-gram f-score for automatic MT evaluation*](https://aclanthology.org/W15-3049.pdf)
+> [*chrF: character n-gram f-score for automatic MT evaluation*](#resources-and-papers)
 
 ### Variants
 
@@ -25,7 +25,7 @@ The chrF metric compares the machine translation output with reference translati
 
 *Note: The list is incomplete.*
 
-### See more:
+### Resources and papers
 
-- [Metrics](/../resources/publications#metrics)
+- [*chrF: character n-gram f-score for automatic MT evaluation*](https://aclanthology.org/W15-3049.pdf)
 - [github.com/m-popovic/chrF](https://github.com/m-popovic/chrF)

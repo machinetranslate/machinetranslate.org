@@ -1,7 +1,7 @@
 ---
 grand_parent: Building and research
 parent: Metrics
-nav_order: 7
+nav_order: 8
 title: BERTScore
 description: Evaluation metric using BERT sentence representations
 ---
@@ -20,14 +20,15 @@ BERTScore was invented as an improvement on [n-gram](/../concepts/n-gram.md)-bas
 >
 > In contrast, contextualized embeddings are trained to effectively capture distant dependencies and ordering.
 >
-> [*BERTScore: Evaluating Text Generation with BERT*](https://arxiv.org/pdf/1904.09675.pdf)
+> [*BERTScore: Evaluating Text Generation with BERT*](#resources-and-papers)
 
 The BERTScore metric uses sentence representations from BERT, a deep learning model.
 
 > BERTScore computes precision, recall, and F1 measure.
 >
-> [*Metric: bert_score*](https://huggingface.co/spaces/evaluate-metric/bertscore)
+> [*Metric: bert_score*](#resources-and-papers)
 
-### See more:
+### Resources and papers
 
-- [Metrics](/../resources/publications#metrics)
+- [*BERTScore: Evaluating Text Generation with BERT*](https://arxiv.org/pdf/1904.09675.pdf)
+- [*Metric: bert_score*](https://huggingface.co/spaces/evaluate-metric/bertscore)
