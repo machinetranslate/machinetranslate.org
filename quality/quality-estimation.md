@@ -94,7 +94,7 @@ A few translation management systems have launched generally available features 
 | Product | Feature | Provider |
 | ---| --- | --- |
 | [KantanStream](/industry/companies.md#kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | KantanAI |
-| Memsource | [Memsource quality estimation](https://www.memsource.com/features/translation-quality-estimation/)  | Memsource |
+| PhraseTMS | [MT quality estimation](https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-)  | Phrase |
 | [translate5](https://translate5.net) | Risk prediction | ModelFront |
 | [GlobalDoc](https://globaldoc.com) LangXpert | Effort estimation | ModelFront |
 

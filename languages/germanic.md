@@ -14,6 +14,8 @@ languages:
   name: Dutch
 - slug: english
   name: English
+- slug: faroese
+  name: Faroese
 - slug: frisian
   name: Frisian
 - slug: german
@@ -30,5 +32,4 @@ languages:
   name: Yiddish
 
 ---
-
 

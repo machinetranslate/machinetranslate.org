@@ -1,6 +1,7 @@
 ---
 aav: Austroasiatic
 afa: Afro-Asiatic
+aym: Aymaran
 bat: Baltic
 bnt: Bantu
 ccs: Kartvelian
@@ -12,6 +13,7 @@ cpp: Portuguese-based creoles
 crp: Creoles
 cus: Cushitic
 dra: Dravidian
+esx: Eskimo-Aleut
 fiu: Finno-Ugric
 gem: Germanic
 grk: Hellenic
@@ -20,10 +22,13 @@ iir: Indo-Iranian
 ine: Indo-European
 inc: Indo-Aryan
 ira: Iranic
+iro: Iroquoian
 jpx: Japonic
 kor: Koreanic # There is no standard code for this.
 map: Austronesian
+myn: Mayan
 nic: Niger-Congo
+omq: Oto-Manguean
 roa: Romance
 sem: Semitic
 sit: Sino-Tibetan

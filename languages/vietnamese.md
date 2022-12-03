@@ -8,7 +8,7 @@ code: vi
 family:
 - slug: austroasiatic
   name: Austroasiatic
-supported_engines:
+supported_apis:
 - id: papago
   name: Papago Translation
   supported_language_count: 12
@@ -18,9 +18,6 @@ supported_engines:
 - id: aisa
   name: AISA
   supported_language_count: 16
-- id: alibaba
-  name: Alibaba Translate
-  supported_language_count: 17
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17
@@ -31,7 +28,7 @@ supported_engines:
   name: Unbabel
   supported_language_count: 25
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
 - id: globalese
   name: Globalese
@@ -39,9 +36,6 @@ supported_engines:
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 38
-- id: omniscien
-  name: Omniscien Technologies
-  supported_language_count: 45
 - id: lilt
   name: Lilt
   supported_language_count: 50
@@ -57,6 +51,9 @@ supported_engines:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65
@@ -84,10 +81,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

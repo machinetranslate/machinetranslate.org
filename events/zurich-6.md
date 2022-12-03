@@ -20,8 +20,6 @@ seo:
     addressLocality: Zurich
 ---
 
-# Zurich Machine Translation Meetup 2020
-
 The sixth **Machine Translation Meetup** (**MTM**) took place on 3 February, 2021, in Zurich, Switzerland.
 
 The topic was ***Integrating MT with CAT Tools***.

@@ -10,7 +10,7 @@ family:
   name: Celtic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
@@ -31,8 +31,7 @@ supported_engines:
   supported_language_count: 197
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

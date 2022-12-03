@@ -1,5 +1,5 @@
 ---
-nav_order: 977
+nav_order: 976
 parent: Languages
 layout: language
 title: Hebrew
@@ -10,12 +10,12 @@ family:
   name: Semitic
 - slug: afro-asiatic
   name: Afro-Asiatic
-supported_engines:
+supported_apis:
 - id: lingmo
   name: Lingmo Translation
   supported_language_count: 26
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
 - id: kantanmt
   name: KantanMT
@@ -29,9 +29,6 @@ supported_engines:
 - id: promt
   name: PROMT
   supported_language_count: 40
-- id: omniscien
-  name: Omniscien Technologies
-  supported_language_count: 45
 - id: lilt
   name: Lilt
   supported_language_count: 50
@@ -47,6 +44,9 @@ supported_engines:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65
@@ -77,10 +77,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

@@ -11,12 +11,32 @@ seo:
 
 **Machine Translate** is building **open resources and community for machine translation**.
 
+<div style="display: flex; justify-content: center; gap: 20%; padding: 1em;">
+  <div>
+    <center>
+      <a href="/apis">
+        <h1>44</h1>
+        APIs
+      </a>
+    </center>
+  </div>
+  <div>
+    <center>
+      <a href="/languages">
+        <h1>147</h1>
+        languages
+      </a>
+    </center>
+  </div>
+</div>
+
 The content covers everything about machine translation, from products to research, and from history to news.
 
+
 > #### Featured events
-> - [AMTA 2022](/amta2022) - September, Orlando
+> - [Machine translation meetup](/machine-translation-meetup-2) - 21 October, online - **New: Answers to audience questions!**
 > - [WMT22](/wmt22) - December, Abu Dhabi
-> 
+>
 > #### Featured articles
 > - [Adaptive machine translation](/customisation/adaptive.md)
 > - [Quality estimation](/quality/quality-estimation.md)
@@ -28,11 +48,23 @@ The content covers everything about machine translation, from products to resear
 Read news, ask and answer questions and share your work!
 
 <center>
-  <button data-tf-slider="ndac7OIs" data-tf-width="550" data-tf-iframe-props="title=Machine Translate | Open resources and community for machine translation" data-tf-medium="snippet">
+  <button id="airtable-button">
      Join the community
   </button>
 </center>
-<script src="//embed.typeform.com/next/embed.js"></script>
+<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe id="airtable-iframe" class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrJnYBtqU69rhDFw?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="986" style="background: transparent; border: 1px solid #ccc; display: none; margin-top: 20px;"></iframe>
+<script>
+    airtable_iframe = document.getElementById("airtable-iframe");
+    airtable_button = document.getElementById("airtable-button");
+    airtable_button.addEventListener("click", function() {
+        if (airtable_iframe.style.display === "block") {
+            airtable_iframe.style.display = "none";
+        } else {
+            airtable_iframe.height = "986";
+            airtable_iframe.style.display = "block";
+        }
+    })
+</script>
 
 
 ## Updates

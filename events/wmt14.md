@@ -17,8 +17,8 @@ seo:
 
   location:
     type: PostalAddress
-    addressCountry: Maryland
-    addressLocality: Baltimore
+    addressCountry: United States of America
+    addressLocality: Maryland
 
   organizer:
     type: Person

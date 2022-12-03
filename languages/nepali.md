@@ -12,13 +12,10 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: textra
   name: TexTra
   supported_language_count: 19
-- id: omniscien
-  name: Omniscien Technologies
-  supported_language_count: 45
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
@@ -43,10 +40,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

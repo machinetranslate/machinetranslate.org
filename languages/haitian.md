@@ -1,5 +1,5 @@
 ---
-nav_order: 990
+nav_order: 989
 parent: Languages
 layout: language
 title: Haitian
@@ -8,7 +8,7 @@ code: ht
 family:
 - slug: french-based-creoles
   name: French-based creoles
-supported_engines:
+supported_apis:
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65
@@ -36,10 +36,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

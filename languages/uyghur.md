@@ -8,7 +8,7 @@ code: ug
 family:
 - slug: turkic
   name: Turkic
-supported_engines:
+supported_apis:
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
@@ -23,5 +23,4 @@ supported_engines:
   supported_language_count: 197
 
 ---
-
 

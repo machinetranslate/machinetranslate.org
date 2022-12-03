@@ -1,5 +1,5 @@
 ---
-nav_order: 983
+nav_order: 982
 parent: Languages
 layout: language
 title: Serbian
@@ -10,7 +10,7 @@ family:
   name: Slavic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 38
@@ -29,6 +29,9 @@ supported_engines:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65
@@ -61,8 +64,7 @@ supported_engines:
   supported_language_count: 197
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

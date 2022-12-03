@@ -1,5 +1,5 @@
 ---
-nav_order: 975
+nav_order: 974
 parent: Languages
 layout: language
 title: Bulgarian
@@ -10,16 +10,16 @@ family:
   name: Slavic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: unbabel
   name: Unbabel
   supported_language_count: 25
-- id: etranslation
-  name: eTranslation
-  supported_language_count: 26
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 28
+- id: etranslation
+  name: eTranslation
+  supported_language_count: 30
 - id: kantanmt
   name: KantanMT
   supported_language_count: 33
@@ -34,9 +34,6 @@ supported_engines:
   supported_language_count: 40
 - id: apertium
   name: Apertium
-  supported_language_count: 44
-- id: omniscien
-  name: Omniscien Technologies
   supported_language_count: 45
 - id: lilt
   name: Lilt
@@ -53,6 +50,9 @@ supported_engines:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65
@@ -83,10 +83,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

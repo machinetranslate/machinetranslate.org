@@ -1,5 +1,5 @@
 ---
-nav_order: 969
+nav_order: 968
 parent: Languages
 layout: language
 title: Korean
@@ -8,10 +8,13 @@ code: ko
 family:
 - slug: koreanic
   name: Koreanic
-supported_engines:
+supported_apis:
 - id: cloudtranslation
   name: CloudTranslation
   supported_language_count: 8
+- id: alexa-ai
+  name: Alexa Translations A.I.
+  supported_language_count: 10
 - id: papago
   name: Papago Translation
   supported_language_count: 12
@@ -21,9 +24,6 @@ supported_engines:
 - id: aisa
   name: AISA
   supported_language_count: 16
-- id: alibaba
-  name: Alibaba Translate
-  supported_language_count: 17
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17
@@ -37,7 +37,7 @@ supported_engines:
   name: Lingmo Translation
   supported_language_count: 26
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
 - id: kantanmt
   name: KantanMT
@@ -51,9 +51,6 @@ supported_engines:
 - id: promt
   name: PROMT
   supported_language_count: 40
-- id: omniscien
-  name: Omniscien Technologies
-  supported_language_count: 45
 - id: lilt
   name: Lilt
   supported_language_count: 50
@@ -69,6 +66,9 @@ supported_engines:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65
@@ -99,10 +99,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

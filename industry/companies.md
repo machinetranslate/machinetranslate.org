@@ -6,9 +6,11 @@ description: Companies in the machine translation space
 featured: true
 ---
 
+**Machine translation companies** primarily provide machine translation or technology related to machine translation.
+
 The history of machine translation companies begins in the defence and intelligence sector.
 
-Other players, from technology giants to translation agencies to the European Union, increasingly build their own machine translation.
+Other players, from technology giants like Meta to translation agencies to the European Union, increasingly build their own machine translation.
 
 Since the advent of statistical machine translation and neural machine translation, there are growth companies backed by venture capital.
 
@@ -82,6 +84,9 @@ Incubated by the Institute of Automation at the Chinese Academy of Sciences
 
 Raised $5.5M from Gutbrain, PBJ, Omega and angels
 
+### Panlingua
+- [Panlingua Langauge Processing LLP](http://panlingua.co.in/)
+- [GitHub](https://github.com/panlingua)
 
 ## 2016
 

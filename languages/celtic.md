@@ -6,6 +6,8 @@ title: Celtic
 description: Machine translation for the Celtic language family
 code: cel
 languages:
+- slug: breton
+  name: Breton
 - slug: irish
   name: Irish
 - slug: scottish-gaelic
@@ -14,5 +16,4 @@ languages:
   name: Welsh
 
 ---
-
 

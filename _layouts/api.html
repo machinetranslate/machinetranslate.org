@@ -1,0 +1,83 @@
+---
+layout: default
+parent: APIs
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+<h2>
+  {{ page.description }}
+</h2>
+
+<hr/>
+
+<p>
+  The <strong>{{ page.title }}</strong> machine translation API supports <a href="#language-support">{{ page.supported_languages | size }} languages</a>.
+</p>
+
+<blockquote>
+
+  {% unless page.self_serve %}
+  <p>No self-service</p>
+  <hr/>
+  {% endunless %}
+
+  {% if page.customization.size > 0 %}
+    <p>
+      Customisation:
+      <ul>
+      {% for customization_type in page.customization %}
+        <li>{{ customization_type }}</li>
+      {% endfor %}
+      </ul>
+    </p>
+    <hr/>
+  {% endif %}
+
+  <ul>
+    {% for url in page.urls %}
+    <li>
+      <a href="{{ url }}" target="_blank">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+</blockquote>
+
+{{ content }}
+
+
+
+<h2 id="language-support">Language support</h2>
+{% if page.supported_languages_comment %}
+<p>{{ page.supported_languages_comment }}</p>
+{% endif %}
+
+<p>{{ page.title }} supports <strong>{{ page.supported_languages | size }}</strong> languages.</p>
+
+<ul>
+  {% for language in page.supported_languages %}
+    <li>
+      {% if language.slug %}
+      <a href="/{{ language.slug }}">
+        <code>{{ language.normalized_code }}</code>
+        {{ language.name }}
+        {% if language.variant_name %}
+          | {{ language.variant_name }}
+        {% endif %}
+      </a>
+        {% if language.normalized_code != language.code %}
+           ⚠️ {{ page.title }} uses <code>{{ language.code }}</code>.
+        {% endif %}
+      {% else %}
+      <a href="https://en.wikipedia.org/wiki/ISO_639:{{ language.base_code }}" target="_blank">
+        <code>{{ language.code }}</code>
+        {% if language.variant_name %}
+          | {{ language.variant_name }}
+        {% endif %}
+      </a>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

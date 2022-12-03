@@ -1,5 +1,5 @@
 ---
-nav_order: 995
+nav_order: 994
 parent: Languages
 layout: language
 title: Hmong
@@ -8,7 +8,7 @@ code: hmn
 family:
 - slug: hmong-mien
   name: Hmong-Mien
-supported_engines:
+supported_apis:
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
@@ -21,10 +21,12 @@ supported_engines:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

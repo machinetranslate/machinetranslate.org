@@ -21,6 +21,16 @@
   territories: [ et ]
 
 -
+  codes: [ an, arg ]
+  names: [ Aragonese ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, inflected ]
+  territories: [ es ]
+
+-
   codes: [ ar, ara ]
   names: [ Arabic ]
   family: [ sem, afa ]
@@ -31,14 +41,54 @@
   territories: [ ae, bh, dj, dz, eg, er, iq, jo, kw, lb, ly, ma, mr, om, ps, qa, sa, sd, so, sy, tn, ye ]
 
 -
+  codes: [ as, asm ]
+  names: [ Assamese, Asamiya ]
+  family: [ inc, ine ]
+  scripts: [ Beng ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ in ]
+
+-
+  codes: [ ast ]
+  names: [ Asturian, Bable ]
+  family: [ roa ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ es ]
+
+-
+  codes: [ ay, aym, ayc, ayr ]
+  names: [ Aymara ]
+  family: [ aym ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ bo, pe ]
+
+-
   codes: [ az, aze, azj, azb ]
-  names: [ Azerbaijani, Azeri, Azeri Turkish, Azerbaijani Turkish, Turkish, Turkmen, Caucasian Tatar ]
+  names: [ Azerbaijani, Azeri, Azeri Turkish, Azerbaijani Turkish, Turkish, Turkmen, Caucasian Tatar, South Azerbaijani, North Azerbaijani ]
   family: [ trk ]
   scripts: [ Latn, Cyrl, Arab ]
   typology:
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]
   territories: [ az, ir, iq ]
+
+-
+  codes: [ ba, bak ]
+  names: [ Bashkir ]
+  family: [ trk ]
+  scripts: [ Cyrl ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ru ]
 
 -
   codes: [ be, bel ]
@@ -51,6 +101,26 @@
   territories: [ by ]
 
 -
+  codes: [ bem ]
+  names: [ Bemba, ChiBemba, Cibemba, Ichibemba, Icibemba, Chiwemba ]
+  family: [ bnt ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ zm, cd, tz ]
+
+-
+  codes: [ ber ]
+  names: [ Berber ]
+  family: [ afa ]
+  scripts: [ Tfng, Arab, Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ fusional ]
+  territories: [ ma, dz, ly, ml, ne ]
+
+-
   codes: [ bg, bul ]
   names: [ Bulgarian ]
   family: [ sla, ine ]
@@ -61,6 +131,16 @@
   territories: [ bg ]
 
 -
+  codes: [ bi, bis ]
+  names: [ Bislama, Bichelama ]
+  family: [ cpe ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
+  territories: [ vu ]
+
+-
   codes: [ bn, ben ]
   names: [ Bengali, Bangla ]
   family: [ inc, iir, ine ]
@@ -69,6 +149,26 @@
     word_order: [ SOV ]
     morphosyntax: [ inflected ]
   territories: [ bd, in ]
+
+-
+  codes: [ bo, bod, tib ]
+  names: [ Tibetan, Lhasa Tibetan, Standard Tibetan ]
+  family: [ sit ]
+  scripts: [ Tibt ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ cn, np, in ]
+
+-
+  codes: [ br, bre, xbm, obt ]
+  names: [ Breton ]
+  family: [ cel, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ inflected ]
+  territories: [ fr ]
 
 -
   codes: [ bs, bos ]
@@ -111,6 +211,37 @@
   territories: [ fr ]
 
 -
+  codes: [ chr ]
+  names: [ Cherokee, Tsalagi ]
+  family: [ iro ]
+  scripts: [ Cher ]
+  typology:
+    word_order: [ SOV, OVS ]
+    morphosyntax: [ inflected ]
+  territories: [ us ]
+
+-
+  codes: [ crh ]
+  names: [ Crimean Tatar, Crimean ]
+  family: [ trk ]
+  scripts: [ Latn, Cyrl ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ro, ru, ua ]
+
+-
+  codes: [ cnr ]
+  names: [ Montenegrin ]
+  variant_names: [ Serbo-Croatian ]
+  family: [ sla, ine ]
+  scripts: [ Latn, Cyrl ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, inflected ]
+  territories: [ me ]
+
+-
   codes: [ cs, ces, cze ]
   names: [ Czech ]
   family: [ sla, ine ]
@@ -149,6 +280,16 @@
     word_order: [ SVO, VSO ]
     morphosyntax: [ fusional ]
   territories: [ at, ch, de, li, lu ]
+
+-
+  codes: [ dv, div ]
+  names: [ Divehi, Dhivehi, Maldivian ]
+  family: [ inc, iir, ine ]
+  scripts: [ Latn, Thaa ]
+  typology:
+    word_order: [  ]
+    morphosyntax: [ inflected ]
+  territories: [ mv ]
 
 -
   codes: [ el, gre, ell ]
@@ -231,6 +372,26 @@
     word_order: [ SVO, SOV ]
     morphosyntax: [ agglutinative ]
   territories: [ fi ]
+
+-
+  codes: [ fj, fij ]
+  names: [ Fijian ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VOS ]
+    morphosyntax: [ isolating ]
+  territories: [ fj ]
+
+-
+  codes: [ fo, fao ]
+  names: [ Faroese ]
+  family: [ gem ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ fo, da ]
 
 -
   codes: [ fr, fra, fre ]
@@ -354,6 +515,16 @@
   territories: [ hr, ba, rs, at ]
 
 -
+  codes: [ hsb ]
+  names: [ Upper Sorbian, Wendish ]
+  family: [ sla, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ de ]
+
+-
   codes: [ ht, hat ]
   names: [ Haitian, Haitian Creole ]
   family: [ cpf ]
@@ -424,6 +595,16 @@
   territories: [ ch, it ]
 
 -
+  codes: [ iu, iku, ike, ikt ]
+  names: [ Inuktitut, Eastern Canadian Inuktitut ]
+  family: [ esx ]
+  scripts: [ Cans ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative, polysynthetic ]
+  territories: [ ca ]
+
+-
   codes: [ ja, jpn ]
   names: [ Japanese ]
   family: [ jpx ]
@@ -452,6 +633,16 @@
     word_order: [ SVO ]
     morphosyntax: [ agglutinative, synthetic ]
   territories: [ ge ]
+
+-
+  codes: [ kab ]
+  names: [ Kabyle, Kabylian ]
+  family: [ afa ]
+  scripts: [ Arab, Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ inflected ]
+  territories: [ dz ]
 
 -
   codes: [ kk, kaz ]
@@ -574,6 +765,16 @@
   territories: [ lv ]
 
 -
+  codes: [ mh, mah ]
+  names: [ Marshallese, Ebon ]
+  family: [ aav ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional, synthetic ]
+  territories: [ mh ]
+
+-
   codes: [ mg, mlg, xmv, bhr, buc, msh, bmm, plt, skg, bzc, tdx, txy, tkg, xmw ]
   names: [ Malagasy ]
   variant_names: [ Antankarana, Bara, Bushi, Masikoro, Northern Betsimisaraka, Plateau Malagasy, Sakalava, Southern Betsimisaraka, Tandroy-Mafahaly, Tanosy, Tesaka, Tsimihety ]
@@ -583,6 +784,19 @@
     word_order: [ VOS ]
     morphosyntax: [ inflected ]
   territories: [ mg ]
+
+-
+  codes: [ mhr ]
+  names: [ Meadow Mari, Eastern Mari ]
+  family: [ fiu ]
+  scripts: [ Cyrl ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ru ]
+# urls:
+#  https://mari-language.univie.ac.at/grammar/eg2022.pdf
+# https://en.wikipedia.org/wiki/Mari_language
 
 -
   codes: [ mi, mri, mao ]
@@ -633,6 +847,19 @@
     word_order: [ SOV ]
     morphosyntax: [ agglutinative, inflected, analytic ]
   territories: [ in ]
+
+-
+  codes: [ mrj ]
+  names: [ Hill Mari, Western Mari ]
+  family: [ fiu ]
+  scripts: [ Cyrl ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ru ]
+# urls:
+#  https://mari-language.univie.ac.at/grammar/eg2022.pdf
+# https://en.wikipedia.org/wiki/Mari_language
 
 -
   codes: [ ms, msa, may ]
@@ -705,6 +932,16 @@
   territories: [ mw, zw ]
 
 -
+  codes: [ oc, oci ]
+  names: [ Occitan ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [  ]
+    morphosyntax: [  ]
+  territories: [ es, fr, it, mc ]
+
+-
   codes: [ or, ori ]
   names: [ Oriya, Odia ]
   family: [ inc, iir, ine ]
@@ -715,6 +952,14 @@
   territories: [ id ]
 
 -
+  codes: [ otq ]
+  names: [ Northwestern Otomi ]
+  variant_names: [ Mezquital Otomi, Querétaro Otomi ]
+  family: [ omq ]
+  scripts: [ Latn ]
+  territories: [ mx ]
+
+-
   codes: [ pa, pan ]
   names: [ Punjabi, Panjabi ]
   family: [ inc, iir, ine ]
@@ -723,6 +968,16 @@
     word_order: [ SOV ]
     morphosyntax: [ fusional ]
   territories: [ pk, in ]
+
+-
+  codes: [ pap ]
+  names: [ Papiamento, Papiamentu ]
+  family: [ cpp ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax:
+  territories: [ aw, cw ]
 
 -
   codes: [ pl, pol ]
@@ -746,13 +1001,13 @@
 
 -
   codes: [ pt, por ]
-  names: [ Portuguese ]
+  names: [ Portuguese, European Portuguese, Brazilian Portuguese ]
   family: [ roa, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
     morphosyntax: [ inflected ]
-  territories: [ br, pt ]
+  territories: [ br, pt, ao, mz ]
 
 -
   codes: [ ro, ron, rum ]
@@ -763,6 +1018,16 @@
     word_order: [ SVO ]
     morphosyntax: [ synthetic ]
   territories: [ md, ro ]
+
+-
+  codes: [ rm, roh ]
+  names: [ Romansh, Romansch, Rumantsch ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic ]
+  territories: [ ch ]
 
 -
   codes: [ ru, rus ]
@@ -785,6 +1050,16 @@
   territories: [ rw ]
 
 -
+  codes: [ sc, srd, sro, src ]
+  names: [ Sardinian ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ it ]
+
+-
   codes: [ sd, snd ]
   names: [ Sindhi ]
   family: [ inc, iir, ine ]
@@ -793,6 +1068,16 @@
     word_order: [ SOV ]
     morphosyntax: [ inflected ]
   territories: [ in, pk ]
+
+-
+  codes: [ se, sme ]
+  names: [ Northern Sami, North Sámi, Northern Sámi ]
+  family: [ fiu ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative, inflected, fusional ]
+  territories: [ 'no', fi, se ]
 
 -
   codes: [ si, sin ]
@@ -915,6 +1200,13 @@
   territories: [ cd, ke, tz, ug ]
 
 -
+  codes: [ szl ]
+  names: [ Silesian ]
+  variant_names: [ Upper Silesian ]
+  family: [ sla, ine ]
+  territories: [ pl, cz ]
+
+-
   codes: [ ta, tam ]
   names: [ Tamil ]
   family: [ dra ]
@@ -945,6 +1237,17 @@
   territories: [ tj, af ]
 
 -
+  codes: [ tet ]
+  names: [ Tetum, Tetun ]
+  variant_name: [ Tetun Dili, Tetun Terik ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ isolating ]
+  territories: [ tl ]
+
+-
   codes: [ th, tha ]
   names: [ Thai, Central Thai ]
   family: [ tai ]
@@ -953,6 +1256,16 @@
     word_order: [ SVO ]
     morphosyntax: [ analytic, isolating ]
   territories: [ th ]
+
+-
+  codes: [ ti, tir ]
+  names: [ Tigrinya ]
+  family: [ sem, afa ]
+  scripts: [ Ethi ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ fusional, synthetic ]
+  territories: [ et, er ]
 
 -
   codes: [ tk, tuk ]
@@ -975,6 +1288,26 @@
   territories: [ ph ]
 
 -
+  codes: [ tlh ]
+  names: [ Klingon, Klingonese ]
+  family: [  ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ OVS ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ]
+
+-
+  codes: [ to, ton ]
+  names: [ Tonga, Tongan ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ analytic ]
+  territories: [ to ]
+
+-
   codes: [ tr, tur ]
   names: [ Turkish ]
   family: [ trk ]
@@ -993,6 +1326,26 @@
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]
   territories: [ ru, cn ]
+
+-
+  codes: [ ty, tah ]
+  names: [ Tahitian ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ analytic ]
+  territories: [ pf ]
+
+-
+  codes: [ udm ]
+  names: [ Udmurt ]
+  family: [ fiu ]
+  scripts: [ Cyrl ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ru ]
 
 -
   codes: [ ug, uig ]
@@ -1045,6 +1398,16 @@
   territories: [ vn ]
 
 -
+  codes: [ wo, wol ]
+  names: [ Wolof ]
+  family: [ nic ]
+  scripts: [ Latn, Arab ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected, agglutinative ]
+  territories: [ sn, mr, gm ]
+
+-
   codes: [ xh, xho ]
   names: [ Xhosa, isiXhosa ]
   family: [ bnt, nic ]
@@ -1075,6 +1438,24 @@
   territories: [ ]
 
 -
+  codes: [ yua ]
+  names: [ Yucatec Maya ]
+  family: [ myn ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VOS ]
+  territories: [ mx ]
+-
+  codes: [ yue ]
+  names: [ Cantonese, Yue, Yue Chinese ]
+  family: [ sit ]
+  scripts: [ Hans, Hant ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic, isolating ]
+  territories: [ hk, mo, cn ]
+
+-
   codes: [ zh, lzh ]
   names: [ Chinese, Mandarin Chinese, Mandarin ]
   variant_names: [ Simplified Chinese, Traditional Chinese, Literary Chinese ]
@@ -1083,7 +1464,7 @@
   typology:
     word_order: [ SVO ]
     morphosyntax: [ analytic, isolating ]
-  territories: [ cn, my, sg, hk, tw ]
+  territories: [ cn, tw, hk, mo, sg, my, id, ph, vn, mm ]
 
 -
   codes: [ zu, zul ]

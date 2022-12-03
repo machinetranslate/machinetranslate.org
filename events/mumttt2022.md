@@ -4,12 +4,12 @@ title: MUMTTT 2022
 description: Workshop on Multi-word Units in Machine Translation
 location: Malaga, Spain
 name: MUMTTT 2022
-startDate: 2022-09-05
+startDate: 2022-09-30
 seo:
   type: Event
   name: MUMTTT 2022
-  startDate: 2022-09-05
-  endDate: 2022-09-05
+  startDate: 2022-09-30
+  endDate: 2022-09-30
   eventAttendanceMode: OfflineEventAttendanceMode
   eventStatus: EventScheduled
 
@@ -19,11 +19,11 @@ seo:
     addressLocality: Malaga
 ---
 
-The 5th Workshop on Multi-word Units in Machine Translation and Translation Technology (**MUMTTT 2022**) will be held in conjunction with the International Conference “Computational and Corpus-based Phraseology”.
+The 5th Workshop on Multi-word Units in Machine Translation and Translation Technology (**MUMTTT 2022**) was held in conjunction with the International Conference “Computational and Corpus-based Phraseology”.
 
-The MUMTTT 2022 workshop will take place on 5 September, 2022, in Malaga, Spain.
+The MUMTTT 2022 workshop took place on 30 September, 2022, in Malaga, Spain.
 
-The conference is jointly organised by the European Association for Phraseology (EUROPHRAS), the University of Malaga, the University of Wolverhampton, and the Bulgarian Association for Computational Linguistics.
+The conference was jointly organised by the European Association for Phraseology (EUROPHRAS), the University of Malaga, the University of Wolverhampton, and the Bulgarian Association for Computational Linguistics.
 
 ## Important Dates
 

@@ -5,7 +5,6 @@ description: Workshop on Machine Translation
 location: Uppsala, Sweden
 name: WMT10
 startDate: 2010-07-15
-
 seo:
   type: Event
   name: WMT10
@@ -142,17 +141,16 @@ It measures how often a system was judged to be better than or equal to any othe
 
 | Language pair | System | `≥ others` |
 | --- | --- | --- |
-| French → | `LIUM` <br>`ONLINE-B` <br>`NRC` <br>`CAMBRIDGE` <br>`LIMSI` <br>`RALI` <br>`RWTH` | 0.71 <br>0.71 <br>0.66 <br>0.66 <br>0.65 <br>0.65 <br>0.55 | 
-| German → | `ONLINE-B` <br>`KIT` <br>`UMD` <br>`UEDIN` <br>`FBK` <br>`ONLINE-A` | 0.73 <br>0.72 <br>0.68 <br>0.66 <br>0.66 <br>0.63 | 
-| Spanish → | `ONLINE-B` <br>`UEDIN` <br>`UPC` | 0.70 <br>0.69 <br>0.51 | 
-| Czech → | `ONLINE-B` <br>`UEDIN` | 0.70 <br>0.61 | 
+| French → | `LIUM` <br>`ONLINE-B` <br>`NRC` <br>`CAMBRIDGE` <br>`LIMSI` <br>`RALI` <br>`RWTH` | 0.71 <br>0.71 <br>0.66 <br>0.66 <br>0.65 <br>0.65 <br>0.55 |
+| German → | `ONLINE-B` <br>`KIT` <br>`UMD` <br>`UEDIN` <br>`FBK` <br>`ONLINE-A` | 0.73 <br>0.72 <br>0.68 <br>0.66 <br>0.66 <br>0.63 |
+| Spanish → | `ONLINE-B` <br>`UEDIN` <br>`UPC` | 0.70 <br>0.69 <br>0.51 |
+| Czech → | `ONLINE-B` <br>`UEDIN` | 0.70 <br>0.61 |
 
 #### English →
 
 | Language pair | System | `≥ others` |
 | --- | --- | --- |
-| → French | `UEDIN` <br>`ONLINE-B` <br>`RALI` <br>`LIMSI` <br>`RWTH` <br>`CAMBRIDGE` | 0.70 <br>0.68 <br>0.66 <br>0.66 <br>0.63 <br>0.63 | 
-| → German | `ONLINE-B` <br>`DFKI` <br>`UEDIN` <br>`KIT` <br>`FBK` | 0.70 <br>0.62 <br>0.62 <br>0.60 <br>0.56 | 
-| → Spanish | `ONLINE-B` <br>`ONLINE-A` <br>`UEDIN` <br>`DFKI` <br>`JHU` <br>`UPV` <br>`CAMBRIDGE` <br>`UHC-UPV` | 0.71 <br>0.69 <br>0.61 <br>0.55 <br>0.55 <br>0.55 <br>0.54 <br>0.54 | 
-| → Czech | `ONLINE-B` <br>`CU-BOJAR` <br>`PC-TRANS` <br>`UEDIN` | 0.70 <br>0.66 <br>0.62 <br>0.62 | 
-
+| → French | `UEDIN` <br>`ONLINE-B` <br>`RALI` <br>`LIMSI` <br>`RWTH` <br>`CAMBRIDGE` | 0.70 <br>0.68 <br>0.66 <br>0.66 <br>0.63 <br>0.63 |
+| → German | `ONLINE-B` <br>`DFKI` <br>`UEDIN` <br>`KIT` <br>`FBK` | 0.70 <br>0.62 <br>0.62 <br>0.60 <br>0.56 |
+| → Spanish | `ONLINE-B` <br>`ONLINE-A` <br>`UEDIN` <br>`DFKI` <br>`JHU` <br>`UPV` <br>`CAMBRIDGE` <br>`UHC-UPV` | 0.71 <br>0.69 <br>0.61 <br>0.55 <br>0.55 <br>0.55 <br>0.54 <br>0.54 |
+| → Czech | `ONLINE-B` <br>`CU-BOJAR` <br>`PC-TRANS` <br>`UEDIN` | 0.70 <br>0.66 <br>0.62 <br>0.62 |

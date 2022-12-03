@@ -1,5 +1,5 @@
 ---
-nav_order: 994
+nav_order: 993
 parent: Languages
 layout: language
 title: Sindhi
@@ -12,7 +12,7 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96
@@ -28,10 +28,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

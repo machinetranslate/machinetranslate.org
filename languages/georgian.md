@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 985
 parent: Languages
 layout: language
 title: Georgian
@@ -8,7 +8,7 @@ code: ka
 family:
 - slug: kartvelian
   name: Kartvelian
-supported_engines:
+supported_apis:
 - id: promt
   name: PROMT
   supported_language_count: 40
@@ -48,10 +48,12 @@ supported_engines:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

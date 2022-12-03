@@ -4,29 +4,29 @@ from os.path import exists
 
 SCRIPTS = None
 LANGUAGES = None
-ENGINES = None
+APIS = None
 LANGUAGE_FAMILIES = None
 
 
 ### Read scripts
-with open('_data/scripts.yml', 'r') as stream:
+with open('_data/scripts.yml', 'r', encoding='utf8') as stream:
   SCRIPTS = yaml.safe_load(stream)
 
 ### Read languages
-with open('_data/languages.yml', 'r') as stream:
+with open('_data/languages.yml', 'r', encoding='utf8') as stream:
   LANGUAGES = yaml.safe_load(stream)
 
 ### Read language families
-with open('_data/language-families.yml', 'r') as stream:
+with open('_data/language-families.yml', 'r', encoding='utf8') as stream:
   LANGUAGE_FAMILIES = yaml.safe_load(stream)
 
-### Read engines
-with open('_data/engines.yml', 'r') as stream:
-  ENGINES = yaml.safe_load(stream)
+### Read apis
+with open('_data/apis.yml', 'r', encoding='utf8') as stream:
+  APIS = yaml.safe_load(stream)
 
-### Read engine-language conversions
-with open('_data/engine-language.yml', 'r') as stream:
-  ENGINE_LANGUAGE = yaml.safe_load(stream)
+### Read api-language conversions
+with open('_data/api-language.yml', 'r', encoding='utf8') as stream:
+  API_LANGUAGE = yaml.safe_load(stream)
 
 def base_language_code(locale_code):
   locale_code = locale_code.replace('_', '-')
@@ -35,17 +35,17 @@ def base_language_code(locale_code):
 def normalize_locale_casing(locale_code):
   return '-'.join([ part.capitalize() if len(part) == 4 else part.lower() for part in locale_code.split('-') ])
 
-def _normalize_language_code(locale_code, engine_id):
-  if engine_id not in ENGINE_LANGUAGE:
+def _normalize_language_code(locale_code, api_id):
+  if api_id not in API_LANGUAGE:
     return None
-  if locale_code not in ENGINE_LANGUAGE[engine_id]:
+  if locale_code not in API_LANGUAGE[api_id]:
     return None
-  return ENGINE_LANGUAGE[engine_id][locale_code]
+  return API_LANGUAGE[api_id][locale_code]
 
-def normalize_language_code(locale_code, engine_id):
+def normalize_language_code(locale_code, api_id):
   locale_code = locale_code.replace('_', '-')
   locale_code = normalize_locale_casing(locale_code)
-  return _normalize_language_code(base_language_code(locale_code), engine_id) \
+  return _normalize_language_code(base_language_code(locale_code), api_id) \
     or _normalize_language_code(locale_code, '*') \
     or _normalize_language_code(base_language_code(locale_code), '*') \
     or locale_code
@@ -81,26 +81,29 @@ def read_content(filepth):
   content = ''
   if not exists(filepath):
     return ''
-  with open(filepath, 'r') as f:
+  with open(filepath, 'r', encoding='utf8') as f:
     page = f.read()
     i = page.find('\n---\n', 3)
     i += len('\n---\n')
     return page[i:].strip()
 
 SUPPORTED_LANGUAGE_BASE_CODES = {}
-for engine in ENGINES:
-  engine_id = engine['id']
+for api in APIS:
+  api_id = api['id']
 
-  codes = flatten(engine['languages'])
+  codes = flatten(api['languages'])
+
+
 
   def normalize(code):
-    return normalize_language_code(code, engine_id)
+    return normalize_language_code(code, api_id)
 
   codes = map(normalize, codes)
 
   codes = map(base_language_code, codes)
 
-  SUPPORTED_LANGUAGE_BASE_CODES[engine_id] = list(set(codes))
+
+  SUPPORTED_LANGUAGE_BASE_CODES[api_id] = list(set(codes))
 
 
 ### Write language families
@@ -141,7 +144,6 @@ for code in LANGUAGE_FAMILIES:
 ---
 { yaml.dump(frontmatter, sort_keys=False) }
 ---
-
 { content }
 ''')
 
@@ -151,7 +153,7 @@ for language in LANGUAGES:
   code = language['codes'][0]
   if type(language['codes']) is not list:
     raise Exception(language)
-  
+
   name = language['names'][0]
   if type(language['names']) is not list:
     raise Exception(language)
@@ -165,27 +167,27 @@ for language in LANGUAGES:
     })
 
   # "Join"
-  supported_engines = []
-  for engine in ENGINES:
-    codes = SUPPORTED_LANGUAGE_BASE_CODES[engine['id']]
+  supported_apis = []
+  for api in APIS:
+    codes = SUPPORTED_LANGUAGE_BASE_CODES[api['id']]
     if code in codes:
-      supported_engines.append({
-        'id': engine['id'],
-        'name': engine['name'],
+      supported_apis.append({
+        'id': api['id'],
+        'name': api['name'],
         'supported_language_count': len(codes)
       })
 
-  supported_engines.sort(key=lambda engine: engine['supported_language_count'])
+  supported_apis.sort(key=lambda api: api['supported_language_count'])
 
   frontmatter = {
-    'nav_order': 1000 - len(supported_engines),
+    'nav_order': 1000 - len(supported_apis),
     'parent': 'Languages',
     'layout': 'language',
     'title': name,
     'description': f'Machine translation for { name }',
     'code': code,
     'family': family,
-    'supported_engines': supported_engines
+    'supported_apis': supported_apis
   }
 
   slug = slugify(name)
@@ -198,42 +200,41 @@ for language in LANGUAGES:
 ---
 { yaml.dump(frontmatter, sort_keys=False) }
 ---
-
 { content }
 ''')
 
 
 UNLISTED_LANGUAGES = {}
 
-### Generate engines
-for engine in ENGINES:
+### Generate apis
+for api in APIS:
 
-  name = engine['name']
+  name = api['name']
   if type(name) is not str:
     raise Exception(name)
 
-  engine_id = engine['id']
-  if type(engine_id) is not str:
-    raise Exception(engine_id)
+  api_id = api['id']
+  if type(api_id) is not str:
+    raise Exception(api_id)
 
-  languages = engine['languages']
+  languages = api['languages']
   if type(languages) is not list:
     raise Exception(languages)
 
-  urls = engine['urls']
+  urls = api['urls']
 
-  self_serve = engine.get('self-serve', True)
+  self_serve = api.get('self-serve', True)
 
   customization = []
-  if engine.get('adaptive', False):
+  if api.get('adaptive', False):
     customization.append('Adaptive')
-  if engine.get('glossary', False):
+  if api.get('glossary', False):
     customization.append('Glossary')
-  if engine.get('formality', False):
+  if api.get('formality', False):
     customization.append('Formality')
 
   # "Join"
-  # TODO: use language/engine mapping
+  # TODO: use language/api mapping
   supported_language_codes = list(set(flatten(languages)))
   supported_language_codes.sort()
   # TODO: language *pairs*
@@ -244,7 +245,7 @@ for engine in ENGINES:
     language_name = None
     language_slug = None
     for language in LANGUAGES:
-      normalized_code = normalize_language_code(code, engine_id)
+      normalized_code = normalize_language_code(code, api_id)
       base_code = base_language_code(normalized_code)
       if base_code in language['codes']:
         language_name = language['names'][0]
@@ -264,13 +265,13 @@ for engine in ENGINES:
         UNLISTED_LANGUAGES[code] += 1
       else:
         UNLISTED_LANGUAGES[code] = 1
-  
+
   frontmatter = {
-    'layout': 'engine',
+    'layout': 'api',
     'title': name,
     'description': f'The { name } machine translation API',
-    'id': engine_id,
-    'parent': 'Engines',
+    'id': api_id,
+    'parent': 'APIs',
     'urls': urls,
     'self_serve': self_serve,
     'customization': customization,
@@ -280,13 +281,12 @@ for engine in ENGINES:
 
   content = read_content(filepath)
 
-  filepath = f'engines/{ engine_id }.md'
+  filepath = f'apis/{ api_id }.md'
   with open(filepath, 'w', encoding='utf8') as f:
     f.write(f'''\
 ---
 { yaml.dump(frontmatter, sort_keys=False) }
 ---
-
 { content }
 ''')
 
@@ -297,7 +297,7 @@ for code, count in sorted(UNLISTED_LANGUAGES.items(), key=lambda x: x[1] * 10 - 
   if count > 1 or len(code) == 2:
     text = '**' + text + '**'
   base_code = code.split('-')[0].lower()
-  
+
   link = f'https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#{ base_code }' if len(base_code) == 2 else f'https://en.wikipedia.org/wiki/ISO_639:{ base_code }'
 
   print(f'[{ text }]({ link })')

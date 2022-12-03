@@ -1,5 +1,5 @@
 ---
-nav_order: 965
+nav_order: 964
 parent: Languages
 layout: language
 title: Russian
@@ -10,7 +10,7 @@ family:
   name: Slavic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: translateme
   name: TranslateMe
   supported_language_count: 11
@@ -23,12 +23,12 @@ supported_engines:
 - id: mirai
   name: Mirai Translate
   supported_language_count: 13
+- id: textshuttle
+  name: TextShuttle
+  supported_language_count: 15
 - id: aisa
   name: AISA
   supported_language_count: 16
-- id: alibaba
-  name: Alibaba Translate
-  supported_language_count: 17
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17
@@ -46,9 +46,9 @@ supported_engines:
   supported_language_count: 26
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 28
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
 - id: kantanmt
   name: KantanMT
@@ -64,9 +64,6 @@ supported_engines:
   supported_language_count: 40
 - id: apertium
   name: Apertium
-  supported_language_count: 44
-- id: omniscien
-  name: Omniscien Technologies
   supported_language_count: 45
 - id: lilt
   name: Lilt
@@ -83,6 +80,9 @@ supported_engines:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65
@@ -113,12 +113,14 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 Russian was one of the first languages for which machine translation was researched and developed, and remains one of the best supported languages.
 
 Among the best supported languages, it is notable for a few features:

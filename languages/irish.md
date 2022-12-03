@@ -1,5 +1,5 @@
 ---
-nav_order: 984
+nav_order: 983
 parent: Languages
 layout: language
 title: Irish
@@ -10,25 +10,25 @@ family:
   name: Celtic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: etranslation
   name: eTranslation
-  supported_language_count: 26
+  supported_language_count: 30
 - id: kantanmt
   name: KantanMT
   supported_language_count: 33
 - id: globalese
   name: Globalese
   supported_language_count: 34
-- id: omniscien
-  name: Omniscien Technologies
-  supported_language_count: 45
 - id: modernmt
   name: ModernMT
   supported_language_count: 52
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65
@@ -56,10 +56,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

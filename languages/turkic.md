@@ -8,6 +8,10 @@ code: trk
 languages:
 - slug: azerbaijani
   name: Azerbaijani
+- slug: bashkir
+  name: Bashkir
+- slug: crimean-tatar
+  name: Crimean Tatar
 - slug: kazakh
   name: Kazakh
 - slug: kyrgyz
@@ -24,5 +28,4 @@ languages:
   name: Uzbek
 
 ---
-
 

@@ -5,7 +5,6 @@ description: Workshop on Machine Translation
 location: Edinburgh, United Kingdom
 name: WMT11
 startDate: 2011-07-30
-
 seo:
   type: Event
   name: WMT11
@@ -41,7 +40,7 @@ The **Sixth Workshop on Machine Translation** (**WMT11**) took place from 30 Jul
 
 ### Tunable metrics task
 
-The tunable metrics shared task was invitation-only. 
+The tunable metrics shared task was invitation-only.
 
 ## Schedule
 
@@ -159,4 +158,3 @@ It measures how often a system was judged to be better than or equal to any othe
 | → Spanish | `ONLINE-B` <br>`ONLINE-A` <br>`RBMT-3` <br>`PROMT` <br>`CEU-UPV` <br>`UEDIN` <br>`UPPSALA` | 0.74 <br>0.72 <br>0.71 <br>0.70 <br>0.65 <br>0.64 <br>0.61 |
 | → French | `LIMSI` <br>`ONLINE-B` <br>`KIT` | 0.73 <br>0.70 <br>0.69 |
 | → German | `RBMT-3` <br>`ONLINE-B` <br>`RBMT-1` <br>`DFKI-FEDERMANN` <br>`RBMT-4` <br>`RBMT-2` <br>`ONLINE-A` <br>`LIMSI` <br>`KIT` <br>`COPENHAGEN` | 0.73 <br>0.73 <br>0.70 <br>0.68 <br>0.66 <br>0.66 <br>0.65 <br>0.65 <br>0.64 <br>0.56 |
-

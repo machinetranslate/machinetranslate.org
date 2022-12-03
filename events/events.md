@@ -1,6 +1,6 @@
 ---
 nav_order: 2
-has_children: true
+has_children: false
 title: Events
 description: Machine translation events
 featured: true
@@ -16,20 +16,32 @@ featured: true
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
-|  | **MT Summit 2023** | |
-|  | **EAMT 2023** | Tampere, Finland |
+|  | **MT Summit 2023** | Macao, China |
+| 12 - 15 June | **EAMT 2023** | Tampere, Finland |
 
 ## 2022
 
 |  |  |  |
 | ---- | ---- | ---- |
+| 12 December | [**Machine Translation Meetup 11**](zurich-11.md) | Zurich, Switzerland |
 | 7 - 8 December | [**WMT22**](wmt22.md) | Abu Dhabi, United Arab Emirates |
-| December | **AAMT 2022** | |
-| 16 October | [**LoResMT 2022**](loresmt2022.md) | Gyeongju, Republic of Korea |
-| 12 - 17 October | [**WAT 2022**](wat2022.md) | Gyeongju, Republic of Korea |
-| 30 September | [**MUMTTT 2022**](mumttt2022.md) | Malaga, Spain |
-| 12 - 16 September | [**AMTA 2022**](amta2022.md) | Orlando, Florida |
-| 5 - 10 September | [**MT Marathon**](mtm2022.md) | Prague, Czech Republic |
+| 7 December | [**Second AmericasNLP Competition**](americasnlp-2.md) | online |
+| 1 December | [**AAMT 2022**](aamt2022.md) | Tokyo, Japan |
+| 24 - 25 November | [TC44](tc44.md) | Luxembourg City, Luxembourg |
+| 23 November | [Debunking a few machine translation myths](debunking-mt-myths.md) | online |
+| 21 November | [Artificial Intelligence and Language Technologies: 2023 and Beyond](ai-and-language-technologies.md) | online |
+| 26 October | [Live Panel Discussion: Machine Translation: What’s the Current State?](csa-panel-discussion.md) | online |
+| 21 October | [Meetup 2 - Low-resource machine translation](machine-translation-meetup-2.md) | online |
+| 20 - 21 October | [Literary Translation and AI: assessing changes in translation theory, practice and creativity](lit-translation-and-ai.md) | Paris, France |
+| 16 October | [LoResMT 2022](loresmt2022.md) | Gyeongju, Republic of Korea |
+| 14 October | [Debunking 'No language left behind', 'Human parity' and other machine translation myths](debunking-nllb.md) | online |
+| 12 - 17 October | [WAT 2022](wat2022.md) | Gyeongju, Republic of Korea |
+| 11 - 13 October | [Massively Multilingual Conference & Expo](massively-multilingual-conference-expo.md) | San Jose, California |
+| 6 October | [Literary Machine Translation as a Human-Machine Dialectic](human-machine-dialectic.md) | Liège, Belgium |
+| 30 September | [MUMTTT 2022](mumttt2022.md) | Malaga, Spain |
+| 28 September | [AAMT Seminar](aamt-seminar-1.md) | online |
+| 12 - 16 September | [AMTA 2022](amta2022.md) | Orlando, Florida |
+| 5 - 10 September | [MT Marathon](mtm2022.md) | Prague, Czech Republic |
 | 19 August | [Workshop on Pronouns and Machine Translation](pronouns-and-mt-2022.md) | online |
 | 18 - 22 July | [MT Marathon in the Americas (MTMA)](mtma2022.md) | Redmond, Washington |
 | 15 July | [Automatic Simultaneous Translation 3](autosimtrans2022.md) | Seattle, Washington |
@@ -38,7 +50,7 @@ featured: true
 | 1 - 3 June | [EAMT 2022](eamt2022.md) | Ghent, Belgium |
 | 26 - 27 May | [IWSLT 2022](iwslt2022.md) | Dublin, Ireland |
 | 16 - 17 May | Fraud: [ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science](#icmtcs) | online |
-| 11 May | [San Francisco Bay Area machine translation meetup](bay-area-meetup-1.md) | Menlo Park, California |
+| 11 May | [Machine translation meetup](machine-translation-meetup-1.md) | Menlo Park, California |
 | 29 April | [Using machine translation in healthcare](https://www.surrey.ac.uk/events/20220429-when-and-how-can-online-translation-tools-not-help-us-bridge-language-and-cultural-gap-between) | online |
 | 21 April | [Neural Machine Translation – Foundations, Applications and Implications](nmt-foundations-applications-implications.md) | online |
 | 14 - 15 April | Fraud: [ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science](#icmtcs)| online |
@@ -91,7 +103,7 @@ featured: true
 | 20 August | PSLT2019 | Dublin, Ireland |
 | 19 August | [HAT19](hat19.md) | Dublin, Ireland |
 | 19 - 23 August | [MT Summit 2019](mtsummit2019.md) | Dublin, Ireland |
-| 1 - 2 August | [**WMT19**](wmt9.md) | Florence, Italy |
+| 1 - 2 August | [**WMT19**](wmt19.md) | Florence, Italy |
 | 3 June | [Machine Translation Meetup 4](zurich-4.md) | Zurich, Switzerland |
 | 15 January | [Machine Translation Meetup 3](zurich-3.md) | Zurich, Switzerland |
 
@@ -103,6 +115,7 @@ featured: true
 | 31 October - 1 November | [**WMT18**](wmt18.md) | Brussels, Belgium |
 | 22 October | [Machine Translation Meetup 2](zurich-2.md) | Zurich, Switzerland |
 | 3 - 8 September | [MT Marathon](https://ufal.mff.cuni.cz/mtm18/) | Prague, Czech Republic |
+| 20 July | [WNMT18](wnmt18.md) | Melbourne, Australia |
 | 28 - 30 May | EAMT 2018 | Alicante, Spain |
 | 21 - 25 May | MT Marathon in the Americas | Pittsburgh, Pennsylvania |
 | 19 April | [Machine Translation Meetup 1](zurich-1.md) | Zurich, Switzerland |
@@ -119,6 +132,7 @@ featured: true
 | 18 - 22 September | [MT Summit XVI](mtsummit2017.md) | Nagoya, Japan |
 | 7 - 8 September | [**WMT17**](wmt17.md) | Copenhagen, Denmark |
 | 28 August - 2 September | MT Marathon | Lisbon, Portugal |
+| 4 August | [WNMT17](wnmt17.md) | Vancouver, Canada |
 | 29 - 31 May | EAMT 2017 | Prague, Czech Republic |
 | 22 - 26 May | MT Marathon in the Americas | Dayton, Ohio |
 
@@ -208,7 +222,7 @@ featured: true
 | ---- | ---- | ---- |
 | 21 - 25 October | AMTA 2008 | Waikiki, Hawaii |
 | 22 - 23 September | EAMT 2008 | Hamburg, Germany |
-| 19 June | **WMT08** | Columbus, Ohio |
+| 19 June | [**WMT08**](wmt08.md) | Columbus, Ohio |
 | 12 - 20 May | MT Marathon | Berlin, Germany |
 
 ## 2007
@@ -216,7 +230,7 @@ featured: true
 |  |  |  |
 | ---- | ---- | ---- |
 | 10 - 14 September | MT Summit 2007 | Copenhagen, Denmark |
-| 23 June | **WMT07** | Prague, Czech Republic |
+| 23 June | [**WMT07**](wmt07.md) | Prague, Czech Republic |
 | 26 April | AMTA 2007 - “Syntax and structure in statistical translation” | Rochester, New York |
 | 16 - 20 April | MT Marathon | Edinburgh, United Kingdom |
 
@@ -226,7 +240,7 @@ featured: true
 | ---- | ---- | ---- |
 | 8 - 12 August | AMTA 2006 - “Visions for the future of machine translation” | Cambridge, Massachusetts |
 | 19 - 20 June | EAMT 2006 | Oslo, Norway |
-| 8 - 9 June | **WMT06** | New York City, New York |
+| 8 - 9 June | [**WMT06**](wmt06.md) | New York City, New York |
 
 ## 2005
 

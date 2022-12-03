@@ -1,15 +1,15 @@
 ---
-nav_order: 989
+nav_order: 988
 parent: Languages
 layout: language
 title: Basque
 description: Machine translation for Basque
 code: eu
 family: []
-supported_engines:
+supported_apis:
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
@@ -37,10 +37,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

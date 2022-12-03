@@ -1,5 +1,5 @@
 ---
-nav_order: 977
+nav_order: 976
 parent: Languages
 layout: language
 title: Latvian
@@ -10,16 +10,16 @@ family:
   name: Baltic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: tilde
   name: Tilde
   supported_language_count: 18
-- id: etranslation
-  name: eTranslation
-  supported_language_count: 26
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 28
+- id: etranslation
+  name: eTranslation
+  supported_language_count: 30
 - id: kantanmt
   name: KantanMT
   supported_language_count: 33
@@ -32,9 +32,6 @@ supported_engines:
 - id: promt
   name: PROMT
   supported_language_count: 40
-- id: omniscien
-  name: Omniscien Technologies
-  supported_language_count: 45
 - id: modernmt
   name: ModernMT
   supported_language_count: 52
@@ -47,6 +44,9 @@ supported_engines:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65
@@ -77,10 +77,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

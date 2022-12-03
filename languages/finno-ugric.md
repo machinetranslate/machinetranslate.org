@@ -10,9 +10,16 @@ languages:
   name: Estonian
 - slug: finnish
   name: Finnish
+- slug: hill-mari
+  name: Hill Mari
 - slug: hungarian
   name: Hungarian
+- slug: meadow-mari
+  name: Meadow Mari
+- slug: northern-sami
+  name: Northern Sami
+- slug: udmurt
+  name: Udmurt
 
 ---
-
 

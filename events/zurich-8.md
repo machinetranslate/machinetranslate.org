@@ -19,8 +19,6 @@ seo:
     url: https://zoom.us/j/95204848531?pwd=K0REanlsV2xUcTBwTVJ0WWtBOGx3QT09
 ---
 
-# Zurich Machine Translation Meetup 2020
-
 The eighth **Machine Translation Meetup** (**MTM**) took place online on 2 November, 2020.
 
 The topic was ***Looking ahead: The future of translation***.

@@ -5,7 +5,7 @@ description: First Workshop on Automatic Simultaneous Translation
 location: Seattle, Washington
 name: Automatic Simultaneous Translation 2020
 startDate: 2020-07-10
-nav_order:
+
 seo:
   type: Event
   name: Automatic Simultaneous Translation 2020

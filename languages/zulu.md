@@ -1,5 +1,5 @@
 ---
-nav_order: 991
+nav_order: 990
 parent: Languages
 layout: language
 title: Zulu
@@ -10,7 +10,7 @@ family:
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
-supported_engines:
+supported_apis:
 - id: translateme
   name: TranslateMe
   supported_language_count: 11
@@ -35,10 +35,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

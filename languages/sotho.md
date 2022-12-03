@@ -10,7 +10,7 @@ family:
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
-supported_engines:
+supported_apis:
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96
@@ -28,8 +28,7 @@ supported_engines:
   supported_language_count: 197
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

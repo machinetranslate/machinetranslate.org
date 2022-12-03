@@ -6,8 +6,12 @@ title: Indo-Aryan
 description: Machine translation for the Indo-Aryan language family
 code: inc
 languages:
+- slug: assamese
+  name: Assamese
 - slug: bengali
   name: Bengali
+- slug: divehi
+  name: Divehi
 - slug: gujarati
   name: Gujarati
 - slug: hindi
@@ -28,5 +32,4 @@ languages:
   name: Urdu
 
 ---
-
 

@@ -18,8 +18,6 @@ seo:
     type: VirtualLocation
 ---
 
-# Zurich Machine Translation Meetup 2020
-
 The seventh **Machine Translation Meetup** (**MTM**) took place online on 19 May, 2020.
 
 The topic was ***Translation Risk Prediction***.

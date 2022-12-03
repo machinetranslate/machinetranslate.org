@@ -1,5 +1,5 @@
 ---
-nav_order: 987
+nav_order: 985
 parent: Languages
 layout: language
 title: Tamil
@@ -8,7 +8,7 @@ code: ta
 family:
 - slug: dravidian
   name: Dravidian
-supported_engines:
+supported_apis:
 - id: lilt
   name: Lilt
   supported_language_count: 50
@@ -18,6 +18,9 @@ supported_engines:
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65
@@ -45,10 +48,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

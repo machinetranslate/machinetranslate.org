@@ -1,5 +1,5 @@
 ---
-nav_order: 993
+nav_order: 992
 parent: Languages
 layout: language
 title: Latin
@@ -10,7 +10,7 @@ family:
   name: Romance
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65
@@ -29,10 +29,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

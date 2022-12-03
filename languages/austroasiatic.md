@@ -8,9 +8,10 @@ code: aav
 languages:
 - slug: khmer
   name: Khmer
+- slug: marshallese
+  name: Marshallese
 - slug: vietnamese
   name: Vietnamese
 
 ---
-
 

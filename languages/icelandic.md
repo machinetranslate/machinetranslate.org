@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 984
 parent: Languages
 layout: language
 title: Icelandic
@@ -10,19 +10,22 @@ family:
   name: Germanic
 - slug: indo-european
   name: Indo-European
-supported_engines:
+supported_apis:
 - id: etranslation
   name: eTranslation
-  supported_language_count: 26
+  supported_language_count: 30
 - id: apertium
   name: Apertium
-  supported_language_count: 44
+  supported_language_count: 45
 - id: modernmt
   name: ModernMT
   supported_language_count: 52
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65
@@ -50,10 +53,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 

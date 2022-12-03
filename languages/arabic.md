@@ -1,5 +1,5 @@
 ---
-nav_order: 969
+nav_order: 967
 parent: Languages
 layout: language
 title: Arabic
@@ -10,19 +10,19 @@ family:
   name: Semitic
 - slug: afro-asiatic
   name: Afro-Asiatic
-supported_engines:
+supported_apis:
 - id: tarjama
   name: Tarjama MT
   supported_language_count: 2
+- id: alexa-ai
+  name: Alexa Translations A.I.
+  supported_language_count: 10
 - id: lingo24
   name: Lingo24
   supported_language_count: 13
 - id: aisa
   name: AISA
   supported_language_count: 16
-- id: alibaba
-  name: Alibaba Translate
-  supported_language_count: 17
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17
@@ -36,8 +36,11 @@ supported_engines:
   name: Lingmo Translation
   supported_language_count: 26
 - id: xl8
-  name: Xl8
+  name: XL8
   supported_language_count: 29
+- id: etranslation
+  name: eTranslation
+  supported_language_count: 30
 - id: kantanmt
   name: KantanMT
   supported_language_count: 33
@@ -52,9 +55,6 @@ supported_engines:
   supported_language_count: 40
 - id: apertium
   name: Apertium
-  supported_language_count: 44
-- id: omniscien
-  name: Omniscien Technologies
   supported_language_count: 45
 - id: lilt
   name: Lilt
@@ -71,6 +71,9 @@ supported_engines:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65
@@ -101,10 +104,12 @@ supported_engines:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+- id: alibaba
+  name: Alibaba Translate
+  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 302
+  supported_language_count: 383
 
 ---
-
 
