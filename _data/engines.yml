@@ -300,6 +300,7 @@
   id: textra
   urls:
    - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/
+   - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/api/
   languages: [ [ar, en], [ar, ja], [ar, ja], [de, en], [de, en], [de, ja], [de, ja], [de, ja], [en, ar], [en, ar], [en, de], [en, de], [en, de], [en, es], [en, es], [en, fil], [en, fr], [en, fr], [en, fr], [en, id], [en, it], [en, it], [en, ja], [en, ja], [en, ja], [en, ja], [en, ja], [en, ja], [en, km], [en, ko], [en, ko], [en, mn], [en, my], [en, ne], [en, pt], [en, pt], [en, ru], [en, th], [en, vi], [en, vi], [en, zh-cn], [en, zh-cn], [en, zh-cn], [en, zh-tw], [en, zh-tw], [en, zh-tw], [es, en], [es, ja], [es, ja], [fil, en], [fil, ja], [fil, ja], [fr, en], [fr, en], [fr, ja], [fr, ja], [fr, ja], [id, en], [id, ja], [id, ja], [it, en], [it, ja], [it, ja], [ja, ar], [ja, ar], [ja, de], [ja, de], [ja, de], [ja, en], [ja, en], [ja, en], [ja, en], [ja, en], [ja, en], [ja, es], [ja, es], [ja, fil], [ja, fil], [ja, fr], [ja, fr], [ja, fr], [ja, id], [ja, id], [ja, it], [ja, it], [ja, km], [ja, km], [ja, ko], [ja, ko], [ja, ko], [ja, mn], [ja, mn], [ja, my], [ja, my], [ja, ne], [ja, ne], [ja, pt], [ja, pt], [ja, ru], [ja, ru], [ja, th], [ja, th], [ja, vi], [ja, vi], [ja, zh-cn], [ja, zh-cn], [ja, zh-cn], [ja, zh-cn], [ja, zh-tw], [ja, zh-tw], [ja, zh-tw], [ja, zh-tw], [km, en], [km, ja], [km, ja], [ko, en], [ko, ja], [ko, ja], [ko, ja], [mn, en], [mn, ja], [mn, ja], [my, en], [my, ja], [my, ja], [ne, en], [ne, ja], [ne, ja], [pt, en], [pt, ja], [pt, ja], [ru, en], [ru, ja], [ru, ja], [th, en], [th, ja], [th, ja], [vi, en], [vi, ja], [vi, ja], [zh-cn, en], [zh-cn, en], [zh-cn, ja], [zh-cn, ja], [zh-cn, ja], [zh-cn, ja], [zh-tw, en], [zh-tw, en], [zh-tw, ja], [zh-tw, ja], [zh-tw, ja], [zh-tw, ja] ]
   self-serve: true
   info_url: https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/help/?q_type=faq#
@@ -326,7 +327,7 @@
   id: unbabel
   urls:
    - https://unbabel.com
-   - https://developers.unbabel.com/docs
+   - https://developers.unbabel.com/reference/mt_translation
   languages: [ ar, bg, da, de, el, en, es, es-419, fi, fr, hi, id, it, ko, ja, nl, 'no', pl, pt, pt-br, ro, ru, sv, th, tr, vi, zh-cn, zh-tw ]
   self-serve: false
 
@@ -341,8 +342,8 @@
 - name: Yandex Translate
   id: yandex
   urls:
-   - https://yandex.com/dev/translate/doc/dg/concepts/api-overview.html
    - https://translate.yandex.com/
+   - https://yandex.com/dev/translate/doc/dg/concepts/api-overview.html
   languages: [ af, am, ar, az, ba, be, bg, bn, bs, ca, ceb, cs, cy, da, de, el, en, eo, es, et, eu, fa, fi, fr, ga, gd, gl, gu, he, hi, hr, ht, hu, hy, id, is, it, ja, jv, ka, kk, km, kn, ko, ky, la, lb, lo, lt, lv, mg, mhr, mi, mk, ml, mn, mr, mrj, ms, mt, my, ne, nl, 'no', pa, pap, pl, pt, ro, ru, si, sk, sl, sq, sr, su, sv, sw, ta, te, tg, th, tl, tr, tt, udm, uk, ur, uz, vi, xh, yi, zh ]
   self-serve: true
 

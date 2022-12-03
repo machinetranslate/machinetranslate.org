@@ -50,8 +50,8 @@ def normalize_language_code(locale_code, engine_id):
     or _normalize_language_code(base_language_code(locale_code), '*') \
     or locale_code
 
-def get_language_variant_name(locale_code):
-  parts = normalize_locale_casing(locale_code.replace('_', '-')).split('-')
+def get_language_variant_name(locale_code, engine_id):
+  parts = normalize_language_code(locale_code, engine_id)
   names = []
   if parts == 'lzh':
     names.append('Literary')
@@ -250,7 +250,7 @@ for engine in ENGINES:
         language_name = language['names'][0]
         language_slug = slugify(language_name)
         break
-    variant_name = get_language_variant_name(code)
+    variant_name = get_language_variant_name(code, engine_id)
     supported_languages.append({
       'slug': language_slug,
       'code': code,
