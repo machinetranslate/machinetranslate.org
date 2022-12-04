@@ -21,7 +21,7 @@ supported_languages:
   normalized_code: ca-es
   base_code: ca
   name: Catalan
-  variant_name: null
+  variant_name: Spain
 - slug: czech
   code: cs-cz
   normalized_code: cs-cz
@@ -39,19 +39,19 @@ supported_languages:
   normalized_code: en-gb
   base_code: en
   name: English
-  variant_name: null
+  variant_name: Great Britain
 - slug: english
   code: en-us
   normalized_code: en-us
   base_code: en
   name: English
-  variant_name: null
+  variant_name: United States
 - slug: spanish
   code: es-es
   normalized_code: es-es
   base_code: es
   name: Spanish
-  variant_name: null
+  variant_name: Spain
 - slug: finnish
   code: fi-fi
   normalized_code: fi-fi
@@ -63,13 +63,13 @@ supported_languages:
   normalized_code: fr-fr
   base_code: fr
   name: French
-  variant_name: null
+  variant_name: France
 - slug: galician
   code: gl-es
   normalized_code: gl-es
   base_code: gl
   name: Galician
-  variant_name: null
+  variant_name: Spain
 - slug: hebrew
   code: he-il
   normalized_code: he-il
@@ -135,7 +135,7 @@ supported_languages:
   normalized_code: pt-br
   base_code: pt
   name: Portuguese
-  variant_name: null
+  variant_name: Brazil
 - slug: russian
   code: ru-ru
   normalized_code: ru-ru
@@ -171,7 +171,7 @@ supported_languages:
   normalized_code: zh-Hans
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Simplified Chinese
 nav_order: 973
 
 ---

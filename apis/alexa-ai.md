@@ -32,13 +32,13 @@ supported_languages:
   normalized_code: es-419
   base_code: es
   name: Spanish
-  variant_name: null
+  variant_name: Latin America
 - slug: french
   code: fr-ca
   normalized_code: fr-ca
   base_code: fr
   name: French
-  variant_name: null
+  variant_name: Canada
 - slug: italian
   code: it
   normalized_code: it
@@ -62,7 +62,7 @@ supported_languages:
   normalized_code: pt-br
   base_code: pt
   name: Portuguese
-  variant_name: null
+  variant_name: Brazil
 - slug: chinese
   code: zh
   normalized_code: zh

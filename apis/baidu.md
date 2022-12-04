@@ -328,13 +328,13 @@ supported_languages:
   normalized_code: fr-ca
   base_code: fr
   name: French
-  variant_name: null
+  variant_name: Canada
 - slug: french
   code: fr-fr
   normalized_code: fr-fr
   base_code: fr
   name: French
-  variant_name: null
+  variant_name: France
 - slug: null
   code: frm
   normalized_code: frm
@@ -676,7 +676,7 @@ supported_languages:
   normalized_code: lzh
   base_code: lzh
   name: Chinese
-  variant_name: null
+  variant_name: Literary
 - slug: marshallese
   code: mah
   normalized_code: mh
@@ -874,13 +874,13 @@ supported_languages:
   normalized_code: pt-br
   base_code: pt
   name: Portuguese
-  variant_name: null
+  variant_name: Brazil
 - slug: portuguese
   code: pt-pt
   normalized_code: pt-pt
   base_code: pt
   name: Portuguese
-  variant_name: null
+  variant_name: Portugal
 - slug: pashto
   code: pus
   normalized_code: ps
@@ -1204,13 +1204,13 @@ supported_languages:
   normalized_code: zh-Hans
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Simplified Chinese
 - slug: chinese
   code: zh-tw
   normalized_code: zh-Hant
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Traditional Chinese
 - slug: zulu
   code: zul
   normalized_code: zu

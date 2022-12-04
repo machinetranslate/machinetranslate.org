@@ -63,7 +63,7 @@ supported_languages:
   normalized_code: ca-es
   base_code: ca
   name: Catalan
-  variant_name: null
+  variant_name: Spain
 - slug: cebuano
   code: ceb-ph
   normalized_code: ceb-ph
@@ -75,7 +75,7 @@ supported_languages:
   normalized_code: co-fr
   base_code: co
   name: Corsican
-  variant_name: null
+  variant_name: France
 - slug: czech
   code: cs-cz
   normalized_code: cs-cz
@@ -87,7 +87,7 @@ supported_languages:
   normalized_code: cy-gb
   base_code: cy
   name: Welsh
-  variant_name: null
+  variant_name: Great Britain
 - slug: danish
   code: da-dk
   normalized_code: da-dk
@@ -111,7 +111,7 @@ supported_languages:
   normalized_code: en-us
   base_code: en
   name: English
-  variant_name: null
+  variant_name: United States
 - slug: esperanto
   code: eo
   normalized_code: eo
@@ -123,7 +123,7 @@ supported_languages:
   normalized_code: es-es
   base_code: es
   name: Spanish
-  variant_name: null
+  variant_name: Spain
 - slug: estonian
   code: et-ee
   normalized_code: et-ee
@@ -135,7 +135,7 @@ supported_languages:
   normalized_code: eu-es
   base_code: eu
   name: Basque
-  variant_name: null
+  variant_name: Spain
 - slug: persian
   code: fa-ir
   normalized_code: fa-ir
@@ -153,7 +153,7 @@ supported_languages:
   normalized_code: fr-ca
   base_code: fr
   name: French
-  variant_name: null
+  variant_name: Canada
 - slug: frisian
   code: fy-nl
   normalized_code: fy-nl
@@ -171,13 +171,13 @@ supported_languages:
   normalized_code: gd-gb
   base_code: gd
   name: Scottish Gaelic
-  variant_name: null
+  variant_name: Great Britain
 - slug: galician
   code: gl-es
   normalized_code: gl-es
   base_code: gl
   name: Galician
-  variant_name: null
+  variant_name: Spain
 - slug: gujarati
   code: gu-in
   normalized_code: gu-in
@@ -195,7 +195,7 @@ supported_languages:
   normalized_code: haw-us
   base_code: haw
   name: Hawaiian
-  variant_name: null
+  variant_name: United States
 - slug: hebrew
   code: he-il
   normalized_code: he-il
@@ -453,7 +453,7 @@ supported_languages:
   normalized_code: pt-pt
   base_code: pt
   name: Portuguese
-  variant_name: null
+  variant_name: Portugal
 - slug: romanian
   code: ro-ro
   normalized_code: ro-ro

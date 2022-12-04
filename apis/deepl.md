@@ -53,13 +53,13 @@ supported_languages:
   normalized_code: en-gb
   base_code: en
   name: English
-  variant_name: null
+  variant_name: Great Britain
 - slug: english
   code: en-us
   normalized_code: en-us
   base_code: en
   name: English
-  variant_name: null
+  variant_name: United States
 - slug: spanish
   code: es
   normalized_code: es
@@ -143,13 +143,13 @@ supported_languages:
   normalized_code: pt-br
   base_code: pt
   name: Portuguese
-  variant_name: null
+  variant_name: Brazil
 - slug: portuguese
   code: pt-pt
   normalized_code: pt-pt
   base_code: pt
   name: Portuguese
-  variant_name: null
+  variant_name: Portugal
 - slug: romanian
   code: ro
   normalized_code: ro
@@ -197,13 +197,13 @@ supported_languages:
   normalized_code: zh-Hans
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Simplified Chinese
 - slug: chinese
   code: zh-tw
   normalized_code: zh-Hant
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Traditional Chinese
 nav_order: 968
 
 ---
