@@ -369,13 +369,13 @@ supported_languages:
   variant_name: null
 - slug: chinese
   code: zh
-  normalized_code: zh-cn
+  normalized_code: zh-Hans
   base_code: zh
   name: Chinese
   variant_name: Simplified Chinese 
 - slug: chinese
   code: zh-tw
-  normalized_code: zh-tw
+  normalized_code: zh-Hant
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
