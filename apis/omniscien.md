@@ -102,7 +102,7 @@ supported_languages:
   normalized_code: fr-ca
   base_code: fr
   name: French
-  variant_name: null
+  variant_name: Canadian French
 - slug: french
   code: fr
   normalized_code: fr
@@ -169,7 +169,7 @@ supported_languages:
   base_code: ja
   name: Japanese
   variant_name: null
-- slug: georgian
+- slug: hhmer
   code: km
   normalized_code: km
   base_code: km
@@ -183,7 +183,7 @@ supported_languages:
   variant_name: null
 - slug: kurdish
   code: ku
-  normalized_code: kk
+  normalized_code: ku
   base_code: ku
   name: Kurdish
   variant_name: null
@@ -234,7 +234,7 @@ supported_languages:
   normalized_code: 'no'
   base_code: 'no'
   name: Norwegian
-  variant_name: null
+  variant_name: Norwegian Bokmål
 - slug: punjabi
   code: pa
   normalized_code: pa
@@ -252,13 +252,13 @@ supported_languages:
   normalized_code: pt-pt
   base_code: pt
   name: Portuguese
-  variant_name: null
+  variant_name: Portugal Portugese
 - slug: portuguese
-  code: pt
-  normalized_code: pt-pt
+  code: pt-br
+  normalized_code: pt-br
   base_code: pt
   name: Portuguese
-  variant_name: null
+  variant_name: Brazilian Portuguese
 - slug: romanian
   code: ro
   normalized_code: ro
@@ -369,17 +369,16 @@ supported_languages:
   variant_name: null
 - slug: chinese
   code: zh
-  normalized_code: zh
+  normalized_code: zh-cn
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Simplified Chinese 
 - slug: chinese
   code: zh-tw
-  normalized_code: zh-Hant
+  normalized_code: zh-tw
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Traditional Chinese
 nav_order: 955
 
 ---
-
