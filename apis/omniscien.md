@@ -169,7 +169,7 @@ supported_languages:
   base_code: ja
   name: Japanese
   variant_name: null
-- slug: hhmer
+- slug: khmer
   code: km
   normalized_code: km
   base_code: km
