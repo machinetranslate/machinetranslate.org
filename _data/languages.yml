@@ -1,6 +1,16 @@
 ---
 
 -
+  codes: [ ab ]
+  names: [ Abkhaz, Abkhazian ]
+  family: [ ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative, synthetic ]
+  territories: [ ge, ru ]
+
+-
   codes: [ af, afr ]
   names: [ Afrikaans ]
   family: [ gem, ine ]
@@ -250,6 +260,16 @@
     word_order: [ SVO ]
     morphosyntax: [ fusional, inflected ]
   territories: [ cz ]
+
+-
+  codes: [ cv ]
+  names: [ Chuvash ]
+  family: [ trk ]
+  scripts: [ Cyrl, Latn  ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ru ]
 
 -
   codes: [ cy, wel, cym ]
@@ -703,6 +723,16 @@
     word_order: [ SOV ]
     morphosyntax: [ inflected ]
   territories: [ iq ]
+
+-
+  codes: [ kw, cor ]
+  names: [ Cornish ]
+  family: [ cel, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ inflected ]
+  territories: [ gb ]
 
 -
   codes: [ ky, kir ]

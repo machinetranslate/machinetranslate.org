@@ -6,7 +6,7 @@ id: unbabel
 parent: APIs
 urls:
 - https://unbabel.com
-- https://developers.unbabel.com/docs
+- https://developers.unbabel.com/reference/mt_translation
 self_serve: false
 customization: []
 supported_languages:

@@ -98,14 +98,14 @@ supported_languages:
   name: Finnish
   variant_name: null
 - slug: french
-  code: fr-ca
-  normalized_code: fr-ca
+  code: fr
+  normalized_code: fr
   base_code: fr
   name: French
   variant_name: null
 - slug: french
-  code: fr
-  normalized_code: fr
+  code: fr-ca
+  normalized_code: fr-ca
   base_code: fr
   name: French
   variant_name: null
@@ -169,7 +169,7 @@ supported_languages:
   base_code: ja
   name: Japanese
   variant_name: null
-- slug: georgian
+- slug: khmer
   code: km
   normalized_code: km
   base_code: km
@@ -183,7 +183,7 @@ supported_languages:
   variant_name: null
 - slug: kurdish
   code: ku
-  normalized_code: kk
+  normalized_code: ku
   base_code: ku
   name: Kurdish
   variant_name: null
@@ -248,13 +248,13 @@ supported_languages:
   name: Polish
   variant_name: null
 - slug: portuguese
-  code: pt-pt
-  normalized_code: pt-pt
+  code: pt-br
+  normalized_code: pt-br
   base_code: pt
   name: Portuguese
   variant_name: null
 - slug: portuguese
-  code: pt
+  code: pt-pt
   normalized_code: pt-pt
   base_code: pt
   name: Portuguese
@@ -368,8 +368,8 @@ supported_languages:
   name: Vietnamese
   variant_name: null
 - slug: chinese
-  code: zh
-  normalized_code: zh
+  code: zh-cn
+  normalized_code: zh-Hans
   base_code: zh
   name: Chinese
   variant_name: null
@@ -379,7 +379,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: null
-nav_order: 955
+nav_order: 939
 
 ---
 

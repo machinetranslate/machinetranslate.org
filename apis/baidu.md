@@ -197,11 +197,11 @@ supported_languages:
   base_code: chr
   name: Cherokee
   variant_name: null
-- slug: null
+- slug: chuvash
   code: chv
   normalized_code: cv
   base_code: cv
-  name: null
+  name: Chuvash
   variant_name: null
 - slug: montenegrin
   code: cnr
@@ -209,11 +209,11 @@ supported_languages:
   base_code: cnr
   name: Montenegrin
   variant_name: null
-- slug: null
+- slug: cornish
   code: cor
   normalized_code: kw
   base_code: kw
-  name: null
+  name: Cornish
   variant_name: null
 - slug: corsican
   code: cos
@@ -1220,3 +1220,4 @@ supported_languages:
 nav_order: 799
 
 ---
+

@@ -28,6 +28,8 @@ languages:
   name: Bulgarian
 - slug: catalan
   name: Catalan
+- slug: cornish
+  name: Cornish
 - slug: corsican
   name: Corsican
 - slug: croatian

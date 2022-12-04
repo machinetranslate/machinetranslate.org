@@ -5,8 +5,8 @@ description: The Yandex Translate machine translation API
 id: yandex
 parent: APIs
 urls:
-- https://yandex.com/dev/translate/doc/dg/concepts/api-overview.html
 - https://translate.yandex.com/
+- https://yandex.com/dev/translate/doc/dg/concepts/api-overview.html
 self_serve: true
 customization: []
 supported_languages:

@@ -35,6 +35,11 @@ def base_language_code(locale_code):
 def normalize_locale_casing(locale_code):
   return '-'.join([ part.capitalize() if len(part) == 4 else part.lower() for part in locale_code.split('-') ])
 
+def normalize_locale(locale_code):
+  locale_code = locale_code.replace('_', '-')
+  locale_code = normalize_locale_casing(locale_code)
+  return locale_code
+
 def _normalize_language_code(locale_code, api_id):
   if api_id not in API_LANGUAGE:
     return None
@@ -43,15 +48,14 @@ def _normalize_language_code(locale_code, api_id):
   return API_LANGUAGE[api_id][locale_code]
 
 def normalize_language_code(locale_code, api_id):
-  locale_code = locale_code.replace('_', '-')
-  locale_code = normalize_locale_casing(locale_code)
+  locale_code = normalize_locale(locale_code)
   return _normalize_language_code(base_language_code(locale_code), api_id) \
     or _normalize_language_code(locale_code, '*') \
     or _normalize_language_code(base_language_code(locale_code), '*') \
     or locale_code
 
-def get_language_variant_name(locale_code, engine_id):
-  parts = normalize_language_code(locale_code, engine_id)
+def get_language_variant_name(locale_code, api_id):
+  parts = normalize_locale(locale_code).split('-')
   names = []
   if parts == 'lzh':
     names.append('Literary')
@@ -251,7 +255,10 @@ for api in APIS:
         language_name = language['names'][0]
         language_slug = slugify(language_name)
         break
-    variant_name = get_language_variant_name(code, engine_id)
+    if api_id not in [ 'alibaba', 'baidu', 'niutrans' ] and len(base_code) == 2 and not language_name:
+      # This is usually a typo.
+      raise Exception('2-letter language codes should be in languages.yml.  No name found for: ' + base_code + '(' + api_id + ')')
+    variant_name = get_language_variant_name(code, api_id)
     supported_languages.append({
       'slug': language_slug,
       'code': code,

@@ -204,13 +204,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: null
-- slug: null
-  code: zn-cn
-  normalized_code: zn-cn
-  base_code: zn
-  name: null
-  variant_name: null
-nav_order: 967
+nav_order: 968
 
 ---
 

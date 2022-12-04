@@ -10,6 +10,8 @@ languages:
   name: Azerbaijani
 - slug: bashkir
   name: Bashkir
+- slug: chuvash
+  name: Chuvash
 - slug: crimean-tatar
   name: Crimean Tatar
 - slug: kazakh

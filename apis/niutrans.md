@@ -479,11 +479,11 @@ supported_languages:
   base_code: ctd
   name: null
   variant_name: null
-- slug: null
+- slug: chuvash
   code: cv
   normalized_code: cv
   base_code: cv
-  name: null
+  name: Chuvash
   variant_name: null
 - slug: welsh
   code: cy
@@ -2318,3 +2318,4 @@ supported_languages:
 nav_order: 616
 
 ---
+
