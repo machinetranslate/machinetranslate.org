@@ -17,7 +17,7 @@ featured: true
 | Date | Event | Location |
 | ---- | ---- | ---- |
 |  | **MT Summit 2023** | Macao, China |
-| 12 - 15 June | **EAMT 2023** | Tampere, Finland |
+| 12 - 15 June | [**EAMT 2023**](eamt2023.md) | Tampere, Finland |
 
 ## 2022
 
