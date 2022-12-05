@@ -136,11 +136,11 @@ The [TDD](https://tdd.ai/) project serves a series of [corpora](https://corpus.t
 
 ## Support
 
-In 2016, Google Translate included Turkish in the launch of Google Neural Machine Translation.
+In 2016, [Google Translate](/apis/google.md) included Turkish in the launch of Google Neural Machine Translation.
 
-By 2022, Turkish was supported by all the major translation applications and API providers, including Google Translate, Microsoft Translator, Yandex Translate, Amazon Translate, and Watson Language Translator.
+By 2022, Turkish was supported by all the major translation applications and API providers, including Google Translate, [Microsoft Translator](/apis/microsoft.md), [Yandex Translate](/apis/yandex.md), [Amazon Translate](/apis/amazon.md), and [Watson Language Translator](/apis/watson.md).
 
 By 2022, Yandex Translate had direct translation systems for Turkish-Russian and Turkish-German.
 Turkish is one of the top languages for Yandex Translate.
 
-English to Turkish is one of the top language pairs for Systran.
+English to Turkish is one of the top language pairs for [Systran](/apis/systran.md).
