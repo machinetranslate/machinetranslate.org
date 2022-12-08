@@ -3,16 +3,17 @@ grand_parent: Building and research
 parent: Metrics
 nav_order: 1
 title: Human evaluation metrics
-description: Metrics for machine translation human evaluation
+description: Metrics for human evaluation of machine translation
 ---
 
-**Human evaluation** of machine translation is the task of manually assessing the machine translation output following certain criteria.
+**Human evaluation metrics** for machine translation are standards for assessing and comparing how machine translation systems perform on evaluation sets.
 
 ## Challenges
 
-- Human evaluation is subjective by nature
-- Human evaluation is expensive and time-consuming
-- There are no standardised approaches to human evaluation
+- Human evaluation is subjective by nature.
+- Human evaluation is slow and expensive.
+- There are several competing standards.
+- Results from different languages and evaluation sets cannot be compared.
 
 ## Metrics
 
@@ -20,7 +21,7 @@ description: Metrics for machine translation human evaluation
 
 **Multidimensional Quality Metrics** (**MQM**) is a framework that determines specific translation errors, severities, and error weights.
 
-#### Error dimensions
+Error dimensions:
 
 - Terminology
 - Accuracy
