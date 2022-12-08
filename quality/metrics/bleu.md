@@ -23,8 +23,7 @@ BLEU treats all n-grams equally.
 Because BLEU is not an exactly defined metric, BLEU scores are not comparable.
 So researchers have created variants that are more concretely defined.
 
-Here are some of the most well-known variants of BLEU:
-
+### Variants
 - BLEUrt
 - M-BLEU
 
