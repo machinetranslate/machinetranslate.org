@@ -22,13 +22,15 @@ BLEU treats all n-grams equally.
 
 Because BLEU is not an exactly defined metric, BLEU scores are not comparable.
 So researchers have created variants that are more concretely defined.
+
 Here are some of the most well-known variants of BLEU:
 
-- sacreBLEU
 - BLEUrt
 - M-BLEU
 
 *Note: The list is incomplete.*
+
+[sacreBLEU](https://github.com/mjpost/sacrebleu) is a well-known implementation of BLEU.
 
 ### Resources and papers
 
