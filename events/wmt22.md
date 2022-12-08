@@ -200,6 +200,7 @@ Confirmed language pairs:
 | 16:00 - 17:30 | [***Does Simultaneous Speech Translation need Simultaneous Models?***](https://arxiv.org/pdf/2204.03783.pdf) <br>Marco Turchi, Matteo Negri, Marco Gaido, Sara Papi |
 | 16:00 - 17:30 | [***Utilizing Language-Image Pretraining for Efficient and Robust Bilingual Word***](https://arxiv.org/pdf/2205.11616.pdf) <br>Kangwook Lee, Dimitris Papailiopoulos, Junjie Hu, Yifei Ming, Timothy Ossowski, Shashank Rajput, Jy-yong Sohn, Tuan Dinh |
 | 16:00 - 17:30 | [***Subword-Delimited Downsampling for Better Character-Level Translation***](http://aixpaper.com/view/subworddelimited_downsampling_for_better_characterlevel_translation) <br>Lukas Edman, Antonio Toral, Gertjan van Noord |
+| 16:00 - 17:30 | [***COMET-QE and Active Learning for Low-Resource Machine Translation***](https://arxiv.org/pdf/2210.15696.pdf) <br>Everlyn Chimoto, Bruce Bassett |
 
 ### Day 2
 
