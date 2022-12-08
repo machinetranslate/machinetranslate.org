@@ -69,7 +69,7 @@ The first framework, QuEst, was released in 2013.
 | [OpenKiwi](https://github.com/Unbabel/OpenKiwi) | Unbabel                     | Deep learning     |
 | [TransQuest](https://github.com/TharinduDR/TransQuest) | Tharindu Ranasinghe, University of Wolverhampton | Deep learning |
 
-TransQuest also includes pretrained models.  The models were pretrained with [WMT](/events/wmt.md) data.
+TransQuest also includes pretrained models.  The models were pretrained with [WMT](/associations/wmt.md) data.
 
 
 ### Providers

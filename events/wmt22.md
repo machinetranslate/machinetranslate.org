@@ -185,6 +185,22 @@ Confirmed language pairs:
 | 16:00 - 17:30 | **Automatic Post-Editing Task** |
 | 16:00 - 17:30 | [***IIT Bombay’s WMT22 Automatic Post-Editing Shared Task Submission***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.67.pdf) <br>Sourabh Deoghare, Pushpak Bhattacharyya |
 | 16:00 - 17:30 | [***LUL’s WMT22 Automatic Post-Editing Shared Task Submission***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.68.pdf) <br>Xiaoying Huang, Xingrui Lou, Fan Zhang, Tu Mei |
+| 16:00 - 17:30 | **EMNLP Findings Papers** |
+| 16:00 - 17:30 | [***Translating Hanja Historical Documents to Contemporary Korean and English***](https://arxiv.org/pdf/2205.10019.pdf) <br>Alice Oh, Kyunghyun Cho, JinYeong Bak, Haneul Yoo, Jiho Jin, Juhee Son |
+| 16:00 - 17:30 | [***Data Selection Curriculum for Neural Machine Translation***](https://arxiv.org/pdf/2203.13867.pdf) <br>Shafiq Joty, Shruti Bhosale, James Cross, Vishrav Chaudhary, Philipp Koehn, Tasnim Mohiuddin |
+| 16:00 - 17:30 | [***Bitext Mining Using Distilled Sentence Representations for Low-Resource Languages***](https://arxiv.org/pdf/2205.12654.pdf) <br>Holger Schwenk, Onur Çelebi, Kevin Heffernan |
+| 16:00 - 17:30 | [***m^4 Adapter: Multilingual Multi-Domain Adaptation for Machine Translation***](https://arxiv.org/pdf/2210.11912.pdf) <br>Alexander Fraser, Alexandra Chronopoulou, Wen Lai |
+| 16:00 - 17:30 | [***What Do Compressed Multilingual Machine Translation Models Forget?***](https://arxiv.org/pdf/2205.10828.pdf) <br>Laurent Besacier, James Henderson, Caroline Brun, Alexandre Berard, Vassilina Nikoulina, Alireza Mohammadshahi |
+| 16:00 - 17:30 | **Improving HowNet-Based Chinese Word Sense Disambiguation with Translations** <br>Grzegorz Kondrak, Bradley Hauer, Xiang Zhang |
+| 16:00 - 17:30 | [***Finding Memo: Extractive Memorization in Constrained Sequence Generation***](https://arxiv.org/pdf/2210.12929.pdf) <br>Arul Menezes, Vikas Raunak |
+| 16:00 - 17:30 | [***SALTED: A Framework for SAlient Long-tail Translation Error Detection***](https://arxiv.org/pdf/2205.09988.pdf) <br>Arul Menezes, Matt Post, Vikas Raunak |
+| 16:00 - 17:30 | **Data Cartography for Low-Resource Neural Machine Translation** <br>Marine Carpuat, Aquia Richburg |
+| 16:00 - 17:30 | [***Improving Zero-Shot Multilingual Translation with Universal Representations***](https://arxiv.org/pdf/2210.15851.pdf) <br>Yang Feng, Shuhao Gu |
+| 16:00 - 17:30 | **Guiding Neural Machine Translation with Semantic Kernels** <br>Yuqiang Xie, Luxi Xing, Yunpeng Li, Yubing Ren, Xiangpeng Wei, Yue Hu, Ping Guo |
+| 16:00 - 17:30 | [***Does Simultaneous Speech Translation need Simultaneous Models?***](https://arxiv.org/pdf/2204.03783.pdf) <br>Marco Turchi, Matteo Negri, Marco Gaido, Sara Papi |
+| 16:00 - 17:30 | [***Utilizing Language-Image Pretraining for Efficient and Robust Bilingual Word***](https://arxiv.org/pdf/2205.11616.pdf) <br>Kangwook Lee, Dimitris Papailiopoulos, Junjie Hu, Yifei Ming, Timothy Ossowski, Shashank Rajput, Jy-yong Sohn, Tuan Dinh |
+| 16:00 - 17:30 | [***Subword-Delimited Downsampling for Better Character-Level Translation***](http://aixpaper.com/view/subworddelimited_downsampling_for_better_characterlevel_translation) <br>Lukas Edman, Antonio Toral, Gertjan van Noord |
+| 16:00 - 17:30 | [***COMET-QE and Active Learning for Low-Resource Machine Translation***](https://arxiv.org/pdf/2210.15696.pdf) <br>Everlyn Chimoto, Bruce Bassett |
 
 ### Day 2
 
