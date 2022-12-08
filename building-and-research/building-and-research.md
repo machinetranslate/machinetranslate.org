@@ -12,6 +12,6 @@ The most common input and output type is text.
 There are also other [input and output types](/building-and-research/other-input-types/other-input-types.md), like speech.
 
 Most machine translation systems translate each sentence separately, without any [context](/customisation/context.md).
-Most machine translation models support only one directed language pair.
+Most machine translation models support translation for only one language and in only one direction.
 
-The most common [approaches](/approaches/approaches.md) use human translations as training data.
+The most common [approaches](/approaches/approaches.md) use human translations as [training data](/customisation/training-data).
