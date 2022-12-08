@@ -6,7 +6,7 @@ id: textra
 parent: APIs
 urls:
 - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/
-- https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/help/?q_type=faq#
+- https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/api/
 self_serve: true
 customization: []
 supported_languages:
@@ -123,13 +123,13 @@ supported_languages:
   normalized_code: zh-Hans
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Simplified Chinese
 - slug: chinese
   code: zh-tw
   normalized_code: zh-Hant
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Traditional Chinese
 nav_order: 980
 
 ---

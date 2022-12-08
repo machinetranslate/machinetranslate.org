@@ -13,7 +13,7 @@ family:
 supported_apis:
 - id: deepl
   name: DeepL
-  supported_language_count: 28
+  supported_language_count: 27
 - id: etranslation
   name: eTranslation
   supported_language_count: 30

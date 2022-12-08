@@ -41,7 +41,7 @@ supported_apis:
   supported_language_count: 26
 - id: deepl
   name: DeepL
-  supported_language_count: 28
+  supported_language_count: 27
 - id: xl8
   name: XL8
   supported_language_count: 29

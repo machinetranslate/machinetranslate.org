@@ -8,6 +8,8 @@ code: cel
 languages:
 - slug: breton
   name: Breton
+- slug: cornish
+  name: Cornish
 - slug: irish
   name: Irish
 - slug: scottish-gaelic

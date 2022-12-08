@@ -94,7 +94,7 @@ supported_languages:
   normalized_code: es-es
   base_code: es
   name: Spanish
-  variant_name: null
+  variant_name: Spain
 - slug: spanish
   code: es-mx
   normalized_code: es-mx
@@ -106,7 +106,7 @@ supported_languages:
   normalized_code: es-us
   base_code: es
   name: Spanish
-  variant_name: null
+  variant_name: United States
 - slug: estonian
   code: et
   normalized_code: et
@@ -142,13 +142,13 @@ supported_languages:
   normalized_code: fr-ca
   base_code: fr
   name: French
-  variant_name: null
+  variant_name: Canada
 - slug: french
   code: fr-fr
   normalized_code: fr-fr
   base_code: fr
   name: French
-  variant_name: null
+  variant_name: France
 - slug: gujarati
   code: gu
   normalized_code: gu
@@ -322,13 +322,13 @@ supported_languages:
   normalized_code: pt-br
   base_code: pt
   name: Portuguese
-  variant_name: null
+  variant_name: Brazil
 - slug: portuguese
   code: pt-pt
   normalized_code: pt-pt
   base_code: pt
   name: Portuguese
-  variant_name: null
+  variant_name: Portugal
 - slug: romanian
   code: ro
   normalized_code: ro
@@ -442,13 +442,13 @@ supported_languages:
   normalized_code: zh-Hans
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Simplified Chinese
 - slug: chinese
   code: zh-tw
   normalized_code: zh-Hant
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Traditional Chinese
 nav_order: 927
 
 ---

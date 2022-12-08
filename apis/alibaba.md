@@ -10,11 +10,11 @@ urls:
 self_serve: true
 customization: []
 supported_languages:
-- slug: null
+- slug: abkhaz
   code: ab
   normalized_code: ab
   base_code: ab
-  name: null
+  name: Abkhaz
   variant_name: null
 - slug: null
   code: ace
@@ -220,11 +220,11 @@ supported_languages:
   base_code: csb
   name: null
   variant_name: null
-- slug: null
+- slug: chuvash
   code: cv
   normalized_code: cv
   base_code: cv
-  name: null
+  name: Chuvash
   variant_name: null
 - slug: welsh
   code: cy
@@ -634,11 +634,11 @@ supported_languages:
   base_code: ku
   name: Kurdish
   variant_name: null
-- slug: null
+- slug: cornish
   code: kw
   normalized_code: kw
   base_code: kw
-  name: null
+  name: Cornish
   variant_name: null
 - slug: kyrgyz
   code: ky
@@ -1281,7 +1281,7 @@ supported_languages:
   normalized_code: zh-Hant
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Traditional Chinese
 - slug: zulu
   code: zu
   normalized_code: zu

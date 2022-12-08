@@ -213,7 +213,7 @@ supported_languages:
   normalized_code: zh-Hans
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Simplified Chinese
 nav_order: 966
 
 ---

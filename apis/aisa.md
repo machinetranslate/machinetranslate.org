@@ -27,13 +27,13 @@ supported_languages:
   normalized_code: es-es
   base_code: es
   name: Spanish
-  variant_name: null
+  variant_name: Spain
 - slug: french
   code: fr-fr
   normalized_code: fr-fr
   base_code: fr
   name: French
-  variant_name: null
+  variant_name: France
 - slug: hindi
   code: hi
   normalized_code: hi
@@ -81,7 +81,7 @@ supported_languages:
   normalized_code: pt-pt
   base_code: pt
   name: Portuguese
-  variant_name: null
+  variant_name: Portugal
 - slug: russian
   code: ru
   normalized_code: ru
@@ -105,13 +105,14 @@ supported_languages:
   normalized_code: zh-Hans
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Simplified Chinese
 - slug: chinese
   code: zh-tw
   normalized_code: zh-Hant
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Traditional Chinese
 nav_order: 983
 
 ---
+

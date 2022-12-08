@@ -197,11 +197,11 @@ supported_languages:
   base_code: chr
   name: Cherokee
   variant_name: null
-- slug: null
+- slug: chuvash
   code: chv
   normalized_code: cv
   base_code: cv
-  name: null
+  name: Chuvash
   variant_name: null
 - slug: montenegrin
   code: cnr
@@ -209,11 +209,11 @@ supported_languages:
   base_code: cnr
   name: Montenegrin
   variant_name: null
-- slug: null
+- slug: cornish
   code: cor
   normalized_code: kw
   base_code: kw
-  name: null
+  name: Cornish
   variant_name: null
 - slug: corsican
   code: cos
@@ -328,13 +328,13 @@ supported_languages:
   normalized_code: fr-ca
   base_code: fr
   name: French
-  variant_name: null
+  variant_name: Canada
 - slug: french
   code: fr-fr
   normalized_code: fr-fr
   base_code: fr
   name: French
-  variant_name: null
+  variant_name: France
 - slug: null
   code: frm
   normalized_code: frm
@@ -676,7 +676,7 @@ supported_languages:
   normalized_code: lzh
   base_code: lzh
   name: Chinese
-  variant_name: null
+  variant_name: Literary
 - slug: marshallese
   code: mah
   normalized_code: mh
@@ -874,13 +874,13 @@ supported_languages:
   normalized_code: pt-br
   base_code: pt
   name: Portuguese
-  variant_name: null
+  variant_name: Brazil
 - slug: portuguese
   code: pt-pt
   normalized_code: pt-pt
   base_code: pt
   name: Portuguese
-  variant_name: null
+  variant_name: Portugal
 - slug: pashto
   code: pus
   normalized_code: ps
@@ -1204,13 +1204,13 @@ supported_languages:
   normalized_code: zh-Hans
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Simplified Chinese
 - slug: chinese
   code: zh-tw
   normalized_code: zh-Hant
   base_code: zh
   name: Chinese
-  variant_name: null
+  variant_name: Traditional Chinese
 - slug: zulu
   code: zul
   normalized_code: zu
@@ -1220,3 +1220,4 @@ supported_languages:
 nav_order: 799
 
 ---
+

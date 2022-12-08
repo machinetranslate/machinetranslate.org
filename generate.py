@@ -35,6 +35,11 @@ def base_language_code(locale_code):
 def normalize_locale_casing(locale_code):
   return '-'.join([ part.capitalize() if len(part) == 4 else part.lower() for part in locale_code.split('-') ])
 
+def normalize_locale(locale_code):
+  locale_code = locale_code.replace('_', '-')
+  locale_code = normalize_locale_casing(locale_code)
+  return locale_code
+
 def _normalize_language_code(locale_code, api_id):
   if api_id not in API_LANGUAGE:
     return None
@@ -42,24 +47,38 @@ def _normalize_language_code(locale_code, api_id):
     return None
   return API_LANGUAGE[api_id][locale_code]
 
-def normalize_language_code(locale_code, api_id):
-  locale_code = locale_code.replace('_', '-')
-  locale_code = normalize_locale_casing(locale_code)
+def normalize_language_code(locale_code, api_id, drop_variant=True):
+  locale_code = normalize_locale(locale_code)
   return _normalize_language_code(base_language_code(locale_code), api_id) \
     or _normalize_language_code(locale_code, '*') \
-    or _normalize_language_code(base_language_code(locale_code), '*') \
+    or (drop_variant and _normalize_language_code(base_language_code(locale_code), '*')) \
     or locale_code
 
-def get_language_variant_name(locale_code):
-  parts = normalize_locale_casing(locale_code.replace('_', '-')).split('-')
+# TODO: Move this to a .yaml file
+TERRITORY_NAMES = {
+  'ca': 'Canada',
+  'fr': 'France',
+  'es': 'Spain',
+  'br': 'Brazil',
+  'pt': 'Portugal',
+  'us': 'United States',
+  'uk': 'United Kingdom',
+  'gb': 'Great Britain',
+  '419': 'Latin America',
+}
+
+def get_language_variant_name(locale_code, api_id):
+  locale_code = normalize_locale(locale_code)
+  parts = (_normalize_language_code(locale_code, '*') or locale_code).split('-')
   names = []
-  if parts == 'lzh':
-    names.append('Literary')
+  lang_code = parts[0]
+  if lang_code == 'lzh':
+    names.append('Literary') # Chinese
   for part in parts[1:]:
     if part in SCRIPTS:
       names.append(SCRIPTS[part])
-    # TODO: if part in country
-  print(locale_code, names)
+    elif part in TERRITORY_NAMES:
+      names.append(TERRITORY_NAMES[part])
   if not names:
     return None
   return ' - '.join(names)
@@ -251,7 +270,10 @@ for api in APIS:
         language_name = language['names'][0]
         language_slug = slugify(language_name)
         break
-    variant_name = get_language_variant_name(code)
+    if api_id not in [ 'alibaba', 'baidu', 'niutrans' ] and len(base_code) == 2 and not language_name:
+      # This is usually a typo.
+      raise Exception('2-letter language codes should be in languages.yml.  No name found for: ' + base_code + '(' + api_id + ')')
+    variant_name = get_language_variant_name(code, api_id)
     supported_languages.append({
       'slug': language_slug,
       'code': code,

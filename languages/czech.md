@@ -1,5 +1,5 @@
 ---
-nav_order: 973
+nav_order: 972
 parent: Languages
 layout: language
 title: Czech
@@ -22,7 +22,7 @@ supported_apis:
   supported_language_count: 26
 - id: deepl
   name: DeepL
-  supported_language_count: 28
+  supported_language_count: 27
 - id: xl8
   name: XL8
   supported_language_count: 29
@@ -56,6 +56,9 @@ supported_apis:
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
+- id: omniscien
+  name: Omniscien Technologies
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65

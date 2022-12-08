@@ -98,17 +98,17 @@ supported_languages:
   name: Finnish
   variant_name: null
 - slug: french
-  code: fr-ca
-  normalized_code: fr-ca
-  base_code: fr
-  name: French
-  variant_name: Canadian French
-- slug: french
   code: fr
   normalized_code: fr
   base_code: fr
   name: French
-  variant_name: null
+  variant_name: Canadian French
+- slug: french
+  code: fr-ca
+  normalized_code: fr-ca
+  base_code: fr
+  name: French
+  variant_name: Canada
 - slug: irish
   code: ga
   normalized_code: ga
@@ -248,17 +248,17 @@ supported_languages:
   name: Polish
   variant_name: null
 - slug: portuguese
-  code: pt-pt
-  normalized_code: pt-pt
-  base_code: pt
-  name: Portuguese
-  variant_name: Portugal Portugese
-- slug: portuguese
   code: pt-br
   normalized_code: pt-br
   base_code: pt
   name: Portuguese
-  variant_name: Brazilian Portuguese
+  variant_name: Brazil
+- slug: portuguese
+  code: pt-pt
+  normalized_code: pt-pt
+  base_code: pt
+  name: Portuguese
+  variant_name: Portugal
 - slug: romanian
   code: ro
   normalized_code: ro
@@ -368,17 +368,17 @@ supported_languages:
   name: Vietnamese
   variant_name: null
 - slug: chinese
-  code: zh
+  code: zh-cn
   normalized_code: zh-Hans
   base_code: zh
   name: Chinese
-  variant_name: Simplified Chinese 
+  variant_name: Simplified Chinese
 - slug: chinese
   code: zh-tw
   normalized_code: zh-Hant
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
-nav_order: 955
+nav_order: 939
 
 ---
