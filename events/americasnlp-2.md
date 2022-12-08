@@ -24,14 +24,14 @@ seo:
     url: http://turing.iimas.unam.mx/americasnlp/st.html
 ---
 
-The **Second AmericasNLP Competition** will take place online on 7th December, 2022, at NeurIPS 2022.
-The competition focuses on creating machine translation systems for indigenous languages from the Americas.
+The **Second AmericasNLP Competition** took place online on 7th December, 2022, at NeurIPS 2022.
+The competition focused on creating machine translation systems for indigenous languages from the Americas.
 
 [turing.iimas.unam.mx/americasnlp/st.html](http://turing.iimas.unam.mx/americasnlp/st.html)
 
 ## Tasks
 
-Participants will build systems for three tasks.
+Participants built systems for three tasks.
 
  - Automatic speech recognition (ASR)
  - Machine translation (text-to-text translation)
@@ -44,6 +44,11 @@ Participants will build systems for three tasks.
 - Kotiria–Portuguese
 - Wa'ikhana–Portuguese
 - Quechua–Spanish
+
+## Keynote speakers
+
+- Hilaria Cruz
+- Sebastian Ruder
 
 ## Organisers
 
