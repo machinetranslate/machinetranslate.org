@@ -20,9 +20,9 @@ seo:
     addressLocality: Zurich
 ---
 
-The eleventh **Machine Translation Meetup** (**MTM**) will take place on 12 December, 2022, in Zurich, Switzerland.
+The eleventh **Machine Translation Meetup** (**MTM**) took place on 12 December, 2022, in Zurich, Switzerland.
 
-The topic is ***MT for subtitling – pain or gain?***.
+The topic was ***MT for subtitling – pain or gain?***.
 
 ### Location
 
