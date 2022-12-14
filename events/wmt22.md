@@ -96,6 +96,47 @@ Confirmed language pairs:
 - Ukrainian-English
 - Ukrainian-Czech
 
+## Scientific papers
+
+### Topics:
+
+- MT models (neural, statistical etc. )
+- Analysis of neural models for MT
+- Using comparable corpora for MT
+- Selection and preparation of data for MT
+- Semi-supervised and unsupervised learning for MT, transfer learning
+- Multilingual MT
+- Incorporating linguistic information into MT
+- MT inference
+- Manual and automatic methods for evaluating MT
+- Quality estimation for MT
+
+### Research Papers
+
+> Research papers should describe original research corresponding to the categories listed above. Research papers that have been or will be submitted to other meetings or publications must indicate this at submission time, and must be withdrawn from the other venues if accepted and published at WMT 2022.
+
+> We will not accept for publication papers that overlap significantly in content or results with papers that have been or will be published elsewhere. It is acceptable to submit work that has been made available as a technical report (or similar, e.g. in arXiv) without citing it.
+
+> For the research track, papers should be anonymised, be between 6 and 10 pages in length (excluding references) and may include supplementary material.
+
+
+### System Papers
+
+> System papers must describe one or more shared task submissions. System paper submissions that we cannot link to a shared task submission will be rejected without review. System papers can overlap with other published work, and do not have to follow the double submission policy. There is no maximum length for system papers, but normally a short paper (4-6 pages) is appropriate. System papers should not be anonymised.
+
+
+## Poster format
+
+Details about poster format are to be determined.
+Posters must be presented in Gather.Town.
+
+
+## Paper submission
+
+- Papers must be submitted [electronically](https://www.softconf.com/emnlp2022/WMT/).
+- Research and system papers have the same deadlines.
+- Research and system papers should follow [EMNLP2022 formatting guidelines](https://2022.emnlp.org/calls/style-and-formatting).
+
 
 ## Schedule
 
@@ -279,48 +320,64 @@ Confirmed language pairs:
 | 16:00 - 17:30 | [***Transn’s Submissions to the WMT22 Translation Suggestion Task***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.124.pdf) <br>Mao Hongbao, Zhang Wenbo, Cai Jie, Cheng Jianwei |
 | 16:00 - 17:30 | [***Improved Data Augmentation for Translation Suggestion***](https://www.statmt.org/wmt22/pdf/2022.wmt-1.125.pdf) <br>Hongxiao Zhang, Siyu Lai, Songming Zhang, Hui Huang, Yufeng Chen, Jinan Xu, Jian Liu |
 
-## Scientific papers
 
-### Topics:
+## Results
 
-- MT models (neural, statistical etc. )
-- Analysis of neural models for MT
-- Using comparable corpora for MT
-- Selection and preparation of data for MT
-- Semi-supervised and unsupervised learning for MT, transfer learning
-- Multilingual MT
-- Incorporating linguistic information into MT
-- MT inference
-- Manual and automatic methods for evaluating MT
-- Quality estimation for MT
+Full results of the shared tasks: [*Findings of the 2022 Conference on Machine Translation (WMT22)*](https://statmt.org/wmt22/pdf/2022.wmt-1.1.pdf)
 
+### News translation
 
-### Research Papers
+The winner systems were listed according to their [average score and average z-score](/associations/wmt.md#average-score-and-average-z-score).
 
-> Research papers should describe original research corresponding to the categories listed above. Research papers that have been or will be submitted to other meetings or publications must indicate this at submission time, and must be withdrawn from the other venues if accepted and published at WMT 2022.
+#### → English
 
-> We will not accept for publication papers that overlap significantly in content or results with papers that have been or will be published elsewhere. It is acceptable to submit work that has been made available as a technical report (or similar, e.g. in arXiv) without citing it.
+The results were determined with a monolingual [direct assessment](/associations/wmt.md#direct-assessment) with document context.
 
-> For the research track, papers should be anonymised, be between 6 and 10 pages in length (excluding references) and may include supplementary material.
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| Czech → | `Online-W` | 74.0 | 0.133 |
+| Japanese → | `DLUT` | 66.7 | 0.069 |
+| Russian → | `JDExploreAcademy` | 77.5 | 0.055 |
+| German → | `Lan-Bridge` | 68.8 | 0.004 |
+| Ukrainian → | `Lan-Bridge` | 73.5 | 0.048 |
+| Livonian → | `TartuNLP` | 67.7 | 0.024 |
+| Chinese → | `JDExploreAcademy`| 69.8 | −0.026 |
 
+#### English →
 
-### System Papers
+The results were determined with a bilingual direct assessment in a full document, except for Livonian.
 
-> System papers must describe one or more shared task submissions. System paper submissions that we cannot link to a shared task submission will be rejected without review. System papers can overlap with other published work, and do not have to follow the double submission policy. There is no maximum length for system papers, but normally a short paper (4-6 pages) is appropriate. System papers should not be anonymised.
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| → Czech | `Online-W` | 90.9 | 0.279 |
+| → Japanese | `NT5` | 84.1 | 0.103 |
+| → Russian | `Online-W` | 87.3 | 0.222 |
+| → German | `Online-B` | 93.6 | 0.106 |
+| → Ukrainian | `Online-B` | 84.0 | 0.124 |
+| → Livonian | `TAL-SJTU` | 46.2 | 0.215 |
+| → Chinese | `Online-W`| 81.9 | 0.099 |
+| → Croatian | `Online-B` | 92.0 | 0.232 |
 
+#### Czech → Ukrainian
 
-## Poster format
+The results were determined with a bilingual direct assessment in a full document.
 
-Details about poster format are to be determined.
-Posters must be presented in Gather.Town.
+| System | Average score | Average z-score |
+| --- | --- | --- |
+| `Online-B` | 84.6 | 0.225 |
 
+#### Ukrainian → Czech
 
-## Paper submission
+The results were determined with a bilingual direct assessment in a full document.
 
-- Papers must be submitted [electronically](https://www.softconf.com/emnlp2022/WMT/).
-- Research and system papers have the same deadlines.
-- Research and system papers should follow [EMNLP2022 formatting guidelines](https://2022.emnlp.org/calls/style-and-formatting).
+| System | Average score | Average z-score |
+| --- | --- | --- |
+| `AMU` | 85.6 | 0.182 |
 
----
+#### Yakut → Russian
 
-*Last updated from https://statmt.org/wmt22 on 16 November, 2022*
+The results were determined with a bilingual direct assessment in a full document.
+
+| System | Average score | Average z-score |
+| --- | --- | --- |
+| `Online-G` | 54.6 | 0.178 |
