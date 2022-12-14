@@ -133,7 +133,7 @@ Full results of the shared tasks: [*Findings of the 2010 Joint Workshop on Stati
 
 ### News translation
 
-The results were determined with a [relative ranking](wmt.md#relative-ranking), the `≥ others` ("greater than or equal to others") score.
+The results were determined with a [relative ranking](/associations/wmt.md#relative-ranking), the `≥ others` (“greater than or equal to others”) score.
 
 It measures how often a system was judged to be better than or equal to any other system.
 

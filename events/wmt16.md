@@ -203,7 +203,7 @@ Full results of the shared tasks: [*Findings of the 2016 Conference on Machine T
 
 ### News translation
 
-The results were determined with a [relative ranking](wmt.md#relative-ranking) through the [TrueSkill](wmt.md#trueskill) model.
+The results were determined with a [relative ranking](/associations/wmt.md#relative-ranking) through the [TrueSkill](/associations/wmt.md#trueskill) model.
 
 #### → English
 

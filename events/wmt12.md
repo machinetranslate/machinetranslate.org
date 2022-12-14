@@ -126,7 +126,7 @@ Full results of the shared tasks: [*Findings of the 2012 Workshop on Statistical
 
 ### News translation
 
-The results were determined with a [relative ranking](wmt.md#relative-ranking), the `> others` ("greater than others") score.
+The results were determined with a [relative ranking](/associations/wmt.md#relative-ranking), the `> others` (“greater than others”) score.
 
 It measures how often a system was judged to be better than any other system.
 

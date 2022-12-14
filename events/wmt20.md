@@ -235,11 +235,11 @@ Full results of the shared tasks: [*Findings of the 2020 Conference on Machine T
 
 ### News translation
 
-The winner systems were listed according to their [average score and average z-score](wmt.md#average-score-and-average-z-score).
+The winner systems were listed according to their [average score and average z-score](/associations/wmt.md#average-score-and-average-z-score).
 
 #### → English
 
-The results were determined with a monolingual [direct assessment](wmt.md#direct-assessment) with document context.
+The results were determined with a monolingual [direct assessment](/associations/wmt.md#direct-assessment) with document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |

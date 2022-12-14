@@ -130,7 +130,7 @@ Full results of the shared tasks: [*Findings of the 2013 Workshop on Statistical
 
 ### News translation
 
-The results were determined with a [relative ranking](wmt.md#relative-ranking).
+The results were determined with a [relative ranking](/associations/wmt.md#relative-ranking).
 
 #### → English
 
