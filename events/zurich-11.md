@@ -35,8 +35,10 @@ Impact Hub Zurich - Viadukt
 - Lucas Seiler, CEO at TextShuttle
 
 
-*Last updated from meetup.com/machine-translation-meetup-mtm/events/289203640 on October 26th, 2022*
-
 ### Links
 
 - Meetup: [meetup.com/machine-translation-meetup-mtm/events/289203640](https://www.meetup.com/machine-translation-meetup-mtm/events/289203640/)
+- Presentations:
+  - [Machine Translation for Subtitles](https://drive.google.com/drive/folders/1HCWfSN1QM_H6f_4EeDEUHGdBmlY4YKTQ), Martin Volk
+  - [Length control in MT](https://drive.google.com/drive/folders/1HCWfSN1QM_H6f_4EeDEUHGdBmlY4YKTQ), Lucas Seiler
+  - [Subtitling @Vaudoise Insurance](https://drive.google.com/drive/folders/1HCWfSN1QM_H6f_4EeDEUHGdBmlY4YKTQ), Susi Hasanovic
