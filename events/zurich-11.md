@@ -39,6 +39,6 @@ Impact Hub Zurich - Viadukt
 
 - Meetup: [meetup.com/machine-translation-meetup-mtm/events/289203640](https://www.meetup.com/machine-translation-meetup-mtm/events/289203640/)
 - Presentations:
-  - [Machine Translation for Subtitles](https://drive.google.com/drive/folders/1HCWfSN1QM_H6f_4EeDEUHGdBmlY4YKTQ), Martin Volk
-  - [Length control in MT](https://drive.google.com/drive/folders/1HCWfSN1QM_H6f_4EeDEUHGdBmlY4YKTQ), Lucas Seiler
-  - [Subtitling @Vaudoise Insurance](https://drive.google.com/drive/folders/1HCWfSN1QM_H6f_4EeDEUHGdBmlY4YKTQ), Susi Hasanovic
+  - [Machine Translation for Subtitles](https://drive.google.com/file/d/1PrY8uOxb8wzuUqqBmWCIN_0dpePYZ2Wb/view), Martin Volk
+  - [Length control in MT](https://drive.google.com/file/d/1JS81TNsNHwLXQ0ndYAX0SXHViuENeCll/view), Lucas Seiler
+  - [Subtitling @Vaudoise Insurance](https://drive.google.com/file/d/1TF_gKPPkbGbIjr-TXnekBFHqvN7eVz1f/view), Susi Hasanovic
