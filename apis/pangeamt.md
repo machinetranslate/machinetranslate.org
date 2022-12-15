@@ -5,10 +5,12 @@ description: The PangeaMT machine translation API
 id: pangeamt
 parent: APIs
 urls:
-- https://eco.pangeamt.com/main
+- https://languagetechnology.pangeanic.com/machine-translation/
 - https://prod.pangeamt.com/
-self_serve: false
-customization: []
+self_serve: true
+customization:
+- Adaptive
+- Glossary
 supported_languages:
 - slug: german
   code: de
@@ -67,4 +69,3 @@ supported_languages:
 nav_order: 991
 
 ---
-

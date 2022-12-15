@@ -217,10 +217,12 @@
 - name: PangeaMT
   id: pangeamt
   urls:
-   - https://eco.pangeamt.com/main
+   - https://languagetechnology.pangeanic.com/machine-translation/
    - https://prod.pangeamt.com/
   languages: [ de, en, es, fr, it, ja, pt, zh, zh-tw ]
-  self-serve: false
+  glossary: true
+  adaptive: true
+  self-serve: true
 
 - name: Papago Translation
   id: papago
