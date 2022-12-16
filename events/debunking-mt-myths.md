@@ -31,3 +31,7 @@ The speaker was Doctor Félix do Carmo, from the Centre of Translation Studies a
 > In this lecture, I will present a critical view of three of the most influential papers from machine translation research, not criticising their scientific validity, but highlighting how their use of terms and concepts helped create myths around the power of machine translation.
 
 [surrey.ac.uk/news/convergence-lecture-series-debunking-few-machine-translation-myths-zero-shot-translation-human](https://www.surrey.ac.uk/news/convergence-lecture-series-debunking-few-machine-translation-myths-zero-shot-translation-human)
+
+### Presentation
+
+[Debunking a few machine translation myths](https://www.youtube.com/watch?v=Qap07fV5IgI)
