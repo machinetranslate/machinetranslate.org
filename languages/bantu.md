@@ -8,8 +8,14 @@ code: bnt
 languages:
 - slug: bemba
   name: Bemba
+- slug: ganda
+  name: Ganda
 - slug: kinyarwanda
   name: Kinyarwanda
+- slug: kongo
+  name: Kongo
+- slug: lingala
+  name: Lingala
 - slug: sotho
   name: Sotho
 - slug: swahili

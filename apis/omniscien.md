@@ -102,7 +102,7 @@ supported_languages:
   normalized_code: fr
   base_code: fr
   name: French
-  variant_name: Canadian French
+  variant_name: null
 - slug: french
   code: fr-ca
   normalized_code: fr-ca
@@ -234,7 +234,7 @@ supported_languages:
   normalized_code: 'no'
   base_code: 'no'
   name: Norwegian
-  variant_name: Norwegian Bokmål
+  variant_name: null
 - slug: punjabi
   code: pa
   normalized_code: pa
@@ -382,3 +382,4 @@ supported_languages:
 nav_order: 939
 
 ---
+

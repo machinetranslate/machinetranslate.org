@@ -78,6 +78,8 @@ languages:
   name: Luxembourgish
 - slug: macedonian
   name: Macedonian
+- slug: manx
+  name: Manx
 - slug: marathi
   name: Marathi
 - slug: montenegrin
@@ -90,6 +92,8 @@ languages:
   name: Occitan
 - slug: oriya
   name: Oriya
+- slug: ossetian
+  name: Ossetian
 - slug: pashto
   name: Pashto
 - slug: persian

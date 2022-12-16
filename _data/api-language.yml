@@ -98,6 +98,7 @@ microsoft:
   ita: it
   jav: jv
   jpn: ja
+  jy: ka # Niutrans
   kal: kl
   kan: kn
   kas: ks
@@ -201,3 +202,5 @@ microsoft:
   yor: yo
   zha: za
   zul: zu
+  me: cnr # Niutrans
+  mo: mn # Niutrans

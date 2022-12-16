@@ -22,6 +22,8 @@ languages:
   name: Nepali
 - slug: oriya
   name: Oriya
+- slug: ossetian
+  name: Ossetian
 - slug: pashto
   name: Pashto
 - slug: persian

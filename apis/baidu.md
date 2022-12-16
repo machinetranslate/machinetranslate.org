@@ -383,11 +383,11 @@ supported_languages:
   base_code: gl
   name: Galician
   variant_name: null
-- slug: null
+- slug: manx
   code: glv
   normalized_code: gv
   base_code: gv
-  name: null
+  name: Manx
   variant_name: null
 - slug: null
   code: grc
@@ -599,11 +599,11 @@ supported_languages:
   base_code: kok
   name: null
   variant_name: null
-- slug: null
+- slug: kongo
   code: kon
   normalized_code: kg
   base_code: kg
-  name: null
+  name: Kongo
   variant_name: null
 - slug: korean
   code: kor
@@ -641,11 +641,11 @@ supported_languages:
   base_code: li
   name: null
   variant_name: null
-- slug: null
+- slug: lingala
   code: lin
   normalized_code: ln
   base_code: ln
-  name: null
+  name: Lingala
   variant_name: null
 - slug: lithuanian
   code: lit
@@ -827,17 +827,17 @@ supported_languages:
   base_code: or
   name: Oriya
   variant_name: null
-- slug: null
+- slug: oromo
   code: orm
   normalized_code: om
   base_code: om
-  name: null
+  name: Oromo
   variant_name: null
-- slug: null
+- slug: ossetian
   code: oss
   normalized_code: os
   base_code: os
-  name: null
+  name: Ossetian
   variant_name: null
 - slug: null
   code: pam

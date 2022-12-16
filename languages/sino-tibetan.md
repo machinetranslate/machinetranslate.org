@@ -12,6 +12,8 @@ languages:
   name: Cantonese
 - slug: chinese
   name: Chinese
+- slug: dzongkha
+  name: Dzongkha
 - slug: tibetan
   name: Tibetan
 

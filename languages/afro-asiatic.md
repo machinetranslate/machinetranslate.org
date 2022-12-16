@@ -20,6 +20,8 @@ languages:
   name: Kabyle
 - slug: maltese
   name: Maltese
+- slug: oromo
+  name: Oromo
 - slug: somali
   name: Somali
 - slug: tigrinya

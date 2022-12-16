@@ -113,7 +113,7 @@
 -
   codes: [ bem ]
   names: [ Bemba, ChiBemba, Cibemba, Ichibemba, Icibemba, Chiwemba ]
-  family: [ bnt ]
+  family: [ bnt, nic ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -241,7 +241,7 @@
   territories: [ ro, ru, ua ]
 
 -
-  codes: [ cnr ]
+  codes: [ cnr, me ]
   names: [ Montenegrin ]
   variant_names: [ Serbo-Croatian ]
   family: [ sla, ine ]
@@ -310,6 +310,26 @@
     word_order: [  ]
     morphosyntax: [ inflected ]
   territories: [ mv ]
+
+-
+  codes: [ dz, dzo, lya, luk, adp ]
+  names: [ Dzongkha ]
+  family: [ sit ]
+  scripts: [ Tibt ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ bt ]
+
+-
+  codes: [ ee, ewe, wci, kef ]
+  names: [ Ewe ]
+  family: [ nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ isolating, agglutinative ]
+  territories: [ gh, tg, bj ]
 
 -
   codes: [ el, gre, ell ]
@@ -452,6 +472,7 @@
     word_order: [ VSO ]
     morphosyntax: [ inflected ]
   territories: [ gb ]
+
 -
   codes: [ gl, glg ]
   names: [ Galician, Gallego ]
@@ -471,6 +492,17 @@
     word_order: [ SOV ]
     morphosyntax: [ inflected ]
   territories: [ in, pk ]
+
+-
+
+  codes: [ gv, glv ]
+  names: [ Manx, Manx Gaelic ]
+  family: [ cel, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ inflected ]
+  territories: [ im ]
 
 -
   codes: [ ha, hau ]
@@ -645,7 +677,7 @@
   territories: [ id ]
 
 -
-  codes: [ ka, kat, geo ]
+  codes: [ ka, kat, geo, jy ]
   names: [ Georgian ]
   family: [ ccs ]
   scripts: [ Geor ]
@@ -663,6 +695,16 @@
     word_order: [ VSO ]
     morphosyntax: [ inflected ]
   territories: [ dz ]
+
+-
+  codes: [ kg, kon ]
+  names: [ Kongo, Kikongo ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ao ]
 
 -
   codes: [ kk, kaz ]
@@ -765,6 +807,26 @@
   territories: [ lu ]
 
 -
+  codes: [ gl, lug ]
+  names: [ Ganda, Luganda ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ug ]
+
+-
+  codes: [ ln, lin ]
+  names: [ Lingala ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ cg, cd ]
+
+-
   codes: [ lo, lao ]
   names: [ Lao ]
   family: [ tai ]
@@ -859,7 +921,7 @@
   territories: [ in ]
 
 -
-  codes: [ mn, mon ]
+  codes: [ mn, mon, mo ]
   names: [ Mongolian ]
   family: [ xgn ]
   scripts: [ Cyrl, Mong, Phag ]
@@ -972,6 +1034,16 @@
   territories: [ es, fr, it, mc ]
 
 -
+  codes: [ om, orm ]
+  names: [ Oromo ]
+  family: [ cus, afa ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ fusional ]
+  territories: [ ke, et ]
+
+-
   codes: [ or, ori ]
   names: [ Oriya, Odia ]
   family: [ inc, iir, ine ]
@@ -980,6 +1052,16 @@
     word_order: [ SOV ]
     morphosyntax: [ inflected ]
   territories: [ id ]
+
+-
+  codes: [ os, oss ]
+  names: [ Ossetian, Ossetic ]
+  family: [ iir, ine ]
+  scripts: [ Cyrl, Geor, Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ru, ru-se, ge ]
 
 -
   codes: [ otq ]

@@ -6,6 +6,8 @@ title: Cushitic
 description: Machine translation for the Cushitic language family
 code: cus
 languages:
+- slug: oromo
+  name: Oromo
 - slug: somali
   name: Somali
 

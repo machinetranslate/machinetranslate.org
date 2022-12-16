@@ -256,11 +256,11 @@ supported_languages:
   base_code: dv
   name: Divehi
   variant_name: null
-- slug: null
+- slug: ewe
   code: ee
   normalized_code: ee
   base_code: ee
-  name: null
+  name: Ewe
   variant_name: null
 - slug: greek
   code: el
@@ -388,11 +388,11 @@ supported_languages:
   base_code: gu
   name: Gujarati
   variant_name: null
-- slug: null
+- slug: manx
   code: gv
   normalized_code: gv
   base_code: gv
-  name: null
+  name: Manx
   variant_name: null
 - slug: hausa
   code: ha
@@ -574,11 +574,11 @@ supported_languages:
   base_code: kek
   name: null
   variant_name: null
-- slug: null
+- slug: kongo
   code: kg
   normalized_code: kg
   base_code: kg
-  name: null
+  name: Kongo
   variant_name: null
 - slug: null
   code: kha
@@ -676,11 +676,11 @@ supported_languages:
   base_code: li
   name: null
   variant_name: null
-- slug: null
+- slug: lingala
   code: ln
   normalized_code: ln
   base_code: ln
-  name: null
+  name: Lingala
   variant_name: null
 - slug: lao
   code: lo
@@ -850,11 +850,11 @@ supported_languages:
   base_code: oj
   name: null
   variant_name: null
-- slug: null
+- slug: oromo
   code: om
   normalized_code: om
   base_code: om
-  name: null
+  name: Oromo
   variant_name: null
 - slug: oriya
   code: or
@@ -862,11 +862,11 @@ supported_languages:
   base_code: or
   name: Oriya
   variant_name: null
-- slug: null
+- slug: ossetian
   code: os
   normalized_code: os
   base_code: os
-  name: null
+  name: Ossetian
   variant_name: null
 - slug: punjabi
   code: pa
