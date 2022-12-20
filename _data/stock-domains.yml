@@ -1,0 +1,250 @@
+---
+
+- id: aisa
+  stock_api_domains:
+    - e-commerce
+    - gaming
+
+- id: alexa-ai
+  stock_api_domains:
+    - finance
+    - legal
+    - government
+  urls:
+    - https://alexatranslations.com/financial/
+    - https://alexatranslations.com/legal/
+
+- id: alibaba
+  stock_api_domains:
+    - e-commerce
+  urls:
+    - https://www.alibabacloud.com/help/en/machine-translation/latest/product-introduction-1
+
+- id: amazon
+  stock_api_domains: false
+
+- id: apertium
+  stock_api_domains: false
+
+- id: apptek
+  stock_api_domains:
+    - e-commerce
+    - media
+    - government
+    - oral discourse
+  urls:
+    - https://www.apptek.com/technology/machine-translation
+
+- id: baidu
+  stock_api_domains: false
+
+- id: cloudtranslation
+  stock_api_domains:
+    - academic
+    - automobile
+    - aviation
+    - engineering
+    - finance
+    - information technology
+    - medicine
+    - news
+    - legal
+    - oral discourse
+    - patents
+    - politics
+    - tourism
+  urls:
+    - https://cloudtranslation.com/static/api_en.html#_2
+
+- id: deepl
+  stock_api_domains: false
+
+- id: etranslation
+  stock_api_domains:
+    - government
+    - public sector
+  urls:
+    - https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en
+
+- id: judicio
+  stock_api_domains:
+    - legal
+  urls:
+    - https://judic.io/en
+
+- id: globalese
+  stock_api_domains: false
+
+- id: google
+  stock_api_domains: false
+
+- id: kantanmt
+  stock_api_domains:
+    - automobile
+    - e-commerce
+    - gaming
+    - government
+    - IT
+    - patents
+    - tourism
+  urls:
+    - https://www.kantanai.io/showcase/
+
+- id: language-weaver
+  stock_api_domains: false
+
+- id: lilt
+  stock_api_domains: false
+
+- id: lingmo
+  stock_api_domains: false
+
+- id: lingo24
+  stock_api_domains: null
+
+- id: lingvanex
+  stock_api_domains: false
+
+- id: microsoft
+  stock_api_domains: false
+
+- id: mirai
+  stock_api_domains:
+    - legal
+    - financial
+
+- id: modernmt
+  stock_api_domains: false
+
+- id: niutrans
+  stock_api_domains: false
+
+- id: omniscien
+  stock_api_domains:
+    - automotive
+    - banking
+    - finance
+    - e-discovery
+    - engineering
+    - manufacturing
+    - information technology
+    - life sciences
+    - military
+    - intelligence
+    - defense
+    - news
+    - media
+    - patents
+    - legal
+    - politics
+    - government
+    - retail
+    - e-commerce
+    - subtitles
+    - travel
+    - hospitality
+  urls:
+    - https://omniscien.com/machine-translation/industry-domains/
+
+- id: pangeamt
+  stock_api_domains: false
+
+- id: papago
+  stock_api_domains: false
+
+- id: promt
+  stock_api_domains: null
+
+- id: rozetta
+  stock_api_domains:
+    - industrial technology
+    - legal
+    - medicine
+    - chemistry
+    - patents
+    - IR
+  urls:
+    - https://www.rozetta.jp/t4oo/
+
+- id: sap
+  stock_api_domains:
+    - analytics
+    - finance
+    - industry
+    - logistics
+    - people management
+    - sales
+    - technology
+  urls:
+    - https://help.sap.com/docs/SAP_TRANSLATION_HUB/ed6ce7a29bdd42169f5f0d7868bce6eb/35628564620d46ab8d218c04ac0140ea.html?locale=en-US&q=translation%20domains
+
+- id: sunda
+  stock_api_domains: false
+
+- id: systran
+  stock_api_domains:
+    - legal
+    - education
+    - health
+    - industry
+    - agriculture
+    - finance
+    - business
+    - technology
+    - information technology
+    - energy
+    - patents
+    - collaboration
+    - oral discourse
+  urls:
+   - https://www.systran.net/marketplace-catalog/domains/
+
+- id: tarjama
+  stock_api_domains: false
+
+- id: tencent
+  stock_api_domains: false
+
+- id: textshuttle
+  stock_api_domains: null
+
+- id: textra
+  stock_api_domains:
+    - sciences
+    - legal
+    - finance
+    - patents
+    - oral discourse
+
+- id: tilde
+  stock_api_domains: null
+
+- id: translateme
+  stock_api_domains: false
+
+- id: unbabel
+  stock_api_domains: null
+
+- id: xl8
+  stock_api_domains: false
+
+- id: yandex
+  stock_api_domains: false
+
+- id: yeekit
+  stock_api_domains: false
+
+- id: youdao
+  stock_api_domains:
+    - information technology
+    - medicine
+    - finance
+    - economy
+  urls:
+    - https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html
+
+- id: watson
+  stock_api_domains: null
+
+- id: wordlingo
+  stock_api_domains: false
