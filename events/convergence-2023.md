@@ -39,7 +39,7 @@ Day 1
 | --- | --- |
 | 10:00 - 12:00 | **Workshop** <br>[**Teaching neural machine translation to translators**](https://www.surrey.ac.uk/centre-translation-studies/convergence-2023/workshop-teaching-neural-machine-translation-translators) <br>Diptesh Kanojia, Dorothy Kenny, Leonardo Zilio, Félix do Carmo |
 | 14:00 - 14:15 | **Start of conference** |
-| 14:15 - 15:15 | **Keynote 1** <br>[**Human and machine translation: a meeting of modes and minds?**](https://www.surrey.ac.uk/centre-translation-studies/convergence-2023/keynote-speakers#kenny) <brDorothy Kenny |
+| 14:15 - 15:15 | **Keynote 1** <br>[**Human and machine translation: a meeting of modes and minds?**](https://www.surrey.ac.uk/centre-translation-studies/convergence-2023/keynote-speakers#kenny) <br>Dorothy Kenny |
 | 15:30 - 18:00 | |
 |  | **Session 1** <br>[**Embracing the complexity: hybrid practices for interlingual communication in real time**](https://www.surrey.ac.uk/centre-translation-studies/convergence-2023/embracing-complexity) <br>Carlo Eugeni, Susan Daniels, Martin Cornwell, Luke Barrett, Elizabeth Crockett, Evan Dorrestein, Denise Kroesen |
 |  | **Session 2** <br>[**Convergence and collaboration in translation and research**](https://www.surrey.ac.uk/centre-translation-studies/convergence-2023/convergence-and-collaboration-translation-research) <br>Lynne Bowker, Joanna Drugan, Gökhan Firat, Miguel Jiménez-Crespo, Joss Moorkens, Özlem Temizöz |
