@@ -1,0 +1,159 @@
+--
+- id: aisa
+  privacy_urls:
+    - https://www.aisa.digital/terms-of-use/
+
+- id: alexa-ai
+  privacy_urls: null
+
+- id: alibaba
+  privacy_urls:
+    - https://www.alibabacloud.com/help/en/machine-translation/latest/service-agreement-introduction#1306e5965564i
+
+- id: amazon
+  privacy_urls:
+    - https://docs.aws.amazon.com/translate/latest/dg/security.html
+
+- id: apertium
+  privacy_urls: null
+
+- id: apptek
+  privacy_urls: null
+
+- id: baidu
+  privacy_urls: null
+
+- id: cloudtranslation
+  privacy_urls: null
+
+- id: deepl
+  privacy_urls:
+    - https://www.deepl.com/pro-data-security/
+
+- id: etranslation
+  privacy_urls:
+    - https://ec.europa.eu/info/privacy-policy_en
+
+- id: judicio
+  privacy_urls:
+    - https://judic.io/en/about
+
+- id: globalese
+  privacy_urls:
+    - https://www.globalese-mt.com/wp-content/uploads/2022/07/Termsandconditions_V4_version_4_2.pdf
+
+- id: google
+  privacy_urls:
+    - https://cloud.google.com/translate/data-usage
+
+- id: kantanmt
+  privacy_urls:
+    - https://www.kantanai.io/privacy-statement-2/
+
+- id: language-weaver
+  privacy_urls:
+    - https://www.rws.com/legal/privacy/privacy-notice/?_gl=1*1ugvzg8*_ga*Njc5NDEwODk5LjE2MjYxNDMzMzM.*_ga_XXKN0CM93C*MTY2ODQzOTc0Mi45MS4xLjE2Njg0NDEwMTkuMC4wLjA.
+
+- id: lilt
+  privacy_urls:
+    - https://lilt.com/technology/security
+
+- id: lingmo
+  privacy_urls: null
+
+- id: lingo24
+  privacy_urls:
+    - https://www.lingo24.com/about/privacy-and-terms/
+
+- id: lingvanex
+  privacy_urls: null
+
+- id: microsoft
+  privacy_urls:
+    - https://www.microsoft.com/en-us/translator/business/notrace/
+
+- id: mirai
+  privacy_urls: null
+
+- id: modernmt
+  privacy_urls:
+    - https://www.modernmt.com/privacy/
+
+- id: niutrans
+  privacy_urls:
+    - https://translate.niutrans.com/privacy
+
+- id: omniscien
+  privacy_urls:
+    - https://omniscien.com/machine-translation/data-security-and-privacy/
+
+- id: pangeamt
+  privacy_urls: null
+
+- id: papago
+  privacy_urls: null
+
+- id: promt
+  privacy_urls: null
+
+- id: rozetta
+  privacy_urls: null
+
+- id: sap
+  privacy_urls:
+    - https://help.sap.com/docs/SAP_TRANSLATION_HUB/ed6ce7a29bdd42169f5f0d7868bce6eb/182532dc3252417c86c3d18dea40b68a.html?locale=en-US
+
+- id: sunda
+  privacy_urls: null
+
+- id: systran
+  privacy_urls:
+    - https://www.systransoft.com/systran/policies/privacy-policy/
+
+- id: tarjama
+  privacy_urls: null
+
+- id: tencent
+  privacy_urls:
+    - https://main.qcloudimg.com/raw/document/intl/product/pdf/tencent-cloud_1161_51199_en.pdf
+
+- id: textshuttle
+  privacy_urls:
+    - https://www.textshuttle.ai/privacy-policy
+
+- id: textra
+  privacy_urls:
+    - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/policy/
+
+- id: tilde
+  privacy_urls:
+    - https://www.tilde.com/products-and-services/machine-translation/features/security
+
+- id: translateme
+  privacy_urls: null
+
+- id: unbabel
+  privacy_urls:
+    - https://resources.unbabel.com/one-pager-5/the-complete-unbabel-security-guide-5
+
+- id: xl8
+  privacy_urls:
+    - https://www.xl8.ai/tos
+
+- id: yandex
+  privacy_urls:
+   - https://yandex.com/legal/confidential/
+
+- id: yeekit
+  privacy_urls: null
+
+- id: youdao
+  privacy_urls:
+   - https://ai.youdao.com/
+
+- id: watson
+  privacy_urls:
+   - https://www.ibm.com/watson/data-privacy/
+
+- id: wordlingo
+  privacy_urls: null
