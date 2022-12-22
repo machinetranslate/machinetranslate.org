@@ -1,11 +1,33 @@
-## Vectors
+---
+grand_parent: Resources
+parent: Concepts
+title: Vector
+description:
+---
 
-Vectors are an essential part of machine learning, as they allow us to represent data in a way that algorithms can understand and use for various tasks. In simple terms, a vector is a mathematical object that has both magnitude (or size) and direction. It is typically represented as a list of numbers, called coordinates, which define the vector's position in a particular space. For example, a vector in two-dimensional space could be represented as (3, 5), which tells us that the vector has a magnitude of 3 in the x-direction and a magnitude of 5 in the y-direction.
+A **vector** is a unique fixed-sized list of numbers.
+Each vector number is called coordinate.
+Coordinates define the vector's position in a particular space.
+Vectors represent data in a way that a machine learning model can understand and use.
+In machine translation, vectors represent the words and phrases in a text.
 
-Vectors play a crucial role in the field of Machine Translation (MT). In MT, vectors are used to represent the words and phrases in a text, with each coordinate corresponding to a specific aspect of the word or phrase. For example, a vector for the word "cat" might have coordinates that represent the word's part of speech, its tense, and its relationship to other words in the sentence.
+Example of a vector:
 
-These vector representations allow algorithms to analyze the structure and meaning of the text, and to determine how to translate it into another language. For example, the algorithm might use the vectors to identify the subject and verb in a sentence, and then use this information to generate a translation that follows the grammar rules of the target language.
+`cat` = [4564]
 
-In addition to representing individual words and phrases, vectors can also be used to represent the relationship between different parts of a text. For example, a vector could be used to represent the similarity between two sentences, with each coordinate representing how similar the corresponding words are in the two sentences. This can be useful for tasks such as identifying translated sentences that are grammatically correct but do not accurately convey the meaning of the original text.
+Each coordinate corresponds to a specific aspect of the word or phrase.
 
-Overall, vectors are an important part of machine translation, as they provide a way to represent and manipulate language data in a mathematical form that algorithms can understand and use to generate accurate translations.
+Vector information:
+
+- Part of speech
+- Tense
+- Word relationship to other words in the sentence
+
+
+Vectors help algorithms to analyse the structure and meaning of an input text, and determine its translation.
+For example, vectors can help to identify a sentence subject and verb, and then use this information to generate a translation.
+
+Vectors can also be used to represent the relationship between different parts of a text.
+For example, a vector can represent the similarity between two sentences.
+
+Vectors can be useful to identify output sentences that are grammatically correct, but are not accurate translations.
