@@ -24,7 +24,8 @@ seo:
     url: https://amtaweb.org
 ---
 
-The Machine Translation Summit 2021 (**MT Summit 2021**) took place from 16 August to 20 August as a 5-day virtual event.
+The eighteenth Machine Translation Summit 2021 (**MT Summit 2021**) took place from 16 August to 20 August as a 5-day virtual event.
+MT Summit 2021 was organised by [AMTA](/associations/amta.md).
 
 ### Keynote Speakers
 

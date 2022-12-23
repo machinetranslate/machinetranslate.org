@@ -27,7 +27,7 @@ seo:
 ---
 
 The seventeenth Machine Translation Summit (**MT Summit 2019**) took place from 19 August to 23 August at Dublin, Ireland.
-
+MT Summit 2019 was organised by [EAMT](/associations/eamt.md).
 
 
 ### Research track

@@ -27,7 +27,7 @@ seo:
 ---
 
 The sixteenth Machine Translation Summit (**MT Summit XVI**) took place from 18 September to 22 September, 2017, at Nagoya, Japan.
-
+MT Summit XVI was organised by [AAMT](/associations/aamt.md).
 
 ## Schedule
 

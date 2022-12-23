@@ -11,7 +11,7 @@ featured: true
 | Date | Event | Location |
 | --- | --- | --- |
 |  | **WMT23** |  |
-|  | **MT Summit 2023** | Macao, China |
+| 4 - 8 September | [**MT Summit 2023**](mtsummit2023.md) | Macau SAR, China |
 | 13 - 14 July | [**IWSLT 2023**](iwslt2023.md) | Toronto, Canada |
 | 12 - 15 June | [**EAMT 2023**](eamt2023.md) | Tampere, Finland |
 | 1 - 3 February | [**Convergence: human-machine integration in translation and interpreting**](convergence-2023.md) | online |

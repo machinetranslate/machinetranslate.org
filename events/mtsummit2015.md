@@ -27,7 +27,7 @@ seo:
 ---
 
 The fifteenth Machine Translation Summit (**MT Summit XV**) took place from 29 October to 03 November, 2015, at Florida, United States.
-
+MT Summit XV was organised by [AMTA](/associations/amta.md).
 
 ## Schedule
 
