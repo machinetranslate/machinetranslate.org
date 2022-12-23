@@ -9,8 +9,8 @@ description: Calls for papers for machine translation events and publications
 
 | Deadline | Publication | Organisers |
 | --- | --- | --- |
-| **1 May 2023** | [**MT Summit 2023 papers**](mtsummit2023.md) | Macau SAR, China |
-| **17 April 2023** | [**MT Summit 2023 workshops and tutorials**](mtsummit2023.md) | Macau SAR, China |
+| **1 May 2023** | [**MT Summit 2023 papers**](/events/mtsummit2023.md) | Macau SAR, China |
+| **17 April 2023** | [**MT Summit 2023 workshops and tutorials**](/events/mtsummit2023.md) | Macau SAR, China |
 | **10 February 2023** | [**EAMT 2023 papers**](/events/eamt2023.md) | Tampere, Finland |
 | **10 February 2023** | [**EAMT 2023 tutorials**](/events/eamt2023.md) | Tampere, Finland |
 | **1 February 2023** | [***The Role of Context in Neural Machine Translation Systems and its Evaluation***](https://sites.google.com/dcu.ie/nlecontextnmt/home) | JNLE |
