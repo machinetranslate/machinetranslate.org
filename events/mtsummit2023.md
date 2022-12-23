@@ -31,6 +31,8 @@ MTS 2023 is organised by [AAMT](/associations/aamt.md).
 
 > Machine Translation (MT) Summit is an international conference, which brings together people from the academic and commercial world developing MT and users of MT systems. The conference overviews state-of-the-art technologies in MT, its major contemporary trends, and practical applications.
 
+[mtsummit2023.scimeeting.cn](https://mtsummit2023.scimeeting.cn/en/web/index/15680_)
+
 ## Important dates
 
 |     |     |
