@@ -15,7 +15,7 @@ seo:
   eventAttendanceMode: OfflineEventAttendanceMode
   eventStatus: EventScheduled
 
-    location:
+  location:
       type: PostalAddress
       addressCountry: China
       addressLocality: Macau Special Administrative Region
