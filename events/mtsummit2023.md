@@ -2,7 +2,7 @@
 parent: Events
 title: MT Summit 2023
 description: Machine Translation Summit
-location: Macau Special Administrative Region, China
+location: Macau, China
 name: MT Summit 2023
 startDate: 2023-09-04
 
