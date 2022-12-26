@@ -5,22 +5,24 @@ title: Tokenisation
 description: Splitting a string into a sequence of tokens
 ---
 
-Tokenisation is the process of splitting a string into a sequence of tokens.
-Tokens include words as well as punctuation characters.
+Tokenisation is the process of splitting a string into a sequence of substrings called tokens.
+A token is typically an atomic unit of meaning such as a word or punctuation character.
 
 Example:
 - input: `"Yes, but why?"`
 - output: `["Yes", ",", "but", "why", "?"]`
 
-Machine translation algorithms learn the association between words in one language and words in another language.
-Tokenisation is needed because machine translation cannot operate effectively on the space of all possible strings, but can operate effectively on the space of all possible tokens.
+Tokenization has a large effect on the vocabulary size of the machine translation system.
+For example, if punctuation is not split off from words the vocabulary size will be much larger.
+If the vocabulary size is larger, much more data is necessary to learn a machine translation model that will generalize.
 
-## Languages
+## Challenges
 The most basic tokenisation algorithm is splitting the string on whitespace.
-Splitting on spaces is a reasonable baseline for many languages.
-However, there are several languages that do not separate words with whitespace, such as Chinese, Japanese, Korean, and Thai.
-Machine translation of non-space-segmented languages often relies on more complex word segmentation algorithms.
+Splitting on spaces is a reasonable baseline for many languages but will lead to an overly large vocabulary in other languages.
+Two types of challenging languages are non-space-segmented languages and agglutinative languages.
 
-## See also
+Non-space-segmented languages include Chinese, Japanese, Korean, and Thai.
+Tokenization is typically addressed by use of more advanced algorithms in these languages, often called word segmentation algorithms.
 
-- [Byte-pair encoding](/approaches/byte-pair-encoding.md): Byte-pair encoding is related because it also splits strings into smaller units.
+Agglutinative languages include Finnish and Hungarian.
+Machine translation in these languages typically splits tokens into smaller units of meaning using algorithms such as [byte-pair encoding](/approaches/byte-pair-encoding.md).
