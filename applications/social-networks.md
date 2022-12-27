@@ -15,6 +15,7 @@ Social networks with a machine translation feature include:
 * Instagram
 * Sina Weibo
 * YouTube
+* TikTok
 
 While the static content of social networks is human-translated, machine translation is used for [user-generated content](user-generated-content.md).
 

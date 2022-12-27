@@ -91,6 +91,11 @@ Do not add “and” before the last name.
 
 > Philipp Koehn, Franz Josef Och, Daniel Marcu
 
+## Terminology
+
+For terms with multiple spellings, check Machine Translate to find the preferred choice.
+
+* _~~Rules-based machine translation~~_ Rule-based machine translation
 
 ## Machine Translate and machinetranslate.org
 
@@ -202,6 +207,21 @@ Translation into English: `The course is long.`
 
 When creating a new article, give the file a name that does not exist in Machine Translate.
 
+## Images
+
+Upload image files to the corresponding article directory.
+
+```
+- workflows
+  - hybrid-translation.md
+  - hybrid-translation-workflow.png
+```
+
+Embed images in articles using the `<img>` tag.
+
+```
+<img title='Hybrid translation workflow' src='/workflows/hybrid-translation-workflow.png' width='700' style='padding: 1em;' />
+```
 
 # 🔨 Markdown
 
@@ -261,6 +281,7 @@ Only link **the same** word or phrase once per article.
 Avoid **external** links, except for databases, important papers and events.
 
 ### Paths
+
 For articles in the **same directory**, use a **relative** path.
 
 ```

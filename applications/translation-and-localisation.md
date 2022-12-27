@@ -9,7 +9,7 @@ description: Machine translation for translation and localisation
 Machine translation is a key technology in professional **translation and localisation** workflows.
 
 ### Integrations
-<!-- Link to the chapter on TMS and CAT when it's ready -->
+
 Translation software, like translation management systems (TMS) and computer-aided translation tools (CAT), integrate machine translation APIs, directly or via plugins.
 
 ### Workflow
@@ -49,3 +49,7 @@ Localisation of a software consists of the following steps:
      - formats of numbers, time and date, currency, units of measurement, according to the locale
      - sort order of lists and glossaries, according to the locale
      - bi-directional display and input of text (where applicable).
+
+## See also
+
+- [Connecting engines to translation software ](/integration/cat-tools.md)

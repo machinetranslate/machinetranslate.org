@@ -9,7 +9,7 @@ Multilingual glossaries are lists of terms in one language aligned to their tran
 Glossaries can be used to customise machine translation for specific words and phrases.
 - Terminology
 - Named entities
-- "Do-not-translate" words or phrases
+- “Do-not-translate” words or phrases
 
 ## Application
 

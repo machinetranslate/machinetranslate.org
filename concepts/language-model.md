@@ -36,7 +36,7 @@ This way a language model can generate new text as in the following example:
   - input: `<BOS> the man is riding a bike to the store . ___`
   - output: `<EOS>`: 98%, ...
 
-For the beginning the special token `<BOS>` (beginning of sentence) is used.
+For the beginning the special [token](/customisation/tokenisation.md) `<BOS>` (beginning of sentence) is used.
 When another special token `<EOS>` (end of sentence), the decoder stops.
 
 This kind of decoding where only the most probable token is considered is called **greedy decoding** and it may not always lead to the most fluent output.
