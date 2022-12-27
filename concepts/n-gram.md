@@ -7,8 +7,8 @@ description: A short sequence of word types
 
 An **n-gram** is a short sequence of word types.
 `n` is the number of words in the sequence, for example, a 2-gram has two word types.
-N-grams are commonly used in [language models](/concepts/language-model) and translation models for [statistical machine translation](/approaches/statistical-machine-translation.md).
-N-grams are also used in language identification.
+N-grams are commonly used in [language models](/concepts/language-model), for example in a [n-gram maximum likelihood estimate](/concepts/language-model#n-gram-maximum-likelihood-estimate).
+N-grams are also used in language identification and translation models for [statistical machine translation](/approaches/statistical-machine-translation.md).
 
 The table below has common names and notation:
 
