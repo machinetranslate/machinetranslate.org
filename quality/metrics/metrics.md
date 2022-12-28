@@ -51,7 +51,7 @@ The scores generally do not correlate well with human evaluation scores when tra
 
 ## Machine learning-based metrics
 
-Machine learning-based metrics use [sentence embeddings]() to calculate the difference between the generated target sentence and the reference translation, or even between the target senternce and the source sentence.
+Machine learning-based metrics use [sentence embeddings](/concepts/sentence-embeddings.md) to calculate the difference between the generated target sentence and the reference translation, or even between the target senternce and the source sentence.
 
 Examples:
 - [COMET](comet.md)
