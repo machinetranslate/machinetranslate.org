@@ -19,6 +19,6 @@ TER corresponds to [post-editing effort](/../workflows/post-editing#metrics).
 - hTER
 - TERp
 
-### Resources and papers
+### Resources
 
 - [*A Study of Translation Edit Rate with Targeted Human Annotation*](https://www.cs.umd.edu/~snover/pub/amta06/ter_amta.pdf)

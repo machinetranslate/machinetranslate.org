@@ -28,7 +28,7 @@ The BERTScore metric uses sentence representations from BERT, a deep learning mo
 >
 > [*Metric: bert_score*](#resources-and-papers)
 
-### Resources and papers
+### Resources
 
 - [*BERTScore: Evaluating Text Generation with BERT*](https://arxiv.org/pdf/1904.09675.pdf)
 - [*Metric: bert_score*](https://huggingface.co/spaces/evaluate-metric/bertscore)

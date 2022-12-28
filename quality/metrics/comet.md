@@ -16,6 +16,6 @@ It is based on similarity of vector representations.
 
 Unlike [BERTScore](bertscore.md), COMET is trained on predicting different types of human judgements in the form of post-editing effort, direct assessment or translation error analysis.
 
-### Resources and papers
+### Resources
 
 - [*COMET: A Neural Framework for MT Evaluation*](https://aclanthology.org/2020.emnlp-main.213.pdf)

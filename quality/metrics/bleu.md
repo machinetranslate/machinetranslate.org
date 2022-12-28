@@ -31,6 +31,6 @@ So researchers have created variants that are more concretely defined.
 
 [sacreBLEU](https://github.com/mjpost/sacrebleu) is a well-known implementation of BLEU.
 
-### Resources and papers
+### Resources
 
 - [*BLEU: a Method for Automatic Evaluation of Machine Translation*](https://aclanthology.org/P02-1040.pdf)

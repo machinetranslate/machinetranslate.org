@@ -16,7 +16,7 @@ Compared to BLEU, NIST gives more importance to the less frequent n-grams.
 >
 > [*Interpreting BLEU/NIST Scores: How Much Improvement Do We Need to Have a Better System?*](#resources-and-papers)
 
-### Resources and papers
+### Resources
 
 - [Automatic Evaluation of Machine Translation Quality Using N-gram Co-Occurrence Statistics](https://aclanthology.org/www.mt-archive.info/HLT-2002-Doddington.pdf)
 - [*Interpreting BLEU/NIST Scores: How Much Improvement Do We Need to Have a Better System?*](https://aclanthology.org/www.mt-archive.info/LREC-2004-Zhang.pdf)

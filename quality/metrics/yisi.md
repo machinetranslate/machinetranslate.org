@@ -26,7 +26,7 @@ YiSi offers different variants depending on the resources available for the eval
 | | | Can also estimate quality without any reference |
 
 
-### Resources and papers
+### Resources
 
 - [*YiSi - A unified semantic MT quality evaluation and estimation metric for languages with different levels of available resources*](https://aclanthology.org/W19-5358.pdf)
 - [github.com/chikiulo/yisi](https://github.com/chikiulo/yisi)

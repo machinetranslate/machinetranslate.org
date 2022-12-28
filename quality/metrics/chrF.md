@@ -25,7 +25,7 @@ The chrF metric compares the machine translation output with reference translati
 
 *Note: The list is incomplete.*
 
-### Resources and papers
+### Resources
 
 - [*chrF: character n-gram f-score for automatic MT evaluation*](https://aclanthology.org/W15-3049.pdf)
 - [github.com/m-popovic/chrF](https://github.com/m-popovic/chrF)
