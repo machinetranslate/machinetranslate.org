@@ -3,7 +3,6 @@
 microsoft:
   ku: ckb # → Sorani Kurdish (Central Kurdish)
   kmr: ku # → Kurmanji Kurdish (Northern Kurdish)
-
 '*':
   zh-tw: zh-Hant
   zh-hk: zh-Hant
@@ -17,6 +16,9 @@ microsoft:
   fil: tl # Macrolanguage, Microsoft for Tagalog
   mww: hmn # Macrolanguage, Microsoft for Hmong
   cz: cs # Czech, Omniscien
+  me: cnr # Montenegrin, Niutrans
+  mo: mn # Mongolian, Niutrans
+  jy: ka # Georgian, Niutrans
   arm: hy
   aar: aa
   abk: ab
@@ -98,7 +100,6 @@ microsoft:
   ita: it
   jav: jv
   jpn: ja
-  jy: ka # Niutrans
   kal: kl
   kan: kn
   kas: ks
@@ -202,5 +203,3 @@ microsoft:
   yor: yo
   zha: za
   zul: zu
-  me: cnr # Niutrans
-  mo: mn # Niutrans
