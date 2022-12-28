@@ -17,3 +17,13 @@ The table below has common names and notation:
 | 1 | Unigram | <img src="https://render.githubusercontent.com/render/math?math=(w)"> | <img src="https://render.githubusercontent.com/render/math?math=P(w)"> |
 | 2 | Bigram | <img src="https://render.githubusercontent.com/render/math?math=(w_1, w_2)"> | <img src="https://render.githubusercontent.com/render/math?math=P(w \vert w_-1)"> |
 | 3 | Trigram | <img src="https://render.githubusercontent.com/render/math?math=(w_1, w_2, w_3)"> | <img src="https://render.githubusercontent.com/render/math?math={P(w \vert w_-1, w_-2)}"> |
+
+## Example
+
+[String](/concepts/string.md) in English: `"The car has two doors."`
+
+[Tokens](/customization/tokenization): `"The", "car", "has", "two", "doors", "."`
+
+Unigrams: `"The", "car", "has", "two", "doors", "."`
+
+Bigrams: `("The", "car"), ("car", "has"), ("has", "two"), ("two", "doors"), ("doors", ".")`
