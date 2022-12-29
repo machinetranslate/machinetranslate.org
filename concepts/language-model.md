@@ -56,13 +56,13 @@ The result is the probability that with the history (now truncated to just <img 
 
 Under the **Markov assumption**, the input is limited to the last word only.
 This model is quite restricted because it can’t model well any even mid-term sentence dependencies.
-There are models that take longer input, e.g. 3-grams, but they have create new issues, such as data sparsity.
+There are models that take longer input, e.g. [3-grams](n-gram.md), but they have create new issues, such as data sparsity.
 One solution to those is **language model smoothing**.
 
 ## Neural language model
 
 A neural language model is a neural network that computes the probability of the next word.
-RNN-based approaches worked by considering the whole sentence history compressed into a single vector.
+RNN-based approaches worked by considering the whole sentence history compressed into a single [vector](vector.md).
 They perform badly on long-term dependency phenomena.
 This was vastly improved with the advent of [attention](attention.md).
 State-of-the-art neural language models are based on the [Transformer architecture](/approaches/transformers.md), either the encoder (e.g. BERT) or the decoder (e.g. GPT).

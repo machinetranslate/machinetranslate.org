@@ -26,7 +26,7 @@ N-grams have many applications in machine translation:
 
 [String](/concepts/string.md) in English: `"The car has two doors."`
 
-[Tokens](/../customisation/tokenisation): `"The", "car", "has", "two", "doors", "."`
+[Tokens](/customisation/tokenisation.md): `"The", "car", "has", "two", "doors", "."`
 
 Unigrams: `"The", "car", "has", "two", "doors", "."`
 

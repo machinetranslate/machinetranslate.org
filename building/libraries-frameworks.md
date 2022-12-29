@@ -25,7 +25,3 @@ description: Libraries and frameworks for building machine translation systems
 | [**Tensor2Tensor**](https://github.com/tensorflow/tensor2tensor) | TensorFlow | Python | |
 | [**Trax**](https://github.com/google/trax) | TensorFlow | Python | &#10004; |
 | [**THUMT**](https://github.com/THUNLP-MT/THUMT) | PyTorch / TensorFlow | Python | |
-
-### References
-
-- [modelfront.com/compare](https://modelfront.com/compare)
