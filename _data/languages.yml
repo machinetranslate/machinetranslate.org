@@ -241,7 +241,7 @@
   territories: [ ro, ru, ua ]
 
 -
-  codes: [ cnr, me ]
+  codes: [ cnr ]
   names: [ Montenegrin ]
   variant_names: [ Serbo-Croatian ]
   family: [ sla, ine ]
@@ -677,7 +677,7 @@
   territories: [ id ]
 
 -
-  codes: [ ka, kat, geo, jy ]
+  codes: [ ka, kat, geo ]
   names: [ Georgian ]
   family: [ ccs ]
   scripts: [ Geor ]
@@ -921,7 +921,7 @@
   territories: [ in ]
 
 -
-  codes: [ mn, mon, mo ]
+  codes: [ mn, mon ]
   names: [ Mongolian ]
   family: [ xgn ]
   scripts: [ Cyrl, Mong, Phag ]
