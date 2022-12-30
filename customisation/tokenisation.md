@@ -6,7 +6,7 @@ description: Splitting a string into a sequence of tokens
 ---
 
 **Tokenisation** is the process of splitting a string into a sequence of substrings called tokens.
-A token is typically an atomic unit of meaning, such as a word or a punctuation character.
+A [token](/concepts/token.md) is typically an atomic unit of meaning, such as a word or a punctuation character.
 
 Example:
 
