@@ -9,7 +9,6 @@ startDate: 2022-11-21
 seo:
   type: Event
   name: Artificial Intelligence and Language Technologies
-  description: Omniscien Technologies webinar
   startDate: 2022-11-21
   endDate: 2022-11-21
   eventAttendanceMode: OnlineEventAttendanceMode

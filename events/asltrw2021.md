@@ -8,7 +8,6 @@ startDate: 2021-08-17
 seo:
   type: Event
   name: AMTA2020
-  description: Workshop on Automatic Spoken Language Translation in Real-World Settings
   startDate: 2021-08-17
   endDate: 2021-08-17
   eventAttendanceMode: OnlineEventAttendanceMode

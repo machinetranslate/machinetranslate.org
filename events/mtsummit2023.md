@@ -9,7 +9,6 @@ startDate: 2023-09-04
 seo:
   type: Event
   name: MT Summit 2023
-  description: Machine Translation Summit
   startDate: 2023-09-04
   endDate: 2023-09-08
   eventAttendanceMode: OfflineEventAttendanceMode

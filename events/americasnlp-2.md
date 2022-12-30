@@ -9,7 +9,6 @@ startDate: 2022-12-07
 seo:
   type: Event
   name: Second AmericasNLP Competition
-  description:
   startDate: 2022-12-07
   endDate: 2022-12-07
   eventAttendanceMode: OnlineEventAttendanceMode

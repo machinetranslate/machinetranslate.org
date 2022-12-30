@@ -9,7 +9,6 @@ startDate: 2020-07-10
 seo:
   type: Event
   name: Automatic Simultaneous Translation 2020
-  description: First Workshop on Automatic Simultaneous Translation
   startDate: 2020-07-10
   endDate: 2020-07-10
   eventAttendanceMode: OfflineEventAttendanceMode
