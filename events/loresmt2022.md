@@ -11,7 +11,7 @@ seo:
   description: Workshop on Low-Resource Machine Translation
   startDate: 2022-10-16
   endDate: 2022-10-16
-  eventAttendanceMode: OnlineEventAttendanceMode
+  eventAttendanceMode: OfflineEventAttendanceMode
   eventStatus: EventScheduled
 
   location:

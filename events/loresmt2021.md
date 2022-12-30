@@ -16,9 +16,10 @@ seo:
 
   location:
     type: VirtualLocation
+    url:
 
   organizer:
-    type: Online
+    type: Person
     url: https://sites.google.com/view/loresmt/
 ---
 

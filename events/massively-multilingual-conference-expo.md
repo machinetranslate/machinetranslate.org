@@ -17,8 +17,8 @@ seo:
 
   location:
   type: PostalAddress
-  addressCountry: France
-  addressLocality: Paris
+  addressCountry: US
+  addressLocality: California
 
   organizer:
     type: Organization
