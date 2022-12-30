@@ -2,7 +2,7 @@
 nav_order: 2
 has_children: false
 title: Events
-description: Machine translation events
+description: List of machine translation events
 featured: true
 ---
 
