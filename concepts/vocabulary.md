@@ -20,7 +20,7 @@ The vocabulary of a pretrained word embedding model is the set of all words with
 ## Challenges
 
 - A large vocabulary will allow the system to learn to translate more words, but makes the model much larger and slower
-- If pretrained word embeddings are used, the vocabulary is already determined to a degree
+- If pretrained word embeddings are used, the vocabulary is already determined and not trivial to update with new data
 - Open-class words present challenges, such as proper names and numbers
 - Agglutinative and highly inflected languages have very large vocabularies, and may require massive amounts of training data to observe enough of the vocabulary
 
