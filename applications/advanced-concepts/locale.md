@@ -30,5 +30,5 @@ These language variations are supported by many API vendors:
 
 - When a region and script are not specified, the underlying MT model may be built for the most common language variant or it may be built on a mix of variants
 - Not all languages or variants have standardized locale codes
-- In some cases the locale codes have changed over time. For example, old systems may represent Cantonese as zhHK while newer systems use the newer language code yue
+- In some cases the locale codes have changed over time. For example, old systems may represent Cantonese as `zhHK` while newer systems use the newer language code `yue`
 
