@@ -26,6 +26,6 @@ The vocabulary of a pretrained word embedding model is the set of all words with
 
 ## Dependencies
 
-- The vocabulary is affected by choice of tokenisation algorithm or the use of subword models such as byte-pair encoding
-- The vocabulary is affected by preprocessing of capitalization and accents
-- Out of vocabulary words may be handled by other mechanisms such as byte-pair encoding or copy mechanisms. It can be better to translate rare words as out-of-vocabulary rather than in-vocabulary.
+- The vocabulary is affected by choice of tokenisation algorithm or the use of subword models such as byte-pair encoding.
+- The vocabulary is affected by preprocessing of capitalization and accents.
+- There are many solutions to lessen the problem of OOVs. These solutions can be effective enough that it may be better to translate rare words are OOV rather than include them in the vocabulary. This leads to more complexity when choosing the appropriate vocabulary size for a model
