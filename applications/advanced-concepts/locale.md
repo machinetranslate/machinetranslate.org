@@ -5,29 +5,30 @@ description: Specification of language variants
 ---
 
 A **locale** is an identifier of a language and region plus an optional writing script.
-The locale is used in machine translation APIs to specify the language and variation of the language of both the source and target text.
-Locales are also used to select the desired language in mobile phones, on webpages to hints for web browsers and web crawlers, and in language identification.
+The locale is used in [machine translation APIs](/apis/apis.md) to specify the language and variation of the language of both the source and target text.
+Locales are commonly used to set the default language on mobile phones and computers.
+Locales are also an important concept when [web crawling](/customisation/crawling.md) to build [training data](/customisation/crawling.md).
 
 Example: `frCA` means french (fr) as spoken in Canada (CA)
 
 Language codes are typically specified in two or three characters according to ISO 639.
 Regions are typically specified in two characters according to ISO 3166.
-Scripts are sometimes specified according to ISO 15924, such as sr-Cyrl_RS for Serbian written in Cyrllic script in Serbia.
+Scripts are sometimes specified according to ISO 15924, such as `sr-Cyrl_RS` for Serbian written in Cyrllic script in Serbia.
 
 ## API Support
 
 These language variations are supported by many API vendors:
 
-- Chinese (zh): zh-cn, zh-tw
-- Portuguese (pr): pr-pr, pr-br
-- French (fr): fr-fr, fr-ca
-- Spanish (es): es-es, es-mx, es-419 (Latin America)
-- English (en): en-us, en-gb
-- Serbian (sr): sr-Cyrl-rs, sr-Latn-rs
+- Chinese (`zh`): Chinese, Simplified (`zh-cn`, also `zh-Hans`), Chinese, Traditional (`zh-tw`, also `zh-Hant`)
+- Portuguese (`pr`): Portugal (`pr-pr`), Brazil (`pr-br`)
+- French (`fr`): France (`fr-fr`), Canada (`fr-ca`)
+- Spanish (`es`): Spain (`es-es`), Mexico (`es-mx`), Latin America (`es-419`)
+- English (`en`): United States (`en-us`), Great Britain (`en-gb`)
+- Serbian (`sr`): Serbia, Cyrillic script (`sr-Cyrl-rs`), Serbia, Latin script (`sr-Latn-rs`)
 
 ## Challenges
 
-- When a region code is not specified for a language with significant regional variation, the user may not know which regional variation will be used
-- Some commonly-written languages do not have language codes. For example, Hinglish is not acknowledged as a distinct language from Hindi and English and does not have a language code
-- A country code may be too specific at times, and region codes may not exist for all regions of interest
-- A region code may not be specific enough if there is significant variation within a country
+- When a region and script are not specified, the underlying MT model may be built for the most common language variant or it may be built on a mix of variants
+- Not all languages or variants have standardized locale codes
+- In some cases the locale codes have changed over time. For example, old systems may represent Cantonese as zhHK while newer systems use the newer language code yue
+
