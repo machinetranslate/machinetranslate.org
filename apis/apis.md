@@ -13,4 +13,4 @@ By 2022, there was a self-serve API that supported more than 300 languages.
 
 The underlying machine translation systems are mostly [neural machine translation](/approaches/neural-machine-translation.md).
 
-Here the APIs are ordered by the number of languages and locales that each support.
+Here the APIs are ordered by the number of languages and [locales](/applications/advanced-concepts/locale.md) that each support.
