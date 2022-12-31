@@ -25,6 +25,7 @@ These language variations are supported by many API vendors:
 - Spanish (`es`): Spain (`es-es`), Mexico (`es-mx`), Latin America (`es-419`)
 - English (`en`): United States (`en-us`), Great Britain (`en-gb`)
 - Serbian (`sr`): Serbia, Cyrillic script (`sr-Cyrl-rs`), Serbia, Latin script (`sr-Latn-rs`)
+- Norwegian (`no`): Norwegian Bokmål (`nb`, `nob`), Norwegian Nynorsk (`nn`, `nno`)
 
 ## Challenges
 
