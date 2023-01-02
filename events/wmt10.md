@@ -15,9 +15,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Sweden
-    addressLocality: Uppsala
+    type: Place
+    name: Uppsala, Sweden
 
   organizer:
     type: Person

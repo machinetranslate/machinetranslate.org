@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Belgium
-    addressLocality: Brussels
+    type: Place
+    name: Brussels, Belgium
 
   organizer:
     type: Person

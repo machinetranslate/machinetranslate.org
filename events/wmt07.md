@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Prague
-    addressLocality: Czech Republic
+    type: Place
+    name: Prague, Czech Republic
 
   organizer:
     type: Person

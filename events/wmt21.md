@@ -14,9 +14,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-  type: PostalAddress
-  addressCountry: Dominican Republic
-  addressRegion: LaAltagracia
+  type: Place
+  name: LaAltagracia, Dominican Republic
 
   organizer:
     type: Person

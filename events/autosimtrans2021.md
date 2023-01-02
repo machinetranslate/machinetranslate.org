@@ -12,16 +12,12 @@ seo:
   description: Second Workshop on Automatic Simultaneous Translation
   startDate: 2021-06-10
   endDate: 2021-06-10
-  eventAttendanceMode: MixedEventAttendanceMode
+  eventAttendanceMode: OfflineEventAttendanceMode
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Mexico
-    addressRegion: Mexico City
-
-    type: VirtualLocation
-    url: https://zoom.us/j/94678981515?pwd=L2R4R0haanBTV2l6V1NubGExOTNRQT09
+    type: Place
+    name: Mexico City, Mexico
 
   organizer:
     type: Person

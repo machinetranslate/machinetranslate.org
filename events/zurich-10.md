@@ -15,9 +15,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Switzerland
-    addressLocality: Zurich
+    type: Place
+    name: Zurich, Switzerland
 ---
 
 The tenth **Machine Translation Meetup** (**MTM**) took place on 13 June, 2022, in Zurich, Switzerland.

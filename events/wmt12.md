@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Canada
-    addressLocality: Quebec
+    type: Place
+    name: Quebec, Canada
 
   organizer:
     type: Person

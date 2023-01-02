@@ -15,11 +15,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    streetAddress: Viaduktstrasse 93
-    addressCountry: Switzerland
-    addressLocality: Zurich
-    addressRegion: Zurich
+    type: Place
+    name: Zurich, Switzerland
 ---
 
 The ninth **Machine Translation Meetup** (**MTM**) took place on 25 October, 2021, in Zurich, Switzerland.

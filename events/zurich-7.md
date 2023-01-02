@@ -16,6 +16,7 @@ seo:
 
   location:
     type: VirtualLocation
+    url: https://www.meetup.com/Machine-Translation-Meetup-MTM/events/270311951/
 ---
 
 The seventh **Machine Translation Meetup** (**MTM**) took place online on 19 May, 2020.

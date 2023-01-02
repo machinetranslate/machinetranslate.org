@@ -47,15 +47,15 @@ Based off just-the-docs v0.3.3.
     within a _script_ tag.
     {% endcomment %}
     {% capture seo_text %}{% seo %}{% endcapture %}
-    
+
     {% comment %} Extract script tag {% endcomment %}
     {% assign open_tag = '<script type="application/ld+json">' %}
     {% assign close_tag = "</script>" %}
-    
+
     {% comment %} Remove script tag and contents from `seo_text` {% endcomment %}
     {% assign extract = seo_text | split: open_tag | last | split: close_tag | first | prepend: open_tag | append: close_tag %}
     {% assign seo_text = seo_text | remove: extract %}
-    
+
     {% comment %}
     Once we've removed the default value from the script tag, we output the rest of the content
     and we apply our own -very naive- interpretation of what an JSON-LD Event looks like.
@@ -72,11 +72,12 @@ Based off just-the-docs v0.3.3.
       {% if page.seo.eventStatus %},"eventStatus": "https://schema.org/{{ page.seo.eventStatus }}"{% endif %}
       {% if page.seo.location %},"location": {
         "@type": "{{ page.seo.location.type }}",
-        {% if page.seo.location.name %},"name": "{{ page.seo.location.name }}"{% endif %}
+        {% if page.seo.location.name %}"name": "{{ page.seo.location.name }}"{% endif %}
         {% if page.seo.location.type == "PostalAddress" %}
-          {% if page.seo.location.addressCountry %},"addressCountry": "{{ page.seo.location.addressCountry }}"{% endif %}
-          {% if page.seo.location.addressLocality %},"addressLocality": "{{ page.seo.location.addressLocality }}"{% endif %}
-          {% if page.seo.location.addressRegion %},"addressRegion": "{{ page.seo.location.addressRegion }}"{% endif %}
+          {% if page.seo.location.addressCountry %}"addressCountry": "{{ page.seo.location.addressCountry }}"{% endif %}
+          {% if page.seo.location.addressLocality %}, "addressLocality": "{{ page.seo.location.addressLocality }}"{% endif %}
+          {% if page.seo.location.addressRegion %}, "addressRegion": "{{ page.seo.location.addressRegion }}"{% endif %}
+        {% elsif page.seo.location.type == "Place" %}
         {% elsif page.seo.location.type == "VirtualLocation" %}
           {% if page.seo.location.url %}"url": "{{ page.seo.location.url }}"{% endif %}
         {% endif %}
@@ -91,7 +92,7 @@ Based off just-the-docs v0.3.3.
       }{% endif %}
     }
     </script>
-    
+
   {%- endif %}
 
   {% include head_custom.html %}

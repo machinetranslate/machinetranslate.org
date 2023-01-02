@@ -15,9 +15,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: United States
-    addressLocality: Menlo Park
+    type: Place
+    name: Menlo Park, United States
 
   organizer:
     type: Organization

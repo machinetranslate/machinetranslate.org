@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: United States of America
-    addressLocality: Maryland
+    type: Place
+    name: Maryland, United States of America
 
   organizer:
     type: Person

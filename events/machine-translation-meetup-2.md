@@ -5,6 +5,7 @@ description: Meetup organised by Machine Translate
 location: online
 startDate: 2022-10-21
 name: Machine translation meetup 2
+
 seo:
   type: Event
   name: Machine translation meetup 2
@@ -15,8 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-  type: VirtualLocation
-  url: https://www.meetup.com/machinetranslate/events/289057267/
+    type: VirtualLocation
+    url: https://www.meetup.com/machinetranslate/events/289057267/
 
   organizer:
     type: Organization

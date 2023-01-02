@@ -19,7 +19,8 @@ seo:
     url: https://us06web.zoom.us/webinar/register/WN_Gl7MMG-hSTWQBfVmdlry1g
 
   organizer:
-    type: Omniscien Technologies
+    type: Organization
+    name: Omniscien Technologies
     url: https://omniscien.com/
 ---
 

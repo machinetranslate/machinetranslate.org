@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Germany
-    addressLocality: Berlin
+    type: Place
+    name: Berlin, Germany
 
   organizer:
     type: Person

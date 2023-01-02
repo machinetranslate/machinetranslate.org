@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Bulgaria
-    addressLocality: Sofia
+    type: Place
+    name: Sofia, Bulgaria
 
   organizer:
     type: Person

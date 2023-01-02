@@ -2,7 +2,7 @@
 parent: Events
 title: Convergence conference
 description: Human-machine integration in translation and interpreting
-location: hybrid
+location: online
 name: Convergence conference
 startDate: 2023-02-01
 
@@ -11,7 +11,7 @@ seo:
   name: Convergence conference
   startDate: 2023-02-01
   endDate: 2023-02-03
-  eventAttendanceMode: MixedEventAttendanceMode
+  eventAttendanceMode: OnlineEventAttendanceMode
   eventStatus: EventScheduled
 
   location:

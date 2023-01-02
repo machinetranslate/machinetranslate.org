@@ -1,9 +1,9 @@
 ---
 parent: Events
-title: Neural Machine Translation – Foundations, Applications and Implications
+title: "Neural Machine Translation – Foundations, Applications and Implications"
 description: IATIS Training Event on Neural Machine Translation
 location: online
-name: Neural Machine Translation – Foundations, Applications and Implications
+name: "Neural Machine Translation – Foundations, Applications and Implications"
 startDate: 2022-04-21
 
 seo:
@@ -17,10 +17,12 @@ seo:
 
   location:
   type: VirtualLocation
+  url: https://www.th-koeln.de/informations-und-kommunikationswissenschaften/iatis-training-event-neural-machine-translation--foundations-applications-and-implications_87375.php
 
   organizer:
     type: Organization
     name: International Association for Translation and Intercultural Studies, Institute of Translation and Multilingual Communication
+    url: https://www.th-koeln.de/informations-und-kommunikationswissenschaften/iatis-training-event-neural-machine-translation--foundations-applications-and-implications_87375.php
 ---
 
 

@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: France
-    addressLocality: Paris
+    type: Place
+    name: Paris, France
 
   organizer:
     type: Organization

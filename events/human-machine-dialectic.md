@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Belgium
-    addressLocality: Liège
+    type: Place
+    name: Liège, Belgium
 
   organizer:
     type: Organization

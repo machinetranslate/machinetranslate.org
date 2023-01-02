@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: United States of America
-    addressLocality: New York
+    type: Place
+    name: New York, United States of America
 
   organizer:
     type: Person

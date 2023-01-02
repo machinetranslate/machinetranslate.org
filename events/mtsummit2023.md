@@ -22,6 +22,7 @@ seo:
     type: Organization
     name: Asian-Pacific Association for Machine Translation
     url: https://aamt.info/
+
 ---
 
 The nineteenth Machine Translation Summit 2023 (**MTS 2023**) will take place from 4 September to 8 September in Macau Special Administrative Region, China.

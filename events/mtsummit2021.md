@@ -17,6 +17,7 @@ seo:
 
   location:
     type: VirtualLocation
+    url: https://amtaweb.org
 
   organizer:
     type: Organization
