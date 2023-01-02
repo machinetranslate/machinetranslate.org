@@ -21,12 +21,11 @@ The vocabulary of a pretrained [word embedding model](/concepts/word-embeddings.
 
 - A large vocabulary will allow the system to learn to translate more words, but makes the model much larger and slower.
 - In [neural machine translation](/approaches/neural-machine-translation.md), it can be challenging to share the vocabulary between the decoder inputs and decoder outputs.
-- If pretrained word embeddings are used, the vocabulary is already determined and not trivial to update with new data
-- Open-class words present challenges, such as proper names and numbers
-- Agglutinative and highly inflected languages have very large vocabularies, and may require massive amounts of training data to observe enough of the vocabulary
+- If pretrained word embeddings are used, the vocabulary is already determined and not trivial to update with new data.
+- Open-class words present challenges, such as proper names and numbers.
+- Agglutinative and highly inflected languages have very large vocabularies, and may require massive amounts of training data to observe enough of the vocabulary.
 
 ## Dependencies
 
-- The vocabulary is affected by choice of [tokenisation algorithm](/customisation/tokenisation.md) or the use of subword models such as [byte-pair encoding](/approaches/byte-pair-encoding.md).
+- The vocabulary is affected by choice of [tokenisation algorithm](/customisation/tokenisation.md) or the use of subword models such as [byte-pair encoding](/approaches/byte-pair-encoding.md). In the case of byte-pair encoding, this can cause vocabulary size to become a hyperparameter that affects the generalization of the model.
 - The vocabulary is affected by normalization of capitalization and accents.
-- There are many solutions to lessen the problem of OOVs. These solutions can be effective enough that it may be better to translate rare words are OOV rather than include them in the vocabulary. This leads to more complexity when choosing the appropriate vocabulary size for a model
