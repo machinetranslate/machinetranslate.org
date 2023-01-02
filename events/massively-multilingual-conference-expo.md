@@ -17,7 +17,7 @@ seo:
 
   location:
     type: Place
-    naame: California, US
+    name: California, US
 
   organizer:
     type: Organization
