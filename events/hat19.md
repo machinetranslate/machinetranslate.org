@@ -15,9 +15,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Ireland
-    addressLocality: Dublin
+    type: Place
+    name: Dublin, Ireland
 
   organizer:
     type: Person

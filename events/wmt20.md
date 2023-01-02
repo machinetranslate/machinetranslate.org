@@ -17,6 +17,7 @@ seo:
 
   location:
     type: VirtualLocation
+    url: https://www.statmt.org/wmt20/
 
   organizer:
     type: Person

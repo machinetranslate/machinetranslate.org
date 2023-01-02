@@ -15,9 +15,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: United Kingdom
-    addressLocality: Edinburgh
+    type: Place
+    name: Edinburgh, United Kingdom
 
   organizer:
     type: Person

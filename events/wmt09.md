@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Greece
-    addressLocality: Athens
+    type: Place
+    name: Athens, Greece
 
   organizer:
     type: Person

@@ -4,6 +4,23 @@ has_children: false
 title: Events
 description: List of machine translation events
 featured: true
+type: Events
+Events:
+  - name: MT Summit 2023
+    startDate: 2023-09-04
+    endDate: 2023-09-08
+    location:
+      name: Macau, CN
+  - name: IWSLT 2023
+    startDate: 2023-07-13
+    endDate: 2023-07-14
+    location:
+      name: Toronto, Canada
+  - name: EAMT 2023
+    startDate: 2023-06-12
+    endDate: 2023-06-15
+    location:
+      name: Tampere, Finland
 ---
 
 ## 2023

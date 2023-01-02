@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Canada
-    addressLocality: Toronto
+    type: Place
+    name: Toronto, Canada
 
   organizer:
     type: Person

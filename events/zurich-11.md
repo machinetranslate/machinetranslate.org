@@ -15,9 +15,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Switzerland
-    addressLocality: Zurich
+    type: Place
+    name: Zurich, Switzerland
 ---
 
 The eleventh **Machine Translation Meetup** (**MTM**) took place on 12 December, 2022, in Zurich, Switzerland.

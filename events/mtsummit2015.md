@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: United States of America
-    addressLocality: Florida
+    type: Place
+    name: Florida, United States of America
 
   organizer:
     type: Organization

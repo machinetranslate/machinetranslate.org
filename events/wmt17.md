@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Denmark
-    addressLocality: Copenhagen
+    type: Place
+    name: Copenhagen, Denmark
 
   organizer:
     type: Person

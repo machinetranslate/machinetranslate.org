@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Unites States of America
-    addressLocality: Columbus
+    type: Place
+    name: Columbus, Unites States of America
 
   organizer:
     type: Person

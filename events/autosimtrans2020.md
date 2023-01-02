@@ -15,9 +15,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: United States
-    addressRegion: Seattle
+    type: Place
+    name: Washington, US
 
   organizer:
     type: Person

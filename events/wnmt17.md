@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Canada
-    addressLocality: Vancouver
+    type: Place
+    name: Vancouver, Canada
 
   organizer:
     type: Person

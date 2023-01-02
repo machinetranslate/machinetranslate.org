@@ -15,9 +15,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Switzerland
-    addressLocality: Zurich
+    type: Place
+    addressCountry: Zurich, Switzerland
 ---
 
 The second **Machine Translation Meetup** (**MTM**) took place on 22 October, 2018, in Zurich, Switzerland.

@@ -14,9 +14,13 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Spain
-    addressLocality: Malaga
+    type: Place
+    name: Malaga, Spain
+
+  organizer:
+    type: Organization
+    name: EUROPHRAS
+    url: http://machinetranslate.org/mumttt2022.md#organising-committee
 ---
 
 The 5th Workshop on Multi-word Units in Machine Translation and Translation Technology (**MUMTTT 2022**) was held in conjunction with the International Conference “Computational and Corpus-based Phraseology”.

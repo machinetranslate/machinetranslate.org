@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Portugal
-    addressLocality: Lisbon
+    type: Place
+    name: Lisbon, Portugal
 
   organizer:
     type: Person

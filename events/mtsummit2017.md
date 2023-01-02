@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Japan
-    addressLocality: Nagoya
+    type: Place
+    name: Nagoya, Japan
 
   organizer:
     type: Organization

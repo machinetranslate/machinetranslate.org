@@ -15,9 +15,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: United Arab Emirates
-    addressLocality: Abu Dhabi
+    type: Place
+    name: Abu Dhabi, United Arab Emirates
 
   organizer:
     type: Person

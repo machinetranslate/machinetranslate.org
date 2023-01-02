@@ -15,12 +15,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: United States of America
-    addressRegion: Washington
-
-    type: VirtualLocation
-    url: https://zoom.us/j/94678981515?pwd=L2R4R0haanBTV2l6V1NubGExOTNRQT09
+    type: Place
+    name: Seattle, United States of America
 
   organizer:
     type: Person

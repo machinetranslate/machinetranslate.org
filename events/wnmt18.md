@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: Australia
-    addressLocality: Melbourne
+    type: Place
+    name: Melbourne, Australia
 
   organizer:
     type: Person

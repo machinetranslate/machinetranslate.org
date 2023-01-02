@@ -16,9 +16,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-  type: PostalAddress
-  addressCountry: US
-  addressLocality: California
+    type: Place
+    naame: California, US
 
   organizer:
     type: Organization

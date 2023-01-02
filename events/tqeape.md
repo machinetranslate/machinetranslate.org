@@ -15,9 +15,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: United States
-    addressLocality: Boston
+    type: Place
+    name: Boston, United States
 
   organizer:
     type: Person
