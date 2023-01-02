@@ -15,3 +15,10 @@ Members of any of the three regional associations automatically become part of t
 The AAMT was established as the *Japan Machine Translation Association* in 1991 and renamed to the *Asia-Pacific Machine Translation Association* in 1992.
 
 [aamt.info](https://aamt.info/)
+
+## Events
+
+- [AAMT 2022](/events/aamt2022)
+- [AAMT 2021](/events/aamt2021)
+- [AAMT 2020](/events/aamt2020)
+- [AAMT 2029](/events/aamt2019)

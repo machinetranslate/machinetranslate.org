@@ -14,3 +14,9 @@ Members of any of the three regional associations automatically become part of t
 The EAMT was established in 1991 in Switzerland.
 
 [eamt.org](https://eamt.org/)
+
+## Events
+
+- [EAMT 2023](/events/eamt2023)
+- [EAMT 2022](/events/eamt2022)
+- [EAMT 2020](/events/eamt2020)
