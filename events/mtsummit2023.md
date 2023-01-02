@@ -15,9 +15,8 @@ seo:
   eventStatus: EventScheduled
 
   location:
-    type: PostalAddress
-    addressCountry: China
-    addressLocality: Macau Special Administrative Region
+    type: Place
+    name: Macau Special Administrative Region, CN
 
   organizer:
     type: Organization
