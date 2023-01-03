@@ -7,13 +7,13 @@ description: Specification of language variants
 A **locale** is an identifier of a language and region plus an optional writing script.
 The locale is used in [machine translation APIs](/apis/apis.md) to specify the language of the source and target text.
 Locales are commonly used to set the default language on mobile phones and computers.
-Locales are also used to indiciate the language of documents in [web crawling](/customisation/crawling.md) to build [training data](/customisation/crawling.md).
+Locales are also used to indicate the language of documents in [web crawling](/customisation/crawling.md) to build [training data](/customisation/crawling.md).
 
 Example: `frCA` means french (fr) as spoken in Canada (CA)
 
 Language codes are typically specified in two or three characters according to ISO 639.
 Regions are typically specified in two characters according to ISO 3166.
-Scripts are optionally specified according to ISO 15924, such as `sr-Cyrl_RS` for Serbian written in Cyrllic script in Serbia.
+Scripts are optionally specified according to ISO 15924, such as `sr-Cyrl_RS` for Serbian written in Cyrillic script in Serbia.
 
 ## API Support
 
