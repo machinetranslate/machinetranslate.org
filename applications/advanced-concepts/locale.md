@@ -6,8 +6,7 @@ description: Specification of language variants
 
 A **locale** is an identifier of a language and region plus an optional writing script.
 The locale is used in [machine translation APIs](/apis/apis.md) to specify the language of the source and target text.
-Locales are commonly used to set the default language on mobile phones and computers.
-Locales are also used to indicate the language of documents in [web crawling](/customisation/crawling.md) to build [training data](/customisation/crawling.md).
+Locales are used to indicate the language of documents in [web crawling](/customisation/crawling.md) to build [training data](/customisation/crawling.md).
 
 Example: `frCA` means french (fr) as spoken in Canada (CA)
 
