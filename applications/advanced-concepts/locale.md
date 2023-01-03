@@ -21,13 +21,28 @@ Scripts are optionally specified according to ISO 15924, such as `sr-Cyrl_RS` fo
 
 These language variations are supported by many API vendors:
 
-- Chinese (`zh`): Chinese, Simplified (`zh-cn`, also `zh-Hans`), Chinese, Traditional (`zh-tw`, also `zh-Hant`)
-- Portuguese (`pr`): Portugal (`pr-pr`), Brazil (`pr-br`)
-- French (`fr`): France (`fr-fr`), Canada (`fr-ca`)
-- Spanish (`es`): Spain (`es-es`), Mexico (`es-mx`), Latin America and Caribbean region (`es-419`)
-- English (`en`): United States (`en-us`), Great Britain (`en-gb`)
-- Serbian (`sr`): Serbia, Cyrillic script (`sr-Cyrl-rs`), Serbia, Latin script (`sr-Latn-rs`)
-- Norwegian (`no`): Norwegian Bokmål (`nb`, `nob`), Norwegian Nynorsk (`nn`, `nno`)
+- Chinese (`zh`): 
+    - Chinese, Simplified (`zh-cn`, also `zh-Hans`)
+    - Chinese, Traditional (`zh-tw`, also `zh-Hant`)
+- Portuguese (`pr`): 
+    - Portugal (`pr-pr`)
+    - Brazil (`pr-br`)
+- French (`fr`): 
+    - France (`fr-fr`)
+    - Canada (`fr-ca`)
+- Spanish (`es`): 
+    - Spain (`es-es`)
+    - Mexico (`es-mx`)
+    - Latin America and Caribbean region (`es-419`)
+- English (`en`): 
+    - United States (`en-us`)
+    - Great Britain (`en-gb`)
+- Serbian (`sr`): 
+    - Serbia, Cyrillic script (`sr-Cyrl-rs`)
+    - Serbia, Latin script (`sr-Latn-rs`)
+- Norwegian (`no`): 
+    - Norwegian Bokmål (`nb`, `nob`)
+    - Norwegian Nynorsk (`nn`, `nno`)
 
 ## Challenges
 
