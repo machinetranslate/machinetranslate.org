@@ -50,3 +50,6 @@ These language variations are supported by many API vendors:
 - Not all languages or variants have standardized locale codes, leading to differences between different APIs.
 - In some cases the locale codes have changed over time. For example, old systems may represent Cantonese as `zhHK` while newer systems use the newer language code `yue`.
 
+## See also
+
+- [Languages](languages.md)
