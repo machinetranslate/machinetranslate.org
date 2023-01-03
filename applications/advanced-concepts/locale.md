@@ -11,6 +11,9 @@ Locales are also used to indicate the language of documents in [web crawling](/c
 
 Example: `frCA` means french (fr) as spoken in Canada (CA)
 
+The formatting varies from one system to another.
+`frCA`, `fr-ca`, and `fr_CA` are all common formats.
+
 Language codes are typically specified in two or three characters according to ISO 639.
 Regions are typically specified in two characters according to ISO 3166.
 Scripts are optionally specified according to ISO 15924, such as `sr-Cyrl_RS` for Serbian written in Cyrillic script in Serbia.
