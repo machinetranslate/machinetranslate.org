@@ -4,6 +4,8 @@ has_children: false
 title: Events
 description: List of machine translation events
 featured: true
+seo:
+  type: Article
 ---
 
 ## 2023
