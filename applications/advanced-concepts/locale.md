@@ -47,7 +47,7 @@ These language variations are supported by many API vendors:
 ## Challenges
 
 - When a translation API uses only a language code without a region code or script, it can be unclear what locale is being translated.
-- Not all languages or variants have standardized locale codes, leading to differences between different APIs.
+- Not all languages or variants have standardised locale codes, leading to differences between different APIs.
 - In some cases the locale codes have changed over time. For example, old systems may represent Cantonese as `zhHK` while newer systems use the newer language code `yue`.
 
 ## See also
