@@ -18,7 +18,7 @@ Language codes are typically specified in two or three characters according to I
 Regions are typically specified in two characters according to ISO 3166.
 Scripts are optionally specified according to ISO 15924, such as `sr-Cyrl_RS` for Serbian written in Cyrillic script in Serbia.
 
-## API Support
+## API support
 
 These language variations are supported by many API vendors:
 
