@@ -20,7 +20,6 @@ The vocabulary of a pretrained [word embedding model](/concepts/word-embeddings.
 ## Challenges
 
 - A large vocabulary will allow the system to learn to translate more words, but makes the model much larger and slower.
-- In [neural machine translation](/approaches/neural-machine-translation.md), it can be challenging to share the vocabulary between the decoder inputs and decoder outputs.
 - If pretrained word embeddings are used, the vocabulary is already determined and not trivial to update with new data.
 - Open-class words present challenges, such as proper names and numbers.
 - Agglutinative and highly inflected languages have very large vocabularies, and may require massive amounts of training data to observe enough of the vocabulary.
