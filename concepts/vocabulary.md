@@ -26,5 +26,5 @@ The vocabulary of a pretrained [word embedding model](/concepts/word-embeddings.
 
 ## Dependencies
 
-- The vocabulary is affected by choice of [tokenisation algorithm](/customisation/tokenisation.md) or the use of subword models such as [byte-pair encoding](/approaches/byte-pair-encoding.md). In the case of byte-pair encoding, this can cause vocabulary size to become a hyperparameter that affects the generalization of the model.
-- The vocabulary is affected by normalization of capitalization and accents.
+- The vocabulary is affected by choice of [tokenisation algorithm](/customisation/tokenisation.md) or the use of subword models such as [byte-pair encoding](/approaches/byte-pair-encoding.md). In the case of byte-pair encoding, this can cause vocabulary size to become a hyperparameter that affects the generalisation of the model.
+- The vocabulary is affected by normalisation of capitalisation and accents.
