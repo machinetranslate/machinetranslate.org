@@ -1,5 +1,6 @@
 ---
 parent: Building and research
+nav_order: 163
 title: Locale
 description: Specification of language variants
 ---
