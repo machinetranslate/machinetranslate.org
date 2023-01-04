@@ -26,5 +26,5 @@ The vocabulary of a pretrained [word embedding model](/concepts/word-embeddings.
 
 ## Dependencies
 
-- The vocabulary is affected by choice of [tokenisation algorithm](/customisation/tokenisation.md) or the use of subword models such as [byte-pair encoding](/approaches/byte-pair-encoding.md). In the case of byte-pair encoding, this can cause vocabulary size to become a hyperparameter that affects the generalisation of the model. In 2022, vocabulary sizes with subword models typically range from 24000-64000.
+- The vocabulary is affected by choice of [tokenisation algorithm](/customisation/tokenisation.md) or the use of subword models such as [byte-pair encoding](/approaches/byte-pair-encoding.md). In the case of byte-pair encoding, this can cause vocabulary size to become a hyperparameter that affects the generalisation of the model. In 2022, vocabulary sizes with subword models typically range from 16000-64000.
 - The vocabulary is affected by normalisation of capitalisation and accents.
