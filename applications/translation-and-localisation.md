@@ -41,7 +41,7 @@ Localisation of a software consists of the following steps:
 2. Identifying the features that need to be replaced or adapted.
 3. Translating the content of user interface and user assistance.
 4. Replacing or adapting the non-transferrable features.
-5. Building the localised versions with target locale settings and translated content and features.
+5. Building the localised versions with target [locale](/applications/advanced-concepts/locale.md) settings and translated content and features.
 6. Testing the localised versions:
    - Verifying the validity of translation in context of the software.
    - Verifying the validity for each target audience of the localisation aspects including:
