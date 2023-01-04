@@ -4,7 +4,7 @@ title: Locale
 description: Specification of language variants
 ---
 
-A **locale** is an identifier of a language and region plus an optional writing script.
+A **locale** is an identifier of a [language](/languages/languages.md) and region plus an optional writing script.
 The locale is used in [machine translation APIs](/apis/apis.md) to specify the language of the source and target text.
 Locales are used to indicate the language of documents in [web crawling](/customisation/crawling.md) to build [training data](/customisation/crawling.md).
 
@@ -21,26 +21,26 @@ Scripts are optionally specified according to ISO 15924, such as `sr-Cyrl_RS` fo
 
 These language variations are supported by many API vendors:
 
-- Chinese (`zh`): 
+- Chinese (`zh`):
     - Chinese, Simplified (`zh-cn`, also `zh-Hans`)
     - Chinese, Traditional (`zh-tw`, also `zh-Hant`)
-- Portuguese (`pr`): 
+- Portuguese (`pr`):
     - Portugal (`pr-pr`)
     - Brazil (`pr-br`)
-- French (`fr`): 
+- French (`fr`):
     - France (`fr-fr`)
     - Canada (`fr-ca`)
-- Spanish (`es`): 
+- Spanish (`es`):
     - Spain (`es-es`)
     - Mexico (`es-mx`)
     - Latin America and Caribbean region (`es-419`)
-- English (`en`): 
+- English (`en`):
     - United States (`en-us`)
     - Great Britain (`en-gb`)
-- Serbian (`sr`): 
+- Serbian (`sr`):
     - Serbia, Cyrillic script (`sr-Cyrl-rs`)
     - Serbia, Latin script (`sr-Latn-rs`)
-- Norwegian (`no`): 
+- Norwegian (`no`):
     - Norwegian Bokmål (`nb`, `nob`)
     - Norwegian Nynorsk (`nn`, `nno`)
 
@@ -52,4 +52,4 @@ These language variations are supported by many API vendors:
 
 ## See also
 
-- [Languages](languages.md)
+- [Languages](/languages/languages.md)
