@@ -7,7 +7,8 @@ description: Machine translation without parallel training data
 **Zero-shot machine translation** is translation without parallel data between the source and target languages.
 Zero-shot translation is desirable because it can be too costly to create training data for each language pair.
 
-Zero-shot machine translation is an active area of research, and models are typically lower quality than supervised translation models.
+Zero-shot machine translation is an active area of research.
+Zero-shot models are typically lower quality than supervised translation models.
 
 ## Approaches
 
