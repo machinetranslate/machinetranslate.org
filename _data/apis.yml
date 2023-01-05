@@ -8,6 +8,9 @@
   stock_api_domains:
     - e-commerce
     - gaming
+  stock_api_domains_urls:
+    - https://www.aisa.digital/e-commerce-translation/
+
   glossary: true
   self-serve: false
 
