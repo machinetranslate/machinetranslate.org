@@ -51,7 +51,7 @@ supported_apis:
 ## Character encoding
 
 Burmese characters can be represented in Unicode or Zawgyi.
-Zawgyi is a variation on Unicode which interprets some code points differently but otherwise encodes code points in the same way with UTF-8 and other encodings.
+Zawgyi is a variation on Unicode which interprets some code points differently but otherwise encodes code points with standard encodings such as UTF-8.
 If Zawgyi text is interpreted as Unicode, some characters will appear garbled.
 
 When building training data for machine translation from web text, the data will include a mixture of Burmese Unicode and Burmese Zawgyi.
