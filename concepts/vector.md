@@ -13,7 +13,7 @@ In machine translation, vectors represent the words and phrases in a text.
 
 Example of a vector:
 
-`cat` = [4564]
+`cat` = [0.049, 0.121, 0.503, 0.888]
 
 Each coordinate corresponds to a specific aspect of the word or phrase.
 
