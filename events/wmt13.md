@@ -25,6 +25,7 @@ seo:
 ---
 
 The **Eighth Workshop on Machine Translation** (**WMT13**) took place from 8 August to 9 August, 2013, in Sofia, Bulgaria.
+It was organised by [WMT](/associations/wmt.md).
 
 [statmt.org/wmt13/program.html](https://statmt.org/wmt13/program.html)
 

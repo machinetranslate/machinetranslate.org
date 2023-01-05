@@ -24,6 +24,7 @@ seo:
 ---
 
 The **Fifth Workshop on Machine Translation** (**WMT10**) took place from 15 July to 16 July, 2010, in Uppsala, Sweden.
+It was organised by [WMT](/associations/wmt.md).
 
 [statmt.org/wmt10/program.html](https://statmt.org/wmt10/program.html)
 

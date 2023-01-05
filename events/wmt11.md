@@ -24,6 +24,7 @@ seo:
 ---
 
 The **Sixth Workshop on Machine Translation** (**WMT11**) took place from 30 July to 31 July, 2011, in Edinburgh, United Kingdom.
+It was organised by [WMT](/associations/wmt.md).
 
 [statmt.org/wmt11/program.html](https://statmt.org/wmt11/program.html)
 

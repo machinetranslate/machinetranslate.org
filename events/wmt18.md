@@ -25,6 +25,7 @@ seo:
 ---
 
 The **Third Conference on Machine Translation** (**WMT18**) took place from 31 October to 1 November 2018 in Brussels, Belgium.
+It was organised by [WMT](/associations/wmt.md).
 
 [statmt.org/wmt18/program.html](https://www.statmt.org/wmt18/program.html)
 
@@ -62,7 +63,7 @@ The **Third Conference on Machine Translation** (**WMT18**) took place from 31 O
 | 10:30 - 11:00	| ☕️ |
 |	11:00 – 12:30 | **Session 2: Poster Session I** |
 | 11:00 – 12:30 |	**Shared Task: News Translation** |
-| | [***An Empirical Study of Machine Translation for the Shared Task of WMT18***](https://aclanthology.org/W18-6404.pdf) <br>Chao Bei, Hao Zong, Yiming Wang, Baoyong Fan, Shiqi Li and Conghu Yuan |
+| | [***An Empirical Study of Machine Translation for the Shared Task of WMT18***](https://aclanthology.org/W18-6404.pdf) <br>Chao Bei, Hao Zong, Yiming Wang, Baoyong Fan, Shiqi Li, Conghu Yuan |
 | | [***Robust parfda Statistical Machine Translation Results***](https://aclanthology.org/W18-6405.pdf) <br>Ergun Bicici |
 | | [***The TALP-UPC Machine Translation Systems for WMT18 News Shared Translation Task***](https://aclanthology.org/W18-6406.pdf) <br>Noe Casas, Carlos Escolano, Marta R. Costa-jussà, Jose A. R. Fonollosa |
 | | [***Phrase-based Unsupervised Machine Translation with Compositional Phrase Embeddings***](https://aclanthology.org/W18-6407.pdf) <br>Maksym Del, Andre Tättar, Mark Fishel |

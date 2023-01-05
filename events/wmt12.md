@@ -25,6 +25,7 @@ seo:
 ---
 
 The **Seventh Workshop on Machine Translation** (**WMT12**) took place from 7 June to 8 June, 2012, in Montreal, Quebec.
+It was organised by [WMT](/associations/wmt.md).
 
 [statmt.org/wmt12/program.html](https://statmt.org/wmt12/program.html)
 

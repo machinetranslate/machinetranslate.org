@@ -25,6 +25,7 @@ seo:
 ---
 
 The **Second Workshop on Machine Translation** (**WMT07**) took place on 23 June, 2007, in Prague, Czech Republic.
+It was organised by [WMT](/associations/wmt.md).
 
 [statmt.org/wmt07/program.html](https://statmt.org/wmt07/program.html)
 

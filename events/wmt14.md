@@ -25,6 +25,7 @@ seo:
 ---
 
 The **Ninth Workshop on Machine Translation** (**WMT14**) took place from 26 June to 27 June, 2014, in Baltimore, Maryland.
+It was organised by [WMT](/associations/wmt.md).
 
 [statmt.org/wmt14/program.html](https://statmt.org/wmt14/program.html)
 

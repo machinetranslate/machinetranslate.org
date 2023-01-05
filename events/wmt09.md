@@ -25,6 +25,7 @@ seo:
 ---
 
 The **Fourth Workshop on Machine Translation** (**WMT09**) took place from 30 March to 31 March, 2009, in Athens, Greece.
+It was organised by [WMT](/associations/wmt.md).
 
 [statmt.org/wmt09/program.html](https://statmt.org/wmt09/program.html)
 

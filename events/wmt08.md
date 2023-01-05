@@ -25,6 +25,7 @@ seo:
 ---
 
 The **Third Workshop on Machine Translation** (**WMT08**) took place on 19 June, 2008, in Columbus, Ohio.
+It was organised by [WMT](/associations/wmt.md).
 
 [statmt.org/wmt08/program.html](https://statmt.org/wmt08/program.html)
 

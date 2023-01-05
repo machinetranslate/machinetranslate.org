@@ -25,6 +25,7 @@ seo:
 ---
 
 The **Tenth Workshop on Machine Translation** (**WMT15**) took place from 17 September to 18 September, 2015, in Lisbon, Portugal.
+It was organised by [WMT](/associations/wmt.md).
 
 [statmt.org/wmt15/program.html](https://www.statmt.org/wmt15/program.html)
 
