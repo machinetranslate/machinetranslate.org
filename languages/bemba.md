@@ -8,6 +8,8 @@ code: bem
 family:
 - slug: bantu
   name: Bantu
+- slug: niger-congo
+  name: Niger-Congo
 supported_apis:
 - id: baidu
   name: Baidu Translate
@@ -17,7 +19,7 @@ supported_apis:
   supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 383
+  supported_language_count: 381
 
 ---
 

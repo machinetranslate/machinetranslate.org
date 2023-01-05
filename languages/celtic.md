@@ -12,6 +12,8 @@ languages:
   name: Cornish
 - slug: irish
   name: Irish
+- slug: manx
+  name: Manx
 - slug: scottish-gaelic
   name: Scottish Gaelic
 - slug: welsh

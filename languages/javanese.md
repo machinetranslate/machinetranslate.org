@@ -38,7 +38,7 @@ supported_apis:
   supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 383
+  supported_language_count: 381
 
 ---
 

@@ -118,7 +118,7 @@ supported_apis:
   supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 383
+  supported_language_count: 381
 
 ---
 Russian was one of the first languages for which machine translation was researched and developed, and remains one of the best supported languages.

@@ -563,17 +563,17 @@ supported_languages:
   base_code: dyu
   name: null
   variant_name: null
-- slug: null
+- slug: dzongkha
   code: dz
   normalized_code: dz
   base_code: dz
-  name: null
+  name: Dzongkha
   variant_name: null
-- slug: null
+- slug: ewe
   code: ee
   normalized_code: ee
   base_code: ee
-  name: null
+  name: Ewe
   variant_name: null
 - slug: null
   code: efi
@@ -761,11 +761,11 @@ supported_languages:
   base_code: guw
   name: null
   variant_name: null
-- slug: null
+- slug: manx
   code: gv
   normalized_code: gv
   base_code: gv
-  name: null
+  name: Manx
   variant_name: null
 - slug: null
   code: gym
@@ -989,11 +989,11 @@ supported_languages:
   base_code: jv
   name: Javanese
   variant_name: null
-- slug: null
+- slug: georgian
   code: jy
-  normalized_code: jy
-  base_code: jy
-  name: null
+  normalized_code: ka
+  base_code: ka
+  name: Georgian
   variant_name: null
 - slug: georgian
   code: ka
@@ -1055,11 +1055,11 @@ supported_languages:
   base_code: keo
   name: null
   variant_name: null
-- slug: null
+- slug: kongo
   code: kg
   normalized_code: kg
   base_code: kg
-  name: null
+  name: Kongo
   variant_name: null
 - slug: null
   code: kik
@@ -1187,11 +1187,11 @@ supported_languages:
   base_code: lg
   name: null
   variant_name: null
-- slug: null
+- slug: lingala
   code: ln
   normalized_code: ln
   base_code: ln
-  name: null
+  name: Lingala
   variant_name: null
 - slug: null
   code: lnd
@@ -1301,11 +1301,11 @@ supported_languages:
   base_code: mdy
   name: null
   variant_name: null
-- slug: null
+- slug: montenegrin
   code: me
-  normalized_code: me
-  base_code: me
-  name: null
+  normalized_code: cnr
+  base_code: cnr
+  name: Montenegrin
   variant_name: null
 - slug: null
   code: meu
@@ -1361,11 +1361,11 @@ supported_languages:
   base_code: mni
   name: null
   variant_name: null
-- slug: null
+- slug: mongolian
   code: mo
-  normalized_code: mo
-  base_code: mo
-  name: null
+  normalized_code: mn
+  base_code: mn
+  name: Mongolian
   variant_name: null
 - slug: null
   code: mos
@@ -1553,11 +1553,11 @@ supported_languages:
   base_code: ojb
   name: null
   variant_name: null
-- slug: null
+- slug: oromo
   code: om
   normalized_code: om
   base_code: om
-  name: null
+  name: Oromo
   variant_name: null
 - slug: null
   code: ond
@@ -1571,11 +1571,11 @@ supported_languages:
   base_code: or
   name: Oriya
   variant_name: null
-- slug: null
+- slug: ossetian
   code: os
   normalized_code: os
   base_code: os
-  name: null
+  name: Ossetian
   variant_name: null
 - slug: northwestern-otomi
   code: otq
