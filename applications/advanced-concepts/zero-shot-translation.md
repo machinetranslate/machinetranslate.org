@@ -13,8 +13,10 @@ Zero-shot machine translation is an active area of research.
 
 ## Approaches
 
-- Multilingual [neural machine translation](/approaches/neural-machine-translation.md) (MNMT): This approach learns a single model for all language pairs. The target language is an input to the model. This approach can produce translations between languages that both have parallel data, but not necessarily parallel data with each other. 
-- Transfer learning: These approaches connect an encoder for the source language to a decoder for the target language. Algorithms are developed to align the latent representations of encoders and decoders across languages.
+- Multilingual [neural machine translation](/approaches/neural-machine-translation.md) (MNMT): This approach learns a single model for all language pairs. The target language is an input to the model. This approach can produce translations between languages that both have parallel data, but not necessarily parallel data with each other.
+- Stitching together encoders and decoders
+    - When training models for many language pairs, it's possible to ensure that the latent representations are similar across languages, then connect the appropriate encoder and decoder for the desired language pair.
+    - Unsupervised methods learn encoders and decoders as denoising autoencoders, making effort to ensure that the latent representations are similar across languages, then connect the appropriate encoder and decoder for the desired language pair.
 
 ## See also
 
