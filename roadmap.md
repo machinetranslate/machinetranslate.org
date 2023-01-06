@@ -47,7 +47,7 @@ description: Content roadmap for Machine Translate
 - ~~[User-generated content](/applications/user-generated-content.md)~~
 - [Website translation \[#160\]](https://github.com/machinetranslate/machinetranslate.org/issues/160)
 - [Unsupervised machine translation \[#132\]](https://github.com/machinetranslate/machinetranslate.org/issues/132)
-- [Zero-shot machine translation \[#133\]](https://github.com/machinetranslate/machinetranslate.org/issues/133)
+- ~~[Zero-shot machine translation \[#133\]](https://github.com/machinetranslate/machinetranslate.org/issues/133)~~
 
 ### - ~~[Products](/industry/products.md)~~
 
