@@ -14,4 +14,4 @@ There are also other [input and output types](/building-and-research/other-input
 Most machine translation systems translate each sentence separately, without any [context](/customisation/context.md).
 Most machine translation models support translation for only one language and in only one direction.
 
-The most common [approaches](/approaches/approaches.md) use human translations as [training data](/customisation/training-data).
+The most common [approaches](/approaches/approaches.md) use human translations as [training data](/customisation/training-data.md).
