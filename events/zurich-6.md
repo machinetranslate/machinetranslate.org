@@ -16,7 +16,7 @@ seo:
 
   location:
     type: Place
-    addressCountry: Zurich, Switzerland
+    name: Zurich, Switzerland
 ---
 
 The sixth **Machine Translation Meetup** (**MTM**) took place on 3 February, 2021, in Zurich, Switzerland.

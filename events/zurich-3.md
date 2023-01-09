@@ -16,7 +16,7 @@ seo:
 
   location:
     type: Place
-    addressCountry: Zurich, Switzerland
+    name: Zurich, Switzerland
 ---
 
 The third **Machine Translation Meetup** (**MTM**) took place on 15 January, 2019, in Zurich, Switzerland.

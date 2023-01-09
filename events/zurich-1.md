@@ -16,7 +16,7 @@ seo:
 
   location:
     type: Place
-    addressCountry: Zurich, Switzerland
+    name: Zurich, Switzerland
 ---
 
 The first **Machine Translation Meetup** (**MTM**) took place on 19 April, 2018, in Zurich, Switzerland.
