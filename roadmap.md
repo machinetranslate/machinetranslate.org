@@ -60,7 +60,7 @@ description: Content roadmap for Machine Translate
 
 ### Languages
 
-- [Language identification \[#95\]](https://github.com/machinetranslate/machinetranslate.org/issues/95)
+- ~~[Language identification \[#95\]](https://github.com/machinetranslate/machinetranslate.org/issues/95)~~
 - [Long-tail languages / How to get machine translation for your language \[#96\]](https://github.com/machinetranslate/machinetranslate.org/issues/96)
 - [Language variants (fr-CA, en-UK…) \[#97\]](https://github.com/machinetranslate/machinetranslate.org/issues/97)
 - [Arabic \[#98\]](https://github.com/machinetranslate/machinetranslate.org/issues/98)
