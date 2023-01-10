@@ -56,7 +56,7 @@ Funded by NAVER D2 Startup Factory and others
 
 Raised $50K from angel investors
 
-### XL8
+### [XL8](/apis/xl8.md)
 - [xl8.ai](https://www.xl8.ai/)
 - [Crunchbase - XL8](https://www.crunchbase.com/organization/xl8-inc)
 
@@ -101,14 +101,14 @@ Acquired by Zoom in 2021
 
 Raised $4M from Berkeley Skydeck and angels
 
-### LingvaNex
+### [LingvaNex](/apis/lingvanex.md)
 - [lingvanex.com](https://lingvanex.com/)
 - [Crunchbase - LingvaNex](https://www.crunchbase.com/organization/lingvanex)
 
 
 ## 2015
 
-### Lilt
+### [Lilt](/apis/lilt.md)
 - [lilt.com](https://lilt.com/)
 - [Crunchbase - Lilt](https://www.crunchbase.com/organization/lilt)
 
@@ -134,7 +134,7 @@ Raised $26.6M from INKEF, Redalpine, Polipo, Techstars, Creathor, Piton and ange
 
 ## 2013
 
-### Unbabel
+### [Unbabel](/apis/unbabel.md)
 - [unbabel.com](https://unbabel.com/)
 - [Crunchbase - Unbabel](https://www.crunchbase.com/organization/unbabel)
 
@@ -153,9 +153,9 @@ Acquired by SDL/RWS for $20M in 2020
 Raised $7.1M in crowdfunding
 
 
-## 2012 
+## 2012
 
-### Xiaoniu Fanyi
+### [Xiaoniu Fanyi](/apis/niutrans.md)
 - [niutrans.com](https://niutrans.com/)
 - [Crunchbase - Xiaoniu Fanyi](https://www.crunchbase.com/organization/xiaoniu-fanyi)
 
@@ -170,7 +170,7 @@ Raised ¥33M from Shenyang Dehong Chuangzhan, Cretrend Capital, and others
 
 Raised €2.7M from private investors
 
-### KantanMT
+### [KantanMT](/apis/kantanmt.md)
 - [kantanai.io](https://www.kantanai.io/)
 - [Crunchbase - KantanMT](https://www.crunchbase.com/organization/kantanmt)
 
@@ -179,7 +179,7 @@ Acquired by Keywords Studios for €7M in 2019
 
 ## 2009
 
-### DeepL
+### [DeepL](/apis/deepl.md)
 - [deepl.com](https://www.deepl.com/translator)
 - [Crunchbase - DeepL](https://www.crunchbase.com/organization/linguee)
 
@@ -202,7 +202,7 @@ Acquired for its WordLens app by Google Translate in 2014
 
 Raised $1.1M from Advanced Media, So-net, and others
 
-### TextShuttle
+### [TextShuttle](/apis/textshuttle.md)
 - [textshuttle.ai](https://www.textshuttle.ai/)
 - [Crunchbase - TextShuttle](https://www.crunchbase.com/organization/textshuttle)
 
@@ -217,14 +217,14 @@ Raised CHF30K from Venture Kick
 
 Acquired by TransPerfect in 2018
 
-### Omniscien Technologies
+### [Omniscien Technologies](/apis/omniscien.md)
 - [omniscien.com](https://omniscien.com/)
 - [Crunchbase - Omniscien Technologies](https://www.crunchbase.com/organization/omniscien-technologies-trading)
 
 
 ## 2005
 
-### ModernMT
+### [ModernMT](/apis/modernmt.md)
 - [modernmt.com](https://www.modernmt.com/)
 - [Crunchbase - ModernMT](https://www.crunchbase.com/organization/modernmt)
 
@@ -233,7 +233,7 @@ Acquired by Translated in 2022
 
 ## 2002
 
-### Language Weaver
+### [Language Weaver](/apis/language-weaver.md)
 - [languageweaver.com](https://www.languageweaver.com/)
 - [Crunchbase - Language Weaver](https://www.crunchbase.com/organization/language-weaver)
 
@@ -242,7 +242,7 @@ Acquired by SDL/RWS for $42.5M in 2010
 
 ## 2000
 
-### Pangeanic
+### [Pangeanic](/apis/pangeamt.md)
 - [pangeanic.com](https://pangeanic.com/)
 - [Crunchbase - Pangeanic](https://www.crunchbase.com/organization/pangeanic)
 
@@ -256,13 +256,13 @@ Acquired by SDL/RWS for $42.5M in 2010
 
 ## 1991
 
-### Tilde
+### [Tilde](/apis/tilde.md)
 - [tilde.com](https://www.tilde.com/)
 - [Crunchbase - Tilde](https://www.crunchbase.com/organization/tilde-6e11)
 
 Granted €98.8K by the European Union
 
-### PROMT
+### [PROMT](/apis/promt.md)
 - [promt.com](https://www.promt.com/)
 - [Crunchbase - PROMT](https://www.crunchbase.com/organization/promt)
 
@@ -271,7 +271,7 @@ Raised from Svarog Capital Advisors in 2008
 
 ## 1990
 
-### AppTek
+### [AppTek](/apis/apptek.md)
 - [apptek.com](https://www.apptek.com/)
 - [Crunchbase - AppTek](https://www.crunchbase.com/organization/apptek)
 
@@ -280,7 +280,7 @@ Raised from SOS International
 
 ## 1968
 
-### SYSTRAN
+### [SYSTRAN](/apis/systran.md)
 - [systransoft.com](https://www.systransoft.com/)
 - [Crunchbase - SYSTRAN](https://www.crunchbase.com/organization/systran)
 
