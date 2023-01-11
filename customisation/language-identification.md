@@ -11,6 +11,6 @@ Language identification tools are also used to automatically identify the source
 
 ## Challenges
 
-- Similar languages may be mistaken for one another, for example Dutch and Afrikaans.
+- Similar languages may be mistaken for one another, for example [Dutch](/languages/dutch.md) and [Afrikaans](/languages/afrikaans.md).
 - Language identification is more challenging on short pieces of text.
-- If a particular [locale](/applications/advanced-concepts/locale.md) is not supported in the language identification tool, it may be misclassified as another, similar locale. For example, if a language identification tool does not support Serbian with the Cyrillic script, it may be misclassified as Macedonian.
+- If a particular [locale](/applications/advanced-concepts/locale.md) is not supported in the language identification tool, it may be misclassified as another, similar locale. For example, if a language identification tool does not support [Serbian](/languages/serbian.md) with the Cyrillic script, it may be misclassified as [Macedonian](/languages/macedonian.md).
