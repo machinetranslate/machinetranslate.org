@@ -11,7 +11,9 @@ description:
 
 One-hot encoding is one simple method of representing every word from a vocabulary.
 
-One-hot encoding is a unique vector, and its coordinates are mostly 1 and 0.
+One-hot encoding is a unique style of encoding information.
+In one-hot encodings, only one position in the vector equals `1` and the rest of the positions are `0`.
+
 
 Example: `bird = 00010`
 
@@ -27,7 +29,7 @@ The length of a one-hot encoding vector is equal to the size of a vocabulary.
 | `deer` | `0` | `0` | `0` | `0` | `1` |
 | `crocodile` | `0` | `0` | `0` | `0` | `0` |
 
-The sample vectors contain 5 digits.
+The sample vectors contain 5 dimensions.
 This size implies that the vocabulary contains 5 words.
 
 ### Challenges
