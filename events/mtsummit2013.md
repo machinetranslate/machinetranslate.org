@@ -21,8 +21,8 @@ seo:
 
   organizer:
     type: Organization
-    name: Association for Machine Translation in the Americas
-    url: https://amtaweb.org
+    name: European Association of Machine Translation
+    url: https://eamt.org
 ---
 
 The fourteenth Machine Translation Summit (**MT Summit XIV**) took place from 2 to 6 September, 2013, at Nice, France.
