@@ -17,5 +17,5 @@ The AMTA was established in 1991 in Washington DC.
 
 ## Events
 
-- [AMTA 2022](/events/amta2022)
-- [AMTA 2020](/events/amta2020)
+- [AMTA 2022](/events/amta2022.md)
+- [AMTA 2020](/events/amta2020.md)

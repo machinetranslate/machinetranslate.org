@@ -18,7 +18,7 @@ The AAMT was established as the *Japan Machine Translation Association* in 1991 
 
 ## Events
 
-- [AAMT 2022](/events/aamt2022)
-- [AAMT 2021](/events/aamt2021)
-- [AAMT 2020](/events/aamt2020)
-- [AAMT 2029](/events/aamt2019)
+- [AAMT 2022](/events/aamt2022.md)
+- [AAMT 2021](/events/aamt2021.md)
+- [AAMT 2020](/events/aamt2020.md)
+- [AAMT 2029](/events/aamt2019.md)
