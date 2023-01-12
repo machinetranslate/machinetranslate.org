@@ -18,7 +18,7 @@ They also vary by their underlying architecture.
 Some providers offer ready-to-use systems that can be integrated immediately.  These usually support many language pairs and their infrastructure is scalable.  An alternative is to train a model from scratch — or to use a pre-trained model — and deploy and maintain it.
 
 Raw models usually do not include the features included in many production systems:
-- language identification
+- [language identification](/customisation/language-identification.md)
 - segmentation
 - bridging (pivoting)
 - [glossary](../customisation/glossaries.md)
