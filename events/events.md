@@ -177,7 +177,7 @@ seo:
 | ---- | ---- | ---- |
 | 9 - 14 September | [MT Marathon](https://ufal.mff.cuni.cz/mtm13/) | Prague, Czech Republic |
 | 2 September | WPTP 2013 | Nice, France |
-| 2 - 6 September | MT Summit XIV | Nice, France |
+| 2 - 6 September | [MT Summit XIV](mtsummit2013.md) | Nice, France |
 | 8 - 9 August | [**WMT13**](wmt13.md) | Sofia, Bulgaria |
 
 ## 2012
