@@ -36,7 +36,7 @@ MT Summit XV was organised by [EAMT](/associations/eamt.md).
 |     |     |
 | --- | --- |
 | 09:00 - 13:00 | **Tutorial 1** <br>**Open Source Statistical Machine Translation** <br>Organized by Philipp Koehn, University of Edinburgh; Hieu Hoang, University of Edinburgh |
-| 14:00 | 18:00 | **Tutorial 2** <br>**Domain Adaptation in Machine Translation** <br>Organized by Cristina Vertan, University of Hamburg, Research Group "Computerphilology"; Mirela-Stefania Duma, University of Hamburg, Natural Language Systems Division
+| 14:00 - 18:00 | **Tutorial 2** <br>**Domain Adaptation in Machine Translation** <br>Organized by Cristina Vertan, University of Hamburg, Research Group "Computerphilology"; Mirela-Stefania Duma, University of Hamburg, Natural Language Systems Division |
 |   | **Tutorial 3** <br>**From Research to a Successful Start-up: a Business Model Generation** <br>Organized by Diego Bartolome, PhD and CEO, tauyou |  
 
 #### Day 2
