@@ -5,8 +5,8 @@ title: Interactive machine translation
 description: Workflow for human translation with word completion
 ---
 
-**Interactive machine translation** helps human translators by integrating machine translation into a predictive text input user interface.
-As the translator types, the system shows sentence completions produced by both a machine translation model and a language model of the current, partially-typed translation.
+**Interactive machine translation** (IMT) helps human translators type translations with a predictive text input system.
+Unlike traditional predictive text, IMT uses the machine translation model to provide better completions of the sentence.
 
 ## Challenges
 
