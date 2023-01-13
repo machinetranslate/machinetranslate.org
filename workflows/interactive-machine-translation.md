@@ -8,6 +8,8 @@ description: Workflow for human translation with word completion
 **Interactive machine translation** (IMT) helps human translators type translations with a predictive text input system.
 Unlike traditional predictive text, IMT uses the machine translation model to provide better completions of the sentence.
 
+IMT is also called interactive translation prediction or predictive machine translation.
+
 ## Challenges
 
 - The translation model is generally good for nouns, verbs, and open-domain words but the regular LM is better for closed-domain, so they struggle to combine those right.
