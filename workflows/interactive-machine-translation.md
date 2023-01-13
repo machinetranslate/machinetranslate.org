@@ -20,4 +20,4 @@ Unlike traditional predictive text, IMT uses the machine translation model to pr
 ## TODO
 
 - If possible, get stats on efficiency of IMT vs PE
-- If possible, include a diagram
+- If possible, include a screenshot
