@@ -12,7 +12,7 @@ IMT is also called interactive translation prediction or predictive machine tran
 
 ## Challenges
 
-- The translation model is generally good for nouns, verbs, and open-domain words but the regular LM is better for closed-domain, so they struggle to combine those right.
+- It can be challenging to combine probabilities from the target-side language model with the machine translation model.
 
 
 ## See also
