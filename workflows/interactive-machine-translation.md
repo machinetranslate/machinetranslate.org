@@ -8,6 +8,10 @@ description: Workflow for human translation with word completion
 **Interactive machine translation** (IMT) helps human translators type translations with a predictive text input system.
 Unlike traditional predictive text, IMT uses the machine translation model to provide better completions of the sentence.
 
+> ##### User interface from [Casmacat](https://www.casmacat.eu/)
+> <img title='Casmacat interactive machine translation user interface' src='/workflows/casmacat_interactive_machine_translation.gif' width='700' style='padding: 1em;' />
+
+
 IMT is also called interactive translation prediction or predictive machine translation.
 
 ## Challenges
@@ -18,8 +22,3 @@ IMT is also called interactive translation prediction or predictive machine tran
 ## See also
 
 - [Post-editing](post-editing.md)
-
-## TODO
-
-- If possible, get stats on efficiency of IMT vs PE
-- If possible, include a screenshot
