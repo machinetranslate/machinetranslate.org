@@ -21,4 +21,4 @@ IMT is also called interactive translation prediction or predictive machine tran
 
 ## See also
 
-- [Post-editing](post-editing.md)
+- [A user study of neural interactive translation prediction](https://link.springer.com/article/10.1007/s10590-019-09235-8) (2019) found that IMT was more efficient than [post-editing](post-editing.md) with neural machine translation and also highlights challenges with IMT.
