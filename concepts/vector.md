@@ -19,9 +19,10 @@ Each coordinate corresponds to a specific aspect of the word or phrase.
 
 Vectors encode information:
 
+- Meaning and sense
 - Part of speech
-- Tense
-- Word relationship to other words in the sentence
+- Grammatical features, like verb tense or noun case
+- Relationship to other words in the sentence
 
 Vectors are used as algorithms input. Algorithms analyse the vector meaning to produce the corresponding translation.
 
