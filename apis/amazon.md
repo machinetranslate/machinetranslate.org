@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://aws.amazon.com/es/translate
 - https://docs.aws.amazon.com/translate/latest/dg/what-is.html
+privacy_url: https://docs.aws.amazon.com/translate/latest/dg/security.html
 self_serve: true
 customization:
 - Adaptive
@@ -477,8 +478,8 @@ integrations:
 - slug: smartcat
   name: Smartcat
   custom: true
-- slug: Smartling
-  name: smartling
+- slug: smartling
+  name: Smartling
 - slug: transifex
   name: Transifex
   glossary: true

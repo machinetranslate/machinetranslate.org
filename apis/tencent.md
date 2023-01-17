@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://cloud.tencent.com/product/tmt
 - https://cloud.tencent.com/document/api/551/15619
+privacy_url: https://main.qcloudimg.com/raw/document/intl/product/pdf/tencent-cloud_1161_51199_en.pdf
 self_serve: true
 customization: []
 supported_languages:
@@ -125,8 +126,8 @@ supported_languages:
   name: Chinese
   variant_name: Traditional Chinese
 integrations:
-- slug: Phrase TMS
-  name: phrase
+- slug: phrase
+  name: Phrase TMS
 nav_order: 981
 
 ---

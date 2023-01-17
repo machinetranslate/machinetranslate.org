@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.globalese-mt.com
 - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069899/Stock+corpora
+privacy_url: https://www.globalese-mt.com/wp-content/uploads/2022/07/Termsandconditions_V4_version_4_2.pdf
 self_serve: true
 customization: []
 supported_languages:
@@ -215,8 +216,8 @@ supported_languages:
   name: Chinese
   variant_name: Simplified Chinese
 integrations:
-- slug: Phrase TMS
-  name: phrase
+- slug: phrase
+  name: Phrase TMS
 nav_order: 966
 
 ---

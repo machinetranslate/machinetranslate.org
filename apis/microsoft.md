@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://translator.microsoft.com
 - https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
+privacy_url: https://www.microsoft.com/en-us/translator/business/notrace/
 self_serve: true
 customization:
 - Glossary
@@ -691,8 +692,8 @@ integrations:
   name: Phrase TMS
   custom: true
   glossary: true
-- slug: OmegaT
-  name: omegat
+- slug: omegat
+  name: OmegaT
 - slug: passolo
   name: Passolo
   custom: true
@@ -702,14 +703,14 @@ integrations:
 - slug: smartling
   name: Smartling
   custom: true
-- slug: Transifex
-  name: transifex
+- slug: transifex
+  name: Transifex
 - slug: translate5
   name: translate5
-- slug: Wordbee
-  name: wordbee
-- slug: Wordfast
-  name: wordfast
+- slug: wordbee
+  name: Wordbee
+- slug: wordfast
+  name: Wordfast
 - slug: xtm
   name: XTM
   custom: true

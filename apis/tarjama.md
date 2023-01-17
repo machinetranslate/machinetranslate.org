@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.tarjama.com/amt/
 - https://github.com/machinetranslate/machinetranslate.org/blob/c7a75040f1bdfce144272231a7d253273b58cb33/files/C-TarjamaMTAPIDescription-150622-0817.pdf
+privacy_url: null
 self_serve: false
 customization: []
 supported_languages:

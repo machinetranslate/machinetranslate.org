@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.jukkou.com
 - https://www.jukkou.com/form/lang.html
+privacy_url: null
 self_serve: false
 customization: []
 supported_languages:

@@ -8,6 +8,7 @@ urls:
 - https://ai.baidu.com/tech/mt/text_trans
 - "https://ai.baidu.com/ai-doc/MT/4kqryjku9#\u8BED\u79CD\u5217\u8868"
 - https://github.com/machinetranslate/machinetranslate.org/issues/268
+privacy_url: null
 self_serve: true
 customization: []
 supported_languages:
@@ -1218,8 +1219,8 @@ supported_languages:
   name: Zulu
   variant_name: null
 integrations:
-- slug: Smartcat
-  name: smartcat
+- slug: smartcat
+  name: Smartcat
 nav_order: 799
 
 ---

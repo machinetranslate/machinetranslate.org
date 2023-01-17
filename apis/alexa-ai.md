@@ -6,6 +6,7 @@ id: alexa-ai
 parent: APIs
 urls:
 - https://alexatranslations.com/alexa-translations-a-i
+privacy_url: null
 self_serve: false
 customization: []
 supported_languages:
@@ -70,10 +71,10 @@ supported_languages:
   name: Chinese
   variant_name: null
 integrations:
-- slug: MemoQ
-  name: memoq
-- slug: Phrase TMS
-  name: phrase
+- slug: memoq
+  name: MemoQ
+- slug: phrase
+  name: Phrase TMS
 nav_order: 990
 
 ---

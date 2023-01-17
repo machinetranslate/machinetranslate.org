@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.sunda.fi
 - https://www.sunda.fi/en/technology-tools.html
+privacy_url: null
 self_serve: true
 customization:
 - Adaptive

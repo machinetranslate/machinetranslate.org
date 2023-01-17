@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://ibm.com/cloud/watson-language-translator
 - https://cloud.ibm.com/docs/language-translator?topic=language-translator-translation-models
+privacy_url: https://www.ibm.com/watson/data-privacy/
 self_serve: true
 customization:
 - Glossary
@@ -332,8 +333,8 @@ supported_languages:
 integrations:
 - slug: crowdin
   name: crowdin
-- slug: OmegaT
-  name: omegat
+- slug: omegat
+  name: OmegaT
 - slug: smartling
   name: Smartling
   custom: true

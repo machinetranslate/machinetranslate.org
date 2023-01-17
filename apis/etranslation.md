@@ -6,6 +6,7 @@ id: etranslation
 parent: APIs
 urls:
 - https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en#translateonline
+privacy_url: https://ec.europa.eu/info/privacy-policy_en
 self_serve: true
 customization: []
 supported_languages:
@@ -190,8 +191,8 @@ supported_languages:
   name: Ukrainian
   variant_name: null
 integrations:
-- slug: MemoQ
-  name: memoq
+- slug: memoq
+  name: MemoQ
 nav_order: 970
 
 ---

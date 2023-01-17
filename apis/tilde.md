@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.tilde.com/products-and-services/machine-translation
 - https://www.tilde.com/developers/machine-translation-api
+privacy_url: https://www.tilde.com/products-and-services/machine-translation/features/security
 self_serve: false
 customization:
 - Adaptive

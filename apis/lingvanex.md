@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://lingvanex.com
 - https://docs.lingvanex.com/reference/user-guide
+privacy_url: null
 self_serve: true
 customization: []
 supported_languages:

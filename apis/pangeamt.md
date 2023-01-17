@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://languagetechnology.pangeanic.com/machine-translation/
 - https://prod.pangeamt.com/
+privacy_url: null
 self_serve: true
 customization:
 - Adaptive

@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://miraitranslate.com/en/
 - https://miraitranslate.com/en/service/miraitranslator/
+privacy_url: https://miraitranslate.com/en/security/
 self_serve: true
 customization:
 - Adaptive
@@ -97,10 +98,10 @@ supported_languages:
   name: Chinese
   variant_name: Traditional Chinese
 integrations:
-- slug: MemoQ
-  name: memoq
-- slug: Phrase TMS
-  name: phrase
+- slug: memoq
+  name: MemoQ
+- slug: phrase
+  name: Phrase TMS
 nav_order: 986
 
 ---
