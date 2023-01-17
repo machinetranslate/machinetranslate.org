@@ -104,10 +104,12 @@ parent: APIs
   {% endfor %}
 </ul>
 
-
 <h2 id="integrations">Integrations</h2>
-
-<p><strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} API.</p>
+{% if page.integrations.size == 1 %}
+  <p>1 translation management system has integrated the {{ page.title }} API.</p>
+{% else %}
+  <p><strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} API.</p>
+{% endif %}
 
 <ul>
   {% for i in page.integrations %}
@@ -120,3 +122,4 @@ parent: APIs
     </li>
   {% endfor %}
 </ul>
+
