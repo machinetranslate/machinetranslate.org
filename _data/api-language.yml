@@ -13,7 +13,7 @@ microsoft:
   iw: he # Legacy, Google
   jw: jv # Legacy, Google
   fa-prs: fa-af  # Macrolanguage, Apptek for Dari Persian
-  prs: fa-af # Macrolanguage, Amazon, Apptek, Language Weaver, Lilt, Microsoft, Systran for Dari Persian
+  prs: fa-af # Macrolanguage, Language Weaver, Lilt, Microsoft, Systran for Dari Persian
   fil: tl # Macrolanguage, Microsoft for Tagalog
   mww: hmn # Macrolanguage, Microsoft for Hmong
   cz: cs # Czech, Omniscien
