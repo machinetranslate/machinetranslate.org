@@ -32,7 +32,7 @@
 #   routing: [ boolean ]
 
 - id: crowdin
-  name: crowdin
+  name: Crowdin
   url: https://www.crowdin.com
   type:
     - tms: true
@@ -48,7 +48,6 @@
     - google:
         custom: true
         glossary: true
-
 
     - microsoft:
         custom: true
@@ -131,8 +130,6 @@
         custom: true
         glossary: true
 
-    - crosslang
-
     - deepl:
         glossary: true
         tone: true
@@ -169,7 +166,7 @@
   api_aggregator_integrations:
     - intento:
         glossary: true
-
+    - crosslang
     - tmxmall
 
   local_api_support: true
