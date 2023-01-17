@@ -11,9 +11,10 @@ seo:
 
 **Machine Translate** is building **open resources and community for machine translation**.
 
-{% assign integrations_size = 0 %}
-{% for s in site.data.integrations | map: "api_integrations" | map: "size" %}
-  {% assign integrations_size = integrations_size | plus: s %}
+{% assign integration_count = 0 %}
+{% for i in site.data.integrations %}
+  {% assign s = i.api_integrations.size %}
+  {% assign integration_count = integration_count | plus: s %}
 {% endfor %}
 
 <div style="display: flex; justify-content: center; gap: 20%; padding: 1em;">
