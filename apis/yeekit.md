@@ -22,6 +22,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: null
+integrations: []
 nav_order: 998
 
 ---

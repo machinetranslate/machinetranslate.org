@@ -677,6 +677,42 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+integrations:
+- slug: crowdin
+  name: crowdin
+  custom: true
+- slug: matecat
+  name: MateCat
+  custom: true
+- slug: memoq
+  name: MemoQ
+  custom: true
+- slug: phrase
+  name: Phrase TMS
+  custom: true
+  glossary: true
+- slug: OmegaT
+  name: omegat
+- slug: passolo
+  name: Passolo
+  custom: true
+- slug: smartcat
+  name: Smartcat
+  custom: true
+- slug: smartling
+  name: Smartling
+  custom: true
+- slug: Transifex
+  name: transifex
+- slug: translate5
+  name: translate5
+- slug: Wordbee
+  name: wordbee
+- slug: Wordfast
+  name: wordfast
+- slug: xtm
+  name: XTM
+  custom: true
 nav_order: 889
 
 ---

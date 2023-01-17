@@ -360,6 +360,27 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: MateCat
+  name: matecat
+- slug: phrase
+  name: Phrase TMS
+  custom: true
+  offline_glossary: true
+- slug: passolo
+  name: Passolo
+  custom: true
+- slug: trados
+  name: Trados Studio
+  custom: true
+- slug: translate5
+  name: translate5
+- slug: xtm
+  name: XTM
+  glossary: true
+- slug: xtm
+  name: XTM
+  glossary: true
 nav_order: 942
 
 ---

@@ -1217,6 +1217,9 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+integrations:
+- slug: Smartcat
+  name: smartcat
 nav_order: 799
 
 ---

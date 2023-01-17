@@ -66,6 +66,13 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: memoq
+  name: MemoQ
+  glossary: true
+- slug: phrase
+  name: Phrase TMS
+  custom: true
 nav_order: 991
 
 ---

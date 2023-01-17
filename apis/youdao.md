@@ -684,6 +684,7 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+integrations: []
 nav_order: 888
 
 ---

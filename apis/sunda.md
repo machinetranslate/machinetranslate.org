@@ -24,6 +24,7 @@ supported_languages:
   base_code: fi
   name: Finnish
   variant_name: null
+integrations: []
 nav_order: 998
 
 ---

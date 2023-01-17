@@ -204,6 +204,35 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: crowdin
+  name: crowdin
+  tone: true
+- slug: memoq
+  name: MemoQ
+  glossary: true
+  tone: true
+- slug: phrase
+  name: Phrase TMS
+  glossary: true
+- slug: OmegaT
+  name: omegat
+- slug: Smartcat
+  name: smartcat
+- slug: Smartling
+  name: smartling
+- slug: transifex
+  name: Transifex
+  tone: true
+- slug: Wordbee
+  name: wordbee
+- slug: wordfast
+  name: Wordfast
+  tone: true
+- slug: xtm
+  name: XTM
+  glossary: true
+  tone: true
 nav_order: 968
 
 ---

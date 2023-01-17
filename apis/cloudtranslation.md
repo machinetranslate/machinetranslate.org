@@ -58,6 +58,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Simplified Chinese
+integrations: []
 nav_order: 992
 
 ---

@@ -189,6 +189,9 @@ supported_languages:
   base_code: uk
   name: Ukrainian
   variant_name: null
+integrations:
+- slug: MemoQ
+  name: memoq
 nav_order: 970
 
 ---

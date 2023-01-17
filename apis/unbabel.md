@@ -178,6 +178,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations: []
 nav_order: 972
 
 ---

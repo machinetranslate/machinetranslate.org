@@ -329,6 +329,14 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: crowdin
+  name: crowdin
+- slug: OmegaT
+  name: omegat
+- slug: smartling
+  name: Smartling
+  custom: true
 nav_order: 947
 
 ---

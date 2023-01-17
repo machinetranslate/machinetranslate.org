@@ -33,6 +33,7 @@ supported_languages:
   base_code: nl
   name: Dutch
   variant_name: null
+integrations: []
 nav_order: 996
 
 ---

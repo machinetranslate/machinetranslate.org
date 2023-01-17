@@ -323,6 +323,12 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: lilt
+  name: Lilt
+  custom: true
+  glossary: true
+  adaptive: true
 nav_order: 948
 
 ---

@@ -347,6 +347,15 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+integrations:
+- slug: crowdin
+  name: crowdin
+- slug: matecat
+  name: MateCat
+  custom: true
+- slug: smartcat
+  name: Smartcat
+  custom: true
 nav_order: 944
 
 ---
