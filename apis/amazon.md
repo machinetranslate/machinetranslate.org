@@ -127,7 +127,7 @@ supported_languages:
   normalized_code: fa-af
   base_code: fa
   name: Persian
-  variant_name: null
+  variant_name: Dari
 - slug: finnish
   code: fi
   normalized_code: fi

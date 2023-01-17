@@ -1,0 +1,28 @@
+-
+  name: Serbo-Croatian
+  languages: [ sr, hr, bs, cnr ]
+-
+  name: Persian
+  languages: [ fa, prs, to ]
+-
+  name: Netherlandic
+  languages: [ nl, af ]
+-
+  name: Oghuz Turkish
+  languages: [ tr, az ]
+-
+  name: Malay
+  languages: [ id, ms ]
+-
+  name: Arabic
+  languages: [ mt, ar ]
+-
+  name: Kurdish
+  languages: [ ku, ckb, zza ]
+-
+  name: Mari
+  languages: [ mrj, mhr  ]
+-
+  name: Hindustani
+  languages: [ hi, ur ]
+-

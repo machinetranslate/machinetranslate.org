@@ -78,6 +78,8 @@ def get_language_variant_name(locale_code, api_id):
   lang_code = parts[0]
   if lang_code == 'lzh':
     names.append('Literary') # Chinese
+  if lang_code == 'fa' and 'af' in parts:
+    names.append('Dari') # Persian
   for part in parts[1:]:
     if part in SCRIPTS:
       names.append(SCRIPTS[part])
