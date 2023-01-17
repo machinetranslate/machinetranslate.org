@@ -104,22 +104,25 @@ parent: APIs
   {% endfor %}
 </ul>
 
-<h2 id="integrations">Integrations</h2>
-{% if page.integrations.size == 1 %}
-  <p>1 translation management system has integrated the {{ page.title }} API.</p>
-{% else %}
-  <p><strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} API.</p>
+{% if page.integrations.size > 0 %}
+
+  <h2 id="integrations">Integrations</h2>
+  {% if page.integrations.size == 1 %}
+    <p>1 translation management system has integrated the {{ page.title }} API.</p>
+  {% else %}
+    <p><strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} API.</p>
+  {% endif %}
+
+  <ul>
+    {% for i in page.integrations %}
+      <li>
+        {% if i.url %}
+           <a href="{{ i.url }}" target="_blank">{{ i.name }}</a>
+        {% else %}
+           {{ i.name }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
 {% endif %}
-
-<ul>
-  {% for i in page.integrations %}
-    <li>
-      {% if i.url %}
-         <a href="{{ i.url }}" target="_blank">{{ i.name }}</a>
-      {% else %}
-         {{ i.name }}
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
-
