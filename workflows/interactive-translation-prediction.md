@@ -5,7 +5,7 @@ title: Interactive translation prediction
 description: Workflow for human translation with sentence completion
 ---
 
-**Interactive translation prediction (ITP)** or **interactive machine translation (IMT)** helps human translators type translations with a predictive text input system.
+**Interactive translation prediction** (**ITP**) or **interactive machine translation** (**IMT**) helps human translators type translations with a predictive text input system.
 Unlike traditional predictive text, interactive translation prediction uses the machine translation model to provide better completions of the sentence.
 
 > ##### User interface from [Casmacat](https://www.casmacat.eu/)
