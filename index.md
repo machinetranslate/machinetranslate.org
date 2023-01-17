@@ -13,7 +13,7 @@ seo:
 
 {% assign integrations_size = 0 %}
 {% for s in site.data.integrations | map: "api_integrations" | map: "size" %}
-  {% assign integrations_size = integrations | plus: s %}
+  {% assign integrations_size = integrations_size | plus: s %}
 {% endfor %}
 
 <div style="display: flex; justify-content: center; gap: 20%; padding: 1em;">
