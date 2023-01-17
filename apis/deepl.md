@@ -9,7 +9,7 @@ urls:
 - https://www.deepl.com/en/docs-api/
 privacy_url: https://www.deepl.com/pro-data-security/
 self_serve: true
-customization:
+customisation:
 - Glossary
 - Formality
 supported_languages:

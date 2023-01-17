@@ -9,7 +9,7 @@ urls:
 - https://api.xl8.ai/v1/trans/languages
 privacy_url: https://www.xl8.ai/tos
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: arabic
   code: ar

@@ -9,7 +9,7 @@ urls:
 - https://prod.pangeamt.com/
 privacy_url: null
 self_serve: true
-customization:
+customisation:
 - Adaptive
 - Glossary
 supported_languages:

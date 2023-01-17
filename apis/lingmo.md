@@ -9,7 +9,7 @@ urls:
 - http://live.lingmo-api.com/support/lingmo-translation-languages.html
 privacy_url: null
 self_serve: false
-customization: []
+customisation: []
 supported_languages:
 - slug: arabic
   code: ar-sa

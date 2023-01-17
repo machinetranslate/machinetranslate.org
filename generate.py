@@ -251,13 +251,13 @@ for api in APIS:
 
   self_serve = api.get('self-serve', True)
 
-  customization = []
+  customisation = []
   if api.get('adaptive', False):
-    customization.append('Adaptive')
+    customisation.append('Adaptive')
   if api.get('glossary', False):
-    customization.append('Glossary')
+    customisation.append('Glossary')
   if api.get('formality', False):
-    customization.append('Formality')
+    customisation.append('Formality')
 
   # "Join"
   # TODO: use language/api mapping
@@ -321,7 +321,7 @@ for api in APIS:
     'urls': urls,
     'privacy_url': privacy_url,
     'self_serve': self_serve,
-    'customization': customization,
+    'customisation': customisation,
     'supported_languages': supported_languages,
     'integrations': integrations,
     'nav_order': 1000 - len(supported_languages)

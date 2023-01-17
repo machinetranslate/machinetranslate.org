@@ -9,7 +9,7 @@ urls:
 - https://niutrans.com/documents/contents/trans_text#languageList
 privacy_url: https://translate.niutrans.com/privacy
 self_serve: true
-customization:
+customisation:
 - Glossary
 supported_languages:
 - slug: null

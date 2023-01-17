@@ -9,7 +9,7 @@ urls:
 - https://www.sunda.fi/en/technology-tools.html
 privacy_url: null
 self_serve: true
-customization:
+customisation:
 - Adaptive
 - Glossary
 supported_languages:

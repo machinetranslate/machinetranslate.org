@@ -37,8 +37,8 @@ parent: APIs
   {% if page.customization.size > 0 %}
     <dt>Customisation</dt>
     <dd>
-      {% for customization_type in page.customization %}
-        {{ customization_type }}{% unless forloop.last %}, {% endunless %}
+      {% for customisation_type in page.customisation %}
+        {{ customisation_type }}{% unless forloop.last %}, {% endunless %}
       {% endfor %}
     </dd>
   {% endif %}

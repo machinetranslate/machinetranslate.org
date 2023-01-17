@@ -9,7 +9,7 @@ urls:
 - https://kantanmt.docs.apiary.io/#reference
 privacy_url: https://www.kantanai.io/privacy-statement-2/
 self_serve: false
-customization:
+customisation:
 - Adaptive
 - Glossary
 supported_languages:

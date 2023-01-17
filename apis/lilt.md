@@ -9,7 +9,7 @@ urls:
 - https://support.lilt.com/kb/11075725.html
 privacy_url: https://lilt.com/technology/security
 self_serve: false
-customization:
+customisation:
 - Adaptive
 supported_languages:
 - slug: afrikaans

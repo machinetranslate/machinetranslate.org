@@ -9,7 +9,7 @@ urls:
 - https://docs.rws.com/791593/662987/language-weaver/welcome-to-the-------------language-weaver-documentation
 privacy_url: https://www.rws.com/legal/privacy/privacy-notice/?_gl=1*1ugvzg8*_ga*Njc5NDEwODk5LjE2MjYxNDMzMzM.*_ga_XXKN0CM93C*MTY2ODQzOTc0Mi45MS4xLjE2Njg0NDEwMTkuMC4wLjA.
 self_serve: true
-customization:
+customisation:
 - Adaptive
 - Glossary
 supported_languages:

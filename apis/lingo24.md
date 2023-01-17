@@ -9,7 +9,7 @@ urls:
 - https://developer.lingo24.com/documentation
 privacy_url: https://www.lingo24.com/about/privacy-and-terms/
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: arabic
   code: ar

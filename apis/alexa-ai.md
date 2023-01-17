@@ -8,7 +8,7 @@ urls:
 - https://alexatranslations.com/alexa-translations-a-i
 privacy_url: null
 self_serve: false
-customization: []
+customisation: []
 supported_languages:
 - slug: arabic
   code: ar

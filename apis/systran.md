@@ -9,7 +9,7 @@ urls:
 - https://docs.systran.net/translatePro/en/index.html
 privacy_url: https://www.systransoft.com/systran/policies/privacy-policy/
 self_serve: true
-customization:
+customisation:
 - Adaptive
 - Glossary
 supported_languages:

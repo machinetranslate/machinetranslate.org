@@ -8,7 +8,7 @@ urls:
 - https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en#translateonline
 privacy_url: https://ec.europa.eu/info/privacy-policy_en
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: arabic
   code: ar

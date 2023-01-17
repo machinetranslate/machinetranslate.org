@@ -9,7 +9,7 @@ urls:
 - https://www.alibabacloud.com/help/en/machine-translation/latest/general-version-of-machine-translation
 privacy_url: https://www.alibabacloud.com/help/en/machine-translation/latest/service-agreement-introduction#1306e5965564i
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: abkhaz
   code: ab

@@ -9,7 +9,7 @@ urls:
 - https://docs.aws.amazon.com/translate/latest/dg/what-is.html
 privacy_url: https://docs.aws.amazon.com/translate/latest/dg/security.html
 self_serve: true
-customization:
+customisation:
 - Adaptive
 - Glossary
 - Formality

@@ -8,7 +8,7 @@ urls:
 - https://judic.io
 privacy_url: https://judic.io/en/about
 self_serve: false
-customization: []
+customisation: []
 supported_languages:
 - slug: german
   code: de

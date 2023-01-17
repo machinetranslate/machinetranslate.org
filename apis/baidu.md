@@ -10,7 +10,7 @@ urls:
 - https://github.com/machinetranslate/machinetranslate.org/issues/268
 privacy_url: null
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: null
   code: ach

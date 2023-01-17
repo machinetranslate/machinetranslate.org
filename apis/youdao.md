@@ -11,7 +11,7 @@ urls:
   -API\u6587\u6863.html"
 privacy_url: null
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: afrikaans
   code: af

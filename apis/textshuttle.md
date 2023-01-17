@@ -9,7 +9,7 @@ urls:
 - https://www.textshuttle.ai/product/features#subscription
 privacy_url: https://www.textshuttle.ai/privacy-policy
 self_serve: false
-customization: []
+customisation: []
 supported_languages:
 - slug: czech
   code: cs

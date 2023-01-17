@@ -9,7 +9,7 @@ urls:
 - https://docs.lingvanex.com/reference/user-guide
 privacy_url: null
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: afrikaans
   code: af-za

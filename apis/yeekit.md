@@ -9,7 +9,7 @@ urls:
 - https://api.yeekit.com
 privacy_url: null
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: english
   code: en
