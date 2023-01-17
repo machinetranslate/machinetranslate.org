@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.apptek.com
 - https://docs.apptek.com/reference/machine-translation
+privacy_url: null
 self_serve: true
 customization:
 - Formality

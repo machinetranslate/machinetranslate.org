@@ -14,11 +14,10 @@ parent: APIs
 
 <p>
   The <strong>{{ page.title }}</strong> machine translation API supports <a href="#language-support">{{ page.supported_languages | size }} languages</a>.
+  {% if page.integrations.size > 0 %}
+    There are <a href="#integrations">{{ page.integrations | size }} integrations</a> with translation management systems.
+  {% endif %}
 </p>
-
-{% if page.integrations.size > 0 %}
-  <p>It is integrated in <a href="#integrations">{{ page.integrations | size }}</a> translation management systems</a>.</p>
-{% endif %}
 
 <blockquote>
 
@@ -31,33 +30,40 @@ parent: APIs
     <dt>Integrations</dt>
     <dd><a href="#integrations">{{ page.integrations | size }} translation management systems</a></dd>
   {% endif %}
-  
-  </dl>
-
-  {% unless page.self_serve %}
-  <p>No self-service</p>
-  <hr/>
-  {% endunless %}
 
   {% if page.customization.size > 0 %}
-    <p>
-      Customisation:
-      <ul>
+    <dt>Customisation:</dt>
+    <dd>
       {% for customization_type in page.customization %}
-        <li>{{ customization_type }}</li>
+        {{ customization_type }}{% unless forloop.last %}, {% endunless %}
       {% endfor %}
-      </ul>
-    </p>
-    <hr/>
+    </dd>
   {% endif %}
 
-  <ul>
-    {% for url in page.urls %}
-    <li>
-      <a href="{{ url }}" target="_blank">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
-    </li>
-    {% endfor %}
-  </ul>
+  {% if page.privacy_url %}
+    <dt>Privacy:</dt>
+    <dd>
+      <a href="{{ page.privacy_url }}">{{ page.privacy_url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
+    </dd>
+  {% endif %}
+
+  </dl>
+
+  {% if page.urls.size > 0 %}
+    <hr/>
+    <ul>
+      {% for url in page.urls %}
+      <li>
+        <a href="{{ url }}" target="_blank">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% unless page.self_serve %}
+    <hr/>
+    <p>No self-service</p>
+  {% endunless %}
 
 </blockquote>
 

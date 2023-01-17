@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.textshuttle.ai/
 - https://www.textshuttle.ai/product/features#subscription
+privacy_url: https://www.textshuttle.ai/privacy-policy
 self_serve: false
 customization: []
 supported_languages:
@@ -101,8 +102,8 @@ supported_languages:
   name: Swedish
   variant_name: null
 integrations:
-- slug: Wordbee
-  name: wordbee
+- slug: wordbee
+  name: Wordbee
 nav_order: 985
 
 ---

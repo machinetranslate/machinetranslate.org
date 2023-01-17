@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://unbabel.com
 - https://developers.unbabel.com/reference/mt_translation
+privacy_url: https://resources.unbabel.com/one-pager-5/the-complete-unbabel-security-guide-5
 self_serve: false
 customization: []
 supported_languages:

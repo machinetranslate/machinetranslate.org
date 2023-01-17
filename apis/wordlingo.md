@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.worldlingo.com/en/products/worldlingo_api.html
 - https://www.worldlingo.com/en/downloads/ServiceAPI.pdf
+privacy_url: null
 self_serve: false
 customization: []
 supported_languages:
@@ -407,8 +408,8 @@ supported_languages:
   name: Chinese
   variant_name: Traditional Chinese
 integrations:
-- slug: Wordfast
-  name: wordfast
+- slug: wordfast
+  name: Wordfast
 nav_order: 934
 
 ---

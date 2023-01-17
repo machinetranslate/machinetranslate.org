@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.systransoft.com
 - https://docs.systran.net/translatePro/en/index.html
+privacy_url: https://www.systransoft.com/systran/policies/privacy-policy/
 self_serve: true
 customization:
 - Adaptive
@@ -343,13 +344,13 @@ integrations:
 - slug: phrase
   name: Phrase TMS
   custom: true
-- slug: Smartling
-  name: smartling
+- slug: smartling
+  name: Smartling
 - slug: wordfast
   name: Wordfast
   custom: true
-- slug: XTM
-  name: xtm
+- slug: xtm
+  name: XTM
 nav_order: 946
 
 ---

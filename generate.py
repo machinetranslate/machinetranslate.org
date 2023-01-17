@@ -245,6 +245,7 @@ for api in APIS:
     raise Exception(languages)
 
   urls = api['urls']
+  privacy_url = api.get('privacy_url', None)
 
   self_serve = api.get('self-serve', True)
 
@@ -297,8 +298,8 @@ for api in APIS:
     for i in integration['api_integrations']:
       if i == api_id:
         integrations.append({
-          'slug': integration['name'],
-          'name': integration['id']
+          'slug': integration['id'],
+          'name': integration['name']
         })
       elif type(i) == dict:
         id = next(iter(i))
@@ -316,6 +317,7 @@ for api in APIS:
     'id': api_id,
     'parent': 'APIs',
     'urls': urls,
+    'privacy_url': privacy_url,
     'self_serve': self_serve,
     'customization': customization,
     'supported_languages': supported_languages,

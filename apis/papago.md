@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://papago.naver.com/business
 - https://www.ncloud.com/product/aiService/papagoTranslation
+privacy_url: null
 self_serve: true
 customization:
 - Glossary

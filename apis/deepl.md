@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.deepl.com
 - https://www.deepl.com/en/docs-api/
+privacy_url: https://www.deepl.com/pro-data-security/
 self_serve: true
 customization:
 - Glossary
@@ -215,17 +216,17 @@ integrations:
 - slug: phrase
   name: Phrase TMS
   glossary: true
-- slug: OmegaT
-  name: omegat
-- slug: Smartcat
-  name: smartcat
-- slug: Smartling
-  name: smartling
+- slug: omegat
+  name: OmegaT
+- slug: smartcat
+  name: Smartcat
+- slug: smartling
+  name: Smartling
 - slug: transifex
   name: Transifex
   tone: true
-- slug: Wordbee
-  name: wordbee
+- slug: wordbee
+  name: Wordbee
 - slug: wordfast
   name: Wordfast
   tone: true

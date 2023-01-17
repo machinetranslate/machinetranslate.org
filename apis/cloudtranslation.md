@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.cloudtranslation.com
 - https://cloudtranslation.com/static/api_en.html
+privacy_url: null
 self_serve: false
 customization: []
 supported_languages:

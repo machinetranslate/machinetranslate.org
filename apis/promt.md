@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.promt.com
 - https://www.promt.com/translation_software/corporate/developer/promt-cloud-api/
+privacy_url: null
 self_serve: false
 customization: []
 supported_languages:
@@ -261,8 +262,8 @@ integrations:
   name: Phrase TMS
   custom: true
   glossary: true
-- slug: Smartling
-  name: smartling
+- slug: smartling
+  name: Smartling
 nav_order: 959
 
 ---

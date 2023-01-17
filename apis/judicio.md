@@ -6,6 +6,7 @@ id: judicio
 parent: APIs
 urls:
 - https://judic.io
+privacy_url: https://judic.io/en/about
 self_serve: false
 customization: []
 supported_languages:

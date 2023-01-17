@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://modernmt.com
 - https://www.modernmt.com/api/#languages
+privacy_url: https://www.modernmt.com/privacy/
 self_serve: true
 customization:
 - Adaptive

@@ -8,6 +8,7 @@ urls:
 - https://console.cloud.google.com/apis/library/translate.googleapis.com
 - https://cloud.google.com/translate/docs/languages
 - https://cloud.google.com/translate/automl/docs/languages
+privacy_url: https://cloud.google.com/translate/data-usage
 self_serve: true
 customization:
 - Glossary
@@ -682,8 +683,8 @@ integrations:
   name: Phrase TMS
   custom: true
   glossary: true
-- slug: OmegaT
-  name: omegat
+- slug: omegat
+  name: OmegaT
 - slug: passolo
   name: Passolo
   custom: true

@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://translateme.network
 - https://translateme.network/api/
+privacy_url: null
 self_serve: true
 customization: []
 supported_languages:
