@@ -244,6 +244,9 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: XTM
+  name: xtm
 nav_order: 961
 
 ---

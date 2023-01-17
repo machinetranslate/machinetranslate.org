@@ -280,6 +280,13 @@ supported_languages:
   base_code: zlm
   name: null
   variant_name: null
+integrations:
+- slug: MateCat
+  name: matecat
+- slug: Phrase TMS
+  name: phrase
+- slug: OmegaT
+  name: omegat
 nav_order: 955
 
 ---

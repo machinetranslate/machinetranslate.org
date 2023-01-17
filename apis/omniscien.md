@@ -379,6 +379,13 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: phrase
+  name: Phrase TMS
+  custom: true
+- slug: xtm
+  name: XTM
+  custom: true
 nav_order: 939
 
 ---

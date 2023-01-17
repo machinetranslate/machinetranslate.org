@@ -406,6 +406,9 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: Wordfast
+  name: wordfast
 nav_order: 934
 
 ---

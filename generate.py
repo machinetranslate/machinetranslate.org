@@ -294,13 +294,21 @@ for api in APIS:
 
   integrations = []
   for integration in INTEGRATIONS:
-    for i in api_integrations:
-      if i is api_id:
+    for i in integration['api_integrations']:
+      if i == api_id:
         integrations.append({
-          'name': integration['name'],
-          'documentation_url': integration['documentation_url']
+          'slug': integration['name'],
+          'name': integration['id']
         })
-  
+      elif type(i) == dict:
+        id = next(iter(i))
+        if id == api_id:
+          integrations.append({
+            'slug': integration['id'],
+            'name': integration['name'],
+            **i[api_id]
+          })
+
   frontmatter = {
     'layout': 'api',
     'title': name,

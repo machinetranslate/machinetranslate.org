@@ -130,6 +130,9 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: MemoQ
+  name: memoq
 nav_order: 980
 
 ---

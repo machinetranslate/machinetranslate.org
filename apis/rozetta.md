@@ -586,6 +586,11 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+integrations:
+- slug: phrase
+  name: Phrase TMS
+  custom: true
+  glossary: true
 nav_order: 904
 
 ---

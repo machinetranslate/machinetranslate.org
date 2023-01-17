@@ -256,6 +256,13 @@ supported_languages:
   base_code: zsm
   name: null
   variant_name: null
+integrations:
+- slug: phrase
+  name: Phrase TMS
+  custom: true
+  glossary: true
+- slug: Smartling
+  name: smartling
 nav_order: 959
 
 ---

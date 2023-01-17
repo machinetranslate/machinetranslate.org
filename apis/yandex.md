@@ -568,6 +568,19 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: null
+integrations:
+- slug: crowdin
+  name: crowdin
+- slug: MateCat
+  name: matecat
+- slug: Phrase TMS
+  name: phrase
+- slug: OmegaT
+  name: omegat
+- slug: Smartcat
+  name: smartcat
+- slug: Wordfast
+  name: wordfast
 nav_order: 907
 
 ---

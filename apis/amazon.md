@@ -463,6 +463,29 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: crowdin
+  name: crowdin
+  glossary: true
+- slug: memoq
+  name: MemoQ
+  custom: true
+  glossary: true
+- slug: phrase
+  name: Phrase TMS
+  glossary: true
+- slug: smartcat
+  name: Smartcat
+  custom: true
+- slug: Smartling
+  name: smartling
+- slug: transifex
+  name: Transifex
+  glossary: true
+  url: https://docs.transifex.com/machine-translation/glossary-for-amazon-machine-translation-mt
+- slug: xtm
+  name: XTM
+  glossary: true
 nav_order: 925
 
 ---

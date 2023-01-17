@@ -100,6 +100,9 @@ supported_languages:
   base_code: sv
   name: Swedish
   variant_name: null
+integrations:
+- slug: Wordbee
+  name: wordbee
 nav_order: 985
 
 ---

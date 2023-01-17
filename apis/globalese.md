@@ -214,6 +214,9 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Simplified Chinese
+integrations:
+- slug: Phrase TMS
+  name: phrase
 nav_order: 966
 
 ---

@@ -47,7 +47,6 @@ supported_apis:
   supported_language_count: 381
 
 ---
-
 ## Character encoding
 
 Burmese characters can be represented in Unicode or Zawgyi.

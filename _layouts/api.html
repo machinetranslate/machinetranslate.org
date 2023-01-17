@@ -106,12 +106,11 @@ parent: APIs
 <ul>
   {% for i in page.integrations %}
     <li>
-      {% if i.documentation_url %}
-         <a href="{{ i.documentation_url }}" target="_blank">{{ i.name }}</a>
+      {% if i.url %}
+         <a href="{{ i.url }}" target="_blank">{{ i.name }}</a>
       {% else %}
          {{ i.name }}
       {% endif %}
     </li>
   {% endfor %}
 </ul>
-
