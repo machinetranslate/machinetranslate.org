@@ -155,14 +155,14 @@ Use curly apostrophes and quotation marks.
 
 ## Acronyms and abbreviations
 
-Only use widely understood acronyms.
-Expand acronyms the first time they appear in an article.
+Only use very widely understood acronyms, like *URL* and *API*.
 
-> Neural machine translation (NMT)
+If a concept is often referred to by its acronym, then use include the acronym in parentheses the first time it is mentioned.
 
-Do not overuse acronyms.
+> **Neural machine translation** (**NMT**) ...
 
 Do not use abbreviations.
+
 Do not use punctuation marks as abbreviations.
 
 > ~~USD/EUR~~ USD or EUR
