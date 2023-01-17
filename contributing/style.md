@@ -157,11 +157,11 @@ Use curly apostrophes and quotation marks.
 
 Only use very widely understood acronyms, like *URL* and *API*.
 
-If a concept is often referred to by its acronym, then use include the acronym in parentheses the first time it is mentioned.
+If a concept is often referred to by its acronym, then include the acronym in parentheses the first time it is mentioned.
 
 > **Neural machine translation** (**NMT**) ...
 
-Do not use abbreviations.
+Otherwise, do not use abbreviations.
 
 Do not use punctuation marks as abbreviations.
 
