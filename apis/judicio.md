@@ -6,6 +6,7 @@ id: judicio
 parent: APIs
 urls:
 - https://judic.io
+privacy_url: https://judic.io/en/about
 self_serve: false
 customisation: []
 supported_languages:
@@ -33,6 +34,7 @@ supported_languages:
   base_code: nl
   name: Dutch
   variant_name: null
+integrations: []
 nav_order: 996
 
 ---

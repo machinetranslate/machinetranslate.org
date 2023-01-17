@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://translate.yandex.com/
 - https://yandex.com/dev/translate/doc/dg/concepts/api-overview.html
+privacy_url: https://yandex.com/legal/confidential/
 self_serve: true
 customisation: []
 supported_languages:
@@ -568,6 +569,19 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: null
+integrations:
+- slug: crowdin
+  name: crowdin
+- slug: matecat
+  name: MateCat
+- slug: phrase
+  name: Phrase TMS
+- slug: omegat
+  name: OmegaT
+- slug: smartcat
+  name: Smartcat
+- slug: wordfast
+  name: Wordfast
 nav_order: 907
 
 ---

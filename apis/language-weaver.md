@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.rws.com/language-weaver
 - https://docs.rws.com/791593/662987/language-weaver/welcome-to-the-------------language-weaver-documentation
+privacy_url: https://www.rws.com/legal/privacy/privacy-notice/?_gl=1*1ugvzg8*_ga*Njc5NDEwODk5LjE2MjYxNDMzMzM.*_ga_XXKN0CM93C*MTY2ODQzOTc0Mi45MS4xLjE2Njg0NDEwMTkuMC4wLjA.
 self_serve: true
 customisation:
 - Adaptive
@@ -239,7 +240,7 @@ supported_languages:
   normalized_code: fa-af
   base_code: fa
   name: Persian
-  variant_name: null
+  variant_name: Dari
 - slug: pashto
   code: ps
   normalized_code: ps
@@ -360,6 +361,27 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: matecat
+  name: MateCat
+- slug: phrase
+  name: Phrase TMS
+  custom: true
+  offline_glossary: true
+- slug: passolo
+  name: Passolo
+  custom: true
+- slug: trados
+  name: Trados Studio
+  custom: true
+- slug: translate5
+  name: translate5
+- slug: xtm
+  name: XTM
+  glossary: true
+- slug: xtm
+  name: XTM
+  glossary: true
 nav_order: 942
 
 ---

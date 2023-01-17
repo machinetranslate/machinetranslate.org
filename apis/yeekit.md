@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://api.yeekit.com/mannual.php#docs
 - https://api.yeekit.com
+privacy_url: null
 self_serve: true
 customisation: []
 supported_languages:
@@ -22,6 +23,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: null
+integrations: []
 nav_order: 998
 
 ---

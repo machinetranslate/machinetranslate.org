@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.sapstore.com/solutions/40076/SAP-Translation-Hub
 - https://help.sap.com/docs/SAP_TRANSLATION_HUB/9f73362817cd48339dd8a6acba160f7f/c07bd4ee447b477b9ccb31b3abf5dae3.html?locale=en-US
+privacy_url: https://help.sap.com/docs/SAP_TRANSLATION_HUB/ed6ce7a29bdd42169f5f0d7868bce6eb/182532dc3252417c86c3d18dea40b68a.html?locale=en-US
 self_serve: true
 customisation: []
 supported_languages:
@@ -244,6 +245,9 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: xtm
+  name: XTM
 nav_order: 961
 
 ---

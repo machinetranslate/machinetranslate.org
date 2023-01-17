@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://lilt.com
 - https://support.lilt.com/kb/11075725.html
+privacy_url: https://lilt.com/technology/security
 self_serve: false
 customisation:
 - Adaptive
@@ -208,7 +209,7 @@ supported_languages:
   normalized_code: fa-af
   base_code: fa
   name: Persian
-  variant_name: null
+  variant_name: Dari
 - slug: pashto
   code: ps
   normalized_code: ps
@@ -323,6 +324,12 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: lilt
+  name: Lilt
+  custom: true
+  glossary: true
+  adaptive: true
 nav_order: 948
 
 ---

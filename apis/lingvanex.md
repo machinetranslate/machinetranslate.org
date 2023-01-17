@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://lingvanex.com
 - https://docs.lingvanex.com/reference/user-guide
+privacy_url: null
 self_serve: true
 customisation: []
 supported_languages:
@@ -664,6 +665,7 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+integrations: []
 nav_order: 891
 
 ---

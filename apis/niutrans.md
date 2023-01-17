@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://niutrans.com
 - https://niutrans.com/documents/contents/trans_text#languageList
+privacy_url: https://translate.niutrans.com/privacy
 self_serve: true
 customisation:
 - Glossary
@@ -2315,6 +2316,7 @@ supported_languages:
   base_code: zyb
   name: null
   variant_name: null
+integrations: []
 nav_order: 616
 
 ---

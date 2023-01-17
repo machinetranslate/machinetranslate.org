@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.apptek.com
 - https://docs.apptek.com/reference/machine-translation
+privacy_url: null
 self_serve: true
 customisation:
 - Formality
@@ -124,7 +125,7 @@ supported_languages:
   normalized_code: fa-af
   base_code: fa
   name: Persian
-  variant_name: null
+  variant_name: Dari
 - slug: finnish
   code: fi
   normalized_code: fi
@@ -449,6 +450,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations: []
 nav_order: 927
 
 ---

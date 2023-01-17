@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://aws.amazon.com/es/translate
 - https://docs.aws.amazon.com/translate/latest/dg/what-is.html
+privacy_url: https://docs.aws.amazon.com/translate/latest/dg/security.html
 self_serve: true
 customisation:
 - Adaptive
@@ -126,7 +127,7 @@ supported_languages:
   normalized_code: fa-af
   base_code: fa
   name: Persian
-  variant_name: null
+  variant_name: Dari
 - slug: finnish
   code: fi
   normalized_code: fi
@@ -463,6 +464,29 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: crowdin
+  name: crowdin
+  glossary: true
+- slug: memoq
+  name: MemoQ
+  custom: true
+  glossary: true
+- slug: phrase
+  name: Phrase TMS
+  glossary: true
+- slug: smartcat
+  name: Smartcat
+  custom: true
+- slug: smartling
+  name: Smartling
+- slug: transifex
+  name: Transifex
+  glossary: true
+  url: https://docs.transifex.com/machine-translation/glossary-for-amazon-machine-translation-mt
+- slug: xtm
+  name: XTM
+  glossary: true
 nav_order: 925
 
 ---

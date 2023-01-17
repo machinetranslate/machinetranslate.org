@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://ibm.com/cloud/watson-language-translator
 - https://cloud.ibm.com/docs/language-translator?topic=language-translator-translation-models
+privacy_url: https://www.ibm.com/watson/data-privacy/
 self_serve: true
 customisation:
 - Glossary
@@ -329,6 +330,14 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: crowdin
+  name: crowdin
+- slug: omegat
+  name: OmegaT
+- slug: smartling
+  name: Smartling
+  custom: true
 nav_order: 947
 
 ---

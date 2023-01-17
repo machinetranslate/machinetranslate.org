@@ -78,6 +78,8 @@ def get_language_variant_name(locale_code, api_id):
   lang_code = parts[0]
   if lang_code == 'lzh':
     names.append('Literary') # Chinese
+  if lang_code == 'fa' and 'af' in parts:
+    names.append('Dari') # Persian
   for part in parts[1:]:
     if part in SCRIPTS:
       names.append(SCRIPTS[part])
@@ -245,6 +247,7 @@ for api in APIS:
     raise Exception(languages)
 
   urls = api['urls']
+  privacy_url = api.get('privacy_url', None)
 
   self_serve = api.get('self-serve', True)
 
@@ -294,13 +297,21 @@ for api in APIS:
 
   integrations = []
   for integration in INTEGRATIONS:
-    for i in api_integrations:
-      if i is api_id:
+    for i in integration['api_integrations']:
+      if i == api_id:
         integrations.append({
-          'name': integration['name'],
-          'documentation_url': integration['documentation_url']
+          'slug': integration['id'],
+          'name': integration['name']
         })
-  
+      elif type(i) == dict:
+        id = next(iter(i))
+        if id == api_id:
+          integrations.append({
+            'slug': integration['id'],
+            'name': integration['name'],
+            **i[api_id]
+          })
+
   frontmatter = {
     'layout': 'api',
     'title': name,
@@ -308,6 +319,7 @@ for api in APIS:
     'id': api_id,
     'parent': 'APIs',
     'urls': urls,
+    'privacy_url': privacy_url,
     'self_serve': self_serve,
     'customisation': customisation,
     'supported_languages': supported_languages,

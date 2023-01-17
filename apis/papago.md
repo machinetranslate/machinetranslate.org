@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://papago.naver.com/business
 - https://www.ncloud.com/product/aiService/papagoTranslation
+privacy_url: null
 self_serve: true
 customisation:
 - Glossary
@@ -96,6 +97,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations: []
 nav_order: 986
 
 ---

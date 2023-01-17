@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://lingmointernationalnet.wordpress.com
 - http://live.lingmo-api.com/support/lingmo-translation-languages.html
+privacy_url: null
 self_serve: false
 customisation: []
 supported_languages:
@@ -172,6 +173,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Simplified Chinese
+integrations: []
 nav_order: 973
 
 ---

@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.tilde.com/products-and-services/machine-translation
 - https://www.tilde.com/developers/machine-translation-api
+privacy_url: https://www.tilde.com/products-and-services/machine-translation/features/security
 self_serve: false
 customisation:
 - Adaptive
@@ -120,6 +121,20 @@ supported_languages:
   base_code: sv
   name: Swedish
   variant_name: null
+integrations:
+- slug: matecat
+  name: MateCat
+  custom: true
+- slug: memoq
+  name: MemoQ
+  custom: true
+  glossary: true
+- slug: phrase
+  name: Phrase TMS
+  custom: true
+- slug: wordbee
+  name: Wordbee
+  custom: true
 nav_order: 982
 
 ---

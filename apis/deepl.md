@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.deepl.com
 - https://www.deepl.com/en/docs-api/
+privacy_url: https://www.deepl.com/pro-data-security/
 self_serve: true
 customisation:
 - Glossary
@@ -204,6 +205,35 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: crowdin
+  name: crowdin
+  tone: true
+- slug: memoq
+  name: MemoQ
+  glossary: true
+  tone: true
+- slug: phrase
+  name: Phrase TMS
+  glossary: true
+- slug: omegat
+  name: OmegaT
+- slug: smartcat
+  name: Smartcat
+- slug: smartling
+  name: Smartling
+- slug: transifex
+  name: Transifex
+  tone: true
+- slug: wordbee
+  name: Wordbee
+- slug: wordfast
+  name: Wordfast
+  tone: true
+- slug: xtm
+  name: XTM
+  glossary: true
+  tone: true
 nav_order: 968
 
 ---

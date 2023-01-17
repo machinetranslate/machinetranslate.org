@@ -6,6 +6,7 @@ id: aisa
 parent: APIs
 urls:
 - https://www.aisa.digital/machine-translation-api
+privacy_url: https://www.aisa.digital/terms-of-use/
 self_serve: false
 customisation:
 - Glossary
@@ -112,6 +113,9 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: phrase
+  name: Phrase TMS
 nav_order: 983
 
 ---

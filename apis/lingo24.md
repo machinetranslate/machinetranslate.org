@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.lingo24.com
 - https://developer.lingo24.com/documentation
+privacy_url: https://www.lingo24.com/about/privacy-and-terms/
 self_serve: true
 customisation: []
 supported_languages:
@@ -94,6 +95,9 @@ supported_languages:
   base_code: tr
   name: Turkish
   variant_name: null
+integrations:
+- slug: xtm
+  name: XTM
 nav_order: 986
 
 ---

@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://translator.microsoft.com
 - https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
+privacy_url: https://www.microsoft.com/en-us/translator/business/notrace/
 self_serve: true
 customisation:
 - Glossary
@@ -466,7 +467,7 @@ supported_languages:
   normalized_code: fa-af
   base_code: fa
   name: Persian
-  variant_name: null
+  variant_name: Dari
 - slug: pashto
   code: ps
   normalized_code: ps
@@ -677,6 +678,42 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+integrations:
+- slug: crowdin
+  name: crowdin
+  custom: true
+- slug: matecat
+  name: MateCat
+  custom: true
+- slug: memoq
+  name: MemoQ
+  custom: true
+- slug: phrase
+  name: Phrase TMS
+  custom: true
+  glossary: true
+- slug: omegat
+  name: OmegaT
+- slug: passolo
+  name: Passolo
+  custom: true
+- slug: smartcat
+  name: Smartcat
+  custom: true
+- slug: smartling
+  name: Smartling
+  custom: true
+- slug: transifex
+  name: Transifex
+- slug: translate5
+  name: translate5
+- slug: wordbee
+  name: Wordbee
+- slug: wordfast
+  name: Wordfast
+- slug: xtm
+  name: XTM
+  custom: true
 nav_order: 889
 
 ---

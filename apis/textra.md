@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/
 - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/api/
+privacy_url: https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/policy/
 self_serve: true
 customisation: []
 supported_languages:
@@ -130,6 +131,9 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: memoq
+  name: MemoQ
 nav_order: 980
 
 ---

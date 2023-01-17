@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.apertium.org
 - https://wiki.apertium.org/wiki/Main_Page
+privacy_url: null
 self_serve: true
 customisation: []
 supported_languages:
@@ -280,6 +281,13 @@ supported_languages:
   base_code: zlm
   name: null
   variant_name: null
+integrations:
+- slug: matecat
+  name: MateCat
+- slug: phrase
+  name: Phrase TMS
+- slug: omegat
+  name: OmegaT
 nav_order: 955
 
 ---

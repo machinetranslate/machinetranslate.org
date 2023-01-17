@@ -8,6 +8,7 @@ urls:
 - https://console.cloud.google.com/apis/library/translate.googleapis.com
 - https://cloud.google.com/translate/docs/languages
 - https://cloud.google.com/translate/automl/docs/languages
+privacy_url: https://cloud.google.com/translate/data-usage
 self_serve: true
 customisation:
 - Glossary
@@ -666,6 +667,50 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+integrations:
+- slug: crowdin
+  name: crowdin
+  custom: true
+  glossary: true
+- slug: matecat
+  name: MateCat
+  custom: true
+- slug: memoq
+  name: MemoQ
+  custom: true
+  glossary: true
+- slug: phrase
+  name: Phrase TMS
+  custom: true
+  glossary: true
+- slug: omegat
+  name: OmegaT
+- slug: passolo
+  name: Passolo
+  custom: true
+- slug: smartcat
+  name: Smartcat
+  custom: true
+  glossary: true
+- slug: smartling
+  name: Smartling
+  custom: true
+  glossary: true
+  url: https://help.smartling.com/hc/en-us/articles/1260805168070-Translating-with-Google-AutoML
+- slug: transifex
+  name: Transifex
+  custom: true
+- slug: translate5
+  name: translate5
+- slug: wordbee
+  name: Wordbee
+  custom: true
+- slug: wordfast
+  name: Wordfast
+  custom: true
+- slug: xtm
+  name: XTM
+  custom: true
 nav_order: 891
 
 ---

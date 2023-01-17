@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.sunda.fi
 - https://www.sunda.fi/en/technology-tools.html
+privacy_url: null
 self_serve: true
 customisation:
 - Adaptive
@@ -24,6 +25,7 @@ supported_languages:
   base_code: fi
   name: Finnish
   variant_name: null
+integrations: []
 nav_order: 998
 
 ---

@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.kantanai.io
 - https://kantanmt.docs.apiary.io/#reference
+privacy_url: https://www.kantanai.io/privacy-statement-2/
 self_serve: false
 customisation:
 - Adaptive
@@ -240,6 +241,27 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: memoq
+  name: MemoQ
+  custom: true
+- slug: phrase
+  name: Phrase TMS
+  custom: true
+- slug: transifex
+  name: Transifex
+  custom: true
+  url: https://docs.transifex.com/machine-translation/working-with-kantan-mt
+- slug: wordbee
+  name: Wordbee
+  custom: true
+- slug: wordfast
+  name: Wordfast
+  custom: true
+  online_custom_training: true
+- slug: xtm
+  name: XTM
+  custom: false
 nav_order: 962
 
 ---

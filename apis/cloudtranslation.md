@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.cloudtranslation.com
 - https://cloudtranslation.com/static/api_en.html
+privacy_url: null
 self_serve: false
 customisation: []
 supported_languages:
@@ -58,6 +59,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Simplified Chinese
+integrations: []
 nav_order: 992
 
 ---

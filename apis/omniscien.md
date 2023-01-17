@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://omniscien.com
 - https://omniscien.com/machine-translation/supported-languages/
+privacy_url: https://omniscien.com/machine-translation/data-security-and-privacy/
 self_serve: true
 customisation:
 - Adaptive
@@ -379,6 +380,13 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: phrase
+  name: Phrase TMS
+  custom: true
+- slug: xtm
+  name: XTM
+  custom: true
 nav_order: 939
 
 ---

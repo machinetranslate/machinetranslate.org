@@ -32,7 +32,7 @@
 #   routing: [ boolean ]
 
 - id: crowdin
-  name: crowdin
+  name: Crowdin
   url: https://www.crowdin.com
   type:
     - tms: true
@@ -48,7 +48,6 @@
     - google:
         custom: true
         glossary: true
-
 
     - microsoft:
         custom: true
@@ -131,8 +130,6 @@
         custom: true
         glossary: true
 
-    - crosslang
-
     - deepl:
         glossary: true
         tone: true
@@ -169,7 +166,7 @@
   api_aggregator_integrations:
     - intento:
         glossary: true
-
+    - crosslang
     - tmxmall
 
   local_api_support: true
@@ -283,7 +280,7 @@
 
   api_plugins:
     - tencent:
-        link: https://github.com/yoyicue/omegat-tencent-plugin
+        url: https://github.com/yoyicue/omegat-tencent-plugin
 
   local_api_support: true
   fuzzy_repair: true
@@ -307,7 +304,7 @@
 
   api_plugins:
     - deepl:
-        link: https://appstore.rws.com/language/app/deepl-mt-provider-for-passolo/1088/
+        url: https://appstore.rws.com/language/app/deepl-mt-provider-for-passolo/1088/
 
   multiple_api_suggestions: true
 
@@ -359,7 +356,7 @@
     - google:
         custom: true
         glossary: true
-        link: https://help.smartling.com/hc/en-us/articles/1260805168070-Translating-with-Google-AutoML
+        url: https://help.smartling.com/hc/en-us/articles/1260805168070-Translating-with-Google-AutoML
 
     - microsoft:
         custom: true
@@ -390,35 +387,35 @@
     - alexa-ai
 
     - amazon:
-        link: https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3315/amazon-translate-mt-provider
+        url: https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3315/amazon-translate-mt-provider
 
     - deepl:
-        link: https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3266/deepl-translation-provider
+        url: https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3266/deepl-translation-provider
 
     - globalese:
         custom: true
-        link: https://globalese.atlassian.net/servicedesk/customer/portal/2/article/2232746052
+        url: https://globalese.atlassian.net/servicedesk/customer/portal/2/article/2232746052
 
     - google:
         custom: true
         glossary: true
-        link: https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
+        url: https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
 
     - kantanmt:
         custom: true
 
     - language-wire:
-        link: https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
+        url: https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
 
     - microsoft:
         custom: true
-        link: https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
+        url: https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
 
     - mirai
 
     - modernmt:
         custom: true
-        link: https://s3.amazonaws.com/modernmt.prod.public.us-east-1/downloads/ModernMT+Plugin+Guide+for+SDL+Trados+Studio.pdf
+        url: https://s3.amazonaws.com/modernmt.prod.public.us-east-1/downloads/ModernMT+Plugin+Guide+for+SDL+Trados+Studio.pdf
 
     - niutrans
 
@@ -433,11 +430,11 @@
     - sundamt:
         glossary: true
         tone: true
-        link: https://www.sunda.fi/en/human-translators.html
+        url: https://www.sunda.fi/en/human-translators.html
 
     - systran:
         custom: true
-        link: https://help.systrangroup.com/hc/en-us/articles/360025571833--Plugins-SDL-Trados-studio-connector-How-to-add-Systran-server-in-SDL-Trados-Studio
+        url: https://help.systrangroup.com/hc/en-us/articles/360025571833--Plugins-SDL-Trados-studio-connector-How-to-add-Systran-server-in-SDL-Trados-Studio
 
     - textshuttle
 
@@ -449,7 +446,7 @@
     - ubiqus
 
     - xl8:
-        link: https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf
+        url: https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf
 
     - youdao
 
@@ -471,7 +468,7 @@
   api_integrations:
     - amazon:
         glossary: true
-        link: https://docs.transifex.com/machine-translation/glossary-for-amazon-machine-translation-mt
+        url: https://docs.transifex.com/machine-translation/glossary-for-amazon-machine-translation-mt
 
     - deepl:
         tone: true
@@ -481,7 +478,7 @@
 
     - kantanmt:
         custom: true
-        link: https://docs.transifex.com/machine-translation/working-with-kantan-mt
+        url: https://docs.transifex.com/machine-translation/working-with-kantan-mt
 
     - microsoft
 
@@ -550,7 +547,7 @@
 
   api_aggregator_integrations:
     - intento:
-        link: https://help.inten.to/hc/en-us/articles/360017136300-Configure-your-Intento-connector-in-Wordbee
+        url: https://help.inten.to/hc/en-us/articles/360017136300-Configure-your-Intento-connector-in-Wordbee
 
   local_api_support: true
   multiple_api_suggestions: true
@@ -582,7 +579,7 @@
 
   api_aggregator_integrations:
     - intento:
-        link: https://help.inten.to/hc/en-us/articles/360018425379-How-to-set-up-Intento-plugin-for-Wordfast-Anywhere
+        url: https://help.inten.to/hc/en-us/articles/360018425379-How-to-set-up-Intento-plugin-for-Wordfast-Anywhere
 
   local_api_support: true
   multiple_api_suggestions: true
@@ -594,9 +591,6 @@
   documentation_url: https://xtm.cloud/docs/xtm-editor.x56164.pdf
   api_integrations:
     - amazon:
-        glossary: true
-
-    - language-weaver:
         glossary: true
 
     - deepl:

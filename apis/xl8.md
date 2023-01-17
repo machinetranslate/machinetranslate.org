@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.xl8.ai
 - https://api.xl8.ai/v1/trans/languages
+privacy_url: https://www.xl8.ai/tos
 self_serve: true
 customisation: []
 supported_languages:
@@ -208,6 +209,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations: []
 nav_order: 967
 
 ---

@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://www.systransoft.com
 - https://docs.systran.net/translatePro/en/index.html
+privacy_url: https://www.systransoft.com/systran/policies/privacy-policy/
 self_serve: true
 customisation:
 - Adaptive
@@ -209,7 +210,7 @@ supported_languages:
   normalized_code: fa-af
   base_code: fa
   name: Persian
-  variant_name: null
+  variant_name: Dari
 - slug: pashto
   code: ps
   normalized_code: ps
@@ -336,6 +337,20 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations:
+- slug: memoq
+  name: MemoQ
+  custom: true
+- slug: phrase
+  name: Phrase TMS
+  custom: true
+- slug: smartling
+  name: Smartling
+- slug: wordfast
+  name: Wordfast
+  custom: true
+- slug: xtm
+  name: XTM
 nav_order: 946
 
 ---

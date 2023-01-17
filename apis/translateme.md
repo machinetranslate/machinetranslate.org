@@ -7,6 +7,7 @@ parent: APIs
 urls:
 - https://translateme.network
 - https://translateme.network/api/
+privacy_url: null
 self_serve: true
 customisation: []
 supported_languages:
@@ -76,6 +77,7 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+integrations: []
 nav_order: 989
 
 ---
