@@ -20,24 +20,17 @@ seo:
 <div style="display: flex; justify-content: center; gap: 20%; padding: 1em;">
   <div>
     <center>
-      <a href="/apis">
-        <h1>{{ site.data.apis | size }}</h1>
-        APIs
-      </a>
+      <a href="/apis"><h1>{{ site.data.apis | size }}</h1> APIs</a>
     </center>
   </div>
   <div>
     <center>
-      <a href="/languages">
-        <h1>{{ site.data.languages | size }}</h1>
-        languages
-      </a>
+      <a href="/languages"><h1>{{ site.data.languages | size }}</h1> languages</a>
     </center>
   </div>
   <div>
     <center>
-        <h1>{{ integration_count }}</h1>
-        integrations
+        <h1>{{ integration_count }}</h1> integrations
     </center>
   </div>
 </div>
