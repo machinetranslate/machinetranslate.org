@@ -680,7 +680,7 @@ supported_languages:
   variant_name: null
 integrations:
 - slug: crowdin
-  name: crowdin
+  name: Crowdin
   custom: true
 - slug: matecat
   name: MateCat
