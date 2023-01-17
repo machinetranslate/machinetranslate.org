@@ -8,7 +8,7 @@ urls:
 - https://ibm.com/cloud/watson-language-translator
 - https://cloud.ibm.com/docs/language-translator?topic=language-translator-translation-models
 self_serve: true
-customization:
+customisation:
 - Glossary
 supported_languages:
 - slug: arabic

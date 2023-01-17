@@ -8,7 +8,7 @@ urls:
 - https://www.worldlingo.com/en/products/worldlingo_api.html
 - https://www.worldlingo.com/en/downloads/ServiceAPI.pdf
 self_serve: false
-customization: []
+customisation: []
 supported_languages:
 - slug: afrikaans
   code: af

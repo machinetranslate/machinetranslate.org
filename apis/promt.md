@@ -8,7 +8,7 @@ urls:
 - https://www.promt.com
 - https://www.promt.com/translation_software/corporate/developer/promt-cloud-api/
 self_serve: false
-customization: []
+customisation: []
 supported_languages:
 - slug: arabic
   code: ar

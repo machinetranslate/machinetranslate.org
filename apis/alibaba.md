@@ -8,7 +8,7 @@ urls:
 - https://www.alibabacloud.com/es/product/machine-translation
 - https://www.alibabacloud.com/help/en/machine-translation/latest/general-version-of-machine-translation
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: abkhaz
   code: ab

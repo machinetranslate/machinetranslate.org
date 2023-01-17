@@ -8,7 +8,7 @@ urls:
 - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/
 - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/api/
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: arabic
   code: ar

@@ -8,7 +8,7 @@ urls:
 - https://unbabel.com
 - https://developers.unbabel.com/reference/mt_translation
 self_serve: false
-customization: []
+customisation: []
 supported_languages:
 - slug: arabic
   code: ar

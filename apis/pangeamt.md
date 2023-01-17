@@ -8,7 +8,7 @@ urls:
 - https://languagetechnology.pangeanic.com/machine-translation/
 - https://prod.pangeamt.com/
 self_serve: true
-customization:
+customisation:
 - Adaptive
 - Glossary
 supported_languages:

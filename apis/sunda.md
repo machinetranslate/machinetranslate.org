@@ -8,7 +8,7 @@ urls:
 - https://www.sunda.fi
 - https://www.sunda.fi/en/technology-tools.html
 self_serve: true
-customization:
+customisation:
 - Adaptive
 - Glossary
 supported_languages:

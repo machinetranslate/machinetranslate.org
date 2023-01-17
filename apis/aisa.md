@@ -7,7 +7,7 @@ parent: APIs
 urls:
 - https://www.aisa.digital/machine-translation-api
 self_serve: false
-customization:
+customisation:
 - Glossary
 supported_languages:
 - slug: arabic

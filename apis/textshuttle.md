@@ -8,7 +8,7 @@ urls:
 - https://www.textshuttle.ai/
 - https://www.textshuttle.ai/product/features#subscription
 self_serve: false
-customization: []
+customisation: []
 supported_languages:
 - slug: czech
   code: cs

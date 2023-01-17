@@ -8,7 +8,7 @@ urls:
 - https://www.lingo24.com
 - https://developer.lingo24.com/documentation
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: arabic
   code: ar

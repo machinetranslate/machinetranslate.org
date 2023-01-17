@@ -7,7 +7,7 @@ parent: APIs
 urls:
 - https://judic.io
 self_serve: false
-customization: []
+customisation: []
 supported_languages:
 - slug: german
   code: de

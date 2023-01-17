@@ -8,7 +8,7 @@ urls:
 - https://aws.amazon.com/es/translate
 - https://docs.aws.amazon.com/translate/latest/dg/what-is.html
 self_serve: true
-customization:
+customisation:
 - Adaptive
 - Glossary
 - Formality

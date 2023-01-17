@@ -29,8 +29,8 @@ This tutorial provides information as to how to obtain application programming i
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Google Cloud Translation Basic (Google Translate API v2)  | 100+  | Translation memory and glossary  | Difficult | $20 per 1M characters | No-trace, ISO 27001 and GDPR-compliant |
 | DeepL  |  26 | Glossary  | Easy | EUR 8.99 per user/5 files a month EUR 29.99 per user/20 files EUR 59.99 per user/100 files | No-trace, ISO 27001 and GDPR-compliant |
-| Amazon Translate (AWS)   |  75 | Glossaries, Adaptive customization, to and from English only  | Difficult | $15 per 1 M characters, $60 for adaptive customization per 1 M characters | Amazon shared responsibility model, ISO 27001-compliant |
-| Modern MT   |  40+ | Glossaries, Adaptive customization for all pairs  | Easy | $25 per month for professionals/unlimited no. of characters, $50 for real-time adaptive | No-trace, ISO 27001 and GDPR-compliant |
+| Amazon Translate (AWS)   |  75 | Glossaries, Adaptive customisation, to and from English only  | Difficult | $15 per 1 M characters, $60 for adaptive customisation per 1 M characters | Amazon shared responsibility model, ISO 27001-compliant |
+| Modern MT   |  40+ | Glossaries, Adaptive customisation for all pairs  | Easy | $25 per month for professionals/unlimited no. of characters, $50 for real-time adaptive | No-trace, ISO 27001 and GDPR-compliant |
 
 #### Privacy
 

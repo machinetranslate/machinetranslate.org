@@ -8,7 +8,7 @@ urls:
 - https://www.apertium.org
 - https://wiki.apertium.org/wiki/Main_Page
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: afrikaans
   code: af

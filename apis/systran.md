@@ -8,7 +8,7 @@ urls:
 - https://www.systransoft.com
 - https://docs.systran.net/translatePro/en/index.html
 self_serve: true
-customization:
+customisation:
 - Adaptive
 - Glossary
 supported_languages:

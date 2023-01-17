@@ -9,7 +9,7 @@ urls:
 - https://cloud.google.com/translate/docs/languages
 - https://cloud.google.com/translate/automl/docs/languages
 self_serve: true
-customization:
+customisation:
 - Glossary
 supported_languages:
 - slug: afrikaans

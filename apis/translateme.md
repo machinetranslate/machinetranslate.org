@@ -8,7 +8,7 @@ urls:
 - https://translateme.network
 - https://translateme.network/api/
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: german
   code: de

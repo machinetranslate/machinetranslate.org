@@ -8,7 +8,7 @@ urls:
 - https://www.rws.com/language-weaver
 - https://docs.rws.com/791593/662987/language-weaver/welcome-to-the-------------language-weaver-documentation
 self_serve: true
-customization:
+customisation:
 - Adaptive
 - Glossary
 supported_languages:

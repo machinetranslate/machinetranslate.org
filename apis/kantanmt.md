@@ -8,7 +8,7 @@ urls:
 - https://www.kantanai.io
 - https://kantanmt.docs.apiary.io/#reference
 self_serve: false
-customization:
+customisation:
 - Adaptive
 - Glossary
 supported_languages:

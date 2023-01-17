@@ -8,7 +8,7 @@ urls:
 - https://www.apptek.com
 - https://docs.apptek.com/reference/machine-translation
 self_serve: true
-customization:
+customisation:
 - Formality
 supported_languages:
 - slug: afrikaans

@@ -8,7 +8,7 @@ urls:
 - https://translate.yandex.com/
 - https://yandex.com/dev/translate/doc/dg/concepts/api-overview.html
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: afrikaans
   code: af

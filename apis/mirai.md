@@ -8,7 +8,7 @@ urls:
 - https://miraitranslate.com/en/
 - https://miraitranslate.com/en/service/miraitranslator/
 self_serve: true
-customization:
+customisation:
 - Adaptive
 - Glossary
 supported_languages:

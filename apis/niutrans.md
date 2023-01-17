@@ -8,7 +8,7 @@ urls:
 - https://niutrans.com
 - https://niutrans.com/documents/contents/trans_text#languageList
 self_serve: true
-customization:
+customisation:
 - Glossary
 supported_languages:
 - slug: null

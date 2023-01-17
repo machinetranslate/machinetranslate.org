@@ -8,7 +8,7 @@ urls:
 - https://lingmointernationalnet.wordpress.com
 - http://live.lingmo-api.com/support/lingmo-translation-languages.html
 self_serve: false
-customization: []
+customisation: []
 supported_languages:
 - slug: arabic
   code: ar-sa

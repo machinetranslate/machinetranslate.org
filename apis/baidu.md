@@ -9,7 +9,7 @@ urls:
 - "https://ai.baidu.com/ai-doc/MT/4kqryjku9#\u8BED\u79CD\u5217\u8868"
 - https://github.com/machinetranslate/machinetranslate.org/issues/268
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: null
   code: ach

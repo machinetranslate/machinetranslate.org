@@ -8,7 +8,7 @@ urls:
 - https://www.deepl.com
 - https://www.deepl.com/en/docs-api/
 self_serve: true
-customization:
+customisation:
 - Glossary
 - Formality
 supported_languages:

@@ -8,7 +8,7 @@ urls:
 - https://omniscien.com
 - https://omniscien.com/machine-translation/supported-languages/
 self_serve: true
-customization:
+customisation:
 - Adaptive
 - Glossary
 - Formality

@@ -10,7 +10,7 @@ urls:
   \u6863/\u6587\u672C\u7FFB\u8BD1\u670D\u52A1/\u6587\u672C\u7FFB\u8BD1\u670D\u52A1\
   -API\u6587\u6863.html"
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: afrikaans
   code: af

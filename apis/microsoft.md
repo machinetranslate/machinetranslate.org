@@ -8,7 +8,7 @@ urls:
 - https://translator.microsoft.com
 - https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
 self_serve: true
-customization:
+customisation:
 - Glossary
 supported_languages:
 - slug: afrikaans

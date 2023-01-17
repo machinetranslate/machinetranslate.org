@@ -8,7 +8,7 @@ urls:
 - https://www.cloudtranslation.com
 - https://cloudtranslation.com/static/api_en.html
 self_serve: false
-customization: []
+customisation: []
 supported_languages:
 - slug: german
   code: de

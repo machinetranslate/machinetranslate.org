@@ -8,7 +8,7 @@ urls:
 - https://api.yeekit.com/mannual.php#docs
 - https://api.yeekit.com
 self_serve: true
-customization: []
+customisation: []
 supported_languages:
 - slug: english
   code: en

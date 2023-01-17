@@ -8,7 +8,7 @@ urls:
 - https://lilt.com
 - https://support.lilt.com/kb/11075725.html
 self_serve: false
-customization:
+customisation:
 - Adaptive
 supported_languages:
 - slug: afrikaans
