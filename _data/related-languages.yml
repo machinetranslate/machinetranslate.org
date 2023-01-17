@@ -5,8 +5,8 @@
   name: Persian
   languages: [ fa, prs, to ]
 -
-  name: Netherlandic
-  languages: [ nl, af ]
+  name: Low Franconian
+  languages: [ nl, af, li, vls, zea ]
 -
   name: Oghuz Turkish
   languages: [ tr, az ]
@@ -21,8 +21,7 @@
   languages: [ ku, ckb, zza ]
 -
   name: Mari
-  languages: [ mrj, mhr  ]
+  languages: [ mrj, mhr ]
 -
   name: Hindustani
   languages: [ hi, ur ]
--
