@@ -32,7 +32,7 @@ parent: APIs
   {% endif %}
 
   {% if page.customization.size > 0 %}
-    <dt>Customisation:</dt>
+    <dt>Customisation</dt>
     <dd>
       {% for customization_type in page.customization %}
         {{ customization_type }}{% unless forloop.last %}, {% endunless %}
@@ -41,7 +41,7 @@ parent: APIs
   {% endif %}
 
   {% if page.privacy_url %}
-    <dt>Privacy:</dt>
+    <dt>Privacy</dt>
     <dd>
       <a href="{{ page.privacy_url }}">{{ page.privacy_url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
     </dd>
