@@ -13,7 +13,7 @@ seo:
 
 {% assign integration_count = 0 %}
 {% for i in site.data.integrations %}
-  {% assign s = i.api_integrations.size %}
+  {% assign s = i.api_integrations | size %}
   {% assign integration_count = integration_count | plus: s %}
 {% endfor %}
 
