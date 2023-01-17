@@ -20,13 +20,17 @@ with open('_data/languages.yml', 'r', encoding='utf8') as stream:
 with open('_data/language-families.yml', 'r', encoding='utf8') as stream:
   LANGUAGE_FAMILIES = yaml.safe_load(stream)
 
-### Read apis
+### Read APIs
 with open('_data/apis.yml', 'r', encoding='utf8') as stream:
   APIS = yaml.safe_load(stream)
 
-### Read api-language conversions
+### Read API-language conversions
 with open('_data/api-language.yml', 'r', encoding='utf8') as stream:
   API_LANGUAGE = yaml.safe_load(stream)
+
+### Read integrations
+with open('_data/integrations.yml', 'r', encoding='utf8') as stream:
+  INTEGRATIONS = yaml.safe_load(stream)
 
 def base_language_code(locale_code):
   locale_code = locale_code.replace('_', '-')
@@ -288,6 +292,15 @@ for api in APIS:
       else:
         UNLISTED_LANGUAGES[code] = 1
 
+  integrations = []
+  for integration in INTEGRATIONS:
+    for i in api_integrations:
+      if i is api_id:
+        integrations.append({
+          'name': integration['name'],
+          'documentation_url': integration['documentation_url']
+        })
+  
   frontmatter = {
     'layout': 'api',
     'title': name,
@@ -298,6 +311,7 @@ for api in APIS:
     'self_serve': self_serve,
     'customization': customization,
     'supported_languages': supported_languages,
+    'integrations': integrations,
     'nav_order': 1000 - len(supported_languages)
   }
 

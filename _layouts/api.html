@@ -16,7 +16,23 @@ parent: APIs
   The <strong>{{ page.title }}</strong> machine translation API supports <a href="#language-support">{{ page.supported_languages | size }} languages</a>.
 </p>
 
+{% if page.integrations.size > 0 %}
+  <p>It is integrated in <a href="#integrations">{{ page.integrations | size }}</a> translation management systems</a>.</p>
+{% endif %}
+
 <blockquote>
+
+  <dl>
+
+    <dt>Language support</dt>
+    <dd><a href="#language-support">{{ page.supported_languages | size }} languages</a></dd>
+
+  {% if page.integrations.size > 0 %}
+    <dt>Integrations</dt>
+    <dd><a href="#integrations">{{ page.integrations | size }} translation management systems</a></dd>
+  {% endif %}
+  
+  </dl>
 
   {% unless page.self_serve %}
   <p>No self-service</p>
@@ -54,7 +70,7 @@ parent: APIs
 <p>{{ page.supported_languages_comment }}</p>
 {% endif %}
 
-<p>{{ page.title }} supports <strong>{{ page.supported_languages | size }}</strong> languages.</p>
+<p>The {{ page.title }} API supports <strong>{{ page.supported_languages | size }}</strong> languages.</p>
 
 <ul>
   {% for language in page.supported_languages %}
@@ -81,3 +97,21 @@ parent: APIs
     </li>
   {% endfor %}
 </ul>
+
+
+<h2 id="integrations">Integrations</h2>
+
+<p><strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} API.</p>
+
+<ul>
+  {% for i in page.integrations %}
+    <li>
+      {% if i.documentation_url %}
+         <a href="{{ i.documentation_url }}" target="_blank">{{ i.name }}</a>
+      {% else %}
+         {{ i.name }}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
