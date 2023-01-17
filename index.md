@@ -37,7 +37,7 @@ seo:
   <div>
     <center>
       <a href="/integrations">
-        <h1>{{ integrations_size }}</h1>
+        <h1>{{ integration_count }}</h1>
         integrations
       </a>
     </center>
