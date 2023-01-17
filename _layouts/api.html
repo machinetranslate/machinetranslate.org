@@ -14,7 +14,10 @@ parent: APIs
 
 <p>
   The <strong>{{ page.title }}</strong> machine translation API supports <a href="#language-support">{{ page.supported_languages | size }} languages</a>.
-  {% if page.integrations.size > 0 %}
+  {% if page.integrations.size == 1 %}
+    There is <a href="#integrations">1 {{ page.integrations | size }}integration</a> with a translation management system.
+  {% endif %}
+  {% if page.integrations.size > 1 %}
     There are <a href="#integrations">{{ page.integrations | size }} integrations</a> with translation management systems.
   {% endif %}
 </p>
