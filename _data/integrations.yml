@@ -596,9 +596,6 @@
     - amazon:
         glossary: true
 
-    - language-weaver:
-        glossary: true
-
     - deepl:
         glossary: true
         tone: true
