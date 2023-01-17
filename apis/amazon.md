@@ -466,7 +466,7 @@ supported_languages:
   variant_name: Traditional Chinese
 integrations:
 - slug: crowdin
-  name: crowdin
+  name: Crowdin
   glossary: true
 - slug: memoq
   name: MemoQ

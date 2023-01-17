@@ -207,7 +207,7 @@ supported_languages:
   variant_name: Traditional Chinese
 integrations:
 - slug: crowdin
-  name: crowdin
+  name: Crowdin
   tone: true
 - slug: memoq
   name: MemoQ

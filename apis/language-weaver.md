@@ -379,9 +379,6 @@ integrations:
 - slug: xtm
   name: XTM
   glossary: true
-- slug: xtm
-  name: XTM
-  glossary: true
 nav_order: 942
 
 ---

@@ -332,7 +332,7 @@ supported_languages:
   variant_name: Traditional Chinese
 integrations:
 - slug: crowdin
-  name: crowdin
+  name: Crowdin
 - slug: omegat
   name: OmegaT
 - slug: smartling
