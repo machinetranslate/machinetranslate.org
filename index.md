@@ -22,7 +22,7 @@ seo:
     <center>
       <a href="/apis">
         <h1>{{ site.data.apis | size }}</h1>
-        <h3>APIs</h3>
+        APIs
       </a>
     </center>
   </div>
@@ -30,7 +30,7 @@ seo:
     <center>
       <a href="/languages">
         <h1>{{ site.data.languages | size }}</h1>
-        <h3>languages</h3>
+        languages
       </a>
     </center>
   </div>
@@ -38,7 +38,7 @@ seo:
     <center>
       <a href="/apis">
         <h1>{{ integration_count }}</h1>
-        <h3>integrations</h3>
+        integrations
       </a>
     </center>
   </div>
