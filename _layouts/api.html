@@ -16,6 +16,10 @@ parent: APIs
   The <strong>{{ page.title }}</strong> machine translation API supports <a href="#language-support">{{ page.supported_languages | size }} languages</a>.
 </p>
 
+{% if page.integrations %}
+  <p>It is integrated in <a href="#integrations">{{ page.supported_languages | size }}</a> translation management systems</a>.</p>
+{% endif %}
+
 <blockquote>
 
   {% unless page.self_serve %}
@@ -54,7 +58,7 @@ parent: APIs
 <p>{{ page.supported_languages_comment }}</p>
 {% endif %}
 
-<p>{{ page.title }} supports <strong>{{ page.supported_languages | size }}</strong> languages.</p>
+<p>The {{ page.title }} API supports <strong>{{ page.supported_languages | size }}</strong> languages.</p>
 
 <ul>
   {% for language in page.supported_languages %}
@@ -86,7 +90,7 @@ parent: APIs
 
 <h2 id="integrations">Integrations</h2>
 
-<p><strong>{{ page.integrations | size }}</strong> translation management systems have integrated {{ page.title }}.</p>
+<p><strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} API.</p>
 
 <ul>
   {% for i in page.integrations %}
