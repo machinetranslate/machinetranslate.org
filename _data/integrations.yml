@@ -139,6 +139,8 @@
     - google:
         custom: true
         glossary: true
+        
+    - iconic
 
     - kantanmt:
         custom: true
@@ -147,6 +149,8 @@
         custom: true
 
     - mirai
+
+    - niutrans
 
     - pangeamt:
         glossary: true
@@ -175,6 +179,7 @@
 
 - id: phrase
   name: Phrase TMS
+  other_names: [ Memsource ]
   url: https://phrase.com/products/phrase-tms/
   type:
     - tms: true
@@ -376,6 +381,7 @@
 
 - id: trados
   name: Trados Studio
+  other_names: [ SDL Trados Studio ]
   url: https://www.trados.com/products/trados-studio
   type: [ cat ]
   documentation_url: https://docs.rws.com/980998/261377/trados-studio-2022/welcome-to-the-------------trados-studio-2022-documentation
@@ -593,6 +599,9 @@
     - amazon:
         glossary: true
 
+    - asia-online:
+        custom: true
+
     - deepl:
         glossary: true
         tone: true
@@ -611,8 +620,7 @@
     - microsoft:
         custom: true
 
-    - omniscien:
-        custom: true
+    - safaba
 
     - sap
 

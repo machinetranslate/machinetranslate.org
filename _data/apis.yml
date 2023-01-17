@@ -14,7 +14,6 @@
   glossary: true
   self-serve: false
 
-
 - name: Alexa Translations A.I.
   id: alexa-ai
   urls:
@@ -28,7 +27,6 @@
     - https://alexatranslations.com/financial/
     - https://alexatranslations.com/legal/
   self-serve: false
-
 
 - name: Alibaba Translate
   id: alibaba
@@ -89,7 +87,6 @@
   languages: [ ach, afr, aka, alb, amh, ang, ara, arg, arm, arq, asm, ast, aym, aze, bak, bal, bel, bem, ben, ber, bho, bis, bli, bod, bos, bre, bul, cat, ceb, ces, chr, chv, cnr, cor, cos, cre, crh, csb, cym, dan, deu, div, eab, ell, eng, epo, est, eus, fao, fil, fin, fr-ca, fr-fr, frm, ful, fur, fry, geo, gla, gle, glg, glv, grc, grn, guj, hak, hat, hau, haw, hbs, heb, hin, hil, hsb, hup, hrv, hun, ibo, ind, isl, ido, iku, ina, inh, ita, jav, jpn, kab, kal, kan, kas, kau, kaz, khm, kin, kir, tlh, kok, kon, kor, kur, ltg, lao, lat, lav, lim, lin, lit, ltz, nds, dsb, lug, lzh, mah, mai, mal, mar, mkd, mri, msa, mlg, mlt, mon, mya, nap, nbl, nep, nld, nno, nob, nor, nqo, nso, nya, oci, oji, ori, orm, oss, pam, pan, pap, per, pol, pt-br, pt-pt, pus, que, ron, rom, roh, rus, rsk, san, sco, shn, sin, slk, slv, smo, sme, sna, snd, son, som, sot, spa, srd, srp, swa, swe, syr, szl, tam, tat, tel, tet, tgk, tgl, tha, tir, tso, tur, tuk, twi, uig, ukr, urd, uzb, ven, vie, wln, wol, xho, yid, yor, yue, zaz, zh-cn, zh-tw, zul ]
   self-serve: true
 
-
 - name: CloudTranslation
   id: cloudtranslation
   urls:
@@ -137,6 +134,13 @@
   stock_api_domains_urls:
     - https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en
   self-serve: true
+
+- name: Iconic
+  id: iconic
+  active: false
+  acquired_by:
+    api_id: language-weaver
+    company_name: Language Weaver
 
 - name: Judicio
   id: judicio
@@ -195,6 +199,7 @@
 
 - name: Language Weaver
   id: language-weaver
+  other_names: [ SDL Language Weaver, RWS Language Weaver ]
   urls:
    - https://www.rws.com/language-weaver
    - https://docs.rws.com/791593/662987/language-weaver/welcome-to-the-------------language-weaver-documentation
@@ -230,6 +235,10 @@
   privacy_url: https://www.lingo24.com/about/privacy-and-terms/
   languages: [ ar, da, de, en, es, fr, it, nl, pl, pt-br, pt-pt, ru, sv, tr ]
   self-serve: true
+  active: false
+  acquired_by:
+    api_id: unbabel
+    company_name: Unbabel
 
 - name: LingvaNex
   id: lingvanex
@@ -286,6 +295,7 @@
   self-serve: true
 
 - name: Omniscien Technologies
+  other_names: [ Asia Online ]
   id: omniscien
   urls:
    - https://omniscien.com
@@ -367,6 +377,13 @@
     - https://www.rozetta.jp/t4oo/
   self-serve: false
 
+- name: Safaba
+  id: safaba
+  active: false
+  acquired_by:
+    api_id: amazon
+    company_name: Amazon
+
 - name: SAP Translation Hub
   id: sap
   urls:
@@ -431,6 +448,12 @@
   languages: [ [en, ar], [ar, en] ]
   self-serve: false
 
+- name: Tauyou
+  id: tauyou
+  active: false
+  acquired_by:
+    company_name: Transperfect
+
 - name: Tencent Machine Translation
   id: tencent
   urls:
@@ -458,7 +481,6 @@
   privacy_url: https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/policy/
   languages: [ [ar, en], [ar, ja], [ar, ja], [de, en], [de, en], [de, ja], [de, ja], [de, ja], [en, ar], [en, ar], [en, de], [en, de], [en, de], [en, es], [en, es], [en, fil], [en, fr], [en, fr], [en, fr], [en, id], [en, it], [en, it], [en, ja], [en, ja], [en, ja], [en, ja], [en, ja], [en, ja], [en, km], [en, ko], [en, ko], [en, mn], [en, my], [en, ne], [en, pt], [en, pt], [en, ru], [en, th], [en, vi], [en, vi], [en, zh-cn], [en, zh-cn], [en, zh-cn], [en, zh-tw], [en, zh-tw], [en, zh-tw], [es, en], [es, ja], [es, ja], [fil, en], [fil, ja], [fil, ja], [fr, en], [fr, en], [fr, ja], [fr, ja], [fr, ja], [id, en], [id, ja], [id, ja], [it, en], [it, ja], [it, ja], [ja, ar], [ja, ar], [ja, de], [ja, de], [ja, de], [ja, en], [ja, en], [ja, en], [ja, en], [ja, en], [ja, en], [ja, es], [ja, es], [ja, fil], [ja, fil], [ja, fr], [ja, fr], [ja, fr], [ja, id], [ja, id], [ja, it], [ja, it], [ja, km], [ja, km], [ja, ko], [ja, ko], [ja, ko], [ja, mn], [ja, mn], [ja, my], [ja, my], [ja, ne], [ja, ne], [ja, pt], [ja, pt], [ja, ru], [ja, ru], [ja, th], [ja, th], [ja, vi], [ja, vi], [ja, zh-cn], [ja, zh-cn], [ja, zh-cn], [ja, zh-cn], [ja, zh-tw], [ja, zh-tw], [ja, zh-tw], [ja, zh-tw], [km, en], [km, ja], [km, ja], [ko, en], [ko, ja], [ko, ja], [ko, ja], [mn, en], [mn, ja], [mn, ja], [my, en], [my, ja], [my, ja], [ne, en], [ne, ja], [ne, ja], [pt, en], [pt, ja], [pt, ja], [ru, en], [ru, ja], [ru, ja], [th, en], [th, ja], [th, ja], [vi, en], [vi, ja], [vi, ja], [zh-cn, en], [zh-cn, en], [zh-cn, ja], [zh-cn, ja], [zh-cn, ja], [zh-cn, ja], [zh-tw, en], [zh-tw, en], [zh-tw, ja], [zh-tw, ja], [zh-tw, ja], [zh-tw, ja] ]
   self-serve: true
-
 
 - name: Tilde
   id: tilde
