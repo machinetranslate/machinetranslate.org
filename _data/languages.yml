@@ -13,6 +13,7 @@
 -
   codes: [ af, afr ]
   names: [ Afrikaans ]
+  variant_names: [ 'Kaaps', 'Afrikaaps' ]
   family: [ gem, ine ]
   scripts: [ Latn ]
   typology:
@@ -995,7 +996,8 @@
 
 -
   codes: [ nl, nld, dut ]
-  names: [ Dutch ]
+  names: [ Dutch, Netherlandic ]
+  variant_names: [ Hollandic, Flemish, Surinamese ]
   family: [ gem, ine ]
   scripts: [ Latn ]
   typology:
