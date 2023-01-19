@@ -1,7 +1,7 @@
 ---
 grand_parent: Building and research
 parent: Metrics
-nav_order: 1
+nav_order: 100
 title: Human evaluation metrics
 description: Metrics for human evaluation of machine translation
 ---
