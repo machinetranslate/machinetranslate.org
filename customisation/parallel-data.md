@@ -58,6 +58,7 @@ Many of the largest data sets are publicly available.
 | [VoxPopuli](https://github.com/facebookresearch/voxpopuli) | Data set |
 | [WikiMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/WikiMatrix) | Data set |
 | [WikiTitles](https://data.statmt.org/wikititles/) | Data set |
+| [NTREX](https://github.com/MicrosoftTranslator/NTREX) | Data repository |
 
 
 ### Search and download
