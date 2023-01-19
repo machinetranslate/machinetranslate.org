@@ -10,24 +10,13 @@ description: Metrics for evaluating machine translation
 
 Metrics are used to compare different machine translation systems.
 
+The best known metric for machine translation is [BLEU](bleu.md), a string-based automatic metric.
 
-## Human evaluation metrics
-
-Human evaluation is the gold standard.
-
-- [MQM](human-evaluation-metrics.md#mqm)
-- [Average score and average z-score](human-evaluation-metrics.md#average-score-and-average-z-score)
-- [TrueSkill](human-evaluation-metrics.md#trueskill)
-- [Adecuacy and fluency judgement](human-evaluation-metrics.md#adequacy-and-fluency-judgement)
-- [Relative ranking](human-evaluation-metrics.md#relative-ranking)
-- [Constituent ranking](human-evaluation-metrics.md#constituent-ranking)
-- [Yes or no constituent judgement](human-evaluation-metrics.md#yes-and-no-constituent-judgement)
-- [Direct assessment](human-evaluation-metrics.md#direct-assessment)
-
-But human evaluation is slow, expensive and subjective.
-
+{% include collapsible_toc.html %}
 
 ## Automatic evaluation metrics
+
+Automatic quality metrics can be computed relatively quickly.
 
 Automatic quality metrics are divided into **string-based metrics** and **machine learning-based metrics**.
 
@@ -49,7 +38,7 @@ But string-based metrics can punish translations that convey the correct meaning
 The scores generally do not correlate well with human evaluation scores when translation quality is high.
 
 
-## Machine learning-based metrics
+### Machine learning-based metrics
 
 Machine learning-based metrics use [sentence embeddings](/concepts/sentence-embeddings.md) to calculate the difference between the generated target sentence and the reference translation, or even between the target senternce and the source sentence.
 
@@ -63,6 +52,22 @@ Machine learning-based metrics require a model that was trained on data with the
 The score can correlate well with human evaluation scores.
 
 But the scores are not explainable or fair, so they cannot be used in a research competition.
+
+
+## Human evaluation metrics
+
+Human evaluation is the gold standard.
+
+- [MQM](human-evaluation-metrics.md#mqm)
+- [Average score and average z-score](human-evaluation-metrics.md#average-score-and-average-z-score)
+- [TrueSkill](human-evaluation-metrics.md#trueskill)
+- [Adecuacy and fluency judgement](human-evaluation-metrics.md#adequacy-and-fluency-judgement)
+- [Relative ranking](human-evaluation-metrics.md#relative-ranking)
+- [Constituent ranking](human-evaluation-metrics.md#constituent-ranking)
+- [Yes or no constituent judgement](human-evaluation-metrics.md#yes-and-no-constituent-judgement)
+- [Direct assessment](human-evaluation-metrics.md#direct-assessment)
+
+But human evaluation is slow, expensive and subjective.
 
 
 ### Evolution
