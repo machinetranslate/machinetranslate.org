@@ -1,5 +1,5 @@
 ---
-nav_order: 973
+nav_order: 972
 parent: Languages
 layout: language
 title: Hungarian
@@ -9,6 +9,9 @@ family:
 - slug: finno-ugric
   name: Finno-Ugric
 supported_apis:
+- id: textshuttle
+  name: TextShuttle
+  supported_language_count: 18
 - id: tilde
   name: Tilde
   supported_language_count: 18

@@ -26,15 +26,15 @@ supported_apis:
 - id: mirai
   name: Mirai Translate
   supported_language_count: 13
-- id: textshuttle
-  name: TextShuttle
-  supported_language_count: 15
 - id: aisa
   name: AISA
   supported_language_count: 16
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17
+- id: textshuttle
+  name: TextShuttle
+  supported_language_count: 18
 - id: tilde
   name: Tilde
   supported_language_count: 18
