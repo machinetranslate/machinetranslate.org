@@ -10,7 +10,7 @@ description:
 ## One-hot encoding
 
 One-hot encoding is one simple method of representing every word from a vocabulary.
-The goal is to convert the vocabulary into a format that can be used as input for machine learning models, which typically require numerical data.
+The goal is to convert the [vocabulary](vocabulary.md) into a format that can be used as input for machine learning models, which typically require numerical data.
 
 One-hot encoding is a unique style of encoding information.
 In one-hot encodings, only one position in the vector equals `1`, and the rest of the positions are `0`.

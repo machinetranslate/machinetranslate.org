@@ -24,7 +24,8 @@ Vectors encode information:
 - Grammatical features, like verb tense or noun case
 - Relationship to other words in the sentence
 
-Vectors are used as algorithms input. Algorithms analyse the vector meaning to produce the corresponding translation.
+Vectors are used as algorithms input.
+Algorithms analyse the vector meaning to produce the corresponding translation.
 
 For example, vectors can help to identify a sentence subject and verb, and then use this information to generate a translation.
 

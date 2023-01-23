@@ -11,4 +11,4 @@ Alignment at the sentence level is necessary in machine translation to make trai
 
 Common approaches to sentence splitting include rules such as regular expressions and machine learning models.
 
-Sentence splitting is also called sentence segmentation or sentence boundary detection.
+Sentence splitting is also called **sentence segmentation** or **sentence boundary detection**.
