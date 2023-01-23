@@ -12,14 +12,15 @@ Parallel data can be filtered manually or automatically.
 
 To filter parallel data, translation pairs with obvious noise and risky translations are dropped.
 
-Obvious issues that are 
+Translations pairs are also dropped if they have other obvious issues:
+
 * Translations to the wrong language
 * Sentence pairs with mismatched URLs, names, or numbers
 * Sentence pairs with mismatched tags
 * Sentence pairs with mismatched length
 * Translations with broken encoding or invalid characters
 
-Some sentence pairs have issues that and more difficult to filter out.
+Some sentence pairs have issues that are more difficult to filter out.
 
 * Creative human translations
 * Translations that are structured differently than the original
