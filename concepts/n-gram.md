@@ -1,5 +1,4 @@
 ---
-grand_parent: Resources
 parent: Concepts
 title: N-gram
 description: A short sequence of word types

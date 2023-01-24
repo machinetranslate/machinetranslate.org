@@ -1,5 +1,4 @@
 ---
-grand_parent: Resources
 parent: Concepts
 title: Language model
 description: Probability of a word in a sequence

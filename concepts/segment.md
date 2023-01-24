@@ -1,6 +1,5 @@
 ---
 nav_exclude: true
-grand_parent: Resources
 parent: Concepts
 title: Segment
 description: A sequence of characters

@@ -1,5 +1,4 @@
 ---
-grand_parent: Building and research
 parent: Customisation
 title: Filtering
 description: Filtering training data for machine translation
@@ -55,4 +54,3 @@ Filtering and preprocessing can hurt translation quality, by removing or changin
 * Replacing named entities with placeholders
 * Matching the original and the translated sentences punctuation
 * Fixing typos and spelling mistakes
-

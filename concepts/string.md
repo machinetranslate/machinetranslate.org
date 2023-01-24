@@ -1,5 +1,4 @@
 ---
-grand_parent: Resources
 parent: Concepts
 title: String
 description: A sequence of characters

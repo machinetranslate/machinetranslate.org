@@ -1,5 +1,4 @@
 ---
-grand_parent: Resources
 parent: Concepts
 title: Attention
 description: A mechanism for improving the encoder-decoder accuracy in machine translation
@@ -34,5 +33,3 @@ While global attention considers all hidden states to generate the context vecto
 
 - [Transformers](/concepts/transformers.md)
 - [Resources - Publications - Attention mechanism](https://machinetranslate.org/resources/publications/#attention-mechanism)
-
-
