@@ -48,7 +48,7 @@ A software localisation process consists of the following steps:
      - Special characters used in the user interface, instructions, and input fields
      - Number, time, and date formats. Currency and units of measurements that are specific to the target culture
      - List and glossary order that is specific to the target culture
-     - Text that is written from right to left (if applicable)
+     - Text that is written from right to left, if applicable
 
 ## See also
 
