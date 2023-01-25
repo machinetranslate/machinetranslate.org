@@ -26,7 +26,7 @@ The Automatic Spoken Language Translation in Real-World Settings (**ASLTRW**) wo
 
 [cai.uni-mainz.de/asltrw/](https://cai.uni-mainz.de/asltrw/)
 
-The online workshop explored topics including, but not limited to:
+### Topics
 
 - Latest advances in cascading and end-to-end systems
 -  Use of spoken language translation system in a real-world scenario
