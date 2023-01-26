@@ -25,8 +25,8 @@ seo:
 ---
 
 
-The CSA Research open discussion **The future of machine translation** will take place online on 26 January, 2023.
-The open discussion is a follow up to the CSA Research 2022 panel discussion [“Machine translation, what’s the current state?”](csa-panel-discussion.md).
+The CSA Research open discussion **The future of machine translation** took place online on 26 January, 2023.
+The open discussion was a follow up to the CSA Research 2022 panel discussion [“Machine translation, what’s the current state?”](csa-panel-discussion.md).
 
 ### Speakers
 
