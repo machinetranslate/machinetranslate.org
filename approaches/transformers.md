@@ -8,12 +8,15 @@ description: A deep learning model architecture for neural machine translation
 **Transformers** are a type of neural network architecture that relies only on the [attention](/concepts/attention.md) mechanism.
 It allows [neural machine translation](/approaches/neural-machine-translation.md) models to better handle the dependencies between the input and output sequences.
 
-The transformer was first introduced in a 2017 paper by Google researchers titled [*”Attention is all you need.”*](https://arxiv.org/pdf/1706.03762.pdf)
+The transformer was first introduced in the paper titled [*”Attention is all you need”*](https://arxiv.org/pdf/1706.03762.pdf) by Google Research in 2017.
 
 ## Architecture
 
 The transformer consists of an encoder and a decoder, which have several layers.
 These layers include sublayers of *self-attention* and *feed-forward neural networks*.
+
+> ##### Image from a Wikipedia [article](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
+> <img title='Transformer model architecture' src='approaches/transformer-model-architecture.png' width='700' style='padding: 1em;' />
 
 ### Encoder
 
