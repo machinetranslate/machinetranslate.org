@@ -33,7 +33,7 @@ The open discussion was a follow up to the CSA Research 2022 panel discussion [â
 - Jay Marciano, Director, MT Outreach & Strategy at Lengoo
 - Alon Lavie, VP of Language Technologies at Unbabel
 - Spence Green, CEO and Co-Founder at Lilt
-- Vincent Godard, President and CEO at Systran
+- JP Barraza, Global CEO at Systran
 
 Moderator: Arle Lommel, Senior Analyst at CSA Research
 
