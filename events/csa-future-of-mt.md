@@ -37,6 +37,7 @@ The open discussion was a follow up to the CSA Research 2022 panel discussion [â
 
 Moderator: Arle Lommel, Senior Analyst at CSA Research
 
-### Link
+### Links
 
-[linkedin.com/video/event/urn:li:ugcPost:7009563118951366656/](https://www.linkedin.com/video/event/urn:li:ugcPost:7009563118951366656/)
+- [Event page](https://www.linkedin.com/video/event/urn:li:ugcPost:7009563118951366656/)
+- [Recording](https://player.vimeo.com/video/793300616)
