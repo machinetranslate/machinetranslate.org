@@ -33,6 +33,6 @@ While global attention considers all hidden states to generate the context vecto
 ## See also
 
 - [Transformers](/concepts/transformers.md)
-- [Resources - Publications - Attention mechanism](https://machinetranslate.org/resources/publications/#attention-mechanism)
+- [Publications - Attention mechanism](https://machinetranslate.org/resources/publications/#attention-mechanism)
 
 
