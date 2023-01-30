@@ -15,7 +15,7 @@ The transformer was first introduced in the paper titled [*”Attention is all y
 The transformer consists of an encoder and a decoder, which have several layers.
 These layers include sublayers of *self-attention* and *feed-forward neural networks*.
 
-> ##### Image from a Wikipedia [article](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
+> ##### Image from the [Transformers](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)) Wikipedia article
 > <img title='Transformer model architecture' src='approaches/transformer-model-architecture.png' width='700' style='padding: 1em;' />
 
 ### Encoder
