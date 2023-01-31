@@ -16,7 +16,7 @@ supported_apis:
   supported_language_count: 18
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 29
 - id: etranslation
   name: eTranslation
   supported_language_count: 30
