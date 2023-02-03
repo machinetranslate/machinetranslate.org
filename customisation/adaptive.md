@@ -13,6 +13,8 @@ In adaptive machine translation, the system is customised while the human post-e
 
 Adaptive machine translation is an example of online machine learning and human-in-the-loop (HITL).
 
+Machine transation providers and industry analysts have also referred to adaptive machine translation as ***active***, ***interactive*** or ***responsive***.
+
 ### Companies
 
 In 2019, ModernMT launched adaptive machine translation.
