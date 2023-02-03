@@ -354,6 +354,7 @@ integrations:
 - slug: matecat
   name: MateCat
   custom: true
+  adaptive: true
 - slug: smartcat
   name: Smartcat
   custom: true

@@ -2,7 +2,7 @@
 grand_parent: More
 parent: Associations
 title: WMT
-description: Description of the Conference on Machine Translation
+description: The Conference on Machine Translation
 name: WMT
 ---
 

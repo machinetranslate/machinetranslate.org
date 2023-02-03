@@ -99,6 +99,7 @@
 
     - modernmt:
         custom: true
+        adaptive: true
 
     - moses
 
