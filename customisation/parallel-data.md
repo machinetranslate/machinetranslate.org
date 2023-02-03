@@ -1,5 +1,4 @@
 ---
-grand_parent: Building and research
 parent: Customisation
 title: Parallel data
 description: Parallel data for training machine translation
@@ -66,4 +65,3 @@ Many of the largest data sets are publicly available.
 * [MTData](https://github.com/thammegowda/mtdata)
 * [OPUSTools](https://github.com/Helsinki-NLP/OpusTools/blob/master/opustools_pkg/README.md)
 * [Huggingface Datasets](https://huggingface.co/datasets?task_categories=task_categories:translation)
-

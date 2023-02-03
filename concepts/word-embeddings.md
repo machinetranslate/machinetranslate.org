@@ -1,8 +1,7 @@
 ---
-grand_parent: Resources
 parent: Concepts
 title: Word embeddings
-description:
+description: The representation of words as vectors
 ---
 
 **Word-embeddings** are a way to represent language words as [vectors](vector.md) of real numbers.

@@ -1,8 +1,7 @@
 ---
-grand_parent: Resources
 parent: Concepts
 title: Vector
-description:
+description: A unique list of numbers
 ---
 
 A **vector** is a unique fixed-sized list of numbers.

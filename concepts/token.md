@@ -1,5 +1,4 @@
 ---
-grand_parent: Resources
 parent: Concepts
 title: Token
 description: A short sequence of characters
