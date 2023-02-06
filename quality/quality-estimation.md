@@ -6,17 +6,17 @@ description: Machine translation quality estimation
 featured: true
 ---
 
-**Quality estimation** (**QE**) is a method for automatically assessing the quality of the machine translation output without human intervention.
-QE scores are independent from the expected translation output.
+**Quality estimation** (**QE**) or **quality prediction** is the task of automatically predicting the quality of the machine translation output.
 
-| Original                     | Translation                    | Quality estimate     |
+| Original                     | Translation                    | Quality prediction   |
 | -----------------------------| -------------------------------| ---------------------|
 | `English` `July 30th, 2021`  | `French` `30 juillet 2021`     | `Good`               |
 | `English` `This is my home.` | `Spanish` `Este es mi inicio.` | `Bad`                |
 
-Evaluation metrics like [BLEU](/building-and-research/metrics/bleu.md) or post-editing distance require human reference translations, but there are no human reference translations for new content.
+Quality prediction does not require human reference translations, so it is useful for new content.  It uses machine learning to provide predictions that are relatively accurate at the segment level.
 
-Quality estimation models predict the quality based on either specific features or deep learning.
+[Quality evaluation](/quality/quality-evaluation.md)[metrics](/quality/metrics.md) like [BLEU](/quality/metrics/bleu.md) require human reference translations against which to compare the machine translation output.  But for new content there are no human reference translations available.
+
 
 ### Use cases
 
