@@ -4,9 +4,9 @@ title: Crawling
 description: Crawling the web for machine translation training data
 ---
 
-Web **crawling** is the process of automatically collecting large amounts of [training data](/customisation/training-data.md) for [language models](/concepts/language-model.md) and machine translation systems.
-Crawling is used to acquire [parallel data](/customisation/parallel-data.md) by visiting bilingual or multilingual websites and extracting parallel text sets.
-Another approach is to use web crawling to collect monolingual text in a target language.
+**Crawling** or **web scraping** is the process of automatically collecting large amounts of [training data](/customisation/training-data.md) for [language models](/concepts/language-model.md) and machine translation systems.
+Web crawling is used to acquire [parallel data](/customisation/parallel-data.md) by visiting bilingual or multilingual websites and extracting parallel text sets.
+Another approach is to use crawling to collect monolingual text in a target language.
 
 ### Process
 
