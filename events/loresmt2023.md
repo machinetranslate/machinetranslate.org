@@ -32,7 +32,7 @@ The sixth Low Resource Machine Translation (**LoResMT 2023**) workshop was held 
 
 |     |     |
 | --- | --- |
-| Submission deadline | 13 February |
+| Submission deadline | 22 February |
 | Notification of acceptance | 13 March |
 | Camera-ready papers deadline | 27 March |
 | LoResMT workshop | 2 - 6 May |
