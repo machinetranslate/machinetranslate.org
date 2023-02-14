@@ -189,5 +189,7 @@ There are different types of direct assessment.
 - Bilingual: Human raters see the system input and output.
 - Reference-based: Human raters see the system output and a reference output.
 
+For WMT22, a combination of direct assessment and **scalar quality metric** was used for the evaluation of out-of-english and non-english translation pairs.
+In direct assessment with scalar quality metric, humans also rate each source segment and translated segment from a document on a six-point scale.
 
 </details>
