@@ -345,7 +345,8 @@ The results were determined with a monolingual [direct assessment](/associations
 
 #### English →
 
-The results were determined with a bilingual direct assessment in a full document, except for Livonian.
+The results were determined with a bilingual direct assessment with scalar quality metric in a full document.
+For English → Livonian, the results were determined with a bilingual direct assessment without document context. 
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -358,25 +359,18 @@ The results were determined with a bilingual direct assessment in a full documen
 | → Chinese | `Online-W`| 81.9 | 0.099 |
 | → Croatian | `Online-B` | 92.0 | 0.232 |
 
-#### Czech → Ukrainian
+#### Czech ↔︎ Ukrainian
 
-The results were determined with a bilingual direct assessment in a full document.
+The results were determined with a bilingual direct assessment with scalar quality metric in a full document.
 
-| System | Average score | Average z-score |
-| --- | --- | --- |
-| `Online-B` | 84.6 | 0.225 |
-
-#### Ukrainian → Czech
-
-The results were determined with a bilingual direct assessment in a full document.
-
-| System | Average score | Average z-score |
-| --- | --- | --- |
-| `AMU` | 85.6 | 0.182 |
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| Czech → Ukrainian | `Online-B` | 84.6 | 0.225 |
+| Ukrainian → Czech | `AMU` | 85.6 | 0.182 |
 
 #### Yakut → Russian
 
-The results were determined with a bilingual direct assessment in a full document.
+The results were determined with a bilingual direct assessment with scalar quality metric in a full document.
 
 | System | Average score | Average z-score |
 | --- | --- | --- |
