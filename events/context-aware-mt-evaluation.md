@@ -1,14 +1,14 @@
 ---
 parent: Events
-title: Context-aware MT evaluation: what have we learned?
+title: Context-aware MT evaluation, what have we learned?
 description: Convergence series webinar
 location: online
-name: Context-aware MT evaluation: what have we learned?
+name: Context-aware MT evaluation, what have we learned?
 startDate: 2023-03-01
 
 seo:
   type: Event
-  name: Context-aware MT evaluation: what have we learned?
+  name: Context-aware MT evaluation, what have we learned?
   startDate: 2023-03-01
   endDate: 2023-03-01
   eventAttendanceMode: OnlineEventAttendanceMode
