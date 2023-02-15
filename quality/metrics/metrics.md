@@ -59,6 +59,7 @@ But the scores are not explainable or fair, so they cannot be used in a research
 Human evaluation is the gold standard.
 
 - [MQM](human-evaluation-metrics.md#mqm)
+- [SQM](human-evaluation-metrics.md#sqm)
 - [Average score and average z-score](human-evaluation-metrics.md#average-score-and-average-z-score)
 - [TrueSkill](human-evaluation-metrics.md#trueskill)
 - [Adecuacy and fluency judgement](human-evaluation-metrics.md#adequacy-and-fluency-judgement)
