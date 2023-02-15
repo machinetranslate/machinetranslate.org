@@ -91,7 +91,7 @@ Full results of the shared task: [*(Meta-) Evaluation of Machine Translation*](h
 
 ### Translation
 
-The results were determined with a [relative ranking](/associations/wmt.md#relative-ranking), the `> others` (“greater than others”) score, an [adequacy and fluency judgement](/associations/wmt.md#adequacy-and-fluency judgement), and a [constituent ranking](/associations/wmt.md#constituent-ranking).
+The results were determined with a [relative ranking](/quality/metrics/human-evaluation-metrics.md#relative-ranking), the `> others` (“greater than others”) score, an [adequacy and fluency judgement](/quality/metrics/human-evaluation-metrics.md#adequacy-and-fluency-judgement), and a [constituent ranking](/quality/metrics/human-evaluation-metrics.md#constituent-ranking).
 
 The automatic evaluation results were excluded from the article as the findings conclude the human judgments to be authoritative.
 
