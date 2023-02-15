@@ -99,4 +99,4 @@ There are different types of direct assessment.
 - Bilingual: Human raters see the system input and output.
 - Reference-based: Human raters see the system output and a reference output.
 
-For WMT22, a combination of direct assessment and SQM was used for the evaluation of out-of-english and non-english translation pairs.
+For [WMT22](/../events/wmt22.md), a combination of direct assessment and [SQM](#sqm) was used for the evaluation of out-of-english and non-english translation pairs.
