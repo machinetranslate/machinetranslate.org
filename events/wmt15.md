@@ -138,7 +138,7 @@ Full results of the shared tasks: [*Findings of the 2015 Workshop on Statistical
 
 ### News translation
 
-The results were determined with a [relative ranking](/associations/wmt.md#relative-ranking) through the [TrueSkill](/associations/wmt.md#trueskill) model.
+The results were determined with a [relative ranking](/quality/metrics/human-evaluation-metrics.md#relative-ranking) through the [TrueSkill](/quality/metrics/human-evaluation-metrics.md#trueskill) model.
 
 #### → English
 

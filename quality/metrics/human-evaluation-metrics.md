@@ -31,6 +31,13 @@ Error dimensions:
 - Audience appropriateness
 - Design and markup
 
+### SQM
+
+The **Scalar Quality Metric** (**SQM**) evaluation gathers scalar ratings at the segment level with document context.
+
+A table row displays every source segment and its corresponding translated segment from the document. 
+For each segment, humans choose a rating on a seven-point scale.
+
 ### Average score and average z-score
 
 For the **average score**, human assessment scores for translations are standardised according to each human assessor’s overall mean and standard deviation.
@@ -91,3 +98,5 @@ There are different types of direct assessment.
 - Monolingual: Human raters see the system output only.
 - Bilingual: Human raters see the system input and output.
 - Reference-based: Human raters see the system output and a reference output.
+
+For [WMT22](/../events/wmt22.md), a combination of direct assessment and [SQM](#sqm) was used for the evaluation of out-of-english and non-english translation pairs.

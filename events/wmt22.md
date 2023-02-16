@@ -327,11 +327,11 @@ Full results of the shared tasks: [*Findings of the 2022 Conference on Machine T
 
 ### General task
 
-The winner systems were listed according to their [average score and average z-score](/associations/wmt.md#average-score-and-average-z-score).
+The winner systems were listed according to their [average score and average z-score](/quality/metrics/human-evaluation-metrics.md#average-score-and-average-z-score).
 
 #### → English
 
-The results were determined with a monolingual [direct assessment](/associations/wmt.md#direct-assessment) with document context.
+The results were determined with a monolingual [direct assessment](/quality/metrics/human-evaluation-metrics.md#direct-assessment) with document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -345,7 +345,8 @@ The results were determined with a monolingual [direct assessment](/associations
 
 #### English →
 
-The results were determined with a bilingual direct assessment in a full document, except for Livonian.
+The results were determined with a bilingual direct assessment with [scalar quality metric](/quality/metrics/human-evaluation-metrics.md#sqm) (SQM) in a full document.
+For English → Livonian, the results were determined with a bilingual direct assessment without document context. 
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
@@ -358,25 +359,18 @@ The results were determined with a bilingual direct assessment in a full documen
 | → Chinese | `Online-W`| 81.9 | 0.099 |
 | → Croatian | `Online-B` | 92.0 | 0.232 |
 
-#### Czech → Ukrainian
+#### Czech ↔︎ Ukrainian
 
-The results were determined with a bilingual direct assessment in a full document.
+The results were determined with a bilingual direct assessment with SQM in a full document.
 
-| System | Average score | Average z-score |
-| --- | --- | --- |
-| `Online-B` | 84.6 | 0.225 |
-
-#### Ukrainian → Czech
-
-The results were determined with a bilingual direct assessment in a full document.
-
-| System | Average score | Average z-score |
-| --- | --- | --- |
-| `AMU` | 85.6 | 0.182 |
+| Language pair | System | Average score | Average z-score |
+| --- | --- | --- | --- |
+| Czech → Ukrainian | `Online-B` | 84.6 | 0.225 |
+| Ukrainian → Czech | `AMU` | 85.6 | 0.182 |
 
 #### Yakut → Russian
 
-The results were determined with a bilingual direct assessment in a full document.
+The results were determined with a bilingual direct assessment with SQM in a full document.
 
 | System | Average score | Average z-score |
 | --- | --- | --- |
