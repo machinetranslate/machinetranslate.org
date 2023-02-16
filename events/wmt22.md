@@ -345,7 +345,7 @@ The results were determined with a monolingual [direct assessment](/quality/metr
 
 #### English →
 
-The results were determined with a bilingual direct assessment with [SQM](/quality/metrics/human-evaluation-metrics.md#sqm) in a full document.
+The results were determined with a bilingual direct assessment with [scalar quality metric](/quality/metrics/human-evaluation-metrics.md#sqm) (SQM) in a full document.
 For English → Livonian, the results were determined with a bilingual direct assessment without document context. 
 
 | Language pair | System | Average score | Average z-score |
