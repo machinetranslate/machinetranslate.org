@@ -33,7 +33,7 @@ Error dimensions:
 
 ### SQM
 
-**Scalar Quality Metric** (**SQM**) evaluation gathers scalar ratings at the segment level with document context.
+The **Scalar Quality Metric** (**SQM**) evaluation gathers scalar ratings at the segment level with document context.
 
 A table row displays every source segment and its corresponding translated segment from the document. 
 For each segment, humans choose a rating on a seven-point scale.
