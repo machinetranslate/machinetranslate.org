@@ -34,8 +34,10 @@ They are either locked or marked as approved.
 The key technology for a hybrid translation workflow is [**translation risk prediction**](/quality/quality-estimation.md), which is known as *quality estimation* in the research world.
 
 ### Adoption
-The first companies to adopt the hybrid translation workflow built quality estimation internally.
+
+The first companies to adopt a hybrid translation workflow built with quality estimation internally were:
 - Microsoft
+- Unbabel
 - VMWare
 - Wayfair
 
