@@ -40,6 +40,15 @@ To create or edit an article, [**create**](https://github.com/machinetranslate/m
 
 > See GitHub’s article [*Creating a pull request*](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request) for more.
 
+Many articles are automatically generated from [data files](https://github.com/machine](https://github.com/machinetranslate/machinetranslate.org/tree/master/_data).
+
+> #### How to add a language
+> To add a new language:
+> - Add the language to [languages.yml](https://github.com/machinetranslate/machinetranslate.org/blob/master/_data/languages.yml).
+> - Add the language family to [language-families.yml](https://github.com/machinetranslate/machinetranslate.org/blob/master/_data/language-families.yml), if it does not exist yet.
+>
+> The articles of the APIs that support that language will automatically be updated the next time that [generate.py](https://github.com/machinetranslate/machinetranslate.org/blob/master/generate.py) is run.
+
 ### Reviewing proposed changes
 
 You can also contribute by reviewing other contributors' [open pull requests](https://github.com/machinetranslate/machinetranslate.org/pulls?q=is%3Aopen+is%3Apr).
