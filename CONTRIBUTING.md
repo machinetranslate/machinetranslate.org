@@ -40,7 +40,7 @@ To create or edit an article, [**create**](https://github.com/machinetranslate/m
 
 > See GitHub’s article [*Creating a pull request*](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request#creating-the-pull-request) for more.
 
-Many articles are automatically generated from [data files](https://github.com/machine](https://github.com/machinetranslate/machinetranslate.org/tree/master/_data).
+Many articles are automatically generated from [data files](https://github.com/machinetranslate/machinetranslate.org/tree/master/_data).
 
 > #### How to add a language
 > To add a new language:
