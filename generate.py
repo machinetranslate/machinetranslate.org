@@ -327,6 +327,10 @@ for api in APIS:
     'nav_order': 1000 - len(supported_languages)
   }
 
+  name_slug = slugify(name)
+  if name_slug != api_id:
+    frontmatter['redirect_from'] = name_slug
+
   content = read_content(filepath)
 
   filepath = f'apis/{ api_id }.md'

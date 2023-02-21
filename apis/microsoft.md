@@ -715,6 +715,7 @@ integrations:
   name: XTM
   custom: true
 nav_order: 889
+redirect_from: microsoft-translator
 
 ---
 

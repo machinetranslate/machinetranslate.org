@@ -712,6 +712,7 @@ integrations:
   name: XTM
   custom: true
 nav_order: 891
+redirect_from: google-translate
 
 ---
 

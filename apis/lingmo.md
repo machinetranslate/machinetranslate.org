@@ -175,6 +175,7 @@ supported_languages:
   variant_name: Simplified Chinese
 integrations: []
 nav_order: 973
+redirect_from: lingmo-translation
 
 ---
 
