@@ -26,7 +26,7 @@ A high-quality machine translation is used as-is and skips human post-editing.
 
 A low-quality translation is still sent to a human translator for post-editing.
 
-In the translation management system (TMS) and computer-aided translation (CAT) tool, the high-quality machine translations are handled like an exact matches from the translation memory.
+In the translation management system (TMS) and computer-aided translation (CAT) tool, the high-quality machine translations are handled like exact matches from the translation memory.
 They are marked as translated or approved, and potentially even locked.
 
 ### Technology
