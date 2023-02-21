@@ -91,7 +91,7 @@ def get_language_variant_name(locale_code, api_id):
 
 def slugify(name):
   # Should work *exactly* like in Liquid!
-  return name.lower().replace(' ', '-')
+  return name.lower().replace(' ', '-').replace('.', '')
 
 def flatten(l):
   _ = []

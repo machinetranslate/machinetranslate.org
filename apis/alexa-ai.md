@@ -76,7 +76,7 @@ integrations:
 - slug: phrase
   name: Phrase TMS
 nav_order: 990
-redirect_from: alexa-translations-a.i.
+redirect_from: alexa-translations-ai
 
 ---
 
