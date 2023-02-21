@@ -31,13 +31,13 @@ They are marked as translated or approved, and potentially even locked.
 
 ### Technology
 
-The key technology for a hybrid translation workflow is translation [**quality prediction**](/quality/quality-estimation.md), which is known as *machine translation quality estimation* in the [research](/building-and-research/index.md) world.
+The key technology for a hybrid translation workflow is translation [**quality prediction**](/quality/quality-estimation.md), which is known as *machine translation quality estimation* in the [research](/building-and-research/building-and-research.md) world.
 
 ### Adoption
 
-At first, companies like Microsoft, [Unbabel](/companies/index.md#unbabel), VMWare and Wayfair implemented hybrid translation by researching and developing their own machine translation quality estimation.
+At first, companies like Microsoft, [Unbabel](/industry/companies.md/#unbabel), VMWare and Wayfair implemented hybrid translation by researching and developing their own machine translation quality estimation.
 
-With the launch of the [ModelFront](/companies/index.md#modelfront) translation quality prediction API, more companies started to adopt the hybrid translation workflow within commercially available translation management systems.
+With the launch of the [ModelFront](/industry/companies.md/#modelfront) translation quality prediction API, more companies started to adopt the hybrid translation workflow within commercially available translation management systems.
 
 
 ---
