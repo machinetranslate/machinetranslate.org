@@ -488,6 +488,7 @@ integrations:
   name: XTM
   glossary: true
 nav_order: 925
+redirect_from: amazon-translate
 
 ---
 

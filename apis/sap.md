@@ -249,6 +249,7 @@ integrations:
 - slug: xtm
   name: XTM
 nav_order: 961
+redirect_from: sap-translation-hub
 
 ---
 

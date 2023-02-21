@@ -593,6 +593,7 @@ integrations:
   custom: true
   glossary: true
 nav_order: 904
+redirect_from: rozetta-t-400
 
 ---
 

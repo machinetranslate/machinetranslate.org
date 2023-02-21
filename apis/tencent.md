@@ -129,6 +129,7 @@ integrations:
 - slug: phrase
   name: Phrase TMS
 nav_order: 981
+redirect_from: tencent-machine-translation
 
 ---
 

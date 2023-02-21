@@ -27,6 +27,7 @@ supported_languages:
   variant_name: null
 integrations: []
 nav_order: 998
+redirect_from: sunda-translator
 
 ---
 

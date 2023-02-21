@@ -388,6 +388,7 @@ integrations:
   name: XTM
   custom: true
 nav_order: 939
+redirect_from: omniscien-technologies
 
 ---
 

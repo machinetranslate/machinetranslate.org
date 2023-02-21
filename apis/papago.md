@@ -99,6 +99,7 @@ supported_languages:
   variant_name: Traditional Chinese
 integrations: []
 nav_order: 986
+redirect_from: papago-translation
 
 ---
 

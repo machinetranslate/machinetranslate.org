@@ -1222,6 +1222,7 @@ integrations:
 - slug: smartcat
   name: Smartcat
 nav_order: 799
+redirect_from: baidu-translate
 
 ---
 

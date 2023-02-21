@@ -91,7 +91,7 @@ def get_language_variant_name(locale_code, api_id):
 
 def slugify(name):
   # Should work *exactly* like in Liquid!
-  return name.lower().replace(' ', '-')
+  return name.lower().replace(' ', '-').replace('.', '')
 
 def flatten(l):
   _ = []
@@ -326,6 +326,10 @@ for api in APIS:
     'integrations': integrations,
     'nav_order': 1000 - len(supported_languages)
   }
+
+  name_slug = slugify(name)
+  if name_slug != api_id:
+    frontmatter['redirect_from'] = name_slug
 
   content = read_content(filepath)
 
