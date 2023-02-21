@@ -156,6 +156,7 @@ ga_tracking: G-MJD8MHH513
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
   - jekyll-target-blank
   - jekyll-seo-tag
   - html-proofer
