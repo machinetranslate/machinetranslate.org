@@ -83,6 +83,12 @@ supported_languages:
   base_code: cs
   name: Czech
   variant_name: null
+- slug: chuvash
+  code: cv
+  normalized_code: cv
+  base_code: cv
+  name: Chuvash
+  variant_name: null
 - slug: welsh
   code: cy
   normalized_code: cy
@@ -431,6 +437,11 @@ supported_languages:
   base_code: ru
   name: Russian
   variant_name: null
+- slug: sakha
+  code: sah
+  normalized_code: sah
+  base_code: sah
+  name: Sakha
 - slug: sinhala
   code: si
   normalized_code: si
