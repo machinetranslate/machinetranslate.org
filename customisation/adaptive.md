@@ -4,6 +4,14 @@ parent: Customisation
 title: Adaptive machine translation
 description: Machine translation with online learning
 featured: true
+redirect_from:
+ - /active
+ - /interactive
+ - /responsive
+ - /adaptive-machine-translation
+ - /active-machine-translation
+ - /interactive-machine-translation
+ - /responsive-machine-translation
 ---
 
 An **adaptive machine translation** system learns from human feedback and adapts its output on the fly.
