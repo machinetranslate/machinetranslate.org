@@ -4,6 +4,8 @@ nav_order: 165
 title: Quality estimation
 description: Machine translation quality estimation
 featured: true
+redirect_from:
+  - /quality-prediction
 ---
 
 **Quality estimation** (**QE**) or **quality prediction** is the task of automatically predicting the quality of the machine translation output.
