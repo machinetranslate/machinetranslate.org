@@ -6,7 +6,7 @@ title: Hybrid translation
 description: Workflow with both human translations and pure machine translations
 ---
 
-In a **hybrid translation** workflow, some raw machine translations are never seen or touched by a human translator.
+In a **hybrid translation** workflow, some raw machine translations are never seen or edited by a human translator.
 
 Hybrid translation can be faster and cheaper than full human [post-editing](post-editing.md).
 
@@ -20,26 +20,25 @@ A signification portion of the machine translated segments should be usable as-i
 > <img title='Hybrid translation workflow' src='/workflows/hybrid-translation-workflow.png' width='700' style='padding: 1em;' />
 
 A risk **threshold** is set.
-Each new machine translation is automatically classified as high-risk or low-risk.
+Each new machine translation is automatically classified as high-quality or low-quality.
 
-A low-risk machine translation is machine-approved as-is.
+A high-quality machine translation is used as-is and skips human post-editing.
 
-A high-risk translation is still sent to a human translator for post-editing.
+A low-quality translation is still sent to a human translator for post-editing.
 
-In the translation management system (TMS) and computer-aided translation (CAT) tool, the machine-approved machine translations are handled like translation memory matches.
-They are either locked or marked as approved.
+In the translation management system (TMS) and computer-aided translation (CAT) tool, the high-quality machine translations are handled like an exact matches from the translation memory.
+They are marked as translated or approved, and potentially even locked.
 
 ### Technology
 
-The key technology for a hybrid translation workflow is [**translation risk prediction**](/quality/quality-estimation.md), which is known as *quality estimation* in the research world.
+The key technology for a hybrid translation workflow is translation [**quality prediction**](/quality/quality-estimation.md), which is known as *machine translation quality estimation* in the [research](/building-and-research/index.md) world.
 
 ### Adoption
 
-The first companies to adopt a hybrid translation workflow built with quality estimation internally were:
-- Microsoft
-- Unbabel
-- VMWare
-- Wayfair
+At first, companies like Microsoft, [Unbabel](/companies/index.md#unbabel), VMWare and Wayfair implemented hybrid translation by researching and developing their own machine translation quality estimation.
+
+With the launch of the [ModelFront](/companies/index.md#modelfront) translation quality prediction API, more companies started to adopt the hybrid translation workflow within commercially available translation management systems.
+
 
 ---
 
