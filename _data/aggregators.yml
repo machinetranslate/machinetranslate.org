@@ -1,0 +1,96 @@
+---
+
+- name: Crosslang MT Gateway
+  id: crosslang
+  company: crosslang
+  urls:
+    - https://crosslang.com/products/machine-translation-gateway/
+  supported_engines:
+    - amazon
+    - judicio
+    - deepl
+    - google
+    - microsoft
+    - systran
+  self-serve: false
+
+- name: Custom.MT
+  id: custom-mt
+  company: custom-mt
+  urls:
+    - https://custom.mt/
+  privacy_url:
+    - https://custom.mt/privacy-policy/
+  supported_engines:
+    - amazon
+    - deepl
+    - globalese
+    - modernmt
+    - pangeamt
+    - tencent
+    - textshuttle
+    - xl8
+  self-serve: true
+
+- name: Human Science
+  id: human-science
+  company: human-science
+  urls:
+    - https://www.science.co.jp/nmt/index.html
+    - https://www.science.co.jp/english/machinetranslation/machinetranslation.html
+  languages: [ ar, bn, de, en, es, fr, hi, id, it, ja, ko, mn, ms, my, ne, nl, pl, pt, ro, ru, sv, th, tl, tr, vi, zh-cn, zh-tw ]
+  supported_engines:
+    - google
+    - microsoft
+    - nict
+  glossary: true
+  self-serve: false
+
+- name: Intento
+  id: intento
+  company: intento
+  urls:
+    - https://inten.to/
+    - https://help.inten.to/hc/en-us/articles/360018469520-Intento-API-quick-guide
+    - https://github.com/intento/intento-api
+  privacy_url:
+    - https://inten.to/privacy
+  supported_engines:
+    - alibaba
+    - amazon
+    - baidu
+    - deepl
+    - google
+    - watson
+    - kakao
+    - microsoft
+    - modernmt
+    - papago
+    - promt
+    - systran
+    - tencent
+    - yandex
+    - yeekit
+    - youdao
+  glossary: true
+  self-serve: true
+
+- name: TMXmall
+  id: tmxmall
+  company: tmxmall
+  urls:
+    - https://www.tmxmall.com/
+  privacy_url:
+  supported_engines:
+    - alibaba
+    - amazon
+    - baidu
+    - cloudtranslation
+    - deepl
+    - google
+    - microsoft
+    - niutrans
+    - tencent
+    - sogou
+    - yandex
+    - youdao

@@ -1,0 +1,803 @@
+---
+- name: AISA Digital
+  id: aisa-digital
+  type: [ mt-provider ]
+  location: Singapore
+  foundation: 2018
+  urls:
+    - https://www.aisa.digital/
+    - https://www.crunchbase.com/organization/aisa-digital
+
+- name: Alexa Translations A.I.
+  id: alexa-translations-ai
+  type: [ mt-provider ]
+  location: Canada
+  foundation: 2002
+  urls:
+    - https://alexatranslations.com/
+    - https://www.crunchbase.com/organization/alexa-translations-a-i
+
+- name: Alibaba Cloud Computing
+  id: alibaba-cloud
+  type: [ technology-provider ]
+  location: China
+  foundation: 2009
+  urls:
+    - https://www.alibabacloud.com/
+    - https://www.crunchbase.com/organization/alibaba-cloud
+
+- name: Amazon
+  id: amazon
+  type: [ technology-provider ]
+  location: United States
+  foundation: 1994
+  urls:
+    - https://aws.amazon.com/translate/
+
+- name: Amplexor
+  id: amplexor
+  type: [ lsp ]
+  location: Luxembourg
+  foundation: 2001
+  urls:
+    - https://www.acolad.com/
+    - https://www.crunchbase.com/organization/amplexor
+  acquired_by:
+    company: Acolad
+
+- name: Apertium
+  id: apertium
+  type: [ mt-provider ]
+  location: Spain
+  foundation: 2004
+  urls:
+    - https://apertium.org/
+
+- name: AppTek
+  id: apptek
+  type: [ mt-provider ]
+  location: United States
+  foundation: 1990
+  urls:
+    - https://www.apptek.com/
+    - https://www.crunchbase.com/organization/apptek
+
+- name: Baidu AI
+  id: baidu-ai
+  type: [ technology-provider ]
+  location: China
+  foundation: 2017
+  urls:
+    - https://intl.cloud.baidu.com/
+    - https://www.crunchbase.com/organization/baidu
+
+- name: Belazar
+  id: belazar
+  type: [ mt-provider ]
+  location: Belarus
+  foundation: 2010
+  urls:
+    - http://belazar.info/
+
+- name: Bering Lab
+  id: bering-lab
+  type: [ mt-provider ]
+  location: South Korea
+  foundation: 2020
+  urls:
+    - https://www.beringlab.com/
+    - https://www.crunchbase.com/organization/bering-lab
+  note: Funded by NAVER D2 Startup Factory and others
+
+- name: CloudTranslation
+  id: cloudtranslation
+  type: [ mt-provider ]
+  location: China
+  foundation: 2017
+  urls:
+    - https://cloudtranslation.com/
+    - https://www.crunchbase.com/organization/cloudtranslation
+
+- name: Crosslang
+  id: crosslang
+  type: [ mt-aggregator, mt-provider ]
+  location: Belgium
+  foundation: 2002
+  urls:
+    - https://crosslang.com/
+    - https://www.crunchbase.com/organization/crosslang
+
+- name: Custom.MT
+  id: custom-mt
+  type: [ mt-aggregator ]
+  location: Prague
+  foundation: 2020
+  urls:
+    - https://custom.mt
+
+- name: DeepL
+  id: deepl
+  type: [ mt-provider ]
+  location: Germany
+  foundation: 2017
+  urls:
+    - https://www.deepl.com/
+    - https://www.crunchbase.com/organization/linguee
+
+- name: ElevenLabs
+  id: elevenlabs
+  type: [ mt-provider ]
+  location:
+  foundation: 2022
+  urls:
+    - https://elevenlabs.io
+    - https://www.crunchbase.com/organization/elevenlabs
+
+- name: Elhuyar
+  id: elhuyar
+  type: [ technology-provider ]
+  location: Spain
+  foundation: 1972
+  urls:
+    - https://www.elhuyar.eus/en
+    - https://www.crunchbase.com/organization/elhuyar
+
+- name: European Commission
+  id: european-commission
+  type: [ mt-provider ]
+  location: Belgium
+  foundation: 2017
+  urls:
+    - https://commission.europa.eu/index_en
+    - https://www.crunchbase.com/organization/european-commission
+
+- name: Globalese
+  id: globalese
+  type: [ mt-provider ]
+  location: Germany
+  foundation: 2017
+  urls:
+    - https://www.globalese-mt.com/
+    - https://www.crunchbase.com/organization/globalese
+
+- name: Google Cloud
+  id: google-cloud
+  type: [ technology-provider ]
+  location: United States
+  foundation: 2012
+  urls:
+    - https://cloud.google.com/
+    - https://www.crunchbase.com/organization/google-cloud-platform
+
+- name: GTCOM
+  type: [ technology-provider ]
+  location: China
+  urls:
+    - https://www.gtcom.com.cn/
+
+- name: Human Science
+  id: human-science
+  type: [ lsp, mt-aggregator ]
+  foundation: 1985
+  location: Japan
+  urls:
+    - https://www.science.co.jp/
+    - https://www.crunchbase.com/organization/human-science
+
+- name: IBM
+  id: ibm-watson
+  type: [ technology-provider ]
+  foundation: 2014
+  location: Unites States
+  urls:
+    - https://www.ibm.com/watson
+    - https://www.crunchbase.com/organization/ibm-watson
+
+- name: Iconic Translation
+  id: iconic
+  type: [ mt-provider ]
+  location: Ireland
+  foundation: 2013
+  url:
+    - https://iconictranslation.com
+    - https://www.crunchbase.com/organization/iconic-translation-machines
+  active: false
+
+- name: ImageTranslate
+  id: imagetranslate
+  type: [ mt-provider ]
+  location: India
+  foundation: 2018
+  urls:
+    - https://www.imagetranslate.com/
+    - https://www.crunchbase.com/organization/imgtranslate
+
+- name: Intento
+  id: intento
+  type: [ mt-aggregator ]
+  location: United States
+  foundation: 2016
+  urls:
+    - https://inten.to/
+    - https://www.crunchbase.com/organization/intento
+  note: Raised $4M from Berkeley Skydeck and angels
+
+- name: Kakao Corp
+  id: kakao
+  type: [ technology-provider ]
+  location: South Korea
+  foundation: 2010
+  urls:
+    - https://www.kakaocorp.com/
+    - https://www.crunchbase.com/organization/kakao
+
+- name: KantanAI
+  id: kantan-ai
+  type: [ mt-provider ]
+  location: Ireland
+  foundation: 2012
+  urls:
+    - https://www.kantanai.io/
+    - https://www.crunchbase.com/organization/kantanmt
+  acquired_by:
+    company: Keyword Studios
+
+- name: Kites
+  id: kites
+  type: [ mt-provider ]
+  location: Germany
+  foundation: 2016
+  urls:
+    - https://kites.ai
+    - https://www.crunchbase.com/organization/kites-edaf
+  active: false
+  acquired_by:
+    company: Zoom
+
+- name: Kodensha
+  id: kodensha
+  type: [ mt-provider, lsp ]
+  location: Japan
+  foundation: 1979
+  urls:
+    - https://kodensha.j-server.com/LUCKDS/ns/tl.cgi/https://www.kodensha.jp/index/?SLANG=ja&TLANG=en&XMODE=0&XPARAM=q,&XCHARSET=UTF-8&XPORG=,&XJSID=0
+    - https://www.crunchbase.com/organization/kodensha-031d
+
+- name: Language I/O
+  id: language-io
+  type: [ mt-provider ]
+  location: United States
+  foundation: 2017
+  urls:
+    - https://languageio.com/
+    - https://www.crunchbase.com/organization/language-i-o
+  note: Raised $5.5M from Gutbrain, PBJ, Omega and angels
+
+- name: Language Wire
+  id: language-wire
+  type: [ lsp ]
+  location: Denmark
+  foundation: 2000
+  urls:
+    - https://www.languagewire.com/
+    - https://www.crunchbase.com/organization/languagewire
+  acquired_by:
+    company: Bridgepoint
+
+- name: Lexy
+  id: lexy
+  type: [ mt-provider ]
+  location: United States
+  foundation: 2015
+  urls:
+    - https://lexy.io/
+    - https://www.crunchbase.com/organization/dessert-labs
+  note: Raised from Slow Ventures and dissolved
+
+- name: Lilt
+  id: lilt
+  type: [ mt-provider, lsp ]
+  location: United States
+  foundation: 2015
+  urls:
+    - https://lilt.com/
+    - https://www.crunchbase.com/organization/lilt
+  note: Raised $37.5M from Sequoia, Redpoint, XSeed, Zetta and In-Q-Tel
+
+- name: Lingmo
+  id: lingmo
+  type: [ mt-provider, lsp ]
+  location: Australia
+  foundation: 2016
+  urls:
+    - https://linktr.ee/lingmo_ai
+    - https://www.crunchbase.com/organization/lingmo
+
+- name: Lingo24
+  id: lingo24
+  type: [ mt-provider, lsp ]
+  location: United Kingdom
+  foundation: 2001
+  urls:
+    - https://www.lingo24.com
+    - https://www.crunchbase.com/organization/lingmo
+  acquired_by:
+    api_id: unbabel
+    id: unbabel
+
+- name: Lingua Custodia
+  id: lingua-custodia
+  type: [ mt-provider ]
+  location: France
+  foundation: 2011
+  urls:
+    - https://www.linguacustodia.finance/en/welcome/
+    - https://www.crunchbase.com/organization/lingua-custodia
+
+- name: LingvaNex
+  id: lingvanex
+  type: [ mt-provider ]
+  location: Cyprus
+  foundation: 2016
+  urls:
+    - https://lingvanex.com/
+    - https://www.crunchbase.com/organization/lingvanex
+
+- name: Lionbridge
+  id: lionbridge
+  type: [ lsp ]
+  location: United States
+  foundation: 1996
+  urls:
+    - https://www.lionbridge.com/
+    - https://www.crunchbase.com/organization/lionbridge
+  acquired_by:
+    company: H.I.G. International
+
+- name: Lucy
+  id: lucy
+  type: [ mt-provider ]
+  location: Germany
+  foundation: 2006
+  urls:
+    - http://www.lucysoftware.com
+    - https://www.crunchbase.com/organization/lucy-software-and-services
+  acquired_by:
+    company: United Language Group
+
+- name: Microsoft Azure
+  id: microsoft-azure
+  type: [ technology-provider ]
+  location: United Kingdom
+  foundation: 2008
+  urls:
+    - https://translator.microsoft.com/
+    - https://www.crunchbase.com/organization/microsoft-azure
+
+- name: Mirai Translate
+  id: mirai-translate
+  type: [ mt-provider ]
+  location: Japan
+  foundation: 2014
+  urls:
+    - https://miraitranslate.com/
+    - https://www.crunchbase.com/organization/mirai-translate-inc
+
+- name: ModelFront
+  id: modelfront
+  type: [ mt-aggregator ]
+  location: United States
+  foundation: 2019
+  urls:
+    - https://www.modelfront.com/
+    - https://www.crunchbase.com/organization/modelfront
+
+- name: Moravia
+  id: moravia
+  type: [ lsp ]
+  location: Czech Republic
+  foundation: 2014
+  urls:
+    - http://www.moravia.com/
+    - https://www.crunchbase.com/organization/moravia
+  acquired_by:
+    company: RWS
+
+- name: Naver Cloud
+  id: naver-cloud
+  type: [ technology-provider ]
+  location: South Korea
+  foundation: 2009
+  urls:
+    - https://www.navercloudcorp.com/
+    - https://www.crunchbase.com/organization/naver-cloud
+
+- name: National Institute of Information and Communications Technology
+  id: nict
+  type: [ mt-provider ]
+  location: Japan
+  foundation: 1896
+  urls:
+    - https://www.nict.go.jp/en/index.html
+    - https://www.crunchbase.com/organization/national-institute-of-information-and-communications-technology-japan
+  note: NICT products include a text machine translation TexTra and a voice machine translation, VoiceTra.
+
+- name: NetEase
+  id: netease
+  type: [ technology-provider ]
+  location: China
+  foundation: 1997
+  urls:
+    - https://www.neteasegames.com
+    - https://www.crunchbase.com/organization/netease-com
+
+- name: NpatMT
+  id: npatmt
+  type: [ mt-provider ]
+  location: Japan
+  foundation: 2015
+  urls:
+    - https://www.npat.co.jp/
+
+- name: Omniscien Technologies
+  alternative_names: [ Asia Online ]
+  id: omniscien-technologies
+  type: [ mt-provider ]
+  location: The Netherlands
+  foundation: 2006
+  urls:
+    - https://www.omniscien.com
+    - https://www.crunchbase.com/organization/omniscien-technologies-trading
+
+- name: Oneliner
+  id: oneliner
+  type: [ lsp, mt-provider ]
+  location: Belgium
+  foundation: 1999
+  urls:
+    - https://oneliner.be/en/home.html
+    - https://www.crunchbase.com/organization/oneliner
+
+- name: Pangeanic
+  id: pangeanic
+  type: [ mt-provider, lsp ]
+  location: Spain
+  foundation: 2000
+  urls:
+    - https://www.pangeanic.com/
+    - https://www.crunchbase.com/organization/pangeanic
+
+- name: Panlingua
+  id: panlingua
+  type: [ mt-provider ]
+  location: India
+  foundation: 2017
+  urls:
+    - http://panlingua.co.in/
+    - https://github.com/panlingua
+
+- name: Precision Translation Tools
+  id: precision-translation-tools
+  type: [ technology-provider ]
+  active: false
+  urls:
+    - http://www.precisiontranslationtools.com/
+
+- name: Prompsit Language Technology
+  id: prompsit
+  type: [ technology-provider ]
+  location: Spain
+  foundation: 2006
+  urls:
+    - https://prompsit.com/
+    - https://www.crunchbase.com/organization/prompsit-language-engineering
+
+- name: PROMT
+  id: promt
+  type: [ mt-provider ]
+  location: United States
+  foundation: 1991
+  urls:
+    - https://www.promt.com
+    - https://www.crunchbase.com/organization/promt
+
+- name: Rozetta
+  id: rozetta
+  type: [ mt-provider ]
+  location: Japan
+  foundation: 2004
+  urls:
+    - https://www.rozetta.jp/
+    - https://www.crunchbase.com/organization/rozetta-corp
+
+- name: Reverso
+  id: reverso
+  type: [ technology-provider ]
+  location: France
+  foundation: 1998
+  urls:
+    - https://www.reverso.net/text-translation
+    - https://www.crunchbase.com/organization/reverso
+
+- name: RWS
+  alternative_names: [ SDL ]
+  id: rws
+  type: [ lsp ]
+  location: United Kingdom
+  foundation: 1958
+  urls:
+    - https://www.rws.com
+    - https://www.crunchbase.com/organization/rws-group
+
+- name: Safaba
+  id: safaba
+  type: [ mt-provider ]
+  location: United States
+  foundation: 2009
+  active: false
+  urls:
+    - https://www.safaba.com
+    - https://www.crunchbase.com/organization/safaba-translation-solutions
+  acquired_by:
+    id: amazon
+
+- name: SAP
+  id: sap
+  type: [ technology-provider ]
+  location: Germany
+  foundation: 1972
+  urls:
+    - https://www.sap.com
+    - https://www.crunchbase.com/organization/sap
+
+- name: Skrivanek
+  id: skrivanek
+  type: [ mt-provider, lsp ]
+  location: Germany
+  foundation: 2004
+  urls:
+    - https://skrivanek.com/
+    - https://www.crunchbase.com/organization/skrivanek
+
+- name: Sogou
+  id: sogou
+  type: [ technology-provider ]
+  location: China
+  foundation: 2004
+  urls:
+    - https://fanyi.sogou.com/text
+    - https://fanyi.sogou.com/download/pc/introduce
+  acquired_by:
+    company_id: tencent
+
+- name: Sunda Systems
+  id: sunda-systems
+  type: [ mt-provider ]
+  location: Finland
+  urls:
+    - https://www.sunda.fi/en/company
+
+- name: Symbyonics
+  id: symbyonics
+  foundation: 2014
+  active: false
+  urls:
+    - https://www.linkedin.com/company/symbyonics-llc/
+
+- name: SYSTRAN
+  id: systran
+  type: [ mt-provider ]
+  location: France
+  foundation: 1968
+  urls:
+    - https://www.systransoft.com/
+    - https://www.crunchbase.com/organization/systran-9361
+
+- name: Tarjama
+  id: tarjama
+  type: [ mt-provider ]
+  location: United Arab Emirates
+  foundation: 2008
+  urls:
+    - https://www.tarjama.com
+    - https://www.crunchbase.com/organization/tarjama-and-ureed
+
+- name: Tauyou
+  id: tauyou
+  type: [ mt-provider ]
+  location: Spain
+  foundation: 2006
+  urls:
+    - https://www.tauyou.com
+    - https://www.crunchbase.com/organization/ta-with-you
+  acquired_by:
+    company_id: transperfect
+
+- name: Tencent
+  id: tencent
+  type: [ technology-provider ]
+  location: China
+  foundation: 1998
+  urls:
+    - https:///www.tencent.com/en-us
+    - https://www.crunchbase.com/organization/tencent
+
+- name: TextShuttle
+  id: textshuttle
+  type: [ mt-provider ]
+  location: Switzerland
+  foundation: 2009
+  urls:
+    - https://www.textshuttle.ai/en/
+    - https://www.crunchbase.com/organization/textshuttle
+
+- name: Tilde
+  id: tilde
+  type: [ mt-provider ]
+  location: Latvia
+  foundation: 1991
+  urls:
+    - https://www.tilde.com
+    - https://www.crunchbase.com/organization/tilde-6e11
+
+- name: Tmxmall
+  id: tmxmall
+  type: [ technology-provider ]
+  location: China
+  foundation: 2014
+  urls:
+    - https://www.tmxmall.com/
+    - https://www.crunchbase.com/organization/tmxmall
+
+- name: TOIN
+  id: toin
+  type: [ technology-provider ]
+  location: Japan
+  foundation: 1963
+  urls:
+    - https://to-in.com/en/service/mt
+    - https://www.crunchbase.com/organization/toin
+
+- name: Translated
+  id: translated
+  type: [ lsp ]
+  location: Italy
+  foundation: 1999
+  urls:
+    - https://translated.com
+    - https://www.crunchbase.com/organization/translated
+
+- name: TranslateMe
+  id: translateme
+  type: [ mt-provider ]
+  location: South Africa
+  foundation: 2016
+  urls:
+    - https://translateme.network/
+
+- name: Transperfect
+  id: transperfect
+  type: [ lsp ]
+  location: United States
+  foundation: 1992
+  urls:
+    - https://www.transperfect.com
+    - https://www.crunchbase.com/organization/transperfect
+
+- name: Ubiqus
+  id: ubiqus
+  type: [ lsp ]
+  location: United States
+  foundation: 1991
+  urls:
+    - https://www.ubiqus.com
+    - https://www.crunchbase.com/organization/ubiqus
+  acquired_by:
+    company: Acolad
+
+- name: Unbabel
+  id: unbabel
+  type: [ mt-provider, lsp ]
+  location: Portugal
+  foundation: 2013
+  urls:
+    - https://www.unbabel.com
+    - https://www.crunchbase.com/organization/unbabel
+
+- name: Vidby
+  id: vidby
+  type: [ mt-provider ]
+  location: Switzerland
+  foundation: 2021
+  urls:
+    - https://vidby.com/
+    - https://www.crunchbase.com/organization/vidby
+
+- name: Vicomtech
+  id: vicomtech
+  type: [ technology-provider ]
+  location: Spain
+  foundation: 2001
+  urls:
+    - https://www.vicomtech.org/
+    - https://www.crunchbase.com/organization/vicomtech
+  note: Vicomtech, in partnership with MondragonLingua, developed PLATA in 2012.
+
+- name: Viva Translate
+  id: viva-translate
+  type: [ mt-provider ]
+  location: United States
+  foundation: 2020
+  urls:
+    - https://www.vivatranslate.com/
+    - https://www.crunchbase.com/organization/viva-translate
+  note: Raised pre-seed from Blue Ridge Foundation and $4M from General Catalyst, AIX Ventures, Fellows Fund, Hyphen Capital, First Check Ventures and angels
+
+- name: Xiaoniu Fanyi
+  id: xiaoniu-fanyi
+  type: [ mt-provider ]
+  location: China
+  foundation: 2012
+  urls:
+    - https://niutrans.com
+    - https://www.crunchbase.com/organization/xiaoniu-fanyi
+
+- name: XL8
+  id: xl8
+  type: [ mt-provider ]
+  location: United States
+  foundation: 2019
+  urls:
+    - https://www.xl8.ai/
+    - https://www.crunchbase.com/organization/xl8-inc
+  note: Funded by FuturePlay
+
+- name: Yandex
+  id: yandex
+  type: [ technology-provider ]
+  location: Russia
+  foundation: 1997
+  urls:
+    - https://www.yandex.ru
+    - https://www.crunchbase.com/organization/yandex
+
+- name: Yappn
+  id: yappn
+  type: [ mt-provider ]
+  location: Canada
+  foundation: 2013
+  urls:
+    - https://yappn.com/
+    - https://www.crunchbase.com/organization/yappn
+  acquired_by:
+    company_id: alexa-translations-ai
+
+- name: YOUS
+  id: yous
+  type: [ technology-provider ]
+  location: Cyprus
+  foundation: 2019
+  urls:
+    - https://yous.ai/
+    - https://www.crunchbase.com/organization/yous-de50
+
+- name: Wordlingo
+  id: wordlingo
+  type: [ mt-provider ]
+  location: United States
+  foundation: 1998
+  urls:
+    - https://www.worldlingo.com
+    - https://www.crunchbase.com/organization/worldlingo
+  acquired_by:
+    id: transperfect
+
+- name: Zhongke Fanyu Technology
+  id: zhongke-fanyu-technology
+  type: [ mt-provider ]
+  location: China
+  foundation: 2018
+  urls:
+    - http://www.zkfy.com/
+    - https://www.crunchbase.com/organization/zhongke-fanyu-technology
+  note: Incubated by the Institute of Automation at the Chinese Academy of Sciences
