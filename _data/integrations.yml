@@ -168,7 +168,7 @@
     - cat: true
   documentation_url: https://docs.memoq.com/current/en/Welcome/welcome-memoq-docs.html
   api_integrations:
-    - alexa-ai:
+    - alexa-translations-ai:
         urls:
           - https://docs.memoq.com/current/en/Places/alexa-ai-plugin-settings.html
 
@@ -285,7 +285,7 @@
     - aisa:
         active: false
 
-    - alexa-ai
+    - alexa-translations-ai
 
     - amazon:
         glossary: true
@@ -523,7 +523,7 @@
   type: [ cat ]
   documentation_url: https://docs.rws.com/980998/261377/trados-studio-2022/welcome-to-the-------------trados-studio-2022-documentation
   api_integrations:
-    - alexa-ai:
+    - alexa-translations-ai:
         plugin: true
         urls:
           - https://appstore.rws.com/plugin/149/

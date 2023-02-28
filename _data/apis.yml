@@ -15,7 +15,7 @@
   self-serve: false
 
 - name: Alexa Translations A.I.
-  id: alexa-ai
+  id: alexa-translations-ai
   company: alexa-translations-ai
   urls:
    - https://alexatranslations.com/alexa-translations-a-i
@@ -370,7 +370,7 @@
 
 - name: LT Gear
   id: ltgear
-  company: moravia
+  company: rws
   urls:
     - https://ltgear3.moravia.com/
     - https://ltgear3.moravia.com//swagger/ui/index
@@ -745,7 +745,7 @@
   company: ubiqus
   urls:
     - https://www.ubiqus.com/
-    - https://documenter.getpostman.com/view/8281683/SVtSX9x2?version=latest
+    - https://documenter.getpostman.com/view/8281683/SVtSX9x2
   stock_api_domains:
     - finance
     - technology

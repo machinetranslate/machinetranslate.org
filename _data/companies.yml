@@ -40,7 +40,6 @@
   location: Luxembourg
   foundation: 2001
   urls:
-    - https://www.acolad.com/
     - https://www.crunchbase.com/organization/amplexor
   acquired_by:
     company: Acolad
@@ -385,7 +384,7 @@
 
 - name: ModelFront
   id: modelfront
-  type: [ mt-aggregator ]
+  type: [ qa-provider ]
   location: United States
   foundation: 2019
   urls:
@@ -395,7 +394,7 @@
 - name: Moravia
   id: moravia
   type: [ lsp ]
-  location: Czech Republic
+  location: Czechia
   foundation: 2014
   urls:
     - http://www.moravia.com/
@@ -495,7 +494,7 @@
 - name: PROMT
   id: promt
   type: [ mt-provider ]
-  location: United States
+  location: Russia
   foundation: 1991
   urls:
     - https://www.promt.com
@@ -522,7 +521,7 @@
 - name: RWS
   alternative_names: [ SDL ]
   id: rws
-  type: [ lsp ]
+  type: [ technology-provider, lsp, mt-provider ]
   location: United Kingdom
   foundation: 1958
   urls:
@@ -595,7 +594,7 @@
 
 - name: Tarjama
   id: tarjama
-  type: [ mt-provider ]
+  type: [ mt-provider, lsp ]
   location: United Arab Emirates
   foundation: 2008
   urls:
@@ -633,7 +632,7 @@
 
 - name: Tilde
   id: tilde
-  type: [ mt-provider ]
+  type: [ mt-provider, lsp ]
   location: Latvia
   foundation: 1991
   urls:
@@ -642,7 +641,7 @@
 
 - name: Tmxmall
   id: tmxmall
-  type: [ technology-provider ]
+  type: [ technology-provider, mt-aggregator ]
   location: China
   foundation: 2014
   urls:
@@ -660,7 +659,7 @@
 
 - name: Translated
   id: translated
-  type: [ lsp ]
+  type: [ lsp, mt-provider ]
   location: Italy
   foundation: 1999
   urls:
@@ -687,7 +686,7 @@
 - name: Ubiqus
   id: ubiqus
   type: [ lsp ]
-  location: United States
+  location: France
   foundation: 1991
   urls:
     - https://www.ubiqus.com
