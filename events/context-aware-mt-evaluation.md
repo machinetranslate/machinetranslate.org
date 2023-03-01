@@ -24,10 +24,10 @@ seo:
     url: https://www.surrey.ac.uk/centre-translation-studies
 ---
 
-**Context-aware MT evaluation: what have we learned?** will take place online on 1 March. It is organised by Centre of Translation Studies, University of Surrey.
-The conference took place online and in Guildford, United Kingdom, from 1 February to 3 February, 2023.
+**Context-aware MT evaluation: what have we learned?** took place online on 1 March.
+It was organised by Centre of Translation Studies, University of Surrey.
 
-The speaker will be Doctor Sheila Castilho, Assistant professor in SALIS at Dublin City University.
+The speaker was Doctor Sheila Castilho, Assistant professor in SALIS at Dublin City University.
 
 Registration is free.
 
