@@ -5,7 +5,7 @@ description: A unique list of numbers
 ---
 
 A **vector** is a unique fixed-sized list of numbers.
-Each vector number is called coordinate.
+Each vector number is called a coordinate.
 Coordinates define the vector's position in a particular space.
 Vectors represent data in a way that a machine learning model can understand and use.
 In machine translation, vectors represent the words and phrases in a text.

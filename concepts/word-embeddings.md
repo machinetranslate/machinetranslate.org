@@ -42,7 +42,7 @@ As a result, operations with one-hot encoded vectors are very inefficient.
 ### Embedding matrices
 
 The goal of word embeddings is to capture meaning and context.
-Further word information can be represented in a multi-dimensional vector.
+Further word information can be represented in a multidimensional vector.
 As a result, word embedding lengths are shorter than one-hot encodings.
 
 ### Example
