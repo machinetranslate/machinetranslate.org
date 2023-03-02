@@ -17,7 +17,7 @@ redirect_from:
 
 Quality prediction does not require human reference translations, so it is useful for new content.  It uses machine learning to provide predictions that are relatively accurate at the segment level.
 
-[Quality evaluation](/quality/quality-evaluation.md)[metrics](/quality/metrics.md) like [BLEU](/quality/metrics/bleu.md) require human reference translations against which to compare the machine translation output.  But for new content there are no human reference translations available.
+[Quality evaluation](/quality/quality-evaluation.md) [metrics](/quality/metrics.md) like [BLEU](/quality/metrics/bleu.md) require human reference translations against which to compare the machine translation output.  But for new content there are no human reference translations available.
 
 
 ### Use cases
