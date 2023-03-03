@@ -62,6 +62,7 @@
   company: amplexor
   urls:
     - https://www.acolad.com/en/technology/machine-translation.html
+  languages: [ ]
   self-serve: false
 
 - name: Apertium
@@ -174,6 +175,7 @@
   company: symbyonics
   urls:
     - https://web.archive.org/web/20170613150555/https://fairtradetranslation.com/
+  languages: [ ]
   supported_engines:
     - google
     - microsoft
@@ -187,6 +189,7 @@
   urls:
     - https://developers.lionbridge.com/geofluent/index.html
     - https://api.geofluent.com/Translation/v3/ui/index
+  languages: [ ]
   self-serve: false
 
 - name: Globalese
@@ -355,6 +358,7 @@
     - https://www.linguacustodia.finance/en/welcome/
   privacy_url:
     - https://www.linguacustodia.finance/en/lingua-custodia-privacy-policy/
+  languages: [ ]
   stock_api_domains:
     - finance
   self-serve: false
@@ -374,6 +378,7 @@
   urls:
     - https://ltgear3.moravia.com/
     - https://ltgear3.moravia.com//swagger/ui/index
+  languages: [ ]
   self-serve: false
 
 - name: Lucy
@@ -428,12 +433,15 @@
 - name: MoraviaMT
   id: moraviamt
   company: moravia
+  urls: [ ]
+  languages: [ ]
 
 - name: Moses
   id: moses
   urls:
     - http://www2.statmt.org/moses/
     - https://github.com/moses-smt/mosesdecoder
+  languages: [ ]
   self-serve: true
 
 - name: Niutrans
@@ -452,6 +460,7 @@
   company: npat
   urls:
     - https://www.npat.co.jp/
+  languages: [ ]
   stock_api_domains:
     - patents
   adaptive: true
@@ -495,13 +504,12 @@
   adaptive: true
   self-serve: true
 
-- name: OnelinerMT
-  id: oneliner
-  company: oneliner
-
 - name: Opus CAT
   id: opus-cat
   company: helsinki-nlp
+  urls:
+    - https://helsinki-nlp.github.io/OPUS-CAT/
+  languages: [ ]
 
 - name: PangeaMT
   id: pangeamt
@@ -528,6 +536,8 @@
 - name: Plata Vicomtech
   id: plata-vicomtech
   company: vicomtech
+  urls: [ ]
+  languages: [ ]
   stock_api_domains:
     - news
     - technology
@@ -571,6 +581,8 @@
 - name: Safaba
   id: safaba
   company: safaba
+  urls: [ ]
+  languages: [ ]
   active: false
 
 - name: SAP Translation Hub
@@ -600,6 +612,7 @@
     - https://skrivanek.com/other-services/machine-translation/
   privacy_url:
     - https://skrivanek.com/wp-content/uploads/2021/03/processing-and-protection-of-personal-data-in-skrivanek-0.pdf
+  languages: [ ]
   self-serve: false
 
 - name: Slate Desktop
@@ -608,6 +621,7 @@
   urls:
     - http://www.slatedesktop.com/
     - http://www.precisiontranslationtools.com/slate/
+  languages: [ ]
   active: false
 
 - name: Sogou Translate
@@ -673,6 +687,8 @@
 - name: Tauyou
   id: tauyou
   company: tauyou
+  urls: [ ]
+  languages: [ ]
   active: false
 
 - name: Tencent Machine Translation
@@ -733,7 +749,7 @@
   urls:
     - https://to-in.com/en/service/mt/an-zin
   privacy_url: https://to-in.com/en/security
-  languages: [ [en, my], [en, pt], [en, ru], [en, th], [en, vi], [en, zh-tw], [en, zn-cn], [ja, de], [ja, en], [ja, es], [ja, fr], [ja, id], [ja, it], [ja, it], [ja, ko], [ja, my], [ja, pt], [ja, th], [ja, vi], [ja, zh-cn], [ja, zh-tw] ]
+  languages: [ [en, my], [en, pt], [en, ru], [en, th], [en, vi], [en, zh-tw], [en, zh-cn], [ja, de], [ja, en], [ja, es], [ja, fr], [ja, id], [ja, it], [ja, it], [ja, ko], [ja, my], [ja, pt], [ja, th], [ja, vi], [ja, zh-cn], [ja, zh-tw] ]
   stock_api_domains:
     - finance
     - legal
@@ -746,6 +762,7 @@
   urls:
     - https://www.ubiqus.com/
     - https://documenter.getpostman.com/view/8281683/SVtSX9x2
+  languages: [ ]
   stock_api_domains:
     - finance
     - technology
