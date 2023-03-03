@@ -15,6 +15,6 @@ Alternative approaches include dictionary lookup, word n-grams, statistical mode
 
 - Similar languages may be mistaken for one another, for example [Dutch](/languages/dutch.md) and [Afrikaans](/languages/afrikaans.md).
 - Language identification is harder on shorter texts because there may not be enough language-specific information.
-Longer texts have more chances of having language-specific characters and words making it easier to identify.
+Longer texts have more chances of having language-specific characters and words, making it easier to identify.
 - If a particular [locale](/applications/advanced-concepts/locale.md) is not supported in the language identification tool, it may be misclassified as another, similar locale.
 For example, if a language identification tool does not support [Serbian](/languages/serbian.md) with the Cyrillic script, it may be misclassified as [Macedonian](/languages/macedonian.md).

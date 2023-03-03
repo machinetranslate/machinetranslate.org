@@ -5,7 +5,7 @@ description: Parallel data for training machine translation
 featured: true
 ---
 
-**Parallel data** or **parallel corpora** are data sets of **translation pairs** - sentences and their translations.
+**Parallel data** or **parallel corpora** are data sets of **translation pairs** – sentences and their translations.
 They are used to train and test machine translation models.
 
 | Original | Translation |
