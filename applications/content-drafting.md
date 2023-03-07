@@ -49,7 +49,7 @@ Localised images will have different text lengths depending on the target langua
 
 ### Writing aid
 
-Authors can use machine translation to draft a text in foreign language which they know, but can use some help with typical expressions and appropriate phrases.
+Authors can use machine translation to draft a text in a foreign language which they know, but can use some help with typical expressions and appropriate phrases.
 
 #### Workflow
 
