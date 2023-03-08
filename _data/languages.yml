@@ -1,4 +1,13 @@
 ---
+#-
+#  codes: [  ]
+#  names: [  ]
+#  family: [  ]
+#  scripts: [  ]
+#  typology:
+#    word_order: [  ]
+#    morphosyntax: [  ]
+#  territories: [  ]
 
 -
   codes: [ ab ]
@@ -19,6 +28,16 @@
     word_order: [ SVO ]
     morphosyntax: [ synthetic ]
   territories: [ ug ]
+
+-
+  codes: [ aka ]
+  names: [ Akan ]
+  family: [ nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic, agglutinative ]
+  territories: [ ci, gh ]
 
 -
   codes: [ af, afr ]
@@ -60,6 +79,16 @@
     word_order: [ VSO ]
     morphosyntax: [ fusional, synthetic ]
   territories: [ ae, bh, dj, dz, eg, er, iq, jo, kw, lb, ly, ma, mr, om, ps, qa, sa, sd, so, sy, tn, ye ]
+
+-
+  codes: [ arq ]
+  names: [ Algerian Arabic, Dziria, Darja, Derja ]
+  family: [ sem, afa ]
+  scripts: [ Arab ]
+  typology:
+    word_order: [ SVO, VSO, OSV ]
+    morphosyntax: [ inflected, synthetic ]
+  territories: [ dz ]
 
 -
   codes: [ as, asm ]
@@ -110,6 +139,16 @@
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]
   territories: [ ru ]
+
+-
+  codes: [ bal, bgp, bgn, bcc ]
+  names: [ Balochi, Baluchi ]
+  family: [ ira, iir, ine ]
+  scripts: [ Arab, Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected, agglutinative, isolating ]
+  territories: [ af, ir, pk ]
 
 -
   codes: [ be, bel ]
@@ -608,7 +647,7 @@
   territories: [ hu, ro, rs, sk, sl, at ]
 
 -
-  codes: [ hy, hye, hyw ]
+  codes: [ hy, hye, hyw, arm ]
   names: [ Armenian]
   family: [ ine ]
   scripts: [ Armn ]
