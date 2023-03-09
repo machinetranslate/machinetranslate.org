@@ -376,6 +376,24 @@
 
   local_api_support: true
   routing: true
+  
+- id: tolgee
+  name: Tolgee
+  url: https://tolgee.io 
+  type: [ tms, cat ]
+  open_source: true
+  api_integrations:
+    - amazon
+    
+    - deepl
+    
+    - google
+    
+    - baidu
+    
+    - microsoft
+    
+   multiple_apli_suggestions: true
 
 - id: trados
   name: Trados Studio
