@@ -234,6 +234,8 @@ integrations:
   name: Smartcat
 - slug: smartling
   name: Smartling
+- slug: tolgee
+  name: Tolgee
 - slug: transifex
   name: Transifex
   tone: true
