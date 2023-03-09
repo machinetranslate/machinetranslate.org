@@ -697,6 +697,8 @@ integrations:
   custom: true
   glossary: true
   url: https://help.smartling.com/hc/en-us/articles/1260805168070-Translating-with-Google-AutoML
+- slug: tolgee
+  name: Tolgee
 - slug: transifex
   name: Transifex
   custom: true

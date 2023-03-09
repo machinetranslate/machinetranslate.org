@@ -480,6 +480,8 @@ integrations:
   custom: true
 - slug: smartling
   name: Smartling
+- slug: tolgee
+  name: Tolgee
 - slug: transifex
   name: Transifex
   glossary: true

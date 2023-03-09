@@ -703,6 +703,8 @@ integrations:
 - slug: smartling
   name: Smartling
   custom: true
+- slug: tolgee
+  name: Tolgee
 - slug: transifex
   name: Transifex
 - slug: translate5

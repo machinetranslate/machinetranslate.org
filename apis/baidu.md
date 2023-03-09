@@ -1221,6 +1221,8 @@ supported_languages:
 integrations:
 - slug: smartcat
   name: Smartcat
+- slug: tolgee
+  name: Tolgee
 nav_order: 799
 redirect_from: baidu-translate
 
