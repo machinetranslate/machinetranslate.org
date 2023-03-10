@@ -8,14 +8,14 @@ redirect_from:
   - /quality-prediction
 ---
 
-**Quality estimation** (**QE**) or **quality prediction** is the task of automatically predicting the quality of the machine translation output.
+Machine translation **quality estimation** (**QE** or **MTQE**) or **quality prediction** (**QP** or **MTQP**) is the task of automatically predicting the quality of machine translation output.
 
 | Original                     | Translation                    | Quality prediction   |
 | -----------------------------| -------------------------------| ---------------------|
 | `English` `July 30th, 2021`  | `French` `30 juillet 2021`     | `Good`               |
 | `English` `This is my home.` | `Spanish` `Este es mi inicio.` | `Bad`                |
 
-Quality prediction does not require human reference translations, so it is useful for new content.  It uses machine learning to provide predictions that are relatively accurate at the segment level.
+Quality estimation does not require human reference translations, so it is useful for new content.  It uses machine learning to provide predictions that are relatively accurate at the segment level.
 
 [Quality evaluation](/quality/quality-evaluation.md) [metrics](/quality/metrics.md) like [BLEU](/quality/metrics/bleu.md) require human reference translations against which to compare the machine translation output.  But for new content, there are no human reference translations available.
 
@@ -34,6 +34,8 @@ The main use case is hybrid translation.
 
 
 ### Granularity
+
+Quality estimation is most commonly at the segment-level, for example a sentence.
 
 * Word-level
 * Phrase-level
@@ -85,7 +87,7 @@ There are also providers that offer a quality estimation feature within another 
 | Provider | Product | Availability | Approach |
 | --- | --- | --- | --- |
 | [KantanAI](/industry/companies.md#kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | Feature of machine translation API | Glassbox |
-| [ModelFront](/industry/companies.md#modelfront) | [ModelFront risk prediction](https://modelfront.com) | System with API and console | Deep learning, multilingual, blackbox |
+| [ModelFront](/industry/companies.md#modelfront) | [ModelFront quality prediction](https://modelfront.com) | Product with cloud API and console | Deep learning, multilingual, blackbox |
 | [Omniscien](/industry/companies.md#omniscien-technologies) | [Translation Confidence Scoring and Quality Estimates](https://omniscien.com/products/language-studio/) | Feature of machine translation API | Glassbox |
 
 
