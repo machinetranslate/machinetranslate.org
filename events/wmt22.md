@@ -127,7 +127,6 @@ Confirmed language pairs:
 
 ## Poster format
 
-Details about poster format are to be determined.
 Posters must be presented in Gather.Town.
 
 
