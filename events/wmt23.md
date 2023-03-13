@@ -46,6 +46,7 @@ It will be organised by [WMT](/associations/wmt.md).
 
 - [General translation](http://www2.statmt.org/wmt23/translation-task.html)
 - [Terminology](https://wmt-terminology-task.github.io/)
+- [Word-level autocompletion](http://www2.statmt.org/wmt23/word-autocompletion.html)
 - More to be announced 
 
 The *News* machine translation task has been renamed the *General* machine translation task.
