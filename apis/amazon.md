@@ -475,8 +475,6 @@ integrations:
 - slug: phrase
   name: Phrase TMS
   glossary: true
-- slug: tolgee
-  name: Tolgee
 - slug: smartcat
   name: Smartcat
   custom: true

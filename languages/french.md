@@ -1,5 +1,5 @@
 ---
-nav_order: 959
+nav_order: 958
 parent: Languages
 layout: language
 title: French
@@ -19,6 +19,9 @@ supported_apis:
   supported_language_count: 8
 - id: pangeamt
   name: PangeaMT
+  supported_language_count: 8
+- id: phrase-nextmt
+  name: Phrase NextMT
   supported_language_count: 8
 - id: alexa-ai
   name: Alexa Translations A.I.

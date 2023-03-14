@@ -342,6 +342,15 @@
   formality: true
   self-serve: true
 
+- name: Phrase NextMT
+  id: phrase-nextmt
+  urls:
+    - https://phrase.com/products/phrase-nextmt/
+  languages: [ [cs, en], [de, en], [en, cs], [en, de], [en, es], [en, fr], [en, it], [en, nl], [en, ru], [es, en], [fr, en], [it, en], [nl, en], [ru, en] ]
+  glossary: true
+  adaptive: true
+  self-serve: true
+
 - name: PROMT
   id: promt
   urls:

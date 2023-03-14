@@ -1,5 +1,5 @@
 ---
-nav_order: 964
+nav_order: 963
 parent: Languages
 layout: language
 title: Russian
@@ -11,6 +11,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: phrase-nextmt
+  name: Phrase NextMT
+  supported_language_count: 8
 - id: translateme
   name: TranslateMe
   supported_language_count: 11

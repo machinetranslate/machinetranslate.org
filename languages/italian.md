@@ -1,5 +1,5 @@
 ---
-nav_order: 961
+nav_order: 960
 parent: Languages
 layout: language
 title: Italian
@@ -13,6 +13,9 @@ family:
 supported_apis:
 - id: pangeamt
   name: PangeaMT
+  supported_language_count: 8
+- id: phrase-nextmt
+  name: Phrase NextMT
   supported_language_count: 8
 - id: alexa-ai
   name: Alexa Translations A.I.

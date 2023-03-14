@@ -221,6 +221,9 @@
     - pangeamt:
         custom: true
 
+    - phrase-nextmt:
+        glossary: true
+
     - prompsit
 
     - promt:

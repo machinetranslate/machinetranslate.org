@@ -1,5 +1,5 @@
 ---
-nav_order: 972
+nav_order: 971
 parent: Languages
 layout: language
 title: Czech
@@ -11,6 +11,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: phrase-nextmt
+  name: Phrase NextMT
+  supported_language_count: 8
 - id: textshuttle
   name: TextShuttle
   supported_language_count: 18

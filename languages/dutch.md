@@ -1,5 +1,5 @@
 ---
-nav_order: 967
+nav_order: 966
 parent: Languages
 layout: language
 title: Dutch
@@ -14,6 +14,9 @@ supported_apis:
 - id: judicio
   name: Judicio
   supported_language_count: 4
+- id: phrase-nextmt
+  name: Phrase NextMT
+  supported_language_count: 8
 - id: translateme
   name: TranslateMe
   supported_language_count: 11

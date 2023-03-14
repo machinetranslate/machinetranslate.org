@@ -31,4 +31,9 @@ The speaker was Doctor Sheila Castilho, Assistant professor in SALIS at Dublin C
 
 Registration is free.
 
-[surrey.ac.uk/news/convergence-lecture-series-context-aware-mt-evaluation-what-have-we-learned-dr-sheila-castilho](https://www.surrey.ac.uk/news/convergence-lecture-series-context-aware-mt-evaluation-what-have-we-learned-dr-sheila-castilho)
+## Links
+
+- [Event page](https://www.surrey.ac.uk/news/convergence-lecture-series-context-aware-mt-evaluation-what-have-we-learned-dr-sheila-castilho)
+- [Recording](https://www.surrey.ac.uk/news/video-dr-sheila-castilho-context-aware-mt-evaluation-what-have-we-learned)
+
+
