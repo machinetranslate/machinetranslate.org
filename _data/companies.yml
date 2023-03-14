@@ -475,6 +475,15 @@
     - http://panlingua.co.in/
     - https://github.com/panlingua
 
+- name: Phrase
+  id: phrase
+  type: [ technology-provider ]
+  location: Germany
+  foundation: 2010
+  urls:
+    - https://phrase.com/
+    - https://www.crunchbase.com/organization/phrase
+
 - name: Precision Translation Tools
   id: precision-translation-tools
   type: [ technology-provider ]
