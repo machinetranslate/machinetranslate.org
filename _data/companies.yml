@@ -3,7 +3,7 @@
   id: aisa-digital
   type: [ mt-provider ]
   location: Singapore
-  foundation: 2018
+  founded: 2018
   urls:
     - https://www.aisa.digital/
     - https://www.crunchbase.com/organization/aisa-digital
@@ -12,7 +12,7 @@
   id: alexa-translations-ai
   type: [ mt-provider ]
   location: Canada
-  foundation: 2002
+  founded: 2002
   urls:
     - https://alexatranslations.com/
     - https://www.crunchbase.com/organization/alexa-translations-a-i
@@ -21,7 +21,7 @@
   id: alibaba-cloud
   type: [ technology-provider ]
   location: China
-  foundation: 2009
+  founded: 2009
   urls:
     - https://www.alibabacloud.com/
     - https://www.crunchbase.com/organization/alibaba-cloud
@@ -30,7 +30,7 @@
   id: amazon
   type: [ technology-provider ]
   location: United States
-  foundation: 1994
+  founded: 1994
   urls:
     - https://aws.amazon.com/translate/
 
@@ -38,7 +38,7 @@
   id: amplexor
   type: [ lsp ]
   location: Luxembourg
-  foundation: 2001
+  founded: 2001
   urls:
     - https://www.crunchbase.com/organization/amplexor
   acquired_by:
@@ -48,7 +48,7 @@
   id: apertium
   type: [ mt-provider ]
   location: Spain
-  foundation: 2004
+  founded: 2004
   urls:
     - https://apertium.org/
 
@@ -56,7 +56,7 @@
   id: apptek
   type: [ mt-provider ]
   location: United States
-  foundation: 1990
+  founded: 1990
   urls:
     - https://www.apptek.com/
     - https://www.crunchbase.com/organization/apptek
@@ -65,7 +65,7 @@
   id: baidu-ai
   type: [ technology-provider ]
   location: China
-  foundation: 2017
+  founded: 2017
   urls:
     - https://intl.cloud.baidu.com/
     - https://www.crunchbase.com/organization/baidu
@@ -74,7 +74,7 @@
   id: belazar
   type: [ mt-provider ]
   location: Belarus
-  foundation: 2010
+  founded: 2010
   urls:
     - http://belazar.info/
 
@@ -82,7 +82,7 @@
   id: bering-lab
   type: [ mt-provider ]
   location: South Korea
-  foundation: 2020
+  founded: 2020
   urls:
     - https://www.beringlab.com/
     - https://www.crunchbase.com/organization/bering-lab
@@ -92,7 +92,7 @@
   id: cloudtranslation
   type: [ mt-provider ]
   location: China
-  foundation: 2017
+  founded: 2017
   urls:
     - https://cloudtranslation.com/
     - https://www.crunchbase.com/organization/cloudtranslation
@@ -101,7 +101,7 @@
   id: crosslang
   type: [ mt-aggregator, mt-provider ]
   location: Belgium
-  foundation: 2002
+  founded: 2002
   urls:
     - https://crosslang.com/
     - https://www.crunchbase.com/organization/crosslang
@@ -110,7 +110,7 @@
   id: custom-mt
   type: [ mt-aggregator ]
   location: Prague
-  foundation: 2020
+  founded: 2020
   urls:
     - https://custom.mt
 
@@ -118,7 +118,7 @@
   id: deepl
   type: [ mt-provider ]
   location: Germany
-  foundation: 2017
+  founded: 2017
   urls:
     - https://www.deepl.com/
     - https://www.crunchbase.com/organization/linguee
@@ -127,7 +127,7 @@
   id: elevenlabs
   type: [ mt-provider ]
   location:
-  foundation: 2022
+  founded: 2022
   urls:
     - https://elevenlabs.io
     - https://www.crunchbase.com/organization/elevenlabs
@@ -136,7 +136,7 @@
   id: elhuyar
   type: [ technology-provider ]
   location: Spain
-  foundation: 1972
+  founded: 1972
   urls:
     - https://www.elhuyar.eus/en
     - https://www.crunchbase.com/organization/elhuyar
@@ -145,7 +145,7 @@
   id: european-commission
   type: [ mt-provider ]
   location: Belgium
-  foundation: 2017
+  founded: 2017
   urls:
     - https://commission.europa.eu/index_en
     - https://www.crunchbase.com/organization/european-commission
@@ -154,7 +154,7 @@
   id: globalese
   type: [ mt-provider ]
   location: Germany
-  foundation: 2017
+  founded: 2017
   urls:
     - https://www.globalese-mt.com/
     - https://www.crunchbase.com/organization/globalese
@@ -163,7 +163,7 @@
   id: google-cloud
   type: [ technology-provider ]
   location: United States
-  foundation: 2012
+  founded: 2012
   urls:
     - https://cloud.google.com/
     - https://www.crunchbase.com/organization/google-cloud-platform
@@ -177,7 +177,7 @@
 - name: Human Science
   id: human-science
   type: [ lsp, mt-aggregator ]
-  foundation: 1985
+  founded: 1985
   location: Japan
   urls:
     - https://www.science.co.jp/
@@ -186,7 +186,7 @@
 - name: IBM
   id: ibm-watson
   type: [ technology-provider ]
-  foundation: 2014
+  founded: 2014
   location: Unites States
   urls:
     - https://www.ibm.com/watson
@@ -196,7 +196,7 @@
   id: iconic
   type: [ mt-provider ]
   location: Ireland
-  foundation: 2013
+  founded: 2013
   url:
     - https://iconictranslation.com
     - https://www.crunchbase.com/organization/iconic-translation-machines
@@ -206,7 +206,7 @@
   id: imagetranslate
   type: [ mt-provider ]
   location: India
-  foundation: 2018
+  founded: 2018
   urls:
     - https://www.imagetranslate.com/
     - https://www.crunchbase.com/organization/imgtranslate
@@ -215,7 +215,7 @@
   id: intento
   type: [ mt-aggregator ]
   location: United States
-  foundation: 2016
+  founded: 2016
   urls:
     - https://inten.to/
     - https://www.crunchbase.com/organization/intento
@@ -225,7 +225,7 @@
   id: kakao
   type: [ technology-provider ]
   location: South Korea
-  foundation: 2010
+  founded: 2010
   urls:
     - https://www.kakaocorp.com/
     - https://www.crunchbase.com/organization/kakao
@@ -234,7 +234,7 @@
   id: kantan-ai
   type: [ mt-provider ]
   location: Ireland
-  foundation: 2012
+  founded: 2012
   urls:
     - https://www.kantanai.io/
     - https://www.crunchbase.com/organization/kantanmt
@@ -245,7 +245,7 @@
   id: kites
   type: [ mt-provider ]
   location: Germany
-  foundation: 2016
+  founded: 2016
   urls:
     - https://kites.ai
     - https://www.crunchbase.com/organization/kites-edaf
@@ -257,7 +257,7 @@
   id: kodensha
   type: [ mt-provider, lsp ]
   location: Japan
-  foundation: 1979
+  founded: 1979
   urls:
     - https://kodensha.j-server.com/LUCKDS/ns/tl.cgi/https://www.kodensha.jp/index/?SLANG=ja&TLANG=en&XMODE=0&XPARAM=q,&XCHARSET=UTF-8&XPORG=,&XJSID=0
     - https://www.crunchbase.com/organization/kodensha-031d
@@ -266,7 +266,7 @@
   id: language-io
   type: [ mt-provider ]
   location: United States
-  foundation: 2017
+  founded: 2017
   urls:
     - https://languageio.com/
     - https://www.crunchbase.com/organization/language-i-o
@@ -276,7 +276,7 @@
   id: language-wire
   type: [ lsp ]
   location: Denmark
-  foundation: 2000
+  founded: 2000
   urls:
     - https://www.languagewire.com/
     - https://www.crunchbase.com/organization/languagewire
@@ -287,7 +287,7 @@
   id: lexy
   type: [ mt-provider ]
   location: United States
-  foundation: 2015
+  founded: 2015
   urls:
     - https://lexy.io/
     - https://www.crunchbase.com/organization/dessert-labs
@@ -297,7 +297,7 @@
   id: lilt
   type: [ mt-provider, lsp ]
   location: United States
-  foundation: 2015
+  founded: 2015
   urls:
     - https://lilt.com/
     - https://www.crunchbase.com/organization/lilt
@@ -307,7 +307,7 @@
   id: lingmo
   type: [ mt-provider, lsp ]
   location: Australia
-  foundation: 2016
+  founded: 2016
   urls:
     - https://linktr.ee/lingmo_ai
     - https://www.crunchbase.com/organization/lingmo
@@ -316,7 +316,7 @@
   id: lingo24
   type: [ mt-provider, lsp ]
   location: United Kingdom
-  foundation: 2001
+  founded: 2001
   urls:
     - https://www.lingo24.com
     - https://www.crunchbase.com/organization/lingmo
@@ -328,7 +328,7 @@
   id: lingua-custodia
   type: [ mt-provider ]
   location: France
-  foundation: 2011
+  founded: 2011
   urls:
     - https://www.linguacustodia.finance/en/welcome/
     - https://www.crunchbase.com/organization/lingua-custodia
@@ -337,7 +337,7 @@
   id: lingvanex
   type: [ mt-provider ]
   location: Cyprus
-  foundation: 2016
+  founded: 2016
   urls:
     - https://lingvanex.com/
     - https://www.crunchbase.com/organization/lingvanex
@@ -346,7 +346,7 @@
   id: lionbridge
   type: [ lsp ]
   location: United States
-  foundation: 1996
+  founded: 1996
   urls:
     - https://www.lionbridge.com/
     - https://www.crunchbase.com/organization/lionbridge
@@ -357,7 +357,7 @@
   id: lucy
   type: [ mt-provider ]
   location: Germany
-  foundation: 2006
+  founded: 2006
   urls:
     - http://www.lucysoftware.com
     - https://www.crunchbase.com/organization/lucy-software-and-services
@@ -368,7 +368,7 @@
   id: microsoft-azure
   type: [ technology-provider ]
   location: United Kingdom
-  foundation: 2008
+  founded: 2008
   urls:
     - https://translator.microsoft.com/
     - https://www.crunchbase.com/organization/microsoft-azure
@@ -377,16 +377,16 @@
   id: mirai-translate
   type: [ mt-provider ]
   location: Japan
-  foundation: 2014
+  founded: 2014
   urls:
     - https://miraitranslate.com/
     - https://www.crunchbase.com/organization/mirai-translate-inc
 
 - name: ModelFront
   id: modelfront
-  type: [ qa-provider ]
+  type: [ qp-provider ]
   location: United States
-  foundation: 2019
+  founded: 2019
   urls:
     - https://www.modelfront.com/
     - https://www.crunchbase.com/organization/modelfront
@@ -395,7 +395,7 @@
   id: moravia
   type: [ lsp ]
   location: Czechia
-  foundation: 2014
+  founded: 2014
   urls:
     - http://www.moravia.com/
     - https://www.crunchbase.com/organization/moravia
@@ -406,7 +406,7 @@
   id: naver-cloud
   type: [ technology-provider ]
   location: South Korea
-  foundation: 2009
+  founded: 2009
   urls:
     - https://www.navercloudcorp.com/
     - https://www.crunchbase.com/organization/naver-cloud
@@ -415,7 +415,7 @@
   id: nict
   type: [ mt-provider ]
   location: Japan
-  foundation: 1896
+  founded: 1896
   urls:
     - https://www.nict.go.jp/en/index.html
     - https://www.crunchbase.com/organization/national-institute-of-information-and-communications-technology-japan
@@ -425,7 +425,7 @@
   id: netease
   type: [ technology-provider ]
   location: China
-  foundation: 1997
+  founded: 1997
   urls:
     - https://www.neteasegames.com
     - https://www.crunchbase.com/organization/netease-com
@@ -434,7 +434,7 @@
   id: npatmt
   type: [ mt-provider ]
   location: Japan
-  foundation: 2015
+  founded: 2015
   urls:
     - https://www.npat.co.jp/
 
@@ -443,7 +443,7 @@
   id: omniscien-technologies
   type: [ mt-provider ]
   location: The Netherlands
-  foundation: 2006
+  founded: 2006
   urls:
     - https://www.omniscien.com
     - https://www.crunchbase.com/organization/omniscien-technologies-trading
@@ -452,7 +452,7 @@
   id: oneliner
   type: [ lsp, mt-provider ]
   location: Belgium
-  foundation: 1999
+  founded: 1999
   urls:
     - https://oneliner.be/en/home.html
     - https://www.crunchbase.com/organization/oneliner
@@ -461,7 +461,7 @@
   id: pangeanic
   type: [ mt-provider, lsp ]
   location: Spain
-  foundation: 2000
+  founded: 2000
   urls:
     - https://www.pangeanic.com/
     - https://www.crunchbase.com/organization/pangeanic
@@ -470,7 +470,7 @@
   id: panlingua
   type: [ mt-provider ]
   location: India
-  foundation: 2017
+  founded: 2017
   urls:
     - http://panlingua.co.in/
     - https://github.com/panlingua
@@ -479,7 +479,7 @@
   id: phrase
   type: [ technology-provider ]
   location: Germany
-  foundation: 2010
+  founded: 2010
   urls:
     - https://phrase.com/
     - https://www.crunchbase.com/organization/phrase
@@ -495,7 +495,7 @@
   id: prompsit
   type: [ technology-provider ]
   location: Spain
-  foundation: 2006
+  founded: 2006
   urls:
     - https://prompsit.com/
     - https://www.crunchbase.com/organization/prompsit-language-engineering
@@ -504,7 +504,7 @@
   id: promt
   type: [ mt-provider ]
   location: Russia
-  foundation: 1991
+  founded: 1991
   urls:
     - https://www.promt.com
     - https://www.crunchbase.com/organization/promt
@@ -513,7 +513,7 @@
   id: rozetta
   type: [ mt-provider ]
   location: Japan
-  foundation: 2004
+  founded: 2004
   urls:
     - https://www.rozetta.jp/
     - https://www.crunchbase.com/organization/rozetta-corp
@@ -522,7 +522,7 @@
   id: reverso
   type: [ technology-provider ]
   location: France
-  foundation: 1998
+  founded: 1998
   urls:
     - https://www.reverso.net/text-translation
     - https://www.crunchbase.com/organization/reverso
@@ -532,7 +532,7 @@
   id: rws
   type: [ technology-provider, lsp, mt-provider ]
   location: United Kingdom
-  foundation: 1958
+  founded: 1958
   urls:
     - https://www.rws.com
     - https://www.crunchbase.com/organization/rws-group
@@ -541,7 +541,7 @@
   id: safaba
   type: [ mt-provider ]
   location: United States
-  foundation: 2009
+  founded: 2009
   active: false
   urls:
     - https://www.safaba.com
@@ -553,7 +553,7 @@
   id: sap
   type: [ technology-provider ]
   location: Germany
-  foundation: 1972
+  founded: 1972
   urls:
     - https://www.sap.com
     - https://www.crunchbase.com/organization/sap
@@ -562,7 +562,7 @@
   id: skrivanek
   type: [ mt-provider, lsp ]
   location: Germany
-  foundation: 2004
+  founded: 2004
   urls:
     - https://skrivanek.com/
     - https://www.crunchbase.com/organization/skrivanek
@@ -571,7 +571,7 @@
   id: sogou
   type: [ technology-provider ]
   location: China
-  foundation: 2004
+  founded: 2004
   urls:
     - https://fanyi.sogou.com/text
     - https://fanyi.sogou.com/download/pc/introduce
@@ -587,7 +587,7 @@
 
 - name: Symbyonics
   id: symbyonics
-  foundation: 2014
+  founded: 2014
   active: false
   urls:
     - https://www.linkedin.com/company/symbyonics-llc/
@@ -596,7 +596,7 @@
   id: systran
   type: [ mt-provider ]
   location: France
-  foundation: 1968
+  founded: 1968
   urls:
     - https://www.systransoft.com/
     - https://www.crunchbase.com/organization/systran-9361
@@ -605,7 +605,7 @@
   id: tarjama
   type: [ mt-provider, lsp ]
   location: United Arab Emirates
-  foundation: 2008
+  founded: 2008
   urls:
     - https://www.tarjama.com
     - https://www.crunchbase.com/organization/tarjama-and-ureed
@@ -614,7 +614,7 @@
   id: tauyou
   type: [ mt-provider ]
   location: Spain
-  foundation: 2006
+  founded: 2006
   urls:
     - https://www.tauyou.com
     - https://www.crunchbase.com/organization/ta-with-you
@@ -625,7 +625,7 @@
   id: tencent
   type: [ technology-provider ]
   location: China
-  foundation: 1998
+  founded: 1998
   urls:
     - https:///www.tencent.com/en-us
     - https://www.crunchbase.com/organization/tencent
@@ -634,7 +634,7 @@
   id: textshuttle
   type: [ mt-provider ]
   location: Switzerland
-  foundation: 2009
+  founded: 2009
   urls:
     - https://www.textshuttle.ai/en/
     - https://www.crunchbase.com/organization/textshuttle
@@ -643,7 +643,7 @@
   id: tilde
   type: [ mt-provider, lsp ]
   location: Latvia
-  foundation: 1991
+  founded: 1991
   urls:
     - https://www.tilde.com
     - https://www.crunchbase.com/organization/tilde-6e11
@@ -652,7 +652,7 @@
   id: tmxmall
   type: [ technology-provider, mt-aggregator ]
   location: China
-  foundation: 2014
+  founded: 2014
   urls:
     - https://www.tmxmall.com/
     - https://www.crunchbase.com/organization/tmxmall
@@ -661,7 +661,7 @@
   id: toin
   type: [ technology-provider ]
   location: Japan
-  foundation: 1963
+  founded: 1963
   urls:
     - https://to-in.com/en/service/mt
     - https://www.crunchbase.com/organization/toin
@@ -670,7 +670,7 @@
   id: translated
   type: [ lsp, mt-provider ]
   location: Italy
-  foundation: 1999
+  founded: 1999
   urls:
     - https://translated.com
     - https://www.crunchbase.com/organization/translated
@@ -679,7 +679,7 @@
   id: translateme
   type: [ mt-provider ]
   location: South Africa
-  foundation: 2016
+  founded: 2016
   urls:
     - https://translateme.network/
 
@@ -687,7 +687,7 @@
   id: transperfect
   type: [ lsp ]
   location: United States
-  foundation: 1992
+  founded: 1992
   urls:
     - https://www.transperfect.com
     - https://www.crunchbase.com/organization/transperfect
@@ -696,7 +696,7 @@
   id: ubiqus
   type: [ lsp ]
   location: France
-  foundation: 1991
+  founded: 1991
   urls:
     - https://www.ubiqus.com
     - https://www.crunchbase.com/organization/ubiqus
@@ -706,8 +706,8 @@
 - name: Unbabel
   id: unbabel
   type: [ mt-provider, lsp ]
-  location: Portugal
-  foundation: 2013
+  location: Portugal, United States
+  founded: 2013
   urls:
     - https://www.unbabel.com
     - https://www.crunchbase.com/organization/unbabel
@@ -716,7 +716,7 @@
   id: vidby
   type: [ mt-provider ]
   location: Switzerland
-  foundation: 2021
+  founded: 2021
   urls:
     - https://vidby.com/
     - https://www.crunchbase.com/organization/vidby
@@ -725,7 +725,7 @@
   id: vicomtech
   type: [ technology-provider ]
   location: Spain
-  foundation: 2001
+  founded: 2001
   urls:
     - https://www.vicomtech.org/
     - https://www.crunchbase.com/organization/vicomtech
@@ -735,17 +735,17 @@
   id: viva-translate
   type: [ mt-provider ]
   location: United States
-  foundation: 2020
+  founded: 2020
   urls:
     - https://www.vivatranslate.com/
     - https://www.crunchbase.com/organization/viva-translate
-  note: Raised pre-seed from Blue Ridge Foundation and $4M from General Catalyst, AIX Ventures, Fellows Fund, Hyphen Capital, First Check Ventures and angels
+  note: Raised pre-seed from Blue Ridge founded and $4M from General Catalyst, AIX Ventures, Fellows Fund, Hyphen Capital, First Check Ventures and angels
 
 - name: Xiaoniu Fanyi
   id: xiaoniu-fanyi
   type: [ mt-provider ]
   location: China
-  foundation: 2012
+  founded: 2012
   urls:
     - https://niutrans.com
     - https://www.crunchbase.com/organization/xiaoniu-fanyi
@@ -754,7 +754,7 @@
   id: xl8
   type: [ mt-provider ]
   location: United States
-  foundation: 2019
+  founded: 2019
   urls:
     - https://www.xl8.ai/
     - https://www.crunchbase.com/organization/xl8-inc
@@ -764,7 +764,7 @@
   id: yandex
   type: [ technology-provider ]
   location: Russia
-  foundation: 1997
+  founded: 1997
   urls:
     - https://www.yandex.ru
     - https://www.crunchbase.com/organization/yandex
@@ -773,7 +773,7 @@
   id: yappn
   type: [ mt-provider ]
   location: Canada
-  foundation: 2013
+  founded: 2013
   urls:
     - https://yappn.com/
     - https://www.crunchbase.com/organization/yappn
@@ -784,7 +784,7 @@
   id: yous
   type: [ technology-provider ]
   location: Cyprus
-  foundation: 2019
+  founded: 2019
   urls:
     - https://yous.ai/
     - https://www.crunchbase.com/organization/yous-de50
@@ -793,7 +793,7 @@
   id: wordlingo
   type: [ mt-provider ]
   location: United States
-  foundation: 1998
+  founded: 1998
   urls:
     - https://www.worldlingo.com
     - https://www.crunchbase.com/organization/worldlingo
@@ -804,7 +804,7 @@
   id: zhongke-fanyu-technology
   type: [ mt-provider ]
   location: China
-  foundation: 2018
+  founded: 2018
   urls:
     - http://www.zkfy.com/
     - https://www.crunchbase.com/organization/zhongke-fanyu-technology
