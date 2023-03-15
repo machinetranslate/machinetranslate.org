@@ -6,6 +6,8 @@ title: Indo-Iranian
 description: Machine translation for the Indo-Iranian language family
 code: iir
 languages:
+- slug: balochi
+  name: Balochi
 - slug: bengali
   name: Bengali
 - slug: divehi

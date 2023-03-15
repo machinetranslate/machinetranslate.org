@@ -12,11 +12,11 @@ privacy_url: null
 self_serve: true
 customisation: []
 supported_languages:
-- slug: null
+- slug: acholi
   code: ach
   normalized_code: ach
   base_code: ach
-  name: null
+  name: Acholi
   variant_name: null
 - slug: afrikaans
   code: afr
@@ -66,11 +66,11 @@ supported_languages:
   base_code: hy
   name: Armenian
   variant_name: null
-- slug: null
+- slug: algerian-arabic
   code: arq
   normalized_code: arq
   base_code: arq
-  name: null
+  name: Algerian Arabic
   variant_name: null
 - slug: assamese
   code: asm
@@ -102,11 +102,11 @@ supported_languages:
   base_code: ba
   name: Bashkir
   variant_name: null
-- slug: null
+- slug: balochi
   code: bal
   normalized_code: bal
   base_code: bal
-  name: null
+  name: Balochi
   variant_name: null
 - slug: belarusian
   code: bel
@@ -1098,11 +1098,11 @@ supported_languages:
   base_code: tlh
   name: Klingon
   variant_name: null
-- slug: null
+- slug: tsonga
   code: tso
   normalized_code: ts
   base_code: ts
-  name: null
+  name: Tsonga
   variant_name: null
 - slug: turkmen
   code: tuk
@@ -1116,11 +1116,11 @@ supported_languages:
   base_code: tr
   name: Turkish
   variant_name: null
-- slug: null
+- slug: twi
   code: twi
   normalized_code: tw
   base_code: tw
-  name: null
+  name: Twi
   variant_name: null
 - slug: uyghur
   code: uig
@@ -1146,11 +1146,11 @@ supported_languages:
   base_code: uz
   name: Uzbek
   variant_name: null
-- slug: null
+- slug: venda
   code: ven
   normalized_code: ve
   base_code: ve
-  name: null
+  name: Venda
   variant_name: null
 - slug: vietnamese
   code: vie

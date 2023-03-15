@@ -83,11 +83,11 @@ supported_languages:
   base_code: ba
   name: Bashkir
   variant_name: null
-- slug: null
+- slug: balochi
   code: bal
   normalized_code: bal
   base_code: bal
-  name: null
+  name: Balochi
   variant_name: null
 - slug: belarusian
   code: be
@@ -929,11 +929,11 @@ supported_languages:
   base_code: rm
   name: Romansh
   variant_name: null
-- slug: null
+- slug: kirundi
   code: rn
   normalized_code: rn
   base_code: rn
-  name: null
+  name: Kirundi
   variant_name: null
 - slug: romanian
   code: ro
@@ -989,11 +989,11 @@ supported_languages:
   base_code: se
   name: Northern Sami
   variant_name: null
-- slug: null
+- slug: sango
   code: sg
   normalized_code: sg
   base_code: sg
-  name: null
+  name: Sango
   variant_name: null
 - slug: null
   code: shn
@@ -1151,11 +1151,11 @@ supported_languages:
   base_code: tr
   name: Turkish
   variant_name: null
-- slug: null
+- slug: tsonga
   code: ts
   normalized_code: ts
   base_code: ts
-  name: null
+  name: Tsonga
   variant_name: null
 - slug: tatar
   code: tt
@@ -1169,11 +1169,11 @@ supported_languages:
   base_code: tvl
   name: null
   variant_name: null
-- slug: null
+- slug: twi
   code: tw
   normalized_code: tw
   base_code: tw
-  name: null
+  name: Twi
   variant_name: null
 - slug: tahitian
   code: ty
@@ -1211,11 +1211,11 @@ supported_languages:
   base_code: uz
   name: Uzbek
   variant_name: null
-- slug: null
+- slug: venda
   code: ve
   normalized_code: ve
   base_code: ve
-  name: null
+  name: Venda
   variant_name: null
 - slug: vietnamese
   code: vi

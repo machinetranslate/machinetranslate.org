@@ -12,6 +12,8 @@ languages:
   name: Ganda
 - slug: kinyarwanda
   name: Kinyarwanda
+- slug: kirundi
+  name: Kirundi
 - slug: kongo
   name: Kongo
 - slug: lingala
@@ -20,6 +22,12 @@ languages:
   name: Sotho
 - slug: swahili
   name: Swahili
+- slug: tsonga
+  name: Tsonga
+- slug: tswana
+  name: Tswana
+- slug: venda
+  name: Venda
 - slug: xhosa
   name: Xhosa
 - slug: zulu

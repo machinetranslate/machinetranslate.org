@@ -6,6 +6,8 @@ title: Niger-Congo
 description: Machine translation for the Niger-Congo language family
 code: nic
 languages:
+- slug: akan
+  name: Akan
 - slug: bemba
   name: Bemba
 - slug: chichewa
@@ -18,6 +20,8 @@ languages:
   name: Igbo
 - slug: kinyarwanda
   name: Kinyarwanda
+- slug: kirundi
+  name: Kirundi
 - slug: kongo
   name: Kongo
 - slug: lingala
@@ -28,6 +32,14 @@ languages:
   name: Sotho
 - slug: swahili
   name: Swahili
+- slug: tsonga
+  name: Tsonga
+- slug: tswana
+  name: Tswana
+- slug: twi
+  name: Twi
+- slug: venda
+  name: Venda
 - slug: wolof
   name: Wolof
 - slug: xhosa
