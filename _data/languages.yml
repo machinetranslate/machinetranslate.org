@@ -1,4 +1,13 @@
 ---
+#-
+#  codes: [  ]
+#  names: [  ]
+#  family: [  ]
+#  scripts: [  ]
+#  typology:
+#    word_order: [  ]
+#    morphosyntax: [  ]
+#  territories: [  ]
 
 -
   codes: [ ab ]
@@ -9,6 +18,26 @@
     word_order: [ SOV ]
     morphosyntax: [ agglutinative, synthetic ]
   territories: [ ge, ru ]
+
+-
+  codes: [ ach, lth ]
+  names: [ Acholi, Leb Acoli ]
+  family: [ ssa ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic ]
+  territories: [ ug ]
+
+-
+  codes: [ aka ]
+  names: [ Akan ]
+  family: [ nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic, agglutinative ]
+  territories: [ ci, gh ]
 
 -
   codes: [ af, afr ]
@@ -50,6 +79,16 @@
     word_order: [ VSO ]
     morphosyntax: [ fusional, synthetic ]
   territories: [ ae, bh, dj, dz, eg, er, iq, jo, kw, lb, ly, ma, mr, om, ps, qa, sa, sd, so, sy, tn, ye ]
+
+-
+  codes: [ arq ]
+  names: [ Algerian Arabic, Dziria, Darja, Derja ]
+  family: [ sem, afa ]
+  scripts: [ Arab ]
+  typology:
+    word_order: [ SVO, VSO, OSV ]
+    morphosyntax: [ inflected, synthetic ]
+  territories: [ dz ]
 
 -
   codes: [ as, asm ]
@@ -100,6 +139,16 @@
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]
   territories: [ ru ]
+
+-
+  codes: [ bal, bgp, bgn, bcc ]
+  names: [ Balochi, Baluchi ]
+  family: [ ira, iir, ine ]
+  scripts: [ Arab, Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected, agglutinative, isolating ]
+  territories: [ af, ir, pk ]
 
 -
   codes: [ be, bel ]
@@ -598,7 +647,7 @@
   territories: [ hu, ro, rs, sk, sl, at ]
 
 -
-  codes: [ hy, hye, hyw ]
+  codes: [ hy, hye, hyw, arm ]
   names: [ Armenian]
   family: [ ine ]
   scripts: [ Armn ]
@@ -955,7 +1004,7 @@
 # https://en.wikipedia.org/wiki/Mari_language
 
 -
-  codes: [ ms, msa, may ]
+  codes: [ ms, msa, may, zlm ]
   names: [ Malay ]
   family: [ map ]
   scripts: [ Latn, Arab ]
@@ -1144,6 +1193,16 @@
   territories: [ ch ]
 
 -
+  codes: [ rn, run ]
+  names: [ Kirundi, Rundi ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic ]
+  territories: [ bi, cd, rw, tz ]
+
+-
   codes: [ ru, rus ]
   names: [ Russian ]
   family: [ sla, ine ]
@@ -1192,6 +1251,16 @@
     word_order: [ SVO ]
     morphosyntax: [ agglutinative, inflected, fusional ]
   territories: [ 'no', fi, se ]
+
+-
+  codes: [ sg, sag ]
+  names: [ Sango, Sangho ]
+  family: [ crp ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ isolating, analytic ]
+  territories: [ cd, cf, td ]
 
 -
   codes: [ si, sin ]
@@ -1412,6 +1481,16 @@
   territories: [ ]
 
 -
+  codes: [ tn ]
+  names: [ Tswana, Setswana ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ bw, za, zw ]
+
+-
   codes: [ to, ton ]
   names: [ Tonga, Tongan ]
   family: [ map ]
@@ -1432,6 +1511,16 @@
   territories: [ tr, cy ]
 
 -
+  codes: [ ts, tso ]
+  names: [ Tsonga, Xitsonga ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ za, zw ]
+
+-
   codes: [ tt, tat ]
   names: [ Tatar ]
   family: [ trk ]
@@ -1440,6 +1529,16 @@
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]
   territories: [ ru, cn ]
+
+-
+  codes: [ tw, twi ]
+  names: [ Twi ]
+  family: [ nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic ]
+  territories: [ gh ]
 
 -
   codes: [ ty, tah ]
@@ -1500,6 +1599,16 @@
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]
   territories: [ uz ]
+
+-
+  codes: [ ve, ven ]
+  names: [ Venda, Tshivenda, Setswetla ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic ]
+  territories: [ za, zw ]
 
 -
   codes: [ vi, vie ]
