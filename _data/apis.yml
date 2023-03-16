@@ -1,6 +1,7 @@
 ---
 - name: AISA
   id: aisa
+  company: aisa-digital
   urls:
    - https://www.aisa.digital/machine-translation-api
   privacy_url: https://www.aisa.digital/terms-of-use/
@@ -10,13 +11,12 @@
     - gaming
   stock_api_domains_urls:
     - https://www.aisa.digital/e-commerce-translation/
-
   glossary: true
   self-serve: false
 
-
 - name: Alexa Translations A.I.
-  id: alexa-ai
+  id: alexa-translations-ai
+  company: alexa-translations-ai
   urls:
    - https://alexatranslations.com/alexa-translations-a-i
   languages: [ ar, de, en, es-419, fr-ca, it, ja, ko, pt-br, zh ]
@@ -29,9 +29,9 @@
     - https://alexatranslations.com/legal/
   self-serve: false
 
-
 - name: Alibaba Translate
   id: alibaba
+  company: alibaba-group
   urls:
    - https://www.alibabacloud.com/es/product/machine-translation
    - https://www.alibabacloud.com/help/en/machine-translation/latest/general-version-of-machine-translation
@@ -46,6 +46,7 @@
 
 - name: Amazon Translate
   id: amazon
+  company: amazon
   urls:
    - https://aws.amazon.com/es/translate
    - https://docs.aws.amazon.com/translate/latest/dg/what-is.html
@@ -56,8 +57,18 @@
   adaptive: true
   self-serve: true
 
+- name: Amplexor MT
+  id: amplexor-mt
+  company: amplexor
+  urls:
+    - https://www.acolad.com/en/technology/machine-translation.html
+  languages: [ ]
+  self-serve: false
+
 - name: Apertium
+  alternative_names: Prompsit
   id: apertium
+  company: apertium
   urls:
    - https://www.apertium.org
    - https://wiki.apertium.org/wiki/Main_Page
@@ -66,6 +77,7 @@
 
 - name: AppTek
   id: apptek
+  company: apptek
   urls:
    - https://www.apptek.com
    - https://docs.apptek.com/reference/machine-translation
@@ -82,6 +94,7 @@
 
 - name: Baidu Translate
   id: baidu
+  company: baidu
   urls:
    - https://ai.baidu.com/tech/mt/text_trans
    - https://ai.baidu.com/ai-doc/MT/4kqryjku9#语种列表
@@ -89,9 +102,17 @@
   languages: [ ach, afr, aka, alb, amh, ang, ara, arg, arm, arq, asm, ast, aym, aze, bak, bal, bel, bem, ben, ber, bho, bis, bli, bod, bos, bre, bul, cat, ceb, ces, chr, chv, cnr, cor, cos, cre, crh, csb, cym, dan, deu, div, eab, ell, eng, epo, est, eus, fao, fil, fin, fr-ca, fr-fr, frm, ful, fur, fry, geo, gla, gle, glg, glv, grc, grn, guj, hak, hat, hau, haw, hbs, heb, hin, hil, hsb, hup, hrv, hun, ibo, ind, isl, ido, iku, ina, inh, ita, jav, jpn, kab, kal, kan, kas, kau, kaz, khm, kin, kir, tlh, kok, kon, kor, kur, ltg, lao, lat, lav, lim, lin, lit, ltz, nds, dsb, lug, lzh, mah, mai, mal, mar, mkd, mri, msa, mlg, mlt, mon, mya, nap, nbl, nep, nld, nno, nob, nor, nqo, nso, nya, oci, oji, ori, orm, oss, pam, pan, pap, per, pol, pt-br, pt-pt, pus, que, ron, rom, roh, rus, rsk, san, sco, shn, sin, slk, slv, smo, sme, sna, snd, son, som, sot, spa, srd, srp, swa, swe, syr, szl, tam, tat, tel, tet, tgk, tgl, tha, tir, tso, tur, tuk, twi, uig, ukr, urd, uzb, ven, vie, wln, wol, xho, yid, yor, yue, zaz, zh-cn, zh-tw, zul ]
   self-serve: true
 
+- name: Belazar
+  id: belazar
+  company: belazar
+  urls:
+    - http://belazar.info/belazar/index.php?page=belazar&lng=by
+  languages: [ be, ru ]
+  self-serve: true
 
 - name: CloudTranslation
   id: cloudtranslation
+  company: cloudtranslation
   urls:
    - https://www.cloudtranslation.com
    - https://cloudtranslation.com/static/api_en.html
@@ -116,6 +137,7 @@
 
 - name: DeepL
   id: deepl
+  company: deepl
   urls:
    - https://www.deepl.com
    - https://www.deepl.com/en/docs-api/
@@ -125,8 +147,18 @@
   formality: true
   self-serve: true
 
+- name: Elia
+  id: elia
+  company: Elhuyar
+  urls:
+    - https://elia.eus/start
+  languages: [ ca, en, es, eu, fr, gl ]
+  glossary: true
+  self-serve: true
+
 - name: eTranslation
   id: etranslation
+  company: european-commission
   urls:
    - https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en#translateonline
   privacy_url: https://ec.europa.eu/info/privacy-policy_en
@@ -138,20 +170,31 @@
     - https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en
   self-serve: true
 
-- name: Judicio
-  id: judicio
+- name: Fairtrade
+  id: fairtrade
+  company: symbyonics
   urls:
-   - https://judic.io
-  privacy_url: https://judic.io/en/about
-  languages: [ de, en, fr, nl ]
-  stock_api_domains:
-    - legal
-  stock_api_domains_urls:
-    - https://judic.io/en
+    - https://web.archive.org/web/20170613150555/https://fairtradetranslation.com/
+  languages: [ ]
+  supported_engines:
+    - google
+    - microsoft
+    - language-weaver
+  active: false
+  self-serve: true
+
+- name: Geofluent
+  id: geofluent
+  company: lionbridge
+  urls:
+    - https://developers.lionbridge.com/geofluent/index.html
+    - https://api.geofluent.com/Translation/v3/ui/index
+  languages: [ ]
   self-serve: false
 
 - name: Globalese
   id: globalese
+  company: globalese
   urls:
    - https://www.globalese-mt.com
    - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069899/Stock+corpora
@@ -162,6 +205,7 @@
 - name: Google Translate
   alternative_names: [ Google Cloud Translation API, Google Cloud Translation AutoML ]
   id: google
+  company: google
   urls:
    - https://console.cloud.google.com/apis/library/translate.googleapis.com
    - https://cloud.google.com/translate/docs/languages
@@ -172,8 +216,61 @@
   glossary: true
   self-serve: true
 
+- name: Iconic
+  id: iconic
+  company: rws
+  urls:
+    - https://web.archive.org/web/20220308061419/https://iconictranslation.com/
+    - https://web.archive.org/web/20200610012330/https://iconictranslation.com/what-we-do/bespoke-solutions/languages/
+  privacy_url:
+    - https://iconictranslation.com/what-we-do/neural-machine-translation/information-security/
+  languages: [ af, ar, bs, bg, ca, cs, cy, da, de, en, el, es, et, fa, fj, fi, fil, fr, he, hi, hr, ht, hu, id, it, ja, ko, lt, lv, mg, mt, ms, nl, 'no', pl, pt, ro, ru, sk, sl, sm, sr, sv, sw, th, to, tr, ty, uk, ur, vi, yue, zh-cn, zh-tw ]
+  stock_api_domains:
+    - automotive
+    - it
+    - finance
+    - government
+    - legal
+    - life sciences
+    - patents
+  active: false
+
+- name: IP Translator
+  id: iptranslator
+  company: iconic
+  urls:
+    - https://web.archive.org/web/20181223111834/http://iconictranslation.com/products/iptranslator/
+  languages: [ af, ar, bs, bg, ca, cs, cy, da, de, en, el, es, et, fa, fj, fi, fil, fr, he, hi, hr, ht, hu, id, it, ja, ko, lt, lv, mg, mt, ms, nl, 'no', pl, pt, ro, ru, sk, sl, sm, sr, sv, sw, th, to, tr, ty, uk, ur, vi, yue, zh-cn, zh-tw ]
+  stock_api_domains:
+    - patents
+  active: false
+
+- name: Judicio
+  id: judicio
+  company: crosslang
+  urls:
+   - https://judic.io
+  privacy_url: https://judic.io/en/about
+  languages: [ de, en, fr, nl ]
+  stock_api_domains:
+    - legal
+  stock_api_domains_urls:
+    - https://judic.io/en
+  self-serve: false
+
+- name: Kakao
+  id: kakao
+  company: kakao-cloud
+  urls:
+    - https://developers.kakao.com/product/translation
+    - https://developers.kakao.com/docs/restapi/en/translation
+  languages: [ ar, bn, de, en, es, fr, hi, id, it, ja, ko, ms, nl, pt, ru, th, tr, vi, zh ]
+  formality: true
+  self-serve: true
+
 - name: KantanMT
   id: kantanmt
+  company: kantan-ai
   urls:
    - https://www.kantanai.io
    - https://kantanmt.docs.apiary.io/#reference
@@ -193,8 +290,17 @@
   self-serve: false
   adaptive: true
 
+- name: Kodensha MT
+  id: kodensha
+  company: kodensha
+  urls:
+    - https://kodensha.j-server.com/LUCKDS/ns/tl.cgi/https://www.kodensha.jp/index/products/category/cloud/?SLANG=ja&TLANG=en&XMODE=0&XPARAM=q,SURL,trans_src,&XCHARSET=UTF-8&XPORG=,687474703a2f2f,,&XJSID=0#heading
+  languages: [ ar, bg, ca, cs, cy, da, de, el, en, es, et, fa, fi, fr, he, hi, ht, hu, id, it, ja, ko, lt, lv, mt, nl, 'no', pl, pt, ro, ru, sk, sl, sv, th, tr, uk, ur, vi, zh-cn, zh-tw ]
+  self-serve: false
+
 - name: Language Weaver
   id: language-weaver
+  company: rws
   urls:
    - https://www.rws.com/language-weaver
    - https://docs.rws.com/791593/662987/language-weaver/welcome-to-the-------------language-weaver-documentation
@@ -204,18 +310,30 @@
   self-serve: true
   adaptive: true
 
+- name: Language Wire
+  id: language-wire
+  company: language-wire
+  urls:
+    - https://www.languagewire.com/en/technology/languagewire-translate
+  privacy_url:
+    - https://www.languagewire.com/en/info/terms-and-conditions
+  languages: [ da, de, en, es, fr, fr, nl, sv ]
+  self-serve: true
+
 - name: Lilt
   id: lilt
+  company: lilt
   urls:
    - https://lilt.com
    - https://support.lilt.com/kb/11075725.html
   privacy_url: https://lilt.com/technology/security
   languages: [ [af, en], [ar, en], [bg, en], [bn, en], [cs, en], [da, en], [de, en], [de, fr], [de, it], [de, tr], [el, en], [en, af], [en, ar], [en, bg], [en, bn], [en, cs], [en, da], [en, de], [en, el], [en, es], [en, fa], [en, fi], [en, fr], [en, gu], [en, he], [en, hi], [en, hr], [en, hu], [en, id], [en, it], [en, ja], [en, kn], [en, ko], [en, ml], [en, mr], [en, nl], [en, 'no'], [en, pa], [en, pl], [en, pt], [en, ro], [en, ru], [en, sk], [en, sl], [en, sq], [en, sv], [en, sw], [en, ta], [en, te], [en, th], [en, tl], [en, tr], [en, uk], [en, vi], [en, zh-cn], [en, zh-tw], [es, en], [es, pt], [fa, en], [fa, he], [fi, en], [fr, en], [gu, en], [he, en], [hi, en], [hr, en], [hu, en], [id, en], [ig, en], [it, en], [ja, en], [ja, zh-cn], [jv, en], [ko, en], [ml, en], [mr, en], [ms, en], [nl, en], ['no', en], [pa, en], [pl, en], [prs, en], [ps, en], [pt, en], [pt, es], [ro, en], [ru, en], [sk, en], [sl, en], [sq, en], [sv, en], [sw, en], [ta, en], [te, en], [th, en], [tl, en], [tr, en], [uk, en], [ur, en], [vi, en], [zh-cn, en], [zh-cn, ja], [zh-tw, en] ]
-  self-serve: false
   adaptive: true
+  self-serve: false
 
 - name: Lingmo Translation
   id: lingmo
+  company: lingmo
   urls:
    - https://lingmointernationalnet.wordpress.com
    - http://live.lingmo-api.com/support/lingmo-translation-languages.html
@@ -224,23 +342,58 @@
 
 - name: Lingo24
   id: lingo24
+  company: unbabel
   urls:
    - https://www.lingo24.com
    - https://developer.lingo24.com/documentation
   privacy_url: https://www.lingo24.com/about/privacy-and-terms/
   languages: [ ar, da, de, en, es, fr, it, nl, pl, pt-br, pt-pt, ru, sv, tr ]
   self-serve: true
+  active: false
+
+- name: Lingua Custodia
+  id: lingua-custodia
+  company: lingua-custodia
+  urls:
+    - https://www.linguacustodia.finance/en/welcome/
+  privacy_url:
+    - https://www.linguacustodia.finance/en/lingua-custodia-privacy-policy/
+  languages: [ ]
+  stock_api_domains:
+    - finance
+  self-serve: false
 
 - name: LingvaNex
   id: lingvanex
+  company: lingvanex
   urls:
    - https://lingvanex.com
    - https://docs.lingvanex.com/reference/user-guide
   languages: [ af-za, sq-al, am-et, ar-sa, hy-am, az-az, eu-es, be-by, bn-bd, bs-ba, bg-bg, ca-es, ceb-ph, ny-mw, zh-Hans-cn, zh-Hant-tw, co-fr, ht-ht, hr-hr, cs-cz, da-dk, nl-nl, en-us, eo, et-ee, fi-fi, fr-ca, fy-nl, gl-es, ka-ge, de-de, el-gr, gu-in, ha-ne, haw-us, he-il, hi-in, hmn-cn, hu-hu, is-is, ig-ng, id-id, ga-ie, it-it, ja-jp, jv-id, kn-in, kk-kz, km-kh, rw-rw, ko-kr, ku-ir, ky-kg, lo-la, la-vat, lv-lv, lt-lt, lb-lu, mk-mk, mg-mg, ms-my, ml-in, mt-mt, mi-nz, mr-in, mn-mn, my-mm, ne-np, 'no-no', or-or, ps-af, fa-ir, pl-pl, pt-pt, pa-pk, ro-ro, ru-ru, sm-ws, gd-gb, sr-Cyrl-rs, st-ls, sn-zw, sd-pk, si-lk, sk-sk, sl-si, so-so, es-es, su-id, sw-tz, sv-se, tl-ph, tg-tj, ta-in, tt-tt, te-in, th-th, tr-tr, tk-tk, uk-ua, ur-pk, ug-ug, uz-uz, vi-vn, cy-gb, xh-za, yi-il, yo-ng, zu-za ]
   self-serve: true
 
+- name: LT Gear
+  id: ltgear
+  company: rws
+  urls:
+    - https://ltgear3.moravia.com/
+    - https://ltgear3.moravia.com//swagger/ui/index
+  languages: [ ]
+  self-serve: false
+
+- name: Lucy
+  id: lucy
+  company: lucy
+  urls:
+    - https://web.archive.org/web/20181215110852/http://www.lucysoftware.com/english/machine-translation/
+  privacy_url:
+    - https://web.archive.org/web/20180922112117/http://www.lucysoftware.com/english/machine-translation/data-security/lucy-lt-data-security.html
+  languages: [ ca, de, en, es, eu, fr, gl, pt, ru ]
+  active: false
+
 - name: Microsoft Translator
   id: microsoft
+  company: microsoft
   urls:
    - https://translator.microsoft.com
    - https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
@@ -250,8 +403,9 @@
   glossary: true
   self-serve: true
 
-- name: Mirai Translate
+- name: Mirai Translator
   id: mirai
+  company: mirai-translate
   urls:
    - https://miraitranslate.com/en/
    - https://miraitranslate.com/en/service/miraitranslator/
@@ -267,6 +421,7 @@
 
 - name: ModernMT
   id: modernmt
+  company: translated
   urls:
    - https://modernmt.com
    - https://www.modernmt.com/api/#languages
@@ -275,8 +430,23 @@
   adaptive: true
   self-serve: true
 
+- name: MoraviaMT
+  id: moraviamt
+  company: moravia
+  urls: [ ]
+  languages: [ ]
+
+- name: Moses
+  id: moses
+  urls:
+    - http://www2.statmt.org/moses/
+    - https://github.com/moses-smt/mosesdecoder
+  languages: [ ]
+  self-serve: true
+
 - name: Niutrans
   id: niutrans
+  company: xiaoniu-fanyi
   urls:
    - https://niutrans.com
    - https://niutrans.com/documents/contents/trans_text#languageList
@@ -285,8 +455,20 @@
   glossary: true
   self-serve: true
 
+- name: NpatMT
+  id: npatmt
+  company: npat
+  urls:
+    - https://www.npat.co.jp/
+  languages: [ ]
+  stock_api_domains:
+    - patents
+  adaptive: true
+
 - name: Omniscien Technologies
+  other_names: [ Asia Online ]
   id: omniscien
+  company: omniscien-technologies
   urls:
    - https://omniscien.com
    - https://omniscien.com/machine-translation/supported-languages/
@@ -322,8 +504,16 @@
   adaptive: true
   self-serve: true
 
+- name: Opus CAT
+  id: opus-cat
+  company: helsinki-nlp
+  urls:
+    - https://helsinki-nlp.github.io/OPUS-CAT/
+  languages: [ ]
+
 - name: PangeaMT
   id: pangeamt
+  company: pangeanic
   urls:
    - https://languagetechnology.pangeanic.com/machine-translation/
    - https://prod.pangeamt.com/
@@ -334,6 +524,7 @@
 
 - name: Papago Translation
   id: papago
+  company: naver
   urls:
    - https://papago.naver.com/business
    - https://www.ncloud.com/product/aiService/papagoTranslation
@@ -344,6 +535,7 @@
 
 - name: Phrase NextMT
   id: phrase-nextmt
+  company: phrase
   urls:
     - https://phrase.com/products/phrase-nextmt/
   languages: [ [cs, en], [de, en], [en, cs], [en, de], [en, es], [en, fr], [en, it], [en, nl], [en, ru], [es, en], [fr, en], [it, en], [nl, en], [ru, en] ]
@@ -351,16 +543,36 @@
   adaptive: true
   self-serve: true
 
+- name: Plata Vicomtech
+  id: plata-vicomtech
+  company: vicomtech
+  urls: [ ]
+  languages: [ ]
+  stock_api_domains:
+    - news
+    - technology
+  active: false
+
 - name: PROMT
   id: promt
+  company: promt
   urls:
    - https://www.promt.com
    - https://www.promt.com/translation_software/corporate/developer/promt-cloud-api/
   languages: [ ar, az, bg, cs, da, de, en, es, et, fa, fi, fr, he, hi, hr, hu, hy, it, ja, ka, kk, ko, ky, lt, lv, nl, pl, pt, ru, sk, sr, sv, tg, tk, tr, tt, uk, uz, zh-cn, zh-tw, zsm ]
   self-serve: false
 
+- name: Reverso
+  id: reverso
+  company: reverso
+  urls:
+    - https://www.reverso.net/text-translation
+  languages: [ ar, cs, da, de, el, en, es, fa, fr, he, hi, hu, it, ja, ko, nl, pl, pt, ro, ru, sk, sv, th, tr, uk, zh ]
+  self-serve: true
+
 - name: Rozetta T-400
   id: rozetta
+  company: rozetta
   urls:
    - https://www.jukkou.com
    - https://www.jukkou.com/form/lang.html
@@ -376,8 +588,16 @@
     - https://www.rozetta.jp/t4oo/
   self-serve: false
 
+- name: Safaba
+  id: safaba
+  company: safaba
+  urls: [ ]
+  languages: [ ]
+  active: false
+
 - name: SAP Translation Hub
   id: sap
+  company: sap
   urls:
    - https://www.sapstore.com/solutions/40076/SAP-Translation-Hub
    - https://help.sap.com/docs/SAP_TRANSLATION_HUB/9f73362817cd48339dd8a6acba160f7f/c07bd4ee447b477b9ccb31b3abf5dae3.html?locale=en-US
@@ -395,8 +615,40 @@
     - https://help.sap.com/docs/SAP_TRANSLATION_HUB/ed6ce7a29bdd42169f5f0d7868bce6eb/35628564620d46ab8d218c04ac0140ea.html?locale=en-US&q=translation%20domains
   self-serve: true
 
+- name: Skrivanek
+  id: skrivanek
+  company: skrivanek
+  urls:
+    - https://skrivanek.com/other-services/machine-translation/
+  privacy_url:
+    - https://skrivanek.com/wp-content/uploads/2021/03/processing-and-protection-of-personal-data-in-skrivanek-0.pdf
+  languages: [ ]
+  self-serve: false
+
+- name: Slate Desktop
+  id: slate
+  company: Precision Translation Tools
+  urls:
+    - http://www.slatedesktop.com/
+    - http://www.precisiontranslationtools.com/slate/
+  languages: [ ]
+  active: false
+
+- name: Sogou Translate
+  id: sogou-translate
+  company: sogou
+  urls:
+    - https://fanyi.sogou.com/text
+  languages: [ ar, cs, da, de, en, es, fi, fr, hu, it, ja, ko, nl, pl, pt, ru, sv, th, tr, vi, zh ]
+  stock_api_domains:
+    - general
+    - biomedical
+    - finance
+  self-serve: false
+
 - name: Sunda Translator
   id: sunda
+  company: sunda-systems
   urls:
    - https://www.sunda.fi
    - https://www.sunda.fi/en/technology-tools.html
@@ -407,6 +659,7 @@
 
 - name: SYSTRAN
   id: systran
+  company: systran
   urls:
    - https://www.systransoft.com
    - https://docs.systran.net/translatePro/en/index.html
@@ -434,14 +687,23 @@
 
 - name: Tarjama MT
   id: tarjama
+  company: tarjama
   urls:
    - https://www.tarjama.com/amt/
    - https://github.com/machinetranslate/machinetranslate.org/blob/c7a75040f1bdfce144272231a7d253273b58cb33/files/C-TarjamaMTAPIDescription-150622-0817.pdf
   languages: [ [en, ar], [ar, en] ]
   self-serve: false
 
+- name: Tauyou
+  id: tauyou
+  company: tauyou
+  urls: [ ]
+  languages: [ ]
+  active: false
+
 - name: Tencent Machine Translation
   id: tencent
+  company: tencent
   urls:
    - https://cloud.tencent.com/product/tmt
    - https://cloud.tencent.com/document/api/551/15619
@@ -451,6 +713,7 @@
 
 - name: TextShuttle
   id: textshuttle
+  company: textshuttle
   urls:
    - https://www.textshuttle.ai/
    - https://www.textshuttle.ai/product/features#subscription
@@ -463,6 +726,7 @@
 
 - name: TexTra
   id: textra
+  company: nict
   urls:
    - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/
    - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/api/
@@ -470,9 +734,9 @@
   languages: [ [ar, en], [ar, ja], [ar, ja], [de, en], [de, en], [de, ja], [de, ja], [de, ja], [en, ar], [en, ar], [en, de], [en, de], [en, de], [en, es], [en, es], [en, fil], [en, fr], [en, fr], [en, fr], [en, id], [en, it], [en, it], [en, ja], [en, ja], [en, ja], [en, ja], [en, ja], [en, ja], [en, km], [en, ko], [en, ko], [en, mn], [en, my], [en, ne], [en, pt], [en, pt], [en, ru], [en, th], [en, vi], [en, vi], [en, zh-cn], [en, zh-cn], [en, zh-cn], [en, zh-tw], [en, zh-tw], [en, zh-tw], [es, en], [es, ja], [es, ja], [fil, en], [fil, ja], [fil, ja], [fr, en], [fr, en], [fr, ja], [fr, ja], [fr, ja], [id, en], [id, ja], [id, ja], [it, en], [it, ja], [it, ja], [ja, ar], [ja, ar], [ja, de], [ja, de], [ja, de], [ja, en], [ja, en], [ja, en], [ja, en], [ja, en], [ja, en], [ja, es], [ja, es], [ja, fil], [ja, fil], [ja, fr], [ja, fr], [ja, fr], [ja, id], [ja, id], [ja, it], [ja, it], [ja, km], [ja, km], [ja, ko], [ja, ko], [ja, ko], [ja, mn], [ja, mn], [ja, my], [ja, my], [ja, ne], [ja, ne], [ja, pt], [ja, pt], [ja, ru], [ja, ru], [ja, th], [ja, th], [ja, vi], [ja, vi], [ja, zh-cn], [ja, zh-cn], [ja, zh-cn], [ja, zh-cn], [ja, zh-tw], [ja, zh-tw], [ja, zh-tw], [ja, zh-tw], [km, en], [km, ja], [km, ja], [ko, en], [ko, ja], [ko, ja], [ko, ja], [mn, en], [mn, ja], [mn, ja], [my, en], [my, ja], [my, ja], [ne, en], [ne, ja], [ne, ja], [pt, en], [pt, ja], [pt, ja], [ru, en], [ru, ja], [ru, ja], [th, en], [th, ja], [th, ja], [vi, en], [vi, ja], [vi, ja], [zh-cn, en], [zh-cn, en], [zh-cn, ja], [zh-cn, ja], [zh-cn, ja], [zh-cn, ja], [zh-tw, en], [zh-tw, en], [zh-tw, ja], [zh-tw, ja], [zh-tw, ja], [zh-tw, ja] ]
   self-serve: true
 
-
 - name: Tilde
   id: tilde
+  company: tilde
   urls:
    - https://www.tilde.com/products-and-services/machine-translation
    - https://www.tilde.com/developers/machine-translation-api
@@ -484,14 +748,49 @@
 
 - name: TranslateMe
   id: translateme
+  company: translateme
   urls:
    - https://translateme.network
    - https://translateme.network/api/
   languages: [ [de, en], [es, en], [fr, en], [it, en], [nl, en], [pt, en], [ru, en], [tr, en], [zh, en], [zu, en] ]
   self-serve: true
 
+- name: T-tact-AN-ZIN
+  id: t-tact-an-zin
+  company: toin
+  urls:
+    - https://to-in.com/en/service/mt/an-zin
+  privacy_url: https://to-in.com/en/security
+  languages: [ [en, my], [en, pt], [en, ru], [en, th], [en, vi], [en, zh-tw], [en, zh-cn], [ja, de], [ja, en], [ja, es], [ja, fr], [ja, id], [ja, it], [ja, it], [ja, ko], [ja, my], [ja, pt], [ja, th], [ja, vi], [ja, zh-cn], [ja, zh-tw] ]
+  stock_api_domains:
+    - finance
+    - legal
+    - patents
+  self-serve: false
+
+- name: Ubiqus NMT
+  id: ubiqus
+  company: ubiqus
+  urls:
+    - https://www.ubiqus.com/
+    - https://documenter.getpostman.com/view/8281683/SVtSX9x2
+  languages: [ ]
+  stock_api_domains:
+    - finance
+    - technology
+    - public sector
+    - legal
+    - lifestyle
+    - medical
+    - industry
+    - aerospace
+    - luxury
+  glossary: true
+  self-serve: false
+
 - name: Unbabel
   id: unbabel
+  company: unbabel
   urls:
    - https://unbabel.com
    - https://developers.unbabel.com/reference/mt_translation
@@ -501,6 +800,7 @@
 
 - name: XL8
   id: xl8
+  company: xl8
   urls:
    - https://www.xl8.ai
    - https://api.xl8.ai/v1/trans/languages
@@ -510,6 +810,7 @@
 
 - name: Yandex Translate
   id: yandex
+  company: yandex
   urls:
    - https://translate.yandex.com/
    - https://yandex.com/dev/translate/doc/dg/concepts/api-overview.html
@@ -519,6 +820,7 @@
 
 - name: YeeKit
   id: yeekit
+  company: gtcom
   urls:
    - https://api.yeekit.com/mannual.php#docs
    - https://api.yeekit.com
@@ -527,6 +829,7 @@
 
 - name: Youdao Translate
   id: youdao
+  company: netease
   urls:
    - https://ai.youdao.com/
    - https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html
@@ -542,6 +845,7 @@
 
 - name: Watson Language Translator
   id: watson
+  company: ibm
   urls:
    - https://ibm.com/cloud/watson-language-translator
    - https://cloud.ibm.com/docs/language-translator?topic=language-translator-translation-models
@@ -553,6 +857,7 @@
 
 - name: Wordlingo
   id: wordlingo
+  company: transperfect
   urls:
    - https://www.worldlingo.com/en/products/worldlingo_api.html
    - https://www.worldlingo.com/en/downloads/ServiceAPI.pdf

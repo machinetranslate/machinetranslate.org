@@ -7,14 +7,14 @@
 #   api_integrations:
 #      - <string>: # slug of the corresponding API id
 #          custom: true | false # Is the API custom model available from the tool?
-#          tone: true | false # Is tone/formality selection available from the tool?
+#          formality: true | false # Is formality/formality selection available from the tool?
 #          glossary true | false # Is the machine translation glossary/terminology/dictionary available from the tool?
 #          adaptive true | false # Is the adaptive machine translation feature available from the tool?
 #
 #   api_plugins:
 #      - <string>: # slug of the corresponding API plugin id
 #          custom: true | false # Is the API custom model available from the tool?
-#          tone: true | false # Is tone/formality selection available from the tool?
+#          formality: true | false # Is formality/formality selection available from the tool?
 #          glossary true | false # Is the machine translation glossary/terminology/dictionary available from the tool?
 #          adaptive true | false # Is the adaptive machine translation feature available from the tool?
 #
@@ -41,29 +41,58 @@
   api_integrations:
     - amazon:
         glossary: true
+        urls:
+          - https://support.crowdin.com/enterprise/machine-translation/#amazon-translate
 
     - deepl:
-        tone: true
+        formality: true
+        urls:
+          - https://support.crowdin.com/enterprise/machine-translation/#deepl-translator
 
     - google:
         custom: true
         glossary: true
+        urls:
+          - https://support.crowdin.com/enterprise/machine-translation/#google-translate
+          - https://support.crowdin.com/enterprise/machine-translation/#google-cloud-automl-translation
+
+    - globalese:
+        plugin: true
+        urls:
+          - https://store.crowdin.com/globalese
+
+    - intento:
+        plugin: true
+        custom: true
+        urls:
+          - https://store.crowdin.com/intento-mthub
+          - https://help.inten.to/hc/en-us/articles/4412027688466-How-to-install-and-configure-Intento-plugin-for-Crowdin
+
+    - kantanmt:
+        plugin: true
+        urls:
+          - https://store.crowdin.com/kantanmt
 
     - microsoft:
         custom: true
+        urls:
+          - https://support.crowdin.com/enterprise/machine-translation/#microsoft-translator
 
-    - modernmt
+    - modernmt:
+        urls:
+          - https://support.crowdin.com/enterprise/machine-translation/#modernmt
 
-    - watson
+    - watson:
+        urls:
+          - https://support.crowdin.com/enterprise/machine-translation/#watson-ibm-translator
 
-    - yandex
+    - yandex:
+        active: false
 
-  api_plugins:
-    - globalese
-
-  api_aggregator_integrations:
-    - intento:
-        custom: true
+  quality_estimation: true
+  quality_estimation_software:
+    name: modelfront
+    custom: true
 
   local_api_support: true
   multiple_api_suggestions: true
@@ -79,6 +108,8 @@
         custom: true
         glossary: true
         adaptive: true
+        urls:
+          - https://support.lilt.com/kb/introduction-to-lilt-translate
 
 - id: matecat
   name: MateCat
@@ -87,10 +118,24 @@
     - cat: true
   documentation_url: https://site.matecat.com/support/
   api_integrations:
-    - apertium
+    - apertium:
+        urls:
+          - https://site.matecat.com/support/advanced-features/apertium-mt-plug/
 
     - google:
         custom: true
+
+    - iconic:
+        urls:
+          - https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/
+        active: false
+
+    - intento:
+        plugin: true
+        urls:
+          - https://help.inten.to/hc/en-us/articles/360017381939-How-to-set-up-Intento-as-the-MT-engine-in-MateCat
+
+    - iptranslator
 
     - language-weaver
 
@@ -100,6 +145,8 @@
     - modernmt:
         custom: true
         adaptive: true
+        urls:
+          - https://guides.matecat.com/modernmt-mmt-plug-in
 
     - moses
 
@@ -114,9 +161,6 @@
 
     - yandex
 
-  api_aggregator_integrations:
-    - intento
-
 - id: memoq
   name: MemoQ
   url: https://www.memoq.com
@@ -125,52 +169,109 @@
     - cat: true
   documentation_url: https://docs.memoq.com/current/en/Welcome/welcome-memoq-docs.html
   api_integrations:
-    - alexa-ai
+    - alexa-translations-ai:
+        urls:
+          - https://docs.memoq.com/current/en/Places/alexa-ai-plugin-settings.html
 
     - amazon:
         custom: true
         glossary: true
+        urls:
+          - https://docs.memoq.com/current/en/Places/amazon-mt-plugin-settings.html
+
+    - crosslang:
+        urls:
+          - https://docs.memoq.com/current/en/Places/crosslang-gateway-settings.html
 
     - deepl:
         glossary: true
-        tone: true
+        formality: true
+        urls:
+          - https://docs.memoq.com/current/en/Places/deepl-mt-plugin-settings.html
 
-    - etranslation
+    - etranslation:
+        urls:
+          - https://docs.memoq.com/current/en/Places/etranslation-mt-plugin-settings.html
+
+    - globalese:
+        plugin: true
+        urls:
+          - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069984/memoQ+connector
 
     - google:
         custom: true
         glossary: true
+        urls:
+          - https://docs.memoq.com/current/en/Places/googlemt-settings.html
+          - https://docs.memoq.com/current/en/Places/googleadvancedmt-settings.html
+
+    - iconic:
+        active: false
+        urls:
+          - https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/
+
+    - intento:
+        plugin: true
+        glossary: true
+        urls:
+          - https://docs.memoq.com/current/en/Places/intento-plugin-settings.html
+
+    - iptranslator:
+        urls:
+          - https://docs.memoq.com/current/en/Places/iptranslator-plugin-settings.html
 
     - kantanmt:
         custom: true
+        urls:
+          - https://docs.memoq.com/current/en/Places/kantanmt-plugin-settings.html
 
     - microsoft:
         custom: true
+        urls:
+          - https://docs.memoq.com/current/en/Places/microsoft-mt-plugin-settings.html
 
-    - mirai
+    - mirai:
+        urls:
+          - https://docs.memoq.com/current/en/Places/mirai-mt-plugin.html
+
+    - opus-cat:
+        urls:
+          - https://github.com/Helsinki-NLP/OPUS-CAT#using-the-fiskmo-plugin-in-memoq
 
     - niutrans
 
     - pangeamt:
         glossary: true
+        urls:
+          - https://docs.memoq.com/current/en/Places/pangeamt-plugin-settings.html
+
+    - slate:
+        urls:
+          - https://docs.memoq.com/current/en/Places/slate-desktop-plugin-settings.html
 
     - systran:
         custom: true
+        urls:
+          - https://docs.memoq.com/current/en/Places/systran-plugin-settings.html
 
-    - textra
+    - textra:
+        urls:
+          - https://docs.memoq.com/current/en/Places/textra-plugin-settings.html
+
+    - textshuttle:
+        plugin: true
+        urls:
+          - https://www.textshuttle.ai/product/features#cat-connectors
 
     - tilde:
         custom: true
         glossary: true
+        urls:
+          - https://docs.memoq.com/current/en/Places/tilde-mt-plugin-settings.html
 
-  api_plugins:
-    - globalese
-
-  api_aggregator_integrations:
-    - intento:
-        glossary: true
-    - crosslang
-    - tmxmall
+    - tmxmall:
+        urls:
+          - https://docs.memoq.com/current/en/Places/tmxmall-mt-plugin-settings.html
 
   local_api_support: true
   multiple_api_suggestions: true
@@ -184,36 +285,51 @@
     - cat: true
   documentation_url: https://support.phrase.com/hc/en-us/categories/5709486381084-Phrase-TMS
   api_integrations:
-    - aisa
+    - aisa:
+        active: false
 
-    - alexa-ai
+    - alexa-translations-ai
 
     - amazon:
         glossary: true
 
     - apertium
 
+    - crosslang
+
     - deepl:
         glossary: true
 
-    - fair-trade
+    - fairtrade
 
     - google:
         custom: true
         glossary: true
 
-    - globalese
+    - globalese:
+        urls:
+          - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647135756/Phrase+connector
 
     - human-science
 
     - kantanmt:
         custom: true
 
+    - kodensha
+
     - microsoft:
         custom: true
         glossary: true
 
     - mirai
+
+    - moraviamt
+
+    - nict
+
+    - npatmt:
+        urls:
+          - https://www.npat.co.jp/EXPRESS_price_list/EXPRESS_price_list.html
 
     - omniscien:
         custom: true
@@ -224,7 +340,8 @@
     - phrase-nextmt:
         glossary: true
 
-    - prompsit
+    - prompsit:
+        active: false
 
     - promt:
         custom: true
@@ -238,6 +355,8 @@
         custom: true
         offline_glossary: true
 
+    - skrivanek
+
     - sundamt
 
     - systran:
@@ -250,16 +369,19 @@
     - tilde:
         custom: true
 
+    - toshiba
+
+    - t-tact-an-zin
+
     - ubiqus:
         glossary: true
 
     - yandex
 
-  api_aggregator_integrations:
-    - crosslang
-
-  quality_estimation:
-    - phrase-mtqe
+  quality_estimation: true
+  quality_estimation_software:
+    name: phrase-mtqe
+    custom: false
 
   routing: true
 
@@ -272,6 +394,8 @@
   api_integrations:
     - apertium
 
+    - belazar
+
     - deepl
 
     - google
@@ -282,15 +406,18 @@
 
     - moses
 
-    - yandex
-
-  api_plugins:
     - tencent:
-        url: https://github.com/yoyicue/omegat-tencent-plugin
+        plugin: true
+        urls:
+          - https://github.com/yoyicue/omegat-tencent-plugin
+
+    - yandex
 
   local_api_support: true
   fuzzy_repair: true
-  fuzzy_repair_plugin: https://github.com/transducens/OmegaT-FuzzyMatchRepair-Plugin
+  fuzzy_repair_plugin:
+    urls:
+      - https://github.com/transducens/OmegaT-FuzzyMatchRepair-Plugin
   multiple_api_suggestions: true
 
 - id: passolo
@@ -299,6 +426,11 @@
   type: [ cat ]
   documentation_url: https://docs.rws.com/914743/262054/passolo-help/welcome-to-the-------------passolo-documentation
   api_integrations:
+    - deepl:
+        plugin: true
+        urls:
+          - https://appstore.rws.com/language/app/deepl-mt-provider-for-passolo/1088/
+
     - google:
         custom: true
 
@@ -307,10 +439,6 @@
 
     - microsoft:
         custom: true
-
-  api_plugins:
-    - deepl:
-        url: https://appstore.rws.com/language/app/deepl-mt-provider-for-passolo/1088/
 
   multiple_api_suggestions: true
 
@@ -323,29 +451,40 @@
     - amazon:
         custom: true
 
-    - baidu
+    - baidu:
+        urls:
+          - https://www.smartcat.com/integrations/baidu-translate/
 
-    - deepl
+    - deepl:
+        urls:
+          - https://www.smartcat.com/integrations/deepl/
+
+    - globalese:
+        plugin: true
+        custom: true
+        urls:
+          - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647037246/Smartcat+connector
 
     - google:
         custom: true
         glossary: true
 
+    - intento:
+        plugin: true
+        glossary: true
+        urls:
+          - https://www.smartcat.com/integrations/intento/
+          - https://help.inten.to/hc/en-us/articles/360021395679-How-to-set-up-Intento-connector-for-Smartcat
+
     - microsoft:
         custom: true
+        urls:
+          - https://www.smartcat.com/integrations/microsoft-translator/
 
     - modernmt:
         custom: true
 
     - yandex
-
-  api_plugins:
-    - globalese:
-        custom: true
-
-  api_aggregator_integrations:
-    - intento:
-        glossary: true
 
   multiple_api_suggestions: true
 
@@ -362,7 +501,14 @@
     - google:
         custom: true
         glossary: true
-        url: https://help.smartling.com/hc/en-us/articles/1260805168070-Translating-with-Google-AutoML
+        urls:
+          - https://help.smartling.com/hc/en-us/articles/1260805168070-Translating-with-Google-AutoML
+
+    - intento:
+        plugin: true
+        urls:
+          - https://help.inten.to/hc/en-us/articles/4417002496018-How-to-create-an-MT-profile-in-your-Smartling-account
+          - https://help.inten.to/hc/en-us/articles/4417019865490-How-to-add-an-MT-profile-to-the-workflow-in-your-Smartling-project-
 
     - microsoft:
         custom: true
@@ -373,9 +519,6 @@
 
     - watson:
         custom: true
-
-  api_aggregator_integrations:
-    - intento
 
   local_api_support: true
   routing: true
@@ -404,81 +547,172 @@
   type: [ cat ]
   documentation_url: https://docs.rws.com/980998/261377/trados-studio-2022/welcome-to-the-------------trados-studio-2022-documentation
   api_integrations:
+    - alexa-translations-ai:
+        plugin: true
+        urls:
+          - https://appstore.rws.com/plugin/149/
+
+    - amazon:
+        plugin: true
+        urls:
+          - https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3315/amazon-translate-mt-provider
+
+    - crosslang:
+        plugin: true
+        active: false
+
+    - custom-mt:
+        plugin: true
+        urls:
+          - https://custom.mt/trados-connector/
+
+    - deepl:
+        plugin: true
+        urls:
+          - https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3266/deepl-translation-provider
+
+    - elia:
+        plugin: true
+        urls:
+          - https://appstore.rws.com/Plugins/154
+
+    - globalese:
+        plugin: true
+        custom: true
+        urls:
+          - https://globalese.atlassian.net/servicedesk/customer/portal/2/article/2232746052
+          - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647135792/Document+translation+plugin+for+Trados+Studio
+
+    - google:
+        plugin: true
+        custom: true
+        glossary: true
+        urls:
+          - https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
+
+    - iconic:
+        urls:
+          - https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/
+        active: false
+
+    - intento:
+        plugin: true
+        glossary: true
+        urls:
+          - https://help.inten.to/hc/en-us/articles/360016112939-Installing-and-Configuring-Intento-MT-Hub-for-Trados-Studio
+
+    - kantanmt:
+        plugin: true
+        custom: true
+        urls:
+          - https://appstore.rws.com/plugin/165/
+
     - language-weaver:
         custom: true
 
-  api_plugins:
-    - alexa-ai
-
-    - amazon:
-        url: https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3315/amazon-translate-mt-provider
-
-    - deepl:
-        url: https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3266/deepl-translation-provider
-
-    - globalese:
-        custom: true
-        url: https://globalese.atlassian.net/servicedesk/customer/portal/2/article/2232746052
-
-    - google:
-        custom: true
-        glossary: true
-        url: https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
-
-    - kantanmt:
-        custom: true
-
     - language-wire:
-        url: https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
+        plugin: true
+        urls:
+          - https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
+
+    - ltgear:
+        plugin: true
+        urls:
+          - https://appstore.rws.com/Plugins/178
+
+    - lucy:
+        plugin: true
+        urls:
+          - https://web.archive.org/web/20180922112123/http://www.lucysoftware.com/english/machine-translation/integration-capabilities/lucy-lt-integration-capabilities.html
+        active: false
 
     - microsoft:
+        plugin: true
         custom: true
-        url: https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
+        urls:
+          - https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
 
-    - mirai
+    - mirai:
+        plugin: true
+        active: false
 
     - modernmt:
+        plugin: true
         custom: true
-        url: https://s3.amazonaws.com/modernmt.prod.public.us-east-1/downloads/ModernMT+Plugin+Guide+for+SDL+Trados+Studio.pdf
+        urls:
+          - https://s3.amazonaws.com/modernmt.prod.public.us-east-1/downloads/ModernMT+Plugin+Guide+for+SDL+Trados+Studio.pdf
 
-    - niutrans
+    - niutrans:
+        plugin: true
+        active: false
+
+    - opus-cat:
+        plugin: true
+        custom: true
+        urls:
+          - https://helsinki-nlp.github.io/OPUS-CAT/tradosplugin
+          - https://appstore.rws.com/Plugins/11
 
     - pangeamt:
+        plugin: true
         custom: true
+        active: false
 
     - rozetta:
+        plugin: true
         custom: true
+        urls:
+          - https://appstore.rws.com/plugin/187/
 
-    - sogou
+    - sogou-translate:
+        plugin: true
+        active: false
 
     - sundamt:
+        plugin: true
         glossary: true
-        tone: true
-        url: https://www.sunda.fi/en/human-translators.html
+        formality: true
+        urls:
+          - https://www.sunda.fi/en/human-translators.html
 
     - systran:
+        plugin: true
         custom: true
-        url: https://help.systrangroup.com/hc/en-us/articles/360025571833--Plugins-SDL-Trados-studio-connector-How-to-add-Systran-server-in-SDL-Trados-Studio
+        urls:
+          - https://help.systrangroup.com/hc/en-us/articles/360025571833--Plugins-SDL-Trados-studio-connector-How-to-add-Systran-server-in-SDL-Trados-Studio
 
-    - textshuttle
+    - textshuttle:
+        plugin: true
+        urls:
+          - https://appstore.rws.com/plugin/145/
 
-    - textra
+    - textra:
+        plugin: true
+        active: false
 
     - tilde:
+        plugin: true
         custom: true
+        urls:
+          - https://appstore.rws.com/plugin/118/
 
-    - ubiqus
+    - tmxmall:
+        plugin: true
+        urls:
+          - https://www.tmxmall.com/products/plugin
+
+    - ubiqus:
+        plugin: true
+        active: false
 
     - xl8:
-        url: https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf
+        plugin: true
+        urls:
+          - https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf
 
-    - youdao
-
-  api_aggregator_integrations:
-    - crosslang
-
-    - intento:
-        glossary: true
+    - youdao:
+        plugin: true
+        active: false
 
   local_api_support: true
   multiple_api_suggestions: true
@@ -492,17 +726,19 @@
   api_integrations:
     - amazon:
         glossary: true
-        url: https://docs.transifex.com/machine-translation/glossary-for-amazon-machine-translation-mt
+        urls:
+          - https://docs.transifex.com/machine-translation/glossary-for-amazon-machine-translation-mt
 
     - deepl:
-        tone: true
+        formality: true
 
     - google:
         custom: true
 
     - kantanmt:
         custom: true
-        url: https://docs.transifex.com/machine-translation/working-with-kantan-mt
+        urls:
+          - https://docs.transifex.com/machine-translation/working-with-kantan-mt
 
     - microsoft
 
@@ -515,22 +751,36 @@
   open_source: true
   documentation_url: https://confluence.translate5.net/spacedirectory/view.action
   api_integrations:
-    - google
+    - deepl:
+        plugin: true
+        urls:
+          - https://confluence.translate5.net/display/CON/DeepL
 
-    - lucy
+    - globalese:
+        urls:
+          - https://confluence.translate5.net/display/CON/GlobalesePreTranslation
 
-    - moses
+    - google:
+        urls:
+          - https://confluence.translate5.net/display/BUS/Google
 
-    - microsoft
+    - lucy:
+        urls:
+          - https://confluence.translate5.net/display/BUS/Lucy
+
+    - moses:
+        urls:
+          - https://confluence.translate5.net/display/BUS/Moses
+
+    - microsoft:
+        urls:
+          - https://confluence.translate5.net/display/BUS/MS+Translator+Microsoft
 
     - language-weaver
 
-  api_plugins:
-    - deepl
-
-    - globalese
-
-    - pangeamt
+    - pangeamt:
+        urls:
+          - https://confluence.translate5.net/display/CON/PangeaMT
 
   quality_estimation: true
   quality_estimation_software:
@@ -545,33 +795,59 @@
   type: [ tms, cat ]
   documentation_url: https://wordbee.atlassian.net/wiki/spaces/WBT/overview
   api_integrations:
-    - deepl
+    - deepl:
+        urls:
+          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 
     - google:
         custom: true
+        urls:
+          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
+
+    - intento:
+        plugin: true
+        urls:
+          - https://help.inten.to/hc/en-us/articles/360017136300-Configure-your-Intento-connector-in-Wordbee
+          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/808157633/How+to+machine+translate+with+Intento+API
 
     - kantanmt:
         custom: true
+        urls:
+          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 
-    - lingua-custodia
+    - lingua-custodia:
+        urls:
+          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 
-    - microsoft
+    - microsoft:
+        urls:
+          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 
-    - reverso
+    - plata-vicomtech:
+        urls:
+          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 
-    - tauyou
+    - reverso:
+        urls:
+          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 
-    - textshuttle
+    - tauyou:
+        urls:
+          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
+
+    - textshuttle:
+        urls:
+          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 
     - tilde:
         custom: true
+        urls:
+          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 
   api_plugins:
-    - globalese
-
-  api_aggregator_integrations:
-    - intento:
-        url: https://help.inten.to/hc/en-us/articles/360017136300-Configure-your-Intento-connector-in-Wordbee
+    - globalese:
+        urls:
+          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 
   local_api_support: true
   multiple_api_suggestions: true
@@ -583,27 +859,43 @@
   documentation_url: https://www.wordfast.com/WFP/5.8/t2117287.html
   api_integrations:
     - deepl:
-        tone: true
+        formality: true
 
     - google:
         custom: true
+
+    - iconic:
+        urls:
+          - https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/
+        active: false
+
+    - intento:
+        plugin: true
+        urls:
+          - https://help.inten.to/hc/en-us/articles/360018425379-How-to-set-up-Intento-plugin-for-Wordfast-Anywhere
 
     - kantanmt:
         custom: true
         online_custom_training: true
 
-    - microsoft
+    - microsoft:
+        urls:
+          - https://learn.microsoft.com/en-us/azure/cognitive-services/Translator/create-translator-resource
+
+    - modernmt:
+        urls:
+          - https://www.wordfast.net/wiki/Connecting_Wordfast_Pro_to_Modern_MT
 
     - systran:
         custom: true
+        urls:
+          - https://www.wordfast.net/wiki/Machine_Translation_Wordfast_Classic
 
-    - wordlingo
+    - wordlingo:
+        urls:
+          - https://www.wordfast.com/WFP/4.5/c1060284.html
 
     - yandex
-
-  api_aggregator_integrations:
-    - intento:
-        url: https://help.inten.to/hc/en-us/articles/360018425379-How-to-set-up-Intento-plugin-for-Wordfast-Anywhere
 
   local_api_support: true
   multiple_api_suggestions: true
@@ -616,43 +908,101 @@
   api_integrations:
     - amazon:
         glossary: true
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/amazon-translate.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-amazon-translate-mt-engine.html
+
+    - amplexor-mt:
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/acolad.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-acolad-mt-engine.html
+
+    - crosslang:
+        plugin: true
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/crosslang.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-crosslang-mt-engine.html
 
     - deepl:
         glossary: true
-        tone: true
+        formality: true
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/deepl.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-deepl-translator-mt-engine.html
+
+    - geofluent:
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/lionbridge-geofluent.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-lionbridge-geofluent-mt-engine.html
 
     - google:
         custom: true
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/google-machine-translation.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-google-translate-mt-engine.html
+
+    - globalese:
+        plugin: true
+        urls:
+          - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647037255
+
+    - iconic:
+        active: false
+
+    - intento:
+        plugin: true
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/intento.html
+          - https://help.inten.to/hc/en-us/articles/360021776920-XTM-Custom-MT-for-Intento-Quick-Guide
 
     - kantanmt:
         custom: false
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/kantanmt.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-kantanmt-engine.html
 
     - language-weaver:
         glossary: true
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/language-weaver.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-language-weaver-mt-engine.html
 
-    - lingo24
+    - lingo24:
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/lingo24.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-lingo24-mt-engine.html
 
     - microsoft:
         custom: true
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/microsoft-translator.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-microsoft-translator-mt-engine.html
 
     - omniscien:
         custom: true
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/omniscien-language-studio.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-omniscien-technologies-language-studio-mt-engine.html
 
-    - sap
+    - oneliner:
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/oneliner.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-oneliner-mt-engine.html
 
-    - smartmate
+    - sap:
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/sap-translation-hub.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-sap-translation-hub-mt-engine.html
 
-    - systran
+    - systran:
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/systran-pure-neural-.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-systran-pure-neural-mt-engine.html
 
-    - tauyou
-
-  api_plugins:
-    - crosslang
-
-    - globalese
-
-  api_aggregator_integrations:
-    - intento
+    - tauyou:
+        urls:
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/tauyou.html
+          - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-tauyou-mt-engine.html
 
   local_api_support: true
   multiple_api_suggestions: true
