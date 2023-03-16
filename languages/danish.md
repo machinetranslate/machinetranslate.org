@@ -16,7 +16,7 @@ supported_apis:
   supported_language_count: 13
 - id: textshuttle
   name: TextShuttle
-  supported_language_count: 15
+  supported_language_count: 18
 - id: tilde
   name: Tilde
   supported_language_count: 18
@@ -25,7 +25,7 @@ supported_apis:
   supported_language_count: 25
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 29
 - id: xl8
   name: XL8
   supported_language_count: 29

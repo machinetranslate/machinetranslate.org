@@ -6,6 +6,8 @@ title: Iranic
 description: Machine translation for the Iranic language family
 code: ira
 languages:
+- slug: balochi
+  name: Balochi
 - slug: kurdish
   name: Kurdish
 - slug: pashto

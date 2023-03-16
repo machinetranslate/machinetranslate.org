@@ -75,17 +75,17 @@ The fifth Low Resource Machine Translation (**LoResMT 2022**) workshop was held 
 - COVID-related corpora, their translations and corresponding natural language processing/machine translation systems
 - [Neural machine translation](../approaches/neural-machine-translation.md) for low-resource languages
 - Work that presents online systems for practical use by native speakers
-- Word tokenizers/de-tokenizers for specific languages
+- Word [tokenisers](/concepts/tokenisation.md)/de-tokenisers for specific languages
 - Word/morpheme segmenters for specific languages
 - Alignment/Re-ordering tools for specific language pairs
 - Use of morphology analysers and/or morpheme segmenters in machine translation
 - Multilingual/cross-lingual natural language processing tools for machine translation
 - Corpora creation and curation technologies for low-resource languages
-- Review of available parallel corpora for low-resource languages
-- Research and review papers of MT methods for low-resource languages
-- Machine translation systems/methods (e.g. [rule-based](../approaches/rule-based-machine-translation.md), [statistical](../approaches/statistical-machine-translation.md), neural machine translation) for low-resource languages
-- Pivot machine translation for low-resource languages
-- Zero-shot machine translation for low-resource languages
+- Review of available [parallel corpora](/customisation/parallel-data.md) for low-resource languages
+- Research and review papers of machine translation methods for low-resource languages
+- Machine translation systems/methods (for example, [rule-based](../approaches/rule-based-machine-translation.md), [statistical](../approaches/statistical-machine-translation.md), neural machine translation) for low-resource languages
+- [Pivot machine translation](/applications/advanced-concepts/bridging.md) for low-resource languages
+- [Zero-shot machine translation](/applications/advanced-concepts/zero-shot-translation.md) for low-resource languages
 - Fast building of machine translation systems for low-resource languages
 - Re-usability of existing machine translation systems for low-resource languages
 - Machine translation for language preservation

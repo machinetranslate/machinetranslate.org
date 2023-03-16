@@ -1,5 +1,4 @@
 ---
-grand_parent: Building and research
 parent: Customisation
 title: Training data
 description: Training data for machine translation

@@ -1,5 +1,4 @@
 ---
-grand_parent: Building and research
 parent: Customisation
 title: Adaptive machine translation
 description: Machine translation with online learning

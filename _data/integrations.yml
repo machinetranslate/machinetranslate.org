@@ -144,6 +144,7 @@
 
     - modernmt:
         custom: true
+        adaptive: true
         urls:
           - https://guides.matecat.com/modernmt-mmt-plug-in
 
@@ -236,6 +237,8 @@
     - opus-cat:
         urls:
           - https://github.com/Helsinki-NLP/OPUS-CAT#using-the-fiskmo-plugin-in-memoq
+
+    - niutrans
 
     - pangeamt:
         glossary: true
@@ -519,6 +522,24 @@
 
   local_api_support: true
   routing: true
+  
+- id: tolgee
+  name: Tolgee
+  url: https://tolgee.io 
+  type: [ tms, cat ]
+  open_source: true
+  api_integrations:
+    - amazon
+    
+    - deepl
+    
+    - google
+    
+    - baidu
+    
+    - microsoft
+
+  multiple_api_suggestions: true
 
 - id: trados
   name: Trados Studio

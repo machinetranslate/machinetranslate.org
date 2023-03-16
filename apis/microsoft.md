@@ -680,7 +680,7 @@ supported_languages:
   variant_name: null
 integrations:
 - slug: crowdin
-  name: crowdin
+  name: Crowdin
   custom: true
 - slug: matecat
   name: MateCat
@@ -703,6 +703,8 @@ integrations:
 - slug: smartling
   name: Smartling
   custom: true
+- slug: tolgee
+  name: Tolgee
 - slug: transifex
   name: Transifex
 - slug: translate5
@@ -715,6 +717,7 @@ integrations:
   name: XTM
   custom: true
 nav_order: 889
+redirect_from: microsoft-translator
 
 ---
 

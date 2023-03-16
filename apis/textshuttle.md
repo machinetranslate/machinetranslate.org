@@ -9,7 +9,9 @@ urls:
 - https://www.textshuttle.ai/product/features#subscription
 privacy_url: https://www.textshuttle.ai/privacy-policy
 self_serve: false
-customisation: []
+customisation:
+- Glossary
+- Formality
 supported_languages:
 - slug: czech
   code: cs
@@ -46,6 +48,12 @@ supported_languages:
   normalized_code: fr
   base_code: fr
   name: French
+  variant_name: null
+- slug: hungarian
+  code: hu
+  normalized_code: hu
+  base_code: hu
+  name: Hungarian
   variant_name: null
 - slug: italian
   code: it
@@ -95,16 +103,28 @@ supported_languages:
   base_code: sk
   name: Slovak
   variant_name: null
+- slug: slovenian
+  code: sl
+  normalized_code: sl
+  base_code: sl
+  name: Slovenian
+  variant_name: null
 - slug: swedish
   code: sv
   normalized_code: sv
   base_code: sv
   name: Swedish
   variant_name: null
+- slug: chinese
+  code: zh
+  normalized_code: zh
+  base_code: zh
+  name: Chinese
+  variant_name: null
 integrations:
 - slug: wordbee
   name: Wordbee
-nav_order: 985
+nav_order: 982
 
 ---
 

@@ -24,8 +24,8 @@ seo:
     url: https://www.surrey.ac.uk/centre-translation-studies
 ---
 
-**Convergence: Human-machine integration in translation and interpreting** is a conference organised by Centre of Translation Studies, University of Surrey.
-The conference will take place online and in Guildford, United Kingdom, from 1 February to 3 February, 2023.
+**Convergence: Human-machine integration in translation and interpreting** was a conference organised by Centre of Translation Studies, University of Surrey.
+The conference took place online and in Guildford, United Kingdom, from 1 February to 3 February, 2023.
 
 [surrey.ac.uk/centre-translation-studies/convergence-2023](https://www.surrey.ac.uk/centre-translation-studies/convergence-2023)
 

@@ -109,6 +109,12 @@ supported_languages:
   base_code: ja
   name: Japanese
   variant_name: null
+- slug: korean
+  code: ko
+  normalized_code: ko
+  base_code: ko
+  name: Korean
+  variant_name: null
 - slug: lithuanian
   code: lt
   normalized_code: lt
@@ -120,6 +126,12 @@ supported_languages:
   normalized_code: lv
   base_code: lv
   name: Latvian
+  variant_name: null
+- slug: norwegian
+  code: nb
+  normalized_code: nb
+  base_code: nb
+  name: Norwegian
   variant_name: null
 - slug: dutch
   code: nl
@@ -207,7 +219,7 @@ supported_languages:
   variant_name: Traditional Chinese
 integrations:
 - slug: crowdin
-  name: crowdin
+  name: Crowdin
   tone: true
 - slug: memoq
   name: MemoQ
@@ -222,6 +234,8 @@ integrations:
   name: Smartcat
 - slug: smartling
   name: Smartling
+- slug: tolgee
+  name: Tolgee
 - slug: transifex
   name: Transifex
   tone: true
@@ -234,7 +248,7 @@ integrations:
   name: XTM
   glossary: true
   tone: true
-nav_order: 968
+nav_order: 966
 
 ---
 

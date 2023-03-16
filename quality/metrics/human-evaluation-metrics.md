@@ -1,7 +1,7 @@
 ---
 grand_parent: Building and research
 parent: Metrics
-nav_order: 1
+nav_order: 100
 title: Human evaluation metrics
 description: Metrics for human evaluation of machine translation
 ---
@@ -30,6 +30,13 @@ Error dimensions:
 - Locale conventions
 - Audience appropriateness
 - Design and markup
+
+### SQM
+
+The **Scalar Quality Metric** (**SQM**) evaluation gathers scalar ratings at the segment level with document context.
+
+A table row displays every source segment and its corresponding translated segment from the document. 
+For each segment, humans choose a rating on a seven-point scale.
 
 ### Average score and average z-score
 
@@ -91,3 +98,5 @@ There are different types of direct assessment.
 - Monolingual: Human raters see the system output only.
 - Bilingual: Human raters see the system input and output.
 - Reference-based: Human raters see the system output and a reference output.
+
+For [WMT22](/../events/wmt22.md), a combination of direct assessment and [SQM](#sqm) was used for the evaluation of out-of-english and non-english translation pairs.

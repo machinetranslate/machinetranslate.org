@@ -1,12 +1,11 @@
 ---
-grand_parent: Building and research
 parent: Customisation
 title: Parallel data
 description: Parallel data for training machine translation
 featured: true
 ---
 
-**Parallel data** or **parallel corpora** are data sets of **translation pairs** - sentences and their translations.
+**Parallel data** or **parallel corpora** are data sets of **translation pairs** – sentences and their translations.
 They are used to train and test machine translation models.
 
 | Original | Translation |
@@ -58,6 +57,7 @@ Many of the largest data sets are publicly available.
 | [VoxPopuli](https://github.com/facebookresearch/voxpopuli) | Data set |
 | [WikiMatrix](https://github.com/facebookresearch/LASER/tree/main/tasks/WikiMatrix) | Data set |
 | [WikiTitles](https://data.statmt.org/wikititles/) | Data set |
+| [NTREX](https://github.com/MicrosoftTranslator/NTREX) | Data repository |
 
 
 ### Search and download
@@ -65,4 +65,3 @@ Many of the largest data sets are publicly available.
 * [MTData](https://github.com/thammegowda/mtdata)
 * [OPUSTools](https://github.com/Helsinki-NLP/OpusTools/blob/master/opustools_pkg/README.md)
 * [Huggingface Datasets](https://huggingface.co/datasets?task_categories=task_categories:translation)
-

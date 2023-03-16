@@ -12,12 +12,17 @@ seo:
 
 | Date | Event | Location |
 | --- | --- | --- |
-|  | **WMT23** |  |
+| December | [**WMT23**](wmt23.md) | Singapore |
 | 4 - 8 September | [**MT Summit 2023**](mtsummit2023.md) | Macau SAR, China |
 | 13 - 14 July | [**IWSLT 2023**](iwslt2023.md) | Toronto, Canada |
+| 9 - 14 July | [**AmericasNLP**](americasnlp2023.md) | Toronto, Canada |
 | 12 - 15 June | [**EAMT 2023**](eamt2023.md) | Tampere, Finland |
-| 1 - 3 February | [**Convergence: human-machine integration in translation and interpreting**](convergence-2023.md) | online |
-| 26 January | [**Open discussion: The future of machine translation**](csa-future-of-mt.md) | online |
+| 2 - 6 May | [**LoResMT 2023**](loresmt2023.md) | Dubrovnik, Croatia |
+| 1 March | [Context-aware MT evaluation: what have we learned?](context-aware-mt-evaluation.md) | online |
+| 1 March | [Translation in the age of AI](translation-in-age-of-ai.md) | online |
+| 16 February | [Redefining domain adaptation for machine translation and voice recognition - An essential primer](redefining-domain-adaptation.md) | online |
+| 1 - 3 February | [Convergence: human-machine integration in translation and interpreting](convergence-2023.md) | online |
+| 26 January | [Open discussion: The future of machine translation](csa-future-of-mt.md) | online |
 
 ## 2022
 

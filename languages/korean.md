@@ -1,5 +1,5 @@
 ---
-nav_order: 968
+nav_order: 967
 parent: Languages
 layout: language
 title: Korean
@@ -36,6 +36,9 @@ supported_apis:
 - id: lingmo
   name: Lingmo Translation
   supported_language_count: 26
+- id: deepl
+  name: DeepL
+  supported_language_count: 29
 - id: xl8
   name: XL8
   supported_language_count: 29

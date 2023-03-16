@@ -1,12 +1,11 @@
 ---
-grand_parent: Resources
 parent: Concepts
 title: Vector
-description:
+description: A unique list of numbers
 ---
 
 A **vector** is a unique fixed-sized list of numbers.
-Each vector number is called coordinate.
+Each vector number is called a coordinate.
 Coordinates define the vector's position in a particular space.
 Vectors represent data in a way that a machine learning model can understand and use.
 In machine translation, vectors represent the words and phrases in a text.
@@ -24,7 +23,8 @@ Vectors encode information:
 - Grammatical features, like verb tense or noun case
 - Relationship to other words in the sentence
 
-Vectors are used as algorithms input. Algorithms analyse the vector meaning to produce the corresponding translation.
+Vectors are used as algorithms input.
+Algorithms analyse the vector meaning to produce the corresponding translation.
 
 For example, vectors can help to identify a sentence subject and verb, and then use this information to generate a translation.
 

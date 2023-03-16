@@ -202,7 +202,7 @@ Full results of the shared tasks: [*Findings of the 2018 Conference on Machine T
 
 ### News translation
 
-The results were determined with a monolingual [direct assessment](/associations/wmt.md#direct-assessment), the [average score and average z-score](/associations/wmt.md#average-score-and-average-z-score).
+The results were determined with a monolingual [direct assessment](/quality/metrics/human-evaluation-metrics.md#direct-assessment), the [average score and average z-score](/quality/metrics/human-evaluation-metrics.md#average-score-and-average-z-score).
 
 #### → English
 

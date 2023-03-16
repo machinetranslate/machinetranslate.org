@@ -466,7 +466,7 @@ supported_languages:
   variant_name: Traditional Chinese
 integrations:
 - slug: crowdin
-  name: crowdin
+  name: Crowdin
   glossary: true
 - slug: memoq
   name: MemoQ
@@ -480,6 +480,8 @@ integrations:
   custom: true
 - slug: smartling
   name: Smartling
+- slug: tolgee
+  name: Tolgee
 - slug: transifex
   name: Transifex
   glossary: true
@@ -488,6 +490,7 @@ integrations:
   name: XTM
   glossary: true
 nav_order: 925
+redirect_from: amazon-translate
 
 ---
 

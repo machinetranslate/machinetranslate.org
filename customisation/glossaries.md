@@ -1,5 +1,4 @@
 ---
-grand_parent: Building and research
 parent: Customisation
 title: Glossaries
 description: Terminology lists for customising machine translation

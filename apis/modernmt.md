@@ -350,10 +350,11 @@ supported_languages:
   variant_name: null
 integrations:
 - slug: crowdin
-  name: crowdin
+  name: Crowdin
 - slug: matecat
   name: MateCat
   custom: true
+  adaptive: true
 - slug: smartcat
   name: Smartcat
   custom: true

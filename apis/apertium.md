@@ -275,11 +275,11 @@ supported_languages:
   base_code: ur
   name: Urdu
   variant_name: null
-- slug: null
+- slug: malay
   code: zlm
   normalized_code: zlm
   base_code: zlm
-  name: null
+  name: Malay
   variant_name: null
 integrations:
 - slug: matecat

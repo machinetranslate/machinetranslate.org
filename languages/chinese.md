@@ -1,5 +1,5 @@
 ---
-nav_order: 964
+nav_order: 963
 parent: Languages
 layout: language
 title: Chinese
@@ -36,6 +36,9 @@ supported_apis:
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17
+- id: textshuttle
+  name: TextShuttle
+  supported_language_count: 18
 - id: textra
   name: TexTra
   supported_language_count: 19
@@ -47,7 +50,7 @@ supported_apis:
   supported_language_count: 26
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 29
 - id: xl8
   name: XL8
   supported_language_count: 29

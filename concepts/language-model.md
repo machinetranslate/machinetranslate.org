@@ -1,5 +1,4 @@
 ---
-grand_parent: Resources
 parent: Concepts
 title: Language model
 description: Probability of a word in a sequence
@@ -73,7 +72,7 @@ State-of-the-art neural language models are based on the [Transformer architectu
 
 [Phrase-based machine translation](/approaches/statistical-machine-translation.md) relies on a decoding algorithm that tries to cover the original sentence with phrases.
 That can be done trivially by using single-word phrases.
-The key missing ingredient is the cohesion between phrases, called fluency.
+The key missing ingredient is the cohesion between phrases, called “fluency”.
 Therefore, in the decoding phase of phrase-based machine translation, the score of a state is determined partly by the language model probability.
 Higher probabilities are preferred because they correspond to more natural-sounding sentences.
 
@@ -82,4 +81,4 @@ In phrase-based machine translation, increasing the weight of the language model
 ## Neural machine translation
 
 The usage of language models in [neural machine translation](/approaches/neural-machine-translation.md) is more subtle.
-The decoder can be viewed as a language model because the output is a probability across the target vocabulary and it has computational access to the history: <img src="https://render.githubusercontent.com/render/math?math=p(t_i|s_{1\ldots |s|}, t_{1\ldots (i-1)})">.
+The decoder can be viewed as a language model because the output is a probability across the target [vocabulary](vocabulary.md) and it has computational access to the history: <img src="https://render.githubusercontent.com/render/math?math=p(t_i|s_{1\ldots |s|}, t_{1\ldots (i-1)})">.

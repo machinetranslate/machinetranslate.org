@@ -24,7 +24,7 @@ td:nth-child(2) {
 
 |     |     |     |
 | --- | --- | --- |
-| 2017 | [***Neural Machine Translation***](https://arxiv.org/pdf/1709.07809.pdf) | Philipp Koehn |
+| 2017 | [***Neural Machine Translation***](https://arxiv.org/pdf/1709.07809.pdf) | [Philipp Koehn](/people/philipp-koehn.md) |
 
 
 
@@ -40,6 +40,7 @@ td:nth-child(2) {
 | 2015 | [***Neural Machine Translation by Jointly Learning to Align and Translate***](https://arxiv.org/pdf/1409.0473.pdf) | Dzmitry Bahdanau, KyungHyun Cho, Yoshua Bengio |
 | 2014 | [***On the Properties of Neural Machine Translation: Encoder-Decoder Approaches***](https://aclanthology.org/W14-4012.pdf) | Kyunghyun Cho, Bart van Merriënboer, Dzmitry Bahdanau, Yoshua Bengio |
 | 2014 | [***Sequence to sequence learning with Neural Networks***](https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf) | Ilya Sutskever, Oriol Vinyals, Quoc V. Le |
+| 2007 | [***Large language models in machine translation***](https://aclanthology.org/D07-1090.pdf) | Thorsten Brants, Ashok Popat, Peng Xu, [Franz Josef Och](/people/franz-josef-och.md), Jeffrey Dean |
 
 
 
@@ -87,7 +88,7 @@ td:nth-child(2) {
 |     |     |     |
 | --- | --- | --- |
 | 2007 | [***Hierarchical Phrase-Based Translation***](https://aclanthology.org/J07-2003.pdf) | David Chiang |
-| 2003 | [***Statistical machine translation***](https://aclanthology.org/N03-1017.pdf) | [Philipp Koehn](/people/philipp-koehn.md), [Franz Josef Och](/people/franz-josef-och.md), [Daniel Marcu](/people/daniel-marcu.md) |
+| 2003 | [***Statistical machine translation***](https://aclanthology.org/N03-1017.pdf) | Philipp Koehn, Franz Josef Och, [Daniel Marcu](/people/daniel-marcu.md) |
 | 2003 | [***Statistical Phrase-Based Translation***](https://aclanthology.org/N03-1017.pdf) | Philipp Koehn, Franz Josef Och, Daniel Marcu |
 
 

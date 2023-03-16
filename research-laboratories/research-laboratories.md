@@ -35,7 +35,7 @@ description: Machine translation research laboratories
 | [**Natural Language Processing**](https://www.cs.washington.edu/research/nlp) | University of Washington | Academic | USA |
 | [**Neural Machine Translation**](https://www.microsoft.com/en-us/research/project/machine-translation-2/) | Microsoft | Corporate | China |
 | [**PRHLT Research Center**](https://www.prhlt.upv.es/language-translation/) | Univesitat Politècnica de València | Academic | Spain |
-| [**Research Group**](https://www.rws.com/language-weaver/research/) | SDL | Corporate | UK |
+| [**Research Group**](https://www.rws.com/language-weaver/research/) | RWS | Corporate | UK |
 | [**Statistical Machine Translation Group**](http://www.statmt.org/ued/) | University of Edinburgh | Academic | UK |
 | [**Speech Technology and Research (STAR) Laboratory**](http://www.speech.sri.com/) | SRI International | Corporate | USA |
 | [**The Stanford Natural Language Processing Group**](https://nlp.stanford.edu/projects/mt.shtml) | Stanford University | Academic | USA |

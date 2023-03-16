@@ -6,6 +6,8 @@ title: Afro-Asiatic
 description: Machine translation for the Afro-Asiatic language family
 code: afa
 languages:
+- slug: algerian-arabic
+  name: Algerian Arabic
 - slug: amharic
   name: Amharic
 - slug: arabic

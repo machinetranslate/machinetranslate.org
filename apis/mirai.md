@@ -103,6 +103,7 @@ integrations:
 - slug: phrase
   name: Phrase TMS
 nav_order: 986
+redirect_from: mirai-translate
 
 ---
 

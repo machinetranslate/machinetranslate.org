@@ -1,5 +1,4 @@
 ---
-grand_parent: Building and research
 parent: Customisation
 title: Filtering
 description: Filtering training data for machine translation
@@ -10,17 +9,32 @@ featured: true
 
 Parallel data can be filtered manually or automatically.
 
-To filter parallel data, risky translations and obvious noise are either dropped or fixed.
+To filter parallel data, translation pairs with obvious noise and risky translations are dropped.
 
-Risky translations include, for example:
+Translations pairs are also dropped if they have other obvious issues:
+
+* Translations to the wrong language
+* Sentence pairs with mismatched URLs, names, or numbers
+* Sentence pairs with mismatched tags
+* Sentence pairs with mismatched length
+* Translations with broken encoding or invalid characters
+
+Some sentence pairs have issues that are more difficult to filter out.
 
 * Creative human translations
 * Translations that are structured differently than the original
+* Translations that are equal to the original
+* Translations from a third language
+* Very short input
 
-Obvious noise includes, for example:
+Preprocessing is often normalisation.
+* Decoding or encoding
+* Invalid characters
+* Leading or trailing whitespace
+* Alternative whitespace characters
+* Alternative punctuation characters
 
-* Sentences with mismatched URLs, names, or numbers
-* Translated sentences that are equal to their original
+Filtering and preprocessing can hurt translation quality, by removing or changing useful data.
 
 ### Tools
 

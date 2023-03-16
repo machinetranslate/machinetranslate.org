@@ -669,7 +669,7 @@ supported_languages:
   variant_name: null
 integrations:
 - slug: crowdin
-  name: crowdin
+  name: Crowdin
   custom: true
   glossary: true
 - slug: matecat
@@ -697,6 +697,8 @@ integrations:
   custom: true
   glossary: true
   url: https://help.smartling.com/hc/en-us/articles/1260805168070-Translating-with-Google-AutoML
+- slug: tolgee
+  name: Tolgee
 - slug: transifex
   name: Transifex
   custom: true
@@ -712,6 +714,7 @@ integrations:
   name: XTM
   custom: true
 nav_order: 891
+redirect_from: google-translate
 
 ---
 

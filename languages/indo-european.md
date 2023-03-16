@@ -16,6 +16,8 @@ languages:
   name: Armenian
 - slug: assamese
   name: Assamese
+- slug: balochi
+  name: Balochi
 - slug: belarusian
   name: Belarusian
 - slug: bengali

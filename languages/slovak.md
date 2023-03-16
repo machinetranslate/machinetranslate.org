@@ -13,13 +13,13 @@ family:
 supported_apis:
 - id: textshuttle
   name: TextShuttle
-  supported_language_count: 15
+  supported_language_count: 18
 - id: lingmo
   name: Lingmo Translation
   supported_language_count: 26
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 29
 - id: xl8
   name: XL8
   supported_language_count: 29

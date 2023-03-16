@@ -11,9 +11,10 @@ seo:
 
 **Machine Translate** is building **open resources and community for machine translation**.
 
-{% assign integrations_size = 0 %}
-{% for s in site.data.integrations | map: "api_integrations" | map: "size" %}
-  {% assign integrations_size = integrations | plus: s %}
+{% assign integration_count = 0 %}
+{% for i in site.data.integrations %}
+  {% assign s = i.api_integrations | size %}
+  {% assign integration_count = integration_count | plus: s %}
 {% endfor %}
 
 <div style="display: flex; justify-content: center; gap: 20%; padding: 1em;">
@@ -35,8 +36,8 @@ seo:
   </div>
   <div>
     <center>
-      <a href="/integrations">
-        <h1>{{ integrations_size }}</h1>
+      <a href="/apis">
+        <h1>{{ integration_count }}</h1>
         integrations
       </a>
     </center>
@@ -47,9 +48,10 @@ The content covers everything about machine translation, from products to resear
 
 
 > #### Featured events
-> - [EAMT 2023](/eamt2023) - June, Tampere, Finland
-> - [Machine translation meetup](/machine-translation-meetup-2) - 21 October, online - **New: Answers to audience questions!**
-> - [WMT22](/wmt22) - December, Abu Dhabi
+> - [WMT23](/wmt23) - December, Singapore - **New: Tracks added!**
+> - [EAMT 2023](/eamt2023) - June, Tampere, Finland - **New: Workshops now available!**
+> - [Machine translation meetup](/machine-translation-meetup-2) - 21 October, online
+
 >
 > #### Featured articles
 > - [Adaptive machine translation](/customisation/adaptive.md)

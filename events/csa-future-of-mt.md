@@ -25,18 +25,19 @@ seo:
 ---
 
 
-The CSA Research open discussion **The future of machine translation** will take place online on 26 January, 2023.
-The open discussion is a follow up to the CSA Research 2022 panel discussion [“Machine translation, what’s the current state?”](csa-panel-discussion.md).
+The CSA Research open discussion **The future of machine translation** took place online on 26 January, 2023.
+The open discussion was a follow up to the CSA Research 2022 panel discussion [“Machine translation, what’s the current state?”](csa-panel-discussion.md).
 
 ### Speakers
 
 - Jay Marciano, Director, MT Outreach & Strategy at Lengoo
 - Alon Lavie, VP of Language Technologies at Unbabel
 - Spence Green, CEO and Co-Founder at Lilt
-- Vincent Godard, President and CEO at Systran
+- JP Barraza, Global CEO at Systran
 
 Moderator: Arle Lommel, Senior Analyst at CSA Research
 
-### Link
+### Links
 
-[linkedin.com/video/event/urn:li:ugcPost:7009563118951366656/](https://www.linkedin.com/video/event/urn:li:ugcPost:7009563118951366656/)
+- [Event page](https://www.linkedin.com/video/event/urn:li:ugcPost:7009563118951366656/)
+- [Recording](https://player.vimeo.com/video/793300616)

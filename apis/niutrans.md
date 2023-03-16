@@ -18,11 +18,11 @@ supported_languages:
   base_code: ace
   name: null
   variant_name: null
-- slug: null
+- slug: acholi
   code: ach
   normalized_code: ach
   base_code: ach
-  name: null
+  name: Acholi
   variant_name: null
 - slug: null
   code: acr
@@ -1728,11 +1728,11 @@ supported_languages:
   base_code: rmn
   name: null
   variant_name: null
-- slug: null
+- slug: kirundi
   code: rn
   normalized_code: rn
   base_code: rn
-  name: null
+  name: Kirundi
   variant_name: null
 - slug: null
   code: rnd
@@ -1776,11 +1776,11 @@ supported_languages:
   base_code: seh
   name: null
   variant_name: null
-- slug: null
+- slug: sango
   code: sg
   normalized_code: sg
   base_code: sg
-  name: null
+  name: Sango
   variant_name: null
 - slug: null
   code: shi
@@ -2028,11 +2028,11 @@ supported_languages:
   base_code: tmh
   name: null
   variant_name: null
-- slug: null
+- slug: tswana
   code: tn
   normalized_code: tn
   base_code: tn
-  name: null
+  name: Tswana
   variant_name: null
 - slug: tonga
   code: to
@@ -2064,11 +2064,11 @@ supported_languages:
   base_code: tr
   name: Turkish
   variant_name: null
-- slug: null
+- slug: tsonga
   code: ts
   normalized_code: ts
   base_code: ts
-  name: null
+  name: Tsonga
   variant_name: null
 - slug: null
   code: tsc
@@ -2100,11 +2100,11 @@ supported_languages:
   base_code: tvl
   name: null
   variant_name: null
-- slug: null
+- slug: twi
   code: tw
   normalized_code: tw
   base_code: tw
-  name: null
+  name: Twi
   variant_name: null
 - slug: tahitian
   code: ty
@@ -2172,11 +2172,11 @@ supported_languages:
   base_code: uz
   name: Uzbek
   variant_name: null
-- slug: null
+- slug: venda
   code: ve
   normalized_code: ve
   base_code: ve
-  name: null
+  name: Venda
   variant_name: null
 - slug: vietnamese
   code: vi
@@ -2316,7 +2316,9 @@ supported_languages:
   base_code: zyb
   name: null
   variant_name: null
-integrations: []
+integrations:
+- slug: memoq
+  name: MemoQ
 nav_order: 616
 
 ---

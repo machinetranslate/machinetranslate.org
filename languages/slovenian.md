@@ -1,5 +1,5 @@
 ---
-nav_order: 976
+nav_order: 975
 parent: Languages
 layout: language
 title: Slovenian
@@ -11,9 +11,12 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: textshuttle
+  name: TextShuttle
+  supported_language_count: 18
 - id: deepl
   name: DeepL
-  supported_language_count: 27
+  supported_language_count: 29
 - id: etranslation
   name: eTranslation
   supported_language_count: 30

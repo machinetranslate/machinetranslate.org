@@ -6,6 +6,8 @@ title: Semitic
 description: Machine translation for the Semitic language family
 code: sem
 languages:
+- slug: algerian-arabic
+  name: Algerian Arabic
 - slug: amharic
   name: Amharic
 - slug: arabic

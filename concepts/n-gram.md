@@ -1,5 +1,4 @@
 ---
-grand_parent: Resources
 parent: Concepts
 title: N-gram
 description: A short sequence of word types
@@ -12,7 +11,7 @@ N-grams have many applications in machine translation:
 - [language models](/concepts/language-model.md), such as an [n-gram maximum likelihood estimate](/concepts/language-model.md#n-gram-maximum-likelihood-estimate)
 - translation models for [statistical machine translation](/approaches/statistical-machine-translation.md)
 - evaluation [metrics](/quality/metrics/metrics.md), such as [BLEU](/quality/metrics/bleu.md)
-- language identification
+- [language identification](/customisation/language-identification.md)
 
 <!-- Note: "https://render.githubusercontent.com/render/math?math=..." wasn't working on all equations so we switched to "https://latex.codecogs.com/svg.image?..." but it requires escaping to survive the Markdown table processor -->
 

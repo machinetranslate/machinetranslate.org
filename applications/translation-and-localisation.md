@@ -35,20 +35,20 @@ An object is a document, a software, a film, a book, and so on.
 
 In localisation, the object retains its most salient features, and the cultural-unfit features are replaced, as far as possible, by their adequate counterparts.
 
-Localisation of a software consists of the following steps:
+A software localisation process consists of the following steps:
 
-1. Identifying the software usability in the target culture.
+1. Identifying if the software is useful in the target culture.
 2. Identifying the features that need to be replaced or adapted.
-3. Translating the content of user interface and user assistance.
-4. Replacing or adapting the non-transferrable features.
-5. Building the localised versions with target [locale](/applications/advanced-concepts/locale.md) settings and translated content and features.
+3. Translating user interface and user assistance content.
+4. Replacing or adapting the features that can’t be used in the target culture.
+5. Creating versions of the software in the target [locale](/applications/advanced-concepts/locale.md) that are target culture specific.
 6. Testing the localised versions:
-   - Verifying the validity of translation in context of the software.
-   - Verifying the validity for each target audience of the localisation aspects including:
-     - national characters in user interface, user assistance and input fields
-     - formats of numbers, time and date, currency, units of measurement, according to the locale
-     - sort order of lists and glossaries, according to the locale
-     - bi-directional display and input of text (where applicable).
+   - Verifying the validity of the translation in the context of the software.
+   - Checking if the new versions work well for the target audience in each language:
+     - Special characters used in the user interface, instructions, and input fields
+     - Number, time, and date formats. Currency and units of measurements that are specific to the target culture
+     - List and glossary order that is specific to the target culture
+     - Text that is written from right to left, if applicable
 
 ## See also
 

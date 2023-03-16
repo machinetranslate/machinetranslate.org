@@ -1,5 +1,4 @@
 ---
-grand_parent: Building and research
 parent: Customisation
 title: Tokenisation
 description: Splitting a string into a sequence of tokens
