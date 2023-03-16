@@ -1,5 +1,5 @@
 ---
-nav_order: 991
+nav_order: 989
 parent: Languages
 layout: language
 title: Malagasy
@@ -9,6 +9,12 @@ family:
 - slug: austronesian
   name: Austronesian
 supported_apis:
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

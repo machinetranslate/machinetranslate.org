@@ -1,5 +1,5 @@
 ---
-nav_order: 988
+nav_order: 987
 parent: Languages
 layout: language
 title: Burmese
@@ -9,6 +9,9 @@ family:
 - slug: sino-tibetan
   name: Sino-Tibetan
 supported_apis:
+- id: t-tact-an-zin
+  name: T-tact-AN-ZIN
+  supported_language_count: 14
 - id: textra
   name: TexTra
   supported_language_count: 19

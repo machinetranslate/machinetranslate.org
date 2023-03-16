@@ -1,5 +1,5 @@
 ---
-nav_order: 989
+nav_order: 986
 parent: Languages
 layout: language
 title: Haitian
@@ -9,6 +9,15 @@ family:
 - slug: french-based-creoles
   name: French-based creoles
 supported_apis:
+- id: kodensha
+  name: Kodensha MT
+  supported_language_count: 40
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65

@@ -134,6 +134,12 @@ supported_languages:
 integrations:
 - slug: memoq
   name: MemoQ
+  urls:
+  - https://docs.memoq.com/current/en/Places/textra-plugin-settings.html
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  active: false
 nav_order: 980
 
 ---

@@ -468,10 +468,14 @@ integrations:
 - slug: crowdin
   name: Crowdin
   glossary: true
+  urls:
+  - https://support.crowdin.com/enterprise/machine-translation/#amazon-translate
 - slug: memoq
   name: MemoQ
   custom: true
   glossary: true
+  urls:
+  - https://docs.memoq.com/current/en/Places/amazon-mt-plugin-settings.html
 - slug: phrase
   name: Phrase TMS
   glossary: true
@@ -482,13 +486,22 @@ integrations:
   name: Smartling
 - slug: tolgee
   name: Tolgee
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  urls:
+  - https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3315/amazon-translate-mt-provider
 - slug: transifex
   name: Transifex
   glossary: true
-  url: https://docs.transifex.com/machine-translation/glossary-for-amazon-machine-translation-mt
+  urls:
+  - https://docs.transifex.com/machine-translation/glossary-for-amazon-machine-translation-mt
 - slug: xtm
   name: XTM
   glossary: true
+  urls:
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/amazon-translate.html
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-amazon-translate-mt-engine.html
 nav_order: 925
 redirect_from: amazon-translate
 

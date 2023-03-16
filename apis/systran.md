@@ -341,16 +341,29 @@ integrations:
 - slug: memoq
   name: MemoQ
   custom: true
+  urls:
+  - https://docs.memoq.com/current/en/Places/systran-plugin-settings.html
 - slug: phrase
   name: Phrase TMS
   custom: true
 - slug: smartling
   name: Smartling
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  custom: true
+  urls:
+  - https://help.systrangroup.com/hc/en-us/articles/360025571833--Plugins-SDL-Trados-studio-connector-How-to-add-Systran-server-in-SDL-Trados-Studio
 - slug: wordfast
   name: Wordfast
   custom: true
+  urls:
+  - https://www.wordfast.net/wiki/Machine_Translation_Wordfast_Classic
 - slug: xtm
   name: XTM
+  urls:
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/systran-pure-neural-.html
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-systran-pure-neural-mt-engine.html
 nav_order: 946
 
 ---

@@ -116,6 +116,7 @@ supported_languages:
 integrations:
 - slug: phrase
   name: Phrase TMS
+  active: false
 nav_order: 983
 
 ---

@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 983
 parent: Languages
 layout: language
 title: Welsh
@@ -11,6 +11,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: kodensha
+  name: Kodensha MT
+  supported_language_count: 40
 - id: apertium
   name: Apertium
   supported_language_count: 45
@@ -20,6 +23,12 @@ supported_apis:
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65

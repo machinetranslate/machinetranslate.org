@@ -1,5 +1,5 @@
 ---
-nav_order: 982
+nav_order: 980
 parent: Languages
 layout: language
 title: Serbian
@@ -26,6 +26,12 @@ supported_apis:
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54

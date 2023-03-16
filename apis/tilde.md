@@ -129,12 +129,22 @@ integrations:
   name: MemoQ
   custom: true
   glossary: true
+  urls:
+  - https://docs.memoq.com/current/en/Places/tilde-mt-plugin-settings.html
 - slug: phrase
   name: Phrase TMS
   custom: true
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  custom: true
+  urls:
+  - https://appstore.rws.com/plugin/118/
 - slug: wordbee
   name: Wordbee
   custom: true
+  urls:
+  - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 nav_order: 982
 
 ---

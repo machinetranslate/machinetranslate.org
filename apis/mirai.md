@@ -1,7 +1,7 @@
 ---
 layout: api
-title: Mirai Translate
-description: The Mirai Translate machine translation API
+title: Mirai Translator
+description: The Mirai Translator machine translation API
 id: mirai
 parent: APIs
 urls:
@@ -100,10 +100,16 @@ supported_languages:
 integrations:
 - slug: memoq
   name: MemoQ
+  urls:
+  - https://docs.memoq.com/current/en/Places/mirai-mt-plugin.html
 - slug: phrase
   name: Phrase TMS
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  active: false
 nav_order: 986
-redirect_from: mirai-translate
+redirect_from: mirai-translator
 
 ---
 

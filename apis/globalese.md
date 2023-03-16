@@ -216,8 +216,42 @@ supported_languages:
   name: Chinese
   variant_name: Simplified Chinese
 integrations:
+- slug: crowdin
+  name: Crowdin
+  plugin: true
+  urls:
+  - https://store.crowdin.com/globalese
+- slug: memoq
+  name: MemoQ
+  plugin: true
+  urls:
+  - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069984/memoQ+connector
 - slug: phrase
   name: Phrase TMS
+  urls:
+  - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647135756/Phrase+connector
+- slug: smartcat
+  name: Smartcat
+  plugin: true
+  custom: true
+  urls:
+  - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647037246/Smartcat+connector
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  custom: true
+  urls:
+  - https://globalese.atlassian.net/servicedesk/customer/portal/2/article/2232746052
+  - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647135792/Document+translation+plugin+for+Trados+Studio
+- slug: translate5
+  name: translate5
+  urls:
+  - https://confluence.translate5.net/display/CON/GlobalesePreTranslation
+- slug: xtm
+  name: XTM
+  plugin: true
+  urls:
+  - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647037255
 nav_order: 966
 
 ---

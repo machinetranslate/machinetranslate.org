@@ -682,12 +682,16 @@ integrations:
 - slug: crowdin
   name: Crowdin
   custom: true
+  urls:
+  - https://support.crowdin.com/enterprise/machine-translation/#microsoft-translator
 - slug: matecat
   name: MateCat
   custom: true
 - slug: memoq
   name: MemoQ
   custom: true
+  urls:
+  - https://docs.memoq.com/current/en/Places/microsoft-mt-plugin-settings.html
 - slug: phrase
   name: Phrase TMS
   custom: true
@@ -700,22 +704,39 @@ integrations:
 - slug: smartcat
   name: Smartcat
   custom: true
+  urls:
+  - https://www.smartcat.com/integrations/microsoft-translator/
 - slug: smartling
   name: Smartling
   custom: true
 - slug: tolgee
   name: Tolgee
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  custom: true
+  urls:
+  - https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
 - slug: transifex
   name: Transifex
 - slug: translate5
   name: translate5
+  urls:
+  - https://confluence.translate5.net/display/BUS/MS+Translator+Microsoft
 - slug: wordbee
   name: Wordbee
+  urls:
+  - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 - slug: wordfast
   name: Wordfast
+  urls:
+  - https://learn.microsoft.com/en-us/azure/cognitive-services/Translator/create-translator-resource
 - slug: xtm
   name: XTM
   custom: true
+  urls:
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/microsoft-translator.html
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-microsoft-translator-mt-engine.html
 nav_order: 889
 redirect_from: microsoft-translator
 

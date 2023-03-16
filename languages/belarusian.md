@@ -1,5 +1,5 @@
 ---
-nav_order: 988
+nav_order: 987
 parent: Languages
 layout: language
 title: Belarusian
@@ -11,6 +11,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: belazar
+  name: Belazar
+  supported_language_count: 2
 - id: apertium
   name: Apertium
   supported_language_count: 45

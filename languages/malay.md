@@ -1,5 +1,5 @@
 ---
-nav_order: 977
+nav_order: 974
 parent: Languages
 layout: language
 title: Malay
@@ -15,6 +15,9 @@ supported_apis:
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17
+- id: kakao
+  name: Kakao
+  supported_language_count: 19
 - id: xl8
   name: XL8
   supported_language_count: 29
@@ -36,6 +39,12 @@ supported_apis:
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54

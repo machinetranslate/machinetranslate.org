@@ -592,6 +592,12 @@ integrations:
   name: Phrase TMS
   custom: true
   glossary: true
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  custom: true
+  urls:
+  - https://appstore.rws.com/plugin/187/
 nav_order: 904
 redirect_from: rozetta-t-400
 

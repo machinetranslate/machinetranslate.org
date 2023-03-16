@@ -333,6 +333,8 @@ supported_languages:
 integrations:
 - slug: crowdin
   name: Crowdin
+  urls:
+  - https://support.crowdin.com/enterprise/machine-translation/#watson-ibm-translator
 - slug: omegat
   name: OmegaT
 - slug: smartling

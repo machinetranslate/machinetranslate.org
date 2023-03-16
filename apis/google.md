@@ -672,6 +672,9 @@ integrations:
   name: Crowdin
   custom: true
   glossary: true
+  urls:
+  - https://support.crowdin.com/enterprise/machine-translation/#google-translate
+  - https://support.crowdin.com/enterprise/machine-translation/#google-cloud-automl-translation
 - slug: matecat
   name: MateCat
   custom: true
@@ -679,6 +682,9 @@ integrations:
   name: MemoQ
   custom: true
   glossary: true
+  urls:
+  - https://docs.memoq.com/current/en/Places/googlemt-settings.html
+  - https://docs.memoq.com/current/en/Places/googleadvancedmt-settings.html
 - slug: phrase
   name: Phrase TMS
   custom: true
@@ -696,23 +702,38 @@ integrations:
   name: Smartling
   custom: true
   glossary: true
-  url: https://help.smartling.com/hc/en-us/articles/1260805168070-Translating-with-Google-AutoML
+  urls:
+  - https://help.smartling.com/hc/en-us/articles/1260805168070-Translating-with-Google-AutoML
 - slug: tolgee
   name: Tolgee
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  custom: true
+  glossary: true
+  urls:
+  - https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
 - slug: transifex
   name: Transifex
   custom: true
 - slug: translate5
   name: translate5
+  urls:
+  - https://confluence.translate5.net/display/BUS/Google
 - slug: wordbee
   name: Wordbee
   custom: true
+  urls:
+  - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 - slug: wordfast
   name: Wordfast
   custom: true
 - slug: xtm
   name: XTM
   custom: true
+  urls:
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/google-machine-translation.html
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-google-translate-mt-engine.html
 nav_order: 891
 redirect_from: google-translate
 

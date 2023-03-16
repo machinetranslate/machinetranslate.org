@@ -1,5 +1,5 @@
 ---
-nav_order: 976
+nav_order: 973
 parent: Languages
 layout: language
 title: Latvian
@@ -29,6 +29,9 @@ supported_apis:
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 38
+- id: kodensha
+  name: Kodensha MT
+  supported_language_count: 40
 - id: promt
   name: PROMT
   supported_language_count: 40
@@ -41,6 +44,12 @@ supported_apis:
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54

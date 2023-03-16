@@ -122,8 +122,20 @@ supported_languages:
   name: Chinese
   variant_name: null
 integrations:
+- slug: memoq
+  name: MemoQ
+  plugin: true
+  urls:
+  - https://www.textshuttle.ai/product/features#cat-connectors
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  urls:
+  - https://appstore.rws.com/plugin/145/
 - slug: wordbee
   name: Wordbee
+  urls:
+  - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 nav_order: 982
 
 ---

@@ -1,5 +1,5 @@
 ---
-nav_order: 985
+nav_order: 981
 parent: Languages
 layout: language
 title: Persian
@@ -13,6 +13,12 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: reverso
+  name: Reverso
+  supported_language_count: 26
+- id: kodensha
+  name: Kodensha MT
+  supported_language_count: 40
 - id: promt
   name: PROMT
   supported_language_count: 40
@@ -22,6 +28,12 @@ supported_apis:
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54

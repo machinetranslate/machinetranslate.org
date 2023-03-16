@@ -1,5 +1,5 @@
 ---
-nav_order: 984
+nav_order: 982
 parent: Languages
 layout: language
 title: Swahili
@@ -20,6 +20,12 @@ supported_apis:
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54

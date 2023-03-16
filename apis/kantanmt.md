@@ -242,19 +242,35 @@ supported_languages:
   name: Chinese
   variant_name: Traditional Chinese
 integrations:
+- slug: crowdin
+  name: Crowdin
+  plugin: true
+  urls:
+  - https://store.crowdin.com/kantanmt
 - slug: memoq
   name: MemoQ
   custom: true
+  urls:
+  - https://docs.memoq.com/current/en/Places/kantanmt-plugin-settings.html
 - slug: phrase
   name: Phrase TMS
   custom: true
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  custom: true
+  urls:
+  - https://appstore.rws.com/plugin/165/
 - slug: transifex
   name: Transifex
   custom: true
-  url: https://docs.transifex.com/machine-translation/working-with-kantan-mt
+  urls:
+  - https://docs.transifex.com/machine-translation/working-with-kantan-mt
 - slug: wordbee
   name: Wordbee
   custom: true
+  urls:
+  - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 - slug: wordfast
   name: Wordfast
   custom: true
@@ -262,6 +278,9 @@ integrations:
 - slug: xtm
   name: XTM
   custom: false
+  urls:
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/kantanmt.html
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-kantanmt-engine.html
 nav_order: 962
 
 ---

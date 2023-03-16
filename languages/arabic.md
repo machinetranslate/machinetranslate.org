@@ -1,5 +1,5 @@
 ---
-nav_order: 967
+nav_order: 961
 parent: Languages
 layout: language
 title: Arabic
@@ -14,7 +14,7 @@ supported_apis:
 - id: tarjama
   name: Tarjama MT
   supported_language_count: 2
-- id: alexa-ai
+- id: alexa-translations-ai
   name: Alexa Translations A.I.
   supported_language_count: 10
 - id: lingo24
@@ -26,14 +26,23 @@ supported_apis:
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17
+- id: kakao
+  name: Kakao
+  supported_language_count: 19
 - id: textra
   name: TexTra
   supported_language_count: 19
+- id: sogou-translate
+  name: Sogou Translate
+  supported_language_count: 21
 - id: unbabel
   name: Unbabel
   supported_language_count: 25
 - id: lingmo
   name: Lingmo Translation
+  supported_language_count: 26
+- id: reverso
+  name: Reverso
   supported_language_count: 26
 - id: xl8
   name: XL8
@@ -50,6 +59,9 @@ supported_apis:
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 38
+- id: kodensha
+  name: Kodensha MT
+  supported_language_count: 40
 - id: promt
   name: PROMT
   supported_language_count: 40
@@ -68,6 +80,12 @@ supported_apis:
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54

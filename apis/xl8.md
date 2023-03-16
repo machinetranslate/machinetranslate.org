@@ -209,7 +209,12 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
-integrations: []
+integrations:
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  urls:
+  - https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf
 nav_order: 967
 
 ---

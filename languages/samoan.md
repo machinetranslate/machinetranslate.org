@@ -1,5 +1,5 @@
 ---
-nav_order: 992
+nav_order: 990
 parent: Languages
 layout: language
 title: Samoan
@@ -9,6 +9,12 @@ family:
 - slug: austronesian
   name: Austronesian
 supported_apis:
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96
