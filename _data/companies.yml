@@ -127,7 +127,7 @@
 - name: ElevenLabs
   id: elevenlabs
   type: [ machine-translation-provider ]
-  location:
+  location: United States
   founded: 2022
   urls:
     - https://elevenlabs.io
