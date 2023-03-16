@@ -1,7 +1,7 @@
 ---
 - name: AISA Digital
   id: aisa-digital
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Singapore
   founded: 2018
   urls:
@@ -10,21 +10,21 @@
 
 - name: Alexa Translations A.I.
   id: alexa-translations-ai
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Canada
   founded: 2002
   urls:
     - https://alexatranslations.com/
     - https://www.crunchbase.com/organization/alexa-translations-a-i
 
-- name: Alibaba Cloud Computing
-  id: alibaba-cloud
+- name: Alibaba Group
+  id: alibaba-group
   type: [ technology-provider ]
   location: China
-  founded: 2009
+  founded: 1999
   urls:
-    - https://www.alibabacloud.com/
-    - https://www.crunchbase.com/organization/alibaba-cloud
+    - https://www.alibabagroup.com/
+    - https://www.crunchbase.com/organization/alibaba
 
 - name: Amazon
   id: amazon
@@ -33,10 +33,11 @@
   founded: 1994
   urls:
     - https://aws.amazon.com/translate/
+    - https://www.crunchbase.com/organization/amazon
 
 - name: Amplexor
   id: amplexor
-  type: [ lsp ]
+  type: [ human-translation-service ]
   location: Luxembourg
   founded: 2001
   urls:
@@ -46,7 +47,7 @@
 
 - name: Apertium
   id: apertium
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Spain
   founded: 2004
   urls:
@@ -54,25 +55,25 @@
 
 - name: AppTek
   id: apptek
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: United States
   founded: 1990
   urls:
     - https://www.apptek.com/
     - https://www.crunchbase.com/organization/apptek
 
-- name: Baidu AI
-  id: baidu-ai
+- name: Baidu
+  id: baidu
   type: [ technology-provider ]
   location: China
-  founded: 2017
+  founded: 1999
   urls:
-    - https://intl.cloud.baidu.com/
+    - http://www.baidu.com/
     - https://www.crunchbase.com/organization/baidu
 
 - name: Belazar
   id: belazar
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Belarus
   founded: 2010
   urls:
@@ -80,7 +81,7 @@
 
 - name: Bering Lab
   id: bering-lab
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: South Korea
   founded: 2020
   urls:
@@ -90,7 +91,7 @@
 
 - name: CloudTranslation
   id: cloudtranslation
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: China
   founded: 2017
   urls:
@@ -99,7 +100,7 @@
 
 - name: Crosslang
   id: crosslang
-  type: [ mt-aggregator, mt-provider ]
+  type: [ machine-translation-aggregator, machine-translation-provider ]
   location: Belgium
   founded: 2002
   urls:
@@ -108,7 +109,7 @@
 
 - name: Custom.MT
   id: custom-mt
-  type: [ mt-aggregator ]
+  type: [ machine-translation-aggregator ]
   location: Prague
   founded: 2020
   urls:
@@ -116,7 +117,7 @@
 
 - name: DeepL
   id: deepl
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Germany
   founded: 2017
   urls:
@@ -125,7 +126,7 @@
 
 - name: ElevenLabs
   id: elevenlabs
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location:
   founded: 2022
   urls:
@@ -143,7 +144,7 @@
 
 - name: European Commission
   id: european-commission
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Belgium
   founded: 2017
   urls:
@@ -152,18 +153,18 @@
 
 - name: Globalese
   id: globalese
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Germany
   founded: 2017
   urls:
     - https://www.globalese-mt.com/
     - https://www.crunchbase.com/organization/globalese
 
-- name: Google Cloud
-  id: google-cloud
+- name: Google
+  id: google
   type: [ technology-provider ]
   location: United States
-  founded: 2012
+  founded: 1998
   urls:
     - https://cloud.google.com/
     - https://www.crunchbase.com/organization/google-cloud-platform
@@ -171,12 +172,14 @@
 - name: GTCOM
   type: [ technology-provider ]
   location: China
+  founded: 1973
   urls:
     - https://www.gtcom.com.cn/
+    - https://www.crunchbase.com/organization/global-tone-communication
 
 - name: Human Science
   id: human-science
-  type: [ lsp, mt-aggregator ]
+  type: [ human-translation-service, machine-translation-aggregator ]
   founded: 1985
   location: Japan
   urls:
@@ -184,17 +187,17 @@
     - https://www.crunchbase.com/organization/human-science
 
 - name: IBM
-  id: ibm-watson
+  id: ibm
   type: [ technology-provider ]
-  founded: 2014
+  founded: 1911
   location: Unites States
   urls:
-    - https://www.ibm.com/watson
-    - https://www.crunchbase.com/organization/ibm-watson
+    - https://www.ibm.com/
+    - https://www.crunchbase.com/organization/ibm
 
 - name: Iconic Translation
   id: iconic
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Ireland
   founded: 2013
   url:
@@ -204,7 +207,7 @@
 
 - name: ImageTranslate
   id: imagetranslate
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: India
   founded: 2018
   urls:
@@ -213,7 +216,7 @@
 
 - name: Intento
   id: intento
-  type: [ mt-aggregator ]
+  type: [ machine-translation-aggregator ]
   location: United States
   founded: 2016
   urls:
@@ -232,7 +235,7 @@
 
 - name: KantanAI
   id: kantan-ai
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Ireland
   founded: 2012
   urls:
@@ -243,7 +246,7 @@
 
 - name: Kites
   id: kites
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Germany
   founded: 2016
   urls:
@@ -255,7 +258,7 @@
 
 - name: Kodensha
   id: kodensha
-  type: [ mt-provider, lsp ]
+  type: [ machine-translation-provider, human-translation-service ]
   location: Japan
   founded: 1979
   urls:
@@ -264,7 +267,7 @@
 
 - name: Language I/O
   id: language-io
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: United States
   founded: 2017
   urls:
@@ -274,7 +277,7 @@
 
 - name: Language Wire
   id: language-wire
-  type: [ lsp ]
+  type: [ human-translation-service ]
   location: Denmark
   founded: 2000
   urls:
@@ -285,7 +288,7 @@
 
 - name: Lexy
   id: lexy
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: United States
   founded: 2015
   urls:
@@ -295,7 +298,7 @@
 
 - name: Lilt
   id: lilt
-  type: [ mt-provider, lsp ]
+  type: [ machine-translation-provider, human-translation-service ]
   location: United States
   founded: 2015
   urls:
@@ -305,7 +308,7 @@
 
 - name: Lingmo
   id: lingmo
-  type: [ mt-provider, lsp ]
+  type: [ machine-translation-provider, human-translation-service ]
   location: Australia
   founded: 2016
   urls:
@@ -314,7 +317,7 @@
 
 - name: Lingo24
   id: lingo24
-  type: [ mt-provider, lsp ]
+  type: [ machine-translation-provider, human-translation-service ]
   location: United Kingdom
   founded: 2001
   urls:
@@ -326,7 +329,7 @@
 
 - name: Lingua Custodia
   id: lingua-custodia
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: France
   founded: 2011
   urls:
@@ -335,7 +338,7 @@
 
 - name: LingvaNex
   id: lingvanex
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Cyprus
   founded: 2016
   urls:
@@ -344,7 +347,7 @@
 
 - name: Lionbridge
   id: lionbridge
-  type: [ lsp ]
+  type: [ human-translation-service ]
   location: United States
   founded: 1996
   urls:
@@ -355,7 +358,7 @@
 
 - name: Lucy
   id: lucy
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Germany
   founded: 2006
   urls:
@@ -364,18 +367,18 @@
   acquired_by:
     company: United Language Group
 
-- name: Microsoft Azure
-  id: microsoft-azure
+- name: Microsoft
+  id: microsoft
   type: [ technology-provider ]
   location: United Kingdom
-  founded: 2008
+  founded: 1975
   urls:
-    - https://translator.microsoft.com/
-    - https://www.crunchbase.com/organization/microsoft-azure
+    - https://www.microsoft.com/
+    - https://www.crunchbase.com/organization/microsoft
 
 - name: Mirai Translate
   id: mirai-translate
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Japan
   founded: 2014
   urls:
@@ -384,7 +387,7 @@
 
 - name: ModelFront
   id: modelfront
-  type: [ qp-provider ]
+  type: [ quality-prediction-provider ]
   location: United States
   founded: 2019
   urls:
@@ -393,7 +396,7 @@
 
 - name: Moravia
   id: moravia
-  type: [ lsp ]
+  type: [ human-translation-service ]
   location: Czechia
   founded: 2014
   urls:
@@ -402,8 +405,8 @@
   acquired_by:
     company: RWS
 
-- name: Naver Cloud
-  id: naver-cloud
+- name: Naver
+  id: naver
   type: [ technology-provider ]
   location: South Korea
   founded: 2009
@@ -413,7 +416,7 @@
 
 - name: National Institute of Information and Communications Technology
   id: nict
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Japan
   founded: 1896
   urls:
@@ -432,7 +435,7 @@
 
 - name: NpatMT
   id: npatmt
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Japan
   founded: 2015
   urls:
@@ -441,7 +444,7 @@
 - name: Omniscien Technologies
   alternative_names: [ Asia Online ]
   id: omniscien-technologies
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: The Netherlands
   founded: 2006
   urls:
@@ -450,7 +453,7 @@
 
 - name: Oneliner
   id: oneliner
-  type: [ lsp, mt-provider ]
+  type: [ human-translation-service, machine-translation-provider ]
   location: Belgium
   founded: 1999
   urls:
@@ -459,7 +462,7 @@
 
 - name: Pangeanic
   id: pangeanic
-  type: [ mt-provider, lsp ]
+  type: [ machine-translation-provider, human-translation-service ]
   location: Spain
   founded: 2000
   urls:
@@ -468,7 +471,7 @@
 
 - name: Panlingua
   id: panlingua
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: India
   founded: 2017
   urls:
@@ -502,7 +505,7 @@
 
 - name: PROMT
   id: promt
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Russia
   founded: 1991
   urls:
@@ -511,7 +514,7 @@
 
 - name: Rozetta
   id: rozetta
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Japan
   founded: 2004
   urls:
@@ -530,7 +533,7 @@
 - name: RWS
   alternative_names: [ SDL ]
   id: rws
-  type: [ technology-provider, lsp, mt-provider ]
+  type: [ technology-provider, human-translation-service, machine-translation-provider ]
   location: United Kingdom
   founded: 1958
   urls:
@@ -539,7 +542,7 @@
 
 - name: Safaba
   id: safaba
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: United States
   founded: 2009
   active: false
@@ -560,7 +563,7 @@
 
 - name: Skrivanek
   id: skrivanek
-  type: [ mt-provider, lsp ]
+  type: [ human-translation-service ]
   location: Germany
   founded: 2004
   urls:
@@ -580,7 +583,7 @@
 
 - name: Sunda Systems
   id: sunda-systems
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Finland
   urls:
     - https://www.sunda.fi/en/company
@@ -594,7 +597,7 @@
 
 - name: SYSTRAN
   id: systran
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: France
   founded: 1968
   urls:
@@ -603,7 +606,7 @@
 
 - name: Tarjama
   id: tarjama
-  type: [ mt-provider, lsp ]
+  type: [ machine-translation-provider, human-translation-service ]
   location: United Arab Emirates
   founded: 2008
   urls:
@@ -612,7 +615,7 @@
 
 - name: Tauyou
   id: tauyou
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Spain
   founded: 2006
   urls:
@@ -632,7 +635,7 @@
 
 - name: TextShuttle
   id: textshuttle
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Switzerland
   founded: 2009
   urls:
@@ -641,7 +644,7 @@
 
 - name: Tilde
   id: tilde
-  type: [ mt-provider, lsp ]
+  type: [ machine-translation-provider, human-translation-service ]
   location: Latvia
   founded: 1991
   urls:
@@ -650,7 +653,7 @@
 
 - name: Tmxmall
   id: tmxmall
-  type: [ technology-provider, mt-aggregator ]
+  type: [ technology-provider, machine-translation-aggregator ]
   location: China
   founded: 2014
   urls:
@@ -668,7 +671,7 @@
 
 - name: Translated
   id: translated
-  type: [ lsp, mt-provider ]
+  type: [ human-translation-service, machine-translation-provider ]
   location: Italy
   founded: 1999
   urls:
@@ -677,7 +680,7 @@
 
 - name: TranslateMe
   id: translateme
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: South Africa
   founded: 2016
   urls:
@@ -685,7 +688,7 @@
 
 - name: Transperfect
   id: transperfect
-  type: [ lsp ]
+  type: [ human-translation-service ]
   location: United States
   founded: 1992
   urls:
@@ -694,7 +697,7 @@
 
 - name: Ubiqus
   id: ubiqus
-  type: [ lsp ]
+  type: [ human-translation-service ]
   location: France
   founded: 1991
   urls:
@@ -705,8 +708,8 @@
 
 - name: Unbabel
   id: unbabel
-  type: [ mt-provider, lsp ]
-  location: Portugal, United States
+  type: [ human-translation-service ]
+  location: United States
   founded: 2013
   urls:
     - https://www.unbabel.com
@@ -714,7 +717,7 @@
 
 - name: Vidby
   id: vidby
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Switzerland
   founded: 2021
   urls:
@@ -733,7 +736,7 @@
 
 - name: Viva Translate
   id: viva-translate
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: United States
   founded: 2020
   urls:
@@ -743,7 +746,7 @@
 
 - name: Xiaoniu Fanyi
   id: xiaoniu-fanyi
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: China
   founded: 2012
   urls:
@@ -752,7 +755,7 @@
 
 - name: XL8
   id: xl8
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: United States
   founded: 2019
   urls:
@@ -771,7 +774,7 @@
 
 - name: Yappn
   id: yappn
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: Canada
   founded: 2013
   urls:
@@ -791,7 +794,7 @@
 
 - name: Wordlingo
   id: wordlingo
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: United States
   founded: 1998
   urls:
@@ -802,7 +805,7 @@
 
 - name: Zhongke Fanyu Technology
   id: zhongke-fanyu-technology
-  type: [ mt-provider ]
+  type: [ machine-translation-provider ]
   location: China
   founded: 2018
   urls:

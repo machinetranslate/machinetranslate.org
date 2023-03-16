@@ -31,7 +31,7 @@
 
 - name: Alibaba Translate
   id: alibaba
-  company: alibaba-cloud
+  company: alibaba-group
   urls:
    - https://www.alibabacloud.com/es/product/machine-translation
    - https://www.alibabacloud.com/help/en/machine-translation/latest/general-version-of-machine-translation
@@ -94,7 +94,7 @@
 
 - name: Baidu Translate
   id: baidu
-  company: baidu-ai
+  company: baidu
   urls:
    - https://ai.baidu.com/tech/mt/text_trans
    - https://ai.baidu.com/ai-doc/MT/4kqryjku9#语种列表
@@ -205,7 +205,7 @@
 - name: Google Translate
   alternative_names: [ Google Cloud Translation API, Google Cloud Translation AutoML ]
   id: google
-  company: google-cloud
+  company: google
   urls:
    - https://console.cloud.google.com/apis/library/translate.googleapis.com
    - https://cloud.google.com/translate/docs/languages
@@ -393,7 +393,7 @@
 
 - name: Microsoft Translator
   id: microsoft
-  company: microsoft-azure
+  company: microsoft
   urls:
    - https://translator.microsoft.com
    - https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
@@ -524,7 +524,7 @@
 
 - name: Papago Translation
   id: papago
-  company: naver-cloud
+  company: naver
   urls:
    - https://papago.naver.com/business
    - https://www.ncloud.com/product/aiService/papagoTranslation
@@ -843,7 +843,7 @@
 
 - name: Watson Language Translator
   id: watson
-  company: ibm-watson
+  company: ibm
   urls:
    - https://ibm.com/cloud/watson-language-translator
    - https://cloud.ibm.com/docs/language-translator?topic=language-translator-translation-models
