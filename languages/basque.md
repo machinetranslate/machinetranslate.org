@@ -1,5 +1,5 @@
 ---
-nav_order: 988
+nav_order: 986
 parent: Languages
 layout: language
 title: Basque
@@ -7,6 +7,12 @@ description: Machine translation for Basque
 code: eu
 family: []
 supported_apis:
+- id: elia
+  name: Elia
+  supported_language_count: 6
+- id: lucy
+  name: Lucy
+  supported_language_count: 9
 - id: apertium
   name: Apertium
   supported_language_count: 45

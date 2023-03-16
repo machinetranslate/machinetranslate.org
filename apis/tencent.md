@@ -128,6 +128,11 @@ supported_languages:
 integrations:
 - slug: phrase
   name: Phrase TMS
+- slug: omegat
+  name: OmegaT
+  plugin: true
+  urls:
+  - https://github.com/yoyicue/omegat-tencent-plugin
 nav_order: 981
 redirect_from: tencent-machine-translation
 

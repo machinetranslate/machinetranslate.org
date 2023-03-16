@@ -1,5 +1,5 @@
 ---
-nav_order: 983
+nav_order: 981
 parent: Languages
 layout: language
 title: Tagalog
@@ -21,6 +21,12 @@ supported_apis:
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 58

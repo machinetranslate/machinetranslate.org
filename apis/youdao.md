@@ -685,7 +685,11 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
-integrations: []
+integrations:
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  active: false
 nav_order: 888
 redirect_from: youdao-translate
 

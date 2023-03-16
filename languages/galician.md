@@ -1,5 +1,5 @@
 ---
-nav_order: 988
+nav_order: 986
 parent: Languages
 layout: language
 title: Galician
@@ -11,6 +11,12 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: elia
+  name: Elia
+  supported_language_count: 6
+- id: lucy
+  name: Lucy
+  supported_language_count: 9
 - id: lingmo
   name: Lingmo Translation
   supported_language_count: 26

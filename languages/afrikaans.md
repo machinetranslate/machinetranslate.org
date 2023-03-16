@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 984
 parent: Languages
 layout: language
 title: Afrikaans
@@ -17,6 +17,12 @@ supported_apis:
 - id: lilt
   name: Lilt
   supported_language_count: 50
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: apptek
   name: AppTek
   supported_language_count: 65

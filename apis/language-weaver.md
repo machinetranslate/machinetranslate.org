@@ -379,6 +379,9 @@ integrations:
 - slug: xtm
   name: XTM
   glossary: true
+  urls:
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/language-weaver.html
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-language-weaver-mt-engine.html
 nav_order: 942
 
 ---

@@ -572,6 +572,7 @@ supported_languages:
 integrations:
 - slug: crowdin
   name: Crowdin
+  active: false
 - slug: matecat
   name: MateCat
 - slug: phrase

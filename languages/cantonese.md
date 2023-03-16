@@ -1,5 +1,5 @@
 ---
-nav_order: 995
+nav_order: 993
 parent: Languages
 layout: language
 title: Cantonese
@@ -9,6 +9,12 @@ family:
 - slug: sino-tibetan
   name: Sino-Tibetan
 supported_apis:
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103

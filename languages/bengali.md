@@ -1,5 +1,5 @@
 ---
-nav_order: 983
+nav_order: 982
 parent: Languages
 layout: language
 title: Bengali
@@ -13,6 +13,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: kakao
+  name: Kakao
+  supported_language_count: 19
 - id: lilt
   name: Lilt
   supported_language_count: 50

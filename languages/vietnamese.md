@@ -1,5 +1,5 @@
 ---
-nav_order: 974
+nav_order: 968
 parent: Languages
 layout: language
 title: Vietnamese
@@ -13,17 +13,26 @@ supported_apis:
   name: Papago Translation
   supported_language_count: 12
 - id: mirai
-  name: Mirai Translate
+  name: Mirai Translator
   supported_language_count: 13
+- id: t-tact-an-zin
+  name: T-tact-AN-ZIN
+  supported_language_count: 14
 - id: aisa
   name: AISA
   supported_language_count: 16
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17
+- id: kakao
+  name: Kakao
+  supported_language_count: 19
 - id: textra
   name: TexTra
   supported_language_count: 19
+- id: sogou-translate
+  name: Sogou Translate
+  supported_language_count: 21
 - id: unbabel
   name: Unbabel
   supported_language_count: 25
@@ -36,6 +45,9 @@ supported_apis:
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 38
+- id: kodensha
+  name: Kodensha MT
+  supported_language_count: 40
 - id: lilt
   name: Lilt
   supported_language_count: 50
@@ -48,6 +60,12 @@ supported_apis:
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54

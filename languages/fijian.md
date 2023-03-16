@@ -1,5 +1,5 @@
 ---
-nav_order: 996
+nav_order: 994
 parent: Languages
 layout: language
 title: Fijian
@@ -9,6 +9,12 @@ family:
 - slug: austronesian
   name: Austronesian
 supported_apis:
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103

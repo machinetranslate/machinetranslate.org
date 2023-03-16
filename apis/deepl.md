@@ -220,34 +220,60 @@ supported_languages:
 integrations:
 - slug: crowdin
   name: Crowdin
-  tone: true
+  formality: true
+  urls:
+  - https://support.crowdin.com/enterprise/machine-translation/#deepl-translator
 - slug: memoq
   name: MemoQ
   glossary: true
-  tone: true
+  formality: true
+  urls:
+  - https://docs.memoq.com/current/en/Places/deepl-mt-plugin-settings.html
 - slug: phrase
   name: Phrase TMS
   glossary: true
 - slug: omegat
   name: OmegaT
+- slug: passolo
+  name: Passolo
+  plugin: true
+  urls:
+  - https://appstore.rws.com/language/app/deepl-mt-provider-for-passolo/1088/
 - slug: smartcat
   name: Smartcat
+  urls:
+  - https://www.smartcat.com/integrations/deepl/
 - slug: smartling
   name: Smartling
 - slug: tolgee
   name: Tolgee
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  urls:
+  - https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3266/deepl-translation-provider
 - slug: transifex
   name: Transifex
-  tone: true
+  formality: true
+- slug: translate5
+  name: translate5
+  plugin: true
+  urls:
+  - https://confluence.translate5.net/display/CON/DeepL
 - slug: wordbee
   name: Wordbee
+  urls:
+  - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 - slug: wordfast
   name: Wordfast
-  tone: true
+  formality: true
 - slug: xtm
   name: XTM
   glossary: true
-  tone: true
+  formality: true
+  urls:
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/deepl.html
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-deepl-translator-mt-engine.html
 nav_order: 966
 
 ---

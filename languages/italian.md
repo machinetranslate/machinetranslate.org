@@ -1,5 +1,5 @@
 ---
-nav_order: 960
+nav_order: 953
 parent: Languages
 layout: language
 title: Italian
@@ -17,7 +17,7 @@ supported_apis:
 - id: phrase-nextmt
   name: Phrase NextMT
   supported_language_count: 8
-- id: alexa-ai
+- id: alexa-translations-ai
   name: Alexa Translations A.I.
   supported_language_count: 10
 - id: translateme
@@ -30,8 +30,11 @@ supported_apis:
   name: Lingo24
   supported_language_count: 13
 - id: mirai
-  name: Mirai Translate
+  name: Mirai Translator
   supported_language_count: 13
+- id: t-tact-an-zin
+  name: T-tact-AN-ZIN
+  supported_language_count: 14
 - id: aisa
   name: AISA
   supported_language_count: 16
@@ -44,14 +47,23 @@ supported_apis:
 - id: tilde
   name: Tilde
   supported_language_count: 18
+- id: kakao
+  name: Kakao
+  supported_language_count: 19
 - id: textra
   name: TexTra
   supported_language_count: 19
+- id: sogou-translate
+  name: Sogou Translate
+  supported_language_count: 21
 - id: unbabel
   name: Unbabel
   supported_language_count: 25
 - id: lingmo
   name: Lingmo Translation
+  supported_language_count: 26
+- id: reverso
+  name: Reverso
   supported_language_count: 26
 - id: deepl
   name: DeepL
@@ -71,6 +83,9 @@ supported_apis:
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 38
+- id: kodensha
+  name: Kodensha MT
+  supported_language_count: 40
 - id: promt
   name: PROMT
   supported_language_count: 40
@@ -89,6 +104,12 @@ supported_apis:
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54

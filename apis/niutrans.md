@@ -2319,6 +2319,10 @@ supported_languages:
 integrations:
 - slug: memoq
   name: MemoQ
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  active: false
 nav_order: 616
 
 ---

@@ -1,5 +1,5 @@
 ---
-nav_order: 980
+nav_order: 977
 parent: Languages
 layout: language
 title: Norwegian
@@ -26,6 +26,9 @@ supported_apis:
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 38
+- id: kodensha
+  name: Kodensha MT
+  supported_language_count: 40
 - id: apertium
   name: Apertium
   supported_language_count: 45
@@ -35,6 +38,12 @@ supported_apis:
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
+- id: iconic
+  name: Iconic
+  supported_language_count: 53
+- id: iptranslator
+  name: IP Translator
+  supported_language_count: 53
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54

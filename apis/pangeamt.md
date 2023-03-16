@@ -71,9 +71,20 @@ integrations:
 - slug: memoq
   name: MemoQ
   glossary: true
+  urls:
+  - https://docs.memoq.com/current/en/Places/pangeamt-plugin-settings.html
 - slug: phrase
   name: Phrase TMS
   custom: true
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  custom: true
+  active: false
+- slug: translate5
+  name: translate5
+  urls:
+  - https://confluence.translate5.net/display/CON/PangeaMT
 nav_order: 991
 
 ---

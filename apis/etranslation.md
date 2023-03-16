@@ -193,6 +193,8 @@ supported_languages:
 integrations:
 - slug: memoq
   name: MemoQ
+  urls:
+  - https://docs.memoq.com/current/en/Places/etranslation-mt-plugin-settings.html
 nav_order: 970
 
 ---

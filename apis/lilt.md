@@ -330,6 +330,8 @@ integrations:
   custom: true
   glossary: true
   adaptive: true
+  urls:
+  - https://support.lilt.com/kb/introduction-to-lilt-translate
 nav_order: 948
 
 ---

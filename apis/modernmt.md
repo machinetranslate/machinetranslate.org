@@ -351,13 +351,27 @@ supported_languages:
 integrations:
 - slug: crowdin
   name: Crowdin
+  urls:
+  - https://support.crowdin.com/enterprise/machine-translation/#modernmt
 - slug: matecat
   name: MateCat
   custom: true
   adaptive: true
+  urls:
+  - https://guides.matecat.com/modernmt-mmt-plug-in
 - slug: smartcat
   name: Smartcat
   custom: true
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  custom: true
+  urls:
+  - https://s3.amazonaws.com/modernmt.prod.public.us-east-1/downloads/ModernMT+Plugin+Guide+for+SDL+Trados+Studio.pdf
+- slug: wordfast
+  name: Wordfast
+  urls:
+  - https://www.wordfast.net/wiki/Connecting_Wordfast_Pro_to_Modern_MT
 nav_order: 944
 
 ---
