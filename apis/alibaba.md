@@ -7,7 +7,7 @@ parent: APIs
 urls:
 - https://www.alibabacloud.com/es/product/machine-translation
 - https://www.alibabacloud.com/help/en/machine-translation/latest/general-version-of-machine-translation
-privacy_url: https://www.alibabacloud.com/help/en/machine-translation/latest/service-agreement-introduction#1306e5965564i
+privacy_url: https://www.alibabacloud.com/help/en/legal/latest/alibaba-cloud-international-website-product-terms-of-service
 self_serve: true
 customisation: []
 supported_languages:

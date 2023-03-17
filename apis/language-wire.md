@@ -6,8 +6,7 @@ id: language-wire
 parent: APIs
 urls:
 - https://www.languagewire.com/en/technology/languagewire-translate
-privacy_url:
-- https://www.languagewire.com/en/info/terms-and-conditions
+privacy_url: https://www.languagewire.com/en/info/terms-and-conditions
 self_serve: true
 customisation: []
 supported_languages:

@@ -6,8 +6,7 @@ id: lingua-custodia
 parent: APIs
 urls:
 - https://www.linguacustodia.finance/en/welcome/
-privacy_url:
-- https://www.linguacustodia.finance/en/lingua-custodia-privacy-policy/
+privacy_url: https://www.linguacustodia.finance/en/lingua-custodia-privacy-policy/
 self_serve: false
 customisation: []
 supported_languages: []
