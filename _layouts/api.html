@@ -32,7 +32,7 @@ parent: APIs
 
   {% if page.supported_languages.size == 0 %}
     <dt>Language support</dt>
-    <dd><a href="#language-support">{{ page.supported_languages | size }} languages</a></dd>
+    <dd><a href="#language-support">Unknown number of languages</a></dd>
   {% endif %}
     
   {% if page.integrations.size > 0 %}
@@ -116,7 +116,7 @@ parent: APIs
 
 {% else %}
 
-<p>The {{ page.title }} API supports <strong>{{ page.supported_languages | size }}</strong> languages.</p>
+<p>The {{ page.title }} API supports an unknown number of languages.</p>
 
 {% endif %}
 
