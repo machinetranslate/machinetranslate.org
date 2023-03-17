@@ -35,7 +35,7 @@
   urls:
    - https://www.alibabacloud.com/es/product/machine-translation
    - https://www.alibabacloud.com/help/en/machine-translation/latest/general-version-of-machine-translation
-  privacy_url: https://www.alibabacloud.com/help/en/machine-translation/latest/service-agreement-introduction#1306e5965564i
+  privacy_url: https://www.alibabacloud.com/help/en/legal/latest/alibaba-cloud-international-website-product-terms-of-service
   languages: [ ab, ace, af, ak, am, an, ar, as, ast, ay, az, ba, bal, be, bem, ber, bg, bho, bi, bm, bn, br, bs, byn, ca, cbk, ceb, ch, chm, chr, cnr, co, crh, cs, csb, cv, cy, da, de, dtp, dv, ee, el, en, eo, es, et, eu, fa, fi, fil, fj, fo, fr, fur, fvr, fy, ga, gil, gl, gn, gos, gu, gv, ha, haw, hbs, he, hi, hil, hmn, hsb, ht, hu, hup, hy, ia, iba, id, ie, ig, ilo, inh, io, is, it, iu, ja, jbo, jv, ka, kab, kdx, kek, kg, kha, kk, kl, km, kn, ko, kr, ks, ku, kw, ky, la, lb, lfn, lg, li, ln, lo, lt, ltg, lv, mai, mfe, mg, mh, mi, mk, ml, mn, mr, ms, mt, mus, my, nch, nds, ne, ngu, niu, nl, 'no', nv, ny, oc, oj, om, or, os, pa, pag, pap, pl, pmn, ps, pt, qu, quc, rm, rn, ro, rom, ru, rue, rw, sa, sco, sd, se, sg, shn, si, sk, sl, sm, sn, so, sq, su, sv, sw, syr, szl, ta, te, tet, tg, th, ti, tk, tl, tlh, to, toi, tpi, tr, ts, tt, tvl, tw, ty, tyv, udm, umb, ur, uz, ve, vi, vo, wa, war, wo, xh, yi, yo, yue, zh, zh-tw, zu, zza ]
   stock_api_domains:
     - general
@@ -222,8 +222,7 @@
   urls:
     - https://web.archive.org/web/20220308061419/https://iconictranslation.com/
     - https://web.archive.org/web/20200610012330/https://iconictranslation.com/what-we-do/bespoke-solutions/languages/
-  privacy_url:
-    - https://web.archive.org/web/20220116104107/https://iconictranslation.com/what-we-do/neural-machine-translation/information-security/
+  privacy_url: https://web.archive.org/web/20220116104107/https://iconictranslation.com/what-we-do/neural-machine-translation/information-security/
   languages: [ af, ar, bs, bg, ca, cs, cy, da, de, en, el, es, et, fa, fj, fi, fil, fr, he, hi, hr, ht, hu, id, it, ja, ko, lt, lv, mg, mt, ms, nl, 'no', pl, pt, ro, ru, sk, sl, sm, sr, sv, sw, th, to, tr, ty, uk, ur, vi, yue, zh-cn, zh-tw ]
   stock_api_domains:
     - automotive
@@ -304,7 +303,7 @@
   urls:
    - https://www.rws.com/language-weaver
    - https://docs.rws.com/791593/662987/language-weaver/welcome-to-the-------------language-weaver-documentation
-  privacy_url: https://www.rws.com/legal/privacy/privacy-notice/?_gl=1*1ugvzg8*_ga*Njc5NDEwODk5LjE2MjYxNDMzMzM.*_ga_XXKN0CM93C*MTY2ODQzOTc0Mi45MS4xLjE2Njg0NDEwMTkuMC4wLjA.
+  privacy_url: https://www.rws.com/legal/privacy/privacy-notice/
   languages: [ ar, bg, bn, ca, cs, da, de, el, en, es, et, fa, fi, fr, fr-ca, ha, he, hi, hr, hu, hy, id, it, ja, jv, ka, km, ko, ku, lt, lv, ms, mt, my, nl, 'no', pl, prs, ps, pt, pt-br, ro, ru, sk, sl, so, sq, sr, sv, sw, th, tr, uk, ur, uz, vi, zh-cn, zh-tw ]
   glossary: true
   self-serve: true
@@ -315,8 +314,7 @@
   company: language-wire
   urls:
     - https://www.languagewire.com/en/technology/languagewire-translate
-  privacy_url:
-    - https://www.languagewire.com/en/info/terms-and-conditions
+  privacy_url: https://www.languagewire.com/en/info/terms-and-conditions
   languages: [ da, de, en, es, fr, fr, nl, sv ]
   self-serve: true
 
@@ -356,8 +354,7 @@
   company: lingua-custodia
   urls:
     - https://www.linguacustodia.finance/en/welcome/
-  privacy_url:
-    - https://www.linguacustodia.finance/en/lingua-custodia-privacy-policy/
+  privacy_url: https://www.linguacustodia.finance/en/lingua-custodia-privacy-policy/
   languages: [ ]
   stock_api_domains:
     - finance
@@ -386,8 +383,7 @@
   company: lucy
   urls:
     - https://web.archive.org/web/20181215110852/http://www.lucysoftware.com/english/machine-translation/
-  privacy_url:
-    - https://web.archive.org/web/20180922112117/http://www.lucysoftware.com/english/machine-translation/data-security/lucy-lt-data-security.html
+  privacy_url: https://web.archive.org/web/20180922112117/http://www.lucysoftware.com/english/machine-translation/data-security/lucy-lt-data-security.html
   languages: [ ca, de, en, es, eu, fr, gl, pt, ru ]
   active: false
 
@@ -620,8 +616,7 @@
   company: skrivanek
   urls:
     - https://skrivanek.com/other-services/machine-translation/
-  privacy_url:
-    - https://skrivanek.com/wp-content/uploads/2021/03/processing-and-protection-of-personal-data-in-skrivanek-0.pdf
+  privacy_url: https://skrivanek.com/wp-content/uploads/2021/03/processing-and-protection-of-personal-data-in-skrivanek-0.pdf
   languages: [ ]
   self-serve: false
 
