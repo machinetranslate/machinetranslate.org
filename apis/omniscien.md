@@ -391,6 +391,7 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/omniscien-language-studio.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-omniscien-technologies-language-studio-mt-engine.html
 nav_order: 939
+active: true
 redirect_from: omniscien-technologies
 
 ---

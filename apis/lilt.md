@@ -333,6 +333,7 @@ integrations:
   urls:
   - https://support.lilt.com/kb/introduction-to-lilt-translate
 nav_order: 948
+active: true
 
 ---
 

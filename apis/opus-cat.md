@@ -23,6 +23,7 @@ integrations:
   - https://helsinki-nlp.github.io/OPUS-CAT/tradosplugin
   - https://appstore.rws.com/Plugins/11
 nav_order: 1000
+active: true
 
 ---
 

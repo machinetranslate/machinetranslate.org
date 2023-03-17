@@ -365,6 +365,7 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/systran-pure-neural-.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-systran-pure-neural-mt-engine.html
 nav_order: 946
+active: true
 
 ---
 

@@ -342,6 +342,7 @@ integrations:
   urls:
   - https://docs.memoq.com/current/en/Places/iptranslator-plugin-settings.html
 nav_order: 946
+active: false
 redirect_from: ip-translator
 
 ---

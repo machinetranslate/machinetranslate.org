@@ -735,6 +735,7 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/google-machine-translation.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-google-translate-mt-engine.html
 nav_order: 891
+active: true
 redirect_from: google-translate
 
 ---

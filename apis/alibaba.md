@@ -1297,6 +1297,7 @@ supported_languages:
   variant_name: null
 integrations: []
 nav_order: 786
+active: true
 redirect_from: alibaba-translate
 
 ---

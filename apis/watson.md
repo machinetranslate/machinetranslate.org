@@ -341,6 +341,7 @@ integrations:
   name: Smartling
   custom: true
 nav_order: 947
+active: true
 redirect_from: watson-language-translator
 
 ---

@@ -21,6 +21,7 @@ integrations:
   plugin: true
   active: false
 nav_order: 1000
+active: true
 redirect_from: ubiqus-nmt
 
 ---

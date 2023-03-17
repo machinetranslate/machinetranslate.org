@@ -252,6 +252,7 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/sap-translation-hub.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-sap-translation-hub-mt-engine.html
 nav_order: 961
+active: true
 redirect_from: sap-translation-hub
 
 ---

@@ -324,7 +324,8 @@ for api in APIS:
     'customisation': customisation,
     'supported_languages': supported_languages,
     'integrations': integrations,
-    'nav_order': 1000 - len(supported_languages)
+    'nav_order': 1000 - len(supported_languages),
+    'active': api.get('active', True),
   }
 
   name_slug = slugify(name)

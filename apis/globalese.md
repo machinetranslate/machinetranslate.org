@@ -253,6 +253,7 @@ integrations:
   urls:
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647037255
 nav_order: 966
+active: true
 
 ---
 

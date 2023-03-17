@@ -17,6 +17,7 @@ integrations:
   urls:
   - https://docs.memoq.com/current/en/Places/slate-desktop-plugin-settings.html
 nav_order: 1000
+active: false
 redirect_from: slate-desktop
 
 ---
