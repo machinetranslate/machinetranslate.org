@@ -265,6 +265,7 @@ integrations:
 - slug: smartling
   name: Smartling
 nav_order: 959
+active: true
 
 ---
 

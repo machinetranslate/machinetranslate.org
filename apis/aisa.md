@@ -118,6 +118,7 @@ integrations:
   name: Phrase TMS
   active: false
 nav_order: 983
+active: true
 
 ---
 

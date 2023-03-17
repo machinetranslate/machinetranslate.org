@@ -86,6 +86,7 @@ integrations:
   urls:
   - https://confluence.translate5.net/display/CON/PangeaMT
 nav_order: 991
+active: true
 
 ---
 

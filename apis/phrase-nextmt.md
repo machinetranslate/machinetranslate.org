@@ -65,6 +65,7 @@ integrations:
   name: Phrase TMS
   glossary: true
 nav_order: 992
+active: true
 
 ---
 

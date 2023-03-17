@@ -142,6 +142,7 @@ integrations:
   plugin: true
   active: false
 nav_order: 979
+active: true
 
 ---
 

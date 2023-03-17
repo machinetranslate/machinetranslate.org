@@ -17,6 +17,7 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/acolad.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-acolad-mt-engine.html
 nav_order: 1000
+active: true
 
 ---
 

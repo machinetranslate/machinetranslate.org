@@ -61,6 +61,7 @@ supported_languages:
   variant_name: Simplified Chinese
 integrations: []
 nav_order: 992
+active: true
 
 ---
 

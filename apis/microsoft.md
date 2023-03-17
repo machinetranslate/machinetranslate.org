@@ -738,6 +738,7 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/microsoft-translator.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-microsoft-translator-mt-engine.html
 nav_order: 889
+active: true
 redirect_from: microsoft-translator
 
 ---

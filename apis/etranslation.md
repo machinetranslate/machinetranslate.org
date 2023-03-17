@@ -196,6 +196,7 @@ integrations:
   urls:
   - https://docs.memoq.com/current/en/Places/etranslation-mt-plugin-settings.html
 nav_order: 970
+active: true
 
 ---
 

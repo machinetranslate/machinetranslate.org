@@ -15,6 +15,7 @@ integrations:
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 nav_order: 1000
+active: false
 
 ---
 

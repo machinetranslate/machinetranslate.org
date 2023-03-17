@@ -373,6 +373,7 @@ integrations:
   urls:
   - https://www.wordfast.net/wiki/Connecting_Wordfast_Pro_to_Modern_MT
 nav_order: 944
+active: true
 
 ---
 

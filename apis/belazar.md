@@ -26,6 +26,7 @@ integrations:
 - slug: omegat
   name: OmegaT
 nav_order: 998
+active: true
 
 ---
 

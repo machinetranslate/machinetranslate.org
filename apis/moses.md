@@ -21,6 +21,7 @@ integrations:
   urls:
   - https://confluence.translate5.net/display/BUS/Moses
 nav_order: 1000
+active: true
 
 ---
 

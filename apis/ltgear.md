@@ -18,6 +18,7 @@ integrations:
   urls:
   - https://appstore.rws.com/Plugins/178
 nav_order: 1000
+active: true
 redirect_from: lt-gear
 
 ---

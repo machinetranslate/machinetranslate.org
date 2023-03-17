@@ -83,6 +83,7 @@ integrations:
   urls:
   - https://appstore.rws.com/plugin/149/
 nav_order: 990
+active: true
 
 ---
 

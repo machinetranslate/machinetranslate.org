@@ -77,6 +77,7 @@ integrations:
   urls:
   - https://confluence.translate5.net/display/BUS/Lucy
 nav_order: 991
+active: false
 
 ---
 

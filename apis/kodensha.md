@@ -260,6 +260,7 @@ integrations:
 - slug: phrase
   name: Phrase TMS
 nav_order: 959
+active: true
 redirect_from: kodensha-mt
 
 ---

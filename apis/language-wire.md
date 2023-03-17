@@ -60,6 +60,7 @@ integrations:
   urls:
   - https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
 nav_order: 993
+active: true
 
 ---
 

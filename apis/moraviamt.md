@@ -13,6 +13,7 @@ integrations:
 - slug: phrase
   name: Phrase TMS
 nav_order: 1000
+active: true
 
 ---
 

@@ -599,6 +599,7 @@ integrations:
   urls:
   - https://appstore.rws.com/plugin/187/
 nav_order: 904
+active: true
 redirect_from: rozetta-t-400
 
 ---

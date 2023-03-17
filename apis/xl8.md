@@ -216,6 +216,7 @@ integrations:
   urls:
   - https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf
 nav_order: 967
+active: true
 
 ---
 

@@ -1226,6 +1226,7 @@ integrations:
 - slug: tolgee
   name: Tolgee
 nav_order: 799
+active: true
 redirect_from: baidu-translate
 
 ---

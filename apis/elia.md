@@ -54,6 +54,7 @@ integrations:
   urls:
   - https://appstore.rws.com/Plugins/154
 nav_order: 994
+active: true
 
 ---
 

@@ -584,6 +584,7 @@ integrations:
 - slug: wordfast
   name: Wordfast
 nav_order: 907
+active: true
 redirect_from: yandex-translate
 
 ---
