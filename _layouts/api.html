@@ -13,7 +13,11 @@ parent: APIs
 <hr/>
 
 <p>
-  The <strong>{{ page.title }}</strong> machine translation API supports <a href="#language-support">{{ page.supported_languages | size }} languages</a>.
+  {% if page.supported_languages.size > 0 %}
+    The <strong>{{ page.title }}</strong> machine translation API supports <a href="#language-support">{{ page.supported_languages | size }} languages</a>.
+  {% else %}
+    The <strong>{{ page.title }}</strong> machine translation API supports an unknown number of languages.
+  {% endif %}
   {% if page.integrations.size == 1 %}
     There is <a href="#integrations">1 integration</a> with a translation management system.
   {% endif %}
@@ -26,9 +30,11 @@ parent: APIs
 
   <dl>
 
+  {% if page.supported_languages.size == 0 %}
     <dt>Language support</dt>
-    <dd><a href="#language-support">{{ page.supported_languages | size }} languages</a></dd>
-
+    <dd><a href="#language-support">Unknown number of languages</a></dd>
+  {% endif %}
+    
   {% if page.integrations.size > 0 %}
     <dt>Integrations</dt>
     <dd><a href="#integrations">{{ page.integrations | size }} translation management systems</a></dd>
@@ -72,40 +78,47 @@ parent: APIs
 
 {{ content }}
 
-
-
 <h2 id="language-support">Language support</h2>
-{% if page.supported_languages_comment %}
-<p>{{ page.supported_languages_comment }}</p>
+
+{% if page.supported_languages.size > 0 %}
+
+  {% if page.supported_languages_comment %}
+  <p>{{ page.supported_languages_comment }}</p>
+  {% endif %}
+
+  <p>The {{ page.title }} API supports <strong>{{ page.supported_languages | size }}</strong> languages.</p>
+
+  <ul>
+    {% for language in page.supported_languages %}
+      <li>
+        {% if language.slug %}
+        <a href="/{{ language.slug }}">
+          <code>{{ language.normalized_code }}</code>
+          {{ language.name }}
+          {% if language.variant_name %}
+            | {{ language.variant_name }}
+          {% endif %}
+        </a>
+          {% if language.normalized_code != language.code %}
+             ⚠️ {{ page.title }} uses <code>{{ language.code }}</code>.
+          {% endif %}
+        {% else %}
+        <a href="https://en.wikipedia.org/wiki/ISO_639:{{ language.base_code }}" target="_blank">
+          <code>{{ language.code }}</code>
+          {% if language.variant_name %}
+            | {{ language.variant_name }}
+          {% endif %}
+        </a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+{% else %}
+
+<p>The {{ page.title }} API supports an unknown number of languages.</p>
+
 {% endif %}
-
-<p>The {{ page.title }} API supports <strong>{{ page.supported_languages | size }}</strong> languages.</p>
-
-<ul>
-  {% for language in page.supported_languages %}
-    <li>
-      {% if language.slug %}
-      <a href="/{{ language.slug }}">
-        <code>{{ language.normalized_code }}</code>
-        {{ language.name }}
-        {% if language.variant_name %}
-          | {{ language.variant_name }}
-        {% endif %}
-      </a>
-        {% if language.normalized_code != language.code %}
-           ⚠️ {{ page.title }} uses <code>{{ language.code }}</code>.
-        {% endif %}
-      {% else %}
-      <a href="https://en.wikipedia.org/wiki/ISO_639:{{ language.base_code }}" target="_blank">
-        <code>{{ language.code }}</code>
-        {% if language.variant_name %}
-          | {{ language.variant_name }}
-        {% endif %}
-      </a>
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
 
 {% if page.integrations.size > 0 %}
 
