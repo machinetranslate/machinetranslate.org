@@ -297,6 +297,7 @@ DEPENDENCIES
   github-pages
   html-proofer
   jekyll-feed (~> 0.12)
+  jekyll-redirect-from
   jekyll-seo-tag
   jekyll-target-blank
   nokogiri (>= 1.6.7.rc)
