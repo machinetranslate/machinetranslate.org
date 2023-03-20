@@ -77,10 +77,13 @@ parent: APIs
     </ul>
   {% endif %}
 
-  {% unless page.self_serve %}
+  {% if page.self_serve == false %}
     <hr/>
-    <p>No self-service</p>
-  {% endunless %}
+    <p>🔒 No self-service</p>
+  {% elsif page.self_serve == true %}
+      <hr/>
+    <p>🔓 Self-service</p>
+  {% endif %}
 
 </blockquote>
 
