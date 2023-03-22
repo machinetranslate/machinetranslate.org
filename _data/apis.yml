@@ -12,7 +12,7 @@
   stock_api_domains_urls:
     - https://www.aisa.digital/e-commerce-translation/
   glossary: true
-  self-serve: false
+  self-serve: true
 
 - name: Alexa Translations A.I.
   id: alexa-translations-ai
@@ -133,7 +133,7 @@
     - tourism
   stock_api_domains_urls:
     - https://cloudtranslation.com/static/api_en.html#_2
-  self-serve: false
+  self-serve: true
 
 - name: DeepL
   id: deepl
@@ -181,7 +181,6 @@
     - microsoft
     - language-weaver
   active: false
-  self-serve: true
 
 - name: Geofluent
   id: geofluent
@@ -316,7 +315,7 @@
     - https://www.languagewire.com/en/technology/languagewire-translate
   privacy_url: https://www.languagewire.com/en/info/terms-and-conditions
   languages: [ da, de, en, es, fr, fr, nl, sv ]
-  self-serve: true
+  self-serve: false
 
 - name: Lilt
   id: lilt
@@ -336,7 +335,6 @@
    - https://lingmointernationalnet.wordpress.com
    - http://live.lingmo-api.com/support/lingmo-translation-languages.html
   languages: [ ar-sa, ca-es, cs-cz, de-de, en-gb, en-us, es-es, fi-fi, fr-fr, gl-es, he-il, hi-in, hu-hu, id-id, it-it, ja-jp, ko-kr, nl-nl, nn-no, pl-pl, pt-br, ru-ru, sk-sk, sv-se, th-th, tr-tr, zh-cn ]
-  self-serve: false
 
 - name: Lingo24
   id: lingo24
@@ -498,7 +496,7 @@
   glossary: true
   formality: true
   adaptive: true
-  self-serve: true
+  self-serve: false
 
 - name: Opus CAT
   id: opus-cat
@@ -506,6 +504,7 @@
   urls:
     - https://helsinki-nlp.github.io/OPUS-CAT/
   languages: [ ]
+  self-serve: true
 
 - name: PangeaMT
   id: pangeamt
@@ -516,7 +515,7 @@
   languages: [ de, en, es, fr, it, ja, pt, zh, zh-tw ]
   glossary: true
   adaptive: true
-  self-serve: true
+  self-serve: false
 
 - name: Papago Translation
   id: papago
@@ -537,7 +536,7 @@
   languages: [ [cs, en], [de, en], [en, cs], [en, de], [en, es], [en, fr], [en, it], [en, nl], [en, ru], [es, en], [fr, en], [it, en], [nl, en], [ru, en] ]
   glossary: true
   adaptive: true
-  self-serve: true
+  self-serve: false
 
 - name: Plata Vicomtech
   id: plata-vicomtech
@@ -639,7 +638,6 @@
     - general
     - biomedical
     - finance
-  self-serve: false
 
 - name: Sunda Translator
   id: sunda
@@ -748,7 +746,6 @@
    - https://translateme.network
    - https://translateme.network/api/
   languages: [ [de, en], [es, en], [fr, en], [it, en], [nl, en], [pt, en], [ru, en], [tr, en], [zh, en], [zu, en] ]
-  self-serve: true
 
 - name: T-tact-AN-ZIN
   id: t-tact-an-zin

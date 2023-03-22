@@ -7,7 +7,7 @@ parent: APIs
 urls:
 - https://fanyi.sogou.com/text
 privacy_url: null
-self_serve: false
+self_serve: true
 customisation: []
 supported_languages:
 - slug: arabic

@@ -7,7 +7,7 @@ parent: APIs
 urls:
 - https://phrase.com/products/phrase-nextmt/
 privacy_url: null
-self_serve: true
+self_serve: false
 customisation:
 - Adaptive
 - Glossary

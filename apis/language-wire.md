@@ -7,7 +7,7 @@ parent: APIs
 urls:
 - https://www.languagewire.com/en/technology/languagewire-translate
 privacy_url: https://www.languagewire.com/en/info/terms-and-conditions
-self_serve: true
+self_serve: false
 customisation: []
 supported_languages:
 - slug: danish
