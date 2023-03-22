@@ -210,6 +210,10 @@ supported_languages:
   name: Chinese
   variant_name: Traditional Chinese
 integrations:
+- slug: memoq
+  name: MemoQ
+  urls:
+  - https://docs.google.com/document/d/1aYbIpDCme7D-FIVgqRvSmoIiiUJ4QhAZEPAP-tJNwPs/edit
 - slug: trados
   name: Trados Studio
   plugin: true

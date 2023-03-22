@@ -273,6 +273,10 @@
         urls:
           - https://docs.memoq.com/current/en/Places/tmxmall-mt-plugin-settings.html
 
+    - xl8:
+        urls:
+          - https://docs.google.com/document/d/1aYbIpDCme7D-FIVgqRvSmoIiiUJ4QhAZEPAP-tJNwPs/edit
+
   local_api_support: true
   multiple_api_suggestions: true
   fuzzy_repair: true
