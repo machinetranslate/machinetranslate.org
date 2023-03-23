@@ -247,6 +247,9 @@ integrations:
   name: translate5
   urls:
   - https://confluence.translate5.net/display/CON/GlobalesePreTranslation
+- slug: wordfast
+  name: Wordfast
+  urls: https://globalese.atlassian.net/wiki/spaces/DOCS/pages/2339569665/Cloud+text+translation+plugin+for+Wordfast+Anywhere
 - slug: xtm
   name: XTM
   plugin: true
