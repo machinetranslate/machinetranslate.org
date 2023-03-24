@@ -3,6 +3,14 @@ parent: Customisation
 title: Adaptive machine translation
 description: Machine translation with online learning
 featured: true
+redirect_from:
+ - /active
+ - /interactive
+ - /responsive
+ - /adaptive-machine-translation
+ - /active-machine-translation
+ - /interactive-machine-translation
+ - /responsive-machine-translation
 ---
 
 An **adaptive machine translation** system learns from human feedback and adapts its output on the fly.
@@ -11,6 +19,8 @@ Adaptive machine translation is applicable to [post-editing](../workflows/post-e
 In adaptive machine translation, the system is customised while the human post-editor fixes the machine translation output, instead of after batch retraining.
 
 Adaptive machine translation is an example of online machine learning and human-in-the-loop (HITL).
+
+Machine transation providers and industry analysts have also referred to adaptive machine translation as ***active***, ***interactive*** or ***responsive***.
 
 ### Companies
 
