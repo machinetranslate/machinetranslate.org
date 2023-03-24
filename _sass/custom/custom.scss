@@ -35,6 +35,16 @@
 
 }
 
+h1, h2, h3, h4, h5 {
+  background: -webkit-linear-gradient(black, $btn-primary-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+h1 .text-alpha {
+  font-weight: 500;
+}
+
 button {
   background-color: white;
   color: $btn-primary-color;
