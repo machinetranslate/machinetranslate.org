@@ -1,6 +1,6 @@
 ---
 nav_order: 500
-title: 🌍 About Machine Translate
+title: About Machine Translate
 description: The foundation for machine translation
 seo:
   type: Organization
@@ -10,7 +10,7 @@ seo:
 
 ## Mission
 
-Machine Translate’s mission is to **make machine translation more accessible to more people** as the field of machine translation grows.
+🌍 Machine Translate’s mission is to **make machine translation more accessible to more people** as the field of machine translation grows.
 
 We do that by building open resources and community for machine translation.
 
