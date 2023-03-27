@@ -251,6 +251,8 @@ for api in APIS:
 
   self_serve = api.get('self-serve', True)
 
+  more_languages_by_request = api.get('more_languages_by_request', True)
+
   customisation = []
   if api.get('adaptive', False):
     customisation.append('Adaptive')
@@ -323,6 +325,7 @@ for api in APIS:
     'self_serve': self_serve,
     'customisation': customisation,
     'supported_languages': supported_languages,
+    'more_languages_by_request': more_languages_by_request,
     'integrations': integrations,
     'nav_order': 1000 - len(supported_languages),
     'active': api.get('active', True),

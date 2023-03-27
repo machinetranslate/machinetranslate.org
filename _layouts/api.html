@@ -82,6 +82,11 @@ parent: APIs
     <p>No self-service</p>
   {% endunless %}
 
+  {% if page.more_languages_by_request  == true %}
+    <hr/>
+    <p>➕ More languages available per request.</p>
+  {% endif %}
+
 </blockquote>
 
 {{ content }}
