@@ -15,7 +15,10 @@ Adaptive machine translation is an example of online machine learning and human-
 
 Adaptive machine translation first became practical with the rise of [neural machine translation](/approaches/neural-machine-translation.md).  [Lilt](/apis/lilt.md) launched the first adaptive feature in 2017.
 
-[ModernMT](/apis/modernmt.md) launched its adaptive feature in 2019.  [Amazon Translate](/apis/amazon.md) launched Active Custom Translation in 2020.  [SYSTRAN](/apis/lilt.md) launched Neural Fuzzy Adaptation in 2021.  [Language Weaver](/apis/language-weaver.md) launched its adaptive feature in 2022.
+[ModernMT](/apis/modernmt.md) launched its adaptive feature in 2019.
+[Amazon Translate](/apis/amazon.md) launched Active Custom Translation in 2020.
+[SYSTRAN](/apis/systran.md) launched Neural Fuzzy Adaptation in 2021.
+[Language Weaver](/apis/language-weaver.md) launched its adaptive feature in 2022.
 
 <ul>
   {% for api in site.data.apis %}
