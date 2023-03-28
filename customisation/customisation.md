@@ -5,7 +5,7 @@ title: Customisation
 description: Machine translation customisation
 ---
 
-{% assign customizable_apis = site.data.apis | where: "customization_languages" %}
+{% assign customizable_apis = site.data.apis | where: "customization_languages" | where "glossary" | concat: site.data.apis | where "formality" | concat: site.data.apis | where "adaptive" %}
 
 {{ customizable_apis | size }} APIs support customization.
 
