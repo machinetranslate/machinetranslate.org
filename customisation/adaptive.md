@@ -22,7 +22,7 @@ Adaptive machine translation first became practical with the rise of [neural mac
 [Language Weaver](/apis/language-weaver.md) launched its adaptive feature in 2022.
 
 <ul>
-  {% assign adaptive_apis = site.data.apis | where: "adaptive" %}
+  {% assign adaptive_apis = site.data.apis | where: "adaptive", true %}
   {% for api in adaptive_apis %}
     <li>
     <a href="/{{ api.id }}">
