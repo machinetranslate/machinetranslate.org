@@ -24,6 +24,9 @@ parent: APIs
   {% else %}
     The <strong>{{ page.title }}</strong> machine translation API supports an unknown number of languages.
   {% endif %}
+</p>
+
+<p>
   {% if page.integrations.size == 1 %}
     There is <a href="#integrations">1 integration</a> with a translation management system.
   {% endif %}
@@ -31,6 +34,25 @@ parent: APIs
     There are <a href="#integrations">{{ page.integrations | size }} integrations</a> with translation management systems.
   {% endif %}
 </p>
+
+<p>
+  {% if page.customisation.size > 0 %}
+  <a href="/customisation">customisation</a> is supported.
+  {% endif %}
+  {% if page.customisation contains 'glossary' %}
+    <a href="/glossaries">Glossaries</a> can be used to customise the translation of specific words and phrases.
+  {% endif %}
+  {% if page.customisation contains 'formality' %}
+    The API can also be customized for <a href="/formality">formality</a>.
+  {% endif %}
+  {% if page.customisation contains 'fine-tuning' %}
+    <a href="/fine-tuning">fine-tuning</a> on <a href="/parallel-data">Parallel data</a> can be used to fine-tune the model.
+  {% endif %}
+  {% if page.customisation contains 'adaptive' %}
+    The API also supports <a href="/adaptive">adaptive</a> customization.
+  {% endif %}
+</p>
+
 
 <blockquote>
 
