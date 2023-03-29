@@ -29,7 +29,7 @@ Machine translation systems use various alignment approaches to link two data se
 - [Rule-based machine translation](/approaches/rule-based-machine-translation.md) uses linguistic rules and patterns to align words and phrases in two languages.
 - The [statistical machine translation](/approaches/statistical-machine-translation.md) models rely on statistical algorithms that find relationships between words and phrases in the source and target languages.
 The statistical relationships are based on the likelihood of observing alignments in a training corpus.
-- In [neural machine translation](/approaches/neural-machine-translation.md), alignment is learned automatically through [neural networks](/approaches/neural-machine-translation#neural-networks.md).
+- In [neural machine translation](/approaches/neural-machine-translation.md), alignment is learned automatically through [neural networks](/approaches/neural-machine-translation.md#neural-networks).
 The neural models can be based on various encoder-decoder architectures, such as convolutional neural networks (CNNs), recurrent neural networks (RNNs), or [transformer](/approaches/transformers.md) models.
 
 ### Challenges
