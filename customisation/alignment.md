@@ -19,7 +19,7 @@ English: `The` `book` `is` `on` `the` `table` `.`
 
 German: `Das` `Buch` `liegt` `auf` `dem` `Tisch` `.`
 
-By identifying the corresponding words, the two example sentences are aligned and used as [training data](/customisation/training-data.md) for the machine translation system.
+By identifying the corresponding words, such as `book` and `Buch` or `table` and `Tisch`, the two example sentences are aligned and used as [training data](/customisation/training-data.md) for the machine translation system.
 
 ### Approaches
 
