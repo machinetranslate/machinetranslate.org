@@ -21,8 +21,7 @@ Parallel data sets can be created manually, automatically, or created synthetica
 - Human [post-editing](../workflows/post-editing.md)
 - [Crawling](crawling.md)
 - [Alignment](alignment.md)
-
-Parallel data can be created by crawling and aligned monolingual test, and by [back-translation](back-translation.md) or [back-copying](back-translation.md).
+- [Back-translation](back-translation.md) or [back-copying](back-translation.md)
 
 ### Goals
 

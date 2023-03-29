@@ -13,7 +13,8 @@ In adaptive machine translation, the system is customised while the human post-e
 Adaptive machine translation is an example of online machine learning and human-in-the-loop (HITL).
 ### API support
 
-Adaptive machine translation first became practical with the rise of [neural machine translation](/approaches/neural-machine-translation.md).  [Lilt](/apis/lilt.md) launched the first adaptive feature in 2017.
+Adaptive machine translation first became practical with the rise of [neural machine translation](/approaches/neural-machine-translation.md).
+[Lilt](/apis/lilt.md) launched the first adaptive feature in 2017.
 
 [ModernMT](/apis/modernmt.md) launched its adaptive feature in 2019.
 [Amazon Translate](/apis/amazon.md) launched Active Custom Translation in 2020.
@@ -21,14 +22,13 @@ Adaptive machine translation first became practical with the rise of [neural mac
 [Language Weaver](/apis/language-weaver.md) launched its adaptive feature in 2022.
 
 <ul>
-  {% for api in site.data.apis %}
-    {% if api.customisation contains 'adaptive' %}
-        <li>
-        <a href="/{{ api.id }}">
-            {{ api.name }}
-        </a>
-        </li>
-    {% endif %}
+  {% assign adaptive_apis = site.data.apis | where: "adaptive", true %}
+  {% for api in adaptive_apis %}
+    <li>
+    <a href="/{{ api.id }}">
+        {{ api.name }}
+    </a>
+    </li>
   {% endfor %}
 </ul>
 
