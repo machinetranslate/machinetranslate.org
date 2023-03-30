@@ -18,7 +18,7 @@ seo:
 | 9 - 14 July | [**AmericasNLP**](americasnlp2023.md) | Toronto, Canada |
 | 12 - 15 June | [**EAMT 2023**](eamt2023.md) | Tampere, Finland |
 | 2 - 6 May | [**LoResMT 2023**](loresmt2023.md) | Dubrovnik, Croatia |
-| 20 April | [Open discussion: The future of machine translation](csa-future-of-mt-2.md) | online |
+| 20 April | [**Open discussion: The future of machine translation**](csa-future-of-mt-2.md) | online |
 | 1 March | [Context-aware MT evaluation: what have we learned?](context-aware-mt-evaluation.md) | online |
 | 1 March | [Translation in the age of AI](translation-in-age-of-ai.md) | online |
 | 16 February | [Redefining domain adaptation for machine translation and voice recognition - An essential primer](redefining-domain-adaptation.md) | online |
