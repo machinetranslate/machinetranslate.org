@@ -26,6 +26,15 @@ Follow the [Jekyll Quickstart Instructions](https://jekyllrb.com/docs/#instructi
 > ```
 > 6. Browse to [http://localhost:4000](http://localhost:4000)
 
+### Running generation locally
+
+May types of articles, like languages and APIs, are generated from data files in the [`_data/`](/_data) directory.
+
+To regenerate the articles after making a change to the data, you should run 
+```
+python generate.py
+```
+
 
 ### Paths
 
