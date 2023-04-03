@@ -1,16 +1,16 @@
 ---
 nav_exclude: true
-title: Meetup on low-resource machine translation
-description: Friday, 21 October open community meetup on machine translation for low-resource languages
-location: online
-startDate: 2022-10-21
-name: Low-resource machine translation
+title: Machine translation meetup
+description: Community meetup in London
+location: London, UK
+startDate: 2023-04-18
+name: Machine translation community meetup
 seo:
   type: Event
-  name: Meetup on low-resource machine translation
-  description: Friday, 21 October open community meetup on machine translation for low-resource languages
-  startDate: 2022-10-21
-  endDate: 2022-10-21
+  name: Machine translation meetup
+  description: Community meetup in London
+  startDate: 2023-04-18
+  endDate: 2023-04-18
   eventAttendanceMode: OnlineEventAttendanceMode
   eventStatus: EventScheduled
 
@@ -25,64 +25,22 @@ seo:
 ---
 
 
-The second Machine Translate open community **meetup** was an **online panel** on machine translation for **low-resource [languages](/languages)**.
+The third Machine Translate community **meetup** will take place from 4 to 6 pm on 18 April, 2023 in London, England.
 
-<center><h1 style="font-weight: bold;">Low-resource machine translation</h1></center>
+It is open to machine translation builders and researchers and localisation specialists.
 
-[machinetranslate.org/machine-translation-meetup-2](http://machinetranslate.org/machine-translation-meetup-2)
+The machine translation meetup is organised by **Machine Translate**.
 
-<!--
-<center style="padding: 2em;">
-  <button id="airtable-button">
-     Register now
-  </button>
+<center> 
+  <h2>Machine Translate community meetup</h2>
+  <h3>Tuesday, 18 April</h3>
+  <h4>4-6 pm</h4>
 </center>
 
-<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe id="airtable-iframe" class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shr6DbSCuZ3SDCYPR?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="986" style="background: transparent; border: 1px solid #ccc; display: none; margin-top: 20px;"></iframe>
-<script>
-    airtable_iframe = document.getElementById("airtable-iframe");
-    airtable_button = document.getElementById("airtable-button");
-    airtable_button.addEventListener("click", function() {
-        if (airtable_iframe.style.display === "block") {
-            airtable_iframe.style.display = "none";
-        } else {
-            airtable_iframe.height = "986";
-            airtable_iframe.style.display = "block";
-        }
-    })
-</script>
-
-
-The panel featured guests from the key organisations for low-resource machine translation.
-
-<center>  
-  <h2>Francisco Guzman</h2>
-  <h3>Meta AI</h3>
-
-  <h2>John E. Ortega</h2>
-  <h3>LoResMT</h3>
-
-  <h2>Atul Kr. Ojha</h2>
-  <h3>LoResMT</h3>
-
-  <h2>Ayushman Dash</h2>
-  <h3>NeuralSpace</h3>
-
-  <h2>Idris Abdulmumin</h2>
-  <h3>Masakhane</h3>
+<center>
+  <a href="mailto:meetup@machinetranslate.org" target="_blank" class="no-arrow">
+    <button>
+       Register for the event
+    </button>
+  </a>
 </center>
-
-<center style="padding: 2em;">
-  <h2>Online</h2>
-  <h3 id="date">
-    <script>
-      const d = new Date('2022-10-21T15:00:00+00:00');
-      const dText = new Intl.DateTimeFormat('en-GB', { dateStyle: 'full', timeStyle: 'short' }).format(d);
-      const tzText = Intl.DateTimeFormat().resolvedOptions().timeZone;
-      document.getElementById('date').innerText = dText + ' ' + tzText;
-    </script>
-  </h3>
-</center>
-
-The machine translation meetup was organised by Machine Translate.
--->
