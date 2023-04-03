@@ -31,11 +31,6 @@ It is open to machine translation builders and researchers and localisation spec
 
 The machine translation meetup is organised by **Machine Translate**.
 
-<center> 
-  <h2>Machine Translate community meetup</h2>
-  <h3>Tuesday, 18 April</h3>
-  <h4>4-6 pm</h4>
-</center>
 
 <center>
   <a href="mailto:meetup@machinetranslate.org" target="_blank" class="no-arrow">
