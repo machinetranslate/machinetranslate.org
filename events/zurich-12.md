@@ -37,7 +37,7 @@ Impact Hub Zurich - Viadukt
 | 19:00 | Presentations |
 |     | **From Generic Jargon to Corporate Wording: Teaching MT the Language of Die Mobiliar** |
 |     | **Advances in (More) Genderfair Machine Translation** |
-|     | *Top secret* |
+|     | ***Top secret*** |
 | 20:00 | Cocktail and networking |
 
 
