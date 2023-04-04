@@ -25,13 +25,11 @@ The third Machine Translate community **meetup** will take place from 4pm to 6pm
 
 It is open to machine translation builders and researchers and localisation specialists.
 
----
 <center>
   <h4>Tuesday, 18 April</h4>
   <h4>4pm to 6pm</h4>
   <h4>London</h4>
 </center>
----
 
 The machine translation meetup is organised by **Machine Translate**.
 
@@ -44,3 +42,4 @@ The guests include people who work with machine translation at technology provid
     </button>
   </a>
 </center>
+
