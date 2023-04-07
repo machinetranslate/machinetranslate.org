@@ -20,6 +20,7 @@ seo:
 | 2 - 6 May | [**LoResMT 2023**](loresmt2023.md) | Dubrovnik, Croatia |
 | 24 April | [**Machine Translation Meetup 12**](zurich-12.md) | Zurich, Switzerland |
 | 20 April | [**Open discussion: The future of machine translation**](csa-future-of-mt-2.md) | online |
+| 18 April | [**Machine translation meetup**](/../meetup.md) | London, England |
 | 1 March | [Context-aware MT evaluation: what have we learned?](context-aware-mt-evaluation.md) | online |
 | 1 March | [Translation in the age of AI](translation-in-age-of-ai.md) | online |
 | 16 February | [Redefining domain adaptation for machine translation and voice recognition - An essential primer](redefining-domain-adaptation.md) | online |
@@ -193,7 +194,7 @@ seo:
 | ---- | ---- | ---- |
 | 28 October | WPTP 2012 | San Diego, California |
 | 28 October - 1 November | AMTA 2012 | San Diego, California |
-| 3 - 8 September | MT Marathon | Edinburgh, United Kingdom |
+| 3 - 8 September | MT Marathon | Edinburgh, Scotland |
 | 7 - 8 June | [**WMT12**](wmt12.md) | Montreal, Quebec |
 | 28 - 30 May | EAMT 2012 | Trento, Italy |
 
@@ -202,7 +203,7 @@ seo:
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 5 - 10 September | MT Marathon | Trento, Italy |
-| 30 - 31 July | [**WMT11**](wmt11.md) | Edinburgh, United Kingdom  |
+| 30 - 31 July | [**WMT11**](wmt11.md) | Edinburgh, Scotland  |
 | 30 - 31 May | EAMT 2011 | Leuven, Belgium |
 
 ## 2010
@@ -239,7 +240,7 @@ seo:
 | 10 - 14 September | MT Summit 2007 | Copenhagen, Denmark |
 | 23 June | [**WMT07**](wmt07.md) | Prague, Czech Republic |
 | 26 April | AMTA 2007 - “Syntax and structure in statistical translation” | Rochester, New York |
-| 16 - 20 April | MT Marathon | Edinburgh, United Kingdom |
+| 16 - 20 April | MT Marathon | Edinburgh, Scotland |
 
 ## 2006
 
@@ -273,7 +274,7 @@ seo:
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
-| 14 - 15 November | EAMT 2002 | Manchester, United Kingdom |
+| 14 - 15 November | EAMT 2002 | Manchester, England |
 | 8 - 12 October | AMTA 2002 - “Machine translation: from research to real users” | Tiburon, California |
 
 ## 2001
