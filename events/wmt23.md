@@ -23,7 +23,7 @@ seo:
     url: https://statmt.org/wmt23
 ---
 
-The **Eighth Conference on Machine Translation** (**WMT23**) will take place in December, 2023, at [EMNLP](http://emnlp.org) 2023 in Singapore.
+The **Eighth Conference on Machine Translation** (**WMT23**) will take place from 6 December to 7 December, 2023, at [EMNLP](http://emnlp.org) 2023 in Singapore.
 It will be organised by [WMT](/associations/wmt.md).
 
 [statmt.org/wmt23/](https://statmt.org/wmt23/)
