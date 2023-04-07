@@ -210,6 +210,10 @@ supported_languages:
   name: Chinese
   variant_name: Traditional Chinese
 integrations:
+- slug: crowdin
+  name: Crowdin
+  urls:
+  - https://store.crowdin.com/xl8
 - slug: memoq
   name: MemoQ
   urls:

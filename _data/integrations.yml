@@ -86,6 +86,10 @@
         urls:
           - https://support.crowdin.com/enterprise/machine-translation/#watson-ibm-translator
 
+    - xl8:
+        urls:
+          - https://store.crowdin.com/xl8
+
     - yandex:
         active: false
 
