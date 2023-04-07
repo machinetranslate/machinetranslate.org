@@ -4,13 +4,13 @@ title: WMT23
 description: Eighth Conference on Machine Translation
 location: Singapore
 name: WMT23
-startDate: 
+startDate: 2023-12-06
 featured: true
 seo:
   type: Event
   name: WMT23
-  startDate:
-  endDate:
+  startDate: 2023-12-06
+  endDate: 2023-12-07
   eventAttendanceMode: OfflineEventAttendanceMode
   eventStatus: EventScheduled
 
@@ -38,8 +38,8 @@ It will be organised by [WMT](/associations/wmt.md).
 | Evaluation periods for shared tasks | June-July, 2023 |
 | Paper submission deadline | September, 2023 |
 | Paper notification | October, 2023 |
-| Camera-ready version | October, 2023 |
-| Conference | December, 2023 |
+| Camera-ready version | 20 October, 2023 |
+| Conference | 6-7 December, 2023 |
 
 
 ## Shared tasks
@@ -48,6 +48,7 @@ It will be organised by [WMT](/associations/wmt.md).
 - [Terminology](https://wmt-terminology-task.github.io/)
 - Literary translation
 - [Word-level autocompletion](http://www2.statmt.org/wmt23/word-autocompletion.html)
+- [Sign language](https://www.wmt-slt.com/)
 - More to be announced 
 
 In 2022, the *News* machine translation task was renamed the *General* machine translation task.
