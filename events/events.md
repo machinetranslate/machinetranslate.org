@@ -12,7 +12,7 @@ seo:
 
 | Date | Event | Location |
 | --- | --- | --- |
-| 6- 7 December | [**WMT23**](wmt23.md) | Singapore |
+| 6 - 7 December | [**WMT23**](wmt23.md) | Singapore |
 | 4 - 8 September | [**MT Summit 2023**](mtsummit2023.md) | Macau SAR, China |
 | 13 - 14 July | [**IWSLT 2023**](iwslt2023.md) | Toronto, Canada |
 | 9 - 14 July | [**AmericasNLP**](americasnlp2023.md) | Toronto, Canada |
