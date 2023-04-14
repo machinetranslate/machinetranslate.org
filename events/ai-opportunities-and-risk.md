@@ -1,13 +1,13 @@
 ---
 parent: Events
-title: Rise of the Machines: Balancing Language-Related AI Opportunities and Risks
+title: "Rise of the Machines: Balancing Language-Related AI Opportunities and Risks"
 description: Securing the Future of Generative AI, Machine Translation, Speech Recognition, NLP and AI Augmented Processes
-name: Rise of the Machines: Balancing Language-Related AI Opportunities and Risks
+name: "Rise of the Machines: Balancing Language-Related AI Opportunities and Risks"
 startDate: 2023-04-25
 
 seo:
   type: Event
-  name: Rise of the Machines: Balancing Language-Related AI Opportunities and Risks
+  name: "Rise of the Machines: Balancing Language-Related AI Opportunities and Risks"
   startDate: 2023-04-25
   endDate: 2023-04-25
   eventAttendanceMode: OnlineEventAttendanceMode
