@@ -46,9 +46,10 @@ It will be organised by [WMT](/associations/wmt.md).
 
 - [General translation](http://www2.statmt.org/wmt23/translation-task.html)
 - [Terminology](https://wmt-terminology-task.github.io/)
-- Literary translation
+- [Literary translation](http://www2.statmt.org/wmt23/literary-translation-task.html)
 - [Word-level autocompletion](http://www2.statmt.org/wmt23/word-autocompletion.html)
 - [Sign language](https://www.wmt-slt.com/)
+- [Biomedical](http://www2.statmt.org/wmt23/biomedical-translation-task.html)
 - More to be announced 
 
 In 2022, the *News* machine translation task was renamed the *General* machine translation task.
