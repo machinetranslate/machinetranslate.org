@@ -29,14 +29,20 @@ The topic is ***Accuracy or Tone of Voice?***.
 
 Impact Hub Zurich - Viadukt
 
+### Speakers
+
+- Helen Kieffer and Mauro Battaglia
+- Florian Schottmann, Head of Research at TextShuttle
+- Samuel Läubli, CTO at TextShuttle
+
 ### Schedule
 
 |     |     |
 | --- | --- |
 | 18:30 | Door opening and registration |
 | 19:00 | Presentations |
-|     | **From Generic Jargon to Corporate Wording: Teaching MT the Language of Die Mobiliar** |
-|     | **Advances in (More) Genderfair Machine Translation** |
+|     | **From Generic Jargon to Corporate Wording: Teaching MT the Language of Die Mobiliar**<br> Helen Kieffer, Mauro Battaglia |
+|     | **Advances in (More) Genderfair Machine Translation**<br> Florian Schottmann |
 |     | ***Top secret*** |
 | 20:00 | Cocktail and networking |
 
