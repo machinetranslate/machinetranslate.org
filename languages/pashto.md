@@ -1,5 +1,5 @@
 ---
-nav_order: 988
+nav_order: 987
 parent: Languages
 layout: language
 title: Pashto
@@ -40,6 +40,9 @@ supported_apis:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

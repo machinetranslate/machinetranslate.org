@@ -11,9 +11,6 @@ family:
 - slug: niger-congo
   name: Niger-Congo
 supported_apis:
-- id: modernmt
-  name: ModernMT
-  supported_language_count: 52
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
@@ -29,6 +26,9 @@ supported_apis:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

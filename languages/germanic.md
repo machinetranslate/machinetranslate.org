@@ -22,6 +22,8 @@ languages:
   name: German
 - slug: icelandic
   name: Icelandic
+- slug: limburgish
+  name: Limburgish
 - slug: luxembourgish
   name: Luxembourgish
 - slug: norwegian

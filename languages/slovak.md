@@ -47,9 +47,6 @@ supported_apis:
 - id: lilt
   name: Lilt
   supported_language_count: 50
-- id: modernmt
-  name: ModernMT
-  supported_language_count: 52
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
@@ -95,6 +92,9 @@ supported_apis:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

@@ -132,11 +132,11 @@ supported_languages:
   base_code: ba
   name: Bashkir
   variant_name: null
-- slug: null
+- slug: bambara
   code: bam
   normalized_code: bm
   base_code: bm
-  name: null
+  name: Bambara
   variant_name: null
 - slug: basque
   code: bas
@@ -744,11 +744,11 @@ supported_languages:
   base_code: guc
   name: null
   variant_name: null
-- slug: null
+- slug: guarani
   code: gug
   normalized_code: gug
   base_code: gug
-  name: null
+  name: Guarani
   variant_name: null
 - slug: null
   code: gur
@@ -1062,11 +1062,11 @@ supported_languages:
   base_code: kg
   name: Kongo
   variant_name: null
-- slug: null
+- slug: kikuyu
   code: kik
   normalized_code: ki
   base_code: ki
-  name: null
+  name: Kikuyu
   variant_name: null
 - slug: kazakh
   code: kk
@@ -1182,11 +1182,11 @@ supported_languages:
   base_code: lcp
   name: null
   variant_name: null
-- slug: null
+- slug: ganda
   code: lg
   normalized_code: lg
   base_code: lg
-  name: null
+  name: Ganda
   variant_name: null
 - slug: lingala
   code: ln

@@ -68,12 +68,16 @@ languages:
   name: Irish
 - slug: italian
   name: Italian
+- slug: kashmiri
+  name: Kashmiri
 - slug: kurdish
   name: Kurdish
 - slug: latin
   name: Latin
 - slug: latvian
   name: Latvian
+- slug: limburgish
+  name: Limburgish
 - slug: lithuanian
   name: Lithuanian
 - slug: luxembourgish
@@ -112,6 +116,8 @@ languages:
   name: Romansh
 - slug: russian
   name: Russian
+- slug: sanskrit
+  name: Sanskrit
 - slug: sardinian
   name: Sardinian
 - slug: scottish-gaelic

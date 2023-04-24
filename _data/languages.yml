@@ -30,7 +30,7 @@
   territories: [ ug ]
 
 -
-  codes: [ aka ]
+  codes: [ ak, aka ]
   names: [ Akan ]
   family: [ nic ]
   scripts: [ Latn ]
@@ -199,6 +199,16 @@
     word_order: [ SVO ]
     morphosyntax: [ analytic ]
   territories: [ vu ]
+
+-
+  codes: [ bm, bam ]
+  names: [ Bambara, Bamana, Bamanankan ]
+  family: [ dmn ]
+  scripts: [ Latn, Arab, Nkoo ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ml ]
 
 -
   codes: [ bn, ben ]
@@ -544,6 +554,16 @@
   territories: [ in, pk ]
 
 -
+  codes: [ gn, grn, gug ]
+  names: [ Guarani ]
+  family: [ tup ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ar, bo, br, py ]
+
+-
 
   codes: [ gv, glv ]
   names: [ Manx, Manx Gaelic ]
@@ -757,6 +777,16 @@
   territories: [ ao ]
 
 -
+  codes: [ ki, kik ]
+  names: [ Kikuyu, Gikuyu ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ke ]
+
+-
   codes: [ kk, kaz ]
   names: [ Kazakh ]
   family: [ trk ]
@@ -795,6 +825,17 @@
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]
   territories: [ kr ]
+
+-
+  codes: [ ks, kas ]
+  names: [ Kashmiri, Koshur ]
+  family: [ ira, iir, ine ]
+  scripts: [ Arab, Deva ]
+  typology:
+    word_order: [ SOV, V2 ]
+    morphosyntax: [ fusional ]
+  territories: [ in ]
+
 
 -
   codes: [ ku, kur, sdh, kmr ]
@@ -857,7 +898,7 @@
   territories: [ lu ]
 
 -
-  codes: [ gl, lug ]
+  codes: [ lug, gl, lg ]
   names: [ Ganda, Luganda ]
   family: [ bnt, nic ]
   scripts: [ Latn ]
@@ -865,6 +906,16 @@
     word_order: [ SVO ]
     morphosyntax: [ agglutinative ]
   territories: [ ug ]
+
+-
+  codes: [ li ]
+  names: [ Limburgish, Limburgan, Limburgian, Limburgic ]
+  family: [ gem, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ be, de, nl ]
 
 -
   codes: [ ln, lin ]
@@ -1223,6 +1274,16 @@
   territories: [ rw ]
 
 -
+  codes: [ sa, san ]
+  names: [ Sanskrit ]
+  family: [ ira, iir, ine ]
+  scripts: [ Deva ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ fusional ]
+  territories: [ in ]
+
+-
   codes: [ sc, srd, sro, src ]
   names: [ Sardinian ]
   family: [ roa, ine ]
@@ -1342,6 +1403,16 @@
     word_order: [ SVO ]
     morphosyntax: [ fusional, inflected ]
   territories: [ ba, me, rs, hr ]
+
+-
+  codes: [ ss ]
+  names: [ Swati, Swazi, siSwati ]
+  family: [ bnt, nic ]
+  scripts: [  ]
+  typology:
+    word_order: [  ]
+    morphosyntax: [  ]
+  territories: [  ]
 
 -
   codes: [ st, sot ]

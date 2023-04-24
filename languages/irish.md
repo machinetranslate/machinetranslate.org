@@ -20,9 +20,6 @@ supported_apis:
 - id: globalese
   name: Globalese
   supported_language_count: 34
-- id: modernmt
-  name: ModernMT
-  supported_language_count: 52
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
@@ -53,6 +50,9 @@ supported_apis:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

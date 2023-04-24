@@ -18,6 +18,8 @@ languages:
   name: Ganda
 - slug: igbo
   name: Igbo
+- slug: kikuyu
+  name: Kikuyu
 - slug: kinyarwanda
   name: Kinyarwanda
 - slug: kirundi
@@ -32,6 +34,8 @@ languages:
   name: Sotho
 - slug: swahili
   name: Swahili
+- slug: swati
+  name: Swati
 - slug: tsonga
   name: Tsonga
 - slug: tswana

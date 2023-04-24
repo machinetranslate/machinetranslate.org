@@ -1,5 +1,5 @@
 ---
-nav_order: 995
+nav_order: 994
 parent: Languages
 layout: language
 title: Tigrinya
@@ -17,6 +17,9 @@ supported_apis:
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

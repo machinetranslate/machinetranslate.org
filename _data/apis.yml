@@ -420,7 +420,7 @@
    - https://modernmt.com
    - https://www.modernmt.com/api/#languages
   privacy_url: https://www.modernmt.com/privacy/
-  languages: [ ar, az, bg, bs, ca, cs, da, de, el, en, es, es-419, et, fi, fr, ga, he, hi, hr, hu, hy, id, is, it, ja, ka, ko, lt, lv, mk, ms, mt, nb, nl, nn, pl, pt, pt-br, ro, ru, sk, sl, sq, sr-Cyrl, sr-Latn, sv, sw, th, tl, tr, uk, vi, xh, zh, zh-tw, zu ]
+  languages: [ ace, af, ak, als, am, ar, as, ast, awa, ayr, az, azb, azj, ba, ban, be, bem, bg, bho, bjn, bm, bn, bo, bs, bug, ca, ceb, cjk, ckb, crh, cs, cy, da, de, dik, diq, dyu, dz, ee, el, en, eo, es-419, es-ES, et, fi, fj, fo, fon, fr, fur, fuv, ga, gaz, gd, gl, gn, gu, ha, he, hi, hne, hr, ht, hu, hy, id, ig, ilo, is, it, ja, jv, ka, kab, kac, kam, kas, kbp, kea, kg, khk, ki, kk, km, kmb, kmr, kn, knc, ko, ks, ky, la, lb, lg, li, lij, lmo, ln, lo, lt, ltg, lua, luo, lus, lv, lvs, mag, mai, mg, mi, min, mk, ml, mn, mni, mos, mr, ms, mt, my, nb, ne, nl, nn, nso, nus, ny, oc, or, pa, pag, pap, pbt, pes, pl, plt, prs, ps, pt-BR, pt-PT, quy, rn, ro, ru, rw, sa, sat, sc, scn, sd, sg, shn, si, sk, sl, sm, sn, so, sq, sr-Cyrl, sr-Latn, ss, st, su, sv, sw, szl, ta, taq, te, tg, th, ti, tk, tl, tn, tpi, tr, ts, tt, tum, tw, tzm, ug, uk, umb, ur, uzn, vec, vi, war, wo, xh, ydd, yo, zh-CN, zh-TW, zsm, zu ]
   adaptive: true
   self-serve: true
 

@@ -29,11 +29,11 @@ supported_languages:
   base_code: af
   name: Afrikaans
   variant_name: null
-- slug: null
+- slug: akan
   code: ak
   normalized_code: ak
   base_code: ak
-  name: null
+  name: Akan
   variant_name: null
 - slug: amharic
   code: am
@@ -125,11 +125,11 @@ supported_languages:
   base_code: bi
   name: Bislama
   variant_name: null
-- slug: null
+- slug: bambara
   code: bm
   normalized_code: bm
   base_code: bm
-  name: null
+  name: Bambara
   variant_name: null
 - slug: bengali
   code: bn
@@ -371,11 +371,11 @@ supported_languages:
   base_code: gl
   name: Galician
   variant_name: null
-- slug: null
+- slug: guarani
   code: gn
   normalized_code: gn
   base_code: gn
-  name: null
+  name: Guarani
   variant_name: null
 - slug: null
   code: gos
@@ -623,11 +623,11 @@ supported_languages:
   base_code: kr
   name: null
   variant_name: null
-- slug: null
+- slug: kashmiri
   code: ks
   normalized_code: ks
   base_code: ks
-  name: null
+  name: Kashmiri
   variant_name: null
 - slug: kurdish
   code: ku
@@ -665,17 +665,17 @@ supported_languages:
   base_code: lfn
   name: null
   variant_name: null
-- slug: null
+- slug: ganda
   code: lg
   normalized_code: lg
   base_code: lg
-  name: null
+  name: Ganda
   variant_name: null
-- slug: null
+- slug: limburgish
   code: li
   normalized_code: li
   base_code: li
-  name: null
+  name: Limburgish
   variant_name: null
 - slug: lingala
   code: ln
@@ -965,11 +965,11 @@ supported_languages:
   base_code: rw
   name: Kinyarwanda
   variant_name: null
-- slug: null
+- slug: sanskrit
   code: sa
   normalized_code: sa
   base_code: sa
-  name: null
+  name: Sanskrit
   variant_name: null
 - slug: null
   code: sco

@@ -1,5 +1,5 @@
 ---
-nav_order: 991
+nav_order: 990
 parent: Languages
 layout: language
 title: Turkmen
@@ -27,6 +27,9 @@ supported_apis:
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

@@ -8,12 +8,16 @@ code: ira
 languages:
 - slug: balochi
   name: Balochi
+- slug: kashmiri
+  name: Kashmiri
 - slug: kurdish
   name: Kurdish
 - slug: pashto
   name: Pashto
 - slug: persian
   name: Persian
+- slug: sanskrit
+  name: Sanskrit
 - slug: sorani-kurdish
   name: Sorani Kurdish
 - slug: tajik

@@ -12,9 +12,6 @@ supported_apis:
 - id: promt
   name: PROMT
   supported_language_count: 40
-- id: modernmt
-  name: ModernMT
-  supported_language_count: 52
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 54
@@ -42,6 +39,9 @@ supported_apis:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

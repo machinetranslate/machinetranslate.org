@@ -1,5 +1,5 @@
 ---
-nav_order: 994
+nav_order: 993
 parent: Languages
 layout: language
 title: Oriya
@@ -22,6 +22,9 @@ supported_apis:
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

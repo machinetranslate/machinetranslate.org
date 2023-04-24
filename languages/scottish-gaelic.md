@@ -1,5 +1,5 @@
 ---
-nav_order: 993
+nav_order: 992
 parent: Languages
 layout: language
 title: Scottish Gaelic
@@ -26,6 +26,9 @@ supported_apis:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
