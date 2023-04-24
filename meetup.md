@@ -14,6 +14,10 @@ seo:
   eventAttendanceMode: OfflineEventAttendanceMode
   eventStatus: EventScheduled
 
+  location:
+    type: Place
+    name: London, England
+
   organizer:
     type: Organization
     name: Machine Translate
