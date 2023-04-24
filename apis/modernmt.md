@@ -271,7 +271,7 @@ supported_languages:
   name: Spanish
   variant_name: Latin America
 - slug: spanish
-  code: es-ES
+  code: es-es
   normalized_code: es-es
   base_code: es
   name: Spanish
@@ -847,13 +847,13 @@ supported_languages:
   name: Pashto
   variant_name: null
 - slug: portuguese
-  code: pt-BR
+  code: pt-br
   normalized_code: pt-br
   base_code: pt
   name: Portuguese
   variant_name: Brazil
 - slug: portuguese
-  code: pt-PT
+  code: pt-pt
   normalized_code: pt-pt
   base_code: pt
   name: Portuguese
@@ -1189,13 +1189,13 @@ supported_languages:
   name: Yoruba
   variant_name: null
 - slug: chinese
-  code: zh-CN
+  code: zh-cn
   normalized_code: zh-Hans
   base_code: zh
   name: Chinese
   variant_name: Simplified Chinese
 - slug: chinese
-  code: zh-TW
+  code: zh-tw
   normalized_code: zh-Hant
   base_code: zh
   name: Chinese
