@@ -303,7 +303,7 @@
    - https://www.rws.com/language-weaver
    - https://docs.rws.com/791593/662987/language-weaver/welcome-to-the-------------language-weaver-documentation
   privacy_url: https://www.rws.com/legal/privacy/privacy-notice/
-  languages: [ ar, bg, bn, ca, cs, da, de, el, en, es, et, fa, fi, fr, fr-ca, ha, he, hi, hr, hu, hy, id, it, ja, jv, ka, km, ko, ku, lt, lv, ms, mt, my, nl, 'no', pl, prs, ps, pt, pt-br, ro, ru, sk, sl, so, sq, sr, sv, sw, th, tr, uk, ur, uz, vi, zh-cn, zh-tw ]
+  languages: [ ar, bg, bn, ca, cs, da, de, el, en, es, et, fa, fi, fr, fr-ca, ga, ha, he, hi, hr, hu, hy, id, it, is, ja, jv, ka, km, ko, ku, lt, lv, mk, ms, mt, my, nl, 'no', pl, prs, ps, pt, pt-br, ro, ru, sk, sl, so, sq, sr, sv, sw, th, tl, tr, uk, ur, uz, vi, zh-cn, zh-tw ]
   glossary: true
   self-serve: true
   adaptive: true

@@ -1,5 +1,5 @@
 ---
-nav_order: 984
+nav_order: 983
 parent: Languages
 layout: language
 title: Icelandic
@@ -20,6 +20,9 @@ supported_apis:
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
+- id: language-weaver
+  name: Language Weaver
+  supported_language_count: 58
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 58

@@ -103,6 +103,12 @@ supported_languages:
   base_code: fr
   name: French
   variant_name: Canada
+- slug: irish
+  code: ga
+  normalized_code: ga
+  base_code: ga
+  name: Irish
+  variant_name: null
 - slug: hausa
   code: ha
   normalized_code: ha
@@ -144,6 +150,12 @@ supported_languages:
   normalized_code: id
   base_code: id
   name: Indonesian
+  variant_name: null
+- slug: icelandic
+  code: is
+  normalized_code: is
+  base_code: is
+  name: Icelandic
   variant_name: null
 - slug: italian
   code: it
@@ -198,6 +210,12 @@ supported_languages:
   normalized_code: lv
   base_code: lv
   name: Latvian
+  variant_name: null
+- slug: macedonian
+  code: mk
+  normalized_code: mk
+  base_code: mk
+  name: Macedonian
   variant_name: null
 - slug: malay
   code: ms
@@ -319,6 +337,12 @@ supported_languages:
   base_code: th
   name: Thai
   variant_name: null
+- slug: tagalog
+  code: tl
+  normalized_code: tl
+  base_code: tl
+  name: Tagalog
+  variant_name: null
 - slug: turkish
   code: tr
   normalized_code: tr
@@ -382,7 +406,7 @@ integrations:
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/language-weaver.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-language-weaver-mt-engine.html
-nav_order: 942
+nav_order: 938
 active: true
 
 ---

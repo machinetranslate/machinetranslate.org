@@ -1,5 +1,5 @@
 ---
-nav_order: 983
+nav_order: 982
 parent: Languages
 layout: language
 title: Irish
@@ -23,6 +23,9 @@ supported_apis:
 - id: watson
   name: Watson Language Translator
   supported_language_count: 52
+- id: language-weaver
+  name: Language Weaver
+  supported_language_count: 58
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 58

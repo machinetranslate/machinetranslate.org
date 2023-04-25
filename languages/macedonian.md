@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 985
 parent: Languages
 layout: language
 title: Macedonian
@@ -14,6 +14,9 @@ supported_apis:
 - id: apertium
   name: Apertium
   supported_language_count: 45
+- id: language-weaver
+  name: Language Weaver
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65
