@@ -1,5 +1,5 @@
 ---
-nav_order: 972
+nav_order: 973
 parent: Languages
 layout: language
 title: Hebrew
@@ -74,9 +74,6 @@ supported_apis:
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108

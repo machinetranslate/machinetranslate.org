@@ -1,5 +1,5 @@
 ---
-nav_order: 997
+nav_order: 996
 parent: Languages
 layout: language
 title: Sorani Kurdish
@@ -16,6 +16,9 @@ supported_apis:
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
+- id: google
+  name: Google Translate
+  supported_language_count: 132
 - id: modernmt
   name: ModernMT
   supported_language_count: 195

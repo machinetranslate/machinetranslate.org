@@ -888,11 +888,11 @@ supported_languages:
   base_code: ps
   name: Pashto
   variant_name: null
-- slug: null
+- slug: quechua
   code: que
   normalized_code: qu
   base_code: qu
-  name: null
+  name: Quechua
   variant_name: null
 - slug: romansh
   code: roh

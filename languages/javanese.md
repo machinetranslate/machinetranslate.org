@@ -1,5 +1,5 @@
 ---
-nav_order: 989
+nav_order: 990
 parent: Languages
 layout: language
 title: Javanese
@@ -21,9 +21,6 @@ supported_apis:
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108

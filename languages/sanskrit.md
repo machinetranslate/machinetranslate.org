@@ -1,5 +1,5 @@
 ---
-nav_order: 997
+nav_order: 996
 parent: Languages
 layout: language
 title: Sanskrit
@@ -13,6 +13,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: google
+  name: Google Translate
+  supported_language_count: 132
 - id: modernmt
   name: ModernMT
   supported_language_count: 195

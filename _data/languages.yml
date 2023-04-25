@@ -1224,6 +1224,16 @@
   territories: [ br, pt, ao, mz ]
 
 -
+  codes: [ qu, que ]
+  names: [ Quechua ]
+  family: [  ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ar, bo, cl, co, ec, pe ]
+
+-
   codes: [ ro, ron, rum ]
   names: [ Romanian, Rumanian, Moldovan ]
   family: [ roa, ine ]
@@ -1405,14 +1415,14 @@
   territories: [ ba, me, rs, hr ]
 
 -
-  codes: [ ss ]
+  codes: [ ss, ssw ]
   names: [ Swati, Swazi, siSwati ]
   family: [ bnt, nic ]
-  scripts: [  ]
+  scripts: [ Latn ]
   typology:
-    word_order: [  ]
+    word_order: [ VO ]
     morphosyntax: [  ]
-  territories: [  ]
+  territories: [ sz, za ]
 
 -
   codes: [ st, sot ]

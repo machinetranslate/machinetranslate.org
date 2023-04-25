@@ -911,11 +911,11 @@ supported_languages:
   base_code: pt
   name: Portuguese
   variant_name: null
-- slug: null
+- slug: quechua
   code: qu
   normalized_code: qu
   base_code: qu
-  name: null
+  name: Quechua
   variant_name: null
 - slug: null
   code: quc
