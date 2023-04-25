@@ -18,7 +18,7 @@ supported_apis:
   supported_language_count: 19
 - id: watson
   name: Watson Language Translator
-  supported_language_count: 52
+  supported_language_count: 55
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

@@ -22,7 +22,7 @@ supported_apis:
   supported_language_count: 34
 - id: watson
   name: Watson Language Translator
-  supported_language_count: 52
+  supported_language_count: 55
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 58

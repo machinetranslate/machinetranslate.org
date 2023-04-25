@@ -114,6 +114,12 @@ supported_languages:
   base_code: fr
   name: French
   variant_name: null
+- slug: french
+  code: fr-ca
+  normalized_code: fr-ca
+  base_code: fr
+  name: French
+  variant_name: Canada
 - slug: irish
   code: ga
   normalized_code: ga
@@ -168,6 +174,12 @@ supported_languages:
   base_code: ja
   name: Japanese
   variant_name: null
+- slug: kannada
+  code: kn
+  normalized_code: kn
+  base_code: kn
+  name: Kannada
+  variant_name: null
 - slug: korean
   code: ko
   normalized_code: ko
@@ -191,6 +203,12 @@ supported_languages:
   normalized_code: ml
   base_code: ml
   name: Malayalam
+  variant_name: null
+- slug: marathi
+  code: mr
+  normalized_code: mr
+  base_code: mr
+  name: Marathi
   variant_name: null
 - slug: malay
   code: ms
@@ -221,6 +239,18 @@ supported_languages:
   normalized_code: nl
   base_code: nl
   name: Dutch
+  variant_name: null
+- slug: punjabi
+  code: pa
+  normalized_code: pa
+  base_code: pa
+  name: Punjabi
+  variant_name: null
+- slug: punjabi
+  code: pa-pk
+  normalized_code: pa-pk
+  base_code: pa
+  name: Punjabi
   variant_name: null
 - slug: polish
   code: pl
@@ -340,7 +370,7 @@ integrations:
 - slug: smartling
   name: Smartling
   custom: true
-nav_order: 947
+nav_order: 942
 active: true
 redirect_from: watson-language-translator
 

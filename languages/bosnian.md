@@ -11,15 +11,15 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
-- id: watson
-  name: Watson Language Translator
-  supported_language_count: 52
 - id: iconic
   name: Iconic
   supported_language_count: 53
 - id: iptranslator
   name: IP Translator
   supported_language_count: 53
+- id: watson
+  name: Watson Language Translator
+  supported_language_count: 55
 - id: apptek
   name: AppTek
   supported_language_count: 65

@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 985
 parent: Languages
 layout: language
 title: Kannada
@@ -12,6 +12,9 @@ supported_apis:
 - id: lilt
   name: Lilt
   supported_language_count: 50
+- id: watson
+  name: Watson Language Translator
+  supported_language_count: 55
 - id: apptek
   name: AppTek
   supported_language_count: 65

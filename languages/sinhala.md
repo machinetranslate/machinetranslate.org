@@ -15,7 +15,7 @@ family:
 supported_apis:
 - id: watson
   name: Watson Language Translator
-  supported_language_count: 52
+  supported_language_count: 55
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 58
