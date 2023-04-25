@@ -20,7 +20,7 @@ seo:
 | 12 - 15 June | [**EAMT 2023**](eamt2023.md) | Tampere, Finland |
 | 2 - 6 May | [**LoResMT 2023**](loresmt2023.md) | Dubrovnik, Croatia |
 | 25 April | [**Rise of the Machines: Balancing Language-Related AI Opportunities and Risks**](ai-opportunities-and-risk.md) | online |
-| 24 April | [**Machine Translation Meetup 12**](zurich-12.md) | Zurich, Switzerland |
+| 24 April | [Machine Translation Meetup 12](zurich-12.md) | Zurich, Switzerland |
 | 20 April | [Open discussion: The future of machine translation](csa-future-of-mt-2.md) | online |
 | 18 April | [Machine translation meetup](/../meetup.md) | London, England |
 | 1 March | [Context-aware MT evaluation: what have we learned?](context-aware-mt-evaluation.md) | online |

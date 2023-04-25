@@ -19,9 +19,9 @@ seo:
     name: Zurich, Switzerland
 ---
 
-The twelveth **Machine Translation Meetup** (**MTM**) will take place on 24 April, 2023, in Zurich, Switzerland.
+The twelveth **Machine Translation Meetup** (**MTM**) took place on 24 April, 2023, in Zurich, Switzerland.
 
-The topic is ***Accuracy or Tone of Voice?***.
+The topic was ***Accuracy or Tone of Voice?***.
 
 > As accuracy levels converge among widely available machine translation offerings, we'll delve into the question whether style and variation will become the key differentiator in AI-powered translation technology.
 
