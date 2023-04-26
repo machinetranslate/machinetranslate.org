@@ -504,6 +504,16 @@
   territories: [ be, ca, ch, fr, lu, mc ]
 
 -
+  codes: [ frp ]
+  names: [ Arpitan, Franco-Provençal ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic ]
+  territories: [ ch, fr, it ]
+
+-
   codes: [ fy, fry, frr, frs ]
   names: [ Frisian ]
   family: [ gem, ine ]

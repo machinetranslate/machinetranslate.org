@@ -22,7 +22,7 @@ supported_apis:
   supported_language_count: 26
 - id: apertium
   name: Apertium
-  supported_language_count: 45
+  supported_language_count: 46
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65

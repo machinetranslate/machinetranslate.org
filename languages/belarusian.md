@@ -16,7 +16,7 @@ supported_apis:
   supported_language_count: 2
 - id: apertium
   name: Apertium
-  supported_language_count: 45
+  supported_language_count: 46
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 58

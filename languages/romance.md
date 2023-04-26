@@ -8,6 +8,8 @@ code: roa
 languages:
 - slug: aragonese
   name: Aragonese
+- slug: arpitan
+  name: Arpitan
 - slug: asturian
   name: Asturian
 - slug: catalan

@@ -14,6 +14,8 @@ languages:
   name: Aragonese
 - slug: armenian
   name: Armenian
+- slug: arpitan
+  name: Arpitan
 - slug: assamese
   name: Assamese
 - slug: balochi

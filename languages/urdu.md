@@ -18,7 +18,7 @@ supported_apis:
   supported_language_count: 40
 - id: apertium
   name: Apertium
-  supported_language_count: 45
+  supported_language_count: 46
 - id: systran
   name: SYSTRAN
   supported_language_count: 52

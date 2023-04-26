@@ -15,7 +15,7 @@ supported_apis:
   supported_language_count: 9
 - id: apertium
   name: Apertium
-  supported_language_count: 45
+  supported_language_count: 46
 - id: watson
   name: Watson Language Translator
   supported_language_count: 55
