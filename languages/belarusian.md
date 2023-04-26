@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 985
 parent: Languages
 layout: language
 title: Belarusian
@@ -26,6 +26,9 @@ supported_apis:
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

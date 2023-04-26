@@ -1,5 +1,5 @@
 ---
-nav_order: 983
+nav_order: 982
 parent: Languages
 layout: language
 title: Icelandic
@@ -35,6 +35,9 @@ supported_apis:
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

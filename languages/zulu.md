@@ -1,5 +1,5 @@
 ---
-nav_order: 990
+nav_order: 989
 parent: Languages
 layout: language
 title: Zulu
@@ -14,6 +14,9 @@ supported_apis:
 - id: translateme
   name: TranslateMe
   supported_language_count: 11
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96

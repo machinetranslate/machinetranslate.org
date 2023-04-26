@@ -1,5 +1,5 @@
 ---
-nav_order: 990
+nav_order: 989
 parent: Languages
 layout: language
 title: Maori
@@ -9,6 +9,9 @@ family:
 - slug: austronesian
   name: Austronesian
 supported_apis:
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

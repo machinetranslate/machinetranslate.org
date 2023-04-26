@@ -11,7 +11,7 @@ family:
 supported_apis:
 - id: lilt
   name: Lilt
-  supported_language_count: 50
+  supported_language_count: 72
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96

@@ -1,5 +1,5 @@
 ---
-nav_order: 988
+nav_order: 987
 parent: Languages
 layout: language
 title: Nepali
@@ -19,6 +19,9 @@ supported_apis:
 - id: watson
   name: Watson Language Translator
   supported_language_count: 55
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

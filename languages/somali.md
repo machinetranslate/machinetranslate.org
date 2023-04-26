@@ -1,5 +1,5 @@
 ---
-nav_order: 985
+nav_order: 984
 parent: Languages
 layout: language
 title: Somali
@@ -29,6 +29,9 @@ supported_apis:
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96

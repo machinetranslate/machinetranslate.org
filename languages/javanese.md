@@ -9,12 +9,12 @@ family:
 - slug: austronesian
   name: Austronesian
 supported_apis:
-- id: lilt
-  name: Lilt
-  supported_language_count: 50
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 58
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

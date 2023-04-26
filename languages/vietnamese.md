@@ -48,9 +48,6 @@ supported_apis:
 - id: kodensha
   name: Kodensha MT
   supported_language_count: 40
-- id: lilt
-  name: Lilt
-  supported_language_count: 50
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
@@ -75,6 +72,9 @@ supported_apis:
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

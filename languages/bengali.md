@@ -16,9 +16,6 @@ supported_apis:
 - id: kakao
   name: Kakao
   supported_language_count: 19
-- id: lilt
-  name: Lilt
-  supported_language_count: 50
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
@@ -40,6 +37,9 @@ supported_apis:
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

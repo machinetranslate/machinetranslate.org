@@ -1,5 +1,5 @@
 ---
-nav_order: 987
+nav_order: 986
 parent: Languages
 layout: language
 title: Khmer
@@ -18,6 +18,9 @@ supported_apis:
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 58
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93

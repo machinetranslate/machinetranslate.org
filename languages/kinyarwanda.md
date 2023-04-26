@@ -1,5 +1,5 @@
 ---
-nav_order: 994
+nav_order: 993
 parent: Languages
 layout: language
 title: Kinyarwanda
@@ -11,6 +11,9 @@ family:
 - slug: niger-congo
   name: Niger-Congo
 supported_apis:
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
