@@ -293,7 +293,7 @@
   company: kodensha
   urls:
     - https://kodensha.j-server.com/LUCKDS/ns/tl.cgi/https://www.kodensha.jp/index/products/category/cloud/?SLANG=ja&TLANG=en&XMODE=0&XPARAM=q,SURL,trans_src,&XCHARSET=UTF-8&XPORG=,687474703a2f2f,,&XJSID=0#heading
-  languages: [ ar, bg, ca, cs, cy, da, de, el, en, es, et, fa, fi, fr, he, hi, ht, hu, id, it, ja, ko, lt, lv, mt, nl, 'no', pl, pt, ro, ru, sk, sl, sv, th, tr, uk, ur, vi, zh-cn, zh-tw ]
+  languages: [ ar, bg, ca, cs, cy, da, de, el, en, es, et, fa, fi, fr, he, hi, ht, hu, id, it, ja, ko, lt, lv, mt, ms, nl, 'no', pl, pt, ro, ru, sk, sl, sv, th, tr, uk, ur, vi, zh-cn, zh-tw ]
   self-serve: false
 
 - name: Language Weaver

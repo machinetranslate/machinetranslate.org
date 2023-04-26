@@ -11,7 +11,7 @@ family:
 supported_apis:
 - id: kodensha
   name: Kodensha MT
-  supported_language_count: 40
+  supported_language_count: 41
 - id: iconic
   name: Iconic
   supported_language_count: 53

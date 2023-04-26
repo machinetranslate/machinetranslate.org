@@ -19,7 +19,7 @@ supported_apis:
   supported_language_count: 34
 - id: kodensha
   name: Kodensha MT
-  supported_language_count: 40
+  supported_language_count: 41
 - id: apertium
   name: Apertium
   supported_language_count: 46

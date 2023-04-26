@@ -65,12 +65,12 @@ supported_apis:
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 38
-- id: kodensha
-  name: Kodensha MT
-  supported_language_count: 40
 - id: promt
   name: PROMT
   supported_language_count: 40
+- id: kodensha
+  name: Kodensha MT
+  supported_language_count: 41
 - id: apertium
   name: Apertium
   supported_language_count: 46

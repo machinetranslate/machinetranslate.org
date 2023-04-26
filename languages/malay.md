@@ -1,5 +1,5 @@
 ---
-nav_order: 974
+nav_order: 973
 parent: Languages
 layout: language
 title: Malay
@@ -24,6 +24,9 @@ supported_apis:
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 38
+- id: kodensha
+  name: Kodensha MT
+  supported_language_count: 41
 - id: apertium
   name: Apertium
   supported_language_count: 46

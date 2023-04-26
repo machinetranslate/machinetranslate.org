@@ -16,12 +16,12 @@ supported_apis:
 - id: reverso
   name: Reverso
   supported_language_count: 26
-- id: kodensha
-  name: Kodensha MT
-  supported_language_count: 40
 - id: promt
   name: PROMT
   supported_language_count: 40
+- id: kodensha
+  name: Kodensha MT
+  supported_language_count: 41
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
