@@ -13,7 +13,7 @@ family:
 supported_apis:
 - id: etranslation
   name: eTranslation
-  supported_language_count: 30
+  supported_language_count: 32
 - id: apertium
   name: Apertium
   supported_language_count: 46

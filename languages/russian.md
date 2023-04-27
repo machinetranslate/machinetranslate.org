@@ -1,5 +1,5 @@
 ---
-nav_order: 954
+nav_order: 953
 parent: Languages
 layout: language
 title: Russian
@@ -68,6 +68,9 @@ supported_apis:
 - id: deepl
   name: DeepL
   supported_language_count: 29
+- id: etranslation
+  name: eTranslation
+  supported_language_count: 32
 - id: globalese
   name: Globalese
   supported_language_count: 34
