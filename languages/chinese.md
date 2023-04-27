@@ -74,7 +74,7 @@ supported_apis:
   supported_language_count: 34
 - id: sap
   name: SAP Translation Hub
-  supported_language_count: 38
+  supported_language_count: 39
 - id: promt
   name: PROMT
   supported_language_count: 40

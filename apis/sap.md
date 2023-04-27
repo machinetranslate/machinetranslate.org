@@ -107,6 +107,12 @@ supported_languages:
   base_code: hu
   name: Hungarian
   variant_name: null
+- slug: indonesian
+  code: id
+  normalized_code: id
+  base_code: id
+  name: Indonesian
+  variant_name: null
 - slug: italian
   code: it
   normalized_code: it
@@ -149,17 +155,17 @@ supported_languages:
   base_code: ms
   name: Malay
   variant_name: null
+- slug: norwegian
+  code: nb
+  normalized_code: nb
+  base_code: nb
+  name: Norwegian
+  variant_name: null
 - slug: dutch
   code: nl
   normalized_code: nl
   base_code: nl
   name: Dutch
-  variant_name: null
-- slug: norwegian
-  code: 'no'
-  normalized_code: 'no'
-  base_code: 'no'
-  name: Norwegian
   variant_name: null
 - slug: polish
   code: pl
@@ -251,7 +257,7 @@ integrations:
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/sap-translation-hub.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-sap-translation-hub-mt-engine.html
-nav_order: 961
+nav_order: 960
 active: true
 redirect_from: sap-translation-hub
 

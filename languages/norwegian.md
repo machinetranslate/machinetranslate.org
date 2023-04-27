@@ -1,5 +1,5 @@
 ---
-nav_order: 977
+nav_order: 978
 parent: Languages
 layout: language
 title: Norwegian
@@ -23,9 +23,6 @@ supported_apis:
 - id: kantanmt
   name: KantanMT
   supported_language_count: 33
-- id: sap
-  name: SAP Translation Hub
-  supported_language_count: 38
 - id: kodensha
   name: Kodensha MT
   supported_language_count: 41

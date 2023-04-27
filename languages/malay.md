@@ -23,7 +23,7 @@ supported_apis:
   supported_language_count: 29
 - id: sap
   name: SAP Translation Hub
-  supported_language_count: 38
+  supported_language_count: 39
 - id: kodensha
   name: Kodensha MT
   supported_language_count: 41
