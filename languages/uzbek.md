@@ -1,5 +1,5 @@
 ---
-nav_order: 987
+nav_order: 986
 parent: Languages
 layout: language
 title: Uzbek
@@ -12,6 +12,9 @@ supported_apis:
 - id: promt
   name: PROMT
   supported_language_count: 40
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 58

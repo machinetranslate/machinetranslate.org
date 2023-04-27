@@ -1,5 +1,5 @@
 ---
-nav_order: 984
+nav_order: 983
 parent: Languages
 layout: language
 title: Kazakh
@@ -18,6 +18,9 @@ supported_apis:
 - id: apertium
   name: Apertium
   supported_language_count: 46
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: apptek
   name: AppTek
   supported_language_count: 65

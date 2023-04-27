@@ -1,5 +1,5 @@
 ---
-nav_order: 985
+nav_order: 984
 parent: Languages
 layout: language
 title: Azerbaijani
@@ -12,6 +12,9 @@ supported_apis:
 - id: promt
   name: PROMT
   supported_language_count: 40
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: apptek
   name: AppTek
   supported_language_count: 65

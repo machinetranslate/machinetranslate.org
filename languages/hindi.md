@@ -31,9 +31,6 @@ supported_apis:
 - id: reverso
   name: Reverso
   supported_language_count: 26
-- id: kantanmt
-  name: KantanMT
-  supported_language_count: 33
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 39
@@ -46,6 +43,9 @@ supported_apis:
 - id: apertium
   name: Apertium
   supported_language_count: 46
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: systran
   name: SYSTRAN
   supported_language_count: 52

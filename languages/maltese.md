@@ -1,5 +1,5 @@
 ---
-nav_order: 979
+nav_order: 978
 parent: Languages
 layout: language
 title: Maltese
@@ -23,6 +23,9 @@ supported_apis:
 - id: apertium
   name: Apertium
   supported_language_count: 46
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: iconic
   name: Iconic
   supported_language_count: 53

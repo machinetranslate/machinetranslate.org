@@ -1,5 +1,5 @@
 ---
-nav_order: 973
+nav_order: 972
 parent: Languages
 layout: language
 title: Ukrainian
@@ -35,6 +35,9 @@ supported_apis:
 - id: apertium
   name: Apertium
   supported_language_count: 46
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: systran
   name: SYSTRAN
   supported_language_count: 52

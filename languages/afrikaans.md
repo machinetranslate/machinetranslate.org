@@ -1,5 +1,5 @@
 ---
-nav_order: 983
+nav_order: 982
 parent: Languages
 layout: language
 title: Afrikaans
@@ -14,6 +14,9 @@ supported_apis:
 - id: apertium
   name: Apertium
   supported_language_count: 46
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: iconic
   name: Iconic
   supported_language_count: 53

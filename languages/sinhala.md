@@ -1,5 +1,5 @@
 ---
-nav_order: 987
+nav_order: 986
 parent: Languages
 layout: language
 title: Sinhala
@@ -13,6 +13,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: watson
   name: Watson Language Translator
   supported_language_count: 55

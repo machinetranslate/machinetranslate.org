@@ -1,5 +1,5 @@
 ---
-nav_order: 980
+nav_order: 979
 parent: Languages
 layout: language
 title: Persian
@@ -22,6 +22,9 @@ supported_apis:
 - id: kodensha
   name: Kodensha MT
   supported_language_count: 41
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: systran
   name: SYSTRAN
   supported_language_count: 52

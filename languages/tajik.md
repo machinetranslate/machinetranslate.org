@@ -1,5 +1,5 @@
 ---
-nav_order: 989
+nav_order: 988
 parent: Languages
 layout: language
 title: Tajik
@@ -16,6 +16,9 @@ supported_apis:
 - id: promt
   name: PROMT
   supported_language_count: 40
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: systran
   name: SYSTRAN
   supported_language_count: 52

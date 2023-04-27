@@ -1,5 +1,5 @@
 ---
-nav_order: 985
+nav_order: 984
 parent: Languages
 layout: language
 title: Belarusian
@@ -17,6 +17,9 @@ supported_apis:
 - id: apertium
   name: Apertium
   supported_language_count: 46
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 58

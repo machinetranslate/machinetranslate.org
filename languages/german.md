@@ -86,9 +86,6 @@ supported_apis:
 - id: etranslation
   name: eTranslation
   supported_language_count: 30
-- id: kantanmt
-  name: KantanMT
-  supported_language_count: 33
 - id: globalese
   name: Globalese
   supported_language_count: 34
@@ -101,6 +98,9 @@ supported_apis:
 - id: kodensha
   name: Kodensha MT
   supported_language_count: 41
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
