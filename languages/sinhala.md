@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 985
 parent: Languages
 layout: language
 title: Sinhala
@@ -13,6 +13,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: textra
+  name: TexTra
+  supported_language_count: 30
 - id: kantanmt
   name: KantanMT
   supported_language_count: 50

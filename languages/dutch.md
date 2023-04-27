@@ -1,5 +1,5 @@
 ---
-nav_order: 959
+nav_order: 958
 parent: Languages
 layout: language
 title: Dutch
@@ -50,6 +50,9 @@ supported_apis:
 - id: unbabel
   name: Unbabel
   supported_language_count: 29
+- id: textra
+  name: TexTra
+  supported_language_count: 30
 - id: etranslation
   name: eTranslation
   supported_language_count: 32

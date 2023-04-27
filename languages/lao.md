@@ -1,5 +1,5 @@
 ---
-nav_order: 989
+nav_order: 988
 parent: Languages
 layout: language
 title: Lao
@@ -9,6 +9,9 @@ family:
 - slug: tai
   name: Tai
 supported_apis:
+- id: textra
+  name: TexTra
+  supported_language_count: 30
 - id: lilt
   name: Lilt
   supported_language_count: 72

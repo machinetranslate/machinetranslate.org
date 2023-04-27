@@ -419,6 +419,10 @@
         urls:
           - https://github.com/yoyicue/omegat-tencent-plugin
 
+    - textra:
+        plugin: true
+        urls: https://codeberg.org/miurahr/omegat-textra-plugin
+
     - yandex
 
   local_api_support: true
@@ -1014,6 +1018,9 @@
         urls:
           - https://help.xtm.cloud/en/xtm-cloud/13.2/en/tauyou.html
           - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-tauyou-mt-engine.html
+    - text:
+        urls:
+          - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/tool/xtm/edit/
 
   local_api_support: true
   multiple_api_suggestions: true

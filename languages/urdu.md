@@ -1,5 +1,5 @@
 ---
-nav_order: 978
+nav_order: 977
 parent: Languages
 layout: language
 title: Urdu
@@ -13,6 +13,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: textra
+  name: TexTra
+  supported_language_count: 30
 - id: kodensha
   name: Kodensha MT
   supported_language_count: 41

@@ -15,7 +15,7 @@ family:
 supported_apis:
 - id: textra
   name: TexTra
-  supported_language_count: 19
+  supported_language_count: 30
 - id: watson
   name: Watson Language Translator
   supported_language_count: 55

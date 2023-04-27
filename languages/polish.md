@@ -1,5 +1,5 @@
 ---
-nav_order: 964
+nav_order: 963
 parent: Languages
 layout: language
 title: Polish
@@ -35,6 +35,9 @@ supported_apis:
 - id: unbabel
   name: Unbabel
   supported_language_count: 29
+- id: textra
+  name: TexTra
+  supported_language_count: 30
 - id: etranslation
   name: eTranslation
   supported_language_count: 32

@@ -1,5 +1,5 @@
 ---
-nav_order: 963
+nav_order: 962
 parent: Languages
 layout: language
 title: Turkish
@@ -36,6 +36,9 @@ supported_apis:
 - id: unbabel
   name: Unbabel
   supported_language_count: 29
+- id: textra
+  name: TexTra
+  supported_language_count: 30
 - id: etranslation
   name: eTranslation
   supported_language_count: 32

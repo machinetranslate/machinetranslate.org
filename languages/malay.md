@@ -1,5 +1,5 @@
 ---
-nav_order: 973
+nav_order: 972
 parent: Languages
 layout: language
 title: Malay
@@ -18,6 +18,9 @@ supported_apis:
 - id: kakao
   name: Kakao
   supported_language_count: 19
+- id: textra
+  name: TexTra
+  supported_language_count: 30
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 39

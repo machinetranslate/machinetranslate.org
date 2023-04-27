@@ -11,7 +11,7 @@ family:
 supported_apis:
 - id: textra
   name: TexTra
-  supported_language_count: 19
+  supported_language_count: 30
 - id: xl8
   name: XL8
   supported_language_count: 41

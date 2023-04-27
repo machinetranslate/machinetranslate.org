@@ -1,5 +1,5 @@
 ---
-nav_order: 968
+nav_order: 967
 parent: Languages
 layout: language
 title: Hindi
@@ -31,6 +31,9 @@ supported_apis:
 - id: unbabel
   name: Unbabel
   supported_language_count: 29
+- id: textra
+  name: TexTra
+  supported_language_count: 30
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 39

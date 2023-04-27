@@ -30,9 +30,6 @@ supported_apis:
 - id: kakao
   name: Kakao
   supported_language_count: 19
-- id: textra
-  name: TexTra
-  supported_language_count: 19
 - id: lingmo
   name: Lingmo Translation
   supported_language_count: 26
@@ -42,6 +39,9 @@ supported_apis:
 - id: unbabel
   name: Unbabel
   supported_language_count: 29
+- id: textra
+  name: TexTra
+  supported_language_count: 30
 - id: sap
   name: SAP Translation Hub
   supported_language_count: 39

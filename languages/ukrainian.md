@@ -1,5 +1,5 @@
 ---
-nav_order: 970
+nav_order: 969
 parent: Languages
 layout: language
 title: Ukrainian
@@ -20,6 +20,9 @@ supported_apis:
 - id: unbabel
   name: Unbabel
   supported_language_count: 29
+- id: textra
+  name: TexTra
+  supported_language_count: 30
 - id: etranslation
   name: eTranslation
   supported_language_count: 32
