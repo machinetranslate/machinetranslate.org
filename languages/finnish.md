@@ -18,14 +18,14 @@ supported_apis:
 - id: sogou-translate
   name: Sogou Translate
   supported_language_count: 21
-- id: unbabel
-  name: Unbabel
-  supported_language_count: 25
 - id: lingmo
   name: Lingmo Translation
   supported_language_count: 26
 - id: deepl
   name: DeepL
+  supported_language_count: 29
+- id: unbabel
+  name: Unbabel
   supported_language_count: 29
 - id: etranslation
   name: eTranslation

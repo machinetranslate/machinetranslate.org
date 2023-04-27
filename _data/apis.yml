@@ -787,7 +787,7 @@
    - https://unbabel.com
    - https://developers.unbabel.com/reference/mt_translation
   privacy_url: https://resources.unbabel.com/one-pager-5/the-complete-unbabel-security-guide-5
-  languages: [ ar, bg, da, de, el, en, es, es-419, fi, fr, hi, id, it, ko, ja, nl, 'no', pl, pt, pt-br, ro, ru, sv, th, tr, vi, zh-cn, zh-tw ]
+  languages: [ ar, bg, cs, da, de, el, en, es, es-419, fi, fr, he, hi, hu, id, it, ko, ja, nl, 'no', pl, pt, pt-br, ro, ru, sv, th, tr, uk, vi, zh-cn, zh-tw ]
   self-serve: false
 
 - name: XL8

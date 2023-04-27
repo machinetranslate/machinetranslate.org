@@ -23,6 +23,12 @@ supported_languages:
   base_code: bg
   name: Bulgarian
   variant_name: null
+- slug: czech
+  code: cs
+  normalized_code: cs
+  base_code: cs
+  name: Czech
+  variant_name: null
 - slug: danish
   code: da
   normalized_code: da
@@ -71,11 +77,23 @@ supported_languages:
   base_code: fr
   name: French
   variant_name: null
+- slug: hebrew
+  code: he
+  normalized_code: he
+  base_code: he
+  name: Hebrew
+  variant_name: null
 - slug: hindi
   code: hi
   normalized_code: hi
   base_code: hi
   name: Hindi
+  variant_name: null
+- slug: hungarian
+  code: hu
+  normalized_code: hu
+  base_code: hu
+  name: Hungarian
   variant_name: null
 - slug: indonesian
   code: id
@@ -161,6 +179,12 @@ supported_languages:
   base_code: tr
   name: Turkish
   variant_name: null
+- slug: ukrainian
+  code: uk
+  normalized_code: uk
+  base_code: uk
+  name: Ukrainian
+  variant_name: null
 - slug: vietnamese
   code: vi
   normalized_code: vi
@@ -180,7 +204,7 @@ supported_languages:
   name: Chinese
   variant_name: Traditional Chinese
 integrations: []
-nav_order: 972
+nav_order: 968
 active: true
 
 ---

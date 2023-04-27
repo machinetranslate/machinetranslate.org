@@ -14,14 +14,14 @@ supported_apis:
 - id: tilde
   name: Tilde
   supported_language_count: 18
-- id: unbabel
-  name: Unbabel
-  supported_language_count: 25
 - id: reverso
   name: Reverso
   supported_language_count: 26
 - id: deepl
   name: DeepL
+  supported_language_count: 29
+- id: unbabel
+  name: Unbabel
   supported_language_count: 29
 - id: etranslation
   name: eTranslation

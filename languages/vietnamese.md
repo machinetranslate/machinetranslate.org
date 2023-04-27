@@ -35,7 +35,7 @@ supported_apis:
   supported_language_count: 21
 - id: unbabel
   name: Unbabel
-  supported_language_count: 25
+  supported_language_count: 29
 - id: globalese
   name: Globalese
   supported_language_count: 34

@@ -16,7 +16,7 @@ supported_apis:
   supported_language_count: 18
 - id: unbabel
   name: Unbabel
-  supported_language_count: 25
+  supported_language_count: 29
 - id: kodensha
   name: Kodensha MT
   supported_language_count: 41

@@ -1,5 +1,5 @@
 ---
-nav_order: 971
+nav_order: 970
 parent: Languages
 layout: language
 title: Ukrainian
@@ -16,6 +16,9 @@ supported_apis:
   supported_language_count: 26
 - id: deepl
   name: DeepL
+  supported_language_count: 29
+- id: unbabel
+  name: Unbabel
   supported_language_count: 29
 - id: etranslation
   name: eTranslation

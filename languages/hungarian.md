@@ -1,5 +1,5 @@
 ---
-nav_order: 967
+nav_order: 966
 parent: Languages
 layout: language
 title: Hungarian
@@ -26,6 +26,9 @@ supported_apis:
   supported_language_count: 26
 - id: deepl
   name: DeepL
+  supported_language_count: 29
+- id: unbabel
+  name: Unbabel
   supported_language_count: 29
 - id: etranslation
   name: eTranslation

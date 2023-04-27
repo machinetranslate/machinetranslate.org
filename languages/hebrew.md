@@ -1,5 +1,5 @@
 ---
-nav_order: 973
+nav_order: 972
 parent: Languages
 layout: language
 title: Hebrew
@@ -17,6 +17,9 @@ supported_apis:
 - id: reverso
   name: Reverso
   supported_language_count: 26
+- id: unbabel
+  name: Unbabel
+  supported_language_count: 29
 - id: globalese
   name: Globalese
   supported_language_count: 34
