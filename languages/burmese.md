@@ -17,7 +17,7 @@ supported_apis:
   supported_language_count: 19
 - id: xl8
   name: XL8
-  supported_language_count: 29
+  supported_language_count: 41
 - id: language-weaver
   name: Language Weaver
   supported_language_count: 58

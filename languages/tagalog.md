@@ -1,5 +1,5 @@
 ---
-nav_order: 980
+nav_order: 979
 parent: Languages
 layout: language
 title: Tagalog
@@ -12,6 +12,9 @@ supported_apis:
 - id: textra
   name: TexTra
   supported_language_count: 19
+- id: xl8
+  name: XL8
+  supported_language_count: 41
 - id: systran
   name: SYSTRAN
   supported_language_count: 52

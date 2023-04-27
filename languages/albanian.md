@@ -1,5 +1,5 @@
 ---
-nav_order: 984
+nav_order: 983
 parent: Languages
 layout: language
 title: Albanian
@@ -9,6 +9,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: xl8
+  name: XL8
+  supported_language_count: 41
 - id: systran
   name: SYSTRAN
   supported_language_count: 52

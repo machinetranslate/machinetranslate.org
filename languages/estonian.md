@@ -1,5 +1,5 @@
 ---
-nav_order: 972
+nav_order: 971
 parent: Languages
 layout: language
 title: Estonian
@@ -29,6 +29,9 @@ supported_apis:
   supported_language_count: 40
 - id: kodensha
   name: Kodensha MT
+  supported_language_count: 41
+- id: xl8
+  name: XL8
   supported_language_count: 41
 - id: kantanmt
   name: KantanMT

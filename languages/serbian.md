@@ -1,5 +1,5 @@
 ---
-nav_order: 979
+nav_order: 978
 parent: Languages
 layout: language
 title: Serbian
@@ -17,6 +17,9 @@ supported_apis:
 - id: promt
   name: PROMT
   supported_language_count: 40
+- id: xl8
+  name: XL8
+  supported_language_count: 41
 - id: systran
   name: SYSTRAN
   supported_language_count: 52

@@ -80,9 +80,6 @@ supported_apis:
 - id: deepl
   name: DeepL
   supported_language_count: 29
-- id: xl8
-  name: XL8
-  supported_language_count: 29
 - id: etranslation
   name: eTranslation
   supported_language_count: 30
@@ -97,6 +94,9 @@ supported_apis:
   supported_language_count: 40
 - id: kodensha
   name: Kodensha MT
+  supported_language_count: 41
+- id: xl8
+  name: XL8
   supported_language_count: 41
 - id: kantanmt
   name: KantanMT
