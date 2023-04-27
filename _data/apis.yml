@@ -261,7 +261,7 @@
   company: kakao-cloud
   urls:
     - https://developers.kakao.com/product/translation
-    - https://developers.kakao.com/docs/restapi/en/translation
+    - https://www.kakaoicloud.com/service/detail/6-10
   languages: [ ar, bn, de, en, es, fr, hi, id, it, ja, ko, ms, nl, pt, ru, th, tr, vi, zh ]
   formality: true
   self-serve: true
