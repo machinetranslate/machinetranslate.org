@@ -709,8 +709,8 @@
   company: textshuttle
   urls:
    - https://www.textshuttle.ai/
-   - https://www.textshuttle.ai/product/features#subscription
-  privacy_url: https://www.textshuttle.ai/privacy-policy
+   - https://www.textshuttle.ai/en/functions
+  privacy_url: https://www.textshuttle.ai/en/disclaimer
   languages: [ cs, da, de, en, es, fr, hu, it, nl, 'no', pl, pt, rm, ru, sk, sl, sv, zh ]
   custom_languages: '*'
   glossary: true
