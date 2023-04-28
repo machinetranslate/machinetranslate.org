@@ -5,7 +5,7 @@
   urls:
    - https://www.aisa.digital/machine-translation-api
   privacy_url: https://www.aisa.digital/terms-of-use/
-  languages: [ ar, de, es-es, fr-fr, hi, huyu, id, it, ja, ko, ms, pt-pt, ru, th, vi, zh-cn, zh-tw ]
+  languages: [ ar, de, en, en-sg, en-uk, es-es, fr-fr, hi, huyu, id, it, ja, ko, ms, pt-pt, ru, th, vi, zh-cn, zh-tw ]
   stock_api_domains:
     - e-commerce
     - gaming

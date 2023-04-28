@@ -52,7 +52,7 @@ supported_apis:
   supported_language_count: 14
 - id: aisa
   name: AISA
-  supported_language_count: 16
+  supported_language_count: 17
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17

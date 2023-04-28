@@ -1,5 +1,5 @@
 ---
-nav_order: 946
+nav_order: 945
 parent: Languages
 layout: language
 title: English
@@ -59,6 +59,9 @@ supported_apis:
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
   supported_language_count: 14
+- id: aisa
+  name: AISA
+  supported_language_count: 17
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17
