@@ -1,43 +1,18 @@
 ---
 nav_exclude: true
 title: Machine translation meetup
-description: Community meetup in London
-location: London, UK
-startDate: 2023-04-18
-name: Machine translation community meetup
+description: Machine Translate community meetup
+
 seo:
-  type: Event
-  name: Machine translation meetup
-  description: Community meetup in London on 18 April
-  startDate: 2023-04-18
-  endDate: 2023-04-18
-  eventAttendanceMode: OfflineEventAttendanceMode
-  eventStatus: EventScheduled
-
-  location:
-    type: Place
-    name: London, England
-
-  organizer:
-    type: Organization
-    name: Machine Translate
-    url: https://machinetranslate.org/about/
+  type: Article
 ---
 
 
-The third Machine Translate community **meetup** took place from 4pm to 6pm on 18 April, 2023 in London, England.
-
-It was open to machine translation builders and researchers and localisation specialists.
-
-<center>
-  <h4>Tuesday, 18 April</h4>
-  <h4>4pm to 6pm</h4>
-  <h4>London</h4>
-</center>
-
-The machine translation meetup was organised by **Machine Translate**.
-
-The guests included people who work with machine translation at technology providers and translation buyers as well as machine translation researchers.
+|     |     |
+| --- | --- |
+| [Meetup 1](/events/machine-translation-meetup-1.md) | Menlo Park, United States |
+| [Meetup 2](/events/machine-translation-meetup-2.md) | online |
+| [Meetup 3](/events/machine-translation-meetup-3.md) | London, England |
 
 <center>
   <a href="mailto:meetup@machinetranslate.org" target="_blank" class="no-arrow">
