@@ -1,5 +1,5 @@
 ---
-nav_order: 961
+nav_order: 960
 parent: Languages
 layout: language
 title: Arabic
@@ -32,6 +32,9 @@ supported_apis:
 - id: sogou-translate
   name: Sogou Translate
   supported_language_count: 21
+- id: tilde
+  name: Tilde
+  supported_language_count: 22
 - id: lingmo
   name: Lingmo Translation
   supported_language_count: 26

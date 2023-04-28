@@ -1,5 +1,5 @@
 ---
-nav_order: 970
+nav_order: 969
 parent: Languages
 layout: language
 title: Bulgarian
@@ -11,6 +11,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: tilde
+  name: Tilde
+  supported_language_count: 22
 - id: deepl
   name: DeepL
   supported_language_count: 29

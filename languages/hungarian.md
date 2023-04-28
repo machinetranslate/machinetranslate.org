@@ -12,12 +12,12 @@ supported_apis:
 - id: textshuttle
   name: TextShuttle
   supported_language_count: 18
-- id: tilde
-  name: Tilde
-  supported_language_count: 18
 - id: sogou-translate
   name: Sogou Translate
   supported_language_count: 21
+- id: tilde
+  name: Tilde
+  supported_language_count: 22
 - id: lingmo
   name: Lingmo Translation
   supported_language_count: 26

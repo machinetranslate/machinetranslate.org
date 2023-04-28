@@ -1,5 +1,5 @@
 ---
-nav_order: 975
+nav_order: 974
 parent: Languages
 layout: language
 title: Croatian
@@ -11,6 +11,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: tilde
+  name: Tilde
+  supported_language_count: 22
 - id: etranslation
   name: eTranslation
   supported_language_count: 32

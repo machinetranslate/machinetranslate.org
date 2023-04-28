@@ -13,7 +13,7 @@ family:
 supported_apis:
 - id: tilde
   name: Tilde
-  supported_language_count: 18
+  supported_language_count: 22
 - id: reverso
   name: Reverso
   supported_language_count: 26

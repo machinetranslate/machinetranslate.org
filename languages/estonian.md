@@ -11,7 +11,7 @@ family:
 supported_apis:
 - id: tilde
   name: Tilde
-  supported_language_count: 18
+  supported_language_count: 22
 - id: deepl
   name: DeepL
   supported_language_count: 29

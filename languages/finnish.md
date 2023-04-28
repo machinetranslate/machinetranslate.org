@@ -12,12 +12,12 @@ supported_apis:
 - id: sunda
   name: Sunda Translator
   supported_language_count: 2
-- id: tilde
-  name: Tilde
-  supported_language_count: 18
 - id: sogou-translate
   name: Sogou Translate
   supported_language_count: 21
+- id: tilde
+  name: Tilde
+  supported_language_count: 22
 - id: lingmo
   name: Lingmo Translation
   supported_language_count: 26
