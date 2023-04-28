@@ -314,7 +314,7 @@
   urls:
     - https://www.languagewire.com/en/technology/languagewire-translate
   privacy_url: https://www.languagewire.com/en/info/terms-and-conditions
-  languages: [ da, de, en, es, fr, fr, nl, sv ]
+  languages: [ da, de, en, es, fr, fr, nl, 'no', sv ]
   self-serve: false
 
 - name: Lilt

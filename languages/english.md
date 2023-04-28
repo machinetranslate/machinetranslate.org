@@ -26,11 +26,11 @@ supported_apis:
 - id: elia
   name: Elia
   supported_language_count: 6
-- id: language-wire
-  name: Language Wire
-  supported_language_count: 7
 - id: cloudtranslation
   name: CloudTranslation
+  supported_language_count: 8
+- id: language-wire
+  name: Language Wire
   supported_language_count: 8
 - id: pangeamt
   name: PangeaMT

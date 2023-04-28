@@ -1,5 +1,5 @@
 ---
-nav_order: 978
+nav_order: 977
 parent: Languages
 layout: language
 title: Norwegian
@@ -11,6 +11,9 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: language-wire
+  name: Language Wire
+  supported_language_count: 8
 - id: textshuttle
   name: TextShuttle
   supported_language_count: 18

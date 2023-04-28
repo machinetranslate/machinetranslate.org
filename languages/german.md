@@ -14,11 +14,11 @@ supported_apis:
 - id: judicio
   name: Judicio
   supported_language_count: 4
-- id: language-wire
-  name: Language Wire
-  supported_language_count: 7
 - id: cloudtranslation
   name: CloudTranslation
+  supported_language_count: 8
+- id: language-wire
+  name: Language Wire
   supported_language_count: 8
 - id: pangeamt
   name: PangeaMT

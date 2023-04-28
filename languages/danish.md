@@ -13,7 +13,7 @@ family:
 supported_apis:
 - id: language-wire
   name: Language Wire
-  supported_language_count: 7
+  supported_language_count: 8
 - id: lingo24
   name: Lingo24
   supported_language_count: 13

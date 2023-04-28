@@ -16,7 +16,7 @@ supported_apis:
   supported_language_count: 4
 - id: language-wire
   name: Language Wire
-  supported_language_count: 7
+  supported_language_count: 8
 - id: phrase-nextmt
   name: Phrase NextMT
   supported_language_count: 8

@@ -46,6 +46,12 @@ supported_languages:
   base_code: nl
   name: Dutch
   variant_name: null
+- slug: norwegian
+  code: 'no'
+  normalized_code: 'no'
+  base_code: 'no'
+  name: Norwegian
+  variant_name: null
 - slug: swedish
   code: sv
   normalized_code: sv
@@ -58,7 +64,7 @@ integrations:
   plugin: true
   urls:
   - https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
-nav_order: 993
+nav_order: 992
 active: true
 
 ---
