@@ -6,8 +6,8 @@ id: textshuttle
 parent: APIs
 urls:
 - https://www.textshuttle.ai/
-- https://www.textshuttle.ai/product/features#subscription
-privacy_url: https://www.textshuttle.ai/privacy-policy
+- https://www.textshuttle.ai/en/functions
+privacy_url: https://www.textshuttle.ai/en/disclaimer
 self_serve: false
 customisation:
 - Glossary
