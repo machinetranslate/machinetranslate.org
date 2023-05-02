@@ -10,7 +10,7 @@ description: Calls for papers for machine translation events and publications
 | Deadline | Publication | Organisers |
 | --- | --- | --- |
 | **September 2023** | [**WMT23**](/events/wmt23.md) | Singapore |
-| **1 May 2023** | [**MT Summit 2023 papers**](/events/mtsummit2023.md) | Macau SAR, China |
+| 1 May 2023 | [MT Summit 2023 papers](/events/mtsummit2023.md) | Macau SAR, China |
 | 17 April 2023 | [MT Summit 2023 workshops and tutorials](/events/mtsummit2023.md) | Macau SAR, China |
 | 15 April 2023 | [AmericasNLP](/events/americasnlp2023.md) | Toronto, Canada |
 | 31 March 2023 | [*The Role of Context in Neural Machine Translation Systems and its Evaluation*](https://sites.google.com/dcu.ie/nlecontextnmt/home) | JNLE |
