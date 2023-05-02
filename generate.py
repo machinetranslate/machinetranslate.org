@@ -251,7 +251,7 @@ for api in APIS:
 
   self_serve = api.get('self-serve', True)
 
-  more_languages_by_request = api.get('more_languages_by_request', True)
+  more_languages_by_request = api.get('more_languages_by_request', False)
 
   customisation = []
   if api.get('adaptive', False):

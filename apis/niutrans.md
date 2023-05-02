@@ -2316,6 +2316,7 @@ supported_languages:
   base_code: zyb
   name: null
   variant_name: null
+more_languages_by_request: false
 integrations:
 - slug: memoq
   name: MemoQ

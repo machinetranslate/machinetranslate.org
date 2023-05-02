@@ -281,6 +281,7 @@ supported_languages:
   base_code: zlm
   name: Malay
   variant_name: null
+more_languages_by_request: true
 integrations:
 - slug: matecat
   name: MateCat

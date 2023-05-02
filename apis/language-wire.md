@@ -52,6 +52,7 @@ supported_languages:
   base_code: sv
   name: Swedish
   variant_name: null
+more_languages_by_request: true
 integrations:
 - slug: trados
   name: Trados Studio

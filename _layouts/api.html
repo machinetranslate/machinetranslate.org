@@ -40,7 +40,11 @@ parent: APIs
   {% if page.supported_languages.size == 0 %}
     <dd><a href="#language-support">Unknown number of languages</a></dd>
   {% else %}
-    <dd><a href="#language-support">{{ page.supported_languages | size }} languages</a></dd>
+    <dd><a href="#language-support">{{ page.supported_languages | size }} languages</a>
+    {% if page.more_languages_by_request  == true %}
+      , more languages available by request.
+    {% endif %}
+    </dd>
   {% endif %}
     
   {% if page.integrations.size > 0 %}
@@ -81,11 +85,6 @@ parent: APIs
     <hr/>
     <p>No self-service</p>
   {% endunless %}
-
-  {% if page.more_languages_by_request  == true %}
-    <hr/>
-    <p>➕ More languages available per request.</p>
-  {% endif %}
 
 </blockquote>
 

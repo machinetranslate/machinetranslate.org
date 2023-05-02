@@ -665,6 +665,7 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+more_languages_by_request: false
 integrations: []
 nav_order: 891
 active: true

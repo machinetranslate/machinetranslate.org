@@ -10,6 +10,7 @@ privacy_url: https://skrivanek.com/wp-content/uploads/2021/03/processing-and-pro
 self_serve: false
 customisation: []
 supported_languages: []
+more_languages_by_request: false
 integrations:
 - slug: phrase
   name: Phrase TMS

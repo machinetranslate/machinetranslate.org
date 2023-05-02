@@ -10,6 +10,7 @@ privacy_url: https://www.linguacustodia.finance/en/lingua-custodia-privacy-polic
 self_serve: false
 customisation: []
 supported_languages: []
+more_languages_by_request: false
 integrations:
 - slug: wordbee
   name: Wordbee
