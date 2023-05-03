@@ -7,7 +7,7 @@ parent: APIs
 urls:
 - https://www.npat.co.jp/
 privacy_url: null
-self_serve: true
+self_serve: null
 customisation:
 - Adaptive
 supported_languages: []

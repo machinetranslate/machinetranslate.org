@@ -8,7 +8,7 @@ urls:
 - http://www.slatedesktop.com/
 - http://www.precisiontranslationtools.com/slate/
 privacy_url: null
-self_serve: true
+self_serve: null
 customisation: []
 supported_languages: []
 integrations:

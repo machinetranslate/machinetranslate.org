@@ -249,7 +249,7 @@ for api in APIS:
   urls = api['urls']
   privacy_url = api.get('privacy_url', None)
 
-  self_serve = api.get('self-serve', "Unknown")
+  self_serve = api.get('self-serve', None)
 
   customisation = []
   if api.get('adaptive', False):
