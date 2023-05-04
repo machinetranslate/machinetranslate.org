@@ -247,6 +247,11 @@ integrations:
   name: translate5
   urls:
   - https://confluence.translate5.net/display/CON/GlobalesePreTranslation
+- slug: wordbee
+  name: Wordbee
+  plugin: true
+  urls:
+  - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 - slug: wordfast
   name: Wordfast
   urls: https://globalese.atlassian.net/wiki/spaces/DOCS/pages/2339569665/Cloud+text+translation+plugin+for+Wordfast+Anywhere

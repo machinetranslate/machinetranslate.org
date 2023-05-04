@@ -1295,7 +1295,12 @@ supported_languages:
   base_code: zza
   name: null
   variant_name: null
-integrations: []
+integrations:
+- slug: crowdin
+  name: Crowdin
+  plugin: true
+  urls:
+  - https://store.crowdin.com/alibaba
 nav_order: 786
 active: true
 redirect_from: alibaba-translate

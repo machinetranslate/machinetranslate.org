@@ -217,6 +217,11 @@ integrations:
   name: Trados Studio
   plugin: true
   active: false
+- slug: xtm
+  name: XTM
+  active: false
+  urls:
+  - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/tool/xtm/edit/
 nav_order: 968
 active: true
 

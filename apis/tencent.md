@@ -126,6 +126,11 @@ supported_languages:
   name: Chinese
   variant_name: Traditional Chinese
 integrations:
+- slug: crowdin
+  name: Crowdin
+  plugin: true
+  urls:
+  - https://store.crowdin.com/tencent
 - slug: phrase
   name: Phrase TMS
 - slug: omegat

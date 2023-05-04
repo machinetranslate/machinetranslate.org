@@ -290,8 +290,6 @@ supported_languages:
 integrations:
 - slug: matecat
   name: MateCat
-  urls:
-  - https://site.matecat.com/support/advanced-features/apertium-mt-plug/
 - slug: phrase
   name: Phrase TMS
 - slug: omegat
