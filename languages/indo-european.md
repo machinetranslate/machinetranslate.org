@@ -18,12 +18,16 @@ languages:
   name: Arpitan
 - slug: assamese
   name: Assamese
+- slug: awadhi
+  name: Awadhi
 - slug: balochi
   name: Balochi
 - slug: belarusian
   name: Belarusian
 - slug: bengali
   name: Bengali
+- slug: bhojpuri
+  name: Bhojpuri
 - slug: bosnian
   name: Bosnian
 - slug: breton
@@ -144,6 +148,8 @@ languages:
   name: Swedish
 - slug: tajik
   name: Tajik
+- slug: tosk
+  name: Tosk
 - slug: ukrainian
   name: Ukrainian
 - slug: upper-sorbian

@@ -17,11 +17,11 @@ supported_languages:
   base_code: ab
   name: Abkhaz
   variant_name: null
-- slug: null
+- slug: acehnese
   code: ace
   normalized_code: ace
   base_code: ace
-  name: null
+  name: Acehnese
   variant_name: null
 - slug: afrikaans
   code: af
@@ -113,11 +113,11 @@ supported_languages:
   base_code: bg
   name: Bulgarian
   variant_name: null
-- slug: null
+- slug: bhojpuri
   code: bho
   normalized_code: bho
   base_code: bho
-  name: null
+  name: Bhojpuri
   variant_name: null
 - slug: bislama
   code: bi

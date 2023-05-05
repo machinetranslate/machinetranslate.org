@@ -132,11 +132,11 @@ supported_languages:
   base_code: ber
   name: Berber
   variant_name: null
-- slug: null
+- slug: bhojpuri
   code: bho
   normalized_code: bho
   base_code: bho
-  name: null
+  name: Bhojpuri
   variant_name: null
 - slug: bislama
   code: bis

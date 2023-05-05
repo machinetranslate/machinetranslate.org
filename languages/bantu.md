@@ -8,6 +8,8 @@ code: bnt
 languages:
 - slug: bemba
   name: Bemba
+- slug: chokwe
+  name: Chokwe
 - slug: ganda
   name: Ganda
 - slug: kikuyu

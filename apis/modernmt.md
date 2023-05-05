@@ -12,11 +12,11 @@ self_serve: true
 customisation:
 - Adaptive
 supported_languages:
-- slug: null
+- slug: acehnese
   code: ace
   normalized_code: ace
   base_code: ace
-  name: null
+  name: Acehnese
   variant_name: null
 - slug: afrikaans
   code: af
@@ -30,11 +30,11 @@ supported_languages:
   base_code: ak
   name: Akan
   variant_name: null
-- slug: null
+- slug: tosk
   code: als
   normalized_code: als
   base_code: als
-  name: null
+  name: Tosk
   variant_name: null
 - slug: amharic
   code: am
@@ -60,11 +60,11 @@ supported_languages:
   base_code: ast
   name: Asturian
   variant_name: null
-- slug: null
+- slug: awadhi
   code: awa
   normalized_code: awa
   base_code: awa
-  name: null
+  name: Awadhi
   variant_name: null
 - slug: aymara
   code: ayr
@@ -96,11 +96,11 @@ supported_languages:
   base_code: ba
   name: Bashkir
   variant_name: null
-- slug: null
+- slug: balinese
   code: ban
   normalized_code: ban
   base_code: ban
-  name: null
+  name: Balinese
   variant_name: null
 - slug: belarusian
   code: be
@@ -120,17 +120,17 @@ supported_languages:
   base_code: bg
   name: Bulgarian
   variant_name: null
-- slug: null
+- slug: bhojpuri
   code: bho
   normalized_code: bho
   base_code: bho
-  name: null
+  name: Bhojpuri
   variant_name: null
-- slug: null
+- slug: banjar
   code: bjn
   normalized_code: bjn
   base_code: bjn
-  name: null
+  name: Banjar
   variant_name: null
 - slug: bambara
   code: bm
@@ -156,11 +156,11 @@ supported_languages:
   base_code: bs
   name: Bosnian
   variant_name: null
-- slug: null
+- slug: buginese
   code: bug
   normalized_code: bug
   base_code: bug
-  name: null
+  name: Buginese
   variant_name: null
 - slug: catalan
   code: ca
@@ -174,11 +174,11 @@ supported_languages:
   base_code: ceb
   name: Cebuano
   variant_name: null
-- slug: null
+- slug: chokwe
   code: cjk
   normalized_code: cjk
   base_code: cjk
-  name: null
+  name: Chokwe
   variant_name: null
 - slug: sorani-kurdish
   code: ckb
@@ -216,11 +216,11 @@ supported_languages:
   base_code: de
   name: German
   variant_name: null
-- slug: null
+- slug: dinka
   code: dik
   normalized_code: dik
   base_code: dik
-  name: null
+  name: Dinka
   variant_name: null
 - slug: null
   code: diq

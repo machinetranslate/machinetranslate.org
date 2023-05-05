@@ -20,6 +20,16 @@
   territories: [ ge, ru ]
 
 -
+  codes: [ ace ]
+  names: [ Acehnese, Achinese ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ id ]
+
+-
   codes: [ ach, lth ]
   names: [ Acholi, Leb Acoli ]
   family: [ ssa ]
@@ -49,6 +59,16 @@
     word_order: [ SVO ]
     morphosyntax: [ analytic ]
   territories: [ na, za ]
+
+-
+  codes: [ als ]
+  names: [ Tosk, Tosk Albanian ]
+  family: [ ine ]
+  scripts: [ Elba ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ al, gr, it, mk ]
 
 -
   codes: [ am, amh ]
@@ -111,6 +131,16 @@
   territories: [ es ]
 
 -
+  codes: [ awa ]
+  names: [ Awadhi, Audhi ]
+  family: [ ira, iir, ine ]
+  scripts: [ Deva ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ in, np ]
+
+-
   codes: [ ay, aym, ayc, ayr ]
   names: [ Aymara ]
   family: [ aym ]
@@ -149,6 +179,16 @@
     word_order: [ SOV ]
     morphosyntax: [ inflected, agglutinative, isolating ]
   territories: [ af, ir, pk ]
+
+-
+  codes: [ ban ]
+  names: [ Balinese ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ id ]
 
 -
   codes: [ be, bel ]
@@ -191,6 +231,16 @@
   territories: [ bg ]
 
 -
+  codes: [ bho ]
+  names: [ Bhojpuri ]
+  family: [ inc, iir, ine ]
+  scripts: [ Deva ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ in, np ]
+
+-
   codes: [ bi, bis ]
   names: [ Bislama, Bichelama ]
   family: [ cpe ]
@@ -199,6 +249,16 @@
     word_order: [ SVO ]
     morphosyntax: [ analytic ]
   territories: [ vu ]
+
+-
+  codes: [ bjn ]
+  names: [ Banjar, Banjarese ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ id ]
 
 -
   codes: [ bm, bam ]
@@ -252,6 +312,16 @@
   territories: [ ba, hr, sr, me ]
 
 -
+  codes: [ bug ]
+  names: [ Buginese, Bugis ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ id ]
+
+-
   codes: [ ca, cat ]
   names: [ Catalan ]
   family: [ roa, ine ]
@@ -270,6 +340,16 @@
     word_order: [ VSO ]
     morphosyntax: [ inflected ]
   territories: [ ph ]
+
+-
+  codes: [ cjk ]
+  names: [ Chokwe, Batshokwe, Ciokwe, Kioko, Kiokwe, Quioca, Quioco, Shioko, Tschiokloe, Tshokwe ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ ao, cd, zm ]
 
 -
   codes: [ co, cos ]
@@ -360,6 +440,16 @@
     word_order: [ SVO, VSO ]
     morphosyntax: [ fusional ]
   territories: [ at, ch, de, li, lu ]
+
+-
+  codes: [ dik ]
+  names: [ Dinka ]
+  family: [ ssa ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ ss ]
 
 -
   codes: [ dv, div ]

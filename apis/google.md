@@ -67,11 +67,11 @@ supported_languages:
   base_code: bg
   name: Bulgarian
   variant_name: null
-- slug: null
+- slug: bhojpuri
   code: bho
   normalized_code: bho
   base_code: bho
-  name: null
+  name: Bhojpuri
   variant_name: null
 - slug: bambara
   code: bm

@@ -12,6 +12,8 @@ languages:
   name: Bemba
 - slug: chichewa
   name: Chichewa
+- slug: chokwe
+  name: Chokwe
 - slug: ewe
   name: Ewe
 - slug: ganda

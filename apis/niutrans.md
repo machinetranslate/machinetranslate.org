@@ -12,11 +12,11 @@ self_serve: true
 customisation:
 - Glossary
 supported_languages:
-- slug: null
+- slug: acehnese
   code: ace
   normalized_code: ace
   base_code: ace
-  name: null
+  name: Acehnese
   variant_name: null
 - slug: acholi
   code: ach
@@ -402,11 +402,11 @@ supported_languages:
   base_code: cht
   name: null
   variant_name: null
-- slug: null
+- slug: chokwe
   code: cjk
   normalized_code: cjk
   base_code: cjk
-  name: null
+  name: Chokwe
   variant_name: null
 - slug: null
   code: cjp
@@ -516,11 +516,11 @@ supported_languages:
   base_code: dhv
   name: null
   variant_name: null
-- slug: null
+- slug: dinka
   code: dik
   normalized_code: dik
   base_code: dik
-  name: null
+  name: Dinka
   variant_name: null
 - slug: null
   code: djk

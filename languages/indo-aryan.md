@@ -10,6 +10,8 @@ languages:
   name: Assamese
 - slug: bengali
   name: Bengali
+- slug: bhojpuri
+  name: Bhojpuri
 - slug: divehi
   name: Divehi
 - slug: gujarati
