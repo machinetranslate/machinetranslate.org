@@ -8,7 +8,7 @@ urls:
 - https://web.archive.org/web/20181223111834/http://iconictranslation.com/products/iptranslator/
 - https://web.archive.org/web/20190117101142/http://iconictranslation.com/solutions/languages/
 privacy_url: null
-self_serve: true
+self_serve: null
 customisation: []
 supported_languages:
 - slug: afrikaans

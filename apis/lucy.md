@@ -7,7 +7,7 @@ parent: APIs
 urls:
 - https://web.archive.org/web/20181215110852/http://www.lucysoftware.com/english/machine-translation/
 privacy_url: https://web.archive.org/web/20180922112117/http://www.lucysoftware.com/english/machine-translation/data-security/lucy-lt-data-security.html
-self_serve: true
+self_serve: null
 customisation: []
 supported_languages:
 - slug: catalan
