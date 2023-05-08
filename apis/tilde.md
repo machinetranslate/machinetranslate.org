@@ -145,6 +145,7 @@ supported_languages:
   base_code: uk
   name: Ukrainian
   variant_name: null
+more_languages_by_request: true
 integrations:
 - slug: matecat
   name: MateCat

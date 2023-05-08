@@ -173,6 +173,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Simplified Chinese
+more_languages_by_request: false
 integrations: []
 nav_order: 973
 active: true

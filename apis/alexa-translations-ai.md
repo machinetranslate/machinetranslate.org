@@ -70,6 +70,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: null
+more_languages_by_request: false
 integrations:
 - slug: memoq
   name: MemoQ
