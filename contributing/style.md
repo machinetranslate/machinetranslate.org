@@ -10,7 +10,7 @@ They are diverse and busy, so the content should be high-level and understandabl
 
 > **Less is more.**
 
-# 📚 Content
+#  🕮 Content
 
 ## Default to Wikipedia style
 
@@ -102,7 +102,7 @@ For terms with multiple spellings, check Machine Translate to find the preferred
 Refer to this project and community as _Machine Translate_.
 
 
-# 🎨 Formatting
+# 🖌 Formatting
 
 ## Capitalisation
 
@@ -223,7 +223,7 @@ Embed images in articles using the `<img>` tag.
 <img title='Hybrid translation workflow' src='/workflows/hybrid-translation-workflow.png' width='700' style='padding: 1em;' />
 ```
 
-# 🔨 Markdown
+# 🛠 Markdown
 
 Machine Translate articles are written in [Markdown](https://www.markdownguide.org/cheat-sheet).
 

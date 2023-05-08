@@ -8,7 +8,7 @@ urls:
 - https://www.cloudtranslation.com
 - https://cloudtranslation.com/static/api_en.html
 privacy_url: null
-self_serve: false
+self_serve: true
 customisation: []
 supported_languages:
 - slug: german
@@ -59,6 +59,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Simplified Chinese
+more_languages_by_request: false
 integrations: []
 nav_order: 992
 active: true

@@ -1,5 +1,5 @@
 ---
-nav_order: 990
+nav_order: 989
 parent: Languages
 layout: language
 title: Esperanto
@@ -11,7 +11,7 @@ family:
 supported_apis:
 - id: apertium
   name: Apertium
-  supported_language_count: 45
+  supported_language_count: 46
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65
@@ -21,15 +21,18 @@ supported_apis:
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

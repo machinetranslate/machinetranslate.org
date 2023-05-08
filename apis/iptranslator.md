@@ -6,6 +6,7 @@ id: iptranslator
 parent: APIs
 urls:
 - https://web.archive.org/web/20181223111834/http://iconictranslation.com/products/iptranslator/
+- https://web.archive.org/web/20190117101142/http://iconictranslation.com/solutions/languages/
 privacy_url: null
 self_serve: null
 customisation: []
@@ -334,6 +335,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+more_languages_by_request: true
 integrations:
 - slug: matecat
   name: MateCat

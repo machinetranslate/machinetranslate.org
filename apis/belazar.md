@@ -22,6 +22,7 @@ supported_languages:
   base_code: ru
   name: Russian
   variant_name: null
+more_languages_by_request: false
 integrations:
 - slug: omegat
   name: OmegaT

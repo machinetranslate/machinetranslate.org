@@ -8,6 +8,8 @@ code: ssa
 languages:
 - slug: acholi
   name: Acholi
+- slug: dinka
+  name: Dinka
 
 ---
 

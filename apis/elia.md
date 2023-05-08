@@ -47,6 +47,7 @@ supported_languages:
   base_code: gl
   name: Galician
   variant_name: null
+more_languages_by_request: false
 integrations:
 - slug: trados
   name: Trados Studio

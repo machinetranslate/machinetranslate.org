@@ -1,5 +1,5 @@
 ---
-nav_order: 987
+nav_order: 985
 parent: Languages
 layout: language
 title: Burmese
@@ -14,31 +14,37 @@ supported_apis:
   supported_language_count: 14
 - id: textra
   name: TexTra
-  supported_language_count: 19
+  supported_language_count: 30
 - id: xl8
   name: XL8
-  supported_language_count: 29
+  supported_language_count: 41
 - id: language-weaver
   name: Language Weaver
-  supported_language_count: 54
+  supported_language_count: 58
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 58
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

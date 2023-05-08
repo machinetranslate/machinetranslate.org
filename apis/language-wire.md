@@ -7,7 +7,7 @@ parent: APIs
 urls:
 - https://www.languagewire.com/en/technology/languagewire-translate
 privacy_url: https://www.languagewire.com/en/info/terms-and-conditions
-self_serve: true
+self_serve: false
 customisation: []
 supported_languages:
 - slug: danish
@@ -46,19 +46,26 @@ supported_languages:
   base_code: nl
   name: Dutch
   variant_name: null
+- slug: norwegian
+  code: 'no'
+  normalized_code: 'no'
+  base_code: 'no'
+  name: Norwegian
+  variant_name: null
 - slug: swedish
   code: sv
   normalized_code: sv
   base_code: sv
   name: Swedish
   variant_name: null
+more_languages_by_request: true
 integrations:
 - slug: trados
   name: Trados Studio
   plugin: true
   urls:
   - https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
-nav_order: 993
+nav_order: 992
 active: true
 
 ---

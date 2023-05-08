@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 985
 parent: Languages
 layout: language
 title: Haitian
@@ -11,7 +11,7 @@ family:
 supported_apis:
 - id: kodensha
   name: Kodensha MT
-  supported_language_count: 40
+  supported_language_count: 41
 - id: iconic
   name: Iconic
   supported_language_count: 53
@@ -33,15 +33,18 @@ supported_apis:
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

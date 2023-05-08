@@ -28,7 +28,7 @@ Examples:
 - [BLEU](bleu.md)
 - [METEOR](meteor.md)
 - [NIST](nist.md)
-- [chrF](chrf.md)
+- [chrF](chrF.md)
 - [TER](ter.md)
 
 String-based are used in research papers and competitions because they are explainable and fair, and they can support any language pair.

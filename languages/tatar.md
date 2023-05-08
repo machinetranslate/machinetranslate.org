@@ -1,5 +1,5 @@
 ---
-nav_order: 991
+nav_order: 990
 parent: Languages
 layout: language
 title: Tatar
@@ -14,19 +14,22 @@ supported_apis:
   supported_language_count: 40
 - id: apertium
   name: Apertium
-  supported_language_count: 45
+  supported_language_count: 46
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
+- id: google
+  name: Google Translate
+  supported_language_count: 132
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

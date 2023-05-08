@@ -1,5 +1,5 @@
 ---
-nav_order: 990
+nav_order: 988
 parent: Languages
 layout: language
 title: Tajik
@@ -16,6 +16,9 @@ supported_apis:
 - id: promt
   name: PROMT
   supported_language_count: 40
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
@@ -25,15 +28,18 @@ supported_apis:
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

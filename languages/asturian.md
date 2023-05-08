@@ -1,5 +1,5 @@
 ---
-nav_order: 997
+nav_order: 996
 parent: Languages
 layout: language
 title: Asturian
@@ -11,7 +11,10 @@ family:
 supported_apis:
 - id: apertium
   name: Apertium
-  supported_language_count: 45
+  supported_language_count: 46
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

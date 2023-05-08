@@ -13,11 +13,35 @@ customisation:
 - Adaptive
 - Glossary
 supported_languages:
+- slug: abkhaz
+  code: ab
+  normalized_code: ab
+  base_code: ab
+  name: Abkhaz
+  variant_name: null
+- slug: afrikaans
+  code: af
+  normalized_code: af
+  base_code: af
+  name: Afrikaans
+  variant_name: null
 - slug: arabic
   code: ar
   normalized_code: ar
   base_code: ar
   name: Arabic
+  variant_name: null
+- slug: azerbaijani
+  code: az
+  normalized_code: az
+  base_code: az
+  name: Azerbaijani
+  variant_name: null
+- slug: belarusian
+  code: be
+  normalized_code: be
+  base_code: be
+  name: Belarusian
   variant_name: null
 - slug: bulgarian
   code: bg
@@ -61,17 +85,17 @@ supported_languages:
   base_code: es
   name: Spanish
   variant_name: null
-- slug: spanish
-  code: es-la
-  normalized_code: es-419
-  base_code: es
-  name: Spanish
-  variant_name: Latin America
 - slug: estonian
   code: et
   normalized_code: et
   base_code: et
   name: Estonian
+  variant_name: null
+- slug: persian
+  code: fa
+  normalized_code: fa
+  base_code: fa
+  name: Persian
   variant_name: null
 - slug: finnish
   code: fi
@@ -121,11 +145,23 @@ supported_languages:
   base_code: hu
   name: Hungarian
   variant_name: null
+- slug: armenian
+  code: hy
+  normalized_code: hy
+  base_code: hy
+  name: Armenian
+  variant_name: null
 - slug: indonesian
   code: id
   normalized_code: id
   base_code: id
   name: Indonesian
+  variant_name: null
+- slug: icelandic
+  code: is
+  normalized_code: is
+  base_code: is
+  name: Icelandic
   variant_name: null
 - slug: italian
   code: it
@@ -139,11 +175,17 @@ supported_languages:
   base_code: ja
   name: Japanese
   variant_name: null
-- slug: japanese
-  code: ja-ja
-  normalized_code: ja-ja
-  base_code: ja
-  name: Japanese
+- slug: georgian
+  code: ka
+  normalized_code: ka
+  base_code: ka
+  name: Georgian
+  variant_name: null
+- slug: kazakh
+  code: kk
+  normalized_code: kk
+  base_code: kk
+  name: Kazakh
   variant_name: null
 - slug: korean
   code: ko
@@ -162,6 +204,12 @@ supported_languages:
   normalized_code: lv
   base_code: lv
   name: Latvian
+  variant_name: null
+- slug: maltese
+  code: mt
+  normalized_code: mt
+  base_code: mt
+  name: Maltese
   variant_name: null
 - slug: dutch
   code: nl
@@ -205,6 +253,12 @@ supported_languages:
   base_code: ru
   name: Russian
   variant_name: null
+- slug: sinhala
+  code: si
+  normalized_code: si
+  base_code: si
+  name: Sinhala
+  variant_name: null
 - slug: slovak
   code: sk
   normalized_code: sk
@@ -223,11 +277,47 @@ supported_languages:
   base_code: sv
   name: Swedish
   variant_name: null
+- slug: tamil
+  code: ta
+  normalized_code: ta
+  base_code: ta
+  name: Tamil
+  variant_name: null
+- slug: tajik
+  code: tg
+  normalized_code: tg
+  base_code: tg
+  name: Tajik
+  variant_name: null
+- slug: thai
+  code: th
+  normalized_code: th
+  base_code: th
+  name: Thai
+  variant_name: null
+- slug: turkmen
+  code: tk
+  normalized_code: tk
+  base_code: tk
+  name: Turkmen
+  variant_name: null
 - slug: turkish
   code: tr
   normalized_code: tr
   base_code: tr
   name: Turkish
+  variant_name: null
+- slug: ukrainian
+  code: uk
+  normalized_code: uk
+  base_code: uk
+  name: Ukrainian
+  variant_name: null
+- slug: uzbek
+  code: uz
+  normalized_code: uz
+  base_code: uz
+  name: Uzbek
   variant_name: null
 - slug: chinese
   code: zh-cn
@@ -241,6 +331,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+more_languages_by_request: true
 integrations:
 - slug: crowdin
   name: Crowdin
@@ -281,7 +372,7 @@ integrations:
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/kantanmt.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-kantanmt-engine.html
-nav_order: 962
+nav_order: 947
 active: true
 
 ---
