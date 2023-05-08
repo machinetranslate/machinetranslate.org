@@ -13,7 +13,6 @@ This course is designed for computer science students.
 [ufal.mff.cuni.cz/courses/npfl087](https://ufal.mff.cuni.cz/courses/npfl087)
 
 
-
 **MT Talks** is a series of mini-lectures on machine translation from the Institute of Formal and Applied Linguistics, Charles University.
 
 [mttalks.ufal.ms.mff.cuni.cz/index.php](http://mttalks.ufal.ms.mff.cuni.cz/index.php?title=Main_Page)
@@ -42,7 +41,7 @@ This course is designed for computer science students.
 **INFR11062 Machine translation** was an in person class offered by The University of Edinburgh. 
 The class was taught by Rico Sennrich, Alham Aji, Jonathan Mallinson, Ida Szubert, and Denis Emelin.
 This course was designed for computer science students.
-This course is no longer offered, it is now a part of the “Natural language understanding, generation, and machine translation” class.
+This course is no longer offered, it is now a part of the course “Natural language understanding, generation, and machine translation”.
 
 [inf.ed.ac.uk/teaching/courses/mt/](https://www.inf.ed.ac.uk/teaching/courses/mt/)
 
@@ -58,7 +57,7 @@ This pre-recorded course is taught by Alexander Waibel, the co-founder of [KITES
 ## Datacamp
 
 **Machine Translation in Python** in a Datacamp program taught by Thushan Ganegedara.
-This pre-recorded program is designed for developers with intermediate Python knowledge.
+This pre-recorded program is designed for developers with intermediate knowledge of Python.
 
 [app.datacamp.com/learn/courses/machine-translation-in-python](https://app.datacamp.com/learn/courses/machine-translation-in-python)
 
@@ -66,7 +65,7 @@ This pre-recorded program is designed for developers with intermediate Python kn
 ## Great Learning
 
 **Machine Translation** in a course from Great Learning.
-This pre-recorded course is designed for developers with intermediate knowledge in computer science.
+This pre-recorded course is designed for developers with intermediate knowledge of computer science.
 
 [olympus.mygreatlearning.com/courses/74236](https://olympus.mygreatlearning.com/courses/74236)
 
