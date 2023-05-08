@@ -48,9 +48,9 @@ The content covers everything about machine translation, from products to resear
 
 
 > #### Featured events
-> - [WMT23](/wmt23) - December, Singapore - **New: Tracks added!**
-> - [EAMT 2023](/eamt2023) - June, Tampere, Finland - **New: Workshops now available!**
-> - [Machine translation meetup](/machine-translation-meetup-2) - 21 October, online
+> - **NEW:** [**Machine translation meetup**](/meetup)
+> - [EAMT 2023](/eamt2023) - 12-15 June, Tampere, Finland - **New: Workshops now available!**
+> - [WMT23](/wmt23) - 6-7 December, Singapore - **New: Tracks added!**
 
 >
 > #### Featured articles

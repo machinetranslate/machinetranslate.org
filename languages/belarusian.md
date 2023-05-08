@@ -1,5 +1,5 @@
 ---
-nav_order: 987
+nav_order: 984
 parent: Languages
 layout: language
 title: Belarusian
@@ -16,7 +16,10 @@ supported_apis:
   supported_language_count: 2
 - id: apertium
   name: Apertium
-  supported_language_count: 45
+  supported_language_count: 46
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 58
@@ -26,21 +29,27 @@ supported_apis:
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

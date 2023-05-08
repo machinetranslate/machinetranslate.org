@@ -9,13 +9,20 @@ urls:
 - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/api/
 privacy_url: https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/policy/
 self_serve: true
-customisation: []
+customisation:
+- Glossary
 supported_languages:
 - slug: arabic
   code: ar
   normalized_code: ar
   base_code: ar
   name: Arabic
+  variant_name: null
+- slug: danish
+  code: da
+  normalized_code: da
+  base_code: da
+  name: Danish
   variant_name: null
 - slug: german
   code: de
@@ -47,6 +54,18 @@ supported_languages:
   base_code: fr
   name: French
   variant_name: null
+- slug: hindi
+  code: hi
+  normalized_code: hi
+  base_code: hi
+  name: Hindi
+  variant_name: null
+- slug: hungarian
+  code: hu
+  normalized_code: hu
+  base_code: hu
+  name: Hungarian
+  variant_name: null
 - slug: indonesian
   code: id
   normalized_code: id
@@ -77,11 +96,23 @@ supported_languages:
   base_code: ko
   name: Korean
   variant_name: null
+- slug: lao
+  code: lo
+  normalized_code: lo
+  base_code: lo
+  name: Lao
+  variant_name: null
 - slug: mongolian
   code: mn
   normalized_code: mn
   base_code: mn
   name: Mongolian
+  variant_name: null
+- slug: malay
+  code: ms
+  normalized_code: ms
+  base_code: ms
+  name: Malay
   variant_name: null
 - slug: burmese
   code: my
@@ -95,23 +126,65 @@ supported_languages:
   base_code: ne
   name: Nepali
   variant_name: null
+- slug: dutch
+  code: nl
+  normalized_code: nl
+  base_code: nl
+  name: Dutch
+  variant_name: null
+- slug: polish
+  code: pl
+  normalized_code: pl
+  base_code: pl
+  name: Polish
+  variant_name: null
 - slug: portuguese
   code: pt
   normalized_code: pt
   base_code: pt
   name: Portuguese
   variant_name: null
+- slug: portuguese
+  code: pt-br
+  normalized_code: pt-br
+  base_code: pt
+  name: Portuguese
+  variant_name: Brazil
 - slug: russian
   code: ru
   normalized_code: ru
   base_code: ru
   name: Russian
   variant_name: null
+- slug: sinhala
+  code: si
+  normalized_code: si
+  base_code: si
+  name: Sinhala
+  variant_name: null
 - slug: thai
   code: th
   normalized_code: th
   base_code: th
   name: Thai
+  variant_name: null
+- slug: turkish
+  code: tr
+  normalized_code: tr
+  base_code: tr
+  name: Turkish
+  variant_name: null
+- slug: ukrainian
+  code: uk
+  normalized_code: uk
+  base_code: uk
+  name: Ukrainian
+  variant_name: null
+- slug: urdu
+  code: ur
+  normalized_code: ur
+  base_code: ur
+  name: Urdu
   variant_name: null
 - slug: vietnamese
   code: vi
@@ -137,11 +210,20 @@ integrations:
   name: MemoQ
   urls:
   - https://docs.memoq.com/current/en/Places/textra-plugin-settings.html
+- slug: omegat
+  name: OmegaT
+  plugin: true
+  urls: https://codeberg.org/miurahr/omegat-textra-plugin
 - slug: trados
   name: Trados Studio
   plugin: true
   active: false
-nav_order: 980
+- slug: xtm
+  name: XTM
+  active: false
+  urls:
+  - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/tool/xtm/edit/
+nav_order: 968
 active: true
 
 ---

@@ -88,8 +88,7 @@ td:nth-child(2) {
 |     |     |     |
 | --- | --- | --- |
 | 2007 | [***Hierarchical Phrase-Based Translation***](https://aclanthology.org/J07-2003.pdf) | David Chiang |
-| 2003 | [***Statistical machine translation***](https://aclanthology.org/N03-1017.pdf) | Philipp Koehn, Franz Josef Och, [Daniel Marcu](/people/daniel-marcu.md) |
-| 2003 | [***Statistical Phrase-Based Translation***](https://aclanthology.org/N03-1017.pdf) | Philipp Koehn, Franz Josef Och, Daniel Marcu |
+| 2003 | [***Statistical Phrase-Based Translation***](https://aclanthology.org/N03-1017.pdf) | Philipp Koehn, Franz Josef Och, [Daniel Marcu](/people/daniel-marcu.md) |
 
 
 ## Metrics

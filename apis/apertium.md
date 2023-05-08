@@ -107,6 +107,12 @@ supported_languages:
   base_code: fr
   name: French
   variant_name: null
+- slug: arpitan
+  code: frp
+  normalized_code: frp
+  base_code: frp
+  name: Arpitan
+  variant_name: null
 - slug: galician
   code: gl
   normalized_code: gl
@@ -285,13 +291,11 @@ more_languages_by_request: true
 integrations:
 - slug: matecat
   name: MateCat
-  urls:
-  - https://site.matecat.com/support/advanced-features/apertium-mt-plug/
 - slug: phrase
   name: Phrase TMS
 - slug: omegat
   name: OmegaT
-nav_order: 955
+nav_order: 954
 active: true
 
 ---

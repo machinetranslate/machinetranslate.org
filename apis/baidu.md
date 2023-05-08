@@ -24,11 +24,11 @@ supported_languages:
   base_code: af
   name: Afrikaans
   variant_name: null
-- slug: null
+- slug: akan
   code: aka
   normalized_code: ak
   base_code: ak
-  name: null
+  name: Akan
   variant_name: null
 - slug: albanian
   code: alb
@@ -132,11 +132,11 @@ supported_languages:
   base_code: ber
   name: Berber
   variant_name: null
-- slug: null
+- slug: bhojpuri
   code: bho
   normalized_code: bho
   base_code: bho
-  name: null
+  name: Bhojpuri
   variant_name: null
 - slug: bislama
   code: bis
@@ -396,11 +396,11 @@ supported_languages:
   base_code: grc
   name: null
   variant_name: null
-- slug: null
+- slug: guarani
   code: grn
   normalized_code: gn
   base_code: gn
-  name: null
+  name: Guarani
   variant_name: null
 - slug: gujarati
   code: guj
@@ -558,11 +558,11 @@ supported_languages:
   base_code: kn
   name: Kannada
   variant_name: null
-- slug: null
+- slug: kashmiri
   code: kas
   normalized_code: ks
   base_code: ks
-  name: null
+  name: Kashmiri
   variant_name: null
 - slug: null
   code: kau
@@ -636,11 +636,11 @@ supported_languages:
   base_code: lv
   name: Latvian
   variant_name: null
-- slug: null
+- slug: limburgish
   code: lim
   normalized_code: li
   base_code: li
-  name: null
+  name: Limburgish
   variant_name: null
 - slug: lingala
   code: lin
@@ -666,11 +666,11 @@ supported_languages:
   base_code: lb
   name: Luxembourgish
   variant_name: null
-- slug: null
+- slug: ganda
   code: lug
   normalized_code: lg
   base_code: lg
-  name: null
+  name: Ganda
   variant_name: null
 - slug: chinese
   code: lzh
@@ -888,11 +888,11 @@ supported_languages:
   base_code: ps
   name: Pashto
   variant_name: null
-- slug: null
+- slug: quechua
   code: que
   normalized_code: qu
   base_code: qu
-  name: null
+  name: Quechua
   variant_name: null
 - slug: romansh
   code: roh
@@ -924,11 +924,11 @@ supported_languages:
   base_code: ru
   name: Russian
   variant_name: null
-- slug: null
+- slug: sanskrit
   code: san
   normalized_code: sa
   base_code: sa
-  name: null
+  name: Sanskrit
   variant_name: null
 - slug: null
   code: sco

@@ -14,14 +14,20 @@ languages:
   name: Aragonese
 - slug: armenian
   name: Armenian
+- slug: arpitan
+  name: Arpitan
 - slug: assamese
   name: Assamese
+- slug: awadhi
+  name: Awadhi
 - slug: balochi
   name: Balochi
 - slug: belarusian
   name: Belarusian
 - slug: bengali
   name: Bengali
+- slug: bhojpuri
+  name: Bhojpuri
 - slug: bosnian
   name: Bosnian
 - slug: breton
@@ -68,12 +74,16 @@ languages:
   name: Irish
 - slug: italian
   name: Italian
+- slug: kashmiri
+  name: Kashmiri
 - slug: kurdish
   name: Kurdish
 - slug: latin
   name: Latin
 - slug: latvian
   name: Latvian
+- slug: limburgish
+  name: Limburgish
 - slug: lithuanian
   name: Lithuanian
 - slug: luxembourgish
@@ -112,6 +122,8 @@ languages:
   name: Romansh
 - slug: russian
   name: Russian
+- slug: sanskrit
+  name: Sanskrit
 - slug: sardinian
   name: Sardinian
 - slug: scottish-gaelic
@@ -136,6 +148,8 @@ languages:
   name: Swedish
 - slug: tajik
   name: Tajik
+- slug: tosk
+  name: Tosk
 - slug: ukrainian
   name: Ukrainian
 - slug: upper-sorbian

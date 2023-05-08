@@ -6,7 +6,7 @@ id: kakao
 parent: APIs
 urls:
 - https://developers.kakao.com/product/translation
-- https://developers.kakao.com/docs/restapi/en/translation
+- https://www.kakaoicloud.com/service/detail/6-10
 privacy_url: null
 self_serve: true
 customisation:

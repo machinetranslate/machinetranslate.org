@@ -15,10 +15,10 @@ supported_apis:
   supported_language_count: 9
 - id: apertium
   name: Apertium
-  supported_language_count: 45
+  supported_language_count: 46
 - id: watson
   name: Watson Language Translator
-  supported_language_count: 52
+  supported_language_count: 55
 - id: wordlingo
   name: Wordlingo
   supported_language_count: 65
@@ -31,15 +31,15 @@ supported_apis:
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

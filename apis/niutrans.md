@@ -12,11 +12,11 @@ self_serve: true
 customisation:
 - Glossary
 supported_languages:
-- slug: null
+- slug: acehnese
   code: ace
   normalized_code: ace
   base_code: ace
-  name: null
+  name: Acehnese
   variant_name: null
 - slug: acholi
   code: ach
@@ -132,11 +132,11 @@ supported_languages:
   base_code: ba
   name: Bashkir
   variant_name: null
-- slug: null
+- slug: bambara
   code: bam
   normalized_code: bm
   base_code: bm
-  name: null
+  name: Bambara
   variant_name: null
 - slug: basque
   code: bas
@@ -402,11 +402,11 @@ supported_languages:
   base_code: cht
   name: null
   variant_name: null
-- slug: null
+- slug: chokwe
   code: cjk
   normalized_code: cjk
   base_code: cjk
-  name: null
+  name: Chokwe
   variant_name: null
 - slug: null
   code: cjp
@@ -516,11 +516,11 @@ supported_languages:
   base_code: dhv
   name: null
   variant_name: null
-- slug: null
+- slug: dinka
   code: dik
   normalized_code: dik
   base_code: dik
-  name: null
+  name: Dinka
   variant_name: null
 - slug: null
   code: djk
@@ -744,11 +744,11 @@ supported_languages:
   base_code: guc
   name: null
   variant_name: null
-- slug: null
+- slug: guarani
   code: gug
   normalized_code: gug
   base_code: gug
-  name: null
+  name: Guarani
   variant_name: null
 - slug: null
   code: gur
@@ -1062,11 +1062,11 @@ supported_languages:
   base_code: kg
   name: Kongo
   variant_name: null
-- slug: null
+- slug: kikuyu
   code: kik
   normalized_code: ki
   base_code: ki
-  name: null
+  name: Kikuyu
   variant_name: null
 - slug: kazakh
   code: kk
@@ -1182,11 +1182,11 @@ supported_languages:
   base_code: lcp
   name: null
   variant_name: null
-- slug: null
+- slug: ganda
   code: lg
   normalized_code: lg
   base_code: lg
-  name: null
+  name: Ganda
   variant_name: null
 - slug: lingala
   code: ln

@@ -339,6 +339,11 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
+- slug: crowdin
+  name: Crowdin
+  plugin: true
+  urls:
+  - https://store.crowdin.com/systran
 - slug: memoq
   name: MemoQ
   custom: true

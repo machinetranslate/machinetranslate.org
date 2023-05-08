@@ -20,6 +20,16 @@
   territories: [ ge, ru ]
 
 -
+  codes: [ ace ]
+  names: [ Acehnese, Achinese ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ id ]
+
+-
   codes: [ ach, lth ]
   names: [ Acholi, Leb Acoli ]
   family: [ ssa ]
@@ -30,7 +40,7 @@
   territories: [ ug ]
 
 -
-  codes: [ aka ]
+  codes: [ ak, aka ]
   names: [ Akan ]
   family: [ nic ]
   scripts: [ Latn ]
@@ -49,6 +59,16 @@
     word_order: [ SVO ]
     morphosyntax: [ analytic ]
   territories: [ na, za ]
+
+-
+  codes: [ als ]
+  names: [ Tosk, Tosk Albanian ]
+  family: [ ine ]
+  scripts: [ Elba ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ al, gr, it, mk ]
 
 -
   codes: [ am, amh ]
@@ -111,6 +131,16 @@
   territories: [ es ]
 
 -
+  codes: [ awa ]
+  names: [ Awadhi, Audhi ]
+  family: [ ira, iir, ine ]
+  scripts: [ Deva ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ in, np ]
+
+-
   codes: [ ay, aym, ayc, ayr ]
   names: [ Aymara ]
   family: [ aym ]
@@ -149,6 +179,16 @@
     word_order: [ SOV ]
     morphosyntax: [ inflected, agglutinative, isolating ]
   territories: [ af, ir, pk ]
+
+-
+  codes: [ ban ]
+  names: [ Balinese ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ id ]
 
 -
   codes: [ be, bel ]
@@ -191,6 +231,16 @@
   territories: [ bg ]
 
 -
+  codes: [ bho ]
+  names: [ Bhojpuri ]
+  family: [ inc, iir, ine ]
+  scripts: [ Deva ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ in, np ]
+
+-
   codes: [ bi, bis ]
   names: [ Bislama, Bichelama ]
   family: [ cpe ]
@@ -199,6 +249,26 @@
     word_order: [ SVO ]
     morphosyntax: [ analytic ]
   territories: [ vu ]
+
+-
+  codes: [ bjn ]
+  names: [ Banjar, Banjarese ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ id ]
+
+-
+  codes: [ bm, bam ]
+  names: [ Bambara, Bamana, Bamanankan ]
+  family: [ dmn ]
+  scripts: [ Latn, Arab, Nkoo ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ml ]
 
 -
   codes: [ bn, ben ]
@@ -242,6 +312,16 @@
   territories: [ ba, hr, sr, me ]
 
 -
+  codes: [ bug ]
+  names: [ Buginese, Bugis ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ id ]
+
+-
   codes: [ ca, cat ]
   names: [ Catalan ]
   family: [ roa, ine ]
@@ -260,6 +340,16 @@
     word_order: [ VSO ]
     morphosyntax: [ inflected ]
   territories: [ ph ]
+
+-
+  codes: [ cjk ]
+  names: [ Chokwe, Batshokwe, Ciokwe, Kioko, Kiokwe, Quioca, Quioco, Shioko, Tschiokloe, Tshokwe ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ ao, cd, zm ]
 
 -
   codes: [ co, cos ]
@@ -350,6 +440,16 @@
     word_order: [ SVO, VSO ]
     morphosyntax: [ fusional ]
   territories: [ at, ch, de, li, lu ]
+
+-
+  codes: [ dik ]
+  names: [ Dinka ]
+  family: [ ssa ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ ss ]
 
 -
   codes: [ dv, div ]
@@ -494,6 +594,16 @@
   territories: [ be, ca, ch, fr, lu, mc ]
 
 -
+  codes: [ frp ]
+  names: [ Arpitan, Franco-Provençal ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic ]
+  territories: [ ch, fr, it ]
+
+-
   codes: [ fy, fry, frr, frs ]
   names: [ Frisian ]
   family: [ gem, ine ]
@@ -542,6 +652,16 @@
     word_order: [ SOV ]
     morphosyntax: [ inflected ]
   territories: [ in, pk ]
+
+-
+  codes: [ gn, grn, gug ]
+  names: [ Guarani ]
+  family: [ tup ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ar, bo, br, py ]
 
 -
 
@@ -757,6 +877,16 @@
   territories: [ ao ]
 
 -
+  codes: [ ki, kik ]
+  names: [ Kikuyu, Gikuyu ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ke ]
+
+-
   codes: [ kk, kaz ]
   names: [ Kazakh ]
   family: [ trk ]
@@ -795,6 +925,17 @@
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]
   territories: [ kr ]
+
+-
+  codes: [ ks, kas ]
+  names: [ Kashmiri, Koshur ]
+  family: [ ira, iir, ine ]
+  scripts: [ Arab, Deva ]
+  typology:
+    word_order: [ SOV, V2 ]
+    morphosyntax: [ fusional ]
+  territories: [ in ]
+
 
 -
   codes: [ ku, kur, sdh, kmr ]
@@ -857,7 +998,7 @@
   territories: [ lu ]
 
 -
-  codes: [ gl, lug ]
+  codes: [ lug, gl, lg ]
   names: [ Ganda, Luganda ]
   family: [ bnt, nic ]
   scripts: [ Latn ]
@@ -865,6 +1006,16 @@
     word_order: [ SVO ]
     morphosyntax: [ agglutinative ]
   territories: [ ug ]
+
+-
+  codes: [ li ]
+  names: [ Limburgish, Limburgan, Limburgian, Limburgic ]
+  family: [ gem, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ be, de, nl ]
 
 -
   codes: [ ln, lin ]
@@ -1173,6 +1324,16 @@
   territories: [ br, pt, ao, mz ]
 
 -
+  codes: [ qu, que ]
+  names: [ Quechua ]
+  family: [  ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ar, bo, cl, co, ec, pe ]
+
+-
   codes: [ ro, ron, rum ]
   names: [ Romanian, Rumanian, Moldovan ]
   family: [ roa, ine ]
@@ -1221,6 +1382,16 @@
     word_order: [ SVO ]
     morphosyntax: [ inflected ]
   territories: [ rw ]
+
+-
+  codes: [ sa, san ]
+  names: [ Sanskrit ]
+  family: [ ira, iir, ine ]
+  scripts: [ Deva ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ fusional ]
+  territories: [ in ]
 
 -
   codes: [ sc, srd, sro, src ]
@@ -1342,6 +1513,16 @@
     word_order: [ SVO ]
     morphosyntax: [ fusional, inflected ]
   territories: [ ba, me, rs, hr ]
+
+-
+  codes: [ ss, ssw ]
+  names: [ Swati, Swazi, siSwati ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VO ]
+    morphosyntax: [  ]
+  territories: [ sz, za ]
 
 -
   codes: [ st, sot ]

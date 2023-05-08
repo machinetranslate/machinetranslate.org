@@ -11,7 +11,7 @@ family:
 supported_apis:
 - id: apertium
   name: Apertium
-  supported_language_count: 45
+  supported_language_count: 46
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

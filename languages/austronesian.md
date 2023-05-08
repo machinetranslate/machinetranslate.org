@@ -6,6 +6,14 @@ title: Austronesian
 description: Machine translation for the Austronesian language family
 code: map
 languages:
+- slug: acehnese
+  name: Acehnese
+- slug: balinese
+  name: Balinese
+- slug: banjar
+  name: Banjar
+- slug: buginese
+  name: Buginese
 - slug: cebuano
   name: Cebuano
 - slug: fijian

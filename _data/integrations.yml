@@ -39,6 +39,11 @@
     - cat: true
   documentation_url: https://support.crowdin.com/configuring-machine-translation-engines/
   api_integrations:
+    - alibaba:
+        plugin: true
+        urls:
+          - https://store.crowdin.com/alibaba
+
     - amazon:
         glossary: true
         urls:
@@ -82,9 +87,23 @@
         urls:
           - https://support.crowdin.com/enterprise/machine-translation/#modernmt
 
+    - systran:
+        plugin: true
+        urls:
+          - https://store.crowdin.com/systran
+
+    - tencent:
+        plugin: true
+        urls:
+          - https://store.crowdin.com/tencent
+
     - watson:
         urls:
           - https://support.crowdin.com/enterprise/machine-translation/#watson-ibm-translator
+
+    - xl8:
+        urls:
+          - https://store.crowdin.com/xl8
 
     - yandex:
         active: false
@@ -116,11 +135,9 @@
   url: https://www.matecat.com
   type:
     - cat: true
-  documentation_url: https://site.matecat.com/support/
+  documentation_url: https://guides.matecat.com/
   api_integrations:
-    - apertium:
-        urls:
-          - https://site.matecat.com/support/advanced-features/apertium-mt-plug/
+    - apertium
 
     - google:
         custom: true
@@ -415,6 +432,10 @@
         urls:
           - https://github.com/yoyicue/omegat-tencent-plugin
 
+    - textra:
+        plugin: true
+        urls: https://codeberg.org/miurahr/omegat-textra-plugin
+
     - yandex
 
   local_api_support: true
@@ -531,6 +552,7 @@
   name: Tolgee
   url: https://tolgee.io 
   type: [ tms, cat ]
+  documentation_url: https://tolgee.io/platform
   open_source: true
   api_integrations:
     - amazon
@@ -803,6 +825,11 @@
         urls:
           - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 
+    - globalese:
+        plugin: true
+        urls:
+          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
+
     - google:
         custom: true
         urls:
@@ -845,11 +872,6 @@
 
     - tilde:
         custom: true
-        urls:
-          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
-
-  api_plugins:
-    - globalese:
         urls:
           - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 
@@ -1001,6 +1023,8 @@
           - https://help.xtm.cloud/en/xtm-cloud/13.2/en/sap-translation-hub.html
           - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-sap-translation-hub-mt-engine.html
 
+    - smartmate
+
     - systran:
         urls:
           - https://help.xtm.cloud/en/xtm-cloud/13.2/en/systran-pure-neural-.html
@@ -1010,6 +1034,11 @@
         urls:
           - https://help.xtm.cloud/en/xtm-cloud/13.2/en/tauyou.html
           - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-tauyou-mt-engine.html
+
+    - textra:
+        active: false
+        urls:
+          - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/tool/xtm/edit/
 
   local_api_support: true
   multiple_api_suggestions: true

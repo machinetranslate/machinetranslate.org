@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 984
 parent: Languages
 layout: language
 title: Somali
@@ -16,7 +16,7 @@ supported_apis:
   supported_language_count: 52
 - id: language-weaver
   name: Language Weaver
-  supported_language_count: 54
+  supported_language_count: 58
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 58
@@ -29,21 +29,27 @@ supported_apis:
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
