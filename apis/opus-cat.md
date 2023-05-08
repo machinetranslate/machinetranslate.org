@@ -10,7 +10,7 @@ privacy_url: null
 self_serve: true
 customisation: []
 supported_languages: []
-more_languages_by_request: true
+more_languages_by_request: false
 integrations:
 - slug: memoq
   name: MemoQ

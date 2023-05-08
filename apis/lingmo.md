@@ -8,7 +8,7 @@ urls:
 - https://lingmointernationalnet.wordpress.com
 - http://live.lingmo-api.com/support/lingmo-translation-languages.html
 privacy_url: null
-self_serve: true
+self_serve: null
 customisation: []
 supported_languages:
 - slug: arabic

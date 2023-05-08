@@ -14,6 +14,8 @@ languages:
   name: Bengali
 - slug: bhojpuri
   name: Bhojpuri
+- slug: chhattisgarhi
+  name: Chhattisgarhi
 - slug: divehi
   name: Divehi
 - slug: gujarati
@@ -50,6 +52,8 @@ languages:
   name: Tajik
 - slug: urdu
   name: Urdu
+- slug: zaza
+  name: Zaza
 
 ---
 

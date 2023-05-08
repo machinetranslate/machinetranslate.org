@@ -335,11 +335,11 @@ supported_languages:
   base_code: fr
   name: French
   variant_name: null
-- slug: null
+- slug: friulian
   code: fur
   normalized_code: fur
   base_code: fur
-  name: null
+  name: Friulian
   variant_name: null
 - slug: null
   code: fvr
@@ -1289,11 +1289,11 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
-- slug: null
+- slug: zaza
   code: zza
   normalized_code: zza
   base_code: zza
-  name: null
+  name: Zaza
   variant_name: null
 more_languages_by_request: false
 integrations:

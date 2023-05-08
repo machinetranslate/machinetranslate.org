@@ -348,17 +348,17 @@ supported_languages:
   base_code: fy
   name: Frisian
   variant_name: null
-- slug: null
+- slug: fula
   code: ful
   normalized_code: ff
   base_code: ff
-  name: null
+  name: Fula
   variant_name: null
-- slug: null
+- slug: friulian
   code: fur
   normalized_code: fur
   base_code: fur
-  name: null
+  name: Friulian
   variant_name: null
 - slug: georgian
   code: geo

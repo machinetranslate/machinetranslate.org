@@ -222,17 +222,17 @@ supported_languages:
   base_code: dik
   name: Dinka
   variant_name: null
-- slug: null
+- slug: zaza
   code: diq
   normalized_code: diq
   base_code: diq
-  name: null
+  name: Zaza
   variant_name: null
-- slug: null
+- slug: dyula
   code: dyu
   normalized_code: dyu
   base_code: dyu
-  name: null
+  name: Dyula
   variant_name: null
 - slug: dzongkha
   code: dz
@@ -300,11 +300,11 @@ supported_languages:
   base_code: fo
   name: Faroese
   variant_name: null
-- slug: null
+- slug: fon
   code: fon
   normalized_code: fon
   base_code: fon
-  name: null
+  name: Fon
   variant_name: null
 - slug: french
   code: fr
@@ -312,17 +312,17 @@ supported_languages:
   base_code: fr
   name: French
   variant_name: null
-- slug: null
+- slug: friulian
   code: fur
   normalized_code: fur
   base_code: fur
-  name: null
+  name: Friulian
   variant_name: null
-- slug: null
+- slug: fula
   code: fuv
   normalized_code: fuv
   base_code: fuv
-  name: null
+  name: Fula
   variant_name: null
 - slug: irish
   code: ga
@@ -330,11 +330,11 @@ supported_languages:
   base_code: ga
   name: Irish
   variant_name: null
-- slug: null
+- slug: oromo
   code: gaz
   normalized_code: gaz
   base_code: gaz
-  name: null
+  name: Oromo
   variant_name: null
 - slug: scottish-gaelic
   code: gd
@@ -378,11 +378,11 @@ supported_languages:
   base_code: hi
   name: Hindi
   variant_name: null
-- slug: null
+- slug: chhattisgarhi
   code: hne
   normalized_code: hne
   base_code: hne
-  name: null
+  name: Chhattisgarhi
   variant_name: null
 - slug: croatian
   code: hr

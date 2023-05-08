@@ -18,6 +18,8 @@ languages:
   name: Corsican
 - slug: french
   name: French
+- slug: friulian
+  name: Friulian
 - slug: galician
   name: Galician
 - slug: italian

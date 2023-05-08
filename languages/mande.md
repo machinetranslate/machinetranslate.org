@@ -8,6 +8,8 @@ code: dmn
 languages:
 - slug: bambara
   name: Bambara
+- slug: dyula
+  name: Dyula
 
 ---
 

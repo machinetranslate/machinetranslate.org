@@ -36,6 +36,8 @@ languages:
   name: Bulgarian
 - slug: catalan
   name: Catalan
+- slug: chhattisgarhi
+  name: Chhattisgarhi
 - slug: cornish
   name: Cornish
 - slug: corsican
@@ -58,6 +60,8 @@ languages:
   name: French
 - slug: frisian
   name: Frisian
+- slug: friulian
+  name: Friulian
 - slug: galician
   name: Galician
 - slug: german
@@ -160,6 +164,8 @@ languages:
   name: Welsh
 - slug: yiddish
   name: Yiddish
+- slug: zaza
+  name: Zaza
 
 ---
 

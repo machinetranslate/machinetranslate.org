@@ -558,11 +558,11 @@ supported_languages:
   base_code: dv
   name: Divehi
   variant_name: null
-- slug: null
+- slug: dyula
   code: dyu
   normalized_code: dyu
   base_code: dyu
-  name: null
+  name: Dyula
   variant_name: null
 - slug: dzongkha
   code: dz
@@ -660,11 +660,11 @@ supported_languages:
   base_code: fr
   name: French
   variant_name: null
-- slug: null
+- slug: fula
   code: fuv
   normalized_code: fuv
   base_code: fuv
-  name: null
+  name: Fula
   variant_name: null
 - slug: frisian
   code: fy

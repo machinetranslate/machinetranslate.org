@@ -457,10 +457,19 @@
   family: [ inc, iir, ine ]
   scripts: [ Latn, Thaa ]
   typology:
-    word_order: [  ]
+    word_order: [ SOV ]
     morphosyntax: [ inflected ]
   territories: [ mv ]
 
+-
+  codes: [ dyu ]
+  names: [ Dyula, Jula, Dioula ]
+  family: [ dmn ]
+  scripts: [ Arab, Latn, Nkoo ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ analytic, inflected ]
+  territories: [ bf, ci, gh, ml ]
 -
   codes: [ dz, dzo, lya, luk, adp ]
   names: [ Dzongkha ]
@@ -584,6 +593,16 @@
   territories: [ fo, da ]
 
 -
+  codes: [ fon ]
+  names: [ Fon ]
+  family: [ nic ]
+  scripts: [ Latn, Nkoo ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ bj, ga, gh, ng, tg ]
+
+-
   codes: [ fr, fra, fre ]
   names: [ French ]
   family: [ roa, ine ]
@@ -602,6 +621,27 @@
     word_order: [ SVO ]
     morphosyntax: [ synthetic ]
   territories: [ ch, fr, it ]
+
+-
+  codes: [ ff, ful, fuc, fufffm, fue, fuh, fuv, fub ]
+  names: [ Fula, Fulani, Fulah ]
+  family: [ nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ bf, cm ]
+
+
+-
+  codes: [ fur ]
+  names: [ Friulian, Friulan ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ it ]  
 
 -
   codes: [ fy, fry, frr, frs ]
@@ -724,6 +764,17 @@
     word_order: [ SVO ]
     morphosyntax: [ analytic ]
   territories: [ vn, cn, th, la, mm ]
+
+-
+  codes: [ hne, sgj ]
+  names: [ Chhattisgarhi ]
+  family: [ inc, iir, ine ]
+  scripts: [ Deva, Orya ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ in ]
+
 
 -
   codes: [ hr, hrv, hbs ]
@@ -1236,7 +1287,7 @@
   territories: [ es, fr, it, mc ]
 
 -
-  codes: [ om, orm ]
+  codes: [ om, orm, gaz ]
   names: [ Oromo ]
   family: [ cus, afa ]
   scripts: [ Latn ]
@@ -1879,3 +1930,13 @@
     word_order: [ SVO ]
     morphosyntax: [ agglutinative ]
   territories: [ za ]
+
+-
+  codes: [ zza, kiu, diq ]
+  names: [ Zaza, Zazaki ]
+  family: [ iir, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ tr ]

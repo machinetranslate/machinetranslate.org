@@ -16,6 +16,10 @@ languages:
   name: Chokwe
 - slug: ewe
   name: Ewe
+- slug: fon
+  name: Fon
+- slug: fula
+  name: Fula
 - slug: ganda
   name: Ganda
 - slug: igbo
