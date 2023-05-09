@@ -912,11 +912,11 @@ supported_languages:
   base_code: ikk
   name: null
   variant_name: null
-- slug: null
+- slug: ilocano
   code: ilo
   normalized_code: ilo
   base_code: ilo
-  name: null
+  name: Ilocano
   variant_name: null
 - slug: null
   code: iou
@@ -1008,17 +1008,17 @@ supported_languages:
   base_code: kab
   name: Kabyle
   variant_name: null
-- slug: null
+- slug: jingpho
   code: kac
   normalized_code: kac
   base_code: kac
-  name: null
+  name: Jingpho
   variant_name: null
-- slug: null
+- slug: kamba
   code: kam
   normalized_code: kam
   base_code: kam
-  name: null
+  name: Kamba
   variant_name: null
 - slug: null
   code: kbh
@@ -1032,17 +1032,17 @@ supported_languages:
   base_code: kbo
   name: null
   variant_name: null
-- slug: null
+- slug: kabiye
   code: kbp
   normalized_code: kbp
   base_code: kbp
-  name: null
+  name: Kabiye
   variant_name: null
-- slug: null
+- slug: cape-verdean-creole
   code: kea
   normalized_code: kea
   base_code: kea
-  name: null
+  name: Cape Verdean Creole
   variant_name: null
 - slug: null
   code: kek

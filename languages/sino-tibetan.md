@@ -14,6 +14,8 @@ languages:
   name: Chinese
 - slug: dzongkha
   name: Dzongkha
+- slug: jingpho
+  name: Jingpho
 - slug: tibetan
   name: Tibetan
 

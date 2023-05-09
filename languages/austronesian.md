@@ -20,6 +20,8 @@ languages:
   name: Fijian
 - slug: hawaiian
   name: Hawaiian
+- slug: ilocano
+  name: Ilocano
 - slug: indonesian
   name: Indonesian
 - slug: javanese

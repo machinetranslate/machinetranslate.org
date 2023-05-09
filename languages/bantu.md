@@ -12,6 +12,8 @@ languages:
   name: Chokwe
 - slug: ganda
   name: Ganda
+- slug: kamba
+  name: Kamba
 - slug: kikuyu
   name: Kikuyu
 - slug: kinyarwanda

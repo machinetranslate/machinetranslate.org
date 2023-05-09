@@ -325,11 +325,11 @@ supported_languages:
   base_code: ig
   name: Igbo
   variant_name: null
-- slug: null
+- slug: ilocano
   code: ilo
   normalized_code: ilo
   base_code: ilo
-  name: null
+  name: Ilocano
   variant_name: null
 - slug: icelandic
   code: is

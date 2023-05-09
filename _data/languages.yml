@@ -848,6 +848,16 @@
   territories: [ ng ]
 
 -
+  codes: [ ilo ]
+  names: [ Ilocano, Ilokano ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ph ]
+
+-
   codes: [ is, isl, ice ]
   names: [ Icelandic ]
   family: [ gem, ine ]
@@ -916,6 +926,46 @@
     word_order: [ VSO ]
     morphosyntax: [ inflected ]
   territories: [ dz ]
+
+-
+  codes: [ kac, sgp, tcl ]
+  names: [ Jingpho, Kachin ]
+  family: [ sit ]
+  scripts: [ Latn, Mymr ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ isolating ]
+  territories: [ cn, in, mm ]
+
+-
+  codes: [ kam, dhs ]
+  names: [ Kamba, Kikamba ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ke, tz ]
+
+-
+  codes: [ kbp ]
+  names: [ Kabiye ]
+  family: [ nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ polysynthetic ]
+  territories: [ bj, gh, tg ]
+
+-
+  codes: [ kea ]
+  names: [ Cape Verdean Creole ]
+  family: [ cpp ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytical ]
+  territories: [ cv ]
 
 -
   codes: [ kg, kon ]

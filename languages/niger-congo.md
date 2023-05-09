@@ -24,6 +24,10 @@ languages:
   name: Ganda
 - slug: igbo
   name: Igbo
+- slug: kabiye
+  name: Kabiye
+- slug: kamba
+  name: Kamba
 - slug: kikuyu
   name: Kikuyu
 - slug: kinyarwanda
