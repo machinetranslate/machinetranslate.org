@@ -1086,11 +1086,11 @@ supported_languages:
   base_code: km
   name: Khmer
   variant_name: null
-- slug: null
+- slug: kimbundu
   code: kmb
   normalized_code: kmb
   base_code: kmb
-  name: null
+  name: Kimbundu
   variant_name: null
 - slug: kannada
   code: kn

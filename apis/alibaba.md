@@ -695,11 +695,11 @@ supported_languages:
   base_code: lt
   name: Lithuanian
   variant_name: null
-- slug: null
+- slug: latgalian
   code: ltg
   normalized_code: ltg
   base_code: ltg
-  name: null
+  name: Latgalian
   variant_name: null
 - slug: latvian
   code: lv

@@ -26,6 +26,10 @@ languages:
   name: Italian
 - slug: latin
   name: Latin
+- slug: ligurian
+  name: Ligurian
+- slug: lombard
+  name: Lombard
 - slug: occitan
   name: Occitan
 - slug: portuguese

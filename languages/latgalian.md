@@ -1,19 +1,16 @@
 ---
-nav_order: 996
+nav_order: 997
 parent: Languages
 layout: language
-title: Asturian
-description: Machine translation for Asturian
-code: ast
+title: Latgalian
+description: Machine translation for Latgalian
+code: ltg
 family:
-- slug: romance
-  name: Romance
+- slug: baltic
+  name: Baltic
 - slug: indo-european
   name: Indo-European
 supported_apis:
-- id: apertium
-  name: Apertium
-  supported_language_count: 46
 - id: modernmt
   name: ModernMT
   supported_language_count: 195

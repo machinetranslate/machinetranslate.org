@@ -30,6 +30,8 @@ languages:
   name: Kamba
 - slug: kikuyu
   name: Kikuyu
+- slug: kimbundu
+  name: Kimbundu
 - slug: kinyarwanda
   name: Kinyarwanda
 - slug: kirundi

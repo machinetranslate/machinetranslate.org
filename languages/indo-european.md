@@ -18,6 +18,8 @@ languages:
   name: Arpitan
 - slug: assamese
   name: Assamese
+- slug: asturian
+  name: Asturian
 - slug: awadhi
   name: Awadhi
 - slug: balochi
@@ -82,14 +84,20 @@ languages:
   name: Kashmiri
 - slug: kurdish
   name: Kurdish
+- slug: latgalian
+  name: Latgalian
 - slug: latin
   name: Latin
 - slug: latvian
   name: Latvian
+- slug: ligurian
+  name: Ligurian
 - slug: limburgish
   name: Limburgish
 - slug: lithuanian
   name: Lithuanian
+- slug: lombard
+  name: Lombard
 - slug: luxembourgish
   name: Luxembourgish
 - slug: macedonian

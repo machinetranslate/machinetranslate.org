@@ -498,11 +498,11 @@ supported_languages:
   base_code: kg
   name: Kongo
   variant_name: null
-- slug: null
+- slug: mongolian
   code: khk
   normalized_code: khk
   base_code: khk
-  name: null
+  name: Mongolian
   variant_name: null
 - slug: kikuyu
   code: ki
@@ -522,11 +522,11 @@ supported_languages:
   base_code: km
   name: Khmer
   variant_name: null
-- slug: null
+- slug: kimbundu
   code: kmb
   normalized_code: kmb
   base_code: kmb
-  name: null
+  name: Kimbundu
   variant_name: null
 - slug: kurdish
   code: kmr
@@ -540,11 +540,11 @@ supported_languages:
   base_code: kn
   name: Kannada
   variant_name: null
-- slug: null
+- slug: kanuri
   code: knc
   normalized_code: knc
   base_code: knc
-  name: null
+  name: Kanuri
   variant_name: null
 - slug: korean
   code: ko
@@ -588,17 +588,17 @@ supported_languages:
   base_code: li
   name: Limburgish
   variant_name: null
-- slug: null
+- slug: ligurian
   code: lij
   normalized_code: lij
   base_code: lij
-  name: null
+  name: Ligurian
   variant_name: null
-- slug: null
+- slug: lombard
   code: lmo
   normalized_code: lmo
   base_code: lmo
-  name: null
+  name: Lombard
   variant_name: null
 - slug: lingala
   code: ln
@@ -618,11 +618,11 @@ supported_languages:
   base_code: lt
   name: Lithuanian
   variant_name: null
-- slug: null
+- slug: latgalian
   code: ltg
   normalized_code: ltg
   base_code: ltg
-  name: null
+  name: Latgalian
   variant_name: null
 - slug: null
   code: lua

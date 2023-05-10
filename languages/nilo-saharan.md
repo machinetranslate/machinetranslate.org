@@ -10,6 +10,8 @@ languages:
   name: Acholi
 - slug: dinka
   name: Dinka
+- slug: kanuri
+  name: Kanuri
 
 ---
 

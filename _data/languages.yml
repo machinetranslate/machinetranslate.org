@@ -123,7 +123,7 @@
 -
   codes: [ ast ]
   names: [ Asturian, Bable ]
-  family: [ roa ]
+  family: [ roa, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
@@ -998,6 +998,16 @@
   territories: [ kz ]
 
 -
+  codes: [ kmb ]
+  names: [ Kimbundu, Mbundu, North Mbundu ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [  ]
+  territories: [ ao ]
+
+-
   codes: [ km, khm, kxm ]
   names: [ Khmer ]
   family: [ aav ]
@@ -1018,6 +1028,16 @@
   territories: [ id ]
 
 -
+  codes: [ knc ]
+  names: [ Kanuri ]
+  family: [ ssa ]
+  scripts: [ Latn, Arab ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [  ]
+  territories: [ cm, ng, ne, ly, sd, td ]
+
+-
   codes: [ ko, kor ]
   names: [ Korean ]
   family: [ kor ]
@@ -1036,7 +1056,6 @@
     word_order: [ SOV, V2 ]
     morphosyntax: [ fusional ]
   territories: [ in ]
-
 
 -
   codes: [ ku, kur, sdh, kmr ]
@@ -1119,6 +1138,26 @@
   territories: [ be, de, nl ]
 
 -
+  codes: [ lij ]
+  names: [ Ligurian, Genoese ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ fr, it, mc ]
+
+-
+  codes: [ lmo ]
+  names: [ Lombard ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ ch, it ]
+
+-
   codes: [ ln, lin ]
   names: [ Lingala ]
   family: [ bnt, nic ]
@@ -1147,6 +1186,16 @@
     word_order: [ SVO ]
     morphosyntax: [ inflected ]
   territories: [ lt ]
+
+-
+  codes: [ ltg ]
+  names: [ Latgalian ]
+  family: [ bat, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ lv, ru ]
 
 -
   codes: [ lv, lav ]
@@ -1223,7 +1272,7 @@
   territories: [ in ]
 
 -
-  codes: [ mn, mon ]
+  codes: [ mn, mon, khk ]
   names: [ Mongolian ]
   family: [ xgn ]
   scripts: [ Cyrl, Mong, Phag ]
@@ -1332,8 +1381,8 @@
   family: [ roa, ine ]
   scripts: [ Latn ]
   typology:
-    word_order: [  ]
-    morphosyntax: [  ]
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
   territories: [ es, fr, it, mc ]
 
 -
