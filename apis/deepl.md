@@ -219,6 +219,9 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
+- slug: across
+  name: Across
+  formality: true
 - slug: crowdin
   name: Crowdin
   formality: true
@@ -230,6 +233,9 @@ integrations:
   formality: true
   urls:
   - https://docs.memoq.com/current/en/Places/deepl-mt-plugin-settings.html
+- slug: multitrans
+  name: Multitrans
+  url: https://docs.rws.com/785465/786901/sdl-multitrans/configuring-deepl
 - slug: phrase
   name: Phrase TMS
   glossary: true

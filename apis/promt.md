@@ -259,6 +259,11 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
+- slug: across
+  name: Across
+- slug: multitrans
+  name: Multitrans
+  url: https://docs.rws.com/785465/786621/sdl-multitrans/configuring-promt
 - slug: phrase
   name: Phrase TMS
   custom: true

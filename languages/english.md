@@ -1,5 +1,5 @@
 ---
-nav_order: 945
+nav_order: 944
 parent: Languages
 layout: language
 title: English
@@ -25,6 +25,9 @@ supported_apis:
   supported_language_count: 4
 - id: elia
   name: Elia
+  supported_language_count: 6
+- id: tapta
+  name: TAPTA
   supported_language_count: 6
 - id: cloudtranslation
   name: CloudTranslation

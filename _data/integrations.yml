@@ -2,7 +2,7 @@
 # - id: <string> # slug
 #   name: <string>
 #   url: <string> # link
-#   types: [ 'tms' | 'cat', ... ] # Functionality that it has
+#   type: [ 'tms' | 'cat', ... ] # Functionality that it has
 #   open_source: true | false
 #   api_integrations:
 #      - <string>: # slug of the corresponding API id
@@ -30,6 +30,32 @@
 #   fuzzy_repair_plugin: [ link ]
 #   multiple_api_suggestions: [ boolean ]
 #   routing: [ boolean ]
+
+- id: across
+  name: Across
+  url: https://www.across.net/
+  type:
+    - tms: true
+    - cat: true
+  api_integrations:
+    - deepl:
+        formality: true
+
+    - google
+  
+    - kantanmt
+  
+    - language-wire
+  
+    - octavemt
+  
+    - promt
+  
+    - systran
+  
+    - textshuttle
+  
+  fuzzy_repair: true
 
 - id: crowdin
   name: Crowdin
@@ -115,6 +141,17 @@
 
   local_api_support: true
   multiple_api_suggestions: true
+
+- id: eluna
+  name: eLUNa
+  url: https://ls-ets.unog.ch/tools/untermeluna
+  type:
+    - tms: true
+    - cat: true
+  api_integrations:
+    - microsoft
+  
+    - tapta
 
 - id: lilt
   name: Lilt
@@ -297,6 +334,39 @@
   local_api_support: true
   multiple_api_suggestions: true
   fuzzy_repair: true
+
+- id: multitrans
+  name: Multitrans
+  url: https://www.rws.com/localization/products/additional-solutions/
+  type:
+    - tms: true
+    - cat: true
+  documentation_url: https://docs.rws.com/785465/752728/sdl-multitrans
+  api_integrations:
+    - deepl:
+        url: https://docs.rws.com/785465/786901/sdl-multitrans/configuring-deepl
+
+    - google:
+        url: https://docs.rws.com/785465/786605/sdl-multitrans/configuring-google-translate-server
+
+    - iconic:
+        url: https://docs.rws.com/785465/786609/sdl-multitrans/configuring-iconic-plugin
+
+    - microsoft:
+        url: https://docs.rws.com/785465/786613/sdl-multitrans/configuring-microsoft-translator
+
+    - language-weaver:
+        url: https://docs.rws.com/785465/786890/sdl-multitrans/configuring-sdl-mt-cloud
+
+    - promt:
+        url: https://docs.rws.com/785465/786621/sdl-multitrans/configuring-promt
+
+    - systran:
+        url: https://docs.rws.com/785465/786625/sdl-multitrans/configuring-systran
+
+    - tapta:
+        url: https://docs.rws.com/785465/786629/sdl-multitrans/configuring-tapta
+
 
 - id: phrase
   name: Phrase TMS

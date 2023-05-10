@@ -1,5 +1,5 @@
 ---
-nav_order: 960
+nav_order: 959
 parent: Languages
 layout: language
 title: Arabic
@@ -14,6 +14,9 @@ supported_apis:
 - id: tarjama
   name: Tarjama MT
   supported_language_count: 2
+- id: tapta
+  name: TAPTA
+  supported_language_count: 6
 - id: alexa-translations-ai
   name: Alexa Translations A.I.
   supported_language_count: 10

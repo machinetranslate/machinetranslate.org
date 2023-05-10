@@ -333,6 +333,8 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: true
 integrations:
+- slug: across
+  name: Across
 - slug: crowdin
   name: Crowdin
   plugin: true

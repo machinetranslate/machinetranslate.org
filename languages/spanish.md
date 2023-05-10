@@ -1,5 +1,5 @@
 ---
-nav_order: 949
+nav_order: 948
 parent: Languages
 layout: language
 title: Spanish
@@ -13,6 +13,9 @@ family:
 supported_apis:
 - id: elia
   name: Elia
+  supported_language_count: 6
+- id: tapta
+  name: TAPTA
   supported_language_count: 6
 - id: cloudtranslation
   name: CloudTranslation

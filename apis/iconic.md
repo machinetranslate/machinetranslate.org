@@ -347,6 +347,9 @@ integrations:
   active: false
   urls:
   - https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/
+- slug: multitrans
+  name: Multitrans
+  url: https://docs.rws.com/785465/786609/sdl-multitrans/configuring-iconic-plugin
 - slug: trados
   name: Trados Studio
   urls:

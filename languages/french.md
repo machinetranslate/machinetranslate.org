@@ -1,5 +1,5 @@
 ---
-nav_order: 948
+nav_order: 947
 parent: Languages
 layout: language
 title: French
@@ -16,6 +16,9 @@ supported_apis:
   supported_language_count: 4
 - id: elia
   name: Elia
+  supported_language_count: 6
+- id: tapta
+  name: TAPTA
   supported_language_count: 6
 - id: cloudtranslation
   name: CloudTranslation

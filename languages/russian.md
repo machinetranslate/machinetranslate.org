@@ -1,5 +1,5 @@
 ---
-nav_order: 953
+nav_order: 952
 parent: Languages
 layout: language
 title: Russian
@@ -14,6 +14,9 @@ supported_apis:
 - id: belazar
   name: Belazar
   supported_language_count: 2
+- id: tapta
+  name: TAPTA
+  supported_language_count: 6
 - id: phrase-nextmt
   name: Phrase NextMT
   supported_language_count: 8

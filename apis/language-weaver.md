@@ -389,6 +389,9 @@ more_languages_by_request: true
 integrations:
 - slug: matecat
   name: MateCat
+- slug: multitrans
+  name: Multitrans
+  url: https://docs.rws.com/785465/786890/sdl-multitrans/configuring-sdl-mt-cloud
 - slug: phrase
   name: Phrase TMS
   custom: true

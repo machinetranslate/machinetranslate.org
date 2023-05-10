@@ -1,5 +1,5 @@
 ---
-nav_order: 955
+nav_order: 954
 parent: Languages
 layout: language
 title: Chinese
@@ -12,6 +12,9 @@ supported_apis:
 - id: yeekit
   name: YeeKit
   supported_language_count: 2
+- id: tapta
+  name: TAPTA
+  supported_language_count: 6
 - id: cloudtranslation
   name: CloudTranslation
   supported_language_count: 8

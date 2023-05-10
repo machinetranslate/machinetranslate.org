@@ -339,6 +339,8 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
+- slug: across
+  name: Across
 - slug: crowdin
   name: Crowdin
   plugin: true
@@ -349,6 +351,9 @@ integrations:
   custom: true
   urls:
   - https://docs.memoq.com/current/en/Places/systran-plugin-settings.html
+- slug: multitrans
+  name: Multitrans
+  url: https://docs.rws.com/785465/786625/sdl-multitrans/configuring-systran
 - slug: phrase
   name: Phrase TMS
   custom: true
