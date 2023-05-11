@@ -5,12 +5,12 @@ title: Customisation
 description: Machine translation customisation
 ---
 
-{% assign customizable_apis = site.data.apis | where: "customization_languages", true | where: "glossary", true | concat: site.data.apis | where: "formality", true | concat: site.data.apis | where: "adaptive", true %}
+{% assign customisable_apis = site.data.apis | where: "customisation_languages", true | where: "glossary", true | concat: site.data.apis | where: "formality", true | concat: site.data.apis | where: "adaptive", true %}
 
-{{ customizable_apis | size }} APIs support customisation.
+{{ customisable_apis | size }} APIs support customisation.
 
 <ul>
-  {% for api in customizable_apis %}
+  {% for api in customisable_apis %}
     <li>
     <a href="/{{ api.id }}">
         {{ api.name }}
