@@ -624,23 +624,23 @@ supported_languages:
   base_code: ltg
   name: Latgalian
   variant_name: null
-- slug: null
+- slug: luba-kasai
   code: lua
   normalized_code: lua
   base_code: lua
-  name: null
+  name: Luba-Kasai
   variant_name: null
-- slug: null
+- slug: dholuo
   code: luo
   normalized_code: luo
   base_code: luo
-  name: null
+  name: Dholuo
   variant_name: null
-- slug: null
+- slug: mizo
   code: lus
   normalized_code: lus
   base_code: lus
-  name: null
+  name: Mizo
   variant_name: null
 - slug: latvian
   code: lv
@@ -648,23 +648,23 @@ supported_languages:
   base_code: lv
   name: Latvian
   variant_name: null
-- slug: null
+- slug: latvian
   code: lvs
   normalized_code: lvs
   base_code: lvs
-  name: null
+  name: Latvian
   variant_name: null
-- slug: null
+- slug: magahi
   code: mag
   normalized_code: mag
   base_code: mag
-  name: null
+  name: Magahi
   variant_name: null
-- slug: null
+- slug: maithili
   code: mai
   normalized_code: mai
   base_code: mai
-  name: null
+  name: Maithili
   variant_name: null
 - slug: malagasy
   code: mg
@@ -678,11 +678,11 @@ supported_languages:
   base_code: mi
   name: Maori
   variant_name: null
-- slug: null
+- slug: minangkabau
   code: min
   normalized_code: min
   base_code: min
-  name: null
+  name: Minangkabau
   variant_name: null
 - slug: macedonian
   code: mk
@@ -702,11 +702,11 @@ supported_languages:
   base_code: mn
   name: Mongolian
   variant_name: null
-- slug: null
+- slug: meitei
   code: mni
   normalized_code: mni
   base_code: mni
-  name: null
+  name: Meitei
   variant_name: null
 - slug: null
   code: mos

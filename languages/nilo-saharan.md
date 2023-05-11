@@ -8,6 +8,8 @@ code: ssa
 languages:
 - slug: acholi
   name: Acholi
+- slug: dholuo
+  name: Dholuo
 - slug: dinka
   name: Dinka
 - slug: kanuri

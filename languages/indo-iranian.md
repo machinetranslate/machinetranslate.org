@@ -26,6 +26,10 @@ languages:
   name: Kashmiri
 - slug: kurdish
   name: Kurdish
+- slug: magahi
+  name: Magahi
+- slug: maithili
+  name: Maithili
 - slug: marathi
   name: Marathi
 - slug: nepali

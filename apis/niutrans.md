@@ -1224,11 +1224,11 @@ supported_languages:
   base_code: lt
   name: Lithuanian
   variant_name: null
-- slug: null
+- slug: luba-kasai
   code: lua
   normalized_code: lua
   base_code: lua
-  name: null
+  name: Luba-Kasai
   variant_name: null
 - slug: null
   code: lub
@@ -1248,11 +1248,11 @@ supported_languages:
   base_code: lun
   name: null
   variant_name: null
-- slug: null
+- slug: mizo
   code: lus
   normalized_code: lus
   base_code: lus
-  name: null
+  name: Mizo
   variant_name: null
 - slug: latvian
   code: lv
@@ -1356,11 +1356,11 @@ supported_languages:
   base_code: mn
   name: Mongolian
   variant_name: null
-- slug: null
+- slug: meitei
   code: mni
   normalized_code: mni
   base_code: mni
-  name: null
+  name: Meitei
   variant_name: null
 - slug: mongolian
   code: mo

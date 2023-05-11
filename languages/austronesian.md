@@ -32,6 +32,8 @@ languages:
   name: Malay
 - slug: maori
   name: Maori
+- slug: minangkabau
+  name: Minangkabau
 - slug: samoan
   name: Samoan
 - slug: sundanese

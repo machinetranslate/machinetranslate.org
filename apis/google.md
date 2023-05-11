@@ -439,11 +439,11 @@ supported_languages:
   base_code: lt
   name: Lithuanian
   variant_name: null
-- slug: null
+- slug: mizo
   code: lus
   normalized_code: lus
   base_code: lus
-  name: null
+  name: Mizo
   variant_name: null
 - slug: latvian
   code: lv
@@ -451,11 +451,11 @@ supported_languages:
   base_code: lv
   name: Latvian
   variant_name: null
-- slug: null
+- slug: maithili
   code: mai
   normalized_code: mai
   base_code: mai
-  name: null
+  name: Maithili
   variant_name: null
 - slug: malagasy
   code: mg
@@ -487,11 +487,11 @@ supported_languages:
   base_code: mn
   name: Mongolian
   variant_name: null
-- slug: null
+- slug: meitei
   code: mni
   normalized_code: mni
   base_code: mni
-  name: null
+  name: Meitei
   variant_name: null
 - slug: marathi
   code: mr

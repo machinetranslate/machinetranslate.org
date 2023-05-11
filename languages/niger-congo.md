@@ -40,6 +40,8 @@ languages:
   name: Kongo
 - slug: lingala
   name: Lingala
+- slug: luba-kasai
+  name: Luba-Kasai
 - slug: shona
   name: Shona
 - slug: sotho

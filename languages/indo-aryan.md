@@ -20,6 +20,10 @@ languages:
   name: Gujarati
 - slug: hindi
   name: Hindi
+- slug: magahi
+  name: Magahi
+- slug: maithili
+  name: Maithili
 - slug: marathi
   name: Marathi
 - slug: nepali

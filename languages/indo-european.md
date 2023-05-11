@@ -102,6 +102,10 @@ languages:
   name: Luxembourgish
 - slug: macedonian
   name: Macedonian
+- slug: magahi
+  name: Magahi
+- slug: maithili
+  name: Maithili
 - slug: manx
   name: Manx
 - slug: marathi

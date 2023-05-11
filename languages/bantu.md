@@ -26,6 +26,8 @@ languages:
   name: Kongo
 - slug: lingala
   name: Lingala
+- slug: luba-kasai
+  name: Luba-Kasai
 - slug: sotho
   name: Sotho
 - slug: swahili

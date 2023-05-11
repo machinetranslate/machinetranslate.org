@@ -684,11 +684,11 @@ supported_languages:
   base_code: mh
   name: Marshallese
   variant_name: null
-- slug: null
+- slug: maithili
   code: mai
   normalized_code: mai
   base_code: mai
-  name: null
+  name: Maithili
   variant_name: null
 - slug: malayalam
   code: mal

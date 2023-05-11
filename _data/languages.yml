@@ -1198,7 +1198,37 @@
   territories: [ lv, ru ]
 
 -
-  codes: [ lv, lav ]
+  codes: [ lua ]
+  names: [ Luba-Kasai, Cilubà, Tshilubà, Luba-Lulua ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [  ]
+  territories: [ cd ]
+
+-
+  codes: [ luo ]
+  names: [ Dholuo ]
+  family: [ ssa ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ isolating ]
+  territories: [ et, ke, ss, tz, ug ]
+
+-
+  codes: [ lus ]
+  names: [ Mizo ]
+  family: [ sit ]
+  scripts: [ Latn, Beng ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ bd, in, mm ]
+
+-
+  codes: [ lv, lav, lvs ]
   names: [ Latvian, Lettish ]
   family: [ bat, ine ]
   scripts: [ Latn ]
@@ -1206,6 +1236,26 @@
     word_order: [ SVO ]
     morphosyntax: [ inflected ]
   territories: [ lv ]
+
+-
+  codes: [ mag]
+  names: [ Magahi, Magadhi ]
+  family: [ inc, iir, ine ]
+  scripts: [ Deva ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ fusional ]
+  territories: [ in ]
+
+-
+  codes: [ mai ]
+  names: [ Maithili ]
+  family: [ inc, iir, ine ]
+  scripts: [ Deva ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ inflected ]
+  territories: [ in, np ]
 
 -
   codes: [ mh, mah ]
@@ -1216,6 +1266,16 @@
     word_order: [ SVO ]
     morphosyntax: [ fusional, synthetic ]
   territories: [ mh ]
+
+-
+  codes: [ min ]
+  names: [ Minangkabau ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [  ]
+  territories: [ id ]
 
 -
   codes: [ mg, mlg, xmv, bhr, buc, msh, bmm, plt, skg, bzc, tdx, txy, tkg, xmw ]
@@ -1281,6 +1341,16 @@
     morphosyntax: [ agglutinative ]
   territories: [ mn ]
 
+-
+  codes: [ mni ]
+  names: [ Meitei, Manipuri ]
+  family: [ sit ]
+  scripts: [ Mtei, Beng, Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [  ]
+  territories: [ bd, in, mm ]
+  
 -
   codes: [ mr, mar ]
   names: [ Marathi ]
