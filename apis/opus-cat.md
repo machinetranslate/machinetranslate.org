@@ -8,7 +8,8 @@ urls:
 - https://helsinki-nlp.github.io/OPUS-CAT/
 privacy_url: null
 self_serve: true
-customisation: []
+customisation:
+- Fine-tuning
 supported_languages: []
 integrations:
 - slug: memoq

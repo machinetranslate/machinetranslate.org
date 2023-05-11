@@ -12,6 +12,7 @@ privacy_url: https://cloud.google.com/translate/data-usage
 self_serve: true
 customisation:
 - Glossary
+- Fine-tuning
 supported_languages:
 - slug: afrikaans
   code: af

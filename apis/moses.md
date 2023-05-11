@@ -9,7 +9,8 @@ urls:
 - https://github.com/moses-smt/mosesdecoder
 privacy_url: null
 self_serve: true
-customisation: []
+customisation:
+- Fine-tuning
 supported_languages: []
 integrations:
 - slug: matecat

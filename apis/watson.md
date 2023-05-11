@@ -11,6 +11,7 @@ privacy_url: https://www.ibm.com/watson/data-privacy/
 self_serve: true
 customisation:
 - Glossary
+- Fine-tuning
 supported_languages:
 - slug: arabic
   code: ar
