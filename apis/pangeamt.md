@@ -12,7 +12,6 @@ self_serve: false
 customisation:
 - Adaptive
 - Glossary
-- Fine-tuning
 supported_languages:
 - slug: german
   code: de

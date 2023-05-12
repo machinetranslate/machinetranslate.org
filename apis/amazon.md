@@ -13,7 +13,6 @@ customisation:
 - Adaptive
 - Glossary
 - Formality
-- Fine-tuning
 supported_languages:
 - slug: afrikaans
   code: af
