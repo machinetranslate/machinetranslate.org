@@ -148,6 +148,8 @@ languages:
   name: Scottish Gaelic
 - slug: serbian
   name: Serbian
+- slug: sicilian
+  name: Sicilian
 - slug: silesian
   name: Silesian
 - slug: sindhi
@@ -180,8 +182,6 @@ languages:
   name: Yiddish
 - slug: zaza
   name: Zaza
-- slug: scn
-  name: scn
 
 ---
 

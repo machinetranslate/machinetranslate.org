@@ -8,6 +8,8 @@ code: tai
 languages:
 - slug: lao
   name: Lao
+- slug: shan
+  name: Shan
 - slug: thai
   name: Thai
 

@@ -906,11 +906,11 @@ supported_languages:
   base_code: sc
   name: Sardinian
   variant_name: null
-- slug: null
+- slug: sicilian
   code: scn
   normalized_code: scn
   base_code: scn
-  name: null
+  name: Sicilian
   variant_name: null
 - slug: sindhi
   code: sd
@@ -924,11 +924,11 @@ supported_languages:
   base_code: sg
   name: Sango
   variant_name: null
-- slug: null
+- slug: shan
   code: shn
   normalized_code: shn
   base_code: shn
-  name: null
+  name: Shan
   variant_name: null
 - slug: sinhala
   code: si

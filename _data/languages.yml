@@ -1694,8 +1694,8 @@
   territories: [ it ]
 
 -
-  codes: [ Sicilian ]
-  names: [ scn ]
+  codes: [ scn ]
+  names: [ Sicilian ]
   family: [ roa, ine ]
   scripts: [ Latn ]
   typology:
@@ -1733,6 +1733,16 @@
     morphosyntax: [ isolating, analytic ]
   territories: [ cd, cf, td ]
 
+-
+  codes: [ shn ]
+  names: [ Shan ]
+  family: [ tai ]
+  scripts: [ Mymr ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [  ]
+  territories: [ mm ]
+  
 -
   codes: [ si, sin ]
   names: [ Sinhala, Sinhalese ]

@@ -40,12 +40,12 @@ languages:
   name: Romansh
 - slug: sardinian
   name: Sardinian
+- slug: sicilian
+  name: Sicilian
 - slug: spanish
   name: Spanish
 - slug: venetian
   name: Venetian
-- slug: scn
-  name: scn
 
 ---
 

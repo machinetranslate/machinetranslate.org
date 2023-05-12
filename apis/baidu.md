@@ -936,11 +936,11 @@ supported_languages:
   base_code: sco
   name: null
   variant_name: null
-- slug: null
+- slug: shan
   code: shn
   normalized_code: shn
   base_code: shn
-  name: null
+  name: Shan
   variant_name: null
 - slug: sinhala
   code: sin
