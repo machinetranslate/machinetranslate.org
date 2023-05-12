@@ -1368,11 +1368,11 @@ supported_languages:
   base_code: mn
   name: Mongolian
   variant_name: null
-- slug: null
+- slug: "moor\xE9"
   code: mos
   normalized_code: mos
   base_code: mos
-  name: null
+  name: "Moor\xE9"
   variant_name: null
 - slug: null
   code: mps
@@ -1590,11 +1590,11 @@ supported_languages:
   base_code: pa
   name: Punjabi
   variant_name: null
-- slug: null
+- slug: pangasinan
   code: pag
   normalized_code: pag
   base_code: pag
-  name: null
+  name: Pangasinan
   variant_name: null
 - slug: papiamento
   code: pap
@@ -2046,11 +2046,11 @@ supported_languages:
   base_code: toj
   name: null
   variant_name: null
-- slug: null
+- slug: tok-pisin
   code: tpi
   normalized_code: tpi
   base_code: tpi
-  name: null
+  name: Tok Pisin
   variant_name: null
 - slug: null
   code: tpm
@@ -2088,11 +2088,11 @@ supported_languages:
   base_code: ttj
   name: null
   variant_name: null
-- slug: null
+- slug: tumbuka
   code: tum
   normalized_code: tum
   base_code: tum
-  name: null
+  name: Tumbuka
   variant_name: null
 - slug: null
   code: tvl
@@ -2142,11 +2142,11 @@ supported_languages:
   base_code: uk
   name: Ukrainian
   variant_name: null
-- slug: null
+- slug: umbundu
   code: umb
   normalized_code: umb
   base_code: umb
-  name: null
+  name: Umbundu
   variant_name: null
 - slug: urdu
   code: ur
@@ -2196,11 +2196,11 @@ supported_languages:
   base_code: wal
   name: null
   variant_name: null
-- slug: null
+- slug: waray
   code: war
   normalized_code: war
   base_code: war
-  name: null
+  name: Waray
   variant_name: null
 - slug: null
   code: wes

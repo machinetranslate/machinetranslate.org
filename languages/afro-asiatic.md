@@ -26,6 +26,8 @@ languages:
   name: Oromo
 - slug: somali
   name: Somali
+- slug: tamasheq
+  name: Tamasheq
 - slug: tigrinya
   name: Tigrinya
 

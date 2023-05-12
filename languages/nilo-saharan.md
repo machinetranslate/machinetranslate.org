@@ -14,6 +14,8 @@ languages:
   name: Dinka
 - slug: kanuri
   name: Kanuri
+- slug: nuer
+  name: Nuer
 
 ---
 

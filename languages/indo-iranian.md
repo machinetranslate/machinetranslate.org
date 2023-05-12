@@ -22,6 +22,8 @@ languages:
   name: Gujarati
 - slug: hindi
   name: Hindi
+- slug: iranian-persian
+  name: Iranian Persian
 - slug: kashmiri
   name: Kashmiri
 - slug: kurdish

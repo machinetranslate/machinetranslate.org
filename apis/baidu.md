@@ -798,11 +798,11 @@ supported_languages:
   base_code: nqo
   name: null
   variant_name: null
-- slug: null
+- slug: northern-sotho
   code: nso
   normalized_code: nso
   base_code: nso
-  name: null
+  name: Northern Sotho
   variant_name: null
 - slug: chichewa
   code: nya

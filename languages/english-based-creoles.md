@@ -8,6 +8,8 @@ code: cpe
 languages:
 - slug: bislama
   name: Bislama
+- slug: tok-pisin
+  name: Tok Pisin
 
 ---
 

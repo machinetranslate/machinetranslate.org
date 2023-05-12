@@ -38,6 +38,8 @@ languages:
   name: Sinhala
 - slug: urdu
   name: Urdu
+- slug: venetian
+  name: Venetian
 
 ---
 

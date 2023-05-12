@@ -1350,6 +1350,16 @@
     word_order: [ SOV ]
     morphosyntax: [  ]
   territories: [ bd, in, mm ]
+
+-
+  codes: [ mos ]
+  names: [ Mooré, Mole, Moose, More, Moré, Moshi, Mossi ]
+  family: [ nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [  ]
+  territories: [ bf, bj, ci, gh, ml, ne, tg, sn ]
   
 -
   codes: [ mr, mar ]
@@ -1437,6 +1447,26 @@
   territories: [ 'no' ]
 
 -
+  codes: [ nso ]
+  names: [ Northern Sotho ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ za ]
+
+-
+  codes: [ nus ]
+  names: [ Nuer ]
+  family: [ ssa ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV, SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ et, ss ]
+
+-
   codes: [ ny ]
   names: [ Chichewa, Chewa, Nyanja ]
   family: [ nic ]
@@ -1504,6 +1534,16 @@
   territories: [ pk, in ]
 
 -
+  codes: [ pag ]
+  names: [ Pangasinan ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ph ]
+
+-
   codes: [ pap ]
   names: [ Papiamento, Papiamentu ]
   family: [ cpp ]
@@ -1512,6 +1552,16 @@
     word_order: [ SVO ]
     morphosyntax:
   territories: [ aw, cw ]
+
+-
+  codes: [ pes ]
+  names: [ Iranian Persian, Western Persian, Western Farsi, Persian ]
+  family: [ iir, ine ]
+  scripts: [ Arab ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ ir ]
 
 -
   codes: [ pl, pol ]
@@ -1546,12 +1596,22 @@
 -
   codes: [ qu, que ]
   names: [ Quechua ]
-  family: [  ]
+  family: [ qwe ]
   scripts: [ Latn ]
   typology:
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]
   territories: [ ar, bo, cl, co, ec, pe ]
+
+-
+  codes: [ quy, qxu ]
+  names: [ Ayacucho, Ayacucho Quechua, Chanca, Chanka ]
+  family: [ qwe ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ pe ]
 
 -
   codes: [ ro, ron, rum ]
@@ -1614,12 +1674,32 @@
   territories: [ in ]
 
 -
+  codes: [ sat ]
+  names: [ Santali, Santal, Santhali ]
+  family: [ map ]
+  scripts: [ Olck ]
+  typology:
+    word_order: [ SOV ]
+    morphosyntax: [ agglutinative ]
+  territories: [ bd, in, np ]
+
+-
   codes: [ sc, srd, sro, src ]
   names: [ Sardinian ]
   family: [ roa, ine ]
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ it ]
+
+-
+  codes: [ Sicilian ]
+  names: [ scn ]
+  family: [ roa, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SOV ]
     morphosyntax: [ inflected ]
   territories: [ it ]
 
@@ -1801,6 +1881,16 @@
   territories: [ in, lk, my, sg ]
 
 -
+  codes: [ taq ]
+  names: [ Tamasheq, Tamashek ]
+  family: [ afa ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ VSO ]
+    morphosyntax: [ synthetic ]
+  territories: [ bf, ml ]
+
+-
   codes: [ te, tel ]
   names: [ Telugu ]
   family: [ dra ]
@@ -1902,6 +1992,16 @@
   territories: [ to ]
 
 -
+  codes: [ tpi ]
+  names: [ Tok Pisin ]
+  family: [ cpe ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ pg ]
+
+-
   codes: [ tr, tur ]
   names: [ Turkish ]
   family: [ trk ]
@@ -1932,6 +2032,16 @@
   territories: [ ru, cn ]
 
 -
+  codes: [ tum ]
+  names: [ Tumbuka ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ mw, tz, zm ]
+
+-
   codes: [ tw, twi ]
   names: [ Twi ]
   family: [ nic ]
@@ -1950,6 +2060,16 @@
     word_order: [ VSO ]
     morphosyntax: [ analytic ]
   territories: [ pf ]
+
+-
+  codes: [ tzm ]
+  names: [ Central Atlas Tamazight, Atlasic ]
+  family: [ map ]
+  scripts: [ Tfng, Arab ]
+  typology:
+    word_order: [ VSO, SVO ]
+    morphosyntax: [ inflected ]
+  territories: [ ma ]
 
 -
   codes: [ udm ]
@@ -1982,6 +2102,16 @@
   territories: [ ua, md ]
 
 -
+  codes: [ umb ]
+  names: [ Umbundu, South Mbundu ]
+  family: [ bnt, nic ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ synthetic ]
+  territories: [ ao ]
+
+-
   codes: [ ur, urd ]
   names: [ Urdu ]
   family: [ inc, iir, ine ]
@@ -2012,6 +2142,16 @@
   territories: [ za, zw ]
 
 -
+  codes: [ vec ]
+  names: [ Venetian, Venetan ]
+  family: [ roa, inc ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ analytic ]
+  territories: [ hr, it, si ]
+
+-
   codes: [ vi, vie ]
   names: [ Vietnamese ]
   family: [ aav ]
@@ -2020,6 +2160,16 @@
     word_order: [ SVO ]
     morphosyntax: [ analytic, isolating ]
   territories: [ vn ]
+
+-
+  codes: [ war ]
+  names: [ Waray, Waray-Waray, Bisaya/Binisaya nga Winaray/Waray ]
+  family: [ map ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative, inflected ]
+  territories: [ ph ]
 
 -
   codes: [ wo, wol ]
@@ -2090,6 +2240,16 @@
     morphosyntax: [ analytic, isolating ]
   territories: [ cn, tw, hk, mo, sg, my, id, ph, vn, mm ]
 
+-
+  codes: [ zsm ]
+  names: [ Malaysian Malay ]
+  family: [ map ]
+  scripts: [ Latn, Arab ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ agglutinative ]
+  territories: [ my, sg ]
+  
 -
   codes: [ zu, zul ]
   names: [ Zulu ]

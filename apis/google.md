@@ -535,11 +535,11 @@ supported_languages:
   base_code: 'no'
   name: Norwegian
   variant_name: null
-- slug: null
+- slug: northern-sotho
   code: nso
   normalized_code: nso
   base_code: nso
-  name: null
+  name: Northern Sotho
   variant_name: null
 - slug: chichewa
   code: ny

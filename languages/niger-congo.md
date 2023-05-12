@@ -42,6 +42,10 @@ languages:
   name: Lingala
 - slug: luba-kasai
   name: Luba-Kasai
+- slug: "moor\xE9"
+  name: "Moor\xE9"
+- slug: northern-sotho
+  name: Northern Sotho
 - slug: shona
   name: Shona
 - slug: sotho
@@ -54,8 +58,12 @@ languages:
   name: Tsonga
 - slug: tswana
   name: Tswana
+- slug: tumbuka
+  name: Tumbuka
 - slug: twi
   name: Twi
+- slug: umbundu
+  name: Umbundu
 - slug: venda
   name: Venda
 - slug: wolof

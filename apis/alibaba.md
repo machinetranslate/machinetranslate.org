@@ -875,11 +875,11 @@ supported_languages:
   base_code: pa
   name: Punjabi
   variant_name: null
-- slug: null
+- slug: pangasinan
   code: pag
   normalized_code: pag
   base_code: pag
-  name: null
+  name: Pangasinan
   variant_name: null
 - slug: papiamento
   code: pap
@@ -1139,11 +1139,11 @@ supported_languages:
   base_code: toi
   name: null
   variant_name: null
-- slug: null
+- slug: tok-pisin
   code: tpi
   normalized_code: tpi
   base_code: tpi
-  name: null
+  name: Tok Pisin
   variant_name: null
 - slug: turkish
   code: tr
@@ -1193,11 +1193,11 @@ supported_languages:
   base_code: udm
   name: Udmurt
   variant_name: null
-- slug: null
+- slug: umbundu
   code: umb
   normalized_code: umb
   base_code: umb
-  name: null
+  name: Umbundu
   variant_name: null
 - slug: urdu
   code: ur
@@ -1235,11 +1235,11 @@ supported_languages:
   base_code: wa
   name: null
   variant_name: null
-- slug: null
+- slug: waray
   code: war
   normalized_code: war
   base_code: war
-  name: null
+  name: Waray
   variant_name: null
 - slug: wolof
   code: wo

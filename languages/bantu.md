@@ -28,6 +28,8 @@ languages:
   name: Lingala
 - slug: luba-kasai
   name: Luba-Kasai
+- slug: northern-sotho
+  name: Northern Sotho
 - slug: sotho
   name: Sotho
 - slug: swahili
@@ -38,6 +40,10 @@ languages:
   name: Tsonga
 - slug: tswana
   name: Tswana
+- slug: tumbuka
+  name: Tumbuka
+- slug: umbundu
+  name: Umbundu
 - slug: venda
   name: Venda
 - slug: xhosa

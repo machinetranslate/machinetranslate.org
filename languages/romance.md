@@ -42,6 +42,10 @@ languages:
   name: Sardinian
 - slug: spanish
   name: Spanish
+- slug: venetian
+  name: Venetian
+- slug: scn
+  name: scn
 
 ---
 

@@ -76,6 +76,8 @@ languages:
   name: Hindi
 - slug: icelandic
   name: Icelandic
+- slug: iranian-persian
+  name: Iranian Persian
 - slug: irish
   name: Irish
 - slug: italian
@@ -178,6 +180,8 @@ languages:
   name: Yiddish
 - slug: zaza
   name: Zaza
+- slug: scn
+  name: scn
 
 ---
 
