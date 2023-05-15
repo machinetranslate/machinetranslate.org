@@ -14,6 +14,12 @@ languages:
   name: Chinese
 - slug: dzongkha
   name: Dzongkha
+- slug: jingpho
+  name: Jingpho
+- slug: meitei
+  name: Meitei
+- slug: mizo
+  name: Mizo
 - slug: tibetan
   name: Tibetan
 

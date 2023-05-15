@@ -450,6 +450,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+more_languages_by_request: false
 integrations: []
 nav_order: 927
 active: true

@@ -8,6 +8,8 @@ code: roa
 languages:
 - slug: aragonese
   name: Aragonese
+- slug: arpitan
+  name: Arpitan
 - slug: asturian
   name: Asturian
 - slug: catalan
@@ -16,12 +18,18 @@ languages:
   name: Corsican
 - slug: french
   name: French
+- slug: friulian
+  name: Friulian
 - slug: galician
   name: Galician
 - slug: italian
   name: Italian
 - slug: latin
   name: Latin
+- slug: ligurian
+  name: Ligurian
+- slug: lombard
+  name: Lombard
 - slug: occitan
   name: Occitan
 - slug: portuguese
@@ -32,8 +40,12 @@ languages:
   name: Romansh
 - slug: sardinian
   name: Sardinian
+- slug: sicilian
+  name: Sicilian
 - slug: spanish
   name: Spanish
+- slug: venetian
+  name: Venetian
 
 ---
 

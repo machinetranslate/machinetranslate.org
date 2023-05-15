@@ -10,6 +10,7 @@
     /* domains to exclude */
     [href*="://machinetranslate.org"],
     [href*="://localhost:"],
+    [class="no-arrow"],
 
     )):after {
     /* ↗️ is too ugly on iOS and Firefox, so we hack it. */

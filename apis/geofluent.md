@@ -11,6 +11,7 @@ privacy_url: null
 self_serve: false
 customisation: []
 supported_languages: []
+more_languages_by_request: false
 integrations:
 - slug: xtm
   name: XTM

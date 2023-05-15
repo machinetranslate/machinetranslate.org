@@ -12,6 +12,7 @@ self_serve: true
 customisation:
 - Fine-tuning
 supported_languages: []
+more_languages_by_request: true
 integrations:
 - slug: matecat
   name: MateCat

@@ -8,7 +8,7 @@ urls:
 - https://translateme.network
 - https://translateme.network/api/
 privacy_url: null
-self_serve: true
+self_serve: null
 customisation: []
 supported_languages:
 - slug: german
@@ -77,6 +77,7 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+more_languages_by_request: false
 integrations: []
 nav_order: 989
 active: true

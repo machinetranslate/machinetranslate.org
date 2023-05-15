@@ -12,6 +12,7 @@ cpf: French-based creoles
 cpp: Portuguese-based creoles
 crp: Creoles
 cus: Cushitic
+dmn: Mande
 dra: Dravidian
 esx: Eskimo-Aleut
 fiu: Finno-Ugric
@@ -29,6 +30,7 @@ map: Austronesian
 myn: Mayan
 nic: Niger-Congo
 omq: Oto-Manguean
+qwe: Quechuan
 roa: Romance
 sem: Semitic
 sit: Sino-Tibetan
@@ -36,4 +38,5 @@ sla: Slavic
 ssa: Nilo-Saharan
 tai: Tai # There is no standard code for Kra-Dai, but both Thai and Lao are in the Tai subfamily.
 trk: Turkic
+tup: Tupian
 xgn: Mongolic

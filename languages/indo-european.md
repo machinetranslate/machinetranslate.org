@@ -14,14 +14,22 @@ languages:
   name: Aragonese
 - slug: armenian
   name: Armenian
+- slug: arpitan
+  name: Arpitan
 - slug: assamese
   name: Assamese
+- slug: asturian
+  name: Asturian
+- slug: awadhi
+  name: Awadhi
 - slug: balochi
   name: Balochi
 - slug: belarusian
   name: Belarusian
 - slug: bengali
   name: Bengali
+- slug: bhojpuri
+  name: Bhojpuri
 - slug: bosnian
   name: Bosnian
 - slug: breton
@@ -30,6 +38,8 @@ languages:
   name: Bulgarian
 - slug: catalan
   name: Catalan
+- slug: chhattisgarhi
+  name: Chhattisgarhi
 - slug: cornish
   name: Cornish
 - slug: corsican
@@ -52,6 +62,8 @@ languages:
   name: French
 - slug: frisian
   name: Frisian
+- slug: friulian
+  name: Friulian
 - slug: galician
   name: Galician
 - slug: german
@@ -64,22 +76,38 @@ languages:
   name: Hindi
 - slug: icelandic
   name: Icelandic
+- slug: iranian-persian
+  name: Iranian Persian
 - slug: irish
   name: Irish
 - slug: italian
   name: Italian
+- slug: kashmiri
+  name: Kashmiri
 - slug: kurdish
   name: Kurdish
+- slug: latgalian
+  name: Latgalian
 - slug: latin
   name: Latin
 - slug: latvian
   name: Latvian
+- slug: ligurian
+  name: Ligurian
+- slug: limburgish
+  name: Limburgish
 - slug: lithuanian
   name: Lithuanian
+- slug: lombard
+  name: Lombard
 - slug: luxembourgish
   name: Luxembourgish
 - slug: macedonian
   name: Macedonian
+- slug: magahi
+  name: Magahi
+- slug: maithili
+  name: Maithili
 - slug: manx
   name: Manx
 - slug: marathi
@@ -112,12 +140,16 @@ languages:
   name: Romansh
 - slug: russian
   name: Russian
+- slug: sanskrit
+  name: Sanskrit
 - slug: sardinian
   name: Sardinian
 - slug: scottish-gaelic
   name: Scottish Gaelic
 - slug: serbian
   name: Serbian
+- slug: sicilian
+  name: Sicilian
 - slug: silesian
   name: Silesian
 - slug: sindhi
@@ -136,6 +168,8 @@ languages:
   name: Swedish
 - slug: tajik
   name: Tajik
+- slug: tosk
+  name: Tosk
 - slug: ukrainian
   name: Ukrainian
 - slug: upper-sorbian
@@ -146,6 +180,8 @@ languages:
   name: Welsh
 - slug: yiddish
   name: Yiddish
+- slug: zaza
+  name: Zaza
 
 ---
 

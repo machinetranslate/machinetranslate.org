@@ -4,13 +4,13 @@ title: WMT23
 description: Eighth Conference on Machine Translation
 location: Singapore
 name: WMT23
-startDate: 
+startDate: 2023-12-06
 featured: true
 seo:
   type: Event
   name: WMT23
-  startDate:
-  endDate:
+  startDate: 2023-12-06
+  endDate: 2023-12-07
   eventAttendanceMode: OfflineEventAttendanceMode
   eventStatus: EventScheduled
 
@@ -23,7 +23,7 @@ seo:
     url: https://statmt.org/wmt23
 ---
 
-The **Eighth Conference on Machine Translation** (**WMT23**) will take place in December, 2023, at [EMNLP](http://emnlp.org) 2023 in Singapore.
+The **Eighth Conference on Machine Translation** (**WMT23**) will take place from 6 December to 7 December, 2023, at [EMNLP](http://emnlp.org) 2023 in Singapore.
 It will be organised by [WMT](/associations/wmt.md).
 
 [statmt.org/wmt23/](https://statmt.org/wmt23/)
@@ -38,16 +38,18 @@ It will be organised by [WMT](/associations/wmt.md).
 | Evaluation periods for shared tasks | June-July, 2023 |
 | Paper submission deadline | September, 2023 |
 | Paper notification | October, 2023 |
-| Camera-ready version | October, 2023 |
-| Conference | December, 2023 |
+| Camera-ready version | 20 October, 2023 |
+| Conference | 6-7 December, 2023 |
 
 
 ## Shared tasks
 
 - [General translation](http://www2.statmt.org/wmt23/translation-task.html)
 - [Terminology](https://wmt-terminology-task.github.io/)
-- Literary translation
+- [Literary translation](http://www2.statmt.org/wmt23/literary-translation-task.html)
 - [Word-level autocompletion](http://www2.statmt.org/wmt23/word-autocompletion.html)
+- [Sign language](https://www.wmt-slt.com/)
+- [Biomedical](http://www2.statmt.org/wmt23/biomedical-translation-task.html)
 - More to be announced 
 
 In 2022, the *News* machine translation task was renamed the *General* machine translation task.

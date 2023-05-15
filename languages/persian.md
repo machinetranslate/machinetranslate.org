@@ -1,5 +1,5 @@
 ---
-nav_order: 981
+nav_order: 979
 parent: Languages
 layout: language
 title: Persian
@@ -16,14 +16,14 @@ supported_apis:
 - id: reverso
   name: Reverso
   supported_language_count: 26
-- id: kodensha
-  name: Kodensha MT
-  supported_language_count: 40
 - id: promt
   name: PROMT
   supported_language_count: 40
-- id: lilt
-  name: Lilt
+- id: kodensha
+  name: Kodensha MT
+  supported_language_count: 41
+- id: kantanmt
+  name: KantanMT
   supported_language_count: 50
 - id: systran
   name: SYSTRAN
@@ -36,7 +36,7 @@ supported_apis:
   supported_language_count: 53
 - id: language-weaver
   name: Language Weaver
-  supported_language_count: 54
+  supported_language_count: 58
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 58
@@ -49,21 +49,27 @@ supported_apis:
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212

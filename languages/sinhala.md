@@ -1,5 +1,5 @@
 ---
-nav_order: 989
+nav_order: 985
 parent: Languages
 layout: language
 title: Sinhala
@@ -13,30 +13,42 @@ family:
 - slug: indo-european
   name: Indo-European
 supported_apis:
+- id: textra
+  name: TexTra
+  supported_language_count: 30
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: watson
   name: Watson Language Translator
-  supported_language_count: 52
+  supported_language_count: 55
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 58
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

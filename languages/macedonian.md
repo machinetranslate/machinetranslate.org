@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 985
 parent: Languages
 layout: language
 title: Macedonian
@@ -13,10 +13,10 @@ family:
 supported_apis:
 - id: apertium
   name: Apertium
-  supported_language_count: 45
-- id: modernmt
-  name: ModernMT
-  supported_language_count: 52
+  supported_language_count: 46
+- id: language-weaver
+  name: Language Weaver
+  supported_language_count: 58
 - id: apptek
   name: AppTek
   supported_language_count: 65
@@ -35,15 +35,18 @@ supported_apis:
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

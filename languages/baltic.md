@@ -6,6 +6,8 @@ title: Baltic
 description: Machine translation for the Baltic language family
 code: bat
 languages:
+- slug: latgalian
+  name: Latgalian
 - slug: latvian
   name: Latvian
 - slug: lithuanian

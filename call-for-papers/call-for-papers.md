@@ -10,10 +10,11 @@ description: Calls for papers for machine translation events and publications
 | Deadline | Publication | Organisers |
 | --- | --- | --- |
 | **September 2023** | [**WMT23**](/events/wmt23.md) | Singapore |
-| **1 May 2023** | [**MT Summit 2023 papers**](/events/mtsummit2023.md) | Macau SAR, China |
-| **17 April 2023** | [**MT Summit 2023 workshops and tutorials**](/events/mtsummit2023.md) | Macau SAR, China |
-| **15 April 2023** | [**AmericasNLP**](/events/americasnlp2023.md) | Toronto, Canada |
-| **31 March 2023** | [***The Role of Context in Neural Machine Translation Systems and its Evaluation***](https://sites.google.com/dcu.ie/nlecontextnmt/home) | JNLE |
+| 1 May 2023 | [MT Summit 2023 papers](/events/mtsummit2023.md) | Macau SAR, China |
+| 17 April 2023 | [MT Summit 2023 workshops and tutorials](/events/mtsummit2023.md) | Macau SAR, China |
+| 15 April 2023 | [AmericasNLP](/events/americasnlp2023.md) | Toronto, Canada |
+| 31 March 2023 | [*The Role of Context in Neural Machine Translation Systems and its Evaluation*](https://sites.google.com/dcu.ie/nlecontextnmt/home) | JNLE |
+| 31 March 2023 | [AT4SSL 2023](/events/at4ssl2023.md) | Tampere, Finland |
 | 10 March 2023 | [EAMT 2023 papers](/events/eamt2023.md) | Tampere, Finland |
 | 3 March 2023 | [EAMT 2023 tutorials](/events/eamt2023.md) | Tampere, Finland |
 | 2 March 2023 | [LoResMT 2023](/events/loresmt2023.md) | Dubrovnik, Croatia |
@@ -25,7 +26,7 @@ description: Calls for papers for machine translation events and publications
 | 7 September 2022 | [WMT22](/events/wmt22.md) | [WMT](/associations/wmt.md) |
 | 28 July | [MTMA22](/events/mtma2022.md) | |
 | 15 July 2022 | [MTM22](/events/mtm2022.md) | |
-| 11 July 2022 | [WAT 2022](wat2022.md) | |
+| 11 July 2022 | [WAT 2022](/events/wat2022.md) | |
 | 1 July 2022 | [MUMTTT 2022](/events/mumttt2022.md) | |
 | 30 June 2022 | [*Special Issue on Translation Platforms*](https://www.aclweb.org/portal/content/special-issue-translation-platforms) | ACL |
 | 29 June 2022 | [CoCo4MT](https://sites.google.com/view/coco4mt) | |

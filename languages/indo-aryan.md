@@ -10,12 +10,20 @@ languages:
   name: Assamese
 - slug: bengali
   name: Bengali
+- slug: bhojpuri
+  name: Bhojpuri
+- slug: chhattisgarhi
+  name: Chhattisgarhi
 - slug: divehi
   name: Divehi
 - slug: gujarati
   name: Gujarati
 - slug: hindi
   name: Hindi
+- slug: magahi
+  name: Magahi
+- slug: maithili
+  name: Maithili
 - slug: marathi
   name: Marathi
 - slug: nepali
@@ -30,6 +38,8 @@ languages:
   name: Sinhala
 - slug: urdu
   name: Urdu
+- slug: venetian
+  name: Venetian
 
 ---
 

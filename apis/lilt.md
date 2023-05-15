@@ -18,11 +18,29 @@ supported_languages:
   base_code: af
   name: Afrikaans
   variant_name: null
+- slug: amharic
+  code: am
+  normalized_code: am
+  base_code: am
+  name: Amharic
+  variant_name: null
 - slug: arabic
   code: ar
   normalized_code: ar
   base_code: ar
   name: Arabic
+  variant_name: null
+- slug: azerbaijani
+  code: az
+  normalized_code: az
+  base_code: az
+  name: Azerbaijani
+  variant_name: null
+- slug: belarusian
+  code: be
+  normalized_code: be
+  base_code: be
+  name: Belarusian
   variant_name: null
 - slug: bulgarian
   code: bg
@@ -35,6 +53,24 @@ supported_languages:
   normalized_code: bn
   base_code: bn
   name: Bengali
+  variant_name: null
+- slug: bosnian
+  code: bs
+  normalized_code: bs
+  base_code: bs
+  name: Bosnian
+  variant_name: null
+- slug: catalan
+  code: ca
+  normalized_code: ca
+  base_code: ca
+  name: Catalan
+  variant_name: null
+- slug: null
+  code: crp
+  normalized_code: crp
+  base_code: crp
+  name: null
   variant_name: null
 - slug: czech
   code: cs
@@ -71,6 +107,12 @@ supported_languages:
   normalized_code: es
   base_code: es
   name: Spanish
+  variant_name: null
+- slug: estonian
+  code: et
+  normalized_code: et
+  base_code: et
+  name: Estonian
   variant_name: null
 - slug: persian
   code: fa
@@ -132,6 +174,12 @@ supported_languages:
   base_code: ig
   name: Igbo
   variant_name: null
+- slug: icelandic
+  code: is
+  normalized_code: is
+  base_code: is
+  name: Icelandic
+  variant_name: null
 - slug: italian
   code: it
   normalized_code: it
@@ -150,6 +198,18 @@ supported_languages:
   base_code: jv
   name: Javanese
   variant_name: null
+- slug: kazakh
+  code: kk
+  normalized_code: kk
+  base_code: kk
+  name: Kazakh
+  variant_name: null
+- slug: khmer
+  code: km
+  normalized_code: km
+  base_code: km
+  name: Khmer
+  variant_name: null
 - slug: kannada
   code: kn
   normalized_code: kn
@@ -162,11 +222,41 @@ supported_languages:
   base_code: ko
   name: Korean
   variant_name: null
+- slug: lao
+  code: lo
+  normalized_code: lo
+  base_code: lo
+  name: Lao
+  variant_name: null
+- slug: lithuanian
+  code: lt
+  normalized_code: lt
+  base_code: lt
+  name: Lithuanian
+  variant_name: null
+- slug: latvian
+  code: lv
+  normalized_code: lv
+  base_code: lv
+  name: Latvian
+  variant_name: null
+- slug: maori
+  code: mi
+  normalized_code: mi
+  base_code: mi
+  name: Maori
+  variant_name: null
 - slug: malayalam
   code: ml
   normalized_code: ml
   base_code: ml
   name: Malayalam
+  variant_name: null
+- slug: mongolian
+  code: mn
+  normalized_code: mn
+  base_code: mn
+  name: Mongolian
   variant_name: null
 - slug: marathi
   code: mr
@@ -179,6 +269,18 @@ supported_languages:
   normalized_code: ms
   base_code: ms
   name: Malay
+  variant_name: null
+- slug: burmese
+  code: my
+  normalized_code: my
+  base_code: my
+  name: Burmese
+  variant_name: null
+- slug: nepali
+  code: ne
+  normalized_code: ne
+  base_code: ne
+  name: Nepali
   variant_name: null
 - slug: dutch
   code: nl
@@ -234,6 +336,18 @@ supported_languages:
   base_code: ru
   name: Russian
   variant_name: null
+- slug: kinyarwanda
+  code: rw
+  normalized_code: rw
+  base_code: rw
+  name: Kinyarwanda
+  variant_name: null
+- slug: sinhala
+  code: si
+  normalized_code: si
+  base_code: si
+  name: Sinhala
+  variant_name: null
 - slug: slovak
   code: sk
   normalized_code: sk
@@ -246,11 +360,23 @@ supported_languages:
   base_code: sl
   name: Slovenian
   variant_name: null
+- slug: somali
+  code: so
+  normalized_code: so
+  base_code: so
+  name: Somali
+  variant_name: null
 - slug: albanian
   code: sq
   normalized_code: sq
   base_code: sq
   name: Albanian
+  variant_name: null
+- slug: serbian
+  code: sr
+  normalized_code: sr
+  base_code: sr
+  name: Serbian
   variant_name: null
 - slug: swedish
   code: sv
@@ -324,6 +450,13 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+- slug: zulu
+  code: zu
+  normalized_code: zu
+  base_code: zu
+  name: Zulu
+  variant_name: null
+more_languages_by_request: true
 integrations:
 - slug: lilt
   name: Lilt
@@ -332,7 +465,7 @@ integrations:
   adaptive: true
   urls:
   - https://support.lilt.com/kb/introduction-to-lilt-translate
-nav_order: 948
+nav_order: 926
 active: true
 
 ---

@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 983
 parent: Languages
 layout: language
 title: Kazakh
@@ -11,19 +11,25 @@ family:
 supported_apis:
 - id: sap
   name: SAP Translation Hub
-  supported_language_count: 38
+  supported_language_count: 39
 - id: promt
   name: PROMT
   supported_language_count: 40
 - id: apertium
   name: Apertium
-  supported_language_count: 45
+  supported_language_count: 46
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: apptek
   name: AppTek
   supported_language_count: 65
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
@@ -33,15 +39,18 @@ supported_apis:
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

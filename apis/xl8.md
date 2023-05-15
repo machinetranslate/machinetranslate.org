@@ -17,6 +17,18 @@ supported_languages:
   base_code: ar
   name: Arabic
   variant_name: null
+- slug: bulgarian
+  code: bg
+  normalized_code: bg
+  base_code: bg
+  name: Bulgarian
+  variant_name: null
+- slug: bosnian
+  code: bs
+  normalized_code: bs
+  base_code: bs
+  name: Bosnian
+  variant_name: null
 - slug: czech
   code: cs
   normalized_code: cs
@@ -59,11 +71,23 @@ supported_languages:
   base_code: es
   name: Spanish
   variant_name: Latin America
+- slug: estonian
+  code: et
+  normalized_code: et
+  base_code: et
+  name: Estonian
+  variant_name: null
 - slug: finnish
   code: fi
   normalized_code: fi
   base_code: fi
   name: Finnish
+  variant_name: null
+- slug: tagalog
+  code: fil
+  normalized_code: tl
+  base_code: tl
+  name: Tagalog
   variant_name: null
 - slug: french
   code: fr
@@ -76,6 +100,18 @@ supported_languages:
   normalized_code: he
   base_code: he
   name: Hebrew
+  variant_name: null
+- slug: hindi
+  code: hi
+  normalized_code: hi
+  base_code: hi
+  name: Hindi
+  variant_name: null
+- slug: croatian
+  code: hr
+  normalized_code: hr
+  base_code: hr
+  name: Croatian
   variant_name: null
 - slug: hungarian
   code: hu
@@ -106,6 +142,18 @@ supported_languages:
   normalized_code: ko
   base_code: ko
   name: Korean
+  variant_name: null
+- slug: lithuanian
+  code: lt
+  normalized_code: lt
+  base_code: lt
+  name: Lithuanian
+  variant_name: null
+- slug: latvian
+  code: lv
+  normalized_code: lv
+  base_code: lv
+  name: Latvian
   variant_name: null
 - slug: malay
   code: ms
@@ -150,7 +198,7 @@ supported_languages:
   name: Portuguese
   variant_name: null
 - slug: portuguese
-  code: pt-br
+  code: pt-BR
   normalized_code: pt-br
   base_code: pt
   name: Portuguese
@@ -173,6 +221,24 @@ supported_languages:
   base_code: sk
   name: Slovak
   variant_name: null
+- slug: slovenian
+  code: sl
+  normalized_code: sl
+  base_code: sl
+  name: Slovenian
+  variant_name: null
+- slug: albanian
+  code: sq
+  normalized_code: sq
+  base_code: sq
+  name: Albanian
+  variant_name: null
+- slug: serbian
+  code: sr
+  normalized_code: sr
+  base_code: sr
+  name: Serbian
+  variant_name: null
 - slug: swedish
   code: sv
   normalized_code: sv
@@ -185,11 +251,23 @@ supported_languages:
   base_code: th
   name: Thai
   variant_name: null
+- slug: tagalog
+  code: tl
+  normalized_code: tl
+  base_code: tl
+  name: Tagalog
+  variant_name: null
 - slug: turkish
   code: tr
   normalized_code: tr
   base_code: tr
   name: Turkish
+  variant_name: null
+- slug: ukrainian
+  code: uk
+  normalized_code: uk
+  base_code: uk
+  name: Ukrainian
   variant_name: null
 - slug: vietnamese
   code: vi
@@ -198,18 +276,23 @@ supported_languages:
   name: Vietnamese
   variant_name: null
 - slug: chinese
-  code: zh-cn
+  code: zh-Hans
   normalized_code: zh-Hans
   base_code: zh
   name: Chinese
   variant_name: Simplified Chinese
 - slug: chinese
-  code: zh-tw
+  code: zh-Hant
   normalized_code: zh-Hant
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+more_languages_by_request: false
 integrations:
+- slug: crowdin
+  name: Crowdin
+  urls:
+  - https://store.crowdin.com/xl8
 - slug: memoq
   name: MemoQ
   urls:
@@ -219,7 +302,7 @@ integrations:
   plugin: true
   urls:
   - https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf
-nav_order: 967
+nav_order: 954
 active: true
 
 ---

@@ -2,7 +2,7 @@
 # - id: <string> # slug
 #   name: <string>
 #   url: <string> # link
-#   types: [ 'tms' | 'cat', ... ] # Functionality that it has
+#   type: [ 'tms' | 'cat', ... ] # Functionality that it has
 #   open_source: true | false
 #   api_integrations:
 #      - <string>: # slug of the corresponding API id
@@ -31,6 +31,32 @@
 #   multiple_api_suggestions: [ boolean ]
 #   routing: [ boolean ]
 
+- id: across
+  name: Across
+  url: https://www.across.net/
+  type:
+    - tms: true
+    - cat: true
+  api_integrations:
+    - deepl:
+        formality: true
+
+    - google
+  
+    - kantanmt
+  
+    - language-wire
+  
+    - octavemt
+  
+    - promt
+  
+    - systran
+  
+    - textshuttle
+  
+  fuzzy_repair: true
+
 - id: crowdin
   name: Crowdin
   url: https://www.crowdin.com
@@ -39,6 +65,11 @@
     - cat: true
   documentation_url: https://support.crowdin.com/configuring-machine-translation-engines/
   api_integrations:
+    - alibaba:
+        plugin: true
+        urls:
+          - https://store.crowdin.com/alibaba
+
     - amazon:
         glossary: true
         urls:
@@ -82,9 +113,23 @@
         urls:
           - https://support.crowdin.com/enterprise/machine-translation/#modernmt
 
+    - systran:
+        plugin: true
+        urls:
+          - https://store.crowdin.com/systran
+
+    - tencent:
+        plugin: true
+        urls:
+          - https://store.crowdin.com/tencent
+
     - watson:
         urls:
           - https://support.crowdin.com/enterprise/machine-translation/#watson-ibm-translator
+
+    - xl8:
+        urls:
+          - https://store.crowdin.com/xl8
 
     - yandex:
         active: false
@@ -96,6 +141,17 @@
 
   local_api_support: true
   multiple_api_suggestions: true
+
+- id: eluna
+  name: eLUNa
+  url: https://ls-ets.unog.ch/tools/untermeluna
+  type:
+    - tms: true
+    - cat: true
+  api_integrations:
+    - microsoft
+  
+    - tapta
 
 - id: lilt
   name: Lilt
@@ -116,11 +172,9 @@
   url: https://www.matecat.com
   type:
     - cat: true
-  documentation_url: https://site.matecat.com/support/
+  documentation_url: https://guides.matecat.com/
   api_integrations:
-    - apertium:
-        urls:
-          - https://site.matecat.com/support/advanced-features/apertium-mt-plug/
+    - apertium
 
     - google:
         custom: true
@@ -281,6 +335,39 @@
   multiple_api_suggestions: true
   fuzzy_repair: true
 
+- id: multitrans
+  name: Multitrans
+  url: https://www.rws.com/localization/products/additional-solutions/
+  type:
+    - tms: true
+    - cat: true
+  documentation_url: https://docs.rws.com/785465/752728/sdl-multitrans
+  api_integrations:
+    - deepl:
+        url: https://docs.rws.com/785465/786901/sdl-multitrans/configuring-deepl
+
+    - google:
+        url: https://docs.rws.com/785465/786605/sdl-multitrans/configuring-google-translate-server
+
+    - iconic:
+        url: https://docs.rws.com/785465/786609/sdl-multitrans/configuring-iconic-plugin
+
+    - microsoft:
+        url: https://docs.rws.com/785465/786613/sdl-multitrans/configuring-microsoft-translator
+
+    - language-weaver:
+        url: https://docs.rws.com/785465/786890/sdl-multitrans/configuring-sdl-mt-cloud
+
+    - promt:
+        url: https://docs.rws.com/785465/786621/sdl-multitrans/configuring-promt
+
+    - systran:
+        url: https://docs.rws.com/785465/786625/sdl-multitrans/configuring-systran
+
+    - tapta:
+        url: https://docs.rws.com/785465/786629/sdl-multitrans/configuring-tapta
+
+
 - id: phrase
   name: Phrase TMS
   url: https://phrase.com/products/phrase-tms/
@@ -415,6 +502,10 @@
         urls:
           - https://github.com/yoyicue/omegat-tencent-plugin
 
+    - textra:
+        plugin: true
+        urls: https://codeberg.org/miurahr/omegat-textra-plugin
+
     - yandex
 
   local_api_support: true
@@ -531,6 +622,7 @@
   name: Tolgee
   url: https://tolgee.io 
   type: [ tms, cat ]
+  documentation_url: https://tolgee.io/platform
   open_source: true
   api_integrations:
     - amazon
@@ -803,6 +895,11 @@
         urls:
           - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 
+    - globalese:
+        plugin: true
+        urls:
+          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
+
     - google:
         custom: true
         urls:
@@ -845,11 +942,6 @@
 
     - tilde:
         custom: true
-        urls:
-          - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
-
-  api_plugins:
-    - globalese:
         urls:
           - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 
@@ -1001,6 +1093,8 @@
           - https://help.xtm.cloud/en/xtm-cloud/13.2/en/sap-translation-hub.html
           - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-sap-translation-hub-mt-engine.html
 
+    - smartmate
+
     - systran:
         urls:
           - https://help.xtm.cloud/en/xtm-cloud/13.2/en/systran-pure-neural-.html
@@ -1010,6 +1104,11 @@
         urls:
           - https://help.xtm.cloud/en/xtm-cloud/13.2/en/tauyou.html
           - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-tauyou-mt-engine.html
+
+    - textra:
+        active: false
+        urls:
+          - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/tool/xtm/edit/
 
   local_api_support: true
   multiple_api_suggestions: true

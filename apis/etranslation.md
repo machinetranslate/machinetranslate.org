@@ -160,6 +160,12 @@ supported_languages:
   base_code: ro
   name: Romanian
   variant_name: null
+- slug: russian
+  code: ru
+  normalized_code: ru
+  base_code: ru
+  name: Russian
+  variant_name: null
 - slug: slovak
   code: sk
   normalized_code: sk
@@ -190,12 +196,19 @@ supported_languages:
   base_code: uk
   name: Ukrainian
   variant_name: null
+- slug: chinese
+  code: zh
+  normalized_code: zh
+  base_code: zh
+  name: Chinese
+  variant_name: null
+more_languages_by_request: false
 integrations:
 - slug: memoq
   name: MemoQ
   urls:
   - https://docs.memoq.com/current/en/Places/etranslation-mt-plugin-settings.html
-nav_order: 970
+nav_order: 968
 active: true
 
 ---

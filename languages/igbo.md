@@ -1,5 +1,5 @@
 ---
-nav_order: 992
+nav_order: 991
 parent: Languages
 layout: language
 title: Igbo
@@ -11,19 +11,22 @@ family:
 supported_apis:
 - id: lilt
   name: Lilt
-  supported_language_count: 50
+  supported_language_count: 72
 - id: rozetta
   name: Rozetta T-400
   supported_language_count: 96
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

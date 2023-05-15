@@ -1,5 +1,5 @@
 ---
-nav_order: 984
+nav_order: 981
 parent: Languages
 layout: language
 title: Icelandic
@@ -13,16 +13,19 @@ family:
 supported_apis:
 - id: etranslation
   name: eTranslation
-  supported_language_count: 30
+  supported_language_count: 32
 - id: apertium
   name: Apertium
-  supported_language_count: 45
-- id: modernmt
-  name: ModernMT
-  supported_language_count: 52
+  supported_language_count: 46
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: systran
   name: SYSTRAN
   supported_language_count: 52
+- id: language-weaver
+  name: Language Weaver
+  supported_language_count: 58
 - id: omniscien
   name: Omniscien Technologies
   supported_language_count: 58
@@ -35,21 +38,27 @@ supported_apis:
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

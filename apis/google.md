@@ -20,6 +20,12 @@ supported_languages:
   base_code: af
   name: Afrikaans
   variant_name: null
+- slug: akan
+  code: ak
+  normalized_code: ak
+  base_code: ak
+  name: Akan
+  variant_name: null
 - slug: amharic
   code: am
   normalized_code: am
@@ -31,6 +37,18 @@ supported_languages:
   normalized_code: ar
   base_code: ar
   name: Arabic
+  variant_name: null
+- slug: assamese
+  code: as
+  normalized_code: as
+  base_code: as
+  name: Assamese
+  variant_name: null
+- slug: aymara
+  code: ay
+  normalized_code: ay
+  base_code: ay
+  name: Aymara
   variant_name: null
 - slug: azerbaijani
   code: az
@@ -49,6 +67,18 @@ supported_languages:
   normalized_code: bg
   base_code: bg
   name: Bulgarian
+  variant_name: null
+- slug: bhojpuri
+  code: bho
+  normalized_code: bho
+  base_code: bho
+  name: Bhojpuri
+  variant_name: null
+- slug: bambara
+  code: bm
+  normalized_code: bm
+  base_code: bm
+  name: Bambara
   variant_name: null
 - slug: bengali
   code: bn
@@ -73,6 +103,12 @@ supported_languages:
   normalized_code: ceb
   base_code: ceb
   name: Cebuano
+  variant_name: null
+- slug: sorani-kurdish
+  code: ckb
+  normalized_code: ckb
+  base_code: ckb
+  name: Sorani Kurdish
   variant_name: null
 - slug: corsican
   code: co
@@ -103,6 +139,24 @@ supported_languages:
   normalized_code: de
   base_code: de
   name: German
+  variant_name: null
+- slug: null
+  code: doi
+  normalized_code: doi
+  base_code: doi
+  name: null
+  variant_name: null
+- slug: divehi
+  code: dv
+  normalized_code: dv
+  base_code: dv
+  name: Divehi
+  variant_name: null
+- slug: ewe
+  code: ee
+  normalized_code: ee
+  base_code: ee
+  name: Ewe
   variant_name: null
 - slug: greek
   code: el
@@ -152,6 +206,12 @@ supported_languages:
   base_code: fi
   name: Finnish
   variant_name: null
+- slug: tagalog
+  code: fil
+  normalized_code: tl
+  base_code: tl
+  name: Tagalog
+  variant_name: null
 - slug: french
   code: fr
   normalized_code: fr
@@ -182,6 +242,18 @@ supported_languages:
   base_code: gl
   name: Galician
   variant_name: null
+- slug: guarani
+  code: gn
+  normalized_code: gn
+  base_code: gn
+  name: Guarani
+  variant_name: null
+- slug: null
+  code: gom
+  normalized_code: gom
+  base_code: gom
+  name: null
+  variant_name: null
 - slug: gujarati
   code: gu
   normalized_code: gu
@@ -200,11 +272,11 @@ supported_languages:
   base_code: haw
   name: Hawaiian
   variant_name: null
-- slug: hebrew
-  code: he
-  normalized_code: he
-  base_code: he
-  name: Hebrew
+- slug: null
+  code: he o iw
+  normalized_code: he o iw
+  base_code: he o iw
+  name: null
   variant_name: null
 - slug: hindi
   code: hi
@@ -254,6 +326,12 @@ supported_languages:
   base_code: ig
   name: Igbo
   variant_name: null
+- slug: ilocano
+  code: ilo
+  normalized_code: ilo
+  base_code: ilo
+  name: Ilocano
+  variant_name: null
 - slug: icelandic
   code: is
   normalized_code: is
@@ -272,11 +350,11 @@ supported_languages:
   base_code: ja
   name: Japanese
   variant_name: null
-- slug: javanese
-  code: jv
-  normalized_code: jv
-  base_code: jv
-  name: Javanese
+- slug: null
+  code: jv o jw
+  normalized_code: jv o jw
+  base_code: jv o jw
+  name: null
   variant_name: null
 - slug: georgian
   code: ka
@@ -308,6 +386,12 @@ supported_languages:
   base_code: ko
   name: Korean
   variant_name: null
+- slug: null
+  code: kri
+  normalized_code: kri
+  base_code: kri
+  name: null
+  variant_name: null
 - slug: kurdish
   code: ku
   normalized_code: ku
@@ -332,6 +416,18 @@ supported_languages:
   base_code: lb
   name: Luxembourgish
   variant_name: null
+- slug: ganda
+  code: lg
+  normalized_code: lg
+  base_code: lg
+  name: Ganda
+  variant_name: null
+- slug: lingala
+  code: ln
+  normalized_code: ln
+  base_code: ln
+  name: Lingala
+  variant_name: null
 - slug: lao
   code: lo
   normalized_code: lo
@@ -344,11 +440,23 @@ supported_languages:
   base_code: lt
   name: Lithuanian
   variant_name: null
+- slug: mizo
+  code: lus
+  normalized_code: lus
+  base_code: lus
+  name: Mizo
+  variant_name: null
 - slug: latvian
   code: lv
   normalized_code: lv
   base_code: lv
   name: Latvian
+  variant_name: null
+- slug: maithili
+  code: mai
+  normalized_code: mai
+  base_code: mai
+  name: Maithili
   variant_name: null
 - slug: malagasy
   code: mg
@@ -379,6 +487,12 @@ supported_languages:
   normalized_code: mn
   base_code: mn
   name: Mongolian
+  variant_name: null
+- slug: meitei
+  code: mni
+  normalized_code: mni
+  base_code: mni
+  name: Meitei
   variant_name: null
 - slug: marathi
   code: mr
@@ -422,11 +536,23 @@ supported_languages:
   base_code: 'no'
   name: Norwegian
   variant_name: null
+- slug: northern-sotho
+  code: nso
+  normalized_code: nso
+  base_code: nso
+  name: Northern Sotho
+  variant_name: null
 - slug: chichewa
   code: ny
   normalized_code: ny
   base_code: ny
   name: Chichewa
+  variant_name: null
+- slug: oromo
+  code: om
+  normalized_code: om
+  base_code: om
+  name: Oromo
   variant_name: null
 - slug: oriya
   code: or
@@ -458,6 +584,12 @@ supported_languages:
   base_code: pt
   name: Portuguese
   variant_name: null
+- slug: quechua
+  code: qu
+  normalized_code: qu
+  base_code: qu
+  name: Quechua
+  variant_name: null
 - slug: romanian
   code: ro
   normalized_code: ro
@@ -475,6 +607,12 @@ supported_languages:
   normalized_code: rw
   base_code: rw
   name: Kinyarwanda
+  variant_name: null
+- slug: sanskrit
+  code: sa
+  normalized_code: sa
+  base_code: sa
+  name: Sanskrit
   variant_name: null
 - slug: sindhi
   code: sd
@@ -578,6 +716,12 @@ supported_languages:
   base_code: th
   name: Thai
   variant_name: null
+- slug: tigrinya
+  code: ti
+  normalized_code: ti
+  base_code: ti
+  name: Tigrinya
+  variant_name: null
 - slug: turkmen
   code: tk
   normalized_code: tk
@@ -595,6 +739,12 @@ supported_languages:
   normalized_code: tr
   base_code: tr
   name: Turkish
+  variant_name: null
+- slug: tsonga
+  code: ts
+  normalized_code: ts
+  base_code: ts
+  name: Tsonga
   variant_name: null
 - slug: tatar
   code: tt
@@ -668,7 +818,10 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+more_languages_by_request: false
 integrations:
+- slug: across
+  name: Across
 - slug: crowdin
   name: Crowdin
   custom: true
@@ -686,6 +839,9 @@ integrations:
   urls:
   - https://docs.memoq.com/current/en/Places/googlemt-settings.html
   - https://docs.memoq.com/current/en/Places/googleadvancedmt-settings.html
+- slug: multitrans
+  name: Multitrans
+  url: https://docs.rws.com/785465/786605/sdl-multitrans/configuring-google-translate-server
 - slug: phrase
   name: Phrase TMS
   custom: true
@@ -735,7 +891,7 @@ integrations:
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/google-machine-translation.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-google-translate-mt-engine.html
-nav_order: 891
+nav_order: 866
 active: true
 redirect_from: google-translate
 

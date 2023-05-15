@@ -249,7 +249,9 @@ for api in APIS:
   urls = api['urls']
   privacy_url = api.get('privacy_url', None)
 
-  self_serve = api.get('self-serve', True)
+  self_serve = api.get('self-serve', None)
+
+  more_languages_by_request = api.get('more_languages_by_request', False)
 
   customisation = []
   if api.get('adaptive', False):
@@ -325,6 +327,7 @@ for api in APIS:
     'self_serve': self_serve,
     'customisation': customisation,
     'supported_languages': supported_languages,
+    'more_languages_by_request': more_languages_by_request,
     'integrations': integrations,
     'nav_order': 1000 - len(supported_languages),
     'active': api.get('active', True),

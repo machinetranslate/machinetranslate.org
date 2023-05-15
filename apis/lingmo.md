@@ -8,7 +8,7 @@ urls:
 - https://lingmointernationalnet.wordpress.com
 - http://live.lingmo-api.com/support/lingmo-translation-languages.html
 privacy_url: null
-self_serve: true
+self_serve: null
 customisation: []
 supported_languages:
 - slug: arabic
@@ -173,6 +173,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Simplified Chinese
+more_languages_by_request: false
 integrations: []
 nav_order: 973
 active: true

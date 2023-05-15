@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 984
 parent: Languages
 layout: language
 title: Azerbaijani
@@ -12,9 +12,9 @@ supported_apis:
 - id: promt
   name: PROMT
   supported_language_count: 40
-- id: modernmt
-  name: ModernMT
-  supported_language_count: 52
+- id: kantanmt
+  name: KantanMT
+  supported_language_count: 50
 - id: apptek
   name: AppTek
   supported_language_count: 65
@@ -24,6 +24,9 @@ supported_apis:
 - id: amazon
   name: Amazon Translate
   supported_language_count: 70
+- id: lilt
+  name: Lilt
+  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
   supported_language_count: 93
@@ -33,15 +36,18 @@ supported_apis:
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
-- id: google
-  name: Google Translate
-  supported_language_count: 108
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

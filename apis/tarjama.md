@@ -23,6 +23,7 @@ supported_languages:
   base_code: en
   name: English
   variant_name: null
+more_languages_by_request: false
 integrations: []
 nav_order: 998
 active: true

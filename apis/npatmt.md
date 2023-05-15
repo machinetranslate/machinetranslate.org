@@ -7,10 +7,11 @@ parent: APIs
 urls:
 - https://www.npat.co.jp/
 privacy_url: null
-self_serve: true
+self_serve: null
 customisation:
 - Adaptive
 supported_languages: []
+more_languages_by_request: false
 integrations:
 - slug: phrase
   name: Phrase TMS

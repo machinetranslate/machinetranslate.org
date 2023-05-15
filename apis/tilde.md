@@ -14,6 +14,18 @@ customisation:
 - Glossary
 - Fine-tuning
 supported_languages:
+- slug: arabic
+  code: ar
+  normalized_code: ar
+  base_code: ar
+  name: Arabic
+  variant_name: null
+- slug: bulgarian
+  code: bg
+  normalized_code: bg
+  base_code: bg
+  name: Bulgarian
+  variant_name: null
 - slug: czech
   code: cs
   normalized_code: cs
@@ -61,6 +73,12 @@ supported_languages:
   normalized_code: fr
   base_code: fr
   name: French
+  variant_name: null
+- slug: croatian
+  code: hr
+  normalized_code: hr
+  base_code: hr
+  name: Croatian
   variant_name: null
 - slug: hungarian
   code: hu
@@ -122,6 +140,13 @@ supported_languages:
   base_code: sv
   name: Swedish
   variant_name: null
+- slug: ukrainian
+  code: uk
+  normalized_code: uk
+  base_code: uk
+  name: Ukrainian
+  variant_name: null
+more_languages_by_request: true
 integrations:
 - slug: matecat
   name: MateCat
@@ -146,7 +171,7 @@ integrations:
   custom: true
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
-nav_order: 982
+nav_order: 978
 active: true
 
 ---

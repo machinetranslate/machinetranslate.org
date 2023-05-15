@@ -6,9 +6,10 @@ id: plata-vicomtech
 parent: APIs
 urls: []
 privacy_url: null
-self_serve: true
+self_serve: null
 customisation: []
 supported_languages: []
+more_languages_by_request: false
 integrations:
 - slug: wordbee
   name: Wordbee

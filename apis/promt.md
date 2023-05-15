@@ -251,13 +251,19 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
-- slug: null
+- slug: malaysian-malay
   code: zsm
   normalized_code: zsm
   base_code: zsm
-  name: null
+  name: Malaysian Malay
   variant_name: null
+more_languages_by_request: false
 integrations:
+- slug: across
+  name: Across
+- slug: multitrans
+  name: Multitrans
+  url: https://docs.rws.com/785465/786621/sdl-multitrans/configuring-promt
 - slug: phrase
   name: Phrase TMS
   custom: true

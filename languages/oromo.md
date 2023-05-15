@@ -1,5 +1,5 @@
 ---
-nav_order: 997
+nav_order: 996
 parent: Languages
 layout: language
 title: Oromo
@@ -11,6 +11,9 @@ family:
 - slug: afro-asiatic
   name: Afro-Asiatic
 supported_apis:
+- id: google
+  name: Google Translate
+  supported_language_count: 132
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

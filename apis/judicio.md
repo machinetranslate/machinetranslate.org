@@ -34,6 +34,7 @@ supported_languages:
   base_code: nl
   name: Dutch
   variant_name: null
+more_languages_by_request: false
 integrations: []
 nav_order: 996
 active: true

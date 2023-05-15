@@ -12,6 +12,7 @@ self_serve: false
 customisation:
 - Glossary
 supported_languages: []
+more_languages_by_request: false
 integrations:
 - slug: phrase
   name: Phrase TMS

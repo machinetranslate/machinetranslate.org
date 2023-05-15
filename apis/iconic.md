@@ -8,7 +8,7 @@ urls:
 - https://web.archive.org/web/20220308061419/https://iconictranslation.com/
 - https://web.archive.org/web/20200610012330/https://iconictranslation.com/what-we-do/bespoke-solutions/languages/
 privacy_url: https://web.archive.org/web/20220116104107/https://iconictranslation.com/what-we-do/neural-machine-translation/information-security/
-self_serve: true
+self_serve: null
 customisation: []
 supported_languages:
 - slug: afrikaans
@@ -335,6 +335,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+more_languages_by_request: true
 integrations:
 - slug: matecat
   name: MateCat
@@ -346,6 +347,9 @@ integrations:
   active: false
   urls:
   - https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/
+- slug: multitrans
+  name: Multitrans
+  url: https://docs.rws.com/785465/786609/sdl-multitrans/configuring-iconic-plugin
 - slug: trados
   name: Trados Studio
   urls:

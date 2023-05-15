@@ -338,12 +338,23 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+more_languages_by_request: false
 integrations:
+- slug: across
+  name: Across
+- slug: crowdin
+  name: Crowdin
+  plugin: true
+  urls:
+  - https://store.crowdin.com/systran
 - slug: memoq
   name: MemoQ
   custom: true
   urls:
   - https://docs.memoq.com/current/en/Places/systran-plugin-settings.html
+- slug: multitrans
+  name: Multitrans
+  url: https://docs.rws.com/785465/786625/sdl-multitrans/configuring-systran
 - slug: phrase
   name: Phrase TMS
   custom: true

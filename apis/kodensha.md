@@ -154,6 +154,12 @@ supported_languages:
   base_code: lv
   name: Latvian
   variant_name: null
+- slug: malay
+  code: ms
+  normalized_code: ms
+  base_code: ms
+  name: Malay
+  variant_name: null
 - slug: maltese
   code: mt
   normalized_code: mt
@@ -256,10 +262,11 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+more_languages_by_request: true
 integrations:
 - slug: phrase
   name: Phrase TMS
-nav_order: 959
+nav_order: 958
 active: true
 redirect_from: kodensha-mt
 

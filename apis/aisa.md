@@ -23,6 +23,24 @@ supported_languages:
   base_code: de
   name: German
   variant_name: null
+- slug: english
+  code: en
+  normalized_code: en
+  base_code: en
+  name: English
+  variant_name: null
+- slug: english
+  code: en-sg
+  normalized_code: en-sg
+  base_code: en
+  name: English
+  variant_name: null
+- slug: english
+  code: en-uk
+  normalized_code: en-uk
+  base_code: en
+  name: English
+  variant_name: United Kingdom
 - slug: spanish
   code: es-es
   normalized_code: es-es
@@ -113,11 +131,12 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+more_languages_by_request: false
 integrations:
 - slug: phrase
   name: Phrase TMS
   active: false
-nav_order: 983
+nav_order: 980
 active: true
 
 ---

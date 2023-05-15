@@ -1,5 +1,5 @@
 ---
-nav_order: 997
+nav_order: 996
 parent: Languages
 layout: language
 title: Twi
@@ -9,6 +9,9 @@ family:
 - slug: niger-congo
   name: Niger-Congo
 supported_apis:
+- id: modernmt
+  name: ModernMT
+  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197

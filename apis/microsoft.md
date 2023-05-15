@@ -679,12 +679,15 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+more_languages_by_request: false
 integrations:
 - slug: crowdin
   name: Crowdin
   custom: true
   urls:
   - https://support.crowdin.com/enterprise/machine-translation/#microsoft-translator
+- slug: eluna
+  name: eLUNa
 - slug: matecat
   name: MateCat
   custom: true
@@ -693,6 +696,9 @@ integrations:
   custom: true
   urls:
   - https://docs.memoq.com/current/en/Places/microsoft-mt-plugin-settings.html
+- slug: multitrans
+  name: Multitrans
+  url: https://docs.rws.com/785465/786613/sdl-multitrans/configuring-microsoft-translator
 - slug: phrase
   name: Phrase TMS
   custom: true
