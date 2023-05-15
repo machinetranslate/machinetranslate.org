@@ -12,6 +12,7 @@ self_serve: true
 customisation:
 - Adaptive
 - Glossary
+- Fine-tuning
 supported_languages:
 - slug: arabic
   code: ar

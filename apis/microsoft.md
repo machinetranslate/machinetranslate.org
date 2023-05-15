@@ -11,6 +11,7 @@ privacy_url: https://www.microsoft.com/en-us/translator/business/notrace/
 self_serve: true
 customisation:
 - Glossary
+- Fine-tuning
 supported_languages:
 - slug: afrikaans
   code: af

@@ -12,6 +12,7 @@ self_serve: false
 customisation:
 - Adaptive
 - Glossary
+- Fine-tuning
 supported_languages:
 - slug: abkhaz
   code: ab

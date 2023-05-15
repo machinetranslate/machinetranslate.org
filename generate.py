@@ -260,6 +260,8 @@ for api in APIS:
     customisation.append('Glossary')
   if api.get('formality', False):
     customisation.append('Formality')
+  if api.get('fine-tuning', False):
+    customisation.append('Fine-tuning')
 
   # "Join"
   # TODO: use language/api mapping

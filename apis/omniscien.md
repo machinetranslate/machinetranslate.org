@@ -13,6 +13,7 @@ customisation:
 - Adaptive
 - Glossary
 - Formality
+- Fine-tuning
 supported_languages:
 - slug: arabic
   code: ar

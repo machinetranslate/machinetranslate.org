@@ -227,6 +227,7 @@
   languages: [ af, ak, am, ar, as, ay, az, be, bg, bho, bm, bn, bs, ca, ceb, ckb, co, cs, cy, da, de, doi, dv, ee, el, en, eo, es, et, eu, fa, fi, fil, fr, fy, ga, gd, gl, gn, gom, gu, ha, haw, he o iw, hi, hmn, hr, ht, hu, hy, id, ig, ilo, is, it, ja, jv o jw, ka, kk, km, kn, ko, kri, ku, ky, la, lb, lg, ln, lo, lt, lus, lv, mai, mg, mi, mk, ml, mn, mni, mr, ms, mt, my, ne, nl, 'no', nso, ny, om, or, pa, pl, ps, pt, qu, ro, ru, rw, sa, sd, si, sk, sl, sm, sn, so, sq, sr, st, su, sv, sw, ta, te, tg, th, ti, tk, tl, tr, ts, tt, ug, uk, ur, uz, vi, xh, yi, yo, zh-cn, zh-tw, zu ]
   custom_languages: [ af, ar, az, bg, bn, ca, cs, cy, da, de, el, en, es, et, fa, fi, fil, fr, gl, gu, hi, hr, ht, hu, id, is, it, iw, ja, jv, ka, km, ko, lt, lv, mr, ms, my, ne, nl, 'no', pa, pl, ps, pt, ro, ru, sk, sl, sq, sr, sv, sw, ta, te, th, tr, uk, ur, uz, vi, zh-cn, zh-tw, zu ]
   glossary: true
+  fine-tuning: true
   self-serve: true
 
 - name: Iconic
@@ -305,8 +306,9 @@
   stock_api_domains_urls:
     - https://www.kantanai.io/showcase/
   glossary: true
-  self-serve: false
+  fine-tuning: true
   adaptive: true
+  self-serve: false
 
 - name: Kodensha MT
   id: kodensha
@@ -426,6 +428,7 @@
   custom_languages: [ af, ar, as, bg, bn, bs, ca, cs, cy, da, de, el, en, es, et, fa, fi, fil, fj, fr, ga, gu, he, hi, hr, hu, id, is, it, iu, ja, kn, ko, lt, lv, mg, mi, ml, mr, ms, mt, nb, nl, or, pa, pl, pt, ro, ru, sk, sl, sm, sr-Latn, sv, sw, ta, te, th, to, tr, ty, uk, ur, vi, zh-Hans, zh-Hant ]
 
   glossary: true
+  fine-tuning: true
   self-serve: true
 
 - name: Mirai Translator
@@ -469,6 +472,7 @@
     - http://www2.statmt.org/moses/
     - https://github.com/moses-smt/mosesdecoder
   languages: [ ]
+  fine-tuning: true
   more_languages_by_request: true
   self-serve: true
 
@@ -541,6 +545,7 @@
   glossary: true
   formality: true
   adaptive: true
+  fine-tuning: true
   self-serve: false
 
 - name: Opus CAT
@@ -549,6 +554,7 @@
   urls:
     - https://helsinki-nlp.github.io/OPUS-CAT/
   languages: [ ]
+  fine-tuning: true
   self-serve: true
 
 - name: PangeaMT
@@ -734,6 +740,7 @@
    - https://www.systran.net/marketplace-catalog/domains/
   adaptive: true
   glossary: true
+  fine-tuning: true
   self-serve: true
 
 - name: TAPTA
@@ -809,6 +816,7 @@
   more_languages_by_request: true
   adaptive: true
   glossary: true
+  fine-tuning: true
   self-serve: false
 
 - name: TranslateMe
@@ -924,6 +932,7 @@
   languages: [ ar, bg, bn, bs, ca, cnr, cs, cy, da, de, el, en, es, et, eu, fi, fr, fr-ca, ga, gu, he, hi, hr, hu, id, it, ja, kn, ko, lt, lv, ml, mr, ms, mt, nb, ne, nl, pa, pa-pk, pl, pt, ro, ru, si, sk, sl, sr, sv, ta, te, th, tr, uk, ur, vi, zh, zh-TW ]
   custom_languages: [ [ ar, en ], [ bg, en ], [ bn, en ], [ bs, en ], [ ca, es ], [ cnr, en ], [ cs, en ], [ cy, en ], [ da, en ], [ de, en ], [ de, fr ], [ de, it ], [ el, en ], [ en, ar ], [ en, bg ], [ en, bn ], [ en, bs ], [ en, cnr ], [ en, cs ], [ en, cy ], [ en, da ], [ en, de ], [ en, el ], [ en, es ], [ en, et ], [ en, fi ], [ en, fr ], [ en, fr-ca ], [ en, ga ], [ en, gu ], [ en, he ], [ en, hi ], [ en, hr ], [ en, hu ], [ en, id ], [ en, it ], [ en, ja ], [ en, kn ], [ en, ko ], [ en, lt ], [ en, lv ], [ en, ml ], [ en, mr ], [ en, ms ], [ en, mt ], [ en, nb ], [ en, ne ], [ en, nl ], [ en, pa ], [ en, pa-pk ], [ en, pl ], [ en, pt ], [ en, ro ], [ en, ru ], [ en, si ], [ en, sk ], [ en, sl ], [ en, sr ], [ en, sv ], [ en, ta ], [ en, te ], [ en, th ], [ en, tr ], [ en, uk ], [ en, ur ], [ en, vi ], [ en, zh ], [ en, zh-tw ], [ es, ca ], [ es, en ], [ es, eu ], [ es, fr ], [ et, en ], [ eu, es ], [ fi, en ], [ fr-ca, en ], [ fr, en ], [ ga, en ], [ gu, en ], [ he, en ], [ hi, en ], [ hr, en ], [ hu, en ], [ id, en ], [ it, de ], [ it, en ], [ ja, en ], [ kn, en ], [ ko, en ], [ lt, en ], [ lv, en ], [ ml, en ], [ mr, en ], [ ms, en ], [ mt, en ], [ nb, en ], [ ne, en ], [ nl, en ], [ pa, en ], [ pa-pk, en ], [ pl, en ], [ pt, en ], [ ro, en ], [ ru, en ], [ si, en ], [ sk, en ], [ sl, en ], [ sr, en ], [ sv, en ], [ ta, en ], [ te, en ], [ th, en ], [ tr, en ], [ uk, en ], [ ur, en ], [ vi, en ], [ zh, en ], [ zh-TW, en ] ] 
   glossary: true
+  fine-tuning: true
   self-serve: true
 
 - name: Wordlingo
