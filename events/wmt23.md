@@ -50,7 +50,13 @@ It will be organised by [WMT](/associations/wmt.md).
 - [Word-level autocompletion](http://www2.statmt.org/wmt23/word-autocompletion.html)
 - [Sign language](https://www.wmt-slt.com/)
 - [Biomedical](http://www2.statmt.org/wmt23/biomedical-translation-task.html)
-- More to be announced 
+- [Low-resource Indic language translation](http://www2.statmt.org/wmt23/indic-mt-task.html)
+- [Large-scale machine translation evaluation for African languages](http://www2.statmt.org/wmt23/african-mt-task.html)
+- [Metrics](https://wmt-metrics-task.github.io/)
+- [Quality estimation](https://wmt-qe-task.github.io/)
+- [MT test suites](http://www2.statmt.org/wmt23/testsuite-subtask.html)
+- [Automatic post-editing](http://www2.statmt.org/wmt23/ape-task.html)
+
 
 In 2022, the *News* machine translation task was renamed the *General* machine translation task.
 
