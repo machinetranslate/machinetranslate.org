@@ -14,7 +14,7 @@ seo:
 | --- | --- | --- |
 | 6 - 7 December | [**WMT23**](wmt23.md) | Singapore |
 | 4 - 8 September | [**MT Summit 2023**](mtsummit2023.md) | Macau SAR, China |
-| 4 - 5 September | [**CoCo4MT 2**](coco4mt-2.md) | Macau SAR, China |
+| 4 - 5 September | [**CoCo4MT 2023**](coco4mt-2.md) | Macau SAR, China |
 | 13 - 14 July | [**IWSLT 2023**](iwslt2023.md) | Toronto, Canada |
 | 9 - 14 July | [**AmericasNLP**](americasnlp2023.md) | Toronto, Canada |
 | 15 June | [**AT4SSL 2023**](at4ssl2023.md) | Tampere, Finland |
@@ -51,6 +51,7 @@ seo:
 | 6 October | [Literary Machine Translation as a Human-Machine Dialectic](human-machine-dialectic.md) | Liège, Belgium |
 | 30 September | [MUMTTT 2022](mumttt2022.md) | Malaga, Spain |
 | 28 September | [AAMT Seminar](aamt-seminar-1.md) | online |
+| 16 September | [CoCo4MT 2022](coco4mt-1.md) | Orlando, Florida |
 | 12 - 16 September | [AMTA 2022](amta2022.md) | Orlando, Florida |
 | 5 - 10 September | [MT Marathon](mtm2022.md) | Prague, Czech Republic |
 | 19 August | [Workshop on Pronouns and Machine Translation](pronouns-and-mt-2022.md) | online |
