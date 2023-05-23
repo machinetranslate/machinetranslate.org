@@ -2,8 +2,8 @@
 nav_order: 998
 parent: Languages
 layout: language
-title: "Moor\xE9"
-description: "Machine translation for Moor\xE9"
+title: "Mooré"
+description: "Machine translation for Mooré"
 code: mos
 family:
 - slug: niger-congo
