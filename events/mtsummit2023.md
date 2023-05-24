@@ -62,6 +62,12 @@ MTS 2023 is organised by [AAMT](/associations/aamt.md).
 
 ## Workshops
 
+### WAT 2023
+
+> The Workshop on Asian Translation (WAT) is an open machine translation evaluation campaign focusing on Asian languages. WAT gathers and shares the resources and knowledge of Asian language translation to understand the problems to be solved for the practical use of machine translation technologies among all Asian countries.
+
+[WAT 2023](wat2023.md)
+
 ### ALT 2023：Ancient Language Translation Workshop
 
 > This workshop aims to provide an opportunity for practitioners and scholars of interest to learn about the challenges and latest developments in the field of machine translation for ancient languages. Participants will engage in discussions and hands-on activities to develop a deeper understanding of the field and the techniques used to address the unique challenges posed by translating texts written in ancient languages.
