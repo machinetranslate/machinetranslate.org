@@ -8,7 +8,7 @@ redirect_from:
   - /quality-prediction
 ---
 
-Machine translation **quality estimation** (**QE** or **MTQE**) or **quality prediction** (**QP** or **MTQP**) is the task of automatically predicting the quality of machine translation output.
+Machine translation **quality estimation** (**QE** or **MTQE**) or machine translation **quality prediction** (**QP** or **MTQP**) is the task of automatically predicting the quality of machine translation output.
 
 | Original                     | Translation                    | Quality prediction   |
 | -----------------------------| -------------------------------| ---------------------|
