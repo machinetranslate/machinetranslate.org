@@ -20,6 +20,7 @@ seo:
 | 9 - 14 July | [**AmericasNLP**](americasnlp2023.md) | Toronto, Canada |
 | 15 June | [**AT4SSL 2023**](at4ssl2023.md) | Tampere, Finland |
 | 12 - 15 June | [**EAMT 2023**](eamt2023.md) | Tampere, Finland |
+| 5 - 9 June | [**MTMA 2023**](mtma2023.md) | Fairfax, Virginia |
 | 2 - 6 May | [LoResMT 2023](loresmt2023.md) | Dubrovnik, Croatia |
 | 25 April | [Rise of the Machines: Balancing Language-Related AI Opportunities and Risks](ai-opportunities-and-risk.md) | online |
 | 24 April | [Machine Translation Meetup 12](zurich-12.md) | Zurich, Switzerland |
