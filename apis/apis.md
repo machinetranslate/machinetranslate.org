@@ -3,6 +3,8 @@ nav_order: 50
 has_children: true
 title: APIs
 description: Machine translation APIs
+seo:
+    type: ItemList
 ---
 
 There is a growing set of machine translation APIs available.

@@ -3,6 +3,8 @@ nav_order: 50
 has_children: true
 title: Languages
 description: Languages supported by machine translation APIs
+seo:
+    type: ItemList
 ---
 
 More than a hundred languages and [locales](/applications/advanced-concepts/locale.md) are supported by more than one [machine translation API](/apis/apis.md).

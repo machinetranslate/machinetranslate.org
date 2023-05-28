@@ -2,6 +2,8 @@
 parent: Resources
 title: Reports
 description: Machine translation industry reports
+seo:
+    type: ItemList
 ---
 
 |     |     |

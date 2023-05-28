@@ -5,7 +5,7 @@ title: Events
 description: List of machine translation events
 featured: true
 seo:
-  type: Article
+    type: ItemList
 ---
 
 ## 2023
