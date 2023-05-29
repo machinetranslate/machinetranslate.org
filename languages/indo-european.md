@@ -168,8 +168,6 @@ languages:
   name: Swedish
 - slug: tajik
   name: Tajik
-- slug: tosk
-  name: Tosk
 - slug: ukrainian
   name: Ukrainian
 - slug: upper-sorbian
