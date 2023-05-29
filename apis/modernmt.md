@@ -30,11 +30,11 @@ supported_languages:
   base_code: ak
   name: Akan
   variant_name: null
-- slug: tosk
+- slug: albanian
   code: als
   normalized_code: als
   base_code: als
-  name: Tosk
+  name: Albanian
   variant_name: null
 - slug: amharic
   code: am
