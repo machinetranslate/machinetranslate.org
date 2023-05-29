@@ -5,4 +5,6 @@ has_children: true
 published: false
 title: News
 description: News about machine translation
+seo:
+    type: ItemList
 ---

@@ -4,6 +4,8 @@ parent: More
 title: Communities
 description: Machine translation associations, research groups and communities
 featured: true
+seo:
+    type: ItemList
 ---
 
 Machine translation communities are mainly global, online lists, groups or fora.
