@@ -63,16 +63,17 @@ parent: Languages
 
 <section id="api-support">
   <h2>API support</h2>
+
+
+  <p><strong>{{ page.supported_apis | size }}</strong> APIs support {{ page.title }}.</p>
+
+  <ul>
+    {% for api in page.supported_apis %}
+      <li>
+        <a href="/{{ api.id }}">
+          {{ api.name }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 </section>
-
-<p><strong>{{ page.supported_apis | size }}</strong> APIs support {{ page.title }}.</p>
-
-<ul>
-  {% for api in page.supported_apis %}
-    <li>
-      <a href="/{{ api.id }}">
-        {{ api.name }}
-      </a>
-    </li>
-  {% endfor %}
-</ul>
