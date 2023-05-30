@@ -31,7 +31,7 @@ parent: APIs
     There is <a href="#integrations">1 integration</a> with a translation management system.
   {% endif %}
   {% if page.integrations.size > 1 %}
-    There are <a href="#integrations">{{ page.integrations | size }} integrations</a> with translation management systems.
+    {{ page.integrations | size }} machine translation management systems have <a href="#integrations">{{ page.title }} integrations</a>
   {% endif %}
 </p>
 
@@ -115,67 +115,70 @@ parent: APIs
 
 {{ content }}
 
-<h2 id="language-support">Language support</h2>
+<section id="language-support">
+    <h2>Language support</h2>
+  {% if page.supported_languages.size > 0 %}
 
-{% if page.supported_languages.size > 0 %}
+    {% if page.supported_languages_comment %}
+    <p>{{ page.supported_languages_comment }}</p>
+    {% endif %}
 
-  {% if page.supported_languages_comment %}
-  <p>{{ page.supported_languages_comment }}</p>
-  {% endif %}
+    <p>The {{ page.title }} API supports <strong>{{ page.supported_languages | size }}</strong> languages.</p>
 
-  <p>The {{ page.title }} API supports <strong>{{ page.supported_languages | size }}</strong> languages.</p>
-
-  <ul>
-    {% for language in page.supported_languages %}
-      <li>
-        {% if language.slug %}
-        <a href="/{{ language.slug }}">
-          <code>{{ language.normalized_code }}</code>
-          {{ language.name }}
-          {% if language.variant_name %}
-            | {{ language.variant_name }}
+    <ul>
+      {% for language in page.supported_languages %}
+        <li>
+          {% if language.slug %}
+          <a href="/{{ language.slug }}">
+            <code>{{ language.normalized_code }}</code>
+            {{ language.name }}
+            {% if language.variant_name %}
+              | {{ language.variant_name }}
+            {% endif %}
+          </a>
+            {% if language.normalized_code != language.code %}
+              ⚠️ {{ page.title }} uses <code>{{ language.code }}</code>.
+            {% endif %}
+          {% else %}
+          <a href="https://en.wikipedia.org/wiki/ISO_639:{{ language.base_code }}" target="_blank">
+            <code>{{ language.code }}</code>
+            {% if language.variant_name %}
+              | {{ language.variant_name }}
+            {% endif %}
+          </a>
           {% endif %}
-        </a>
-          {% if language.normalized_code != language.code %}
-             ⚠️ {{ page.title }} uses <code>{{ language.code }}</code>.
-          {% endif %}
-        {% else %}
-        <a href="https://en.wikipedia.org/wiki/ISO_639:{{ language.base_code }}" target="_blank">
-          <code>{{ language.code }}</code>
-          {% if language.variant_name %}
-            | {{ language.variant_name }}
-          {% endif %}
-        </a>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
+        </li>
+      {% endfor %}
+    </ul>
 
-{% else %}
+  {% else %}
 
-<p>The {{ page.title }} API supports an unknown number of languages.</p>
+  <p>The {{ page.title }} API supports an unknown number of languages.</p>
+</section>
 
 {% endif %}
 
 {% if page.integrations.size > 0 %}
 
-  <h2 id="integrations">Integrations</h2>
-  {% if page.integrations.size == 1 %}
-    <p>1 translation management system has integrated the {{ page.title }} API.</p>
-  {% else %}
-    <p><strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} API.</p>
-  {% endif %}
+  <section id="integrations">
+    <h2>Integrations</h2>
+    {% if page.integrations.size == 1 %}
+      <p>1 translation management system has integrated the {{ page.title }} API.</p>
+    {% else %}
+      <p><strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} API.</p>
+    {% endif %}
 
-  <ul>
-    {% for i in page.integrations %}
-      <li>
-        {% if i.url %}
-           <a href="{{ i.url }}" target="_blank">{{ i.name }}</a>
-        {% else %}
-           {{ i.name }}
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
+    <ul>
+      {% for i in page.integrations %}
+        <li>
+          {% if i.url %}
+            <a href="{{ i.url }}" target="_blank">{{ i.name }}</a>
+          {% else %}
+            {{ i.name }}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+</section>
 
 {% endif %}
