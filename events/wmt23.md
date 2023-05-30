@@ -36,7 +36,7 @@ It will be organised by [WMT](/associations/wmt.md).
 | --- | --- |
 | Release of training data for shared tasks	| February-March, 2023 |
 | Evaluation periods for shared tasks | June-July, 2023 |
-| Paper submission deadline | 1 September, 2023 |
+| Paper submission deadline | 5 September, 2023 |
 | Paper notification | 6 October, 2023 |
 | Camera-ready version | 18 October, 2023 |
 | Conference | 6-7 December, 2023 |
