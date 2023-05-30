@@ -28,7 +28,7 @@ parent: APIs
     There is <a href="#integrations">1 integration</a> with a translation management system.
   {% endif %}
   {% if page.integrations.size > 1 %}
-    There are <a href="#integrations">{{ page.integrations | size }} integrations</a> with translation management systems.
+    5 machine translation management systems have <a href="#integrations">ModernMT integrations</a>
   {% endif %}
 </p>
 
@@ -86,7 +86,8 @@ parent: APIs
 
 {{ content }}
 
-<h2 id="language-support">Language support</h2>
+<section id="language-support">
+  <h2>Language Support</h2>
 
 {% if page.supported_languages.size > 0 %}
 
@@ -125,12 +126,14 @@ parent: APIs
 {% else %}
 
 <p>The {{ page.title }} API supports an unknown number of languages.</p>
+</section>
 
 {% endif %}
 
 {% if page.integrations.size > 0 %}
 
-  <h2 id="integrations">Integrations</h2>
+  <section id="integrations">
+    <h2>Integrations</h2>
   {% if page.integrations.size == 1 %}
     <p>1 translation management system has integrated the {{ page.title }} API.</p>
   {% else %}
@@ -149,4 +152,5 @@ parent: APIs
     {% endfor %}
   </ul>
 
+</section>
 {% endif %}
