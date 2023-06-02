@@ -827,6 +827,13 @@
    - https://translateme.network/api/
   languages: [ [de, en], [es, en], [fr, en], [it, en], [nl, en], [pt, en], [ru, en], [tr, en], [zh, en], [zu, en] ]
 
+- name: TransPerfect NMT
+  id: transperfect-nmt
+  company: transperfect
+  urls:
+    - https://www.transperfect.com/technology/artificial-intelligence/neural-machine-translation
+  languages: [ ]
+  self-serve: false
 
 - name: T-tact-AN-ZIN
   id: t-tact-an-zin

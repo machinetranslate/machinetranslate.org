@@ -341,6 +341,8 @@ integrations:
   plugin: true
   urls:
   - https://store.crowdin.com/kantanmt
+- slug: globallink
+  name: GlobalLink
 - slug: memoq
   name: MemoQ
   custom: true

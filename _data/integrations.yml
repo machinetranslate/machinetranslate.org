@@ -153,6 +153,34 @@
   
     - tapta
 
+- id: globallink
+  name: GlobalLink
+  url: https://globallink.translations.com/
+  type:
+    - tms: true
+    - cat: true
+  api_integrations:
+    - apptek
+
+    - google
+
+    - kantanmt
+
+    - lilt
+
+    - microsoft
+
+    - moses
+
+    - omniscien
+
+    - systran
+
+    - tauyou
+    
+    - transperfect-nmt
+
+
 - id: lilt
   name: Lilt
   url: https://www.lilt.com

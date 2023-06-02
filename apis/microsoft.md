@@ -688,6 +688,8 @@ integrations:
   - https://support.crowdin.com/enterprise/machine-translation/#microsoft-translator
 - slug: eluna
   name: eLUNa
+- slug: globallink
+  name: GlobalLink
 - slug: matecat
   name: MateCat
   custom: true

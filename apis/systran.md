@@ -347,6 +347,8 @@ integrations:
   plugin: true
   urls:
   - https://store.crowdin.com/systran
+- slug: globallink
+  name: GlobalLink
 - slug: memoq
   name: MemoQ
   custom: true

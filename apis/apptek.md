@@ -451,7 +451,9 @@ supported_languages:
   name: Chinese
   variant_name: Traditional Chinese
 more_languages_by_request: false
-integrations: []
+integrations:
+- slug: globallink
+  name: GlobalLink
 nav_order: 927
 active: true
 
