@@ -9,7 +9,7 @@ seo:
 
 # Machine Translate
 
-**Machine Translate** is building **open resources and community for machine translation**.
+**Machine Translate** is building **open information and a community for machine translation**.
 
 {% assign integration_count = 0 %}
 {% for i in site.data.integrations %}
@@ -48,7 +48,7 @@ The content covers everything about machine translation, from products to resear
 
 
 > #### Featured events
-> - **NEW:** [**Machine translation meetup**](/meetup)
+> - [Machine translation meetup](/meetup)
 > - [EAMT 2023](/eamt2023) - 12-15 June, Tampere, Finland - **New: Workshops now available!**
 > - [WMT23](/wmt23) - 6-7 December, Singapore - **New: Tracks added!**
 
@@ -61,7 +61,8 @@ The content covers everything about machine translation, from products to resear
 
 ## Stay connected
 
-Join the community and sign up for the newsletter to read news, ask and answer questions and share your work!
+Join the community to ask and answer questions, and share your work.
+Sign up for the newsletter to read news about machine translation.
 
 <div style="display: flex; justify-content: center; gap: 20%;">
   <div>
