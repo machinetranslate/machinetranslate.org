@@ -61,6 +61,18 @@ supported_languages:
   base_code: it
   name: Italian
   variant_name: null
+- slug: japanese
+  code: ja
+  normalized_code: ja
+  base_code: ja
+  name: Japanese
+  variant_name: null
+- slug: korean
+  code: ko
+  normalized_code: ko
+  base_code: ko
+  name: Korean
+  variant_name: null
 - slug: dutch
   code: nl
   normalized_code: nl
@@ -139,7 +151,7 @@ integrations:
   name: Wordbee
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
-nav_order: 982
+nav_order: 980
 active: true
 
 ---

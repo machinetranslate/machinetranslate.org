@@ -787,7 +787,7 @@
    - https://www.textshuttle.ai/
    - https://www.textshuttle.ai/en/functions
   privacy_url: https://www.textshuttle.ai/en/disclaimer
-  languages: [ cs, da, de, en, es, fr, hu, it, nl, 'no', pl, pt, rm, ru, sk, sl, sv, zh ]
+  languages: [ cs, da, de, en, es, fr, hu, it, ja, ko, nl, 'no', pl, pt, rm, ru, sk, sl, sv, zh ]
   custom_languages: '*'
   more_languages_by_request: true
   glossary: true
@@ -926,7 +926,7 @@
     - finance
     - economy
   stock_api_domains_urls:
-#    - https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html
+    - https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html
   self-serve: true
 
 - name: Watson Language Translator

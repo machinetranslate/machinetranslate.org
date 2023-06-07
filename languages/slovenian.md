@@ -13,7 +13,7 @@ family:
 supported_apis:
 - id: textshuttle
   name: TextShuttle
-  supported_language_count: 18
+  supported_language_count: 20
 - id: deepl
   name: DeepL
   supported_language_count: 29

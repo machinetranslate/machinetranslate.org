@@ -44,12 +44,12 @@ supported_apis:
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17
-- id: textshuttle
-  name: TextShuttle
-  supported_language_count: 18
 - id: kakao
   name: Kakao
   supported_language_count: 19
+- id: textshuttle
+  name: TextShuttle
+  supported_language_count: 20
 - id: sogou-translate
   name: Sogou Translate
   supported_language_count: 21

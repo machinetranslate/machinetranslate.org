@@ -1,5 +1,5 @@
 ---
-nav_order: 960
+nav_order: 959
 parent: Languages
 layout: language
 title: Korean
@@ -33,6 +33,9 @@ supported_apis:
 - id: kakao
   name: Kakao
   supported_language_count: 19
+- id: textshuttle
+  name: TextShuttle
+  supported_language_count: 20
 - id: sogou-translate
   name: Sogou Translate
   supported_language_count: 21
