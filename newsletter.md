@@ -2,8 +2,8 @@
 nav_order: 100
 has_children: false
 nav_exclude: true
-title: Community
-description: Machine Translate community
+title: Newsletter
+description: Machine Translate newsletter
 ---
 
 Sign up to our monthly newsletter. You will get upcoming events, due calls for papers, job opportunities, the most interesting community posts, and more!
