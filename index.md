@@ -77,16 +77,14 @@ Sign up for the newsletter to read news about machine translation.
     <center>
       <h2><a href="/newsletter">Newsletter</a></h2>
         <a href="/newsletter">
-          📰
+          📧
         </a>
     </center>
   </div>
 </div>
 
 
-## Updates
-
-Hear about news and events by following Machine Translate!
+Follow us on other platforms.
 
 <center>
   <div class="social-links">
