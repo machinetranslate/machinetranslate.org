@@ -1224,6 +1224,10 @@ integrations:
   adaptive: true
   urls:
   - https://guides.matecat.com/modernmt-mmt-plug-in
+- slug: memoq
+  name: MemoQ
+  urls:
+  - https://www.memoq.com/integrations/machine-translation/public-plugin/modernmt
 - slug: smartcat
   name: Smartcat
   custom: true

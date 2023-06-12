@@ -339,8 +339,10 @@ more_languages_by_request: true
 integrations:
 - slug: matecat
   name: MateCat
+  active: false
 - slug: memoq
   name: MemoQ
+  active: false
   urls:
   - https://docs.memoq.com/current/en/Places/iptranslator-plugin-settings.html
 nav_order: 946

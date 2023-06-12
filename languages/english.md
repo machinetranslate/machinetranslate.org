@@ -1,5 +1,5 @@
 ---
-nav_order: 944
+nav_order: 943
 parent: Languages
 layout: language
 title: English
@@ -28,6 +28,9 @@ supported_apis:
   supported_language_count: 6
 - id: tapta
   name: TAPTA
+  supported_language_count: 6
+- id: trebe
+  name: Trebe
   supported_language_count: 6
 - id: cloudtranslation
   name: CloudTranslation

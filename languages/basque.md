@@ -1,5 +1,5 @@
 ---
-nav_order: 986
+nav_order: 985
 parent: Languages
 layout: language
 title: Basque
@@ -9,6 +9,9 @@ family: []
 supported_apis:
 - id: elia
   name: Elia
+  supported_language_count: 6
+- id: trebe
+  name: Trebe
   supported_language_count: 6
 - id: lucy
   name: Lucy

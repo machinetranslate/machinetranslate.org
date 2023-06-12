@@ -217,7 +217,8 @@
         urls:
           - https://help.inten.to/hc/en-us/articles/360017381939-How-to-set-up-Intento-as-the-MT-engine-in-MateCat
 
-    - iptranslator
+    - iptranslator:
+        active: false
 
     - language-weaver
 
@@ -299,6 +300,7 @@
           - https://docs.memoq.com/current/en/Places/intento-plugin-settings.html
 
     - iptranslator:
+        active: false
         urls:
           - https://docs.memoq.com/current/en/Places/iptranslator-plugin-settings.html
 
@@ -306,6 +308,10 @@
         custom: true
         urls:
           - https://docs.memoq.com/current/en/Places/kantanmt-plugin-settings.html
+
+    - modernmt:
+        urls:
+          - https://www.memoq.com/integrations/machine-translation/public-plugin/modernmt
 
     - microsoft:
         custom: true
@@ -316,11 +322,17 @@
         urls:
           - https://docs.memoq.com/current/en/Places/mirai-mt-plugin.html
 
+    - niutrans:
+        urls:
+          - https://www.memoq.com/integrations/machine-translation/private-plugin/niutrans
+
+    - omniscien:
+        urls:
+          - https://www.memoq.com/integrations/machine-translation/public-plugin/omniscien
+
     - opus-cat:
         urls:
           - https://github.com/Helsinki-NLP/OPUS-CAT#using-the-fiskmo-plugin-in-memoq
-
-    - niutrans
 
     - pangeamt:
         glossary: true
@@ -378,7 +390,9 @@
         url: https://docs.rws.com/785465/786605/sdl-multitrans/configuring-google-translate-server
 
     - iconic:
+        active: false
         url: https://docs.rws.com/785465/786609/sdl-multitrans/configuring-iconic-plugin
+
 
     - microsoft:
         url: https://docs.rws.com/785465/786613/sdl-multitrans/configuring-microsoft-translator
@@ -636,6 +650,8 @@
     - microsoft:
         custom: true
 
+    - prompsit
+
     - promt
 
     - systran
@@ -824,6 +840,11 @@
         plugin: true
         urls:
           - https://www.tmxmall.com/products/plugin
+
+    - trebe:
+        plugin: true
+        urls:
+          - https://appstore.rws.com/Plugin/195
 
     - ubiqus:
         plugin: true
@@ -1031,7 +1052,7 @@
   name: XTM
   url: http://xtm.cloud
   type: [ tms, cat ]
-  documentation_url: https://xtm.cloud/docs/xtm-editor.x56164.pdf
+  documentation_url: https://xtm.cloud/documentation/
   api_integrations:
     - amazon:
         glossary: true

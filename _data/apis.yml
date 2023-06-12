@@ -835,6 +835,15 @@
   languages: [ ]
   self-serve: false
 
+- name: Trebe
+  id: trebe
+  company: vicomtech
+  urls:
+    - https://demo.trebe.org/es/
+    - https://apidoc.trebe.org/
+  languages: [ [eu, es], [eu, en], [eu, fr], [es, ca], [es, gl], [es, en] ]
+  self-serve: false
+
 - name: T-tact-AN-ZIN
   id: t-tact-an-zin
   company: toin
