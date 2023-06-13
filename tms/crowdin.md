@@ -1,0 +1,86 @@
+---
+layout: tms
+title: Crowdin
+description: The Crowdin machine translation integrations
+id: crowdin
+parent: TMSs
+type:
+- tms
+- cat
+tms_url: https://www.crowdin.com
+api_integrations:
+- slug: alibaba
+  plugin: true
+  urls:
+  - https://store.crowdin.com/alibaba
+  name: Alibaba Translate
+- slug: amazon
+  glossary: true
+  urls:
+  - https://support.crowdin.com/enterprise/machine-translation/#amazon-translate
+  name: Amazon Translate
+- slug: deepl
+  formality: true
+  urls:
+  - https://support.crowdin.com/enterprise/machine-translation/#deepl-translator
+  name: DeepL
+- slug: google
+  custom: true
+  glossary: true
+  urls:
+  - https://support.crowdin.com/enterprise/machine-translation/#google-translate
+  - https://support.crowdin.com/enterprise/machine-translation/#google-cloud-automl-translation
+  name: Google Translate
+- slug: globalese
+  plugin: true
+  urls:
+  - https://store.crowdin.com/globalese
+  name: Globalese
+- slug: intento
+  plugin: true
+  custom: true
+  urls:
+  - https://store.crowdin.com/intento-mthub
+  - https://help.inten.to/hc/en-us/articles/4412027688466-How-to-install-and-configure-Intento-plugin-for-Crowdin
+  name: Intento
+- slug: kantanmt
+  plugin: true
+  urls:
+  - https://store.crowdin.com/kantanmt
+  name: KantanMT
+- slug: microsoft
+  custom: true
+  urls:
+  - https://support.crowdin.com/enterprise/machine-translation/#microsoft-translator
+  name: Microsoft Translator
+- slug: modernmt
+  urls:
+  - https://support.crowdin.com/enterprise/machine-translation/#modernmt
+  name: ModernMT
+- slug: systran
+  plugin: true
+  urls:
+  - https://store.crowdin.com/systran
+  name: SYSTRAN
+- slug: tencent
+  plugin: true
+  urls:
+  - https://store.crowdin.com/tencent
+  name: Tencent Machine Translation
+- slug: watson
+  urls:
+  - https://support.crowdin.com/enterprise/machine-translation/#watson-ibm-translator
+  name: Watson Language Translator
+- slug: xl8
+  urls:
+  - https://store.crowdin.com/xl8
+  name: XL8
+- slug: yandex
+  active: false
+  name: Yandex Translate
+fuzzy_repair: false
+open-source: false
+quality_estimation: true
+
+---
+

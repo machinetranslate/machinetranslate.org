@@ -78,6 +78,14 @@ defaults:
         type: Product
   -
     scope:
+      path: "tms"
+      type: "pages"
+    values:
+      permalink: /:basename
+      seo:
+        type: Product
+  -
+    scope:
       path: "languages"
       type: "pages"
     values:
@@ -124,6 +132,13 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename
+  -
+    scope:
+      path: "aggregators"
+      type: "pages"
+    values:
+      permalink: /:basename
+  -
   -
     scope:
       path: "products-and-applications"

@@ -64,7 +64,7 @@ parent: APIs
   {% else %}
     <dd><a href="#language-support">{{ page.supported_languages | size }} languages</a>
     {% if page.more_languages_by_request %}
-      , more languages available by request
+      - more languages available by request
     {% endif %}
     </dd>
   {% endif %}
@@ -84,7 +84,7 @@ parent: APIs
   {% endif %}
 
   {% if page.privacy_url %}
-    <dt>Privacy</dt>
+    <dt>Privacy policy</dt>
     <dd>
       <a href="{{ page.privacy_url }}">{{ page.privacy_url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
     </dd>
@@ -169,11 +169,7 @@ parent: APIs
   <ul>
     {% for i in page.integrations %}
       <li>
-        {% if i.url %}
-           <a href="{{ i.url }}" target="_blank">{{ i.name }}</a>
-        {% else %}
-           {{ i.name }}
-        {% endif %}
+           <a href="/tms/{{ i.slug }}" >{{ i.name }}</a>
       </li>
     {% endfor %}
   </ul>

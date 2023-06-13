@@ -1,0 +1,63 @@
+---
+layout: default
+parent: Aggregators
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+<h2>
+  {{ page.description }}
+</h2>
+
+<p>
+  {% if page.supported_engines.size == 1 %}
+    The <strong>{{ page.title }}</strong> aggregator supports <a href="#api-support">{{ page.supported_engines | size }} machine translation engine</a>.
+  {% endif %}
+  {% if page.supported_engines.size > 1 %}
+    The <strong>{{ page.title }}</strong> aggregator supports <a href="#api-support">{{ page.supported_engines | size }} machine translation engines</a>.
+  {% endif %}
+</p>
+
+<blockquote>
+  {% if page.urls.size > 0 %}
+    <hr/>
+    <ul>
+      {% for url in page.urls %}
+      <li>
+        <a href="{{ url }}" target="_blank">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <dl>
+
+    <dt>Supported engines</dt>
+  {% if page.supported_engines.size == 1 %}
+    <dd><a href="#supported_engines">1 engine</a></dd>
+  {% else %}
+    <dd><a href="#supported_engines">{{ page.supported_engines | size }} engines</a></dd>
+  {% endif %}
+
+  </dl>
+
+</blockquote>
+{{ content }}
+
+<ul>
+{% for engine in page.supported_engines %}
+  <li>
+    <a href="/{{ engine.slug }}">{{ engine.name }}</a>
+  </li>
+{% endfor %}
+</ul>
+
+---
+<h3>See also</h3>
+
+<ul>
+  <li>
+    <a href="{% raw %}/../companies#{% endraw %}{{ page.id }}">Company</a>
+  </li>
+</ul>

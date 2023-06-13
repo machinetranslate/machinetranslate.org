@@ -32,6 +32,10 @@ with open('_data/api-language.yml', 'r', encoding='utf8') as stream:
 with open('_data/integrations.yml', 'r', encoding='utf8') as stream:
   INTEGRATIONS = yaml.safe_load(stream)
 
+### Read aggregators
+with open('_data/aggregators.yml', 'r', encoding='utf8') as stream:
+  AGGREGATORS = yaml.safe_load(stream)
+
 def base_language_code(locale_code):
   locale_code = locale_code.replace('_', '-')
   return locale_code.split('-')[0]
@@ -359,3 +363,116 @@ for code, count in sorted(UNLISTED_LANGUAGES.items(), key=lambda x: x[1] * 10 - 
   link = f'https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#{ base_code }' if len(base_code) == 2 else f'https://en.wikipedia.org/wiki/ISO_639:{ base_code }'
 
   print(f'[{ text }]({ link })')
+
+# Generate TMS files
+
+for tms in INTEGRATIONS:
+    tms_id = tms['id']
+    tms_name = tms['name']
+    tms_url = tms['tms_url']
+    tms_type = tms['type']
+    fuzzy_repair = tms.get('fuzzy_repair', False)
+    tms_open_source = tms.get('open_source', False)
+    tms_quality_estimation = tms.get('quality_estimation', False)
+    APIS_BY_ID = {api['id']: api for api in APIS + AGGREGATORS}
+    
+    tms_api_integrations = []
+    for integration in tms['api_integrations']:
+      try:
+        integration_data = {}
+        if type(integration) == type({}):
+          integration_slug = list(integration.keys())[0]
+          integration_data['slug'] = integration_slug
+          for k, v in integration[integration_slug].items():
+            integration_data[k] = v 
+        else:
+          integration_slug = integration
+          integration_data['slug'] = integration_slug
+        
+        integration_data['name'] = APIS_BY_ID[integration_slug]['name']
+
+        tms_api_integrations.append(integration_data)
+      except KeyError:
+        pass
+
+    if 'tms' in tms_type:
+      tms_type_description = 'translation management system'
+    if 'cat' in tms_type and 'tms' not in tms_type:
+      tms_type_description = 'computer-aided tool'
+
+    frontmatter = {
+        'layout': 'tms',
+        'title': tms_name,
+        'description': f'The { tms_name } machine translation integrations',
+        'id': tms_id,
+        'parent': 'TMSs',
+        'type': tms_type,
+        'tms_url': tms_url,
+        'api_integrations': tms_api_integrations,
+        'fuzzy_repair': fuzzy_repair,
+        'open-source': tms_open_source,
+        'quality_estimation': tms_quality_estimation,
+    }
+
+    content = read_content(filepath)
+
+    filepath = f'tms/{tms_id}.md'
+    with open(filepath, 'w', encoding='utf8') as f:
+        f.write(f'''\
+---
+{ yaml.dump(frontmatter, sort_keys=False) }
+---
+{ content }
+''')
+
+
+### Generate Aggregators files
+
+for a in AGGREGATORS:
+    a_id = a['id']
+    a_name = a['name']
+    a_urls = a['urls']
+    a_self_serve = a.get('self-serve', False)
+    ENGINES_BY_ID = {engine['id']: engine for engine in APIS}
+
+    a_supported_engines = []
+    for a in a['supported_engines']:
+      try:
+        a_data = {}
+        if type(a) == type({}):
+          a_slug = list(a.keys())[0]
+          a_data['slug'] = a_slug
+          for k, v in a[a_slug].items():
+            a_data[k] = v 
+        else:
+          a_slug = a
+          a_data['slug'] = a_slug
+        
+        a_data['name'] = ENGINES_BY_ID[a_slug]['name']
+
+        a_supported_engines.append(a_data)
+      except KeyError:
+        pass
+
+    frontmatter = {
+        'layout': 'aggregator',
+        'title': a_name,
+        'description': f'The { a_name } aggregator',
+        'id': a_id,
+        'parent': 'Aggregators',
+        'urls': a_urls,
+        'supported_engines': a_supported_engines,
+        'self-serve': a_self_serve,
+    }
+    
+    content = read_content(filepath)
+
+    filepath = f'aggregators/{a_id}.md'
+    with open(filepath, 'w', encoding='utf8') as f:
+        f.write(f'''\
+---
+{ yaml.dump(frontmatter, sort_keys=False) }
+---
+{ content }
+''')
+
