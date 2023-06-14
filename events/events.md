@@ -13,6 +13,7 @@ seo:
 | Date | Event | Location |
 | --- | --- | --- |
 | 6 - 7 December | [**WMT23**](wmt23.md) | Singapore |
+| 8 November | [**AMTA 2023**](amta2023.md) | online |
 | 4 - 8 September | [**MT Summit 2023**](mtsummit2023.md) | Macau SAR, China |
 | 4 September | [**WAT 2023**](wat2023.md) | Macau SAR, China |
 | 4 - 5 September | [**CoCo4MT 2023**](coco4mt-2.md) | Macau SAR, China |
@@ -20,7 +21,7 @@ seo:
 | 9 - 14 July | [**AmericasNLP**](americasnlp2023.md) | Toronto, Canada |
 | 15 June | [**The Future of Language Related AI for Enterprises**](future-language-ai-enterprise.md) | online |
 | 15 June | [**AT4SSL 2023**](at4ssl2023.md) | Tampere, Finland |
-| 12 - 15 June | [**EAMT 2023**](eamt2023.md) | Tampere, Finland |
+| 12 - 15 June | [EAMT 2023](eamt2023.md) | Tampere, Finland |
 | 5 - 9 June | [MTMA 2023](mtma2023.md) | Fairfax, Virginia |
 | 2 - 6 May | [LoResMT 2023](loresmt2023.md) | Dubrovnik, Croatia |
 | 25 April | [Rise of the Machines: Balancing Language-Related AI Opportunities and Risks](ai-opportunities-and-risk.md) | online |
