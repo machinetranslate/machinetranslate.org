@@ -48,9 +48,9 @@ The content covers everything about machine translation, from products to resear
 
 
 > #### Featured events
+> - [AMTA 2023](/amta2023) - 8 November, online - **New**
+> - [WMT23](/wmt23) - 6-7 December, Singapore
 > - [Machine translation meetup](/meetup)
-> - [EAMT 2023](/eamt2023) - 12-15 June, Tampere, Finland - **New: Workshops now available!**
-> - [WMT23](/wmt23) - 6-7 December, Singapore - **New: Tracks added!**
 
 >
 > #### Featured articles
