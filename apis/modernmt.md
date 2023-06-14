@@ -1216,8 +1216,11 @@ more_languages_by_request: false
 integrations:
 - slug: crowdin
   name: Crowdin
+  custom: true
+  adaptive: true
   urls:
   - https://support.crowdin.com/enterprise/machine-translation/#modernmt
+  - https://store.crowdin.com/adaptive-modernmt
 - slug: matecat
   name: MateCat
   custom: true
