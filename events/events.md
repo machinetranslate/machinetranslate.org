@@ -19,8 +19,8 @@ seo:
 | 4 - 5 September | [**CoCo4MT 2023**](coco4mt-2.md) | Macau SAR, China |
 | 13 - 14 July | [**IWSLT 2023**](iwslt2023.md) | Toronto, Canada |
 | 9 - 14 July | [**AmericasNLP**](americasnlp2023.md) | Toronto, Canada |
-| 15 June | [**The Future of Language Related AI for Enterprises**](future-language-ai-enterprise.md) | online |
-| 15 June | [**AT4SSL 2023**](at4ssl2023.md) | Tampere, Finland |
+| 15 June | [The Future of Language Related AI for Enterprises](future-language-ai-enterprise.md) | online |
+| 15 June | [AT4SSL 2023](at4ssl2023.md) | Tampere, Finland |
 | 12 - 15 June | [EAMT 2023](eamt2023.md) | Tampere, Finland |
 | 5 - 9 June | [MTMA 2023](mtma2023.md) | Fairfax, Virginia |
 | 2 - 6 May | [LoResMT 2023](loresmt2023.md) | Dubrovnik, Croatia |
