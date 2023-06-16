@@ -61,6 +61,17 @@
   territories: [ na, za ]
 
 -
+  codes: [ gsw ]
+  names: [ Alemannic ]
+  variant_names: [ Swiss German, Walser German, Walliser German, Swabian, Alsatian, Low Alemannic, High Alemannic, Middle Alemannic, Highest Alemannic ]
+  family: [ gem, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional ]
+  territories: [ ch, fr, de, at, it ]
+
+-
   codes: [ am, amh ]
   names: [ Amharic ]
   family: [ sem, afa ]
@@ -1422,7 +1433,7 @@
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
-    morphosyntax: [ synthetic ]
+    morphosyntax: [ fusional, synthetic ]
   territories: [ 001, be, nl ]
 
 -
