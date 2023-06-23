@@ -295,6 +295,7 @@
 
     - systran:
         custom: true
+        adaptive: true
         urls:
           - https://docs.memoq.com/current/en/Places/systran-plugin-settings.html
 
