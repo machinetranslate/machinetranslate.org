@@ -17,7 +17,7 @@ Machine translation **quality estimation** (**QE** or **MTQE**) or machine trans
 
 Quality estimation does not require human reference translations, so it is useful for new content.  It uses machine learning to provide predictions that are relatively accurate at the segment level.
 
-[Quality evaluation](/quality/quality-evaluation.md) [metrics](/quality/metrics.md) like [BLEU](/quality/metrics/bleu.md) require human reference translations against which to compare the machine translation output.  But for new content, there are no human reference translations available.
+Quality estimation is fundamentally different than [quality *evaluation*](/quality/quality-evaluation.md).  Quality evaluation [metrics](/quality/metrics.md) like [BLEU](/quality/metrics/bleu.md) require human reference translations against which to compare the machine translation output.  But for new content, there are no human reference translations available.
 
 
 ### Use cases
@@ -90,7 +90,6 @@ There are also providers that offer a quality estimation feature within another 
 | [ModelFront](/industry/companies.md#modelfront) | [ModelFront quality prediction](https://modelfront.com) | Product with cloud API and console | Deep learning, multilingual, blackbox |
 | [Omniscien](/industry/companies.md#omniscien-technologies) | [Translation Confidence Scoring and Quality Estimates](https://omniscien.com/products/language-studio/) | Feature of machine translation API | Glassbox |
 
-
 ### Features and integrations
 
 A few translation management systems have launched generally available features for quality estimation.
@@ -128,7 +127,6 @@ They do not provide quality estimation to others.
 *Note: This list is incomplete.*
 
 ## Types
-
 Quality estimation is typically implemented as classification or regression.
 
 ### Supervised
@@ -169,3 +167,9 @@ Multilingual quality estimation uses one model or system for many language pairs
 ### See also
 
 - [Hybrid translation](/workflows/hybrid-translation.md)
+- [Automatic post-editing](/applications/automatic-post-editing.md)
+- [Post-editing](/applications/post-editing.md)
+
+### References
+
+- [*Learn about machine translation quality prediction](https://www.modelfront.com/quality-prediction)
