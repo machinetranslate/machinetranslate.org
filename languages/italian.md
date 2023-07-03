@@ -44,11 +44,11 @@ supported_apis:
 - id: kakao
   name: Kakao
   supported_language_count: 19
-- id: textshuttle
-  name: TextShuttle
-  supported_language_count: 20
 - id: sogou-translate
   name: Sogou Translate
+  supported_language_count: 21
+- id: textshuttle
+  name: TextShuttle
   supported_language_count: 21
 - id: tilde
   name: Tilde

@@ -8,6 +8,8 @@ code: gem
 languages:
 - slug: afrikaans
   name: Afrikaans
+- slug: alemannic
+  name: Alemannic
 - slug: danish
   name: Danish
 - slug: dutch
