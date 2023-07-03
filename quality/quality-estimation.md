@@ -17,7 +17,9 @@ Machine translation **quality estimation** (**QE** or **MTQE**) or machine trans
 
 Quality estimation does not require human reference translations, so it is useful for new content.  It uses machine learning to provide predictions that are relatively accurate at the segment level.
 
-Quality estimation is fundamentally different than [quality *evaluation*](/quality/quality-evaluation.md).  Quality evaluation [metrics](/quality/metrics.md) like [BLEU](/quality/metrics/bleu.md) require human reference translations against which to compare the machine translation output.  But for new content, there are no human reference translations available.
+Quality estimation is fundamentally different than [quality *evaluation*](/quality/quality-evaluation.md).
+Quality evaluation [metrics](/quality/metrics.md) like [BLEU](/quality/metrics/bleu.md) require human reference translations against which to compare the machine translation output.
+But for new content, there are no human reference translations available.
 
 
 ### Use cases
