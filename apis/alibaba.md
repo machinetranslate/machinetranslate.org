@@ -5,7 +5,7 @@ description: The Alibaba Translate machine translation API
 id: alibaba
 parent: APIs
 urls:
-- https://www.alibabacloud.com/es/product/machine-translation
+- https://www.alibabacloud.com/en/product/machine-translation
 - https://www.alibabacloud.com/help/en/machine-translation/latest/general-version-of-machine-translation
 privacy_url: https://www.alibabacloud.com/help/en/legal/latest/alibaba-cloud-international-website-product-terms-of-service
 self_serve: true
