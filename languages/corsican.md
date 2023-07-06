@@ -32,6 +32,22 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - co
+  - cos
+  names:
+  - Corsican
+  family:
+  - roa
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SOV
+  territories:
+  - fr
 
 ---
 

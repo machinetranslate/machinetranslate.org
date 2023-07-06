@@ -119,6 +119,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - pl
+  - pol
+  names:
+  - Polish
+  family:
+  - sla
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - fusional
+    - synthetic
+  territories:
+  - pl
 
 ---
 

@@ -58,6 +58,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - gu
+  - guj
+  names:
+  - Gujarati
+  family:
+  - inc
+  - iir
+  - ine
+  scripts:
+  - Gujr
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - inflected
+  territories:
+  - in
+  - pk
 
 ---
 

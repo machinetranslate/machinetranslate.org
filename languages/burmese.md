@@ -48,6 +48,28 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - my
+  - mya
+  - bur
+  names:
+  - Burmese
+  - Myanmar
+  - Myanmarese
+  - Birmese
+  family:
+  - sit
+  scripts:
+  - Mymr
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - analytic
+    - isolating
+  territories:
+  - mm
 
 ---
 ## Character encoding

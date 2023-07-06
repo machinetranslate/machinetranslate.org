@@ -132,6 +132,24 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ja
+  - jpn
+  names:
+  - Japanese
+  family:
+  - jpx
+  scripts:
+  - Jpan
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+    - synthetic
+  territories:
+  - jp
 
 ---
 

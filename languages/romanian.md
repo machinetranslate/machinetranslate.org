@@ -104,6 +104,29 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ro
+  - ron
+  - rum
+  names:
+  - Romanian
+  - Rumanian
+  - Moldovan
+  family:
+  - roa
+  - ine
+  scripts:
+  - Latn
+  - Cyrl
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - synthetic
+  territories:
+  - md
+  - ro
 
 ---
 

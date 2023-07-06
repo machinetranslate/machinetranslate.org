@@ -20,6 +20,27 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ve
+  - ven
+  names:
+  - Venda
+  - Tshivenda
+  - Setswetla
+  family:
+  - bnt
+  - nic
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - synthetic
+  territories:
+  - za
+  - zw
 
 ---
 

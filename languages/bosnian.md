@@ -56,6 +56,31 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - bs
+  - bos
+  names:
+  - Bosnian
+  variant_names:
+  - Serbo-Croatian
+  family:
+  - sla
+  - ine
+  scripts:
+  - Latn
+  - Cyrl
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - fusional
+    - inflected
+  territories:
+  - ba
+  - hr
+  - sr
+  - me
 
 ---
 

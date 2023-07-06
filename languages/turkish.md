@@ -120,6 +120,24 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - tr
+  - tur
+  names:
+  - Turkish
+  family:
+  - trk
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - tr
+  - cy
 
 ---
 Turkish is the language with the best machine translation support in the Turkic language family.  

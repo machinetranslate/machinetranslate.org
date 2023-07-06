@@ -92,6 +92,24 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - lt
+  - lit
+  names:
+  - Lithuanian
+  family:
+  - bat
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - inflected
+  territories:
+  - lt
 
 ---
 

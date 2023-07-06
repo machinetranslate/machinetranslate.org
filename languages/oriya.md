@@ -31,6 +31,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - or
+  - ori
+  names:
+  - Oriya
+  - Odia
+  family:
+  - inc
+  - iir
+  - ine
+  scripts:
+  - Orya
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - inflected
+  territories:
+  - id
 
 ---
 

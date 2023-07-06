@@ -18,6 +18,22 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - udm
+  names:
+  - Udmurt
+  family:
+  - fiu
+  scripts:
+  - Cyrl
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - ru
 
 ---
 

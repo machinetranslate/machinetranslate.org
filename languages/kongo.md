@@ -20,6 +20,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - kg
+  - kon
+  names:
+  - Kongo
+  - Kikongo
+  family:
+  - bnt
+  - nic
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - agglutinative
+  territories:
+  - ao
 
 ---
 

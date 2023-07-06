@@ -36,6 +36,23 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - lo
+  - lao
+  names:
+  - Lao
+  family:
+  - tai
+  scripts:
+  - Laoo
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - isolating
+  territories:
+  - la
 
 ---
 

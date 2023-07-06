@@ -129,6 +129,23 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ko
+  - kor
+  names:
+  - Korean
+  family:
+  - kor
+  scripts:
+  - Kore
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - kr
 
 ---
 

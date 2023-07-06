@@ -45,6 +45,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - mn
+  - mon
+  names:
+  - Mongolian
+  family:
+  - xgn
+  scripts:
+  - Cyrl
+  - Mong
+  - Phag
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - mn
 
 ---
 

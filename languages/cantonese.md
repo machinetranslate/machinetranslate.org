@@ -30,6 +30,28 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - yue
+  names:
+  - Cantonese
+  - Yue
+  - Yue Chinese
+  family:
+  - sit
+  scripts:
+  - Hans
+  - Hant
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - analytic
+    - isolating
+  territories:
+  - hk
+  - mo
+  - cn
 
 ---
 

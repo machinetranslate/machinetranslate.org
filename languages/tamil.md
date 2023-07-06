@@ -54,6 +54,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ta
+  - tam
+  names:
+  - Tamil
+  family:
+  - dra
+  scripts:
+  - Taml
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - in
+  - lk
+  - my
+  - sg
 
 ---
 

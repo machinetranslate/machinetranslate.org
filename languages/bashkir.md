@@ -24,6 +24,23 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ba
+  - bak
+  names:
+  - Bashkir
+  family:
+  - trk
+  scripts:
+  - Cyrl
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - ru
 
 ---
 

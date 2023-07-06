@@ -106,6 +106,32 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - hi
+  - hin
+  - hif
+  names:
+  - Hindi
+  - Modern Standard Hindi
+  family:
+  - inc
+  - iir
+  - ine
+  scripts:
+  - Deva
+  - Latn
+  - Mahj
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - fusional
+    - synthetic
+  territories:
+  - in
+  - za
+  - ae
 
 ---
 

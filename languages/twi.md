@@ -18,6 +18,23 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - tw
+  - twi
+  names:
+  - Twi
+  family:
+  - nic
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - synthetic
+  territories:
+  - gh
 
 ---
 

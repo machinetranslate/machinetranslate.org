@@ -18,6 +18,27 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - wo
+  - wol
+  names:
+  - Wolof
+  family:
+  - nic
+  scripts:
+  - Latn
+  - Arab
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - inflected
+    - agglutinative
+  territories:
+  - sn
+  - mr
+  - gm
 
 ---
 

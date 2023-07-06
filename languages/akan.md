@@ -9,6 +9,24 @@ family:
 - slug: niger-congo
   name: Niger-Congo
 supported_apis: []
+lan:
+  codes:
+  - aka
+  names:
+  - Akan
+  family:
+  - nic
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - synthetic
+    - agglutinative
+  territories:
+  - ci
+  - gh
 
 ---
 

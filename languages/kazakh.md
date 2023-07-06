@@ -51,6 +51,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - kk
+  - kaz
+  names:
+  - Kazakh
+  family:
+  - trk
+  scripts:
+  - Cyrl
+  - Arab
+  - Latn
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - kz
 
 ---
 

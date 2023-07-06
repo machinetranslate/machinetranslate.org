@@ -65,6 +65,30 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - sw
+  - swa
+  - swc
+  - swh
+  names:
+  - Swahili
+  - Kiswahili
+  family:
+  - bnt
+  - nic
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - agglutinative
+  territories:
+  - cd
+  - ke
+  - tz
+  - ug
 
 ---
 

@@ -105,6 +105,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - vi
+  - vie
+  names:
+  - Vietnamese
+  family:
+  - aav
+  scripts:
+  - Latn
+  - Hani
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - analytic
+    - isolating
+  territories:
+  - vn
 
 ---
 

@@ -95,6 +95,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - sl
+  - slv
+  names:
+  - Slovenian
+  - Slovene
+  family:
+  - sla
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - fusional
+    - inflected
+  territories:
+  - si
 
 ---
 

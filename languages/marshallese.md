@@ -18,6 +18,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - mh
+  - mah
+  names:
+  - Marshallese
+  - Ebon
+  family:
+  - aav
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - fusional
+    - synthetic
+  territories:
+  - mh
 
 ---
 

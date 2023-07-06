@@ -35,6 +35,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - la
+  - lat
+  names:
+  - Latin
+  family:
+  - roa
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SOV
+    - SVO
+    morphosyntax:
+    - synthetic
+    - fusional
+  territories: []
 
 ---
 

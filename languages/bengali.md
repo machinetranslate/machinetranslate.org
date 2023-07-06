@@ -67,6 +67,27 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - bn
+  - ben
+  names:
+  - Bengali
+  - Bangla
+  family:
+  - inc
+  - iir
+  - ine
+  scripts:
+  - Beng
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - inflected
+  territories:
+  - bd
+  - in
 
 ---
 

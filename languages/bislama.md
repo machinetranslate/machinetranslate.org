@@ -18,6 +18,24 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - bi
+  - bis
+  names:
+  - Bislama
+  - Bichelama
+  family:
+  - cpe
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - analytic
+  territories:
+  - vu
 
 ---
 

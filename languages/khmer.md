@@ -45,6 +45,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - km
+  - khm
+  - kxm
+  names:
+  - Khmer
+  family:
+  - aav
+  scripts:
+  - Khmr
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - analytic
+    - isolating
+  territories:
+  - kh
 
 ---
 

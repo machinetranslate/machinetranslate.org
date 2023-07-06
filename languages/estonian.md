@@ -90,6 +90,27 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - et
+  - est
+  - ekk
+  - vro
+  names:
+  - Estonian
+  family:
+  - fiu
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - fusional
+    - agglutinative
+  territories:
+  - ee
+  - ru
 
 ---
 

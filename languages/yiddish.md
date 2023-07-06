@@ -38,6 +38,35 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - yi
+  - yid
+  - ydd
+  - yih
+  names:
+  - Yiddish
+  family:
+  - gem
+  - ine
+  scripts:
+  - Hebr
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - inflected
+  territories:
+  - ba
+  - nl
+  - pl
+  - ro
+  - se
+  - ua
+  - ru
+  - by
+  - us
+  - il
 
 ---
 

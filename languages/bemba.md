@@ -20,6 +20,30 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - bem
+  names:
+  - Bemba
+  - ChiBemba
+  - Cibemba
+  - Ichibemba
+  - Icibemba
+  - Chiwemba
+  family:
+  - bnt
+  - nic
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - agglutinative
+  territories:
+  - zm
+  - cd
+  - tz
 
 ---
 

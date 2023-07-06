@@ -43,6 +43,29 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - tg
+  - tgk
+  names:
+  - Tajik
+  - Tajiki Persian
+  family:
+  - ira
+  - iir
+  - ine
+  scripts:
+  - Cyrl
+  - Latn
+  - Arab
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - analytic
+  territories:
+  - tj
+  - af
 
 ---
 

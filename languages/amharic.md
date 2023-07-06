@@ -44,6 +44,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - am
+  - amh
+  names:
+  - Amharic
+  family:
+  - sem
+  - afa
+  scripts:
+  - Ethi
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - fusional
+    - synthetic
+  territories:
+  - et
 
 ---
 

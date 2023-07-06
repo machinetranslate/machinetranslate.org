@@ -26,6 +26,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - rw
+  - kin
+  names:
+  - Kinyarwanda
+  - Rwandan
+  - Ikinyarwanda
+  family:
+  - bnt
+  - nic
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - inflected
+  territories:
+  - rw
 
 ---
 

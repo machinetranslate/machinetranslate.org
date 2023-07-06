@@ -36,6 +36,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - tt
+  - tat
+  names:
+  - Tatar
+  family:
+  - trk
+  scripts:
+  - Cyrl
+  - Latn
+  - Arab
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - ru
+  - cn
 
 ---
 

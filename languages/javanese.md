@@ -39,6 +39,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - jv
+  - jav
+  - jw
+  names:
+  - Javanese
+  family:
+  - map
+  scripts:
+  - Java
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - agglutinative
+  territories:
+  - id
 
 ---
 

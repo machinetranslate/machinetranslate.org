@@ -49,6 +49,27 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - eu
+  - eus
+  - baq
+  - bas
+  names:
+  - Basque
+  - Euskara
+  family: []
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - fusional
+    - agglutinative
+  territories:
+  - es
+  - fr
 
 ---
 

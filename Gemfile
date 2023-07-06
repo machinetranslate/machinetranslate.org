@@ -7,7 +7,10 @@ source 'https://rubygems.org'
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-# gem 'jekyll', '~> 4.0.0'
+gem 'jekyll', '~> 3.9.3'
+# gem "jekyll", "~> 4.0.3"
+
+
 
 # Theme
 # gem 'just-the-docs', '0.3.3'
@@ -19,17 +22,17 @@ gem 'github-pages', group: :jekyll_plugins
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.12'
   gem 'jekyll-redirect-from'
-  gem 'jekyll-target-blank'
+  # gem 'jekyll-target-blank'
   gem 'jekyll-seo-tag'
   gem 'html-proofer'
 end
-
+  gem 'webrick'
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem 'tzinfo', '~> 1.2'
   gem 'tzinfo-data'
-  gem 'webrick'
+
 end
 
 gem "nokogiri", ">= 1.6.7.rc"

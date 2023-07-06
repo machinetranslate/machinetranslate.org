@@ -53,6 +53,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - gl
+  - lug
+  names:
+  - Ganda
+  - Luganda
+  family:
+  - bnt
+  - nic
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - agglutinative
+  territories:
+  - ug
 
 ---
 

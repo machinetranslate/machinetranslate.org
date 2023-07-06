@@ -95,6 +95,27 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - he
+  - heb
+  - iw
+  names:
+  - Hebrew
+  family:
+  - sem
+  - afa
+  scripts:
+  - Hebr
+  typology:
+    word_order:
+    - VSO
+    - SVO
+    morphosyntax:
+    - fusional
+    - inflected
+  territories:
+  - il
 
 ---
 

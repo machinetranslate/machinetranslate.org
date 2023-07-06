@@ -34,6 +34,29 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - sd
+  - snd
+  names:
+  - Sindhi
+  family:
+  - inc
+  - iir
+  - ine
+  scripts:
+  - Arab
+  - Deva
+  - Khoj
+  - Sind
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - inflected
+  territories:
+  - in
+  - pk
 
 ---
 

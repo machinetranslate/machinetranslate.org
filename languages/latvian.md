@@ -92,6 +92,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - lv
+  - lav
+  names:
+  - Latvian
+  - Lettish
+  family:
+  - bat
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - inflected
+  territories:
+  - lv
 
 ---
 

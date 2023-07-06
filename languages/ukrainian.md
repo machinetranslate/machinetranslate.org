@@ -92,6 +92,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - uk
+  - ukr
+  names:
+  - Ukrainian
+  family:
+  - sla
+  - ine
+  scripts:
+  - Cyrl
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - fusional
+    - synthetic
+  territories:
+  - ua
+  - md
 
 ---
 

@@ -66,6 +66,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - tl
+  - tgl
+  - fil
+  names:
+  - Tagalog
+  - Filipino
+  family:
+  - map
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - VSO
+    morphosyntax:
+    - agglutinative
+  territories:
+  - ph
 
 ---
 

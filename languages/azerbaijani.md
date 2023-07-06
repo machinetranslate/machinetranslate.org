@@ -51,6 +51,37 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - az
+  - aze
+  - azj
+  - azb
+  names:
+  - Azerbaijani
+  - Azeri
+  - Azeri Turkish
+  - Azerbaijani Turkish
+  - Turkish
+  - Turkmen
+  - Caucasian Tatar
+  - South Azerbaijani
+  - North Azerbaijani
+  family:
+  - trk
+  scripts:
+  - Latn
+  - Cyrl
+  - Arab
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - az
+  - ir
+  - iq
 
 ---
 

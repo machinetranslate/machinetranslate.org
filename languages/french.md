@@ -167,6 +167,30 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - fr
+  - fra
+  - fre
+  names:
+  - French
+  family:
+  - roa
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - inflected
+  territories:
+  - be
+  - ca
+  - ch
+  - fr
+  - lu
+  - mc
 
 ---
 French is one of the best supported languages for machine translation.

@@ -176,11 +176,12 @@ for code in LANGUAGE_FAMILIES:
 ### Write languages
 for language in LANGUAGES:
   code = language['codes'][0]
-  if type(language['codes']) is not list:
+
+  if not isinstance(language['codes'], list):
     raise Exception(language)
 
   name = language['names'][0]
-  if type(language['names']) is not list:
+  if not isinstance(language['names'], list):
     raise Exception(language)
 
   family = []
@@ -212,7 +213,8 @@ for language in LANGUAGES:
     'description': f'Machine translation for { name }',
     'code': code,
     'family': family,
-    'supported_apis': supported_apis
+    'supported_apis': supported_apis,
+    'lan': language,
   }
 
   slug = slugify(name)
@@ -235,15 +237,15 @@ UNLISTED_LANGUAGES = {}
 for api in APIS:
 
   name = api['name']
-  if type(name) is not str:
+  if not isinstance(name, str):
     raise Exception(name)
 
   api_id = api['id']
-  if type(api_id) is not str:
+  if not isinstance(api_id, str):
     raise Exception(api_id)
 
   languages = api['languages']
-  if type(languages) is not list:
+  if not isinstance(languages, list):
     raise Exception(languages)
 
   urls = api['urls']
@@ -303,7 +305,7 @@ for api in APIS:
           'slug': integration['id'],
           'name': integration['name']
         })
-      elif type(i) == dict:
+      elif isinstance(i, dict):
         id = next(iter(i))
         if id == api_id:
           integrations.append({

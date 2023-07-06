@@ -39,6 +39,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - eo
+  - epo
+  names:
+  - Esperanto
+  family:
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    - OVS
+    - SOV
+    - VOS
+    - VSO
+    morphosyntax:
+    - agglutinative
+  territories: []
 
 ---
 

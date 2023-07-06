@@ -23,6 +23,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - br
+  - bre
+  - xbm
+  - obt
+  names:
+  - Breton
+  family:
+  - cel
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - VSO
+    morphosyntax:
+    - inflected
+  territories:
+  - fr
 
 ---
 

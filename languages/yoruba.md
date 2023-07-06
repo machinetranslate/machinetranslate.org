@@ -30,6 +30,22 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - yo
+  - yor
+  names:
+  - Yoruba
+  family:
+  - nic
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - isolating
+  territories: []
 
 ---
 

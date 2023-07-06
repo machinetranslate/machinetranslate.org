@@ -164,6 +164,45 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - es
+  - spa
+  names:
+  - Spanish
+  family:
+  - roa
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - fusional
+    - inflected
+  territories:
+  - 419
+  - ar
+  - bo
+  - cl
+  - co
+  - cr
+  - do
+  - ec
+  - es
+  - gt
+  - hn
+  - mx
+  - ni
+  - pa
+  - pe
+  - pr
+  - py
+  - sv
+  - us
+  - uy
+  - ve
 
 ---
 Spanish is one of the best supported languages for machine translation.

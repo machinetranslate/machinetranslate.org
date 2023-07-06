@@ -49,6 +49,28 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - mr
+  - mar
+  names:
+  - Marathi
+  family:
+  - inc
+  - iir
+  - ine
+  scripts:
+  - Deva
+  - Modi
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+    - inflected
+    - analytic
+  territories:
+  - in
 
 ---
 
