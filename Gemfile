@@ -7,8 +7,7 @@ source 'https://rubygems.org'
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem 'jekyll', '~> 3.9.3'
-# gem "jekyll", "~> 4.0.3"
+# gem "jekyll", "~> 4.0.0"
 
 
 # Theme
@@ -21,7 +20,7 @@ gem 'github-pages', group: :jekyll_plugins
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.12'
   gem 'jekyll-redirect-from'
-  # gem 'jekyll-target-blank'
+  gem 'jekyll-target-blank'
   gem 'jekyll-seo-tag'
   gem 'html-proofer'
 end
