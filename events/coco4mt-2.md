@@ -49,8 +49,8 @@ Topics (not limited):
 | 25 May 2023 | Shared task release of baselines |
 | 05 June 2023 | Second call for papers |
 | 20 June 2023 | Third and final call for papers |
-| 05 July 2023 | Paper submissions due |
-| 05 July 2023 | Shared task deadline to submit results |
+| 16 July 2023 | Paper submissions due |
+| 16 July 2023 | Shared task deadline to submit results |
 | 20 July 2023 | Notification of acceptance |
 | 20 July 2023 | Shared task system description papers due |
 | 31 July 2023 | Camera-ready due |
