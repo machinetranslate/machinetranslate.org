@@ -58,7 +58,7 @@ active: true
 ---
 
 <blockquote>
- <strong>TAPTA</strong>, also called <strong>TAPTA4UN</strong>, is the official machine translation system of the United Nations (UN).
+ ℹ️ <strong>TAPTA</strong>, also called <strong>TAPTA4UN</strong>, is the official machine translation system of the United Nations (UN).
 </blockquote>
 
 
