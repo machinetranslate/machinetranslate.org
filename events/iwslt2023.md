@@ -26,9 +26,7 @@ seo:
 
 The International Conference on Spoken Language Translation (**IWSLT**) is an annual scientific conference on spoken language translation.
 
-IWSLT 2023 will be held at ACL 2023 online and in Toronto, Canada from 13 to 14 July, 2023.
-
-*Last updated from [iwslt.org/2023](https://iwslt.org/2023/) on December 21st, 2022*
+IWSLT 2023 was held at ACL 2023 online and in Toronto, Canada from 13 to 14 July, 2023.
 
 ### Shared tasks
 
