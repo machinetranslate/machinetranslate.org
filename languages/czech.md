@@ -14,11 +14,11 @@ supported_apis:
 - id: phrase-nextmt
   name: Phrase NextMT
   supported_language_count: 8
-- id: textshuttle
-  name: TextShuttle
-  supported_language_count: 20
 - id: sogou-translate
   name: Sogou Translate
+  supported_language_count: 21
+- id: textshuttle
+  name: TextShuttle
   supported_language_count: 21
 - id: tilde
   name: Tilde

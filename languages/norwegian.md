@@ -16,7 +16,7 @@ supported_apis:
   supported_language_count: 8
 - id: textshuttle
   name: TextShuttle
-  supported_language_count: 20
+  supported_language_count: 21
 - id: unbabel
   name: Unbabel
   supported_language_count: 29

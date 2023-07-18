@@ -552,14 +552,14 @@
   territories: [ es, fr ]
 
 -
-  codes: [ fa, fas, per, prs ]
-  names: [ Persian, Farsi ]
-  variant_names: [ Dari, Dari Persian, Afghan Persian, Eastern Persian, Tajiki Persian ]
+  codes: [ fa, fas, per, prs, pes ]
+  names: [ Persian, Farsi, Dari, Tajik ]
+  variant_names: [ Dari, Dari Persian, Afghan Persian, Western Persian, Eastern Persian, Iranian Persian, Tajik, Tajiki Persian ]
   family: [ ira, iir, ine ]
   scripts: [ Arab ]
   typology:
     word_order: [ SOV ]
-    morphosyntax: [ agglutinative ]
+    morphosyntax: [ fusional, analytic ]
   territories: [ ir, af ]
 
 -
@@ -1298,9 +1298,6 @@
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]
   territories: [ ru ]
-# urls:
-#  https://mari-language.univie.ac.at/grammar/eg2022.pdf
-# https://en.wikipedia.org/wiki/Mari_language
 
 -
   codes: [ mi, mri, mao ]
@@ -1553,16 +1550,6 @@
     word_order: [ SVO ]
     morphosyntax:
   territories: [ aw, cw ]
-
--
-  codes: [ pes ]
-  names: [ Iranian Persian, Western Persian, Western Farsi, Persian ]
-  family: [ iir, ine ]
-  scripts: [ Arab ]
-  typology:
-    word_order: [ SOV ]
-    morphosyntax: [ agglutinative ]
-  territories: [ ir ]
 
 -
   codes: [ pl, pol ]
