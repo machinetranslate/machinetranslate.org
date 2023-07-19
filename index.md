@@ -48,7 +48,7 @@ The content covers everything about machine translation, from products to resear
 
 
 > #### Featured events
-> - [AMTA 2023](/amta2023) - 8 November, online - **New**
+> - [AMTA 2023](/amta2023) - 8 November, online - **Call for papers deadline updated**
 > - [WMT23](/wmt23) - 6-7 December, Singapore
 > - [Machine translation meetup](/meetup)
 

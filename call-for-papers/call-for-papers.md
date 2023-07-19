@@ -13,7 +13,7 @@ seo:
 | --- | --- | --- |
 | **5 September 2023** | [**WMT23**](/events/wmt23.md) | Singapore |
 | **7 July 2023** | [**WAT 2023**](/events/wat2023.md) | Macau SAR, China |
-| **31 July** | [**AMTA 2023**](/events/amta2023.md) | online |
+| **15 August** | [**AMTA 2023**](/events/amta2023.md) | online |
 | 16 July 2023 | [CoCo4MT 2](/events/coco4mt-2.md) | Macau SAR, China |
 | 15 May 2023 | [MT Summit 2023 papers](/events/mtsummit2023.md) | Macau SAR, China |
 | 17 April 2023 | [MT Summit 2023 workshops and tutorials](/events/mtsummit2023.md) | Macau SAR, China |
