@@ -152,6 +152,8 @@
     - tms: true
     - cat: true
   api_integrations:
+    - deepl
+
     - microsoft
   
     - tapta
@@ -343,6 +345,7 @@
           - https://docs.memoq.com/current/en/Places/pangeamt-plugin-settings.html
 
     - slate:
+        active: false
         urls:
           - https://docs.memoq.com/current/en/Places/slate-desktop-plugin-settings.html
 
@@ -451,7 +454,8 @@
     - kantanmt:
         custom: true
 
-    - kodensha
+    - kodensha:
+        active: false
 
     - microsoft:
         custom: true
@@ -459,9 +463,11 @@
 
     - mirai
 
-    - moraviamt
+    - moraviamt:
+        active: false
 
-    - nict
+    - nict:
+        active: false
 
     - npatmt:
         urls:
@@ -491,21 +497,24 @@
         custom: true
         offline_glossary: true
 
-    - skrivanek
+    - skrivanek:
+        active: false
 
     - sundamt
 
     - systran:
         custom: true
 
-    - tauyou
+    - tauyou:
+        active: false
 
     - tencent
 
     - tilde:
         custom: true
 
-    - toshiba
+    - toshiba:
+        active: false
 
     - t-tact-an-zin
 
@@ -678,7 +687,8 @@
     
     - google
     
-    - baidu
+    - baidu:
+        active: false
     
     - microsoft
 
@@ -843,6 +853,7 @@
         plugin: true
         urls:
           - https://www.tmxmall.com/products/plugin
+        active: false
 
     - trebe:
         plugin: true
