@@ -14,6 +14,7 @@ more_languages_by_request: false
 integrations:
 - slug: phrase
   name: Phrase TMS
+  active: false
 nav_order: 1000
 active: true
 

@@ -227,6 +227,8 @@ integrations:
   formality: true
   urls:
   - https://support.crowdin.com/enterprise/machine-translation/#deepl-translator
+- slug: eluna
+  name: eLUNa
 - slug: memoq
   name: MemoQ
   glossary: true

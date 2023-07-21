@@ -1226,6 +1226,7 @@ integrations:
   - https://www.smartcat.com/integrations/baidu-translate/
 - slug: tolgee
   name: Tolgee
+  active: false
 nav_order: 799
 active: true
 redirect_from: baidu-translate

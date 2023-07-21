@@ -266,6 +266,7 @@ more_languages_by_request: true
 integrations:
 - slug: phrase
   name: Phrase TMS
+  active: false
 nav_order: 958
 active: true
 redirect_from: kodensha-mt
