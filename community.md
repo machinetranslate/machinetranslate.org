@@ -10,7 +10,7 @@ Read news, ask and answer questions and share your work!
 
 <center>
     <a href="https://reddit.com/r/machinetranslation">
-        <button id="airtable-button">
+        <button id="airtable-button" style="background: transparent; border: 1px solid #ccc; display: none; margin-top: 20px;">
             Join the community
         </button>
     </a>
