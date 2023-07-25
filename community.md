@@ -9,8 +9,8 @@ description: Machine Translate community
 Read news, ask and answer questions and share your work!
 
 <center>
-    <a href="https://reddit.com/r/machinetranslation">
-        <button id="airtable-button" style="background: transparent; border: 1px solid #ccc; display: none; margin-top: 20px;">
+    <a href="https://reddit.com/r/machinetranslation" class="no-arrow">
+        <button id="airtable-button">
             Join the community
         </button>
     </a>
