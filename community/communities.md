@@ -20,7 +20,7 @@ Machine translation communities are mainly global and online.
 
 {% include collapsible_toc.html %}
 
-### Reddit `r/machinetranslation`
+### *r/machinetranslation* on Reddit
 
 The **machinetranslation** sub-reddit posts are news, projects and questions about machine translation research, engineering, product and industry.
 
