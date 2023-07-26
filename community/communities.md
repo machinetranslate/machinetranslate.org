@@ -132,8 +132,6 @@ LibreTranslate is powered by the open-source Argos Translate library.
 [groups.google.com/g/sigslt](https://groups.google.com/g/sigslt)
 
 
-## Government mailing lists
-
 ### Open Machine Translation Evaluation (OpenMT)
 
 **MT_list** (mt_list@list.nist.gov) is the official mailing list of the National Institute of Standards and Technology (NIST) Open Machine Translation evaluation series.
@@ -143,18 +141,28 @@ LibreTranslate is powered by the open-source Argos Translate library.
 [groups.google.com/a/list.nist.gov/g/mt_list](https://groups.google.com/a/list.nist.gov/g/mt_list)
 
 
-## Product mailing lists
+## Product-specific communities
 
 ### Google Cloud Translation API
 
-**Google Cloud Translation API** (google-translate-api@googlegroups.com) is the official mailing list of the Google Translation API.
+The **Google Cloud Translation API** (google-translate-api@googlegroups.com) Google Group was the official mailing list of the Google Translation API.
 
 > Post questions and discuss the Google Cloud Translation API.
 
 [groups.google.com/g/google-translate-api](https://groups.google.com/g/google-translate-api)
 
 
-## Tags
+### Language Weaver
+
+The **Language Weaver** RWS community is the official group of [Language Weaver](/apis/language-weaver.md)
+
+> Post questions and discuss the Google Cloud Translation API.
+
+[community.rws.com/product-groups/linguistic-ai/](https://community.rws.com/product-groups/linguistic-ai/)
+
+
+
+## Topics in general communities
 
 ### StackOverflow `machine-translation`
 
