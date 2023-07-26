@@ -153,6 +153,9 @@ integrations:
   plugin: true
   urls:
   - https://appstore.rws.com/plugin/145/
+- slug: transitnxt
+  name: TransitNXT
+  glossary: true
 - slug: wordbee
   name: Wordbee
   urls:

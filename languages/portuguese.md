@@ -17,12 +17,12 @@ supported_apis:
 - id: lucy
   name: Lucy
   supported_language_count: 9
-- id: alexa-translations-ai
-  name: Alexa Translations A.I.
-  supported_language_count: 10
 - id: translateme
   name: TranslateMe
   supported_language_count: 11
+- id: alexa-translations-ai
+  name: Alexa Translations A.I.
+  supported_language_count: 12
 - id: lingo24
   name: Lingo24
   supported_language_count: 13

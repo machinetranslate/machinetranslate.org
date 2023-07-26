@@ -264,6 +264,10 @@ integrations:
 - slug: transifex
   name: Transifex
   formality: true
+- slug: transitnxt
+  name: TransitNXT
+  glossary: true
+  formality: true
 - slug: translate5
   name: translate5
   plugin: true

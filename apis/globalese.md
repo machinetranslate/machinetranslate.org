@@ -244,6 +244,8 @@ integrations:
   urls:
   - https://globalese.atlassian.net/servicedesk/customer/portal/2/article/2232746052
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647135792/Document+translation+plugin+for+Trados+Studio
+- slug: transitnxt
+  name: TransitNXT
 - slug: translate5
   name: translate5
   urls:

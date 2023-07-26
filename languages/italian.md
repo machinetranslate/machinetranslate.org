@@ -16,13 +16,13 @@ supported_apis:
   supported_language_count: 8
 - id: phrase-nextmt
   name: Phrase NextMT
-  supported_language_count: 8
-- id: alexa-translations-ai
-  name: Alexa Translations A.I.
-  supported_language_count: 10
+  supported_language_count: 9
 - id: translateme
   name: TranslateMe
   supported_language_count: 11
+- id: alexa-translations-ai
+  name: Alexa Translations A.I.
+  supported_language_count: 12
 - id: papago
   name: Papago Translation
   supported_language_count: 12

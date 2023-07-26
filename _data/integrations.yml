@@ -910,8 +910,8 @@
   documentation_url: https://www.star-group.net/en/downloads/transit-termstar.html
   api_integrations:
     - deepl:
-      glossary: true
-      formality: true
+        glossary: true
+        formality: true
 
     - globalese
 

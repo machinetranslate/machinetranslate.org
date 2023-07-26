@@ -17,11 +17,11 @@ supported_apis:
 - id: tapta
   name: TAPTA
   supported_language_count: 6
-- id: phrase-nextmt
-  name: Phrase NextMT
-  supported_language_count: 8
 - id: lucy
   name: Lucy
+  supported_language_count: 9
+- id: phrase-nextmt
+  name: Phrase NextMT
   supported_language_count: 9
 - id: translateme
   name: TranslateMe

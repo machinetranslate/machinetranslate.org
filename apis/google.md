@@ -875,6 +875,8 @@ integrations:
 - slug: transifex
   name: Transifex
   custom: true
+- slug: transitnxt
+  name: TransitNXT
 - slug: translate5
   name: translate5
   urls:

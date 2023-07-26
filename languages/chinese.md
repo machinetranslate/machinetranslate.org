@@ -1,5 +1,5 @@
 ---
-nav_order: 954
+nav_order: 953
 parent: Languages
 layout: language
 title: Chinese
@@ -21,12 +21,15 @@ supported_apis:
 - id: pangeamt
   name: PangeaMT
   supported_language_count: 8
-- id: alexa-translations-ai
-  name: Alexa Translations A.I.
-  supported_language_count: 10
+- id: phrase-nextmt
+  name: Phrase NextMT
+  supported_language_count: 9
 - id: translateme
   name: TranslateMe
   supported_language_count: 11
+- id: alexa-translations-ai
+  name: Alexa Translations A.I.
+  supported_language_count: 12
 - id: papago
   name: Papago Translation
   supported_language_count: 12

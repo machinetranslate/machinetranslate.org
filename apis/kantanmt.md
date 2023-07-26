@@ -362,6 +362,9 @@ integrations:
   custom: true
   urls:
   - https://docs.transifex.com/machine-translation/working-with-kantan-mt
+- slug: transitnxt
+  name: TransitNXT
+  custom: true
 - slug: wordbee
   name: Wordbee
   custom: true
