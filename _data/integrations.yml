@@ -903,6 +903,36 @@
 
   local_api_support: true
 
+- id: transitnxt
+  name: TransitNXT
+  url: https://www.star-group.net/en/products/translation-localization.html
+  type: [ tms, cat ]
+  documentation_url: https://www.star-group.net/en/downloads/transit-termstar.html
+  api_integrations:
+    - deepl:
+      glossary: true
+      formality: true
+
+    - globalese
+
+    - google
+
+    - kantanmt:
+        custom: true
+
+    - microsoft
+
+    - smartmate:
+        glossary: true
+
+    - systran
+
+    - textshuttle:
+        glossary: true
+
+  local_api_support: true
+  multiple_api_suggestions: true
+
 - id: translate5
   name: translate5
   url: https://translate5.net

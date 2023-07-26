@@ -19,7 +19,7 @@
   company: alexa-translations-ai
   urls:
    - https://alexatranslations.com/alexa-translations-a-i
-  languages: [ ar, de, en, es-419, fr-ca, it, ja, ko, pt-br, zh ]
+  languages: [ ar, de, en, es-419, fr-ca, it, ja, ko, nl, pt-br, tr, zh ]
 
   stock_api_domains:
     - finance
@@ -586,7 +586,7 @@
   company: phrase
   urls:
     - https://phrase.com/products/phrase-nextmt/
-  languages: [ [cs, en], [de, en], [en, cs], [en, de], [en, es], [en, fr], [en, it], [en, nl], [en, ru], [es, en], [fr, en], [it, en], [nl, en], [ru, en] ]
+  languages: [ [cs, en], [de, en], [en, cs], [en, de], [en, es], [en, fr], [en, it], [en, nl], [en, ru], [en, zh-cn], [es, en], [fr, en], [it, en], [nl, en], [ru, en], [zh-cn, en] ]
 
   glossary: true
   adaptive: true
