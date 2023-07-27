@@ -1,12 +1,13 @@
 ---
-layout: tms
+layout: translation-management-system
 title: translate5
-description: The translate5 machine translation integrations
+description: Machine translation API integrations in translate5
 id: translate5
-parent: TMSs
+parent: Translation management systems
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: https://translate5.net
 api_integrations:
 - slug: deepl
@@ -42,7 +43,7 @@ api_integrations:
   name: PangeaMT
 fuzzy_repair: false
 open-source: true
-quality_estimation: true
+quality_estimation_api_integrations: null
 
 ---
 

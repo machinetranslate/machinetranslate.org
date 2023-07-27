@@ -1,12 +1,13 @@
 ---
-layout: tms
+layout: translation-management-system
 title: Wordfast
-description: The Wordfast machine translation integrations
+description: Machine translation API integrations in Wordfast
 id: wordfast
-parent: TMSs
+parent: Translation management systems
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: http://www.wordfast.com
 api_integrations:
 - slug: deepl
@@ -53,7 +54,7 @@ api_integrations:
   name: Yandex Translate
 fuzzy_repair: false
 open-source: false
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

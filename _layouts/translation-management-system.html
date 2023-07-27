@@ -1,0 +1,72 @@
+---
+layout: default
+parent: Translation management systems
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+<h2>
+  {{ page.description }}
+</h2>
+
+<hr/>
+
+<p>
+  {% if page.api_integrations.size == 1 %}
+    The <strong>{{ page.title }}</strong> {{ page.type_description }} has <a href="#api-support">{{ page.api_integrations | size }} machine translation API integration</a>.
+  {% else %}
+    The <strong>{{ page.title }}</strong> {{ page.type_description }} has <a href="#api-support">{{ page.api_integrations | size }} machine translation API integrations</a>.
+  {% endif %}
+</p>
+
+<blockquote>
+  <dl>
+
+    <dt>API support</dt>
+    {% if page.api_integrations.size == 1 %}
+      <dd><a href="#api-support">1 API</a></dd>
+    {% else %}
+      <dd><a href="#api-support">{{ page.api_integrations | size }} APIs</a></dd>
+    {% endif %}
+
+    {% if page.open-source %}
+      <dd>Open-source</dd>
+    {% endif %}
+  </dl>
+      <li>
+        <a href="{{ page.tms_url }}" target="_blank">{{ page.tms_url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
+      </li>
+</blockquote>
+
+{{ content }}
+
+<h2 id="api-support">API support</h2>
+
+<p>The {{ page.title }} {{ page.type_description }} has <strong>{{ page.api_integrations | size }} machine translation API integrations</strong>.</p>
+
+<ul>
+{% for api in page.api_integrations %}
+  <li>
+    {% if api.plugin %}
+      <a href="/{{ api.slug }}">{{ api.name }}</a> (plugin)
+    {% else %}
+      <a href="/{{ api.slug }}">{{ api.name }}</a>
+    {% endif %}
+      {% if api.custom or api.glossary or api.formality %}
+        {% if api.custom %}
+        , <strong>fine-tuning</strong> support
+        {% endif %}
+        {% if api.glossary %}
+        , <strong>glossary</strong> support
+        {% endif %}
+        {% if api.formality %}
+        , <strong>formality</strong> support
+        {% endif %}
+      {% endif %}
+  </li>
+{% endfor %}
+
+{% if page.fuzzy_repair %}
+    {{ page.description }} offers <strong>fuzzy repair</strong> with machine translation.
+{% endif %}

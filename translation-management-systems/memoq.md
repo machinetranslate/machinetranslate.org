@@ -1,12 +1,13 @@
 ---
-layout: tms
+layout: translation-management-system
 title: MemoQ
-description: The MemoQ machine translation integrations
+description: Machine translation API integrations in MemoQ
 id: memoq
-parent: TMSs
+parent: Translation management systems
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: https://www.memoq.com
 api_integrations:
 - slug: alexa-translations-ai
@@ -91,6 +92,7 @@ api_integrations:
   name: Slate Desktop
 - slug: systran
   custom: true
+  adaptive: true
   urls:
   - https://docs.memoq.com/current/en/Places/systran-plugin-settings.html
   name: SYSTRAN
@@ -119,7 +121,7 @@ api_integrations:
   name: XL8
 fuzzy_repair: true
 open-source: false
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

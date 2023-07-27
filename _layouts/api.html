@@ -168,18 +168,12 @@ parent: APIs
       <p><strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} API.</p>
     {% endif %}
 
-
-    <ul>
-      {% for i in page.integrations %}
-        <li>
-          {% if i.url %}
-            <a href="/translation-management-systems/{{ i.slug }}" target="_blank">{{ i.name }}</a>
-          {% else %}
-            {{ i.name }}
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
+  <ul>
+    {% for i in page.integrations %}
+      <li>
+           <a href="/translation-management-systems/{{ i.slug }}" >{{ i.name }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
 {% endif %}

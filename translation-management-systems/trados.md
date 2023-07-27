@@ -1,11 +1,12 @@
 ---
-layout: tms
+layout: translation-management-system
 title: Trados Studio
-description: The Trados Studio machine translation integrations
+description: Machine translation API integrations in Trados Studio
 id: trados
-parent: TMSs
+parent: Translation management systems
 type:
 - cat
+type_description: computer-aided translation tool
 tms_url: https://www.trados.com/products/trados-studio
 api_integrations:
 - slug: alexa-translations-ai
@@ -170,7 +171,7 @@ api_integrations:
   name: Youdao Translate
 fuzzy_repair: true
 open-source: false
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

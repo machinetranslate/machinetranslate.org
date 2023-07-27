@@ -1,12 +1,13 @@
 ---
-layout: tms
+layout: translation-management-system
 title: XTM
-description: The XTM machine translation integrations
+description: Machine translation API integrations in XTM
 id: xtm
-parent: TMSs
+parent: Translation management systems
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: http://xtm.cloud
 api_integrations:
 - slug: amazon
@@ -109,7 +110,7 @@ api_integrations:
   name: TexTra
 fuzzy_repair: true
 open-source: false
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

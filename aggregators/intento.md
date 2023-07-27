@@ -8,7 +8,7 @@ urls:
 - https://inten.to/
 - https://help.inten.to/hc/en-us/articles/360018469520-Intento-API-quick-guide
 - https://github.com/intento/intento-api
-supported_engines:
+supported_apis:
 - slug: alibaba
   name: Alibaba Translate
 - slug: amazon

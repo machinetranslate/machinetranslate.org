@@ -5,7 +5,7 @@
   company: crosslang
   urls:
     - https://crosslang.com/products/machine-translation-gateway/
-  supported_engines:
+  supported_apis:
     - amazon
     - judicio
     - deepl
@@ -21,7 +21,7 @@
     - https://custom.mt/
   privacy_url:
     - https://custom.mt/privacy-policy/
-  supported_engines:
+  supported_apis:
     - amazon
     - deepl
     - globalese
@@ -39,7 +39,7 @@
     - https://www.science.co.jp/nmt/index.html
     - https://www.science.co.jp/english/machinetranslation/machinetranslation.html
   languages: [ ar, bn, de, en, es, fr, hi, id, it, ja, ko, mn, ms, my, ne, nl, pl, pt, ro, ru, sv, th, tl, tr, vi, zh-cn, zh-tw ]
-  supported_engines:
+  supported_apis:
     - google
     - microsoft
     - nict
@@ -55,7 +55,7 @@
     - https://github.com/intento/intento-api
   privacy_url:
     - https://inten.to/privacy
-  supported_engines:
+  supported_apis:
     - alibaba
     - amazon
     - baidu
@@ -81,7 +81,7 @@
   urls:
     - https://www.tmxmall.com/
   privacy_url:
-  supported_engines:
+  supported_apis:
     - alibaba
     - amazon
     - baidu

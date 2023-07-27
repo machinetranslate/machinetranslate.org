@@ -11,12 +11,7 @@ parent: Aggregators
 </h2>
 
 <p>
-  {% if page.supported_engines.size == 1 %}
-    The <strong>{{ page.title }}</strong> aggregator supports <a href="#api-support">{{ page.supported_engines | size }} machine translation engine</a>.
-  {% endif %}
-  {% if page.supported_engines.size > 1 %}
-    The <strong>{{ page.title }}</strong> aggregator supports <a href="#api-support">{{ page.supported_engines | size }} machine translation engines</a>.
-  {% endif %}
+  The <strong>{{ page.title }}</strong> <a href="/aggregators">aggregator</a> supports <a href="#api-support">{{ page.supported_apis | size }} machine translation APIs</a>.
 </p>
 
 <blockquote>
@@ -32,32 +27,27 @@ parent: Aggregators
   {% endif %}
 
   <dl>
-
-    <dt>Supported engines</dt>
-  {% if page.supported_engines.size == 1 %}
-    <dd><a href="#supported_engines">1 engine</a></dd>
-  {% else %}
-    <dd><a href="#supported_engines">{{ page.supported_engines | size }} engines</a></dd>
-  {% endif %}
-
+    <dt>Supported APIs</dt>
+    <dd><a href="#supported_apis">{{ page.supported_apis | size }} APIs</a></dd>
   </dl>
 
 </blockquote>
 {{ content }}
 
 <ul>
-{% for engine in page.supported_engines %}
+{% for api in page.supported_apis %}
   <li>
-    <a href="/{{ engine.slug }}">{{ engine.name }}</a>
+    <a href="/{{ api.slug }}">{{ api.name }}</a>
   </li>
 {% endfor %}
 </ul>
 
 ---
+
 <h3>See also</h3>
 
 <ul>
   <li>
-    <a href="{% raw %}/../companies#{% endraw %}{{ page.id }}">Company</a>
+    <a href="/aggregators">More aggregators</a>
   </li>
 </ul>

@@ -28,9 +28,9 @@ with open('_data/apis.yml', 'r', encoding='utf8') as stream:
 with open('_data/api-language.yml', 'r', encoding='utf8') as stream:
   API_LANGUAGE = yaml.safe_load(stream)
 
-### Read integrations
-with open('_data/integrations.yml', 'r', encoding='utf8') as stream:
-  INTEGRATIONS = yaml.safe_load(stream)
+### Read translation management systems
+with open('_data/translation-management-systems.yml', 'r', encoding='utf8') as stream:
+  TRANSLATION_MANAGEMENT_SYSTEMS = yaml.safe_load(stream)
 
 ### Read aggregators
 with open('_data/aggregators.yml', 'r', encoding='utf8') as stream:
@@ -304,19 +304,19 @@ for api in APIS:
         UNLISTED_LANGUAGES[code] = 1
 
   integrations = []
-  for integration in INTEGRATIONS:
-    for i in integration['api_integrations']:
+  for tms in TRANSLATION_MANAGEMENT_SYSTEMS:
+    for i in tms['api_integrations']:
       if i == api_id:
         integrations.append({
-          'slug': integration['id'],
-          'name': integration['name']
+          'slug': tms['id'],
+          'name': tms['name']
         })
       elif type(i) == dict:
         id = next(iter(i))
         if id == api_id:
           integrations.append({
-            'slug': integration['id'],
-            'name': integration['name'],
+            'slug': tms['id'],
+            'name': tms['name'],
             **i[api_id]
           })
 
@@ -366,17 +366,17 @@ for code, count in sorted(UNLISTED_LANGUAGES.items(), key=lambda x: x[1] * 10 - 
 
 # Generate TMS files
 
-for tms in INTEGRATIONS:
+for tms in TRANSLATION_MANAGEMENT_SYSTEMS:
     tms_id = tms['id']
     tms_name = tms['name']
     tms_url = tms['tms_url']
     tms_type = tms['type']
     fuzzy_repair = tms.get('fuzzy_repair', False)
     tms_open_source = tms.get('open_source', False)
-    tms_quality_estimation = tms.get('quality_estimation', False)
+    tms_quality_estimation_api_integrations = tms.get('quality_estimation_api_integrations', None)
     APIS_BY_ID = {api['id']: api for api in APIS + AGGREGATORS}
     
-    tms_api_integrations = []
+    api_integrations = []
     for integration in tms['api_integrations']:
       try:
         integration_data = {}
@@ -391,32 +391,35 @@ for tms in INTEGRATIONS:
         
         integration_data['name'] = APIS_BY_ID[integration_slug]['name']
 
-        tms_api_integrations.append(integration_data)
+        api_integrations.append(integration_data)
       except KeyError:
         pass
 
     if 'tms' in tms_type:
       tms_type_description = 'translation management system'
-    if 'cat' in tms_type and 'tms' not in tms_type:
-      tms_type_description = 'computer-aided tool'
+    elif 'cat':
+      tms_type_description = 'computer-aided translation tool'
+    else:
+      raise 'TMS type must include `tms` or `cat`.'
 
     frontmatter = {
-        'layout': 'tms',
-        'title': tms_name,
-        'description': f'The { tms_name } machine translation integrations',
+        'layout': 'translation-management-system',
+        'title':  tms_name,
+        'description': f'Machine translation API integrations in { tms_name }',
         'id': tms_id,
-        'parent': 'TMSs',
+        'parent': 'Translation management systems',
         'type': tms_type,
+        'type_description': tms_type_description,
         'tms_url': tms_url,
-        'api_integrations': tms_api_integrations,
+        'api_integrations': api_integrations,
         'fuzzy_repair': fuzzy_repair,
         'open-source': tms_open_source,
-        'quality_estimation': tms_quality_estimation,
+        'quality_estimation_api_integrations': tms_quality_estimation_api_integrations,
     }
 
     content = read_content(filepath)
 
-    filepath = f'tms/{tms_id}.md'
+    filepath = f'translation-management-systems/{tms_id}.md'
     with open(filepath, 'w', encoding='utf8') as f:
         f.write(f'''\
 ---
@@ -433,10 +436,10 @@ for a in AGGREGATORS:
     a_name = a['name']
     a_urls = a['urls']
     a_self_serve = a.get('self-serve', False)
-    ENGINES_BY_ID = {engine['id']: engine for engine in APIS}
+    APIS_BY_ID = {api['id']: api for api in APIS}
 
-    a_supported_engines = []
-    for a in a['supported_engines']:
+    a_supported_apis = []
+    for a in a['supported_apis']:
       try:
         a_data = {}
         if type(a) == type({}):
@@ -448,9 +451,9 @@ for a in AGGREGATORS:
           a_slug = a
           a_data['slug'] = a_slug
         
-        a_data['name'] = ENGINES_BY_ID[a_slug]['name']
+        a_data['name'] = APIS_BY_ID[a_slug]['name']
 
-        a_supported_engines.append(a_data)
+        a_supported_apis.append(a_data)
       except KeyError:
         pass
 
@@ -461,7 +464,7 @@ for a in AGGREGATORS:
         'id': a_id,
         'parent': 'Aggregators',
         'urls': a_urls,
-        'supported_engines': a_supported_engines,
+        'supported_apis': a_supported_apis,
         'self-serve': a_self_serve,
     }
     

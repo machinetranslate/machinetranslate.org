@@ -1,11 +1,12 @@
 ---
-layout: tms
+layout: translation-management-system
 title: MateCat
-description: The MateCat machine translation integrations
+description: Machine translation API integrations in MateCat
 id: matecat
-parent: TMSs
+parent: Translation management systems
 type:
 - cat
+type_description: computer-aided translation tool
 tms_url: https://www.matecat.com
 api_integrations:
 - slug: apertium
@@ -47,7 +48,7 @@ api_integrations:
   name: Yandex Translate
 fuzzy_repair: false
 open-source: false
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

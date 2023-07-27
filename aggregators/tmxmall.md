@@ -6,7 +6,7 @@ id: tmxmall
 parent: Aggregators
 urls:
 - https://www.tmxmall.com/
-supported_engines:
+supported_apis:
 - slug: alibaba
   name: Alibaba Translate
 - slug: amazon

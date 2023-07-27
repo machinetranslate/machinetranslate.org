@@ -1,12 +1,13 @@
 ---
-layout: tms
+layout: translation-management-system
 title: Multitrans
-description: The Multitrans machine translation integrations
+description: Machine translation API integrations in Multitrans
 id: multitrans
-parent: TMSs
+parent: Translation management systems
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: https://www.rws.com/localization/products/additional-solutions/
 api_integrations:
 - slug: deepl
@@ -35,7 +36,7 @@ api_integrations:
   name: TAPTA
 fuzzy_repair: false
 open-source: false
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 
