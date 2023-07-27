@@ -37,9 +37,48 @@ MTS 2023 is organised by [AAMT](/associations/aamt.md).
 |     |     |
 | --- | --- |
 | 17 April | Workshops and tutorials submission deadline |
-| 1 May | Papers submission deadline |
-| 19 June | Notification of acceptance |
-| 10 July | Final “camera-ready” versions |
+| 15 May | Papers submission deadline |
+| 19 June | Notification of acceptance of users papers |
+| 3 July | Notification of acceptance of research papers |
+| 10 July | Full paper submission of users papers |
+| 24 July | Final “camera-ready” versions of users and research papers |
+
+## Keynote speakers
+
+- Min Zhang, Harbin Institute of Technology, Shenzhen
+- Dorothy Kenny, Dublin City University
+- [Ondrej Bojar](/people/ondrej-bojar.md), Charles University
+
+## Speakers
+
+> We have an invited session “Machine Translation for Asian Languages” where we have three speakers:
+> - Dr. Tong Xiao from Niutrans
+> - Dr. Mitesh M. Khapra from AI4Bharat
+> - Dr. Isao Goto from NHK, Japan Broadcasting Corporation
+
+> The User Track will host a panel discussion featuring invited panelists. We have secured presentations from:
+> * Prof. Chan Sin-Wai (Caritas Institute of Higher Education - Hong Kong)
+> * Prof. Akiko Sakamoto (Kansai University) 
+
+## Workshops
+
+### WAT 2023
+
+> The Workshop on Asian Translation (WAT) is an open machine translation evaluation campaign focusing on Asian languages. WAT gathers and shares the resources and knowledge of Asian language translation to understand the problems to be solved for the practical use of machine translation technologies among all Asian countries.
+
+[WAT 2023](wat2023.md)
+
+### ALT 2023：Ancient Language Translation Workshop
+
+> This workshop aims to provide an opportunity for practitioners and scholars of interest to learn about the challenges and latest developments in the field of machine translation for ancient languages. Participants will engage in discussions and hands-on activities to develop a deeper understanding of the field and the techniques used to address the unique challenges posed by translating texts written in ancient languages.
+
+[ancientnlp.com/alt2023/](https://www.ancientnlp.com/alt2023/)
+
+#### Shared tasks
+
+- [Ancient Chinese Machine Translation Shared Task](https://github.com/GoThereGit/EvaHan)
+- [Ancient Cuneiform Languages Machine Translation Shared Task](https://digitalpasts.github.io/EvaCUN/)
+
 
 ## Call for papers
 

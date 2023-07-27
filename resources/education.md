@@ -2,6 +2,8 @@
 parent: Resources
 title: Education
 description: Machine translation learning resources
+seo:
+    type: ItemList
 ---
 
 ## Charles University

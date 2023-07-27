@@ -5,19 +5,25 @@ title: Events
 description: List of machine translation events
 featured: true
 seo:
-  type: Article
+    type: ItemList
 ---
 
-## 2023
+## 2023 events
 
 | Date | Event | Location |
 | --- | --- | --- |
 | 6 - 7 December | [**WMT23**](wmt23.md) | Singapore |
+| 8 November | [**AMTA 2023**](amta2023.md) | online |
+| 4 - 6 October | [**TAUS Annual Conference 2023**](taus2023.md) | Salt Lake City, Utah |
 | 4 - 8 September | [**MT Summit 2023**](mtsummit2023.md) | Macau SAR, China |
-| 13 - 14 July | [**IWSLT 2023**](iwslt2023.md) | Toronto, Canada |
-| 9 - 14 July | [**AmericasNLP**](americasnlp2023.md) | Toronto, Canada |
-| 15 June | [**AT4SSL 2023**](at4ssl2023.md) | Tampere, Finland |
-| 12 - 15 June | [**EAMT 2023**](eamt2023.md) | Tampere, Finland |
+| 4 September | [**WAT 2023**](wat2023.md) | Macau SAR, China |
+| 4 - 5 September | [**CoCo4MT 2023**](coco4mt-2.md) | Macau SAR, China |
+| 13 - 14 July | [IWSLT 2023](iwslt2023.md) | Toronto, Canada |
+| 9 - 14 July | [AmericasNLP](americasnlp2023.md) | Toronto, Canada |
+| 15 June | [The Future of Language Related AI for Enterprises](future-language-ai-enterprise.md) | online |
+| 15 June | [AT4SSL 2023](at4ssl2023.md) | Tampere, Finland |
+| 12 - 15 June | [EAMT 2023](eamt2023.md) | Tampere, Finland |
+| 5 - 9 June | [MTMA 2023](mtma2023.md) | Fairfax, Virginia |
 | 2 - 6 May | [LoResMT 2023](loresmt2023.md) | Dubrovnik, Croatia |
 | 25 April | [Rise of the Machines: Balancing Language-Related AI Opportunities and Risks](ai-opportunities-and-risk.md) | online |
 | 24 April | [Machine Translation Meetup 12](zurich-12.md) | Zurich, Switzerland |
@@ -29,7 +35,7 @@ seo:
 | 1 - 3 February | [Convergence: human-machine integration in translation and interpreting](convergence-2023.md) | online |
 | 26 January | [Open discussion: The future of machine translation](csa-future-of-mt.md) | online |
 
-## 2022
+## 2022 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -50,6 +56,7 @@ seo:
 | 6 October | [Literary Machine Translation as a Human-Machine Dialectic](human-machine-dialectic.md) | Liège, Belgium |
 | 30 September | [MUMTTT 2022](mumttt2022.md) | Malaga, Spain |
 | 28 September | [AAMT Seminar](aamt-seminar-1.md) | online |
+| 16 September | [CoCo4MT 2022](coco4mt-1.md) | Orlando, Florida |
 | 12 - 16 September | [AMTA 2022](amta2022.md) | Orlando, Florida |
 | 5 - 10 September | [MT Marathon](mtm2022.md) | Prague, Czech Republic |
 | 19 August | [Workshop on Pronouns and Machine Translation](pronouns-and-mt-2022.md) | online |
@@ -71,7 +78,7 @@ seo:
 
 
 
-## 2021
+## 2021 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -87,7 +94,7 @@ seo:
 | 10 June | [Automatic Simultaneous Translation 2](autosimtrans2021.md) | Mexico City, Mexico |
 | 25 May | [Lay Use and Perceptions of Machine Translation](lay-use-and-perceptions-of-machine-translation.md) | online |
 
-## 2020
+## 2020 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -101,7 +108,7 @@ seo:
 | 19 May | [Machine Translation Meetup 7](zurich-7.md) | online |
 | 3 February | [Machine Translation Meetup 6](zurich-6.md) | Zurich, Switzerland |
 
-## 2019
+## 2019 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -117,7 +124,7 @@ seo:
 | 3 June | [Machine Translation Meetup 4](zurich-4.md) | Zurich, Switzerland |
 | 15 January | [Machine Translation Meetup 3](zurich-3.md) | Zurich, Switzerland |
 
-## 2018
+## 2018 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -133,7 +140,7 @@ seo:
 | 21 March | LoResMT 2018 | Boston, Massachusetts |
 | 17 - 21 March | AMTA 2018 | Boston, Massachusetts |
 
-## 2017
+## 2017 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -146,7 +153,7 @@ seo:
 | 29 - 31 May | EAMT 2017 | Prague, Czech Republic |
 | 22 - 26 May | MT Marathon in the Americas | Dayton, Ohio |
 
-## 2016
+## 2016 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -157,7 +164,7 @@ seo:
 | 30 May - 1 June | EAMT 2016 | Riga, Latvia |
 | 16 - 21 May | MT Marathon in the Americas | Notre Dame, Indiana |
 
-## 2015
+## 2015 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -170,7 +177,7 @@ seo:
 | 11 - 13 May | EAMT 2015 | Antalya, Turkey |
 | 10 - 15 May | MT Marathon in the Americas | Urbana-Champaigne, Illinois |
 
-## 2014
+## 2014 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -181,7 +188,7 @@ seo:
 | 26 - 27 June | [**WMT14**](wmt14.md) | Baltimore, Maryland |
 | 16 - 18 June | EAMT 2014 | Dubrovnik, Croatia |
 
-## 2013
+## 2013 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -190,7 +197,7 @@ seo:
 | 2 - 6 September | [MT Summit XIV](mtsummit2013.md) | Nice, France |
 | 8 - 9 August | [**WMT13**](wmt13.md) | Sofia, Bulgaria |
 
-## 2012
+## 2012 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -200,7 +207,7 @@ seo:
 | 7 - 8 June | [**WMT12**](wmt12.md) | Montreal, Quebec |
 | 28 - 30 May | EAMT 2012 | Trento, Italy |
 
-## 2011
+## 2011 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -208,7 +215,7 @@ seo:
 | 30 - 31 July | [**WMT11**](wmt11.md) | Edinburgh, Scotland  |
 | 30 - 31 May | EAMT 2011 | Leuven, Belgium |
 
-## 2010
+## 2010 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -218,7 +225,7 @@ seo:
 | 27 - 28 May | EAMT 2010 | Saint Raphaël, France |
 | 25 - 30 January | MT Marathon | Dublin, Ireland |
 
-## 2009
+## 2009 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -226,7 +233,7 @@ seo:
 | 14 - 15 May | EAMT 2009 | Barcelona, Spain |
 | 26 - 30 January | [MT Marathon](https://ufal.mff.cuni.cz/euromatrix/mtmarathon/) | Prague, Czech Republic |
 
-## 2008
+## 2008 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -235,7 +242,7 @@ seo:
 | 19 June | [**WMT08**](wmt08.md) | Columbus, Ohio |
 | 12 - 20 May | MT Marathon | Berlin, Germany |
 
-## 2007
+## 2007 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -244,7 +251,7 @@ seo:
 | 26 April | AMTA 2007 - “Syntax and structure in statistical translation” | Rochester, New York |
 | 16 - 20 April | MT Marathon | Edinburgh, Scotland |
 
-## 2006
+## 2006 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
@@ -252,92 +259,92 @@ seo:
 | 19 - 20 June | EAMT 2006 | Oslo, Norway |
 | 8 - 9 June | [**WMT06**](wmt06.md) | New York City, New York |
 
-## 2005
+## 2005 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 29 - 30 June | **WPT05** | Ann Arbor, Michigan |
 | 30 - 31 May | EAMT 2005 | Budapest, Hungary |
 
-## 2004
+## 2004 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 28 September – 2 October | AMTA 2004 - “Machine translation: from real users to research” | Washington, District of Columbia |
 | 26 - 27 April | EAMT 2004 | Valletta, Malta |
 
-## 2003
+## 2003 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 15 - 17 May | EAMT 2003 | Dublin, Ireland |
 
-## 2002
+## 2002 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 14 - 15 November | EAMT 2002 | Manchester, England |
 | 8 - 12 October | AMTA 2002 - “Machine translation: from research to real users” | Tiburon, California |
 
-## 2001
+## 2001 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 18 - 23 September | MT Summit 2001 | Galicia, Spain |
 
-## 2000
+## 2000 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 10 - 14 October | AMTA 2000 - “Envisioning machine translation in the information future” | Cuernavaca, Mexico |
 | 11 - 12 May | EAMT 2000 | Ljubljana, Slovenia |
 
-## 1999
+## 1999 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 22 - 23 April | EAMT 1999 | Prague, Czech Republic |
 
-## 1998
+## 1998 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 28 - 31 October | AMTA 1998 - “Machine translation and the information soup” | Langhorne, Pennsylvania |
 | 2 - 3 April | EAMT 1998 | Geneva, Switzerland |
 
-## 1997
+## 1997 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 21 - 22 May | EAMT 1997 | Copenhagen, Denmark |
 
-## 1996
+## 1996 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 2 - 5 October | AMTA 1996 - “Expanding MT horizons” | Montreal, Quebec |
 | 29 - 30 August | EAMT 1996 | Vienna, Austria |
 
-## 1995
+## 1995 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 10 - 13 July | MT Summit 1995 | Luxembourg, Luxembourg |
 
-## 1994
+## 1994 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 5 - 8 October | AMTA 1994 - “Technology partnerships for crossing the language barrier” | Columbia, Maryland |
 | 14 - 16 September | EAMT 1994 | Hildesheim, Germany |
 
-## 1993
+## 1993 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |
 | 26 - 28 April | EAMT 1993 | Heidelberg, Germany |
 
-## 1989
+## 1989 events
 
 | Date | Event | Location |
 | ---- | ---- | ---- |

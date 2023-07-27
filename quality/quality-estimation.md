@@ -8,7 +8,7 @@ redirect_from:
   - /quality-prediction
 ---
 
-Machine translation **quality estimation** (**QE** or **MTQE**) or **quality prediction** (**QP** or **MTQP**) is the task of automatically predicting the quality of machine translation output.
+Machine translation **quality estimation** (**QE** or **MTQE**) or machine translation **quality prediction** (**QP** or **MTQP**) is the task of automatically predicting the quality of machine translation output.
 
 | Original                     | Translation                    | Quality prediction   |
 | -----------------------------| -------------------------------| ---------------------|
@@ -95,12 +95,15 @@ There are also providers that offer a quality estimation feature within another 
 
 A few translation management systems have launched generally available features for quality estimation.
 
-| Product | Feature | Provider |
+| Product | Feature | Providers |
 | ---| --- | --- |
 | [KantanStream](/industry/companies.md#kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | KantanAI |
 | PhraseTMS | [MT quality estimation](https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-)  | Phrase |
-| [translate5](https://translate5.net) | Risk prediction | ModelFront |
-| [GlobalDoc](https://globaldoc.com) LangXpert | Effort estimation | ModelFront |
+| translate5 | [Quality prediction](https://www.modelfront.com/integrations/translate5) | ModelFront |
+| GlobalDoc LangXpert | [Effort estimation](https://globaldoc.com/about-us/our-technology/langxpert-modelfront-technology-partnership/) | ModelFront |
+| Google Cloud Translation Hub | [Quality prediction](https://cloud.google.com/translation-hub/docs/translator-edit#segment-details) | Google |
+| Crowdin | [Quality prediction](https://store.crowdin.com/modelfront) | ModelFront |
+| memoQ | [Quality estimates](https://www.memoq.com/integrations/mt-quality-estimates) | ModelFront, TAUS |
 
 translate5 is open-source.
 

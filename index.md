@@ -9,7 +9,7 @@ seo:
 
 # Machine Translate
 
-**Machine Translate** is building **open resources and community for machine translation**.
+**Machine Translate** is building **open information and a community for machine translation**.
 
 {% assign integration_count = 0 %}
 {% for i in site.data.integrations %}
@@ -48,9 +48,9 @@ The content covers everything about machine translation, from products to resear
 
 
 > #### Featured events
-> - **NEW:** [**Machine translation meetup**](/meetup)
-> - [EAMT 2023](/eamt2023) - 12-15 June, Tampere, Finland - **New: Workshops now available!**
-> - [WMT23](/wmt23) - 6-7 December, Singapore - **New: Tracks added!**
+> - [AMTA 2023](/amta2023) - 8 November, online - **Call for papers deadline updated**
+> - [WMT23](/wmt23) - 6-7 December, Singapore
+> - [Machine translation meetup](/meetup)
 
 >
 > #### Featured articles
@@ -59,33 +59,32 @@ The content covers everything about machine translation, from products to resear
 > - [Companies](/industry/companies.md)
 
 
-## Community
+## Stay connected
 
-Read news, ask and answer questions and share your work!
+Join the community to ask and answer questions, and share your work.
+Sign up for the newsletter to read news about machine translation.
 
-<center>
-  <button id="airtable-button">
-     Join the community
-  </button>
-</center>
-<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe id="airtable-iframe" class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrJnYBtqU69rhDFw?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="986" style="background: transparent; border: 1px solid #ccc; display: none; margin-top: 20px;"></iframe>
-<script>
-    airtable_iframe = document.getElementById("airtable-iframe");
-    airtable_button = document.getElementById("airtable-button");
-    airtable_button.addEventListener("click", function() {
-        if (airtable_iframe.style.display === "block") {
-            airtable_iframe.style.display = "none";
-        } else {
-            airtable_iframe.height = "986";
-            airtable_iframe.style.display = "block";
-        }
-    })
-</script>
+<div style="display: flex; justify-content: center; gap: 20%;">
+  <div>
+    <center>
+      <h2><a href="/community">Community</a></h2>
+        <a href="/community">
+          👥
+        </a>
+    </center>
+  </div>
+  <div>
+    <center>
+      <h2><a href="/newsletter">Newsletter</a></h2>
+        <a href="/newsletter">
+          📧
+        </a>
+    </center>
+  </div>
+</div>
 
 
-## Updates
-
-Hear about news and events by following Machine Translate!
+Follow us on other platforms.
 
 <center>
   <div class="social-links">

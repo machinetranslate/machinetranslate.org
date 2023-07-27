@@ -8,10 +8,10 @@ description: Machine translation products
 Machine translation products include ready-to-use machine translation APIs and applications.  Systems can also be made available via integrations.
 
 They vary by features they offer:
-- language support
+- [language support](/languages/languages.md)
 - accuracy
 - price
-- customisation options
+- [customisation](/customisation/customisation.md) options
 - [data confidentiality](data-confidentiality.md)
 They also vary by their underlying architecture.
 

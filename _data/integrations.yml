@@ -106,8 +106,11 @@
           - https://support.crowdin.com/enterprise/machine-translation/#microsoft-translator
 
     - modernmt:
+        custom: true
+        adaptive: true
         urls:
           - https://support.crowdin.com/enterprise/machine-translation/#modernmt
+          - https://store.crowdin.com/adaptive-modernmt
 
     - systran:
         plugin: true
@@ -143,9 +146,39 @@
   tms_url: https://ls-ets.unog.ch/tools/untermeluna
   type: [ tms, cat ]
   api_integrations:
+    - deepl
+
     - microsoft
   
     - tapta
+
+- id: globallink
+  name: GlobalLink
+  url: https://globallink.translations.com/
+  type:
+    - tms: true
+    - cat: true
+  api_integrations:
+    - apptek
+
+    - google
+
+    - kantanmt
+
+    - lilt
+
+    - microsoft
+
+    - moses
+
+    - omniscien
+
+    - systran
+
+    - tauyou
+    
+    - transperfect-nmt
+
 
 - id: lilt
   name: Lilt
@@ -181,7 +214,8 @@
         urls:
           - https://help.inten.to/hc/en-us/articles/360017381939-How-to-set-up-Intento-as-the-MT-engine-in-MateCat
 
-    - iptranslator
+    - iptranslator:
+        active: false
 
     - language-weaver
 
@@ -261,6 +295,7 @@
           - https://docs.memoq.com/current/en/Places/intento-plugin-settings.html
 
     - iptranslator:
+        active: false
         urls:
           - https://docs.memoq.com/current/en/Places/iptranslator-plugin-settings.html
 
@@ -268,6 +303,10 @@
         custom: true
         urls:
           - https://docs.memoq.com/current/en/Places/kantanmt-plugin-settings.html
+
+    - modernmt:
+        urls:
+          - https://www.memoq.com/integrations/machine-translation/public-plugin/modernmt
 
     - microsoft:
         custom: true
@@ -278,11 +317,17 @@
         urls:
           - https://docs.memoq.com/current/en/Places/mirai-mt-plugin.html
 
+    - niutrans:
+        urls:
+          - https://www.memoq.com/integrations/machine-translation/private-plugin/niutrans
+
+    - omniscien:
+        urls:
+          - https://www.memoq.com/integrations/machine-translation/public-plugin/omniscien
+
     - opus-cat:
         urls:
           - https://github.com/Helsinki-NLP/OPUS-CAT#using-the-fiskmo-plugin-in-memoq
-
-    - niutrans
 
     - pangeamt:
         glossary: true
@@ -290,6 +335,7 @@
           - https://docs.memoq.com/current/en/Places/pangeamt-plugin-settings.html
 
     - slate:
+        active: false
         urls:
           - https://docs.memoq.com/current/en/Places/slate-desktop-plugin-settings.html
 
@@ -339,7 +385,9 @@
         url: https://docs.rws.com/785465/786605/sdl-multitrans/configuring-google-translate-server
 
     - iconic:
+        active: false
         url: https://docs.rws.com/785465/786609/sdl-multitrans/configuring-iconic-plugin
+
 
     - microsoft:
         url: https://docs.rws.com/785465/786613/sdl-multitrans/configuring-microsoft-translator
@@ -393,7 +441,8 @@
     - kantanmt:
         custom: true
 
-    - kodensha
+    - kodensha:
+        active: false
 
     - microsoft:
         custom: true
@@ -401,9 +450,11 @@
 
     - mirai
 
-    - moraviamt
+    - moraviamt:
+        active: false
 
-    - nict
+    - nict:
+        active: false
 
     - npatmt:
         urls:
@@ -433,21 +484,24 @@
         custom: true
         offline_glossary: true
 
-    - skrivanek
+    - skrivanek:
+        active: false
 
     - sundamt
 
     - systran:
         custom: true
 
-    - tauyou
+    - tauyou:
+        active: false
 
     - tencent
 
     - tilde:
         custom: true
 
-    - toshiba
+    - toshiba:
+        active: false
 
     - t-tact-an-zin
 
@@ -595,6 +649,8 @@
     - microsoft:
         custom: true
 
+    - prompsit
+
     - promt
 
     - systran
@@ -618,7 +674,8 @@
     
     - google
     
-    - baidu
+    - baidu:
+        active: false
     
     - microsoft
 
@@ -783,6 +840,12 @@
         plugin: true
         urls:
           - https://www.tmxmall.com/products/plugin
+        active: false
+
+    - trebe:
+        plugin: true
+        urls:
+          - https://appstore.rws.com/Plugin/195
 
     - ubiqus:
         plugin: true
@@ -826,6 +889,36 @@
     - microsoft
 
   local_api_support: true
+
+- id: transitnxt
+  name: TransitNXT
+  url: https://www.star-group.net/en/products/translation-localization.html
+  type: [ tms, cat ]
+  documentation_url: https://www.star-group.net/en/downloads/transit-termstar.html
+  api_integrations:
+    - deepl:
+        glossary: true
+        formality: true
+
+    - globalese
+
+    - google
+
+    - kantanmt:
+        custom: true
+
+    - microsoft
+
+    - smartmate:
+        glossary: true
+
+    - systran
+
+    - textshuttle:
+        glossary: true
+
+  local_api_support: true
+  multiple_api_suggestions: true
 
 - id: translate5
   name: translate5
@@ -990,7 +1083,7 @@
   name: XTM
   tms_url: http://xtm.cloud
   type: [ tms, cat ]
-  documentation_url: https://xtm.cloud/docs/xtm-editor.x56164.pdf
+  documentation_url: https://xtm.cloud/documentation/
   api_integrations:
     - amazon:
         glossary: true

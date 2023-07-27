@@ -1368,11 +1368,11 @@ supported_languages:
   base_code: mn
   name: Mongolian
   variant_name: null
-- slug: "moor\xE9"
+- slug: moore
   code: mos
   normalized_code: mos
   base_code: mos
-  name: "Moor\xE9"
+  name: Moore
   variant_name: null
 - slug: null
   code: mps
@@ -2320,6 +2320,8 @@ more_languages_by_request: false
 integrations:
 - slug: memoq
   name: MemoQ
+  urls:
+  - https://www.memoq.com/integrations/machine-translation/private-plugin/niutrans
 - slug: trados
   name: Trados Studio
   plugin: true

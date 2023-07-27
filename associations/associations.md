@@ -4,4 +4,6 @@ parent: More
 has_children: true
 title: Associations
 description: Machine translation associations
+seo:
+    type: ItemList
 ---

@@ -30,11 +30,11 @@ supported_languages:
   base_code: ak
   name: Akan
   variant_name: null
-- slug: tosk
+- slug: albanian
   code: als
   normalized_code: als
   base_code: als
-  name: Tosk
+  name: Albanian
   variant_name: null
 - slug: amharic
   code: am
@@ -708,11 +708,11 @@ supported_languages:
   base_code: mni
   name: Meitei
   variant_name: null
-- slug: "moor\xE9"
+- slug: moore
   code: mos
   normalized_code: mos
   base_code: mos
-  name: "Moor\xE9"
+  name: Moore
   variant_name: null
 - slug: marathi
   code: mr
@@ -816,11 +816,11 @@ supported_languages:
   base_code: pbt
   name: Pashto
   variant_name: null
-- slug: iranian-persian
+- slug: persian
   code: pes
   normalized_code: pes
   base_code: pes
-  name: Iranian Persian
+  name: Persian
   variant_name: null
 - slug: polish
   code: pl
@@ -1216,14 +1216,21 @@ more_languages_by_request: false
 integrations:
 - slug: crowdin
   name: Crowdin
+  custom: true
+  adaptive: true
   urls:
   - https://support.crowdin.com/enterprise/machine-translation/#modernmt
+  - https://store.crowdin.com/adaptive-modernmt
 - slug: matecat
   name: MateCat
   custom: true
   adaptive: true
   urls:
   - https://guides.matecat.com/modernmt-mmt-plug-in
+- slug: memoq
+  name: MemoQ
+  urls:
+  - https://www.memoq.com/integrations/machine-translation/public-plugin/modernmt
 - slug: smartcat
   name: Smartcat
   custom: true

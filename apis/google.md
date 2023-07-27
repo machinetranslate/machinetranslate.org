@@ -829,6 +829,8 @@ integrations:
   urls:
   - https://support.crowdin.com/enterprise/machine-translation/#google-translate
   - https://support.crowdin.com/enterprise/machine-translation/#google-cloud-automl-translation
+- slug: globallink
+  name: GlobalLink
 - slug: matecat
   name: MateCat
   custom: true
@@ -873,6 +875,8 @@ integrations:
 - slug: transifex
   name: Transifex
   custom: true
+- slug: transitnxt
+  name: TransitNXT
 - slug: translate5
   name: translate5
   urls:

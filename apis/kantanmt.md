@@ -341,6 +341,8 @@ integrations:
   plugin: true
   urls:
   - https://store.crowdin.com/kantanmt
+- slug: globallink
+  name: GlobalLink
 - slug: memoq
   name: MemoQ
   custom: true
@@ -360,6 +362,9 @@ integrations:
   custom: true
   urls:
   - https://docs.transifex.com/machine-translation/working-with-kantan-mt
+- slug: transitnxt
+  name: TransitNXT
+  custom: true
 - slug: wordbee
   name: Wordbee
   custom: true

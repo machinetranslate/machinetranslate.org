@@ -23,18 +23,18 @@ supported_apis:
 - id: pangeamt
   name: PangeaMT
   supported_language_count: 8
-- id: phrase-nextmt
-  name: Phrase NextMT
-  supported_language_count: 8
 - id: lucy
   name: Lucy
   supported_language_count: 9
-- id: alexa-translations-ai
-  name: Alexa Translations A.I.
-  supported_language_count: 10
+- id: phrase-nextmt
+  name: Phrase NextMT
+  supported_language_count: 9
 - id: translateme
   name: TranslateMe
   supported_language_count: 11
+- id: alexa-translations-ai
+  name: Alexa Translations A.I.
+  supported_language_count: 12
 - id: papago
   name: Papago Translation
   supported_language_count: 12
@@ -53,14 +53,14 @@ supported_apis:
 - id: tencent
   name: Tencent Machine Translation
   supported_language_count: 17
-- id: textshuttle
-  name: TextShuttle
-  supported_language_count: 18
 - id: kakao
   name: Kakao
   supported_language_count: 19
 - id: sogou-translate
   name: Sogou Translate
+  supported_language_count: 21
+- id: textshuttle
+  name: TextShuttle
   supported_language_count: 21
 - id: tilde
   name: Tilde

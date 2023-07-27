@@ -14,11 +14,11 @@ supported_apis:
 - id: lingo24
   name: Lingo24
   supported_language_count: 13
-- id: textshuttle
-  name: TextShuttle
-  supported_language_count: 18
 - id: sogou-translate
   name: Sogou Translate
+  supported_language_count: 21
+- id: textshuttle
+  name: TextShuttle
   supported_language_count: 21
 - id: tilde
   name: Tilde
