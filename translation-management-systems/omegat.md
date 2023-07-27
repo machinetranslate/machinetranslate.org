@@ -1,9 +1,9 @@
 ---
-layout: tms
+layout: translation-management-system
 title: OmegaT
 description: Machine translation API integrations in OmegaT
 id: omegat
-parent: TMSs
+parent: Translation management systems
 type:
 - cat
 type_description: computer-aided translation tool
@@ -36,7 +36,7 @@ api_integrations:
   name: Yandex Translate
 fuzzy_repair: true
 open-source: true
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

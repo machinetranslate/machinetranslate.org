@@ -1,9 +1,9 @@
 ---
-layout: tms
+layout: translation-management-system
 title: Phrase TMS
 description: Machine translation API integrations in Phrase TMS
 id: phrase
-parent: TMSs
+parent: Translation management systems
 type:
 - tms
 - cat
@@ -96,7 +96,7 @@ api_integrations:
   name: Yandex Translate
 fuzzy_repair: false
 open-source: false
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

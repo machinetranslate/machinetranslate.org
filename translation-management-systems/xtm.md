@@ -1,9 +1,9 @@
 ---
-layout: tms
+layout: translation-management-system
 title: XTM
 description: Machine translation API integrations in XTM
 id: xtm
-parent: TMSs
+parent: Translation management systems
 type:
 - tms
 - cat
@@ -110,7 +110,7 @@ api_integrations:
   name: TexTra
 fuzzy_repair: true
 open-source: false
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

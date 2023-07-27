@@ -1,9 +1,9 @@
 ---
-layout: tms
+layout: translation-management-system
 title: Wordbee
 description: Machine translation API integrations in Wordbee
 id: wordbee
-parent: TMSs
+parent: Translation management systems
 type:
 - tms
 - cat
@@ -66,7 +66,7 @@ api_integrations:
   name: Tilde
 fuzzy_repair: false
 open-source: false
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

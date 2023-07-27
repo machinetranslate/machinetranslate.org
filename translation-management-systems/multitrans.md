@@ -1,9 +1,9 @@
 ---
-layout: tms
+layout: translation-management-system
 title: Multitrans
 description: Machine translation API integrations in Multitrans
 id: multitrans
-parent: TMSs
+parent: Translation management systems
 type:
 - tms
 - cat
@@ -36,7 +36,7 @@ api_integrations:
   name: TAPTA
 fuzzy_repair: false
 open-source: false
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

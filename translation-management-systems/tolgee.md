@@ -1,9 +1,9 @@
 ---
-layout: tms
+layout: translation-management-system
 title: Tolgee
 description: Machine translation API integrations in Tolgee
 id: tolgee
-parent: TMSs
+parent: Translation management systems
 type:
 - tms
 - cat
@@ -22,7 +22,7 @@ api_integrations:
   name: Microsoft Translator
 fuzzy_repair: false
 open-source: true
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

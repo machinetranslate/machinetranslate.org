@@ -1,9 +1,9 @@
 ---
-layout: tms
+layout: translation-management-system
 title: Trados Studio
 description: Machine translation API integrations in Trados Studio
 id: trados
-parent: TMSs
+parent: Translation management systems
 type:
 - cat
 type_description: computer-aided translation tool
@@ -171,7 +171,7 @@ api_integrations:
   name: Youdao Translate
 fuzzy_repair: true
 open-source: false
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

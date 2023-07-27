@@ -1,9 +1,9 @@
 ---
-layout: tms
+layout: translation-management-system
 title: MemoQ
 description: Machine translation API integrations in MemoQ
 id: memoq
-parent: TMSs
+parent: Translation management systems
 type:
 - tms
 - cat
@@ -121,7 +121,7 @@ api_integrations:
   name: XL8
 fuzzy_repair: true
 open-source: false
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

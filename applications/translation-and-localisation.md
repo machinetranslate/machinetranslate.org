@@ -10,13 +10,13 @@ Machine translation is a key technology in professional **translation and locali
 
 ### Integrations
 
-Translation software, like translation management systems (TMS) and computer-aided translation tools (CAT), integrate machine translation APIs, directly or via plugins.
+Translation software, like [translation management systems](/translation-management-systems) (TMS) and computer-aided translation tools (CAT), integrate [machine translation APIs](/apis), directly or via plugins.
 
 ### Workflow
 
 The translation software fills in the machine translation for the human translator to [post-edit](../workflows/post-editing.md).
 The machine translation can be inserted in whole files at once or one [segment](../concepts/segment.md) at a time.
-Some engines that translate segment-by-segment can learn from post-editions and adapt the machine translation output accordingly.
+Some systems that translate segment-by-segment can learn from post-edits and adapt the machine translation output accordingly.
 
 ### Productivity
 <!-- Not always true!!! Link to the chapter on post-editing productivity when it's ready -->
@@ -52,4 +52,4 @@ A software localisation process consists of the following steps:
 
 ## See also
 
-- [Connecting engines to translation software ](/integration/cat-tools.md)
+- [Connecting machine translation APIs to translation software ](/integration/cat-tools.md)

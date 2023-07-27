@@ -1,9 +1,9 @@
 ---
-layout: tms
+layout: translation-management-system
 title: Smartling
 description: Machine translation API integrations in Smartling
 id: smartling
-parent: TMSs
+parent: Translation management systems
 type:
 - tms
 - cat
@@ -38,7 +38,7 @@ api_integrations:
   name: Watson Language Translator
 fuzzy_repair: false
 open-source: false
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

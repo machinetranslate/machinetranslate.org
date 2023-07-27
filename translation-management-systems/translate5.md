@@ -1,9 +1,9 @@
 ---
-layout: tms
+layout: translation-management-system
 title: translate5
 description: Machine translation API integrations in translate5
 id: translate5
-parent: TMSs
+parent: Translation management systems
 type:
 - tms
 - cat
@@ -43,7 +43,7 @@ api_integrations:
   name: PangeaMT
 fuzzy_repair: false
 open-source: true
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 

@@ -1,9 +1,9 @@
 ---
-layout: tms
+layout: translation-management-system
 title: MateCat
 description: Machine translation API integrations in MateCat
 id: matecat
-parent: TMSs
+parent: Translation management systems
 type:
 - cat
 type_description: computer-aided translation tool
@@ -48,7 +48,7 @@ api_integrations:
   name: Yandex Translate
 fuzzy_repair: false
 open-source: false
-quality_estimation: false
+quality_estimation_api_integrations: null
 
 ---
 
