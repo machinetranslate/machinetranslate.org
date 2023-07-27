@@ -1,5 +1,5 @@
 ---
-nav_order: 975
+nav_order: 974
 parent: Languages
 layout: language
 title: Catalan
@@ -13,6 +13,9 @@ family:
 supported_apis:
 - id: elia
   name: Elia
+  supported_language_count: 6
+- id: trebe
+  name: Trebe
   supported_language_count: 6
 - id: lucy
   name: Lucy

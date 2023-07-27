@@ -20,7 +20,8 @@
   company: alexa-translations-ai
   urls:
    - https://alexatranslations.com/alexa-translations-a-i
-  languages: [ ar, de, en, es-419, fr-ca, it, ja, ko, pt-br, zh ]
+  languages: [ ar, de, en, es-419, fr-ca, it, ja, ko, nl, pt-br, tr, zh ]
+
   stock_api_domains:
     - finance
     - legal
@@ -558,7 +559,8 @@
   company: phrase
   urls:
     - https://phrase.com/products/phrase-nextmt/
-  languages: [ [cs, en], [de, en], [en, cs], [en, de], [en, es], [en, fr], [en, it], [en, nl], [en, ru], [es, en], [fr, en], [it, en], [nl, en], [ru, en] ]
+  languages: [ [cs, en], [de, en], [en, cs], [en, de], [en, es], [en, fr], [en, it], [en, nl], [en, ru], [en, zh-cn], [es, en], [fr, en], [it, en], [nl, en], [ru, en], [zh-cn, en] ]
+
   glossary: true
   adaptive: true
   self-serve: false
@@ -744,7 +746,7 @@
    - https://www.textshuttle.ai/
    - https://www.textshuttle.ai/en/functions
   privacy_url: https://www.textshuttle.ai/en/disclaimer
-  languages: [ cs, da, de, en, es, fr, hu, it, nl, 'no', pl, pt, rm, ru, sk, sl, sv, zh ]
+  languages: [ cs, da, de, en, es, fr, gsw, hu, it, ja, ko, nl, 'no', pl, pt, rm, ru, sk, sl, sv, zh ]
   custom_languages: '*'
   more_languages_by_request: true
   glossary: true
@@ -783,6 +785,23 @@
    - https://translateme.network
    - https://translateme.network/api/
   languages: [ [de, en], [es, en], [fr, en], [it, en], [nl, en], [pt, en], [ru, en], [tr, en], [zh, en], [zu, en] ]
+
+- name: TransPerfect NMT
+  id: transperfect-nmt
+  company: transperfect
+  urls:
+    - https://www.transperfect.com/technology/artificial-intelligence/neural-machine-translation
+  languages: [ ]
+  self-serve: false
+
+- name: Trebe
+  id: trebe
+  company: vicomtech
+  urls:
+    - https://demo.trebe.org/es/
+    - https://apidoc.trebe.org/
+  languages: [ [eu, es], [eu, en], [eu, fr], [es, ca], [es, gl], [es, en] ]
+  self-serve: false
 
 - name: T-tact-AN-ZIN
   id: t-tact-an-zin
@@ -870,7 +889,7 @@
     - finance
     - economy
   stock_api_domains_urls:
-#    - https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html
+    - https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html
   self-serve: true
 
 - name: Watson Language Translator

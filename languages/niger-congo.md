@@ -42,8 +42,8 @@ languages:
   name: Lingala
 - slug: luba-kasai
   name: Luba-Kasai
-- slug: "moor\xE9"
-  name: "Moor\xE9"
+- slug: moore
+  name: Moore
 - slug: northern-sotho
   name: Northern Sotho
 - slug: shona

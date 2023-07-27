@@ -19,7 +19,7 @@ supported_apis:
   supported_language_count: 6
 - id: alexa-translations-ai
   name: Alexa Translations A.I.
-  supported_language_count: 10
+  supported_language_count: 12
 - id: lingo24
   name: Lingo24
   supported_language_count: 13

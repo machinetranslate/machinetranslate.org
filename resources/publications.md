@@ -2,6 +2,8 @@
 parent: Resources
 title: Publications
 description: Scientific publications about machine translation
+seo:
+    type: ItemList
 ---
 
 

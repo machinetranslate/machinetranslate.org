@@ -58,12 +58,24 @@ supported_languages:
   base_code: ko
   name: Korean
   variant_name: null
+- slug: dutch
+  code: nl
+  normalized_code: nl
+  base_code: nl
+  name: Dutch
+  variant_name: null
 - slug: portuguese
   code: pt-br
   normalized_code: pt-br
   base_code: pt
   name: Portuguese
   variant_name: Brazil
+- slug: turkish
+  code: tr
+  normalized_code: tr
+  base_code: tr
+  name: Turkish
+  variant_name: null
 - slug: chinese
   code: zh
   normalized_code: zh
@@ -83,7 +95,7 @@ integrations:
   plugin: true
   urls:
   - https://appstore.rws.com/plugin/149/
-nav_order: 990
+nav_order: 988
 active: true
 
 ---

@@ -9,11 +9,11 @@ family:
 - slug: finno-ugric
   name: Finno-Ugric
 supported_apis:
-- id: textshuttle
-  name: TextShuttle
-  supported_language_count: 18
 - id: sogou-translate
   name: Sogou Translate
+  supported_language_count: 21
+- id: textshuttle
+  name: TextShuttle
   supported_language_count: 21
 - id: tilde
   name: Tilde

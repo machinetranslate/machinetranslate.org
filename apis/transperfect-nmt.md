@@ -1,0 +1,21 @@
+---
+layout: api
+title: TransPerfect NMT
+description: The TransPerfect NMT machine translation API
+id: transperfect-nmt
+parent: APIs
+urls:
+- https://www.transperfect.com/technology/artificial-intelligence/neural-machine-translation
+privacy_url: null
+self_serve: false
+customisation: []
+supported_languages: []
+more_languages_by_request: false
+integrations:
+- slug: globallink
+  name: GlobalLink
+nav_order: 1000
+active: true
+
+---
+

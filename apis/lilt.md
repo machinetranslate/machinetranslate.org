@@ -458,6 +458,8 @@ supported_languages:
   variant_name: null
 more_languages_by_request: true
 integrations:
+- slug: globallink
+  name: GlobalLink
 - slug: lilt
   name: Lilt
   custom: true

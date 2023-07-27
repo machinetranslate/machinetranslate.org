@@ -688,6 +688,8 @@ integrations:
   - https://support.crowdin.com/enterprise/machine-translation/#microsoft-translator
 - slug: eluna
   name: eLUNa
+- slug: globallink
+  name: GlobalLink
 - slug: matecat
   name: MateCat
   custom: true
@@ -726,6 +728,8 @@ integrations:
   - https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
 - slug: transifex
   name: Transifex
+- slug: transitnxt
+  name: TransitNXT
 - slug: translate5
   name: translate5
   urls:

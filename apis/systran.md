@@ -346,6 +346,8 @@ integrations:
   plugin: true
   urls:
   - https://store.crowdin.com/systran
+- slug: globallink
+  name: GlobalLink
 - slug: memoq
   name: MemoQ
   custom: true
@@ -366,6 +368,8 @@ integrations:
   custom: true
   urls:
   - https://help.systrangroup.com/hc/en-us/articles/360025571833--Plugins-SDL-Trados-studio-connector-How-to-add-Systran-server-in-SDL-Trados-Studio
+- slug: transitnxt
+  name: TransitNXT
 - slug: wordfast
   name: Wordfast
   custom: true
