@@ -1,6 +1,6 @@
 ---
 layout: coming_soon
-nav_order: 15
+nav_order: 13
 title: Pricing
 description: Pricing for machine translation
 ---
