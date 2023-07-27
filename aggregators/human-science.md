@@ -7,7 +7,7 @@ parent: Aggregators
 urls:
 - https://www.science.co.jp/nmt/index.html
 - https://www.science.co.jp/english/machinetranslation/machinetranslation.html
-supported_engines:
+supported_apis:
 - slug: google
   name: Google Translate
 - slug: microsoft

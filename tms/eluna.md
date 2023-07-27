@@ -1,12 +1,13 @@
 ---
 layout: tms
 title: eLUNa
-description: The eLUNa machine translation integrations
+description: Machine translation API integrations in eLUNa
 id: eluna
 parent: TMSs
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: https://ls-ets.unog.ch/tools/untermeluna
 api_integrations:
 - slug: microsoft

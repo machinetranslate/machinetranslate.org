@@ -22,7 +22,7 @@
 #      - <string>: # slug of the corresponding integrator id
 #
 #   quality_estimation:
-#      - <string> # slug
+#      - <string>: # slug
 #        custom: true | false
 #
 #   local_api_support: [ boolean]
@@ -130,10 +130,9 @@
     - yandex:
         active: false
 
-  quality_estimation: true
-  quality_estimation_software:
-    name: modelfront
-    custom: true
+  quality_estimation_integrations:
+    - modelfront:
+      custom: true
 
   local_api_support: true
   multiple_api_suggestions: true
@@ -456,10 +455,9 @@
 
     - yandex
 
-  quality_estimation: true
-  quality_estimation_software:
-    name: phrase-mtqe
-    custom: false
+  quality_estimation_integrations:
+    - phrase-mtqe:
+      custom: false
 
   routing: true
 
@@ -865,10 +863,9 @@
         urls:
           - https://confluence.translate5.net/display/CON/PangeaMT
 
-  quality_estimation: true
-  quality_estimation_software:
-    name: modelfront
-    custom: true
+  quality_estimation_integrations:
+    - modelfront:
+      custom: true
 
   edit_distance: true
 

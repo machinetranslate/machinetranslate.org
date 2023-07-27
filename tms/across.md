@@ -1,12 +1,13 @@
 ---
 layout: tms
 title: Across
-description: The Across machine translation integrations
+description: Machine translation API integrations in Across
 id: across
 parent: TMSs
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: https://www.across.net/
 api_integrations:
 - slug: deepl

@@ -1,12 +1,13 @@
 ---
 layout: tms
 title: Multitrans
-description: The Multitrans machine translation integrations
+description: Machine translation API integrations in Multitrans
 id: multitrans
 parent: TMSs
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: https://www.rws.com/localization/products/additional-solutions/
 api_integrations:
 - slug: deepl

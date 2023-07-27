@@ -1,12 +1,13 @@
 ---
 layout: tms
 title: Tolgee
-description: The Tolgee machine translation integrations
+description: Machine translation API integrations in Tolgee
 id: tolgee
 parent: TMSs
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: https://tolgee.io
 api_integrations:
 - slug: amazon

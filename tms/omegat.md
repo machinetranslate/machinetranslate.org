@@ -1,11 +1,12 @@
 ---
 layout: tms
 title: OmegaT
-description: The OmegaT machine translation integrations
+description: Machine translation API integrations in OmegaT
 id: omegat
 parent: TMSs
 type:
 - cat
+type_description: computer-aided translation tool
 tms_url: https://www.omegat.org
 api_integrations:
 - slug: apertium

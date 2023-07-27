@@ -10,7 +10,6 @@ urls:
 privacy_url: https://www.systransoft.com/systran/policies/privacy-policy/
 self_serve: true
 customisation:
-- Adaptive
 - Glossary
 - Fine-tuning
 supported_languages:
@@ -350,6 +349,7 @@ integrations:
 - slug: memoq
   name: MemoQ
   custom: true
+  adaptive: true
   urls:
   - https://docs.memoq.com/current/en/Places/systran-plugin-settings.html
 - slug: multitrans

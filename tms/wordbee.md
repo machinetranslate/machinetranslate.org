@@ -1,12 +1,13 @@
 ---
 layout: tms
 title: Wordbee
-description: The Wordbee machine translation integrations
+description: Machine translation API integrations in Wordbee
 id: wordbee
 parent: TMSs
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: http://www.wordbee.com
 api_integrations:
 - slug: deepl

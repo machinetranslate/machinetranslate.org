@@ -1,11 +1,12 @@
 ---
 layout: tms
 title: Lilt
-description: The Lilt machine translation integrations
+description: Machine translation API integrations in Lilt
 id: lilt
 parent: TMSs
 type:
 - cat
+type_description: computer-aided translation tool
 tms_url: https://www.lilt.com
 api_integrations:
 - slug: lilt

@@ -1,6 +1,6 @@
 ---
 layout: default
-parent: TMS
+parent: TMSes
 ---
 
 <h1>
@@ -14,34 +14,25 @@ parent: TMS
 
 <p>
   {% if page.api_integrations.size == 1 %}
-    {% if page.type contains "tms" %}
-      The <strong>{{ page.title }}</strong> translation management system has <a href="#api-support">{{ page.api_integrations | size }} machine translation API integration</a>.
-    {% else %}
-      The <strong>{{ page.title }}</strong> computer-aided tool has <a href="#api-support">{{ page.api_integrations | size }} machine translation API integration</a>.
-    {% endif %}
-  {% endif %}
-  {% if page.api_integrations.size > 1 %}
-    {% if page.type contains "tms" %}
-      The <strong>{{ page.title }}</strong> translation management system has <a href="#api-support">{{ page.api_integrations | size }} machine translation API integrations</a>.
-    {% else %}
-      The <strong>{{ page.title }}</strong> computer-aided tool has <a href="#api-support">{{ page.api_integrations | size }} machine translation API integrations</a>.
-    {% endif %}
-  {% endif %}
+    The <strong>{{ page.title }}</strong> {{ page.type_description }} has <a href="#api-support">{{ page.api_integrations | size }} machine translation API integration</a>.
+  {% else %}
+    The <strong>{{ page.title }}</strong> {{ page.type_description }} has <a href="#api-support">{{ page.api_integrations | size }} machine translation API integrations</a>.
+  {% endunless %}
 </p>
 
 <blockquote>
   <dl>
 
     <dt>API support</dt>
-  {% if page.api_integrations.size == 1 %}
-    <dd><a href="#api-support">1 API</a></dd>
-  {% else %}
-    <dd><a href="#api-support">{{ page.api_integrations | size }} APIs</a></dd>
-  {% endif %}
+    {% if page.api_integrations.size == 1 %}
+      <dd><a href="#api-support">1 API</a></dd>
+    {% else %}
+      <dd><a href="#api-support">{{ page.api_integrations | size }} APIs</a></dd>
+    {% endif %}
 
-  {% if page.open-source %}
-    <dd>Open-source</dd>
-  {% endif %}
+    {% if page.open-source %}
+      <dd>Open-source</dd>
+    {% endif %}
   </dl>
       <li>
         <a href="{{ page.tms_url }}" target="_blank">{{ page.tms_url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
@@ -52,13 +43,7 @@ parent: TMS
 
 <h2 id="api-support">API support</h2>
 
-{% if page.api_integrations.size == 1 %}
-  {% if page.type == "true" %}
-    <p>The {{ page.title }} translation management system has <strong>{{ page.api_integrations | size }} machine translation API integrations</strong>.</p>
-  {% else %}
-    <p>The {{ page.title }} computer-aided tool has <strong>{{ page.api_integrations | size }} machine translation API integrations</strong>.</p>
-  {% endif %}
-{% endif %}
+<p>The {{ page.title }} {{ page.type_description }} has <strong>{{ page.api_integrations | size }} machine translation API integrations</strong>.</p>
 
 <ul>
 {% for api in page.api_integrations %}

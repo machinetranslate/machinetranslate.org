@@ -1,12 +1,13 @@
 ---
 layout: tms
 title: Crowdin
-description: The Crowdin machine translation integrations
+description: Machine translation API integrations in Crowdin
 id: crowdin
 parent: TMSs
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: https://www.crowdin.com
 api_integrations:
 - slug: alibaba
@@ -80,7 +81,7 @@ api_integrations:
   name: Yandex Translate
 fuzzy_repair: false
 open-source: false
-quality_estimation: true
+quality_estimation: false
 
 ---
 

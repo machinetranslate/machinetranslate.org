@@ -6,7 +6,7 @@ id: custom-mt
 parent: Aggregators
 urls:
 - https://custom.mt/
-supported_engines:
+supported_apis:
 - slug: amazon
   name: Amazon Translate
 - slug: deepl

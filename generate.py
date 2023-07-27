@@ -397,16 +397,19 @@ for tms in INTEGRATIONS:
 
     if 'tms' in tms_type:
       tms_type_description = 'translation management system'
-    if 'cat' in tms_type and 'tms' not in tms_type:
-      tms_type_description = 'computer-aided tool'
+    elif 'cat':
+      tms_type_description = 'computer-aided translation tool'
+    else:
+      raise 'TMS type must include `tms` or `cat`.'
 
     frontmatter = {
         'layout': 'tms',
-        'title': tms_name,
-        'description': f'The { tms_name } machine translation integrations',
+        'title':  tms_name,
+        'description': f'Machine translation API integrations in { tms_name }',
         'id': tms_id,
         'parent': 'TMSs',
         'type': tms_type,
+        'type_description': tms_type_description,
         'tms_url': tms_url,
         'api_integrations': tms_api_integrations,
         'fuzzy_repair': fuzzy_repair,
@@ -433,10 +436,10 @@ for a in AGGREGATORS:
     a_name = a['name']
     a_urls = a['urls']
     a_self_serve = a.get('self-serve', False)
-    ENGINES_BY_ID = {engine['id']: engine for engine in APIS}
+    APIS_BY_ID = {api['id']: api for api in APIS}
 
-    a_supported_engines = []
-    for a in a['supported_engines']:
+    a_supported_apis = []
+    for a in a['supported_apis']:
       try:
         a_data = {}
         if type(a) == type({}):
@@ -448,9 +451,9 @@ for a in AGGREGATORS:
           a_slug = a
           a_data['slug'] = a_slug
         
-        a_data['name'] = ENGINES_BY_ID[a_slug]['name']
+        a_data['name'] = APIS_BY_ID[a_slug]['name']
 
-        a_supported_engines.append(a_data)
+        a_supported_apis.append(a_data)
       except KeyError:
         pass
 
@@ -461,7 +464,7 @@ for a in AGGREGATORS:
         'id': a_id,
         'parent': 'Aggregators',
         'urls': a_urls,
-        'supported_engines': a_supported_engines,
+        'supported_apis': a_supported_apis,
         'self-serve': a_self_serve,
     }
     

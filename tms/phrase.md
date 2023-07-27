@@ -1,12 +1,13 @@
 ---
 layout: tms
 title: Phrase TMS
-description: The Phrase TMS machine translation integrations
+description: Machine translation API integrations in Phrase TMS
 id: phrase
 parent: TMSs
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: https://phrase.com/products/phrase-tms/
 api_integrations:
 - slug: aisa
@@ -95,7 +96,7 @@ api_integrations:
   name: Yandex Translate
 fuzzy_repair: false
 open-source: false
-quality_estimation: true
+quality_estimation: false
 
 ---
 

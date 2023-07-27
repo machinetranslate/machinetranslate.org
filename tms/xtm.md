@@ -1,12 +1,13 @@
 ---
 layout: tms
 title: XTM
-description: The XTM machine translation integrations
+description: Machine translation API integrations in XTM
 id: xtm
 parent: TMSs
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: http://xtm.cloud
 api_integrations:
 - slug: amazon

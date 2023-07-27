@@ -1,11 +1,12 @@
 ---
 layout: tms
 title: MateCat
-description: The MateCat machine translation integrations
+description: Machine translation API integrations in MateCat
 id: matecat
 parent: TMSs
 type:
 - cat
+type_description: computer-aided translation tool
 tms_url: https://www.matecat.com
 api_integrations:
 - slug: apertium

@@ -1,12 +1,13 @@
 ---
 layout: tms
 title: Wordfast
-description: The Wordfast machine translation integrations
+description: Machine translation API integrations in Wordfast
 id: wordfast
 parent: TMSs
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: http://www.wordfast.com
 api_integrations:
 - slug: deepl

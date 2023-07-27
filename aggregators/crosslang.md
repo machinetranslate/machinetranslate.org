@@ -6,7 +6,7 @@ id: crosslang
 parent: Aggregators
 urls:
 - https://crosslang.com/products/machine-translation-gateway/
-supported_engines:
+supported_apis:
 - slug: amazon
   name: Amazon Translate
 - slug: judicio

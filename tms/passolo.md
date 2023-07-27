@@ -1,11 +1,12 @@
 ---
 layout: tms
 title: Passolo
-description: The Passolo machine translation integrations
+description: Machine translation API integrations in Passolo
 id: passolo
 parent: TMSs
 type:
 - cat
+type_description: computer-aided translation tool
 tms_url: https://www.trados.com/products/passolo/
 api_integrations:
 - slug: deepl

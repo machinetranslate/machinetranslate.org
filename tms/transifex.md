@@ -1,12 +1,13 @@
 ---
 layout: tms
 title: Transifex
-description: The Transifex machine translation integrations
+description: Machine translation API integrations in Transifex
 id: transifex
 parent: TMSs
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: http://www.transifex.com
 api_integrations:
 - slug: amazon

@@ -1,12 +1,13 @@
 ---
 layout: tms
 title: Smartcat
-description: The Smartcat machine translation integrations
+description: Machine translation API integrations in Smartcat
 id: smartcat
 parent: TMSs
 type:
 - tms
 - cat
+type_description: translation management system
 tms_url: https://www.smartcat.ai
 api_integrations:
 - slug: amazon
