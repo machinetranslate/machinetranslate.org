@@ -1,8 +1,8 @@
 ---
 nav_order: 235
 parent: More
-title: Companies
-description: Companies in the machine translation space
+title: Machine translation companies
+description: The list of companies in the machine translation space
 featured: true
 ---
 
