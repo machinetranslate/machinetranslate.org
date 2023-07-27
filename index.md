@@ -12,8 +12,8 @@ seo:
 **Machine Translate** is building **open resources and community for machine translation**.
 
 {% assign integration_count = 0 %}
-{% for i in site.data.integrations %}
-  {% assign s = i.api_integrations | size %}
+{% for tms in site.data.translaton-management-systems %}
+  {% assign s = tms.api_integrations | size %}
   {% assign integration_count = integration_count | plus: s %}
 {% endfor %}
 
