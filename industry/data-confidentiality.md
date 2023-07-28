@@ -1,6 +1,5 @@
 ---
-nav_order: 14
-parent: Products
+nav_order: 15
 title: Data confidentiality
 description: Data confidentiality in machine translation
 ---

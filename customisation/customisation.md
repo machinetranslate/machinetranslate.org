@@ -1,5 +1,5 @@
 ---
-nav_order: 60
+nav_order: 14
 has_children: true
 title: Customisation
 description: Machine translation customisation
