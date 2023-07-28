@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: MateCat
 description: Machine translation API integrations in MateCat
 id: matecat

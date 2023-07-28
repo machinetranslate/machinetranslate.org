@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: OmegaT
 description: Machine translation API integrations in OmegaT
 id: omegat

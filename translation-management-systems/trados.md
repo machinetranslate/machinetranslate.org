@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: Trados Studio
 description: Machine translation API integrations in Trados Studio
 id: trados

@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: MemoQ
 description: Machine translation API integrations in MemoQ
 id: memoq

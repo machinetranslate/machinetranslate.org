@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: XTM
 description: Machine translation API integrations in XTM
 id: xtm

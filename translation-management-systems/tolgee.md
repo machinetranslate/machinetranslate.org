@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: Tolgee
 description: Machine translation API integrations in Tolgee
 id: tolgee

@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: Wordbee
 description: Machine translation API integrations in Wordbee
 id: wordbee

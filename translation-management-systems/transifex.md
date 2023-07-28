@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: Transifex
 description: Machine translation API integrations in Transifex
 id: transifex

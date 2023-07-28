@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: Across
 description: Machine translation API integrations in Across
 id: across

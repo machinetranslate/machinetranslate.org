@@ -99,7 +99,7 @@ defaults:
         type: Product
   -
     scope:
-      path: "translation-management-systems"
+      path: "integrations"
       type: "pages"
     values:
       permalink: /:basename

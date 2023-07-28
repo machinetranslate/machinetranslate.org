@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: Lilt
 description: Machine translation API integrations in Lilt
 id: lilt

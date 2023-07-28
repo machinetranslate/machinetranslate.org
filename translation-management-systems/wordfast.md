@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: Wordfast
 description: Machine translation API integrations in Wordfast
 id: wordfast

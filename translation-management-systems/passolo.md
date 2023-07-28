@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: Passolo
 description: Machine translation API integrations in Passolo
 id: passolo

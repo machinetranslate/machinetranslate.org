@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: Smartling
 description: Machine translation API integrations in Smartling
 id: smartling

@@ -29,8 +29,8 @@ with open('_data/api-language.yml', 'r', encoding='utf8') as stream:
   API_LANGUAGE = yaml.safe_load(stream)
 
 ### Read translation management systems
-with open('_data/translation-management-systems.yml', 'r', encoding='utf8') as stream:
-  TRANSLATION_MANAGEMENT_SYSTEMS = yaml.safe_load(stream)
+with open('_data/integrations.yml', 'r', encoding='utf8') as stream:
+  INTEGRATIONS = yaml.safe_load(stream)
 
 ### Read aggregators
 with open('_data/aggregators.yml', 'r', encoding='utf8') as stream:
@@ -304,7 +304,7 @@ for api in APIS:
         UNLISTED_LANGUAGES[code] = 1
 
   integrations = []
-  for tms in TRANSLATION_MANAGEMENT_SYSTEMS:
+  for tms in INTEGRATIONS:
     for i in tms['api_integrations']:
       if i == api_id:
         integrations.append({
@@ -366,7 +366,7 @@ for code, count in sorted(UNLISTED_LANGUAGES.items(), key=lambda x: x[1] * 10 - 
 
 # Generate TMS files
 
-for tms in TRANSLATION_MANAGEMENT_SYSTEMS:
+for tms in INTEGRATIONS:
     tms_id = tms['id']
     tms_name = tms['name']
     tms_url = tms['tms_url']
@@ -403,7 +403,7 @@ for tms in TRANSLATION_MANAGEMENT_SYSTEMS:
       raise 'TMS type must include `tms` or `cat`.'
 
     frontmatter = {
-        'layout': 'translation-management-system',
+        'layout': 'integration',
         'title':  tms_name,
         'description': f'Machine translation API integrations in { tms_name }',
         'id': tms_id,
@@ -419,7 +419,7 @@ for tms in TRANSLATION_MANAGEMENT_SYSTEMS:
 
     content = read_content(filepath)
 
-    filepath = f'translation-management-systems/{tms_id}.md'
+    filepath = f'integrations/{tms_id}.md'
     with open(filepath, 'w', encoding='utf8') as f:
         f.write(f'''\
 ---

@@ -12,7 +12,7 @@ seo:
 **Machine Translate** is building **open information and a community for machine translation**.
 
 {% assign integration_count = 0 %}
-{% for tms in site.data.['translation-management-systems'] %}
+{% for tms in site.data.['integrations'] %}
   {% assign s = tms.api_integrations | size %}
   {% assign integration_count = integration_count | plus: s %}
 {% endfor %}
@@ -28,7 +28,7 @@ seo:
   </div>
   <div>
     <center>
-      <a href="/translation-management-systems">
+      <a href="/integrations">
         <h1>{{ integration_count }}</h1>
         integrations
       </a>

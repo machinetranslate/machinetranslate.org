@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: eLUNa
 description: Machine translation API integrations in eLUNa
 id: eluna

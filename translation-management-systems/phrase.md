@@ -1,5 +1,5 @@
 ---
-layout: translation-management-system
+layout: integration
 title: Phrase TMS
 description: Machine translation API integrations in Phrase TMS
 id: phrase
