@@ -84,7 +84,7 @@ defaults:
         type: Product
   -
     scope:
-      path: "tms"
+      path: "translation-management-systems"
       type: "pages"
     values:
       permalink: /:basename
