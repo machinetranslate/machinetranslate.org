@@ -273,9 +273,9 @@ supported_languages:
   name: Hawaiian
   variant_name: null
 - slug: null
-  code: he o iw
-  normalized_code: he o iw
-  base_code: he o iw
+  code: he
+  normalized_code: he
+  base_code: he
   name: null
   variant_name: null
 - slug: hindi
@@ -351,9 +351,9 @@ supported_languages:
   name: Japanese
   variant_name: null
 - slug: null
-  code: jv o jw
-  normalized_code: jv o jw
-  base_code: jv o jw
+  code: jv
+  normalized_code: jv
+  base_code: jv
   name: null
   variant_name: null
 - slug: georgian
