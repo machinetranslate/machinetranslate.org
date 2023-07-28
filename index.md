@@ -28,17 +28,17 @@ seo:
   </div>
   <div>
     <center>
-      <a href="/languages">
-        <h1>{{ site.data.languages | size }}</h1>
-        languages
+      <a href="/translation-management-systems">
+        <h1>{{ integration_count }}</h1>
+        integrations
       </a>
     </center>
   </div>
   <div>
     <center>
-      <a href="/apis">
-        <h1>{{ integration_count }}</h1>
-        integrations
+      <a href="/languages">
+        <h1>{{ site.data.languages | size }}</h1>
+        languages
       </a>
     </center>
   </div>
