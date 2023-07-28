@@ -153,7 +153,7 @@
 
 - id: globallink
   name: GlobalLink
-  url: https://globallink.translations.com/
+  tms_url: https://globallink.translations.com/
   type:
     - tms: true
     - cat: true
@@ -890,7 +890,7 @@
 
 - id: transitnxt
   name: TransitNXT
-  url: https://www.star-group.net/en/products/translation-localization.html
+  tms_url: https://www.star-group.net/en/products/translation-localization.html
   type: [ tms, cat ]
   documentation_url: https://www.star-group.net/en/downloads/transit-termstar.html
   api_integrations:

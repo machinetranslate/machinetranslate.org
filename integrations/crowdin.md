@@ -55,8 +55,11 @@ api_integrations:
   - https://support.crowdin.com/enterprise/machine-translation/#microsoft-translator
   name: Microsoft Translator
 - slug: modernmt
+  custom: true
+  adaptive: true
   urls:
   - https://support.crowdin.com/enterprise/machine-translation/#modernmt
+  - https://store.crowdin.com/adaptive-modernmt
   name: ModernMT
 - slug: systran
   plugin: true

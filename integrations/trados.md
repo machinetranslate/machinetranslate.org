@@ -155,7 +155,13 @@ api_integrations:
   plugin: true
   urls:
   - https://www.tmxmall.com/products/plugin
+  active: false
   name: TMXmall
+- slug: trebe
+  plugin: true
+  urls:
+  - https://appstore.rws.com/Plugin/195
+  name: Trebe
 - slug: ubiqus
   plugin: true
   active: false

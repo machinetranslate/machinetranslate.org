@@ -25,6 +25,7 @@ api_integrations:
   - https://help.inten.to/hc/en-us/articles/360017381939-How-to-set-up-Intento-as-the-MT-engine-in-MateCat
   name: Intento
 - slug: iptranslator
+  active: false
   name: IP Translator
 - slug: language-weaver
   name: Language Weaver

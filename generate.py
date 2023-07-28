@@ -368,6 +368,7 @@ for code, count in sorted(UNLISTED_LANGUAGES.items(), key=lambda x: x[1] * 10 - 
 
 for tms in INTEGRATIONS:
     tms_id = tms['id']
+    print(tms_id)
     tms_name = tms['name']
     tms_url = tms['tms_url']
     tms_type = tms['type']

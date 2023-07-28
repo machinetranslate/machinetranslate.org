@@ -17,6 +17,7 @@ api_integrations:
 - slug: google
   name: Google Translate
 - slug: baidu
+  active: false
   name: Baidu Translate
 - slug: microsoft
   name: Microsoft Translator

@@ -272,11 +272,11 @@ supported_languages:
   base_code: haw
   name: Hawaiian
   variant_name: null
-- slug: null
+- slug: hebrew
   code: he
   normalized_code: he
   base_code: he
-  name: null
+  name: Hebrew
   variant_name: null
 - slug: hindi
   code: hi
@@ -350,11 +350,11 @@ supported_languages:
   base_code: ja
   name: Japanese
   variant_name: null
-- slug: null
+- slug: javanese
   code: jv
   normalized_code: jv
   base_code: jv
-  name: null
+  name: Javanese
   variant_name: null
 - slug: georgian
   code: ka

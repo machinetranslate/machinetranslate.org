@@ -1,5 +1,5 @@
 ---
-nav_order: 972
+nav_order: 971
 parent: Languages
 layout: language
 title: Hebrew
@@ -83,6 +83,9 @@ supported_apis:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: google
+  name: Google Translate
+  supported_language_count: 132
 - id: modernmt
   name: ModernMT
   supported_language_count: 195

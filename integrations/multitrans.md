@@ -17,6 +17,7 @@ api_integrations:
   url: https://docs.rws.com/785465/786605/sdl-multitrans/configuring-google-translate-server
   name: Google Translate
 - slug: iconic
+  active: false
   url: https://docs.rws.com/785465/786609/sdl-multitrans/configuring-iconic-plugin
   name: Iconic
 - slug: microsoft

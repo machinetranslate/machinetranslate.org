@@ -58,6 +58,7 @@ api_integrations:
   - https://docs.memoq.com/current/en/Places/intento-plugin-settings.html
   name: Intento
 - slug: iptranslator
+  active: false
   urls:
   - https://docs.memoq.com/current/en/Places/iptranslator-plugin-settings.html
   name: IP Translator
@@ -66,6 +67,10 @@ api_integrations:
   urls:
   - https://docs.memoq.com/current/en/Places/kantanmt-plugin-settings.html
   name: KantanMT
+- slug: modernmt
+  urls:
+  - https://www.memoq.com/integrations/machine-translation/public-plugin/modernmt
+  name: ModernMT
 - slug: microsoft
   custom: true
   urls:
@@ -75,18 +80,25 @@ api_integrations:
   urls:
   - https://docs.memoq.com/current/en/Places/mirai-mt-plugin.html
   name: Mirai Translator
+- slug: niutrans
+  urls:
+  - https://www.memoq.com/integrations/machine-translation/private-plugin/niutrans
+  name: Niutrans
+- slug: omniscien
+  urls:
+  - https://www.memoq.com/integrations/machine-translation/public-plugin/omniscien
+  name: Omniscien Technologies
 - slug: opus-cat
   urls:
   - https://github.com/Helsinki-NLP/OPUS-CAT#using-the-fiskmo-plugin-in-memoq
   name: Opus CAT
-- slug: niutrans
-  name: Niutrans
 - slug: pangeamt
   glossary: true
   urls:
   - https://docs.memoq.com/current/en/Places/pangeamt-plugin-settings.html
   name: PangeaMT
 - slug: slate
+  active: false
   urls:
   - https://docs.memoq.com/current/en/Places/slate-desktop-plugin-settings.html
   name: Slate Desktop

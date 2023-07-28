@@ -41,6 +41,7 @@ api_integrations:
   custom: true
   name: KantanMT
 - slug: kodensha
+  active: false
   name: Kodensha MT
 - slug: microsoft
   custom: true
@@ -49,6 +50,7 @@ api_integrations:
 - slug: mirai
   name: Mirai Translator
 - slug: moraviamt
+  active: false
   name: MoraviaMT
 - slug: npatmt
   urls:
@@ -76,11 +78,13 @@ api_integrations:
   offline_glossary: true
   name: Language Weaver
 - slug: skrivanek
+  active: false
   name: Skrivanek
 - slug: systran
   custom: true
   name: SYSTRAN
 - slug: tauyou
+  active: false
   name: Tauyou
 - slug: tencent
   name: Tencent Machine Translation

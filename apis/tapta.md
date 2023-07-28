@@ -55,10 +55,6 @@ integrations:
   url: https://docs.rws.com/785465/786629/sdl-multitrans/configuring-tapta
 nav_order: 994
 active: true
+
 ---
-
-<blockquote>
- ℹ️ <strong>TAPTA</strong>, also called <strong>TAPTA4UN</strong>, is the official machine translation system of the United Nations (UN).
-</blockquote>
-
 
