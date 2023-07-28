@@ -17,12 +17,12 @@ supported_apis:
 - id: lucy
   name: Lucy
   supported_language_count: 9
-- id: alexa-translations-ai
-  name: Alexa Translations A.I.
-  supported_language_count: 10
 - id: translateme
   name: TranslateMe
   supported_language_count: 11
+- id: alexa-translations-ai
+  name: Alexa Translations A.I.
+  supported_language_count: 12
 - id: lingo24
   name: Lingo24
   supported_language_count: 13
@@ -41,11 +41,11 @@ supported_apis:
 - id: kakao
   name: Kakao
   supported_language_count: 19
-- id: textshuttle
-  name: TextShuttle
-  supported_language_count: 20
 - id: sogou-translate
   name: Sogou Translate
+  supported_language_count: 21
+- id: textshuttle
+  name: TextShuttle
   supported_language_count: 21
 - id: tilde
   name: Tilde

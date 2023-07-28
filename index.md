@@ -12,8 +12,8 @@ seo:
 **Machine Translate** is building **open information and a community for machine translation**.
 
 {% assign integration_count = 0 %}
-{% for i in site.data.integrations %}
-  {% assign s = i.api_integrations | size %}
+{% for tms in site.data.['translation-management-systems'] %}
+  {% assign s = tms.api_integrations | size %}
   {% assign integration_count = integration_count | plus: s %}
 {% endfor %}
 
@@ -28,17 +28,17 @@ seo:
   </div>
   <div>
     <center>
-      <a href="/languages">
-        <h1>{{ site.data.languages | size }}</h1>
-        languages
+      <a href="/translation-management-systems">
+        <h1>{{ integration_count }}</h1>
+        integrations
       </a>
     </center>
   </div>
   <div>
     <center>
-      <a href="/apis">
-        <h1>{{ integration_count }}</h1>
-        integrations
+      <a href="/languages">
+        <h1>{{ site.data.languages | size }}</h1>
+        languages
       </a>
     </center>
   </div>
@@ -48,7 +48,7 @@ The content covers everything about machine translation, from products to resear
 
 
 > #### Featured events
-> - [AMTA 2023](/amta2023) - 8 November, online - **New**
+> - [AMTA 2023](/amta2023) - 8 November, online - **Call for papers deadline updated**
 > - [WMT23](/wmt23) - 6-7 December, Singapore
 > - [Machine translation meetup](/meetup)
 

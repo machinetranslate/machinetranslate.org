@@ -728,6 +728,8 @@ integrations:
   - https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
 - slug: transifex
   name: Transifex
+- slug: transitnxt
+  name: TransitNXT
 - slug: translate5
   name: translate5
   urls:

@@ -13,7 +13,7 @@ family:
 supported_apis:
 - id: textshuttle
   name: TextShuttle
-  supported_language_count: 20
+  supported_language_count: 21
 - id: lingmo
   name: Lingmo Translation
   supported_language_count: 26

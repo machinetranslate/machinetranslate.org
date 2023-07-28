@@ -227,6 +227,8 @@ integrations:
   formality: true
   urls:
   - https://support.crowdin.com/enterprise/machine-translation/#deepl-translator
+- slug: eluna
+  name: eLUNa
 - slug: memoq
   name: MemoQ
   glossary: true
@@ -261,6 +263,10 @@ integrations:
   - https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3266/deepl-translation-provider
 - slug: transifex
   name: Transifex
+  formality: true
+- slug: transitnxt
+  name: TransitNXT
+  glossary: true
   formality: true
 - slug: translate5
   name: translate5

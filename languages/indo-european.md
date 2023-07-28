@@ -10,6 +10,8 @@ languages:
   name: Afrikaans
 - slug: albanian
   name: Albanian
+- slug: alemannic
+  name: Alemannic
 - slug: aragonese
   name: Aragonese
 - slug: armenian
@@ -76,8 +78,6 @@ languages:
   name: Hindi
 - slug: icelandic
   name: Icelandic
-- slug: iranian-persian
-  name: Iranian Persian
 - slug: irish
   name: Irish
 - slug: italian

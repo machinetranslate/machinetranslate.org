@@ -3,7 +3,8 @@
 domain: machinetranslate.org
 url: https://machinetranslate.org
 title: Machine Translate
-description: Open resources and community for machine translation
+tagline: Open information and community for machine translation
+description: Open information and community for machine translation, to make machine translation accessible to more people.
 
 # Pages permalink
 permalink: pretty
@@ -22,24 +23,40 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename
+      seo:
+        type: Article
   -
     scope:
       path: "approaches"
       type: "pages"
     values:
       permalink: /:basename
+      seo:
+        type: Article
   -
-      scope:
-        path: "concepts"
-        type: "pages"
-      values:
-        permalink: /:basename
+    scope:
+      path: "call-for-papers"
+      type: "pages"
+    values:
+      permalink: /:basename
+      seo:
+        type: ItemList
+  -
+    scope:
+      path: "concepts"
+      type: "pages"
+    values:
+      permalink: /:basename
+      seo:
+        type: Article
   -
     scope:
       path: "industry"
       type: "pages"
     values:
       permalink: /:basename
+      seo:
+        type: Article
   -
     scope:
       path: "contributing"
@@ -54,12 +71,16 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename
+      seo:
+        type: WebPage
   -
     scope:
       path: "customisation"
       type: "pages"
     values:
       permalink: /:basename
+      seo:
+        type: Article
   -
     scope:
       path: "events"
@@ -71,6 +92,14 @@ defaults:
   -
     scope:
       path: "apis"
+      type: "pages"
+    values:
+      permalink: /:basename
+      seo:
+        type: Product
+  -
+    scope:
+      path: "translation-management-systems"
       type: "pages"
     values:
       permalink: /:basename
@@ -106,30 +135,49 @@ defaults:
       type: "pages"
     values:
       permalink: /:basename
+      seo:
+        type: Article
   -
     scope:
       path: "research"
       type: "pages"
     values:
       permalink: /:basename
+      seo:
+        type: Article
   -
     scope:
       path: "workflows"
       type: "pages"
     values:
       permalink: /:basename
+      seo:
+        type: Article
   -
     scope:
       path: "building-and-research"
       type: "pages"
     values:
       permalink: /:basename
+      seo:
+        type: Article
+  -
+    scope:
+      path: "aggregators"
+      type: "pages"
+    values:
+      permalink: /:basename
+      seo:
+        type: ItemList
+  -
   -
     scope:
       path: "products-and-applications"
       type: "pages"
     values:
       permalink: /:basename
+      seo:
+        type: Article
 
 # Just the Docs
 
@@ -175,8 +223,17 @@ minima:
 seo:
   type: organization
 
+twitter:
+  username: machtranslate
+  card: summary
+
+facebook:
+  publisher: https://www.facebook.com/machinetranslate
+
 social:
-  github: machinetranslate
-  twitter: machtranslate
-  facebook: machinetranslate
-  linkedin: machinetranslate
+  name: Machine Translate | machinetranslate.org
+  links:
+    - https://github.com/machinetranslate
+    - https://twitter.com/machtranslate
+    - https://www.linkedin.com/company/machinetranslate
+    - https://www.facebook.com/machinetranslate

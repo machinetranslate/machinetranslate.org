@@ -17,11 +17,11 @@ supported_apis:
 - id: tapta
   name: TAPTA
   supported_language_count: 6
-- id: phrase-nextmt
-  name: Phrase NextMT
-  supported_language_count: 8
 - id: lucy
   name: Lucy
+  supported_language_count: 9
+- id: phrase-nextmt
+  name: Phrase NextMT
   supported_language_count: 9
 - id: translateme
   name: TranslateMe
@@ -47,11 +47,11 @@ supported_apis:
 - id: kakao
   name: Kakao
   supported_language_count: 19
-- id: textshuttle
-  name: TextShuttle
-  supported_language_count: 20
 - id: sogou-translate
   name: Sogou Translate
+  supported_language_count: 21
+- id: textshuttle
+  name: TextShuttle
   supported_language_count: 21
 - id: tilde
   name: Tilde

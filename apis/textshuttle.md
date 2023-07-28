@@ -49,6 +49,12 @@ supported_languages:
   base_code: fr
   name: French
   variant_name: null
+- slug: alemannic
+  code: gsw
+  normalized_code: gsw
+  base_code: gsw
+  name: Alemannic
+  variant_name: null
 - slug: hungarian
   code: hu
   normalized_code: hu
@@ -147,11 +153,14 @@ integrations:
   plugin: true
   urls:
   - https://appstore.rws.com/plugin/145/
+- slug: transitnxt
+  name: TransitNXT
+  glossary: true
 - slug: wordbee
   name: Wordbee
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
-nav_order: 980
+nav_order: 979
 active: true
 
 ---

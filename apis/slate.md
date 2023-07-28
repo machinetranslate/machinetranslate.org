@@ -15,6 +15,7 @@ more_languages_by_request: false
 integrations:
 - slug: memoq
   name: MemoQ
+  active: false
   urls:
   - https://docs.memoq.com/current/en/Places/slate-desktop-plugin-settings.html
 nav_order: 1000

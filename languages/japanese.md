@@ -17,7 +17,7 @@ supported_apis:
   supported_language_count: 8
 - id: alexa-translations-ai
   name: Alexa Translations A.I.
-  supported_language_count: 10
+  supported_language_count: 12
 - id: papago
   name: Papago Translation
   supported_language_count: 12
@@ -36,11 +36,11 @@ supported_apis:
 - id: kakao
   name: Kakao
   supported_language_count: 19
-- id: textshuttle
-  name: TextShuttle
-  supported_language_count: 20
 - id: sogou-translate
   name: Sogou Translate
+  supported_language_count: 21
+- id: textshuttle
+  name: TextShuttle
   supported_language_count: 21
 - id: lingmo
   name: Lingmo Translation

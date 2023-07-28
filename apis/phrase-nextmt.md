@@ -60,12 +60,18 @@ supported_languages:
   base_code: ru
   name: Russian
   variant_name: null
+- slug: chinese
+  code: zh-cn
+  normalized_code: zh-Hans
+  base_code: zh
+  name: Chinese
+  variant_name: Simplified Chinese
 more_languages_by_request: false
 integrations:
 - slug: phrase
   name: Phrase TMS
   glossary: true
-nav_order: 992
+nav_order: 991
 active: true
 
 ---

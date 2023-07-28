@@ -816,11 +816,11 @@ supported_languages:
   base_code: pbt
   name: Pashto
   variant_name: null
-- slug: iranian-persian
+- slug: persian
   code: pes
   normalized_code: pes
   base_code: pes
-  name: Iranian Persian
+  name: Persian
   variant_name: null
 - slug: polish
   code: pl

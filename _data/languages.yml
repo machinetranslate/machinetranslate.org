@@ -61,6 +61,17 @@
   territories: [ na, za ]
 
 -
+  codes: [ gsw ]
+  names: [ Alemannic ]
+  variant_names: [ Swiss German, Walser German, Walliser German, Swabian, Alsatian, Low Alemannic, High Alemannic, Middle Alemannic, Highest Alemannic ]
+  family: [ gem, ine ]
+  scripts: [ Latn ]
+  typology:
+    word_order: [ SVO ]
+    morphosyntax: [ fusional ]
+  territories: [ ch, fr, de, at, it ]
+
+-
   codes: [ am, amh ]
   names: [ Amharic ]
   family: [ sem, afa ]
@@ -541,14 +552,14 @@
   territories: [ es, fr ]
 
 -
-  codes: [ fa, fas, per, prs ]
-  names: [ Persian, Farsi ]
-  variant_names: [ Dari, Dari Persian, Afghan Persian, Eastern Persian, Tajiki Persian ]
+  codes: [ fa, fas, per, prs, pes ]
+  names: [ Persian, Farsi, Dari, Tajik ]
+  variant_names: [ Dari, Dari Persian, Afghan Persian, Western Persian, Eastern Persian, Iranian Persian, Tajik, Tajiki Persian ]
   family: [ ira, iir, ine ]
   scripts: [ Arab ]
   typology:
     word_order: [ SOV ]
-    morphosyntax: [ agglutinative ]
+    morphosyntax: [ fusional, analytic ]
   territories: [ ir, af ]
 
 -
@@ -1287,9 +1298,6 @@
     word_order: [ SOV ]
     morphosyntax: [ agglutinative ]
   territories: [ ru ]
-# urls:
-#  https://mari-language.univie.ac.at/grammar/eg2022.pdf
-# https://en.wikipedia.org/wiki/Mari_language
 
 -
   codes: [ mi, mri, mao ]
@@ -1422,7 +1430,7 @@
   scripts: [ Latn ]
   typology:
     word_order: [ SVO ]
-    morphosyntax: [ synthetic ]
+    morphosyntax: [ fusional, synthetic ]
   territories: [ 001, be, nl ]
 
 -
@@ -1542,16 +1550,6 @@
     word_order: [ SVO ]
     morphosyntax:
   territories: [ aw, cw ]
-
--
-  codes: [ pes ]
-  names: [ Iranian Persian, Western Persian, Western Farsi, Persian ]
-  family: [ iir, ine ]
-  scripts: [ Arab ]
-  typology:
-    word_order: [ SOV ]
-    morphosyntax: [ agglutinative ]
-  territories: [ ir ]
 
 -
   codes: [ pl, pol ]

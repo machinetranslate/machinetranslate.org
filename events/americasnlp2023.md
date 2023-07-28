@@ -24,7 +24,7 @@ seo:
 ---
 
 The **Third AmericasNLP Competition** took place online in July, at ACL 2023.
-The competition will focus on creating machine translation systems for indigenous languages from the Americas.
+The competition focused on creating machine translation systems for indigenous languages from the Americas.
 
 [turing.iimas.unam.mx/americasnlp/2023_workshop.html](http://turing.iimas.unam.mx/americasnlp/2023_workshop.html)
 

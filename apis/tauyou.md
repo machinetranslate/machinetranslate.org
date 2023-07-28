@@ -17,6 +17,7 @@ integrations:
   name: MateCat
 - slug: phrase
   name: Phrase TMS
+  active: false
 - slug: wordbee
   name: Wordbee
   urls:
