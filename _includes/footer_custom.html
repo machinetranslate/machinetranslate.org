@@ -1,3 +1,39 @@
+
+
+<center>
+  {% if page.title == '404' %}
+    Have a question?  Want machine translation news?
+  {% elsif page.layout == 'coming_soon' %}
+    Want to learn about {{ page.title }}?
+  {% else %}
+    Want to learn more about {{ page.title }}?
+  {% endif %}
+
+  {% if page.title == '404' %}
+    <a href="https://reddit.com/r/machinetranslation" class="no-arrow" target="_blank">
+        <button id="airtable-button">
+          Search in the community
+        </button>
+    </a>
+    <a href="https://www.reddit.com/r/machinetranslation/submit?selftext=truesubmit&title=Question%20about%20...%20%3F" class="no-arrow" target="_blank">
+      <button id="airtable-button">
+        Ask your own question
+      </button>
+    </a>
+  {% else %}
+    <a href="https://reddit.com/r/machinetranslation" class="no-arrow" target="_blank">
+      <button id="airtable-button">
+        Search in the community for <i>{{ page.title | downcase }}</i>
+      </button>
+    </a>
+    <a href="https://www.reddit.com/r/machinetranslation/submit?selftext=truesubmit&title={{ page.title }}%20...%20%3F" class="no-arrow" target="_blank">
+      <button id="airtable-button">
+        Ask your own question
+      </button>
+    </a>
+  {% endif %}
+</center>
+
 <small>
 
 <center>
