@@ -35,9 +35,9 @@ Adaptive machine translation first became practical with the rise of [neural mac
 
 ### Workflow
 
-1. The engine generates a machine translated output.
+1. The system generates a machine translated output.
 2. The output is fixed or approved.
-3. The engine learns from the correction.
+3. The system learns from the correction.
 4. The system reduces the chance of repeating the error.
 
 Adaptive machine translation reduces the time a human takes to edit a machine translation suggestion.

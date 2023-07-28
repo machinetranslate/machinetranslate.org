@@ -93,9 +93,12 @@ Do not add “and” before the last name.
 
 ## Terminology
 
+- *API* or *system* *~~engine~~*
+- *machine translation* *~~automatic translation~~* *~~AI translation~~*
+
 For terms with multiple spellings, check Machine Translate to find the preferred choice.
 
-* _~~Rules-based machine translation~~_ Rule-based machine translation
+* *~~Rules-based machine translation~~* *Rule-based machine translation*
 
 ## Machine Translate and machinetranslate.org
 
@@ -157,7 +160,11 @@ Use curly apostrophes and quotation marks.
 
 Only use very widely understood acronyms, like *URL* and *API*.
 
-If a concept is often referred to by its acronym, then include the acronym in parentheses the first time it is mentioned.
+> ... ~~NMT~~ neural machine translation ...
+
+If a concept like *CAT* or *TMS* is often referred to by its acronym, then include the acronym in parentheses the first time it is mentioned.
+
+> ... computer-aided translation (CAT) tool ...
 
 > **Neural machine translation** (**NMT**) ...
 
