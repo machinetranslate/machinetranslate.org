@@ -2,8 +2,9 @@
 nav_order: 11
 has_children: true
 title: APIs
-description: Machine translation APIs
+description: List of machine translation APIs
 seo:
+    name: List of machine translation APIs
     type: ItemList
 ---
 
