@@ -4,10 +4,24 @@ parent: Languages
 layout: language
 title: Haitian
 description: Machine translation for Haitian
-code: ht
+codes:
+- ht
+- hat
+names:
+- Haitian
+- Haitian Creole
 family:
 - slug: french-based-creoles
   name: French-based creoles
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+territories:
+- ht
 supported_apis:
 - id: kodensha
   name: Kodensha MT

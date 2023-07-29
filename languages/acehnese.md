@@ -4,10 +4,23 @@ parent: Languages
 layout: language
 title: Acehnese
 description: Machine translation for Acehnese
-code: ace
+codes:
+- ace
+names:
+- Acehnese
+- Achinese
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- id
 supported_apis:
 - id: modernmt
   name: ModernMT

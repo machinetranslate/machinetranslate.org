@@ -4,10 +4,26 @@ parent: Languages
 layout: language
 title: Maori
 description: Machine translation for Maori
-code: mi
+codes:
+- mi
+- mri
+- mao
+names:
+- Maori
+- "M\u0101ori"
+- "Te Reo M\u0101ori"
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - analytical
+territories:
+- nz
 supported_apis:
 - id: lilt
   name: Lilt

@@ -106,7 +106,7 @@ def flatten(l):
       _.append(item)
   return _
 
-def read_content(filepth):
+def read_content(filepath):
   content = ''
   if not exists(filepath):
     return ''
@@ -121,7 +121,6 @@ for api in APIS:
   api_id = api['id']
 
   codes = flatten(api['languages'])
-
 
 
   def normalize(code):
@@ -180,11 +179,12 @@ for code in LANGUAGE_FAMILIES:
 ### Write languages
 for language in LANGUAGES:
   code = language['codes'][0]
-  if type(language['codes']) is not list:
+
+  if not isinstance(language['codes'], list):
     raise Exception(language)
 
   name = language['names'][0]
-  if type(language['names']) is not list:
+  if not isinstance(language['names'], list):
     raise Exception(language)
 
   family = []
@@ -214,9 +214,9 @@ for language in LANGUAGES:
     'layout': 'language',
     'title': name,
     'description': f'Machine translation for { name }',
-    'code': code,
+    **language,
     'family': family,
-    'supported_apis': supported_apis
+    'supported_apis': supported_apis,
   }
 
   slug = slugify(name)
@@ -239,15 +239,15 @@ UNLISTED_LANGUAGES = {}
 for api in APIS:
 
   name = api['name']
-  if type(name) is not str:
+  if not isinstance(name, str):
     raise Exception(name)
 
   api_id = api['id']
-  if type(api_id) is not str:
+  if not isinstance(api_id, str):
     raise Exception(api_id)
 
   languages = api['languages']
-  if type(languages) is not list:
+  if not isinstance(languages, list):
     raise Exception(languages)
 
   urls = api['urls']
@@ -311,7 +311,7 @@ for api in APIS:
           'slug': tms['id'],
           'name': tms['name']
         })
-      elif type(i) == dict:
+      elif isinstance(i, dict):
         id = next(iter(i))
         if id == api_id:
           integrations.append({
@@ -355,7 +355,7 @@ for api in APIS:
 print('Codes to add to languages.md')
 
 for code, count in sorted(UNLISTED_LANGUAGES.items(), key=lambda x: x[1] * 10 - len(x[0]), reverse=True):
-  text = code + ': ' + str(count)
+  text = f"{code}: {str(count)}"
   if count > 1 or len(code) == 2:
     text = '**' + text + '**'
   base_code = code.split('-')[0].lower()

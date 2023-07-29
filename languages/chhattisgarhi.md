@@ -4,7 +4,11 @@ parent: Languages
 layout: language
 title: Chhattisgarhi
 description: Machine translation for Chhattisgarhi
-code: hne
+codes:
+- hne
+- sgj
+names:
+- Chhattisgarhi
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +16,16 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Deva
+- Orya
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - inflected
+territories:
+- in
 supported_apis:
 - id: modernmt
   name: ModernMT

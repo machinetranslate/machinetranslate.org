@@ -4,7 +4,11 @@ parent: Languages
 layout: language
 title: Magahi
 description: Machine translation for Magahi
-code: mag
+codes:
+- mag
+names:
+- Magahi
+- Magadhi
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +16,15 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Deva
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - fusional
+territories:
+- in
 supported_apis:
 - id: modernmt
   name: ModernMT

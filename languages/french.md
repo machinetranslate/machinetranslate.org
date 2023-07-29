@@ -4,12 +4,31 @@ parent: Languages
 layout: language
 title: French
 description: Machine translation for French
-code: fr
+codes:
+- fr
+- fra
+- fre
+names:
+- French
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- be
+- ca
+- ch
+- fr
+- lu
+- mc
 supported_apis:
 - id: judicio
   name: Judicio

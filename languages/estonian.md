@@ -4,10 +4,27 @@ parent: Languages
 layout: language
 title: Estonian
 description: Machine translation for Estonian
-code: et
+codes:
+- et
+- est
+- ekk
+- vro
+names:
+- Estonian
 family:
 - slug: finno-ugric
   name: Finno-Ugric
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - agglutinative
+territories:
+- ee
+- ru
 supported_apis:
 - id: tilde
   name: Tilde

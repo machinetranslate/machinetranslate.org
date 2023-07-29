@@ -4,12 +4,27 @@ parent: Languages
 layout: language
 title: Breton
 description: Machine translation for Breton
-code: br
+codes:
+- br
+- bre
+- xbm
+- obt
+names:
+- Breton
 family:
 - slug: celtic
   name: Celtic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - inflected
+territories:
+- fr
 supported_apis:
 - id: apertium
   name: Apertium

@@ -4,7 +4,10 @@ parent: Languages
 layout: language
 title: Bhojpuri
 description: Machine translation for Bhojpuri
-code: bho
+codes:
+- bho
+names:
+- Bhojpuri
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +15,16 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Deva
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - inflected
+territories:
+- in
+- np
 supported_apis:
 - id: google
   name: Google Translate

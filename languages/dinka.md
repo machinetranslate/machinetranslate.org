@@ -4,10 +4,22 @@ parent: Languages
 layout: language
 title: Dinka
 description: Machine translation for Dinka
-code: dik
+codes:
+- dik
+names:
+- Dinka
 family:
 - slug: nilo-saharan
   name: Nilo-Saharan
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- ss
 supported_apis:
 - id: modernmt
   name: ModernMT

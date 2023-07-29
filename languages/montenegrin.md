@@ -4,12 +4,28 @@ parent: Languages
 layout: language
 title: Montenegrin
 description: Machine translation for Montenegrin
-code: cnr
+codes:
+- cnr
+names:
+- Montenegrin
+variant_names:
+- Serbo-Croatian
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+- Cyrl
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - inflected
+territories:
+- me
 supported_apis:
 - id: watson
   name: Watson Language Translator

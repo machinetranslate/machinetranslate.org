@@ -4,12 +4,27 @@ parent: Languages
 layout: language
 title: Ganda
 description: Machine translation for Ganda
-code: lug
+codes:
+- lug
+- gl
+- lg
+names:
+- Ganda
+- Luganda
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- ug
 supported_apis: []
 
 ---

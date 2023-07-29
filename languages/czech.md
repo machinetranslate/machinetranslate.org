@@ -4,12 +4,27 @@ parent: Languages
 layout: language
 title: Czech
 description: Machine translation for Czech
-code: cs
+codes:
+- cs
+- ces
+- cze
+names:
+- Czech
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - inflected
+territories:
+- cz
 supported_apis:
 - id: phrase-nextmt
   name: Phrase NextMT

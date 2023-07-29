@@ -4,12 +4,31 @@ parent: Languages
 layout: language
 title: Bemba
 description: Machine translation for Bemba
-code: bem
+codes:
+- bem
+names:
+- Bemba
+- ChiBemba
+- Cibemba
+- Ichibemba
+- Icibemba
+- Chiwemba
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- zm
+- cd
+- tz
 supported_apis:
 - id: modernmt
   name: ModernMT

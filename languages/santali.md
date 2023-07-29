@@ -4,10 +4,26 @@ parent: Languages
 layout: language
 title: Santali
 description: Machine translation for Santali
-code: sat
+codes:
+- sat
+names:
+- Santali
+- Santal
+- Santhali
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Olck
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- bd
+- in
+- np
 supported_apis:
 - id: modernmt
   name: ModernMT

@@ -4,10 +4,22 @@ parent: Languages
 layout: language
 title: Sundanese
 description: Machine translation for Sundanese
-code: su
+codes:
+- su
+- sun
+names:
+- Sundanese
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+- Sund
+typology:
+  word_order:
+  - SVO
+territories:
+- id
 supported_apis:
 - id: yandex
   name: Yandex Translate

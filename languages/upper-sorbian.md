@@ -4,12 +4,25 @@ parent: Languages
 layout: language
 title: Upper Sorbian
 description: Machine translation for Upper Sorbian
-code: hsb
+codes:
+- hsb
+names:
+- Upper Sorbian
+- Wendish
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - inflected
+territories:
+- de
 supported_apis:
 - id: microsoft
   name: Microsoft Translator

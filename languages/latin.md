@@ -4,12 +4,26 @@ parent: Languages
 layout: language
 title: Latin
 description: Machine translation for Latin
-code: la
+codes:
+- la
+- lat
+names:
+- Latin
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SOV
+  - SVO
+  morphosyntax:
+  - synthetic
+  - fusional
+territories: []
 supported_apis:
 - id: wordlingo
   name: Wordlingo

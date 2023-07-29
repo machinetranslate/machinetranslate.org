@@ -4,10 +4,27 @@ parent: Languages
 layout: language
 title: Wolof
 description: Machine translation for Wolof
-code: wo
+codes:
+- wo
+- wol
+names:
+- Wolof
 family:
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+- Arab
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+  - agglutinative
+territories:
+- sn
+- mr
+- gm
 supported_apis:
 - id: modernmt
   name: ModernMT

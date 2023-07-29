@@ -4,10 +4,25 @@ parent: Languages
 layout: language
 title: Thai
 description: Machine translation for Thai
-code: th
+codes:
+- th
+- tha
+names:
+- Thai
+- Central Thai
 family:
 - slug: tai
   name: Tai
+scripts:
+- Thai
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+  - isolating
+territories:
+- th
 supported_apis:
 - id: papago
   name: Papago Translation

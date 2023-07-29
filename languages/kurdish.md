@@ -4,7 +4,18 @@ parent: Languages
 layout: language
 title: Kurdish
 description: Machine translation for Kurdish
-code: ku
+codes:
+- ku
+- kur
+- sdh
+- kmr
+names:
+- Kurdish
+- Kurmanji Kurdish
+- Kurmanji
+- Northern Kurdish
+- Yezidi Kurdish
+- Yezidi
 family:
 - slug: iranic
   name: Iranic
@@ -12,6 +23,23 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+- Cyrl
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - inflected
+territories:
+- am
+- tr
+- sy
+- ir
+- iq
+- ge
+- tm
 supported_apis:
 - id: language-weaver
   name: Language Weaver

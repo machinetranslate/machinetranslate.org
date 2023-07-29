@@ -4,10 +4,22 @@ parent: Languages
 layout: language
 title: Cape Verdean Creole
 description: Machine translation for Cape Verdean Creole
-code: kea
+codes:
+- kea
+names:
+- Cape Verdean Creole
 family:
 - slug: portuguese-based-creoles
   name: Portuguese-based creoles
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytical
+territories:
+- cv
 supported_apis:
 - id: modernmt
   name: ModernMT

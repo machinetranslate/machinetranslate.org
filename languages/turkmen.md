@@ -4,10 +4,28 @@ parent: Languages
 layout: language
 title: Turkmen
 description: Machine translation for Turkmen
-code: tk
+codes:
+- tk
+- tuk
+names:
+- Turkmen
 family:
 - slug: turkic
   name: Turkic
+scripts:
+- Cyrl
+- Latn
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- iq
+- tm
+- ir
+- af
 supported_apis:
 - id: promt
   name: PROMT

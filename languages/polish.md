@@ -4,12 +4,26 @@ parent: Languages
 layout: language
 title: Polish
 description: Machine translation for Polish
-code: pl
+codes:
+- pl
+- pol
+names:
+- Polish
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - synthetic
+territories:
+- pl
 supported_apis:
 - id: lingo24
   name: Lingo24

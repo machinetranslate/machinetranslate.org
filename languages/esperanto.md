@@ -4,10 +4,26 @@ parent: Languages
 layout: language
 title: Esperanto
 description: Machine translation for Esperanto
-code: eo
+codes:
+- eo
+- epo
+names:
+- Esperanto
 family:
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  - OVS
+  - SOV
+  - VOS
+  - VSO
+  morphosyntax:
+  - agglutinative
+territories: []
 supported_apis:
 - id: apertium
   name: Apertium

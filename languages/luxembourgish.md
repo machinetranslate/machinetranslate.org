@@ -4,12 +4,28 @@ parent: Languages
 layout: language
 title: Luxembourgish
 description: Machine translation for Luxembourgish
-code: lb
+codes:
+- lb
+- ltz
+names:
+- Luxembourgish
+- Luxemburgish
+- Letzeburgesch
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - V2
+  - SOV
+  morphosyntax:
+  - synthetic
+territories:
+- lu
 supported_apis:
 - id: omniscien
   name: Omniscien Technologies

@@ -4,10 +4,26 @@ parent: Languages
 layout: language
 title: Meitei
 description: Machine translation for Meitei
-code: mni
+codes:
+- mni
+names:
+- Meitei
+- Manipuri
 family:
 - slug: sino-tibetan
   name: Sino-Tibetan
+scripts:
+- Mtei
+- Beng
+- Latn
+typology:
+  word_order:
+  - SOV
+  morphosyntax: []
+territories:
+- bd
+- in
+- mm
 supported_apis:
 - id: google
   name: Google Translate

@@ -4,10 +4,25 @@ parent: Languages
 layout: language
 title: Tagalog
 description: Machine translation for Tagalog
-code: tl
+codes:
+- tl
+- tgl
+- fil
+names:
+- Tagalog
+- Filipino
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - agglutinative
+territories:
+- ph
 supported_apis:
 - id: textra
   name: TexTra

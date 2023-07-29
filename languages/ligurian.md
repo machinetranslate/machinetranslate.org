@@ -4,12 +4,27 @@ parent: Languages
 layout: language
 title: Ligurian
 description: Machine translation for Ligurian
-code: lij
+codes:
+- lij
+names:
+- Ligurian
+- Genoese
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- fr
+- it
+- mc
 supported_apis:
 - id: modernmt
   name: ModernMT

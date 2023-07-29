@@ -4,12 +4,28 @@ parent: Languages
 layout: language
 title: Occitan
 description: Machine translation for Occitan
-code: oc
+codes:
+- oc
+- oci
+names:
+- Occitan
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- es
+- fr
+- it
+- mc
 supported_apis:
 - id: apertium
   name: Apertium

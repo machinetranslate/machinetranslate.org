@@ -4,10 +4,21 @@ parent: Languages
 layout: language
 title: Minangkabau
 description: Machine translation for Minangkabau
-code: min
+codes:
+- min
+names:
+- Minangkabau
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax: []
+territories:
+- id
 supported_apis:
 - id: modernmt
   name: ModernMT

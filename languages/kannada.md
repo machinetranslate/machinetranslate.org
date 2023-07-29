@@ -4,10 +4,24 @@ parent: Languages
 layout: language
 title: Kannada
 description: Machine translation for Kannada
-code: kn
+codes:
+- kn
+- kan
+- kfi
+names:
+- Kannada
 family:
 - slug: dravidian
   name: Dravidian
+scripts:
+- Knda
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- id
 supported_apis:
 - id: watson
   name: Watson Language Translator

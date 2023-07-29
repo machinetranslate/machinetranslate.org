@@ -4,12 +4,30 @@ parent: Languages
 layout: language
 title: Somali
 description: Machine translation for Somali
-code: so
+codes:
+- so
+- som
+names:
+- Somali
 family:
 - slug: cushitic
   name: Cushitic
 - slug: afro-asiatic
   name: Afro-Asiatic
+scripts:
+- Arab
+- Latn
+- Osma
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- dj
+- et
+- ke
+- so
 supported_apis:
 - id: systran
   name: SYSTRAN

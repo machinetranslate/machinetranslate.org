@@ -4,10 +4,24 @@ parent: Languages
 layout: language
 title: Japanese
 description: Machine translation for Japanese
-code: ja
+codes:
+- ja
+- jpn
+names:
+- Japanese
 family:
 - slug: japonic
   name: Japonic
+scripts:
+- Jpan
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+  - synthetic
+territories:
+- jp
 supported_apis:
 - id: cloudtranslation
   name: CloudTranslation

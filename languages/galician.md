@@ -4,12 +4,26 @@ parent: Languages
 layout: language
 title: Galician
 description: Machine translation for Galician
-code: gl
+codes:
+- gl
+- glg
+names:
+- Galician
+- Gallego
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- es
 supported_apis:
 - id: elia
   name: Elia

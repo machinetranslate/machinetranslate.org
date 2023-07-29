@@ -4,10 +4,23 @@ parent: Languages
 layout: language
 title: Tahitian
 description: Machine translation for Tahitian
-code: ty
+codes:
+- ty
+- tah
+names:
+- Tahitian
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - analytic
+territories:
+- pf
 supported_apis:
 - id: iconic
   name: Iconic

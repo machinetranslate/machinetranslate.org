@@ -4,7 +4,11 @@ parent: Languages
 layout: language
 title: Sindhi
 description: Machine translation for Sindhi
-code: sd
+codes:
+- sd
+- snd
+names:
+- Sindhi
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +16,19 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Arab
+- Deva
+- Khoj
+- Sind
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - inflected
+territories:
+- in
+- pk
 supported_apis:
 - id: rozetta
   name: Rozetta T-400

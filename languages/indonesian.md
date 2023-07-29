@@ -4,10 +4,24 @@ parent: Languages
 layout: language
 title: Indonesian
 description: Machine translation for Indonesian
-code: id
+codes:
+- id
+- in
+- ind
+names:
+- Indonesian
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- id
 supported_apis:
 - id: cloudtranslation
   name: CloudTranslation

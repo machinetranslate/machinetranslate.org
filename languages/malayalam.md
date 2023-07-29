@@ -4,10 +4,22 @@ parent: Languages
 layout: language
 title: Malayalam
 description: Machine translation for Malayalam
-code: ml
+codes:
+- ml
+names:
+- Malayalam
 family:
 - slug: dravidian
   name: Dravidian
+scripts:
+- Mlym
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- in
 supported_apis:
 - id: watson
   name: Watson Language Translator

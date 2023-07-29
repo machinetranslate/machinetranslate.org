@@ -4,7 +4,14 @@ parent: Languages
 layout: language
 title: Pashto
 description: Machine translation for Pashto
-code: ps
+codes:
+- ps
+- pus
+- pbt
+- pbu
+- pst
+names:
+- Pashto
 family:
 - slug: iranic
   name: Iranic
@@ -12,6 +19,15 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - fusional
+territories:
+- af
 supported_apis:
 - id: systran
   name: SYSTRAN

@@ -4,12 +4,27 @@ parent: Languages
 layout: language
 title: Arpitan
 description: Machine translation for Arpitan
-code: frp
+codes:
+- frp
+names:
+- Arpitan
+- "Franco-Proven\xE7al"
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - synthetic
+territories:
+- ch
+- fr
+- it
 supported_apis:
 - id: apertium
   name: Apertium

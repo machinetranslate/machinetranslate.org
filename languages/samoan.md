@@ -4,10 +4,23 @@ parent: Languages
 layout: language
 title: Samoan
 description: Machine translation for Samoan
-code: sm
+codes:
+- sm
+- smo
+names:
+- Samoan
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - analytic
+territories:
+- ws
 supported_apis:
 - id: iconic
   name: Iconic

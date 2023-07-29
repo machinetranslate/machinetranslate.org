@@ -4,10 +4,26 @@ parent: Languages
 layout: language
 title: Mongolian
 description: Machine translation for Mongolian
-code: mn
+codes:
+- mn
+- mon
+- khk
+names:
+- Mongolian
 family:
 - slug: mongolic
   name: Mongolic
+scripts:
+- Cyrl
+- Mong
+- Phag
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- mn
 supported_apis:
 - id: textra
   name: TexTra

@@ -4,12 +4,23 @@ parent: Languages
 layout: language
 title: Corsican
 description: Machine translation for Corsican
-code: co
+codes:
+- co
+- cos
+names:
+- Corsican
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SOV
+territories:
+- fr
 supported_apis:
 - id: rozetta
   name: Rozetta T-400

@@ -4,12 +4,29 @@ parent: Languages
 layout: language
 title: Afrikaans
 description: Machine translation for Afrikaans
-code: af
+codes:
+- af
+- afr
+names:
+- Afrikaans
+variant_names:
+- Kaaps
+- Afrikaaps
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+territories:
+- na
+- za
 supported_apis:
 - id: apertium
   name: Apertium

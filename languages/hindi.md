@@ -4,7 +4,13 @@ parent: Languages
 layout: language
 title: Hindi
 description: Machine translation for Hindi
-code: hi
+codes:
+- hi
+- hin
+- hif
+names:
+- Hindi
+- Modern Standard Hindi
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +18,20 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Deva
+- Latn
+- Mahj
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - fusional
+  - synthetic
+territories:
+- in
+- za
+- ae
 supported_apis:
 - id: aisa
   name: AISA

@@ -4,10 +4,27 @@ parent: Languages
 layout: language
 title: Sango
 description: Machine translation for Sango
-code: sg
+codes:
+- sg
+- sag
+names:
+- Sango
+- Sangho
 family:
 - slug: creoles
   name: Creoles
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - isolating
+  - analytic
+territories:
+- cd
+- cf
+- td
 supported_apis:
 - id: modernmt
   name: ModernMT

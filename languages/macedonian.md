@@ -4,12 +4,27 @@ parent: Languages
 layout: language
 title: Macedonian
 description: Machine translation for Macedonian
-code: mk
+codes:
+- mk
+- mkd
+- mac
+names:
+- Macedonian
+- Macedonian Slavic
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Cyrl
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+territories:
+- mk
 supported_apis:
 - id: apertium
   name: Apertium

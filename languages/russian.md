@@ -4,12 +4,30 @@ parent: Languages
 layout: language
 title: Russian
 description: Machine translation for Russian
-code: ru
+codes:
+- ru
+- rus
+names:
+- Russian
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Cyrl
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+  - fusional
+  - synthetic
+territories:
+- ru
+- md
+- kz
+- ua
 supported_apis:
 - id: belazar
   name: Belazar

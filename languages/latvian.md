@@ -4,12 +4,27 @@ parent: Languages
 layout: language
 title: Latvian
 description: Machine translation for Latvian
-code: lv
+codes:
+- lv
+- lav
+- lvs
+names:
+- Latvian
+- Lettish
 family:
 - slug: baltic
   name: Baltic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- lv
 supported_apis:
 - id: tilde
   name: Tilde

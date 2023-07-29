@@ -4,12 +4,25 @@ parent: Languages
 layout: language
 title: Kimbundu
 description: Machine translation for Kimbundu
-code: kmb
+codes:
+- kmb
+names:
+- Kimbundu
+- Mbundu
+- North Mbundu
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax: []
+territories:
+- ao
 supported_apis:
 - id: modernmt
   name: ModernMT

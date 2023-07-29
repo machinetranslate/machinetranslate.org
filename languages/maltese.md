@@ -4,12 +4,25 @@ parent: Languages
 layout: language
 title: Maltese
 description: Machine translation for Maltese
-code: mt
+codes:
+- mt
+- mlt
+names:
+- Maltese
 family:
 - slug: semitic
   name: Semitic
 - slug: afro-asiatic
   name: Afro-Asiatic
+scripts:
+- Latn
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - inflected
+territories:
+- mt
 supported_apis:
 - id: etranslation
   name: eTranslation

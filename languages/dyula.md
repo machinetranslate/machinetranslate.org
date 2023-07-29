@@ -4,10 +4,30 @@ parent: Languages
 layout: language
 title: Dyula
 description: Machine translation for Dyula
-code: dyu
+codes:
+- dyu
+names:
+- Dyula
+- Jula
+- Dioula
 family:
 - slug: mande
   name: Mande
+scripts:
+- Arab
+- Latn
+- Nkoo
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - analytic
+  - inflected
+territories:
+- bf
+- ci
+- gh
+- ml
 supported_apis:
 - id: modernmt
   name: ModernMT

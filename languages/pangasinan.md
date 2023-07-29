@@ -4,10 +4,22 @@ parent: Languages
 layout: language
 title: Pangasinan
 description: Machine translation for Pangasinan
-code: pag
+codes:
+- pag
+names:
+- Pangasinan
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - agglutinative
+territories:
+- ph
 supported_apis:
 - id: modernmt
   name: ModernMT

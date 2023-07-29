@@ -4,12 +4,36 @@ parent: Languages
 layout: language
 title: Yiddish
 description: Machine translation for Yiddish
-code: yi
+codes:
+- yi
+- yid
+- ydd
+- yih
+names:
+- Yiddish
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Hebr
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- ba
+- nl
+- pl
+- ro
+- se
+- ua
+- ru
+- by
+- us
+- il
 supported_apis:
 - id: wordlingo
   name: Wordlingo

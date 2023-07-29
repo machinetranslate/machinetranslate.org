@@ -4,12 +4,26 @@ parent: Languages
 layout: language
 title: Aragonese
 description: Machine translation for Aragonese
-code: an
+codes:
+- an
+- arg
+names:
+- Aragonese
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - inflected
+territories:
+- es
 supported_apis:
 - id: apertium
   name: Apertium

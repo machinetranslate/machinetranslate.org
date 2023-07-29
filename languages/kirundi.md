@@ -4,12 +4,29 @@ parent: Languages
 layout: language
 title: Kirundi
 description: Machine translation for Kirundi
-code: rn
+codes:
+- rn
+- run
+names:
+- Kirundi
+- Rundi
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - synthetic
+territories:
+- bi
+- cd
+- rw
+- tz
 supported_apis:
 - id: modernmt
   name: ModernMT

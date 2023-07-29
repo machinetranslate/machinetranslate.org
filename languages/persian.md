@@ -4,7 +4,26 @@ parent: Languages
 layout: language
 title: Persian
 description: Machine translation for Persian
-code: fa
+codes:
+- fa
+- fas
+- per
+- prs
+- pes
+names:
+- Persian
+- Farsi
+- Dari
+- Tajik
+variant_names:
+- Dari
+- Dari Persian
+- Afghan Persian
+- Western Persian
+- Eastern Persian
+- Iranian Persian
+- Tajik
+- Tajiki Persian
 family:
 - slug: iranic
   name: Iranic
@@ -12,6 +31,17 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - fusional
+  - analytic
+territories:
+- ir
+- af
 supported_apis:
 - id: reverso
   name: Reverso

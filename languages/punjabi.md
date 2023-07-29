@@ -4,7 +4,12 @@ parent: Languages
 layout: language
 title: Punjabi
 description: Machine translation for Punjabi
-code: pa
+codes:
+- pa
+- pan
+names:
+- Punjabi
+- Panjabi
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +17,17 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Guru
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - fusional
+territories:
+- pk
+- in
 supported_apis:
 - id: systran
   name: SYSTRAN

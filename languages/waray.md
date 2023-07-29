@@ -4,10 +4,25 @@ parent: Languages
 layout: language
 title: Waray
 description: Machine translation for Waray
-code: war
+codes:
+- war
+names:
+- Waray
+- Waray-Waray
+- Bisaya/Binisaya nga Winaray/Waray
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+  - inflected
+territories:
+- ph
 supported_apis:
 - id: modernmt
   name: ModernMT

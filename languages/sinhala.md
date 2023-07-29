@@ -4,7 +4,12 @@ parent: Languages
 layout: language
 title: Sinhala
 description: Machine translation for Sinhala
-code: si
+codes:
+- si
+- sin
+names:
+- Sinhala
+- Sinhalese
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +17,15 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Sinh
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - fusional
+territories:
+- lk
 supported_apis:
 - id: textra
   name: TexTra
