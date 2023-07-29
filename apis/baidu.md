@@ -788,8 +788,8 @@ supported_languages:
   variant_name: null
 - slug: norwegian
   code: nor
-  normalized_code: nor
-  base_code: nor
+  normalized_code: 'no'
+  base_code: 'no'
   name: Norwegian
   variant_name: null
 - slug: null

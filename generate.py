@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import json
 import yaml
 from os.path import exists
 
@@ -9,32 +10,32 @@ LANGUAGE_FAMILIES = None
 
 
 ### Read scripts
-with open('_data/scripts.yml', 'r', encoding='utf8') as stream:
-  SCRIPTS = yaml.safe_load(stream)
+with open('_data/scripts.json', 'r', encoding='utf8') as stream:
+  SCRIPTS = json.load(stream)
 
 ### Read languages
-with open('_data/languages.yml', 'r', encoding='utf8') as stream:
-  LANGUAGES = yaml.safe_load(stream)
+with open('_data/languages.json', 'r', encoding='utf8') as stream:
+  LANGUAGES = json.load(stream)
 
 ### Read language families
-with open('_data/language-families.yml', 'r', encoding='utf8') as stream:
-  LANGUAGE_FAMILIES = yaml.safe_load(stream)
+with open('_data/language-families.json', 'r', encoding='utf8') as stream:
+  LANGUAGE_FAMILIES = json.load(stream)
 
 ### Read APIs
-with open('_data/apis.yml', 'r', encoding='utf8') as stream:
-  APIS = yaml.safe_load(stream)
+with open('_data/apis.json', 'r', encoding='utf8') as stream:
+  APIS = json.load(stream)
 
 ### Read API-language conversions
-with open('_data/api-language.yml', 'r', encoding='utf8') as stream:
-  API_LANGUAGE = yaml.safe_load(stream)
+with open('_data/api-language.json', 'r', encoding='utf8') as stream:
+  API_LANGUAGE = json.load(stream)
 
 ### Read translation management systems
-with open('_data/integrations.yml', 'r', encoding='utf8') as stream:
-  INTEGRATIONS = yaml.safe_load(stream)
+with open('_data/integrations.json', 'r', encoding='utf8') as stream:
+  INTEGRATIONS = json.load(stream)
 
 ### Read aggregators
-with open('_data/aggregators.yml', 'r', encoding='utf8') as stream:
-  AGGREGATORS = yaml.safe_load(stream)
+with open('_data/aggregators.json', 'r', encoding='utf8') as stream:
+  AGGREGATORS = json.load(stream)
 
 def base_language_code(locale_code):
   locale_code = locale_code.replace('_', '-')
@@ -62,7 +63,7 @@ def normalize_language_code(locale_code, api_id, drop_variant=True):
     or (drop_variant and _normalize_language_code(base_language_code(locale_code), '*')) \
     or locale_code
 
-# TODO: Move this to a .yaml file
+# TODO: Move this to a .json file
 TERRITORY_NAMES = {
   'ca': 'Canada',
   'fr': 'France',
@@ -287,7 +288,7 @@ for api in APIS:
         break
     if api_id not in [ 'alibaba', 'baidu', 'niutrans' ] and len(base_code) == 2 and not language_name:
       # This is usually a typo.
-      raise Exception('2-letter language codes should be in languages.yml.  No name found for: ' + base_code + '(' + api_id + ')')
+      raise Exception('2-letter language codes should be in languages.json.  No name found for: ' + base_code + '(' + api_id + ')')
     variant_name = get_language_variant_name(code, api_id)
     supported_languages.append({
       'slug': language_slug,
