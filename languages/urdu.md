@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Urdu
 description: Machine translation for Urdu
-code: ur
 codes:
 - ur
 - urd

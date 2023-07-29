@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Meadow Mari
 description: Machine translation for Meadow Mari
-code: mhr
 codes:
 - mhr
 names:

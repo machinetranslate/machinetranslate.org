@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Sango
 description: Machine translation for Sango
-code: sg
 codes:
 - sg
 - sag

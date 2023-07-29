@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Tatar
 description: Machine translation for Tatar
-code: tt
 codes:
 - tt
 - tat

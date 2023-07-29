@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Greek
 description: Machine translation for Greek
-code: el
 codes:
 - el
 - gre

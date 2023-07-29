@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Cebuano
 description: Machine translation for Cebuano
-code: ceb
 codes:
 - ceb
 names:

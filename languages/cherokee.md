@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Cherokee
 description: Machine translation for Cherokee
-code: chr
 codes:
 - chr
 names:

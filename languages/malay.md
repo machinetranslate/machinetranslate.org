@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Malay
 description: Machine translation for Malay
-code: ms
 codes:
 - ms
 - msa

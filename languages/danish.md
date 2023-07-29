@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Danish
 description: Machine translation for Danish
-code: da
 codes:
 - da
 - dan

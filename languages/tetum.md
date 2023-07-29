@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Tetum
 description: Machine translation for Tetum
-code: tet
 codes:
 - tet
 names:

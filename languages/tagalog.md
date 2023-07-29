@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Tagalog
 description: Machine translation for Tagalog
-code: tl
 codes:
 - tl
 - tgl

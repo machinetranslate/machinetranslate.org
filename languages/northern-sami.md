@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Northern Sami
 description: Machine translation for Northern Sami
-code: se
 codes:
 - se
 - sme

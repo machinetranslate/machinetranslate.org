@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Bosnian
 description: Machine translation for Bosnian
-code: bs
 codes:
 - bs
 - bos

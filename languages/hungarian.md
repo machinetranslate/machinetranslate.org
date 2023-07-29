@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Hungarian
 description: Machine translation for Hungarian
-code: hu
 codes:
 - hu
 - hun

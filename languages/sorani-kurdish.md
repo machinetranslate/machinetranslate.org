@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Sorani Kurdish
 description: Machine translation for Sorani Kurdish
-code: ckb
 codes:
 - ckb
 names:

@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Aymara
 description: Machine translation for Aymara
-code: ay
 codes:
 - ay
 - aym

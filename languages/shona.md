@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Shona
 description: Machine translation for Shona
-code: sn
 codes:
 - sn
 - sna

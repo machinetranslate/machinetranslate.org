@@ -4,10 +4,24 @@ parent: Languages
 layout: language
 title: Kabiye
 description: Machine translation for Kabiye
-code: kbp
+codes:
+- kbp
+names:
+- Kabiye
 family:
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - polysynthetic
+territories:
+- bj
+- gh
+- tg
 supported_apis:
 - id: modernmt
   name: ModernMT

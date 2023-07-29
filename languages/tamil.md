@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Tamil
 description: Machine translation for Tamil
-code: ta
 codes:
 - ta
 - tam

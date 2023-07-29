@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Galician
 description: Machine translation for Galician
-code: gl
 codes:
 - gl
 - glg

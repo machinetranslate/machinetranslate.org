@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Norwegian
 description: Machine translation for Norwegian
-code: 'no'
 codes:
 - 'no'
 - nb

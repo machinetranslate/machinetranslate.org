@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Acholi
 description: Machine translation for Acholi
-code: ach
 codes:
 - ach
 - lth

@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Belarusian
 description: Machine translation for Belarusian
-code: be
 codes:
 - be
 - bel

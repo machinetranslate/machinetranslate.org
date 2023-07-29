@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Venda
 description: Machine translation for Venda
-code: ve
 codes:
 - ve
 - ven

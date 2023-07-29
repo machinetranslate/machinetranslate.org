@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Yucatec Maya
 description: Machine translation for Yucatec Maya
-code: yua
 codes:
 - yua
 names:

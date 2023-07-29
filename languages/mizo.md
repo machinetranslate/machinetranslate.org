@@ -4,10 +4,25 @@ parent: Languages
 layout: language
 title: Mizo
 description: Machine translation for Mizo
-code: lus
+codes:
+- lus
+names:
+- Mizo
 family:
 - slug: sino-tibetan
   name: Sino-Tibetan
+scripts:
+- Latn
+- Beng
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- bd
+- in
+- mm
 supported_apis:
 - id: google
   name: Google Translate

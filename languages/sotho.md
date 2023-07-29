@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Sotho
 description: Machine translation for Sotho
-code: st
 codes:
 - st
 - sot

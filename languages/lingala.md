@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Lingala
 description: Machine translation for Lingala
-code: ln
 codes:
 - ln
 - lin

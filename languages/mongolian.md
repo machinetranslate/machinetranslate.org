@@ -4,10 +4,10 @@ parent: Languages
 layout: language
 title: Mongolian
 description: Machine translation for Mongolian
-code: mn
 codes:
 - mn
 - mon
+- khk
 names:
 - Mongolian
 family:

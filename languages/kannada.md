@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Kannada
 description: Machine translation for Kannada
-code: kn
 codes:
 - kn
 - kan

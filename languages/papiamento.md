@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Papiamento
 description: Machine translation for Papiamento
-code: pap
 codes:
 - pap
 names:

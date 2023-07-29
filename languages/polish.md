@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Polish
 description: Machine translation for Polish
-code: pl
 codes:
 - pl
 - pol

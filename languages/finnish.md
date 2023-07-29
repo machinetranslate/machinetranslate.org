@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Finnish
 description: Machine translation for Finnish
-code: fi
 codes:
 - fi
 - fin

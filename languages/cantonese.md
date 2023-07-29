@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Cantonese
 description: Machine translation for Cantonese
-code: yue
 codes:
 - yue
 names:

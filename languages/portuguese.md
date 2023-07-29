@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Portuguese
 description: Machine translation for Portuguese
-code: pt
 codes:
 - pt
 - por

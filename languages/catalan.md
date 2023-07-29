@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Catalan
 description: Machine translation for Catalan
-code: ca
 codes:
 - ca
 - cat

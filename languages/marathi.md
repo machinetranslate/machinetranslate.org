@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Marathi
 description: Machine translation for Marathi
-code: mr
 codes:
 - mr
 - mar

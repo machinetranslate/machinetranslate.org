@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Tahitian
 description: Machine translation for Tahitian
-code: ty
 codes:
 - ty
 - tah

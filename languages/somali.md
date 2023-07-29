@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Somali
 description: Machine translation for Somali
-code: so
 codes:
 - so
 - som

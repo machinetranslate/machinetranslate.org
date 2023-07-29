@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Udmurt
 description: Machine translation for Udmurt
-code: udm
 codes:
 - udm
 names:

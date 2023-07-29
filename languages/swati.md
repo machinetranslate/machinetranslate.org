@@ -4,12 +4,27 @@ parent: Languages
 layout: language
 title: Swati
 description: Machine translation for Swati
-code: ss
+codes:
+- ss
+- ssw
+names:
+- Swati
+- Swazi
+- siSwati
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - VO
+  morphosyntax: []
+territories:
+- sz
+- za
 supported_apis:
 - id: modernmt
   name: ModernMT

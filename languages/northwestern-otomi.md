@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Northwestern Otomi
 description: Machine translation for Northwestern Otomi
-code: otq
 codes:
 - otq
 names:

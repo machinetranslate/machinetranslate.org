@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Manx
 description: Machine translation for Manx
-code: gv
 codes:
 - gv
 - glv

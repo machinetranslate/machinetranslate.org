@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Yoruba
 description: Machine translation for Yoruba
-code: yo
 codes:
 - yo
 - yor

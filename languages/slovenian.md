@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Slovenian
 description: Machine translation for Slovenian
-code: sl
 codes:
 - sl
 - slv

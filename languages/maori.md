@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Maori
 description: Machine translation for Maori
-code: mi
 codes:
 - mi
 - mri

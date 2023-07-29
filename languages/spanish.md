@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Spanish
 description: Machine translation for Spanish
-code: es
 codes:
 - es
 - spa

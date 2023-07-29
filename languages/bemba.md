@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Bemba
 description: Machine translation for Bemba
-code: bem
 codes:
 - bem
 names:

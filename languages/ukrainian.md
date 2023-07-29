@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Ukrainian
 description: Machine translation for Ukrainian
-code: uk
 codes:
 - uk
 - ukr

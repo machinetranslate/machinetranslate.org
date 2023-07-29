@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Berber
 description: Machine translation for Berber
-code: ber
 codes:
 - ber
 names:

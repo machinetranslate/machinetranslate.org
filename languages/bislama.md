@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Bislama
 description: Machine translation for Bislama
-code: bi
 codes:
 - bi
 - bis

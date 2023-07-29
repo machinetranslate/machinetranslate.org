@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Twi
 description: Machine translation for Twi
-code: tw
 codes:
 - tw
 - twi

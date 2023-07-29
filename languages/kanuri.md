@@ -4,10 +4,27 @@ parent: Languages
 layout: language
 title: Kanuri
 description: Machine translation for Kanuri
-code: knc
+codes:
+- knc
+names:
+- Kanuri
 family:
 - slug: nilo-saharan
   name: Nilo-Saharan
+scripts:
+- Latn
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax: []
+territories:
+- cm
+- ng
+- ne
+- ly
+- sd
+- td
 supported_apis:
 - id: modernmt
   name: ModernMT

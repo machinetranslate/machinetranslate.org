@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Kurdish
 description: Machine translation for Kurdish
-code: ku
 codes:
 - ku
 - kur

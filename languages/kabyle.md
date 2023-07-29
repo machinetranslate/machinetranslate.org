@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Kabyle
 description: Machine translation for Kabyle
-code: kab
 codes:
 - kab
 names:

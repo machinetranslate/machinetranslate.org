@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Japanese
 description: Machine translation for Japanese
-code: ja
 codes:
 - ja
 - jpn

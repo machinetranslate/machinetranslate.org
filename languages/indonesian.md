@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Indonesian
 description: Machine translation for Indonesian
-code: id
 codes:
 - id
 - in

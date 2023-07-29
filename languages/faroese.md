@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Faroese
 description: Machine translation for Faroese
-code: fo
 codes:
 - fo
 - fao

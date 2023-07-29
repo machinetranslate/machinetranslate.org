@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Bulgarian
 description: Machine translation for Bulgarian
-code: bg
 codes:
 - bg
 - bul

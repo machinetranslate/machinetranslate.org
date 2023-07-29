@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Abkhaz
 description: Machine translation for Abkhaz
-code: ab
 codes:
 - ab
 names:

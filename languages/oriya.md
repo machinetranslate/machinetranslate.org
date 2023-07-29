@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Oriya
 description: Machine translation for Oriya
-code: or
 codes:
 - or
 - ori

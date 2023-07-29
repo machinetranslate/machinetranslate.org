@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Hill Mari
 description: Machine translation for Hill Mari
-code: mrj
 codes:
 - mrj
 names:

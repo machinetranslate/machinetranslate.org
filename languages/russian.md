@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Russian
 description: Machine translation for Russian
-code: ru
 codes:
 - ru
 - rus

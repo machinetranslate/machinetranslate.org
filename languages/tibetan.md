@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Tibetan
 description: Machine translation for Tibetan
-code: bo
 codes:
 - bo
 - bod

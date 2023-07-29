@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Basque
 description: Machine translation for Basque
-code: eu
 codes:
 - eu
 - eus

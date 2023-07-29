@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Tigrinya
 description: Machine translation for Tigrinya
-code: ti
 codes:
 - ti
 - tir

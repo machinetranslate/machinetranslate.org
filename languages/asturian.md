@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Asturian
 description: Machine translation for Asturian
-code: ast
 codes:
 - ast
 names:
@@ -13,6 +12,8 @@ names:
 family:
 - slug: romance
   name: Romance
+- slug: indo-european
+  name: Indo-European
 scripts:
 - Latn
 typology:
@@ -22,8 +23,6 @@ typology:
   - inflected
 territories:
 - es
-- slug: indo-european
-  name: Indo-European
 supported_apis:
 - id: apertium
   name: Apertium

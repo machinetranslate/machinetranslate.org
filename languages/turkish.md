@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Turkish
 description: Machine translation for Turkish
-code: tr
 codes:
 - tr
 - tur

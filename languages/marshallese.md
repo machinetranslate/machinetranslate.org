@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Marshallese
 description: Machine translation for Marshallese
-code: mh
 codes:
 - mh
 - mah

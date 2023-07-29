@@ -4,11 +4,25 @@ parent: Languages
 layout: language
 title: Akan
 description: Machine translation for Akan
-code: ak
+codes:
+- ak
+- aka
+names:
+- Akan
 family:
 - slug: niger-congo
   name: Niger-Congo
-<<<<<<< HEAD
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - synthetic
+  - agglutinative
+territories:
+- ci
+- gh
 supported_apis:
 - id: google
   name: Google Translate
@@ -22,27 +36,6 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212
-=======
-supported_apis: []
-lan:
-  codes:
-  - aka
-  names:
-  - Akan
-  family:
-  - nic
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - synthetic
-    - agglutinative
-  territories:
-  - ci
-  - gh
->>>>>>> c55400b (Move loop from language.html into generate.py #489)
 
 ---
 

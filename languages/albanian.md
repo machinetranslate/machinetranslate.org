@@ -4,13 +4,15 @@ parent: Languages
 layout: language
 title: Albanian
 description: Machine translation for Albanian
-code: sq
 codes:
 - sq
 - sqi
 - alb
+- als
 names:
 - Albanian
+- Tosk Albanian
+- Tosk
 family:
 - slug: indo-european
   name: Indo-European

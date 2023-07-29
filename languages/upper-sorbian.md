@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Upper Sorbian
 description: Machine translation for Upper Sorbian
-code: hsb
 codes:
 - hsb
 names:

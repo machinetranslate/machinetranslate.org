@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Chinese
 description: Machine translation for Chinese
-code: zh
 codes:
 - zh
 - lzh

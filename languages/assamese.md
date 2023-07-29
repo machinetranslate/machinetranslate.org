@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Assamese
 description: Machine translation for Assamese
-code: as
 codes:
 - as
 - asm

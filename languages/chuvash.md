@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Chuvash
 description: Machine translation for Chuvash
-code: cv
 codes:
 - cv
 names:

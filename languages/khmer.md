@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Khmer
 description: Machine translation for Khmer
-code: km
 codes:
 - km
 - khm

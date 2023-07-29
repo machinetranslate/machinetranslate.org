@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Pashto
 description: Machine translation for Pashto
-code: ps
 codes:
 - ps
 - pus

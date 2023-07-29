@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Tonga
 description: Machine translation for Tonga
-code: to
 codes:
 - to
 - ton

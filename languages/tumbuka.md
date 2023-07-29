@@ -4,12 +4,26 @@ parent: Languages
 layout: language
 title: Tumbuka
 description: Machine translation for Tumbuka
-code: tum
+codes:
+- tum
+names:
+- Tumbuka
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- mw
+- tz
+- zm
 supported_apis:
 - id: modernmt
   name: ModernMT

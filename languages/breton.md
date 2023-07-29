@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Breton
 description: Machine translation for Breton
-code: br
 codes:
 - br
 - bre

@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Inuktitut
 description: Machine translation for Inuktitut
-code: iu
 codes:
 - iu
 - iku

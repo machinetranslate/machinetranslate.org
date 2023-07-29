@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Frisian
 description: Machine translation for Frisian
-code: fy
 codes:
 - fy
 - fry

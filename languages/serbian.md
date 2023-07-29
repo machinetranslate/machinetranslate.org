@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Serbian
 description: Machine translation for Serbian
-code: sr
 codes:
 - sr
 - srp

@@ -4,10 +4,27 @@ parent: Languages
 layout: language
 title: Guarani
 description: Machine translation for Guarani
-code: gn
+codes:
+- gn
+- grn
+- gug
+names:
+- Guarani
 family:
 - slug: tupian
   name: Tupian
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- ar
+- bo
+- br
+- py
 supported_apis:
 - id: google
   name: Google Translate

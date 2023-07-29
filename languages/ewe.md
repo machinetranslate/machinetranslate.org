@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Ewe
 description: Machine translation for Ewe
-code: ee
 codes:
 - ee
 - ewe

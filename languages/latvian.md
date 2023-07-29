@@ -4,10 +4,10 @@ parent: Languages
 layout: language
 title: Latvian
 description: Machine translation for Latvian
-code: lv
 codes:
 - lv
 - lav
+- lvs
 names:
 - Latvian
 - Lettish

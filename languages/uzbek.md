@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Uzbek
 description: Machine translation for Uzbek
-code: uz
 codes:
 - uz
 - uzb

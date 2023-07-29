@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: English
 description: Machine translation for English
-code: en
 codes:
 - en
 - eng

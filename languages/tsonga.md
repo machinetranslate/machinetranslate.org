@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Tsonga
 description: Machine translation for Tsonga
-code: ts
 codes:
 - ts
 - tso

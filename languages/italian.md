@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Italian
 description: Machine translation for Italian
-code: it
 codes:
 - it
 - ita

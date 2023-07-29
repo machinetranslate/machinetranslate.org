@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Malayalam
 description: Machine translation for Malayalam
-code: ml
 codes:
 - ml
 names:

@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Haitian
 description: Machine translation for Haitian
-code: ht
 codes:
 - ht
 - hat

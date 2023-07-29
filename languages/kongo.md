@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Kongo
 description: Machine translation for Kongo
-code: kg
 codes:
 - kg
 - kon

@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Fijian
 description: Machine translation for Fijian
-code: fj
 codes:
 - fj
 - fij

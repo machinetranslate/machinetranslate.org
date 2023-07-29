@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Punjabi
 description: Machine translation for Punjabi
-code: pa
 codes:
 - pa
 - pan

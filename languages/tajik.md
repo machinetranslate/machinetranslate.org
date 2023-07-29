@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Tajik
 description: Machine translation for Tajik
-code: tg
 codes:
 - tg
 - tgk

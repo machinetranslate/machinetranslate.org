@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Balochi
 description: Machine translation for Balochi
-code: bal
 codes:
 - bal
 - bgp

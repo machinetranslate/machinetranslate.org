@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Vietnamese
 description: Machine translation for Vietnamese
-code: vi
 codes:
 - vi
 - vie

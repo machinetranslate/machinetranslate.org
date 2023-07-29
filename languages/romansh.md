@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Romansh
 description: Machine translation for Romansh
-code: rm
 codes:
 - rm
 - roh

@@ -214,7 +214,6 @@ for language in LANGUAGES:
     'layout': 'language',
     'title': name,
     'description': f'Machine translation for { name }',
-    'code': code,
     **language,
     'family': family,
     'supported_apis': supported_apis,

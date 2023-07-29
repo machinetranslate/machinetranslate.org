@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Hausa
 description: Machine translation for Hausa
-code: ha
 codes:
 - ha
 - hau

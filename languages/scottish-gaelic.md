@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Scottish Gaelic
 description: Machine translation for Scottish Gaelic
-code: gd
 codes:
 - gd
 - gla

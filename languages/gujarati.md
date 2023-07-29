@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Gujarati
 description: Machine translation for Gujarati
-code: gu
 codes:
 - gu
 - guj

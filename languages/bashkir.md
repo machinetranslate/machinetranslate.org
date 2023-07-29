@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Bashkir
 description: Machine translation for Bashkir
-code: ba
 codes:
 - ba
 - bak

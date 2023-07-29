@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Zulu
 description: Machine translation for Zulu
-code: zu
 codes:
 - zu
 - zul

@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Thai
 description: Machine translation for Thai
-code: th
 codes:
 - th
 - tha

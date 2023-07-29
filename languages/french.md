@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: French
 description: Machine translation for French
-code: fr
 codes:
 - fr
 - fra

@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Algerian Arabic
 description: Machine translation for Algerian Arabic
-code: arq
 codes:
 - arq
 names:

@@ -4,10 +4,10 @@ parent: Languages
 layout: language
 title: Oromo
 description: Machine translation for Oromo
-code: om
 codes:
 - om
 - orm
+- gaz
 names:
 - Oromo
 family:

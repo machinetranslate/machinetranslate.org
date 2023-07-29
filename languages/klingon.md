@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Klingon
 description: Machine translation for Klingon
-code: tlh
 codes:
 - tlh
 names:

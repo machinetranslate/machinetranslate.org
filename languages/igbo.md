@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Igbo
 description: Machine translation for Igbo
-code: ig
 codes:
 - ig
 - ibo

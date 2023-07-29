@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Crimean Tatar
 description: Machine translation for Crimean Tatar
-code: crh
 codes:
 - crh
 names:

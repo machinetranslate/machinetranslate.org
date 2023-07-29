@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Wolof
 description: Machine translation for Wolof
-code: wo
 codes:
 - wo
 - wol

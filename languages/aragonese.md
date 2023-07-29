@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Aragonese
 description: Machine translation for Aragonese
-code: an
 codes:
 - an
 - arg

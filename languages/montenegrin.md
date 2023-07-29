@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Montenegrin
 description: Machine translation for Montenegrin
-code: cnr
 codes:
 - cnr
 names:

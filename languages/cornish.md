@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Cornish
 description: Machine translation for Cornish
-code: kw
 codes:
 - kw
 - cor

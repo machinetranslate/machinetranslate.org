@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Welsh
 description: Machine translation for Welsh
-code: cy
 codes:
 - cy
 - wel

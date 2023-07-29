@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Hindi
 description: Machine translation for Hindi
-code: hi
 codes:
 - hi
 - hin

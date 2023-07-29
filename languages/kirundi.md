@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Kirundi
 description: Machine translation for Kirundi
-code: rn
 codes:
 - rn
 - run

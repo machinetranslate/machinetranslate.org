@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Dutch
 description: Machine translation for Dutch
-code: nl
 codes:
 - nl
 - nld
@@ -27,6 +26,7 @@ typology:
   word_order:
   - SVO
   morphosyntax:
+  - fusional
   - synthetic
 territories:
 - 1

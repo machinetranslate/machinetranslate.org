@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Irish
 description: Machine translation for Irish
-code: ga
 codes:
 - ga
 - gle

@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Kyrgyz
 description: Machine translation for Kyrgyz
-code: ky
 codes:
 - ky
 - kir

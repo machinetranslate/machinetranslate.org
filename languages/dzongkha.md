@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Dzongkha
 description: Machine translation for Dzongkha
-code: dz
 codes:
 - dz
 - dzo

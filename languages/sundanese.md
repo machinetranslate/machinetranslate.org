@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Sundanese
 description: Machine translation for Sundanese
-code: su
 codes:
 - su
 - sun

@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Romanian
 description: Machine translation for Romanian
-code: ro
 codes:
 - ro
 - ron

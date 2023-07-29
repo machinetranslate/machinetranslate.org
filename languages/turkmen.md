@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Turkmen
 description: Machine translation for Turkmen
-code: tk
 codes:
 - tk
 - tuk

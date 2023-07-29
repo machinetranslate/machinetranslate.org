@@ -4,12 +4,26 @@ parent: Languages
 layout: language
 title: Luba-Kasai
 description: Machine translation for Luba-Kasai
-code: lua
+codes:
+- lua
+names:
+- Luba-Kasai
+- "Cilub\xE0"
+- "Tshilub\xE0"
+- Luba-Lulua
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax: []
+territories:
+- cd
 supported_apis:
 - id: modernmt
   name: ModernMT

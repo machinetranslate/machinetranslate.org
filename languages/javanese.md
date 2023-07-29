@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Javanese
 description: Machine translation for Javanese
-code: jv
 codes:
 - jv
 - jav

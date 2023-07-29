@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Chichewa
 description: Machine translation for Chichewa
-code: ny
 codes:
 - ny
 names:

@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Tswana
 description: Machine translation for Tswana
-code: tn
 codes:
 - tn
 names:

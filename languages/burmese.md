@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Burmese
 description: Machine translation for Burmese
-code: my
 codes:
 - my
 - mya

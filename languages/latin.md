@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Latin
 description: Machine translation for Latin
-code: la
 codes:
 - la
 - lat

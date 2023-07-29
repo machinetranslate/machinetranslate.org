@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Lithuanian
 description: Machine translation for Lithuanian
-code: lt
 codes:
 - lt
 - lit

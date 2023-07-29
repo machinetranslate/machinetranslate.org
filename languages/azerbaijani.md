@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Azerbaijani
 description: Machine translation for Azerbaijani
-code: az
 codes:
 - az
 - aze

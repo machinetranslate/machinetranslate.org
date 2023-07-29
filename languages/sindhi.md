@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Sindhi
 description: Machine translation for Sindhi
-code: sd
 codes:
 - sd
 - snd

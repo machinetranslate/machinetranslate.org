@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Ossetian
 description: Machine translation for Ossetian
-code: os
 codes:
 - os
 - oss

@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Icelandic
 description: Machine translation for Icelandic
-code: is
 codes:
 - is
 - isl

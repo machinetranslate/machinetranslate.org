@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Macedonian
 description: Machine translation for Macedonian
-code: mk
 codes:
 - mk
 - mkd

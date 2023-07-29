@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Maltese
 description: Machine translation for Maltese
-code: mt
 codes:
 - mt
 - mlt

@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Silesian
 description: Machine translation for Silesian
-code: szl
 codes:
 - szl
 names:

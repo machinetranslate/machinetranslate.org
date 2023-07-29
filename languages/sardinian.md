@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Sardinian
 description: Machine translation for Sardinian
-code: sc
 codes:
 - sc
 - srd

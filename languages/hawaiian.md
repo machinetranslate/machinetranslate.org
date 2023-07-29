@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Hawaiian
 description: Machine translation for Hawaiian
-code: haw
 codes:
 - haw
 names:

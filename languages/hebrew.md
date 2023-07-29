@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Hebrew
 description: Machine translation for Hebrew
-code: he
 codes:
 - he
 - heb

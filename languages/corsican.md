@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Corsican
 description: Machine translation for Corsican
-code: co
 codes:
 - co
 - cos

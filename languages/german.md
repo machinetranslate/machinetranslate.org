@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: German
 description: Machine translation for German
-code: de
 codes:
 - de
 - deu

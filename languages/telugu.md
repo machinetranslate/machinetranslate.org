@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Telugu
 description: Machine translation for Telugu
-code: te
 codes:
 - te
 - tel

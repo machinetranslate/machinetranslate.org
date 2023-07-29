@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Occitan
 description: Machine translation for Occitan
-code: oc
 codes:
 - oc
 - oci
@@ -18,8 +17,10 @@ family:
 scripts:
 - Latn
 typology:
-  word_order: []
-  morphosyntax: []
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
 territories:
 - es
 - fr

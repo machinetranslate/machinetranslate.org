@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Divehi
 description: Machine translation for Divehi
-code: dv
 codes:
 - dv
 - div
@@ -23,7 +22,8 @@ scripts:
 - Latn
 - Thaa
 typology:
-  word_order: []
+  word_order:
+  - SOV
   morphosyntax:
   - inflected
 territories:

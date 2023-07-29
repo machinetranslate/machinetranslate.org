@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Yiddish
 description: Machine translation for Yiddish
-code: yi
 codes:
 - yi
 - yid

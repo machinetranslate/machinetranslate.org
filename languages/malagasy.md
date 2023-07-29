@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Malagasy
 description: Machine translation for Malagasy
-code: mg
 codes:
 - mg
 - mlg

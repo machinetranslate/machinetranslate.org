@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Amharic
 description: Machine translation for Amharic
-code: am
 codes:
 - am
 - amh

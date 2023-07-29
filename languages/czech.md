@@ -4,7 +4,6 @@ parent: Languages
 layout: language
 title: Czech
 description: Machine translation for Czech
-code: cs
 codes:
 - cs
 - ces
