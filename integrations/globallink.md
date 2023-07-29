@@ -3,7 +3,7 @@ layout: integration
 title: GlobalLink
 description: Machine translation API integrations in GlobalLink
 id: globallink
-parent: Translation management systems
+parent: Integrations
 type:
 - tms: true
 - cat: true

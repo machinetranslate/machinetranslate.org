@@ -3,7 +3,7 @@ layout: integration
 title: MateCat
 description: Machine translation API integrations in MateCat
 id: matecat
-parent: Translation management systems
+parent: Integrations
 type:
 - cat
 type_description: computer-aided translation tool

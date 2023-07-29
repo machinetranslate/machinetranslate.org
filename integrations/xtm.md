@@ -3,7 +3,7 @@ layout: integration
 title: XTM
 description: Machine translation API integrations in XTM
 id: xtm
-parent: Translation management systems
+parent: Integrations
 type:
 - tms
 - cat

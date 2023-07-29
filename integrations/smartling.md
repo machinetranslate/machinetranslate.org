@@ -3,7 +3,7 @@ layout: integration
 title: Smartling
 description: Machine translation API integrations in Smartling
 id: smartling
-parent: Translation management systems
+parent: Integrations
 type:
 - tms
 - cat

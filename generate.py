@@ -408,7 +408,7 @@ for tms in INTEGRATIONS:
         'title':  tms_name,
         'description': f'Machine translation API integrations in { tms_name }',
         'id': tms_id,
-        'parent': 'Translation management systems',
+        'parent': 'Integrations',
         'type': tms_type,
         'type_description': tms_type_description,
         'tms_url': tms_url,

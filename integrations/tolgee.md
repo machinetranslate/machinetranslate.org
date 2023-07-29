@@ -3,7 +3,7 @@ layout: integration
 title: Tolgee
 description: Machine translation API integrations in Tolgee
 id: tolgee
-parent: Translation management systems
+parent: Integrations
 type:
 - tms
 - cat

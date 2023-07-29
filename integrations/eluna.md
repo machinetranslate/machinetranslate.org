@@ -3,7 +3,7 @@ layout: integration
 title: eLUNa
 description: Machine translation API integrations in eLUNa
 id: eluna
-parent: Translation management systems
+parent: Integrations
 type:
 - tms
 - cat

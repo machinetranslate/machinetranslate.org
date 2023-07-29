@@ -3,7 +3,7 @@ layout: integration
 title: Wordfast
 description: Machine translation API integrations in Wordfast
 id: wordfast
-parent: Translation management systems
+parent: Integrations
 type:
 - tms
 - cat

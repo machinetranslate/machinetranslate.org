@@ -3,7 +3,7 @@ layout: integration
 title: Wordbee
 description: Machine translation API integrations in Wordbee
 id: wordbee
-parent: Translation management systems
+parent: Integrations
 type:
 - tms
 - cat

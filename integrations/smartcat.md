@@ -3,7 +3,7 @@ layout: integration
 title: Smartcat
 description: Machine translation API integrations in Smartcat
 id: smartcat
-parent: Translation management systems
+parent: Integrations
 type:
 - tms
 - cat

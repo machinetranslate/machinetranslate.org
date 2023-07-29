@@ -3,7 +3,7 @@ layout: integration
 title: TransitNXT
 description: Machine translation API integrations in TransitNXT
 id: transitnxt
-parent: Translation management systems
+parent: Integrations
 type:
 - tms
 - cat

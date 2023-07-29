@@ -3,7 +3,7 @@ layout: integration
 title: Passolo
 description: Machine translation API integrations in Passolo
 id: passolo
-parent: Translation management systems
+parent: Integrations
 type:
 - cat
 type_description: computer-aided translation tool

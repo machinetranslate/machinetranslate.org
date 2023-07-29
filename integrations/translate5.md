@@ -3,7 +3,7 @@ layout: integration
 title: translate5
 description: Machine translation API integrations in translate5
 id: translate5
-parent: Translation management systems
+parent: Integrations
 type:
 - tms
 - cat

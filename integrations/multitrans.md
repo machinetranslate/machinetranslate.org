@@ -3,7 +3,7 @@ layout: integration
 title: Multitrans
 description: Machine translation API integrations in Multitrans
 id: multitrans
-parent: Translation management systems
+parent: Integrations
 type:
 - tms
 - cat

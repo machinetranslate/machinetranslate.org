@@ -3,7 +3,7 @@ layout: integration
 title: Trados Studio
 description: Machine translation API integrations in Trados Studio
 id: trados
-parent: Translation management systems
+parent: Integrations
 type:
 - cat
 type_description: computer-aided translation tool

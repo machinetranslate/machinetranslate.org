@@ -3,7 +3,7 @@ layout: integration
 title: MemoQ
 description: Machine translation API integrations in MemoQ
 id: memoq
-parent: Translation management systems
+parent: Integrations
 type:
 - tms
 - cat

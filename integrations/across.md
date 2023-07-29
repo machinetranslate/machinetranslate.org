@@ -3,7 +3,7 @@ layout: integration
 title: Across
 description: Machine translation API integrations in Across
 id: across
-parent: Translation management systems
+parent: Integrations
 type:
 - tms
 - cat
