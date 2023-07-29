@@ -147,6 +147,14 @@ defaults:
         type: Article
   -
     scope:
+      path: "resources"
+      type: "pages"
+    values:
+      permalink: /:basename
+      seo:
+        type: ItemList
+  -
+    scope:
       path: "workflows"
       type: "pages"
     values:
@@ -183,7 +191,6 @@ defaults:
 
 remote_theme: pmarsceill/just-the-docs@v0.3.3
 
-logo: favicon.ico
 color_scheme: swissred
 
 search:
@@ -220,6 +227,8 @@ minima:
 
 # SEO settings
 
+logo: favicon.ico
+
 seo:
   type: organization
 
@@ -237,3 +246,20 @@ social:
     - https://twitter.com/machtranslate
     - https://www.linkedin.com/company/machinetranslate
     - https://www.facebook.com/machinetranslate
+
+# Build settings
+# Note that .files are excluded by default.
+exclude:
+  - .bundle
+  - README.md
+  - generate.py
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
