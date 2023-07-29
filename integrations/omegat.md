@@ -3,7 +3,7 @@ layout: integration
 title: OmegaT
 description: Machine translation API integrations in OmegaT
 id: omegat
-parent: Translation management systems
+parent: Integrations
 type:
 - cat
 type_description: computer-aided translation tool

@@ -3,7 +3,7 @@ layout: integration
 title: Transifex
 description: Machine translation API integrations in Transifex
 id: transifex
-parent: Translation management systems
+parent: Integrations
 type:
 - tms
 - cat

@@ -3,7 +3,7 @@ layout: integration
 title: Crowdin
 description: Machine translation API integrations in Crowdin
 id: crowdin
-parent: Translation management systems
+parent: Integrations
 type:
 - tms
 - cat

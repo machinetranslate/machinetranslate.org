@@ -3,7 +3,7 @@ layout: integration
 title: Lilt
 description: Machine translation API integrations in Lilt
 id: lilt
-parent: Translation management systems
+parent: Integrations
 type:
 - cat
 type_description: computer-aided translation tool
