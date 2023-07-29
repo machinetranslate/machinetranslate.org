@@ -5,11 +5,33 @@ layout: language
 title: Serbian
 description: Machine translation for Serbian
 code: sr
+codes:
+- sr
+- srp
+names:
+- Serbian
+variant_names:
+- Serbo-Croatian
+- Montenegrin
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Cyrl
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - inflected
+territories:
+- ba
+- me
+- rs
+- hr
 supported_apis:
 - id: sap
   name: SAP Translation Hub
@@ -77,32 +99,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - sr
-  - srp
-  names:
-  - Serbian
-  variant_names:
-  - Serbo-Croatian
-  - Montenegrin
-  family:
-  - sla
-  - ine
-  scripts:
-  - Cyrl
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - fusional
-    - inflected
-  territories:
-  - ba
-  - me
-  - rs
-  - hr
 
 ---
 

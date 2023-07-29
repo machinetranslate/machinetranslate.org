@@ -5,9 +5,23 @@ layout: language
 title: Chichewa
 description: Machine translation for Chichewa
 code: ny
+codes:
+- ny
+names:
+- Chichewa
+- Chewa
+- Nyanja
 family:
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+territories:
+- mw
+- zw
 supported_apis:
 - id: rozetta
   name: Rozetta T-400
@@ -33,23 +47,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ny
-  names:
-  - Chichewa
-  - Chewa
-  - Nyanja
-  family:
-  - nic
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-  territories:
-  - mw
-  - zw
 
 ---
 

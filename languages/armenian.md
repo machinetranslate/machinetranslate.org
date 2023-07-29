@@ -5,9 +5,31 @@ layout: language
 title: Armenian
 description: Machine translation for Armenian
 code: hy
+codes:
+- hy
+- hye
+- hyw
+- arm
+names:
+- Armenian
 family:
 - slug: indo-european
   name: Indo-European
+scripts:
+- Armn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - synthetic
+territories:
+- am
+- lb
+- ir
+- tr
+- ru
+- ge
 supported_apis:
 - id: promt
   name: PROMT
@@ -54,31 +76,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - hy
-  - hye
-  - hyw
-  - arm
-  names:
-  - Armenian
-  family:
-  - ine
-  scripts:
-  - Armn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - fusional
-    - synthetic
-  territories:
-  - am
-  - lb
-  - ir
-  - tr
-  - ru
-  - ge
 
 ---
 

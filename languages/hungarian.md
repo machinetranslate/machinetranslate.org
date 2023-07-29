@@ -5,9 +5,29 @@ layout: language
 title: Hungarian
 description: Machine translation for Hungarian
 code: hu
+codes:
+- hu
+- hun
+names:
+- Hungarian
 family:
 - slug: finno-ugric
   name: Finno-Ugric
+scripts:
+- Latn
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+  - synthetic
+territories:
+- hu
+- ro
+- rs
+- sk
+- sl
+- at
 supported_apis:
 - id: sogou-translate
   name: Sogou Translate
@@ -114,29 +134,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - hu
-  - hun
-  names:
-  - Hungarian
-  family:
-  - fiu
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-    - synthetic
-  territories:
-  - hu
-  - ro
-  - rs
-  - sk
-  - sl
-  - at
 
 ---
 

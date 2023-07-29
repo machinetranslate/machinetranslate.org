@@ -5,9 +5,25 @@ layout: language
 title: Kazakh
 description: Machine translation for Kazakh
 code: kk
+codes:
+- kk
+- kaz
+names:
+- Kazakh
 family:
 - slug: turkic
   name: Turkic
+scripts:
+- Cyrl
+- Arab
+- Latn
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- kz
 supported_apis:
 - id: sap
   name: SAP Translation Hub
@@ -60,25 +76,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - kk
-  - kaz
-  names:
-  - Kazakh
-  family:
-  - trk
-  scripts:
-  - Cyrl
-  - Arab
-  - Latn
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-  territories:
-  - kz
 
 ---
 

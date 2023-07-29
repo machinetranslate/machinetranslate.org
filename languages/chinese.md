@@ -5,9 +5,40 @@ layout: language
 title: Chinese
 description: Machine translation for Chinese
 code: zh
+codes:
+- zh
+- lzh
+names:
+- Chinese
+- Mandarin Chinese
+- Mandarin
+variant_names:
+- Simplified Chinese
+- Traditional Chinese
+- Literary Chinese
 family:
 - slug: sino-tibetan
   name: Sino-Tibetan
+scripts:
+- Hans
+- Hant
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+  - isolating
+territories:
+- cn
+- tw
+- hk
+- mo
+- sg
+- my
+- id
+- ph
+- vn
+- mm
 supported_apis:
 - id: yeekit
   name: YeeKit
@@ -150,40 +181,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - zh
-  - lzh
-  names:
-  - Chinese
-  - Mandarin Chinese
-  - Mandarin
-  variant_names:
-  - Simplified Chinese
-  - Traditional Chinese
-  - Literary Chinese
-  family:
-  - sit
-  scripts:
-  - Hans
-  - Hant
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - analytic
-    - isolating
-  territories:
-  - cn
-  - tw
-  - hk
-  - mo
-  - sg
-  - my
-  - id
-  - ph
-  - vn
-  - mm
 
 ---
 

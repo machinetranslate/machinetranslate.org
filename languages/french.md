@@ -5,11 +5,31 @@ layout: language
 title: French
 description: Machine translation for French
 code: fr
+codes:
+- fr
+- fra
+- fre
+names:
+- French
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- be
+- ca
+- ch
+- fr
+- lu
+- mc
 supported_apis:
 - id: judicio
   name: Judicio
@@ -173,30 +193,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - fr
-  - fra
-  - fre
-  names:
-  - French
-  family:
-  - roa
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - inflected
-  territories:
-  - be
-  - ca
-  - ch
-  - fr
-  - lu
-  - mc
 
 ---
 French is one of the best supported languages for machine translation.

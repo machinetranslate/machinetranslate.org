@@ -5,9 +5,25 @@ layout: language
 title: Georgian
 description: Machine translation for Georgian
 code: ka
+codes:
+- ka
+- kat
+- geo
+names:
+- Georgian
 family:
 - slug: kartvelian
   name: Kartvelian
+scripts:
+- Geor
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+  - synthetic
+territories:
+- ge
 supported_apis:
 - id: promt
   name: PROMT
@@ -57,25 +73,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ka
-  - kat
-  - geo
-  names:
-  - Georgian
-  family:
-  - ccs
-  scripts:
-  - Geor
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - agglutinative
-    - synthetic
-  territories:
-  - ge
 
 ---
 

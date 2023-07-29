@@ -5,11 +5,34 @@ layout: language
 title: Norwegian
 description: Machine translation for Norwegian
 code: 'no'
+codes:
+- 'no'
+- nb
+- nn
+- nor
+- nno
+- nob
+names:
+- Norwegian
+variant_names:
+- "Bokm\xE5l"
+- Nynorsk
+- "Riksm\xE5l"
+- "H\xF8gnorsk"
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+territories:
+- 'no'
 supported_apis:
 - id: language-wire
   name: Language Wire
@@ -80,33 +103,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - 'no'
-  - nb
-  - nn
-  - nor
-  - nno
-  - nob
-  names:
-  - Norwegian
-  variant_names:
-  - "Bokm\xE5l"
-  - Nynorsk
-  - "Riksm\xE5l"
-  - "H\xF8gnorsk"
-  family:
-  - gem
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - fusional
-  territories:
-  - 'no'
 
 ---
 

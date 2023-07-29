@@ -5,11 +5,25 @@ layout: language
 title: Zulu
 description: Machine translation for Zulu
 code: zu
+codes:
+- zu
+- zul
+names:
+- Zulu
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- za
 supported_apis:
 - id: translateme
   name: TranslateMe
@@ -44,24 +58,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - zu
-  - zul
-  names:
-  - Zulu
-  family:
-  - bnt
-  - nic
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - agglutinative
-  territories:
-  - za
 
 ---
 

@@ -5,9 +5,26 @@ layout: language
 title: Tamil
 description: Machine translation for Tamil
 code: ta
+codes:
+- ta
+- tam
+names:
+- Tamil
 family:
 - slug: dravidian
   name: Dravidian
+scripts:
+- Taml
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- in
+- lk
+- my
+- sg
 supported_apis:
 - id: kantanmt
   name: KantanMT
@@ -60,26 +77,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ta
-  - tam
-  names:
-  - Tamil
-  family:
-  - dra
-  scripts:
-  - Taml
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-  territories:
-  - in
-  - lk
-  - my
-  - sg
 
 ---
 

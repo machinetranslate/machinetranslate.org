@@ -5,11 +5,27 @@ layout: language
 title: Romansh
 description: Machine translation for Romansh
 code: rm
+codes:
+- rm
+- roh
+names:
+- Romansh
+- Romansch
+- Rumantsch
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - synthetic
+territories:
+- ch
 supported_apis:
 - id: textshuttle
   name: TextShuttle
@@ -20,26 +36,6 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212
-lan:
-  codes:
-  - rm
-  - roh
-  names:
-  - Romansh
-  - Romansch
-  - Rumantsch
-  family:
-  - roa
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - synthetic
-  territories:
-  - ch
 
 ---
 

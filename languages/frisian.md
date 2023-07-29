@@ -5,11 +5,28 @@ layout: language
 title: Frisian
 description: Machine translation for Frisian
 code: fy
+codes:
+- fy
+- fry
+- frr
+- frs
+names:
+- Frisian
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+territories:
+- nl
+- de
 supported_apis:
 - id: rozetta
   name: Rozetta T-400
@@ -32,27 +49,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - fy
-  - fry
-  - frr
-  - frs
-  names:
-  - Frisian
-  family:
-  - gem
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - analytic
-  territories:
-  - nl
-  - de
 
 ---
 

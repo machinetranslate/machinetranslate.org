@@ -5,9 +5,24 @@ layout: language
 title: Faroese
 description: Machine translation for Faroese
 code: fo
+codes:
+- fo
+- fao
+names:
+- Faroese
 family:
 - slug: germanic
   name: Germanic
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- fo
+- da
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
@@ -24,24 +39,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - fo
-  - fao
-  names:
-  - Faroese
-  family:
-  - gem
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - inflected
-  territories:
-  - fo
-  - da
 
 ---
 

@@ -5,11 +5,27 @@ layout: language
 title: Catalan
 description: Machine translation for Catalan
 code: ca
+codes:
+- ca
+- cat
+names:
+- Catalan
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+territories:
+- ad
+- es
+- fr
 supported_apis:
 - id: elia
   name: Elia
@@ -89,26 +105,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ca
-  - cat
-  names:
-  - Catalan
-  family:
-  - roa
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - fusional
-  territories:
-  - ad
-  - es
-  - fr
 
 ---
 

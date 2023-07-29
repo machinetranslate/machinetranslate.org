@@ -5,9 +5,22 @@ layout: language
 title: Hawaiian
 description: Machine translation for Hawaiian
 code: haw
+codes:
+- haw
+names:
+- Hawaiian
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - analytic
+territories:
+- us
 supported_apis:
 - id: rozetta
   name: Rozetta T-400
@@ -30,22 +43,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - haw
-  names:
-  - Hawaiian
-  family:
-  - map
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - VSO
-    morphosyntax:
-    - analytic
-  territories:
-  - us
 
 ---
 

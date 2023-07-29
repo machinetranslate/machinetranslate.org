@@ -5,11 +5,27 @@ layout: language
 title: Scottish Gaelic
 description: Machine translation for Scottish Gaelic
 code: gd
+codes:
+- gd
+- gla
+names:
+- Scottish Gaelic
+- Scots Gaelic
+- Gaelic
 family:
 - slug: celtic
   name: Celtic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - inflected
+territories:
+- gb
 supported_apis:
 - id: yandex
   name: Yandex Translate
@@ -35,26 +51,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - gd
-  - gla
-  names:
-  - Scottish Gaelic
-  - Scots Gaelic
-  - Gaelic
-  family:
-  - cel
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - VSO
-    morphosyntax:
-    - inflected
-  territories:
-  - gb
 
 ---
 

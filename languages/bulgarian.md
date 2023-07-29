@@ -5,11 +5,25 @@ layout: language
 title: Bulgarian
 description: Machine translation for Bulgarian
 code: bg
+codes:
+- bg
+- bul
+names:
+- Bulgarian
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Cyrl
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+territories:
+- bg
 supported_apis:
 - id: tilde
   name: Tilde
@@ -104,24 +118,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - bg
-  - bul
-  names:
-  - Bulgarian
-  family:
-  - sla
-  - ine
-  scripts:
-  - Cyrl
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - analytic
-  territories:
-  - bg
 
 ---
 

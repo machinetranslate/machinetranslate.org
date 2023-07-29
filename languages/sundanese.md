@@ -5,9 +5,22 @@ layout: language
 title: Sundanese
 description: Machine translation for Sundanese
 code: su
+codes:
+- su
+- sun
+names:
+- Sundanese
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+- Sund
+typology:
+  word_order:
+  - SVO
+territories:
+- id
 supported_apis:
 - id: yandex
   name: Yandex Translate
@@ -33,22 +46,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - su
-  - sun
-  names:
-  - Sundanese
-  family:
-  - map
-  scripts:
-  - Latn
-  - Sund
-  typology:
-    word_order:
-    - SVO
-  territories:
-  - id
 
 ---
 

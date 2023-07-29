@@ -5,6 +5,11 @@ layout: language
 title: Nepali
 description: Machine translation for Nepali
 code: ne
+codes:
+- ne
+- nep
+names:
+- Nepali
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +17,15 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Deva
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- np
 supported_apis:
 - id: textra
   name: TexTra
@@ -52,25 +66,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ne
-  - nep
-  names:
-  - Nepali
-  family:
-  - inc
-  - iir
-  - ine
-  scripts:
-  - Deva
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-  territories:
-  - np
 
 ---
 

@@ -5,6 +5,11 @@ layout: language
 title: Sorani Kurdish
 description: Machine translation for Sorani Kurdish
 code: ckb
+codes:
+- ckb
+names:
+- Sorani Kurdish
+- Central Kurdish
 family:
 - slug: iranic
   name: Iranic
@@ -12,6 +17,15 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - inflected
+territories:
+- iq
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
@@ -25,25 +39,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ckb
-  names:
-  - Sorani Kurdish
-  - Central Kurdish
-  family:
-  - ira
-  - iir
-  - ine
-  scripts:
-  - Arab
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - inflected
-  territories:
-  - iq
 
 ---
 

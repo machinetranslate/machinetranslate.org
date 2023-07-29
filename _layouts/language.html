@@ -21,10 +21,10 @@ parent: Languages
   <dl>
 
     <dt>Code</dt>
-    <dd><code>{{ page.lan.codes | first }}</code></dd>
+    <dd><code>{{ page.codes | first }}</code></dd>
 
     <dt>Names</dt>
-    <dd>{{ page.lan.names | join: ', ' }}</dd>
+    <dd>{{ page.names | join: ', ' }}</dd>
 
     <dt>Language family</dt>
     <dd>
@@ -35,7 +35,7 @@ parent: Languages
 
     <dt>Scripts</dt>
     <dd>
-      {% for script in page.lan.scripts %}
+      {% for script in page.scripts %}
         {% assign script_name = site.data.scripts[script] %}
         {% if script_name %}{{ script_name }}{% else %}<code>{{ script }}</code>{% endif %}{% unless forloop.last %},{% endunless %}
       {% endfor %}
@@ -43,8 +43,8 @@ parent: Languages
 
     <dt>Locale variants</dt>
     <dd>
-      {% for variant in page.lan.territories %}
-       <code style="white-space: nowrap;">{{ page.lan.codes | first | append: '-' | append: variant }}</code>{% unless forloop.last %}{% endunless %}
+      {% for variant in page.territories %}
+       <code style="white-space: nowrap;">{{ page.codes | first | append: '-' | append: variant }}</code>{% unless forloop.last %}{% endunless %}
       {% endfor %}
     </dd>
 

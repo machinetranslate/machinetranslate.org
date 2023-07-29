@@ -5,11 +5,26 @@ layout: language
 title: Assamese
 description: Machine translation for Assamese
 code: as
+codes:
+- as
+- asm
+names:
+- Assamese
+- Asamiya
 family:
 - slug: indo-aryan
   name: Indo-Aryan
 - slug: indo-european
   name: Indo-European
+scripts:
+- Beng
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - inflected
+territories:
+- in
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
@@ -26,25 +41,6 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212
-lan:
-  codes:
-  - as
-  - asm
-  names:
-  - Assamese
-  - Asamiya
-  family:
-  - inc
-  - ine
-  scripts:
-  - Beng
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - inflected
-  territories:
-  - in
 
 ---
 

@@ -5,9 +5,26 @@ layout: language
 title: Crimean Tatar
 description: Machine translation for Crimean Tatar
 code: crh
+codes:
+- crh
+names:
+- Crimean Tatar
+- Crimean
 family:
 - slug: turkic
   name: Turkic
+scripts:
+- Latn
+- Cyrl
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- ro
+- ru
+- ua
 supported_apis:
 - id: apertium
   name: Apertium
@@ -24,26 +41,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - crh
-  names:
-  - Crimean Tatar
-  - Crimean
-  family:
-  - trk
-  scripts:
-  - Latn
-  - Cyrl
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-  territories:
-  - ro
-  - ru
-  - ua
 
 ---
 

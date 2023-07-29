@@ -5,11 +5,27 @@ layout: language
 title: Tsonga
 description: Machine translation for Tsonga
 code: ts
+codes:
+- ts
+- tso
+names:
+- Tsonga
+- Xitsonga
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- za
+- zw
 supported_apis:
 - id: google
   name: Google Translate
@@ -26,26 +42,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ts
-  - tso
-  names:
-  - Tsonga
-  - Xitsonga
-  family:
-  - bnt
-  - nic
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - inflected
-  territories:
-  - za
-  - zw
 
 ---
 

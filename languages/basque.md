@@ -5,7 +5,26 @@ layout: language
 title: Basque
 description: Machine translation for Basque
 code: eu
+codes:
+- eu
+- eus
+- baq
+- bas
+names:
+- Basque
+- Euskara
 family: []
+scripts:
+- Latn
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - fusional
+  - agglutinative
+territories:
+- es
+- fr
 supported_apis:
 - id: elia
   name: Elia
@@ -52,27 +71,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - eu
-  - eus
-  - baq
-  - bas
-  names:
-  - Basque
-  - Euskara
-  family: []
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - fusional
-    - agglutinative
-  territories:
-  - es
-  - fr
 
 ---
 

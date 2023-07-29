@@ -5,9 +5,27 @@ layout: language
 title: Inuktitut
 description: Machine translation for Inuktitut
 code: iu
+codes:
+- iu
+- iku
+- ike
+- ikt
+names:
+- Inuktitut
+- Eastern Canadian Inuktitut
 family:
 - slug: eskimo-aleut
   name: Eskimo-Aleut
+scripts:
+- Cans
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+  - polysynthetic
+territories:
+- ca
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
@@ -18,27 +36,6 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212
-lan:
-  codes:
-  - iu
-  - iku
-  - ike
-  - ikt
-  names:
-  - Inuktitut
-  - Eastern Canadian Inuktitut
-  family:
-  - esx
-  scripts:
-  - Cans
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-    - polysynthetic
-  territories:
-  - ca
 
 ---
 

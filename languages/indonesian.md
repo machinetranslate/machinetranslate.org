@@ -5,9 +5,24 @@ layout: language
 title: Indonesian
 description: Machine translation for Indonesian
 code: id
+codes:
+- id
+- in
+- ind
+names:
+- Indonesian
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- id
 supported_apis:
 - id: cloudtranslation
   name: CloudTranslation
@@ -117,24 +132,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - id
-  - in
-  - ind
-  names:
-  - Indonesian
-  family:
-  - map
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - agglutinative
-  territories:
-  - id
 
 ---
 

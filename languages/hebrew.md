@@ -5,11 +5,28 @@ layout: language
 title: Hebrew
 description: Machine translation for Hebrew
 code: he
+codes:
+- he
+- heb
+- iw
+names:
+- Hebrew
 family:
 - slug: semitic
   name: Semitic
 - slug: afro-asiatic
   name: Afro-Asiatic
+scripts:
+- Hebr
+typology:
+  word_order:
+  - VSO
+  - SVO
+  morphosyntax:
+  - fusional
+  - inflected
+territories:
+- il
 supported_apis:
 - id: lingmo
   name: Lingmo Translation
@@ -98,27 +115,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - he
-  - heb
-  - iw
-  names:
-  - Hebrew
-  family:
-  - sem
-  - afa
-  scripts:
-  - Hebr
-  typology:
-    word_order:
-    - VSO
-    - SVO
-    morphosyntax:
-    - fusional
-    - inflected
-  territories:
-  - il
 
 ---
 

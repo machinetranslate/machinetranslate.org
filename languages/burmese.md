@@ -5,9 +5,28 @@ layout: language
 title: Burmese
 description: Machine translation for Burmese
 code: my
+codes:
+- my
+- mya
+- bur
+names:
+- Burmese
+- Myanmar
+- Myanmarese
+- Birmese
 family:
 - slug: sino-tibetan
   name: Sino-Tibetan
+scripts:
+- Mymr
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - analytic
+  - isolating
+territories:
+- mm
 supported_apis:
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
@@ -54,28 +73,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - my
-  - mya
-  - bur
-  names:
-  - Burmese
-  - Myanmar
-  - Myanmarese
-  - Birmese
-  family:
-  - sit
-  scripts:
-  - Mymr
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - analytic
-    - isolating
-  territories:
-  - mm
 
 ---
 ## Character encoding

@@ -5,11 +5,25 @@ layout: language
 title: Belarusian
 description: Machine translation for Belarusian
 code: be
+codes:
+- be
+- bel
+names:
+- Belarusian
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Cyrl
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- by
 supported_apis:
 - id: belazar
   name: Belazar
@@ -59,24 +73,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - be
-  - bel
-  names:
-  - Belarusian
-  family:
-  - sla
-  - ine
-  scripts:
-  - Cyrl
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - inflected
-  territories:
-  - by
 
 ---
 

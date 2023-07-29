@@ -5,9 +5,24 @@ layout: language
 title: Bislama
 description: Machine translation for Bislama
 code: bi
+codes:
+- bi
+- bis
+names:
+- Bislama
+- Bichelama
 family:
 - slug: english-based-creoles
   name: English-based creoles
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+territories:
+- vu
 supported_apis:
 - id: baidu
   name: Baidu Translate
@@ -18,24 +33,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - bi
-  - bis
-  names:
-  - Bislama
-  - Bichelama
-  family:
-  - cpe
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - analytic
-  territories:
-  - vu
 
 ---
 

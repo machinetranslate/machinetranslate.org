@@ -5,11 +5,25 @@ layout: language
 title: Lithuanian
 description: Machine translation for Lithuanian
 code: lt
+codes:
+- lt
+- lit
+names:
+- Lithuanian
 family:
 - slug: baltic
   name: Baltic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- lt
 supported_apis:
 - id: tilde
   name: Tilde
@@ -98,24 +112,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - lt
-  - lit
-  names:
-  - Lithuanian
-  family:
-  - bat
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - inflected
-  territories:
-  - lt
 
 ---
 

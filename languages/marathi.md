@@ -5,6 +5,11 @@ layout: language
 title: Marathi
 description: Machine translation for Marathi
 code: mr
+codes:
+- mr
+- mar
+names:
+- Marathi
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +17,18 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Deva
+- Modi
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+  - inflected
+  - analytic
+territories:
+- in
 supported_apis:
 - id: watson
   name: Watson Language Translator
@@ -55,28 +72,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - mr
-  - mar
-  names:
-  - Marathi
-  family:
-  - inc
-  - iir
-  - ine
-  scripts:
-  - Deva
-  - Modi
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-    - inflected
-    - analytic
-  territories:
-  - in
 
 ---
 

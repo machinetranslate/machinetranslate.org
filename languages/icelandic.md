@@ -5,11 +5,26 @@ layout: language
 title: Icelandic
 description: Machine translation for Icelandic
 code: is
+codes:
+- is
+- isl
+- ice
+names:
+- Icelandic
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- is
 supported_apis:
 - id: etranslation
   name: eTranslation
@@ -68,25 +83,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - is
-  - isl
-  - ice
-  names:
-  - Icelandic
-  family:
-  - gem
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - inflected
-  territories:
-  - is
 
 ---
 

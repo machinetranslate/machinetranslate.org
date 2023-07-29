@@ -5,9 +5,23 @@ layout: language
 title: Korean
 description: Machine translation for Korean
 code: ko
+codes:
+- ko
+- kor
+names:
+- Korean
 family:
 - slug: koreanic
   name: Koreanic
+scripts:
+- Kore
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- kr
 supported_apis:
 - id: cloudtranslation
   name: CloudTranslation
@@ -132,23 +146,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ko
-  - kor
-  names:
-  - Korean
-  family:
-  - kor
-  scripts:
-  - Kore
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-  territories:
-  - kr
 
 ---
 

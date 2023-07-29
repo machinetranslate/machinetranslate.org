@@ -5,6 +5,12 @@ layout: language
 title: Tajik
 description: Machine translation for Tajik
 code: tg
+codes:
+- tg
+- tgk
+names:
+- Tajik
+- Tajiki Persian
 family:
 - slug: iranic
   name: Iranic
@@ -12,6 +18,18 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Cyrl
+- Latn
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - analytic
+territories:
+- tj
+- af
 supported_apis:
 - id: promt
   name: PROMT
@@ -49,29 +67,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - tg
-  - tgk
-  names:
-  - Tajik
-  - Tajiki Persian
-  family:
-  - ira
-  - iir
-  - ine
-  scripts:
-  - Cyrl
-  - Latn
-  - Arab
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - analytic
-  territories:
-  - tj
-  - af
 
 ---
 

@@ -5,11 +5,26 @@ layout: language
 title: Oromo
 description: Machine translation for Oromo
 code: om
+codes:
+- om
+- orm
+names:
+- Oromo
 family:
 - slug: cushitic
   name: Cushitic
 - slug: afro-asiatic
   name: Afro-Asiatic
+scripts:
+- Latn
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - fusional
+territories:
+- ke
+- et
 supported_apis:
 - id: google
   name: Google Translate
@@ -23,25 +38,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - om
-  - orm
-  names:
-  - Oromo
-  family:
-  - cus
-  - afa
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - fusional
-  territories:
-  - ke
-  - et
 
 ---
 

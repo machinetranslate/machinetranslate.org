@@ -5,11 +5,28 @@ layout: language
 title: Sotho
 description: Machine translation for Sotho
 code: st
+codes:
+- st
+- sot
+names:
+- Sotho
+- Sesotho
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- ls
+- za
+- zw
 supported_apis:
 - id: rozetta
   name: Rozetta T-400
@@ -32,27 +49,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - st
-  - sot
-  names:
-  - Sotho
-  - Sesotho
-  family:
-  - bnt
-  - nic
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - agglutinative
-  territories:
-  - ls
-  - za
-  - zw
 
 ---
 

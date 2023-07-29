@@ -5,6 +5,20 @@ layout: language
 title: Persian
 description: Machine translation for Persian
 code: fa
+codes:
+- fa
+- fas
+- per
+- prs
+names:
+- Persian
+- Farsi
+variant_names:
+- Dari
+- Dari Persian
+- Afghan Persian
+- Eastern Persian
+- Tajiki Persian
 family:
 - slug: iranic
   name: Iranic
@@ -12,6 +26,16 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- ir
+- af
 supported_apis:
 - id: reverso
   name: Reverso
@@ -76,35 +100,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - fa
-  - fas
-  - per
-  - prs
-  names:
-  - Persian
-  - Farsi
-  variant_names:
-  - Dari
-  - Dari Persian
-  - Afghan Persian
-  - Eastern Persian
-  - Tajiki Persian
-  family:
-  - ira
-  - iir
-  - ine
-  scripts:
-  - Arab
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-  territories:
-  - ir
-  - af
 
 ---
 

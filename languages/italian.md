@@ -5,11 +5,27 @@ layout: language
 title: Italian
 description: Machine translation for Italian
 code: it
+codes:
+- it
+- ita
+names:
+- Italian
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - synthetic
+territories:
+- ch
+- it
 supported_apis:
 - id: pangeamt
   name: PangeaMT
@@ -152,26 +168,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - it
-  - ita
-  names:
-  - Italian
-  family:
-  - roa
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - fusional
-    - synthetic
-  territories:
-  - ch
-  - it
 
 ---
 

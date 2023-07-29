@@ -5,9 +5,23 @@ layout: language
 title: Chuvash
 description: Machine translation for Chuvash
 code: cv
+codes:
+- cv
+names:
+- Chuvash
 family:
 - slug: turkic
   name: Turkic
+scripts:
+- Cyrl
+- Latn
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- ru
 supported_apis:
 - id: baidu
   name: Baidu Translate
@@ -18,23 +32,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - cv
-  names:
-  - Chuvash
-  family:
-  - trk
-  scripts:
-  - Cyrl
-  - Latn
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-  territories:
-  - ru
 
 ---
 

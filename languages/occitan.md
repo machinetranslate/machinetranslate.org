@@ -5,11 +5,26 @@ layout: language
 title: Occitan
 description: Machine translation for Occitan
 code: oc
+codes:
+- oc
+- oci
+names:
+- Occitan
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order: []
+  morphosyntax: []
+territories:
+- es
+- fr
+- it
+- mc
 supported_apis:
 - id: apertium
   name: Apertium
@@ -23,25 +38,6 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212
-lan:
-  codes:
-  - oc
-  - oci
-  names:
-  - Occitan
-  family:
-  - roa
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order: []
-    morphosyntax: []
-  territories:
-  - es
-  - fr
-  - it
-  - mc
 
 ---
 

@@ -4,15 +4,18 @@ parent: Languages
 layout: language
 title: Ganda
 description: Machine translation for Ganda
-code: lug
+code: gl
+codes:
+- gl
+- lug
+names:
+- Ganda
+- Luganda
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
-<<<<<<< HEAD
-supported_apis: []
-=======
 supported_apis:
 - id: elia
   name: Elia
@@ -75,7 +78,6 @@ lan:
     - agglutinative
   territories:
   - ug
->>>>>>> c55400b (Move loop from language.html into generate.py #489)
 
 ---
 

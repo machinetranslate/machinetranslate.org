@@ -5,11 +5,31 @@ layout: language
 title: German
 description: Machine translation for German
 code: de
+codes:
+- de
+- deu
+- ger
+names:
+- German
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  - VSO
+  morphosyntax:
+  - fusional
+territories:
+- at
+- ch
+- de
+- li
+- lu
 supported_apis:
 - id: judicio
   name: Judicio
@@ -161,30 +181,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - de
-  - deu
-  - ger
-  names:
-  - German
-  family:
-  - gem
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    - VSO
-    morphosyntax:
-    - fusional
-  territories:
-  - at
-  - ch
-  - de
-  - li
-  - lu
 
 ---
 

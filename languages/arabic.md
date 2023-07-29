@@ -5,11 +5,48 @@ layout: language
 title: Arabic
 description: Machine translation for Arabic
 code: ar
+codes:
+- ar
+- ara
+names:
+- Arabic
 family:
 - slug: semitic
   name: Semitic
 - slug: afro-asiatic
   name: Afro-Asiatic
+scripts:
+- Arab
+- Syrc
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - fusional
+  - synthetic
+territories:
+- ae
+- bh
+- dj
+- dz
+- eg
+- er
+- iq
+- jo
+- kw
+- lb
+- ly
+- ma
+- mr
+- om
+- ps
+- qa
+- sa
+- sd
+- so
+- sy
+- tn
+- ye
 supported_apis:
 - id: tarjama
   name: Tarjama MT
@@ -134,47 +171,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ar
-  - ara
-  names:
-  - Arabic
-  family:
-  - sem
-  - afa
-  scripts:
-  - Arab
-  - Syrc
-  typology:
-    word_order:
-    - VSO
-    morphosyntax:
-    - fusional
-    - synthetic
-  territories:
-  - ae
-  - bh
-  - dj
-  - dz
-  - eg
-  - er
-  - iq
-  - jo
-  - kw
-  - lb
-  - ly
-  - ma
-  - mr
-  - om
-  - ps
-  - qa
-  - sa
-  - sd
-  - so
-  - sy
-  - tn
-  - ye
 
 ---
 

@@ -5,9 +5,24 @@ layout: language
 title: Turkish
 description: Machine translation for Turkish
 code: tr
+codes:
+- tr
+- tur
+names:
+- Turkish
 family:
 - slug: turkic
   name: Turkic
+scripts:
+- Latn
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- tr
+- cy
 supported_apis:
 - id: translateme
   name: TranslateMe
@@ -126,24 +141,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - tr
-  - tur
-  names:
-  - Turkish
-  family:
-  - trk
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-  territories:
-  - tr
-  - cy
 
 ---
 Turkish is the language with the best machine translation support in the Turkic language family.  

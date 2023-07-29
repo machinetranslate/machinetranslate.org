@@ -5,9 +5,26 @@ layout: language
 title: Uyghur
 description: Machine translation for Uyghur
 code: ug
+codes:
+- ug
+- uig
+names:
+- Uyghur
+- Uighur
 family:
 - slug: turkic
   name: Turkic
+scripts:
+- Latn
+- Cyrl
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- cn
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
@@ -24,26 +41,6 @@ supported_apis:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
-lan:
-  codes:
-  - ug
-  - uig
-  names:
-  - Uyghur
-  - Uighur
-  family:
-  - trk
-  scripts:
-  - Latn
-  - Cyrl
-  - Arab
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-  territories:
-  - cn
 
 ---
 

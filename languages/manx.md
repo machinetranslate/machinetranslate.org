@@ -5,11 +5,26 @@ layout: language
 title: Manx
 description: Machine translation for Manx
 code: gv
+codes:
+- gv
+- glv
+names:
+- Manx
+- Manx Gaelic
 family:
 - slug: celtic
   name: Celtic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - inflected
+territories:
+- im
 supported_apis:
 - id: baidu
   name: Baidu Translate
@@ -20,25 +35,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - gv
-  - glv
-  names:
-  - Manx
-  - Manx Gaelic
-  family:
-  - cel
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - VSO
-    morphosyntax:
-    - inflected
-  territories:
-  - im
 
 ---
 

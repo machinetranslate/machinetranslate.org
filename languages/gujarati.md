@@ -5,6 +5,11 @@ layout: language
 title: Gujarati
 description: Machine translation for Gujarati
 code: gu
+codes:
+- gu
+- guj
+names:
+- Gujarati
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +17,16 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Gujr
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - inflected
+territories:
+- in
+- pk
 supported_apis:
 - id: watson
   name: Watson Language Translator
@@ -61,26 +76,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - gu
-  - guj
-  names:
-  - Gujarati
-  family:
-  - inc
-  - iir
-  - ine
-  scripts:
-  - Gujr
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - inflected
-  territories:
-  - in
-  - pk
 
 ---
 

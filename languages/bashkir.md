@@ -5,9 +5,23 @@ layout: language
 title: Bashkir
 description: Machine translation for Bashkir
 code: ba
+codes:
+- ba
+- bak
+names:
+- Bashkir
 family:
 - slug: turkic
   name: Turkic
+scripts:
+- Cyrl
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- ru
 supported_apis:
 - id: yandex
   name: Yandex Translate
@@ -27,23 +41,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ba
-  - bak
-  names:
-  - Bashkir
-  family:
-  - trk
-  scripts:
-  - Cyrl
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - agglutinative
-  territories:
-  - ru
 
 ---
 

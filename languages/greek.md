@@ -5,11 +5,28 @@ layout: language
 title: Greek
 description: Machine translation for Greek
 code: el
+codes:
+- el
+- gre
+- ell
+names:
+- Greek
 family:
 - slug: hellenic
   name: Hellenic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Grek
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - synthetic
+territories:
+- cy
+- gr
 supported_apis:
 - id: reverso
   name: Reverso
@@ -98,27 +115,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - el
-  - gre
-  - ell
-  names:
-  - Greek
-  family:
-  - grk
-  - ine
-  scripts:
-  - Grek
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - fusional
-    - synthetic
-  territories:
-  - cy
-  - gr
 
 ---
 

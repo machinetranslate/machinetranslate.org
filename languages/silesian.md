@@ -5,11 +5,20 @@ layout: language
 title: Silesian
 description: Machine translation for Silesian
 code: szl
+codes:
+- szl
+names:
+- Silesian
+variant_names:
+- Upper Silesian
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+territories:
+- pl
+- cz
 supported_apis:
 - id: apertium
   name: Apertium
@@ -23,19 +32,6 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212
-lan:
-  codes:
-  - szl
-  names:
-  - Silesian
-  variant_names:
-  - Upper Silesian
-  family:
-  - sla
-  - ine
-  territories:
-  - pl
-  - cz
 
 ---
 

@@ -5,11 +5,25 @@ layout: language
 title: Maltese
 description: Machine translation for Maltese
 code: mt
+codes:
+- mt
+- mlt
+names:
+- Maltese
 family:
 - slug: semitic
   name: Semitic
 - slug: afro-asiatic
   name: Afro-Asiatic
+scripts:
+- Latn
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - inflected
+territories:
+- mt
 supported_apis:
 - id: etranslation
   name: eTranslation
@@ -77,24 +91,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - mt
-  - mlt
-  names:
-  - Maltese
-  family:
-  - sem
-  - afa
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - inflected
-  territories:
-  - mt
 
 ---
 

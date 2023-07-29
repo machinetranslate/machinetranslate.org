@@ -5,11 +5,30 @@ layout: language
 title: Russian
 description: Machine translation for Russian
 code: ru
+codes:
+- ru
+- rus
+names:
+- Russian
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Cyrl
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+  - fusional
+  - synthetic
+territories:
+- ru
+- md
+- kz
+- ua
 supported_apis:
 - id: belazar
   name: Belazar
@@ -155,29 +174,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ru
-  - rus
-  names:
-  - Russian
-  family:
-  - sla
-  - ine
-  scripts:
-  - Cyrl
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - inflected
-    - fusional
-    - synthetic
-  territories:
-  - ru
-  - md
-  - kz
-  - ua
 
 ---
 Russian was one of the first languages for which machine translation was researched and developed, and remains one of the best supported languages.

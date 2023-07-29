@@ -5,11 +5,26 @@ layout: language
 title: Galician
 description: Machine translation for Galician
 code: gl
+codes:
+- gl
+- glg
+names:
+- Galician
+- Gallego
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- es
 supported_apis:
 - id: elia
   name: Elia
@@ -59,25 +74,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - gl
-  - glg
-  names:
-  - Galician
-  - Gallego
-  family:
-  - roa
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - inflected
-  territories:
-  - es
 
 ---
 

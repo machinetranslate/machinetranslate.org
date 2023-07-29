@@ -5,11 +5,27 @@ layout: language
 title: Ukrainian
 description: Machine translation for Ukrainian
 code: uk
+codes:
+- uk
+- ukr
+names:
+- Ukrainian
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Cyrl
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - synthetic
+territories:
+- ua
+- md
 supported_apis:
 - id: tilde
   name: Tilde
@@ -107,26 +123,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - uk
-  - ukr
-  names:
-  - Ukrainian
-  family:
-  - sla
-  - ine
-  scripts:
-  - Cyrl
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - fusional
-    - synthetic
-  territories:
-  - ua
-  - md
 
 ---
 

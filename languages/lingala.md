@@ -5,11 +5,26 @@ layout: language
 title: Lingala
 description: Machine translation for Lingala
 code: ln
+codes:
+- ln
+- lin
+names:
+- Lingala
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- cg
+- cd
 supported_apis:
 - id: google
   name: Google Translate
@@ -26,25 +41,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ln
-  - lin
-  names:
-  - Lingala
-  family:
-  - bnt
-  - nic
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - agglutinative
-  territories:
-  - cg
-  - cd
 
 ---
 

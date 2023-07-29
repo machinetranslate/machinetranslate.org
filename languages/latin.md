@@ -5,11 +5,26 @@ layout: language
 title: Latin
 description: Machine translation for Latin
 code: la
+codes:
+- la
+- lat
+names:
+- Latin
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SOV
+  - SVO
+  morphosyntax:
+  - synthetic
+  - fusional
+territories: []
 supported_apis:
 - id: wordlingo
   name: Wordlingo
@@ -38,25 +53,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - la
-  - lat
-  names:
-  - Latin
-  family:
-  - roa
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SOV
-    - SVO
-    morphosyntax:
-    - synthetic
-    - fusional
-  territories: []
 
 ---
 

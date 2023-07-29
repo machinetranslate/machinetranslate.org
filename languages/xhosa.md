@@ -5,11 +5,26 @@ layout: language
 title: Xhosa
 description: Machine translation for Xhosa
 code: xh
+codes:
+- xh
+- xho
+names:
+- Xhosa
+- isiXhosa
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- za
 supported_apis:
 - id: yandex
   name: Yandex Translate
@@ -38,25 +53,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - xh
-  - xho
-  names:
-  - Xhosa
-  - isiXhosa
-  family:
-  - bnt
-  - nic
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - agglutinative
-  territories:
-  - za
 
 ---
 

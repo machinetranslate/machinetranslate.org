@@ -5,9 +5,24 @@ layout: language
 title: Cebuano
 description: Machine translation for Cebuano
 code: ceb
+codes:
+- ceb
+names:
+- Cebuano
+- Bisaya
+- Binisaya
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - inflected
+territories:
+- ph
 supported_apis:
 - id: yandex
   name: Yandex Translate
@@ -36,24 +51,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ceb
-  names:
-  - Cebuano
-  - Bisaya
-  - Binisaya
-  family:
-  - map
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - VSO
-    morphosyntax:
-    - inflected
-  territories:
-  - ph
 
 ---
 

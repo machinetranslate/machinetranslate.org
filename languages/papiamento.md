@@ -5,9 +5,23 @@ layout: language
 title: Papiamento
 description: Machine translation for Papiamento
 code: pap
+codes:
+- pap
+names:
+- Papiamento
+- Papiamentu
 family:
 - slug: portuguese-based-creoles
   name: Portuguese-based creoles
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax: null
+territories:
+- aw
+- cw
 supported_apis:
 - id: yandex
   name: Yandex Translate
@@ -24,23 +38,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - pap
-  names:
-  - Papiamento
-  - Papiamentu
-  family:
-  - cpp
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax: null
-  territories:
-  - aw
-  - cw
 
 ---
 

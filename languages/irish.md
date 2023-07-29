@@ -5,11 +5,27 @@ layout: language
 title: Irish
 description: Machine translation for Irish
 code: ga
+codes:
+- ga
+- gle
+names:
+- Irish
+- Gaelic
+- Irish Gaelic
 family:
 - slug: celtic
   name: Celtic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - fusional
+territories:
+- ie
 supported_apis:
 - id: etranslation
   name: eTranslation
@@ -65,26 +81,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ga
-  - gle
-  names:
-  - Irish
-  - Gaelic
-  - Irish Gaelic
-  family:
-  - cel
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - VSO
-    morphosyntax:
-    - fusional
-  territories:
-  - ie
 
 ---
 

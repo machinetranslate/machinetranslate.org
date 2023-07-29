@@ -5,11 +5,33 @@ layout: language
 title: Dutch
 description: Machine translation for Dutch
 code: nl
+codes:
+- nl
+- nld
+- dut
+names:
+- Dutch
+- Netherlandic
+variant_names:
+- Hollandic
+- Flemish
+- Surinamese
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - synthetic
+territories:
+- 1
+- be
+- nl
 supported_apis:
 - id: judicio
   name: Judicio
@@ -140,32 +162,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - nl
-  - nld
-  - dut
-  names:
-  - Dutch
-  - Netherlandic
-  variant_names:
-  - Hollandic
-  - Flemish
-  - Surinamese
-  family:
-  - gem
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - synthetic
-  territories:
-  - 1
-  - be
-  - nl
 
 ---
 

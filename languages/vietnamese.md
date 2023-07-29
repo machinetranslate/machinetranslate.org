@@ -5,9 +5,25 @@ layout: language
 title: Vietnamese
 description: Machine translation for Vietnamese
 code: vi
+codes:
+- vi
+- vie
+names:
+- Vietnamese
 family:
 - slug: austroasiatic
   name: Austroasiatic
+scripts:
+- Latn
+- Hani
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+  - isolating
+territories:
+- vn
 supported_apis:
 - id: papago
   name: Papago Translation
@@ -105,25 +121,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - vi
-  - vie
-  names:
-  - Vietnamese
-  family:
-  - aav
-  scripts:
-  - Latn
-  - Hani
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - analytic
-    - isolating
-  territories:
-  - vn
 
 ---
 

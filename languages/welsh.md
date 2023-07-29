@@ -5,11 +5,26 @@ layout: language
 title: Welsh
 description: Machine translation for Welsh
 code: cy
+codes:
+- cy
+- wel
+- cym
+names:
+- Welsh
 family:
 - slug: celtic
   name: Celtic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - inflected
+territories:
+- gb
 supported_apis:
 - id: kodensha
   name: Kodensha MT
@@ -65,25 +80,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - cy
-  - wel
-  - cym
-  names:
-  - Welsh
-  family:
-  - cel
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - VSO
-    morphosyntax:
-    - inflected
-  territories:
-  - gb
 
 ---
 

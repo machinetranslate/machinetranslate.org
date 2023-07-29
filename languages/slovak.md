@@ -5,11 +5,26 @@ layout: language
 title: Slovak
 description: Machine translation for Slovak
 code: sk
+codes:
+- sk
+- slk
+- slo
+names:
+- Slovak
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - synthetic
+territories:
+- sk
 supported_apis:
 - id: textshuttle
   name: TextShuttle
@@ -104,25 +119,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - sk
-  - slk
-  - slo
-  names:
-  - Slovak
-  family:
-  - sla
-  - ine
-  scripts:
-  - Latn
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - synthetic
-  territories:
-  - sk
 
 ---
 

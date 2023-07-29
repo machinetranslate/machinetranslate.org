@@ -5,11 +5,26 @@ layout: language
 title: Hausa
 description: Machine translation for Hausa
 code: ha
+codes:
+- ha
+- hau
+names:
+- Hausa
 family:
 - slug: chadic
   name: Chadic
 - slug: afro-asiatic
   name: Afro-Asiatic
+scripts:
+- Latn
+- Arab
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- ng
 supported_apis:
 - id: language-weaver
   name: Language Weaver
@@ -47,25 +62,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ha
-  - hau
-  names:
-  - Hausa
-  family:
-  - cdc
-  - afa
-  scripts:
-  - Latn
-  - Arab
-  typology:
-    word_order:
-    - SVO
-    morphosyntax:
-    - inflected
-  territories:
-  - ng
 
 ---
 

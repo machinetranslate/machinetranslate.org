@@ -5,6 +5,11 @@ layout: language
 title: Urdu
 description: Machine translation for Urdu
 code: ur
+codes:
+- ur
+- urd
+names:
+- Urdu
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +17,17 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - fusional
+territories:
+- in
+- lk
+- pk
 supported_apis:
 - id: textra
   name: TexTra
@@ -82,27 +98,6 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
-lan:
-  codes:
-  - ur
-  - urd
-  names:
-  - Urdu
-  family:
-  - inc
-  - iir
-  - ine
-  scripts:
-  - Arab
-  typology:
-    word_order:
-    - SOV
-    morphosyntax:
-    - fusional
-  territories:
-  - in
-  - lk
-  - pk
 
 ---
 
