@@ -1,9 +1,11 @@
 ---
 nav_order: 235
 parent: More
-title: Machine translation companies
-description: The list of companies in the machine translation space
+title: Companies
+description: List of machine translation compaanies
 featured: true
+seo:
+  name: List of machine translation compaanies
 ---
 
 **Machine translation companies** primarily provide machine translation or technology related to machine translation.
