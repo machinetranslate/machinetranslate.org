@@ -14,6 +14,8 @@ The machinetranslate.org technology stack:
 
 Follow the [Jekyll Quickstart Instructions](https://jekyllrb.com/docs/#instructions):
 
+Jekyll requires Ruby version 2.5 or later, but as of July 2023, Ruby version 3.2 was too new, it had incompatibilities.
+
 > 1. Install all [prerequisites](https://jekyllrb.com/docs/installation/).
 > 2. Install the jekyll and bundler [gems](https://jekyllrb.com/docs/ruby-101/#gems).
 > ```sh
