@@ -1,0 +1,6650 @@
+[
+    {
+        "codes": [
+            "ab"
+        ],
+        "names": [
+            "Abkhaz",
+            "Abkhazian"
+        ],
+        "family": [],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "ge",
+            "ru"
+        ]
+    },
+    {
+        "codes": [
+            "ace"
+        ],
+        "names": [
+            "Acehnese",
+            "Achinese"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "id"
+        ]
+    },
+    {
+        "codes": [
+            "ach",
+            "lth"
+        ],
+        "names": [
+            "Acholi",
+            "Leb Acoli"
+        ],
+        "family": [
+            "ssa"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "ug"
+        ]
+    },
+    {
+        "codes": [
+            "ak",
+            "aka"
+        ],
+        "names": [
+            "Akan"
+        ],
+        "family": [
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "synthetic",
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ci",
+            "gh"
+        ]
+    },
+    {
+        "codes": [
+            "af",
+            "afr"
+        ],
+        "names": [
+            "Afrikaans"
+        ],
+        "variant_names": [
+            "Kaaps",
+            "Afrikaaps"
+        ],
+        "family": [
+            "gem",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "na",
+            "za"
+        ]
+    },
+    {
+        "codes": [
+            "gsw"
+        ],
+        "names": [
+            "Alemannic"
+        ],
+        "variant_names": [
+            "Swiss German",
+            "Walser German",
+            "Walliser German",
+            "Swabian",
+            "Alsatian",
+            "Low Alemannic",
+            "High Alemannic",
+            "Middle Alemannic",
+            "Highest Alemannic"
+        ],
+        "family": [
+            "gem",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "ch",
+            "fr",
+            "de",
+            "at",
+            "it"
+        ]
+    },
+    {
+        "codes": [
+            "am",
+            "amh"
+        ],
+        "names": [
+            "Amharic"
+        ],
+        "family": [
+            "sem",
+            "afa"
+        ],
+        "scripts": [
+            "Ethi"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "et"
+        ]
+    },
+    {
+        "codes": [
+            "an",
+            "arg"
+        ],
+        "names": [
+            "Aragonese"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "inflected"
+            ]
+        },
+        "territories": [
+            "es"
+        ]
+    },
+    {
+        "codes": [
+            "ar",
+            "ara"
+        ],
+        "names": [
+            "Arabic"
+        ],
+        "family": [
+            "sem",
+            "afa"
+        ],
+        "scripts": [
+            "Arab",
+            "Syrc"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "ae",
+            "bh",
+            "dj",
+            "dz",
+            "eg",
+            "er",
+            "iq",
+            "jo",
+            "kw",
+            "lb",
+            "ly",
+            "ma",
+            "mr",
+            "om",
+            "ps",
+            "qa",
+            "sa",
+            "sd",
+            "so",
+            "sy",
+            "tn",
+            "ye"
+        ]
+    },
+    {
+        "codes": [
+            "arq"
+        ],
+        "names": [
+            "Algerian Arabic",
+            "Dziria",
+            "Darja",
+            "Derja"
+        ],
+        "family": [
+            "sem",
+            "afa"
+        ],
+        "scripts": [
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO",
+                "VSO",
+                "OSV"
+            ],
+            "morphosyntax": [
+                "inflected",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "dz"
+        ]
+    },
+    {
+        "codes": [
+            "as",
+            "asm"
+        ],
+        "names": [
+            "Assamese",
+            "Asamiya"
+        ],
+        "family": [
+            "inc",
+            "ine"
+        ],
+        "scripts": [
+            "Beng"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "in"
+        ]
+    },
+    {
+        "codes": [
+            "ast"
+        ],
+        "names": [
+            "Asturian",
+            "Bable"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "es"
+        ]
+    },
+    {
+        "codes": [
+            "awa"
+        ],
+        "names": [
+            "Awadhi",
+            "Audhi"
+        ],
+        "family": [
+            "ira",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Deva"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "in",
+            "np"
+        ]
+    },
+    {
+        "codes": [
+            "ay",
+            "aym",
+            "ayc",
+            "ayr"
+        ],
+        "names": [
+            "Aymara"
+        ],
+        "family": [
+            "aym"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "bo",
+            "pe"
+        ]
+    },
+    {
+        "codes": [
+            "az",
+            "aze",
+            "azj",
+            "azb"
+        ],
+        "names": [
+            "Azerbaijani",
+            "Azeri",
+            "Azeri Turkish",
+            "Azerbaijani Turkish",
+            "Turkish",
+            "Turkmen",
+            "Caucasian Tatar",
+            "South Azerbaijani",
+            "North Azerbaijani"
+        ],
+        "family": [
+            "trk"
+        ],
+        "scripts": [
+            "Latn",
+            "Cyrl",
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "az",
+            "ir",
+            "iq"
+        ]
+    },
+    {
+        "codes": [
+            "ba",
+            "bak"
+        ],
+        "names": [
+            "Bashkir"
+        ],
+        "family": [
+            "trk"
+        ],
+        "scripts": [
+            "Cyrl"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ru"
+        ]
+    },
+    {
+        "codes": [
+            "bal",
+            "bgp",
+            "bgn",
+            "bcc"
+        ],
+        "names": [
+            "Balochi",
+            "Baluchi"
+        ],
+        "family": [
+            "ira",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Arab",
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected",
+                "agglutinative",
+                "isolating"
+            ]
+        },
+        "territories": [
+            "af",
+            "ir",
+            "pk"
+        ]
+    },
+    {
+        "codes": [
+            "ban"
+        ],
+        "names": [
+            "Balinese"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "id"
+        ]
+    },
+    {
+        "codes": [
+            "be",
+            "bel"
+        ],
+        "names": [
+            "Belarusian"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "scripts": [
+            "Cyrl"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "by"
+        ]
+    },
+    {
+        "codes": [
+            "bem"
+        ],
+        "names": [
+            "Bemba",
+            "ChiBemba",
+            "Cibemba",
+            "Ichibemba",
+            "Icibemba",
+            "Chiwemba"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "zm",
+            "cd",
+            "tz"
+        ]
+    },
+    {
+        "codes": [
+            "ber"
+        ],
+        "names": [
+            "Berber"
+        ],
+        "family": [
+            "afa"
+        ],
+        "scripts": [
+            "Tfng",
+            "Arab",
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "ma",
+            "dz",
+            "ly",
+            "ml",
+            "ne"
+        ]
+    },
+    {
+        "codes": [
+            "bg",
+            "bul"
+        ],
+        "names": [
+            "Bulgarian"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "scripts": [
+            "Cyrl"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "bg"
+        ]
+    },
+    {
+        "codes": [
+            "bho"
+        ],
+        "names": [
+            "Bhojpuri"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Deva"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "in",
+            "np"
+        ]
+    },
+    {
+        "codes": [
+            "bi",
+            "bis"
+        ],
+        "names": [
+            "Bislama",
+            "Bichelama"
+        ],
+        "family": [
+            "cpe"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "vu"
+        ]
+    },
+    {
+        "codes": [
+            "bjn"
+        ],
+        "names": [
+            "Banjar",
+            "Banjarese"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "id"
+        ]
+    },
+    {
+        "codes": [
+            "bm",
+            "bam"
+        ],
+        "names": [
+            "Bambara",
+            "Bamana",
+            "Bamanankan"
+        ],
+        "family": [
+            "dmn"
+        ],
+        "scripts": [
+            "Latn",
+            "Arab",
+            "Nkoo"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ml"
+        ]
+    },
+    {
+        "codes": [
+            "bn",
+            "ben"
+        ],
+        "names": [
+            "Bengali",
+            "Bangla"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Beng"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "bd",
+            "in"
+        ]
+    },
+    {
+        "codes": [
+            "bo",
+            "bod",
+            "tib"
+        ],
+        "names": [
+            "Tibetan",
+            "Lhasa Tibetan",
+            "Standard Tibetan"
+        ],
+        "family": [
+            "sit"
+        ],
+        "scripts": [
+            "Tibt"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "cn",
+            "np",
+            "in"
+        ]
+    },
+    {
+        "codes": [
+            "br",
+            "bre",
+            "xbm",
+            "obt"
+        ],
+        "names": [
+            "Breton"
+        ],
+        "family": [
+            "cel",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "fr"
+        ]
+    },
+    {
+        "codes": [
+            "bs",
+            "bos"
+        ],
+        "names": [
+            "Bosnian"
+        ],
+        "variant_names": [
+            "Serbo-Croatian"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "scripts": [
+            "Latn",
+            "Cyrl"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "inflected"
+            ]
+        },
+        "territories": [
+            "ba",
+            "hr",
+            "sr",
+            "me"
+        ]
+    },
+    {
+        "codes": [
+            "bug"
+        ],
+        "names": [
+            "Buginese",
+            "Bugis"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "id"
+        ]
+    },
+    {
+        "codes": [
+            "ca",
+            "cat"
+        ],
+        "names": [
+            "Catalan"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "ad",
+            "es",
+            "fr"
+        ]
+    },
+    {
+        "codes": [
+            "ceb"
+        ],
+        "names": [
+            "Cebuano",
+            "Bisaya",
+            "Binisaya"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "ph"
+        ]
+    },
+    {
+        "codes": [
+            "cjk"
+        ],
+        "names": [
+            "Chokwe",
+            "Batshokwe",
+            "Ciokwe",
+            "Kioko",
+            "Kiokwe",
+            "Quioca",
+            "Quioco",
+            "Shioko",
+            "Tschiokloe",
+            "Tshokwe"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "ao",
+            "cd",
+            "zm"
+        ]
+    },
+    {
+        "codes": [
+            "co",
+            "cos"
+        ],
+        "names": [
+            "Corsican"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ]
+        },
+        "territories": [
+            "fr"
+        ]
+    },
+    {
+        "codes": [
+            "chr"
+        ],
+        "names": [
+            "Cherokee",
+            "Tsalagi"
+        ],
+        "family": [
+            "iro"
+        ],
+        "scripts": [
+            "Cher"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV",
+                "OVS"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "us"
+        ]
+    },
+    {
+        "codes": [
+            "crh"
+        ],
+        "names": [
+            "Crimean Tatar",
+            "Crimean"
+        ],
+        "family": [
+            "trk"
+        ],
+        "scripts": [
+            "Latn",
+            "Cyrl"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ro",
+            "ru",
+            "ua"
+        ]
+    },
+    {
+        "codes": [
+            "cnr"
+        ],
+        "names": [
+            "Montenegrin"
+        ],
+        "variant_names": [
+            "Serbo-Croatian"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "scripts": [
+            "Latn",
+            "Cyrl"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "inflected"
+            ]
+        },
+        "territories": [
+            "me"
+        ]
+    },
+    {
+        "codes": [
+            "cs",
+            "ces",
+            "cze"
+        ],
+        "names": [
+            "Czech"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "inflected"
+            ]
+        },
+        "territories": [
+            "cz"
+        ]
+    },
+    {
+        "codes": [
+            "cv"
+        ],
+        "names": [
+            "Chuvash"
+        ],
+        "family": [
+            "trk"
+        ],
+        "scripts": [
+            "Cyrl",
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ru"
+        ]
+    },
+    {
+        "codes": [
+            "cy",
+            "wel",
+            "cym"
+        ],
+        "names": [
+            "Welsh"
+        ],
+        "family": [
+            "cel",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "gb"
+        ]
+    },
+    {
+        "codes": [
+            "da",
+            "dan"
+        ],
+        "names": [
+            "Danish"
+        ],
+        "family": [
+            "gem",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "dk"
+        ]
+    },
+    {
+        "codes": [
+            "de",
+            "deu",
+            "ger"
+        ],
+        "names": [
+            "German"
+        ],
+        "family": [
+            "gem",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO",
+                "VSO"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "at",
+            "ch",
+            "de",
+            "li",
+            "lu"
+        ]
+    },
+    {
+        "codes": [
+            "dik"
+        ],
+        "names": [
+            "Dinka"
+        ],
+        "family": [
+            "ssa"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "ss"
+        ]
+    },
+    {
+        "codes": [
+            "dv",
+            "div"
+        ],
+        "names": [
+            "Divehi",
+            "Dhivehi",
+            "Maldivian"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Latn",
+            "Thaa"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "mv"
+        ]
+    },
+    {
+        "codes": [
+            "dyu"
+        ],
+        "names": [
+            "Dyula",
+            "Jula",
+            "Dioula"
+        ],
+        "family": [
+            "dmn"
+        ],
+        "scripts": [
+            "Arab",
+            "Latn",
+            "Nkoo"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "analytic",
+                "inflected"
+            ]
+        },
+        "territories": [
+            "bf",
+            "ci",
+            "gh",
+            "ml"
+        ]
+    },
+    {
+        "codes": [
+            "dz",
+            "dzo",
+            "lya",
+            "luk",
+            "adp"
+        ],
+        "names": [
+            "Dzongkha"
+        ],
+        "family": [
+            "sit"
+        ],
+        "scripts": [
+            "Tibt"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "bt"
+        ]
+    },
+    {
+        "codes": [
+            "ee",
+            "ewe",
+            "wci",
+            "kef"
+        ],
+        "names": [
+            "Ewe"
+        ],
+        "family": [
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "isolating",
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "gh",
+            "tg",
+            "bj"
+        ]
+    },
+    {
+        "codes": [
+            "el",
+            "gre",
+            "ell"
+        ],
+        "names": [
+            "Greek"
+        ],
+        "family": [
+            "grk",
+            "ine"
+        ],
+        "scripts": [
+            "Grek"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "cy",
+            "gr"
+        ]
+    },
+    {
+        "codes": [
+            "en",
+            "eng"
+        ],
+        "names": [
+            "English"
+        ],
+        "family": [
+            "gem",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "au",
+            "bz",
+            "ca",
+            "029",
+            "in",
+            "ie",
+            "jm",
+            "my",
+            "nz",
+            "ph",
+            "sg",
+            "za",
+            "tt",
+            "gb",
+            "us",
+            "zw"
+        ]
+    },
+    {
+        "codes": [
+            "eo",
+            "epo"
+        ],
+        "names": [
+            "Esperanto"
+        ],
+        "family": [
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO",
+                "OVS",
+                "SOV",
+                "VOS",
+                "VSO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": []
+    },
+    {
+        "codes": [
+            "es",
+            "spa"
+        ],
+        "names": [
+            "Spanish"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "inflected"
+            ]
+        },
+        "territories": [
+            419,
+            "ar",
+            "bo",
+            "cl",
+            "co",
+            "cr",
+            "do",
+            "ec",
+            "es",
+            "gt",
+            "hn",
+            "mx",
+            "ni",
+            "pa",
+            "pe",
+            "pr",
+            "py",
+            "sv",
+            "us",
+            "uy",
+            "ve"
+        ]
+    },
+    {
+        "codes": [
+            "et",
+            "est",
+            "ekk",
+            "vro"
+        ],
+        "names": [
+            "Estonian"
+        ],
+        "family": [
+            "fiu"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ee",
+            "ru"
+        ]
+    },
+    {
+        "codes": [
+            "eu",
+            "eus",
+            "baq",
+            "bas"
+        ],
+        "names": [
+            "Basque",
+            "Euskara"
+        ],
+        "family": [],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "es",
+            "fr"
+        ]
+    },
+    {
+        "codes": [
+            "fa",
+            "fas",
+            "per",
+            "prs",
+            "pes"
+        ],
+        "names": [
+            "Persian",
+            "Farsi",
+            "Dari",
+            "Tajik"
+        ],
+        "variant_names": [
+            "Dari",
+            "Dari Persian",
+            "Afghan Persian",
+            "Western Persian",
+            "Eastern Persian",
+            "Iranian Persian",
+            "Tajik",
+            "Tajiki Persian"
+        ],
+        "family": [
+            "ira",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "analytic"
+            ]
+        },
+        "territories": [
+            "ir",
+            "af"
+        ]
+    },
+    {
+        "codes": [
+            "fi",
+            "fin",
+            "fit",
+            "fkv"
+        ],
+        "names": [
+            "Finnish"
+        ],
+        "variant_names": [
+            "Meänkieli",
+            "Kven"
+        ],
+        "family": [
+            "fiu"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO",
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "fi"
+        ]
+    },
+    {
+        "codes": [
+            "fj",
+            "fij"
+        ],
+        "names": [
+            "Fijian"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VOS"
+            ],
+            "morphosyntax": [
+                "isolating"
+            ]
+        },
+        "territories": [
+            "fj"
+        ]
+    },
+    {
+        "codes": [
+            "fo",
+            "fao"
+        ],
+        "names": [
+            "Faroese"
+        ],
+        "family": [
+            "gem"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "fo",
+            "da"
+        ]
+    },
+    {
+        "codes": [
+            "fon"
+        ],
+        "names": [
+            "Fon"
+        ],
+        "family": [
+            "nic"
+        ],
+        "scripts": [
+            "Latn",
+            "Nkoo"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "bj",
+            "ga",
+            "gh",
+            "ng",
+            "tg"
+        ]
+    },
+    {
+        "codes": [
+            "fr",
+            "fra",
+            "fre"
+        ],
+        "names": [
+            "French"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "be",
+            "ca",
+            "ch",
+            "fr",
+            "lu",
+            "mc"
+        ]
+    },
+    {
+        "codes": [
+            "frp"
+        ],
+        "names": [
+            "Arpitan",
+            "Franco-Provençal"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "ch",
+            "fr",
+            "it"
+        ]
+    },
+    {
+        "codes": [
+            "ff",
+            "ful",
+            "fuc",
+            "fufffm",
+            "fue",
+            "fuh",
+            "fuv",
+            "fub"
+        ],
+        "names": [
+            "Fula",
+            "Fulani",
+            "Fulah"
+        ],
+        "family": [
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "bf",
+            "cm"
+        ]
+    },
+    {
+        "codes": [
+            "fur"
+        ],
+        "names": [
+            "Friulian",
+            "Friulan"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "it"
+        ]
+    },
+    {
+        "codes": [
+            "fy",
+            "fry",
+            "frr",
+            "frs"
+        ],
+        "names": [
+            "Frisian"
+        ],
+        "family": [
+            "gem",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "nl",
+            "de"
+        ]
+    },
+    {
+        "codes": [
+            "ga",
+            "gle"
+        ],
+        "names": [
+            "Irish",
+            "Gaelic",
+            "Irish Gaelic"
+        ],
+        "family": [
+            "cel",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "ie"
+        ]
+    },
+    {
+        "codes": [
+            "gd",
+            "gla"
+        ],
+        "names": [
+            "Scottish Gaelic",
+            "Scots Gaelic",
+            "Gaelic"
+        ],
+        "family": [
+            "cel",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "gb"
+        ]
+    },
+    {
+        "codes": [
+            "gl",
+            "glg"
+        ],
+        "names": [
+            "Galician",
+            "Gallego"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "es"
+        ]
+    },
+    {
+        "codes": [
+            "gu",
+            "guj"
+        ],
+        "names": [
+            "Gujarati"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Gujr"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "in",
+            "pk"
+        ]
+    },
+    {
+        "codes": [
+            "gn",
+            "grn",
+            "gug"
+        ],
+        "names": [
+            "Guarani"
+        ],
+        "family": [
+            "tup"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ar",
+            "bo",
+            "br",
+            "py"
+        ]
+    },
+    {
+        "codes": [
+            "gv",
+            "glv"
+        ],
+        "names": [
+            "Manx",
+            "Manx Gaelic"
+        ],
+        "family": [
+            "cel",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "im"
+        ]
+    },
+    {
+        "codes": [
+            "ha",
+            "hau"
+        ],
+        "names": [
+            "Hausa"
+        ],
+        "family": [
+            "cdc",
+            "afa"
+        ],
+        "scripts": [
+            "Latn",
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "ng"
+        ]
+    },
+    {
+        "codes": [
+            "haw"
+        ],
+        "names": [
+            "Hawaiian"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "us"
+        ]
+    },
+    {
+        "codes": [
+            "he",
+            "heb",
+            "iw"
+        ],
+        "names": [
+            "Hebrew"
+        ],
+        "family": [
+            "sem",
+            "afa"
+        ],
+        "scripts": [
+            "Hebr"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO",
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "inflected"
+            ]
+        },
+        "territories": [
+            "il"
+        ]
+    },
+    {
+        "codes": [
+            "hi",
+            "hin",
+            "hif"
+        ],
+        "names": [
+            "Hindi",
+            "Modern Standard Hindi"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Deva",
+            "Latn",
+            "Mahj"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "in",
+            "za",
+            "ae"
+        ]
+    },
+    {
+        "codes": [
+            "hmn",
+            "hma",
+            "hmc",
+            "hme",
+            "hmf",
+            "hmg",
+            "hmh",
+            "hmi",
+            "hml",
+            "hmm",
+            "hmn",
+            "hmp",
+            "hmv",
+            "hmw",
+            "hmy",
+            "hmz",
+            "hnj",
+            "huj",
+            "mww"
+        ],
+        "names": [
+            "Hmong",
+            "Mong",
+            "Miao–Yao"
+        ],
+        "variant_names": [
+            "Southern Mashan Hmong",
+            "Central Huishui Hmong",
+            "Eastern Huishui Hmong",
+            "Hmong Don",
+            "Southwestern Guiyang Hmong",
+            "Southwestern Huishui Hmong",
+            "Northern Huishui Hmong",
+            "Luopohe Hmong",
+            "Central Mashan Hmong",
+            "Mong Northern Mashan Hmong",
+            "Hmong Dô",
+            "Western Mashan Hmong",
+            "Southern Guiyang Hmong",
+            "Hmong Shua",
+            "Hmong Njua",
+            "Northern Guiyang Hmong"
+        ],
+        "family": [
+            "hmx"
+        ],
+        "scripts": [
+            "Latn",
+            "Hmng"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "vn",
+            "cn",
+            "th",
+            "la",
+            "mm"
+        ]
+    },
+    {
+        "codes": [
+            "hne",
+            "sgj"
+        ],
+        "names": [
+            "Chhattisgarhi"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Deva",
+            "Orya"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "in"
+        ]
+    },
+    {
+        "codes": [
+            "hr",
+            "hrv",
+            "hbs"
+        ],
+        "names": [
+            "Croatian"
+        ],
+        "variant_names": [
+            "Serbo-Croatian"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "inflected"
+            ]
+        },
+        "territories": [
+            "hr",
+            "ba",
+            "rs",
+            "at"
+        ]
+    },
+    {
+        "codes": [
+            "hsb"
+        ],
+        "names": [
+            "Upper Sorbian",
+            "Wendish"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "de"
+        ]
+    },
+    {
+        "codes": [
+            "ht",
+            "hat"
+        ],
+        "names": [
+            "Haitian",
+            "Haitian Creole"
+        ],
+        "family": [
+            "cpf"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "ht"
+        ]
+    },
+    {
+        "codes": [
+            "hu",
+            "hun"
+        ],
+        "names": [
+            "Hungarian"
+        ],
+        "family": [
+            "fiu"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "hu",
+            "ro",
+            "rs",
+            "sk",
+            "sl",
+            "at"
+        ]
+    },
+    {
+        "codes": [
+            "hy",
+            "hye",
+            "hyw",
+            "arm"
+        ],
+        "names": [
+            "Armenian"
+        ],
+        "family": [
+            "ine"
+        ],
+        "scripts": [
+            "Armn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "am",
+            "lb",
+            "ir",
+            "tr",
+            "ru",
+            "ge"
+        ]
+    },
+    {
+        "codes": [
+            "id",
+            "in",
+            "ind"
+        ],
+        "names": [
+            "Indonesian"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "id"
+        ]
+    },
+    {
+        "codes": [
+            "ig",
+            "ibo"
+        ],
+        "names": [
+            "Igbo"
+        ],
+        "family": [
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ng"
+        ]
+    },
+    {
+        "codes": [
+            "ilo"
+        ],
+        "names": [
+            "Ilocano",
+            "Ilokano"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ph"
+        ]
+    },
+    {
+        "codes": [
+            "is",
+            "isl",
+            "ice"
+        ],
+        "names": [
+            "Icelandic"
+        ],
+        "family": [
+            "gem",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "is"
+        ]
+    },
+    {
+        "codes": [
+            "it",
+            "ita"
+        ],
+        "names": [
+            "Italian"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "ch",
+            "it"
+        ]
+    },
+    {
+        "codes": [
+            "iu",
+            "iku",
+            "ike",
+            "ikt"
+        ],
+        "names": [
+            "Inuktitut",
+            "Eastern Canadian Inuktitut"
+        ],
+        "family": [
+            "esx"
+        ],
+        "scripts": [
+            "Cans"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative",
+                "polysynthetic"
+            ]
+        },
+        "territories": [
+            "ca"
+        ]
+    },
+    {
+        "codes": [
+            "ja",
+            "jpn"
+        ],
+        "names": [
+            "Japanese"
+        ],
+        "family": [
+            "jpx"
+        ],
+        "scripts": [
+            "Jpan"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "jp"
+        ]
+    },
+    {
+        "codes": [
+            "jv",
+            "jav",
+            "jw"
+        ],
+        "names": [
+            "Javanese"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Java",
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "id"
+        ]
+    },
+    {
+        "codes": [
+            "ka",
+            "kat",
+            "geo"
+        ],
+        "names": [
+            "Georgian"
+        ],
+        "family": [
+            "ccs"
+        ],
+        "scripts": [
+            "Geor"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "ge"
+        ]
+    },
+    {
+        "codes": [
+            "kab"
+        ],
+        "names": [
+            "Kabyle",
+            "Kabylian"
+        ],
+        "family": [
+            "afa"
+        ],
+        "scripts": [
+            "Arab",
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "dz"
+        ]
+    },
+    {
+        "codes": [
+            "kac",
+            "sgp",
+            "tcl"
+        ],
+        "names": [
+            "Jingpho",
+            "Kachin"
+        ],
+        "family": [
+            "sit"
+        ],
+        "scripts": [
+            "Latn",
+            "Mymr"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "isolating"
+            ]
+        },
+        "territories": [
+            "cn",
+            "in",
+            "mm"
+        ]
+    },
+    {
+        "codes": [
+            "kam",
+            "dhs"
+        ],
+        "names": [
+            "Kamba",
+            "Kikamba"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ke",
+            "tz"
+        ]
+    },
+    {
+        "codes": [
+            "kbp"
+        ],
+        "names": [
+            "Kabiye"
+        ],
+        "family": [
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "polysynthetic"
+            ]
+        },
+        "territories": [
+            "bj",
+            "gh",
+            "tg"
+        ]
+    },
+    {
+        "codes": [
+            "kea"
+        ],
+        "names": [
+            "Cape Verdean Creole"
+        ],
+        "family": [
+            "cpp"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytical"
+            ]
+        },
+        "territories": [
+            "cv"
+        ]
+    },
+    {
+        "codes": [
+            "kg",
+            "kon"
+        ],
+        "names": [
+            "Kongo",
+            "Kikongo"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ao"
+        ]
+    },
+    {
+        "codes": [
+            "ki",
+            "kik"
+        ],
+        "names": [
+            "Kikuyu",
+            "Gikuyu"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ke"
+        ]
+    },
+    {
+        "codes": [
+            "kk",
+            "kaz"
+        ],
+        "names": [
+            "Kazakh"
+        ],
+        "family": [
+            "trk"
+        ],
+        "scripts": [
+            "Cyrl",
+            "Arab",
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "kz"
+        ]
+    },
+    {
+        "codes": [
+            "kmb"
+        ],
+        "names": [
+            "Kimbundu",
+            "Mbundu",
+            "North Mbundu"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": []
+        },
+        "territories": [
+            "ao"
+        ]
+    },
+    {
+        "codes": [
+            "km",
+            "khm",
+            "kxm"
+        ],
+        "names": [
+            "Khmer"
+        ],
+        "family": [
+            "aav"
+        ],
+        "scripts": [
+            "Khmr"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic",
+                "isolating"
+            ]
+        },
+        "territories": [
+            "kh"
+        ]
+    },
+    {
+        "codes": [
+            "kn",
+            "kan",
+            "kfi"
+        ],
+        "names": [
+            "Kannada"
+        ],
+        "family": [
+            "dra"
+        ],
+        "scripts": [
+            "Knda"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "id"
+        ]
+    },
+    {
+        "codes": [
+            "knc"
+        ],
+        "names": [
+            "Kanuri"
+        ],
+        "family": [
+            "ssa"
+        ],
+        "scripts": [
+            "Latn",
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": []
+        },
+        "territories": [
+            "cm",
+            "ng",
+            "ne",
+            "ly",
+            "sd",
+            "td"
+        ]
+    },
+    {
+        "codes": [
+            "ko",
+            "kor"
+        ],
+        "names": [
+            "Korean"
+        ],
+        "family": [
+            "kor"
+        ],
+        "scripts": [
+            "Kore"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "kr"
+        ]
+    },
+    {
+        "codes": [
+            "ks",
+            "kas"
+        ],
+        "names": [
+            "Kashmiri",
+            "Koshur"
+        ],
+        "family": [
+            "ira",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Arab",
+            "Deva"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV",
+                "V2"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "in"
+        ]
+    },
+    {
+        "codes": [
+            "ku",
+            "kur",
+            "sdh",
+            "kmr"
+        ],
+        "names": [
+            "Kurdish",
+            "Kurmanji Kurdish",
+            "Kurmanji",
+            "Northern Kurdish",
+            "Yezidi Kurdish",
+            "Yezidi"
+        ],
+        "family": [
+            "ira",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Latn",
+            "Cyrl",
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "am",
+            "tr",
+            "sy",
+            "ir",
+            "iq",
+            "ge",
+            "tm"
+        ]
+    },
+    {
+        "codes": [
+            "ckb"
+        ],
+        "names": [
+            "Sorani Kurdish",
+            "Central Kurdish"
+        ],
+        "family": [
+            "ira",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "iq"
+        ]
+    },
+    {
+        "codes": [
+            "kw",
+            "cor"
+        ],
+        "names": [
+            "Cornish"
+        ],
+        "family": [
+            "cel",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "gb"
+        ]
+    },
+    {
+        "codes": [
+            "ky",
+            "kir"
+        ],
+        "names": [
+            "Kyrgyz"
+        ],
+        "family": [
+            "trk"
+        ],
+        "scripts": [
+            "Arab",
+            "Cyrl",
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "kg"
+        ]
+    },
+    {
+        "codes": [
+            "la",
+            "lat"
+        ],
+        "names": [
+            "Latin"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV",
+                "SVO"
+            ],
+            "morphosyntax": [
+                "synthetic",
+                "fusional"
+            ]
+        },
+        "territories": []
+    },
+    {
+        "codes": [
+            "lb",
+            "ltz"
+        ],
+        "names": [
+            "Luxembourgish",
+            "Luxemburgish",
+            "Letzeburgesch"
+        ],
+        "family": [
+            "gem",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "V2",
+                "SOV"
+            ],
+            "morphosyntax": [
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "lu"
+        ]
+    },
+    {
+        "codes": [
+            "lug",
+            "gl",
+            "lg"
+        ],
+        "names": [
+            "Ganda",
+            "Luganda"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ug"
+        ]
+    },
+    {
+        "codes": [
+            "li"
+        ],
+        "names": [
+            "Limburgish",
+            "Limburgan",
+            "Limburgian",
+            "Limburgic"
+        ],
+        "family": [
+            "gem",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "be",
+            "de",
+            "nl"
+        ]
+    },
+    {
+        "codes": [
+            "lij"
+        ],
+        "names": [
+            "Ligurian",
+            "Genoese"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "fr",
+            "it",
+            "mc"
+        ]
+    },
+    {
+        "codes": [
+            "lmo"
+        ],
+        "names": [
+            "Lombard"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "ch",
+            "it"
+        ]
+    },
+    {
+        "codes": [
+            "ln",
+            "lin"
+        ],
+        "names": [
+            "Lingala"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "cg",
+            "cd"
+        ]
+    },
+    {
+        "codes": [
+            "lo",
+            "lao"
+        ],
+        "names": [
+            "Lao"
+        ],
+        "family": [
+            "tai"
+        ],
+        "scripts": [
+            "Laoo"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "isolating"
+            ]
+        },
+        "territories": [
+            "la"
+        ]
+    },
+    {
+        "codes": [
+            "lt",
+            "lit"
+        ],
+        "names": [
+            "Lithuanian"
+        ],
+        "family": [
+            "bat",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "lt"
+        ]
+    },
+    {
+        "codes": [
+            "ltg"
+        ],
+        "names": [
+            "Latgalian"
+        ],
+        "family": [
+            "bat",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "lv",
+            "ru"
+        ]
+    },
+    {
+        "codes": [
+            "lua"
+        ],
+        "names": [
+            "Luba-Kasai",
+            "Cilubà",
+            "Tshilubà",
+            "Luba-Lulua"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": []
+        },
+        "territories": [
+            "cd"
+        ]
+    },
+    {
+        "codes": [
+            "luo"
+        ],
+        "names": [
+            "Dholuo"
+        ],
+        "family": [
+            "ssa"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "isolating"
+            ]
+        },
+        "territories": [
+            "et",
+            "ke",
+            "ss",
+            "tz",
+            "ug"
+        ]
+    },
+    {
+        "codes": [
+            "lus"
+        ],
+        "names": [
+            "Mizo"
+        ],
+        "family": [
+            "sit"
+        ],
+        "scripts": [
+            "Latn",
+            "Beng"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "bd",
+            "in",
+            "mm"
+        ]
+    },
+    {
+        "codes": [
+            "lv",
+            "lav",
+            "lvs"
+        ],
+        "names": [
+            "Latvian",
+            "Lettish"
+        ],
+        "family": [
+            "bat",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "lv"
+        ]
+    },
+    {
+        "codes": [
+            "mag"
+        ],
+        "names": [
+            "Magahi",
+            "Magadhi"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Deva"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "in"
+        ]
+    },
+    {
+        "codes": [
+            "mai"
+        ],
+        "names": [
+            "Maithili"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Deva"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "in",
+            "np"
+        ]
+    },
+    {
+        "codes": [
+            "mh",
+            "mah"
+        ],
+        "names": [
+            "Marshallese",
+            "Ebon"
+        ],
+        "family": [
+            "aav"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "mh"
+        ]
+    },
+    {
+        "codes": [
+            "min"
+        ],
+        "names": [
+            "Minangkabau"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": []
+        },
+        "territories": [
+            "id"
+        ]
+    },
+    {
+        "codes": [
+            "mg",
+            "mlg",
+            "xmv",
+            "bhr",
+            "buc",
+            "msh",
+            "bmm",
+            "plt",
+            "skg",
+            "bzc",
+            "tdx",
+            "txy",
+            "tkg",
+            "xmw"
+        ],
+        "names": [
+            "Malagasy"
+        ],
+        "variant_names": [
+            "Antankarana",
+            "Bara",
+            "Bushi",
+            "Masikoro",
+            "Northern Betsimisaraka",
+            "Plateau Malagasy",
+            "Sakalava",
+            "Southern Betsimisaraka",
+            "Tandroy-Mafahaly",
+            "Tanosy",
+            "Tesaka",
+            "Tsimihety"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VOS"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "mg"
+        ]
+    },
+    {
+        "codes": [
+            "mhr"
+        ],
+        "names": [
+            "Meadow Mari",
+            "Eastern Mari"
+        ],
+        "family": [
+            "fiu"
+        ],
+        "scripts": [
+            "Cyrl"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ru"
+        ]
+    },
+    {
+        "codes": [
+            "mi",
+            "mri",
+            "mao"
+        ],
+        "names": [
+            "Maori",
+            "Māori",
+            "Te Reo Māori"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "analytical"
+            ]
+        },
+        "territories": [
+            "nz"
+        ]
+    },
+    {
+        "codes": [
+            "mk",
+            "mkd",
+            "mac"
+        ],
+        "names": [
+            "Macedonian",
+            "Macedonian Slavic"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "scripts": [
+            "Cyrl"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "mk"
+        ]
+    },
+    {
+        "codes": [
+            "ml"
+        ],
+        "names": [
+            "Malayalam"
+        ],
+        "family": [
+            "dra"
+        ],
+        "scripts": [
+            "Mlym"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "in"
+        ]
+    },
+    {
+        "codes": [
+            "mn",
+            "mon",
+            "khk"
+        ],
+        "names": [
+            "Mongolian"
+        ],
+        "family": [
+            "xgn"
+        ],
+        "scripts": [
+            "Cyrl",
+            "Mong",
+            "Phag"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "mn"
+        ]
+    },
+    {
+        "codes": [
+            "mni"
+        ],
+        "names": [
+            "Meitei",
+            "Manipuri"
+        ],
+        "family": [
+            "sit"
+        ],
+        "scripts": [
+            "Mtei",
+            "Beng",
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": []
+        },
+        "territories": [
+            "bd",
+            "in",
+            "mm"
+        ]
+    },
+    {
+        "codes": [
+            "mos"
+        ],
+        "names": [
+            "Moore",
+            "Mooré",
+            "Mole",
+            "Moose",
+            "More",
+            "Moré",
+            "Moshi",
+            "Mossi"
+        ],
+        "family": [
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": []
+        },
+        "territories": [
+            "bf",
+            "bj",
+            "ci",
+            "gh",
+            "ml",
+            "ne",
+            "tg",
+            "sn"
+        ]
+    },
+    {
+        "codes": [
+            "mr",
+            "mar"
+        ],
+        "names": [
+            "Marathi"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Deva",
+            "Modi"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative",
+                "inflected",
+                "analytic"
+            ]
+        },
+        "territories": [
+            "in"
+        ]
+    },
+    {
+        "codes": [
+            "mrj"
+        ],
+        "names": [
+            "Hill Mari",
+            "Western Mari"
+        ],
+        "family": [
+            "fiu"
+        ],
+        "scripts": [
+            "Cyrl"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ru"
+        ]
+    },
+    {
+        "codes": [
+            "ms",
+            "msa",
+            "may",
+            "zlm"
+        ],
+        "names": [
+            "Malay"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn",
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "my",
+            "bn",
+            "sg"
+        ]
+    },
+    {
+        "codes": [
+            "mt",
+            "mlt"
+        ],
+        "names": [
+            "Maltese"
+        ],
+        "family": [
+            "sem",
+            "afa"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "mt"
+        ]
+    },
+    {
+        "codes": [
+            "my",
+            "mya",
+            "bur"
+        ],
+        "names": [
+            "Burmese",
+            "Myanmar",
+            "Myanmarese",
+            "Birmese"
+        ],
+        "family": [
+            "sit"
+        ],
+        "scripts": [
+            "Mymr"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "analytic",
+                "isolating"
+            ]
+        },
+        "territories": [
+            "mm"
+        ]
+    },
+    {
+        "codes": [
+            "ne",
+            "nep"
+        ],
+        "names": [
+            "Nepali"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Deva"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "np"
+        ]
+    },
+    {
+        "codes": [
+            "nl",
+            "nld",
+            "dut"
+        ],
+        "names": [
+            "Dutch",
+            "Netherlandic"
+        ],
+        "variant_names": [
+            "Hollandic",
+            "Flemish",
+            "Surinamese"
+        ],
+        "family": [
+            "gem",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            1,
+            "be",
+            "nl"
+        ]
+    },
+    {
+        "codes": [
+            "no",
+            "nb",
+            "nn",
+            "nor",
+            "nno",
+            "nob"
+        ],
+        "names": [
+            "Norwegian"
+        ],
+        "variant_names": [
+            "Bokmål",
+            "Nynorsk",
+            "Riksmål",
+            "Høgnorsk"
+        ],
+        "family": [
+            "gem",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "no"
+        ]
+    },
+    {
+        "codes": [
+            "nso"
+        ],
+        "names": [
+            "Northern Sotho"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "za"
+        ]
+    },
+    {
+        "codes": [
+            "nus"
+        ],
+        "names": [
+            "Nuer"
+        ],
+        "family": [
+            "ssa"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV",
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "et",
+            "ss"
+        ]
+    },
+    {
+        "codes": [
+            "ny"
+        ],
+        "names": [
+            "Chichewa",
+            "Chewa",
+            "Nyanja"
+        ],
+        "family": [
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ]
+        },
+        "territories": [
+            "mw",
+            "zw"
+        ]
+    },
+    {
+        "codes": [
+            "oc",
+            "oci"
+        ],
+        "names": [
+            "Occitan"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "es",
+            "fr",
+            "it",
+            "mc"
+        ]
+    },
+    {
+        "codes": [
+            "om",
+            "orm",
+            "gaz"
+        ],
+        "names": [
+            "Oromo"
+        ],
+        "family": [
+            "cus",
+            "afa"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "ke",
+            "et"
+        ]
+    },
+    {
+        "codes": [
+            "or",
+            "ori"
+        ],
+        "names": [
+            "Oriya",
+            "Odia"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Orya"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "id"
+        ]
+    },
+    {
+        "codes": [
+            "os",
+            "oss"
+        ],
+        "names": [
+            "Ossetian",
+            "Ossetic"
+        ],
+        "family": [
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Cyrl",
+            "Geor",
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ru",
+            "ru-se",
+            "ge"
+        ]
+    },
+    {
+        "codes": [
+            "otq"
+        ],
+        "names": [
+            "Northwestern Otomi"
+        ],
+        "variant_names": [
+            "Mezquital Otomi",
+            "Querétaro Otomi"
+        ],
+        "family": [
+            "omq"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "territories": [
+            "mx"
+        ]
+    },
+    {
+        "codes": [
+            "pa",
+            "pan"
+        ],
+        "names": [
+            "Punjabi",
+            "Panjabi"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Guru",
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "pk",
+            "in"
+        ]
+    },
+    {
+        "codes": [
+            "pag"
+        ],
+        "names": [
+            "Pangasinan"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ph"
+        ]
+    },
+    {
+        "codes": [
+            "pap"
+        ],
+        "names": [
+            "Papiamento",
+            "Papiamentu"
+        ],
+        "family": [
+            "cpp"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": null
+        },
+        "territories": [
+            "aw",
+            "cw"
+        ]
+    },
+    {
+        "codes": [
+            "pl",
+            "pol"
+        ],
+        "names": [
+            "Polish"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "pl"
+        ]
+    },
+    {
+        "codes": [
+            "ps",
+            "pus",
+            "pbt",
+            "pbu",
+            "pst"
+        ],
+        "names": [
+            "Pashto"
+        ],
+        "family": [
+            "ira",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "af"
+        ]
+    },
+    {
+        "codes": [
+            "pt",
+            "por"
+        ],
+        "names": [
+            "Portuguese",
+            "European Portuguese",
+            "Brazilian Portuguese"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "br",
+            "pt",
+            "ao",
+            "mz"
+        ]
+    },
+    {
+        "codes": [
+            "qu",
+            "que"
+        ],
+        "names": [
+            "Quechua"
+        ],
+        "family": [
+            "qwe"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ar",
+            "bo",
+            "cl",
+            "co",
+            "ec",
+            "pe"
+        ]
+    },
+    {
+        "codes": [
+            "quy",
+            "qxu"
+        ],
+        "names": [
+            "Ayacucho",
+            "Ayacucho Quechua",
+            "Chanca",
+            "Chanka"
+        ],
+        "family": [
+            "qwe"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "pe"
+        ]
+    },
+    {
+        "codes": [
+            "ro",
+            "ron",
+            "rum"
+        ],
+        "names": [
+            "Romanian",
+            "Rumanian",
+            "Moldovan"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn",
+            "Cyrl"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "md",
+            "ro"
+        ]
+    },
+    {
+        "codes": [
+            "rm",
+            "roh"
+        ],
+        "names": [
+            "Romansh",
+            "Romansch",
+            "Rumantsch"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "ch"
+        ]
+    },
+    {
+        "codes": [
+            "rn",
+            "run"
+        ],
+        "names": [
+            "Kirundi",
+            "Rundi"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "bi",
+            "cd",
+            "rw",
+            "tz"
+        ]
+    },
+    {
+        "codes": [
+            "ru",
+            "rus"
+        ],
+        "names": [
+            "Russian"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "scripts": [
+            "Cyrl"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected",
+                "fusional",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "ru",
+            "md",
+            "kz",
+            "ua"
+        ]
+    },
+    {
+        "codes": [
+            "rw",
+            "kin"
+        ],
+        "names": [
+            "Kinyarwanda",
+            "Rwandan",
+            "Ikinyarwanda"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "rw"
+        ]
+    },
+    {
+        "codes": [
+            "sa",
+            "san"
+        ],
+        "names": [
+            "Sanskrit"
+        ],
+        "family": [
+            "ira",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Deva"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "in"
+        ]
+    },
+    {
+        "codes": [
+            "sat"
+        ],
+        "names": [
+            "Santali",
+            "Santal",
+            "Santhali"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Olck"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "bd",
+            "in",
+            "np"
+        ]
+    },
+    {
+        "codes": [
+            "sc",
+            "srd",
+            "sro",
+            "src"
+        ],
+        "names": [
+            "Sardinian"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "it"
+        ]
+    },
+    {
+        "codes": [
+            "scn"
+        ],
+        "names": [
+            "Sicilian"
+        ],
+        "family": [
+            "roa",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "it"
+        ]
+    },
+    {
+        "codes": [
+            "sd",
+            "snd"
+        ],
+        "names": [
+            "Sindhi"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Arab",
+            "Deva",
+            "Khoj",
+            "Sind"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "in",
+            "pk"
+        ]
+    },
+    {
+        "codes": [
+            "se",
+            "sme"
+        ],
+        "names": [
+            "Northern Sami",
+            "North Sámi",
+            "Northern Sámi"
+        ],
+        "family": [
+            "fiu"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative",
+                "inflected",
+                "fusional"
+            ]
+        },
+        "territories": [
+            "no",
+            "fi",
+            "se"
+        ]
+    },
+    {
+        "codes": [
+            "sg",
+            "sag"
+        ],
+        "names": [
+            "Sango",
+            "Sangho"
+        ],
+        "family": [
+            "crp"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "isolating",
+                "analytic"
+            ]
+        },
+        "territories": [
+            "cd",
+            "cf",
+            "td"
+        ]
+    },
+    {
+        "codes": [
+            "shn"
+        ],
+        "names": [
+            "Shan"
+        ],
+        "family": [
+            "tai"
+        ],
+        "scripts": [
+            "Mymr"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": []
+        },
+        "territories": [
+            "mm"
+        ]
+    },
+    {
+        "codes": [
+            "si",
+            "sin"
+        ],
+        "names": [
+            "Sinhala",
+            "Sinhalese"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Sinh"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "lk"
+        ]
+    },
+    {
+        "codes": [
+            "sk",
+            "slk",
+            "slo"
+        ],
+        "names": [
+            "Slovak"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "sk"
+        ]
+    },
+    {
+        "codes": [
+            "sl",
+            "slv"
+        ],
+        "names": [
+            "Slovenian",
+            "Slovene"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "inflected"
+            ]
+        },
+        "territories": [
+            "si"
+        ]
+    },
+    {
+        "codes": [
+            "sm",
+            "smo"
+        ],
+        "names": [
+            "Samoan"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "ws"
+        ]
+    },
+    {
+        "codes": [
+            "sn",
+            "sna"
+        ],
+        "names": [
+            "Shona"
+        ],
+        "family": [
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "zw"
+        ]
+    },
+    {
+        "codes": [
+            "so",
+            "som"
+        ],
+        "names": [
+            "Somali"
+        ],
+        "family": [
+            "cus",
+            "afa"
+        ],
+        "scripts": [
+            "Arab",
+            "Latn",
+            "Osma"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "dj",
+            "et",
+            "ke",
+            "so"
+        ]
+    },
+    {
+        "codes": [
+            "sq",
+            "sqi",
+            "alb",
+            "als"
+        ],
+        "names": [
+            "Albanian",
+            "Tosk Albanian",
+            "Tosk"
+        ],
+        "family": [
+            "ine"
+        ],
+        "scripts": [
+            "Latn",
+            "Elba"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "al",
+            "mk",
+            "sr",
+            "gr",
+            "me",
+            "it"
+        ]
+    },
+    {
+        "codes": [
+            "sr",
+            "srp"
+        ],
+        "names": [
+            "Serbian"
+        ],
+        "variant_names": [
+            "Serbo-Croatian",
+            "Montenegrin"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "scripts": [
+            "Cyrl",
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "inflected"
+            ]
+        },
+        "territories": [
+            "ba",
+            "me",
+            "rs",
+            "hr"
+        ]
+    },
+    {
+        "codes": [
+            "ss",
+            "ssw"
+        ],
+        "names": [
+            "Swati",
+            "Swazi",
+            "siSwati"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VO"
+            ],
+            "morphosyntax": []
+        },
+        "territories": [
+            "sz",
+            "za"
+        ]
+    },
+    {
+        "codes": [
+            "st",
+            "sot"
+        ],
+        "names": [
+            "Sotho",
+            "Sesotho"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ls",
+            "za",
+            "zw"
+        ]
+    },
+    {
+        "codes": [
+            "su",
+            "sun"
+        ],
+        "names": [
+            "Sundanese"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn",
+            "Sund"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ]
+        },
+        "territories": [
+            "id"
+        ]
+    },
+    {
+        "codes": [
+            "sv",
+            "swe"
+        ],
+        "names": [
+            "Swedish"
+        ],
+        "family": [
+            "gem",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "V2",
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "fi",
+            "se"
+        ]
+    },
+    {
+        "codes": [
+            "sw",
+            "swa",
+            "swc",
+            "swh"
+        ],
+        "names": [
+            "Swahili",
+            "Kiswahili"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "cd",
+            "ke",
+            "tz",
+            "ug"
+        ]
+    },
+    {
+        "codes": [
+            "szl"
+        ],
+        "names": [
+            "Silesian"
+        ],
+        "variant_names": [
+            "Upper Silesian"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "territories": [
+            "pl",
+            "cz"
+        ]
+    },
+    {
+        "codes": [
+            "ta",
+            "tam"
+        ],
+        "names": [
+            "Tamil"
+        ],
+        "family": [
+            "dra"
+        ],
+        "scripts": [
+            "Taml"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "in",
+            "lk",
+            "my",
+            "sg"
+        ]
+    },
+    {
+        "codes": [
+            "taq"
+        ],
+        "names": [
+            "Tamasheq",
+            "Tamashek"
+        ],
+        "family": [
+            "afa"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "bf",
+            "ml"
+        ]
+    },
+    {
+        "codes": [
+            "te",
+            "tel"
+        ],
+        "names": [
+            "Telugu"
+        ],
+        "family": [
+            "dra"
+        ],
+        "scripts": [
+            "Telu"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "in"
+        ]
+    },
+    {
+        "codes": [
+            "tg",
+            "tgk"
+        ],
+        "names": [
+            "Tajik",
+            "Tajiki Persian"
+        ],
+        "family": [
+            "ira",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Cyrl",
+            "Latn",
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "tj",
+            "af"
+        ]
+    },
+    {
+        "codes": [
+            "tet"
+        ],
+        "names": [
+            "Tetum",
+            "Tetun"
+        ],
+        "variant_name": [
+            "Tetun Dili",
+            "Tetun Terik"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "isolating"
+            ]
+        },
+        "territories": [
+            "tl"
+        ]
+    },
+    {
+        "codes": [
+            "th",
+            "tha"
+        ],
+        "names": [
+            "Thai",
+            "Central Thai"
+        ],
+        "family": [
+            "tai"
+        ],
+        "scripts": [
+            "Thai"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic",
+                "isolating"
+            ]
+        },
+        "territories": [
+            "th"
+        ]
+    },
+    {
+        "codes": [
+            "ti",
+            "tir"
+        ],
+        "names": [
+            "Tigrinya"
+        ],
+        "family": [
+            "sem",
+            "afa"
+        ],
+        "scripts": [
+            "Ethi"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "et",
+            "er"
+        ]
+    },
+    {
+        "codes": [
+            "tk",
+            "tuk"
+        ],
+        "names": [
+            "Turkmen"
+        ],
+        "family": [
+            "trk"
+        ],
+        "scripts": [
+            "Cyrl",
+            "Latn",
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "iq",
+            "tm",
+            "ir",
+            "af"
+        ]
+    },
+    {
+        "codes": [
+            "tl",
+            "tgl",
+            "fil"
+        ],
+        "names": [
+            "Tagalog",
+            "Filipino"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ph"
+        ]
+    },
+    {
+        "codes": [
+            "tlh"
+        ],
+        "names": [
+            "Klingon",
+            "Klingonese"
+        ],
+        "family": [],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "OVS"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": []
+    },
+    {
+        "codes": [
+            "tn"
+        ],
+        "names": [
+            "Tswana",
+            "Setswana"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "bw",
+            "za",
+            "zw"
+        ]
+    },
+    {
+        "codes": [
+            "to",
+            "ton"
+        ],
+        "names": [
+            "Tonga",
+            "Tongan"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "to"
+        ]
+    },
+    {
+        "codes": [
+            "tpi"
+        ],
+        "names": [
+            "Tok Pisin"
+        ],
+        "family": [
+            "cpe"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "pg"
+        ]
+    },
+    {
+        "codes": [
+            "tr",
+            "tur"
+        ],
+        "names": [
+            "Turkish"
+        ],
+        "family": [
+            "trk"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "tr",
+            "cy"
+        ]
+    },
+    {
+        "codes": [
+            "ts",
+            "tso"
+        ],
+        "names": [
+            "Tsonga",
+            "Xitsonga"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "za",
+            "zw"
+        ]
+    },
+    {
+        "codes": [
+            "tt",
+            "tat"
+        ],
+        "names": [
+            "Tatar"
+        ],
+        "family": [
+            "trk"
+        ],
+        "scripts": [
+            "Cyrl",
+            "Latn",
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ru",
+            "cn"
+        ]
+    },
+    {
+        "codes": [
+            "tum"
+        ],
+        "names": [
+            "Tumbuka"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "mw",
+            "tz",
+            "zm"
+        ]
+    },
+    {
+        "codes": [
+            "tw",
+            "twi"
+        ],
+        "names": [
+            "Twi"
+        ],
+        "family": [
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "gh"
+        ]
+    },
+    {
+        "codes": [
+            "ty",
+            "tah"
+        ],
+        "names": [
+            "Tahitian"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "pf"
+        ]
+    },
+    {
+        "codes": [
+            "tzm"
+        ],
+        "names": [
+            "Central Atlas Tamazight",
+            "Atlasic"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Tfng",
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "VSO",
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "ma"
+        ]
+    },
+    {
+        "codes": [
+            "udm"
+        ],
+        "names": [
+            "Udmurt"
+        ],
+        "family": [
+            "fiu"
+        ],
+        "scripts": [
+            "Cyrl"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ru"
+        ]
+    },
+    {
+        "codes": [
+            "ug",
+            "uig"
+        ],
+        "names": [
+            "Uyghur",
+            "Uighur"
+        ],
+        "family": [
+            "trk"
+        ],
+        "scripts": [
+            "Latn",
+            "Cyrl",
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "cn"
+        ]
+    },
+    {
+        "codes": [
+            "uk",
+            "ukr"
+        ],
+        "names": [
+            "Ukrainian"
+        ],
+        "family": [
+            "sla",
+            "ine"
+        ],
+        "scripts": [
+            "Cyrl"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "ua",
+            "md"
+        ]
+    },
+    {
+        "codes": [
+            "umb"
+        ],
+        "names": [
+            "Umbundu",
+            "South Mbundu"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "ao"
+        ]
+    },
+    {
+        "codes": [
+            "ur",
+            "urd"
+        ],
+        "names": [
+            "Urdu"
+        ],
+        "family": [
+            "inc",
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "fusional"
+            ]
+        },
+        "territories": [
+            "in",
+            "lk",
+            "pk"
+        ]
+    },
+    {
+        "codes": [
+            "uz",
+            "uzb",
+            "uzn",
+            "uzs"
+        ],
+        "names": [
+            "Uzbek"
+        ],
+        "family": [
+            "trk"
+        ],
+        "scripts": [
+            "Latn",
+            "Cyrl",
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "uz"
+        ]
+    },
+    {
+        "codes": [
+            "ve",
+            "ven"
+        ],
+        "names": [
+            "Venda",
+            "Tshivenda",
+            "Setswetla"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "za",
+            "zw"
+        ]
+    },
+    {
+        "codes": [
+            "vec"
+        ],
+        "names": [
+            "Venetian",
+            "Venetan"
+        ],
+        "family": [
+            "roa",
+            "inc"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "hr",
+            "it",
+            "si"
+        ]
+    },
+    {
+        "codes": [
+            "vi",
+            "vie"
+        ],
+        "names": [
+            "Vietnamese"
+        ],
+        "family": [
+            "aav"
+        ],
+        "scripts": [
+            "Latn",
+            "Hani"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic",
+                "isolating"
+            ]
+        },
+        "territories": [
+            "vn"
+        ]
+    },
+    {
+        "codes": [
+            "war"
+        ],
+        "names": [
+            "Waray",
+            "Waray-Waray",
+            "Bisaya/Binisaya nga Winaray/Waray"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative",
+                "inflected"
+            ]
+        },
+        "territories": [
+            "ph"
+        ]
+    },
+    {
+        "codes": [
+            "wo",
+            "wol"
+        ],
+        "names": [
+            "Wolof"
+        ],
+        "family": [
+            "nic"
+        ],
+        "scripts": [
+            "Latn",
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected",
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "sn",
+            "mr",
+            "gm"
+        ]
+    },
+    {
+        "codes": [
+            "xh",
+            "xho"
+        ],
+        "names": [
+            "Xhosa",
+            "isiXhosa"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "za"
+        ]
+    },
+    {
+        "codes": [
+            "yi",
+            "yid",
+            "ydd",
+            "yih"
+        ],
+        "names": [
+            "Yiddish"
+        ],
+        "family": [
+            "gem",
+            "ine"
+        ],
+        "scripts": [
+            "Hebr"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "ba",
+            "nl",
+            "pl",
+            "ro",
+            "se",
+            "ua",
+            "ru",
+            "by",
+            "us",
+            "il"
+        ]
+    },
+    {
+        "codes": [
+            "yo",
+            "yor"
+        ],
+        "names": [
+            "Yoruba"
+        ],
+        "family": [
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "isolating"
+            ]
+        },
+        "territories": []
+    },
+    {
+        "codes": [
+            "yua"
+        ],
+        "names": [
+            "Yucatec Maya"
+        ],
+        "family": [
+            "myn"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "VOS"
+            ]
+        },
+        "territories": [
+            "mx"
+        ]
+    },
+    {
+        "codes": [
+            "yue"
+        ],
+        "names": [
+            "Cantonese",
+            "Yue",
+            "Yue Chinese"
+        ],
+        "family": [
+            "sit"
+        ],
+        "scripts": [
+            "Hans",
+            "Hant"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic",
+                "isolating"
+            ]
+        },
+        "territories": [
+            "hk",
+            "mo",
+            "cn"
+        ]
+    },
+    {
+        "codes": [
+            "zh",
+            "lzh"
+        ],
+        "names": [
+            "Chinese",
+            "Mandarin Chinese",
+            "Mandarin"
+        ],
+        "variant_names": [
+            "Simplified Chinese",
+            "Traditional Chinese",
+            "Literary Chinese"
+        ],
+        "family": [
+            "sit"
+        ],
+        "scripts": [
+            "Hans",
+            "Hant"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic",
+                "isolating"
+            ]
+        },
+        "territories": [
+            "cn",
+            "tw",
+            "hk",
+            "mo",
+            "sg",
+            "my",
+            "id",
+            "ph",
+            "vn",
+            "mm"
+        ]
+    },
+    {
+        "codes": [
+            "zsm"
+        ],
+        "names": [
+            "Malaysian Malay"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn",
+            "Arab"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "my",
+            "sg"
+        ]
+    },
+    {
+        "codes": [
+            "zu",
+            "zul"
+        ],
+        "names": [
+            "Zulu"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "za"
+        ]
+    },
+    {
+        "codes": [
+            "zza",
+            "kiu",
+            "diq"
+        ],
+        "names": [
+            "Zaza",
+            "Zazaki"
+        ],
+        "family": [
+            "iir",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "inflected"
+            ]
+        },
+        "territories": [
+            "tr"
+        ]
+    }
+]
