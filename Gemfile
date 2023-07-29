@@ -7,12 +7,7 @@ source 'https://rubygems.org'
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-<<<<<<< HEAD
-# gem "jekyll", "~> 4.0.0"
-
-=======
 # gem 'jekyll', '~> 4.0.0'
->>>>>>> 99456dd (Revert changes)
 
 # Theme
 # gem 'just-the-docs', '0.3.3'
