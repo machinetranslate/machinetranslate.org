@@ -54,6 +54,24 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ht
+  - hat
+  names:
+  - Haitian
+  - Haitian Creole
+  family:
+  - cpf
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - analytic
+  territories:
+  - ht
 
 ---
 

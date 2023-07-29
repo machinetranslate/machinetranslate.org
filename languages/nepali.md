@@ -52,6 +52,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ne
+  - nep
+  names:
+  - Nepali
+  family:
+  - inc
+  - iir
+  - ine
+  scripts:
+  - Deva
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - np
 
 ---
 

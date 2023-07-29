@@ -122,6 +122,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - sv
+  - swe
+  names:
+  - Swedish
+  family:
+  - gem
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - V2
+    - SVO
+    morphosyntax:
+    - inflected
+  territories:
+  - fi
+  - se
 
 ---
 

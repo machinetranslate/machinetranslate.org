@@ -18,6 +18,20 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - yua
+  names:
+  - Yucatec Maya
+  family:
+  - myn
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - VOS
+  territories:
+  - mx
 
 ---
 

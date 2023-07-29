@@ -89,6 +89,31 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - hr
+  - hrv
+  - hbs
+  names:
+  - Croatian
+  variant_names:
+  - Serbo-Croatian
+  family:
+  - sla
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - fusional
+    - inflected
+  territories:
+  - hr
+  - ba
+  - rs
+  - at
 
 ---
 

@@ -17,6 +17,24 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212
+lan:
+  codes:
+  - kw
+  - cor
+  names:
+  - Cornish
+  family:
+  - cel
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - VSO
+    morphosyntax:
+    - inflected
+  territories:
+  - gb
 
 ---
 

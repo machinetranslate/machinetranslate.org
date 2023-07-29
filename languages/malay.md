@@ -93,6 +93,28 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ms
+  - msa
+  - may
+  - zlm
+  names:
+  - Malay
+  family:
+  - map
+  scripts:
+  - Latn
+  - Arab
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - agglutinative
+  territories:
+  - my
+  - bn
+  - sg
 
 ---
 

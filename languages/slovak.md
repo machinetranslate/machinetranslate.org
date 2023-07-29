@@ -104,6 +104,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - sk
+  - slk
+  - slo
+  names:
+  - Slovak
+  family:
+  - sla
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - synthetic
+  territories:
+  - sk
 
 ---
 

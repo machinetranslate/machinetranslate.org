@@ -23,6 +23,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - om
+  - orm
+  names:
+  - Oromo
+  family:
+  - cus
+  - afa
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - fusional
+  territories:
+  - ke
+  - et
 
 ---
 

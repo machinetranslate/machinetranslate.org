@@ -20,6 +20,25 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212
+lan:
+  codes:
+  - an
+  - arg
+  names:
+  - Aragonese
+  family:
+  - roa
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - fusional
+    - inflected
+  territories:
+  - es
 
 ---
 

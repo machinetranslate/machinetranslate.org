@@ -108,6 +108,29 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - fi
+  - fin
+  - fit
+  - fkv
+  names:
+  - Finnish
+  variant_names:
+  - "Me\xE4nkieli"
+  - Kven
+  family:
+  - fiu
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - fi
 
 ---
 

@@ -14,6 +14,29 @@ supported_apis:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+lan:
+  codes:
+  - arq
+  names:
+  - Algerian Arabic
+  - Dziria
+  - Darja
+  - Derja
+  family:
+  - sem
+  - afa
+  scripts:
+  - Arab
+  typology:
+    word_order:
+    - SVO
+    - VSO
+    - OSV
+    morphosyntax:
+    - inflected
+    - synthetic
+  territories:
+  - dz
 
 ---
 

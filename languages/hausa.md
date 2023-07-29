@@ -47,6 +47,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ha
+  - hau
+  names:
+  - Hausa
+  family:
+  - cdc
+  - afa
+  scripts:
+  - Latn
+  - Arab
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - inflected
+  territories:
+  - ng
 
 ---
 

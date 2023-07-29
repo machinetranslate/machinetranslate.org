@@ -19,6 +19,33 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212
+lan:
+  codes:
+  - bal
+  - bgp
+  - bgn
+  - bcc
+  names:
+  - Balochi
+  - Baluchi
+  family:
+  - ira
+  - iir
+  - ine
+  scripts:
+  - Arab
+  - Latn
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - inflected
+    - agglutinative
+    - isolating
+  territories:
+  - af
+  - ir
+  - pk
 
 ---
 

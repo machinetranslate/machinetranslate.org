@@ -52,6 +52,28 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ps
+  - pus
+  - pbt
+  - pbu
+  - pst
+  names:
+  - Pashto
+  family:
+  - ira
+  - iir
+  - ine
+  scripts:
+  - Arab
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - fusional
+  territories:
+  - af
 
 ---
 

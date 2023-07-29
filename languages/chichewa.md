@@ -33,6 +33,23 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ny
+  names:
+  - Chichewa
+  - Chewa
+  - Nyanja
+  family:
+  - nic
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+  territories:
+  - mw
+  - zw
 
 ---
 

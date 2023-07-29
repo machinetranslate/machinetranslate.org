@@ -18,6 +18,27 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - sg
+  - sag
+  names:
+  - Sango
+  - Sangho
+  family:
+  - crp
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - isolating
+    - analytic
+  territories:
+  - cd
+  - cf
+  - td
 
 ---
 

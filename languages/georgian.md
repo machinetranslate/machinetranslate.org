@@ -57,6 +57,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ka
+  - kat
+  - geo
+  names:
+  - Georgian
+  family:
+  - ccs
+  scripts:
+  - Geor
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - agglutinative
+    - synthetic
+  territories:
+  - ge
 
 ---
 

@@ -21,6 +21,24 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - kab
+  names:
+  - Kabyle
+  - Kabylian
+  family:
+  - afa
+  scripts:
+  - Arab
+  - Latn
+  typology:
+    word_order:
+    - VSO
+    morphosyntax:
+    - inflected
+  territories:
+  - dz
 
 ---
 

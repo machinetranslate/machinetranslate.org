@@ -43,6 +43,40 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ku
+  - kur
+  - sdh
+  - kmr
+  names:
+  - Kurdish
+  - Kurmanji Kurdish
+  - Kurmanji
+  - Northern Kurdish
+  - Yezidi Kurdish
+  - Yezidi
+  family:
+  - ira
+  - iir
+  - ine
+  scripts:
+  - Latn
+  - Cyrl
+  - Arab
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - inflected
+  territories:
+  - am
+  - tr
+  - sy
+  - ir
+  - iq
+  - ge
+  - tm
 
 ---
 

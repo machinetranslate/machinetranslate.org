@@ -20,6 +20,28 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - rn
+  - run
+  names:
+  - Kirundi
+  - Rundi
+  family:
+  - bnt
+  - nic
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - synthetic
+  territories:
+  - bi
+  - cd
+  - rw
+  - tz
 
 ---
 

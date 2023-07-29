@@ -61,6 +61,28 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - pa
+  - pan
+  names:
+  - Punjabi
+  - Panjabi
+  family:
+  - inc
+  - iir
+  - ine
+  scripts:
+  - Guru
+  - Arab
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - fusional
+  territories:
+  - pk
+  - in
 
 ---
 

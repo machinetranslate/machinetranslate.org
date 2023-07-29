@@ -59,6 +59,29 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - so
+  - som
+  names:
+  - Somali
+  family:
+  - cus
+  - afa
+  scripts:
+  - Arab
+  - Latn
+  - Osma
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - dj
+  - et
+  - ke
+  - so
 
 ---
 

@@ -32,6 +32,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ti
+  - tir
+  names:
+  - Tigrinya
+  family:
+  - sem
+  - afa
+  scripts:
+  - Ethi
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - fusional
+    - synthetic
+  territories:
+  - et
+  - er
 
 ---
 

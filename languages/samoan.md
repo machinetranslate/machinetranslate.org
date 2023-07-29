@@ -42,6 +42,23 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - sm
+  - smo
+  names:
+  - Samoan
+  family:
+  - map
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - VSO
+    morphosyntax:
+    - analytic
+  territories:
+  - ws
 
 ---
 

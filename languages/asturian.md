@@ -23,6 +23,23 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212
+lan:
+  codes:
+  - ast
+  names:
+  - Asturian
+  - Bable
+  family:
+  - roa
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - inflected
+  territories:
+  - es
 
 ---
 

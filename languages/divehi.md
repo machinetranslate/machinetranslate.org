@@ -28,6 +28,27 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - dv
+  - div
+  names:
+  - Divehi
+  - Dhivehi
+  - Maldivian
+  family:
+  - inc
+  - iir
+  - ine
+  scripts:
+  - Latn
+  - Thaa
+  typology:
+    word_order: []
+    morphosyntax:
+    - inflected
+  territories:
+  - mv
 
 ---
 

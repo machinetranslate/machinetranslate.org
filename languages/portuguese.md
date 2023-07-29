@@ -149,6 +149,29 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - pt
+  - por
+  names:
+  - Portuguese
+  - European Portuguese
+  - Brazilian Portuguese
+  family:
+  - roa
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - inflected
+  territories:
+  - br
+  - pt
+  - ao
+  - mz
 
 ---
 Portuguese was one of the first languages for which machine translation APIs supported multiple variants.

@@ -20,6 +20,29 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - os
+  - oss
+  names:
+  - Ossetian
+  - Ossetic
+  family:
+  - iir
+  - ine
+  scripts:
+  - Cyrl
+  - Geor
+  - Latn
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - ru
+  - ru-se
+  - ge
 
 ---
 

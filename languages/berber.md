@@ -18,6 +18,28 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ber
+  names:
+  - Berber
+  family:
+  - afa
+  scripts:
+  - Tfng
+  - Arab
+  - Latn
+  typology:
+    word_order:
+    - VSO
+    morphosyntax:
+    - fusional
+  territories:
+  - ma
+  - dz
+  - ly
+  - ml
+  - ne
 
 ---
 

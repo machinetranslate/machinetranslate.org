@@ -27,6 +27,23 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ty
+  - tah
+  names:
+  - Tahitian
+  family:
+  - map
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - VSO
+    morphosyntax:
+    - analytic
+  territories:
+  - pf
 
 ---
 

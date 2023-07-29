@@ -23,6 +23,27 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - cnr
+  names:
+  - Montenegrin
+  variant_names:
+  - Serbo-Croatian
+  family:
+  - sla
+  - ine
+  scripts:
+  - Latn
+  - Cyrl
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - fusional
+    - inflected
+  territories:
+  - me
 
 ---
 

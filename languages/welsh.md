@@ -65,6 +65,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - cy
+  - wel
+  - cym
+  names:
+  - Welsh
+  family:
+  - cel
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - VSO
+    morphosyntax:
+    - inflected
+  territories:
+  - gb
 
 ---
 

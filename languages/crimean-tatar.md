@@ -24,6 +24,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - crh
+  names:
+  - Crimean Tatar
+  - Crimean
+  family:
+  - trk
+  scripts:
+  - Latn
+  - Cyrl
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - ro
+  - ru
+  - ua
 
 ---
 

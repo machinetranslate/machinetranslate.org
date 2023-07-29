@@ -182,6 +182,39 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - en
+  - eng
+  names:
+  - English
+  family:
+  - gem
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - analytic
+  territories:
+  - au
+  - bz
+  - ca
+  - 029
+  - in
+  - ie
+  - jm
+  - my
+  - nz
+  - ph
+  - sg
+  - za
+  - tt
+  - gb
+  - us
+  - zw
 
 ---
 

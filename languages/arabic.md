@@ -134,6 +134,47 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ar
+  - ara
+  names:
+  - Arabic
+  family:
+  - sem
+  - afa
+  scripts:
+  - Arab
+  - Syrc
+  typology:
+    word_order:
+    - VSO
+    morphosyntax:
+    - fusional
+    - synthetic
+  territories:
+  - ae
+  - bh
+  - dj
+  - dz
+  - eg
+  - er
+  - iq
+  - jo
+  - kw
+  - lb
+  - ly
+  - ma
+  - mr
+  - om
+  - ps
+  - qa
+  - sa
+  - sd
+  - so
+  - sy
+  - tn
+  - ye
 
 ---
 

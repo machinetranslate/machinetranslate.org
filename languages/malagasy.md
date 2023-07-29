@@ -45,6 +45,48 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - mg
+  - mlg
+  - xmv
+  - bhr
+  - buc
+  - msh
+  - bmm
+  - plt
+  - skg
+  - bzc
+  - tdx
+  - txy
+  - tkg
+  - xmw
+  names:
+  - Malagasy
+  variant_names:
+  - Antankarana
+  - Bara
+  - Bushi
+  - Masikoro
+  - Northern Betsimisaraka
+  - Plateau Malagasy
+  - Sakalava
+  - Southern Betsimisaraka
+  - Tandroy-Mafahaly
+  - Tanosy
+  - Tesaka
+  - Tsimihety
+  family:
+  - map
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - VOS
+    morphosyntax:
+    - inflected
+  territories:
+  - mg
 
 ---
 

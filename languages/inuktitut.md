@@ -18,6 +18,27 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212
+lan:
+  codes:
+  - iu
+  - iku
+  - ike
+  - ikt
+  names:
+  - Inuktitut
+  - Eastern Canadian Inuktitut
+  family:
+  - esx
+  scripts:
+  - Cans
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+    - polysynthetic
+  territories:
+  - ca
 
 ---
 

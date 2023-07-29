@@ -33,6 +33,22 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - su
+  - sun
+  names:
+  - Sundanese
+  family:
+  - map
+  scripts:
+  - Latn
+  - Sund
+  typology:
+    word_order:
+    - SVO
+  territories:
+  - id
 
 ---
 

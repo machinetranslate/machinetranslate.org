@@ -51,6 +51,27 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - uz
+  - uzb
+  - uzn
+  - uzs
+  names:
+  - Uzbek
+  family:
+  - trk
+  scripts:
+  - Latn
+  - Cyrl
+  - Arab
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - uz
 
 ---
 

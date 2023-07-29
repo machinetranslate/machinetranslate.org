@@ -25,6 +25,25 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ckb
+  names:
+  - Sorani Kurdish
+  - Central Kurdish
+  family:
+  - ira
+  - iir
+  - ine
+  scripts:
+  - Arab
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - inflected
+  territories:
+  - iq
 
 ---
 

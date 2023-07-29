@@ -51,6 +51,22 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ml
+  names:
+  - Malayalam
+  family:
+  - dra
+  scripts:
+  - Mlym
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - in
 
 ---
 

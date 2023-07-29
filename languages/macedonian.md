@@ -56,6 +56,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - mk
+  - mkd
+  - mac
+  names:
+  - Macedonian
+  - Macedonian Slavic
+  family:
+  - sla
+  - ine
+  scripts:
+  - Cyrl
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - analytic
+  territories:
+  - mk
 
 ---
 

@@ -58,6 +58,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - si
+  - sin
+  names:
+  - Sinhala
+  - Sinhalese
+  family:
+  - inc
+  - iir
+  - ine
+  scripts:
+  - Sinh
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - fusional
+  territories:
+  - lk
 
 ---
 

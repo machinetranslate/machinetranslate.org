@@ -54,6 +54,23 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - te
+  - tel
+  names:
+  - Telugu
+  family:
+  - dra
+  scripts:
+  - Telu
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - agglutinative
+  territories:
+  - in
 
 ---
 

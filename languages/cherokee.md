@@ -18,6 +18,24 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - chr
+  names:
+  - Cherokee
+  - Tsalagi
+  family:
+  - iro
+  scripts:
+  - Cher
+  typology:
+    word_order:
+    - SOV
+    - OVS
+    morphosyntax:
+    - inflected
+  territories:
+  - us
 
 ---
 

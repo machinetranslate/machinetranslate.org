@@ -30,6 +30,23 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - fj
+  - fij
+  names:
+  - Fijian
+  family:
+  - map
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - VOS
+    morphosyntax:
+    - isolating
+  territories:
+  - fj
 
 ---
 

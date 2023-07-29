@@ -116,6 +116,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - cs
+  - ces
+  - cze
+  names:
+  - Czech
+  family:
+  - sla
+  - ine
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - fusional
+    - inflected
+  territories:
+  - cz
 
 ---
 

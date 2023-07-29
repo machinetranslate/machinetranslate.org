@@ -24,6 +24,23 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - pap
+  names:
+  - Papiamento
+  - Papiamentu
+  family:
+  - cpp
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax: null
+  territories:
+  - aw
+  - cw
 
 ---
 

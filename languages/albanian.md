@@ -60,6 +60,30 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - sq
+  - sqi
+  - alb
+  names:
+  - Albanian
+  family:
+  - ine
+  scripts:
+  - Latn
+  - Elba
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - fusional
+  territories:
+  - al
+  - mk
+  - sr
+  - gr
+  - me
+  - it
 
 ---
 

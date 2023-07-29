@@ -82,6 +82,27 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - ur
+  - urd
+  names:
+  - Urdu
+  family:
+  - inc
+  - iir
+  - ine
+  scripts:
+  - Arab
+  typology:
+    word_order:
+    - SOV
+    morphosyntax:
+    - fusional
+  territories:
+  - in
+  - lk
+  - pk
 
 ---
 

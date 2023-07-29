@@ -18,6 +18,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+lan:
+  codes:
+  - tet
+  names:
+  - Tetum
+  - Tetun
+  variant_name:
+  - Tetun Dili
+  - Tetun Terik
+  family:
+  - map
+  scripts:
+  - Latn
+  typology:
+    word_order:
+    - SVO
+    morphosyntax:
+    - isolating
+  territories:
+  - tl
 
 ---
 
