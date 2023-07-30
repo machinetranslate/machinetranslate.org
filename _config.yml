@@ -183,6 +183,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-target-blank
   - jekyll-seo-tag
+  - jekyll-include-cache
   - html-proofer
 
 # Default theme settings
