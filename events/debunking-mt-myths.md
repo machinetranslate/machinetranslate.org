@@ -24,7 +24,7 @@ seo:
     url: https://www.surrey.ac.uk/centre-translation-studies
 ---
 
-The lecture **Debunking a few machine translation myths: from ‘zero-shot translation’ to ‘human parity’ and ‘no language left behind’** took place online on 23 November.
+The lecture **Debunking a few machine translation myths: from ‘zero-shot translation’ to ‘human parity’ and ‘no language left behind’** took place online on 23 November, 2023.
 
 The speaker was Doctor Félix do Carmo, from the Centre of Translation Studies at the University of Surrey.
 
