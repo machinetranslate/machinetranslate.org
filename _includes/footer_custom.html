@@ -2,6 +2,7 @@
 {% assign meta = "404,Coming soon,Style,Roadmap,Contributing,About Machine Translate" | split:"," %}
 
 <center>
+  <p>
   {% if meta contains page.title %}
     Have a question?  Want machine translation news?
   {% elsif page.layout == 'coming_soon' %}
@@ -9,29 +10,38 @@
   {% else %}
     Want to learn more about {{ page.title }}?
   {% endif %}
+  </p>
 
   {% if meta contains page.title %}
+  <p>
     <a href="https://reddit.com/r/machinetranslation" class="no-arrow" target="_blank">
         <button id="airtable-button">
           Explore the community
         </button>
     </a>
+  </p>
+  <p>
     <a href="https://www.reddit.com/r/machinetranslation/submit?selftext=truesubmit&title=Question%20about%20...%20%3F" class="no-arrow" target="_blank">
       <button id="airtable-button">
         Ask your own question
       </button>
     </a>
+  </p>
   {% else %}
+  <p>
     <a href="https://www.reddit.com/r/machinetranslation/search?q={{ page.title | url_encode }}&restrict_sr=on" class="no-arrow" target="_blank">
       <button id="airtable-button">
-        Search for community posts about <i>{{ page.title }}</i>
+        Search for community posts about {{ page.title }}
       </button>
     </a>
+  </p>
+  <p>
     <a href="https://www.reddit.com/r/machinetranslation/submit?selftext=truesubmit&title={{ page.title | url_encode }}%20...%20%3F" class="no-arrow" target="_blank">
       <button id="airtable-button">
         Ask your own question about {{ page.title }}
       </button>
     </a>
+  </p>
   {% endif %}
 </center>
 
