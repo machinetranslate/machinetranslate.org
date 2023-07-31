@@ -2,10 +2,11 @@
 nav_order: 245
 parent: More
 title: Communities
-description: Machine translation associations, research groups and communities
+description: List of machine translation associations, research groups and communities
 featured: true
 seo:
     type: ItemList
+    name: List of machine translation associations, research groups and communities
 ---
 
 Machine translation communities are mainly global and online.

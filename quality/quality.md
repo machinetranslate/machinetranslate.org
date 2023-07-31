@@ -4,4 +4,6 @@ has_children: true
 published: false
 title: Quality
 description: Machine translation quality
+seo:
+    name: Machine translation quality
 ---

@@ -3,7 +3,9 @@ parent: Building and research
 has_children: true
 nav_order: 150
 title: Metrics
-description: Metrics for evaluating machine translation
+description: List of metrics for evaluating machine translation
+seo:
+    name: List of metrics for evaluating machine translation
 ---
 
 **Metrics** measure the quality of the output of a machine translation system.

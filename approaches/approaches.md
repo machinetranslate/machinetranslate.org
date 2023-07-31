@@ -4,6 +4,8 @@ has_children: true
 nav_order: 91
 title: Approaches
 description: Approaches to machine translation
+seo:
+    name: Approaches to machine translation
 ---
 
 The earliest machine translation systems were built with [*rule-based* approaches](rule-based-machine-translation.md).

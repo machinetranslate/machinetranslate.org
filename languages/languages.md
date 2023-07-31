@@ -2,9 +2,10 @@
 nav_order: 11
 has_children: true
 title: Languages
-description: Languages supported by machine translation APIs
+description: List of languages supported by machine translation APIs
 seo:
     type: ItemList
+    name: List of languages supported by machine translation APIs
 ---
 
 More than a hundred languages and [locales](/applications/advanced-concepts/locale.md) are supported by more than one [machine translation API](/apis/apis.md).
