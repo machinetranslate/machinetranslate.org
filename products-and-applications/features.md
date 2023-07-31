@@ -20,7 +20,7 @@ Raw models usually do not include the features included in many production syste
 
 - [language identification](../customisation/language-identification.md)
 - segmentation
-- bridging (pivoting)
+- [bridging](../applications/advanced-concepts/bridging.md) (pivoting)
 - [glossary](../customisation/glossaries.md)
 - encoding options
 - HTML/XML tag handling
