@@ -1,9 +1,10 @@
 ---
 parent: Resources
 title: Libraries and frameworks
-description: Libraries and frameworks for building machine translation systems
+description: List of libraries and frameworks for building machine translation systems
 seo:
     type: ItemList
+    name: List of libraries and frameworks for building machine translation systems
 ---
 
 ## Neural machine translation

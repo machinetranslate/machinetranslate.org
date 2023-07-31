@@ -13,7 +13,7 @@ The conference is held annually in connection with larger conferences on natural
 
 In 2006, the first **Workshop on Machine Translation** was held at the NAACL (North American Chapter of the Association for Computational Linguistics Annual Meeting).
 
-In 2016, with the rise of [neural machine translation](../approaches/neural-machine-translation.md), WMT became a conference of its own.
+In 2016, with the rise of [neural machine translation](/approaches/neural-machine-translation.md), WMT became a conference of its own.
 The **Conference on Machine Translation** is still mainly known as *WMT*.
 
 Universities, research laboratories and big technology companies consistently participate in the conference and are represented in the organising committee.
@@ -104,11 +104,11 @@ The published results from the shared tasks and the data sets released for WMT a
 **Organisers** are the people responsible for the contents for the main event and the contents, guidelines, datasets and results for each shared task.
 
 Some people have been organisers over many years:
-- [Philipp Koehn](../people/philipp-koehn.md)
+- [Philipp Koehn](/people/philipp-koehn.md)
 - Barry Haddow
 - Loïc Barrault
 - [Ondřej Bojar](/community/people/ondrej-bojar.md)
-- [Lucia Specia](../people/lucia-specia.md)
+- [Lucia Specia](/people/lucia-specia.md)
 - Marco Turchi
 - Matt Post
 - Rajen Chatterjee

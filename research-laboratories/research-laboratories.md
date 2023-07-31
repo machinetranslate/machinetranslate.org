@@ -2,9 +2,10 @@
 nav_order: 240
 parent: More
 title: Research laboratories
-description: Machine translation research laboratories
+description: List of machine translation research laboratories
 seo:
     type: ItemList
+    name: List of machine translation research laboratories
 ---
 
 | Research laboratory | Organization | Type | Country |

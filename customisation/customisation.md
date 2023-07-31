@@ -2,7 +2,9 @@
 nav_order: 14
 has_children: true
 title: Customisation
-description: Machine translation customisation
+description: Customisation of machine translation
+seo:
+  name: Customisation of machine translation
 ---
 
 {% assign customisable_apis = site.data.apis | where: "customisation_languages", true | where: "glossary", true | concat: site.data.apis | where: "formality", true | concat: site.data.apis | where: "adaptive", true %}
@@ -18,3 +20,8 @@ description: Machine translation customisation
     </li>
   {% endfor %}
 </ul>
+
+---
+
+### See also
+- [Features of machine translation APIs](/products-and-applications/features.md)

@@ -14,8 +14,8 @@ Translation software, like [translation management systems](/integrations) (TMS)
 
 ### Workflow
 
-The translation software fills in the machine translation for the human translator to [post-edit](../workflows/post-editing.md).
-The machine translation can be inserted in whole files at once or one [segment](../concepts/segment.md) at a time.
+The translation software fills in the machine translation for the human translator to [post-edit](/workflows/post-editing.md).
+The machine translation can be inserted in whole files at once or one [segment](/concepts/segment.md) at a time.
 Some systems that translate segment-by-segment can learn from post-edits and adapt the machine translation output accordingly.
 
 ### Productivity

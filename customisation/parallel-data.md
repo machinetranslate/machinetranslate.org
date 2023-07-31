@@ -18,7 +18,7 @@ Parallel data sets can include translations for one or more language pairs, and 
 
 Parallel data sets can be created manually, automatically, or created synthetically from monolingual data.
 - Human translation
-- Human [post-editing](../workflows/post-editing.md)
+- Human [post-editing](/workflows/post-editing.md)
 - [Crawling](crawling.md)
 - [Alignment](alignment.md)
 

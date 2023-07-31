@@ -6,6 +6,7 @@ description: List of machine translation events
 featured: true
 seo:
     type: ItemList
+    name: List of machine translation events
 ---
 
 ## 2023 events
