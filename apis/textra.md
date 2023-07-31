@@ -225,6 +225,8 @@ integrations:
   - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/tool/xtm/edit/
 nav_order: 968
 active: true
+seo:
+  name: The TexTra machine translation API
 
 ---
 

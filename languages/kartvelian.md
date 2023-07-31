@@ -8,6 +8,8 @@ code: ccs
 languages:
 - slug: georgian
   name: Georgian
+seo:
+  name: Machine translation for the Kartvelian language family
 
 ---
 

@@ -104,6 +104,8 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-lingo24-mt-engine.html
 nav_order: 986
 active: false
+seo:
+  name: The Lingo24 machine translation API
 
 ---
 

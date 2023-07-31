@@ -16,6 +16,8 @@ languages:
   name: Kanuri
 - slug: nuer
   name: Nuer
+seo:
+  name: Machine translation for the Nilo-Saharan language family
 
 ---
 

@@ -29,6 +29,8 @@ supported_apis:
 - id: apertium
   name: Apertium
   supported_language_count: 46
+seo:
+  name: Machine translation for Arpitan
 
 ---
 

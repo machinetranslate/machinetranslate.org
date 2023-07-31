@@ -366,6 +366,8 @@ integrations:
   active: false
 nav_order: 946
 active: false
+seo:
+  name: The Iconic machine translation API
 
 ---
 

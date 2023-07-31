@@ -8,6 +8,8 @@ code: kor
 languages:
 - slug: korean
   name: Korean
+seo:
+  name: Machine translation for the Koreanic language family
 
 ---
 

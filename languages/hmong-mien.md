@@ -8,6 +8,8 @@ code: hmx
 languages:
 - slug: hmong
   name: Hmong
+seo:
+  name: Machine translation for the Hmong-Mien language family
 
 ---
 

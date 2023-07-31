@@ -111,6 +111,8 @@ integrations:
   active: false
 nav_order: 986
 active: true
+seo:
+  name: The Mirai Translator machine translation API
 redirect_from: mirai-translator
 
 ---

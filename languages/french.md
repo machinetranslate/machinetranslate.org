@@ -192,6 +192,8 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+seo:
+  name: Machine translation for French
 
 ---
 French is one of the best supported languages for machine translation.

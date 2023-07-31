@@ -1246,6 +1246,8 @@ integrations:
   - https://www.wordfast.net/wiki/Connecting_Wordfast_Pro_to_Modern_MT
 nav_order: 800
 active: true
+seo:
+  name: The ModernMT machine translation API
 
 ---
 

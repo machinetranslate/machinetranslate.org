@@ -30,6 +30,8 @@ languages:
   name: Tamasheq
 - slug: tigrinya
   name: Tigrinya
+seo:
+  name: Machine translation for the Afro-Asiatic language family
 
 ---
 

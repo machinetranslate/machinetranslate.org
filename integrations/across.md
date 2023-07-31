@@ -30,6 +30,8 @@ api_integrations:
 fuzzy_repair: true
 open-source: false
 quality_estimation_api_integrations: null
+seo:
+  name: Machine translation API integrations in Across
 
 ---
 

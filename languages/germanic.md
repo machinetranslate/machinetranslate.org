@@ -34,6 +34,8 @@ languages:
   name: Swedish
 - slug: yiddish
   name: Yiddish
+seo:
+  name: Machine translation for the Germanic language family
 
 ---
 

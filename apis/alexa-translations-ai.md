@@ -97,6 +97,8 @@ integrations:
   - https://appstore.rws.com/plugin/149/
 nav_order: 988
 active: true
+seo:
+  name: The Alexa Translations A.I. machine translation API
 
 ---
 

@@ -347,6 +347,8 @@ integrations:
   - https://docs.memoq.com/current/en/Places/iptranslator-plugin-settings.html
 nav_order: 946
 active: false
+seo:
+  name: The IP Translator machine translation API
 redirect_from: ip-translator
 
 ---

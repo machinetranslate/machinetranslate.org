@@ -36,6 +36,8 @@ languages:
   name: Ukrainian
 - slug: upper-sorbian
   name: Upper Sorbian
+seo:
+  name: Machine translation for the Slavic language family
 
 ---
 

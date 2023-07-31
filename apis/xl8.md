@@ -304,6 +304,8 @@ integrations:
   - https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf
 nav_order: 954
 active: true
+seo:
+  name: The XL8 machine translation API
 
 ---
 

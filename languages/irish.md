@@ -80,6 +80,8 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+seo:
+  name: Machine translation for Irish
 
 ---
 

@@ -8,6 +8,8 @@ code: cdc
 languages:
 - slug: hausa
   name: Hausa
+seo:
+  name: Machine translation for the Chadic language family
 
 ---
 

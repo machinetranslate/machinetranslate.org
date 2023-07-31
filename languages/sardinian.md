@@ -35,6 +35,8 @@ supported_apis:
 - id: baidu
   name: Baidu Translate
   supported_language_count: 197
+seo:
+  name: Machine translation for Sardinian
 
 ---
 

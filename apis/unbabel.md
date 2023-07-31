@@ -207,6 +207,8 @@ more_languages_by_request: true
 integrations: []
 nav_order: 968
 active: true
+seo:
+  name: The Unbabel machine translation API
 
 ---
 

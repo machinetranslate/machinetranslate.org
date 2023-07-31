@@ -27,6 +27,8 @@ more_languages_by_request: false
 integrations: []
 nav_order: 998
 active: true
+seo:
+  name: The Tarjama MT machine translation API
 redirect_from: tarjama-mt
 
 ---

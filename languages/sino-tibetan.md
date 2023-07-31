@@ -22,6 +22,8 @@ languages:
   name: Mizo
 - slug: tibetan
   name: Tibetan
+seo:
+  name: Machine translation for the Sino-Tibetan language family
 
 ---
 

@@ -24,6 +24,8 @@ supported_apis:
 - id: modernmt
   name: ModernMT
   supported_language_count: 195
+seo:
+  name: Machine translation for Balinese
 
 ---
 

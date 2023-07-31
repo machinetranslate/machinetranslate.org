@@ -8,6 +8,8 @@ code: omq
 languages:
 - slug: northwestern-otomi
   name: Northwestern Otomi
+seo:
+  name: Machine translation for the Oto-Manguean language family
 
 ---
 

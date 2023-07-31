@@ -210,6 +210,8 @@ integrations:
   - https://docs.memoq.com/current/en/Places/etranslation-mt-plugin-settings.html
 nav_order: 968
 active: true
+seo:
+  name: The eTranslation machine translation API
 
 ---
 

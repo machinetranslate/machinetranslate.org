@@ -469,6 +469,8 @@ integrations:
   - https://support.lilt.com/kb/introduction-to-lilt-translate
 nav_order: 926
 active: true
+seo:
+  name: The Lilt machine translation API
 
 ---
 

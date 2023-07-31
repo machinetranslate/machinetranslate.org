@@ -269,6 +269,8 @@ integrations:
   active: false
 nav_order: 958
 active: true
+seo:
+  name: The Kodensha MT machine translation API
 redirect_from: kodensha-mt
 
 ---

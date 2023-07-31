@@ -38,6 +38,8 @@ more_languages_by_request: false
 integrations: []
 nav_order: 996
 active: true
+seo:
+  name: The Judicio machine translation API
 
 ---
 

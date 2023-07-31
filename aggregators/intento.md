@@ -1,7 +1,7 @@
 ---
 layout: aggregator
 title: Intento
-description: The Intento aggregator
+description: The Intento machine translation API aggregator
 id: intento
 parent: Aggregators
 urls:
@@ -42,6 +42,8 @@ supported_apis:
 - slug: youdao
   name: Youdao Translate
 self-serve: true
+seo:
+  name: The Intento machine translation API aggregator
 
 ---
 

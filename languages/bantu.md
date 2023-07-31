@@ -50,6 +50,8 @@ languages:
   name: Xhosa
 - slug: zulu
   name: Zulu
+seo:
+  name: Machine translation for the Bantu language family
 
 ---
 

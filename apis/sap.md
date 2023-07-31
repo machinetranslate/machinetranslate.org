@@ -260,6 +260,8 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-sap-translation-hub-mt-engine.html
 nav_order: 960
 active: true
+seo:
+  name: The SAP Translation Hub machine translation API
 redirect_from: sap-translation-hub
 
 ---

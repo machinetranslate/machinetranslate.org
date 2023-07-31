@@ -8,6 +8,8 @@ code: iro
 languages:
 - slug: cherokee
   name: Cherokee
+seo:
+  name: Machine translation for the Iroquoian language family
 
 ---
 

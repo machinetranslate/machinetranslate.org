@@ -8,6 +8,8 @@ code: cpf
 languages:
 - slug: haitian
   name: Haitian
+seo:
+  name: Machine translation for the French-based creoles language family
 
 ---
 

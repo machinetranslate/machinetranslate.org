@@ -16,6 +16,8 @@ integrations:
   name: GlobalLink
 nav_order: 1000
 active: true
+seo:
+  name: The TransPerfect NMT machine translation API
 
 ---
 

@@ -167,7 +167,7 @@ for code in LANGUAGE_FAMILIES:
     'title': name,
     'description': desc,
     'code': code,
-    'languages': languages
+    'languages': languages,
     'seo': {
       'name': desc
     }

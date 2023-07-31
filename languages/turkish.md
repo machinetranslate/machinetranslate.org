@@ -140,6 +140,8 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+seo:
+  name: Machine translation for Turkish
 
 ---
 Turkish is the language with the best machine translation support in the Turkic language family.  

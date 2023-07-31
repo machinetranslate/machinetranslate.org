@@ -173,6 +173,8 @@ integrations:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 nav_order: 978
 active: true
+seo:
+  name: The Tilde machine translation API
 
 ---
 

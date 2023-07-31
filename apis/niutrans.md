@@ -2328,6 +2328,8 @@ integrations:
   active: false
 nav_order: 616
 active: true
+seo:
+  name: The Niutrans machine translation API
 
 ---
 

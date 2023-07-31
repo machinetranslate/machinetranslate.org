@@ -10,6 +10,8 @@ languages:
   name: Oromo
 - slug: somali
   name: Somali
+seo:
+  name: Machine translation for the Cushitic language family
 
 ---
 

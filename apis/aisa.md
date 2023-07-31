@@ -138,6 +138,8 @@ integrations:
   active: false
 nav_order: 980
 active: true
+seo:
+  name: The AISA machine translation API
 
 ---
 

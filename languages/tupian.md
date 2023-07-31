@@ -8,6 +8,8 @@ code: tup
 languages:
 - slug: guarani
   name: Guarani
+seo:
+  name: Machine translation for the Tupian language family
 
 ---
 

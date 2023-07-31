@@ -101,6 +101,8 @@ more_languages_by_request: false
 integrations: []
 nav_order: 986
 active: true
+seo:
+  name: The Papago Translation machine translation API
 redirect_from: papago-translation
 
 ---

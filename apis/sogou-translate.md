@@ -144,6 +144,8 @@ integrations:
   active: false
 nav_order: 979
 active: true
+seo:
+  name: The Sogou Translate machine translation API
 
 ---
 

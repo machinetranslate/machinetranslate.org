@@ -31,6 +31,8 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212
+seo:
+  name: Machine translation for Klingon
 
 ---
 

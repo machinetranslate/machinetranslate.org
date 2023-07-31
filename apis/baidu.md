@@ -1229,6 +1229,8 @@ integrations:
   active: false
 nav_order: 799
 active: true
+seo:
+  name: The Baidu Translate machine translation API
 redirect_from: baidu-translate
 
 ---

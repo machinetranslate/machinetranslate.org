@@ -18,6 +18,8 @@ languages:
   name: Scottish Gaelic
 - slug: welsh
   name: Welsh
+seo:
+  name: Machine translation for the Celtic language family
 
 ---
 

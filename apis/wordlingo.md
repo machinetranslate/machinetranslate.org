@@ -415,6 +415,8 @@ integrations:
   - https://www.wordfast.com/WFP/4.5/c1060284.html
 nav_order: 934
 active: true
+seo:
+  name: The Wordlingo machine translation API
 
 ---
 

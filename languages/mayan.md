@@ -8,6 +8,8 @@ code: myn
 languages:
 - slug: yucatec-maya
   name: Yucatec Maya
+seo:
+  name: Machine translation for the Mayan language family
 
 ---
 

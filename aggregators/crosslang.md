@@ -1,7 +1,7 @@
 ---
 layout: aggregator
 title: Crosslang MT Gateway
-description: The Crosslang MT Gateway aggregator
+description: The Crosslang MT Gateway machine translation API aggregator
 id: crosslang
 parent: Aggregators
 urls:
@@ -20,6 +20,8 @@ supported_apis:
 - slug: systran
   name: SYSTRAN
 self-serve: false
+seo:
+  name: The Crosslang MT Gateway machine translation API aggregator
 
 ---
 

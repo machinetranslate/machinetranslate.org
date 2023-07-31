@@ -265,6 +265,8 @@ integrations:
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647037255
 nav_order: 966
 active: true
+seo:
+  name: The Globalese machine translation API
 
 ---
 

@@ -297,6 +297,8 @@ integrations:
   name: OmegaT
 nav_order: 954
 active: true
+seo:
+  name: The Apertium machine translation API
 
 ---
 

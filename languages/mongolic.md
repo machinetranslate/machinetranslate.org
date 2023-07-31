@@ -8,6 +8,8 @@ code: xgn
 languages:
 - slug: mongolian
   name: Mongolian
+seo:
+  name: Machine translation for the Mongolic language family
 
 ---
 

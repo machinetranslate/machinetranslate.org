@@ -1,7 +1,7 @@
 ---
 layout: aggregator
 title: Human Science
-description: The Human Science aggregator
+description: The Human Science machine translation API aggregator
 id: human-science
 parent: Aggregators
 urls:
@@ -13,6 +13,8 @@ supported_apis:
 - slug: microsoft
   name: Microsoft Translator
 self-serve: false
+seo:
+  name: The Human Science machine translation API aggregator
 
 ---
 

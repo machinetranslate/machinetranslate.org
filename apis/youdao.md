@@ -693,6 +693,8 @@ integrations:
   active: false
 nav_order: 888
 active: true
+seo:
+  name: The Youdao Translate machine translation API
 redirect_from: youdao-translate
 
 ---

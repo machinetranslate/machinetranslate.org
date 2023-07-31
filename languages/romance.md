@@ -46,6 +46,8 @@ languages:
   name: Spanish
 - slug: venetian
   name: Venetian
+seo:
+  name: Machine translation for the Romance language family
 
 ---
 

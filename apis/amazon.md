@@ -505,6 +505,8 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-amazon-translate-mt-engine.html
 nav_order: 925
 active: true
+seo:
+  name: The Amazon Translate machine translation API
 redirect_from: amazon-translate
 
 ---

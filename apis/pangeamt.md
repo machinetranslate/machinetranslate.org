@@ -88,6 +88,8 @@ integrations:
   - https://confluence.translate5.net/display/CON/PangeaMT
 nav_order: 991
 active: true
+seo:
+  name: The PangeaMT machine translation API
 
 ---
 

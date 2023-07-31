@@ -162,6 +162,8 @@ integrations:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 nav_order: 979
 active: true
+seo:
+  name: The TextShuttle machine translation API
 
 ---
 

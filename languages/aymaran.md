@@ -8,6 +8,8 @@ code: aym
 languages:
 - slug: aymara
   name: Aymara
+seo:
+  name: Machine translation for the Aymaran language family
 
 ---
 
