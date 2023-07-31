@@ -4,12 +4,31 @@ parent: Languages
 layout: language
 title: Swahili
 description: Machine translation for Swahili
-code: sw
+codes:
+- sw
+- swa
+- swc
+- swh
+names:
+- Swahili
+- Kiswahili
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- cd
+- ke
+- tz
+- ug
 supported_apis:
 - id: systran
   name: SYSTRAN

@@ -4,10 +4,27 @@ parent: Languages
 layout: language
 title: Bambara
 description: Machine translation for Bambara
-code: bm
+codes:
+- bm
+- bam
+names:
+- Bambara
+- Bamana
+- Bamanankan
 family:
 - slug: mande
   name: Mande
+scripts:
+- Latn
+- Arab
+- Nkoo
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- ml
 supported_apis:
 - id: google
   name: Google Translate

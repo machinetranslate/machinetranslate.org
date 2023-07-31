@@ -4,10 +4,26 @@ parent: Languages
 layout: language
 title: Aymara
 description: Machine translation for Aymara
-code: ay
+codes:
+- ay
+- aym
+- ayc
+- ayr
+names:
+- Aymara
 family:
 - slug: aymaran
   name: Aymaran
+scripts:
+- Latn
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- bo
+- pe
 supported_apis:
 - id: google
   name: Google Translate

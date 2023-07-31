@@ -4,12 +4,25 @@ parent: Languages
 layout: language
 title: Friulian
 description: Machine translation for Friulian
-code: fur
+codes:
+- fur
+names:
+- Friulian
+- Friulan
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- it
 supported_apis:
 - id: modernmt
   name: ModernMT

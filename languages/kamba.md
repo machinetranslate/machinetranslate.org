@@ -4,12 +4,27 @@ parent: Languages
 layout: language
 title: Kamba
 description: Machine translation for Kamba
-code: kam
+codes:
+- kam
+- dhs
+names:
+- Kamba
+- Kikamba
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- ke
+- tz
 supported_apis:
 - id: modernmt
   name: ModernMT

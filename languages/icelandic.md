@@ -4,12 +4,26 @@ parent: Languages
 layout: language
 title: Icelandic
 description: Machine translation for Icelandic
-code: is
+codes:
+- is
+- isl
+- ice
+names:
+- Icelandic
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- is
 supported_apis:
 - id: etranslation
   name: eTranslation

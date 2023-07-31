@@ -4,7 +4,11 @@ parent: Languages
 layout: language
 title: Awadhi
 description: Machine translation for Awadhi
-code: awa
+codes:
+- awa
+names:
+- Awadhi
+- Audhi
 family:
 - slug: iranic
   name: Iranic
@@ -12,6 +16,16 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Deva
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - inflected
+territories:
+- in
+- np
 supported_apis:
 - id: modernmt
   name: ModernMT

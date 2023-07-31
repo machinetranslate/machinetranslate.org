@@ -4,10 +4,23 @@ parent: Languages
 layout: language
 title: Ilocano
 description: Machine translation for Ilocano
-code: ilo
+codes:
+- ilo
+names:
+- Ilocano
+- Ilokano
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - agglutinative
+territories:
+- ph
 supported_apis:
 - id: google
   name: Google Translate

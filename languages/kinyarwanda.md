@@ -4,12 +4,27 @@ parent: Languages
 layout: language
 title: Kinyarwanda
 description: Machine translation for Kinyarwanda
-code: rw
+codes:
+- rw
+- kin
+names:
+- Kinyarwanda
+- Rwandan
+- Ikinyarwanda
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- rw
 supported_apis:
 - id: lilt
   name: Lilt

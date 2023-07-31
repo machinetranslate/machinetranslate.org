@@ -4,12 +4,26 @@ parent: Languages
 layout: language
 title: Kikuyu
 description: Machine translation for Kikuyu
-code: ki
+codes:
+- ki
+- kik
+names:
+- Kikuyu
+- Gikuyu
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- ke
 supported_apis:
 - id: modernmt
   name: ModernMT

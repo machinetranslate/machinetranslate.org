@@ -4,10 +4,28 @@ parent: Languages
 layout: language
 title: Tibetan
 description: Machine translation for Tibetan
-code: bo
+codes:
+- bo
+- bod
+- tib
+names:
+- Tibetan
+- Lhasa Tibetan
+- Standard Tibetan
 family:
 - slug: sino-tibetan
   name: Sino-Tibetan
+scripts:
+- Tibt
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- cn
+- np
+- in
 supported_apis:
 - id: microsoft
   name: Microsoft Translator

@@ -1,15 +1,37 @@
 ---
-nav_order: 977
+nav_order: 976
 parent: Languages
 layout: language
 title: Norwegian
 description: Machine translation for Norwegian
-code: 'no'
+codes:
+- 'no'
+- nb
+- nn
+- nor
+- nno
+- nob
+names:
+- Norwegian
+variant_names:
+- "Bokm\xE5l"
+- Nynorsk
+- "Riksm\xE5l"
+- "H\xF8gnorsk"
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+territories:
+- 'no'
 supported_apis:
 - id: language-wire
   name: Language Wire
@@ -74,6 +96,9 @@ supported_apis:
 - id: google
   name: Google Translate
   supported_language_count: 132
+- id: baidu
+  name: Baidu Translate
+  supported_language_count: 197
 - id: alibaba
   name: Alibaba Translate
   supported_language_count: 212

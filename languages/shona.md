@@ -4,10 +4,23 @@ parent: Languages
 layout: language
 title: Shona
 description: Machine translation for Shona
-code: sn
+codes:
+- sn
+- sna
+names:
+- Shona
 family:
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- zw
 supported_apis:
 - id: rozetta
   name: Rozetta T-400

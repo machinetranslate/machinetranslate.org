@@ -4,7 +4,11 @@ parent: Languages
 layout: language
 title: Marathi
 description: Machine translation for Marathi
-code: mr
+codes:
+- mr
+- mar
+names:
+- Marathi
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +16,18 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Deva
+- Modi
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+  - inflected
+  - analytic
+territories:
+- in
 supported_apis:
 - id: watson
   name: Watson Language Translator

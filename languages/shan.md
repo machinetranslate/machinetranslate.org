@@ -4,10 +4,21 @@ parent: Languages
 layout: language
 title: Shan
 description: Machine translation for Shan
-code: shn
+codes:
+- shn
+names:
+- Shan
 family:
 - slug: tai
   name: Tai
+scripts:
+- Mymr
+typology:
+  word_order:
+  - SVO
+  morphosyntax: []
+territories:
+- mm
 supported_apis:
 - id: modernmt
   name: ModernMT

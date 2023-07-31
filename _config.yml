@@ -1,205 +1,183 @@
 # Site settings
 
+---
 domain: machinetranslate.org
 url: https://machinetranslate.org
 title: Machine Translate
 tagline: Open information and community for machine translation
-description: Open information and community for machine translation, to make machine translation accessible to more people.
+description: Open information and community for machine translation, to make
+  machine translation accessible to more people.
 
 # Pages permalink
 permalink: pretty
+
 # TODO: remove this by moving them all under a content/ directory
 defaults:
   - scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
       image: /machinetranslate.png
       seo:
         type: Article
-  -
-    scope:
-      path: "applications"
-      type: "pages"
+  - scope:
+      path: applications
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Article
-  -
-    scope:
-      path: "approaches"
-      type: "pages"
+  - scope:
+      path: approaches
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Article
-  -
-    scope:
-      path: "call-for-papers"
-      type: "pages"
+  - scope:
+      path: call-for-papers
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: ItemList
-  -
-    scope:
-      path: "concepts"
-      type: "pages"
+  - scope:
+      path: concepts
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Article
-  -
-    scope:
-      path: "industry"
-      type: "pages"
+  - scope:
+      path: industry
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Article
-  -
-    scope:
-      path: "contributing"
-      type: "pages"
+  - scope:
+      path: contributing
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: WebPage
-  -
-    scope:
-      path: "community"
-      type: "pages"
+  - scope:
+      path: community
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: WebPage
-  -
-    scope:
-      path: "customisation"
-      type: "pages"
+  - scope:
+      path: customisation
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Article
-  -
-    scope:
-      path: "events"
-      type: "pages"
+  - scope:
+      path: events
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Event
-  -
-    scope:
-      path: "apis"
-      type: "pages"
+  - scope:
+      path: apis
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Product
-  -
-    scope:
-      path: "integrations"
-      type: "pages"
+  - scope:
+      path: integrations
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Product
-  -
-    scope:
-      path: "languages"
-      type: "pages"
+  - scope:
+      path: languages
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Language
-  -
-    scope:
-      path: "associations"
-      type: "pages"
+  - scope:
+      path: associations
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Association
-  -
-    scope:
-      path: "people"
-      type: "pages"
+  - scope:
+      path: people
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Person
-  -
-    scope:
-      path: "quality"
-      type: "pages"
+  - scope:
+      path: quality
+      type: pages
+    values:
+      permalink: /:basename
+      seo:
+        type: Article
+  - scope:
+      path: research
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Article
   -
     scope:
-      path: "research"
-      type: "pages"
-    values:
-      permalink: /:basename
-      seo:
-        type: Article
-  -
-    scope:
-      path: "resources"
-      type: "pages"
+      path: resources
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: ItemList
   -
     scope:
-      path: "workflows"
-      type: "pages"
+      path: workflows
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Article
-  -
-    scope:
-      path: "building-and-research"
-      type: "pages"
+  - scope:
+      path: building-and-research
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Article
-  -
-    scope:
-      path: "aggregators"
-      type: "pages"
+  - scope:
+      path: aggregators
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: ItemList
-  -
-  -
-    scope:
-      path: "products-and-applications"
-      type: "pages"
+  - scope:
+      path: products-and-applications
+      type: pages
     values:
       permalink: /:basename
       seo:
         type: Article
 
 # Just the Docs
-
-remote_theme: pmarsceill/just-the-docs@v0.3.3
-
+remote_theme: pmarsceill/just-the-docs@v0.4.1
 color_scheme: swissred
-
 search:
   rel_url: false
   button: true
   heading_level: 3
-
 last_edit_timestamp: true
-
 back_to_top: true
 back_to_top_text: ↑
 
@@ -207,7 +185,6 @@ back_to_top_text: ↑
 ga_tracking: G-MJD8MHH513
 
 # Plugins
-
 plugins:
   - jekyll-sitemap
   - jekyll-feed
@@ -226,19 +203,15 @@ minima:
     linkedin: machinetranslate
 
 # SEO settings
-
 logo: favicon.ico
 
 seo:
   type: organization
-
 twitter:
   username: machtranslate
   card: summary
-
 facebook:
   publisher: https://www.facebook.com/machinetranslate
-
 social:
   name: Machine Translate | machinetranslate.org
   links:

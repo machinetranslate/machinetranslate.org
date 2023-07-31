@@ -4,12 +4,28 @@ parent: Languages
 layout: language
 title: Greek
 description: Machine translation for Greek
-code: el
+codes:
+- el
+- gre
+- ell
+names:
+- Greek
 family:
 - slug: hellenic
   name: Hellenic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Grek
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - synthetic
+territories:
+- cy
+- gr
 supported_apis:
 - id: reverso
   name: Reverso

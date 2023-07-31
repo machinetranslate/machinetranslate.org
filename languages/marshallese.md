@@ -4,10 +4,25 @@ parent: Languages
 layout: language
 title: Marshallese
 description: Machine translation for Marshallese
-code: mh
+codes:
+- mh
+- mah
+names:
+- Marshallese
+- Ebon
 family:
 - slug: austroasiatic
   name: Austroasiatic
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - synthetic
+territories:
+- mh
 supported_apis:
 - id: baidu
   name: Baidu Translate

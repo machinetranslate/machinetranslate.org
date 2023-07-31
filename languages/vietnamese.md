@@ -4,10 +4,25 @@ parent: Languages
 layout: language
 title: Vietnamese
 description: Machine translation for Vietnamese
-code: vi
+codes:
+- vi
+- vie
+names:
+- Vietnamese
 family:
 - slug: austroasiatic
   name: Austroasiatic
+scripts:
+- Latn
+- Hani
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+  - isolating
+territories:
+- vn
 supported_apis:
 - id: papago
   name: Papago Translation

@@ -4,12 +4,30 @@ parent: Languages
 layout: language
 title: Romanian
 description: Machine translation for Romanian
-code: ro
+codes:
+- ro
+- ron
+- rum
+names:
+- Romanian
+- Rumanian
+- Moldovan
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+- Cyrl
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - synthetic
+territories:
+- md
+- ro
 supported_apis:
 - id: tilde
   name: Tilde

@@ -4,10 +4,26 @@ parent: Languages
 layout: language
 title: Tatar
 description: Machine translation for Tatar
-code: tt
+codes:
+- tt
+- tat
+names:
+- Tatar
 family:
 - slug: turkic
   name: Turkic
+scripts:
+- Cyrl
+- Latn
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- ru
+- cn
 supported_apis:
 - id: promt
   name: PROMT

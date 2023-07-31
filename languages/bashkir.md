@@ -4,10 +4,23 @@ parent: Languages
 layout: language
 title: Bashkir
 description: Machine translation for Bashkir
-code: ba
+codes:
+- ba
+- bak
+names:
+- Bashkir
 family:
 - slug: turkic
   name: Turkic
+scripts:
+- Cyrl
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- ru
 supported_apis:
 - id: yandex
   name: Yandex Translate

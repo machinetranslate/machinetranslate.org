@@ -4,12 +4,32 @@ parent: Languages
 layout: language
 title: Bosnian
 description: Machine translation for Bosnian
-code: bs
+codes:
+- bs
+- bos
+names:
+- Bosnian
+variant_names:
+- Serbo-Croatian
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+- Cyrl
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - inflected
+territories:
+- ba
+- hr
+- sr
+- me
 supported_apis:
 - id: xl8
   name: XL8

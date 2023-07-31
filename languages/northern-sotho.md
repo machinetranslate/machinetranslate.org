@@ -4,12 +4,24 @@ parent: Languages
 layout: language
 title: Northern Sotho
 description: Machine translation for Northern Sotho
-code: nso
+codes:
+- nso
+names:
+- Northern Sotho
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- za
 supported_apis:
 - id: google
   name: Google Translate

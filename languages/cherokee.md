@@ -4,10 +4,24 @@ parent: Languages
 layout: language
 title: Cherokee
 description: Machine translation for Cherokee
-code: chr
+codes:
+- chr
+names:
+- Cherokee
+- Tsalagi
 family:
 - slug: iroquoian
   name: Iroquoian
+scripts:
+- Cher
+typology:
+  word_order:
+  - SOV
+  - OVS
+  morphosyntax:
+  - inflected
+territories:
+- us
 supported_apis:
 - id: baidu
   name: Baidu Translate

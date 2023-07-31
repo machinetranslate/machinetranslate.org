@@ -4,10 +4,25 @@ parent: Languages
 layout: language
 title: Javanese
 description: Machine translation for Javanese
-code: jv
+codes:
+- jv
+- jav
+- jw
+names:
+- Javanese
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Java
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- id
 supported_apis:
 - id: language-weaver
   name: Language Weaver

@@ -4,10 +4,28 @@ parent: Languages
 layout: language
 title: Quechua
 description: Machine translation for Quechua
-code: qu
+codes:
+- qu
+- que
+names:
+- Quechua
 family:
 - slug: quechuan
   name: Quechuan
+scripts:
+- Latn
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- ar
+- bo
+- cl
+- co
+- ec
+- pe
 supported_apis:
 - id: google
   name: Google Translate

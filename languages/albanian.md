@@ -4,10 +4,33 @@ parent: Languages
 layout: language
 title: Albanian
 description: Machine translation for Albanian
-code: sq
+codes:
+- sq
+- sqi
+- alb
+- als
+names:
+- Albanian
+- Tosk Albanian
+- Tosk
 family:
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+- Elba
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+territories:
+- al
+- mk
+- sr
+- gr
+- me
+- it
 supported_apis:
 - id: xl8
   name: XL8

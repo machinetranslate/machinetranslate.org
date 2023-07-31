@@ -4,10 +4,23 @@ parent: Languages
 layout: language
 title: Telugu
 description: Machine translation for Telugu
-code: te
+codes:
+- te
+- tel
+names:
+- Telugu
 family:
 - slug: dravidian
   name: Dravidian
+scripts:
+- Telu
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- in
 supported_apis:
 - id: watson
   name: Watson Language Translator

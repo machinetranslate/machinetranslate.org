@@ -4,10 +4,28 @@ parent: Languages
 layout: language
 title: Jingpho
 description: Machine translation for Jingpho
-code: kac
+codes:
+- kac
+- sgp
+- tcl
+names:
+- Jingpho
+- Kachin
 family:
 - slug: sino-tibetan
   name: Sino-Tibetan
+scripts:
+- Latn
+- Mymr
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - isolating
+territories:
+- cn
+- in
+- mm
 supported_apis:
 - id: modernmt
   name: ModernMT

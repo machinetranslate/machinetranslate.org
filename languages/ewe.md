@@ -4,10 +4,28 @@ parent: Languages
 layout: language
 title: Ewe
 description: Machine translation for Ewe
-code: ee
+codes:
+- ee
+- ewe
+- wci
+- kef
+names:
+- Ewe
 family:
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - isolating
+  - agglutinative
+territories:
+- gh
+- tg
+- bj
 supported_apis:
 - id: google
   name: Google Translate

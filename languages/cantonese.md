@@ -4,10 +4,28 @@ parent: Languages
 layout: language
 title: Cantonese
 description: Machine translation for Cantonese
-code: yue
+codes:
+- yue
+names:
+- Cantonese
+- Yue
+- Yue Chinese
 family:
 - slug: sino-tibetan
   name: Sino-Tibetan
+scripts:
+- Hans
+- Hant
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+  - isolating
+territories:
+- hk
+- mo
+- cn
 supported_apis:
 - id: iconic
   name: Iconic

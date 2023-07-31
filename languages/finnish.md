@@ -4,10 +4,29 @@ parent: Languages
 layout: language
 title: Finnish
 description: Machine translation for Finnish
-code: fi
+codes:
+- fi
+- fin
+- fit
+- fkv
+names:
+- Finnish
+variant_names:
+- "Me\xE4nkieli"
+- Kven
 family:
 - slug: finno-ugric
   name: Finno-Ugric
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- fi
 supported_apis:
 - id: sunda
   name: Sunda Translator

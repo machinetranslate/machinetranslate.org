@@ -4,12 +4,25 @@ parent: Languages
 layout: language
 title: Asturian
 description: Machine translation for Asturian
-code: ast
+codes:
+- ast
+names:
+- Asturian
+- Bable
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- es
 supported_apis:
 - id: apertium
   name: Apertium

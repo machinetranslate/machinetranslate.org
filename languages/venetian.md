@@ -4,12 +4,27 @@ parent: Languages
 layout: language
 title: Venetian
 description: Machine translation for Venetian
-code: vec
+codes:
+- vec
+names:
+- Venetian
+- Venetan
 family:
 - slug: romance
   name: Romance
 - slug: indo-aryan
   name: Indo-Aryan
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+territories:
+- hr
+- it
+- si
 supported_apis:
 - id: modernmt
   name: ModernMT

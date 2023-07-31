@@ -4,10 +4,48 @@ parent: Languages
 layout: language
 title: Malagasy
 description: Machine translation for Malagasy
-code: mg
+codes:
+- mg
+- mlg
+- xmv
+- bhr
+- buc
+- msh
+- bmm
+- plt
+- skg
+- bzc
+- tdx
+- txy
+- tkg
+- xmw
+names:
+- Malagasy
+variant_names:
+- Antankarana
+- Bara
+- Bushi
+- Masikoro
+- Northern Betsimisaraka
+- Plateau Malagasy
+- Sakalava
+- Southern Betsimisaraka
+- Tandroy-Mafahaly
+- Tanosy
+- Tesaka
+- Tsimihety
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - VOS
+  morphosyntax:
+  - inflected
+territories:
+- mg
 supported_apis:
 - id: iconic
   name: Iconic

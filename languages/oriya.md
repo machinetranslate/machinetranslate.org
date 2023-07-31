@@ -4,7 +4,12 @@ parent: Languages
 layout: language
 title: Oriya
 description: Machine translation for Oriya
-code: or
+codes:
+- or
+- ori
+names:
+- Oriya
+- Odia
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +17,15 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Orya
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - inflected
+territories:
+- id
 supported_apis:
 - id: microsoft
   name: Microsoft Translator

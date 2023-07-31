@@ -4,10 +4,24 @@ parent: Languages
 layout: language
 title: Kabyle
 description: Machine translation for Kabyle
-code: kab
+codes:
+- kab
+names:
+- Kabyle
+- Kabylian
 family:
 - slug: afro-asiatic
   name: Afro-Asiatic
+scripts:
+- Arab
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - inflected
+territories:
+- dz
 supported_apis:
 - id: modernmt
   name: ModernMT

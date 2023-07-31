@@ -4,10 +4,37 @@ parent: Languages
 layout: language
 title: Azerbaijani
 description: Machine translation for Azerbaijani
-code: az
+codes:
+- az
+- aze
+- azj
+- azb
+names:
+- Azerbaijani
+- Azeri
+- Azeri Turkish
+- Azerbaijani Turkish
+- Turkish
+- Turkmen
+- Caucasian Tatar
+- South Azerbaijani
+- North Azerbaijani
 family:
 - slug: turkic
   name: Turkic
+scripts:
+- Latn
+- Cyrl
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- az
+- ir
+- iq
 supported_apis:
 - id: promt
   name: PROMT

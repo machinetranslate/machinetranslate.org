@@ -4,12 +4,30 @@ parent: Languages
 layout: language
 title: Portuguese
 description: Machine translation for Portuguese
-code: pt
+codes:
+- pt
+- por
+names:
+- Portuguese
+- European Portuguese
+- Brazilian Portuguese
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- br
+- pt
+- ao
+- mz
 supported_apis:
 - id: pangeamt
   name: PangeaMT

@@ -4,10 +4,23 @@ parent: Languages
 layout: language
 title: Meadow Mari
 description: Machine translation for Meadow Mari
-code: mhr
+codes:
+- mhr
+names:
+- Meadow Mari
+- Eastern Mari
 family:
 - slug: finno-ugric
   name: Finno-Ugric
+scripts:
+- Cyrl
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- ru
 supported_apis:
 - id: yandex
   name: Yandex Translate

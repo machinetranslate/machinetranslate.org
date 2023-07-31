@@ -4,10 +4,28 @@ parent: Languages
 layout: language
 title: Malay
 description: Machine translation for Malay
-code: ms
+codes:
+- ms
+- msa
+- may
+- zlm
+names:
+- Malay
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+- Arab
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- my
+- bn
+- sg
 supported_apis:
 - id: aisa
   name: AISA

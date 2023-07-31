@@ -4,10 +4,25 @@ parent: Languages
 layout: language
 title: Akan
 description: Machine translation for Akan
-code: ak
+codes:
+- ak
+- aka
+names:
+- Akan
 family:
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - synthetic
+  - agglutinative
+territories:
+- ci
+- gh
 supported_apis:
 - id: google
   name: Google Translate

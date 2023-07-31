@@ -4,10 +4,23 @@ parent: Languages
 layout: language
 title: Buginese
 description: Machine translation for Buginese
-code: bug
+codes:
+- bug
+names:
+- Buginese
+- Bugis
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- id
 supported_apis:
 - id: modernmt
   name: ModernMT

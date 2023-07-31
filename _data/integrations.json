@@ -1,0 +1,1709 @@
+[
+    {
+        "id": "across",
+        "name": "Across",
+        "tms_url": "https://www.across.net/",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "api_integrations": [
+            {
+                "deepl": {
+                    "formality": true
+                }
+            },
+            "google",
+            "kantanmt",
+            "language-wire",
+            "octavemt",
+            "promt",
+            "systran",
+            "textshuttle"
+        ],
+        "fuzzy_repair": true
+    },
+    {
+        "id": "crowdin",
+        "name": "Crowdin",
+        "tms_url": "https://www.crowdin.com",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "documentation_url": "https://support.crowdin.com/configuring-machine-translation-engines/",
+        "api_integrations": [
+            {
+                "alibaba": {
+                    "plugin": true,
+                    "urls": [
+                        "https://store.crowdin.com/alibaba"
+                    ]
+                }
+            },
+            {
+                "amazon": {
+                    "glossary": true,
+                    "urls": [
+                        "https://support.crowdin.com/enterprise/machine-translation/#amazon-translate"
+                    ]
+                }
+            },
+            {
+                "deepl": {
+                    "formality": true,
+                    "urls": [
+                        "https://support.crowdin.com/enterprise/machine-translation/#deepl-translator"
+                    ]
+                }
+            },
+            {
+                "google": {
+                    "custom": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://support.crowdin.com/enterprise/machine-translation/#google-translate",
+                        "https://support.crowdin.com/enterprise/machine-translation/#google-cloud-automl-translation"
+                    ]
+                }
+            },
+            {
+                "globalese": {
+                    "plugin": true,
+                    "urls": [
+                        "https://store.crowdin.com/globalese"
+                    ]
+                }
+            },
+            {
+                "intento": {
+                    "plugin": true,
+                    "custom": true,
+                    "urls": [
+                        "https://store.crowdin.com/intento-mthub",
+                        "https://help.inten.to/hc/en-us/articles/4412027688466-How-to-install-and-configure-Intento-plugin-for-Crowdin"
+                    ]
+                }
+            },
+            {
+                "kantanmt": {
+                    "plugin": true,
+                    "urls": [
+                        "https://store.crowdin.com/kantanmt"
+                    ]
+                }
+            },
+            {
+                "microsoft": {
+                    "custom": true,
+                    "urls": [
+                        "https://support.crowdin.com/enterprise/machine-translation/#microsoft-translator"
+                    ]
+                }
+            },
+            {
+                "modernmt": {
+                    "custom": true,
+                    "adaptive": true,
+                    "urls": [
+                        "https://support.crowdin.com/enterprise/machine-translation/#modernmt",
+                        "https://store.crowdin.com/adaptive-modernmt"
+                    ]
+                }
+            },
+            {
+                "systran": {
+                    "plugin": true,
+                    "urls": [
+                        "https://store.crowdin.com/systran"
+                    ]
+                }
+            },
+            {
+                "tencent": {
+                    "plugin": true,
+                    "urls": [
+                        "https://store.crowdin.com/tencent"
+                    ]
+                }
+            },
+            {
+                "watson": {
+                    "urls": [
+                        "https://support.crowdin.com/enterprise/machine-translation/#watson-ibm-translator"
+                    ]
+                }
+            },
+            {
+                "xl8": {
+                    "urls": [
+                        "https://store.crowdin.com/xl8"
+                    ]
+                }
+            },
+            {
+                "yandex": {
+                    "active": false
+                }
+            }
+        ],
+        "quality_estimation_integrations": [
+            {
+                "modelfront": null,
+                "custom": true
+            }
+        ],
+        "local_api_support": true,
+        "multiple_api_suggestions": true
+    },
+    {
+        "id": "eluna",
+        "name": "eLUNa",
+        "tms_url": "https://ls-ets.unog.ch/tools/untermeluna",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "api_integrations": [
+            "deepl",
+            "microsoft",
+            "tapta"
+        ]
+    },
+    {
+        "id": "globallink",
+        "name": "GlobalLink",
+        "tms_url": "https://globallink.translations.com/",
+        "type": [
+            {
+                "tms": true
+            },
+            {
+                "cat": true
+            }
+        ],
+        "api_integrations": [
+            "apptek",
+            "google",
+            "kantanmt",
+            "lilt",
+            "microsoft",
+            "moses",
+            "omniscien",
+            "systran",
+            "tauyou",
+            "transperfect-nmt"
+        ]
+    },
+    {
+        "id": "lilt",
+        "name": "Lilt",
+        "tms_url": "https://www.lilt.com",
+        "type": [
+            "cat"
+        ],
+        "documentation_url": "https://support.lilt.com/kb/",
+        "api_integrations": [
+            {
+                "lilt": {
+                    "custom": true,
+                    "glossary": true,
+                    "adaptive": true,
+                    "urls": [
+                        "https://support.lilt.com/kb/introduction-to-lilt-translate"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "id": "matecat",
+        "name": "MateCat",
+        "tms_url": "https://www.matecat.com",
+        "type": [
+            "cat"
+        ],
+        "documentation_url": "https://guides.matecat.com/",
+        "api_integrations": [
+            "apertium",
+            {
+                "google": {
+                    "custom": true
+                }
+            },
+            {
+                "iconic": {
+                    "urls": [
+                        "https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/"
+                    ],
+                    "active": false
+                }
+            },
+            {
+                "intento": {
+                    "plugin": true,
+                    "urls": [
+                        "https://help.inten.to/hc/en-us/articles/360017381939-How-to-set-up-Intento-as-the-MT-engine-in-MateCat"
+                    ]
+                }
+            },
+            {
+                "iptranslator": {
+                    "active": false
+                }
+            },
+            "language-weaver",
+            {
+                "microsoft": {
+                    "custom": true
+                }
+            },
+            {
+                "modernmt": {
+                    "custom": true,
+                    "adaptive": true,
+                    "urls": [
+                        "https://guides.matecat.com/modernmt-mmt-plug-in"
+                    ]
+                }
+            },
+            "moses",
+            "prompsit",
+            "smartmate",
+            "tauyou",
+            {
+                "tilde": {
+                    "custom": true
+                }
+            },
+            "yandex"
+        ]
+    },
+    {
+        "id": "memoq",
+        "name": "MemoQ",
+        "tms_url": "https://www.memoq.com",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "documentation_url": "https://docs.memoq.com/current/en/Welcome/welcome-memoq-docs.html",
+        "api_integrations": [
+            {
+                "alexa-translations-ai": {
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/alexa-ai-plugin-settings.html"
+                    ]
+                }
+            },
+            {
+                "amazon": {
+                    "custom": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/amazon-mt-plugin-settings.html"
+                    ]
+                }
+            },
+            {
+                "crosslang": {
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/crosslang-gateway-settings.html"
+                    ]
+                }
+            },
+            {
+                "deepl": {
+                    "glossary": true,
+                    "formality": true,
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/deepl-mt-plugin-settings.html"
+                    ]
+                }
+            },
+            {
+                "etranslation": {
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/etranslation-mt-plugin-settings.html"
+                    ]
+                }
+            },
+            {
+                "globalese": {
+                    "plugin": true,
+                    "urls": [
+                        "https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069984/memoQ+connector"
+                    ]
+                }
+            },
+            {
+                "google": {
+                    "custom": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/googlemt-settings.html",
+                        "https://docs.memoq.com/current/en/Places/googleadvancedmt-settings.html"
+                    ]
+                }
+            },
+            {
+                "iconic": {
+                    "active": false,
+                    "urls": [
+                        "https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/"
+                    ]
+                }
+            },
+            {
+                "intento": {
+                    "plugin": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/intento-plugin-settings.html"
+                    ]
+                }
+            },
+            {
+                "iptranslator": {
+                    "active": false,
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/iptranslator-plugin-settings.html"
+                    ]
+                }
+            },
+            {
+                "kantanmt": {
+                    "custom": true,
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/kantanmt-plugin-settings.html"
+                    ]
+                }
+            },
+            {
+                "modernmt": {
+                    "urls": [
+                        "https://www.memoq.com/integrations/machine-translation/public-plugin/modernmt"
+                    ]
+                }
+            },
+            {
+                "microsoft": {
+                    "custom": true,
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/microsoft-mt-plugin-settings.html"
+                    ]
+                }
+            },
+            {
+                "mirai": {
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/mirai-mt-plugin.html"
+                    ]
+                }
+            },
+            {
+                "niutrans": {
+                    "urls": [
+                        "https://www.memoq.com/integrations/machine-translation/private-plugin/niutrans"
+                    ]
+                }
+            },
+            {
+                "omniscien": {
+                    "urls": [
+                        "https://www.memoq.com/integrations/machine-translation/public-plugin/omniscien"
+                    ]
+                }
+            },
+            {
+                "opus-cat": {
+                    "urls": [
+                        "https://github.com/Helsinki-NLP/OPUS-CAT#using-the-fiskmo-plugin-in-memoq"
+                    ]
+                }
+            },
+            {
+                "pangeamt": {
+                    "glossary": true,
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/pangeamt-plugin-settings.html"
+                    ]
+                }
+            },
+            {
+                "slate": {
+                    "active": false,
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/slate-desktop-plugin-settings.html"
+                    ]
+                }
+            },
+            {
+                "systran": {
+                    "custom": true,
+                    "adaptive": true,
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/systran-plugin-settings.html"
+                    ]
+                }
+            },
+            {
+                "textra": {
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/textra-plugin-settings.html"
+                    ]
+                }
+            },
+            {
+                "textshuttle": {
+                    "plugin": true,
+                    "urls": [
+                        "https://www.textshuttle.ai/product/features#cat-connectors"
+                    ]
+                }
+            },
+            {
+                "tilde": {
+                    "custom": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/tilde-mt-plugin-settings.html"
+                    ]
+                }
+            },
+            {
+                "tmxmall": {
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/tmxmall-mt-plugin-settings.html"
+                    ]
+                }
+            },
+            {
+                "xl8": {
+                    "urls": [
+                        "https://docs.google.com/document/d/1aYbIpDCme7D-FIVgqRvSmoIiiUJ4QhAZEPAP-tJNwPs/edit"
+                    ]
+                }
+            }
+        ],
+        "local_api_support": true,
+        "multiple_api_suggestions": true,
+        "fuzzy_repair": true
+    },
+    {
+        "id": "multitrans",
+        "name": "Multitrans",
+        "tms_url": "https://www.rws.com/localization/products/additional-solutions/",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "documentation_url": "https://docs.rws.com/785465/752728/sdl-multitrans",
+        "api_integrations": [
+            {
+                "deepl": {
+                    "url": "https://docs.rws.com/785465/786901/sdl-multitrans/configuring-deepl"
+                }
+            },
+            {
+                "google": {
+                    "url": "https://docs.rws.com/785465/786605/sdl-multitrans/configuring-google-translate-server"
+                }
+            },
+            {
+                "iconic": {
+                    "active": false,
+                    "url": "https://docs.rws.com/785465/786609/sdl-multitrans/configuring-iconic-plugin"
+                }
+            },
+            {
+                "microsoft": {
+                    "url": "https://docs.rws.com/785465/786613/sdl-multitrans/configuring-microsoft-translator"
+                }
+            },
+            {
+                "language-weaver": {
+                    "url": "https://docs.rws.com/785465/786890/sdl-multitrans/configuring-sdl-mt-cloud"
+                }
+            },
+            {
+                "promt": {
+                    "url": "https://docs.rws.com/785465/786621/sdl-multitrans/configuring-promt"
+                }
+            },
+            {
+                "systran": {
+                    "url": "https://docs.rws.com/785465/786625/sdl-multitrans/configuring-systran"
+                }
+            },
+            {
+                "tapta": {
+                    "url": "https://docs.rws.com/785465/786629/sdl-multitrans/configuring-tapta"
+                }
+            }
+        ]
+    },
+    {
+        "id": "phrase",
+        "name": "Phrase TMS",
+        "tms_url": "https://phrase.com/products/phrase-tms/",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "documentation_url": "https://support.phrase.com/hc/en-us/categories/5709486381084-Phrase-TMS",
+        "api_integrations": [
+            {
+                "aisa": {
+                    "active": false
+                }
+            },
+            "alexa-translations-ai",
+            {
+                "amazon": {
+                    "glossary": true
+                }
+            },
+            "apertium",
+            "crosslang",
+            {
+                "deepl": {
+                    "glossary": true
+                }
+            },
+            "fairtrade",
+            {
+                "google": {
+                    "custom": true,
+                    "glossary": true
+                }
+            },
+            {
+                "globalese": {
+                    "urls": [
+                        "https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647135756/Phrase+connector"
+                    ]
+                }
+            },
+            "human-science",
+            {
+                "kantanmt": {
+                    "custom": true
+                }
+            },
+            {
+                "kodensha": {
+                    "active": false
+                }
+            },
+            {
+                "microsoft": {
+                    "custom": true,
+                    "glossary": true
+                }
+            },
+            "mirai",
+            {
+                "moraviamt": {
+                    "active": false
+                }
+            },
+            {
+                "nict": {
+                    "active": false
+                }
+            },
+            {
+                "npatmt": {
+                    "urls": [
+                        "https://www.npat.co.jp/EXPRESS_price_list/EXPRESS_price_list.html"
+                    ]
+                }
+            },
+            {
+                "omniscien": {
+                    "custom": true
+                }
+            },
+            {
+                "pangeamt": {
+                    "custom": true
+                }
+            },
+            {
+                "phrase-nextmt": {
+                    "glossary": true
+                }
+            },
+            {
+                "prompsit": {
+                    "active": false
+                }
+            },
+            {
+                "promt": {
+                    "custom": true,
+                    "glossary": true
+                }
+            },
+            {
+                "rozetta": {
+                    "custom": true,
+                    "glossary": true
+                }
+            },
+            {
+                "language-weaver": {
+                    "custom": true,
+                    "offline_glossary": true
+                }
+            },
+            {
+                "skrivanek": {
+                    "active": false
+                }
+            },
+            "sundamt",
+            {
+                "systran": {
+                    "custom": true
+                }
+            },
+            {
+                "tauyou": {
+                    "active": false
+                }
+            },
+            "tencent",
+            {
+                "tilde": {
+                    "custom": true
+                }
+            },
+            {
+                "toshiba": {
+                    "active": false
+                }
+            },
+            "t-tact-an-zin",
+            {
+                "ubiqus": {
+                    "glossary": true
+                }
+            },
+            "yandex"
+        ],
+        "quality_estimation_integrations": [
+            {
+                "phrase-mtqe": null,
+                "custom": false
+            }
+        ],
+        "routing": true
+    },
+    {
+        "id": "omegat",
+        "name": "OmegaT",
+        "tms_url": "https://www.omegat.org",
+        "type": [
+            "cat"
+        ],
+        "open_source": true,
+        "documentation_url": "https://omegat.org/documentation",
+        "api_integrations": [
+            "apertium",
+            "belazar",
+            "deepl",
+            "google",
+            "watson",
+            "microsoft",
+            "moses",
+            {
+                "tencent": {
+                    "plugin": true,
+                    "urls": [
+                        "https://github.com/yoyicue/omegat-tencent-plugin"
+                    ]
+                }
+            },
+            {
+                "textra": {
+                    "plugin": true,
+                    "urls": "https://codeberg.org/miurahr/omegat-textra-plugin"
+                }
+            },
+            "yandex"
+        ],
+        "local_api_support": true,
+        "fuzzy_repair": true,
+        "fuzzy_repair_plugin": {
+            "urls": [
+                "https://github.com/transducens/OmegaT-FuzzyMatchRepair-Plugin"
+            ]
+        },
+        "multiple_api_suggestions": true
+    },
+    {
+        "id": "passolo",
+        "name": "Passolo",
+        "tms_url": "https://www.trados.com/products/passolo/",
+        "type": [
+            "cat"
+        ],
+        "documentation_url": "https://docs.rws.com/914743/262054/passolo-help/welcome-to-the-------------passolo-documentation",
+        "api_integrations": [
+            {
+                "deepl": {
+                    "plugin": true,
+                    "urls": [
+                        "https://appstore.rws.com/language/app/deepl-mt-provider-for-passolo/1088/"
+                    ]
+                }
+            },
+            {
+                "google": {
+                    "custom": true
+                }
+            },
+            {
+                "language-weaver": {
+                    "custom": true
+                }
+            },
+            {
+                "microsoft": {
+                    "custom": true
+                }
+            }
+        ],
+        "multiple_api_suggestions": true
+    },
+    {
+        "id": "smartcat",
+        "name": "Smartcat",
+        "tms_url": "https://www.smartcat.ai",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "documentation_url": "https://help.smartcat.com/hc/en-us/",
+        "api_integrations": [
+            {
+                "amazon": {
+                    "custom": true
+                }
+            },
+            {
+                "baidu": {
+                    "urls": [
+                        "https://www.smartcat.com/integrations/baidu-translate/"
+                    ]
+                }
+            },
+            {
+                "deepl": {
+                    "urls": [
+                        "https://www.smartcat.com/integrations/deepl/"
+                    ]
+                }
+            },
+            {
+                "globalese": {
+                    "plugin": true,
+                    "custom": true,
+                    "urls": [
+                        "https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647037246/Smartcat+connector"
+                    ]
+                }
+            },
+            {
+                "google": {
+                    "custom": true,
+                    "glossary": true
+                }
+            },
+            {
+                "intento": {
+                    "plugin": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://www.smartcat.com/integrations/intento/",
+                        "https://help.inten.to/hc/en-us/articles/360021395679-How-to-set-up-Intento-connector-for-Smartcat"
+                    ]
+                }
+            },
+            {
+                "microsoft": {
+                    "custom": true,
+                    "urls": [
+                        "https://www.smartcat.com/integrations/microsoft-translator/"
+                    ]
+                }
+            },
+            {
+                "modernmt": {
+                    "custom": true
+                }
+            },
+            "yandex"
+        ],
+        "multiple_api_suggestions": true
+    },
+    {
+        "id": "smartling",
+        "name": "Smartling",
+        "tms_url": "https://www.smartling.com",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "documentation_url": "https://help.smartling.com/hc/en-us",
+        "api_integrations": [
+            "amazon",
+            "deepl",
+            {
+                "google": {
+                    "custom": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://help.smartling.com/hc/en-us/articles/1260805168070-Translating-with-Google-AutoML"
+                    ]
+                }
+            },
+            {
+                "intento": {
+                    "plugin": true,
+                    "urls": [
+                        "https://help.inten.to/hc/en-us/articles/4417002496018-How-to-create-an-MT-profile-in-your-Smartling-account",
+                        "https://help.inten.to/hc/en-us/articles/4417019865490-How-to-add-an-MT-profile-to-the-workflow-in-your-Smartling-project-"
+                    ]
+                }
+            },
+            {
+                "microsoft": {
+                    "custom": true
+                }
+            },
+            "prompsit",
+            "promt",
+            "systran",
+            {
+                "watson": {
+                    "custom": true
+                }
+            }
+        ],
+        "local_api_support": true,
+        "routing": true
+    },
+    {
+        "id": "tolgee",
+        "name": "Tolgee",
+        "tms_url": "https://tolgee.io",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "documentation_url": "https://tolgee.io/platform",
+        "open_source": true,
+        "api_integrations": [
+            "amazon",
+            "deepl",
+            "google",
+            {
+                "baidu": {
+                    "active": false
+                }
+            },
+            "microsoft"
+        ],
+        "multiple_api_suggestions": true
+    },
+    {
+        "id": "trados",
+        "name": "Trados Studio",
+        "tms_url": "https://www.trados.com/products/trados-studio",
+        "type": [
+            "cat"
+        ],
+        "documentation_url": "https://docs.rws.com/980998/261377/trados-studio-2022/welcome-to-the-------------trados-studio-2022-documentation",
+        "api_integrations": [
+            {
+                "alexa-translations-ai": {
+                    "plugin": true,
+                    "urls": [
+                        "https://appstore.rws.com/plugin/149/"
+                    ]
+                }
+            },
+            {
+                "amazon": {
+                    "plugin": true,
+                    "urls": [
+                        "https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3315/amazon-translate-mt-provider"
+                    ]
+                }
+            },
+            {
+                "crosslang": {
+                    "plugin": true,
+                    "active": false
+                }
+            },
+            {
+                "custom-mt": {
+                    "plugin": true,
+                    "urls": [
+                        "https://custom.mt/trados-connector/"
+                    ]
+                }
+            },
+            {
+                "deepl": {
+                    "plugin": true,
+                    "urls": [
+                        "https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3266/deepl-translation-provider"
+                    ]
+                }
+            },
+            {
+                "elia": {
+                    "plugin": true,
+                    "urls": [
+                        "https://appstore.rws.com/Plugins/154"
+                    ]
+                }
+            },
+            {
+                "globalese": {
+                    "plugin": true,
+                    "custom": true,
+                    "urls": [
+                        "https://globalese.atlassian.net/servicedesk/customer/portal/2/article/2232746052",
+                        "https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647135792/Document+translation+plugin+for+Trados+Studio"
+                    ]
+                }
+            },
+            {
+                "google": {
+                    "plugin": true,
+                    "custom": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/"
+                    ]
+                }
+            },
+            {
+                "iconic": {
+                    "urls": [
+                        "https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/"
+                    ],
+                    "active": false
+                }
+            },
+            {
+                "intento": {
+                    "plugin": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://help.inten.to/hc/en-us/articles/360016112939-Installing-and-Configuring-Intento-MT-Hub-for-Trados-Studio"
+                    ]
+                }
+            },
+            {
+                "kantanmt": {
+                    "plugin": true,
+                    "custom": true,
+                    "urls": [
+                        "https://appstore.rws.com/plugin/165/"
+                    ]
+                }
+            },
+            {
+                "language-weaver": {
+                    "custom": true
+                }
+            },
+            {
+                "language-wire": {
+                    "plugin": true,
+                    "urls": [
+                        "https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin"
+                    ]
+                }
+            },
+            {
+                "ltgear": {
+                    "plugin": true,
+                    "urls": [
+                        "https://appstore.rws.com/Plugins/178"
+                    ]
+                }
+            },
+            {
+                "lucy": {
+                    "plugin": true,
+                    "urls": [
+                        "https://web.archive.org/web/20180922112123/http://www.lucysoftware.com/english/machine-translation/integration-capabilities/lucy-lt-integration-capabilities.html"
+                    ],
+                    "active": false
+                }
+            },
+            {
+                "microsoft": {
+                    "plugin": true,
+                    "custom": true,
+                    "urls": [
+                        "https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/"
+                    ]
+                }
+            },
+            {
+                "mirai": {
+                    "plugin": true,
+                    "active": false
+                }
+            },
+            {
+                "modernmt": {
+                    "plugin": true,
+                    "custom": true,
+                    "urls": [
+                        "https://s3.amazonaws.com/modernmt.prod.public.us-east-1/downloads/ModernMT+Plugin+Guide+for+SDL+Trados+Studio.pdf"
+                    ]
+                }
+            },
+            {
+                "niutrans": {
+                    "plugin": true,
+                    "active": false
+                }
+            },
+            {
+                "opus-cat": {
+                    "plugin": true,
+                    "custom": true,
+                    "urls": [
+                        "https://helsinki-nlp.github.io/OPUS-CAT/tradosplugin",
+                        "https://appstore.rws.com/Plugins/11"
+                    ]
+                }
+            },
+            {
+                "pangeamt": {
+                    "plugin": true,
+                    "custom": true,
+                    "active": false
+                }
+            },
+            {
+                "rozetta": {
+                    "plugin": true,
+                    "custom": true,
+                    "urls": [
+                        "https://appstore.rws.com/plugin/187/"
+                    ]
+                }
+            },
+            {
+                "sogou-translate": {
+                    "plugin": true,
+                    "active": false
+                }
+            },
+            {
+                "sundamt": {
+                    "plugin": true,
+                    "glossary": true,
+                    "formality": true,
+                    "urls": [
+                        "https://www.sunda.fi/en/human-translators.html"
+                    ]
+                }
+            },
+            {
+                "systran": {
+                    "plugin": true,
+                    "custom": true,
+                    "urls": [
+                        "https://help.systrangroup.com/hc/en-us/articles/360025571833--Plugins-SDL-Trados-studio-connector-How-to-add-Systran-server-in-SDL-Trados-Studio"
+                    ]
+                }
+            },
+            {
+                "textshuttle": {
+                    "plugin": true,
+                    "urls": [
+                        "https://appstore.rws.com/plugin/145/"
+                    ]
+                }
+            },
+            {
+                "textra": {
+                    "plugin": true,
+                    "active": false
+                }
+            },
+            {
+                "tilde": {
+                    "plugin": true,
+                    "custom": true,
+                    "urls": [
+                        "https://appstore.rws.com/plugin/118/"
+                    ]
+                }
+            },
+            {
+                "tmxmall": {
+                    "plugin": true,
+                    "urls": [
+                        "https://www.tmxmall.com/products/plugin"
+                    ],
+                    "active": false
+                }
+            },
+            {
+                "trebe": {
+                    "plugin": true,
+                    "urls": [
+                        "https://appstore.rws.com/Plugin/195"
+                    ]
+                }
+            },
+            {
+                "ubiqus": {
+                    "plugin": true,
+                    "active": false
+                }
+            },
+            {
+                "xl8": {
+                    "plugin": true,
+                    "urls": [
+                        "https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf"
+                    ]
+                }
+            },
+            {
+                "youdao": {
+                    "plugin": true,
+                    "active": false
+                }
+            }
+        ],
+        "local_api_support": true,
+        "multiple_api_suggestions": true,
+        "fuzzy_repair": true
+    },
+    {
+        "id": "transifex",
+        "name": "Transifex",
+        "tms_url": "http://www.transifex.com",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "documentation_url": "https://docs.transifex.com/",
+        "api_integrations": [
+            {
+                "amazon": {
+                    "glossary": true,
+                    "urls": [
+                        "https://docs.transifex.com/machine-translation/glossary-for-amazon-machine-translation-mt"
+                    ]
+                }
+            },
+            {
+                "deepl": {
+                    "formality": true
+                }
+            },
+            {
+                "google": {
+                    "custom": true
+                }
+            },
+            {
+                "kantanmt": {
+                    "custom": true,
+                    "urls": [
+                        "https://docs.transifex.com/machine-translation/working-with-kantan-mt"
+                    ]
+                }
+            },
+            "microsoft"
+        ],
+        "local_api_support": true
+    },
+    {
+        "id": "transitnxt",
+        "name": "TransitNXT",
+        "tms_url": "https://www.star-group.net/en/products/translation-localization.html",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "documentation_url": "https://www.star-group.net/en/downloads/transit-termstar.html",
+        "api_integrations": [
+            {
+                "deepl": {
+                    "glossary": true,
+                    "formality": true
+                }
+            },
+            "globalese",
+            "google",
+            {
+                "kantanmt": {
+                    "custom": true
+                }
+            },
+            "microsoft",
+            {
+                "smartmate": {
+                    "glossary": true
+                }
+            },
+            "systran",
+            {
+                "textshuttle": {
+                    "glossary": true
+                }
+            }
+        ],
+        "local_api_support": true,
+        "multiple_api_suggestions": true
+    },
+    {
+        "id": "translate5",
+        "name": "translate5",
+        "tms_url": "https://translate5.net",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "open_source": true,
+        "documentation_url": "https://confluence.translate5.net/spacedirectory/view.action",
+        "api_integrations": [
+            {
+                "deepl": {
+                    "plugin": true,
+                    "urls": [
+                        "https://confluence.translate5.net/display/CON/DeepL"
+                    ]
+                }
+            },
+            {
+                "globalese": {
+                    "urls": [
+                        "https://confluence.translate5.net/display/CON/GlobalesePreTranslation"
+                    ]
+                }
+            },
+            {
+                "google": {
+                    "urls": [
+                        "https://confluence.translate5.net/display/BUS/Google"
+                    ]
+                }
+            },
+            {
+                "lucy": {
+                    "urls": [
+                        "https://confluence.translate5.net/display/BUS/Lucy"
+                    ]
+                }
+            },
+            {
+                "moses": {
+                    "urls": [
+                        "https://confluence.translate5.net/display/BUS/Moses"
+                    ]
+                }
+            },
+            {
+                "microsoft": {
+                    "urls": [
+                        "https://confluence.translate5.net/display/BUS/MS+Translator+Microsoft"
+                    ]
+                }
+            },
+            "language-weaver",
+            {
+                "pangeamt": {
+                    "urls": [
+                        "https://confluence.translate5.net/display/CON/PangeaMT"
+                    ]
+                }
+            }
+        ],
+        "quality_estimation_integrations": [
+            {
+                "modelfront": null,
+                "custom": true
+            }
+        ],
+        "edit_distance": true
+    },
+    {
+        "id": "wordbee",
+        "name": "Wordbee",
+        "tms_url": "http://www.wordbee.com",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "documentation_url": "https://wordbee.atlassian.net/wiki/spaces/WBT/overview",
+        "api_integrations": [
+            {
+                "deepl": {
+                    "urls": [
+                        "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
+                    ]
+                }
+            },
+            {
+                "globalese": {
+                    "plugin": true,
+                    "urls": [
+                        "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
+                    ]
+                }
+            },
+            {
+                "google": {
+                    "custom": true,
+                    "urls": [
+                        "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
+                    ]
+                }
+            },
+            {
+                "intento": {
+                    "plugin": true,
+                    "urls": [
+                        "https://help.inten.to/hc/en-us/articles/360017136300-Configure-your-Intento-connector-in-Wordbee",
+                        "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/808157633/How+to+machine+translate+with+Intento+API"
+                    ]
+                }
+            },
+            {
+                "kantanmt": {
+                    "custom": true,
+                    "urls": [
+                        "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
+                    ]
+                }
+            },
+            {
+                "lingua-custodia": {
+                    "urls": [
+                        "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
+                    ]
+                }
+            },
+            {
+                "microsoft": {
+                    "urls": [
+                        "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
+                    ]
+                }
+            },
+            {
+                "plata-vicomtech": {
+                    "urls": [
+                        "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
+                    ]
+                }
+            },
+            {
+                "reverso": {
+                    "urls": [
+                        "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
+                    ]
+                }
+            },
+            {
+                "tauyou": {
+                    "urls": [
+                        "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
+                    ]
+                }
+            },
+            {
+                "textshuttle": {
+                    "urls": [
+                        "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
+                    ]
+                }
+            },
+            {
+                "tilde": {
+                    "custom": true,
+                    "urls": [
+                        "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
+                    ]
+                }
+            }
+        ],
+        "local_api_support": true,
+        "multiple_api_suggestions": true
+    },
+    {
+        "id": "wordfast",
+        "name": "Wordfast",
+        "tms_url": "http://www.wordfast.com",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "documentation_url": "https://www.wordfast.com/WFP/5.8/t2117287.html",
+        "api_integrations": [
+            {
+                "deepl": {
+                    "formality": true
+                }
+            },
+            {
+                "globalese": {
+                    "urls": "https://globalese.atlassian.net/wiki/spaces/DOCS/pages/2339569665/Cloud+text+translation+plugin+for+Wordfast+Anywhere"
+                }
+            },
+            {
+                "google": {
+                    "custom": true
+                }
+            },
+            {
+                "iconic": {
+                    "urls": [
+                        "https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/"
+                    ],
+                    "active": false
+                }
+            },
+            {
+                "intento": {
+                    "plugin": true,
+                    "urls": [
+                        "https://help.inten.to/hc/en-us/articles/360018425379-How-to-set-up-Intento-plugin-for-Wordfast-Anywhere"
+                    ]
+                }
+            },
+            {
+                "kantanmt": {
+                    "custom": true,
+                    "online_custom_training": true
+                }
+            },
+            {
+                "microsoft": {
+                    "urls": [
+                        "https://learn.microsoft.com/en-us/azure/cognitive-services/Translator/create-translator-resource"
+                    ]
+                }
+            },
+            {
+                "modernmt": {
+                    "urls": [
+                        "https://www.wordfast.net/wiki/Connecting_Wordfast_Pro_to_Modern_MT"
+                    ]
+                }
+            },
+            {
+                "systran": {
+                    "custom": true,
+                    "urls": [
+                        "https://www.wordfast.net/wiki/Machine_Translation_Wordfast_Classic"
+                    ]
+                }
+            },
+            {
+                "wordlingo": {
+                    "urls": [
+                        "https://www.wordfast.com/WFP/4.5/c1060284.html"
+                    ]
+                }
+            },
+            "yandex"
+        ],
+        "local_api_support": true,
+        "multiple_api_suggestions": true
+    },
+    {
+        "id": "xtm",
+        "name": "XTM",
+        "tms_url": "http://xtm.cloud",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "documentation_url": "https://xtm.cloud/documentation/",
+        "api_integrations": [
+            {
+                "amazon": {
+                    "glossary": true,
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/amazon-translate.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-amazon-translate-mt-engine.html"
+                    ]
+                }
+            },
+            {
+                "amplexor-mt": {
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/acolad.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-acolad-mt-engine.html"
+                    ]
+                }
+            },
+            {
+                "crosslang": {
+                    "plugin": true,
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/crosslang.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-crosslang-mt-engine.html"
+                    ]
+                }
+            },
+            {
+                "deepl": {
+                    "glossary": true,
+                    "formality": true,
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/deepl.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-deepl-translator-mt-engine.html"
+                    ]
+                }
+            },
+            {
+                "geofluent": {
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/lionbridge-geofluent.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-lionbridge-geofluent-mt-engine.html"
+                    ]
+                }
+            },
+            {
+                "google": {
+                    "custom": true,
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/google-machine-translation.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-google-translate-mt-engine.html"
+                    ]
+                }
+            },
+            {
+                "globalese": {
+                    "plugin": true,
+                    "urls": [
+                        "https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647037255"
+                    ]
+                }
+            },
+            {
+                "iconic": {
+                    "active": false
+                }
+            },
+            {
+                "intento": {
+                    "plugin": true,
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/intento.html",
+                        "https://help.inten.to/hc/en-us/articles/360021776920-XTM-Custom-MT-for-Intento-Quick-Guide"
+                    ]
+                }
+            },
+            {
+                "kantanmt": {
+                    "custom": false,
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/kantanmt.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-kantanmt-engine.html"
+                    ]
+                }
+            },
+            {
+                "language-weaver": {
+                    "glossary": true,
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/language-weaver.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-language-weaver-mt-engine.html"
+                    ]
+                }
+            },
+            {
+                "lingo24": {
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/lingo24.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-lingo24-mt-engine.html"
+                    ]
+                }
+            },
+            {
+                "microsoft": {
+                    "custom": true,
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/microsoft-translator.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-microsoft-translator-mt-engine.html"
+                    ]
+                }
+            },
+            {
+                "omniscien": {
+                    "custom": true,
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/omniscien-language-studio.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-omniscien-technologies-language-studio-mt-engine.html"
+                    ]
+                }
+            },
+            {
+                "oneliner": {
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/oneliner.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-oneliner-mt-engine.html"
+                    ]
+                }
+            },
+            {
+                "sap": {
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/sap-translation-hub.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-sap-translation-hub-mt-engine.html"
+                    ]
+                }
+            },
+            "smartmate",
+            {
+                "systran": {
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/systran-pure-neural-.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-systran-pure-neural-mt-engine.html"
+                    ]
+                }
+            },
+            {
+                "tauyou": {
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/tauyou.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-tauyou-mt-engine.html"
+                    ]
+                }
+            },
+            {
+                "textra": {
+                    "active": false,
+                    "urls": [
+                        "https://mt-auto-minhon-mlt.ucri.jgn-x.jp/tool/xtm/edit/"
+                    ]
+                }
+            }
+        ],
+        "local_api_support": true,
+        "multiple_api_suggestions": true,
+        "fuzzy_repair": true
+    }
+]

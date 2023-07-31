@@ -4,10 +4,26 @@ parent: Languages
 layout: language
 title: Tamil
 description: Machine translation for Tamil
-code: ta
+codes:
+- ta
+- tam
+names:
+- Tamil
 family:
 - slug: dravidian
   name: Dravidian
+scripts:
+- Taml
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- in
+- lk
+- my
+- sg
 supported_apis:
 - id: kantanmt
   name: KantanMT

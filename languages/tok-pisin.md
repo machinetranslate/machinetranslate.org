@@ -4,10 +4,22 @@ parent: Languages
 layout: language
 title: Tok Pisin
 description: Machine translation for Tok Pisin
-code: tpi
+codes:
+- tpi
+names:
+- Tok Pisin
 family:
 - slug: english-based-creoles
   name: English-based creoles
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- pg
 supported_apis:
 - id: modernmt
   name: ModernMT

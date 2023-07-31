@@ -4,7 +4,11 @@ parent: Languages
 layout: language
 title: Urdu
 description: Machine translation for Urdu
-code: ur
+codes:
+- ur
+- urd
+names:
+- Urdu
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +16,17 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - fusional
+territories:
+- in
+- lk
+- pk
 supported_apis:
 - id: textra
   name: TexTra

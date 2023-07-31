@@ -4,12 +4,40 @@ parent: Languages
 layout: language
 title: English
 description: Machine translation for English
-code: en
+codes:
+- en
+- eng
+names:
+- English
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+territories:
+- au
+- bz
+- ca
+- 029
+- in
+- ie
+- jm
+- my
+- nz
+- ph
+- sg
+- za
+- tt
+- gb
+- us
+- zw
 supported_apis:
 - id: sunda
   name: Sunda Translator

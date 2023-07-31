@@ -4,10 +4,27 @@ parent: Languages
 layout: language
 title: Uzbek
 description: Machine translation for Uzbek
-code: uz
+codes:
+- uz
+- uzb
+- uzn
+- uzs
+names:
+- Uzbek
 family:
 - slug: turkic
   name: Turkic
+scripts:
+- Latn
+- Cyrl
+- Arab
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - agglutinative
+territories:
+- uz
 supported_apis:
 - id: promt
   name: PROMT

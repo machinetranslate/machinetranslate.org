@@ -4,10 +4,27 @@ parent: Languages
 layout: language
 title: Fon
 description: Machine translation for Fon
-code: fon
+codes:
+- fon
+names:
+- Fon
 family:
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+- Nkoo
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- bj
+- ga
+- gh
+- ng
+- tg
 supported_apis:
 - id: modernmt
   name: ModernMT

@@ -4,12 +4,31 @@ parent: Languages
 layout: language
 title: German
 description: Machine translation for German
-code: de
+codes:
+- de
+- deu
+- ger
+names:
+- German
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  - VSO
+  morphosyntax:
+  - fusional
+territories:
+- at
+- ch
+- de
+- li
+- lu
 supported_apis:
 - id: judicio
   name: Judicio

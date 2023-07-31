@@ -4,12 +4,26 @@ parent: Languages
 layout: language
 title: Kongo
 description: Machine translation for Kongo
-code: kg
+codes:
+- kg
+- kon
+names:
+- Kongo
+- Kikongo
 family:
 - slug: bantu
   name: Bantu
 - slug: niger-congo
   name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- ao
 supported_apis:
 - id: modernmt
   name: ModernMT

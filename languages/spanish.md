@@ -4,12 +4,46 @@ parent: Languages
 layout: language
 title: Spanish
 description: Machine translation for Spanish
-code: es
+codes:
+- es
+- spa
+names:
+- Spanish
 family:
 - slug: romance
   name: Romance
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - inflected
+territories:
+- 419
+- ar
+- bo
+- cl
+- co
+- cr
+- do
+- ec
+- es
+- gt
+- hn
+- mx
+- ni
+- pa
+- pe
+- pr
+- py
+- sv
+- us
+- uy
+- ve
 supported_apis:
 - id: elia
   name: Elia

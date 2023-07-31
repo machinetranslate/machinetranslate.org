@@ -4,10 +4,24 @@ parent: Languages
 layout: language
 title: Tonga
 description: Machine translation for Tonga
-code: to
+codes:
+- to
+- ton
+names:
+- Tonga
+- Tongan
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - VSO
+  morphosyntax:
+  - analytic
+territories:
+- to
 supported_apis:
 - id: iconic
   name: Iconic

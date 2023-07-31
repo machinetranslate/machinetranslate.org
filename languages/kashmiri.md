@@ -4,7 +4,12 @@ parent: Languages
 layout: language
 title: Kashmiri
 description: Machine translation for Kashmiri
-code: ks
+codes:
+- ks
+- kas
+names:
+- Kashmiri
+- Koshur
 family:
 - slug: iranic
   name: Iranic
@@ -12,6 +17,17 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Arab
+- Deva
+typology:
+  word_order:
+  - SOV
+  - V2
+  morphosyntax:
+  - fusional
+territories:
+- in
 supported_apis:
 - id: modernmt
   name: ModernMT

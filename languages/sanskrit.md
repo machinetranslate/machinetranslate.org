@@ -4,7 +4,11 @@ parent: Languages
 layout: language
 title: Sanskrit
 description: Machine translation for Sanskrit
-code: sa
+codes:
+- sa
+- san
+names:
+- Sanskrit
 family:
 - slug: iranic
   name: Iranic
@@ -12,6 +16,15 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Deva
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - fusional
+territories:
+- in
 supported_apis:
 - id: google
   name: Google Translate

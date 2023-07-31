@@ -4,12 +4,25 @@ parent: Languages
 layout: language
 title: Danish
 description: Machine translation for Danish
-code: da
+codes:
+- da
+- dan
+names:
+- Danish
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+territories:
+- dk
 supported_apis:
 - id: language-wire
   name: Language Wire

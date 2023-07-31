@@ -4,4 +4,5 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-.github
+.ruby-version
+

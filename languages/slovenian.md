@@ -4,12 +4,27 @@ parent: Languages
 layout: language
 title: Slovenian
 description: Machine translation for Slovenian
-code: sl
+codes:
+- sl
+- slv
+names:
+- Slovenian
+- Slovene
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - fusional
+  - inflected
+territories:
+- si
 supported_apis:
 - id: textshuttle
   name: TextShuttle

@@ -4,10 +4,22 @@ parent: Languages
 layout: language
 title: Balinese
 description: Machine translation for Balinese
-code: ban
+codes:
+- ban
+names:
+- Balinese
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- id
 supported_apis:
 - id: modernmt
   name: ModernMT

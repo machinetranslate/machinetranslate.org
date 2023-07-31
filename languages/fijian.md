@@ -4,10 +4,23 @@ parent: Languages
 layout: language
 title: Fijian
 description: Machine translation for Fijian
-code: fj
+codes:
+- fj
+- fij
+names:
+- Fijian
 family:
 - slug: austronesian
   name: Austronesian
+scripts:
+- Latn
+typology:
+  word_order:
+  - VOS
+  morphosyntax:
+  - isolating
+territories:
+- fj
 supported_apis:
 - id: iconic
   name: Iconic

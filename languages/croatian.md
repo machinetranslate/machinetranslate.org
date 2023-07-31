@@ -4,12 +4,32 @@ parent: Languages
 layout: language
 title: Croatian
 description: Machine translation for Croatian
-code: hr
+codes:
+- hr
+- hrv
+- hbs
+names:
+- Croatian
+variant_names:
+- Serbo-Croatian
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - inflected
+territories:
+- hr
+- ba
+- rs
+- at
 supported_apis:
 - id: tilde
   name: Tilde

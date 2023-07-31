@@ -4,7 +4,12 @@ parent: Languages
 layout: language
 title: Bengali
 description: Machine translation for Bengali
-code: bn
+codes:
+- bn
+- ben
+names:
+- Bengali
+- Bangla
 family:
 - slug: indo-aryan
   name: Indo-Aryan
@@ -12,6 +17,16 @@ family:
   name: Indo-Iranian
 - slug: indo-european
   name: Indo-European
+scripts:
+- Beng
+typology:
+  word_order:
+  - SOV
+  morphosyntax:
+  - inflected
+territories:
+- bd
+- in
 supported_apis:
 - id: kakao
   name: Kakao

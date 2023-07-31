@@ -4,12 +4,34 @@ parent: Languages
 layout: language
 title: Dutch
 description: Machine translation for Dutch
-code: nl
+codes:
+- nl
+- nld
+- dut
+names:
+- Dutch
+- Netherlandic
+variant_names:
+- Hollandic
+- Flemish
+- Surinamese
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - fusional
+  - synthetic
+territories:
+- 1
+- be
+- nl
 supported_apis:
 - id: judicio
   name: Judicio

@@ -4,10 +4,24 @@ parent: Languages
 layout: language
 title: Nuer
 description: Machine translation for Nuer
-code: nus
+codes:
+- nus
+names:
+- Nuer
 family:
 - slug: nilo-saharan
   name: Nilo-Saharan
+scripts:
+- Latn
+typology:
+  word_order:
+  - SOV
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- et
+- ss
 supported_apis:
 - id: modernmt
   name: ModernMT

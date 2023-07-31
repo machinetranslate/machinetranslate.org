@@ -4,12 +4,25 @@ parent: Languages
 layout: language
 title: Bulgarian
 description: Machine translation for Bulgarian
-code: bg
+codes:
+- bg
+- bul
+names:
+- Bulgarian
 family:
 - slug: slavic
   name: Slavic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Cyrl
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+territories:
+- bg
 supported_apis:
 - id: tilde
   name: Tilde

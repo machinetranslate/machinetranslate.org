@@ -4,12 +4,27 @@ parent: Languages
 layout: language
 title: Swedish
 description: Machine translation for Swedish
-code: sv
+codes:
+- sv
+- swe
+names:
+- Swedish
 family:
 - slug: germanic
   name: Germanic
 - slug: indo-european
   name: Indo-European
+scripts:
+- Latn
+typology:
+  word_order:
+  - V2
+  - SVO
+  morphosyntax:
+  - inflected
+territories:
+- fi
+- se
 supported_apis:
 - id: language-wire
   name: Language Wire

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import json
 import yaml
 from os.path import exists
 
@@ -9,32 +10,32 @@ LANGUAGE_FAMILIES = None
 
 
 ### Read scripts
-with open('_data/scripts.yml', 'r', encoding='utf8') as stream:
-  SCRIPTS = yaml.safe_load(stream)
+with open('_data/scripts.json', 'r', encoding='utf8') as stream:
+  SCRIPTS = json.load(stream)
 
 ### Read languages
-with open('_data/languages.yml', 'r', encoding='utf8') as stream:
-  LANGUAGES = yaml.safe_load(stream)
+with open('_data/languages.json', 'r', encoding='utf8') as stream:
+  LANGUAGES = json.load(stream)
 
 ### Read language families
-with open('_data/language-families.yml', 'r', encoding='utf8') as stream:
-  LANGUAGE_FAMILIES = yaml.safe_load(stream)
+with open('_data/language-families.json', 'r', encoding='utf8') as stream:
+  LANGUAGE_FAMILIES = json.load(stream)
 
 ### Read APIs
-with open('_data/apis.yml', 'r', encoding='utf8') as stream:
-  APIS = yaml.safe_load(stream)
+with open('_data/apis.json', 'r', encoding='utf8') as stream:
+  APIS = json.load(stream)
 
 ### Read API-language conversions
-with open('_data/api-language.yml', 'r', encoding='utf8') as stream:
-  API_LANGUAGE = yaml.safe_load(stream)
+with open('_data/api-language.json', 'r', encoding='utf8') as stream:
+  API_LANGUAGE = json.load(stream)
 
 ### Read translation management systems
-with open('_data/integrations.yml', 'r', encoding='utf8') as stream:
-  INTEGRATIONS = yaml.safe_load(stream)
+with open('_data/integrations.json', 'r', encoding='utf8') as stream:
+  INTEGRATIONS = json.load(stream)
 
 ### Read aggregators
-with open('_data/aggregators.yml', 'r', encoding='utf8') as stream:
-  AGGREGATORS = yaml.safe_load(stream)
+with open('_data/aggregators.json', 'r', encoding='utf8') as stream:
+  AGGREGATORS = json.load(stream)
 
 def base_language_code(locale_code):
   locale_code = locale_code.replace('_', '-')
@@ -62,7 +63,7 @@ def normalize_language_code(locale_code, api_id, drop_variant=True):
     or (drop_variant and _normalize_language_code(base_language_code(locale_code), '*')) \
     or locale_code
 
-# TODO: Move this to a .yaml file
+# TODO: Move this to a .json file
 TERRITORY_NAMES = {
   'ca': 'Canada',
   'fr': 'France',
@@ -106,7 +107,7 @@ def flatten(l):
       _.append(item)
   return _
 
-def read_content(filepth):
+def read_content(filepath):
   content = ''
   if not exists(filepath):
     return ''
@@ -121,7 +122,6 @@ for api in APIS:
   api_id = api['id']
 
   codes = flatten(api['languages'])
-
 
 
   def normalize(code):
@@ -180,11 +180,12 @@ for code in LANGUAGE_FAMILIES:
 ### Write languages
 for language in LANGUAGES:
   code = language['codes'][0]
-  if type(language['codes']) is not list:
+
+  if not isinstance(language['codes'], list):
     raise Exception(language)
 
   name = language['names'][0]
-  if type(language['names']) is not list:
+  if not isinstance(language['names'], list):
     raise Exception(language)
 
   family = []
@@ -214,9 +215,9 @@ for language in LANGUAGES:
     'layout': 'language',
     'title': name,
     'description': f'Machine translation for { name }',
-    'code': code,
+    **language,
     'family': family,
-    'supported_apis': supported_apis
+    'supported_apis': supported_apis,
   }
 
   slug = slugify(name)
@@ -239,15 +240,15 @@ UNLISTED_LANGUAGES = {}
 for api in APIS:
 
   name = api['name']
-  if type(name) is not str:
+  if not isinstance(name, str):
     raise Exception(name)
 
   api_id = api['id']
-  if type(api_id) is not str:
+  if not isinstance(api_id, str):
     raise Exception(api_id)
 
   languages = api['languages']
-  if type(languages) is not list:
+  if not isinstance(languages, list):
     raise Exception(languages)
 
   urls = api['urls']
@@ -287,7 +288,7 @@ for api in APIS:
         break
     if api_id not in [ 'alibaba', 'baidu', 'niutrans' ] and len(base_code) == 2 and not language_name:
       # This is usually a typo.
-      raise Exception('2-letter language codes should be in languages.yml.  No name found for: ' + base_code + '(' + api_id + ')')
+      raise Exception('2-letter language codes should be in languages.json.  No name found for: ' + base_code + '(' + api_id + ')')
     variant_name = get_language_variant_name(code, api_id)
     supported_languages.append({
       'slug': language_slug,
@@ -311,7 +312,7 @@ for api in APIS:
           'slug': tms['id'],
           'name': tms['name']
         })
-      elif type(i) == dict:
+      elif isinstance(i, dict):
         id = next(iter(i))
         if id == api_id:
           integrations.append({
@@ -355,7 +356,7 @@ for api in APIS:
 print('Codes to add to languages.md')
 
 for code, count in sorted(UNLISTED_LANGUAGES.items(), key=lambda x: x[1] * 10 - len(x[0]), reverse=True):
-  text = code + ': ' + str(count)
+  text = f"{code}: {str(count)}"
   if count > 1 or len(code) == 2:
     text = '**' + text + '**'
   base_code = code.split('-')[0].lower()
