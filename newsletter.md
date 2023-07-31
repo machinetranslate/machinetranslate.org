@@ -6,7 +6,9 @@ title: Newsletter
 description: Machine Translate newsletter
 ---
 
-Sign up to our monthly newsletter. You will get upcoming events, due calls for papers, job opportunities, the most interesting community posts, and more!
+Sign up to our monthly machine translation newsletter.
+
+You will get a list of upcoming events, due calls for papers, job opportunities, the most interesting community posts, and more!
 
 <center>
   <button id="airtable-button">
