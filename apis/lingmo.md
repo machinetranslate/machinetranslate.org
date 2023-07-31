@@ -177,6 +177,8 @@ more_languages_by_request: false
 integrations: []
 nav_order: 973
 active: true
+seo:
+  name: The Lingmo Translation machine translation API
 redirect_from: lingmo-translation
 
 ---

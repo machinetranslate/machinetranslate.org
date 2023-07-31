@@ -81,6 +81,8 @@ more_languages_by_request: false
 integrations: []
 nav_order: 989
 active: true
+seo:
+  name: The TranslateMe machine translation API
 
 ---
 

@@ -29,6 +29,8 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-tauyou-mt-engine.html
 nav_order: 1000
 active: false
+seo:
+  name: The Tauyou machine translation API
 
 ---
 

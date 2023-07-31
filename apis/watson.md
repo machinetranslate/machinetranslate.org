@@ -374,6 +374,8 @@ integrations:
   custom: true
 nav_order: 942
 active: true
+seo:
+  name: The Watson Language Translator machine translation API
 redirect_from: watson-language-translator
 
 ---

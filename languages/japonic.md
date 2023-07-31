@@ -8,6 +8,8 @@ code: jpx
 languages:
 - slug: japanese
   name: Japanese
+seo:
+  name: Machine translation for the Japonic language family
 
 ---
 

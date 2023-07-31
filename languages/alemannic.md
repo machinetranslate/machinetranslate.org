@@ -40,6 +40,8 @@ supported_apis:
 - id: textshuttle
   name: TextShuttle
   supported_language_count: 21
+seo:
+  name: Machine translation for Alemannic
 
 ---
 

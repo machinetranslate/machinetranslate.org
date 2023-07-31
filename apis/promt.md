@@ -272,6 +272,8 @@ integrations:
   name: Smartling
 nav_order: 959
 active: true
+seo:
+  name: The PROMT machine translation API
 
 ---
 

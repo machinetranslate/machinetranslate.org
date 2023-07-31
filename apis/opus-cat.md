@@ -26,6 +26,8 @@ integrations:
   - https://appstore.rws.com/Plugins/11
 nav_order: 1000
 active: true
+seo:
+  name: The Opus CAT machine translation API
 
 ---
 

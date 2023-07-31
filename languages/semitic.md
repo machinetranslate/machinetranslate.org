@@ -18,6 +18,8 @@ languages:
   name: Maltese
 - slug: tigrinya
   name: Tigrinya
+seo:
+  name: Machine translation for the Semitic language family
 
 ---
 

@@ -13,6 +13,8 @@ more_languages_by_request: false
 integrations: []
 nav_order: 1000
 active: false
+seo:
+  name: The Safaba machine translation API
 
 ---
 

@@ -29,6 +29,8 @@ more_languages_by_request: false
 integrations: []
 nav_order: 998
 active: true
+seo:
+  name: The Sunda Translator machine translation API
 redirect_from: sunda-translator
 
 ---

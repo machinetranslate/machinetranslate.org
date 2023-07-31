@@ -12,6 +12,8 @@ languages:
   name: Latvian
 - slug: lithuanian
   name: Lithuanian
+seo:
+  name: Machine translation for the Baltic language family
 
 ---
 

@@ -40,6 +40,8 @@ languages:
   name: Urdu
 - slug: venetian
   name: Venetian
+seo:
+  name: Machine translation for the Indo-Aryan language family
 
 ---
 

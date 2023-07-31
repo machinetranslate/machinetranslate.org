@@ -10,6 +10,8 @@ languages:
   name: Bambara
 - slug: dyula
   name: Dyula
+seo:
+  name: Machine translation for the Mande language family
 
 ---
 

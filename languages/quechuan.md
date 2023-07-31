@@ -10,6 +10,8 @@ languages:
   name: Ayacucho
 - slug: quechua
   name: Quechua
+seo:
+  name: Machine translation for the Quechuan language family
 
 ---
 

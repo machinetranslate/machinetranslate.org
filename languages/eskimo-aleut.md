@@ -8,6 +8,8 @@ code: esx
 languages:
 - slug: inuktitut
   name: Inuktitut
+seo:
+  name: Machine translation for the Eskimo-Aleut language family
 
 ---
 

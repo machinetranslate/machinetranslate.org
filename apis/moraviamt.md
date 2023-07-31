@@ -16,6 +16,8 @@ integrations:
   active: false
 nav_order: 1000
 active: true
+seo:
+  name: The MoraviaMT machine translation API
 
 ---
 

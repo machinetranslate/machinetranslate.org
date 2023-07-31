@@ -586,6 +586,8 @@ integrations:
   name: Wordfast
 nav_order: 907
 active: true
+seo:
+  name: The Yandex Translate machine translation API
 redirect_from: yandex-translate
 
 ---

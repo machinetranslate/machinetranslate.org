@@ -12,6 +12,8 @@ languages:
   name: Shan
 - slug: thai
   name: Thai
+seo:
+  name: Machine translation for the Tai language family
 
 ---
 

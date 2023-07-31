@@ -12,6 +12,8 @@ languages:
   name: Marshallese
 - slug: vietnamese
   name: Vietnamese
+seo:
+  name: Machine translation for the Austroasiatic language family
 
 ---
 

@@ -20,6 +20,8 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-lionbridge-geofluent-mt-engine.html
 nav_order: 1000
 active: true
+seo:
+  name: The Geofluent machine translation API
 
 ---
 

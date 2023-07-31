@@ -14,6 +14,8 @@ languages:
   name: Tamil
 - slug: telugu
   name: Telugu
+seo:
+  name: Machine translation for the Dravidian language family
 
 ---
 

@@ -10,6 +10,8 @@ languages:
   name: Bislama
 - slug: tok-pisin
   name: Tok Pisin
+seo:
+  name: Machine translation for the English-based creoles language family
 
 ---
 

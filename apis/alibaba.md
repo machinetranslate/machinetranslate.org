@@ -1304,6 +1304,8 @@ integrations:
   - https://store.crowdin.com/alibaba
 nav_order: 786
 active: true
+seo:
+  name: The Alibaba Translate machine translation API
 redirect_from: alibaba-translate
 
 ---

@@ -23,6 +23,8 @@ integrations:
   active: false
 nav_order: 1000
 active: true
+seo:
+  name: The Ubiqus NMT machine translation API
 redirect_from: ubiqus-nmt
 
 ---

@@ -20,6 +20,8 @@ languages:
   name: Northern Sami
 - slug: udmurt
   name: Udmurt
+seo:
+  name: Machine translation for the Finno-Ugric language family
 
 ---
 

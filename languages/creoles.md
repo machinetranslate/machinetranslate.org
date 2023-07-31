@@ -8,6 +8,8 @@ code: crp
 languages:
 - slug: sango
   name: Sango
+seo:
+  name: Machine translation for the Creoles language family
 
 ---
 

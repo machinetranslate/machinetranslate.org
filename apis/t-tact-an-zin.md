@@ -106,6 +106,8 @@ integrations:
   name: Phrase TMS
 nav_order: 985
 active: true
+seo:
+  name: The T-tact-AN-ZIN machine translation API
 
 ---
 

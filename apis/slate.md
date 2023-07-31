@@ -20,6 +20,8 @@ integrations:
   - https://docs.memoq.com/current/en/Places/slate-desktop-plugin-settings.html
 nav_order: 1000
 active: false
+seo:
+  name: The Slate Desktop machine translation API
 redirect_from: slate-desktop
 
 ---

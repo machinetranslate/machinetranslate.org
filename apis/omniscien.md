@@ -400,6 +400,8 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-omniscien-technologies-language-studio-mt-engine.html
 nav_order: 939
 active: true
+seo:
+  name: The Omniscien Technologies machine translation API
 redirect_from: omniscien-technologies
 
 ---

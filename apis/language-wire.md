@@ -69,6 +69,8 @@ integrations:
   - https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
 nav_order: 992
 active: true
+seo:
+  name: The Language Wire machine translation API
 
 ---
 

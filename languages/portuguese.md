@@ -167,6 +167,8 @@ supported_apis:
 - id: niutrans
   name: Niutrans
   supported_language_count: 381
+seo:
+  name: Machine translation for Portuguese
 
 ---
 Portuguese was one of the first languages for which machine translation APIs supported multiple variants.

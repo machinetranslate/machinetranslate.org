@@ -18,6 +18,8 @@ integrations:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 nav_order: 1000
 active: true
+seo:
+  name: The Lingua Custodia machine translation API
 
 ---
 

@@ -28,6 +28,8 @@ languages:
   name: Uyghur
 - slug: uzbek
   name: Uzbek
+seo:
+  name: Machine translation for the Turkic language family
 
 ---
 

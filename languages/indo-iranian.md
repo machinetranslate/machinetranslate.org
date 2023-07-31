@@ -58,6 +58,8 @@ languages:
   name: Urdu
 - slug: zaza
   name: Zaza
+seo:
+  name: Machine translation for the Indo-Iranian language family
 
 ---
 

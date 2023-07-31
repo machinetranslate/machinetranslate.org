@@ -74,6 +74,8 @@ languages:
   name: Yoruba
 - slug: zulu
   name: Zulu
+seo:
+  name: Machine translation for the Niger-Congo language family
 
 ---
 

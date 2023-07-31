@@ -63,6 +63,8 @@ more_languages_by_request: false
 integrations: []
 nav_order: 992
 active: true
+seo:
+  name: The CloudTranslation machine translation API
 
 ---
 

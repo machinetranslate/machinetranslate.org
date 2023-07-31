@@ -1,7 +1,7 @@
 ---
 layout: aggregator
 title: Custom.MT
-description: The Custom.MT aggregator
+description: The Custom.MT machine translation API aggregator
 id: custom-mt
 parent: Aggregators
 urls:
@@ -24,6 +24,8 @@ supported_apis:
 - slug: xl8
   name: XL8
 self-serve: true
+seo:
+  name: The Custom.MT machine translation API aggregator
 
 ---
 

@@ -412,6 +412,8 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-language-weaver-mt-engine.html
 nav_order: 938
 active: true
+seo:
+  name: The Language Weaver machine translation API
 
 ---
 

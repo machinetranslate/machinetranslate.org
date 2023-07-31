@@ -180,6 +180,8 @@ languages:
   name: Yiddish
 - slug: zaza
   name: Zaza
+seo:
+  name: Machine translation for the Indo-European language family
 
 ---
 

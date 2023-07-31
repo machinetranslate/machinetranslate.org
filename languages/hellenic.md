@@ -8,6 +8,8 @@ code: grk
 languages:
 - slug: greek
   name: Greek
+seo:
+  name: Machine translation for the Hellenic language family
 
 ---
 

@@ -897,6 +897,8 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-google-translate-mt-engine.html
 nav_order: 866
 active: true
+seo:
+  name: The Google Translate machine translation API
 redirect_from: google-translate
 
 ---

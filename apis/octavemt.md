@@ -16,6 +16,8 @@ integrations:
   name: Across
 nav_order: 1000
 active: true
+seo:
+  name: The OctaveMT machine translation API
 
 ---
 

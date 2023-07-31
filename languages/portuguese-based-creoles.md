@@ -10,6 +10,8 @@ languages:
   name: Cape Verdean Creole
 - slug: papiamento
   name: Papiamento
+seo:
+  name: Machine translation for the Portuguese-based creoles language family
 
 ---
 

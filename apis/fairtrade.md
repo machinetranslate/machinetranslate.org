@@ -16,6 +16,8 @@ integrations:
   name: Phrase TMS
 nav_order: 1000
 active: false
+seo:
+  name: The Fairtrade machine translation API
 
 ---
 

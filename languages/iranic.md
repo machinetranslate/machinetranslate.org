@@ -24,6 +24,8 @@ languages:
   name: Sorani Kurdish
 - slug: tajik
   name: Tajik
+seo:
+  name: Machine translation for the Iranic language family
 
 ---
 

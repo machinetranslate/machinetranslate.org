@@ -73,6 +73,8 @@ integrations:
   glossary: true
 nav_order: 991
 active: true
+seo:
+  name: The Phrase NextMT machine translation API
 
 ---
 

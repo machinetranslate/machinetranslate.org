@@ -26,6 +26,8 @@ integrations:
   - https://confluence.translate5.net/display/BUS/Moses
 nav_order: 1000
 active: true
+seo:
+  name: The Moses machine translation API
 
 ---
 

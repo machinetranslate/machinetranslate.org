@@ -601,6 +601,8 @@ integrations:
   - https://appstore.rws.com/plugin/187/
 nav_order: 904
 active: true
+seo:
+  name: The Rozetta T-400 machine translation API
 redirect_from: rozetta-t-400
 
 ---

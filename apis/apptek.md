@@ -456,6 +456,8 @@ integrations:
   name: GlobalLink
 nav_order: 927
 active: true
+seo:
+  name: The AppTek machine translation API
 
 ---
 

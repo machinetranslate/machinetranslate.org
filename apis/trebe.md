@@ -56,6 +56,8 @@ integrations:
   - https://appstore.rws.com/Plugin/195
 nav_order: 994
 active: true
+seo:
+  name: The Trebe machine translation API
 
 ---
 

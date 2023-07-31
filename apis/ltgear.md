@@ -20,6 +20,8 @@ integrations:
   - https://appstore.rws.com/Plugins/178
 nav_order: 1000
 active: true
+seo:
+  name: The LT Gear machine translation API
 redirect_from: lt-gear
 
 ---

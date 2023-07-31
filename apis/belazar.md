@@ -28,6 +28,8 @@ integrations:
   name: OmegaT
 nav_order: 998
 active: true
+seo:
+  name: The Belazar machine translation API
 
 ---
 

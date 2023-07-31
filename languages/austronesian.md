@@ -56,6 +56,8 @@ languages:
   name: Tonga
 - slug: waray
   name: Waray
+seo:
+  name: Machine translation for the Austronesian language family
 
 ---
 

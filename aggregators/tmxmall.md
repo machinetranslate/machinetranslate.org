@@ -1,7 +1,7 @@
 ---
 layout: aggregator
 title: TMXmall
-description: The TMXmall aggregator
+description: The TMXmall machine translation API aggregator
 id: tmxmall
 parent: Aggregators
 urls:
@@ -30,6 +30,8 @@ supported_apis:
 - slug: youdao
   name: Youdao Translate
 self-serve: false
+seo:
+  name: The TMXmall machine translation API aggregator
 
 ---
 

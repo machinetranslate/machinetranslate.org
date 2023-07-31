@@ -158,14 +158,19 @@ for code in LANGUAGE_FAMILIES:
       })
   languages.sort(key=lambda language: language['name'])
 
+  desc = f'Machine translation for the { name } language family'
+
   frontmatter = {
     'nav_exclude': True,
     'parent': 'Language families',
     'layout': 'language_family',
     'title': name,
-    'description': f'Machine translation for the { name } language family',
+    'description': desc,
     'code': code,
-    'languages': languages
+    'languages': languages,
+    'seo': {
+      'name': desc
+    }
   }
 
   with open(filepath, 'w', encoding='utf8') as f:
@@ -209,15 +214,20 @@ for language in LANGUAGES:
 
   supported_apis.sort(key=lambda api: api['supported_language_count'])
 
+  desc = f'Machine translation for { name }'
+
   frontmatter = {
     'nav_order': 1000 - len(supported_apis),
     'parent': 'Languages',
     'layout': 'language',
     'title': name,
-    'description': f'Machine translation for { name }',
+    'description': desc,
     **language,
     'family': family,
     'supported_apis': supported_apis,
+    'seo': {
+      'name': desc
+    }
   }
 
   slug = slugify(name)
@@ -321,10 +331,12 @@ for api in APIS:
             **i[api_id]
           })
 
+  desc = f'The { name } machine translation API'
+
   frontmatter = {
     'layout': 'api',
     'title': name,
-    'description': f'The { name } machine translation API',
+    'description': desc,
     'id': api_id,
     'parent': 'APIs',
     'urls': urls,
@@ -336,6 +348,9 @@ for api in APIS:
     'integrations': integrations,
     'nav_order': 1000 - len(supported_languages),
     'active': api.get('active', True),
+    'seo': {
+      'name': desc
+    }
   }
 
   name_slug = slugify(name)
@@ -404,10 +419,12 @@ for tms in INTEGRATIONS:
     else:
       raise 'TMS type must include `tms` or `cat`.'
 
+    desc = f'Machine translation API integrations in { tms_name }'
+
     frontmatter = {
         'layout': 'integration',
         'title':  tms_name,
-        'description': f'Machine translation API integrations in { tms_name }',
+        'description': desc,
         'id': tms_id,
         'parent': 'Integrations',
         'type': tms_type,
@@ -417,6 +434,9 @@ for tms in INTEGRATIONS:
         'fuzzy_repair': fuzzy_repair,
         'open-source': tms_open_source,
         'quality_estimation_api_integrations': tms_quality_estimation_api_integrations,
+        'seo': {
+          'name': desc
+        }
     }
 
     content = read_content(filepath)
@@ -459,15 +479,20 @@ for a in AGGREGATORS:
       except KeyError:
         pass
 
+    desc = f'The { a_name } machine translation API aggregator'
+
     frontmatter = {
         'layout': 'aggregator',
         'title': a_name,
-        'description': f'The { a_name } aggregator',
+        'description': desc,
         'id': a_id,
         'parent': 'Aggregators',
         'urls': a_urls,
         'supported_apis': a_supported_apis,
         'self-serve': a_self_serve,
+        'seo': {
+          'name': desc
+        }
     }
     
     content = read_content(filepath)

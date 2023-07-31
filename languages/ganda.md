@@ -26,6 +26,8 @@ typology:
 territories:
 - ug
 supported_apis: []
+seo:
+  name: Machine translation for Ganda
 
 ---
 
