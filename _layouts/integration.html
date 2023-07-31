@@ -34,16 +34,20 @@ parent: Integrations
       <dd>Open-source</dd>
     {% endif %}
   </dl>
+
+  <hr/>
+    <ul>
       <li>
         <a href="{{ page.tms_url }}" target="_blank">{{ page.tms_url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
       </li>
+    </ul>
 </blockquote>
 
 {{ content }}
 
 <h2 id="api-support">API support</h2>
 
-<p>The {{ page.title }} {{ page.type_description }} has <strong>{{ page.api_integrations | size }} machine translation API integrations</strong>.</p>
+<p><strong>{{ page.api_integrations | size }}</strong> machine translation API integrations are available for {{ page.title }}.</p>
 
 <ul>
 {% for api in page.api_integrations %}
@@ -54,15 +58,9 @@ parent: Integrations
       <a href="/{{ api.slug }}">{{ api.name }}</a>
     {% endif %}
       {% if api.custom or api.glossary or api.formality %}
-        {% if api.custom %}
-        , <strong>fine-tuning</strong> support
-        {% endif %}
-        {% if api.glossary %}
-        , <strong>glossary</strong> support
-        {% endif %}
-        {% if api.formality %}
-        , <strong>formality</strong> support
-        {% endif %}
+        {% if api.custom %}| <strong>fine-tuning</strong> support{% endif %}
+        {% if api.glossary %}| <strong>glossary</strong> support{% endif %}
+        {% if api.formality %}| <strong>formality</strong> support{% endif %}
       {% endif %}
   </li>
 {% endfor %}
