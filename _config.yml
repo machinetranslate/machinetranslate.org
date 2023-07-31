@@ -223,7 +223,6 @@ social:
 # Build settings
 # Note that .files are excluded by default.
 exclude:
-  - .bundle
   - README.md
   - generate.py
   - .sass-cache/
