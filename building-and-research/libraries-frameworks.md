@@ -1,5 +1,5 @@
 ---
-parent: Resources
+parent: Building and research
 title: Libraries and frameworks
 description: List of libraries and frameworks for building machine translation systems
 seo:
