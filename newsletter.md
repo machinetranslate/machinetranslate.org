@@ -11,22 +11,9 @@ Sign up to our monthly machine translation newsletter.
 You will get a list of upcoming events, due calls for papers, job opportunities, the most interesting community posts, and more!
 
 <center>
-  <button id="airtable-button">
-     Get the newsletter
-  </button>
+
+<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/machinetranslate" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/machinetranslate', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Enter your email address</label></p><p><input type="text" style="width:140px" name="email" id="tlemail" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /><p></p></form>
+
 </center>
-<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe id="airtable-iframe" class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shry2NkGYBfnhPina?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc; display: none; margin-top: 20px;"></iframe>
-<script>
-    airtable_iframe = document.getElementById("airtable-iframe");
-    airtable_button = document.getElementById("airtable-button");
-    airtable_button.addEventListener("click", function() {
-        if (airtable_iframe.style.display === "block") {
-            airtable_iframe.style.display = "none";
-        } else {
-            airtable_iframe.height = "986";
-            airtable_iframe.style.display = "block";
-        }
-    })
-</script>
 
 Also join our [community](community.md)!
