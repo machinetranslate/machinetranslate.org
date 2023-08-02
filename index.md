@@ -20,10 +20,10 @@ seo:
 <style>
   .big {
     font-size: 2em;
+    background: -webkit-linear-gradient(45deg, #DA291C, #ed7f78, #DA291C, #71150f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
-  background: -webkit-linear-gradient(45deg, #DA291C, #ed7f78, #DA291C, #71150f);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 </style>
 
 <div style="display: flex; justify-content: center; gap: 20%; padding: 1em;">
