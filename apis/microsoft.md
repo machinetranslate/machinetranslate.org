@@ -742,6 +742,8 @@ integrations:
   name: Wordfast
   urls:
   - https://learn.microsoft.com/en-us/azure/cognitive-services/Translator/create-translator-resource
+- slug: weglot
+  name: Weglot
 - slug: xtm
   name: XTM
   custom: true

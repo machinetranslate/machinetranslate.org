@@ -280,6 +280,8 @@ integrations:
 - slug: wordfast
   name: Wordfast
   formality: true
+- slug: weglot
+  name: Weglot
 - slug: xtm
   name: XTM
   glossary: true

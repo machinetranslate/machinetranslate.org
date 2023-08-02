@@ -196,6 +196,21 @@
         ]
     },
     {
+        "id": "groupshare",
+        "name": "Groupshare",
+        "tms_url": "https://docs.rws.com/publications/Trados%20GroupShare/SDL%20Trados%20GroupShare%202020%20SR1",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "api_integrations": {
+            "language-weaver": {
+                    "custom": true,
+                    "glossary": true
+            }
+        }
+    },
+    {
         "id": "lilt",
         "name": "Lilt",
         "tms_url": "https://www.lilt.com",
@@ -777,6 +792,21 @@
             }
         ],
         "multiple_api_suggestions": true
+    },
+    {
+        "id": "rws-tms",
+        "name": "RWS TMS",
+        "tms_url": "https://docs.rws.com/publications/TMS/TMS%2012.7",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "api_integrations": {
+            "language-weaver": {
+                    "custom": true,
+                    "glossary": true
+            }
+        }
     },
     {
         "id": "smartcat",
@@ -1530,6 +1560,40 @@
         ],
         "local_api_support": true,
         "multiple_api_suggestions": true
+    },
+    {
+        "id": "weglot",
+        "name": "Weglot",
+        "tms_url": "https://www.weglot.com/",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "api_integrations": [
+            "google",
+            "deepl",
+            "microsoft"
+        ]
+    },
+    {
+        "id": "worldserver",
+        "name": "Worldserver",
+        "tms_url": "https://docs.rws.com/975503/262470/worldserver-11-8-user-documentation/welcome-to-the-------------worldserver-documentation",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "api_integrations": [
+
+            {
+                "language-weaver": 
+                    {
+                    "custom": true,
+                    "glossary": true
+                }
+            },
+            "systran"
+            ]
     },
     {
         "id": "xtm",

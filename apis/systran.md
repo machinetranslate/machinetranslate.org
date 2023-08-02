@@ -375,6 +375,8 @@ integrations:
   custom: true
   urls:
   - https://www.wordfast.net/wiki/Machine_Translation_Wordfast_Classic
+- slug: worldserver
+  name: Worldserver
 - slug: xtm
   name: XTM
   urls:

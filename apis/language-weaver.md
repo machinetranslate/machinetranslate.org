@@ -387,6 +387,8 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: true
 integrations:
+- slug: groupshare
+  name: Groupshare
 - slug: matecat
   name: MateCat
 - slug: multitrans
@@ -399,11 +401,17 @@ integrations:
 - slug: passolo
   name: Passolo
   custom: true
+- slug: rws-tms
+  name: RWS TMS
 - slug: trados
   name: Trados Studio
   custom: true
 - slug: translate5
   name: translate5
+- slug: worldserver
+  name: Worldserver
+  custom: true
+  glossary: true
 - slug: xtm
   name: XTM
   glossary: true

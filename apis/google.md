@@ -889,6 +889,8 @@ integrations:
 - slug: wordfast
   name: Wordfast
   custom: true
+- slug: weglot
+  name: Weglot
 - slug: xtm
   name: XTM
   custom: true
