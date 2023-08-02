@@ -17,11 +17,20 @@ seo:
   {% assign integration_count = integration_count | plus: s %}
 {% endfor %}
 
+<style>
+  .big {
+    font-size: 2em;
+  }
+  background: -webkit-linear-gradient(45deg, #DA291C, #ed7f78, #DA291C, #71150f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+</style>
+
 <div style="display: flex; justify-content: center; gap: 20%; padding: 1em;">
   <div>
     <center>
       <a href="/apis">
-        <h1>{{ site.data.apis | size }}</h1>
+        <span class="big">{{ site.data.apis | size }}</span>
         APIs
       </a>
     </center>
@@ -29,7 +38,7 @@ seo:
   <div>
     <center>
       <a href="/integrations">
-        <h1>{{ integration_count }}</h1>
+        <span class="big">{{ integration_count }}</span>
         integrations
       </a>
     </center>
@@ -37,7 +46,7 @@ seo:
   <div>
     <center>
       <a href="/languages">
-        <h1>{{ site.data.languages | size }}</h1>
+        <span class="big">{{ site.data.languages | size }}</span>
         languages
       </a>
     </center>
