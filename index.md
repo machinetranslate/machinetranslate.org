@@ -9,7 +9,7 @@ seo:
 
 # Machine Translate
 
-**Machine Translate** is building **open information and a community for machine translation**.
+**Machine Translate** is building **open information** and **community** for machine translation.
 
 {% assign integration_count = 0 %}
 {% for tms in site.data.integrations %}
