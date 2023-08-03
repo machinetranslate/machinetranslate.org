@@ -71,6 +71,8 @@ api_integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/language-weaver.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-language-weaver-mt-engine.html
   name: Language Weaver
+- slug: lengoo
+  name: Lengoo
 - slug: lingo24
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/lingo24.html

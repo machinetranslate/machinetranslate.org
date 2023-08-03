@@ -460,7 +460,7 @@ more_languages_by_request: true
 integrations:
 - slug: globallink
   name: GlobalLink
-- slug: lilt
+- slug: lilt-tms
   name: Lilt
   custom: true
   glossary: true

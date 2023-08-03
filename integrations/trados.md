@@ -77,6 +77,11 @@ api_integrations:
   urls:
   - https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
   name: Language Wire
+- slug: lengoo
+  plugin: true
+  urls:
+  - https://appstore.rws.com/Plugin/204
+  name: Lengoo
 - slug: ltgear
   plugin: true
   urls:

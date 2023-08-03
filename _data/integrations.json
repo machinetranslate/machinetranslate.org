@@ -211,7 +211,7 @@
         }
     },
     {
-        "id": "lilt",
+        "id": "lilt-tms",
         "name": "Lilt",
         "tms_url": "https://www.lilt.com",
         "type": [

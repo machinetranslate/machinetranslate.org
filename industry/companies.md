@@ -97,7 +97,7 @@ Raised $5.5M from Gutbrain, PBJ, Omega and angels
 
 Acquired by Zoom in 2021
 
-### Intento
+### [Intento](/aggregators/intento.md)
 - [inten.to](https://inten.to/)
 - [Crunchbase - Intento](https://www.crunchbase.com/organization/intento)
 
@@ -127,7 +127,7 @@ Raised from Slow Ventures and dissolved
 
 ## 2014
 
-### Lengoo
+### [Lengoo](/apis/lengoo.md)
 - [lengoo.com](https://www.lengoo.com/)
 - [Crunchbase - Lengoo](https://www.crunchbase.com/organization/lengoo-gmbh)
 
@@ -142,7 +142,7 @@ Raised $26.6M from INKEF, Redalpine, Polipo, Techstars, Creathor, Piton and ange
 
 Raised $91.2M from Caixa, Samsung, Scale, Notion, Faber, Greycroft, Structure, M12 and Headline
 
-### Iconic Translation Machines
+### [Iconic Translation Machines](/apis/iconic.md)
 - [iconictranslation.com](https://iconictranslation.com/)
 - [Crunchbase - Iconic Translation Machines](https://www.crunchbase.com/organization/iconic-translation-machines)
 
@@ -166,7 +166,7 @@ Raised ¥33M from Shenyang Dehong Chuangzhan, Cretrend Capital, and others
 
 ## 2011
 
-### Lingua Custodia
+### [Lingua Custodia](/apis/lingua-custodia.md)
 - [linguacustodia.finance](https://www.linguacustodia.finance/en/home/)
 - [Crunchbase - Lingua Custodia](https://www.crunchbase.com/organization/lingua-custodia)
 
@@ -187,7 +187,7 @@ Acquired by Keywords Studios for €7M in 2019
 
 Raised from Benchmark and btov Partners
 
-### Safaba
+### [Safaba](/apis/safaba.md)
 - [Crunchbase - Safaba](https://www.crunchbase.com/organization/safaba-translation-solutions)
 
 Acquired by Amazon to create Amazon Translate in 2015
@@ -213,7 +213,7 @@ Raised CHF30K from Venture Kick
 
 ## 2006
 
-### Tauyou
+### [Tauyou](/apis/tauyou.md)
 - [tauyou.com](https://globallink.translations.com/products/globallink-ai)
 - [Crunchbase - Tauyou](https://www.crunchbase.com/organization/ta-with-you)
 
@@ -251,7 +251,7 @@ Acquired by SDL/RWS for $42.5M in 2010
 
 ## 1998
 
-### Reverso
+### [Reverso](/apis/reverso.md)
 - [reverso.net](https://www.reverso.net/text-translation)
 - [Crunchbase - Reverso](https://www.crunchbase.com/organization/reverso)
 

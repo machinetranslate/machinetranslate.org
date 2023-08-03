@@ -43,6 +43,8 @@ api_integrations:
 - slug: kodensha
   active: false
   name: Kodensha MT
+- slug: lengoo
+  name: Lengoo
 - slug: microsoft
   custom: true
   glossary: true

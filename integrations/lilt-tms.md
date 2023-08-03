@@ -2,7 +2,7 @@
 layout: integration
 title: Lilt
 description: Machine translation API integrations in Lilt
-id: lilt
+id: lilt-tms
 parent: Integrations
 type:
 - cat
