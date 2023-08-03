@@ -30,7 +30,7 @@ seo:
   <div>
     <center>
       <a href="/apis">
-        <span class="big">{{ site.data.apis | size }}</span>
+        <span class="big">{{ site.data.apis | size }}</span><br/>
         APIs
       </a>
     </center>
@@ -38,7 +38,7 @@ seo:
   <div>
     <center>
       <a href="/integrations">
-        <span class="big">{{ integration_count }}</span>
+        <span class="big">{{ integration_count }}</span><br/>
         integrations
       </a>
     </center>
@@ -46,7 +46,7 @@ seo:
   <div>
     <center>
       <a href="/languages">
-        <span class="big">{{ site.data.languages | size }}</span>
+        <span class="big">{{ site.data.languages | size }}</span><br/>
         languages
       </a>
     </center>
@@ -71,29 +71,32 @@ The content covers everything about machine translation, from products to resear
 ## Stay connected
 
 Join the community to ask and answer questions, and share your work.
-Sign up for the newsletter to read news about machine translation.
 
 <div style="display: flex; justify-content: center; gap: 20%;">
   <div>
     <center>
-      <h2><a href="/community">Community</a></h2>
-        <a href="/community">
+      <a href="/community">
+        <span class="big">Community</span><br/>
           👥
-        </a>
-    </center>
-  </div>
-  <div>
-    <center>
-      <h2><a href="/newsletter">Newsletter</a></h2>
-        <a href="/newsletter">
-          📧
-        </a>
+      </a>
     </center>
   </div>
 </div>
 
+Sign up to the newsletter to catch key news of the month.
 
-Follow us on other platforms.
+<div>
+  <div>
+    <center>
+      <a href="/newsletter">
+        <span class="big">Newsletter</span><br/>
+          📧
+      </a>
+    </center>
+  </div>
+</div>
+
+Follow Machine Translate on other platforms.
 
 <center>
   <div class="social-links">
@@ -102,6 +105,19 @@ Follow us on other platforms.
     {% include facebook.html %}
   </div>
 </center>
+
+
+---
+
+
+## About Machine Translate
+
+Machine Translate is on a mission to make machine translation more accessible to more people.
+
+Our mission is supported by people like you.
+
+[**Learn more about the foundation →**](/about.md)
+
 
 ## Contributing
 
@@ -114,14 +130,14 @@ You can create or edit the content.
   <div>
     <center>
       👩🏻‍💻
-      <h1>{{ site.github.contributors | size }}</h1>
+      <span class="big">{{ site.github.contributors | size }}</span><br/>
       contributors
     </center>
   </div>
   <div>
     <center>
       ✏️
-      <h1>{{ all_contributions }}</h1>
+      <span class="big">{{ all_contributions }}</span><br/>
       contributions
     </center>
   </div>
@@ -136,13 +152,3 @@ Watch and star the content source repository, browse and subscribe to issues and
     {% include github.html %}
   </div>
 </center>
-
-
-
-## About Machine Translate
-
-Machine Translate is on a mission to make machine translation more accessible to more people.
-
-Our mission is supported by people like you.
-
-[**Learn more about the foundation →**](/about.md)
