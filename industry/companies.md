@@ -2,10 +2,10 @@
 nav_order: 235
 parent: More
 title: Companies
-description: List of machine translation compaanies
+description: List of machine translation companies
 featured: true
 seo:
-  name: List of machine translation compaanies
+  name: List of machine translation companies
 ---
 
 **Machine translation companies** primarily provide machine translation or technology related to machine translation.
@@ -14,7 +14,7 @@ The history of machine translation companies begins in the defence and intellige
 
 Other players, from technology giants like Meta to translation agencies to the European Union, increasingly build their own machine translation.
 
-Since the advent of statistical machine translation and neural machine translation, there are growth companies backed by venture capital.
+Since the advent of [statistical machine translation](/approaches/statistical-machine-translation.md) and [neural machine translation](/approaches/neural-machine-translation.md), there are growth companies backed by venture capital.
 
 {% include collapsible_toc.html %}
 
