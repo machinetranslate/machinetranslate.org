@@ -611,6 +611,7 @@
                     "active": false
                 }
             },
+            "lengoo",
             {
                 "microsoft": {
                     "custom": true,
@@ -1060,6 +1061,14 @@
                     "plugin": true,
                     "urls": [
                         "https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin"
+                    ]
+                }
+            },
+            {
+                "lengoo": {
+                    "plugin": true,
+                    "urls": [
+                        "https://appstore.rws.com/Plugin/204"
                     ]
                 }
             },
@@ -1698,6 +1707,7 @@
                     ]
                 }
             },
+            "lengoo",
             {
                 "lingo24": {
                     "urls": [
