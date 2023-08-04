@@ -3,10 +3,8 @@
   <p>
   {% if is_meta %}
     Want to learn more?
-  {% elsif page.layout == 'coming_soon' %}
-    Want to learn about {{ page.title }}?
-  {% if page.parent and page.parent != 'Contributing' %}
-    Want to learn more about {{ page.title }}?
+  {% else %}
+    Want to learn {% unless page.layout == 'coming_soon' %}more {% endunless %}about {{ page.title }}?
   {% endif %}
   </p>
 
