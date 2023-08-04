@@ -3,6 +3,9 @@ grand_parent: More
 parent: Associations
 title: AMTA
 description: Association for Machine Translation in the Americas
+seo:
+    type: Organization
+    name: Association for Machine Translation in the Americas (AMTA)
 ---
 
 The **Association for Machine Translation in the Americas** (**AMTA**) is an association of researchers and users of machine translation technologies.

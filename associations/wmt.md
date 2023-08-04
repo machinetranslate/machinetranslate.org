@@ -4,6 +4,9 @@ parent: Associations
 title: WMT
 description: The Conference on Machine Translation
 name: WMT
+seo:
+    type: Organization
+    name: The Conference on Machine Translation (WMT)
 ---
 
 **WMT** is the main event for machine translation and machine translation research.

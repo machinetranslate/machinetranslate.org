@@ -3,6 +3,9 @@ grand_parent: More
 parent: Associations
 title: IAMT
 description: International Association for Machine Translation
+seo:
+    type: Organization
+    name: International Association for Machine Translation (IAMT)
 ---
 
 The **International Association for Machine Translation** (**IAMT**) was founded in 1992.
