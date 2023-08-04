@@ -1,49 +1,53 @@
-
-{% assign meta = "404,Coming soon,Style,Roadmap,Contributing,About Machine Translate" | split:"," %}
-
+{% assign is_meta = page.has_children or page.dir == '/' or page.dir == '/contributing/' or page.search_exclude %}
 <center>
   <p>
-  {% if meta contains page.title %}
-    Have a question?  Want machine translation news?
-  {% elsif page.layout == 'coming_soon' %}
-    Want to learn about {{ page.title }}?
+  {% if is_meta %}
+    Want to learn more?
   {% else %}
-    Want to learn more about {{ page.title }}?
+    Want to learn {% unless page.layout == 'coming_soon' %}more {% endunless %}about {{ page.title }}?
   {% endif %}
   </p>
 
-  {% if meta contains page.title %}
-  <p>
-    <a href="https://reddit.com/r/machinetranslation" class="no-arrow" target="_blank">
+  {% if is_meta %}
+    <p>
+      <a href="https://reddit.com/r/machinetranslation" class="no-arrow" target="_blank">
         <button id="airtable-button">
           Explore the community
         </button>
-    </a>
-  </p>
-  <p>
-    <a href="https://www.reddit.com/r/machinetranslation/submit?selftext=truesubmit&title=Question%20about%20...%20%3F" class="no-arrow" target="_blank">
-      <button id="airtable-button">
-        Ask your own question
-      </button>
-    </a>
-  </p>
+      </a>
+    </p>
+    <p>
+      <a href="https://www.reddit.com/r/machinetranslation/submit?selftext=truesubmit&title=Question%20about%20...%20%3F" class="no-arrow" target="_blank">
+        <button id="airtable-button">
+          Ask your own question
+        </button>
+      </a>
+    </p>
   {% else %}
-  <p>
-    <a href="https://www.reddit.com/r/machinetranslation/search?q={{ page.title | url_encode }}&restrict_sr=on" class="no-arrow" target="_blank">
-      <button id="airtable-button">
-        Search for community posts about {{ page.title }}
-      </button>
-    </a>
-  </p>
-  <p>
-    <a href="https://www.reddit.com/r/machinetranslation/submit?selftext=truesubmit&title={{ page.title | url_encode }}%20...%20%3F" class="no-arrow" target="_blank">
-      <button id="airtable-button">
-        Ask your own question about {{ page.title }}
-      </button>
-    </a>
-  </p>
+    {% assign proper_types = "Person|Event|Organization|Product|Language" | split:"|" %}
+    {% if proper_types contains page.seo.type or page.parent == "Metrics" %}
+      {% assign title = page.title %}
+    {% else %}
+      {% assign title = page.title | downcase %}
+    {% endif %}
+    <p>
+      <a href="https://www.reddit.com/r/machinetranslation/search?q={{ page.title | url_encode }}&restrict_sr=on" class="no-arrow" target="_blank">
+        <button id="airtable-button">
+          Search in the community about {{ title }}
+        </button>
+      </a>
+    </p>
+    <p>
+      <a href="https://www.reddit.com/r/machinetranslation/submit?selftext=truesubmit&title={{ page.title | url_encode }}%20...%20%3F" class="no-arrow" target="_blank">
+        <button id="airtable-button">
+          Ask a question about {{ title }}
+        </button>
+      </a>
+    </p>
   {% endif %}
 </center>
+
+<hr/>
 
 <small>
 

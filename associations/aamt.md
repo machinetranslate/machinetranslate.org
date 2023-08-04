@@ -3,6 +3,9 @@ grand_parent: More
 parent: Associations
 title: AAMT
 description: Asia-Pacific Association for Machine Translation
+seo:
+    type: Organization
+    name: Asia-Pacific Association for Machine Translation (AAMT)
 ---
 
 The **Asia-Pacific Association for Machine Translation** (**AAMT**) is comprised of researchers, manufacturers and users of machine translation systems.
