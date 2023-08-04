@@ -1,4 +1,6 @@
-{% assign is_meta = page.has_children or page.dir == '/' or page.dir == '/contributing/' or page.search_exclude %}
+DIR: <code>{{ page.dir }}</code>
+
+{% assign is_meta = page.has_children or page.dir == '/' or page.parent == 'Contributing' or page.search_exclude %}
 <center>
   <p>
   {% if is_meta %}
@@ -10,7 +12,7 @@
 
   {% if is_meta %}
     <p>
-      <a href="https://reddit.com/r/machinetranslation" class="no-arrow" target="_blank">
+      <a href="https://www.reddit.com/r/machinetranslation/" class="no-arrow" target="_blank">
         <button id="airtable-button">
           Explore the community
         </button>
@@ -33,7 +35,7 @@
     <p>
       <a href="https://www.reddit.com/r/machinetranslation/search?q={{ page.title | url_encode }}&restrict_sr=on" class="no-arrow" target="_blank">
         <button id="airtable-button">
-          Search in the community about {{ title }}
+          Search the community for {{ title }}
         </button>
       </a>
     </p>
