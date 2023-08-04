@@ -160,6 +160,20 @@ defaults:
       permalink: /:basename
       seo:
         type: Article
+  - scope:
+      path: resources
+      type: pages
+    values:
+      permalink: /:basename
+      seo:
+        type: Article
+  - scope:
+      path: about
+      type: pages
+    values:
+      permalink: /:basename
+      seo:
+        type: Article
 
 # Just the Docs
 remote_theme: pmarsceill/just-the-docs@v0.4.1
