@@ -795,8 +795,8 @@
         "multiple_api_suggestions": true
     },
     {
-        "id": "rws-tms",
-        "name": "RWS TMS",
+        "id": "sdl-tms",
+        "name": "SDL TMS",
         "tms_url": "https://docs.rws.com/publications/TMS/TMS%2012.7",
         "type": [
             "tms",

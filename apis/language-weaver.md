@@ -401,8 +401,8 @@ integrations:
 - slug: passolo
   name: Passolo
   custom: true
-- slug: rws-tms
-  name: RWS TMS
+- slug: sdl-tms
+  name: SDL TMS
 - slug: trados
   name: Trados Studio
   custom: true

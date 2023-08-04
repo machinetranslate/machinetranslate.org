@@ -1,8 +1,8 @@
 ---
 layout: integration
-title: RWS TMS
-description: Machine translation API integrations in RWS TMS
-id: rws-tms
+title: SDL TMS
+description: Machine translation API integrations in SDL TMS
+id: sdl-tms
 parent: Integrations
 type:
 - tms
@@ -16,7 +16,7 @@ fuzzy_repair: false
 open-source: false
 quality_estimation_api_integrations: null
 seo:
-  name: Machine translation API integrations in RWS TMS
+  name: Machine translation API integrations in SDL TMS
 
 ---
 
