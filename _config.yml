@@ -161,6 +161,20 @@ defaults:
       seo:
         type: Article
   - scope:
+      path: resources
+      type: pages
+    values:
+      permalink: /:basename
+      seo:
+        type: Article
+  - scope:
+      path: about
+      type: pages
+    values:
+      permalink: /:basename
+      seo:
+        type: Article
+  - scope:
       path: more
       type: pages
     values:
