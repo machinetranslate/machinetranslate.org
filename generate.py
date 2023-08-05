@@ -270,8 +270,10 @@ for api in APIS:
   urls = api['urls']
   privacy_url = api.get('privacy_url', None)
   for url in urls + [privacy_url]:
-    if url and '/es/' in url:
-      raise Exception('Use /en/ not /es/ if valid: ' + name + ' - ' + url)
+    if not url:
+      continue
+    if '/es/' in url or '/de/' in url:
+      raise Exception('Use /en/ if valid: ' + name + ' - ' + url)
 
   self_serve = api.get('self-serve', None)
 
