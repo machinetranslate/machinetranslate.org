@@ -1,6 +1,7 @@
 ---
 parent: Concepts
 title: Language model
+community_search_term: "language models"
 description: Probability of a word in a sequence
 ---
 

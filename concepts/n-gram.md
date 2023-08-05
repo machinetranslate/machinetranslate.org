@@ -1,6 +1,7 @@
 ---
 parent: Concepts
 title: N-gram
+community_search_term: "N-grams"
 description: A short sequence of word types
 ---
 

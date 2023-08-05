@@ -2,6 +2,7 @@
 nav_order: 3
 parent: Contributing
 title: Contributors
+community_search_exclude: true
 description: Contributors to Machine Translate
 ---
 

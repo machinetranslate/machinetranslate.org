@@ -1,10 +1,10 @@
 ---
 nav_exclude: true
 title: Machine translation meetup
+community_search_term: "the meetup"
 description: Machine Translate community meetup
-
 seo:
-  type: Article
+  type: ItemList
 ---
 
 The **machine translation meetup** is a regular event organised by **Machine Translate**.

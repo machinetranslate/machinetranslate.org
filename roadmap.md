@@ -133,7 +133,7 @@ description: Content roadmap for Machine Translate
 
 ### Resources
 
-- ~~[Libraries / Frameworks](/building/libraries-frameworks.md)~~
+- ~~[Libraries / Frameworks](/building/libraries-and-frameworks.md)~~
 - ~~[Publications](/resources/publications.md)~~
 - [Early Years of Machine Translation \[205\]](https://github.com/machinetranslate/machinetranslate.org/issues/205)
 - ~~[Tutorials](/integration/tutorials.md)~~

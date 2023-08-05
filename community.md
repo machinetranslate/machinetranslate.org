@@ -1,7 +1,8 @@
 ---
-nav_order: 100
+nav_order: 1000
 has_children: false
 nav_exclude: true
+community_search_exclude: true
 title: Community
 description: The official Machine Translate community
 ---

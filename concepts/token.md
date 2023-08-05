@@ -1,6 +1,7 @@
 ---
 parent: Concepts
 title: Token
+community_search_term: "tokens"
 description: A short sequence of characters
 ---
 

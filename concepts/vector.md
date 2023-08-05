@@ -1,6 +1,7 @@
 ---
 parent: Concepts
 title: Vector
+community_search_term: "vectors"
 description: A unique list of numbers
 ---
 

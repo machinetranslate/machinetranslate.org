@@ -1,6 +1,7 @@
 ---
 nav_order: 300
 has_children: true
+community_search_exclude: true
 title: More
-description: Additional information about machine translation
+description: More information about machine translation
 ---

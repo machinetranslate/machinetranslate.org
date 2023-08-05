@@ -1,7 +1,7 @@
 ---
-nav_order: 100
+nav_order: 1100
 has_children: false
-nav_exclude: true
+community_search_exclude: true
 title: Newsletter
 description: Machine Translate newsletter
 ---
