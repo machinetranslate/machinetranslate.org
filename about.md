@@ -1,9 +1,10 @@
 ---
-nav_order: 500
+nav_order: 400
 title: About Machine Translate
-description: The foundation for machine translation
+description: The foundation for open information and community for machine translation
 seo:
   type: Organization
+  name: About the Machine Translate foundation
 ---
 
 {% include collapsible_toc.html %}
@@ -12,9 +13,9 @@ seo:
 
 🌍 Machine Translate’s mission is to **make machine translation more accessible to more people** as the field of machine translation grows.
 
-We do that by building open resources and community for machine translation.
+We do that by building open information and community for machine translation.
 
-> <span style="font-size:x-large;">“Open resources and community for machine translation”</span>
+> <span style="font-size:x-large;">“Open information and community for machine translation”</span>
 
 
 ## Values
@@ -75,7 +76,7 @@ This repository can be referenced using bibTeX citation style.
 ## Foundation
 **Machine Translate GmbH** was founded in 2021.
 
-> “To provide open resources about machine translation technology, products and business”
+> “To provide open information about machine translation technology, products and business”
 
 The society is registered in Zug, Switzerland and is run as a non-profit.
 

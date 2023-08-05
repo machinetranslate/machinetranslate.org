@@ -55,22 +55,22 @@ seo:
 
 The content covers everything about machine translation, from products to research, and from history to news.
 
-
 > #### Featured events
 > - [AMTA 2023](/amta2023) - 8 November, online - **Call for papers deadline updated**
 > - [WMT23](/wmt23) - 6-7 December, Singapore
 > - [Machine translation meetup](/meetup)
 
->
 > #### Featured articles
+> - [Integrations](/integrations/integrations.md)
 > - [Adaptive machine translation](/customisation/adaptive.md)
 > - [Quality estimation](/quality/quality-estimation.md)
-> - [Companies](/industry/companies.md)
 
 
 ## Stay connected
 
 Join the community to ask and answer questions, and share your work.
+
+[**Join the community →**](/community.md)
 
 <div style="display: flex; justify-content: center; gap: 20%;">
   <div>
@@ -84,6 +84,8 @@ Join the community to ask and answer questions, and share your work.
 </div>
 
 Sign up to the newsletter to catch key news of the month.
+
+[**Get the newsletter →**](/newsletter.md)
 
 <div>
   <div>
@@ -116,10 +118,7 @@ Machine Translate is on a mission to make machine translation more accessible to
 
 Our mission is supported by people like you.
 
-[**Learn more about the foundation →**](/about.md)
-
-
-## Contributing
+[**About the foundation →**](/about.md)
 
 Machine Translate is open-source.
 You can create or edit the content.
@@ -129,23 +128,23 @@ You can create or edit the content.
 <div style="display: flex; justify-content: center; gap: 20%;">
   <div>
     <center>
-      👩🏻‍💻
+      👩🏻‍💻<br/>
       <span class="big">{{ site.github.contributors | size }}</span><br/>
       contributors
     </center>
   </div>
   <div>
     <center>
-      ✏️
+      ✏️<br/>
       <span class="big">{{ all_contributions }}</span><br/>
       contributions
     </center>
   </div>
 </div>
 
-[**Learn more about contributing →**](/contributing/contributing.md)
-
 Watch and star the content source repository, browse and subscribe to issues and more!
+
+[**Contributing →**](/contributing/contributing.md)
 
 <center>
   <div class="social-links">
