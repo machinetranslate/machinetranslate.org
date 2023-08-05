@@ -7,7 +7,7 @@ description: The Trebe machine translation API
 id: trebe
 parent: APIs
 urls:
-- https://demo.trebe.org/es/
+- https://demo.trebe.org/en/
 - https://apidoc.trebe.org/
 privacy_url: null
 self_serve: false

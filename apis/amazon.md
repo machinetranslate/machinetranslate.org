@@ -7,7 +7,7 @@ description: The Amazon Translate machine translation API
 id: amazon
 parent: APIs
 urls:
-- https://aws.amazon.com/es/translate
+- https://aws.amazon.com/en/translate
 - https://docs.aws.amazon.com/translate/latest/dg/what-is.html
 privacy_url: https://docs.aws.amazon.com/translate/latest/dg/security.html
 self_serve: true
