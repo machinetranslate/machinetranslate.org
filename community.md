@@ -1,7 +1,6 @@
 ---
 nav_order: 1000
 has_children: false
-nav_exclude: true
 community_search_exclude: true
 title: Community
 description: The community for machine translation from the Machine Translate foundation

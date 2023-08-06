@@ -1,5 +1,6 @@
 ---
 parent: Customisation
+community_search_term: adaptive
 title: Adaptive machine translation
 description: Machine translation with online learning
 featured: true

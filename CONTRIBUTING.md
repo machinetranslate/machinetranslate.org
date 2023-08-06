@@ -1,5 +1,6 @@
 ---
 nav_order: 1200
+community_search_exclude: true
 has_children: true
 title: Contributing
 description: How to contribute to Machine Translate
