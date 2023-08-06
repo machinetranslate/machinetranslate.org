@@ -16,6 +16,7 @@ It is a place to read news, announce your own news, answer questions and ask you
             Join the community
         </button>
     </a>
+    <br/>
     <span class="hint">700+ members</span>
 </center>
 
