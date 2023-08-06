@@ -1,10 +1,11 @@
 ---
 nav_order: 15
+parent: Features
 title: Data confidentiality
-description: Data confidentiality in machine translation
+description: Data confidentiality terms and policies of machine translation APIs
 ---
 
-**Data confidentiality** terms or policies govern how machine translation providers use client data.
+**Data confidentiality** terms and policies govern how machine translation providers use client data.
 
 Some machine translation providers use client data to train and improve their translation systems.
 Many data are confidential for machine translation.
