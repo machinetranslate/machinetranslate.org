@@ -26,7 +26,7 @@ community_search_exclude: true
 
 ### Calls for papers
 
-- ~~[Calls for papers](/resources/call-for-papers.md)~~
+- ~~[Calls for papers](/calls-for-papers/calls-for-papers.md)~~
 
 ### General
 
