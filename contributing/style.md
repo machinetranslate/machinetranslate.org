@@ -2,6 +2,7 @@
 nav_order: 1
 parent: Contributing
 title: Style
+community_search_exclude: true
 description: The Machine Translate style guide
 ---
 

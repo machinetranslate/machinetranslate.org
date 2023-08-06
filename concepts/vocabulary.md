@@ -1,6 +1,7 @@
 ---
 parent: Concepts
 title: Vocabulary
+community_search_term: "vocabularies"
 description: The set of supported words
 ---
 

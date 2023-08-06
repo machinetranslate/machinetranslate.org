@@ -2,6 +2,7 @@
 nav_exclude: true
 parent: Concepts
 title: Segment
+community_search_term: "segments"
 description: A sequence of characters
 ---
 

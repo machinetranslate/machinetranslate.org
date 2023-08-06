@@ -4,6 +4,7 @@ title: Features
 description: List of features of machine translation APIs
 seo:
     name: List of features of machine translation APIs
+    type: ItemList
 ---
 
 Machine translation features vary in ready-to-use machine translation APIs and applications:

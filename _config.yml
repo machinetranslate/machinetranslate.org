@@ -126,7 +126,7 @@ defaults:
       seo:
         type: Article
   - scope:
-      path: research
+      path: research-laboratories
       type: pages
     values:
       permalink: /:basename
@@ -169,6 +169,27 @@ defaults:
         type: Article
   - scope:
       path: about
+      type: pages
+    values:
+      permalink: /:basename
+      seo:
+        type: Article
+  - scope:
+      path: more
+      type: pages
+    values:
+      permalink: /:basename
+      seo:
+        type: Article
+  - scope:
+      path: community
+      type: pages
+    values:
+      permalink: /:basename
+      seo:
+        type: Article
+  - scope:
+      path: newsletter
       type: pages
     values:
       permalink: /:basename

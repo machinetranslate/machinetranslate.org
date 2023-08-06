@@ -1,6 +1,7 @@
 ---
 parent: Concepts
 title: String
+community_search_term: "strings"
 description: A sequence of characters
 ---
 

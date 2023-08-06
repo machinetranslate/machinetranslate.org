@@ -4,6 +4,7 @@ parent: More
 title: Communities
 description: List of machine translation associations, research groups and communities
 featured: true
+community_search_exclude: true
 seo:
     type: ItemList
     name: List of machine translation associations, research groups and communities

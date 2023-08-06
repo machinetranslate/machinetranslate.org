@@ -76,7 +76,7 @@
         "id": "alibaba",
         "company": "alibaba-group",
         "urls": [
-            "https://www.alibabacloud.com/es/product/machine-translation",
+            "https://www.alibabacloud.com/en/product/machine-translation",
             "https://www.alibabacloud.com/help/en/machine-translation/latest/general-version-of-machine-translation"
         ],
         "privacy_url": "https://www.alibabacloud.com/help/en/legal/latest/alibaba-cloud-international-website-product-terms-of-service",
@@ -310,7 +310,7 @@
         "id": "amazon",
         "company": "amazon",
         "urls": [
-            "https://aws.amazon.com/es/translate",
+            "https://aws.amazon.com/en/translate",
             "https://docs.aws.amazon.com/translate/latest/dg/what-is.html"
         ],
         "privacy_url": "https://docs.aws.amazon.com/translate/latest/dg/security.html",
@@ -11157,7 +11157,7 @@
         "id": "trebe",
         "company": "vicomtech",
         "urls": [
-            "https://demo.trebe.org/es/",
+            "https://demo.trebe.org/en/",
             "https://apidoc.trebe.org/"
         ],
         "languages": [
