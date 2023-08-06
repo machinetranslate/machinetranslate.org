@@ -1,5 +1,6 @@
 ---
 nav_order: 90
+community_search_exclude: true
 has_children: true
 title: Building and research
 description: Building and research about machine translation
