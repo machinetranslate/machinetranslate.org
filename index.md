@@ -80,7 +80,8 @@ Join the community to ask and answer questions, and share your work.
       <a href="/community">
         👥<br/>
         <span class="big">Community</span>
-      </a><br/>
+      </a>
+      <br/>
       <span class="hint">700+ members</span>
     </center>
   </div>
@@ -95,8 +96,9 @@ Sign up to the newsletter to catch key news of the month.
     <center>
       <a href="/newsletter">
         📧<br/>
-        <span class="big">Newsletter</span><br/>
-      </a><br/>
+        <span class="big">Newsletter</span>
+      </a>
+      <br/>
       <span class="hint">1000+ readers</span>
     </center>
   </div>
