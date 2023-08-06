@@ -51,22 +51,26 @@ parent: Languages
   </dl>
 </blockquote>
 
-
 {{ content }}
 
 <section id="api-support">
   <h2>API support</h2>
-
-
-  <p><strong>{{ page.supported_apis | size }}</strong> APIs support {{ page.title }}.</p>
-
-  <ul>
-    {% for api in page.supported_apis %}
-      <li>
-        <a href="/{{ api.id }}">
-          {{ api.name }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+  <details open="false">
+    <summary>
+      <strong>{{ page.supported_apis | size }}</strong> APIs support {{ page.title }}.
+      <p class="preview hint">
+        {% if page.supported_apis.size > 3 %}…, {% endif %}
+        {{ page.supported_apis | slice: -3 | reverse | map: 'name' | join: ', ' }}
+      </p>
+    </summary>
+    <ul>
+      {% for api in page.supported_apis %}
+        <li>
+          <a href="/{{ api.id }}">
+            {{ api.name }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </details>
 </section>

@@ -117,7 +117,34 @@ footer .social-links > a {
 .social-links > a.twitter:hover > svg {fill: #55ACEE;}
 .social-links > a.linkedin:hover > svg {fill: #0077b5;}
 
+// Muted text
 .hint {
   font-size: small;
   color: lightgray;
+}
+
+// For twirldowns
+
+summary::marker {
+  color: $btn-primary-color;
+  font-size: x-large;
+}
+
+details[open] summary .preview {
+  display: none;
+}
+
+details[open] ul {
+  animation: animateDown 0.5s linear forwards;
+}
+
+@keyframes animateDown {
+  0% {
+    opacity: 0;
+    transform: translatey(-15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translatey(0);
+  }
 }
