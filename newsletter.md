@@ -17,7 +17,7 @@ It is a bullet-pointed list of news, upcoming events, calls for papers, deadline
      Get the newsletter
   </button>
   <br/>
-  <span style="hint">1000+ readers</span>
+  <span class="hint">1000+ readers</span>
 </center>
 
 <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
