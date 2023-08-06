@@ -16,9 +16,12 @@ It is a bullet-pointed list of news, upcoming events, calls for papers, deadline
   <button id="airtable-button">
      Get the newsletter
   </button>
+  <br/>
   <span style="hint">1000+ readers</span>
 </center>
-<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe id="airtable-iframe" class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shry2NkGYBfnhPina?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc; display: none; margin-top: 20px;"></iframe>
+
+<script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script>
+<iframe id="airtable-iframe" class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shry2NkGYBfnhPina?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc; display: none; margin-top: 20px;"></iframe>
 <script>
     airtable_iframe = document.getElementById("airtable-iframe");
     airtable_button = document.getElementById("airtable-button");
