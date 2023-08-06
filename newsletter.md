@@ -11,9 +11,10 @@ Sign up to our monthly machine translation newsletter.
 You will get a list of upcoming events, due calls for papers, job opportunities, the most interesting community posts, and more!
 
 <center>
-  <button id="airtable-button">
-     Get the newsletter
-  </button>
+    <button id="airtable-button">
+        Get the newsletter
+    </button>
+    <style class="hint">1000+ readers</style>
 </center>
 <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe id="airtable-iframe" class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shry2NkGYBfnhPina?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc; display: none; margin-top: 20px;"></iframe>
 <script>

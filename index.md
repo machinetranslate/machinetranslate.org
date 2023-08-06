@@ -77,9 +77,10 @@ Join the community to ask and answer questions, and share your work.
   <div>
     <center>
       <a href="/community">
-        <span class="big">Community</span><br/>
-          👥
-      </a>
+        👥<br/>
+        <span class="big">Community</span>
+      </a><br/>
+      <style class="hint">700+ members</style>
     </center>
   </div>
 </div>
@@ -92,9 +93,10 @@ Sign up to the newsletter to catch key news of the month.
   <div>
     <center>
       <a href="/newsletter">
+        📧<br/>
         <span class="big">Newsletter</span><br/>
-          📧
-      </a>
+      </a><br/>
+      <style class="hint">1000+ readers</style>
     </center>
   </div>
 </div>
