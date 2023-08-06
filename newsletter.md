@@ -3,18 +3,20 @@ nav_order: 1100
 has_children: false
 community_search_exclude: true
 title: Newsletter
-description: Machine Translate newsletter
+description: The monthly newsletter on machine translation from the Machine Translate foundation
+seo:
+  name: The monthly newsletter on machine translation from the Machine Translate foundation
 ---
 
-Sign up to our monthly machine translation newsletter.
+The **machine translation newsletter** is a monthly newsletter from us - the Machine Translate foundation.
 
-You will get a list of upcoming events, due calls for papers, job opportunities, the most interesting community posts, and more!
+It is a bullet-pointed list of news, upcoming events, calls for papers, deadlines, job opportunities, the most interesting community posts and more!
 
 <center>
-    <button id="airtable-button">
-        Get the newsletter
-    </button>
-    <style class="hint">1000+ readers</style>
+  <button id="airtable-button">
+     Subscribe to our newsletter
+  </button>
+  <style class="hint">1000+ readers</style>
 </center>
 <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe id="airtable-iframe" class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shry2NkGYBfnhPina?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc; display: none; margin-top: 20px;"></iframe>
 <script>
@@ -30,4 +32,4 @@ You will get a list of upcoming events, due calls for papers, job opportunities,
     })
 </script>
 
-Also join our [community](community.md)!
+Also join the [machine translation **community**](community.md)!
