@@ -174,4 +174,4 @@ Multilingual quality estimation uses one model or system for many language pairs
 
 ### References
 
-- [*Learn about machine translation quality prediction](https://www.modelfront.com/quality-prediction)
+- [*Learn about machine translation quality prediction*](https://www.modelfront.com/quality-prediction)
