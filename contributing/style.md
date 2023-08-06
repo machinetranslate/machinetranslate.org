@@ -11,7 +11,9 @@ They are diverse and busy, so the content should be high-level and understandabl
 
 > **Less is more.**
 
-#  📝Content
+{% include collapsible_toc.html %}
+
+# 🖌Content
 
 ## Default to Wikipedia style
 
