@@ -1,5 +1,6 @@
 ---
 nav_order: 400
+community_search_exclude: true
 title: About Machine Translate
 description: The foundation for open information and community for machine translation
 seo:
@@ -7,16 +8,19 @@ seo:
   name: About the Machine Translate foundation
 ---
 
+**Machine Translation** is a non-profit foundation building open information and community for machine translation.
+
+> <span style="font-size:x-large;">“Open information and community for machine translation”</span>
+
 {% include collapsible_toc.html %}
 
 ## Mission
 
-🌍 Machine Translate’s mission is to **make machine translation more accessible to more people** as the field of machine translation grows.
+Machine Translate’s mission is to **make machine translation more accessible to more people** as the field of machine translation grows.
+
+> <span style="font-size:x-large;">“Make machine translation more accessible to more people”</span>
 
 We do that by building open information and community for machine translation.
-
-> <span style="font-size:x-large;">“Open information and community for machine translation”</span>
-
 
 ## Values
 
@@ -34,7 +38,6 @@ Machine Translate content should be accessible to people from many backgrounds a
 Machine Translate content should be easy to understand and easy to machine translate.
 
 ## Licensing
-
 The content in this repository is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
