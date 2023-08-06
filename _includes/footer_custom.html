@@ -1,7 +1,7 @@
 {% assign community_search_exclude = page.community_search_exclude or page.search_exclude %}
 <center>
   <p>
-  {% unless community_search_exclude %}
+  {% if community_search_exclude %}
     Want to learn more?
   {% elsif page.layout == 'coming_soon'  %}
     Want to learn about {{ page.title }}?
