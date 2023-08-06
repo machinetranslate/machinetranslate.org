@@ -1,6 +1,5 @@
 ---
 nav_order: 65
-has_children: true
 title: Languages
 description: List of languages supported by machine translation APIs
 seo:
@@ -8,9 +7,11 @@ seo:
     name: List of languages supported by machine translation APIs
 ---
 
-More than a hundred languages and [locales](/applications/advanced-concepts/locale.md) are supported by more than one [machine translation API](/apis/apis.md).
+Hundreds of **languages** and [locales](/applications/advanced-concepts/locale.md) are supported by [machine translation APIs](/apis/apis.md).
 
-Most engines support translation between any two language that they support.
-Some engines only support translation to and from a major language, like English.
+The top one hundred languages are supported by more than one API.
+
+Most APIs support translation between any two language that they support.
+Some APIs only support translation to and from a major language, like English.
 
 Here the languages are ordered by the number of APIs that support them.

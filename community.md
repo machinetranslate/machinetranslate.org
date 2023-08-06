@@ -6,7 +6,7 @@ title: Community
 description: The community for machine translation from the Machine Translate foundation
 ---
 
-The **machine translation community** is an online community run from us - the Machine Translate foundation.
+The **machine translation community** is an online community moderated by us - the Machine Translate foundation.
 
 It is a place to read news, announce your own news, answer questions and ask your own questions - openly and pseudonymously, if you choose.
 
@@ -16,7 +16,9 @@ It is a place to read news, announce your own news, answer questions and ask you
             Join the community
         </button>
     </a>
-    <style class="hint">700+ members</style>
+    <span class="hint">700+ members</span>
 </center>
 
-Also sign up for the [machine translation newsletter](newsletter.md)!
+---
+
+Also sign up for the [machine translation **newsletter**](newsletter.md)!

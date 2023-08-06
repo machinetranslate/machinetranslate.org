@@ -2,7 +2,7 @@
 nav_exclude: true
 community_search_exclude: true
 title: Machine Translate
-description: Open resources and community for machine translation
+description: Open information and community for machine translation
 permalink: /
 seo:
   type: Organization
@@ -81,7 +81,7 @@ Join the community to ask and answer questions, and share your work.
         👥<br/>
         <span class="big">Community</span>
       </a><br/>
-      <style class="hint">700+ members</style>
+      <span class="hint">700+ members</style>
     </center>
   </div>
 </div>
@@ -97,7 +97,7 @@ Sign up to the newsletter to catch key news of the month.
         📧<br/>
         <span class="big">Newsletter</span><br/>
       </a><br/>
-      <style class="hint">1000+ readers</style>
+      <span class="hint">1000+ readers</style>
     </center>
   </div>
 </div>
