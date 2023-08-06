@@ -1,5 +1,6 @@
 ---
-nav_order: 14
+nav_order: 1
+parent: Features
 has_children: true
 title: Customisation
 description: Customisation of machine translation
