@@ -25,4 +25,4 @@ seo:
 ---
 
 ### See also
-- [Features of machine translation APIs](/products-and-applications/features.md)
+- [Features of machine translation APIs](/features/features.md)

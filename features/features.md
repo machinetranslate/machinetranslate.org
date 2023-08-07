@@ -10,9 +10,9 @@ seo:
 Machine translation features vary in ready-to-use machine translation APIs and applications:
 
 - [language support](/languages/languages.md)
-- [price](/products-and-applications/pricing.md)
 - [customisation](/customisation/customisation.md)
-- [data confidentiality](/industry/data-confidentiality.md)
+- [data confidentiality](/features/data-confidentiality.md)
+- [pricing](/features/pricing.md)
 
 They also vary by their underlying architecture.
 
