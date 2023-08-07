@@ -390,7 +390,7 @@ supported_languages:
 more_languages_by_request: true
 integrations:
 - slug: groupshare
-  name: Groupshare
+  name: GroupShare
 - slug: matecat
   name: MateCat
 - slug: multitrans
@@ -411,7 +411,7 @@ integrations:
 - slug: translate5
   name: translate5
 - slug: worldserver
-  name: Worldserver
+  name: WorldServer
   custom: true
   glossary: true
 - slug: xtm

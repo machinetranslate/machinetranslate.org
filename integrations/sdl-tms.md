@@ -8,7 +8,6 @@ id: sdl-tms
 parent: Integrations
 type:
 - tms
-- cat
 type_description: translation management system
 tms_url: https://docs.rws.com/publications/TMS/TMS%2012.7
 api_integrations:
