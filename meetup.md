@@ -19,5 +19,7 @@ It alternates between online and offline formats.
 
 <center>
   <h3>Sign up for the next meetup</h3>
-  <iframe src="https://cdn.forms-content-1.sg-form.com/6aac1965-352f-11ee-b73f-c6a4e250074b"/>
+  <iframe
+    style="width: 400px; height: 350px; border: none;"
+    src="https://cdn.forms-content-1.sg-form.com/6aac1965-352f-11ee-b73f-c6a4e250074b"/>
 </center>
