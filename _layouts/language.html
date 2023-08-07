@@ -55,12 +55,12 @@ parent: Languages
 
 <section id="api-support">
   <h2>API support</h2>
-  <details open="false">
+  <details>
     <summary>
       <strong>{{ page.supported_apis | size }}</strong> APIs support {{ page.title }}.
       <p class="preview hint">
-        {% if page.supported_apis.size > 3 %}…, {% endif %}
-        {{ page.supported_apis | slice: -3 | reverse | map: 'name' | join: ', ' }}
+        {{ page.supported_apis | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if page.supported_apis.size > 5 %}, …{% endif %}
       </p>
     </summary>
     <ul>
