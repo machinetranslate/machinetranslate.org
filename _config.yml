@@ -154,7 +154,7 @@ defaults:
       seo:
         type: ItemList
   - scope:
-      path: products-and-applications
+      path: features
       type: pages
     values:
       permalink: /:basename
