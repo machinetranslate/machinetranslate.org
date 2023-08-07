@@ -35,7 +35,7 @@ community_search_exclude: true
 
 ### - ~~[Products](/industry/products.md)~~
 
-- ~~[Data confidentiality](/industry/data-confidentiality.md)~~
+- ~~[Data confidentiality](/features/data-confidentiality.md)~~
 - Features
 - ~~[CAT integration \[#211\]](https://github.com/machinetranslate/machinetranslate.org/issues/211)~~
 - [Pricing \[#77\]](https://github.com/machinetranslate/machinetranslate.org/issues/77)
