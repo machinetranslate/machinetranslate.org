@@ -5,23 +5,16 @@ has_children: true
 description: Features of machine translation APIs
 seo:
     name: Features of machine translation APIs
-    type: ItemList
 ---
 
-Machine translation features vary in ready-to-use machine translation APIs and applications:
+The **features** of machine translation vary across [machine translation APIs](/apis/apis.md) and applications:
 
-- [language support](/languages/languages.md)
-- [customisation](/customisation/customisation.md)
-- [data confidentiality](/features/data-confidentiality.md)
-- [pricing](/features/pricing.md)
+- [Language support](/languages/languages.md)
+- [Customisation](/customisation/customisation.md)
+- [Data confidentiality](/features/data-confidentiality.md)
+- [Pricing](/features/pricing.md) and self-service
 
-They also vary by their underlying architecture.
-
-Some providers offer ready-to-use systems that can be integrated immediately.
-Others train a model from scratch — or use a pre-trained model — and deploy and maintain it.
-
-Raw models usually do not include the features included in many production systems:
-
+APIs usually offer many features not included in raw models:
 - [language identification](/customisation/language-identification.md)
 - segmentation
 - [bridging](/applications/advanced-concepts/bridging.md) (pivoting)
@@ -29,9 +22,7 @@ Raw models usually do not include the features included in many production syste
 - encoding options
 - HTML/XML tag handling
 
+APIs also vary by their underlying architecture.
 
-## See also
-
-- [APIs](/apis/apis.md)
-- [Companies](/industry/companies.md)
-- [Customisation](/customisation/customisation.md)
+Some providers offer self-serve APIs - ready-to-use systems that can be integrated immediately.
+Others require a conversation to train a model from scratch — or use a pre-trained model — and deploy and maintain it.
