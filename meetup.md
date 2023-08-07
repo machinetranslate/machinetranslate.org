@@ -10,8 +10,8 @@ seo:
 The **machine translation meetup** is a regular event organised by **Machine Translate**.
 It alternates between online and offline formats.
 
-|     |     |     |
-| --- | --- | --- |
+|     |     |     |     |
+| --- | --- | --- | --- |
 | **Meetup 4** | Adaptive machine translation | **coming soon** | **online** |
 | [Meetup 3](/events/machine-translation-meetup-3.md) | | 18 April 2023 | London, England | 
 | [Meetup 2](/events/machine-translation-meetup-2.md) | Low-resource languages | 21 October 2022 | online |
