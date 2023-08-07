@@ -197,11 +197,10 @@
     },
     {
         "id": "groupshare",
-        "name": "Groupshare",
+        "name": "GroupShare",
         "tms_url": "https://docs.rws.com/publications/Trados%20GroupShare/SDL%20Trados%20GroupShare%202020%20SR1",
         "type": [
-            "tms",
-            "cat"
+            "tms"
         ],
         "api_integrations": {
             "language-weaver": {
@@ -799,8 +798,7 @@
         "name": "SDL TMS",
         "tms_url": "https://docs.rws.com/publications/TMS/TMS%2012.7",
         "type": [
-            "tms",
-            "cat"
+            "tms"
         ],
         "api_integrations": {
             "language-weaver": {
@@ -1586,11 +1584,10 @@
     },
     {
         "id": "worldserver",
-        "name": "Worldserver",
+        "name": "WorldServer",
         "tms_url": "https://docs.rws.com/975503/262470/worldserver-11-8-user-documentation/welcome-to-the-------------worldserver-documentation",
         "type": [
-            "tms",
-            "cat"
+            "tms"
         ],
         "api_integrations": [
 
