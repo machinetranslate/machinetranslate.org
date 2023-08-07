@@ -2,8 +2,9 @@
 nav_exclude: true
 title: Machine translation meetup
 community_search_term: "the meetup"
-description: Machine Translate community meetup
+description: The machine translation community meetup from Machine Translate
 seo:
+  name: The machine translation meetup
   type: ItemList
 ---
 
