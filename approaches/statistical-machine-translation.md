@@ -19,7 +19,7 @@ The language model can be associated with fluency in the translation because it 
 
 ### Translation model
 
-The statistical machine translation engine is trained with [parallel data](/customisation/parallel-data.md) to create a translation model.
+The statistical machine translation model is trained with [parallel data](/customisation/parallel-data.md).
 A translation model is a table of aligned phrases and their translation.
 These phrases are called [n-grams](/concepts/n-gram.md).
 The purpose of the translation model is to predict candidate translations for specific input texts.
