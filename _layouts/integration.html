@@ -45,26 +45,35 @@ parent: Integrations
 
 {{ content }}
 
-<h2 id="api-support">API support</h2>
-
-<p><strong>{{ page.api_integrations | size }}</strong> machine translation API integrations are available for {{ page.title }}.</p>
-
-<ul>
-{% for api in page.api_integrations %}
-  <li>
-    {% if api.plugin %}
-      <a href="/{{ api.slug }}">{{ api.name }}</a> (plugin)
-    {% else %}
-      <a href="/{{ api.slug }}">{{ api.name }}</a>
-    {% endif %}
-      {% if api.custom or api.glossary or api.formality %}
-        {% if api.custom %}| <strong>fine-tuning</strong> support{% endif %}
-        {% if api.glossary %}| <strong>glossary</strong> support{% endif %}
-        {% if api.formality %}| <strong>formality</strong> support{% endif %}
-      {% endif %}
-  </li>
-{% endfor %}
+<section id="api-support">
+  <h2>API support</h2>
+  <details>
+    <summary>
+      <strong>{{ page.api_integrations | size }}</strong> machine translation API integrations are available for {{ page.title }}.
+      <p class="preview hint">
+        {{ page.api_integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if page.api_integrations.size > 5 %}, …{% endif %}
+      </p>
+    </summary>
+    <ul>
+    {% for api in page.api_integrations %}
+      <li>
+        {% if api.plugin %}
+          <a href="/{{ api.slug }}">{{ api.name }}</a> (plugin)
+        {% else %}
+          <a href="/{{ api.slug }}">{{ api.name }}</a>
+        {% endif %}
+          {% if api.custom or api.glossary or api.formality %}
+            {% if api.custom %}| <strong>fine-tuning</strong> support{% endif %}
+            {% if api.glossary %}| <strong>glossary</strong> support{% endif %}
+            {% if api.formality %}| <strong>formality</strong> support{% endif %}
+          {% endif %}
+      </li>
+    {% endfor %}
+  </details>
+</section>
 
 {% if page.fuzzy_repair %}
-    {{ page.description }} offers <strong>fuzzy repair</strong> with machine translation.
+  <h2>Other features</h2>
+  {{ page.description }} offers <strong>fuzzy repair</strong> with machine translation.
 {% endif %}
