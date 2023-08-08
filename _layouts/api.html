@@ -122,12 +122,12 @@ parent: APIs
     <details>
       <summary>
         {% if page.supported_languages_comment %}
-          <p>{{ page.supported_languages_comment }}</p>
+          {{ page.supported_languages_comment }}
         {% endif %}
         {% if page.supported_languages.size == 1 %}
-          <p><strong>1</strong> language is supported by the {{ page.title }} API.</p>
+          <strong>1</strong> language is supported by the {{ page.title }} API.
         {% else %}
-          <p><strong>{{ page.supported_languages | size }}</strong> languages are supported by the {{ page.title }} API.</p>
+          <strong>{{ page.supported_languages | size }}</strong> languages are supported by the {{ page.title }} API.
         {% endif %}
         <p class="preview hint">
           {{ page.supported_languages | slice: 0, 5 | map: 'name' | join: ', ' }}
