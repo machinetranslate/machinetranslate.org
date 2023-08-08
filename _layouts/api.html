@@ -175,9 +175,9 @@ parent: APIs
     <details>
       <summary>
         {% if page.integrations.size == 1 %}
-          <p><strong>1</strong> translation management system has integrated the {{ page.title }} API.</p>
+          <strong>1</strong> translation management system has integrated the {{ page.title }} API.
         {% else %}
-          <p><strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} API.</p>
+          <strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} API.
         {% endif %}
         <p class="preview hint">
           {{ page.integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
