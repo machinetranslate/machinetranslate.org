@@ -49,7 +49,7 @@ parent: Integrations
   <h2>API support</h2>
   <details>
     <summary>
-      <p><strong>{{ page.api_integrations | size }}</strong> machine translation API integrations are available for {{ page.title }}.</p>
+      <strong>{{ page.api_integrations | size }}</strong> machine translation API integrations are available for {{ page.title }}.
       <p class="preview hint">
         {{ page.api_integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
         {% if page.api_integrations.size > 5 %}, …{% endif %}
