@@ -116,42 +116,52 @@ parent: APIs
 {{ content }}
 
 <section id="language-support">
-    <h2>Language support</h2>
+  <h2>Language support</h2>
   {% if page.supported_languages.size > 0 %}
 
-    {% if page.supported_languages_comment %}
-    <p>{{ page.supported_languages_comment }}</p>
-    {% endif %}
-
-    <p>The {{ page.title }} API supports <strong>{{ page.supported_languages | size }}</strong> languages.</p>
-
-    <ul>
-      {% for language in page.supported_languages %}
-        <li>
-          {% if language.slug %}
-          <a href="/{{ language.slug }}">
-            <code>{{ language.normalized_code }}</code>
-            {{ language.name }}
-            {% if language.variant_name %}
-              | {{ language.variant_name }}
+    <details>
+      <summary>
+        {% if page.supported_languages_comment %}
+          <p>{{ page.supported_languages_comment }}</p>
+        {% endif %}
+        {% if page.supported_languages.size == 1 %}
+          <p><strong>1</strong> language is supported by the {{ page.title }} API.</p>
+        {% else %}
+          <p><strong>{{ page.supported_languages | size }}</strong> languages are supported by the {{ page.title }} API.</p>
+        {% endif %}
+        <p class="preview hint">
+          {{ page.supported_languages | slice: 0, 5 | map: 'name' | join: ', ' }}
+          {% if page.supported_languages.size > 5 %}, …{% endif %}
+        </p>
+      </summary>
+      <ul>
+        {% for language in page.supported_languages %}
+          <li>
+            {% if language.slug %}
+            <a href="/{{ language.slug }}">
+              <code>{{ language.normalized_code }}</code>
+              {{ language.name }}
+              {% if language.variant_name %}
+                | {{ language.variant_name }}
+              {% endif %}
+            </a>
+              {% if language.normalized_code != language.code %}
+                ⚠️ {{ page.title }} uses <code>{{ language.code }}</code>.
+              {% endif %}
+            {% else %}
+            <a href="https://en.wikipedia.org/wiki/ISO_639:{{ language.base_code }}" target="_blank">
+              <code>{{ language.code }}</code>
+              {% if language.variant_name %}
+                | {{ language.variant_name }}
+              {% endif %}
+            </a>
             {% endif %}
-          </a>
-            {% if language.normalized_code != language.code %}
-              ⚠️ {{ page.title }} uses <code>{{ language.code }}</code>.
-            {% endif %}
-          {% else %}
-          <a href="https://en.wikipedia.org/wiki/ISO_639:{{ language.base_code }}" target="_blank">
-            <code>{{ language.code }}</code>
-            {% if language.variant_name %}
-              | {{ language.variant_name }}
-            {% endif %}
-          </a>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
 
-  {% else %}
+{% else %}
 
   <p>The {{ page.title }} API supports an unknown number of languages.</p>
 </section>
@@ -162,18 +172,26 @@ parent: APIs
 
   <section id="integrations">
     <h2>Integrations</h2>
-    {% if page.integrations.size == 1 %}
-      <p>1 translation management system has integrated the {{ page.title }} API.</p>
-    {% else %}
-      <p><strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} API.</p>
-    {% endif %}
-
-  <ul>
-    {% for i in page.integrations %}
-      <li>
-           <a href="/{{ i.slug }}" >{{ i.name }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+    <details>
+      <summary>
+        {% if page.integrations.size == 1 %}
+          <p><strong>1</strong> translation management system has integrated the {{ page.title }} API.</p>
+        {% else %}
+          <p><strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} API.</p>
+        {% endif %}
+        <p class="preview hint">
+          {{ page.integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
+          {% if page.integrations.size > 5 %}, …{% endif %}
+        </p>
+      </summary>
+      <ul>
+        {% for i in page.integrations %}
+          <li>
+              <a href="/{{ i.slug }}" >{{ i.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+  </section>
 
 {% endif %}

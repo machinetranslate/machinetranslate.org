@@ -57,7 +57,11 @@ parent: Languages
   <h2>API support</h2>
   <details>
     <summary>
-      <strong>{{ page.supported_apis | size }}</strong> APIs support {{ page.title }}.
+      {% if page.supported_apis.size == 1 %}
+        <p><strong>1</strong> API supports {{ page.title }}.</p>
+      {% else %}
+        <p><strong>{{ page.supported_apis | size }}</strong> APIs support {{ page.title }}.</p>
+      {% endif %}
       <p class="preview hint">
         {{ page.supported_apis | slice: 0, 5 | map: 'name' | join: ', ' }}
         {% if page.supported_apis.size > 5 %}, …{% endif %}
