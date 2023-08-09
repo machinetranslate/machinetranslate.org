@@ -42,6 +42,10 @@ h1, h2, h3, h4, h5 {
   -webkit-text-fill-color: transparent; 
 }
 
+h1 code, h2 code, h3 code, h4 code, h5 code {
+    -webkit-text-fill-color: $btn-primary-color;
+}
+
 h1, .text-alpha {
   font-weight: 500;
 }
