@@ -1,5 +1,6 @@
 ---
 nav_order: 65
+has_children: true
 title: Languages
 description: List of languages supported by machine translation APIs
 seo:
