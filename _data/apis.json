@@ -397,9 +397,10 @@
         "self-serve": true
     },
     {
-        "name": "Amplexor MT",
-        "id": "amplexor-mt",
-        "company": "amplexor",
+        "name": "Acolad",
+        "alternative_names": "Amplexor MT",
+        "id": "acolad",
+        "company": "acolad",
         "urls": [
             "https://www.acolad.com/en/technology/machine-translation.html"
         ],

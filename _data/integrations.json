@@ -2,6 +2,7 @@
     {
         "id": "across",
         "name": "Across",
+        "company": "across",
         "tms_url": "https://www.across.net/",
         "type": [
             "tms",
@@ -26,6 +27,7 @@
     {
         "id": "crowdin",
         "name": "Crowdin",
+        "company": "crowdin",
         "tms_url": "https://www.crowdin.com",
         "type": [
             "tms",
@@ -159,6 +161,7 @@
     {
         "id": "eluna",
         "name": "eLUNa",
+        "company": "United Nations",
         "tms_url": "https://ls-ets.unog.ch/tools/untermeluna",
         "type": [
             "tms",
@@ -173,6 +176,7 @@
     {
         "id": "globallink",
         "name": "GlobalLink",
+        "company": "transperfect",
         "tms_url": "https://globallink.translations.com/",
         "type": [
             {
@@ -198,6 +202,7 @@
     {
         "id": "groupshare",
         "name": "GroupShare",
+        "company": "rws",
         "tms_url": "https://docs.rws.com/publications/Trados%20GroupShare/SDL%20Trados%20GroupShare%202020%20SR1",
         "type": [
             "tms"
@@ -212,6 +217,7 @@
     {
         "id": "lilt-tms",
         "name": "Lilt",
+        "company": "lilt",
         "tms_url": "https://www.lilt.com",
         "type": [
             "cat"
@@ -233,6 +239,7 @@
     {
         "id": "matecat",
         "name": "MateCat",
+        "company": "translated",
         "tms_url": "https://www.matecat.com",
         "type": [
             "cat"
@@ -296,6 +303,7 @@
     {
         "id": "memoq",
         "name": "MemoQ",
+        "company": "memoq",
         "tms_url": "https://www.memoq.com",
         "type": [
             "tms",
@@ -507,6 +515,7 @@
     {
         "id": "multitrans",
         "name": "Multitrans",
+        "company": "rws",
         "tms_url": "https://www.rws.com/localization/products/additional-solutions/",
         "type": [
             "tms",
@@ -560,6 +569,7 @@
     {
         "id": "phrase",
         "name": "Phrase TMS",
+        "company": "phrase",
         "tms_url": "https://phrase.com/products/phrase-tms/",
         "type": [
             "tms",
@@ -719,6 +729,7 @@
     {
         "id": "omegat",
         "name": "OmegaT",
+        "company": "omegat",
         "tms_url": "https://www.omegat.org",
         "type": [
             "cat"
@@ -761,6 +772,7 @@
     {
         "id": "passolo",
         "name": "Passolo",
+        "company": "rws",
         "tms_url": "https://www.trados.com/products/passolo/",
         "type": [
             "cat"
@@ -796,6 +808,7 @@
     {
         "id": "sdl-tms",
         "name": "SDL TMS",
+        "company": "rws",
         "tms_url": "https://docs.rws.com/publications/TMS/TMS%2012.7",
         "type": [
             "tms"
@@ -810,6 +823,7 @@
     {
         "id": "smartcat",
         "name": "Smartcat",
+        "company": "smartcat",
         "tms_url": "https://www.smartcat.ai",
         "type": [
             "tms",
@@ -881,6 +895,7 @@
     {
         "id": "smartling",
         "name": "Smartling",
+        "company": "smartling",
         "tms_url": "https://www.smartling.com",
         "type": [
             "tms",
@@ -928,6 +943,7 @@
     {
         "id": "tolgee",
         "name": "Tolgee",
+        "company": "Tolgee",
         "tms_url": "https://tolgee.io",
         "type": [
             "tms",
@@ -951,6 +967,7 @@
     {
         "id": "trados",
         "name": "Trados Studio",
+        "company": "rws",
         "tms_url": "https://www.trados.com/products/trados-studio",
         "type": [
             "cat"
@@ -1236,6 +1253,7 @@
     {
         "id": "transifex",
         "name": "Transifex",
+        "company": "transifex",
         "tms_url": "http://www.transifex.com",
         "type": [
             "tms",
@@ -1276,6 +1294,7 @@
     {
         "id": "transitnxt",
         "name": "TransitNXT",
+        "company": "star-group",
         "tms_url": "https://www.star-group.net/en/products/translation-localization.html",
         "type": [
             "tms",
@@ -1315,6 +1334,7 @@
     {
         "id": "translate5",
         "name": "translate5",
+        "company": "MittagQI",
         "tms_url": "https://translate5.net",
         "type": [
             "tms",
@@ -1386,6 +1406,7 @@
     {
         "id": "wordbee",
         "name": "Wordbee",
+        "company": "wordbee",
         "tms_url": "http://www.wordbee.com",
         "type": [
             "tms",
@@ -1490,6 +1511,7 @@
     {
         "id": "wordfast",
         "name": "Wordfast",
+        "company": "wordfast",
         "tms_url": "http://www.wordfast.com",
         "type": [
             "tms",
@@ -1571,6 +1593,7 @@
     {
         "id": "weglot",
         "name": "Weglot",
+        "company": "weglot",
         "tms_url": "https://www.weglot.com/",
         "type": [
             "tms",
@@ -1585,6 +1608,7 @@
     {
         "id": "worldserver",
         "name": "WorldServer",
+        "company": "rws",
         "tms_url": "https://docs.rws.com/975503/262470/worldserver-11-8-user-documentation/welcome-to-the-------------worldserver-documentation",
         "type": [
             "tms"
@@ -1604,6 +1628,7 @@
     {
         "id": "xtm",
         "name": "XTM",
+        "company": "xtm",
         "tms_url": "http://xtm.cloud",
         "type": [
             "tms",
@@ -1621,7 +1646,7 @@
                 }
             },
             {
-                "amplexor-mt": {
+                "acolad": {
                     "urls": [
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/acolad.html",
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-acolad-mt-engine.html"
