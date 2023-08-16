@@ -1,4 +1,5 @@
 ---
+grand_parent: Features
 parent: Customisation
 community_search_term: adaptive
 title: Adaptive machine translation

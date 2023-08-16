@@ -1,5 +1,5 @@
 ---
-grant_parent: Approaches
+grand_parent: Approaches
 parent: Neural machine translation
 title: Byte-pair encoding
 description: A data compression algorithm for tokenisation for machine translation

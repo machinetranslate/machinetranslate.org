@@ -1,4 +1,5 @@
 ---
+grand_parent: Features
 parent: Customisation
 title: Glossaries
 description: Terminology lists for customising machine translation
