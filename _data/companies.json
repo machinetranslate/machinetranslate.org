@@ -209,6 +209,19 @@
         ]
     },
     {
+        "name": "Eden AI",
+        "id": "edenai",
+        "type": [
+            "natural-language-processing-aggregator"
+        ],
+        "location": "France",
+        "founded": 2020,
+        "urls": [
+            "https://www.edenai.co/",
+            "https://www.crunchbase.com/organization/eden-ai"
+        ]
+    },
+    {
         "name": "ElevenLabs",
         "id": "elevenlabs",
         "type": [
@@ -656,6 +669,19 @@
             "https://www.crunchbase.com/organization/national-institute-of-information-and-communications-technology-japan"
         ],
         "note": "NICT products include a text machine translation TexTra and a voice machine translation, VoiceTra."
+    },
+    {
+        "name": "NeuralSpace",
+        "id": "neuralspace",
+        "type": [
+            "machine-translation-provider"
+        ],
+        "location": "United Kingdom",
+        "founded": 2019,
+        "urls": [
+            "https://www.neuralspace.ai/",
+            "https://www.crunchbase.com/organization/neural-space"
+        ]
     },
     {
         "name": "NetEase",
