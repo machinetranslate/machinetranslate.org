@@ -968,6 +968,33 @@
     },
     {
         "codes": [
+            "ce"
+        ],
+        "names": [
+            "Chechen"
+        ],
+        "family": [
+            "ccn"
+        ],
+        "scripts": [
+            "Arab",
+            "Cyrl",
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ru"
+        ]
+    },
+    {
+        "codes": [
             "ceb"
         ],
         "names": [
@@ -5216,6 +5243,7 @@
     {
         "codes": [
             "sn",
+            "sh",
             "sna"
         ],
         "names": [

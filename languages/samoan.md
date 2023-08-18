@@ -30,9 +30,6 @@ supported_apis:
 - id: iptranslator
   name: IP Translator
   supported_language_count: 53
-- id: rozetta
-  name: Rozetta T-400
-  supported_language_count: 96
 - id: microsoft
   name: Microsoft Translator
   supported_language_count: 103
@@ -42,6 +39,9 @@ supported_apis:
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: neuralspace
+  name: NeuralSpace
+  supported_language_count: 125
 - id: google
   name: Google Translate
   supported_language_count: 132

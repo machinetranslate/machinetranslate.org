@@ -18,11 +18,11 @@ api_integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/amazon-translate.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-amazon-translate-mt-engine.html
   name: Amazon Translate
-- slug: amplexor-mt
+- slug: acolad
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/acolad.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-acolad-mt-engine.html
-  name: Amplexor MT
+  name: Acolad
 - slug: crosslang
   plugin: true
   urls:

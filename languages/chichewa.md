@@ -24,15 +24,15 @@ territories:
 - mw
 - zw
 supported_apis:
-- id: rozetta
-  name: Rozetta T-400
-  supported_language_count: 96
 - id: lingvanex
   name: LingvaNex
   supported_language_count: 108
 - id: youdao
   name: Youdao Translate
   supported_language_count: 110
+- id: neuralspace
+  name: NeuralSpace
+  supported_language_count: 125
 - id: google
   name: Google Translate
   supported_language_count: 132

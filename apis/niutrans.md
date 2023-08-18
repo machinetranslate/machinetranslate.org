@@ -374,11 +374,11 @@ supported_languages:
   base_code: ch
   name: null
   variant_name: null
-- slug: null
+- slug: chechen
   code: che
   normalized_code: ce
   base_code: ce
-  name: null
+  name: Chechen
   variant_name: null
 - slug: null
   code: chk
