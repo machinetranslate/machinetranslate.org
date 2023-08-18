@@ -114,6 +114,15 @@
                 }
             },
             {
+                "mtrans": {
+                    "plugin": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://store.crowdin.com/mtrans"
+                    ]
+                }
+            },
+            {
                 "systran": {
                     "plugin": true,
                     "urls": [

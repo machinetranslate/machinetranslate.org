@@ -400,6 +400,25 @@
         "self-serve": true
     },
     {
+        "name": "MTrans",
+        "id": "mtrans",
+        "company": "human-science",
+        "urls": [
+            "https://store.crowdin.com/mtrans",
+            "https://store.crowdin.com/mtrans/details"
+
+        ],
+        "supported_apis": [
+            "amazon",
+            "deepl",
+            "google",
+            "microsoft",
+            "papago"
+        ],
+        "glossary": true,
+        "self-serve": false
+    },
+    {
         "name": "TMXmall",
         "id": "tmxmall",
         "company": "tmxmall",
