@@ -30,11 +30,16 @@
             "amazon",
             "deepl",
             "globalese",
+            "google",
+            "language-wire",
+            "microsoft",
             "modernmt",
             "pangeamt",
+            "systran",
             "tencent",
             "textshuttle",
-            "xl8"
+            "xl8",
+            "yandex"
         ],
         "self-serve": true
     },
