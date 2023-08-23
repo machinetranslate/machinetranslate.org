@@ -393,12 +393,12 @@
             "kakao",
             "microsoft",
             "modernmt",
+            "oracle",
             "papago",
             "promt",
             "systran",
             "tencent",
             "yandex",
-            "yeekit",
             "youdao"
         ],
         "glossary": true,
