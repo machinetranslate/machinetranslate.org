@@ -6067,11 +6067,13 @@
             "tzm"
         ],
         "names": [
+            "Tamazight",
+            "Berber",
             "Central Atlas Tamazight",
             "Atlasic"
         ],
         "family": [
-            "map"
+            "afa"
         ],
         "scripts": [
             "Tfng",
