@@ -53,15 +53,3 @@ Machine translation systems support a few glossary file formats.
 - TSV
 - XLSX (spreadsheets)
 
-### API support
-
-<ul>
-  {% assign glossary_apis = site.data.apis | where: "glossary, true %}
-  {% for api in glossary_apis %}
-    <li>
-    <a href="/{{ api.id }}">
-        {{ api.name }}
-    </a>
-    </li>
-  {% endfor %}
-</ul>
