@@ -4,16 +4,18 @@ nav_exclude: true
 nav_order: 999
 parent: Languages
 layout: language
-title: Central Atlas Tamazight
-description: Machine translation for Central Atlas Tamazight
+title: Tamazight
+description: Machine translation for Tamazight
 codes:
 - tzm
 names:
+- Tamazight
+- Berber
 - Central Atlas Tamazight
 - Atlasic
 family:
-- slug: austronesian
-  name: Austronesian
+- slug: afro-asiatic
+  name: Afro-Asiatic
 scripts:
 - Tfng
 - Arab
@@ -30,7 +32,7 @@ supported_apis:
   name: ModernMT
   supported_language_count: 195
 seo:
-  name: Machine translation for Central Atlas Tamazight
+  name: Machine translation for Tamazight
   type: Language
 
 ---

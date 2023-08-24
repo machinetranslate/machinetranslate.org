@@ -1112,11 +1112,11 @@ supported_languages:
   base_code: tw
   name: Twi
   variant_name: null
-- slug: central-atlas-tamazight
+- slug: tamazight
   code: tzm
   normalized_code: tzm
   base_code: tzm
-  name: Central Atlas Tamazight
+  name: Tamazight
   variant_name: null
 - slug: uyghur
   code: ug
