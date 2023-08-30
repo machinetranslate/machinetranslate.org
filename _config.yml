@@ -197,7 +197,7 @@ defaults:
         type: Article
 
 # Just the Docs
-remote_theme: pmarsceill/just-the-docs@v0.4.1
+remote_theme: pmarsceill/just-the-docs@v0.5.4
 logo: favicon.ico
 color_scheme: swissred
 search:
@@ -219,6 +219,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-seo-tag
   - html-proofer
+  - jekyll-include-cache
 
 # Default theme settings
 # Unused
@@ -244,3 +245,24 @@ social:
     - https://twitter.com/machtranslate
     - https://www.linkedin.com/company/machinetranslate
     - https://www.facebook.com/machinetranslate
+
+lsi: false
+
+incremental: true
+
+# Build settings
+# Note that .files are excluded by default.
+exclude:
+  - .bundle
+  - README.md
+  - generate.py
+  - .sass-cache/
+  - .jekyll-cache/   
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
