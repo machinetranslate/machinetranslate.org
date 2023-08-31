@@ -8,22 +8,10 @@ seo:
   name: Customisation of machine translation
 ---
 
-{% assign customisable_apis = site.data.apis | where: "customisation_languages", true | where: "glossary", true | concat: site.data.apis | where: "formality", true | concat: site.data.apis | where: "adaptive", true | concat: site.data.apis | where: "fine-tuning", true %}
+**Customisation** of machine translation is used to accurately translate for the domain and reflect a specific terminology and style.
 
-{{ customisable_apis | size }} APIs support customisation.
+The most common type of customisation is [fine-tuning](fine-tuning.md) on [parallel data](parallel-data.md).
 
-<ul>
-  {% for api in customisable_apis %}
-    <li>
-    <a href="/{{ api.id }}">
-        {{ api.name }}
-    </a>
-    </li>
-  {% endfor %}
-</ul>
+{% assign customisable_apis_size = site.data.apis | where: "customisation_languages", true | concat: site.data.apis | where: "glossary", true | concat: site.data.apis | where: "formality", true | concat: site.data.apis | where: "adaptive", true | concat: site.data.apis | where: "fine-tuning", true %}
 
----
-
-### See also
-
-- [Features of machine translation APIs](/features/features.md)
+{{ customisable_apis | size }} machine translation APIs support customisation.
