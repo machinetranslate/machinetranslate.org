@@ -12,6 +12,7 @@ seo:
 
 | Deadline | Publication | Organisers |
 | --- | --- | --- |
+| **10 September** | [**International Journal on Natural Language Computing**](https://airccse.org/journal/ijnlc/) | |
 | **5 September 2023** | [**WMT23**](/events/wmt23.md) | Singapore |
 | 15 August | [AMTA 2023](/events/amta2023.md) | online |
 | 7 July 2023 | [WAT 2023](/events/wat2023.md) | Macau SAR, China |
