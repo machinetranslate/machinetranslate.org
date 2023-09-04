@@ -66,7 +66,7 @@ community_search_exclude: true
   - [Alignment (and term extraction) \[#71\]](https://github.com/machinetranslate/machinetranslate.org/issues/71)
   - ~~[Glossaries](/customisation/glossaries.md)~~
   - ~~[Parallel data](/customisation/parallel-data.md)~~
-  - [Formality \[#69\]](https://github.com/machinetranslate/machinetranslate.org/issues/69)
+  - ~~[Formality \[#69\]](https://github.com/machinetranslate/machinetranslate.org/issues/69)~~
   - [Gender \[#410\]](https://github.com/machinetranslate/machinetranslate.org/issues/410)
   - [Morphology (including agglutination) \[#70\]](https://github.com/machinetranslate/machinetranslate.org/issues/70)
   - [File formats \[#80\]](https://github.com/machinetranslate/machinetranslate.org/issues/80)
