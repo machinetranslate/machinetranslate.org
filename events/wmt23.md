@@ -56,6 +56,7 @@ It will be organised by [WMT](/associations/wmt.md).
 - [Quality estimation](https://wmt-qe-task.github.io/)
 - [MT test suites](http://www2.statmt.org/wmt23/testsuite-subtask.html)
 - [Automatic post-editing](http://www2.statmt.org/wmt23/ape-task.html)
+- [Parallel data curation](http://www2.statmt.org/wmt23/data-task.html)
 
 
 In 2022, the *News* machine translation task was renamed the *General* machine translation task.
