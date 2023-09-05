@@ -35,7 +35,7 @@ The second workshop on Corpus Generation and Corpus Augmentation for Machine Tra
 
 ### Panel
 
-- silvio Amir, Northeastern University
+- Silvio Amir, Northeastern University
 
 ## Schedule
 
