@@ -328,13 +328,13 @@ supported_languages:
   name: Vietnamese
   variant_name: null
 - slug: chinese
-  code: zh-cn
+  code: zh
   normalized_code: zh-Hans
   base_code: zh
   name: Chinese
   variant_name: Simplified Chinese
 - slug: chinese
-  code: zh-tw
+  code: zt
   normalized_code: zh-Hant
   base_code: zh
   name: Chinese
