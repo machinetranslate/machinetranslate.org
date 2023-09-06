@@ -15,6 +15,7 @@ seo:
 | **10 September 2023** | [***International Journal on Natural Language Computing***](https://airccse.org/journal/ijnlc/) | |
 | **5 September 2023** | [**WMT23**](/events/wmt23.md) | Singapore |
 | 15 August 2023 | [AMTA 2023](/events/amta2023.md) | online |
+| 15 July | [MT Marathon](/events/mtm2023.md) | Tartu, Estonia |
 | 7 July 2023 | [WAT 2023](/events/wat2023.md) | Macau SAR, China |
 | 16 July 2023 | [CoCo4MT 2](/events/coco4mt-2.md) | Macau SAR, China |
 | 15 May 2023 | [MT Summit 2023 papers](/events/mtsummit2023.md) | Macau SAR, China |
