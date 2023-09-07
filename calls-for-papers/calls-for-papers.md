@@ -12,6 +12,7 @@ seo:
 
 | Deadline | Publication | Organisers |
 | --- | --- | --- |
+| **1 April 2024** | [***Machine and Computer-assisted Interpreting***](https://lans-tts.uantwerpen.be/index.php/LANS-TTS/announcement/view/24) | LANS-TTS |
 | **10 September 2023** | [***International Journal on Natural Language Computing***](https://airccse.org/journal/ijnlc/) | |
 | **5 September 2023** | [**WMT23**](/events/wmt23.md) | Singapore |
 | 15 August 2023 | [AMTA 2023](/events/amta2023.md) | online |
