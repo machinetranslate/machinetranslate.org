@@ -329,10 +329,10 @@ supported_languages:
   variant_name: null
 - slug: chinese
   code: zh
-  normalized_code: zh-Hans
+  normalized_code: zh
   base_code: zh
   name: Chinese
-  variant_name: Simplified Chinese
+  variant_name: null
 - slug: chinese
   code: zt
   normalized_code: zh-Hant
