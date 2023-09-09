@@ -25,8 +25,8 @@ seo:
 
 ---
 
-The nineteenth Machine Translation Summit 2023 (**MTS 2023**) will take place from 4 September to 8 September in Macau Special Administrative Region, China.
-MTS 2023 is organised by [AAMT](/associations/aamt.md).
+The nineteenth Machine Translation Summit 2023 (**MTS 2023**) took place from 4 September to 8 September in Macau Special Administrative Region, China.
+MTS 2023 was organised by [AAMT](/associations/aamt.md).
 
 > Machine Translation (MT) Summit is an international conference, which brings together people from the academic and commercial world developing MT and users of MT systems. The conference overviews state-of-the-art technologies in MT, its major contemporary trends, and practical applications.
 
