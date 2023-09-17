@@ -17,7 +17,7 @@ seo:
 | 8 November | [**AMTA 2023**](amta2023.md) | online |
 | 4 - 6 October | [**TAUS Annual Conference 2023**](taus2023.md) | Salt Lake City, Utah |
 | 18 September | [**Machine Translation Meetup 13**](zurich-13.md) | Zurich, Switzerland |
-| 13 September | [**Seattle Localization User Group meetup**](slug-llms-in-localisation.md) | Seattle, Washington |
+| 13 September | [Seattle Localization User Group meetup](slug-llms-in-localisation.md) | Seattle, Washington |
 | 4 - 8 September | [MT Summit 2023](mtsummit2023.md) | Macau SAR, China |
 | 4 September | [WAT 2023](wat2023.md) | Macau SAR, China |
 | 4 - 5 September | [CoCo4MT 2023](coco4mt-2.md) | Macau SAR, China |

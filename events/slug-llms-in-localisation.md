@@ -19,9 +19,9 @@ seo:
     name: Washington, United States of America
 ---
 
-The **Seattle Localization User Group** meetup will take place on 13 September, 2023, in Seattle, Washington.
+The **Seattle Localization User Group** meetup took place on 13 September, 2023, in Seattle, Washington.
 
-A panel will discuss ***Applications of Large Language Models (LLMs) in Localization***.
+A panel discussed ***Applications of Large Language Models (LLMs) in Localization***.
 
 > Our panelists have deep subject matter expertise on AI, Generative AI, and LLMs, and have unique perspectives on how these technologies can be used in the context of localization.
 
