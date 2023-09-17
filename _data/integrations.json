@@ -576,7 +576,7 @@
         ]
     },
     {
-        "id": "phrase",
+        "id": "phrasetms",
         "name": "Phrase TMS",
         "company": "phrase",
         "tms_url": "https://phrase.com/products/phrase-tms/",

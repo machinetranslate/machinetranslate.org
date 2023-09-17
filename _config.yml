@@ -197,7 +197,7 @@ defaults:
         type: Article
 
 # Just the Docs
-remote_theme: pmarsceill/just-the-docs@v0.5.4
+remote_theme: pmarsceill/just-the-docs@v0.6.1
 logo: favicon.ico
 color_scheme: swissred
 search:
