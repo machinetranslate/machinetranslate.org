@@ -40,20 +40,23 @@ parent: Quality estimation
     <dd><a href="#language-support">{{ page.supported_languages | size }} languages</a></dd>
   {% endif %}
 
-  
   <dt>Integrations</dt>
-  {% if page.only_compatible_tms %}
-  <dd><a href="/{{ page.only_compatible_tms }}">{{ page.only_compatible_tms|capitalize }}</a></dd>
+  {% for tms in page.only_compatible_tms %}
+  {% if tms.name %}
+  <dd><a href="/{{ tms.id }}">{{ tms.name }}</a></dd>
   {% else %}
   <dd>Any translation management system (API)</dd>
   {% endif %}
+  {% endfor %}
   
   <dt>APIs</dt>
-  {% if page.only_compatible_mt_api %}
-  <dd><a href="/{{ page.only_compatible_mt_api }}">{{ page.only_compatible_mt_api|capitalize }}</a></dd>
+  {% for api in page.only_compatible_mt_api %}
+  {% if api.name %}
+  <dd><a href="/{{ api.id }}">{{ api.name }}</a></dd>
   {% else %}
   <dd>Any machine translation API</dd>
   {% endif %}
+  {% endfor %}
 </dl>
 
   {% if page.urls.size > 0 %}
@@ -80,9 +83,9 @@ parent: Quality estimation
           {{ page.supported_languages_comment }}
         {% endif %}
         {% if page.supported_languages.size == 1 %}
-          <strong>1</strong> language is supported by the {{ page.title }} Company.
+        {{ page.title }} supports <strong">1</strong> language.
         {% else %}
-          <strong>{{ page.supported_languages | size }}</strong> languages are supported by the {{ page.title }} Company.
+         {{ page.title }} supports <strong>{{ page.supported_languages | size }}</strong> languages.
         {% endif %}
         <p class="preview hint">
           {{ page.supported_languages | slice: 0, 5 | map: 'name' | join: ', ' }}
@@ -94,15 +97,12 @@ parent: Quality estimation
           <li>
             {% if language.slug %}
             <a href="/{{ language.slug }}">
-              <code>{{ language.base_code }}</code>
+              <code>{{ language.code }}</code>
               {{ language.name }}
               {% if language.variant_name %}
                 | {{ language.variant_name }}
               {% endif %}
             </a>
-              {% if language.base_code != language.code %}
-                ⚠️ {{ page.title }} uses <code>{{ language.code }}</code>.
-              {% endif %}
             {% else %}
             <a href="https://en.wikipedia.org/wiki/ISO_639:{{ language.base_code }}" target="_blank">
               <code>{{ language.code }}</code>
@@ -118,7 +118,7 @@ parent: Quality estimation
 
 {% else %}
 
-  <p>The {{ page.title }} company supports an unknown number of languages.</p>
+  <p>{{ page.title }} supports an unknown number of languages.</p>
 </section>
 
 {% endif %}

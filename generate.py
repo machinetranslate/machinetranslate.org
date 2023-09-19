@@ -557,9 +557,25 @@ for estimation in QUALITY_ESTIMATION:
   urls = estimation['urls']
   if not isinstance(urls, list):
     raise Exception(urls)
-  
-  only_compatible_mt_api = estimation.get('only_compatible_mt_api', False)
-  only_compatible_tms = estimation.get('only_compatible_tms', False)
+
+  only_compatible_mt_api = []
+  only_compatible_mt_api_id = estimation.get('only_compatible_mt_api', False)
+  api_name = next((api['name'] for api in APIS if only_compatible_mt_api_id and \
+                   api['id'].lower() == only_compatible_mt_api_id.lower()), only_compatible_mt_api_id)
+  only_compatible_mt_api.append({
+    'id': only_compatible_mt_api_id,
+    'name': api_name
+  })
+
+  only_compatible_tms = []
+  only_compatible_tms_id = estimation.get('only_compatible_tms', False)
+  tms_name = next((tms['name'] for tms in INTEGRATIONS if only_compatible_tms_id and \
+                   tms['id'].lower() == only_compatible_tms_id.lower()), only_compatible_tms_id)
+  only_compatible_tms.append({
+    'id': only_compatible_tms_id,
+    'name': tms_name
+  })
+
   customisation = estimation.get('customisation', False)
 
   supported_language_codes = list(set(flatten(languages)))
