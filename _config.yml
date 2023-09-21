@@ -125,6 +125,13 @@ defaults:
       permalink: /:basename
       seo:
         type: Article
+    - scope:
+      path: quality-estimation
+      type: pages
+    values:
+      permalink: /:basename
+      seo:
+        type: Product
   - scope:
       path: research-laboratories
       type: pages
