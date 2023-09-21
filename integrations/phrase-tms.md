@@ -4,7 +4,7 @@ layout: integration
 nav_order: 969
 title: Phrase TMS
 description: Machine translation API integrations in Phrase TMS
-id: phrase
+id: phrase-tms
 parent: Integrations
 type:
 - tms
