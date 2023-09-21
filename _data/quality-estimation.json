@@ -2,8 +2,8 @@
     {
         "id": "modelfront",
         "name": "ModelFront",
-        "company": "modelfront",
-        "description": "Translation quality prediction",
+        "company": "ModelFront",
+        "tagline": "Translation quality prediction",
         "languages": [
             "af",
             "sq",
@@ -164,8 +164,8 @@
     {
         "id": "kantanqes",
         "name": "KantanQES",
-        "company": "kantan-ai",
-        "description": "Quality estimation score",
+        "company": "Kantan-AI",
+        "tagline": "Quality estimation score",
         "languages": [
             [
                 "ar",
@@ -722,9 +722,9 @@
     },
     {
         "id": "phrase-mtqe",
-        "name": "Phrase - MTQE",
-        "company": "phrase",
-        "description": "Machine translation quality estimation",
+        "name": "Phrase MTQE",
+        "company": "Phrase",
+        "tagline": "Machine translation quality estimation",
         "languages": [
             [
                 "ar",
@@ -1636,7 +1636,7 @@
             ]
         ],
         "only_compatible_mt_api": null,
-        "only_compatible_tms": "phrasetms",
+        "only_compatible_tms": "phrase-tms",
         "customisation": false,
         "urls": [
             "https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-",
@@ -1645,9 +1645,9 @@
     },
     {
         "id": "omniscien-qe",
-        "name": "Omniscien - Confidence Scores",
-        "company": "omniscien-technologies",
-        "description": "Translation confidence scoring and quality estimates",
+        "name": "Omniscien Confidence Scores",
+        "company": "Omniscien-Technologies",
+        "tagline": "Translation confidence scoring and quality estimates",
         "languages": [
             [
                 "ar",
@@ -3958,7 +3958,7 @@
         "id": "demt-estimate-api",
         "name": "DeMT Estimate API",
         "company": "TAUS",
-        "description": "",
+        "tagline": null,
         "languages": [
             "af",
             "sq",
@@ -4080,9 +4080,9 @@
     },
     {
         "id": "translationhub",
-        "name": "Google Translation Hub - MTQP",
-        "company": "google",
-        "description": "Machine translation quality prediction scores",
+        "name": "Google Translation Hub MTQP",
+        "company": "Google",
+        "tagline": "Machine translation quality prediction scores",
         "languages": [
             [
                 "en",
