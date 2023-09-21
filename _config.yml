@@ -125,7 +125,7 @@ defaults:
       permalink: /:basename
       seo:
         type: Article
-    - scope:
+  - scope:
       path: quality-estimation
       type: pages
     values:
