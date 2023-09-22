@@ -107,14 +107,14 @@ There is a quality estimation integration or connector available for most transl
 
 | Product | Feature | Provider |
 | ---| --- | --- |
-| [translate5](/integrations/translate5.md) | [Quality prediction](https://www.modelfront.com/integrations/translate5) | [ModelFront](/quality-estimation/modelfront) |
-| [memoQ](/integrations/memoq.md) | [Quality estimates](https://www.memoq.com/integrations/mt-quality-estimates) | [ModelFront](/quality-estimation/modelfront), [TAUS](/quality-estimation/taus) [DeMT Estimate API](/quality-estimation/demt-estimate-api) |
-| [Crowdin](/integrations/crowdin.md) | [Quality prediction](https://store.crowdin.com/modelfront) | [ModelFront](/quality-estimation/modelfront) |
+| [translate5](/integrations/translate5.md) | [ModelFront quality prediction plug-in](https://www.modelfront.com/integrations/translate5) | [ModelFront](/quality-estimation/modelfront) |
+| [memoQ](/integrations/memoq.md) | [Quality estimates (AIQE)](https://www.memoq.com/integrations/mt-quality-estimates) | [ModelFront](/quality-estimation/modelfront), [TAUS](/quality-estimation/taus) [DeMT Estimate API](/quality-estimation/demt-estimate-api) |
+| [Crowdin](/integrations/crowdin.md) | [ModelFront quality prediction](https://store.crowdin.com/modelfront) | [ModelFront](/quality-estimation/modelfront) |
 | [XTM](/integrations/xtm.md) | ModelFront XTM connector | [ModelFront](/quality-estimation/modelfront) |
 | KantanStream | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](/industry/companies.md#kantanmt) |
 | [PhraseTMS](phrase-tms) | [MT quality estimation](https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-), ModelFront Phrase connector | [Phrase QE](/quality-estimation/phrase-qe) |
 | GlobalDoc LangXpert | [Effort estimation](https://globaldoc.com/about-us/our-technology/langxpert-modelfront-technology-partnership/) | [ModelFront](/quality-estimation/modelfront) |
-| Google Cloud Translation Hub | [Quality prediction](https://cloud.google.com/translation-hub/docs/translator-edit#segment-details) | [Google Cloud Translation Hub - MTQP](/quality-estimation/google-translation-hub-mtqp/) |
+| Google Cloud Translation Hub | [Machine translation quality prediction](https://cloud.google.com/translation-hub/docs/translator-edit#segment-details) | [Google Cloud Translation Hub - MTQP](/quality-estimation/google-translation-hub-mtqp/) |
 
 translate5 is open-source.
 
