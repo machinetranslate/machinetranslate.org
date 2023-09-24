@@ -20,19 +20,32 @@ parent: Integrations
   {% endif %}
 </p>
 
+<p>
+    {% if page.quality_estimation_integrations.size == 1 %} 
+      The <strong>{{ page.title }}</strong> {{ page.type_description }} has <a href="#qe-integrations">{{ page.quality_estimation_integrations | size }} quality estimation API integration</a>.
+    {% if page.quality_estimation_integrations > 1 %}
+      The <strong>{{ page.title }}</strong> {{ page.type_description }} has <a href="#qe-integrations">{{ page.quality_estimation_integrations | size }} quality estimation API integration</a>.
+    {% endif %}
+    {% endif %}
+</p>
+
 <blockquote>
   <dl>
 
-    <dt>API support</dt>
-    {% if page.api_integrations.size == 1 %}
-      <dd><a href="#api-support">1 API</a></dd>
-    {% else %}
-      <dd><a href="#api-support">{{ page.api_integrations | size }} APIs</a></dd>
-    {% endif %}
-
-    {% if page.open-source %}
-      <dd>Open-source</dd>
-    {% endif %}
+    <dt>API support:</dt>
+    <dd>
+      {% if page.api_integrations.size > 0 %}
+        <a href="#api-support">{{ page.api_integrations.size }} machine translation API{% if page.api_integrations.size > 1 %}s{% endif %}, </a>
+      {% endif %}
+    </dd>
+    <dd>
+      {% if page.quality_estimation_integrations.size > 0 %}
+        <a href="#qe-integrations">{{ page.quality_estimation_integrations.size }} quality estimation API{% if page.quality_estimation_integrations.size > 1 %}s{% endif %}, </a>
+      {% endif %}
+    </dd>
+    
+    
+    
   </dl>
 
   <hr/>
@@ -46,7 +59,7 @@ parent: Integrations
 {{ content }}
 
 <section id="api-support">
-  <h2>API support</h2>
+  <h2>Machine translation</h2>
   <details>
     <summary>
       <strong>{{ page.api_integrations | size }}</strong> machine translation API integrations are available for {{ page.title }}.
@@ -72,6 +85,36 @@ parent: Integrations
     {% endfor %}
   </details>
 </section>
+
+{% if page.quality_estimation_integrations.size > 0 %}
+<section id="qe-integrations">
+  <h2>Quality estimation</h2>
+  <details>
+    <summary>
+      <strong>{{ page.quality_estimation_integrations| size }}</strong> Quality estimation API integrations are available for {{ page.title }}.
+      <p class="preview hint">
+        {{page.quality_estimation_integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if page.quality_estimation_integrations > 5 %}, …{% endif %}
+      </p>
+    </summary>
+    <ul>
+    {% for qe in page.quality_estimation_integrations %}
+      <li>
+        {% if qe.plugin %}
+          <a href="/{{ qe.slug }}">{{ qe.name }}</a> (plugin)
+        {% else %}
+          <a href="/{{ qe.slug }}">{{ qe.name }}</a>
+        {% endif %}
+          {% if qe.custom or qe.glossary or qe.formality %}
+            {% if qe.custom %}| <strong>fine-tuning</strong> support{% endif %}
+            {% if qe.glossary %}| <strong>glossary</strong> support{% endif %}
+            {% if qe.formality %}| <strong>formality</strong> support{% endif %}
+          {% endif %}
+      </li>
+    {% endfor %}
+  </details>
+</section>
+{% endif %}
 
 {% if page.fuzzy_repair %}
   <h2>Other features</h2>

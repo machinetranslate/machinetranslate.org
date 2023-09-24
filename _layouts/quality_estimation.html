@@ -19,6 +19,15 @@ parent: Quality estimation
   {% endif %}
 </p>
 
+<p>
+    {% if page.integrations.size == 1 %}
+      There is <a href="#integrations">1 integration</a> with a translation management system.
+    {% endif %}
+    {% if page.integrations.size > 1 %}
+      <a href="#integrations">{{ page.integrations | size }} machine translation management systems</a> have integrated the {{ page.title }} quality estimation API.
+    {% endif %}
+</p>
+
 {% if page.tagline %}
 <blockquote>
   <h3>
@@ -108,9 +117,9 @@ parent: Quality estimation
 </blockquote>
 
 
+{% if page.supported_languages.size > 0 %}
 <section id="language-support">
   <h2>Language support</h2>
-  {% if page.supported_languages.size > 0 %}
 
     <details>
       <summary>
@@ -155,5 +164,33 @@ parent: Quality estimation
 
   <p>{{ page.title }} supports an unknown number of languages.</p>
 </section>
+
+{% endif %}
+
+{% if page.integrations.size > 0 %}
+
+  <section id="integrations">
+    <h2>Integrations</h2>
+    <details>
+      <summary>
+        {% if page.integrations.size == 1 %}
+          <strong>1</strong> translation management system has integrated the {{ page.title }} quality estimation API.
+        {% else %}
+          <strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} quality estimation API.
+        {% endif %}
+        <p class="preview hint">
+          {{ page.integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
+          {% if page.integrations.size > 5 %}, …{% endif %}
+        </p>
+      </summary>
+      <ul>
+        {% for i in page.integrations %}
+          <li>
+              <a href="/{{ i.slug }}" >{{ i.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+  </section>
 
 {% endif %}
