@@ -846,7 +846,7 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786605/sdl-multitrans/configuring-google-translate-server
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
   custom: true
   glossary: true

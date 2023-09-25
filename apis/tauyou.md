@@ -17,7 +17,7 @@ integrations:
   name: GlobalLink
 - slug: matecat
   name: MateCat
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
   active: false
 - slug: wordbee

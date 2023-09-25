@@ -184,7 +184,7 @@ api_integrations:
   name: Youdao Translate
 fuzzy_repair: true
 open-source: false
-quality_estimation_api_integrations: []
+quality_estimation_integrations: []
 seo:
   name: Machine translation API integrations in Trados Studio
   type: Product

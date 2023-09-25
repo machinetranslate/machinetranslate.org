@@ -359,7 +359,7 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786625/sdl-multitrans/configuring-systran
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
   custom: true
 - slug: smartling

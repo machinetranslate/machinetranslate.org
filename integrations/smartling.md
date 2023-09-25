@@ -40,7 +40,7 @@ api_integrations:
   name: Watson Language Translator
 fuzzy_repair: false
 open-source: false
-quality_estimation_api_integrations: []
+quality_estimation_integrations: []
 seo:
   name: Machine translation API integrations in Smartling
   type: Product

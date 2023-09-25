@@ -703,7 +703,7 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786613/sdl-multitrans/configuring-microsoft-translator
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
   custom: true
   glossary: true

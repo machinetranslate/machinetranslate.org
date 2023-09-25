@@ -21,10 +21,9 @@ parent: Quality estimation
 
 <p>
     {% if page.integrations.size == 1 %}
-      There is <a href="#integrations">1 integration</a> with a translation management system.
-    {% endif %}
-    {% if page.integrations.size > 1 %}
-      <a href="#integrations">{{ page.integrations | size }} machine translation management systems</a> have integrated the {{ page.title }} quality estimation API.
+      <a href="#integrations">1 machine translation management system</a> has integrated the {{ page.title }} quality estimation API.
+    {% else %}
+      <a href="#integrations">{{ page.integrations | size }} machine translation management systems</a> have integrated the <strong>{{ page.title }}</strong> quality estimation API.
     {% endif %}
 </p>
 
@@ -117,10 +116,9 @@ parent: Quality estimation
 </blockquote>
 
 
-{% if page.supported_languages.size > 0 %}
 <section id="language-support">
   <h2>Language support</h2>
-
+  {% if page.supported_languages.size > 0 %}
     <details>
       <summary>
         {% if page.supported_languages_comment %}
@@ -160,12 +158,12 @@ parent: Quality estimation
       </ul>
     </details>
 
-{% else %}
+  {% else %}
 
-  <p>{{ page.title }} supports an unknown number of languages.</p>
+    <p>{{ page.title }} supports an unknown number of languages.</p>
+  {% endif %}
 </section>
 
-{% endif %}
 
 {% if page.integrations.size > 0 %}
 

@@ -266,7 +266,7 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786621/sdl-multitrans/configuring-promt
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
   custom: true
   glossary: true

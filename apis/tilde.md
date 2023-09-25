@@ -159,7 +159,7 @@ integrations:
   glossary: true
   urls:
   - https://docs.memoq.com/current/en/Places/tilde-mt-plugin-settings.html
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
   custom: true
 - slug: trados

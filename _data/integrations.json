@@ -160,8 +160,8 @@
         ],
         "quality_estimation_integrations":[
             {
-             "modelfront": {
-                 "custom": true
+                "modelfront": {
+                    "custom": true
                }
             }
         ],
@@ -730,8 +730,8 @@
         ],
         "quality_estimation_integrations":[
             {
-            "phrase-mtqe": {
-                 "custom": true
+                "phrase-mtqe": {
+                    "custom": false
                }
             }
         ],
@@ -1408,8 +1408,8 @@
         ],
         "quality_estimation_integrations":[
             {
-             "modelfront": {
-                 "custom": true
+                "modelfront": {
+                    "custom": true
                }
             }
         ],

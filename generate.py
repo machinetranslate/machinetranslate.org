@@ -472,7 +472,7 @@ for tms in INTEGRATIONS:
       'api_integrations': api_integrations,
       'fuzzy_repair': fuzzy_repair,
       'open-source': tms_open_source,
-      "quality_estimation_integrations": qe_api_integrations,
+      'quality_estimation_integrations': qe_api_integrations,
       'seo': {
         'name': desc,
         'type': 'Product'
@@ -498,7 +498,6 @@ for a in AGGREGATORS:
     a_name = a['name']
     a_urls = a['urls']
     a_self_serve = a.get('self-serve', False)
-    # APIS_BY_ID = {api['id']: api for api in APIS}
 
     a_supported_apis = []
     for a in a['supported_apis']:

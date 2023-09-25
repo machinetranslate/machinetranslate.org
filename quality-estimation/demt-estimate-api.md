@@ -564,6 +564,7 @@ only_compatible_tms:
 - id: null
   name: null
 customisation: false
+integrations: []
 seo:
   name: The DeMT Estimate API translation quality estimation API
   type: Product

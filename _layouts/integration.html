@@ -14,7 +14,7 @@ parent: Integrations
 
 <p>
   {% if page.api_integrations.size == 1 %}
-    The <strong>{{ page.title }}</strong> {{ page.type_description }} has <a href="#api-support">{{ page.api_integrations | size }} machine translation API integration</a>.
+  <a href="#integrations">1 machine translation API</a> has been integrated by the <strong>{{ page.title }}</strong> translation management system.
   {% else %}
     The <strong>{{ page.title }}</strong> {{ page.type_description }} has <a href="#api-support">{{ page.api_integrations | size }} machine translation API integrations</a>.
   {% endif %}
@@ -22,10 +22,9 @@ parent: Integrations
 
 <p>
     {% if page.quality_estimation_integrations.size == 1 %} 
-      The <strong>{{ page.title }}</strong> {{ page.type_description }} has <a href="#qe-integrations">{{ page.quality_estimation_integrations | size }} quality estimation API integration</a>.
-    {% if page.quality_estimation_integrations > 1 %}
-      The <strong>{{ page.title }}</strong> {{ page.type_description }} has <a href="#qe-integrations">{{ page.quality_estimation_integrations | size }} quality estimation API integration</a>.
-    {% endif %}
+    <a href="#qe-integrations">1 quality estimation API</a> has been integrated by the <strong>{{ page.title }}</strong> translation management system.
+    {% else %}
+      The <strong>{{ page.title }}</strong> translation management system has <a href="#qe-integrations">{{ page.quality_estimation_integrations | size }} quality estimation API integrations</a>.
     {% endif %}
 </p>
 
@@ -35,12 +34,12 @@ parent: Integrations
     <dt>API support</dt>
     <dd>
       {% if page.api_integrations.size > 0 %}
-        <a href="#api-support">{{ page.api_integrations.size }} machine translation API{% if page.api_integrations.size > 1 %}s{% endif %}, </a>
+        <a href="#api-support">{{ page.api_integrations.size }} machine translation API{% if page.api_integrations.size > 0 %}s{% endif %}</a>{% if page.quality_estimation_integrations.size > 0 %},{% endif %}
       {% endif %}
     </dd>
     <dd>
       {% if page.quality_estimation_integrations.size > 0 %}
-        <a href="#qe-integrations">{{ page.quality_estimation_integrations.size }} quality estimation API{% if page.quality_estimation_integrations.size > 1 %}s{% endif %} </a>
+        <a href="#qe-integrations"> {{ page.quality_estimation_integrations.size }} quality estimation API{% if page.quality_estimation_integrations.size > 1 %}s{% endif %} </a>
       {% endif %}
     </dd>
     
@@ -71,11 +70,7 @@ parent: Integrations
     <ul>
     {% for api in page.api_integrations %}
       <li>
-        {% if api.plugin %}
-          <a href="/{{ api.slug }}">{{ api.name }}</a> (plugin)
-        {% else %}
-          <a href="/{{ api.slug }}">{{ api.name }}</a>
-        {% endif %}
+          <a href="/{{ api.slug }}">{{ api.name }}</a> {% if api.plugin %}(plugin){% endif %}
           {% if api.custom or api.glossary or api.formality %}
             {% if api.custom %}| <strong>fine-tuning</strong> support{% endif %}
             {% if api.glossary %}| <strong>glossary</strong> support{% endif %}
@@ -86,7 +81,7 @@ parent: Integrations
   </details>
 </section>
 
-{% if page.quality_estimation_integrations.size > 0 %}
+
 <section id="qe-integrations">
   <h2>Quality estimation</h2>
   <details>
@@ -100,21 +95,15 @@ parent: Integrations
     <ul>
     {% for qe in page.quality_estimation_integrations %}
       <li>
-        {% if qe.plugin %}
-          <a href="/{{ qe.slug }}">{{ qe.name }}</a> (plugin)
-        {% else %}
-          <a href="/{{ qe.slug }}">{{ qe.name }}</a>
-        {% endif %}
-          {% if qe.custom or qe.glossary or qe.formality %}
+        <a href="/{{ qe.slug }}">{{ qe.name }}</a> {% if qe.plugin %}(plugin){% endif %}
+          {% if qe.custom %}
             {% if qe.custom %}| <strong>fine-tuning</strong> support{% endif %}
-            {% if qe.glossary %}| <strong>glossary</strong> support{% endif %}
-            {% if qe.formality %}| <strong>formality</strong> support{% endif %}
           {% endif %}
       </li>
     {% endfor %}
   </details>
 </section>
-{% endif %}
+
 
 {% if page.fuzzy_repair %}
   <h2>Other features</h2>

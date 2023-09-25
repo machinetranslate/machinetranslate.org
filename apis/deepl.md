@@ -240,7 +240,7 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786901/sdl-multitrans/configuring-deepl
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
   glossary: true
 - slug: omegat

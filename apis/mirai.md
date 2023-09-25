@@ -105,7 +105,7 @@ integrations:
   name: MemoQ
   urls:
   - https://docs.memoq.com/current/en/Places/mirai-mt-plugin.html
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
 - slug: trados
   name: Trados Studio

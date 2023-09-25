@@ -38,7 +38,7 @@ api_integrations:
   name: Yandex Translate
 fuzzy_repair: true
 open-source: true
-quality_estimation_api_integrations: []
+quality_estimation_integrations: []
 seo:
   name: Machine translation API integrations in OmegaT
   type: Product

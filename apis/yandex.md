@@ -578,7 +578,7 @@ integrations:
   active: false
 - slug: matecat
   name: MateCat
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
 - slug: omegat
   name: OmegaT
