@@ -241,9 +241,7 @@ supported_languages:
 only_compatible_mt_api:
 - id: kantanmt
   name: KantanMT
-only_compatible_tms:
-- id: null
-  name: null
+only_compatible_tms: null
 customisation: true
 integrations: []
 seo:

@@ -557,12 +557,8 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
-only_compatible_mt_api:
-- id: null
-  name: null
-only_compatible_tms:
-- id: null
-  name: null
+only_compatible_mt_api: null
+only_compatible_tms: null
 customisation: false
 integrations: []
 seo:

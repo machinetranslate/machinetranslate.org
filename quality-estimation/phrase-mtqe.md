@@ -347,9 +347,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
-only_compatible_mt_api:
-- id: null
-  name: null
+only_compatible_mt_api: null
 only_compatible_tms:
 - id: phrase-tms
   name: Phrase TMS

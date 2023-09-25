@@ -576,21 +576,27 @@ for estimation in QUALITY_ESTIMATION:
 
   only_compatible_mt_api = []
   only_compatible_mt_api_id = estimation.get('only_compatible_mt_api', False)
-  api_name = next((api['name'] for api in APIS if only_compatible_mt_api_id and \
-                   api['id'].lower() == only_compatible_mt_api_id.lower()), only_compatible_mt_api_id)
-  only_compatible_mt_api.append({
-    'id': only_compatible_mt_api_id,
-    'name': api_name
-  })
+  if only_compatible_mt_api_id:
+    api_name = next((api['name'] for api in APIS if only_compatible_mt_api_id and \
+                    api['id'].lower() == only_compatible_mt_api_id.lower()), only_compatible_mt_api_id)
+    only_compatible_mt_api.append({
+      'id': only_compatible_mt_api_id,
+      'name': api_name
+    })
+  else:
+    only_compatible_mt_api = only_compatible_mt_api_id
 
   only_compatible_tms = []
   only_compatible_tms_id = estimation.get('only_compatible_tms', False)
-  tms_name = next((tms['name'] for tms in INTEGRATIONS if only_compatible_tms_id and \
-                   tms['id'].lower() == only_compatible_tms_id.lower()), only_compatible_tms_id)
-  only_compatible_tms.append({
-    'id': only_compatible_tms_id,
-    'name': tms_name
-  })
+  if only_compatible_tms_id:
+    tms_name = next((tms['name'] for tms in INTEGRATIONS if only_compatible_tms_id and \
+                    tms['id'].lower() == only_compatible_tms_id.lower()), only_compatible_tms_id)
+    only_compatible_tms.append({
+      'id': only_compatible_tms_id,
+      'name': tms_name
+    })
+  else:
+    only_compatible_tms = only_compatible_tms_id
 
   customisation = estimation.get('customisation', False)
 

@@ -42,40 +42,45 @@ parent: Quality estimation
 <p>
   The <strong>{{ page.title }}</strong> quality estimation API supports <a href="/customisation">Customisation</a>. 
 {% endif %}
-  {% for tms in page.only_compatible_tms %}
-  {% if tms.name %}
-    {% for api in page.only_compatible_mt_api %}
-      {% if api.name %}
-        
-          The <strong>{{ page.title }}</strong> quality estimation API only works with the <a href="/{{ tms.id }}">{{ tms.name }}</a> translation management system and the <a href="/{{ api.id }}">{{ api.name }}</a> machine translation API.
-        
+{% if page.only_compatible_tms != nil %}
+  {% if page.only_compatible_tms.size > 1 %}
+    {% if page.only_compatible_mt_api != nil %}
+      {% if page.only_compatible_mt_api.size > 1 %}
+        The <strong>{{ page.title }}</strong> quality estimation API can work with {{ page.only_compatible_tms.size }} translation management systems and {{ page.only_compatible_mt_api.size }} machine translation APIs.
       {% else %}
-        
-          The <strong>{{ page.title }}</strong> quality estimation API only works with the <a href="/{{ tms.id }}">{{ tms.name }}</a> translation management system and any machine translation API.
-        
+        The <strong>{{ page.title }}</strong> quality estimation API can work with {{ page.only_compatible_tms.size }} translation management systems and the <a href="/{{ page.only_compatible_mt_api[0].id }}">{{ page.only_compatible_mt_api[0].name }}</a> machine translation API.
       {% endif %}
-    {% endfor %}
+    {% else %}
+      The <strong>{{ page.title }}</strong> quality estimation API can work with {{ page.only_compatible_tms.size }} translation management systems and any machine translation API.
+    {% endif %}
   {% else %}
-    {% for api in page.only_compatible_mt_api %}
-      {% if api.name %}
-        
-          The <strong>{{ page.title }}</strong> quality estimation API can work with any translation management system and the <a href="/{{ api.id }}">{{ api.name }}</a> machine translation API.
-        
+    {% if page.only_compatible_mt_api != nil %}
+      {% if page.only_compatible_mt_api.size > 1 %}
+        The <strong>{{ page.title }}</strong> quality estimation API only works with the <a href="/{{ page.only_compatible_tms[0].id }}">{{ page.only_compatible_tms[0].name }}</a> translation management system and {{ page.only_compatible_mt_api.size }} machine translation APIs.
       {% else %}
-        
-          The <strong>{{ page.title }}</strong> quality estimation API can work with any translation management system and any machine translation API.
-        
+        The <strong>{{ page.title }}</strong> quality estimation API only works with the <a href="/{{ page.only_compatible_tms[0].id }}">{{ page.only_compatible_tms[0].name }}</a> translation management system and the <a href="/{{ page.only_compatible_mt_api[0].id }}">{{ page.only_compatible_mt_api[0].name }}</a> machine translation API.
       {% endif %}
-    {% endfor %}
+    {% else %}
+      The <strong>{{ page.title }}</strong> quality estimation API only works with the <a href="/{{ page.only_compatible_tms[0].id }}">{{ page.only_compatible_tms[0].name }}</a> translation management system and any machine translation API.
+    {% endif %}
   {% endif %}
-{% endfor %}
+{% else %}
+  {% if page.only_compatible_mt_api != nil %}
+    {% if page.only_compatible_mt_api.size > 1 %}
+      The <strong>{{ page.title }}</strong> quality estimation API can work with any translation management system and {{ page.only_compatible_mt_api.size }} machine translation APIs.
+    {% else %}
+      The <strong>{{ page.title }}</strong> quality estimation API can work with any translation management system and the <a href="/{{ page.only_compatible_mt_api[0].id }}">{{ page.only_compatible_mt_api[0].name }}</a> machine translation API.
+    {% endif %}
+  {% else %}
+    The <strong>{{ page.title }}</strong> quality estimation API can work with any translation management system and any machine translation API.
+  {% endif %}
+{% endif %}
 </p>
 
 
 <blockquote>
 
   <dl>
-
     <dt>Language support</dt>
   {% if page.supported_languages.size == 0 %}
     <dd><a href="#language-support">Unknown number of languages</a></dd>
@@ -84,23 +89,27 @@ parent: Quality estimation
   {% endif %}
 
   <dt>Integrations</dt>
-  {% for tms in page.only_compatible_tms %}
-    {% if tms.name %}
-      <dd><a href="/{{ tms.id }}">{{ tms.name }}</a></dd>
-    {% else %}
-      <dd>API integration with any translation management system</dd>
-    {% endif %}
-  {% endfor %}
+  {% if page.only_compatible_tms != nil %}
+    {% for tms in page.only_compatible_tms %}
+      <dd>
+        <a href="/{{ tms.id }}">{{ tms.name }}</a>
+      </dd>
+    {% endfor %}
+  {% else %}
+    <dd>API integration with any translation management system</dd>
+  {% endif %}
   
   <dt>Machine translation APIs</dt>
-  {% for api in page.only_compatible_mt_api %}
-    {% if api.name %}
-      <dd><a href="/{{ api.id }}">{{ api.name }}</a></dd>
-    {% else %}
-      <dd>API integration with any machine translation API</dd>
-    {% endif %}
-  {% endfor %}
-</dl>
+  {% if page.only_compatible_mt_api != nil %}
+    {% for api in page.only_compatible_mt_api %}
+      <dd>
+        <a href="/{{ api.id }}">{{ api.name }}</a>
+      </dd>
+    {% endfor %}
+  {% else %}
+    <dd>API integration with any machine translation API</dd>
+  {% endif %}
+  </dl>  
 
   {% if page.urls.size > 0 %}
     <hr/>
@@ -157,15 +166,11 @@ parent: Quality estimation
         {% endfor %}
       </ul>
     </details>
-
   {% else %}
-
     <p>{{ page.title }} supports an unknown number of languages.</p>
   {% endif %}
 </section>
 
-
-{% if page.integrations.size > 0 %}
 
   <section id="integrations">
     <h2>Integrations</h2>
@@ -190,5 +195,3 @@ parent: Quality estimation
       </ul>
     </details>
   </section>
-
-{% endif %}

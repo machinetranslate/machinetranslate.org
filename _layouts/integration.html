@@ -16,15 +16,15 @@ parent: Integrations
   {% if page.api_integrations.size == 1 %}
   <a href="#integrations">1 machine translation API</a> has been integrated by the <strong>{{ page.title }}</strong> translation management system.
   {% else %}
-    The <strong>{{ page.title }}</strong> {{ page.type_description }} has <a href="#api-support">{{ page.api_integrations | size }} machine translation API integrations</a>.
+    The <strong>{{ page.title }}</strong> {{ page.type_description }} has <a href="#machine-translation">{{ page.api_integrations | size }} machine translation API integrations</a>.
   {% endif %}
 </p>
 
 <p>
     {% if page.quality_estimation_integrations.size == 1 %} 
-    <a href="#qe-integrations">1 quality estimation API</a> has been integrated by the <strong>{{ page.title }}</strong> translation management system.
+    <a href="#quality-estimation">1 quality estimation API</a> has been integrated by the <strong>{{ page.title }}</strong> translation management system.
     {% else %}
-      The <strong>{{ page.title }}</strong> translation management system has <a href="#qe-integrations">{{ page.quality_estimation_integrations | size }} quality estimation API integrations</a>.
+      The <strong>{{ page.title }}</strong> translation management system has <a href="#quality-estimation">{{ page.quality_estimation_integrations | size }} quality estimation API integrations</a>.
     {% endif %}
 </p>
 
@@ -34,12 +34,12 @@ parent: Integrations
     <dt>API support</dt>
     <dd>
       {% if page.api_integrations.size > 0 %}
-        <a href="#api-support">{{ page.api_integrations.size }} machine translation API{% if page.api_integrations.size > 0 %}s{% endif %}</a>{% if page.quality_estimation_integrations.size > 0 %},{% endif %}
+        <a href="#machine-translation">{{ page.api_integrations.size }} machine translation API{% if page.api_integrations.size > 0 %}s{% endif %}</a>{% if page.quality_estimation_integrations.size > 0 %},{% endif %}
       {% endif %}
     </dd>
     <dd>
       {% if page.quality_estimation_integrations.size > 0 %}
-        <a href="#qe-integrations"> {{ page.quality_estimation_integrations.size }} quality estimation API{% if page.quality_estimation_integrations.size > 1 %}s{% endif %} </a>
+        <a href="#quality-estimation"> {{ page.quality_estimation_integrations.size }} quality estimation API{% if page.quality_estimation_integrations.size > 1 %}s{% endif %} </a>
       {% endif %}
     </dd>
     
@@ -57,7 +57,7 @@ parent: Integrations
 
 {{ content }}
 
-<section id="api-support">
+<section id="machine-translation">
   <h2>Machine translation</h2>
   <details>
     <summary>
@@ -82,7 +82,7 @@ parent: Integrations
 </section>
 
 
-<section id="qe-integrations">
+<section id="quality-estimation">
   <h2>Quality estimation</h2>
   <details>
     <summary>
