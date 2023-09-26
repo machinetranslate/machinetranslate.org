@@ -26,11 +26,8 @@ parent: Integrations
 </p>
 
 <p>
-    {% if page.quality_estimation_integrations.size == 1 %} 
-    <a href="#quality-estimation">1 quality estimation API</a> has been integrated by the <strong>{{ page.title }}</strong> translation management system.
-    {% else %}
-      The <strong>{{ page.title }}</strong> translation management system has <a href="#quality-estimation">{{ page.quality_estimation_integrations | size }} quality estimation API integrations</a>.
-    {% endif %}
+  {{ page.title }} has <a href="#quality-estimation">{{ page.quality_estimation_integrations | size }}
+    translation quality estimation API integration{% if page.quality_estimation_integrations != 1 %}s{% endif %}</a>.
 </p>
 
 <blockquote>
