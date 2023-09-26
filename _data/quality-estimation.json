@@ -3955,8 +3955,8 @@
         ]
     },
     {
-        "id": "demt-estimate-api",
-        "name": "DeMT Estimate API",
+        "id": "demt-estimate",
+        "name": "DeMT Estimate",
         "company": "TAUS",
         "tagline": null,
         "languages": [
