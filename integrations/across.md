@@ -31,7 +31,7 @@ api_integrations:
   name: TextShuttle
 fuzzy_repair: true
 open-source: false
-quality_estimation_api_integrations: []
+quality_estimation_integrations: []
 seo:
   name: Machine translation API integrations in Across
   type: Product

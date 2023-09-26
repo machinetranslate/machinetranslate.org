@@ -391,7 +391,7 @@ integrations:
   name: MemoQ
   urls:
   - https://www.memoq.com/integrations/machine-translation/public-plugin/omniscien
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
   custom: true
 - slug: xtm

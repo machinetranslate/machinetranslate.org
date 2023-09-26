@@ -135,7 +135,7 @@ api_integrations:
   name: XL8
 fuzzy_repair: true
 open-source: false
-quality_estimation_api_integrations: []
+quality_estimation_integrations: []
 seo:
   name: Machine translation API integrations in MemoQ
   type: Product

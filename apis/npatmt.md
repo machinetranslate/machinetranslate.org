@@ -15,7 +15,7 @@ customisation:
 supported_languages: []
 more_languages_by_request: false
 integrations:
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
   urls:
   - https://www.npat.co.jp/EXPRESS_price_list/EXPRESS_price_list.html

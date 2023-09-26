@@ -229,7 +229,7 @@ integrations:
   plugin: true
   urls:
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069984/memoQ+connector
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
   urls:
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647135756/Phrase+connector

@@ -34,7 +34,7 @@ api_integrations:
   name: TransPerfect NMT
 fuzzy_repair: false
 open-source: false
-quality_estimation_api_integrations: []
+quality_estimation_integrations: []
 seo:
   name: Machine translation API integrations in GlobalLink
   type: Product

@@ -134,7 +134,7 @@ integrations:
   plugin: true
   urls:
   - https://store.crowdin.com/tencent
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
 - slug: omegat
   name: OmegaT

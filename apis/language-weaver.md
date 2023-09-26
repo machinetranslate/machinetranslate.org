@@ -396,7 +396,7 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786890/sdl-multitrans/configuring-sdl-mt-cloud
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
   custom: true
   offline_glossary: true

@@ -350,7 +350,7 @@ integrations:
   custom: true
   urls:
   - https://docs.memoq.com/current/en/Places/kantanmt-plugin-settings.html
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
   custom: true
 - slug: trados

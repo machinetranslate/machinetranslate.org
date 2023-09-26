@@ -90,7 +90,7 @@ integrations:
   name: MemoQ
   urls:
   - https://docs.memoq.com/current/en/Places/alexa-ai-plugin-settings.html
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
 - slug: trados
   name: Trados Studio

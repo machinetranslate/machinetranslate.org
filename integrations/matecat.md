@@ -51,7 +51,7 @@ api_integrations:
   name: Yandex Translate
 fuzzy_repair: false
 open-source: false
-quality_estimation_api_integrations: []
+quality_estimation_integrations: []
 seo:
   name: Machine translation API integrations in MateCat
   type: Product

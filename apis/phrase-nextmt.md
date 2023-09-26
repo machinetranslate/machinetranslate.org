@@ -70,7 +70,7 @@ supported_languages:
   variant_name: Simplified Chinese
 more_languages_by_request: false
 integrations:
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
   glossary: true
 active: true

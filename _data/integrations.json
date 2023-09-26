@@ -158,10 +158,11 @@
                 }
             }
         ],
-        "quality_estimation_integrations": [
+        "quality_estimation_integrations":[
             {
-                "modelfront": null,
-                "custom": true
+                "modelfront": {
+                    "custom": true
+               }
             }
         ],
         "local_api_support": true,
@@ -727,10 +728,11 @@
             },
             "yandex"
         ],
-        "quality_estimation_integrations": [
+        "quality_estimation_integrations":[
             {
-                "phrase-mtqe": null,
-                "custom": false
+                "phrase-mtqe": {
+                    "custom": false
+               }
             }
         ],
         "routing": true
@@ -1404,13 +1406,16 @@
                 }
             }
         ],
-        "quality_estimation_integrations": [
+        "quality_estimation_integrations":[
             {
-                "modelfront": null,
-                "custom": true
+                "modelfront": {
+                    "custom": true
+               }
             }
         ],
+    
         "edit_distance": true
+        
     },
     {
         "id": "wordbee",

@@ -104,7 +104,7 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
 active: true
 seo:

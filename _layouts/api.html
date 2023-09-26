@@ -28,10 +28,9 @@ parent: APIs
 
 <p>
   {% if page.integrations.size == 1 %}
-    There is <a href="#integrations">1 integration</a> with a translation management system.
-  {% endif %}
+  <a href="#integrations">1 machine translation management system</a> has integrated the <strong>{{ page.title }}</strong> machine translation API.{% endif %}
   {% if page.integrations.size > 1 %}
-    {{ page.integrations | size }} machine translation management systems have <a href="#integrations">{{ page.title }} integrations</a>
+   <a href="#integrations">{{ page.integrations | size }} machine translation management systems</a> have <strong>{{ page.title }}</strong> integrations.
   {% endif %}
 </p>
 
@@ -168,7 +167,6 @@ parent: APIs
 
 {% endif %}
 
-{% if page.integrations.size > 0 %}
 
   <section id="integrations">
     <h2>Integrations</h2>
@@ -193,5 +191,3 @@ parent: APIs
       </ul>
     </details>
   </section>
-
-{% endif %}

@@ -293,7 +293,7 @@ more_languages_by_request: true
 integrations:
 - slug: matecat
   name: MateCat
-- slug: phrase
+- slug: phrase-tms
   name: Phrase TMS
 - slug: omegat
   name: OmegaT
