@@ -19,7 +19,7 @@ seo:
     name: Zurich, Switzerland
 ---
 
-The thirteenth **Machine Translation Meetup** (**MTM**) will take place on 18 September, 2023, in Zurich, Switzerland.
+The thirteenth **Machine Translation Meetup** (**MTM**) took place on 18 September, 2023, in Zurich, Switzerland.
 
 The topic was ***The Nexus between Translation and Language AI***.
 
@@ -33,8 +33,18 @@ Impact Hub Zurich - Viadukt
 
 To be announced
 
-*Last updated on 22nd August 2023 from meetup.com/machine-translation-meetup-mtm/events/295585593*
+### Schedule
+
+|     |     |
+| --- | --- |
+| 18:30 | **Door opening and registration** |
+| 19:00 | **Presentations** |
+| | **Supertext** <br>Arben Sabani, Software Engineer <br>Patricia Kamer, Head of IT <br>**Bank Vontobel** <br>François Rüf, Head of Digital Investing <br>**Ringier** <br>Johanna Walser, Chief Communications Officer <br>Thomas Benkö, AI Innovation Lead Blick Newsroom |
+| 20:00 | Cocktail |
 
 ### Links
 
 - Meetup: [meetup.com/machine-translation-meetup-mtm/events/295585593](https://www.meetup.com/machine-translation-meetup-mtm/events/295585593)
+- Presentations:
+  - [From idea to product - Leveraging AI with Supertext](https://drive.google.com/file/d/1YUUbuGo-x06Khl9_SMJIirDsKMj6Zntk/view)
+  - [Using LLMs at BSI](https://drive.google.com/file/d/1YUtodSG7A__Ek-ZvQyFvHZbsmPB9GLUa/view)
