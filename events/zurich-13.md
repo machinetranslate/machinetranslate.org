@@ -29,9 +29,6 @@ The topic was ***The Nexus between Translation and Language AI***.
 
 Impact Hub Zurich - Viadukt
 
-### Speakers
-
-To be announced
 
 ### Schedule
 
