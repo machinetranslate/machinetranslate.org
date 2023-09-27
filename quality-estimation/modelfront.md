@@ -754,6 +754,9 @@ integrations:
 - slug: crowdin
   name: Crowdin
   custom: true
+- slug: memoq
+  name: MemoQ
+  custom: true
 - slug: translate5
   name: translate5
   custom: true

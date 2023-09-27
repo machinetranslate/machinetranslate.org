@@ -518,6 +518,18 @@
                 }
             }
         ],
+        "quality_estimation_integrations":[
+            {
+                "modelfront": {
+                    "custom": true
+               }
+            },
+            {
+                "demt-estimate": {
+                    "custom": true
+               }
+            }
+        ],
         "local_api_support": true,
         "multiple_api_suggestions": true,
         "fuzzy_repair": true

@@ -12,35 +12,30 @@ parent: Quality estimation
 <hr>
 
 <p>
-  {% if page.supported_languages.size > 0 %}
-    The <strong>{{ page.title }}</strong> quality estimation API supports <a href="#language-support">{{ page.supported_languages | size }} languages</a>.
-  {% else %}
-    The <strong>{{ page.title }}</strong> quality estimation API supports an unknown number of languages.
-  {% endif %}
+  The <strong>{{ page.title }}</strong> quality estimation API is available in
+  <a href="#integrations">{{ page.integrations | size }}
+  machine translation management system{% if page.integrations.size != 1 %}s{% endif %}</a>.
 </p>
 
 <p>
-    {% if page.integrations.size == 1 %}
-      <a href="#integrations">1 machine translation management system</a> has integrated the {{ page.title }} quality estimation API.
-    {% else %}
-      <a href="#integrations">{{ page.integrations | size }} machine translation management systems</a> have integrated the <strong>{{ page.title }}</strong> quality estimation API.
-    {% endif %}
+  {% if page.supported_languages.size > 0 %}
+    {{ page.title }}</strong> supports <a href="#language-support">{{ page.supported_languages | size }} languages</a>.
+  {% else %}
+    {{ page.title }} supports an unknown number of languages.
+  {% endif %}
 </p>
 
 {% if page.tagline %}
 <blockquote>
-  <h3>
-    {{ page.tagline }}
-  </h3>
+  “{{ page.tagline }}”
 </blockquote>
 {% endif %}
 
 {{ content }}
 
-
 {% if page.customisation %}
 <p>
-  The <strong>{{ page.title }}</strong> quality estimation API supports <a href="/customisation">Customisation</a>. 
+  The <strong>{{ page.title }}</strong> quality estimation API supports <a href="/customisation">customisation</a>. 
 {% endif %}
 {% if page.only_compatible_tms != nil %}
   {% if page.only_compatible_tms.size > 1 %}
@@ -171,27 +166,22 @@ parent: Quality estimation
   {% endif %}
 </section>
 
-
-  <section id="integrations">
-    <h2>Integrations</h2>
-    <details>
-      <summary>
-        {% if page.integrations.size == 1 %}
-          <strong>1</strong> translation management system has integrated the {{ page.title }} quality estimation API.
-        {% else %}
-          <strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} quality estimation API.
-        {% endif %}
-        <p class="preview hint">
-          {{ page.integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
-          {% if page.integrations.size > 5 %}, …{% endif %}
-        </p>
-      </summary>
-      <ul>
-        {% for i in page.integrations %}
-          <li>
-              <a href="/{{ i.slug }}" >{{ i.name }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </details>
-  </section>
+<section id="integrations">
+  <h2>Integrations</h2>
+  <details>
+    <summary>
+      {{ page.title }} is integrated in <strong>1</strong> translation management system{% if page.integrations.size != 1 %}s{% endif %}.
+      <p class="preview hint">
+        {{ page.integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if page.integrations.size > 5 %}, …{% endif %}
+      </p>
+    </summary>
+    <ul>
+      {% for i in page.integrations %}
+        <li>
+            <a href="/{{ i.slug }}" >{{ i.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </details>
+</section>
