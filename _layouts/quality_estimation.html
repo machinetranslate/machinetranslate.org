@@ -170,7 +170,7 @@ parent: Quality estimation
   <h2>Integrations</h2>
   <details>
     <summary>
-      {{ page.title }} is integrated in <strong>1</strong> translation management system{% if page.integrations.size != 1 %}s{% endif %}.
+      {{ page.title }} is integrated in <strong>{{ page.integrations | size }}</strong> translation management system{% if page.integrations.size != 1 %}s{% endif %}.
       <p class="preview hint">
         {{ page.integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
         {% if page.integrations.size > 5 %}, …{% endif %}
