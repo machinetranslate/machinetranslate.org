@@ -12,7 +12,16 @@ seo:
 
 The most common type of customisation is [fine-tuning](fine-tuning.md) on [parallel data](parallel-data.md).
 
-{% assign customisable_apis_size = site.data.apis | where: "customisation_languages", true | concat: site.data.apis | where: "glossary", true | concat: site.data.apis | where: "formality", true | concat: site.data.apis | where: "adaptive", true | concat: site.data.apis | where: "fine-tuning", true %}
+{% assign customisable_apis_size = '' | split: ',' %}
+
+{% for api in site.data.apis %}
+  {% if api.custom_languages or api.glossary or api.formality or api.adaptive or api.fine-tuning %}
+    {% unless customisable_apis_size contains api %}
+      {% assign customisable_apis_size = customisable_apis_size | push: api %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
 
 {% assign customisable_qe_apis_size = site.data.quality-estimation | where: "customisation" , true %}
 
@@ -32,9 +41,10 @@ The most common type of customisation is [fine-tuning](fine-tuning.md) on [paral
     {% for api in customisable_apis_size %}
       <li>
           <a href="/{{ api.slug }}">{{ api.name }}</a> {% if api.plugin %}(plugin){% endif %}
-            {% if api.custom %}| <strong>fine-tuning</strong> support{% endif %}
+            {% if api.custom_languages or api.fine-tuning %}| <strong>fine-tuning</strong> support{% endif %}
             {% if api.glossary %}| <strong>glossary</strong> support{% endif %}
             {% if api.formality %}| <strong>formality</strong> support{% endif %}
+            {% if api.adaptive %}| <strong>adaptive</strong> support{% endif %}
       </li>
     {% endfor %}
     </ul>
