@@ -12,33 +12,33 @@ seo:
 
 The most common type of customisation is [fine-tuning](fine-tuning.md) on [parallel data](parallel-data.md).
 
-{% assign customisable_apis_size = '' | split: ',' %}
+{% assign customisable_apis = '' | split: ',' %}
 
 {% for api in site.data.apis %}
   {% if api.custom_languages or api.glossary or api.formality or api.adaptive or api.fine-tuning %}
-    {% unless customisable_apis_size contains api %}
-      {% assign customisable_apis_size = customisable_apis_size | push: api %}
+    {% unless customisable_apis contains api %}
+      {% assign customisable_apis = customisable_apis | push: api %}
     {% endunless %}
   {% endif %}
 {% endfor %}
 
 
-{% assign customisable_qe_apis_size = site.data.quality-estimation | where: "customisation" , true %}
+{% assign customisable_qe_apis = site.data.quality_estimation | where: "customisation" , true %}
 
-{{ customisable_apis_size | size }} machine translation APIs and {{ customisable_qe_apis_size | size }} quality estimation APIs support customisation.
+{{ customisable_apis | size }} machine translation APIs and {{ customisable_qe_apis | size }} quality estimation APIs support customisation.
 
 
 <h2>Machine translation</h2>
   <details>
     <summary>
-      <strong>{{ customisable_apis_size | size }}</strong> machine translation APIs support customisation.
+      <strong>{{ customisable_apis | size }}</strong> machine translation APIs support customisation.
       <p class="preview hint">
-        {{ customisable_apis_size | slice: 0, 5 | map: 'name' | join: ', ' }}
-        {% if customisable_apis_size.size > 5 %}, …{% endif %}
+        {{ customisable_apis | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if customisable_apis.size > 5 %}, …{% endif %}
       </p>
     </summary>
     <ul>
-    {% for api in customisable_apis_size %}
+    {% for api in customisable_apis %}
       <li>
           <a href="/{{ api.slug }}">{{ api.name }}</a> {% if api.plugin %}(plugin){% endif %}
             {% if api.custom_languages or api.fine-tuning %}| <strong>fine-tuning</strong> support{% endif %}
@@ -53,14 +53,14 @@ The most common type of customisation is [fine-tuning](fine-tuning.md) on [paral
 <h2>Quality estimation</h2>
   <details>
     <summary>
-      <strong>{{ customisable_qe_apis_size | size }}</strong> quality estimation APIs support customisation.
+      <strong>{{ customisable_qe_apis | size }}</strong> quality estimation APIs support customisation.
       <p class="preview hint">
-        {{ customisable_qe_apis_size | slice: 0, 5 | map: 'name' | join: ', ' }}
-        {% if customisable_qe_apis_size.size > 5 %}, …{% endif %}
+        {{ customisable_qe_apis | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if customisable_qe_apis.size > 5 %}, …{% endif %}
       </p>
     </summary>
     <ul>
-    {% for qe in customisable_qe_apis_size %}
+    {% for qe in customisable_qe_apis %}
       <li>
         <a href="/{{ qe.slug }}">{{ qe.name }}</a> {% if qe.plugin %}(plugin){% endif %}
             | <strong>fine-tuning</strong> support

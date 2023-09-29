@@ -22,7 +22,7 @@ description:
 </ul>
 
 ## Quality estimation
-{% assign fine_tuning_qe_apis = site.data.quality-estimation | where: "customisation", true %}
+{% assign fine_tuning_qe_apis = site.data.quality_estimation | where: "customisation", true %}
 <summary>
   <strong>{{ fine_tuning_qe_apis | size }}</strong> quality estimation APIs support fine-tuning.
 </summary>
