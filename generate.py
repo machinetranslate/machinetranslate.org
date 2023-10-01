@@ -19,7 +19,7 @@ with open('_data/languages.json', 'r', encoding='utf8') as stream:
   LANGUAGES = json.load(stream)
 
 ### Read language families
-with open('_data/language-families.json', 'r', encoding='utf8') as stream:
+with open('_data/language_families.json', 'r', encoding='utf8') as stream:
   LANGUAGE_FAMILIES = json.load(stream)
 
 ### Read APIs
@@ -27,7 +27,7 @@ with open('_data/apis.json', 'r', encoding='utf8') as stream:
   APIS = json.load(stream)
 
 ### Read API-language conversions
-with open('_data/api-language.json', 'r', encoding='utf8') as stream:
+with open('_data/api_language.json', 'r', encoding='utf8') as stream:
   API_LANGUAGE = json.load(stream)
 
 ### Read translation management systems
@@ -39,7 +39,7 @@ with open('_data/aggregators.json', 'r', encoding='utf8') as stream:
   AGGREGATORS = json.load(stream)
 
 ### Read quality estimation companies
-with open ('_data/quality-estimation.json', 'r', encoding='utf8') as stream:
+with open ('_data/quality_estimation.json', 'r', encoding='utf8') as stream:
   QUALITY_ESTIMATION = json.load(stream)
 
 def base_language_code(locale_code):
