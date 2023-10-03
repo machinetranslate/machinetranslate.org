@@ -28,7 +28,7 @@ api_integrations:
 - slug: systran
   name: SYSTRAN
 - slug: textshuttle
-  name: TextShuttle
+  name: Textshuttle
 fuzzy_repair: true
 open-source: false
 quality_estimation_integrations: []

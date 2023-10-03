@@ -30,7 +30,7 @@ Impact Hub Zurich - Viadukt
 ### Speakers
 
 - Philipp Ursprung, Head of Translation Technology at Apostroph Group
-- Janine Aeberhard, Translation Technology Specialist at TextShuttle
+- Janine Aeberhard, Translation Technology Specialist at Textshuttle
 - Donatella Pulitano, Staatskanzlei des Kantons Bern / Faculté de Traduction et d’Interprétation de l’Université de Genève
 
 ### Links

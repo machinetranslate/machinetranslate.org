@@ -32,8 +32,8 @@ Impact Hub Zurich - Viadukt
 ### Speakers
 
 - Helen Kieffer and Mauro Battaglia
-- Florian Schottmann, Head of Research at TextShuttle
-- Samuel Läubli, CTO at TextShuttle
+- Florian Schottmann, Head of Research at Textshuttle
+- Samuel Läubli, CTO at Textshuttle
 
 ### Schedule
 

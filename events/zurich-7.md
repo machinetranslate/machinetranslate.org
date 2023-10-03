@@ -25,7 +25,7 @@ The topic was ***Translation Risk Prediction***.
 
 ### Speakers
 
-- Martin Volk, Professor of Computational Linguistics at the University of Zurich and CEO of TextShuttle
+- Martin Volk, Professor of Computational Linguistics at the University of Zurich and CEO of Textshuttle
 - Adam Bittlingmayer, CEO and Co-Founder at ModelFront
 
 ### Link

@@ -29,9 +29,9 @@ Impact Hub Zurich - Viadukt
 
 ### Speakers
 
-- Martin Volk, founder of TextShuttle and professor and Head of the Department of Computational Linguistics at University of Zurich
+- Martin Volk, founder of Textshuttle and professor and Head of the Department of Computational Linguistics at University of Zurich
 - Susi Hasanovic, Head of the Language Competence Centre - Vaudoise Insurance
-- Lucas Seiler, CEO at TextShuttle
+- Lucas Seiler, CEO at Textshuttle
 
 
 ### Links

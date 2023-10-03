@@ -60,7 +60,7 @@ api_integrations:
 - slug: textshuttle
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
-  name: TextShuttle
+  name: Textshuttle
 - slug: tilde
   custom: true
   urls:
