@@ -29,7 +29,7 @@ territories:
 - ch
 supported_apis:
 - id: textshuttle
-  name: TextShuttle
+  name: Textshuttle
   supported_language_count: 21
 - id: baidu
   name: Baidu Translate

@@ -28,7 +28,7 @@ territories:
 - sk
 supported_apis:
 - id: textshuttle
-  name: TextShuttle
+  name: Textshuttle
   supported_language_count: 21
 - id: lingmo
   name: Lingmo Translation

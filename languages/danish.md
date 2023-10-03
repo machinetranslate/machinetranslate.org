@@ -36,7 +36,7 @@ supported_apis:
   name: Sogou Translate
   supported_language_count: 21
 - id: textshuttle
-  name: TextShuttle
+  name: Textshuttle
   supported_language_count: 21
 - id: tilde
   name: Tilde

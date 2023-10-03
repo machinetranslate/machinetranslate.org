@@ -6056,7 +6056,7 @@
             "https://www.lengoo.com/"
         ],
         "privacy_url": "https://www.lengoo.com/privacy-policy",
-        "languages": [ ],
+        "languages": [],
         "more_languages_by_request": null,
         "self-serve": false
     },
@@ -9277,7 +9277,8 @@
             ],
             [
                 "tg",
-                "en"]
+                "en"
+            ]
         ],
         "stock_api_domains": [
             "legal",
@@ -9826,7 +9827,7 @@
         "self-serve": true
     },
     {
-        "name": "TextShuttle",
+        "name": "Textshuttle",
         "id": "textshuttle",
         "company": "textshuttle",
         "urls": [
