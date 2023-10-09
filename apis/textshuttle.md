@@ -7,9 +7,9 @@ description: The Textshuttle machine translation API
 id: textshuttle
 parent: APIs
 urls:
-- https://www.textshuttle.com/
-- https://www.textshuttle.com/business/en/features
-privacy_url: https://www.textshuttle.com/business/en/disclaimer
+- https://www.textshuttle.ai/
+- https://www.textshuttle.ai/en/functions
+privacy_url: https://www.textshuttle.ai/en/disclaimer
 self_serve: false
 customisation:
 - Glossary
@@ -146,7 +146,7 @@ integrations:
 - slug: across
   name: Across
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   plugin: true
   urls:
   - https://www.textshuttle.ai/product/features#cat-connectors

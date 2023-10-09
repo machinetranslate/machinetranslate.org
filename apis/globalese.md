@@ -225,7 +225,7 @@ integrations:
   urls:
   - https://store.crowdin.com/globalese
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   plugin: true
   urls:
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069984/memoQ+connector

@@ -346,7 +346,7 @@ integrations:
 - slug: globallink
   name: GlobalLink
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   custom: true
   urls:
   - https://docs.memoq.com/current/en/Places/kantanmt-plugin-settings.html

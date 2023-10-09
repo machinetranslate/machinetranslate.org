@@ -72,7 +72,7 @@ supported_languages:
 more_languages_by_request: true
 integrations:
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   glossary: true
   urls:
   - https://docs.memoq.com/current/en/Places/pangeamt-plugin-settings.html

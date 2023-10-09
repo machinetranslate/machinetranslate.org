@@ -209,7 +209,7 @@ supported_languages:
 more_languages_by_request: false
 integrations:
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   urls:
   - https://docs.memoq.com/current/en/Places/textra-plugin-settings.html
 - slug: omegat

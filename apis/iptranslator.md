@@ -343,7 +343,7 @@ integrations:
   name: MateCat
   active: false
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   active: false
   urls:
   - https://docs.memoq.com/current/en/Places/iptranslator-plugin-settings.html

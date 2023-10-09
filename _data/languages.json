@@ -758,6 +758,34 @@
     },
     {
         "codes": [
+            "bli"
+        ],
+        "names": [
+            "Bolia",
+            "Ntomba",
+            "Lia"
+        ],
+        "family": [
+            "bnt",
+            "nic"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                ""
+            ]
+        },
+        "territories": [
+            "cd"
+        ]
+    },
+    {
+        "codes": [
             "bm",
             "bam"
         ],

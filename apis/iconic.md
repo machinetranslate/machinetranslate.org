@@ -345,7 +345,7 @@ integrations:
   - https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/
   active: false
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   active: false
   urls:
   - https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/

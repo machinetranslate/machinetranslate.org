@@ -1230,7 +1230,7 @@ integrations:
   urls:
   - https://guides.matecat.com/modernmt-mmt-plug-in
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   urls:
   - https://www.memoq.com/integrations/machine-translation/public-plugin/modernmt
 - slug: smartcat

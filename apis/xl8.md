@@ -296,7 +296,7 @@ integrations:
   urls:
   - https://store.crowdin.com/xl8
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   urls:
   - https://docs.google.com/document/d/1aYbIpDCme7D-FIVgqRvSmoIiiUJ4QhAZEPAP-tJNwPs/edit
 - slug: trados

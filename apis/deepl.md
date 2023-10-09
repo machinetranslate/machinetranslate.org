@@ -232,7 +232,7 @@ integrations:
 - slug: eluna
   name: eLUNa
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   glossary: true
   formality: true
   urls:

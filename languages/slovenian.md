@@ -29,7 +29,7 @@ territories:
 - si
 supported_apis:
 - id: textshuttle
-  name: TextShuttle
+  name: Textshuttle
   supported_language_count: 21
 - id: deepl
   name: DeepL
