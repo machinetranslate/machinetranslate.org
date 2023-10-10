@@ -39,7 +39,7 @@ supported_apis:
   name: Language Wire
   supported_language_count: 8
 - id: textshuttle
-  name: TextShuttle
+  name: Textshuttle
   supported_language_count: 21
 - id: unbabel
   name: Unbabel

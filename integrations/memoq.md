@@ -118,7 +118,7 @@ api_integrations:
   plugin: true
   urls:
   - https://www.textshuttle.ai/product/features#cat-connectors
-  name: TextShuttle
+  name: Textshuttle
 - slug: tilde
   custom: true
   glossary: true

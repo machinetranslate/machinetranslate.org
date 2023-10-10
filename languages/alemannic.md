@@ -40,7 +40,7 @@ territories:
 - it
 supported_apis:
 - id: textshuttle
-  name: TextShuttle
+  name: Textshuttle
   supported_language_count: 21
 seo:
   name: Machine translation for Alemannic
