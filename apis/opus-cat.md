@@ -16,7 +16,7 @@ supported_languages: []
 more_languages_by_request: false
 integrations:
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   urls:
   - https://github.com/Helsinki-NLP/OPUS-CAT#using-the-fiskmo-plugin-in-memoq
 - slug: trados

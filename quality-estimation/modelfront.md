@@ -755,7 +755,7 @@ integrations:
   name: Crowdin
   custom: true
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   custom: true
 - slug: translate5
   name: translate5

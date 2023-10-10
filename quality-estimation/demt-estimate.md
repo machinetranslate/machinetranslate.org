@@ -562,7 +562,7 @@ only_compatible_tms: null
 customisation: false
 integrations:
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   custom: true
 seo:
   name: The DeMT Estimate translation quality estimation API

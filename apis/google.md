@@ -837,7 +837,7 @@ integrations:
   name: MateCat
   custom: true
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   custom: true
   glossary: true
   urls:

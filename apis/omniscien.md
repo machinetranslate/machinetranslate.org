@@ -388,7 +388,7 @@ integrations:
 - slug: globallink
   name: GlobalLink
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   urls:
   - https://www.memoq.com/integrations/machine-translation/public-plugin/omniscien
 - slug: phrase-tms

@@ -146,11 +146,11 @@ supported_languages:
   base_code: bi
   name: Bislama
   variant_name: null
-- slug: bli
+- slug: bolia
   code: bli
   normalized_code: bli
   base_code: bli
-  name: bli
+  name: Bolia
   variant_name: null
 - slug: tibetan
   code: bod

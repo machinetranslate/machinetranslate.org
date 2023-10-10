@@ -696,7 +696,7 @@ integrations:
   name: MateCat
   custom: true
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   custom: true
   urls:
   - https://docs.memoq.com/current/en/Places/microsoft-mt-plugin-settings.html

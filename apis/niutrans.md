@@ -2321,7 +2321,7 @@ supported_languages:
 more_languages_by_request: false
 integrations:
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   urls:
   - https://www.memoq.com/integrations/machine-translation/private-plugin/niutrans
 - slug: trados

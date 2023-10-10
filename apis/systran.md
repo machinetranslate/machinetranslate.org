@@ -351,7 +351,7 @@ integrations:
 - slug: globallink
   name: GlobalLink
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   custom: true
   adaptive: true
   urls:

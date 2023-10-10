@@ -146,7 +146,7 @@ integrations:
 - slug: across
   name: Across
 - slug: memoq
-  name: MemoQ
+  name: memoQ
   plugin: true
   urls:
   - https://www.textshuttle.ai/product/features#cat-connectors
