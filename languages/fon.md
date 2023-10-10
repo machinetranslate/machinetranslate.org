@@ -35,6 +35,7 @@ supported_qe_apis: []
 seo:
   name: Machine translation for Fon
   type: Language
+redirect_to: https://en.wikipedia.org/wiki/ISO_639:fon
 
 ---
 
