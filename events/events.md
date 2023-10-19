@@ -15,7 +15,7 @@ seo:
 | --- | --- | --- |
 | 6 - 7 December | [**WMT23**](wmt23.md) | Singapore |
 | 8 November | [**AMTA 2023**](amta2023.md) | online |
-| 18 October | [**The Importance of Data Anonymization to Build Ethical AI**](data-anonymization-ethical-ai.md) | online |
+| 18 October | [The Importance of Data Anonymization to Build Ethical AI](data-anonymization-ethical-ai.md) | online |
 | 4 - 6 October | [TAUS Annual Conference 2023](taus2023.md) | Salt Lake City, Utah |
 | 18 September | [Machine Translation Meetup 13](zurich-13.md) | Zurich, Switzerland |
 | 13 September | [Seattle Localization User Group meetup](slug-llms-in-localisation.md) | Seattle, Washington |
