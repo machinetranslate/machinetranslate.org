@@ -12,7 +12,7 @@ seo:
 
 Metrics are used to compare different machine translation systems.
 
-The best known metric for machine translation is [BLEU](bleu.md), a string-based automatic metric.
+The best known metric for machine translation is [BLEU](/nav_bar/building-and-research/metrics/bleu.md), a string-based automatic metric.
 
 {% include collapsible_toc.html %}
 
@@ -27,11 +27,11 @@ Automatic quality metrics are divided into **string-based metrics** and **machin
 String-based metrics generally measure the word or character distance between the target sentence and the reference translation.
 
 Examples:
-- [BLEU](bleu.md)
-- [METEOR](meteor.md)
-- [NIST](nist.md)
-- [chrF](chrF.md)
-- [TER](ter.md)
+- [BLEU](/nav_bar/building-and-research/metrics/bleu.md)
+- [METEOR](/nav_bar/building-and-research/metrics/meteor.md)
+- [NIST](/nav_bar/building-and-research/metrics/nist.md)
+- [chrF](/nav_bar/building-and-research/metrics/chrF.md)
+- [TER](/nav_bar/building-and-research/metrics/ter.md)
 
 String-based are used in research papers and competitions because they are explainable and fair, and they can support any language pair.
 
@@ -42,12 +42,12 @@ The scores generally do not correlate well with human evaluation scores when tra
 
 ### Machine learning-based metrics
 
-Machine learning-based metrics use [sentence embeddings](/concepts/sentence-embeddings.md) to calculate the difference between the generated target sentence and the reference translation, or even between the target senternce and the source sentence.
+Machine learning-based metrics use [sentence embeddings](/nav_bar/concepts/sentence-embeddings.md) to calculate the difference between the generated target sentence and the reference translation, or even between the target senternce and the source sentence.
 
 Examples:
-- [COMET](comet.md)
-- [YiSi](yisi.md)
-- [BERTscore](bertscore.md)
+- [COMET](/nav_bar/building-and-research/metrics/comet.md)
+- [YiSi](/nav_bar/building-and-research/metrics/yisi.md)
+- [BERTscore](/nav_bar/building-and-research/metrics/bertscore.md)
 
 Machine learning-based metrics require a model that was trained on data with the source and target languages.
 
@@ -60,26 +60,26 @@ But the scores are not explainable or fair, so they cannot be used in a research
 
 Human evaluation is the gold standard.
 
-- [MQM](human-evaluation-metrics.md#mqm)
-- [SQM](human-evaluation-metrics.md#sqm)
-- [Average score and average z-score](human-evaluation-metrics.md#average-score-and-average-z-score)
-- [TrueSkill](human-evaluation-metrics.md#trueskill)
-- [Adecuacy and fluency judgement](human-evaluation-metrics.md#adequacy-and-fluency-judgement)
-- [Relative ranking](human-evaluation-metrics.md#relative-ranking)
-- [Constituent ranking](human-evaluation-metrics.md#constituent-ranking)
-- [Yes or no constituent judgement](human-evaluation-metrics.md#yes-and-no-constituent-judgement)
-- [Direct assessment](human-evaluation-metrics.md#direct-assessment)
+- [MQM](/nav_bar/building-and-research/metrics/human-evaluation-metrics.md#mqm)
+- [SQM](/nav_bar/building-and-research/metrics/human-evaluation-metrics.md#sqm)
+- [Average score and average z-score](/nav_bar/building-and-research/metrics/human-evaluation-metrics.md#average-score-and-average-z-score)
+- [TrueSkill](/nav_bar/building-and-research/metrics/human-evaluation-metrics.md#trueskill)
+- [Adecuacy and fluency judgement](/nav_bar/building-and-research/metrics/human-evaluation-metrics.md#adequacy-and-fluency-judgement)
+- [Relative ranking](/nav_bar/building-and-research/metrics/human-evaluation-metrics.md#relative-ranking)
+- [Constituent ranking](/nav_bar/building-and-research/metrics/human-evaluation-metrics.md#constituent-ranking)
+- [Yes or no constituent judgement](/nav_bar/building-and-research/metrics/human-evaluation-metrics.md#yes-and-no-constituent-judgement)
+- [Direct assessment](/nav_bar/building-and-research/metrics/human-evaluation-metrics.md#direct-assessment)
 
 But human evaluation is slow, expensive and subjective.
 
 
 ### Evolution
 >
-> ##### Slide from [Unbabel](/industry/companies.md#unbabel) for [AMTA 2022](/events/amta2022.md)
-> <img title='Evaluation timeline' src='/quality/metrics/timeline.jpg' width='700' style='padding: 1em;' />
+> ##### Slide from [Unbabel](/nav_bar/more/industry/companies.md#unbabel) for [AMTA 2022](/nav_bar/events/amta2022.md)
+> <img title='Evaluation timeline' src='/nav_bar/building-and-research/quality/metrics/timeline.jpg' width='700' style='padding: 1em;' />
 
 
 ## See also
 
-- [Quality evaluation](building-and-research/quality-evaluation.md)
-- [Quality estimation](building-and-research/quality-estimation.md)
+- [Quality evaluation](/nav_bar/building-and-research/quality-evaluation.md)
+- [Quality estimation](/nav_bar/building-and-research/quality-estimation.md)

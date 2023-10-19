@@ -8,16 +8,16 @@ description: Workflow with both human translations and pure machine translations
 
 In a **hybrid translation** workflow, some raw machine translations are never seen or edited by a human translator.
 
-Hybrid translation can be faster and cheaper than full human [post-editing](post-editing.md).
+Hybrid translation can be faster and cheaper than full human [post-editing](/nav_bar/building-and-research/applications/workflows/post-editing.md).
 
 Hybrid translation requires good machine translation.
 A signification portion of the machine translated segments should be usable as-is.
 
 > ### Workflow diagram
-> The hybrid translation workflow was first presented by Microsoft, VMWare and [Unbabel](/industry/companies.md#unbabel).
+> The hybrid translation workflow was first presented by Microsoft, VMWare and [Unbabel](/nav_bar/more/industry/companies.md#unbabel).
 >
-> ##### Slide from a [ModelFront](/industry/companies.md#modelfront) presentation
-> <img title='Hybrid translation workflow' src='/workflows/hybrid-translation-workflow.png' width='700' style='padding: 1em;' />
+> ##### Slide from a [ModelFront](/nav_bar/more/industry/companies.md#modelfront) presentation
+> <img title='Hybrid translation workflow' src='/nav_bar/building-and-research/applications/workflows/hybrid-translation-workflow.png' width='700' style='padding: 1em;' />
 
 A risk **threshold** is set.
 Each new machine translation is automatically classified as high-quality or low-quality.
@@ -31,17 +31,17 @@ They are marked as translated or approved, and potentially even locked.
 
 ### Technology
 
-The key technology for a hybrid translation workflow is translation [**quality prediction**](/quality/quality-estimation.md), which is known as *machine translation quality estimation* in the [research](/building-and-research/building-and-research.md) world.
+The key technology for a hybrid translation workflow is translation [**quality prediction**](/nav_bar/building-and-research/quality/quality-estimation.md), which is known as *machine translation quality estimation* in the [research](/nav_bar/building-and-research/building-and-research.md) world.
 
 ### Adoption
 
-At first, companies like Microsoft, [Unbabel](/industry/companies.md/#unbabel), VMWare and Wayfair implemented hybrid translation by researching and developing their own machine translation quality estimation.
+At first, companies like Microsoft, [Unbabel](/nav_bar/more/industry/companies.md/#unbabel), VMWare and Wayfair implemented hybrid translation by researching and developing their own machine translation quality estimation.
 
-With the launch of the [ModelFront](/industry/companies.md/#modelfront) translation quality prediction API, more companies started to adopt the hybrid translation workflow within commercially available translation management systems.
+With the launch of the [ModelFront](/nav_bar/more/industry/companies.md/#modelfront) translation quality prediction API, more companies started to adopt the hybrid translation workflow within commercially available translation management systems.
 
 
 ---
 
 ### See also
 
-- [**Quality estimation**](/quality/quality-estimation.md)
+- [**Quality estimation**](/nav_bar/building-and-research/quality/quality-estimation.md)
