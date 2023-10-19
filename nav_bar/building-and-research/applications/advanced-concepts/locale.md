@@ -5,9 +5,9 @@ title: Locale
 description: Specification of language variants
 ---
 
-A **locale** is an identifier of a [language](/languages/languages.md) and region, plus an optional writing script.
-The locale is used in [machine translation APIs](/apis/apis.md) to specify the language of the source and target text.
-Locales are used to indicate the language of documents in [web crawling](/customisation/crawling.md) to build [training data](/customisation/crawling.md).
+A **locale** is an identifier of a [language](/nav_bar/languages/languages.md) and region, plus an optional writing script.
+The locale is used in [machine translation APIs](/nav_bar/apis/apis.md) to specify the language of the source and target text.
+Locales are used to indicate the language of documents in [web crawling](/nav_bar/features/customisation/crawling.md) to build [training data](/nav_bar/features/customisation/crawling.md).
 
 Example: `frCA` means French (fr) as spoken in Canada (CA)
 
@@ -53,4 +53,4 @@ These language variations are supported by many API vendors:
 
 ## See also
 
-- [Languages](/languages/languages.md)
+- [Languages](/nav_bar/languages/languages.md)

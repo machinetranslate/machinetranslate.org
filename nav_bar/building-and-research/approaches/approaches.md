@@ -8,13 +8,13 @@ seo:
     name: Approaches to machine translation
 ---
 
-The earliest machine translation systems were built with [*rule-based* approaches](rule-based-machine-translation.md).
+The earliest machine translation systems were built with [*rule-based* approaches](/nav_bar/building-and-research/approaches/rule-based-machine-translation.md).
 
-By the 2010s, the top systems, like Google Translate, used [*statistical* machine translation](/approaches/statistical-machine-translation.md) (SMT).
+By the 2010s, the top systems, like Google Translate, used [*statistical* machine translation](/nav_bar/building-and-research/approaches/statistical-machine-translation.md) (SMT).
 Statistical machine translation is also known as [phrase-based machine translation](https://machinetranslate.org/statistical-machine-translation#approaches) (PBMT).
 
-By the 2020s, the top systems used [*neural machine* translation](neural-machine-translation.md).
-A few of the neural systems launched an [adaptive customisation](/customisation/adaptive.md) feature.
+By the 2020s, the top systems used [*neural machine* translation](/nav_bar/building-and-research/approaches/neural-machine-translation.md).
+A few of the neural systems launched an [adaptive customisation](/nav_bar/features/customisation/adaptive.md) feature.
 
 Each paradigm shift made machine translation systems more accurate and also easier to build.
-The result was more [language support](/languages/languages.md) and more production systems from more [companies](/industry/companies.md).
+The result was more [language support](/nav_bar/languages/languages.md) and more production systems from more [companies](/nav_bar/more/industry/companies.md).
