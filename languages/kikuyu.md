@@ -29,10 +29,8 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
-  supported_language_count: 195
 - id: niutrans
   name: Niutrans
-  supported_language_count: 381
 supported_qe_apis: []
 seo:
   name: Machine translation for Kikuyu

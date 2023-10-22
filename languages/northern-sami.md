@@ -32,13 +32,10 @@ territories:
 supported_apis:
 - id: apertium
   name: Apertium
-  supported_language_count: 46
 - id: baidu
   name: Baidu Translate
-  supported_language_count: 197
 - id: alibaba
   name: Alibaba Translate
-  supported_language_count: 212
 supported_qe_apis: []
 seo:
   name: Machine translation for Northern Sami

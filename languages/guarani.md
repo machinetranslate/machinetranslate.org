@@ -30,19 +30,14 @@ territories:
 supported_apis:
 - id: neuralspace
   name: NeuralSpace
-  supported_language_count: 125
 - id: google
   name: Google Translate
-  supported_language_count: 132
 - id: modernmt
   name: ModernMT
-  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
-  supported_language_count: 197
 - id: alibaba
   name: Alibaba Translate
-  supported_language_count: 212
 supported_qe_apis: []
 seo:
   name: Machine translation for Guarani

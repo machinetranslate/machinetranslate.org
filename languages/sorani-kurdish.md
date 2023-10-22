@@ -30,21 +30,16 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
-  supported_language_count: 103
 - id: google
   name: Google Translate
-  supported_language_count: 132
 - id: modernmt
   name: ModernMT
-  supported_language_count: 195
 - id: niutrans
   name: Niutrans
-  supported_language_count: 381
 supported_qe_apis:
 - slug: modelfront
   id: modelfront
   name: ModelFront
-  supported_language_count: 126
 seo:
   name: Machine translation for Sorani Kurdish
   type: Language

@@ -25,13 +25,10 @@ territories:
 supported_apis:
 - id: yandex
   name: Yandex Translate
-  supported_language_count: 93
 - id: alibaba
   name: Alibaba Translate
-  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 381
 supported_qe_apis: []
 seo:
   name: Machine translation for Udmurt

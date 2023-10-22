@@ -26,10 +26,8 @@ territories:
 supported_apis:
 - id: kantanmt
   name: KantanMT
-  supported_language_count: 50
 - id: alibaba
   name: Alibaba Translate
-  supported_language_count: 212
 supported_qe_apis: []
 seo:
   name: Machine translation for Abkhaz

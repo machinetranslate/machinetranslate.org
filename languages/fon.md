@@ -4,7 +4,7 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: Fon
+title: '`Fon`'
 description: Machine translation for Fon
 codes:
 - fon
@@ -30,12 +30,10 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
-  supported_language_count: 195
 supported_qe_apis: []
 seo:
   name: Machine translation for Fon
   type: Language
-redirect_to: https://en.wikipedia.org/wiki/ISO_639:fon
 
 ---
 

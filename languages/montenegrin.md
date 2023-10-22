@@ -31,16 +31,12 @@ territories:
 supported_apis:
 - id: watson
   name: Watson Language Translator
-  supported_language_count: 55
 - id: baidu
   name: Baidu Translate
-  supported_language_count: 197
 - id: alibaba
   name: Alibaba Translate
-  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 381
 supported_qe_apis: []
 seo:
   name: Machine translation for Montenegrin

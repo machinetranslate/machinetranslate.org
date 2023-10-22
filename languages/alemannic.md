@@ -41,7 +41,6 @@ territories:
 supported_apis:
 - id: textshuttle
   name: Textshuttle
-  supported_language_count: 21
 supported_qe_apis: []
 seo:
   name: Machine translation for Alemannic

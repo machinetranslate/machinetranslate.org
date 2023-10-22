@@ -31,22 +31,17 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
-  supported_language_count: 103
 - id: modernmt
   name: ModernMT
-  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
-  supported_language_count: 197
 supported_qe_apis:
 - slug: demt-estimate
   id: demt-estimate
   name: DeMT Estimate
-  supported_language_count: 109
 - slug: modelfront
   id: modelfront
   name: ModelFront
-  supported_language_count: 126
 seo:
   name: Machine translation for Tibetan
   type: Language

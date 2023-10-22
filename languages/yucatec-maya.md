@@ -23,18 +23,14 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
-  supported_language_count: 103
 - id: youdao
   name: Youdao Translate
-  supported_language_count: 110
 - id: niutrans
   name: Niutrans
-  supported_language_count: 381
 supported_qe_apis:
 - slug: modelfront
   id: modelfront
   name: ModelFront
-  supported_language_count: 126
 seo:
   name: Machine translation for Yucatec Maya
   type: Language

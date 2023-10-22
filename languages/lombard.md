@@ -28,12 +28,10 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
-  supported_language_count: 195
 supported_qe_apis:
 - slug: modelfront
   id: modelfront
   name: ModelFront
-  supported_language_count: 126
 seo:
   name: Machine translation for Lombard
   type: Language
