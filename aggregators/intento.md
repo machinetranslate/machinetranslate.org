@@ -41,6 +41,61 @@ supported_apis:
   name: Yandex Translate
 - slug: youdao
   name: Youdao Translate
+integrations:
+- slug: crowdin
+  name: Crowdin
+  plugin: true
+  custom: true
+  urls:
+  - https://store.crowdin.com/intento-mthub
+  - https://help.inten.to/hc/en-us/articles/4412027688466-How-to-install-and-configure-Intento-plugin-for-Crowdin
+- slug: matecat
+  name: MateCat
+  plugin: true
+  urls:
+  - https://help.inten.to/hc/en-us/articles/360017381939-How-to-set-up-Intento-as-the-MT-engine-in-MateCat
+- slug: memoq
+  name: memoQ
+  plugin: true
+  glossary: true
+  urls:
+  - https://docs.memoq.com/current/en/Places/intento-plugin-settings.html
+- slug: smartcat
+  name: Smartcat
+  plugin: true
+  glossary: true
+  urls:
+  - https://www.smartcat.com/integrations/intento/
+  - https://help.inten.to/hc/en-us/articles/360021395679-How-to-set-up-Intento-connector-for-Smartcat
+- slug: smartling
+  name: Smartling
+  plugin: true
+  urls:
+  - https://help.inten.to/hc/en-us/articles/4417002496018-How-to-create-an-MT-profile-in-your-Smartling-account
+  - https://help.inten.to/hc/en-us/articles/4417019865490-How-to-add-an-MT-profile-to-the-workflow-in-your-Smartling-project-
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  glossary: true
+  urls:
+  - https://help.inten.to/hc/en-us/articles/360016112939-Installing-and-Configuring-Intento-MT-Hub-for-Trados-Studio
+- slug: wordbee
+  name: Wordbee
+  plugin: true
+  urls:
+  - https://help.inten.to/hc/en-us/articles/360017136300-Configure-your-Intento-connector-in-Wordbee
+  - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/808157633/How+to+machine+translate+with+Intento+API
+- slug: wordfast
+  name: Wordfast
+  plugin: true
+  urls:
+  - https://help.inten.to/hc/en-us/articles/360018425379-How-to-set-up-Intento-plugin-for-Wordfast-Anywhere
+- slug: xtm
+  name: XTM
+  plugin: true
+  urls:
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/intento.html
+  - https://help.inten.to/hc/en-us/articles/360021776920-XTM-Custom-MT-for-Intento-Quick-Guide
 self-serve: true
 seo:
   name: The Intento machine translation API aggregator

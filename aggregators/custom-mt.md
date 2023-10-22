@@ -35,6 +35,12 @@ supported_apis:
   name: XL8
 - slug: yandex
   name: Yandex Translate
+integrations:
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  urls:
+  - https://custom.mt/trados-connector/
 self-serve: true
 seo:
   name: The Custom.MT machine translation API aggregator
