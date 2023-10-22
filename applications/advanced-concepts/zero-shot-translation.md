@@ -13,11 +13,11 @@ Zero-shot machine translation is an active area of research.
 
 ## Approaches
 
-- Multilingual [neural machine translation](/nav_bar/building-and-research/approaches/neural-machine-translation.md) (MNMT): This approach learns a single model for all language pairs. The target language is an input to the model. This approach can produce translations between languages that both have parallel data, but not necessarily parallel data with each other. As of 2022, [Google Translate uses MNMT](https://ai.googleblog.com/2022/05/24-new-languages-google-translate.html).
+- Multilingual [neural machine translation](/approaches/neural-machine-translation.md) (MNMT): This approach learns a single model for all language pairs. The target language is an input to the model. This approach can produce translations between languages that both have parallel data, but not necessarily parallel data with each other. As of 2022, [Google Translate uses MNMT](https://ai.googleblog.com/2022/05/24-new-languages-google-translate.html).
 - Stitching together encoders and decoders
     - When training models for many language pairs, it's possible to ensure that the latent representations are similar across languages, then connect the appropriate encoder and decoder for the desired language pair.
     - Unsupervised methods learn encoders and decoders as denoising autoencoders, making an effort to ensure that the latent representations are similar across languages, then connect the appropriate encoder and decoder for the desired language pair.
 
 ## See also
 
-- [Bridging](/nav_bar/building-and-research/applications/advanced-concepts/bridging.md): Bridging is also commonly used to translate between languages without parallel data.
+- [Bridging](bridging.md): Bridging is also commonly used to translate between languages without parallel data.

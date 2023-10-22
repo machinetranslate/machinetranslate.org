@@ -7,11 +7,11 @@ description: Deep learning approaches to machine translation
 ---
 
 **Neural machine translation** (NMT) is a machine translation approach based on machine learning that uses large neural networks to predict the likelihood of correct translations.
-Like [statistical machine translation](/nav_bar/building-and-research/approaches/statistical-machine-translation.md), neural machine translation is data-driven.
+Like [statistical machine translation](statistical-machine-translation.md), neural machine translation is data-driven.
 
 ### Neural networks
 
-Neural networks use [training data](/nav_bar/features/customisation/training-data.md) to create [vectors](/concepts/vector.md) for every word and its relations, called word embeddings.
+Neural networks use [training data](/customisation/training-data.md) to create [vectors](/concepts/vector.md) for every word and its relations, called word embeddings.
 Words with similar meaning cluster together, and words with more than one meaning appear simultaneously in different clusters.
 
 **Cluster<sub>1</sub>**:
@@ -38,7 +38,7 @@ The sequence model arranges a sentence order by calculating the probability of t
 
 ### Encoder/decoder framework
 
-Neural machine translation architecture consists of an encoder and a [decoder](/nav_bar/concepts/language-model.md#decoding).
+Neural machine translation architecture consists of an encoder and a [decoder](/concepts/language-model.md#decoding).
 
 The encoder analyses the input sequence words and their relations.
 The result is the representation of the sentence, called context vector.
@@ -57,5 +57,5 @@ The attention mechanism also learns the alignment between the relevant informati
 
 ## See also
 
-* [Byte-pair encoding](/nav_bar/building-and-research/approaches/byte-pair-encoding.md)
-* [Transformers](/nav_bar/building-and-research/approaches/transformers.md)
+* [Byte-pair encoding](byte-pair-encoding.md)
+* [Transformers](transformers.md)

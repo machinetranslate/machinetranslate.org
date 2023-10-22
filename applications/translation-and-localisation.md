@@ -10,12 +10,12 @@ Machine translation is a key technology in professional **translation and locali
 
 ### Integrations
 
-Translation software, like [translation management systems](/nav_bar/integrations) (TMS) and computer-aided translation tools (CAT), integrate [machine translation APIs](/nav_bar/apis), directly or via plugins.
+Translation software, like [translation management systems](/integrations) (TMS) and computer-aided translation tools (CAT), integrate [machine translation APIs](/apis), directly or via plugins.
 
 ### Workflow
 
-The translation software fills in the machine translation for the human translator to [post-edit](/nav_bar/building-and-research/applications/workflows/post-editing.md).
-The machine translation can be inserted in whole files at once or one [segment](/nav_bar/concepts/segment.md) at a time.
+The translation software fills in the machine translation for the human translator to [post-edit](/workflows/post-editing.md).
+The machine translation can be inserted in whole files at once or one [segment](/concepts/segment.md) at a time.
 Some systems that translate segment-by-segment can learn from post-edits and adapt the machine translation output accordingly.
 
 ### Productivity
@@ -41,7 +41,7 @@ A software localisation process consists of the following steps:
 2. Identifying the features that need to be replaced or adapted.
 3. Translating user interface and user assistance content.
 4. Replacing or adapting the features that can’t be used in the target culture.
-5. Creating versions of the software in the target [locale](/nav_bar/building-and-research/applications/advanced-concepts/locale.md) that are target culture specific.
+5. Creating versions of the software in the target [locale](/applications/advanced-concepts/locale.md) that are target culture specific.
 6. Testing the localised versions:
    - Verifying the validity of the translation in the context of the software.
    - Checking if the new versions work well for the target audience in each language:

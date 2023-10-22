@@ -144,7 +144,7 @@ for code in LANGUAGE_FAMILIES:
   name = LANGUAGE_FAMILIES[code]
 
   slug = slugify(name)
-  filepath = f'nav_bar/languages/{ slug }.md'
+  filepath = f'languages/{ slug }.md'
 
   # TODO: check that it won't be overwritten by a language
 
@@ -257,7 +257,7 @@ for language in LANGUAGES:
   }
 
   slug = slugify(name)
-  filepath = f'nav_bar/languages/{ slug }.md'
+  filepath = f'languages/{ slug }.md'
 
   content = read_content(filepath)
 
@@ -392,7 +392,7 @@ for api in APIS:
 
   content = read_content(filepath)
 
-  filepath = f'nav_bar/apis/{ api_id }.md'
+  filepath = f'apis/{ api_id }.md'
   with open(filepath, 'w', encoding='utf8') as f:
     f.write(f'''\
 ---
@@ -497,7 +497,7 @@ for tms in INTEGRATIONS:
 
     content = read_content(filepath)
 
-    filepath = f'nav_bar/integrations/{tms_id}.md'
+    filepath = f'integrations/{tms_id}.md'
     with open(filepath, 'w', encoding='utf8') as f:
         f.write(f'''\
 ---
@@ -554,7 +554,7 @@ for a in AGGREGATORS:
     
     content = read_content(filepath)
 
-    filepath = f'nav_bar/aggregators/{a_id}.md'
+    filepath = f'aggregators/{a_id}.md'
     with open(filepath, 'w', encoding='utf8') as f:
         f.write(f'''\
 ---
@@ -679,8 +679,9 @@ for estimation in QUALITY_ESTIMATION:
     }
   }
 
-  slug = slugify(name.replace('-', '').replace('  ', ' '))
-  filepath = f'nav_bar/quality-estimation/{ slug }.md'
+  slug = slugify(name)
+
+  filepath = f'quality-estimation/{ slug }.md'
 
   content = read_content(filepath)
 
