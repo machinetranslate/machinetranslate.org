@@ -24,9 +24,9 @@ seo:
     url: https://www.surrey.ac.uk/centre-translation-studies
 ---
 
-The talk **The Importance of Data Anonymization to Build Ethical AI** will take place online on 18 October, 2023, at 16:00 BST (GMT+1).
+The talk **The Importance of Data Anonymization to Build Ethical AI** took place online on 18 October, 2023, at 16:00 BST (GMT+1).
 
-The speaker will be Manuel Herranz, CEO of Pangeanic.
+The speaker was Manuel Herranz, CEO of Pangeanic.
 
 
 > Data provenance and the use and inclusion of personal data have not been historically a consideration in the building of machine translation systems and, lately, Large Language Models (LLMs). Manuel’s convergence lecture will touch upon concepts such as Ethical AI and the need to build ethics all along the data generation and data acquisition pipelines when building AI products and services, GDPR, compliance, EU anonymisation projects, the data-for-AI market, etc. He will also discuss the challenges involved in anonymisation of multilingual content in the context of machine translation. 
