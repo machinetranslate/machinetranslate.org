@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`gym`'
-description: Machine translation for gym
+title: <code>gym</code>
+description: Machine translation for <code>gym</code>
 codes:
 - gym
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`kbh`'
-description: Machine translation for kbh
+title: <code>kbh</code>
+description: Machine translation for <code>kbh</code>
 codes:
 - kbh
 names:

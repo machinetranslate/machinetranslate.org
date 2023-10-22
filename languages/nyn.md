@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nyn`'
-description: Machine translation for nyn
+title: <code>nyn</code>
+description: Machine translation for <code>nyn</code>
 codes:
 - nyn
 names:

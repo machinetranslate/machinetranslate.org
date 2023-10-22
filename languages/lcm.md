@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`lcm`'
-description: Machine translation for lcm
+title: <code>lcm</code>
+description: Machine translation for <code>lcm</code>
 codes:
 - lcm
 names:

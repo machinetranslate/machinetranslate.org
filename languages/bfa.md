@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`bfa`'
-description: Machine translation for bfa
+title: <code>bfa</code>
+description: Machine translation for <code>bfa</code>
 codes:
 - bfa
 names:

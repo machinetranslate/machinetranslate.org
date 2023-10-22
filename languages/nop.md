@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nop`'
-description: Machine translation for nop
+title: <code>nop</code>
+description: Machine translation for <code>nop</code>
 codes:
 - nop
 names:

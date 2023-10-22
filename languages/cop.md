@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cop`'
-description: Machine translation for cop
+title: <code>cop</code>
+description: Machine translation for <code>cop</code>
 codes:
 - cop
 names:

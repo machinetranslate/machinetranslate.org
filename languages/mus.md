@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`mus`'
-description: Machine translation for mus
+title: <code>mus</code>
+description: Machine translation for <code>mus</code>
 codes:
 - mus
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`tdt`'
-description: Machine translation for tdt
+title: <code>tdt</code>
+description: Machine translation for <code>tdt</code>
 codes:
 - tdt
 names:

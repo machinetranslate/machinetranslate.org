@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`tyv`'
-description: Machine translation for tyv
+title: <code>tyv</code>
+description: Machine translation for <code>tyv</code>
 codes:
 - tyv
 names:

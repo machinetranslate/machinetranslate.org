@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ada`'
-description: Machine translation for ada
+title: <code>ada</code>
+description: Machine translation for <code>ada</code>
 codes:
 - ada
 names:

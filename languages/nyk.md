@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nyk`'
-description: Machine translation for nyk
+title: <code>nyk</code>
+description: Machine translation for <code>nyk</code>
 codes:
 - nyk
 names:

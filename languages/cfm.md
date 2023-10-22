@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cfm`'
-description: Machine translation for cfm
+title: <code>cfm</code>
+description: Machine translation for <code>cfm</code>
 codes:
 - cfm
 names:

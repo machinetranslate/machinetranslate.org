@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`acr`'
-description: Machine translation for acr
+title: <code>acr</code>
+description: Machine translation for <code>acr</code>
 codes:
 - acr
 names:

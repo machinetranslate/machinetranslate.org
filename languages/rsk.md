@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`rsk`'
-description: Machine translation for rsk
+title: <code>rsk</code>
+description: Machine translation for <code>rsk</code>
 codes:
 - rsk
 names:

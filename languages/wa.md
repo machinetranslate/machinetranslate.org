@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`wa`'
-description: Machine translation for wa
+title: <code>wa</code>
+description: Machine translation for <code>wa</code>
 codes:
 - wa
 names:

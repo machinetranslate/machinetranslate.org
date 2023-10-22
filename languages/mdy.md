@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`mdy`'
-description: Machine translation for mdy
+title: <code>mdy</code>
+description: Machine translation for <code>mdy</code>
 codes:
 - mdy
 names:

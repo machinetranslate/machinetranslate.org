@@ -4,8 +4,8 @@ nav_order: 1000
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nbl`'
-description: Machine translation for nbl
+title: <code>nbl</code>
+description: Machine translation for <code>nbl</code>
 codes:
 - nbl
 names:

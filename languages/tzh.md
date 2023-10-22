@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`tzh`'
-description: Machine translation for tzh
+title: <code>tzh</code>
+description: Machine translation for <code>tzh</code>
 codes:
 - tzh
 names:

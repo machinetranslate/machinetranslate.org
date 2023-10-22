@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ksd`'
-description: Machine translation for ksd
+title: <code>ksd</code>
+description: Machine translation for <code>ksd</code>
 codes:
 - ksd
 names:

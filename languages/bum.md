@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`bum`'
-description: Machine translation for bum
+title: <code>bum</code>
+description: Machine translation for <code>bum</code>
 codes:
 - bum
 names:

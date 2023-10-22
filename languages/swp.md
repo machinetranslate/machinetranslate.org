@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`swp`'
-description: Machine translation for swp
+title: <code>swp</code>
+description: Machine translation for <code>swp</code>
 codes:
 - swp
 names:

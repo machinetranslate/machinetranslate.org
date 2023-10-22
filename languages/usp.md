@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`usp`'
-description: Machine translation for usp
+title: <code>usp</code>
+description: Machine translation for <code>usp</code>
 codes:
 - usp
 names:

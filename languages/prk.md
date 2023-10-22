@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`prk`'
-description: Machine translation for prk
+title: <code>prk</code>
+description: Machine translation for <code>prk</code>
 codes:
 - prk
 names:

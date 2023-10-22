@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ibg`'
-description: Machine translation for ibg
+title: <code>ibg</code>
+description: Machine translation for <code>ibg</code>
 codes:
 - ibg
 names:

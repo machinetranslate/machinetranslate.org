@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`zyb`'
-description: Machine translation for zyb
+title: <code>zyb</code>
+description: Machine translation for <code>zyb</code>
 codes:
 - zyb
 names:

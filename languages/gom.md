@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`gom`'
-description: Machine translation for gom
+title: <code>gom</code>
+description: Machine translation for <code>gom</code>
 codes:
 - gom
 names:

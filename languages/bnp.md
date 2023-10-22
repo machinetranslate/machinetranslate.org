@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`bnp`'
-description: Machine translation for bnp
+title: <code>bnp</code>
+description: Machine translation for <code>bnp</code>
 codes:
 - bnp
 names:

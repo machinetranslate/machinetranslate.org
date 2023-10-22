@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`zne`'
-description: Machine translation for zne
+title: <code>zne</code>
+description: Machine translation for <code>zne</code>
 codes:
 - zne
 names:

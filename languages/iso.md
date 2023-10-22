@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`iso`'
-description: Machine translation for iso
+title: <code>iso</code>
+description: Machine translation for <code>iso</code>
 codes:
 - iso
 names:

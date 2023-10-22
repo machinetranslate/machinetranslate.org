@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ssx`'
-description: Machine translation for ssx
+title: <code>ssx</code>
+description: Machine translation for <code>ssx</code>
 codes:
 - ssx
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`jac`'
-description: Machine translation for jac
+title: <code>jac</code>
+description: Machine translation for <code>jac</code>
 codes:
 - jac
 names:

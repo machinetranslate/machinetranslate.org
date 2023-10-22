@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`bci`'
-description: Machine translation for bci
+title: <code>bci</code>
+description: Machine translation for <code>bci</code>
 codes:
 - bci
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`pis`'
-description: Machine translation for pis
+title: <code>pis</code>
+description: Machine translation for <code>pis</code>
 codes:
 - pis
 names:

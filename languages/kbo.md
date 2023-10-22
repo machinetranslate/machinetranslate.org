@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`kbo`'
-description: Machine translation for kbo
+title: <code>kbo</code>
+description: Machine translation for <code>kbo</code>
 codes:
 - kbo
 names:

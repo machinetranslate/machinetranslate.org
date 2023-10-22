@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`bli`'
-description: Machine translation for bli
+title: <code>bli</code>
+description: Machine translation for <code>bli</code>
 codes:
 - bli
 names:

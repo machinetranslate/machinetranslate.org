@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`tig`'
-description: Machine translation for tig
+title: <code>tig</code>
+description: Machine translation for <code>tig</code>
 codes:
 - tig
 names:

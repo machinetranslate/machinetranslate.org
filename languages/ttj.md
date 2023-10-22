@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ttj`'
-description: Machine translation for ttj
+title: <code>ttj</code>
+description: Machine translation for <code>ttj</code>
 codes:
 - ttj
 names:

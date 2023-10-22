@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`oj`'
-description: Machine translation for oj
+title: <code>oj</code>
+description: Machine translation for <code>oj</code>
 codes:
 - oj
 names:

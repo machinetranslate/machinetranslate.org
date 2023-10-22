@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cjp`'
-description: Machine translation for cjp
+title: <code>cjp</code>
+description: Machine translation for <code>cjp</code>
 codes:
 - cjp
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`kok`'
-description: Machine translation for kok
+title: <code>kok</code>
+description: Machine translation for <code>kok</code>
 codes:
 - kok
 names:

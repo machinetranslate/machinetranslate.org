@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`tbz`'
-description: Machine translation for tbz
+title: <code>tbz</code>
+description: Machine translation for <code>tbz</code>
 codes:
 - tbz
 names:

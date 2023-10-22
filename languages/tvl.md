@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`tvl`'
-description: Machine translation for tvl
+title: <code>tvl</code>
+description: Machine translation for <code>tvl</code>
 codes:
 - tvl
 names:

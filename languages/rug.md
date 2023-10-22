@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`rug`'
-description: Machine translation for rug
+title: <code>rug</code>
+description: Machine translation for <code>rug</code>
 codes:
 - rug
 names:

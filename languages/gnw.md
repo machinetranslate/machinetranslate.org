@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`gnw`'
-description: Machine translation for gnw
+title: <code>gnw</code>
+description: Machine translation for <code>gnw</code>
 codes:
 - gnw
 names:

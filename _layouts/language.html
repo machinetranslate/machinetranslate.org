@@ -3,6 +3,7 @@ layout: default
 parent: Languages
 ---
 
+
 <h1>
   {{ page.title }}
 </h1>
@@ -13,14 +14,17 @@ parent: Languages
 <hr/>
 
 {% if page.codes == page.names %}
-  <p>
-    This language has not yet been fully added to Machine Translate.
+  <blockquote>
+    <p>
+      This language has not yet been fully added to Machine Translate.
 
-    You can add it to Machine Translate by getting the name, language family, script and typology to <a target="_blank" href="https://github.com/machinetranslate/machinetranslate.org/blob/master/_data/languages.json">languages.json</a> and submitting a pull request.
+      You can add it to Machine Translate by getting the name, language family, script and typology to <a target="_blank" href="https://github.com/machinetranslate/machinetranslate.org/blob/master/_data/languages.json">languages.json</a> and submitting a pull request.
 
-    You may be able to find this information in  <a target="_blank" href="https://en.wikipedia.org/wiki/ISO_639:{{ page.codes }}">its Wikipedia article.</a>
-  </p>
-{% else %}
+      You may be able to find this information in  <a target="_blank" href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#{{ page.codes }}">its Wikipedia article.</a>
+    </p>
+  </blockquote>
+{% endif %}
+
 <p>
   Machine translation for the <strong>{{ page.title }}</strong> language is supported by <a href="#machine-translation">{{ page.supported_apis | size }} machine translation APIs</a>.
 </p>
@@ -41,7 +45,7 @@ parent: Languages
     <dt>Language family</dt>
     <dd>
       {% for family in page.family %}
-       <a href="/{{ family.slug }}">{{ family.name }}</a> {% unless forloop.last %}<{% endunless %}
+      <a href="/{{ family.slug }}">{{ family.name }}</a> {% unless forloop.last %}<{% endunless %}
       {% endfor %}
     </dd>
 
@@ -56,7 +60,7 @@ parent: Languages
     <dt>Locale variants</dt>
     <dd>
       {% for variant in page.territories %}
-       <code style="white-space: nowrap;">{{ page.codes | first | append: '-' | append: variant }}</code>{% unless forloop.last %}{% endunless %}
+      <code style="white-space: nowrap;">{{ page.codes | first | append: '-' | append: variant }}</code>{% unless forloop.last %}{% endunless %}
       {% endfor %}
     </dd>
 
@@ -116,4 +120,3 @@ parent: Languages
     </ul>
   </details>
 </section>
-{% endif %}

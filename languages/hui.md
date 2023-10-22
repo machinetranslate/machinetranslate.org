@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`hui`'
-description: Machine translation for hui
+title: <code>hui</code>
+description: Machine translation for <code>hui</code>
 codes:
 - hui
 names:

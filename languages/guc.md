@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`guc`'
-description: Machine translation for guc
+title: <code>guc</code>
+description: Machine translation for <code>guc</code>
 codes:
 - guc
 names:

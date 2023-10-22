@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nia`'
-description: Machine translation for nia
+title: <code>nia</code>
+description: Machine translation for <code>nia</code>
 codes:
 - nia
 names:

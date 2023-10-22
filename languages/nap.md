@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nap`'
-description: Machine translation for nap
+title: <code>nap</code>
+description: Machine translation for <code>nap</code>
 codes:
 - nap
 names:

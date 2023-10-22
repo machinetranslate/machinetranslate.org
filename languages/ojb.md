@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ojb`'
-description: Machine translation for ojb
+title: <code>ojb</code>
+description: Machine translation for <code>ojb</code>
 codes:
 - ojb
 names:

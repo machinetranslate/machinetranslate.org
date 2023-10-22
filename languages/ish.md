@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ish`'
-description: Machine translation for ish
+title: <code>ish</code>
+description: Machine translation for <code>ish</code>
 codes:
 - ish
 names:

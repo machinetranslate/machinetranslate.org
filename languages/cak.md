@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cak`'
-description: Machine translation for cak
+title: <code>cak</code>
+description: Machine translation for <code>cak</code>
 codes:
 - cak
 names:

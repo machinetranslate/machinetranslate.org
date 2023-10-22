@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`rmn`'
-description: Machine translation for rmn
+title: <code>rmn</code>
+description: Machine translation for <code>rmn</code>
 codes:
 - rmn
 names:

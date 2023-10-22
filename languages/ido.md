@@ -4,8 +4,8 @@ nav_order: 1000
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ido`'
-description: Machine translation for ido
+title: <code>ido</code>
+description: Machine translation for <code>ido</code>
 codes:
 - ido
 names:

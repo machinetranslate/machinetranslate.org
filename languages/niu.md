@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`niu`'
-description: Machine translation for niu
+title: <code>niu</code>
+description: Machine translation for <code>niu</code>
 codes:
 - niu
 names:

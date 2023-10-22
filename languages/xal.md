@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`xal`'
-description: Machine translation for xal
+title: <code>xal</code>
+description: Machine translation for <code>xal</code>
 codes:
 - xal
 names:

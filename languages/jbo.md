@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`jbo`'
-description: Machine translation for jbo
+title: <code>jbo</code>
+description: Machine translation for <code>jbo</code>
 codes:
 - jbo
 names:

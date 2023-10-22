@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`jmc`'
-description: Machine translation for jmc
+title: <code>jmc</code>
+description: Machine translation for <code>jmc</code>
 codes:
 - jmc
 names:

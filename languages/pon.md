@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`pon`'
-description: Machine translation for pon
+title: <code>pon</code>
+description: Machine translation for <code>pon</code>
 codes:
 - pon
 names:

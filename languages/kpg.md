@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`kpg`'
-description: Machine translation for kpg
+title: <code>kpg</code>
+description: Machine translation for <code>kpg</code>
 codes:
 - kpg
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`bin`'
-description: Machine translation for bin
+title: <code>bin</code>
+description: Machine translation for <code>bin</code>
 codes:
 - bin
 names:

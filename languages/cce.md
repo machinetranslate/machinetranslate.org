@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cce`'
-description: Machine translation for cce
+title: <code>cce</code>
+description: Machine translation for <code>cce</code>
 codes:
 - cce
 names:

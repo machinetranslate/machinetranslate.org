@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`guw`'
-description: Machine translation for guw
+title: <code>guw</code>
+description: Machine translation for <code>guw</code>
 codes:
 - guw
 names:

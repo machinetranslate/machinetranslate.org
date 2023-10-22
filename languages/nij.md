@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nij`'
-description: Machine translation for nij
+title: <code>nij</code>
+description: Machine translation for <code>nij</code>
 codes:
 - nij
 names:

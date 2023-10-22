@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ppk`'
-description: Machine translation for ppk
+title: <code>ppk</code>
+description: Machine translation for <code>ppk</code>
 codes:
 - ppk
 names:

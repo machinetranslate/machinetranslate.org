@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`bba`'
-description: Machine translation for bba
+title: <code>bba</code>
+description: Machine translation for <code>bba</code>
 codes:
 - bba
 names:

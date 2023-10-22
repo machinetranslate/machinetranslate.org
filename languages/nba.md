@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nba`'
-description: Machine translation for nba
+title: <code>nba</code>
+description: Machine translation for <code>nba</code>
 codes:
 - nba
 names:

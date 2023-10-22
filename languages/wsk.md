@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`wsk`'
-description: Machine translation for wsk
+title: <code>wsk</code>
+description: Machine translation for <code>wsk</code>
 codes:
 - wsk
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`enx`'
-description: Machine translation for enx
+title: <code>enx</code>
+description: Machine translation for <code>enx</code>
 codes:
 - enx
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`meu`'
-description: Machine translation for meu
+title: <code>meu</code>
+description: Machine translation for <code>meu</code>
 codes:
 - meu
 names:

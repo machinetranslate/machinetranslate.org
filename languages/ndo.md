@@ -4,8 +4,8 @@ nav_order: 1000
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ndo`'
-description: Machine translation for ndo
+title: <code>ndo</code>
+description: Machine translation for <code>ndo</code>
 codes:
 - ndo
 names:

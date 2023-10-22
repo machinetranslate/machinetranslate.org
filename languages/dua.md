@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`dua`'
-description: Machine translation for dua
+title: <code>dua</code>
+description: Machine translation for <code>dua</code>
 codes:
 - dua
 names:

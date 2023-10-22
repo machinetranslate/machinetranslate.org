@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`sid`'
-description: Machine translation for sid
+title: <code>sid</code>
+description: Machine translation for <code>sid</code>
 codes:
 - sid
 names:

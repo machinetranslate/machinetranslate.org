@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`frm`'
-description: Machine translation for frm
+title: <code>frm</code>
+description: Machine translation for <code>frm</code>
 codes:
 - frm
 names:

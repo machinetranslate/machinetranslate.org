@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`quc`'
-description: Machine translation for quc
+title: <code>quc</code>
+description: Machine translation for <code>quc</code>
 codes:
 - quc
 names:

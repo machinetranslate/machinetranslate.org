@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`grc`'
-description: Machine translation for grc
+title: <code>grc</code>
+description: Machine translation for <code>grc</code>
 codes:
 - grc
 names:

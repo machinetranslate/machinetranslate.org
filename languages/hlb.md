@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`hlb`'
-description: Machine translation for hlb
+title: <code>hlb</code>
+description: Machine translation for <code>hlb</code>
 codes:
 - hlb
 names:

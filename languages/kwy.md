@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`kwy`'
-description: Machine translation for kwy
+title: <code>kwy</code>
+description: Machine translation for <code>kwy</code>
 codes:
 - kwy
 names:

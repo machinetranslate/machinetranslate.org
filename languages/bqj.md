@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`bqj`'
-description: Machine translation for bqj
+title: <code>bqj</code>
+description: Machine translation for <code>bqj</code>
 codes:
 - bqj
 names:

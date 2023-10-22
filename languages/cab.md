@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cab`'
-description: Machine translation for cab
+title: <code>cab</code>
+description: Machine translation for <code>cab</code>
 codes:
 - cab
 names:

@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`mfe`'
-description: Machine translation for mfe
+title: <code>mfe</code>
+description: Machine translation for <code>mfe</code>
 codes:
 - mfe
 names:

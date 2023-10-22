@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`gbi`'
-description: Machine translation for gbi
+title: <code>gbi</code>
+description: Machine translation for <code>gbi</code>
 codes:
 - gbi
 names:

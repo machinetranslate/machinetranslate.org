@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`acu`'
-description: Machine translation for acu
+title: <code>acu</code>
+description: Machine translation for <code>acu</code>
 codes:
 - acu
 names:

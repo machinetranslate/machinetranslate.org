@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`doi`'
-description: Machine translation for doi
+title: <code>doi</code>
+description: Machine translation for <code>doi</code>
 codes:
 - doi
 names:

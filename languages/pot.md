@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`pot`'
-description: Machine translation for pot
+title: <code>pot</code>
+description: Machine translation for <code>pot</code>
 codes:
 - pot
 names:

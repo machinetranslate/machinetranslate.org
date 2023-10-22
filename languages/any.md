@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`any`'
-description: Machine translation for any
+title: <code>any</code>
+description: Machine translation for <code>any</code>
 codes:
 - any
 names:

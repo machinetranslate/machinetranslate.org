@@ -4,8 +4,8 @@ nav_order: 1000
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`lub`'
-description: Machine translation for lub
+title: <code>lub</code>
+description: Machine translation for <code>lub</code>
 codes:
 - lub
 names:

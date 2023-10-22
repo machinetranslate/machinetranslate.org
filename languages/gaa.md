@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`gaa`'
-description: Machine translation for gaa
+title: <code>gaa</code>
+description: Machine translation for <code>gaa</code>
 codes:
 - gaa
 names:

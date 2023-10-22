@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cdf`'
-description: Machine translation for cdf
+title: <code>cdf</code>
+description: Machine translation for <code>cdf</code>
 codes:
 - cdf
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`efi`'
-description: Machine translation for efi
+title: <code>efi</code>
+description: Machine translation for <code>efi</code>
 codes:
 - efi
 names:

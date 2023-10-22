@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`wes`'
-description: Machine translation for wes
+title: <code>wes</code>
+description: Machine translation for <code>wes</code>
 codes:
 - wes
 names:

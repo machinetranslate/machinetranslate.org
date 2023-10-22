@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`rar`'
-description: Machine translation for rar
+title: <code>rar</code>
+description: Machine translation for <code>rar</code>
 codes:
 - rar
 names:

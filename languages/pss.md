@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`pss`'
-description: Machine translation for pss
+title: <code>pss</code>
+description: Machine translation for <code>pss</code>
 codes:
 - pss
 names:

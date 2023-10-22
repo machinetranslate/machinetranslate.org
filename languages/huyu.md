@@ -4,8 +4,8 @@ nav_order: 1000
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`huyu`'
-description: Machine translation for huyu
+title: <code>huyu</code>
+description: Machine translation for <code>huyu</code>
 codes:
 - huyu
 names:

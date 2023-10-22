@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`mbb`'
-description: Machine translation for mbb
+title: <code>mbb</code>
+description: Machine translation for <code>mbb</code>
 codes:
 - mbb
 names:

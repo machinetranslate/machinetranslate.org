@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cpb`'
-description: Machine translation for cpb
+title: <code>cpb</code>
+description: Machine translation for <code>cpb</code>
 codes:
 - cpb
 names:

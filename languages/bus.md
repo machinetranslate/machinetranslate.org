@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`bus`'
-description: Machine translation for bus
+title: <code>bus</code>
+description: Machine translation for <code>bus</code>
 codes:
 - bus
 names:

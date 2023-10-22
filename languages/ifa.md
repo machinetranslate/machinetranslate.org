@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ifa`'
-description: Machine translation for ifa
+title: <code>ifa</code>
+description: Machine translation for <code>ifa</code>
 codes:
 - ifa
 names:

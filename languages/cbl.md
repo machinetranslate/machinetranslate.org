@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cbl`'
-description: Machine translation for cbl
+title: <code>cbl</code>
+description: Machine translation for <code>cbl</code>
 codes:
 - cbl
 names:

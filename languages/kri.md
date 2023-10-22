@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`kri`'
-description: Machine translation for kri
+title: <code>kri</code>
+description: Machine translation for <code>kri</code>
 codes:
 - kri
 names:

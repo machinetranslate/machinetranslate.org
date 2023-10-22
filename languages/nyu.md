@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nyu`'
-description: Machine translation for nyu
+title: <code>nyu</code>
+description: Machine translation for <code>nyu</code>
 codes:
 - nyu
 names:

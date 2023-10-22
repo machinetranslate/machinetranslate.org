@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`mrw`'
-description: Machine translation for mrw
+title: <code>mrw</code>
+description: Machine translation for <code>mrw</code>
 codes:
 - mrw
 names:

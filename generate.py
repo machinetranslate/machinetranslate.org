@@ -417,9 +417,10 @@ for language in LANGUAGES:
   }
 
   slug = slugify(name)
+  
   if code == name.lower():
-    frontmatter['title'] = f'`{name}`'
-  #   frontmatter['redirect_to'] = f'https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#{ slug }' if len(slug) == 2 else f'https://en.wikipedia.org/wiki/ISO_639:{ slug }'
+    frontmatter['title'] = f'<code>{name}</code>'
+    frontmatter['description'] = f'Machine translation for <code>{name}</code>'
 
   filepath = f'languages/{ slug }.md'
 

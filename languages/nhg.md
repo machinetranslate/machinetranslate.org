@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nhg`'
-description: Machine translation for nhg
+title: <code>nhg</code>
+description: Machine translation for <code>nhg</code>
 codes:
 - nhg
 names:

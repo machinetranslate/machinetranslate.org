@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`pcm`'
-description: Machine translation for pcm
+title: <code>pcm</code>
+description: Machine translation for <code>pcm</code>
 codes:
 - pcm
 names:

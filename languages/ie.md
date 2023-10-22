@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ie`'
-description: Machine translation for ie
+title: <code>ie</code>
+description: Machine translation for <code>ie</code>
 codes:
 - ie
 names:

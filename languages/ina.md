@@ -4,8 +4,8 @@ nav_order: 1000
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ina`'
-description: Machine translation for ina
+title: <code>ina</code>
+description: Machine translation for <code>ina</code>
 codes:
 - ina
 names:

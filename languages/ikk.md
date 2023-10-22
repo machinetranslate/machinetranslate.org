@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ikk`'
-description: Machine translation for ikk
+title: <code>ikk</code>
+description: Machine translation for <code>ikk</code>
 codes:
 - ikk
 names:

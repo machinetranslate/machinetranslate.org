@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`kyu`'
-description: Machine translation for kyu
+title: <code>kyu</code>
+description: Machine translation for <code>kyu</code>
 codes:
 - kyu
 names:

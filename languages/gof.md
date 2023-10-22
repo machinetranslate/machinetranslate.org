@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`gof`'
-description: Machine translation for gof
+title: <code>gof</code>
+description: Machine translation for <code>gof</code>
 codes:
 - gof
 names:

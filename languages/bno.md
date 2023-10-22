@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`bno`'
-description: Machine translation for bno
+title: <code>bno</code>
+description: Machine translation for <code>bno</code>
 codes:
 - bno
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`srm`'
-description: Machine translation for srm
+title: <code>srm</code>
+description: Machine translation for <code>srm</code>
 codes:
 - srm
 names:

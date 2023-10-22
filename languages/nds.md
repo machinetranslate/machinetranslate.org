@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nds`'
-description: Machine translation for nds
+title: <code>nds</code>
+description: Machine translation for <code>nds</code>
 codes:
 - nds
 names:

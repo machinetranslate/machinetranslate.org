@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`rue`'
-description: Machine translation for rue
+title: <code>rue</code>
+description: Machine translation for <code>rue</code>
 codes:
 - rue
 names:

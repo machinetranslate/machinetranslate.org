@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cbk`'
-description: Machine translation for cbk
+title: <code>cbk</code>
+description: Machine translation for <code>cbk</code>
 codes:
 - cbk
 names:

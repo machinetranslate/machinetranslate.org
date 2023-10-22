@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ifb`'
-description: Machine translation for ifb
+title: <code>ifb</code>
+description: Machine translation for <code>ifb</code>
 codes:
 - ifb
 names:

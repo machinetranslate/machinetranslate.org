@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`lun`'
-description: Machine translation for lun
+title: <code>lun</code>
+description: Machine translation for <code>lun</code>
 codes:
 - lun
 names:

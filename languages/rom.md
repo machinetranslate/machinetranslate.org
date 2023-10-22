@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`rom`'
-description: Machine translation for rom
+title: <code>rom</code>
+description: Machine translation for <code>rom</code>
 codes:
 - rom
 names:

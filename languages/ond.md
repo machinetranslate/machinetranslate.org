@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ond`'
-description: Machine translation for ond
+title: <code>ond</code>
+description: Machine translation for <code>ond</code>
 codes:
 - ond
 names:

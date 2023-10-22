@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`kek`'
-description: Machine translation for kek
+title: <code>kek</code>
+description: Machine translation for <code>kek</code>
 codes:
 - kek
 names:

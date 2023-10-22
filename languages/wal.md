@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`wal`'
-description: Machine translation for wal
+title: <code>wal</code>
+description: Machine translation for <code>wal</code>
 codes:
 - wal
 names:

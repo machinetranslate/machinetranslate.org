@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`yap`'
-description: Machine translation for yap
+title: <code>yap</code>
+description: Machine translation for <code>yap</code>
 codes:
 - yap
 names:

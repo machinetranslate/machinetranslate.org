@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`lnd`'
-description: Machine translation for lnd
+title: <code>lnd</code>
+description: Machine translation for <code>lnd</code>
 codes:
 - lnd
 names:

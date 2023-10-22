@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`pil`'
-description: Machine translation for pil
+title: <code>pil</code>
+description: Machine translation for <code>pil</code>
 codes:
 - pil
 names:

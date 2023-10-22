@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`dhv`'
-description: Machine translation for dhv
+title: <code>dhv</code>
+description: Machine translation for <code>dhv</code>
 codes:
 - dhv
 names:

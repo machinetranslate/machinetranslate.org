@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ata`'
-description: Machine translation for ata
+title: <code>ata</code>
+description: Machine translation for <code>ata</code>
 codes:
 - ata
 names:

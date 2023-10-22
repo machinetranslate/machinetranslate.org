@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ntm`'
-description: Machine translation for ntm
+title: <code>ntm</code>
+description: Machine translation for <code>ntm</code>
 codes:
 - ntm
 names:

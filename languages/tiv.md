@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`tiv`'
-description: Machine translation for tiv
+title: <code>tiv</code>
+description: Machine translation for <code>tiv</code>
 codes:
 - tiv
 names:

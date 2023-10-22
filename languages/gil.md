@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`gil`'
-description: Machine translation for gil
+title: <code>gil</code>
+description: Machine translation for <code>gil</code>
 codes:
 - gil
 names:

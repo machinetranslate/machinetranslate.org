@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`knj`'
-description: Machine translation for knj
+title: <code>knj</code>
+description: Machine translation for <code>knj</code>
 codes:
 - knj
 names:

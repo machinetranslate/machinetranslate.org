@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`dop`'
-description: Machine translation for dop
+title: <code>dop</code>
+description: Machine translation for <code>dop</code>
 codes:
 - dop
 names:

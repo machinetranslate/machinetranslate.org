@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`xsm`'
-description: Machine translation for xsm
+title: <code>xsm</code>
+description: Machine translation for <code>xsm</code>
 codes:
 - xsm
 names:

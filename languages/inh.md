@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`inh`'
-description: Machine translation for inh
+title: <code>inh</code>
+description: Machine translation for <code>inh</code>
 codes:
 - inh
 names:

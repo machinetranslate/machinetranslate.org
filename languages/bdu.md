@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`bdu`'
-description: Machine translation for bdu
+title: <code>bdu</code>
+description: Machine translation for <code>bdu</code>
 codes:
 - bdu
 names:

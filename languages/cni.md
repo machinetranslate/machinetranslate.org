@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cni`'
-description: Machine translation for cni
+title: <code>cni</code>
+description: Machine translation for <code>cni</code>
 codes:
 - cni
 names:

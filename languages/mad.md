@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`mad`'
-description: Machine translation for mad
+title: <code>mad</code>
+description: Machine translation for <code>mad</code>
 codes:
 - mad
 names:

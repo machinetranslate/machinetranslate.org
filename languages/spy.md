@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`spy`'
-description: Machine translation for spy
+title: <code>spy</code>
+description: Machine translation for <code>spy</code>
 codes:
 - spy
 names:

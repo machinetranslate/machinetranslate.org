@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`tmh`'
-description: Machine translation for tmh
+title: <code>tmh</code>
+description: Machine translation for <code>tmh</code>
 codes:
 - tmh
 names:

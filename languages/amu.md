@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`amu`'
-description: Machine translation for amu
+title: <code>amu</code>
+description: Machine translation for <code>amu</code>
 codes:
 - amu
 names:

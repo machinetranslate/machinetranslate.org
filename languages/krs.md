@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`krs`'
-description: Machine translation for krs
+title: <code>krs</code>
+description: Machine translation for <code>krs</code>
 codes:
 - krs
 names:

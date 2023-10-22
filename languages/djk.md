@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`djk`'
-description: Machine translation for djk
+title: <code>djk</code>
+description: Machine translation for <code>djk</code>
 codes:
 - djk
 names:

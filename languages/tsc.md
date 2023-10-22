@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`tsc`'
-description: Machine translation for tsc
+title: <code>tsc</code>
+description: Machine translation for <code>tsc</code>
 codes:
 - tsc
 names:

@@ -4,8 +4,8 @@ nav_order: 1000
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`her`'
-description: Machine translation for her
+title: <code>her</code>
+description: Machine translation for <code>her</code>
 codes:
 - her
 names:

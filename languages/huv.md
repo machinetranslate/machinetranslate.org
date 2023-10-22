@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`huv`'
-description: Machine translation for huv
+title: <code>huv</code>
+description: Machine translation for <code>huv</code>
 codes:
 - huv
 names:

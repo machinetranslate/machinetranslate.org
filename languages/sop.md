@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`sop`'
-description: Machine translation for sop
+title: <code>sop</code>
+description: Machine translation for <code>sop</code>
 codes:
 - sop
 names:

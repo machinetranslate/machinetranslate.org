@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`vun`'
-description: Machine translation for vun
+title: <code>vun</code>
+description: Machine translation for <code>vun</code>
 codes:
 - vun
 names:

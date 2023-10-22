@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`lcp`'
-description: Machine translation for lcp
+title: <code>lcp</code>
+description: Machine translation for <code>lcp</code>
 codes:
 - lcp
 names:

@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`dtp`'
-description: Machine translation for dtp
+title: <code>dtp</code>
+description: Machine translation for <code>dtp</code>
 codes:
 - dtp
 names:

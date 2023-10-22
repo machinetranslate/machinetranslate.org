@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ctd`'
-description: Machine translation for ctd
+title: <code>ctd</code>
+description: Machine translation for <code>ctd</code>
 codes:
 - ctd
 names:

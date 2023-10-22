@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`vo`'
-description: Machine translation for vo
+title: <code>vo</code>
+description: Machine translation for <code>vo</code>
 codes:
 - vo
 names:

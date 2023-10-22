@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`byr`'
-description: Machine translation for byr
+title: <code>byr</code>
+description: Machine translation for <code>byr</code>
 codes:
 - byr
 names:

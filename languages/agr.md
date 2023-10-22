@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`agr`'
-description: Machine translation for agr
+title: <code>agr</code>
+description: Machine translation for <code>agr</code>
 codes:
 - agr
 names:

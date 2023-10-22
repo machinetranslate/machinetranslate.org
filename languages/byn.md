@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`byn`'
-description: Machine translation for byn
+title: <code>byn</code>
+description: Machine translation for <code>byn</code>
 codes:
 - byn
 names:

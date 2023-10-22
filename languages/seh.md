@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`seh`'
-description: Machine translation for seh
+title: <code>seh</code>
+description: Machine translation for <code>seh</code>
 codes:
 - seh
 names:

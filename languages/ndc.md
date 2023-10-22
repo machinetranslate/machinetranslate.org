@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ndc`'
-description: Machine translation for ndc
+title: <code>ndc</code>
+description: Machine translation for <code>ndc</code>
 codes:
 - ndc
 names:

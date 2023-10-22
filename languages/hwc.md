@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`hwc`'
-description: Machine translation for hwc
+title: <code>hwc</code>
+description: Machine translation for <code>hwc</code>
 codes:
 - hwc
 names:

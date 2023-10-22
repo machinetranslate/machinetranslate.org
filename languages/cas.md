@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cas`'
-description: Machine translation for cas
+title: <code>cas</code>
+description: Machine translation for <code>cas</code>
 codes:
 - cas
 names:

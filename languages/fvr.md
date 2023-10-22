@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`fvr`'
-description: Machine translation for fvr
+title: <code>fvr</code>
+description: Machine translation for <code>fvr</code>
 codes:
 - fvr
 names:

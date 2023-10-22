@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ccp`'
-description: Machine translation for ccp
+title: <code>ccp</code>
+description: Machine translation for <code>ccp</code>
 codes:
 - ccp
 names:

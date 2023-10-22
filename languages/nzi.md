@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nzi`'
-description: Machine translation for nzi
+title: <code>nzi</code>
+description: Machine translation for <code>nzi</code>
 codes:
 - nzi
 names:

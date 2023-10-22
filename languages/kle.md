@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`kle`'
-description: Machine translation for kle
+title: <code>kle</code>
+description: Machine translation for <code>kle</code>
 codes:
 - kle
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ssd`'
-description: Machine translation for ssd
+title: <code>ssd</code>
+description: Machine translation for <code>ssd</code>
 codes:
 - ssd
 names:

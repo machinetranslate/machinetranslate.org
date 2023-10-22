@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`yon`'
-description: Machine translation for yon
+title: <code>yon</code>
+description: Machine translation for <code>yon</code>
 codes:
 - yon
 names:

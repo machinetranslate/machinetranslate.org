@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`son`'
-description: Machine translation for son
+title: <code>son</code>
+description: Machine translation for <code>son</code>
 codes:
 - son
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ptu`'
-description: Machine translation for ptu
+title: <code>ptu</code>
+description: Machine translation for <code>ptu</code>
 codes:
 - ptu
 names:

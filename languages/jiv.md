@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`jiv`'
-description: Machine translation for jiv
+title: <code>jiv</code>
+description: Machine translation for <code>jiv</code>
 codes:
 - jiv
 names:

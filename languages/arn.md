@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`arn`'
-description: Machine translation for arn
+title: <code>arn</code>
+description: Machine translation for <code>arn</code>
 codes:
 - arn
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`map`'
-description: Machine translation for map
+title: <code>map</code>
+description: Machine translation for <code>map</code>
 codes:
 - map
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ang`'
-description: Machine translation for ang
+title: <code>ang</code>
+description: Machine translation for <code>ang</code>
 codes:
 - ang
 names:

@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`hup`'
-description: Machine translation for hup
+title: <code>hup</code>
+description: Machine translation for <code>hup</code>
 codes:
 - hup
 names:

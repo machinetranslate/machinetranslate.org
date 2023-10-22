@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`gbo`'
-description: Machine translation for gbo
+title: <code>gbo</code>
+description: Machine translation for <code>gbo</code>
 codes:
 - gbo
 names:

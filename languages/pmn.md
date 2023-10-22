@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`pmn`'
-description: Machine translation for pmn
+title: <code>pmn</code>
+description: Machine translation for <code>pmn</code>
 codes:
 - pmn
 names:

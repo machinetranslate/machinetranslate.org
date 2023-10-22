@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`iou`'
-description: Machine translation for iou
+title: <code>iou</code>
+description: Machine translation for <code>iou</code>
 codes:
 - iou
 names:

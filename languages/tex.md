@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`tex`'
-description: Machine translation for tex
+title: <code>tex</code>
+description: Machine translation for <code>tex</code>
 codes:
 - tex
 names:

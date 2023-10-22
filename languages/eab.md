@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`eab`'
-description: Machine translation for eab
+title: <code>eab</code>
+description: Machine translation for <code>eab</code>
 codes:
 - eab
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`wrs`'
-description: Machine translation for wrs
+title: <code>wrs</code>
+description: Machine translation for <code>wrs</code>
 codes:
 - wrs
 names:

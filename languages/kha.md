@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`kha`'
-description: Machine translation for kha
+title: <code>kha</code>
+description: Machine translation for <code>kha</code>
 codes:
 - kha
 names:

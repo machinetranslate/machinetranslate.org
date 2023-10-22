@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`poh`'
-description: Machine translation for poh
+title: <code>poh</code>
+description: Machine translation for <code>poh</code>
 codes:
 - poh
 names:

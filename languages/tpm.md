@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`tpm`'
-description: Machine translation for tpm
+title: <code>tpm</code>
+description: Machine translation for <code>tpm</code>
 codes:
 - tpm
 names:

@@ -4,8 +4,8 @@ nav_order: 1000
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`kal`'
-description: Machine translation for kal
+title: <code>kal</code>
+description: Machine translation for <code>kal</code>
 codes:
 - kal
 names:

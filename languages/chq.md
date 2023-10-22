@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`chq`'
-description: Machine translation for chq
+title: <code>chq</code>
+description: Machine translation for <code>chq</code>
 codes:
 - chq
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cnh`'
-description: Machine translation for cnh
+title: <code>cnh</code>
+description: Machine translation for <code>cnh</code>
 codes:
 - cnh
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`qxr`'
-description: Machine translation for qxr
+title: <code>qxr</code>
+description: Machine translation for <code>qxr</code>
 codes:
 - qxr
 names:

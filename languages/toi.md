@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`toi`'
-description: Machine translation for toi
+title: <code>toi</code>
+description: Machine translation for <code>toi</code>
 codes:
 - toi
 names:

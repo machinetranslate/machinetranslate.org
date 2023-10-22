@@ -4,8 +4,8 @@ nav_order: 997
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`hil`'
-description: Machine translation for hil
+title: <code>hil</code>
+description: Machine translation for <code>hil</code>
 codes:
 - hil
 names:

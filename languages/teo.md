@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`teo`'
-description: Machine translation for teo
+title: <code>teo</code>
+description: Machine translation for <code>teo</code>
 codes:
 - teo
 names:

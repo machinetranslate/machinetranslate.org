@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`keo`'
-description: Machine translation for keo
+title: <code>keo</code>
+description: Machine translation for <code>keo</code>
 codes:
 - keo
 names:

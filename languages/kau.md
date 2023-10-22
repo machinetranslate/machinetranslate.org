@@ -4,8 +4,8 @@ nav_order: 1000
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`kau`'
-description: Machine translation for kau
+title: <code>kau</code>
+description: Machine translation for <code>kau</code>
 codes:
 - kau
 names:

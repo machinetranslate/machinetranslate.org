@@ -4,8 +4,8 @@ nav_order: 1000
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`oji`'
-description: Machine translation for oji
+title: <code>oji</code>
+description: Machine translation for <code>oji</code>
 codes:
 - oji
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`mps`'
-description: Machine translation for mps
+title: <code>mps</code>
+description: Machine translation for <code>mps</code>
 codes:
 - mps
 names:

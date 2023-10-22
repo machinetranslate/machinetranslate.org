@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`amk`'
-description: Machine translation for amk
+title: <code>amk</code>
+description: Machine translation for <code>amk</code>
 codes:
 - amk
 names:

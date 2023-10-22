@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`sco`'
-description: Machine translation for sco
+title: <code>sco</code>
+description: Machine translation for <code>sco</code>
 codes:
 - sco
 names:

@@ -4,8 +4,8 @@ nav_order: 1000
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cre`'
-description: Machine translation for cre
+title: <code>cre</code>
+description: Machine translation for <code>cre</code>
 codes:
 - cre
 names:

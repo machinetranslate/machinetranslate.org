@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`jae`'
-description: Machine translation for jae
+title: <code>jae</code>
+description: Machine translation for <code>jae</code>
 codes:
 - jae
 names:

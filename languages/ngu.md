@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ngu`'
-description: Machine translation for ngu
+title: <code>ngu</code>
+description: Machine translation for <code>ngu</code>
 codes:
 - ngu
 names:

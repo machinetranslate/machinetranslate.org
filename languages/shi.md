@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`shi`'
-description: Machine translation for shi
+title: <code>shi</code>
+description: Machine translation for <code>shi</code>
 codes:
 - shi
 names:

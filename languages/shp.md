@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`shp`'
-description: Machine translation for shp
+title: <code>shp</code>
+description: Machine translation for <code>shp</code>
 codes:
 - shp
 names:

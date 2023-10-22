@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`crp`'
-description: Machine translation for crp
+title: <code>crp</code>
+description: Machine translation for <code>crp</code>
 codes:
 - crp
 names:

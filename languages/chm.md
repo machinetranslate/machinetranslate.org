@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`chm`'
-description: Machine translation for chm
+title: <code>chm</code>
+description: Machine translation for <code>chm</code>
 codes:
 - chm
 names:

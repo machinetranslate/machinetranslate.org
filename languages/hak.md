@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`hak`'
-description: Machine translation for hak
+title: <code>hak</code>
+description: Machine translation for <code>hak</code>
 codes:
 - hak
 names:

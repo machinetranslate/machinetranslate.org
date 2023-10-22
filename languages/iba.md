@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`iba`'
-description: Machine translation for iba
+title: <code>iba</code>
+description: Machine translation for <code>iba</code>
 codes:
 - iba
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`gub`'
-description: Machine translation for gub
+title: <code>gub</code>
+description: Machine translation for <code>gub</code>
 codes:
 - gub
 names:

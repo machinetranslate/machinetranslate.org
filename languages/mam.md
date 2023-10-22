@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`mam`'
-description: Machine translation for mam
+title: <code>mam</code>
+description: Machine translation for <code>mam</code>
 codes:
 - mam
 names:

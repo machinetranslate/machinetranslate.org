@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`csb`'
-description: Machine translation for csb
+title: <code>csb</code>
+description: Machine translation for <code>csb</code>
 codes:
 - csb
 names:

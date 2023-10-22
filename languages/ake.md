@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ake`'
-description: Machine translation for ake
+title: <code>ake</code>
+description: Machine translation for <code>ake</code>
 codes:
 - ake
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`chk`'
-description: Machine translation for chk
+title: <code>chk</code>
+description: Machine translation for <code>chk</code>
 codes:
 - chk
 names:

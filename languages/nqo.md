@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nqo`'
-description: Machine translation for nqo
+title: <code>nqo</code>
+description: Machine translation for <code>nqo</code>
 codes:
 - nqo
 names:

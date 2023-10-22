@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`pck`'
-description: Machine translation for pck
+title: <code>pck</code>
+description: Machine translation for <code>pck</code>
 codes:
 - pck
 names:

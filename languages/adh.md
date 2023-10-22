@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`adh`'
-description: Machine translation for adh
+title: <code>adh</code>
+description: Machine translation for <code>adh</code>
 codes:
 - adh
 names:

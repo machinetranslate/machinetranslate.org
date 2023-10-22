@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`duo`'
-description: Machine translation for duo
+title: <code>duo</code>
+description: Machine translation for <code>duo</code>
 codes:
 - duo
 names:

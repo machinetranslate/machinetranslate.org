@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`lsi`'
-description: Machine translation for lsi
+title: <code>lsi</code>
+description: Machine translation for <code>lsi</code>
 codes:
 - lsi
 names:

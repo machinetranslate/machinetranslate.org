@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`ia`'
-description: Machine translation for ia
+title: <code>ia</code>
+description: Machine translation for <code>ia</code>
 codes:
 - ia
 names:

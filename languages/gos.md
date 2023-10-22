@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`gos`'
-description: Machine translation for gos
+title: <code>gos</code>
+description: Machine translation for <code>gos</code>
 codes:
 - gos
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`zaz`'
-description: Machine translation for zaz
+title: <code>zaz</code>
+description: Machine translation for <code>zaz</code>
 codes:
 - zaz
 names:

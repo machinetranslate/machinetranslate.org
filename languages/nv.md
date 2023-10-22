@@ -4,8 +4,8 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nv`'
-description: Machine translation for nv
+title: <code>nv</code>
+description: Machine translation for <code>nv</code>
 codes:
 - nv
 names:

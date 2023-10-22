@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`bqp`'
-description: Machine translation for bqp
+title: <code>bqp</code>
+description: Machine translation for <code>bqp</code>
 codes:
 - bqp
 names:

@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`gur`'
-description: Machine translation for gur
+title: <code>gur</code>
+description: Machine translation for <code>gur</code>
 codes:
 - gur
 names:

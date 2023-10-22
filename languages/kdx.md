@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`kdx`'
-description: Machine translation for kdx
+title: <code>kdx</code>
+description: Machine translation for <code>kdx</code>
 codes:
 - kdx
 names:

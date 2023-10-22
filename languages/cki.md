@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`cki`'
-description: Machine translation for cki
+title: <code>cki</code>
+description: Machine translation for <code>cki</code>
 codes:
 - cki
 names:

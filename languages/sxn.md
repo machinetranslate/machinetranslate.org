@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`sxn`'
-description: Machine translation for sxn
+title: <code>sxn</code>
+description: Machine translation for <code>sxn</code>
 codes:
 - sxn
 names:

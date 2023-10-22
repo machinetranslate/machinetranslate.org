@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`tll`'
-description: Machine translation for tll
+title: <code>tll</code>
+description: Machine translation for <code>tll</code>
 codes:
 - tll
 names:

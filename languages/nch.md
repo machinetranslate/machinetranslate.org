@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`nch`'
-description: Machine translation for nch
+title: <code>nch</code>
+description: Machine translation for <code>nch</code>
 codes:
 - nch
 names:

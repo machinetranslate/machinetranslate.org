@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: '`kqn`'
-description: Machine translation for kqn
+title: <code>kqn</code>
+description: Machine translation for <code>kqn</code>
 codes:
 - kqn
 names:
