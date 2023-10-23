@@ -104,3 +104,4 @@ seo:
 
 ---
 
+The language code `als` is the ISO 639-3 code for Tosk Albanian, but it is used by Wikipedia for [Alemannic](/languages/alemannic.md).

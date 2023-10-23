@@ -49,3 +49,4 @@ seo:
 
 ---
 
+Wikipedia uses the language code `als` for Alemannic, but it is actually the ISO 639-3 code for [Tosk Albanian](/languages/albanian.md).
