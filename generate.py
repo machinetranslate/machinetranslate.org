@@ -121,6 +121,25 @@ def read_content(filepath):
     i = page.find('\n---\n', 3)
     i += len('\n---\n')
     return page[i:].strip()
+  
+def get_tms_by_id_and_key(id, key: str):
+  integrations = []
+  for tms in INTEGRATIONS:
+    for i in tms.get(key, []):
+      if i == id:
+        integrations.append({
+          'slug': tms['id'],
+          'name': tms['name']
+        })
+      elif isinstance(i, dict):
+        _id = next(iter(i))
+        if _id == id:
+          integrations.append({
+            'slug': tms['id'],
+            'name': tms['name'],
+            **i[id]
+          })
+  return integrations
 
 def supported_language_base_codes(file_name):
   SUPPORTED_LANGUAGE_BASE_CODES = {}
