@@ -2,8 +2,7 @@
 import json
 import yaml
 from os.path import exists
-import os
-import re
+
 
 SCRIPTS = None
 LANGUAGES = None
