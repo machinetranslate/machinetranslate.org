@@ -8,18 +8,13 @@ title: <code>bno</code>
 description: Machine translation for <code>bno</code>
 codes:
 - bno
-names:
-- bno
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for bno
+  name: Machine translation for None
   type: Language
 
 ---

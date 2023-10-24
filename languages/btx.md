@@ -8,18 +8,13 @@ title: <code>btx</code>
 description: Machine translation for <code>btx</code>
 codes:
 - btx
-names:
-- btx
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for btx
+  name: Machine translation for None
   type: Language
 
 ---

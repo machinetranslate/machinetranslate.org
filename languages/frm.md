@@ -8,18 +8,13 @@ title: <code>frm</code>
 description: Machine translation for <code>frm</code>
 codes:
 - frm
-names:
-- frm
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for frm
+  name: Machine translation for None
   type: Language
 
 ---

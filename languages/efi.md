@@ -8,18 +8,13 @@ title: <code>efi</code>
 description: Machine translation for <code>efi</code>
 codes:
 - efi
-names:
-- efi
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for efi
+  name: Machine translation for None
   type: Language
 
 ---

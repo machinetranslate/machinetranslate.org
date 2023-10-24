@@ -8,12 +8,7 @@ title: <code>dsb</code>
 description: Machine translation for <code>dsb</code>
 codes:
 - dsb
-names:
-- dsb
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
@@ -22,7 +17,7 @@ supported_qe_apis:
   id: modelfront
   name: ModelFront
 seo:
-  name: Machine translation for dsb
+  name: Machine translation for None
   type: Language
 
 ---

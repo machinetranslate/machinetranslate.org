@@ -8,18 +8,13 @@ title: <code>loz</code>
 description: Machine translation for <code>loz</code>
 codes:
 - loz
-names:
-- loz
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for loz
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>cop</code>
 description: Machine translation for <code>cop</code>
 codes:
 - cop
-names:
-- cop
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for cop
+  name: Machine translation for None
   type: Language
 
 ---

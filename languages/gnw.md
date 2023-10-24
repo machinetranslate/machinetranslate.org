@@ -8,18 +8,13 @@ title: <code>gnw</code>
 description: Machine translation for <code>gnw</code>
 codes:
 - gnw
-names:
-- gnw
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for gnw
+  name: Machine translation for None
   type: Language
 
 ---

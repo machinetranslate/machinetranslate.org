@@ -8,18 +8,13 @@ title: <code>gos</code>
 description: Machine translation for <code>gos</code>
 codes:
 - gos
-names:
-- gos
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for gos
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>nba</code>
 description: Machine translation for <code>nba</code>
 codes:
 - nba
-names:
-- nba
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for nba
+  name: Machine translation for None
   type: Language
 
 ---

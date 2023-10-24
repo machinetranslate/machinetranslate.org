@@ -8,18 +8,13 @@ title: <code>bin</code>
 description: Machine translation for <code>bin</code>
 codes:
 - bin
-names:
-- bin
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for bin
+  name: Machine translation for None
   type: Language
 
 ---

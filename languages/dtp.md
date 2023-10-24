@@ -8,12 +8,7 @@ title: <code>dtp</code>
 description: Machine translation for <code>dtp</code>
 codes:
 - dtp
-names:
-- dtp
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
@@ -21,7 +16,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for dtp
+  name: Machine translation for None
   type: Language
 
 ---

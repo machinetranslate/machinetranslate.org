@@ -8,18 +8,13 @@ title: <code>nqo</code>
 description: Machine translation for <code>nqo</code>
 codes:
 - nqo
-names:
-- nqo
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for nqo
+  name: Machine translation for None
   type: Language
 
 ---

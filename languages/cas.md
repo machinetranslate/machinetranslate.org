@@ -8,18 +8,13 @@ title: <code>cas</code>
 description: Machine translation for <code>cas</code>
 codes:
 - cas
-names:
-- cas
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for cas
+  name: Machine translation for None
   type: Language
 
 ---

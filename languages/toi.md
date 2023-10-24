@@ -8,18 +8,13 @@ title: <code>toi</code>
 description: Machine translation for <code>toi</code>
 codes:
 - toi
-names:
-- toi
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for toi
+  name: Machine translation for None
   type: Language
 
 ---

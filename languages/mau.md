@@ -8,18 +8,13 @@ title: <code>mau</code>
 description: Machine translation for <code>mau</code>
 codes:
 - mau
-names:
-- mau
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for mau
+  name: Machine translation for None
   type: Language
 
 ---

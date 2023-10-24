@@ -8,18 +8,13 @@ title: <code>tsc</code>
 description: Machine translation for <code>tsc</code>
 codes:
 - tsc
-names:
-- tsc
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for tsc
+  name: Machine translation for None
   type: Language
 
 ---

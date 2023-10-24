@@ -8,18 +8,13 @@ title: <code>prk</code>
 description: Machine translation for <code>prk</code>
 codes:
 - prk
-names:
-- prk
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for prk
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,16 +8,11 @@ title: <code>kau</code>
 description: Machine translation for <code>kau</code>
 codes:
 - kau
-names:
-- kau
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for kau
+  name: Machine translation for None
   type: Language
 
 ---

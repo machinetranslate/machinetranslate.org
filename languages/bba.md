@@ -8,18 +8,13 @@ title: <code>bba</code>
 description: Machine translation for <code>bba</code>
 codes:
 - bba
-names:
-- bba
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for bba
+  name: Machine translation for None
   type: Language
 
 ---

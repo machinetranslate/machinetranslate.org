@@ -8,18 +8,13 @@ title: <code>chq</code>
 description: Machine translation for <code>chq</code>
 codes:
 - chq
-names:
-- chq
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for chq
+  name: Machine translation for None
   type: Language
 
 ---

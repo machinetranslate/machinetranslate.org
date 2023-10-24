@@ -8,18 +8,13 @@ title: <code>nch</code>
 description: Machine translation for <code>nch</code>
 codes:
 - nch
-names:
-- nch
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for nch
+  name: Machine translation for None
   type: Language
 
 ---

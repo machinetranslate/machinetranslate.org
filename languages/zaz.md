@@ -8,18 +8,13 @@ title: <code>zaz</code>
 description: Machine translation for <code>zaz</code>
 codes:
 - zaz
-names:
-- zaz
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for zaz
+  name: Machine translation for None
   type: Language
 
 ---

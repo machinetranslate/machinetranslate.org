@@ -8,16 +8,11 @@ title: <code>her</code>
 description: Machine translation for <code>her</code>
 codes:
 - her
-names:
-- her
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for her
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>ang</code>
 description: Machine translation for <code>ang</code>
 codes:
 - ang
-names:
-- ang
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for ang
+  name: Machine translation for None
   type: Language
 
 ---

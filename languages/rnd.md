@@ -8,18 +8,13 @@ title: <code>rnd</code>
 description: Machine translation for <code>rnd</code>
 codes:
 - rnd
-names:
-- rnd
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for rnd
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>lfn</code>
 description: Machine translation for <code>lfn</code>
 codes:
 - lfn
-names:
-- lfn
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for lfn
+  name: Machine translation for None
   type: Language
 
 ---

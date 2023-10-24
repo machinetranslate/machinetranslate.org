@@ -8,18 +8,13 @@ title: <code>wls</code>
 description: Machine translation for <code>wls</code>
 codes:
 - wls
-names:
-- wls
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for wls
+  name: Machine translation for None
   type: Language
 
 ---

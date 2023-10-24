@@ -8,18 +8,13 @@ title: <code>jiv</code>
 description: Machine translation for <code>jiv</code>
 codes:
 - jiv
-names:
-- jiv
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for jiv
+  name: Machine translation for None
   type: Language
 
 ---

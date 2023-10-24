@@ -8,18 +8,13 @@ title: <code>ppk</code>
 description: Machine translation for <code>ppk</code>
 codes:
 - ppk
-names:
-- ppk
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for ppk
+  name: Machine translation for None
   type: Language
 
 ---

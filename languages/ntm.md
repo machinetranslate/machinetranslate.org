@@ -8,18 +8,13 @@ title: <code>ntm</code>
 description: Machine translation for <code>ntm</code>
 codes:
 - ntm
-names:
-- ntm
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for ntm
+  name: Machine translation for None
   type: Language
 
 ---

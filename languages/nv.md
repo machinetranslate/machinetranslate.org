@@ -8,12 +8,7 @@ title: <code>nv</code>
 description: Machine translation for <code>nv</code>
 codes:
 - nv
-names:
-- nv
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
@@ -21,7 +16,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for nv
+  name: Machine translation for None
   type: Language
 
 ---

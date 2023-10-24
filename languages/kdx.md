@@ -8,18 +8,13 @@ title: <code>kdx</code>
 description: Machine translation for <code>kdx</code>
 codes:
 - kdx
-names:
-- kdx
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for kdx
+  name: Machine translation for None
   type: Language
 
 ---

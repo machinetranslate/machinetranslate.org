@@ -8,18 +8,13 @@ title: <code>crp</code>
 description: Machine translation for <code>crp</code>
 codes:
 - crp
-names:
-- crp
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: lilt
   name: Lilt
 supported_qe_apis: []
 seo:
-  name: Machine translation for crp
+  name: Machine translation for None
   type: Language
 
 ---

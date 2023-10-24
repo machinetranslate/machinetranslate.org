@@ -8,18 +8,13 @@ title: <code>wsk</code>
 description: Machine translation for <code>wsk</code>
 codes:
 - wsk
-names:
-- wsk
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for wsk
+  name: Machine translation for None
   type: Language
 
 ---

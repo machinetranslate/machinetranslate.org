@@ -4,8 +4,8 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: <code>Fon</code>
-description: Machine translation for <code>Fon</code>
+title: Fon
+description: Machine translation for Fon
 codes:
 - fon
 names:

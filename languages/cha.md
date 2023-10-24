@@ -8,16 +8,11 @@ title: <code>cha</code>
 description: Machine translation for <code>cha</code>
 codes:
 - cha
-names:
-- cha
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for cha
+  name: Machine translation for None
   type: Language
 
 ---

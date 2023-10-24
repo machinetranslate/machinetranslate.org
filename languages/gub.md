@@ -8,18 +8,13 @@ title: <code>gub</code>
 description: Machine translation for <code>gub</code>
 codes:
 - gub
-names:
-- gub
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for gub
+  name: Machine translation for None
   type: Language
 
 ---

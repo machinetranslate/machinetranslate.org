@@ -8,18 +8,13 @@ title: <code>ie</code>
 description: Machine translation for <code>ie</code>
 codes:
 - ie
-names:
-- ie
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for ie
+  name: Machine translation for None
   type: Language
 
 ---

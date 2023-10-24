@@ -8,18 +8,13 @@ title: <code>rue</code>
 description: Machine translation for <code>rue</code>
 codes:
 - rue
-names:
-- rue
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for rue
+  name: Machine translation for None
   type: Language
 
 ---

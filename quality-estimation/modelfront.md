@@ -125,7 +125,7 @@ supported_languages:
 - slug: dsb
   code: dsb
   base_code: dsb
-  name: dsb
+  name: null
   variant_name: null
 - slug: divehi
   code: dv
@@ -450,7 +450,7 @@ supported_languages:
 - slug: nds
   code: nds
   base_code: nds
-  name: nds
+  name: null
   variant_name: null
 - slug: nepali
   code: ne

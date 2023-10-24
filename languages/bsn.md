@@ -8,18 +8,13 @@ title: <code>bsn</code>
 description: Machine translation for <code>bsn</code>
 codes:
 - bsn
-names:
-- bsn
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for bsn
+  name: Machine translation for None
   type: Language
 
 ---

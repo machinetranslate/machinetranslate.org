@@ -8,16 +8,11 @@ title: <code>nbl</code>
 description: Machine translation for <code>nbl</code>
 codes:
 - nbl
-names:
-- nbl
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for nbl
+  name: Machine translation for None
   type: Language
 
 ---

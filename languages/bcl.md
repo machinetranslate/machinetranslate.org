@@ -8,18 +8,13 @@ title: <code>bcl</code>
 description: Machine translation for <code>bcl</code>
 codes:
 - bcl
-names:
-- bcl
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for bcl
+  name: Machine translation for None
   type: Language
 
 ---

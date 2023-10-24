@@ -8,18 +8,13 @@ title: <code>czt</code>
 description: Machine translation for <code>czt</code>
 codes:
 - czt
-names:
-- czt
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for czt
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>lun</code>
 description: Machine translation for <code>lun</code>
 codes:
 - lun
-names:
-- lun
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for lun
+  name: Machine translation for None
   type: Language
 
 ---

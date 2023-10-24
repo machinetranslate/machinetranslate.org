@@ -8,18 +8,13 @@ title: <code>pmn</code>
 description: Machine translation for <code>pmn</code>
 codes:
 - pmn
-names:
-- pmn
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for pmn
+  name: Machine translation for None
   type: Language
 
 ---

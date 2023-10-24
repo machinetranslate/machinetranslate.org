@@ -8,18 +8,13 @@ title: <code>ojb</code>
 description: Machine translation for <code>ojb</code>
 codes:
 - ojb
-names:
-- ojb
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for ojb
+  name: Machine translation for None
   type: Language
 
 ---

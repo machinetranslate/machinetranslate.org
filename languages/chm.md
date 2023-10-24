@@ -8,18 +8,13 @@ title: <code>chm</code>
 description: Machine translation for <code>chm</code>
 codes:
 - chm
-names:
-- chm
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for chm
+  name: Machine translation for None
   type: Language
 
 ---

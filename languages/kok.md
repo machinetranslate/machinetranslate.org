@@ -8,18 +8,13 @@ title: <code>kok</code>
 description: Machine translation for <code>kok</code>
 codes:
 - kok
-names:
-- kok
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for kok
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,12 +8,7 @@ title: <code>hil</code>
 description: Machine translation for <code>hil</code>
 codes:
 - hil
-names:
-- hil
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
@@ -23,7 +18,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for hil
+  name: Machine translation for None
   type: Language
 
 ---

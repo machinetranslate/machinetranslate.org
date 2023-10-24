@@ -8,18 +8,13 @@ title: <code>nhg</code>
 description: Machine translation for <code>nhg</code>
 codes:
 - nhg
-names:
-- nhg
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for nhg
+  name: Machine translation for None
   type: Language
 
 ---

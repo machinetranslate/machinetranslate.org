@@ -8,18 +8,13 @@ title: <code>doi</code>
 description: Machine translation for <code>doi</code>
 codes:
 - doi
-names:
-- doi
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: google
   name: Google Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for doi
+  name: Machine translation for None
   type: Language
 
 ---

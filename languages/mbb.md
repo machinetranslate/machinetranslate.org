@@ -8,18 +8,13 @@ title: <code>mbb</code>
 description: Machine translation for <code>mbb</code>
 codes:
 - mbb
-names:
-- mbb
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for mbb
+  name: Machine translation for None
   type: Language
 
 ---

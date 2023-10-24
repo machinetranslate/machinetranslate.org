@@ -8,18 +8,13 @@ title: <code>lsi</code>
 description: Machine translation for <code>lsi</code>
 codes:
 - lsi
-names:
-- lsi
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for lsi
+  name: Machine translation for None
   type: Language
 
 ---

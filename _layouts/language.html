@@ -13,7 +13,7 @@ parent: Languages
 
 <hr/>
 
-{% if page.codes == page.names %}
+{% unless page.names %}
   <blockquote>
     <p>
       This language has not yet been fully added to Machine Translate.
@@ -23,7 +23,7 @@ parent: Languages
       You may be able to find this information in  <a target="_blank" href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes#{{ page.codes }}">its Wikipedia article.</a>
     </p>
   </blockquote>
-{% endif %}
+{% endunless %}
 
 <p>
   Machine translation for the <strong>{{ page.title }}</strong> language is supported by <a href="#machine-translation">{{ page.supported_apis | size }} machine translation APIs</a>.

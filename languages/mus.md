@@ -8,18 +8,13 @@ title: <code>mus</code>
 description: Machine translation for <code>mus</code>
 codes:
 - mus
-names:
-- mus
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for mus
+  name: Machine translation for None
   type: Language
 
 ---

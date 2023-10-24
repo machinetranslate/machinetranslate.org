@@ -8,18 +8,13 @@ title: <code>nia</code>
 description: Machine translation for <code>nia</code>
 codes:
 - nia
-names:
-- nia
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for nia
+  name: Machine translation for None
   type: Language
 
 ---

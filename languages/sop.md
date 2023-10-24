@@ -8,18 +8,13 @@ title: <code>sop</code>
 description: Machine translation for <code>sop</code>
 codes:
 - sop
-names:
-- sop
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for sop
+  name: Machine translation for None
   type: Language
 
 ---

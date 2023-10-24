@@ -8,18 +8,13 @@ title: <code>xal</code>
 description: Machine translation for <code>xal</code>
 codes:
 - xal
-names:
-- xal
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for xal
+  name: Machine translation for None
   type: Language
 
 ---

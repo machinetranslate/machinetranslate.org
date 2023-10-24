@@ -8,16 +8,11 @@ title: <code>ndo</code>
 description: Machine translation for <code>ndo</code>
 codes:
 - ndo
-names:
-- ndo
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for ndo
+  name: Machine translation for None
   type: Language
 
 ---

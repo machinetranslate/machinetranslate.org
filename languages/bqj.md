@@ -8,18 +8,13 @@ title: <code>bqj</code>
 description: Machine translation for <code>bqj</code>
 codes:
 - bqj
-names:
-- bqj
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for bqj
+  name: Machine translation for None
   type: Language
 
 ---

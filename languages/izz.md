@@ -8,18 +8,13 @@ title: <code>izz</code>
 description: Machine translation for <code>izz</code>
 codes:
 - izz
-names:
-- izz
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for izz
+  name: Machine translation for None
   type: Language
 
 ---

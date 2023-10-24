@@ -8,18 +8,13 @@ title: <code>zne</code>
 description: Machine translation for <code>zne</code>
 codes:
 - zne
-names:
-- zne
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for zne
+  name: Machine translation for None
   type: Language
 
 ---

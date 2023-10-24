@@ -8,18 +8,13 @@ title: <code>lcm</code>
 description: Machine translation for <code>lcm</code>
 codes:
 - lcm
-names:
-- lcm
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for lcm
+  name: Machine translation for None
   type: Language
 
 ---

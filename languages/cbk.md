@@ -8,18 +8,13 @@ title: <code>cbk</code>
 description: Machine translation for <code>cbk</code>
 codes:
 - cbk
-names:
-- cbk
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for cbk
+  name: Machine translation for None
   type: Language
 
 ---

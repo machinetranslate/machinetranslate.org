@@ -8,18 +8,13 @@ title: <code>tdt</code>
 description: Machine translation for <code>tdt</code>
 codes:
 - tdt
-names:
-- tdt
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for tdt
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>iso</code>
 description: Machine translation for <code>iso</code>
 codes:
 - iso
-names:
-- iso
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for iso
+  name: Machine translation for None
   type: Language
 
 ---

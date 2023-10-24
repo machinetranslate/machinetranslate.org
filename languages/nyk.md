@@ -8,18 +8,13 @@ title: <code>nyk</code>
 description: Machine translation for <code>nyk</code>
 codes:
 - nyk
-names:
-- nyk
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for nyk
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>nyn</code>
 description: Machine translation for <code>nyn</code>
 codes:
 - nyn
-names:
-- nyn
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for nyn
+  name: Machine translation for None
   type: Language
 
 ---

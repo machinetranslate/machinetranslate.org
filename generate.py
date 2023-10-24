@@ -2,6 +2,8 @@
 import json
 import yaml
 from os.path import exists
+import os
+import re
 
 SCRIPTS = None
 LANGUAGES = None
@@ -101,7 +103,7 @@ def get_language_variant_name(locale_code, api_id):
 
 def slugify(name):
   # Should work *exactly* like in Liquid!
-  return name.lower().replace(' ', '-').replace('.', '')
+    return name.lower().replace(' ', '-').replace('.', '')
 
 def flatten(l):
   _ = []
@@ -192,8 +194,8 @@ for api in APIS:
       normalized_code = normalize_language_code(code, api_id)
       base_code = base_language_code(normalized_code)
       if base_code in language['codes']:
-        language_name = language['names'][0]
-        language_slug = slugify(language_name)
+        language_name = language.get('names', [None])[0]
+        language_slug = slugify(language_name) if language_name else code
         break
     if api_id not in [ 'alibaba', 'baidu', 'niutrans' ] and len(base_code) == 2 and not language_name:
       # This is usually a typo.
@@ -286,8 +288,8 @@ for code in LANGUAGE_FAMILIES:
   # "Join"
   languages = []
   for language in LANGUAGES:
-    if code in language['family']:
-      language_name = language['names'][0]
+    if code in language.get('family', [None]):
+      language_name = language.get('names', [None])[0]
       languages.append({
         'slug': slugify(language_name),
         'name': language_name
@@ -325,14 +327,7 @@ for code, _ in UNLISTED_LANGUAGES.items():
   unlisted_languages = {
     'codes': [
       code
-    ],
-    "names": [
-      code
-      ],
-    "family": [],
-    "scripts": [],
-    "typology": [],
-    "territories": []
+    ]
   }
 
   filepath = '_data/languages.json'
@@ -354,12 +349,13 @@ for language in LANGUAGES:
   if not isinstance(language['codes'], list):
     raise Exception(language)
 
-  name = language['names'][0] 
-  if not isinstance(language['names'], list):
-    raise Exception(language)
+  name = language.get('names', [None])[0]
+  if name:
+    if not isinstance(language['names'], list):
+      raise Exception(language)
 
   family = []
-  for language_family_code in language['family']:
+  for language_family_code in language.get('family', []):
     language_family_name = LANGUAGE_FAMILIES[language_family_code]
     family.append({
       'slug': slugify(language_family_name),
@@ -416,11 +412,12 @@ for language in LANGUAGES:
     }
   }
 
-  slug = slugify(name)
-  
-  if code == name.lower():
-    frontmatter['title'] = f'<code>{name}</code>'
-    frontmatter['description'] = f'Machine translation for <code>{name}</code>'
+  if name:
+    slug = slugify(name)
+  else:
+    slug = code
+    frontmatter['title'] = f'<code>{code}</code>'
+    frontmatter['description'] = f'Machine translation for <code>{code}</code>'
 
   filepath = f'languages/{ slug }.md'
 
@@ -661,8 +658,8 @@ for estimation in QUALITY_ESTIMATION:
       normalized_code = normalize_language_code(code, company_id)
       base_code = base_language_code(normalized_code)
       if base_code in lang['codes']:
-        language_name = lang['names'][0]
-        language_slug = slugify(language_name)
+        language_name = lang.get('names', [None])[0]
+        language_slug = slugify(language_name) if language_name else code
         break
     variant_name = get_language_variant_name(code, company_id)
     supported_languages.append({

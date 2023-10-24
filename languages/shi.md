@@ -8,18 +8,13 @@ title: <code>shi</code>
 description: Machine translation for <code>shi</code>
 codes:
 - shi
-names:
-- shi
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for shi
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>lue</code>
 description: Machine translation for <code>lue</code>
 codes:
 - lue
-names:
-- lue
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for lue
+  name: Machine translation for None
   type: Language
 
 ---

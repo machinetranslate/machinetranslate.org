@@ -72,7 +72,7 @@ supported_languages:
   code: crp
   normalized_code: crp
   base_code: crp
-  name: crp
+  name: null
   variant_name: null
 - slug: czech
   code: cs

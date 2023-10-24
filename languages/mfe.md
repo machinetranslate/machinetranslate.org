@@ -8,12 +8,7 @@ title: <code>mfe</code>
 description: Machine translation for <code>mfe</code>
 codes:
 - mfe
-names:
-- mfe
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
@@ -21,7 +16,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for mfe
+  name: Machine translation for None
   type: Language
 
 ---

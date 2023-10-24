@@ -8,18 +8,13 @@ title: <code>mad</code>
 description: Machine translation for <code>mad</code>
 codes:
 - mad
-names:
-- mad
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for mad
+  name: Machine translation for None
   type: Language
 
 ---

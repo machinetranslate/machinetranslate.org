@@ -8,18 +8,13 @@ title: <code>guc</code>
 description: Machine translation for <code>guc</code>
 codes:
 - guc
-names:
-- guc
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for guc
+  name: Machine translation for None
   type: Language
 
 ---

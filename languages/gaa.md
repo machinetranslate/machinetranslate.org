@@ -8,18 +8,13 @@ title: <code>gaa</code>
 description: Machine translation for <code>gaa</code>
 codes:
 - gaa
-names:
-- gaa
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for gaa
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>bch</code>
 description: Machine translation for <code>bch</code>
 codes:
 - bch
-names:
-- bch
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for bch
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>ngl</code>
 description: Machine translation for <code>ngl</code>
 codes:
 - ngl
-names:
-- ngl
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for ngl
+  name: Machine translation for None
   type: Language
 
 ---

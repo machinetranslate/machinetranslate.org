@@ -8,12 +8,7 @@ title: <code>nds</code>
 description: Machine translation for <code>nds</code>
 codes:
 - nds
-names:
-- nds
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
@@ -24,7 +19,7 @@ supported_qe_apis:
   id: modelfront
   name: ModelFront
 seo:
-  name: Machine translation for nds
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>wrs</code>
 description: Machine translation for <code>wrs</code>
 codes:
 - wrs
-names:
-- wrs
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for wrs
+  name: Machine translation for None
   type: Language
 
 ---

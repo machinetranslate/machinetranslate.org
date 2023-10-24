@@ -8,16 +8,11 @@ title: <code>hmo</code>
 description: Machine translation for <code>hmo</code>
 codes:
 - hmo
-names:
-- hmo
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for hmo
+  name: Machine translation for None
   type: Language
 
 ---

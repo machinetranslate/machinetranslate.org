@@ -8,18 +8,13 @@ title: <code>tig</code>
 description: Machine translation for <code>tig</code>
 codes:
 - tig
-names:
-- tig
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for tig
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>cjp</code>
 description: Machine translation for <code>cjp</code>
 codes:
 - cjp
-names:
-- cjp
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for cjp
+  name: Machine translation for None
   type: Language
 
 ---

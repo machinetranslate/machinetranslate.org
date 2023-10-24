@@ -8,18 +8,13 @@ title: <code>cht</code>
 description: Machine translation for <code>cht</code>
 codes:
 - cht
-names:
-- cht
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for cht
+  name: Machine translation for None
   type: Language
 
 ---

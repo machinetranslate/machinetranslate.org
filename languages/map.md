@@ -8,18 +8,13 @@ title: <code>map</code>
 description: Machine translation for <code>map</code>
 codes:
 - map
-names:
-- map
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for map
+  name: Machine translation for None
   type: Language
 
 ---

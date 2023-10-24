@@ -8,18 +8,13 @@ title: <code>hlb</code>
 description: Machine translation for <code>hlb</code>
 codes:
 - hlb
-names:
-- hlb
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for hlb
+  name: Machine translation for None
   type: Language
 
 ---

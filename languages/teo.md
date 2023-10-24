@@ -8,18 +8,13 @@ title: <code>teo</code>
 description: Machine translation for <code>teo</code>
 codes:
 - teo
-names:
-- teo
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for teo
+  name: Machine translation for None
   type: Language
 
 ---

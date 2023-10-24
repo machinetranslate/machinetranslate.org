@@ -8,18 +8,13 @@ title: <code>poh</code>
 description: Machine translation for <code>poh</code>
 codes:
 - poh
-names:
-- poh
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for poh
+  name: Machine translation for None
   type: Language
 
 ---

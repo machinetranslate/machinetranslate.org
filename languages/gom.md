@@ -8,18 +8,13 @@ title: <code>gom</code>
 description: Machine translation for <code>gom</code>
 codes:
 - gom
-names:
-- gom
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: google
   name: Google Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for gom
+  name: Machine translation for None
   type: Language
 
 ---

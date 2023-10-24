@@ -8,18 +8,13 @@ title: <code>cce</code>
 description: Machine translation for <code>cce</code>
 codes:
 - cce
-names:
-- cce
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for cce
+  name: Machine translation for None
   type: Language
 
 ---

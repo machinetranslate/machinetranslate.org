@@ -8,18 +8,13 @@ title: <code>fvr</code>
 description: Machine translation for <code>fvr</code>
 codes:
 - fvr
-names:
-- fvr
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for fvr
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>quz</code>
 description: Machine translation for <code>quz</code>
 codes:
 - quz
-names:
-- quz
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for quz
+  name: Machine translation for None
   type: Language
 
 ---

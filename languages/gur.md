@@ -8,18 +8,13 @@ title: <code>gur</code>
 description: Machine translation for <code>gur</code>
 codes:
 - gur
-names:
-- gur
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for gur
+  name: Machine translation for None
   type: Language
 
 ---

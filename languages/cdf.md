@@ -8,18 +8,13 @@ title: <code>cdf</code>
 description: Machine translation for <code>cdf</code>
 codes:
 - cdf
-names:
-- cdf
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for cdf
+  name: Machine translation for None
   type: Language
 
 ---

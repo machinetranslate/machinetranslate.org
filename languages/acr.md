@@ -8,18 +8,13 @@ title: <code>acr</code>
 description: Machine translation for <code>acr</code>
 codes:
 - acr
-names:
-- acr
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for acr
+  name: Machine translation for None
   type: Language
 
 ---

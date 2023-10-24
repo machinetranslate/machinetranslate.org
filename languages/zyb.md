@@ -8,18 +8,13 @@ title: <code>zyb</code>
 description: Machine translation for <code>zyb</code>
 codes:
 - zyb
-names:
-- zyb
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for zyb
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>amu</code>
 description: Machine translation for <code>amu</code>
 codes:
 - amu
-names:
-- amu
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for amu
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>djk</code>
 description: Machine translation for <code>djk</code>
 codes:
 - djk
-names:
-- djk
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for djk
+  name: Machine translation for None
   type: Language
 
 ---

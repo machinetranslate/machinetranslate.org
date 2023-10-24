@@ -8,18 +8,13 @@ title: <code>gbo</code>
 description: Machine translation for <code>gbo</code>
 codes:
 - gbo
-names:
-- gbo
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for gbo
+  name: Machine translation for None
   type: Language
 
 ---

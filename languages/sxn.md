@@ -8,18 +8,13 @@ title: <code>sxn</code>
 description: Machine translation for <code>sxn</code>
 codes:
 - sxn
-names:
-- sxn
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for sxn
+  name: Machine translation for None
   type: Language
 
 ---

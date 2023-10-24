@@ -8,18 +8,13 @@ title: <code>tih</code>
 description: Machine translation for <code>tih</code>
 codes:
 - tih
-names:
-- tih
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for tih
+  name: Machine translation for None
   type: Language
 
 ---

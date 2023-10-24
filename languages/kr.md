@@ -8,12 +8,7 @@ title: <code>kr</code>
 description: Machine translation for <code>kr</code>
 codes:
 - kr
-names:
-- kr
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
@@ -21,7 +16,7 @@ supported_apis:
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for kr
+  name: Machine translation for None
   type: Language
 
 ---

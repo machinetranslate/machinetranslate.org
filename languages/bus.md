@@ -8,18 +8,13 @@ title: <code>bus</code>
 description: Machine translation for <code>bus</code>
 codes:
 - bus
-names:
-- bus
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for bus
+  name: Machine translation for None
   type: Language
 
 ---

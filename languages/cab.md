@@ -8,18 +8,13 @@ title: <code>cab</code>
 description: Machine translation for <code>cab</code>
 codes:
 - cab
-names:
-- cab
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for cab
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,16 +8,11 @@ title: <code>wln</code>
 description: Machine translation for <code>wln</code>
 codes:
 - wln
-names:
-- wln
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for wln
+  name: Machine translation for None
   type: Language
 
 ---

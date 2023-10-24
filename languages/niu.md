@@ -8,12 +8,7 @@ title: <code>niu</code>
 description: Machine translation for <code>niu</code>
 codes:
 - niu
-names:
-- niu
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
@@ -21,7 +16,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for niu
+  name: Machine translation for None
   type: Language
 
 ---

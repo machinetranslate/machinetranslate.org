@@ -8,16 +8,11 @@ title: <code>ina</code>
 description: Machine translation for <code>ina</code>
 codes:
 - ina
-names:
-- ina
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for ina
+  name: Machine translation for None
   type: Language
 
 ---

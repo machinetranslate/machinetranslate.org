@@ -8,18 +8,13 @@ title: <code>tpm</code>
 description: Machine translation for <code>tpm</code>
 codes:
 - tpm
-names:
-- tpm
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for tpm
+  name: Machine translation for None
   type: Language
 
 ---

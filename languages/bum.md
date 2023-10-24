@@ -8,18 +8,13 @@ title: <code>bum</code>
 description: Machine translation for <code>bum</code>
 codes:
 - bum
-names:
-- bum
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for bum
+  name: Machine translation for None
   type: Language
 
 ---

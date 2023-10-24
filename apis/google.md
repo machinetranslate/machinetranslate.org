@@ -146,7 +146,7 @@ supported_languages:
   code: doi
   normalized_code: doi
   base_code: doi
-  name: doi
+  name: null
   variant_name: null
 - slug: divehi
   code: dv
@@ -254,7 +254,7 @@ supported_languages:
   code: gom
   normalized_code: gom
   base_code: gom
-  name: gom
+  name: null
   variant_name: null
 - slug: gujarati
   code: gu
@@ -392,7 +392,7 @@ supported_languages:
   code: kri
   normalized_code: kri
   base_code: kri
-  name: kri
+  name: null
   variant_name: null
 - slug: kurdish
   code: ku

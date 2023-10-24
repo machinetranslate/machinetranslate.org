@@ -8,18 +8,13 @@ title: <code>mrw</code>
 description: Machine translation for <code>mrw</code>
 codes:
 - mrw
-names:
-- mrw
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for mrw
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,16 +8,11 @@ title: <code>lub</code>
 description: Machine translation for <code>lub</code>
 codes:
 - lub
-names:
-- lub
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for lub
+  name: Machine translation for None
   type: Language
 
 ---

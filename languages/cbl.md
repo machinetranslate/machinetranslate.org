@@ -8,18 +8,13 @@ title: <code>cbl</code>
 description: Machine translation for <code>cbl</code>
 codes:
 - cbl
-names:
-- cbl
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for cbl
+  name: Machine translation for None
   type: Language
 
 ---

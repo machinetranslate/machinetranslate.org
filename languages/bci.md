@@ -8,18 +8,13 @@ title: <code>bci</code>
 description: Machine translation for <code>bci</code>
 codes:
 - bci
-names:
-- bci
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for bci
+  name: Machine translation for None
   type: Language
 
 ---

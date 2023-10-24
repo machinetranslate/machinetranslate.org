@@ -8,18 +8,13 @@ title: <code>tbz</code>
 description: Machine translation for <code>tbz</code>
 codes:
 - tbz
-names:
-- tbz
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for tbz
+  name: Machine translation for None
   type: Language
 
 ---

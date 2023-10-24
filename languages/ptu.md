@@ -8,18 +8,13 @@ title: <code>ptu</code>
 description: Machine translation for <code>ptu</code>
 codes:
 - ptu
-names:
-- ptu
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for ptu
+  name: Machine translation for None
   type: Language
 
 ---

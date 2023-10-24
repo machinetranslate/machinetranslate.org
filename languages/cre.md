@@ -8,16 +8,11 @@ title: <code>cre</code>
 description: Machine translation for <code>cre</code>
 codes:
 - cre
-names:
-- cre
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for cre
+  name: Machine translation for None
   type: Language
 
 ---

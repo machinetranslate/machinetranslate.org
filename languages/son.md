@@ -8,18 +8,13 @@ title: <code>son</code>
 description: Machine translation for <code>son</code>
 codes:
 - son
-names:
-- son
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for son
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>ngu</code>
 description: Machine translation for <code>ngu</code>
 codes:
 - ngu
-names:
-- ngu
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for ngu
+  name: Machine translation for None
   type: Language
 
 ---

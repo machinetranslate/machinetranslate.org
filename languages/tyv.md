@@ -8,12 +8,7 @@ title: <code>tyv</code>
 description: Machine translation for <code>tyv</code>
 codes:
 - tyv
-names:
-- tyv
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
@@ -21,7 +16,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for tyv
+  name: Machine translation for None
   type: Language
 
 ---

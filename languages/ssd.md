@@ -8,18 +8,13 @@ title: <code>ssd</code>
 description: Machine translation for <code>ssd</code>
 codes:
 - ssd
-names:
-- ssd
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for ssd
+  name: Machine translation for None
   type: Language
 
 ---

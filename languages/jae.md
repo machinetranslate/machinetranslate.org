@@ -8,18 +8,13 @@ title: <code>jae</code>
 description: Machine translation for <code>jae</code>
 codes:
 - jae
-names:
-- jae
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for jae
+  name: Machine translation for None
   type: Language
 
 ---

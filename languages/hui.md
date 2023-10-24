@@ -8,18 +8,13 @@ title: <code>hui</code>
 description: Machine translation for <code>hui</code>
 codes:
 - hui
-names:
-- hui
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for hui
+  name: Machine translation for None
   type: Language
 
 ---

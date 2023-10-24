@@ -8,18 +8,13 @@ title: <code>kri</code>
 description: Machine translation for <code>kri</code>
 codes:
 - kri
-names:
-- kri
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: google
   name: Google Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for kri
+  name: Machine translation for None
   type: Language
 
 ---

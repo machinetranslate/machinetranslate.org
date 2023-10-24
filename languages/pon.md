@@ -8,18 +8,13 @@ title: <code>pon</code>
 description: Machine translation for <code>pon</code>
 codes:
 - pon
-names:
-- pon
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for pon
+  name: Machine translation for None
   type: Language
 
 ---

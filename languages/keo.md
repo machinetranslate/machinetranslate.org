@@ -8,18 +8,13 @@ title: <code>keo</code>
 description: Machine translation for <code>keo</code>
 codes:
 - keo
-names:
-- keo
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for keo
+  name: Machine translation for None
   type: Language
 
 ---

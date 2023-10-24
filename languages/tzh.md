@@ -8,18 +8,13 @@ title: <code>tzh</code>
 description: Machine translation for <code>tzh</code>
 codes:
 - tzh
-names:
-- tzh
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for tzh
+  name: Machine translation for None
   type: Language
 
 ---

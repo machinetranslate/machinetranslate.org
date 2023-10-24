@@ -8,16 +8,11 @@ title: <code>nav</code>
 description: Machine translation for <code>nav</code>
 codes:
 - nav
-names:
-- nav
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for nav
+  name: Machine translation for None
   type: Language
 
 ---

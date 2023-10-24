@@ -8,16 +8,11 @@ title: <code>ido</code>
 description: Machine translation for <code>ido</code>
 codes:
 - ido
-names:
-- ido
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for ido
+  name: Machine translation for None
   type: Language
 
 ---

@@ -8,18 +8,13 @@ title: <code>tiv</code>
 description: Machine translation for <code>tiv</code>
 codes:
 - tiv
-names:
-- tiv
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for tiv
+  name: Machine translation for None
   type: Language
 
 ---

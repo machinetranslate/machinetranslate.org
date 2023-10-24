@@ -8,16 +8,11 @@ title: <code>huyu</code>
 description: Machine translation for <code>huyu</code>
 codes:
 - huyu
-names:
-- huyu
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for huyu
+  name: Machine translation for None
   type: Language
 
 ---

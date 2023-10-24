@@ -8,12 +8,7 @@ title: <code>syr</code>
 description: Machine translation for <code>syr</code>
 codes:
 - syr
-names:
-- syr
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
@@ -21,7 +16,7 @@ supported_apis:
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for syr
+  name: Machine translation for None
   type: Language
 
 ---

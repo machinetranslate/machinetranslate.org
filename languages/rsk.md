@@ -8,18 +8,13 @@ title: <code>rsk</code>
 description: Machine translation for <code>rsk</code>
 codes:
 - rsk
-names:
-- rsk
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for rsk
+  name: Machine translation for None
   type: Language
 
 ---

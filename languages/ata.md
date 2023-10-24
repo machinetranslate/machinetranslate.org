@@ -8,18 +8,13 @@ title: <code>ata</code>
 description: Machine translation for <code>ata</code>
 codes:
 - ata
-names:
-- ata
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for ata
+  name: Machine translation for None
   type: Language
 
 ---

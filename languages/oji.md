@@ -8,16 +8,11 @@ title: <code>oji</code>
 description: Machine translation for <code>oji</code>
 codes:
 - oji
-names:
-- oji
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for oji
+  name: Machine translation for None
   type: Language
 
 ---

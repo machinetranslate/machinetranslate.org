@@ -8,18 +8,13 @@ title: <code>jmc</code>
 description: Machine translation for <code>jmc</code>
 codes:
 - jmc
-names:
-- jmc
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for jmc
+  name: Machine translation for None
   type: Language
 
 ---

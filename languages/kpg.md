@@ -8,18 +8,13 @@ title: <code>kpg</code>
 description: Machine translation for <code>kpg</code>
 codes:
 - kpg
-names:
-- kpg
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for kpg
+  name: Machine translation for None
   type: Language
 
 ---

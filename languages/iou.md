@@ -8,18 +8,13 @@ title: <code>iou</code>
 description: Machine translation for <code>iou</code>
 codes:
 - iou
-names:
-- iou
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for iou
+  name: Machine translation for None
   type: Language
 
 ---

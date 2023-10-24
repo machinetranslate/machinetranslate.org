@@ -8,18 +8,13 @@ title: <code>sid</code>
 description: Machine translation for <code>sid</code>
 codes:
 - sid
-names:
-- sid
 family: []
-scripts: []
-typology: []
-territories: []
 supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for sid
+  name: Machine translation for None
   type: Language
 
 ---
