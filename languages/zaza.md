@@ -31,7 +31,6 @@ territories:
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
-  supported_language_count: 212
 supported_qe_apis: []
 seo:
   name: Machine translation for Zaza

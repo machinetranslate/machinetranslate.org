@@ -31,21 +31,16 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
-  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
-  supported_language_count: 197
 - id: alibaba
   name: Alibaba Translate
-  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 381
 supported_qe_apis:
 - slug: demt-estimate
   id: demt-estimate
   name: DeMT Estimate
-  supported_language_count: 109
 seo:
   name: Machine translation for Wolof
   type: Language

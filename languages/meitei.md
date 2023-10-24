@@ -30,13 +30,10 @@ territories:
 supported_apis:
 - id: google
   name: Google Translate
-  supported_language_count: 132
 - id: modernmt
   name: ModernMT
-  supported_language_count: 195
 - id: niutrans
   name: Niutrans
-  supported_language_count: 381
 supported_qe_apis: []
 seo:
   name: Machine translation for Meitei

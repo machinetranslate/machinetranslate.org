@@ -31,13 +31,10 @@ territories:
 supported_apis:
 - id: textshuttle
   name: Textshuttle
-  supported_language_count: 21
 - id: baidu
   name: Baidu Translate
-  supported_language_count: 197
 - id: alibaba
   name: Alibaba Translate
-  supported_language_count: 212
 supported_qe_apis: []
 seo:
   name: Machine translation for Romansh

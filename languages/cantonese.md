@@ -32,30 +32,22 @@ territories:
 supported_apis:
 - id: iconic
   name: Iconic
-  supported_language_count: 53
 - id: iptranslator
   name: IP Translator
-  supported_language_count: 53
 - id: microsoft
   name: Microsoft Translator
-  supported_language_count: 103
 - id: youdao
   name: Youdao Translate
-  supported_language_count: 110
 - id: baidu
   name: Baidu Translate
-  supported_language_count: 197
 - id: alibaba
   name: Alibaba Translate
-  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 381
 supported_qe_apis:
 - slug: modelfront
   id: modelfront
   name: ModelFront
-  supported_language_count: 126
 seo:
   name: Machine translation for Cantonese
   type: Language

@@ -28,7 +28,6 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
-  supported_language_count: 195
 supported_qe_apis: []
 seo:
   name: Machine translation for Sicilian

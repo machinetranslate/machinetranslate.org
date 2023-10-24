@@ -28,10 +28,8 @@ territories:
 supported_apis:
 - id: promt
   name: PROMT
-  supported_language_count: 40
 - id: modernmt
   name: ModernMT
-  supported_language_count: 195
 supported_qe_apis: []
 seo:
   name: Machine translation for Malaysian Malay

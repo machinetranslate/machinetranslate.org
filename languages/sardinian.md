@@ -31,13 +31,10 @@ territories:
 supported_apis:
 - id: apertium
   name: Apertium
-  supported_language_count: 46
 - id: modernmt
   name: ModernMT
-  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
-  supported_language_count: 197
 supported_qe_apis: []
 seo:
   name: Machine translation for Sardinian

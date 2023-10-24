@@ -136,7 +136,6 @@ parent: APIs
       <ul>
         {% for language in page.supported_languages %}
           <li>
-            {% if language.slug %}
             <a href="/{{ language.slug }}">
               <code>{{ language.normalized_code }}</code>
               {{ language.name }}
@@ -147,14 +146,7 @@ parent: APIs
               {% if language.normalized_code != language.code %}
                 ⚠️ {{ page.title }} uses <code>{{ language.code }}</code>.
               {% endif %}
-            {% else %}
-            <a href="https://en.wikipedia.org/wiki/ISO_639:{{ language.base_code }}" target="_blank">
-              <code>{{ language.code }}</code>
-              {% if language.variant_name %}
-                | {{ language.variant_name }}
-              {% endif %}
             </a>
-            {% endif %}
           </li>
         {% endfor %}
       </ul>

@@ -28,19 +28,14 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
-  supported_language_count: 103
 - id: modernmt
   name: ModernMT
-  supported_language_count: 195
 - id: baidu
   name: Baidu Translate
-  supported_language_count: 197
 - id: alibaba
   name: Alibaba Translate
-  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 381
 supported_qe_apis: []
 seo:
   name: Machine translation for Faroese

@@ -31,7 +31,6 @@ territories:
 supported_apis:
 - id: apertium
   name: Apertium
-  supported_language_count: 46
 supported_qe_apis: []
 seo:
   name: Machine translation for Arpitan

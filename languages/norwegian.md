@@ -38,90 +38,63 @@ territories:
 supported_apis:
 - id: language-wire
   name: Language Wire
-  supported_language_count: 8
 - id: textshuttle
   name: Textshuttle
-  supported_language_count: 21
 - id: unbabel
   name: Unbabel
-  supported_language_count: 29
 - id: kodensha
   name: Kodensha MT
-  supported_language_count: 41
 - id: xl8
   name: XL8
-  supported_language_count: 41
 - id: apertium
   name: Apertium
-  supported_language_count: 46
 - id: kantanmt
   name: KantanMT
-  supported_language_count: 50
 - id: systran
   name: SYSTRAN
-  supported_language_count: 52
 - id: iconic
   name: Iconic
-  supported_language_count: 53
 - id: iptranslator
   name: IP Translator
-  supported_language_count: 53
 - id: language-weaver
   name: Language Weaver
-  supported_language_count: 58
 - id: omniscien
   name: Omniscien Technologies
-  supported_language_count: 58
 - id: apptek
   name: AppTek
-  supported_language_count: 65
 - id: wordlingo
   name: Wordlingo
-  supported_language_count: 65
 - id: amazon
   name: Amazon Translate
-  supported_language_count: 70
 - id: lilt
   name: Lilt
-  supported_language_count: 72
 - id: yandex
   name: Yandex Translate
-  supported_language_count: 93
 - id: lingvanex
   name: LingvaNex
-  supported_language_count: 108
 - id: youdao
   name: Youdao Translate
-  supported_language_count: 110
 - id: google
   name: Google Translate
-  supported_language_count: 132
 - id: baidu
   name: Baidu Translate
-  supported_language_count: 197
 - id: alibaba
   name: Alibaba Translate
-  supported_language_count: 212
 - id: niutrans
   name: Niutrans
-  supported_language_count: 381
 supported_qe_apis:
 - slug: kantanqes
   id: kantanqes
   name: KantanQES
-  supported_language_count: 33
 - slug: omniscien-confidence-scores
   id: omniscien-qe
   name: Omniscien Confidence Scores
-  supported_language_count: 45
 - slug: demt-estimate
   id: demt-estimate
   name: DeMT Estimate
-  supported_language_count: 109
 - slug: modelfront
   id: modelfront
   name: ModelFront
-  supported_language_count: 126
 seo:
   name: Machine translation for Norwegian
   type: Language
