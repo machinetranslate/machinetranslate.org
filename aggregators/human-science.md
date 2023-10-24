@@ -14,6 +14,9 @@ supported_apis:
   name: Google Translate
 - slug: microsoft
   name: Microsoft Translator
+integrations:
+- slug: phrase-tms
+  name: Phrase TMS
 self-serve: false
 seo:
   name: The Human Science machine translation API aggregator

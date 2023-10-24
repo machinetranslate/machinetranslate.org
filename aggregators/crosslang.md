@@ -21,6 +21,23 @@ supported_apis:
   name: Microsoft Translator
 - slug: systran
   name: SYSTRAN
+integrations:
+- slug: memoq
+  name: memoQ
+  urls:
+  - https://docs.memoq.com/current/en/Places/crosslang-gateway-settings.html
+- slug: phrase-tms
+  name: Phrase TMS
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  active: false
+- slug: xtm
+  name: XTM
+  plugin: true
+  urls:
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/crosslang.html
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-crosslang-mt-engine.html
 self-serve: false
 seo:
   name: The Crosslang MT Gateway machine translation API aggregator

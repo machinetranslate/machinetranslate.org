@@ -31,6 +31,17 @@ supported_apis:
   name: Yandex Translate
 - slug: youdao
   name: Youdao Translate
+integrations:
+- slug: memoq
+  name: memoQ
+  urls:
+  - https://docs.memoq.com/current/en/Places/tmxmall-mt-plugin-settings.html
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  urls:
+  - https://www.tmxmall.com/products/plugin
+  active: false
 self-serve: false
 seo:
   name: The TMXmall machine translation API aggregator

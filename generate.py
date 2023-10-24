@@ -121,6 +121,25 @@ def read_content(filepath):
     i = page.find('\n---\n', 3)
     i += len('\n---\n')
     return page[i:].strip()
+  
+def get_tms_by_id_and_key(id, key: str):
+  integrations = []
+  for tms in INTEGRATIONS:
+    for i in tms.get(key, []):
+      if i == id:
+        integrations.append({
+          'slug': tms['id'],
+          'name': tms['name']
+        })
+      elif isinstance(i, dict):
+        _id = next(iter(i))
+        if _id == id:
+          integrations.append({
+            'slug': tms['id'],
+            'name': tms['name'],
+            **i[id]
+          })
+  return integrations
 
 def supported_language_base_codes(file_name):
   SUPPORTED_LANGUAGE_BASE_CODES = {}
@@ -160,7 +179,7 @@ for code in LANGUAGE_FAMILIES:
         'name': language_name
       })
   languages.sort(key=lambda language: language['name'])
-
+  
   desc = f'Machine translation for the { name } language family'
 
   frontmatter = {
@@ -345,22 +364,7 @@ for api in APIS:
       else:
         UNLISTED_LANGUAGES[code] = 1
 
-  integrations = []
-  for tms in INTEGRATIONS:
-    for i in tms['api_integrations']:
-      if i == api_id:
-        integrations.append({
-          'slug': tms['id'],
-          'name': tms['name']
-        })
-      elif isinstance(i, dict):
-        id = next(iter(i))
-        if id == api_id:
-          integrations.append({
-            'slug': tms['id'],
-            'name': tms['name'],
-            **i[api_id]
-          })
+  integrations = get_tms_by_id_and_key(api_id, 'api_integrations')
 
   desc = f'The { name } machine translation API'
 
@@ -518,11 +522,11 @@ for a in AGGREGATORS:
     for a in a['supported_apis']:
       try:
         a_data = {}
-        if type(a) == type({}):
+        if isinstance(a, dict):
           a_slug = list(a.keys())[0]
           a_data['slug'] = a_slug
           for k, v in a[a_slug].items():
-            a_data[k] = v 
+            a_data[k] = v
         else:
           a_slug = a
           a_data['slug'] = a_slug
@@ -532,6 +536,8 @@ for a in AGGREGATORS:
         a_supported_apis.append(a_data)
       except KeyError:
         pass
+    
+    integrations = get_tms_by_id_and_key(a_id, 'api_integrations')
 
     desc = f'The { a_name } machine translation API aggregator'
 
@@ -545,6 +551,7 @@ for a in AGGREGATORS:
       'parent': 'Aggregators',
       'urls': a_urls,
       'supported_apis': a_supported_apis,
+      'integrations': integrations,
       'self-serve': a_self_serve,
       'seo': {
         'name': desc,
@@ -638,22 +645,7 @@ for estimation in QUALITY_ESTIMATION:
       'variant_name': variant_name
     })
 
-  integrations = []
-  for tms in INTEGRATIONS:
-    for i in tms.get("quality_estimation_integrations", []):
-      if i == company_id:
-        integrations.append({
-          'slug': tms['id'],
-          'name': tms['name']
-        })
-      elif isinstance(i, dict):
-        id = next(iter(i))
-        if id == company_id:
-          integrations.append({
-            'slug': tms['id'],
-            'name': tms['name'],
-            **i[company_id]
-          })
+  integrations = get_tms_by_id_and_key(company_id, 'quality_estimation_integrations')
 
   desc = f'The {name} translation quality estimation API'
 

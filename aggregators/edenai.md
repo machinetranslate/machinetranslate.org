@@ -24,6 +24,7 @@ supported_apis:
   name: ModernMT
 - slug: watson
   name: Watson Language Translator
+integrations: []
 self-serve: true
 seo:
   name: The Eden AI machine translation API aggregator
