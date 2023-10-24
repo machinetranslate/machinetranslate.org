@@ -1,7 +1,7 @@
 ---
 parent: Events
 title: Machine translation meetup 2
-description: Meetup organised by Machine Translate
+description: Meetup organised by the Machine Translate Foundation
 location: online
 startDate: 2022-10-21
 name: Machine translation meetup 2
@@ -9,7 +9,7 @@ name: Machine translation meetup 2
 seo:
   type: Event
   name: Machine translation meetup 2
-  description: Meetup organised by Machine Translate
+  description: Meetup organised by the Machine Translate Foundation
   startDate: 2022-10-21
   endDate: 2022-10-21
   eventAttendanceMode: OnlineEventAttendanceMode
@@ -37,7 +37,7 @@ A panel of guests discussed ***machine translation for low-resource languages***
 - Ayushman Dash, NeuralSpace
 - Idris Abdulmumin, Masakhane
 
-The machine translation meetup was organised by Machine Translate.
+The machine translation meetup was organised by the **Machine Translate Foundation**.
 
 [machinetranslate.org/meetup](http://machinetranslate.org/meetup)
 

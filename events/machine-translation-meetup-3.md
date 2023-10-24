@@ -28,7 +28,7 @@ The third Machine Translate community **meetup** took place from 4pm to 6pm on 1
 
 It was open to machine translation builders and researchers and localisation specialists.
 
-The machine translation meetup was organised by **Machine Translate**.
+The machine translation meetup was organised by the **Machine Translate Foundation**.
 
 The guests included people who work with machine translation at technology providers and translation buyers as well as machine translation researchers.
 
