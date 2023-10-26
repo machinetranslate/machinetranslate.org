@@ -25,7 +25,7 @@ seo:
 ---
 
 The **Second Conference on Machine Translation** (**WMT17**) took place from 7 September to 8 September, 2017, in Copenhagen, Denmark.
-It was organised by [WMT](/associations/wmt.md).
+It was organised by [WMT](../more/associations/wmt.md).
 
 [statmt.org/wmt17/program.html](https://www.statmt.org/wmt17/program.html)
 
@@ -171,7 +171,7 @@ Full results of the shared tasks: [*Findings of the 2017 Conference on Machine T
 
 ### News translation
 
-The results were determined with a monolingual [direct assessment](/quality/metrics/human-evaluation-metrics.md#direct-assessment), the [average score and average z-score](/quality/metrics/human-evaluation-metrics.md#average-score-and-average-z-score).
+The results were determined with a monolingual [direct assessment](../building-and-research/metrics/human-evaluation-metrics.md#direct-assessment), the [average score and average z-score](../building-and-research/metrics/human-evaluation-metrics.md#average-score-and-average-z-score).
 
 #### → English
 

@@ -24,7 +24,7 @@ seo:
 ---
 
 The **Fifth Workshop on Machine Translation** (**WMT10**) took place from 15 July to 16 July, 2010, in Uppsala, Sweden.
-It was organised by [WMT](/associations/wmt.md).
+It was organised by [WMT](../more/associations/wmt.md).
 
 [statmt.org/wmt10/program.html](https://statmt.org/wmt10/program.html)
 
@@ -133,7 +133,7 @@ Full results of the shared tasks: [*Findings of the 2010 Joint Workshop on Stati
 
 ### News translation
 
-The results were determined with a [relative ranking](/quality/metrics/human-evaluation-metrics.md#relative-ranking), the `≥ others` (“greater than or equal to others”) score.
+The results were determined with a [relative ranking](../building-and-research/metrics/human-evaluation-metrics.md#relative-ranking), the `≥ others` (“greater than or equal to others”) score.
 
 It measures how often a system was judged to be better than or equal to any other system.
 

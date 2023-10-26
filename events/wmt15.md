@@ -25,7 +25,7 @@ seo:
 ---
 
 The **Tenth Workshop on Machine Translation** (**WMT15**) took place from 17 September to 18 September, 2015, in Lisbon, Portugal.
-It was organised by [WMT](/associations/wmt.md).
+It was organised by [WMT](../more/associations/wmt.md).
 
 [statmt.org/wmt15/program.html](https://www.statmt.org/wmt15/program.html)
 
@@ -138,7 +138,7 @@ Full results of the shared tasks: [*Findings of the 2015 Workshop on Statistical
 
 ### News translation
 
-The results were determined with a [relative ranking](/quality/metrics/human-evaluation-metrics.md#relative-ranking) through the [TrueSkill](/quality/metrics/human-evaluation-metrics.md#trueskill) model.
+The results were determined with a [relative ranking](../building-and-research/metrics/human-evaluation-metrics.md#relative-ranking) through the [TrueSkill](../building-and-research/metrics/human-evaluation-metrics.md#trueskill) model.
 
 #### → English
 

@@ -8,7 +8,7 @@ description: Evaluation metric using BERT sentence representations
 
 **BERTScore** is a metric for automatic evaluation of machine translation that calculates the similarity between a machine translation output and a reference translation using sentence representation.
 
-BERTScore was invented as an improvement on [n-gram](/../concepts/n-gram.md)-based metrics like [BLEU](bleu.md).
+BERTScore was invented as an improvement on [n-gram](../../concepts/n-gram.md)-based metrics like [BLEU](bleu.md).
 
 > BERTScore addresses two common pitfalls in n-gram-based metrics.
 >
@@ -20,13 +20,13 @@ BERTScore was invented as an improvement on [n-gram](/../concepts/n-gram.md)-bas
 >
 > In contrast, contextualized embeddings are trained to effectively capture distant dependencies and ordering.
 >
-> [*BERTScore: Evaluating Text Generation with BERT*](#resources-and-papers)
+> [*BERTScore: Evaluating Text Generation with BERT*](#resources)
 
 The BERTScore metric uses sentence representations from BERT, a deep learning model.
 
 > BERTScore computes precision, recall, and F1 measure.
 >
-> [*Metric: bert_score*](#resources-and-papers)
+> [*Metric: bert_score*](#resources)
 
 ### Resources
 

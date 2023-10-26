@@ -76,7 +76,7 @@ Day 1
 ## Topics
 
 - COVID-related corpora, their translations and corresponding natural language processing/machine translation systems
-- [Neural machine translation](/approaches/neural-machine-translation.md) for low-resource languages
+- [Neural machine translation](../building-and-research/approaches/neural-machine-translation.md) for low-resource languages
 - Work that presents online systems for practical use by native speakers
 - Word [tokenisers](/concepts/tokenisation.md)/de-tokenisers for specific languages
 - Word/morpheme segmenters for specific languages
@@ -84,9 +84,9 @@ Day 1
 - Use of morphology analysers and/or morpheme segmenters in MT
 - Multilingual/cross-lingual natural language processing tools for machine translation
 - Corpora creation and curation technologies for low-resource languages
-- Review of available [parallel corpora](/customisation/parallel-data.md) for low-resource languages
+- Review of available [parallel corpora](../features/customisation/parallel-data.md) for low-resource languages
 - Research and review papers of machine translation methods for low-resource languages
-- Machine translation systems/methods (for example, [rule-based](/approaches/rule-based-machine-translation.md), [statistical machine translation](/approaches/statistical-machine-translation.md), neural machine translation) for low-resource languages
+- Machine translation systems/methods (for example, [rule-based](../building-and-research/approaches/rule-based-machine-translation.md), [statistical machine translation](../building-and-research/approaches/statistical-machine-translation.md), neural machine translation) for low-resource languages
 - [Pivot machine translation](/applications/advanced-concepts/bridging.md) for low-resource languages
 - [Zero-shot machine translation](/applications/advanced-concepts/zero-shot-translation.md) for low-resource languages
 - Fast building of machine translation systems for low-resource languages

@@ -25,7 +25,7 @@ seo:
 ---
 
 The **Fourth Conference on Machine Translation** (**WMT19**) took place from 1 August to 2 August 2019 in Florence, Italy.
-It was organised by [WMT](/associations/wmt.md).
+It was organised by [WMT](../more/associations/wmt.md).
 
 [statmt.org/wmt19/program.html](https://www.statmt.org/wmt19/program.html)
 
@@ -209,11 +209,11 @@ Full results of the shared tasks: [*Findings of the 2019 Conference on Machine T
 
 ### News translation
 
-The winner systems were listed according to their [average score and average z-score](/quality/metrics/human-evaluation-metrics.md#average-score-and-average-z-score).
+The winner systems were listed according to their [average score and average z-score](../building-and-research/metrics/human-evaluation-metrics.md#average-score-and-average-z-score).
 
 #### → English
 
-The results were determined with a monolingual [direct assessment](/quality/metrics/human-evaluation-metrics.md#direct-assessment) without document context.
+The results were determined with a monolingual [direct assessment](../building-and-research/metrics/human-evaluation-metrics.md#direct-assessment) without document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |

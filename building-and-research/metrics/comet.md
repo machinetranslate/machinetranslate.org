@@ -12,7 +12,7 @@ It is based on similarity of vector representations.
 
 > Traditionally only QE models have made use of the source input, whereas MT evaluation metrics rely instead on the reference translation. [...], we show that using a multilingual embedding space allows us to leverage information from all three inputs and demonstrate the value added by the source as input to our MT evaluation models.
 >
-> [*COMET: A Neural Framework for MT Evaluation*](#resources-and-papers)
+> [*COMET: A Neural Framework for MT Evaluation*](#resources)
 
 Unlike [BERTScore](bertscore.md), COMET is trained on predicting different types of human judgements in the form of post-editing effort, direct assessment or translation error analysis.
 

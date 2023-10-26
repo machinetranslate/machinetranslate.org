@@ -23,10 +23,10 @@ Many commercial chat applications that have incorporated machine translation for
 
 ## Companies
 
-* [Unbabel](/industry/companies.md/#unbabel)
-* [Language I/O](/industry/companies.md/#language-io)
-* [KantanMT](/industry/companies.md/#kantanmt)
+* [Unbabel](../more/industry/companies.md/#unbabel)
+* [Language I/O](../more/industry/companies.md/#language-io)
+* [KantanMT](../more/industry/companies.md/#kantanmt)
 
 ## See also
 
-* [Speech translation](/other-input-types/speech.md)
+* [Speech translation](../building-and-research/other-input-types/speech.md)

@@ -5,7 +5,7 @@ description: Identifying the language of a text
 ---
 
 **Language identification** tools identify the [language](/applications/advanced-concepts/locale.md) of an unknown text.
-In machine translation, language identification tools are used in building monolingual [training data](/customisation/training-data.md) from large collections of unidentified texts such as webpages.
+In machine translation, language identification tools are used in building monolingual [training data](../features/customisation/training-data.md) from large collections of unidentified texts such as webpages.
 Language identification tools are also used to automatically identify the source language in many machine translation systems when the source language is unspecified.
 
 As of 2023, language identification is typically implemented as a text classifier over character [n-grams](/concepts/n-gram.md).

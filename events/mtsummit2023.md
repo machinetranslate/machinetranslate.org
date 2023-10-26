@@ -47,7 +47,7 @@ MTS 2023 was organised by [AAMT](/associations/aamt.md).
 
 - Min Zhang, Harbin Institute of Technology, Shenzhen
 - Dorothy Kenny, Dublin City University
-- [Ondrej Bojar](/people/ondrej-bojar.md), Charles University
+- [Ondrej Bojar](../more/people/ondrej-bojar.md), Charles University
 
 ## Speakers
 

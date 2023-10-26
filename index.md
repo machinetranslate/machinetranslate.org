@@ -63,9 +63,9 @@ The content covers everything about machine translation, from products to resear
 
 > #### Featured articles
 > - [Integrations](/integrations/integrations.md)
-> - [Features](/products-and-applications/features.md)
-> - [Adaptive machine translation](/customisation/adaptive.md)
-> - [Quality estimation](/quality/quality-estimation.md)
+> - [Features](/features/features.md)
+> - [Adaptive machine translation](/features/customisation/adaptive.md)
+> - [Quality estimation](/quality-estimation/quality-estimation.md)
 
 
 ## Stay connected

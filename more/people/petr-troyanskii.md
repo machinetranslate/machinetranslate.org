@@ -26,7 +26,7 @@ In the same years, [Georges Artsrouni](georges-artsrouni.md) independently filed
 
 Troyanskii dedicated almost two decades of his life to the mechanisation of translation.
 His ideas included:
-* pre-editing and [post-editing](/workflows/post-editing.md) of the text
+* pre-editing and [post-editing](../../applications/workflows/post-editing.md) of the text
 * automatic bilingual dictionary
 * coding scheme for interlingual grammatical correspondences
 

@@ -15,15 +15,15 @@ seo:
    name: Meta AI
 ---
 
-**Philipp Koehn** is a machine translation researcher and co-inventor of phrased-based [statistical machine translation](/approaches/statistical-machine-translation.md).
+**Philipp Koehn** is a machine translation researcher and co-inventor of phrased-based [statistical machine translation](../../building-and-research/approaches/statistical-machine-translation.md).
 
-In 2003, while at the University of Southern California, he co-authored [a paper on phrase-based statistical machine translation](/resources/publications.md#statistical-machine-translation), along with [Franz Josef Och](franz-josef-och.md) and [Daniel Marcu](daniel-marcu.md).
+In 2003, while at the University of Southern California, he co-authored [a paper on phrase-based statistical machine translation](../../resources/publications.md#statistical-machine-translation), along with [Franz Josef Och](franz-josef-och.md) and [Daniel Marcu](daniel-marcu.md).
 
 His early contributions to machine translation include:
 
 * the Moses machine translation system
 * the Europarl corpus
-* organising the machine translation research community, including [WMT](/associations/wmt.md)
+* organising the machine translation research community, including [WMT](../associations/wmt.md)
 
 He became a professor at the University of Edinburgh and then Johns Hopkins University, and joined [Omniscien Technologies](/industry/companies.md#omniscien-technologies) as Chief Scientist.
 

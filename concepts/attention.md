@@ -4,7 +4,7 @@ title: Attention
 description: A mechanism for improving the encoder-decoder accuracy in machine translation
 ---
 
-The **attention** mechanism or **self-attention** mechanism is a way for [neural machine translation](/approaches/neural-machine-translation.md) to focus on the most important parts of the input sequence.
+The **attention** mechanism or **self-attention** mechanism is a way for [neural machine translation](../building-and-research/approaches/neural-machine-translation.md) to focus on the most important parts of the input sequence.
 
 ## Motivation
 

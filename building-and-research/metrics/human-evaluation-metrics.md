@@ -46,22 +46,22 @@ Then a system-level score is computed.
 **Average z-score** is a normalised version.
 It shows the distance between the average score for a system and the mean average score across all systems.
 
-Average score and average z-score are the main metrics used in the results for the translation shared task since [WMT17](/../events/wmt17.md).
+Average score and average z-score are the main metrics used in the results for the translation shared task since [WMT17](../../events/wmt17.md).
 
 ### TrueSkill
 
 **TrueSkill** is a gaming rating system.
 Microsoft Research originally developed it for the Xbox Live gaming community.
-For [WMT](/../associations/wmt.md), TrueSkill was adapted to machine translation evaluation.
+For [WMT](../../more/associations/wmt.md), TrueSkill was adapted to machine translation evaluation.
 
-For [WMT14](/../events/wmt14.md), [WMT15](/../events/wmt15.md) and [WMT16](/../events/wmt16.md), TrueSkill was used as the human evaluation ranking for all translation shared tasks.
+For [WMT14](../../events/wmt14.md), [WMT15](../../events/wmt15.md) and [WMT16](../../events/wmt16.md), TrueSkill was used as the human evaluation ranking for all translation shared tasks.
 
 ### Adequacy and fluency judgement
 
 In **adequacy and fluency judgement**, for each input, humans rank the output from each system for both adequacy and fluency.
 Adequacy and fluency scores indicate the meaning adequacy and translation fluency of the system outputs on a five-point scale.
 
-Adequacy and fluency judgement was the official ranking for the translation shared task from [WMT06](/../events/wmt06.md) to [WMT07](/../events/wmt07.md).
+Adequacy and fluency judgement was the official ranking for the translation shared task from [WMT06](../../events/wmt06.md) to [WMT07](../../events/wmt07.md).
 
 ### Relative ranking
 
@@ -76,7 +76,7 @@ Relative ranking was the official ranking for the translation shared task from W
 
 In **constituent ranking**, for each input, humans rank the outputs of an automatically selected syntactic constituent instead of the complete sentences. The constituent score measures how often a system was judged to be better than any other system.
 
-Constituent ranking was the official ranking for the translation shared task from WMT07 to [WMT08](/../events/wmt08.md).
+Constituent ranking was the official ranking for the translation shared task from WMT07 to [WMT08](../../events/wmt08.md).
 
 ### Yes or no constituent judgement
 
@@ -99,4 +99,4 @@ There are different types of direct assessment.
 - Bilingual: Human raters see the system input and output.
 - Reference-based: Human raters see the system output and a reference output.
 
-For [WMT22](/../events/wmt22.md), a combination of direct assessment and [SQM](#sqm) was used for the evaluation of out-of-english and non-english translation pairs.
+For [WMT22](../../events/wmt22.md), a combination of direct assessment and [SQM](#sqm) was used for the evaluation of out-of-english and non-english translation pairs.

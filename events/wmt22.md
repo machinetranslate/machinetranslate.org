@@ -24,7 +24,7 @@ seo:
 ---
 
 The **Seventh Conference on Machine Translation** (**WMT22**) took place from 7 December to 8 December, 2022, at [EMNLP](http://emnlp.org) 2022 in Abu Dhabi.
-It was organised by [WMT](/associations/wmt.md).
+It was organised by [WMT](../more/associations/wmt.md).
 
 [statmt.org/wmt22/](https://statmt.org/wmt22/)
 
@@ -326,11 +326,11 @@ Full results of the shared tasks: [*Findings of the 2022 Conference on Machine T
 
 ### General task
 
-The winner systems were listed according to their [average score and average z-score](/quality/metrics/human-evaluation-metrics.md#average-score-and-average-z-score).
+The winner systems were listed according to their [average score and average z-score](../building-and-research/metrics/human-evaluation-metrics.md#average-score-and-average-z-score).
 
 #### → English
 
-The results were determined with a monolingual [direct assessment](/quality/metrics/human-evaluation-metrics.md#direct-assessment) with document context.
+The results were determined with a monolingual [direct assessment](../building-and-research/metrics/human-evaluation-metrics.md#direct-assessment) with document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |
