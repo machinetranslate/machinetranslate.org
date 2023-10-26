@@ -1,8 +1,9 @@
 ---
-parent: Building and research
-nav_order: 165
+# parent: Building and research
+nav_order: 66
 title: Quality estimation
 description: Machine translation quality estimation
+has_children: true
 featured: true
 redirect_from:
   - /quality-prediction
@@ -84,27 +85,36 @@ ModelFront launched a standalone production system for quality estimation.
 By 2020, it was generally available and supported more than 10000 language pairs.
 It is provided as an API, so it can be integrated into other systems and products.
 
-There are also providers that offer a quality estimation feature within another product.
+| Provider | Product |
+| --- | --- |
+| [ModelFront](/industry/companies.md#modelfront) | [ModelFront quality prediction](https://modelfront.com) |
+| TAUS | [DeMT Estimate API](https://www.taus.net/demt/quality-estimation) |
 
-| Provider | Product | Availability | Approach |
-| --- | --- | --- | --- |
-| [KantanAI](/industry/companies.md#kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | Feature of machine translation API | Glassbox |
-| [ModelFront](/industry/companies.md#modelfront) | [ModelFront quality prediction](https://modelfront.com) | Product with cloud API and console | Deep learning, multilingual, blackbox |
-| [Omniscien](/industry/companies.md#omniscien-technologies) | [Translation Confidence Scoring and Quality Estimates](https://omniscien.com/products/language-studio/) | Feature of machine translation API | Glassbox |
+There are also providers that offer a quality estimation feature or integration within another product.
 
 ### Features and integrations
 
-A few translation management systems have launched generally available features for quality estimation.
+A few machine translation providers have launched generally available features for quality estimation.
 
-| Product | Feature | Providers |
+| Product | Feature | Provider|
+| --- | --- | --- |
+| [KantanMT](/apis/kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](/industry/companies.md#kantanmt) |
+| [Omniscien](/apis/omniscien) | [Translation Confidence Scoring and Quality Estimates](https://omniscien.com/products/language-studio/) | [Omniscien](/industry/companies.md#omniscien-technologies) |
+
+### Integrations
+
+There is a quality estimation integration or connector available for most translation management systems.
+
+| Product | Feature | Provider |
 | ---| --- | --- |
-| [KantanStream](/industry/companies.md#kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | KantanAI |
-| PhraseTMS | [MT quality estimation](https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-)  | Phrase |
-| translate5 | [Quality prediction](https://www.modelfront.com/integrations/translate5) | ModelFront |
-| GlobalDoc LangXpert | [Effort estimation](https://globaldoc.com/about-us/our-technology/langxpert-modelfront-technology-partnership/) | ModelFront |
-| Google Cloud Translation Hub | [Quality prediction](https://cloud.google.com/translation-hub/docs/translator-edit#segment-details) | Google |
-| Crowdin | [Quality prediction](https://store.crowdin.com/modelfront) | ModelFront |
-| memoQ | [Quality estimates](https://www.memoq.com/integrations/mt-quality-estimates) | ModelFront, TAUS |
+| [translate5](/integrations/translate5.md) | [ModelFront quality prediction plug-in](https://www.modelfront.com/integrations/translate5) | [ModelFront](/quality-estimation/modelfront) |
+| [memoQ](/integrations/memoq.md) | [Quality estimates (AIQE)](https://www.memoq.com/integrations/mt-quality-estimates) | [ModelFront](/quality-estimation/modelfront), [TAUS](/quality-estimation/taus) [DeMT Estimate API](/quality-estimation/demt-estimate-api) |
+| [Crowdin](/integrations/crowdin.md) | [ModelFront quality prediction](https://store.crowdin.com/modelfront) | [ModelFront](/quality-estimation/modelfront) |
+| [XTM](/integrations/xtm.md) | ModelFront XTM connector | [ModelFront](/quality-estimation/modelfront) |
+| KantanStream | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](/industry/companies.md#kantanmt) |
+| [PhraseTMS](phrase-tms) | [MT quality estimation](https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-), ModelFront Phrase connector | [Phrase QE](/quality-estimation/phrase-qe) |
+| GlobalDoc LangXpert | [Effort estimation](https://globaldoc.com/about-us/our-technology/langxpert-modelfront-technology-partnership/) | [ModelFront](/quality-estimation/modelfront) |
+| Google Cloud Translation Hub | [Machine translation quality prediction](https://cloud.google.com/translation-hub/docs/translator-edit#segment-details) | [Google Cloud Translation Hub - MTQP](/quality-estimation/google-translation-hub-mtqp/) |
 
 translate5 is open-source.
 
