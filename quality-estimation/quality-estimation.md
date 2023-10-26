@@ -98,8 +98,8 @@ A few machine translation providers have launched generally available features f
 
 | Product | Feature | Provider|
 | --- | --- | --- |
-| [KantanMT](/apis/kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](/industry/companies.md#kantanmt) |
-| [Omniscien](/apis/omniscien) | [Translation Confidence Scoring and Quality Estimates](https://omniscien.com/products/language-studio/) | [Omniscien](../more/industry/companies.md#omniscien-technologies) |
+| [KantanMT](../apis/kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](/industry/companies.md#kantanmt) |
+| [Omniscien](../apis/omniscien) | [Translation Confidence Scoring and Quality Estimates](https://omniscien.com/products/language-studio/) | [Omniscien](../more/industry/companies.md#omniscien-technologies) |
 
 ### Integrations
 
@@ -107,10 +107,10 @@ There is a quality estimation integration or connector available for most transl
 
 | Product | Feature | Provider |
 | ---| --- | --- |
-| [translate5](/integrations/translate5.md) | [ModelFront quality prediction plug-in](https://www.modelfront.com/integrations/translate5) | [ModelFront](/quality-estimation/modelfront) |
-| [memoQ](/integrations/memoq.md) | [Quality estimates (AIQE)](https://www.memoq.com/integrations/mt-quality-estimates) | [ModelFront](/quality-estimation/modelfront), [TAUS](/quality-estimation/taus) [DeMT Estimate API](/quality-estimation/demt-estimate-api) |
-| [Crowdin](/integrations/crowdin.md) | [ModelFront quality prediction](https://store.crowdin.com/modelfront) | [ModelFront](/quality-estimation/modelfront) |
-| [XTM](/integrations/xtm.md) | ModelFront XTM connector | [ModelFront](/quality-estimation/modelfront) |../applications
+| [translate5](../integrations/translate5.md) | [ModelFront quality prediction plug-in](https://www.modelfront.com../integrations/translate5) | [ModelFront](/quality-estimation/modelfront) |
+| [memoQ](../integrations/memoq.md) | [Quality estimates (AIQE)](https://www.memoq.com../integrations/mt-quality-estimates) | [ModelFront](/quality-estimation/modelfront), [TAUS](/quality-estimation/taus) [DeMT Estimate API](/quality-estimation/demt-estimate-api) |
+| [Crowdin](../integrations/crowdin.md) | [ModelFront quality prediction](https://store.crowdin.com/modelfront) | [ModelFront](/quality-estimation/modelfront) |
+| [XTM](../integrations/xtm.md) | ModelFront XTM connector | [ModelFront](/quality-estimation/modelfront) |../applications
 | KantanStream | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](../more/industry/companies.md#kantanmt) |
 | [PhraseTMS](phrase-tms) | [MT quality estimation](https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-), ModelFront Phrase connector | [Phrase QE](/quality-estimation/phrase-qe) |
 | GlobalDoc LangXpert | [Effort estimation](https://globaldoc.com/about-us/our-technology/langxpert-modelfront-technology-partnership/) | [ModelFront](/quality-estimation/modelfront) |
@@ -179,8 +179,8 @@ Multilingual quality estimation uses one model or system for many language pairs
 ### See also
 
 - [Hybrid translation](../applications/workflows/hybrid-translation.md)
-- [Automatic post-editing](/applications/automatic-post-editing.md)
-- [Post-editing](/applications/post-editing.md)
+- [Automatic post-editing](../applications/automatic-post-editing.md)
+- [Post-editing](../applications/post-editing.md)
 
 ### References
 

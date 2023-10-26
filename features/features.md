@@ -10,15 +10,15 @@ seo:
 The **features** of machine translation vary across [machine translation APIs](/apis/apis.md) and applications:
 
 - [Language support](/languages/languages.md)
-- [Customisation](/customisation/customisation.md)
+- [Customisation](/features/customisation/customisation.md)
 - [Data confidentiality](/features/data-confidentiality.md)
 - [Pricing](/features/pricing.md) and self-service
 
 APIs usually offer many features not included in raw models:
-- [language identification](/customisation/language-identification.md)
+- [language identification](../concepts/language-identification.md)
 - segmentation
-- [bridging](/applications/advanced-concepts/bridging.md) (pivoting)
-- [glossary](/customisation/glossaries.md)
+- [bridging](../applications/advanced-concepts/bridging.md) (pivoting)
+- [glossary](../features/customisation/glossaries.md)
 - encoding options
 - HTML/XML tag handling
 

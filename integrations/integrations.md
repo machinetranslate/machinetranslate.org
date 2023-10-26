@@ -7,7 +7,7 @@ seo:
     name: List of machine translation API integrations in translation management systems and computer-aided translation tools
 ---
 
-There are a growing set of **integrations** of machine translation [APIs](/apis) in
+There are a growing set of **integrations** of machine translation [APIs](../apis) in
 translation management systems (TMSes) and computer-aided translation tools (CAT tools), 
 
-TMSes and CAT tools mainly integrate machine translation for human [post-editing](/workflows/post-editing).
+TMSes and CAT tools mainly integrate machine translation for human [post-editing](../applications/workflows/post-editing).
