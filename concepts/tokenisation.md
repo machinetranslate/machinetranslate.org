@@ -24,9 +24,9 @@ Splitting on spaces is a reasonable baseline for many languages, but will lead t
 
 Two types of challenging languages are non-space-segmented languages and agglutinative languages.
 
-Non-space-segmented languages include [Chinese](/languages/chinese.md), [Japanese](/languages/japanese.md), [Korean](/languages/korean.md), and [Thai](/languages/thai.md).
+Non-space-segmented languages include [Chinese](../languages/chinese.md), [Japanese](../languages/japanese.md), [Korean](../languages/korean.md), and [Thai](../languages/thai.md).
 In these languages, tokenisation needs more advanced algorithms, often called word segmentation algorithms.
 
-Agglutinative languages include [Finnish](/languages/finnish.md) and [Hungarian](/languages/hungarian.md).
+Agglutinative languages include [Finnish](../languages/finnish.md) and [Hungarian](../languages/hungarian.md).
 
 Machine translation in these languages typically splits tokens into smaller units of meaning using algorithms such as [byte-pair encoding](../building-and-research/approaches/byte-pair-encoding.md).

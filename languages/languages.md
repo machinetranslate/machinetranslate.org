@@ -8,7 +8,7 @@ seo:
     name: List of languages supported by machine translation APIs
 ---
 
-Hundreds of **languages** and [locales](/applications/advanced-concepts/locale.md) are supported by [machine translation APIs](/apis/apis.md).
+Hundreds of **languages** and [locales](../applications/advanced-concepts/locale.md) are supported by [machine translation APIs](../apis/apis.md).
 
 The top one hundred languages are supported by more than one API.
 
