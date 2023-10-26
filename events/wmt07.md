@@ -25,7 +25,7 @@ seo:
 ---
 
 The **Second Workshop on Machine Translation** (**WMT07**) took place on 23 June, 2007, in Prague, Czech Republic.
-It was organised by [WMT](/associations/wmt.md).
+It was organised by [WMT](../more/associations/wmt.md).
 
 [statmt.org/wmt07/program.html](https://statmt.org/wmt07/program.html)
 
@@ -91,7 +91,7 @@ Full results of the shared task: [*(Meta-) Evaluation of Machine Translation*](h
 
 ### Translation
 
-The results were determined with a [relative ranking](/quality/metrics/human-evaluation-metrics.md#relative-ranking), the `> others` (“greater than others”) score, an [adequacy and fluency judgement](/quality/metrics/human-evaluation-metrics.md#adequacy-and-fluency-judgement), and a [constituent ranking](/quality/metrics/human-evaluation-metrics.md#constituent-ranking).
+The results were determined with a [relative ranking](../building-and-research/metrics/human-evaluation-metrics.md#relative-ranking), the `> others` (“greater than others”) score, an [adequacy and fluency judgement](../building-and-research/metrics/human-evaluation-metrics.md#adequacy-and-fluency-judgement), and a [constituent ranking](../building-and-research/metrics/human-evaluation-metrics.md#constituent-ranking).
 
 The automatic evaluation results were excluded from the article as the findings conclude the human judgments to be authoritative.
 

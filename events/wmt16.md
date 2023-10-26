@@ -25,7 +25,7 @@ seo:
 ---
 
 The **First Conference on Machine Translation** (**WMT16**) took place from 11 August to 12 August, 2016, in Berlin, Germany.
-It was organised by [WMT](/associations/wmt.md).
+It was organised by [WMT](../more/associations/wmt.md).
 
 [statmt.org/wmt16/program.html](https://www.statmt.org/wmt16/program.html)
 
@@ -203,7 +203,7 @@ Full results of the shared tasks: [*Findings of the 2016 Conference on Machine T
 
 ### News translation
 
-The results were determined with a [relative ranking](/quality/metrics/human-evaluation-metrics.md#relative-ranking) through the [TrueSkill](/quality/metrics/human-evaluation-metrics.md#trueskill) model.
+The results were determined with a [relative ranking](../building-and-research/metrics/human-evaluation-metrics.md#relative-ranking) through the [TrueSkill](../building-and-research/metrics/human-evaluation-metrics.md#trueskill) model.
 
 #### → English
 

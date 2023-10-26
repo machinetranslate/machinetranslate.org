@@ -42,7 +42,7 @@ The scores generally do not correlate well with human evaluation scores when tra
 
 ### Machine learning-based metrics
 
-Machine learning-based metrics use [sentence embeddings](/concepts/sentence-embeddings.md) to calculate the difference between the generated target sentence and the reference translation, or even between the target senternce and the source sentence.
+Machine learning-based metrics use [sentence embeddings](../../concepts/sentence-embeddings.md) to calculate the difference between the generated target sentence and the reference translation, or even between the target senternce and the source sentence.
 
 Examples:
 - [COMET](comet.md)
@@ -75,11 +75,11 @@ But human evaluation is slow, expensive and subjective.
 
 ### Evolution
 >
-> ##### Slide from [Unbabel](/industry/companies.md#unbabel) for [AMTA 2022](/events/amta2022.md)
-> <img title='Evaluation timeline' src='/quality/metrics/timeline.jpg' width='700' style='padding: 1em;' />
+> ##### Slide from [Unbabel](../../more/industry/companies.md#unbabel) for [AMTA 2022](../../events/amta2022.md)
+> <img title='Evaluation timeline' src='/building-and-research/metrics/timeline.jpg' width='700' style='padding: 1em;' />
 
 
 ## See also
 
-- [Quality evaluation](building-and-research/quality-evaluation.md)
-- [Quality estimation](building-and-research/quality-estimation.md)
+- [Quality evaluation](../../building-and-research/quality-evaluation.md)
+- [Quality estimation](../../quality-estimation/quality-estimation.md)

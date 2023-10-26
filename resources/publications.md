@@ -42,7 +42,7 @@ td:nth-child(2) {
 | 2015 | [***Neural Machine Translation by Jointly Learning to Align and Translate***](https://arxiv.org/pdf/1409.0473.pdf) | Dzmitry Bahdanau, KyungHyun Cho, Yoshua Bengio |
 | 2014 | [***On the Properties of Neural Machine Translation: Encoder-Decoder Approaches***](https://aclanthology.org/W14-4012.pdf) | Kyunghyun Cho, Bart van Merriënboer, Dzmitry Bahdanau, Yoshua Bengio |
 | 2014 | [***Sequence to sequence learning with Neural Networks***](https://proceedings.neurips.cc/paper/2014/file/a14ac55a4f27472c5d894ec1c3c743d2-Paper.pdf) | Ilya Sutskever, Oriol Vinyals, Quoc V. Le |
-| 2007 | [***Large language models in machine translation***](https://aclanthology.org/D07-1090.pdf) | Thorsten Brants, Ashok Popat, Peng Xu, [Franz Josef Och](/people/franz-josef-och.md), Jeffrey Dean |
+| 2007 | [***Large language models in machine translation***](https://aclanthology.org/D07-1090.pdf) | Thorsten Brants, Ashok Popat, Peng Xu, [Franz Josef Och](../more/people/franz-josef-och.md), Jeffrey Dean |
 
 
 
@@ -85,20 +85,20 @@ td:nth-child(2) {
 | 2016 | [***Neural Machine Translation of Rare Words with Subword Units***](https://arxiv.org/pdf/1508.07909.pdf) | Rico Sennrich, Barry Haddow, Alexandra Birch |
 
 
-## [Statistical machine translation](/approaches/statistical-machine-translation.md)
+## [Statistical machine translation](../building-and-research/approaches/statistical-machine-translation.md)
 
 |     |     |     |
 | --- | --- | --- |
 | 2007 | [***Hierarchical Phrase-Based Translation***](https://aclanthology.org/J07-2003.pdf) | David Chiang |
-| 2003 | [***Statistical Phrase-Based Translation***](https://aclanthology.org/N03-1017.pdf) | Philipp Koehn, Franz Josef Och, [Daniel Marcu](/people/daniel-marcu.md) |
+| 2003 | [***Statistical Phrase-Based Translation***](https://aclanthology.org/N03-1017.pdf) | Philipp Koehn, Franz Josef Och, [Daniel Marcu](../more/people/daniel-marcu.md) |
 
 
 ## Metrics
 
 Machine translation metrics automatically assess quality of the machine translation output.
 There are two types of metrics: **quality evaluation**  and **quality estimation**.   
-* [Quality evaluation](/quality/quality-evaluation.md) metrics rely on human (reference) translation.
-* [Quality estimation](/quality/quality-estimation.md) metrics ***do not*** rely on human (reference) translation.
+* [Quality evaluation](../building-and-research/quality-evaluation.md) metrics rely on human (reference) translation.
+* [Quality estimation](../quality-estimation/quality-estimation.md) metrics ***do not*** rely on human (reference) translation.
 
 ### Quality evaluation
 
@@ -122,7 +122,7 @@ For example, a metric can count the number and fraction of n-grams that appear i
 | 2005 | [***METEOR: An Automatic Metric for MT Evaluation with Improved Correlation with Human Judgments***](http://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf) | Satanjeev Banerjee, Alon Lavie |
 | 2004 | [***ROUGE: A Package for Automatic Evaluation of Summaries***](https://aclanthology.org/W04-1013.pdf) | Chin-Yew Lin |
 | 2002 | [***Automatic Evaluation of Machine Translation Quality Using N-gram Co-Occurrence Statistics***](https://aclanthology.org/www.mt-archive.info/HLT-2002-Doddington.pdf) | George Doddington |
-| 2002 | [***BLEU: a Method for Automatic Evaluation of Machine Translation***](https://aclanthology.org/P02-1040.pdf) | [Kishore Papineni](/people/kishore-papineni.md), [Salim Roukos](/people/salim-roukos.md), Todd Ward, Wei-Jing Zhu |
+| 2002 | [***BLEU: a Method for Automatic Evaluation of Machine Translation***](https://aclanthology.org/P02-1040.pdf) | [Kishore Papineni](../more/people/kishore-papineni.md), [Salim Roukos](../more/people/salim-roukos.md), Todd Ward, Wei-Jing Zhu |
 
 ##### Embedding-based metrics
 

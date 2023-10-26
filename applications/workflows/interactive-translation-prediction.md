@@ -9,7 +9,7 @@ description: Workflow for human translation with sentence completion
 Unlike traditional predictive text, interactive translation prediction uses the machine translation model to provide better completions of the sentence.
 
 > ##### User interface from [Casmacat](https://www.casmacat.eu/)
-> <img title='Casmacat interactive machine translation user interface' src='/workflows/casmacat_interactive_machine_translation.gif' width='700' style='padding: 1em;' />
+> <img title='Casmacat interactive machine translation user interface' src='/applications/workflows/casmacat_interactive_machine_translation.gif' width='700' style='padding: 1em;' />
 
 
 ## Challenges

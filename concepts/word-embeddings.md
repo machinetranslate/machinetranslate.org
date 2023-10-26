@@ -58,4 +58,4 @@ As a result, word embedding lengths are shorter than one-hot encodings.
 The sample vectors contain 3 digits.
 Similar concepts will have similar vectors.
 
-In [neural machine translation](/approaches/neural-machine-translation.md), embedding matrices are usually learned during training.
+In [neural machine translation](../building-and-research/approaches/neural-machine-translation.md), embedding matrices are usually learned during training.

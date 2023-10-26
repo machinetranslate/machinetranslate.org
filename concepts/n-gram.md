@@ -10,9 +10,9 @@ An **n-gram** is a short sequence of word types.
 N-grams have many applications in machine translation:
 
 - [language models](/concepts/language-model.md), such as an [n-gram maximum likelihood estimate](/concepts/language-model.md#n-gram-maximum-likelihood-estimate)
-- translation models for [statistical machine translation](/approaches/statistical-machine-translation.md)
-- evaluation [metrics](/quality/metrics/metrics.md), such as [BLEU](/quality/metrics/bleu.md)
-- [language identification](/customisation/language-identification.md)
+- translation models for [statistical machine translation](../building-and-research/approaches/statistical-machine-translation.md)
+- evaluation [metrics](../building-and-research/metrics/metrics.md), such as [BLEU](../building-and-research/metrics/bleu.md)
+- [language identification](../features/customisation/language-identification.md)
 
 <!-- Note: "https://render.githubusercontent.com/render/math?math=..." wasn't working on all equations so we switched to "https://latex.codecogs.com/svg.image?..." but it requires escaping to survive the Markdown table processor -->
 
@@ -26,7 +26,7 @@ N-grams have many applications in machine translation:
 
 [String](/concepts/string.md) in English: `"The car has two doors."`
 
-[Tokens](/customisation/tokenisation.md): `"The", "car", "has", "two", "doors", "."`
+[Tokens](../features/customisation/tokenisation.md): `"The", "car", "has", "two", "doors", "."`
 
 Unigrams: `"The", "car", "has", "two", "doors", "."`
 

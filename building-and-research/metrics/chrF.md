@@ -6,7 +6,7 @@ title: chrF
 description: CHaRacter-level F-score
 ---
 
-**chrF** (**CHaRacter-level F-score**) is a metric for machine translation evaluation that calculates the similarity between a machine translation output and a reference translation using character [n-grams](/../concepts/n-gram.md), not word n-grams.
+**chrF** (**CHaRacter-level F-score**) is a metric for machine translation evaluation that calculates the similarity between a machine translation output and a reference translation using character [n-grams](../../concepts/n-gram.md), not word n-grams.
 
 Metrics based on word n-grams are especially problematic for high-morphology languages.
 
@@ -16,7 +16,7 @@ The chrF metric compares the machine translation output with reference translati
 
 > It is language-independent, tokenisation-independent and it shows good correlations with human judgments both on the system- as well as with on the segment-level, especially the CHRF3 variant.
 >
-> [*chrF: character n-gram f-score for automatic MT evaluation*](#resources-and-papers)
+> [*chrF: character n-gram f-score for automatic MT evaluation*](#resources)
 
 ### Variants
 

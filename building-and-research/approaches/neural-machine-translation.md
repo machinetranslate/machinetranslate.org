@@ -11,7 +11,7 @@ Like [statistical machine translation](statistical-machine-translation.md), neur
 
 ### Neural networks
 
-Neural networks use [training data](/customisation/training-data.md) to create [vectors](/concepts/vector.md) for every word and its relations, called word embeddings.
+Neural networks use [training data](../../features/customisation/training-data.md) to create [vectors](../../concepts/vector.md) for every word and its relations, called word embeddings.
 Words with similar meaning cluster together, and words with more than one meaning appear simultaneously in different clusters.
 
 **Cluster<sub>1</sub>**:
@@ -38,7 +38,7 @@ The sequence model arranges a sentence order by calculating the probability of t
 
 ### Encoder/decoder framework
 
-Neural machine translation architecture consists of an encoder and a [decoder](/concepts/language-model.md#decoding).
+Neural machine translation architecture consists of an encoder and a [decoder](../../concepts/language-model.md#decoding).
 
 The encoder analyses the input sequence words and their relations.
 The result is the representation of the sentence, called context vector.

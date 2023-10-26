@@ -18,8 +18,8 @@ Machine translation **quality estimation** (**QE** or **MTQE**) or machine trans
 
 Quality estimation does not require human reference translations, so it is useful for new content.  It uses machine learning to provide predictions that are relatively accurate at the segment level.
 
-Quality estimation is fundamentally different than [quality *evaluation*](/quality/quality-evaluation.md).
-Quality evaluation [metrics](/quality/metrics.md) like [BLEU](/quality/metrics/bleu.md) require human reference translations against which to compare the machine translation output.
+Quality estimation is fundamentally different than [quality *evaluation*](../building-and-research/quality-evaluation.md).
+Quality evaluation [metrics](../building-and-research/metrics/metrics.md) like [BLEU](../building-and-research/metrics/bleu.md) require human reference translations against which to compare the machine translation output.
 But for new content, there are no human reference translations available.
 
 
@@ -27,8 +27,8 @@ But for new content, there are no human reference translations available.
 
 Quality estimation has offline and production use cases:
 
-* [Hybrid translation](/workflows/hybrid-translation.md)
-* Estimating [post-editing](/workflows/post-editing.md) effort
+* [Hybrid translation](../applications/workflows/hybrid-translation.md)
+* Estimating [post-editing](../applications/workflows/post-editing.md) effort
 * Validating final human translations
 * Comparing machine translation systems or translation models
 * Filtering training data for machine translation
@@ -51,12 +51,12 @@ Document-level scores indicate if a machine translation output can be used witho
 
 ---
 
-In 2012, [Lucia Specia](/people/lucia-specia.md) and Google researcher Radu Soricut organized the first *Shared Task on Quality Estimation*.
+In 2012, [Lucia Specia](../more/people/lucia-specia.md) and Google researcher Radu Soricut organized the first *Shared Task on Quality Estimation*.
 
 In 2018, Lucia Specia, Carolina Scarton and Gustavo Henrique Paetzold published the book *Quality Estimation for Machine Translation*.
 There was research on word-level quality estimation and paragraph-level quality estimation.
 
-In 2020, [ModelFront](/industry/companies.md#modelfront) launched a multilingual quality estimation API.
+In 2020, [ModelFront](../more/industry/companies.md#modelfront) launched a multilingual quality estimation API.
 Tharindu Ranasinghe released pretrained models.
 Facebook Research launched unsupervised quality estimation internally.
 
@@ -87,7 +87,7 @@ It is provided as an API, so it can be integrated into other systems and product
 
 | Provider | Product |
 | --- | --- |
-| [ModelFront](/industry/companies.md#modelfront) | [ModelFront quality prediction](https://modelfront.com) |
+| [ModelFront](../more/industry/companies.md#modelfront) | [ModelFront quality prediction](https://modelfront.com) |
 | TAUS | [DeMT Estimate API](https://www.taus.net/demt/quality-estimation) |
 
 There are also providers that offer a quality estimation feature or integration within another product.
@@ -99,7 +99,7 @@ A few machine translation providers have launched generally available features f
 | Product | Feature | Provider|
 | --- | --- | --- |
 | [KantanMT](/apis/kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](/industry/companies.md#kantanmt) |
-| [Omniscien](/apis/omniscien) | [Translation Confidence Scoring and Quality Estimates](https://omniscien.com/products/language-studio/) | [Omniscien](/industry/companies.md#omniscien-technologies) |
+| [Omniscien](/apis/omniscien) | [Translation Confidence Scoring and Quality Estimates](https://omniscien.com/products/language-studio/) | [Omniscien](../more/industry/companies.md#omniscien-technologies) |
 
 ### Integrations
 
@@ -110,8 +110,8 @@ There is a quality estimation integration or connector available for most transl
 | [translate5](/integrations/translate5.md) | [ModelFront quality prediction plug-in](https://www.modelfront.com/integrations/translate5) | [ModelFront](/quality-estimation/modelfront) |
 | [memoQ](/integrations/memoq.md) | [Quality estimates (AIQE)](https://www.memoq.com/integrations/mt-quality-estimates) | [ModelFront](/quality-estimation/modelfront), [TAUS](/quality-estimation/taus) [DeMT Estimate API](/quality-estimation/demt-estimate-api) |
 | [Crowdin](/integrations/crowdin.md) | [ModelFront quality prediction](https://store.crowdin.com/modelfront) | [ModelFront](/quality-estimation/modelfront) |
-| [XTM](/integrations/xtm.md) | ModelFront XTM connector | [ModelFront](/quality-estimation/modelfront) |
-| KantanStream | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](/industry/companies.md#kantanmt) |
+| [XTM](/integrations/xtm.md) | ModelFront XTM connector | [ModelFront](/quality-estimation/modelfront) |../applications
+| KantanStream | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](../more/industry/companies.md#kantanmt) |
 | [PhraseTMS](phrase-tms) | [MT quality estimation](https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-), ModelFront Phrase connector | [Phrase QE](/quality-estimation/phrase-qe) |
 | GlobalDoc LangXpert | [Effort estimation](https://globaldoc.com/about-us/our-technology/langxpert-modelfront-technology-partnership/) | [ModelFront](/quality-estimation/modelfront) |
 | Google Cloud Translation Hub | [Machine translation quality prediction](https://cloud.google.com/translation-hub/docs/translator-edit#segment-details) | [Google Cloud Translation Hub - MTQP](/quality-estimation/google-translation-hub-mtqp/) |
@@ -178,7 +178,7 @@ Multilingual quality estimation uses one model or system for many language pairs
 
 ### See also
 
-- [Hybrid translation](/workflows/hybrid-translation.md)
+- [Hybrid translation](../applications/workflows/hybrid-translation.md)
 - [Automatic post-editing](/applications/automatic-post-editing.md)
 - [Post-editing](/applications/post-editing.md)
 

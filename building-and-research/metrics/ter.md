@@ -10,9 +10,9 @@ description: Translation Error Rate
 
 > TER is defined as the minimum number of edits needed to change a hypothesis so that it exactly matches one of the references, normalized by the average length of the references.
 >
-> [*A Study of Translation Edit Rate with Targeted Human Annotation*](#resources-and-papers)
+> [*A Study of Translation Edit Rate with Targeted Human Annotation*](#resources)
 
-TER corresponds to [post-editing effort](/../workflows/post-editing#metrics).
+TER corresponds to [post-editing effort](../../applications/workflows/post-editing#metrics).
 
 ### Variants
 

@@ -118,7 +118,7 @@ LibreTranslate is powered by the open-source Argos Translate library.
 
 ### SIGMT
 
-**SIGMT** (sigmt@groups.google.com) is the official mailing list of [SIG MT](/associations/sigmt.md), the ACL Special Interest Group for Machine Translation.
+**SIGMT** (sigmt@groups.google.com) is the official mailing list of [SIG MT](../more/associations/sigmt.md), the ACL Special Interest Group for Machine Translation.
 
 > ACL Special Interest Group for Machine Translation
 
@@ -156,7 +156,7 @@ The **Google Cloud Translation API** (google-translate-api@googlegroups.com) Goo
 
 ### Language Weaver
 
-The **Language Weaver** RWS community is the official group of [Language Weaver](/apis/language-weaver.md)
+The **Language Weaver** RWS community is the official group of [Language Weaver](../apis/language-weaver.md)
 
 > Post questions and discuss the Google Cloud Translation API.
 

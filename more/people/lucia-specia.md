@@ -10,10 +10,10 @@ seo:
 ---
 
 **Lucia Specia** is a researcher and professor of natural language processing.
-She led early research on machine translation [quality estimation](/quality/quality-estimation.md).
+She led early research on machine translation [quality estimation](../../quality-estimation/quality-estimation.md).
 
 Her work on quality estimation includes:
-* organising the quality estimation shared task at [WMT](/associations/wmt.md)
+* organising the quality estimation shared task at [WMT](../associations/wmt.md)
 * leading the research group that created early quality estimation libraries
 * the book *Quality Estimation for Machine Translation*
 

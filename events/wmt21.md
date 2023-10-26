@@ -23,7 +23,7 @@ seo:
 ---
 
 The **Sixth Conference on Machine Translation** (**WMT21**) took place from 10 November to 11 November, 2021, at [EMNLP 2021](http://2021.emnlp.org/) in Punta Cana in the Dominican Republic and online.
-It was organised by [WMT](/associations/wmt.md).
+It was organised by [WMT](../more/associations/wmt.md).
 
 [statmt.org/wmt21/program.html](http://www.statmt.org/wmt21/program.html)
 
@@ -230,11 +230,11 @@ Full results of the shared tasks: [*Findings of the 2021 Conference on Machine T
 
 ### News translation
 
-The winner systems were listed according to their [average score and average z-score](/quality/metrics/human-evaluation-metrics.md#average-score-and-average-z-score).
+The winner systems were listed according to their [average score and average z-score](../building-and-research/metrics/human-evaluation-metrics.md#average-score-and-average-z-score).
 
 #### → English
 
-The results were determined with a monolingual [direct assessment](/quality/metrics/human-evaluation-metrics.md#direct-assessment) with document context.
+The results were determined with a monolingual [direct assessment](../building-and-research/metrics/human-evaluation-metrics.md#direct-assessment) with document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |

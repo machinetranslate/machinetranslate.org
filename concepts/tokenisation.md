@@ -29,4 +29,4 @@ In these languages, tokenisation needs more advanced algorithms, often called wo
 
 Agglutinative languages include [Finnish](/languages/finnish.md) and [Hungarian](/languages/hungarian.md).
 
-Machine translation in these languages typically splits tokens into smaller units of meaning using algorithms such as [byte-pair encoding](/approaches/byte-pair-encoding.md).
+Machine translation in these languages typically splits tokens into smaller units of meaning using algorithms such as [byte-pair encoding](../building-and-research/approaches/byte-pair-encoding.md).

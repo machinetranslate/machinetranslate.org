@@ -9,7 +9,7 @@ description: Statistical approaches to machine translation
 **Statistical machine translation** (SMT) is a machine translation approach that uses large volumes of bilingual data to find the most probable translation for a given input.
 Statistical machine translation systems learn to translate by analysing the statistical relationships between original texts and their existing human translations.
 
-The most important components in statistical machine translation are the translation model and the [language model](/concepts/language-model.md).
+The most important components in statistical machine translation are the translation model and the [language model](../../concepts/language-model.md).
 
 ### Language model
 
@@ -19,9 +19,9 @@ The language model can be associated with fluency in the translation because it 
 
 ### Translation model
 
-The statistical machine translation model is trained with [parallel data](/customisation/parallel-data.md).
+The statistical machine translation model is trained with [parallel data](../../features/customisation/parallel-data.md).
 A translation model is a table of aligned phrases and their translation.
-These phrases are called [n-grams](/concepts/n-gram.md).
+These phrases are called [n-grams](../../concepts/n-gram.md).
 The purpose of the translation model is to predict candidate translations for specific input texts.
 The translation model can be associated with adequacy because it preserves the meaning of the source.
 
