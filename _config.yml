@@ -205,7 +205,7 @@ defaults:
 
 # Just the Docs
 remote_theme: pmarsceill/just-the-docs@v0.6.1
-logo: favicon.ico
+logo: images/favicon.ico
 color_scheme: swissred
 search:
   rel_url: false
