@@ -48,5 +48,5 @@ This repository has a directory structure, but on the website the page paths are
 How it works:
 - Jekyll removes the file extension (`.md`).
 - A Cloudflare Page Rule is configured to remove the directory from the path.
-- In the soure content on GitHub, relative paths are used.
-- Relative paths resolve on GitHub and on the website.
+- In the source content on GitHub, relative paths are used.
+- This way, relative paths resolve on GitHub, and on website in production.  But they don't resolve when running the website locally.
