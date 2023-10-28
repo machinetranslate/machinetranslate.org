@@ -22,11 +22,11 @@ The machine selected and typed words when translating from one language to anoth
 
 The method suggested coding and interpreting grammatical functions using universal symbols.
 The interlingual grammatical rules were based on Esperanto.
-In the same years, [Georges Artsrouni](georges-artsrouni.md) independently filed a patent in Paris.
+In the same years, [Georges Artsrouni](/georges-artsrouni) independently filed a patent in Paris.
 
 Troyanskii dedicated almost two decades of his life to the mechanisation of translation.
 His ideas included:
-* pre-editing and [post-editing](../../applications/workflows/post-editing.md) of the text
+* pre-editing and [post-editing](/post-editing) of the text
 * automatic bilingual dictionary
 * coding scheme for interlingual grammatical correspondences
 

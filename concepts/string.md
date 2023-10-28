@@ -65,4 +65,4 @@ This problem often happens at the interfaces between different components or sys
 
 ## See also
 
-[Segment](segment.md)
+[Segment](/segment.md)

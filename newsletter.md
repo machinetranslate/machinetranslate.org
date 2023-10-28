@@ -37,4 +37,4 @@ It is a bullet-pointed list of news, upcoming events, calls for papers, deadline
 
 ---
 
-Also join the [machine translation **community**](community.md)!
+Also join the [machine translation **community**](/community)!

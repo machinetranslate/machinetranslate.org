@@ -25,7 +25,7 @@ When applied to localised content, machine translation is used to detect potenti
 - truncated words or phrases due to lack of screen space
 - unsuitable sort order in target language
 
-Detecting these issues at an early phase allows taking corrective actions, in parallel with the actual professional translation or [post-editing](workflows/post-editing.md), or planning for necessary post-processing of localised content, for example:
+Detecting these issues at an early phase allows taking corrective actions, in parallel with the actual professional translation or [post-editing](/post-editing), or planning for necessary post-processing of localised content, for example:
 
 - Enable proper locale, character sets and fonts.
 - Resize assets for various text lengths, or plan for resizing these assets at the time of translation.

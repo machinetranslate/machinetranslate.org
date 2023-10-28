@@ -4,11 +4,11 @@ title: Attention
 description: A mechanism for improving the encoder-decoder accuracy in machine translation
 ---
 
-The **attention** mechanism or **self-attention** mechanism is a way for [neural machine translation](../building-and-research/approaches/neural-machine-translation.md) to focus on the most important parts of the input sequence.
+The **attention** mechanism or **self-attention** mechanism is a way for [neural machine translation](/neural-machine-translation) to focus on the most important parts of the input sequence.
 
 ## Motivation
 
-In an encoder-decoder architecture, the encoder takes the input sequence and creates a fixed-length context [vector](/concepts/vector.md), also called a *thought vector*.
+In an encoder-decoder architecture, the encoder takes the input sequence and creates a fixed-length context [vector](/vector), also called a *thought vector*.
 The context vector represents the summary of the entire input sequence.
 The decoder then uses this vector to generate the output.
 One limitation of this design is that the system cannot retain information from longer input sequences.
@@ -31,5 +31,5 @@ While global attention considers all hidden states to generate the context vecto
 
 ## See also
 
-- [Transformers](/concepts/transformers.md)
+- [Transformers](/transformers)
 - [Publications – Attention mechanism](https://machinetranslate.org/resources/publications/#attention-mechanism)

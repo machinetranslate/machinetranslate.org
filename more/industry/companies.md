@@ -14,7 +14,7 @@ The history of machine translation companies begins in the defence and intellige
 
 Other players, from technology giants like Meta to translation agencies to the European Union, increasingly build their own machine translation.
 
-Since the advent of [statistical machine translation](../../building-and-research/approaches/statistical-machine-translation.md) and [neural machine translation](../../building-and-research/approaches/neural-machine-translation.md), there are growth companies backed by venture capital.
+Since the advent of [statistical machine translation](/statistical-machine-translation) and [neural machine translation](/neural-machine-translation), there are growth companies backed by venture capital.
 
 {% include collapsible_toc.html %}
 
@@ -58,7 +58,7 @@ Funded by NAVER D2 Startup Factory and others
 
 Raised $50K from angel investors
 
-### [XL8](/apis/xl8.md)
+### [XL8](/xl8)
 - [xl8.ai](https://www.xl8.ai/)
 - [Crunchbase - XL8](https://www.crunchbase.com/organization/xl8-inc)
 
@@ -97,20 +97,20 @@ Raised $5.5M from Gutbrain, PBJ, Omega and angels
 
 Acquired by Zoom in 2021
 
-### [Intento](../../aggregators/intento.md)
+### [Intento](/intento)
 - [inten.to](https://inten.to/)
 - [Crunchbase - Intento](https://www.crunchbase.com/organization/intento)
 
 Raised $4M from Berkeley Skydeck and angels
 
-### [LingvaNex](../../apis/lingvanex.md)
+### [LingvaNex](/lingvanex)
 - [lingvanex.com](https://lingvanex.com/)
 - [Crunchbase - LingvaNex](https://www.crunchbase.com/organization/lingvanex)
 
 
 ## 2015
 
-### [Lilt](../../apis/lilt.md)
+### [Lilt](/lilt)
 - [lilt.com](https://lilt.com/)
 - [Crunchbase - Lilt](https://www.crunchbase.com/organization/lilt)
 
@@ -127,7 +127,7 @@ Raised from Slow Ventures and dissolved
 
 ## 2014
 
-### [Lengoo](../../apis/lengoo.md)
+### [Lengoo](/lengoo)
 - [lengoo.com](https://www.lengoo.com/)
 - [Crunchbase - Lengoo](https://www.crunchbase.com/organization/lengoo-gmbh)
 
@@ -136,13 +136,13 @@ Raised $26.6M from INKEF, Redalpine, Polipo, Techstars, Creathor, Piton and ange
 
 ## 2013
 
-### [Unbabel](../../apis/unbabel.md)
+### [Unbabel](/unbabel)
 - [unbabel.com](https://unbabel.com/)
 - [Crunchbase - Unbabel](https://www.crunchbase.com/organization/unbabel)
 
 Raised $91.2M from Caixa, Samsung, Scale, Notion, Faber, Greycroft, Structure, M12 and Headline
 
-### [Iconic Translation Machines](../../apis/iconic.md)
+### [Iconic Translation Machines](/iconic)
 - [iconictranslation.com](https://iconictranslation.com/)
 - [Crunchbase - Iconic Translation Machines](https://www.crunchbase.com/organization/iconic-translation-machines)
 
@@ -157,7 +157,7 @@ Raised $7.1M in crowdfunding
 
 ## 2012
 
-### [Xiaoniu Fanyi](../../apis/niutrans.md)
+### [Xiaoniu Fanyi](/niutrans)
 - [niutrans.com](https://niutrans.com/)
 - [Crunchbase - Xiaoniu Fanyi](https://www.crunchbase.com/organization/xiaoniu-fanyi)
 
@@ -166,13 +166,13 @@ Raised ¥33M from Shenyang Dehong Chuangzhan, Cretrend Capital, and others
 
 ## 2011
 
-### [Lingua Custodia](../../apis/lingua-custodia.md)
+### [Lingua Custodia](/lingua-custodia)
 - [linguacustodia.finance](https://www.linguacustodia.finance/en/home/)
 - [Crunchbase - Lingua Custodia](https://www.crunchbase.com/organization/lingua-custodia)
 
 Raised €2.7M from private investors
 
-### [KantanMT](../../apis/kantanmt.md)
+### [KantanMT](/kantanmt)
 - [kantanai.io](https://www.kantanai.io/)
 - [Crunchbase - KantanMT](https://www.crunchbase.com/organization/kantanmt)
 
@@ -181,13 +181,13 @@ Acquired by Keywords Studios for €7M in 2019
 
 ## 2009
 
-### [DeepL](../../apis/deepl.md)
+### [DeepL](/deepl)
 - [deepl.com](https://www.deepl.com/translator)
 - [Crunchbase - DeepL](https://www.crunchbase.com/organization/linguee)
 
 Raised from Benchmark and btov Partners
 
-### [Safaba](../../apis/safaba.md)
+### [Safaba](/safaba)
 - [Crunchbase - Safaba](https://www.crunchbase.com/organization/safaba-translation-solutions)
 
 Acquired by Amazon to create Amazon Translate in 2015
@@ -204,7 +204,7 @@ Acquired for its WordLens app by Google Translate in 2014
 
 Raised $1.1M from Advanced Media, So-net, and others
 
-### [TextShuttle](../../apis/textshuttle.md)
+### [TextShuttle](/textshuttle)
 - [textshuttle.ai](https://www.textshuttle.ai/)
 - [Crunchbase - TextShuttle](https://www.crunchbase.com/organization/textshuttle)
 
@@ -213,20 +213,20 @@ Raised CHF30K from Venture Kick
 
 ## 2006
 
-### [Tauyou](../../apis/tauyou.md)
+### [Tauyou](/tauyou)
 - [tauyou.com](https://globallink.translations.com/products/globallink-ai)
 - [Crunchbase - Tauyou](https://www.crunchbase.com/organization/ta-with-you)
 
 Acquired by TransPerfect in 2018
 
-### [Omniscien Technologies](../../apis/omniscien.md)
+### [Omniscien Technologies](/omniscien)
 - [omniscien.com](https://omniscien.com/)
 - [Crunchbase - Omniscien Technologies](https://www.crunchbase.com/organization/omniscien-technologies-trading)
 
 
 ## 2005
 
-### [ModernMT](../../apis/modernmt.md)
+### [ModernMT](/modernmt)
 - [modernmt.com](https://www.modernmt.com/)
 - [Crunchbase - ModernMT](https://www.crunchbase.com/organization/modernmt)
 
@@ -235,7 +235,7 @@ Acquired by Translated in 2022
 
 ## 2002
 
-### [Language Weaver](../../apis/language-weaver.md)
+### [Language Weaver](/language-weaver)
 - [languageweaver.com](https://www.languageweaver.com/)
 - [Crunchbase - Language Weaver](https://www.crunchbase.com/organization/language-weaver)
 
@@ -244,27 +244,27 @@ Acquired by SDL/RWS for $42.5M in 2010
 
 ## 2000
 
-### [Pangeanic](../../apis/pangeamt.md)
+### [Pangeanic](/pangeamt)
 - [pangeanic.com](https://pangeanic.com/)
 - [Crunchbase - Pangeanic](https://www.crunchbase.com/organization/pangeanic)
 
 
 ## 1998
 
-### [Reverso](../../apis/reverso.md)
+### [Reverso](/reverso)
 - [reverso.net](https://www.reverso.net/text-translation)
 - [Crunchbase - Reverso](https://www.crunchbase.com/organization/reverso)
 
 
 ## 1991
 
-### [Tilde](../../apis/tilde.md)
+### [Tilde](/tilde)
 - [tilde.com](https://www.tilde.com/)
 - [Crunchbase - Tilde](https://www.crunchbase.com/organization/tilde-6e11)
 
 Granted €98.8K by the European Union
 
-### [PROMT](../../apis/promt.md)
+### [PROMT](/promt)
 - [promt.com](https://www.promt.com/)
 - [Crunchbase - PROMT](https://www.crunchbase.com/organization/promt)
 
@@ -273,7 +273,7 @@ Raised from Svarog Capital Advisors in 2008
 
 ## 1990
 
-### [AppTek](../../apis/apptek.md)
+### [AppTek](/apptek)
 - [apptek.com](https://www.apptek.com/)
 - [Crunchbase - AppTek](https://www.crunchbase.com/organization/apptek)
 
@@ -282,7 +282,7 @@ Raised from SOS International
 
 ## 1968
 
-### [SYSTRAN](../../apis/systran.md)
+### [SYSTRAN](/systran)
 - [systransoft.com](https://www.systransoft.com/)
 - [Crunchbase - SYSTRAN](https://www.crunchbase.com/organization/systran)
 

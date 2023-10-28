@@ -19,4 +19,4 @@ Unlike traditional predictive text, interactive translation prediction uses the 
 
 ## See also
 
-- [A user study of neural interactive translation prediction](https://link.springer.com/article/10.1007/s10590-019-09235-8) (2019) found that interactive translation prediction was more efficient than [post-editing](post-editing.md) with neural machine translation and also highlights user experience challenges.
+- [A user study of neural interactive translation prediction](https://link.springer.com/article/10.1007/s10590-019-09235-8) (2019) found that interactive translation prediction was more efficient than [post-editing](/post-editing) with neural machine translation and also highlights user experience challenges.

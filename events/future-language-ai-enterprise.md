@@ -24,7 +24,7 @@ seo:
 ---
 
 **The Future of Language Related AI for Enterprises: Local Agents and Fine-Tuned Large Language Models (LLMs)** took place online on 15 June, 2023.
-The webinar was organised by [Omniscien](../more/industry/companies.md#omniscien-technologies).
+The webinar was organised by [Omniscien](/companies#omniscien-technologies).
 
 > Artificial Intelligence (AI) has fundamentally reshaped our understanding and processing of human language, led by Large Language Models (LLMs) and AI agents. These powerful systems comprehend and generate human-like text using deep learning techniques and vast datasets while agents use natural language processing (NLP) to interact with their environments. However, the one-size-fits-all training approach, as evidenced by OpenAI's ChatGPT and Google's Bard, often hampers task-specific proficiency and organizational knowledge and poses data privacy and compliance risks.
 > Addressing these concerns involves refining AI models with affordable fine-tuning tools tailored to unique application requirements, allowing businesses to quickly adapt AI models with their proprietary data, securely processing requests within their corporate networks. Furthermore, using natural language APIs atop tailored AI models can enable secure self-hosted agents to interact with an extensive, curated toolkit, performing tasks like image generation, text summarisation, audio-video transcription and analysis, text-to-speech conversion, document-based Q&A, and generation of organization-specific content. 
@@ -34,7 +34,7 @@ The webinar was organised by [Omniscien](../more/industry/companies.md#omniscien
 
 ### Speakers
 
-- Professor [Philipp Koehn](../more/people/philipp-koehn.md), Chief Scientist at Omniscien and Professor at Johns Hopkins University
+- Professor [Philipp Koehn](/philipp-koehn), Chief Scientist at Omniscien and Professor at Johns Hopkins University
 - Dion Wiggins, Chief Technology Officer at Omniscien
 
 

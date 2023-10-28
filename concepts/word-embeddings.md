@@ -4,12 +4,12 @@ title: Word embeddings
 description: The representation of words as vectors
 ---
 
-**Word-embeddings** are a way to represent language words as [vectors](vector.md) of real numbers.
+**Word-embeddings** are a way to represent language words as [vectors](/vector.md) of real numbers.
 
 ## One-hot encoding
 
 One-hot encoding is one simple method of representing every word from a vocabulary.
-The goal is to convert the [vocabulary](vocabulary.md) into a format that can be used as input for machine learning models, which typically require numerical data.
+The goal is to convert the [vocabulary](/vocabulary.md) into a format that can be used as input for machine learning models, which typically require numerical data.
 
 One-hot encoding is a unique style of encoding information.
 In one-hot encodings, only one position in the vector equals `1`, and the rest of the positions are `0`.
@@ -58,4 +58,4 @@ As a result, word embedding lengths are shorter than one-hot encodings.
 The sample vectors contain 3 digits.
 Similar concepts will have similar vectors.
 
-In [neural machine translation](../building-and-research/approaches/neural-machine-translation.md), embedding matrices are usually learned during training.
+In [neural machine translation](/neural-machine-translation), embedding matrices are usually learned during training.

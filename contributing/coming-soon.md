@@ -6,7 +6,7 @@ community_search_exclude: true
 description: Articles that are coming soon to Machine Translate
 ---
 
-These articles are on the [roadmap](/roadmap.md) and are coming soon!
+These articles are on the [roadmap](/roadmap) and are coming soon!
 
 <ol>
 {% for page in site.pages %}

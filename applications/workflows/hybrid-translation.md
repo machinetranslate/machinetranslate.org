@@ -8,15 +8,15 @@ description: Workflow with both human translations and pure machine translations
 
 In a **hybrid translation** workflow, some raw machine translations are never seen or edited by a human translator.
 
-Hybrid translation can be faster and cheaper than full human [post-editing](post-editing.md).
+Hybrid translation can be faster and cheaper than full human [post-editing](/post-editing).
 
 Hybrid translation requires good machine translation.
 A signification portion of the machine translated segments should be usable as-is.
 
 > ### Workflow diagram
-> The hybrid translation workflow was first presented by Microsoft, VMWare and [Unbabel](../../more/industry/companies.md#unbabel).
+> The hybrid translation workflow was first presented by Microsoft, VMWare and [Unbabel](/companies#unbabel).
 >
-> ##### Slide from a [ModelFront](more/industry/companies.md#modelfront) presentation
+> ##### Slide from a [ModelFront](/companies#modelfront) presentation
 > <img title='Hybrid translation workflow' src='/applications/workflows/hybrid-translation-workflow.png' width='700' style='padding: 1em;' />
 
 A risk **threshold** is set.
@@ -31,17 +31,17 @@ They are marked as translated or approved, and potentially even locked.
 
 ### Technology
 
-The key technology for a hybrid translation workflow is translation [**quality prediction**](../../quality-estimation/quality-estimation.md), which is known as *machine translation quality estimation* in the [research](../../building-and-research/building-and-research.md) world.
+The key technology for a hybrid translation workflow is translation [**quality prediction**](/quality-estimation), which is known as *machine translation quality estimation* in the [research](/building-and-research) world.
 
 ### Adoption
 
-At first, companies like Microsoft, [Unbabel](../../more/industry/companies.md#unbabel), VMWare and Wayfair implemented hybrid translation by researching and developing their own machine translation quality estimation.
+At first, companies like Microsoft, [Unbabel](/companies#unbabel), VMWare and Wayfair implemented hybrid translation by researching and developing their own machine translation quality estimation.
 
-With the launch of the [ModelFront](../../more/industry/companies.md#modelfront) translation quality prediction API, more companies started to adopt the hybrid translation workflow within commercially available translation management systems.
+With the launch of the [ModelFront](/companies#modelfront) translation quality prediction API, more companies started to adopt the hybrid translation workflow within commercially available translation management systems.
 
 
 ---
 
 ### See also
 
-- [**Quality estimation**](../../quality-estimation/quality-estimation.md)
+- [**Quality estimation**](/quality-estimation)

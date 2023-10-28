@@ -27,7 +27,7 @@ The main application was a mechanical multilingual dictionary.
 He then built a second version.
 In 1937, it won the main prize for mechanography at an exhibition in Paris.
 
-In the same years, [Petr Troyanskii](petr-troyanskii.md) independently filed a patent in Moscow.
+In the same years, [Petr Troyanskii](/petr-troyanskii) independently filed a patent in Moscow.
 
 In the 1960s, the device was acquired by the Museum of Arts and Crafts in Paris.
 

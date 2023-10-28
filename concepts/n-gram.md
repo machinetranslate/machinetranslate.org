@@ -9,10 +9,10 @@ An **n-gram** is a short sequence of word types.
 `n` is the number of words in the sequence, for example, a 2-gram has two word types.
 N-grams have many applications in machine translation:
 
-- [language models](/concepts/language-model.md), such as an [n-gram maximum likelihood estimate](/concepts/language-model.md#n-gram-maximum-likelihood-estimate)
-- translation models for [statistical machine translation](../building-and-research/approaches/statistical-machine-translation.md)
-- evaluation [metrics](../building-and-research/metrics/metrics.md), such as [BLEU](../building-and-research/metrics/bleu.md)
-- [language identification](../features/customisation/language-identification.md)
+- [language models](/language-model), such as an [n-gram maximum likelihood estimate](/language-model#n-gram-maximum-likelihood-estimate)
+- translation models for [statistical machine translation](/statistical-machine-translation)
+- evaluation [metrics](/metrics), such as [BLEU](/bleu)
+- [language identification](/language-identification)
 
 <!-- Note: "https://render.githubusercontent.com/render/math?math=..." wasn't working on all equations so we switched to "https://latex.codecogs.com/svg.image?..." but it requires escaping to survive the Markdown table processor -->
 
@@ -24,9 +24,9 @@ N-grams have many applications in machine translation:
 
 ## Example
 
-[String](/concepts/string.md) in English: `"The car has two doors."`
+[String](/string) in English: `"The car has two doors."`
 
-[Tokens](../features/customisation/tokenisation.md): `"The", "car", "has", "two", "doors", "."`
+[Tokens](/tokenisation): `"The", "car", "has", "two", "doors", "."`
 
 Unigrams: `"The", "car", "has", "two", "doors", "."`
 

@@ -16,7 +16,7 @@ The conference is held annually in connection with larger conferences on natural
 
 In 2006, the first **Workshop on Machine Translation** was held at the NAACL (North American Chapter of the Association for Computational Linguistics Annual Meeting).
 
-In 2016, with the rise of [neural machine translation](../../building-and-research/approaches/neural-machine-translation.md), WMT became a conference of its own.
+In 2016, with the rise of [neural machine translation](/neural-machine-translation), WMT became a conference of its own.
 The **Conference on Machine Translation** is still mainly known as *WMT*.
 
 Universities, research laboratories and big technology companies consistently participate in the conference and are represented in the organising committee.
@@ -27,23 +27,23 @@ Universities, research laboratories and big technology companies consistently pa
 
 |     |     |     |
 | :-: | :-: | :-: |
-| [WMT22](../../events/wmt22.md) | Eighth Conference on Machine Translation | EMNLP 2022 |
-| [WMT21](../../events/wmt21.md) | Seventh Conference on Machine Translation | EMNLP 2021 |
-| [WMT20](../../events/wmt20.md) | Sixth Conference on Machine Translation | EMNLP 2020 |
-| [WMT19](../../events/wmt19.md) | Fourth Conference on Machine Translation | ACL 2019 |
-| [WMT18](../../events/wmt18.md) | Third Conference on Machine Translation | EMNLP 2018 |
-| [WMT17](../../events/wmt17.md) | Second Conference on Machine Translation | EMNLP 2017 |
-| [WMT16](../../events/wmt16.md) | First Conference on Machine Translation | ACL 2016 |
-| [WMT15](../../events/wmt15.md) | Workshop on Statistical Machine Translation | EMNLP 2015 |
-| [WMT14](../../events/wmt14.md) | Workshop on Statistical Machine Translation | ACL 2014 |
-| [WMT13](../../events/wmt13.md) | Workshop on Statistical Machine Translation | ACL 2013 |
-| [WMT12](../../events/wmt12.md) | Workshop on Statistical Machine Translation | NAACL 2012 |
-| [WMT11](../../events/wmt11.md) | Workshop on Statistical Machine Translation | EMNLP 2011 |
-| [WMT10](../../events/wmt10.md) | Workshop on Statistical Machine Translation | ACL 2010 |
-| [WMT09](../../events/wmt09.md) | Workshop on Statistical Machine Translation | EACL 2009 |
-| [WMT08](../../events/wmt08.md) | Workshop on Statistical Machine Translation | ACL 2008 |
-| [WMT07](../../events/wmt07.md) | Workshop on Statistical Machine Translation | ACL 2007 |
-| [WMT06](../../events/wmt06.md) | Workshop on Statistical Machine Translation | NAACL 2006 |
+| [WMT22](/wmt22) | Eighth Conference on Machine Translation | EMNLP 2022 |
+| [WMT21](/wmt21) | Seventh Conference on Machine Translation | EMNLP 2021 |
+| [WMT20](/wmt20) | Sixth Conference on Machine Translation | EMNLP 2020 |
+| [WMT19](/wmt19) | Fourth Conference on Machine Translation | ACL 2019 |
+| [WMT18](/wmt18) | Third Conference on Machine Translation | EMNLP 2018 |
+| [WMT17](/wmt17) | Second Conference on Machine Translation | EMNLP 2017 |
+| [WMT16](/wmt16) | First Conference on Machine Translation | ACL 2016 |
+| [WMT15](/wmt15) | Workshop on Statistical Machine Translation | EMNLP 2015 |
+| [WMT14](/wmt14) | Workshop on Statistical Machine Translation | ACL 2014 |
+| [WMT13](/wmt13) | Workshop on Statistical Machine Translation | ACL 2013 |
+| [WMT12](/wmt12) | Workshop on Statistical Machine Translation | NAACL 2012 |
+| [WMT11](/wmt11) | Workshop on Statistical Machine Translation | EMNLP 2011 |
+| [WMT10](/wmt10) | Workshop on Statistical Machine Translation | ACL 2010 |
+| [WMT09](/wmt09) | Workshop on Statistical Machine Translation | EACL 2009 |
+| [WMT08](/wmt08) | Workshop on Statistical Machine Translation | ACL 2008 |
+| [WMT07](/wmt07) | Workshop on Statistical Machine Translation | ACL 2007 |
+| [WMT06](/wmt06) | Workshop on Statistical Machine Translation | NAACL 2006 |
 
 ## Shared tasks
 
@@ -107,11 +107,11 @@ The published results from the shared tasks and the data sets released for WMT a
 **Organisers** are the people responsible for the contents for the main event and the contents, guidelines, datasets and results for each shared task.
 
 Some people have been organisers over many years:
-- [Philipp Koehn](../people/philipp-koehn.md)
+- [Philipp Koehn](/philipp-koehn)
 - Barry Haddow
 - Loïc Barrault
-- [Ondřej Bojar](../people/ondrej-bojar.md)
-- [Lucia Specia](../people/lucia-specia.md)
+- [Ondřej Bojar](/ondrej-bojar)
+- [Lucia Specia](/lucia-specia)
 - Marco Turchi
 - Matt Post
 - Rajen Chatterjee

@@ -11,5 +11,5 @@ Fixes # _[Add the issue number]_
 
 ### Checklist:
 
-- [ ] I have read the [contributing guidelines](../contributing/CONTRIBUTING.md).
+- [ ] I have read the [contributing guidelines](/CONTRIBUTING).
 - [ ] I have followed the [style guide](http://machinetranslate.org/style).

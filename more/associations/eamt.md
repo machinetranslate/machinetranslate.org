@@ -10,8 +10,8 @@ seo:
 
 The **European Association for Machine Translation** (**EAMT**) is a non-profit association that serves people interested in machine translation and translation tools, including users, developers, and researchers.
 
-The EAMT is one of three regional associations of the International Association for Machine Translation \([IAMT](iamt.md)\).
-Its sister associations are the Association for Machine Translation in the Americas \([AMTA](amta.md)\) and the Asia-Pacific Association for Machine Translation \([AAMT](aamt.md)\).
+The EAMT is one of three regional associations of the International Association for Machine Translation \([IAMT](/iamt)\).
+Its sister associations are the Association for Machine Translation in the Americas \([AMTA](/amta)\) and the Asia-Pacific Association for Machine Translation \([AAMT](/aamt)\).
 Members of any of the three regional associations automatically become part of the IAMT network.
 
 The EAMT was established in 1991 in Switzerland.
@@ -20,6 +20,6 @@ The EAMT was established in 1991 in Switzerland.
 
 ## Events
 
-- [EAMT 2023](../../events/eamt2023.md)
-- [EAMT 2022](../../events/eamt2022.md)
-- [EAMT 2020](../../events/eamt2020.md)
+- [EAMT 2023](/eamt2023)
+- [EAMT 2022](/eamt2022)
+- [EAMT 2020](/eamt2020)
