@@ -17,7 +17,7 @@ defaults:
       path: ""
       type: pages
     values:
-      image: machinetranslate.png
+      image: /images/machinetranslate.png
       seo:
         type: Article
   - scope:

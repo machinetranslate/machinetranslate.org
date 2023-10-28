@@ -43,7 +43,8 @@ python generate.py
 This repository has a directory structure, to keep it orderly, but on the website the page paths are flat, to have nice page URLs.
 
 > GitHub repository: `/quality-estimation/quality-estimation.md`
-> machinetranslate.org: `/quality-estimation`
+> machinetranslate.org: `/quality-estimation`(https://machinetranslate.org/quality-estimation)
+
 
 How it works:
 - In the source content on GitHub, absolute paths are used (e.g. `/quality/quality-estimation.md`).
