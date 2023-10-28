@@ -119,13 +119,6 @@ defaults:
       seo:
         type: Person
   - scope:
-      path: quality
-      type: pages
-    values:
-      permalink: /:basename
-      seo:
-        type: Article
-  - scope:
       path: quality-estimation
       type: pages
     values:
