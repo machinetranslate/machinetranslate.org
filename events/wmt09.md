@@ -25,7 +25,7 @@ seo:
 ---
 
 The **Fourth Workshop on Machine Translation** (**WMT09**) took place from 30 March to 31 March, 2009, in Athens, Greece.
-It was organised by [WMT](/associations/wmt.md).
+It was organised by [WMT](/wmt).
 
 [statmt.org/wmt09/program.html](https://statmt.org/wmt09/program.html)
 
@@ -109,7 +109,7 @@ Full results of the shared tasks: [*Findings of the 2009 Workshop on Statistical
 
 ### News translation
 
-The results were determined with a [relative ranking](../building-and-research/metrics/human-evaluation-metrics.md#relative-ranking), the `≥ others` (“greater than or equal to others”) score.
+The results were determined with a [relative ranking](../building-and-research/metrics/human-evaluation-metrics#relative-ranking), the `≥ others` (“greater than or equal to others”) score.
 
 It measures how often a system was judged to be better than or equal to any other system.
 

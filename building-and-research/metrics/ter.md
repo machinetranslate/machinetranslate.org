@@ -12,7 +12,7 @@ description: Translation Error Rate
 >
 > [*A Study of Translation Edit Rate with Targeted Human Annotation*](#resources)
 
-TER corresponds to [post-editing effort](../../applications/workflows/post-editing#metrics).
+TER corresponds to [post-editing effort](/post-editing#metrics).
 
 ### Variants
 

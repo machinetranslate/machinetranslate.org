@@ -25,7 +25,7 @@ seo:
 ---
 
 The **Third Conference on Machine Translation** (**WMT18**) took place from 31 October to 1 November 2018 in Brussels, Belgium.
-It was organised by [WMT](../more/associations/wmt.md).
+It was organised by [WMT](/wmt).
 
 [statmt.org/wmt18/program.html](https://www.statmt.org/wmt18/program.html)
 
@@ -202,7 +202,7 @@ Full results of the shared tasks: [*Findings of the 2018 Conference on Machine T
 
 ### News translation
 
-The results were determined with a monolingual [direct assessment](../building-and-research/metrics/human-evaluation-metrics.md#direct-assessment), the [average score and average z-score](../building-and-research/metrics/human-evaluation-metrics.md#average-score-and-average-z-score).
+The results were determined with a monolingual [direct assessment](/human-evaluation-metrics#direct-assessment), the [average score and average z-score](/human-evaluation-metrics#average-score-and-average-z-score).
 
 #### → English
 

@@ -8,7 +8,7 @@ description: Evaluation metric using BERT sentence representations
 
 **BERTScore** is a metric for automatic evaluation of machine translation that calculates the similarity between a machine translation output and a reference translation using sentence representation.
 
-BERTScore was invented as an improvement on [n-gram](../../concepts/n-gram.md)-based metrics like [BLEU](bleu.md).
+BERTScore was invented as an improvement on [n-gram](/n-gram)-based metrics like [BLEU](/bleu).
 
 > BERTScore addresses two common pitfalls in n-gram-based metrics.
 >

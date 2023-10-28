@@ -23,7 +23,7 @@ seo:
     url: https://sites.google.com/view/loresmt/
 ---
 
-The fourth Low-Resource Machine Translation workshop (**LoResMT 2021**) was held online in the [MT Summit 2021](mtsummit2021.md) on 16 August, 2021.
+The fourth Low-Resource Machine Translation workshop (**LoResMT 2021**) was held online in the [MT Summit 2021](/mtsummit2021) on 16 August, 2021.
 
 [sites.google.com/view/loresmt/home?authuser=0](https://sites.google.com/view/loresmt/home?authuser=0)
 

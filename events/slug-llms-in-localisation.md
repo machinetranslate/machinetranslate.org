@@ -35,7 +35,7 @@ Bellevue, Seattle, Washington
 
 #### Panelists
 
-- Huda Khayrallah, Senior Researcher at [Microsoft Translator](/apis/microsoft.md)
+- Huda Khayrallah, Senior Researcher at [Microsoft Translator](/microsoft)
 - Adam Bittlingmayer, Co-Founder & CEO of ModelFront
 - Kincaid Day, Director, AI-Enabled Localization Solutions at Centific
 - Adam Vance, VP of Localization & LQA at GlobalStep

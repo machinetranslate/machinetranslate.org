@@ -12,5 +12,5 @@ English is a common choice for the bridge because many languages have training d
 
 ## Applications
 
-- Translation without [parallel data](../../features/customisation/parallel-data.md)
+- Translation without [parallel data](/parallel-data)
 - Paraphrasing in a single language

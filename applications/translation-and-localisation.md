@@ -14,8 +14,8 @@ Translation software, like [translation management systems](/integrations) (TMS)
 
 ### Workflow
 
-The translation software fills in the machine translation for the human translator to [post-edit](/workflows/post-editing.md).
-The machine translation can be inserted in whole files at once or one [segment](../concepts/segment.md) at a time.
+The translation software fills in the machine translation for the human translator to [post-edit](/post-editing).
+The machine translation can be inserted in whole files at once or one [segment](/segment) at a time.
 Some systems that translate segment-by-segment can learn from post-edits and adapt the machine translation output accordingly.
 
 ### Productivity
@@ -41,7 +41,7 @@ A software localisation process consists of the following steps:
 2. Identifying the features that need to be replaced or adapted.
 3. Translating user interface and user assistance content.
 4. Replacing or adapting the features that can’t be used in the target culture.
-5. Creating versions of the software in the target [locale](/advanced-concepts/locale.md) that are target culture specific.
+5. Creating versions of the software in the target [locale](/locale) that are target culture specific.
 6. Testing the localised versions:
    - Verifying the validity of the translation in the context of the software.
    - Checking if the new versions work well for the target audience in each language:
@@ -52,4 +52,4 @@ A software localisation process consists of the following steps:
 
 ## See also
 
-- [Connecting machine translation APIs to translation software ](../resources/integration/cat-tools.md)
+- [Connecting machine translation APIs to translation software ](/cat-tools)

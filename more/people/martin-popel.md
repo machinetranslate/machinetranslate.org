@@ -18,7 +18,7 @@ In 2010, Martin Popel started acting as the technical editor of [The Prague Bull
 ## Research topics
 - mainstream machine translation
 - machine translation evaluation
-- machine translation [post-editing](/workflows/post-editing.md)
+- machine translation [post-editing](/post-editing)
 
 ## Projects
 - [Universal Dependencies](https://universaldependencies.org/): linguistic annotation framework

@@ -62,17 +62,17 @@ The content covers everything about machine translation, from products to resear
 > - [Machine translation meetup](/meetup)
 
 > #### Featured articles
-> - [Integrations](/integrations/integrations.md)
-> - [Features](/features/features.md)
-> - [Adaptive machine translation](/features/customisation/adaptive.md)
-> - [Quality estimation](/quality-estimation/quality-estimation.md)
+> - [Integrations](/integrations)
+> - [Features](/features)
+> - [Adaptive machine translation](/adaptive)
+> - [Quality estimation](/quality-estimation)
 
 
 ## Stay connected
 
 Join the community to ask and answer questions, and share your work.
 
-[**Join the community →**](/community.md)
+[**Join the community →**](/community)
 
 <div style="display: flex; justify-content: center; gap: 20%;">
   <div>
@@ -89,7 +89,7 @@ Join the community to ask and answer questions, and share your work.
 
 Sign up to the newsletter to catch key news of the month.
 
-[**Get the newsletter →**](/newsletter.md)
+[**Get the newsletter →**](/newsletter)
 
 <div>
   <div>
@@ -124,7 +124,7 @@ Machine Translate is on a mission to make machine translation more accessible to
 
 Our mission is supported by people like you.
 
-[**About the foundation →**](/about.md)
+[**About the foundation →**](/about)
 
 Machine Translate is open-source.
 You can create or edit the content.
@@ -150,7 +150,7 @@ You can create or edit the content.
 
 Watch and star the content source repository, browse and subscribe to issues and more!
 
-[**Contributing →**](/contributing/contributing.md)
+[**Contributing →**](/contributing)
 
 <center>
   <div class="social-links">

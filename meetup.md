@@ -14,9 +14,9 @@ It alternates between online and offline formats.
 |     |     |     |     |
 | --- | --- | --- | --- |
 | **Meetup 4** | Adaptive machine translation | **coming soon** | **online** |
-| [Meetup 3](/events/machine-translation-meetup-3.md) | | 18 April 2023 | London, England | 
-| [Meetup 2](/events/machine-translation-meetup-2.md) | Low-resource languages | 21 October 2022 | online |
-| [Meetup 1](/events/machine-translation-meetup-1.md) | | 11 May 2022 | Menlo Park, California |
+| [Meetup 3](/machine-translation-meetup-3) | | 18 April 2023 | London, England | 
+| [Meetup 2](/machine-translation-meetup-2) | Low-resource languages | 21 October 2022 | online |
+| [Meetup 1](/machine-translation-meetup-1) | | 11 May 2022 | Menlo Park, California |
 
 <center>
   <h3>Sign up for the next meetup</h3>

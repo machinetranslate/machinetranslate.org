@@ -10,7 +10,7 @@ seo:
 
 **Customisation** of machine translation is used to accurately translate for the domain and reflect a specific terminology and style.
 
-The most common type of customisation is [fine-tuning](fine-tuning.md) on [parallel data](parallel-data.md).
+The most common type of customisation is [fine-tuning](/fine-tuning) on [parallel data](/parallel-data).
 
 {% assign customisable_apis = '' | split: ',' %}
 

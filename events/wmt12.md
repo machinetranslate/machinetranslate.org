@@ -25,7 +25,7 @@ seo:
 ---
 
 The **Seventh Workshop on Machine Translation** (**WMT12**) took place from 7 June to 8 June, 2012, in Montreal, Quebec.
-It was organised by [WMT](../more/associations/wmt.md).
+It was organised by [WMT](/wmt).
 
 [statmt.org/wmt12/program.html](https://statmt.org/wmt12/program.html)
 
@@ -67,7 +67,7 @@ It was organised by [WMT](../more/associations/wmt.md).
 | | [***The SDL Language Weaver Systems in the WMT12 Quality Estimation Shared Task***](https://www.aclanthology.org/W12-3118.pdf) <br>Radu Soricut, Nguyen Bach, Ziyuan Wang |
 | | [***Regression with Phrase Indicators for Estimating MT Quality***](https://www.aclanthology.org/W12-3119.pdf) <br>Chunyang Wu, Hai Zhao |
 | 12:40 – 14:00	| 🍴 |
-| 14:00 – 15:30	| **Session 3: Invited Talk** <br>**Deployment of SMT for the IBM Enterprise** <br>[Salim Roukos](../more/people/salim-roukos.md) |
+| 14:00 – 15:30	| **Session 3: Invited Talk** <br>**Deployment of SMT for the IBM Enterprise** <br>[Salim Roukos](/salim-roukos) |
 | 15:30 – 16:00	| ☕️ |
 | 16:00 – 16:20	| **Session 4: Confidence Estimation and System Combination** <br>[***Non-Linear Models for Confidence Estimation***](https://www.aclanthology.org/W12-3120.pdf) <br>Yong Zhuang, Guillaume Wisniewski, François Yvon |
 | 16:20 – 16:40	| [***Combining Quality Prediction and System Selection for Improved Automatic Translation Output***](https://www.aclanthology.org/W12-3121.pdf) <br>Radu Soricut, Sushant Narsale |
@@ -126,7 +126,7 @@ Full results of the shared tasks: [*Findings of the 2012 Workshop on Statistical
 
 ### News translation
 
-The results were determined with a [relative ranking](../building-and-research/metrics/human-evaluation-metrics.md#relative-ranking), the `> others` (“greater than others”) score.
+The results were determined with a [relative ranking](/human-evaluation-metrics#relative-ranking), the `> others` (“greater than others”) score.
 
 It measures how often a system was judged to be better than any other system.
 

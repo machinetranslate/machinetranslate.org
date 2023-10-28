@@ -8,4 +8,4 @@ description: Tutorials for machine translation creation, integration, and usage
 
 ## Table of contents
 
-- [Connecting engines to translation software](cat-tools.md)
+- [Connecting engines to translation software](/cat-tools)

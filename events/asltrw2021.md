@@ -22,7 +22,7 @@ seo:
     url: https://cai.uni-mainz.de/asltrw/#organizers
 ---
 
-The Automatic Spoken Language Translation in Real-World Settings (**ASLTRW**) workshop was held online at the [MT Summit 2021](mtsummit2021.md) on 17 August, 2021.
+The Automatic Spoken Language Translation in Real-World Settings (**ASLTRW**) workshop was held online at the [MT Summit 2021](/mtsummit2021) on 17 August, 2021.
 
 [cai.uni-mainz.de/asltrw/](https://cai.uni-mainz.de/asltrw/)
 

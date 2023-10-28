@@ -19,7 +19,7 @@ In-game:
 * UI strings
 * On-screen text and images
 * Subtitles
-* [Live chat](live-chat.md)
+* [Live chat](/live-chat)
 
 Out-of-game:
 

@@ -19,7 +19,7 @@ The documentation and screen captures are based on Trados Studio 2021™.
 ### How to obtain an API key
 
 
-Read [here](api-keys.md#amazon-translate-aws) for more details.  
+Read [here](/api-keys#amazon-translate-aws) for more details.  
 
 
 ### How to set up the Trados plugin for Amazon Translate (AWS)
@@ -34,10 +34,10 @@ Read [here](api-keys.md#amazon-translate-aws) for more details.
 
 
 
-![How to set up the Trados plugin for Amazon Translate (AWS)pic1](trados-images/trados_for_amazon1.png)
+![How to set up the Trados plugin for Amazon Translate (AWS)pic1](/trados-images/trados_for_amazon1.png)
 
 
-![How to set up the Trados plugin for Amazon Translate (AWS)pic2](trados-images/trados_for_amazon2.png)  
+![How to set up the Trados plugin for Amazon Translate (AWS)pic2](/trados-images/trados_for_amazon2.png)  
 
 
 1.  Enter necessary credentials in the **Authentication** window.
@@ -49,7 +49,7 @@ Read [here](api-keys.md#amazon-translate-aws) for more details.
 
     4.2 Confirm by clicking **OK**.
 
-![How to set up the Trados plugin for Amazon Translate (AWS)pic3](trados-images/trados_for_amazon3.png)  
+![How to set up the Trados plugin for Amazon Translate (AWS)pic3](/trados-images/trados_for_amazon3.png)  
 
 
 The **Amazon Translate Trados Plugin** plugin is now visible in the **Translation Memory and Automated Translation** settings window. You may start using this service now.
@@ -61,7 +61,7 @@ The **Amazon Translate Trados Plugin** plugin is now visible in the **Translatio
 ### How to obtain an API key
 
 
-Read [here](api-keys.md#deepl) for more details.  
+Read [here](/api-keys#deepl) for more details.  
 
 
 ### How to set up the Trados plugin for DeepL
@@ -76,7 +76,7 @@ Read [here](api-keys.md#deepl) for more details.
 3.  Go to **Project Settings**. In the **Translation Memory and Automated Translation** settings window select the provider by clicking **Use...** > **DeepL MT Translation Provider**.
 
 
-![How to set up the Trados plugin for Deeplpic1](trados-images/trados_for_deepl1.png)  
+![How to set up the Trados plugin for Deeplpic1](/trados-images/trados_for_deepl1.png)  
 
 
 4.  Enter the API key. Click **OK**.
@@ -97,7 +97,7 @@ The **DeepL MT Translation Provider** plugin is now visible in the **Translation
 ### How to obtain an API key  
 
 
-Read [here](api-keys.md#modernmt) for more details.  
+Read [here](/api-keys#modernmt) for more details.  
 
 
 ### How to set up the Trados plugin for ModernMT
@@ -113,19 +113,19 @@ Read [here](api-keys.md#modernmt) for more details.
 
 
 
-![How to set up the Trados plugin for ModernMTpic1](trados-images/trados_for_modernmt1.png)
+![How to set up the Trados plugin for ModernMTpic1](/trados-images/trados_for_modernmt1.png)
 
 
 
 4. Enter the API key. Click **OK**.
 
 
-![How to set up the Trados plugin for ModernMTpic2](trados-images/trados_for_modernmt2.png)
+![How to set up the Trados plugin for ModernMTpic2](/trados-images/trados_for_modernmt2.png)
 
 
 5.  You may select one or more translation memories to use with your project. Check the **Use** check box for each translation memory you wish to use. If you check the **Update** check box of a translation memory, it will learn from the corrections you make in a given translation. You may select this check box for only one translation memory.
 
-![How to set up the Trados plugin for ModernMTpic3](trados-images/trados_for_modernmt3.png)
+![How to set up the Trados plugin for ModernMTpic3](/trados-images/trados_for_modernmt3.png)
 
 
 The **Modern MT Adaptive Neural Machine Translation** plugin is now visible in the **Translation Memory and Automated Translation** settings window. You may start using this service now.
@@ -137,7 +137,7 @@ The **Modern MT Adaptive Neural Machine Translation** plugin is now visible in t
 ### How to obtain an API key
 
 
-Read [here](api-keys.md#google-cloud-translation-basic-or-google-translate-api-v2) for more details.  
+Read [here](/api-keys#google-cloud-translation-basic-or-google-translate-api-v2) for more details.  
 
 
 ### How to set up the Trados plugin for Google Cloud Translation Basic (or Google Translate API v2)
@@ -149,7 +149,7 @@ Read [here](api-keys.md#google-cloud-translation-basic-or-google-translate-api-v
 2.  Go to **Add-ins > RWS AppStore**. Search for **MT Enhanced Plugin for Trados Studio** and download it.
 
 
-![How to set up the Trados plugin for Google Translation Basicpic1](trados-images/trados_for_google1.png)
+![How to set up the Trados plugin for Google Translation Basicpic1](/trados-images/trados_for_google1.png)
 
 
 3.  Restart Trados.
@@ -159,7 +159,7 @@ Read [here](api-keys.md#google-cloud-translation-basic-or-google-translate-api-v
 
 
 
-![How to set up the Trados plugin for Google Translation Basicpic2](trados-images/trados_for_google2.png)
+![How to set up the Trados plugin for Google Translation Basicpic2](/trados-images/trados_for_google2.png)
 
 
 
@@ -175,7 +175,7 @@ Read [here](api-keys.md#google-cloud-translation-basic-or-google-translate-api-v
 8.  Click **OK**.
 
 
-![How to set up the Trados plugin for Google Translation Basicpic3](trados-images/trados_for_google3.png)
+![How to set up the Trados plugin for Google Translation Basicpic3](/trados-images/trados_for_google3.png)
 
 
 The **MT Enhanced Plugin for Trados Studio** plugin is now visible in the **Translation Memory and Automated Translation** settings window. It is displayed as **MT Enhanced using Google Translate Basics** in the opened window. You may start using this service now.
@@ -188,7 +188,7 @@ The **MT Enhanced Plugin for Trados Studio** plugin is now visible in the **Tran
 This plugin is not required for the **Google Cloud Translation Basic (or Google Translate API v2)** service to work with Trados, but it enhances the usability of this MT. The plugin has been developed to provide a simple and fast way to validate the credentials being used to access the Google Translate API.
 
 
-![How to set up the Trados plugin for Google Translation Basicpic4](trados-images/trados_for_google4.png)
+![How to set up the Trados plugin for Google Translation Basicpic4](/trados-images/trados_for_google4.png)
 
 
 1.  Open your desktop version of Trados.

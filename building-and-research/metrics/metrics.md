@@ -12,7 +12,7 @@ seo:
 
 Metrics are used to compare different machine translation systems.
 
-The best known metric for machine translation is [BLEU](bleu.md), a string-based automatic metric.
+The best known metric for machine translation is [BLEU](/bleu), a string-based automatic metric.
 
 {% include collapsible_toc.html %}
 
@@ -27,11 +27,11 @@ Automatic quality metrics are divided into **string-based metrics** and **machin
 String-based metrics generally measure the word or character distance between the target sentence and the reference translation.
 
 Examples:
-- [BLEU](bleu.md)
-- [METEOR](meteor.md)
-- [NIST](nist.md)
-- [chrF](chrF.md)
-- [TER](ter.md)
+- [BLEU](/bleu)
+- [METEOR](/meteor)
+- [NIST](/nist)
+- [chrF](/chrF)
+- [TER](/ter)
 
 String-based are used in research papers and competitions because they are explainable and fair, and they can support any language pair.
 
@@ -42,12 +42,12 @@ The scores generally do not correlate well with human evaluation scores when tra
 
 ### Machine learning-based metrics
 
-Machine learning-based metrics use [sentence embeddings](../../concepts/sentence-embeddings.md) to calculate the difference between the generated target sentence and the reference translation, or even between the target senternce and the source sentence.
+Machine learning-based metrics use [sentence embeddings](/sentence-embeddings) to calculate the difference between the generated target sentence and the reference translation, or even between the target senternce and the source sentence.
 
-Examples:
-- [COMET](comet.md)
-- [YiSi](yisi.md)
-- [BERTscore](bertscore.md)
+Examples:/
+- [COMET](/comet)
+- [YiSi](/yisi)
+- [BERTscore](/bertscore)
 
 Machine learning-based metrics require a model that was trained on data with the source and target languages.
 
@@ -60,26 +60,26 @@ But the scores are not explainable or fair, so they cannot be used in a research
 
 Human evaluation is the gold standard.
 
-- [MQM](human-evaluation-metrics.md#mqm)
-- [SQM](human-evaluation-metrics.md#sqm)
-- [Average score and average z-score](human-evaluation-metrics.md#average-score-and-average-z-score)
-- [TrueSkill](human-evaluation-metrics.md#trueskill)
-- [Adecuacy and fluency judgement](human-evaluation-metrics.md#adequacy-and-fluency-judgement)
-- [Relative ranking](human-evaluation-metrics.md#relative-ranking)
-- [Constituent ranking](human-evaluation-metrics.md#constituent-ranking)
-- [Yes or no constituent judgement](human-evaluation-metrics.md#yes-and-no-constituent-judgement)
-- [Direct assessment](human-evaluation-metrics.md#direct-assessment)
+- [MQM](/human-evaluation-metrics#mqm)
+- [SQM](/human-evaluation-metrics#sqm)
+- [Average score and average z-score](/human-evaluation-metrics#average-score-and-average-z-score)
+- [TrueSkill](/human-evaluation-metrics#trueskill)
+- [Adecuacy and fluency judgement](/human-evaluation-metrics#adequacy-and-fluency-judgement)
+- [Relative ranking](/human-evaluation-metrics#relative-ranking)
+- [Constituent ranking](/human-evaluation-metrics#constituent-ranking)
+- [Yes or no constituent judgement](/human-evaluation-metrics#yes-and-no-constituent-judgement)
+- [Direct assessment](/human-evaluation-metrics#direct-assessment)
 
 But human evaluation is slow, expensive and subjective.
 
 
 ### Evolution
 >
-> ##### Slide from [Unbabel](../../more/industry/companies.md#unbabel) for [AMTA 2022](../../events/amta2022.md)
+> ##### Slide from [Unbabel](/companies#unbabel) for [AMTA 2022](/amta2022)
 > <img title='Evaluation timeline' src='/building-and-research/metrics/timeline.jpg' width='700' style='padding: 1em;' />
 
 
 ## See also
 
-- [Quality evaluation](../../building-and-research/quality-evaluation.md)
-- [Quality estimation](../../quality-estimation/quality-estimation.md)
+- [Quality evaluation](/quality-evaluation)
+- [Quality estimation](/quality-estimation)

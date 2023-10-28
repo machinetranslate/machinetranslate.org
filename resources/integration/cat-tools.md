@@ -16,11 +16,11 @@ Both Trados and memoQ use plugins to connect to machine translation engine vendo
 This tutorial provides information as to how to obtain application programming interfaces (API) keys from machine translation vendors and enter them into the plugins.
 
 
-#### [How to set up Trados plugins](trados.md)  
+#### [How to set up Trados plugins](/trados)  
 
-#### [How to set up memoQ plugins](memoq.md)  
+#### [How to set up memoQ plugins](/memoq)  
 
-#### [How to obtain API keys for MT plugins](api-keys.md)  
+#### [How to obtain API keys for MT plugins](/api-keys)  
 
 
 ### MT vendors described

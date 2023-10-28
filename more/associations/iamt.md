@@ -21,12 +21,12 @@ The IAMT consists of regional associations.
 
 ## Regional associations
 
-- [Association for Machine Translation in the Americas](amta.md) (AMTA)
-- [Asia-Pacific Association for Machine Translation](aamt.md) (AAMT)
-- [European Association for Machine Translation](eamt.md) (EAMT)
+- [Association for Machine Translation in the Americas](/amta) (AMTA)
+- [Asia-Pacific Association for Machine Translation](/aamt) (AAMT)
+- [European Association for Machine Translation](/eamt) (EAMT)
 
 ## Events
-The regional associations of IAMT hold the [MT Summit](../../events/mt-summit.md).
+The regional associations of IAMT hold the [MT Summit](/mt-summit).
 
 ## Executive Committee
 

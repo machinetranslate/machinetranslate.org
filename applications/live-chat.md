@@ -9,10 +9,10 @@ description: Machine translation for live chat
 
 Machine translation for **live chat** is used to translate messages between two users who do not speak a common language.
 
-Live chat messages are a type of [user-generated content](user-generated-content.md).
+Live chat messages are a type of [user-generated content](/user-generated-content).
 Live chat is challenging for machine translation because it is noisy and context-dependent.
 
-Common scenarios are in-game chat in [gaming](gaming.md) and customer support for [commerce and marketplaces](commerce-and-marketplaces.md).
+Common scenarios are in-game chat in [gaming](/gaming) and customer support for [commerce and marketplaces](/commerce-and-marketplaces).
 
 Many commercial chat applications that have incorporated machine translation for live chat:
 
@@ -23,10 +23,10 @@ Many commercial chat applications that have incorporated machine translation for
 
 ## Companies
 
-* [Unbabel](../more/industry/companies.md/#unbabel)
-* [Language I/O](../more/industry/companies.md/#language-io)
-* [KantanMT](../more/industry/companies.md/#kantanmt)
+* [Unbabel](/companies/#unbabel)
+* [Language I/O](/companies/#language-io)
+* [KantanMT](/companies/#kantanmt)
 
 ## See also
 
-* [Speech translation](../building-and-research/other-input-types/speech.md)
+* [Speech translation](/speech)

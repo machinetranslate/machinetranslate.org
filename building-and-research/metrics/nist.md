@@ -6,9 +6,9 @@ title: NIST
 description: National Institute of Standards and Technology
 ---
 
-**NIST** (**National Institute of Standards and Technology**)  is a metric for automatic evaluation of machine translation that calculates the similarity between a machine translation output and a reference translation using [n-grams](../../concepts/n-gram.md) precision.
+**NIST** (**National Institute of Standards and Technology**)  is a metric for automatic evaluation of machine translation that calculates the similarity between a machine translation output and a reference translation using [n-grams](/n-gram) precision.
 
-NIST is an adaptation of [BLEU](bleu.md).
+NIST is an adaptation of [BLEU](/bleu).
 
 Compared to BLEU, NIST gives more importance to the less frequent n-grams.
 

@@ -35,7 +35,7 @@ The event was organised by the Department of Translation and Interpretation Stud
 
 - Reelika Saar, Junior Research Fellow in Translation Studies at the University of Tartu, was the moderator and also talked about the representation of machine translation in Estonia. 
 
-- Lynne Bowker, Full Professor at the University of Ottawa in Canada, talked about [machine translation literacy](../more/community/communities.md#mt-literacy).
+- Lynne Bowker, Full Professor at the University of Ottawa in Canada, talked about [machine translation literacy](/communities#mt-literacy).
 
 
 [maailmakeeled.ut.ee/en/content/translation-age-ai](https://maailmakeeled.ut.ee/en/content/translation-age-ai)

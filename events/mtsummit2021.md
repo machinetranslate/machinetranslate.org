@@ -26,7 +26,7 @@ seo:
 ---
 
 The eighteenth Machine Translation Summit 2021 (**MT Summit 2021**) took place from 16 August to 20 August as a 5-day virtual event.
-MT Summit 2021 was organised by [AMTA](../more/associations/amta.md).
+MT Summit 2021 was organised by [AMTA](/amta).
 
 ### Keynote Speakers
 
@@ -34,7 +34,7 @@ MT Summit 2021 was organised by [AMTA](../more/associations/amta.md).
 | -- | -- |
 | Aug 17 <br>09:00 - 10:00 | _**The New MT: One More Time**_ <br>Arle Lommel (CSA Research) |
 | Aug 17 <br>13:30 - 14:15 | _**The Road to Infinity**_ <br>Jane Nemcova (Lionbridge) |
-| Aug 18 <br>11:00 - 11:45 | _**Multimodal Simultaneous Machine Translation**_ <br>[Lucia Specia](../more/people/lucia-specia.md) (Imperial College London) |
+| Aug 18 <br>11:00 - 11:45 | _**Multimodal Simultaneous Machine Translation**_ <br>[Lucia Specia](/lucia-specia) (Imperial College London) |
 | Aug 19 <br>13:30 - 14:15 | _**Machine Translation at the Government of Canada: Reaching for the Future**_ <br>Lucie Seguin (Translation Bureau of Canada) |
 | Aug 19 <br>16:00 - 16:45 | _**Understanding and Improving Context Usage in Context-aware Translation**_ <br>Graham Neubig (Carnegie Mellon University) |
 
@@ -42,10 +42,10 @@ MT Summit 2021 was organised by [AMTA](../more/associations/amta.md).
 
 | | |
 | -- | -- |
-| Aug 16 <br>09:00 - 16:00  | **[4th Workshop on Technologies for MT of Low Resource Languages](loresmt2021.md)** |
-| Aug 16 <br>08:00 - 12:00 | **[9th Workshop on Patent and Scientific Literature Translation](pslt2021.md)** |
-| Aug 17 <br>09:00 - 16:00 | **[Automated Spoken Language Translation in Real-World Settings](asltrw2021.md)** |
-| Aug 20 <br>09:00 - 4:00 | **[1st International Workshop on Automatic Translation for Signed and Spoken Languages](at4ssl2021.md)** |
+| Aug 16 <br>09:00 - 16:00  | **[4th Workshop on Technologies for MT of Low Resource Languages](/loresmt2021)** |
+| Aug 16 <br>08:00 - 12:00 | **[9th Workshop on Patent and Scientific Literature Translation](/pslt2021)** |
+| Aug 17 <br>09:00 - 16:00 | **[Automated Spoken Language Translation in Real-World Settings](/asltrw2021)** |
+| Aug 20 <br>09:00 - 4:00 | **[1st International Workshop on Automatic Translation for Signed and Spoken Languages](/at4ssl2021)** |
 
 ### Research track
 

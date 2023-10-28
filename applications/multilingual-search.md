@@ -14,6 +14,6 @@ This is a challenge for machine translation since many names and terms can have 
 
 # Content types
 
-- [Social networks](social-networks.md)
+- [Social networks](/social-networks)
 - Messenger apps
-- [Commerce and marketplaces](commerce-and-marketplaces.md)
+- [Commerce and marketplaces](/commerce-and-marketplaces)

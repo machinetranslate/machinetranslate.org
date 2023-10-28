@@ -30,10 +30,10 @@ seo:
     position: 5
 ---
 
-Machine Translate is **created and edited by [contributors like you!](contributing/contributors.md)**.
+Machine Translate is **created and edited by [contributors like you!](/contributors)**.
 It is **open-source** and lives [**on GitHub**](https://github.com/machinetranslate/machinetranslate.org).
 
-We recommend reading the [**roadmap**](/roadmap.md) and [**style guide**](contributing/style.md) before you start contributing.
+We recommend reading the [**roadmap**](/roadmap) and [**style guide**](/style) before you start contributing.
 
 ### Creating and editing articles
 
