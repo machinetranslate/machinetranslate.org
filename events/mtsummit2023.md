@@ -26,7 +26,7 @@ seo:
 ---
 
 The nineteenth Machine Translation Summit 2023 (**MTS 2023**) took place from 4 September to 8 September in Macau Special Administrative Region, China.
-MTS 2023 was organised by [AAMT](/associations/aamt.md).
+MTS 2023 was organised by [AAMT](/aamt).
 
 > Machine Translation (MT) Summit is an international conference, which brings together people from the academic and commercial world developing MT and users of MT systems. The conference overviews state-of-the-art technologies in MT, its major contemporary trends, and practical applications.
 
@@ -47,7 +47,7 @@ MTS 2023 was organised by [AAMT](/associations/aamt.md).
 
 - Min Zhang, Harbin Institute of Technology, Shenzhen
 - Dorothy Kenny, Dublin City University
-- [Ondrej Bojar](/people/ondrej-bojar.md), Charles University
+- [Ondrej Bojar](/ondrej-bojar), Charles University
 
 ## Speakers
 
@@ -66,7 +66,7 @@ MTS 2023 was organised by [AAMT](/associations/aamt.md).
 
 > The Workshop on Asian Translation (WAT) is an open machine translation evaluation campaign focusing on Asian languages. WAT gathers and shares the resources and knowledge of Asian language translation to understand the problems to be solved for the practical use of machine translation technologies among all Asian countries.
 
-[WAT 2023](wat2023.md)
+[WAT 2023](/wat2023)
 
 ### ALT 2023：Ancient Language Translation Workshop
 

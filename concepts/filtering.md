@@ -5,7 +5,7 @@ description: Filtering training data for machine translation
 featured: true
 ---
 
-**Filtering** for machine translation is the process of cleaning [parallel data](parallel-data.md) for training a machine translation system.
+**Filtering** for machine translation is the process of cleaning [parallel data](/parallel-data) for training a machine translation system.
 
 Parallel data can be filtered manually or automatically.
 
@@ -46,7 +46,7 @@ Filtering and preprocessing can hurt translation quality, by removing or changin
 ### Techniques
 
 * Normalisation
-* [Tokenisation](tokenisation.md)
+* [Tokenisation](/tokenisation)
 * Removing duplicate segments
 * Removing non-alphabetical symbols
 * Removing irrelevant languages

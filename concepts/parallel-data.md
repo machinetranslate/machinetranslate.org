@@ -18,11 +18,11 @@ Parallel data sets can include translations for one or more language pairs, and 
 
 Parallel data sets can be created manually, automatically, or created synthetically from monolingual data.
 - Human translation
-- Human [post-editing](/workflows/post-editing.md)
-- [Crawling](crawling.md)
-- [Alignment](alignment.md)
+- Human [post-editing](/post-editing)
+- [Crawling](/crawling)
+- [Alignment](/alignment)
 
-Parallel data can be created by crawling and aligned monolingual test, and by [back-translation](back-translation.md) or [back-copying](back-translation.md).
+Parallel data can be created by crawling and aligned monolingual test, and by [back-translation](/back-translation) or [back-copying](/back-translation).
 
 ### Goals
 
@@ -34,7 +34,7 @@ Parallel data is available for most widely written language pairs, but not avail
 
 Parallel data can have errors, like misaligned sentences, bad sentence segmentation, bad encodings, wrong or mixed language.
 Errors in parallel data are challenging because they affect the quality of the machine translation output.
-Parallel data errors can be solved via [filtering](filtering.md).
+Parallel data errors can be solved via [filtering](/filtering).
 
 ### Open data sets
 
@@ -63,5 +63,5 @@ Many of the largest data sets are publicly available.
 ### Search and download
 
 * [MTData](https://github.com/thammegowda/mtdata)
-* [OPUSTools](https://github.com/Helsinki-NLP/OpusTools/blob/master/opustools_pkg/README.md)
+* [OPUSTools](https://github.com/Helsinki-NLP/OpusTools/blob/master/opustools_pkg/README)
 * [Huggingface Datasets](https://huggingface.co/datasets?task_categories=task_categories:translation)

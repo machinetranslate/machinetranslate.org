@@ -87,7 +87,7 @@ The society is registered in Zug, Switzerland and is run as a non-profit.
 
 ## Contributors and supporters
 
-Machine Translate is created and edited by [contributors](/contributing/contributors.md) from all over the world.
+Machine Translate is created and edited by [contributors](/contributors) from all over the world.
 
 Machine Translate is also supported by the generosity of other organizations and by people like you!
 
@@ -96,7 +96,7 @@ Machine Translate is also supported by the generosity of other organizations and
 
 
 ## Contact
-To contact us about content, you can use the normal open channels for [contributing](/contributing/contributing.md).
+To contact us about content, you can use the normal open channels for [contributing](/contributing).
 
 To contact us about the foundation and supporting Machine Translate, you can email [contact@machinetranslate.org](mailto:contact@machinetranslate.org).
 

@@ -9,7 +9,7 @@ seo:
 ## Charles University
 
 **NPFL087 Statistical Machine Translation** is an offline class from the Institute of Formal and Applied Linguistics, Charles University.
-This in-person class is taught by [Ondřej Bojar](/people/ondrej-bojar.md).
+This in-person class is taught by [Ondřej Bojar](/ondrej-bojar).
 This course is designed for computer science students.
 
 [ufal.mff.cuni.cz/courses/npfl087](https://ufal.mff.cuni.cz/courses/npfl087)
@@ -32,7 +32,7 @@ This course is designed for computer science students.
 ## Johns Hopkins University
 
 **EN 601.468/668 Machine Translation** is an in person class from Johns Hopkins University.
-The class is taught by [Philipp Koehn](/people/philipp-koehn.md).
+The class is taught by [Philipp Koehn](/philipp-koehn).
 This course is designed for computer science students.
 
 [mt-class.org/jhu/](http://mt-class.org/jhu/)
@@ -51,7 +51,7 @@ This course is no longer offered, it is now a part of the course “Natural lang
 ## Karlsruhe Institute of Technology
 
 The **Machine Translation** course is a massive open online course from Karlsruhe Institute of Technology.
-This pre-recorded course is taught by Alexander Waibel, the co-founder of [KITES](/industry/companies.md#Kites), and Jan Niehus.
+This pre-recorded course is taught by Alexander Waibel, the co-founder of [KITES](/companies#Kites), and Jan Niehus.
 
 [coursera.org/learn/machinetranslation](https://www.coursera.org/learn/machinetranslation)
 
@@ -82,7 +82,7 @@ This interactive class is designed for project managers, vendors, buyers, decisi
 
 ## Intento
 
-The **Machine Translation University** is a set of free online learning resources from [Intento](/companies/companies.md#Intento).
+The **Machine Translation University** is a set of free online learning resources from [Intento](/companies#Intento).
 These resources are designed for localization specialists and buyers.
 
 [inten.to/machine-translation-university/](https://inten.to/machine-translation-university/)

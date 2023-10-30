@@ -25,7 +25,7 @@ seo:
 ---
 
 The **Fifth Conference on Machine Translation** (**WMT20**) took place online from 10 November to 11 November, 2020.
-It was organised by [WMT](/associations/wmt.md).
+It was organised by [WMT](/wmt).
 
 [statmt.org/wmt20/program.html](http://www.statmt.org/wmt20/program.html)
 
@@ -237,11 +237,11 @@ Full results of the shared tasks: [*Findings of the 2020 Conference on Machine T
 
 ### News translation
 
-The winner systems were listed according to their [average score and average z-score](/quality/metrics/human-evaluation-metrics.md#average-score-and-average-z-score).
+The winner systems were listed according to their [average score and average z-score](/human-evaluation-metrics#average-score-and-average-z-score).
 
 #### → English
 
-The results were determined with a monolingual [direct assessment](/quality/metrics/human-evaluation-metrics.md#direct-assessment) with document context.
+The results were determined with a monolingual [direct assessment](/human-evaluation-metrics#direct-assessment) with document context.
 
 | Language pair | System | Average score | Average z-score |
 | --- | --- | --- | --- |

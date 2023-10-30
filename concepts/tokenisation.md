@@ -5,7 +5,7 @@ description: Splitting a string into a sequence of tokens
 ---
 
 **Tokenisation** is the process of splitting a string into a sequence of substrings called tokens.
-A [token](/concepts/token.md) is typically an atomic unit of meaning, such as a word or a punctuation character.
+A [token](/concepts/token) is typically an atomic unit of meaning, such as a word or a punctuation character.
 
 Example:
 
@@ -24,9 +24,9 @@ Splitting on spaces is a reasonable baseline for many languages, but will lead t
 
 Two types of challenging languages are non-space-segmented languages and agglutinative languages.
 
-Non-space-segmented languages include [Chinese](/languages/chinese.md), [Japanese](/languages/japanese.md), [Korean](/languages/korean.md), and [Thai](/languages/thai.md).
+Non-space-segmented languages include [Chinese](/chinese), [Japanese](/japanese), [Korean](/korean), and [Thai](/thai).
 In these languages, tokenisation needs more advanced algorithms, often called word segmentation algorithms.
 
-Agglutinative languages include [Finnish](/languages/finnish.md) and [Hungarian](/languages/hungarian.md).
+Agglutinative languages include [Finnish](/finnish) and [Hungarian](/hungarian).
 
-Machine translation in these languages typically splits tokens into smaller units of meaning using algorithms such as [byte-pair encoding](/approaches/byte-pair-encoding.md).
+Machine translation in these languages typically splits tokens into smaller units of meaning using algorithms such as [byte-pair encoding](/byte-pair-encoding).

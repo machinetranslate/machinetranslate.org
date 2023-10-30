@@ -26,7 +26,7 @@ seo:
 ---
 
 The fourteenth Machine Translation Summit (**MT Summit XIV**) took place from 2 to 6 September, 2013, at Nice, France.
-MT Summit XV was organised by [EAMT](/associations/eamt.md).
+MT Summit XV was organised by [EAMT](/eamt).
 
 ## Schedule
 

@@ -17,7 +17,7 @@ defaults:
       path: ""
       type: pages
     values:
-      image: /machinetranslate.png
+      image: /images/machinetranslate.png
       seo:
         type: Article
   - scope:
@@ -119,13 +119,6 @@ defaults:
       seo:
         type: Person
   - scope:
-      path: quality
-      type: pages
-    values:
-      permalink: /:basename
-      seo:
-        type: Article
-  - scope:
       path: quality-estimation
       type: pages
     values:
@@ -205,7 +198,7 @@ defaults:
 
 # Just the Docs
 remote_theme: pmarsceill/just-the-docs@v0.6.1
-logo: favicon.ico
+logo: images/favicon.ico
 color_scheme: swissred
 search:
   rel_url: false

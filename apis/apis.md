@@ -8,15 +8,15 @@ seo:
     type: ItemList
 ---
 
-There is a growing set of machine translation APIs available and [integrated into translation management systems (TMS)](/integrations/integrations.md).
+There is a growing set of machine translation APIs available and [integrated into translation management systems (TMS)](/integrations).
 
-The most popular APIs are available as self-serve APIs and support more than 100 [languages](/languages/languages.md) and more than 10000 language pairs.
+The most popular APIs are available as self-serve APIs and support more than 100 [languages](/languages) and more than 10000 language pairs.
 By 2022, there was a self-serve API that supported more than 300 languages.
 
-Besides language and [locale](/applications/advanced-concepts/locale.md) support, the APIs also vary by [features](/features/features.md), like [customisation](/customisation/customisation.md), [privacy policies](/features/data-confidentiality.md) and whether or not they are self-service products.
+Besides language and [locale](/locale) support, the APIs also vary by [features](/features), like [customisation](/customisation), [privacy policies](/data-confidentiality) and whether or not they are self-service products.
 
-Most of the underlying machine translation systems are now based on [neural machine translation](/approaches/neural-machine-translation.md).
+Most of the underlying machine translation systems are now based on [neural machine translation](/neural-machine-translation).
 
 ---
 
-Here the APIs are ordered by the number of languages and [locales](/applications/advanced-concepts/locale.md) that each support.
+Here the APIs are ordered by the number of languages and [locales](/locale) that each support.

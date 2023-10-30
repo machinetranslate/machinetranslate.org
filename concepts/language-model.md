@@ -36,7 +36,7 @@ This way a language model can generate new text as in the following example:
   - input: `<BOS> the man is riding a bike to the store . ___`
   - output: `<EOS>`: 98%, ...
 
-For the beginning the special [token](/customisation/tokenisation.md) `<BOS>` (beginning of sentence) is used.
+For the beginning the special [token](/tokenisation) `<BOS>` (beginning of sentence) is used.
 When another special token `<EOS>` (end of sentence), the decoder stops.
 
 This kind of decoding where only the most probable token is considered is called **greedy decoding** and it may not always lead to the most fluent output.
@@ -56,22 +56,22 @@ The result is the probability that with the history (now truncated to just <img 
 
 Under the **Markov assumption**, the input is limited to the last word only.
 This model is quite restricted because it can’t model well any even mid-term sentence dependencies.
-There are models that take longer input, e.g. [3-grams](n-gram.md), but they have create new issues, such as data sparsity.
+There are models that take longer input, e.g. [3-grams](/n-gram), but they have create new issues, such as data sparsity.
 One solution to those is **language model smoothing**.
 
 ## Neural language model
 
 A neural language model is a neural network that computes the probability of the next word.
-RNN-based approaches worked by considering the whole sentence history compressed into a single [vector](vector.md).
+RNN-based approaches worked by considering the whole sentence history compressed into a single [vector](/vector).
 They perform badly on long-term dependency phenomena.
-This was vastly improved with the advent of [attention](attention.md).
-State-of-the-art neural language models are based on the [Transformer architecture](/approaches/transformers.md), either the encoder (e.g. BERT) or the decoder (e.g. GPT).
+This was vastly improved with the advent of [attention](/attention).
+State-of-the-art neural language models are based on the [Transformer architecture](/transformers), either the encoder (e.g. BERT) or the decoder (e.g. GPT).
 
 # Language models in machine translation
 
 ## Phrase-based machine translation
 
-[Phrase-based machine translation](/approaches/statistical-machine-translation.md) relies on a decoding algorithm that tries to cover the original sentence with phrases.
+[Phrase-based machine translation](/statistical-machine-translation) relies on a decoding algorithm that tries to cover the original sentence with phrases.
 That can be done trivially by using single-word phrases.
 The key missing ingredient is the cohesion between phrases, called “fluency”.
 Therefore, in the decoding phase of phrase-based machine translation, the score of a state is determined partly by the language model probability.
@@ -81,5 +81,5 @@ In phrase-based machine translation, increasing the weight of the language model
 
 ## Neural machine translation
 
-The usage of language models in [neural machine translation](/approaches/neural-machine-translation.md) is more subtle.
-The decoder can be viewed as a language model because the output is a probability across the target [vocabulary](vocabulary.md) and it has computational access to the history: <img src="https://render.githubusercontent.com/render/math?math=p(t_i|s_{1\ldots |s|}, t_{1\ldots (i-1)})">.
+The usage of language models in [neural machine translation](/neural-machine-translation) is more subtle.
+The decoder can be viewed as a language model because the output is a probability across the target [vocabulary](/vocabulary) and it has computational access to the history: <img src="https://render.githubusercontent.com/render/math?math=p(t_i|s_{1\ldots |s|}, t_{1\ldots (i-1)})">.
