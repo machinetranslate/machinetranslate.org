@@ -1,6 +1,6 @@
 ---
 nav_order: 2
-grand_parent: Tutorials
+grand_parent: Resources
 parent: Connecting engines to translation software
 title: How to get machine translation in memoQ
 description: Setting up machine translation plugins in memoQ
