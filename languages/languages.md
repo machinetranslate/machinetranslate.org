@@ -1,5 +1,5 @@
 ---
-nav_order: 100
+nav_order: 80
 has_children: true
 title: Languages
 description: List of languages supported by machine translation APIs
