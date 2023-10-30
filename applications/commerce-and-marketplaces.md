@@ -10,7 +10,7 @@ Machine translation for **commerce and marketplaces** is the translation of prod
 ## Goals
 
 * sales conversion
-* [SEO](/seo.md) and site search
+* [SEO](/seo) and site search
 * customer support
 
 The top merchants and platforms cannot human-translate all products into all languages, because of the scale.
