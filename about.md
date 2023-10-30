@@ -16,7 +16,7 @@ seo:
 
 ## Mission
 
-The Machine Translate foundation’s mission is to **make machine translation more accessible to more people** as the field of machine translation grows.
+The Machine Translate Foundation’s mission is to **make machine translation more accessible to more people** as the field of machine translation grows.
 
 > <span style="font-size:x-large;">“Make machine translation more accessible to more people”</span>
 
@@ -89,7 +89,7 @@ The society is registered in Zug, Switzerland and is run as a non-profit.
 
 Machine Translate is created and edited by [contributors](/contributing/contributors.md) from all over the world.
 
-The Machine Translate foundation is also supported by the generosity of other organizations and by people like you!
+The Machine Translate Foundation is also supported by the generosity of other organizations and by people like you!
 
 - [ModelFront](https://modelfront.com)
 - Adam Bittlingmayer
@@ -98,7 +98,7 @@ The Machine Translate foundation is also supported by the generosity of other or
 ## Contact
 To contact us about content, you can use the normal open channels for [contributing](/contributing/contributing.md).
 
-To contact us about the foundation and supporting the Machine Translate foundation, you can email [contact@machinetranslate.org](mailto:contact@machinetranslate.org).
+To contact us about the foundation and supporting the Machine Translate Foundation, you can email [contact@machinetranslate.org](mailto:contact@machinetranslate.org).
 
 ---
 
