@@ -143,7 +143,7 @@ supported_languages:
   base_code: de
   name: German
   variant_name: null
-- slug: doi
+- slug: null
   code: doi
   normalized_code: doi
   base_code: doi
@@ -251,7 +251,7 @@ supported_languages:
   base_code: gn
   name: Guarani
   variant_name: null
-- slug: gom
+- slug: null
   code: gom
   normalized_code: gom
   base_code: gom
@@ -389,7 +389,7 @@ supported_languages:
   base_code: ko
   name: Korean
   variant_name: null
-- slug: kri
+- slug: null
   code: kri
   normalized_code: kri
   base_code: kri

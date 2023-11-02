@@ -123,7 +123,7 @@ supported_languages:
   base_code: de
   name: German
   variant_name: null
-- slug: dsb
+- slug: null
   code: dsb
   base_code: dsb
   name: null
@@ -448,7 +448,7 @@ supported_languages:
   base_code: nb
   name: Norwegian
   variant_name: null
-- slug: nds
+- slug: null
   code: nds
   base_code: nds
   name: null
