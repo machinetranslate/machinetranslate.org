@@ -213,7 +213,7 @@ for api in APIS:
       base_code = base_language_code(normalized_code)
       if base_code in language['codes']:
         language_name = language.get('names', [None])[0]
-        language_slug = slugify(language_name) if language_name else code
+        language_slug = slugify(language_name) if language_name else base_code
         break
     if api_id not in [ 'alibaba', 'baidu', 'niutrans' ] and len(base_code) == 2 and not language_name:
       # This is usually a typo.
@@ -228,10 +228,10 @@ for api in APIS:
       'variant_name': variant_name
     })
     if not language_slug:
-      if code in UNLISTED_LANGUAGES:
-        UNLISTED_LANGUAGES[code] += 1
+      if base_code in UNLISTED_LANGUAGES:
+        UNLISTED_LANGUAGES[base_code] += 1
       else:
-        UNLISTED_LANGUAGES[code] = 1
+        UNLISTED_LANGUAGES[base_code] = 1
 
   integrations = get_tms_by_id_and_key(api_id, 'api_integrations')
 
@@ -326,23 +326,24 @@ for code in LANGUAGE_FAMILIES:
 { content }
 ''')
 
+
 ### Add unlisted languages to languages.json
-for code, _ in UNLISTED_LANGUAGES.items():
-  unlisted_languages = {
-    'codes': [
-      code
-    ]
-  }
+# for code, _ in UNLISTED_LANGUAGES.items():
+#   unlisted_languages = {
+#     'codes': [
+#       code
+#     ]
+#   }
 
-  filepath = '_data/languages.json'
+#   filepath = '_data/languages.json'
 
-  with open(filepath, 'r', encoding='utf8') as file:
-    existing_data = json.load(file)
-  if unlisted_languages not in existing_data:
-    existing_data.append(unlisted_languages)
+#   with open(filepath, 'r', encoding='utf8') as file:
+#     existing_data = json.load(file)
+#   if unlisted_languages not in existing_data:
+#     existing_data.append(unlisted_languages)
 
-  with open(filepath, 'w', encoding='utf8') as file:
-    json.dump(existing_data, file, ensure_ascii=False, indent=4)
+#   with open(filepath, 'w', encoding='utf8') as file:
+#     json.dump(existing_data, file, ensure_ascii=False, indent=4)
 
 ### Write languages
 API_SUPPORTED_LANGUAGE_BASE_CODES = supported_language_base_codes(APIS)
