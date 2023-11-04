@@ -3109,10 +3109,17 @@
     },
     {
         "codes": [
-            "knc"
+            "kr", 
+            "kau", 
+            "knc", 
+            "kby", 
+            "krt", 
+            "bms", 
+            "kbl"
         ],
         "names": [
-            "Kanuri"
+            "Kanuri", 
+            "Kanembu"
         ],
         "family": [
             "ssa"
@@ -6710,7 +6717,7 @@
             "ch"
         ],
         "names": [
-           "Chamorro"
+            "Chamorro"
         ]
     },
     {
@@ -6718,7 +6725,7 @@
             "ia"
         ],
         "names": [
-           "Interlingua"
+            "Interlingua"
         ]
     },
     {
@@ -6726,7 +6733,7 @@
             "io"
         ],
         "names": [
-           "Ido"
+            "Ido"
         ]
     },
     {
@@ -6734,15 +6741,7 @@
             "kl"
         ],
         "names": [
-           "Kalaallisut,"
-        ]
-    },
-    {
-        "codes": [
-            "kr"
-        ],
-        "names": [
-           "Kanuri"
+            "Kalaallisut,"
         ]
     },
     {
@@ -6750,7 +6749,7 @@
             "nv"
         ],
         "names": [
-           "Navajo"
+            "Navajo"
         ]
     },
     {
@@ -6758,7 +6757,7 @@
             "oj"
         ],
         "names": [
-           "Ojibwa"
+            "Ojibwa"
         ]
     },
     {
@@ -6766,7 +6765,1261 @@
             "wa"
         ],
         "names": [
-           "Walloon"
+            "Walloon"
+        ]
+    },
+    {
+        "codes": [
+            "vo"
+        ],
+        "names": [
+            "Volapük"
+        ]
+    },
+    {
+        "codes": [
+            "ng"
+        ],
+        "names": [
+            "Ndonga"
+        ]
+    },
+    {
+        "codes": [
+            "nr"
+        ],
+        "names": [
+            "South Ndebele"
+        ]
+    },
+    {
+        "codes": [
+            "lu"
+        ],
+        "names": [
+            "Luba-Katanga"
+        ]
+    },
+    {
+        "codes": [
+            "ie"
+        ],
+        "names": [
+            "Interlingue"
+        ]
+    },
+    {
+        "codes": [
+            "ho"
+        ],
+        "names": [
+            "Hiri Motu"
+        ]
+    },
+    {
+        "codes": [
+            "cr"
+        ],
+        "names": [
+            "Cree"
+        ]
+    },
+    {
+        "codes": [
+            "hz"
+        ],
+        "names": [
+            "Herero"
+        ]
+    },
+    {
+        "codes": [
+            "Huyu"
+        ]
+    },
+    {
+        "codes": [
+            "byn"
+        ]
+    },
+    {
+        "codes": [
+            "cbk"
+        ]
+    },
+    {
+        "codes": [
+            "chm"
+        ]
+    },
+    {
+        "codes": [
+            "csb"
+        ]
+    },
+    {
+        "codes": [
+            "dtp"
+        ]
+    },
+    {
+        "codes": [
+            "fvr"
+        ]
+    },
+    {
+        "codes": [
+            "gil"
+        ]
+    },
+    {
+        "codes": [
+            "gos"
+        ]
+    },
+    {
+        "codes": [
+            "hil"
+        ]
+    },
+    {
+        "codes": [
+            "hup"
+        ]
+    },
+    {
+        "codes": [
+            "iba"
+        ]
+    },
+    {
+        "codes": [
+            "inh"
+        ]
+    },
+    {
+        "codes": [
+            "jbo"
+        ]
+    },
+    {
+        "codes": [
+            "kdx"
+        ]
+    },
+    {
+        "codes": [
+            "kek"
+        ]
+    },
+    {
+        "codes": [
+            "kha"
+        ]
+    },
+    {
+        "codes": [
+            "lfn"
+        ]
+    },
+    {
+        "codes": [
+            "mfe"
+        ]
+    },
+    {
+        "codes": [
+            "mus"
+        ]
+    },
+    {
+        "codes": [
+            "nch"
+        ]
+    },
+    {
+        "codes": [
+            "nds"
+        ]
+    },
+    {
+        "codes": [
+            "ngu"
+        ]
+    },
+    {
+        "codes": [
+            "niu"
+        ]
+    },
+    {
+        "codes": [
+            "pmn"
+        ]
+    },
+    {
+        "codes": [
+            "quc"
+        ]
+    },
+    {
+        "codes": [
+            "rom"
+        ]
+    },
+    {
+        "codes": [
+            "rue"
+        ]
+    },
+    {
+        "codes": [
+            "sco"
+        ]
+    },
+    {
+        "codes": [
+            "syr"
+        ]
+    },
+    {
+        "codes": [
+            "toi"
+        ]
+    },
+    {
+        "codes": [
+            "tvl"
+        ]
+    },
+    {
+        "codes": [
+            "tyv"
+        ]
+    },
+    {
+        "codes": [
+            "ang"
+        ]
+    },
+    {
+        "codes": [
+            "dsb"
+        ]
+    },
+    {
+        "codes": [
+            "eab"
+        ]
+    },
+    {
+        "codes": [
+            "frm"
+        ]
+    },
+    {
+        "codes": [
+            "grc"
+        ]
+    },
+    {
+        "codes": [
+            "hak"
+        ]
+    },
+    {
+        "codes": [
+            "kok"
+        ]
+    },
+    {
+        "codes": [
+            "nap"
+        ]
+    },
+    {
+        "codes": [
+            "nqo"
+        ]
+    },
+    {
+        "codes": [
+            "pam"
+        ]
+    },
+    {
+        "codes": [
+            "rsk"
+        ]
+    },
+    {
+        "codes": [
+            "son"
+        ]
+    },
+    {
+        "codes": [
+            "zaz"
+        ]
+    },
+    {
+        "codes": [
+            "doi"
+        ]
+    },
+    {
+        "codes": [
+            "gom"
+        ]
+    },
+    {
+        "codes": [
+            "kri"
+        ]
+    },
+    {
+        "codes": [
+            "crp"
+        ]
+    },
+    {
+        "codes": [
+            "acr"
+        ]
+    },
+    {
+        "codes": [
+            "acu"
+        ]
+    },
+    {
+        "codes": [
+            "ada"
+        ]
+    },
+    {
+        "codes": [
+            "adh"
+        ]
+    },
+    {
+        "codes": [
+            "agr"
+        ]
+    },
+    {
+        "codes": [
+            "ake"
+        ]
+    },
+    {
+        "codes": [
+            "amk"
+        ]
+    },
+    {
+        "codes": [
+            "amu"
+        ]
+    },
+    {
+        "codes": [
+            "any"
+        ]
+    },
+    {
+        "codes": [
+            "arn"
+        ]
+    },
+    {
+        "codes": [
+            "ata"
+        ]
+    },
+    {
+        "codes": [
+            "bba"
+        ]
+    },
+    {
+        "codes": [
+            "bch"
+        ]
+    },
+    {
+        "codes": [
+            "bci"
+        ]
+    },
+    {
+        "codes": [
+            "bcl"
+        ]
+    },
+    {
+        "codes": [
+            "bdh"
+        ]
+    },
+    {
+        "codes": [
+            "bdu"
+        ]
+    },
+    {
+        "codes": [
+            "bfa"
+        ]
+    },
+    {
+        "codes": [
+            "bhw"
+        ]
+    },
+    {
+        "codes": [
+            "bin"
+        ]
+    },
+    {
+        "codes": [
+            "bno"
+        ]
+    },
+    {
+        "codes": [
+            "bnp"
+        ]
+    },
+    {
+        "codes": [
+            "bqj"
+        ]
+    },
+    {
+        "codes": [
+            "bqp"
+        ]
+    },
+    {
+        "codes": [
+            "bsn"
+        ]
+    },
+    {
+        "codes": [
+            "btx"
+        ]
+    },
+    {
+        "codes": [
+            "bum"
+        ]
+    },
+    {
+        "codes": [
+            "bus"
+        ]
+    },
+    {
+        "codes": [
+            "byr"
+        ]
+    },
+    {
+        "codes": [
+            "bzj"
+        ]
+    },
+    {
+        "codes": [
+            "cab"
+        ]
+    },
+    {
+        "codes": [
+            "cak"
+        ]
+    },
+    {
+        "codes": [
+            "cas"
+        ]
+    },
+    {
+        "codes": [
+            "cbl"
+        ]
+    },
+    {
+        "codes": [
+            "cce"
+        ]
+    },
+    {
+        "codes": [
+            "ccp"
+        ]
+    },
+    {
+        "codes": [
+            "cdf"
+        ]
+    },
+    {
+        "codes": [
+            "cfm"
+        ]
+    },
+    {
+        "codes": [
+            "chk"
+        ]
+    },
+    {
+        "codes": [
+            "chq"
+        ]
+    },
+    {
+        "codes": [
+            "cht"
+        ]
+    },
+    {
+        "codes": [
+            "cjp"
+        ]
+    },
+    {
+        "codes": [
+            "cki"
+        ]
+    },
+    {
+        "codes": [
+            "cnh"
+        ]
+    },
+    {
+        "codes": [
+            "cni"
+        ]
+    },
+    {
+        "codes": [
+            "cop"
+        ]
+    },
+    {
+        "codes": [
+            "cpb"
+        ]
+    },
+    {
+        "codes": [
+            "crs"
+        ]
+    },
+    {
+        "codes": [
+            "ctd"
+        ]
+    },
+    {
+        "codes": [
+            "czt"
+        ]
+    },
+    {
+        "codes": [
+            "dhv"
+        ]
+    },
+    {
+        "codes": [
+            "djk"
+        ]
+    },
+    {
+        "codes": [
+            "dop"
+        ]
+    },
+    {
+        "codes": [
+            "dua"
+        ]
+    },
+    {
+        "codes": [
+            "duo"
+        ]
+    },
+    {
+        "codes": [
+            "efi"
+        ]
+    },
+    {
+        "codes": [
+            "enx"
+        ]
+    },
+    {
+        "codes": [
+            "gaa"
+        ]
+    },
+    {
+        "codes": [
+            "gbi"
+        ]
+    },
+    {
+        "codes": [
+            "gbo"
+        ]
+    },
+    {
+        "codes": [
+            "gnw"
+        ]
+    },
+    {
+        "codes": [
+            "gof"
+        ]
+    },
+    {
+        "codes": [
+            "gub"
+        ]
+    },
+    {
+        "codes": [
+            "guc"
+        ]
+    },
+    {
+        "codes": [
+            "gur"
+        ]
+    },
+    {
+        "codes": [
+            "guw"
+        ]
+    },
+    {
+        "codes": [
+            "gym"
+        ]
+    },
+    {
+        "codes": [
+            "hlb"
+        ]
+    },
+    {
+        "codes": [
+            "hui"
+        ]
+    },
+    {
+        "codes": [
+            "huv"
+        ]
+    },
+    {
+        "codes": [
+            "hwc"
+        ]
+    },
+    {
+        "codes": [
+            "ibg"
+        ]
+    },
+    {
+        "codes": [
+            "ifa"
+        ]
+    },
+    {
+        "codes": [
+            "ifb"
+        ]
+    },
+    {
+        "codes": [
+            "ify"
+        ]
+    },
+    {
+        "codes": [
+            "ikk"
+        ]
+    },
+    {
+        "codes": [
+            "iou"
+        ]
+    },
+    {
+        "codes": [
+            "ish"
+        ]
+    },
+    {
+        "codes": [
+            "iso"
+        ]
+    },
+    {
+        "codes": [
+            "izz"
+        ]
+    },
+    {
+        "codes": [
+            "jac"
+        ]
+    },
+    {
+        "codes": [
+            "jae"
+        ]
+    },
+    {
+        "codes": [
+            "jiv"
+        ]
+    },
+    {
+        "codes": [
+            "jmc"
+        ]
+    },
+    {
+        "codes": [
+            "kbh"
+        ]
+    },
+    {
+        "codes": [
+            "kbo"
+        ]
+    },
+    {
+        "codes": [
+            "keo"
+        ]
+    },
+    {
+        "codes": [
+            "kle"
+        ]
+    },
+    {
+        "codes": [
+            "knj"
+        ]
+    },
+    {
+        "codes": [
+            "kpg"
+        ]
+    },
+    {
+        "codes": [
+            "kqn"
+        ]
+    },
+    {
+        "codes": [
+            "krs"
+        ]
+    },
+    {
+        "codes": [
+            "ksd"
+        ]
+    },
+    {
+        "codes": [
+            "kwy"
+        ]
+    },
+    {
+        "codes": [
+            "kyu"
+        ]
+    },
+    {
+        "codes": [
+            "lcm"
+        ]
+    },
+    {
+        "codes": [
+            "lcp"
+        ]
+    },
+    {
+        "codes": [
+            "lnd"
+        ]
+    },
+    {
+        "codes": [
+            "loz"
+        ]
+    },
+    {
+        "codes": [
+            "lsi"
+        ]
+    },
+    {
+        "codes": [
+            "lue"
+        ]
+    },
+    {
+        "codes": [
+            "lun"
+        ]
+    },
+    {
+        "codes": [
+            "mad"
+        ]
+    },
+    {
+        "codes": [
+            "mam"
+        ]
+    },
+    {
+        "codes": [
+            "map"
+        ]
+    },
+    {
+        "codes": [
+            "mau"
+        ]
+    },
+    {
+        "codes": [
+            "mbb"
+        ]
+    },
+    {
+        "codes": [
+            "mdy"
+        ]
+    },
+    {
+        "codes": [
+            "meu"
+        ]
+    },
+    {
+        "codes": [
+            "mps"
+        ]
+    },
+    {
+        "codes": [
+            "mrw"
+        ]
+    },
+    {
+        "codes": [
+            "muv"
+        ]
+    },
+    {
+        "codes": [
+            "nba"
+        ]
+    },
+    {
+        "codes": [
+            "ndc"
+        ]
+    },
+    {
+        "codes": [
+            "ngl"
+        ]
+    },
+    {
+        "codes": [
+            "nhg"
+        ]
+    },
+    {
+        "codes": [
+            "nia"
+        ]
+    },
+    {
+        "codes": [
+            "nij"
+        ]
+    },
+    {
+        "codes": [
+            "nop"
+        ]
+    },
+    {
+        "codes": [
+            "ntm"
+        ]
+    },
+    {
+        "codes": [
+            "nyk"
+        ]
+    },
+    {
+        "codes": [
+            "nyn"
+        ]
+    },
+    {
+        "codes": [
+            "nyu"
+        ]
+    },
+    {
+        "codes": [
+            "nyy"
+        ]
+    },
+    {
+        "codes": [
+            "nzi"
+        ]
+    },
+    {
+        "codes": [
+            "ojb"
+        ]
+    },
+    {
+        "codes": [
+            "ond"
+        ]
+    },
+    {
+        "codes": [
+            "pck"
+        ]
+    },
+    {
+        "codes": [
+            "pcm"
+        ]
+    },
+    {
+        "codes": [
+            "pil"
+        ]
+    },
+    {
+        "codes": [
+            "pis"
+        ]
+    },
+    {
+        "codes": [
+            "poh"
+        ]
+    },
+    {
+        "codes": [
+            "pon"
+        ]
+    },
+    {
+        "codes": [
+            "pot"
+        ]
+    },
+    {
+        "codes": [
+            "ppk"
+        ]
+    },
+    {
+        "codes": [
+            "prk"
+        ]
+    },
+    {
+        "codes": [
+            "pss"
+        ]
+    },
+    {
+        "codes": [
+            "ptu"
+        ]
+    },
+    {
+        "codes": [
+            "quh"
+        ]
+    },
+    {
+        "codes": [
+            "quw"
+        ]
+    },
+    {
+        "codes": [
+            "quz"
+        ]
+    },
+    {
+        "codes": [
+            "qxr"
+        ]
+    },
+    {
+        "codes": [
+            "rar"
+        ]
+    },
+    {
+        "codes": [
+            "rmn"
+        ]
+    },
+    {
+        "codes": [
+            "rnd"
+        ]
+    },
+    {
+        "codes": [
+            "rug"
+        ]
+    },
+    {
+        "codes": [
+            "seh"
+        ]
+    },
+    {
+        "codes": [
+            "shi"
+        ]
+    },
+    {
+        "codes": [
+            "shp"
+        ]
+    },
+    {
+        "codes": [
+            "sid"
+        ]
+    },
+    {
+        "codes": [
+            "sop"
+        ]
+    },
+    {
+        "codes": [
+            "spy"
+        ]
+    },
+    {
+        "codes": [
+            "srm"
+        ]
+    },
+    {
+        "codes": [
+            "ssd"
+        ]
+    },
+    {
+        "codes": [
+            "ssx"
+        ]
+    },
+    {
+        "codes": [
+            "swp"
+        ]
+    },
+    {
+        "codes": [
+            "sxn"
+        ]
+    },
+    {
+        "codes": [
+            "syc"
+        ]
+    },
+    {
+        "codes": [
+            "tbz"
+        ]
+    },
+    {
+        "codes": [
+            "tdt"
+        ]
+    },
+    {
+        "codes": [
+            "teo"
+        ]
+    },
+    {
+        "codes": [
+            "tex"
+        ]
+    },
+    {
+        "codes": [
+            "tig"
+        ]
+    },
+    {
+        "codes": [
+            "tih"
+        ]
+    },
+    {
+        "codes": [
+            "tiv"
+        ]
+    },
+    {
+        "codes": [
+            "tll"
+        ]
+    },
+    {
+        "codes": [
+            "tmh"
+        ]
+    },
+    {
+        "codes": [
+            "toj"
+        ]
+    },
+    {
+        "codes": [
+            "tpm"
+        ]
+    },
+    {
+        "codes": [
+            "tsc"
+        ]
+    },
+    {
+        "codes": [
+            "ttj"
+        ]
+    },
+    {
+        "codes": [
+            "tzh"
+        ]
+    },
+    {
+        "codes": [
+            "tzo"
+        ]
+    },
+    {
+        "codes": [
+            "urh"
+        ]
+    },
+    {
+        "codes": [
+            "usp"
+        ]
+    },
+    {
+        "codes": [
+            "vun"
+        ]
+    },
+    {
+        "codes": [
+            "wal"
+        ]
+    },
+    {
+        "codes": [
+            "wes"
+        ]
+    },
+    {
+        "codes": [
+            "wls"
+        ]
+    },
+    {
+        "codes": [
+            "wlx"
+        ]
+    },
+    {
+        "codes": [
+            "wrs"
+        ]
+    },
+    {
+        "codes": [
+            "wsk"
+        ]
+    },
+    {
+        "codes": [
+            "xal"
+        ]
+    },
+    {
+        "codes": [
+            "xsm"
+        ]
+    },
+    {
+        "codes": [
+            "yap"
+        ]
+    },
+    {
+        "codes": [
+            "yon"
+        ]
+    },
+    {
+        "codes": [
+            "zne"
+        ]
+    },
+    {
+        "codes": [
+            "zyb"
         ]
     }
 ]

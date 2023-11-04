@@ -62,7 +62,7 @@ supported_languages:
   base_code: hi
   name: Hindi
   variant_name: null
-- slug: null
+- slug: Huyu
   code: huyu
   normalized_code: Huyu
   base_code: Huyu

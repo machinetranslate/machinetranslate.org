@@ -328,22 +328,22 @@ for code in LANGUAGE_FAMILIES:
 
 
 ### Add unlisted languages to languages.json
-# for code, _ in UNLISTED_LANGUAGES.items():
-#   unlisted_languages = {
-#     'codes': [
-#       code
-#     ]
-#   }
+for code, _ in UNLISTED_LANGUAGES.items():
+  unlisted_languages = {
+    'codes': [
+      code
+    ]
+  }
 
-#   filepath = '_data/languages.json'
+  filepath = '_data/languages.json'
 
-#   with open(filepath, 'r', encoding='utf8') as file:
-#     existing_data = json.load(file)
-#   if unlisted_languages not in existing_data:
-#     existing_data.append(unlisted_languages)
+  with open(filepath, 'r', encoding='utf8') as file:
+    existing_data = json.load(file)
+  if unlisted_languages not in existing_data:
+    existing_data.append(unlisted_languages)
 
-#   with open(filepath, 'w', encoding='utf8') as file:
-#     json.dump(existing_data, file, ensure_ascii=False, indent=4)
+  with open(filepath, 'w', encoding='utf8') as file:
+    json.dump(existing_data, file, ensure_ascii=False, indent=4)
 
 ### Write languages
 API_SUPPORTED_LANGUAGE_BASE_CODES = supported_language_base_codes(APIS)
