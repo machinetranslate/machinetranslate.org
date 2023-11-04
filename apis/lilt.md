@@ -69,7 +69,7 @@ supported_languages:
   base_code: ca
   name: Catalan
   variant_name: null
-- slug: null
+- slug: crp
   code: crp
   normalized_code: crp
   base_code: crp
