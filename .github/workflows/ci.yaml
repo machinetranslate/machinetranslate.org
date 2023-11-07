@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+    run-tests:
+        strategy:
+            fail-fast: false
+            matrix:
+                os: [ubuntu-latest]
+                python-versions:
+                    - '3.10'
+                    - '3.11'
+                    - '3.12-dev'
+        name: Test
+        runs-on: ${{ matrix.os }} 
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+
+            - name: Set up Ruby
+              uses: ruby/setup-ruby@v1
+              with:
+                ruby-version: 2.7 
+
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                python-version: ${{ matrix.python-versions }}
+            - name: Install Jekyll and Bundler
+              run: |
+                gem install jekyll bundler
+                bundle install
+              env:
+                JEKYLL_ENV: development
+
+            - name: Install Python dependencies
+              run: pip install -r .github/tests/test_requirements.txt
+
+            - name: Build Jekyll site
+              run: bundle exec jekyll serve
+              env:
+                JEKYLL_ENV: production
+
+            - name: Run tests
+              run: pytest
