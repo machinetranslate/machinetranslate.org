@@ -9,6 +9,7 @@ title: "Volap\xFCk"
 description: "Machine translation for Volap\xFCk"
 codes:
 - vo
+- vol
 names:
 - "Volap\xFCk"
 family: []

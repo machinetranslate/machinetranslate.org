@@ -9,6 +9,7 @@ title: Chamorro
 description: Machine translation for Chamorro
 codes:
 - ch
+- cha
 names:
 - Chamorro
 family: []

@@ -9,6 +9,7 @@ title: Herero
 description: Machine translation for Herero
 codes:
 - hz
+- her
 names:
 - Herero
 family: []

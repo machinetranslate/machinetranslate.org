@@ -9,6 +9,7 @@ title: Walloon
 description: Machine translation for Walloon
 codes:
 - wa
+- wln
 names:
 - Walloon
 family: []

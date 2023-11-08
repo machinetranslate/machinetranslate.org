@@ -9,6 +9,7 @@ title: Navajo
 description: Machine translation for Navajo
 codes:
 - nv
+- nav
 names:
 - Navajo
 family: []

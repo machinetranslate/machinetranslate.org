@@ -24,7 +24,7 @@ typology:
   word_order:
   - SVO
   morphosyntax:
-  - ''
+  - agglutinative
 territories:
 - cd
 supported_apis:

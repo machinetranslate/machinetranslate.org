@@ -9,6 +9,7 @@ title: South Ndebele
 description: Machine translation for South Ndebele
 codes:
 - nr
+- nbl
 names:
 - South Ndebele
 family: []

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import json
 import yaml
+from unidecode import unidecode
 from os.path import exists
 
 
@@ -12,35 +13,35 @@ QUALITY_ESTIMATION = None
 
 
 ### Read scripts
-with open('_data/scripts.json', 'r', encoding='utf8') as stream:
+with open('_data/scripts.json', 'r', encoding='utf-8') as stream:
   SCRIPTS = json.load(stream)
 
 ### Read languages
-with open('_data/languages.json', 'r', encoding='utf8') as stream:
+with open('_data/languages.json', 'r', encoding='utf-8') as stream:
   LANGUAGES = json.load(stream)
 
 ### Read language families
-with open('_data/language_families.json', 'r', encoding='utf8') as stream:
+with open('_data/language_families.json', 'r', encoding='utf-8') as stream:
   LANGUAGE_FAMILIES = json.load(stream)
 
 ### Read APIs
-with open('_data/apis.json', 'r', encoding='utf8') as stream:
+with open('_data/apis.json', 'r', encoding='utf-8') as stream:
   APIS = json.load(stream)
 
 ### Read API-language conversions
-with open('_data/api_language.json', 'r', encoding='utf8') as stream:
+with open('_data/api_language.json', 'r', encoding='utf-8') as stream:
   API_LANGUAGE = json.load(stream)
 
 ### Read translation management systems
-with open('_data/integrations.json', 'r', encoding='utf8') as stream:
+with open('_data/integrations.json', 'r', encoding='utf-8') as stream:
   INTEGRATIONS = json.load(stream)
 
 ### Read aggregators
-with open('_data/aggregators.json', 'r', encoding='utf8') as stream:
+with open('_data/aggregators.json', 'r', encoding='utf-8') as stream:
   AGGREGATORS = json.load(stream)
 
 ### Read quality estimation companies
-with open ('_data/quality_estimation.json', 'r', encoding='utf8') as stream:
+with open ('_data/quality_estimation.json', 'r', encoding='utf-8') as stream:
   QUALITY_ESTIMATION = json.load(stream)
 
 def base_language_code(locale_code):
@@ -102,6 +103,7 @@ def get_language_variant_name(locale_code, api_id):
 
 def slugify(name):
   # Should work *exactly* like in Liquid!
+  name = unidecode(name)
   return name.lower().replace(' ', '-').replace('.', '')
 
 def flatten(l):
@@ -117,7 +119,7 @@ def read_content(filepath):
   content = ''
   if not exists(filepath):
     return ''
-  with open(filepath, 'r', encoding='utf8') as f:
+  with open(filepath, 'r', encoding='utf-8') as f:
     page = f.read()
     i = page.find('\n---\n', 3)
     i += len('\n---\n')
@@ -215,7 +217,7 @@ for api in APIS:
         language_name = language.get('names', [None])[0]
         language_slug = slugify(language_name) if language_name else base_code
         break
-    if api_id not in [ 'alibaba', 'baidu', 'niutrans' ] and len(base_code) == 2 and not language_name:
+    if len(base_code) == 2 and not language_name:
       # This is usually a typo.
       raise Exception('2-letter language codes should be in languages.json.  No name found for: ' + base_code + '(' + api_id + ')')
     variant_name = get_language_variant_name(code, api_id)
@@ -268,7 +270,7 @@ for api in APIS:
 
   content = read_content(filepath)
 
-  with open(filepath, 'w', encoding='utf8') as f:
+  with open(filepath, 'w', encoding='utf-8') as f:
     f.write(f'''\
 ---
 { yaml.dump(frontmatter, sort_keys=False) }
@@ -318,7 +320,7 @@ for code in LANGUAGE_FAMILIES:
     }
   }
 
-  with open(filepath, 'w', encoding='utf8') as f:
+  with open(filepath, 'w', encoding='utf-8') as f:
     f.write(f'''\
 ---
 { yaml.dump(frontmatter, sort_keys=False) }
@@ -337,13 +339,14 @@ for code, _ in UNLISTED_LANGUAGES.items():
 
   filepath = '_data/languages.json'
 
-  with open(filepath, 'r', encoding='utf8') as file:
+  with open(filepath, 'r', encoding='utf-8') as file:
     existing_data = json.load(file)
   if unlisted_languages not in existing_data:
     existing_data.append(unlisted_languages)
 
-  with open(filepath, 'w', encoding='utf8') as file:
+  with open(filepath, 'w', encoding='utf-8') as file:
     json.dump(existing_data, file, ensure_ascii=False, indent=4)
+
 
 ### Write languages
 API_SUPPORTED_LANGUAGE_BASE_CODES = supported_language_base_codes(APIS)
@@ -429,7 +432,7 @@ for language in LANGUAGES:
 
   content = read_content(filepath)
 
-  with open(filepath, 'w', encoding='utf8') as f:
+  with open(filepath, 'w', encoding='utf-8') as f:
     f.write(f'''\
 ---
 { yaml.dump(frontmatter, sort_keys=False) }
@@ -536,7 +539,7 @@ for tms in INTEGRATIONS:
 
     content = read_content(filepath)
     
-    with open(filepath, 'w', encoding='utf8') as f:
+    with open(filepath, 'w', encoding='utf-8') as f:
         f.write(f'''\
 ---
 { yaml.dump(frontmatter, sort_keys=False) }
@@ -598,7 +601,7 @@ for a in AGGREGATORS:
 
     content = read_content(filepath)
 
-    with open(filepath, 'w', encoding='utf8') as f:
+    with open(filepath, 'w', encoding='utf-8') as f:
         f.write(f'''\
 ---
 { yaml.dump(frontmatter, sort_keys=False) }
@@ -714,7 +717,7 @@ for estimation in QUALITY_ESTIMATION:
 
   content = read_content(filepath)
 
-  with open(filepath, 'w', encoding='utf8') as f:
+  with open(filepath, 'w', encoding='utf-8') as f:
     f.write(f'''\
 ---
 { yaml.dump(frontmatter, sort_keys=False) }

@@ -549,11 +549,11 @@ supported_languages:
   base_code: kab
   name: Kabyle
   variant_name: null
-- slug: kalaallisut,
+- slug: kalaallisut
   code: kal
   normalized_code: kl
   base_code: kl
-  name: Kalaallisut,
+  name: Kalaallisut
   variant_name: null
 - slug: kannada
   code: kan

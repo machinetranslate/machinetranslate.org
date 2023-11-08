@@ -9,6 +9,7 @@ title: Interlingua
 description: Machine translation for Interlingua
 codes:
 - ia
+- ina
 names:
 - Interlingua
 family: []

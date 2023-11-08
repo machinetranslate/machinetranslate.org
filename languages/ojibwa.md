@@ -9,6 +9,7 @@ title: Ojibwa
 description: Machine translation for Ojibwa
 codes:
 - oj
+- oji
 names:
 - Ojibwa
 family: []

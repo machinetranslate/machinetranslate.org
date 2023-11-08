@@ -5,12 +5,13 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: Kalaallisut,
-description: Machine translation for Kalaallisut,
+title: Kalaallisut
+description: Machine translation for Kalaallisut
 codes:
 - kl
+- kal
 names:
-- Kalaallisut,
+- Kalaallisut
 family: []
 supported_apis:
 - id: baidu
@@ -19,7 +20,7 @@ supported_apis:
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for Kalaallisut,
+  name: Machine translation for Kalaallisut
   type: Language
 
 ---

@@ -9,6 +9,7 @@ title: Hiri Motu
 description: Machine translation for Hiri Motu
 codes:
 - ho
+- hmo
 names:
 - Hiri Motu
 family: []

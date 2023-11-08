@@ -9,6 +9,7 @@ title: Luba-Katanga
 description: Machine translation for Luba-Katanga
 codes:
 - lu
+- lub
 names:
 - Luba-Katanga
 family: []

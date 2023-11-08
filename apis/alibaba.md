@@ -596,11 +596,11 @@ supported_languages:
   base_code: kk
   name: Kazakh
   variant_name: null
-- slug: kalaallisut,
+- slug: kalaallisut
   code: kl
   normalized_code: kl
   base_code: kl
-  name: Kalaallisut,
+  name: Kalaallisut
   variant_name: null
 - slug: khmer
   code: km
@@ -1226,7 +1226,7 @@ supported_languages:
   base_code: vi
   name: Vietnamese
   variant_name: null
-- slug: "volap\xFCk"
+- slug: volapuk
   code: vo
   normalized_code: vo
   base_code: vo

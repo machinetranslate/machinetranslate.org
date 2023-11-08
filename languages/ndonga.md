@@ -9,6 +9,7 @@ title: Ndonga
 description: Machine translation for Ndonga
 codes:
 - ng
+- ndo
 names:
 - Ndonga
 family: []

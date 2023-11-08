@@ -777,7 +777,7 @@
                 "SVO"
             ],
             "morphosyntax": [
-                ""
+                "agglutinative"
             ]
         },
         "territories": [
@@ -6714,7 +6714,8 @@
     },
     {
         "codes": [
-            "ch"
+            "ch",
+            "cha"
         ],
         "names": [
             "Chamorro"
@@ -6722,7 +6723,8 @@
     },
     {
         "codes": [
-            "ia"
+            "ia",
+            "ina"
         ],
         "names": [
             "Interlingua"
@@ -6730,7 +6732,8 @@
     },
     {
         "codes": [
-            "io"
+            "io",
+            "ido"
         ],
         "names": [
             "Ido"
@@ -6738,15 +6741,17 @@
     },
     {
         "codes": [
-            "kl"
+            "kl",
+            "kal"
         ],
         "names": [
-            "Kalaallisut,"
+            "Kalaallisut"
         ]
     },
     {
         "codes": [
-            "nv"
+            "nv",
+            "nav"
         ],
         "names": [
             "Navajo"
@@ -6754,7 +6759,8 @@
     },
     {
         "codes": [
-            "oj"
+            "oj",
+            "oji"
         ],
         "names": [
             "Ojibwa"
@@ -6762,7 +6768,8 @@
     },
     {
         "codes": [
-            "wa"
+            "wa",
+            "wln"
         ],
         "names": [
             "Walloon"
@@ -6770,7 +6777,8 @@
     },
     {
         "codes": [
-            "vo"
+            "vo",
+            "vol"
         ],
         "names": [
             "Volapük"
@@ -6778,7 +6786,8 @@
     },
     {
         "codes": [
-            "ng"
+            "ng",
+            "ndo"
         ],
         "names": [
             "Ndonga"
@@ -6786,7 +6795,8 @@
     },
     {
         "codes": [
-            "nr"
+            "nr",
+            "nbl"
         ],
         "names": [
             "South Ndebele"
@@ -6794,7 +6804,8 @@
     },
     {
         "codes": [
-            "lu"
+            "lu",
+            "lub"
         ],
         "names": [
             "Luba-Katanga"
@@ -6802,15 +6813,18 @@
     },
     {
         "codes": [
-            "ie"
+            "ie",
+            "ile"
         ],
         "names": [
-            "Interlingue"
+            "Interlingue",
+            "Occidental"
         ]
     },
     {
         "codes": [
-            "ho"
+            "ho",
+            "hmo"
         ],
         "names": [
             "Hiri Motu"
@@ -6818,7 +6832,8 @@
     },
     {
         "codes": [
-            "cr"
+            "cr",
+            "cre"
         ],
         "names": [
             "Cree"
@@ -6826,7 +6841,8 @@
     },
     {
         "codes": [
-            "hz"
+            "hz",
+            "her"
         ],
         "names": [
             "Herero"

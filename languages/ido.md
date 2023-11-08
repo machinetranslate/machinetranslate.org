@@ -9,6 +9,7 @@ title: Ido
 description: Machine translation for Ido
 codes:
 - io
+- ido
 names:
 - Ido
 family: []

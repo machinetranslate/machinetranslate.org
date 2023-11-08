@@ -9,8 +9,10 @@ title: Interlingue
 description: Machine translation for Interlingue
 codes:
 - ie
+- ile
 names:
 - Interlingue
+- Occidental
 family: []
 supported_apis:
 - id: alibaba

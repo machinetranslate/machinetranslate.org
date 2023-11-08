@@ -9,6 +9,7 @@ title: Cree
 description: Machine translation for Cree
 codes:
 - cr
+- cre
 names:
 - Cree
 family: []
