@@ -57,7 +57,6 @@ seo:
 The content covers everything about machine translation, from products to research, and from history to news.
 
 > #### Featured events
-> - [AMTA 2023](/amta2023) - 8 November, online - **Schedule available!**
 > - [WMT23](/wmt23) - 6-7 December, Singapore
 > - [Machine translation meetup](/meetup)
 
