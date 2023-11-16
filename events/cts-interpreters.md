@@ -24,9 +24,9 @@ seo:
     url: https://www.surrey.ac.uk/centre-translation-studies
 ---
 
-The talk **At a loss with technology? Some current research initiatives to assist (or even replace) interpreters** will take place online on 15 November, 2023.
+The talk **At a loss with technology? Some current research initiatives to assist (or even replace) interpreters** took place online on 15 November, 2023.
 
-The speaker will be Gloria Corpas Pastor, Professor of Translation and Interpreting at the University of Malaga, Spain.
+The speaker was Gloria Corpas Pastor, Professor of Translation and Interpreting at the University of Malaga, Spain.
 
 
 > In this talk, I will present four R&D projects on interpreting technologies developed within the Lexytrad research group.

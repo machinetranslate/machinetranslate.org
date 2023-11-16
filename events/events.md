@@ -22,8 +22,9 @@ seo:
 | Date | Event | Location |
 | --- | --- | --- |
 | 6 - 7 December | [**WMT23**](/wmt23) | Singapore |
+| 4 December | [Language AI Meetup](/zurich-14) |  Zurich, Switzerland |
 | 8 November | [AMTA 2023](/amta2023) | online |
-| 15 November | [**At a loss with technology? Some current research initiatives to assist (or even replace) interpreters**]
+| 15 November | [At a loss with technology? Some current research initiatives to assist (or even replace) interpreters](/cts-interpreters) | online |
 | 8 November | [AMTA 2023](/amta2023) | online |
 | 18 October | [The Importance of Data Anonymization to Build Ethical AI](/data-anonymization-ethical-ai) | online |
 | 4 - 6 October | [TAUS Annual Conference 2023](/taus2023) | Salt Lake City, Utah |
