@@ -27,10 +27,10 @@ typology:
 territories:
 - id
 supported_apis:
-- id: language-weaver
-  name: Language Weaver
 - id: lilt
   name: Lilt
+- id: language-weaver
+  name: Language Weaver
 - id: yandex
   name: Yandex Translate
 - id: lingvanex

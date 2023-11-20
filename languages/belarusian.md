@@ -33,14 +33,14 @@ supported_apis:
   name: Apertium
 - id: kantanmt
   name: KantanMT
+- id: lilt
+  name: Lilt
 - id: omniscien
   name: Omniscien Technologies
 - id: apptek
   name: AppTek
 - id: wordlingo
   name: Wordlingo
-- id: lilt
-  name: Lilt
 - id: yandex
   name: Yandex Translate
 - id: lingvanex

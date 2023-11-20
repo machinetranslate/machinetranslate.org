@@ -26,6 +26,8 @@ typology:
 territories:
 - id
 supported_apis:
+- id: lilt
+  name: Lilt
 - id: watson
   name: Watson Language Translator
 - id: apptek
@@ -34,8 +36,6 @@ supported_apis:
   name: Wordlingo
 - id: amazon
   name: Amazon Translate
-- id: lilt
-  name: Lilt
 - id: yandex
   name: Yandex Translate
 - id: microsoft

@@ -34,6 +34,8 @@ territories:
 supported_apis:
 - id: systran
   name: SYSTRAN
+- id: lilt
+  name: Lilt
 - id: watson
   name: Watson Language Translator
 - id: omniscien
@@ -42,8 +44,6 @@ supported_apis:
   name: AppTek
 - id: amazon
   name: Amazon Translate
-- id: lilt
-  name: Lilt
 - id: yandex
   name: Yandex Translate
 - id: microsoft

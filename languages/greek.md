@@ -56,6 +56,8 @@ supported_apis:
   name: Iconic
 - id: iptranslator
   name: IP Translator
+- id: lilt
+  name: Lilt
 - id: watson
   name: Watson Language Translator
 - id: language-weaver
@@ -68,8 +70,6 @@ supported_apis:
   name: Wordlingo
 - id: amazon
   name: Amazon Translate
-- id: lilt
-  name: Lilt
 - id: yandex
   name: Yandex Translate
 - id: microsoft

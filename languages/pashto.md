@@ -34,14 +34,14 @@ territories:
 supported_apis:
 - id: systran
   name: SYSTRAN
+- id: lilt
+  name: Lilt
 - id: language-weaver
   name: Language Weaver
 - id: apptek
   name: AppTek
 - id: amazon
   name: Amazon Translate
-- id: lilt
-  name: Lilt
 - id: microsoft
   name: Microsoft Translator
 - id: lingvanex
