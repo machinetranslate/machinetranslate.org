@@ -6,7 +6,7 @@ community_search_exclude: true
 description: The Machine Translate style guide
 ---
 
-Machine Translate was founded as open information and community for people who want to use machine translation in their work, products or services.
+The Machine Translate Foundation was founded as open information and community for people who want to use machine translation in their work, products or services.
 They are diverse and busy, so the content should be high-level and understandable.
 
 > **Less is more.**
@@ -103,9 +103,9 @@ For terms with multiple spellings, check Machine Translate to find the preferred
 
 * *~~Rules-based machine translation~~* *Rule-based machine translation*
 
-## Machine Translate and machinetranslate.org
+## The Machine Translate Foundation and machinetranslate.org
 
-Refer to this project and community as _Machine Translate_.
+Refer to this project and community as the _Machine Translate Foundation_.
 
 
 # 🖌 Formatting

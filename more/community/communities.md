@@ -28,7 +28,7 @@ The **machinetranslation** sub-reddit posts are news, projects and questions abo
 
 [reddit.com/r/machinetranslation/](https://www.reddit.com/r/machinetranslation/)
 
-This is the open community officialy supported by Machine Translate.
+This is the open community officialy supported by the Machine Translate Foundation.
 
 
 ### *Machine Translation* on Facebook

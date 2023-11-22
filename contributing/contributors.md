@@ -3,12 +3,12 @@ nav_order: 3
 parent: Contributing
 title: Contributors
 community_search_exclude: true
-description: Contributors to Machine Translate
+description: Contributors to the Machine Translate Foundation
 ---
 
 {% include contributions.html %}
 
-**{{ site.github.contributors | size }} contributors** have made **[{{ all_contributions }} contributions](https://github.com/machinetranslate/machinetranslate.org/graphs/contributors?type=a)** to Machine Translate.
+**{{ site.github.contributors | size }} contributors** have made **[{{ all_contributions }} contributions](https://github.com/machinetranslate/machinetranslate.org/graphs/contributors?type=a)** to the Machine Translate Foundation.
 
 <div id='contributors'>
   {% for user in site.github.contributors %}

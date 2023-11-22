@@ -3,12 +3,12 @@ nav_order: 1100
 has_children: false
 community_search_exclude: true
 title: Newsletter
-description: The monthly newsletter on machine translation from the Machine Translate foundation
+description: The monthly newsletter on machine translation from the Machine Translate Foundation
 seo:
-  name: The monthly newsletter on machine translation from the Machine Translate foundation
+  name: The monthly newsletter on machine translation from the Machine Translate Foundation
 ---
 
-The **machine translation newsletter** is a monthly newsletter curated by us - the Machine Translate foundation.
+The **machine translation newsletter** is a monthly newsletter curated by us - the Machine Translate Foundation.
 
 It is a bullet-pointed list of news, upcoming events, calls for papers, deadlines, job opportunities, the most interesting community posts and more!
 

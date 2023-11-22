@@ -8,7 +8,7 @@ seo:
   type: ItemList
 ---
 
-The **machine translation meetup** is a regular event organised by **Machine Translate**.
+The **machine translation meetup** is a regular event organised by the **Machine Translate Foundation**.
 It alternates between online and offline formats.
 
 |     |     |     |     |

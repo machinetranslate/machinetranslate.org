@@ -1,11 +1,11 @@
 ---
 nav_order: 400
 community_search_exclude: true
-title: About Machine Translate
+title: About the Machine Translate Foundation
 description: The foundation for open information and community for machine translation
 seo:
   type: Organization
-  name: About the Machine Translate foundation
+  name: About the Machine Translate Foundation
 ---
 
 **Machine Translation** is a non-profit foundation building open information and community for machine translation.
@@ -16,7 +16,7 @@ seo:
 
 ## Mission
 
-Machine Translate’s mission is to **make machine translation more accessible to more people** as the field of machine translation grows.
+The Machine Translate Foundation’s mission is to **make machine translation more accessible to more people** as the field of machine translation grows.
 
 > <span style="font-size:x-large;">“Make machine translation more accessible to more people”</span>
 
@@ -89,7 +89,7 @@ The society is registered in Zug, Switzerland and is run as a non-profit.
 
 Machine Translate is created and edited by [contributors](/contributors) from all over the world.
 
-Machine Translate is also supported by the generosity of other organizations and by people like you!
+The Machine Translate Foundation is also supported by the generosity of other organizations and by people like you!
 
 - [ModelFront](https://modelfront.com)
 - Adam Bittlingmayer
@@ -98,7 +98,7 @@ Machine Translate is also supported by the generosity of other organizations and
 ## Contact
 To contact us about content, you can use the normal open channels for [contributing](/contributing).
 
-To contact us about the foundation and supporting Machine Translate, you can email [contact@machinetranslate.org](mailto:contact@machinetranslate.org).
+To contact us about the foundation and supporting the Machine Translate Foundation, you can email [contact@machinetranslate.org](mailto:contact@machinetranslate.org).
 
 ---
 

@@ -10,7 +10,7 @@ seo:
 
 # Machine Translate
 
-**Machine Translate** is building **open information** and **community** for machine translation.
+The **Machine Translate Foundation** is building **open information** and **community** for machine translation.
 
 {% assign integration_count = 0 %}
 {% for tms in site.data.integrations %}
@@ -103,7 +103,7 @@ Sign up to the newsletter to catch key news of the month.
   </div>
 </div>
 
-Follow Machine Translate on other platforms.
+Follow the Machine Translate Foundation on other platforms.
 
 <center>
   <div class="social-links">
@@ -117,9 +117,9 @@ Follow Machine Translate on other platforms.
 ---
 
 
-## About Machine Translate
+## About the Machine Translate Foundation
 
-Machine Translate is on a mission to make machine translation more accessible to more people.
+The Machine Translate Foundation is on a mission to make machine translation more accessible to more people.
 
 Our mission is supported by people like you.
 

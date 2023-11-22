@@ -26,7 +26,7 @@ seo:
 
 The first Bay Area **machine translation meetup** took place on 11 May, 2022, in Menlo Park, California.
 
-It was organised by Machine Translate.
+It was organised by the **Machine Translate Foundation**.
 
 ## Location
 
