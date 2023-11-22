@@ -22,7 +22,7 @@ Machine translation providers keep data confidential by complying with specific 
 
 ### Data types
 
-- [Training data](/customisation/training-data.md) – [parallel data](/customisation/parallel-data.md)
+- [Training data](/training-data) – [parallel data](/parallel-data)
 - Request data - original input
 
 

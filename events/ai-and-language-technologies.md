@@ -26,8 +26,8 @@ seo:
 
 The **Artificial Intelligence and Language Technologies** will take place online on 21 November, 2022.
 
-The event is organised by [Omniscien Technologies](/industry/companies.md#omniscien-technologies).
-The speakers will be [Philipp Koehn](/people/philipp-koehn.md) and Dion Wiggins.
+The event is organised by [Omniscien Technologies](/companies#omniscien-technologies).
+The speakers will be [Philipp Koehn](/people/philipp-koehn) and Dion Wiggins.
 
 > We will look at trends in Neural Machine Translation, Speech Recognition, Text to Speech, Natural Language Processing, Artificial Intelligence, Machine Learning, Data Mining, Text Analytics, and more.
 

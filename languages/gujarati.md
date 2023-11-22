@@ -30,6 +30,8 @@ territories:
 - in
 - pk
 supported_apis:
+- id: lilt
+  name: Lilt
 - id: watson
   name: Watson Language Translator
 - id: omniscien
@@ -40,8 +42,6 @@ supported_apis:
   name: Wordlingo
 - id: amazon
   name: Amazon Translate
-- id: lilt
-  name: Lilt
 - id: yandex
   name: Yandex Translate
 - id: microsoft

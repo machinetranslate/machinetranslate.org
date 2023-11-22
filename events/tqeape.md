@@ -23,7 +23,7 @@ seo:
     url: https://machinetranslate.org/tqeape.md#Organisers
 ---
 
-The first workshop on **Translation Quality Estimation and Automatic Post-Editing** was held in the [MT Summit 2019](mtsummit2019.md) on 21 March, 2019.
+The first workshop on **Translation Quality Estimation and Automatic Post-Editing** was held in the [MT Summit 2019](/mtsummit2019) on 21 March, 2019.
 
 [amtaweb.org/amta-2018-first-workshop-translation-quality-estimation-automatic-post-editing](https://amtaweb.org/amta-2018-first-workshop-translation-quality-estimation-automatic-post-editing/)
 

@@ -25,7 +25,7 @@ seo:
 ---
 
 The **First Workshop on Machine Translation** (**WMT06**) took place from 8 June to 9 June, 2006, in New York City, New York.
-It was organised by [WMT](/associations/wmt.md).
+It was organised by [WMT](/wmt).
 
 [statmt.org/wmt06/program.html](https://statmt.org/wmt06/program.html)
 

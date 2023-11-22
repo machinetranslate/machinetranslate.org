@@ -39,14 +39,14 @@ supported_apis:
   name: Iconic
 - id: iptranslator
   name: IP Translator
+- id: lilt
+  name: Lilt
 - id: apptek
   name: AppTek
 - id: wordlingo
   name: Wordlingo
 - id: amazon
   name: Amazon Translate
-- id: lilt
-  name: Lilt
 - id: yandex
   name: Yandex Translate
 - id: microsoft

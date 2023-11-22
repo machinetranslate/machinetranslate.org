@@ -40,13 +40,20 @@ python generate.py
 
 ### Paths
 
-This repository has a directory structure, but on the website the page paths are flat.
+This repository has a directory structure, to keep it orderly, but on the website the page paths are flat, to have nice page URLs.
 
-> GitHub repository: `/quality/quality-estimation.md`
-> machinetranslate.org: `/quality-estimation`
+> GitHub repository: `/quality-estimation/quality-estimation.md`
+> machinetranslate.org: `/quality-estimation` (`https://machinetranslate.org/quality-estimation`)
+
 
 How it works:
-- Jekyll removes the file extension (`.md`).
-- A Cloudflare Page Rule is configured to remove the directory from the path.
-- In the soure content on GitHub, relative paths are used.
-- Relative paths resolve on GitHub and on the website.
+- In the source content on GitHub, absolute paths are used (e.g. `/quality/quality-estimation.md`).
+- Jekyll removes the file extension (`.md`) - both locally and in production.
+- A Cloudflare Page Rule is configured to remove the directory from the path - in production only.
+
+This way, everything works:
+- Paths resolve on GitHub (→ `/quality/quality-estimation.md`).
+- Paths resolve on the website locally (→ `http://localhost:4000/quality-estimation`).
+- Paths resolve on website in production (→ `https://machinetranslate.org/quality-estimation`).
+
+So paths should *not* refer to parent directories with `../`.

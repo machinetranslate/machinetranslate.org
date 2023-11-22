@@ -26,14 +26,14 @@ territories:
 supported_apis:
 - id: rozetta
   name: Rozetta T-400
+- id: lilt
+  name: Lilt
 - id: watson
   name: Watson Language Translator
 - id: apptek
   name: AppTek
 - id: amazon
   name: Amazon Translate
-- id: lilt
-  name: Lilt
 - id: yandex
   name: Yandex Translate
 - id: microsoft

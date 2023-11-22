@@ -22,4 +22,4 @@ It is a place to read news, announce your own news, answer questions and ask you
 
 ---
 
-Also sign up for the [machine translation **newsletter**](newsletter.md)!
+Also sign up for the [machine translation **newsletter**](/newsletter)!

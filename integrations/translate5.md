@@ -40,10 +40,6 @@ api_integrations:
   name: Microsoft Translator
 - slug: language-weaver
   name: Language Weaver
-- slug: pangeamt
-  urls:
-  - https://confluence.translate5.net/display/CON/PangeaMT
-  name: PangeaMT
 fuzzy_repair: false
 open-source: true
 quality_estimation_integrations:

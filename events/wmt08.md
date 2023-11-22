@@ -25,7 +25,7 @@ seo:
 ---
 
 The **Third Workshop on Machine Translation** (**WMT08**) took place on 19 June, 2008, in Columbus, Ohio.
-It was organised by [WMT](/associations/wmt.md).
+It was organised by [WMT](/wmt).
 
 [statmt.org/wmt08/program.html](https://statmt.org/wmt08/program.html)
 
@@ -91,7 +91,7 @@ Full results of the shared tasks: [*Further Meta-Evaluation of Machine Translati
 
 ### Translation
 
-The results were determined with a [relative ranking](/quality/metrics/human-evaluation-metrics.md#relative-ranking), the `≥ others` (“greater than or equal to others”) score, a [constituent ranking](/quality/metrics/human-evaluation-metrics.md#constituent-ranking), and a [yes or no constituent judgement](/quality/metrics/human-evaluation-metrics.md#yes-or-no-constituent-judgement).
+The results were determined with a [relative ranking](/human-evaluation-metrics#relative-ranking), the `≥ others` (“greater than or equal to others”) score, a [constituent ranking](/human-evaluation-metrics#constituent-ranking), and a [yes or no constituent judgement](/human-evaluation-metrics#yes-or-no-constituent-judgement).
 
 #### → English
 

@@ -1409,9 +1409,10 @@
                     ]
                 }
             },
-            "language-weaver",
+                "language-weaver",
             {
                 "pangeamt": {
+                    "active": false,
                     "urls": [
                         "https://confluence.translate5.net/display/CON/PangeaMT"
                     ]

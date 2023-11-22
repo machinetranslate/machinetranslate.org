@@ -16,7 +16,7 @@ User-generated content is challenging for machine translation because it is open
 
 ## Content types
 
-* [Posts and comments](social-networks.md)
-* [Live chat](live-chat.md)
-* [Product titles, descriptions and reviews](commerce-and-marketplaces.md)
-* [In-game content](gaming.md)
+* [Posts and comments](/social-networks)
+* [Live chat](/live-chat)
+* [Product titles, descriptions and reviews](/commerce-and-marketplaces)
+* [In-game content](/gaming)

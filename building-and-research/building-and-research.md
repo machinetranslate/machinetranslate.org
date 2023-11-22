@@ -10,9 +10,9 @@ Machine translation is the task of translating natural language automatically.
 The input is content in one language, and the output should be the same content in another language.
 
 The most common input and output type is text.
-There are also other [input and output types](/building-and-research/other-input-types/other-input-types.md), like speech.
+There are also other [input and output types](/other-input-types), like speech.
 
-Most machine translation systems translate each sentence separately, without any [context](/customisation/context.md).
+Most machine translation systems translate each sentence separately, without any [context](/context).
 Most machine translation models support translation for only one language and in only one direction.
 
-The most common [approaches](/approaches/approaches.md) use human translations as [training data](/customisation/training-data.md).
+The most common [approaches](/approaches) use human translations as [training data](/training-data).

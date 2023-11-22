@@ -100,7 +100,7 @@ LibreTranslate is powered by the open-source Argos Translate library.
 
 ### MT-List
 
-**MT-List** (mt-list@eamt.org) is the mailing list of [EAMT](/associations/eamt.md).
+**MT-List** (mt-list@eamt.org) is the mailing list of [EAMT](/eamt).
 
 > The EAMT has a mailing list dedicated to MT. This list is open to the public and serves as a forum for the discussion and exchange of information for all aspects of translation technology.
 
@@ -109,7 +109,7 @@ LibreTranslate is powered by the open-source Argos Translate library.
 
 ### Workshop on Statistical Machine Translation
 
-**Workshop on Statistical Machine Translation** (wmt-tasks@googlegroups.com) is the official mailing list of [WMT](/associations/wmt.md).
+**Workshop on Statistical Machine Translation** (wmt-tasks@googlegroups.com) is the official mailing list of [WMT](/wmt).
 
 > This is the announcement list for the shared tasks of the WMT Conference in Machine Translation.
 
@@ -118,7 +118,7 @@ LibreTranslate is powered by the open-source Argos Translate library.
 
 ### SIGMT
 
-**SIGMT** (sigmt@groups.google.com) is the official mailing list of [SIG MT](/associations/sigmt.md), the ACL Special Interest Group for Machine Translation.
+**SIGMT** (sigmt@groups.google.com) is the official mailing list of [SIG MT](/sigmt), the ACL Special Interest Group for Machine Translation.
 
 > ACL Special Interest Group for Machine Translation
 
@@ -127,7 +127,7 @@ LibreTranslate is powered by the open-source Argos Translate library.
 
 ### SIGSLT
 
-**SIGSLT** (sigslt@groups.google.com) is the official mailing list of [SIGSLT](/associations/sigslt.md), the Special Interest Group on Spoken Language Translation of the Association for Computational Linguistics (ACL), the International Speech Communication Association (ISCA) and the European Language Resources Association (ELRA).
+**SIGSLT** (sigslt@groups.google.com) is the official mailing list of [SIGSLT](/sigslt), the Special Interest Group on Spoken Language Translation of the Association for Computational Linguistics (ACL), the International Speech Communication Association (ISCA) and the European Language Resources Association (ELRA).
 
 > ACL/ISCA/ELRA Special Interest Group on Spoken Language Translation
 
@@ -156,7 +156,7 @@ The **Google Cloud Translation API** (google-translate-api@googlegroups.com) Goo
 
 ### Language Weaver
 
-The **Language Weaver** RWS community is the official group of [Language Weaver](/apis/language-weaver.md)
+The **Language Weaver** RWS community is the official group of [Language Weaver](/language-weaver)
 
 > Post questions and discuss the Google Cloud Translation API.
 

@@ -10,4 +10,4 @@ seo:
 There are a growing set of **integrations** of machine translation [APIs](/apis) in
 translation management systems (TMSes) and computer-aided translation tools (CAT tools), 
 
-TMSes and CAT tools mainly integrate machine translation for human [post-editing](/workflows/post-editing).
+TMSes and CAT tools mainly integrate machine translation for human [post-editing](/post-editing).

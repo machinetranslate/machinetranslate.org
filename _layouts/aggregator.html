@@ -54,7 +54,7 @@ parent: Aggregators
       {% if page.supported_apis.size == 1 %}
         <strong>1</strong> machine translation API supports {{ page.title }}.
       {% else %}
-        <strong>{{ page.supported_apis | size }}</strong> machine translation APIs support {{ page.title }}.
+        <strong>{{ page.supported_apis | size }}</strong> machine translation APIs are supported by the {{ page.title }} aggregator.
       {% endif %}
       <p class="preview hint">
         {{ page.supported_apis | slice: 0, 5 | map: 'name' | join: ', ' }}
