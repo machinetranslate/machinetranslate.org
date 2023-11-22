@@ -35,8 +35,7 @@ It is a bullet-pointed list of news, upcoming events, calls for papers, deadline
     })
 </script>
 
-## Past newsletters
-
+## Recent newsletters
 - [November 2023](/november-2023)
 - [October 2023](/october-2023)
 - [September 2023](/september-2023)
