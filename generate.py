@@ -49,7 +49,7 @@ def base_language_code(locale_code):
   return locale_code.split('-')[0]
 
 def normalize_locale_casing(locale_code):
-  return '-'.join([ part.capitalize() if len(part) == 4 else part.lower() for part in locale_code.split('-') ])
+  return '-'.join([ part.capitalize() if len(part) == 4 and '-' in locale_code else part.lower() for part in locale_code.split('-') ])
 
 def normalize_locale(locale_code):
   locale_code = locale_code.replace('_', '-')
