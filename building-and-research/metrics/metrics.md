@@ -42,7 +42,7 @@ The scores generally do not correlate well with human evaluation scores when tra
 
 ### Machine learning-based metrics
 
-Machine learning-based metrics use [sentence embeddings](/sentence-embeddings) to calculate the difference between the generated target sentence and the reference translation, or even between the target senternce and the source sentence.
+Machine learning-based metrics use [sentence embeddings](/sentence-embeddings) to calculate the difference between the generated target sentence and the reference translation, or even between the target sentence and the source sentence.
 
 Examples:/
 - [COMET](/comet)
@@ -67,7 +67,7 @@ Human evaluation is the gold standard.
 - [Adecuacy and fluency judgement](/human-evaluation-metrics#adequacy-and-fluency-judgement)
 - [Relative ranking](/human-evaluation-metrics#relative-ranking)
 - [Constituent ranking](/human-evaluation-metrics#constituent-ranking)
-- [Yes or no constituent judgement](/human-evaluation-metrics#yes-and-no-constituent-judgement)
+- [Yes or no constituent judgement](/human-evaluation-metrics#yes-or-no-constituent-judgement)
 - [Direct assessment](/human-evaluation-metrics#direct-assessment)
 
 But human evaluation is slow, expensive and subjective.

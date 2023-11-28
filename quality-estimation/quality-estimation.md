@@ -76,7 +76,7 @@ The first framework, QuEst, was released in 2013.
 | [OpenKiwi](https://github.com/Unbabel/OpenKiwi) | Unbabel                     | Deep learning     |
 | [TransQuest](https://github.com/TharinduDR/TransQuest) | Tharindu Ranasinghe, University of Wolverhampton | Deep learning |
 
-TransQuest also includes pretrained models.  The models were pretrained with [WMT](/associations/wmt) data.
+TransQuest also includes pretrained models.  The models were pretrained with [WMT](/wmt) data.
 
 
 ### Providers
@@ -108,10 +108,10 @@ There is a quality estimation integration or connector available for most transl
 | Product | Feature | Provider |
 | ---| --- | --- |
 | [translate5](/translate5) | [ModelFront quality prediction plug-in](https://www.modelfront.com/translate5) | [ModelFront](/modelfront) |
-| [memoQ](/memoq) | [Quality estimates (AIQE)](https://www.memoq.com/mt-quality-estimates) | [ModelFront](/modelfront), [TAUS](/taus) [DeMT Estimate API](/demt-estimate-api) |
+| [memoQ](/memoq) | [Quality estimates (AIQE)](https://www.memoq.com/mt-quality-estimates) | [ModelFront](/modelfront), [DeMT Estimate](/demt-estimate) |
 | [Crowdin](/crowdin) | [ModelFront quality prediction](https://store.crowdin.com/modelfront) | [ModelFront](/modelfront) |
 | [XTM](/xtm) | ModelFront XTM connector | [ModelFront](/modelfront) | KantanStream | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](/companies#kantanmt) |
-| [PhraseTMS](phrase-tms) | [MT quality estimation](https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-), ModelFront Phrase connector | [Phrase QE](/phrase-qe) |
+| [PhraseTMS](/phrase-tms) | [MT quality estimation](https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-), ModelFront Phrase connector | [Phrase QE](/phrase-mtqe) |
 | GlobalDoc LangXpert | [Effort estimation](https://globaldoc.com/about-us/our-technology/langxpert-modelfront-technology-partnership/) | [ModelFront](/modelfront) |
 | Google Cloud Translation Hub | [Machine translation quality prediction](https://cloud.google.com/translation-hub/docs/translator-edit#segment-details) | [Google Cloud Translation Hub - MTQP](/google-translation-hub-mtqp) |
 

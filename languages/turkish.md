@@ -134,14 +134,14 @@ Turkic languages are agglutinative and usually have vowel harmony.
 ## History
 
 In 1994, NATO supported two machine translation English to Turkish projects within the scope of the Science for Stability Program.
-These projects were [rule-based machine translation](/approaches/rule-based-machine-translation.md) systems within specific domains: news captions and IBM manuals.
+These projects were [rule-based machine translation](/rule-based-machine-translation) systems within specific domains: news captions and IBM manuals.
 
 In 2011, Apertium launched the Apertium Turkic work group in an attempt to create resources for Turkic languages rule-based machine translation and natural language processing.
 
 In 2019, Emel Alkım and Yalçın Çebi launched MT-Turk for Turkish, Kirghiz and Kazan Tatar.
 MT-Turk is a rule-based machine translation system that uses interlingual and transfer systems.
 
-In 2020, [Turkic Interlingua](/community/communities.md#til) was created to develop language technology, including parallel corpora, in the most spoken Turkic languages.
+In 2020, [Turkic Interlingua](/communities#til) was created to develop language technology, including parallel corpora, in the most spoken Turkic languages.
 
 In 2021, the Literary Machine Translation Project started at the Department of Translation and Interpreting Studies from the Boğaziçi University.
 
@@ -151,7 +151,8 @@ In 2021, the Literary Machine Translation Project started at the Department of T
 
 The [Turkish National Corpus (TNC)](https://www.tnc.org.tr/) contains 50 million Turkish words.
 
-The Turkish, Kurdish, and English [Bianet newspaper](https://opus.nlpl.eu/Bianet.php) parallel corpus contains 3,214 Turkish articles aligned with its Kurdish or English translations.
+The Turkish, Kurdish, and English [Bianet newspaper](https://opus.nlpl.eu/B  'a' tag is missing a reference
+ianet.php) parallel corpus contains 3,214 Turkish articles aligned with its Kurdish or English translations.
 
 The [TS Corpus](https://tscorpus.com/) project offers English-Turkish parallel databases for academic and research purposes.
 
@@ -159,11 +160,11 @@ The [TDD](https://tdd.ai/) project serves a series of [corpora](https://corpus.t
 
 ## Support
 
-In 2016, [Google Translate](/apis/google.md) included Turkish in the launch of Google Neural Machine Translation.
+In 2016, [Google Translate](/google) included Turkish in the launch of Google Neural Machine Translation.
 
-By 2022, Turkish was supported by all the major translation applications and API providers, including Google Translate, [Microsoft Translator](/apis/microsoft.md), [Yandex Translate](/apis/yandex.md), [Amazon Translate](/apis/amazon.md), and [Watson Language Translator](/apis/watson.md).
+By 2022, Turkish was supported by all the major translation applications and API providers, including Google Translate, [Microsoft Translator](/microsoft), [Yandex Translate](/yandex), [Amazon Translate](/amazon), and [Watson Language Translator](/watson).
 
 By 2022, Yandex Translate had direct translation systems for Turkish-Russian and Turkish-German.
 Turkish is one of the top languages for Yandex Translate.
 
-English to Turkish is one of the top language pairs for [Systran](/apis/systran.md).
+English to Turkish is one of the top language pairs for [Systran](/systran).

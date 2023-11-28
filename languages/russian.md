@@ -162,16 +162,16 @@ Among the best supported languages, it is notable for a few features:
 
 Russian has the best machine translation support among Slavic languages and among languages written in the Cyrillic alphabet.
 
-[English](english.md)-Russian and Russian-English are the highest traffic language pairs for [Yandex Translate](/apis/yandex.md).
+[English](/english)-Russian and Russian-English are the highest traffic language pairs for [Yandex Translate](/yandex).
 
-Russian-[Chinese](chinese.md) and Chinese-Russian are also significant translation pairs.
+Russian-[Chinese](/chinese) and Chinese-Russian are also significant translation pairs.
 
 ## History
 
-In 1935, [Petr Troyanskii](/people/petr-troyanskii.md) filed USSR Patent 40995 on machine translation.
+In 1935, [Petr Troyanskii](/petr-troyanskii) filed USSR Patent 40995 on machine translation.
 
 During the Cold War, English and Russian were the most important languages geopolitically, and much machine translation research and development was for defence and intelligence agencies.
 
 In the 2010s, while most providers used bridging or pivoting via English for most language pairs, Yandex Translate launched direct translation between Russian and many languages.
 
-By 2020, Russian was supported by all the major translation application and API providers, including [Google Translate](/apis/google.md), Yandex Translate, [Microsoft Translator](/apis/microsoft.md), [Amazon Translate](/apis/amazon.md), [ModernMT](/apis/modernmt.md) and [DeepL](/apis/deepl.md).
+By 2020, Russian was supported by all the major translation application and API providers, including [Google Translate](/google), Yandex Translate, [Microsoft Translator](/microsoft), [Amazon Translate](/amazon), [ModernMT](/modernmt) and [DeepL](/deepl).
