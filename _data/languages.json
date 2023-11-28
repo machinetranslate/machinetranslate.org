@@ -3109,16 +3109,16 @@
     },
     {
         "codes": [
-            "kr", 
-            "kau", 
-            "knc", 
-            "kby", 
-            "krt", 
-            "bms", 
+            "kr",
+            "kau",
+            "knc",
+            "kby",
+            "krt",
+            "bms",
             "kbl"
         ],
         "names": [
-            "Kanuri", 
+            "Kanuri",
             "Kanembu"
         ],
         "family": [
@@ -6588,7 +6588,10 @@
     {
         "codes": [
             "zh",
-            "lzh"
+            "lzh",
+            "huyu",
+            "goyu",
+            "cosc"
         ],
         "names": [
             "Chinese",
