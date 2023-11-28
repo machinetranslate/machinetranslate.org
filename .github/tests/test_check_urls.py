@@ -1,7 +1,8 @@
-import requests
 import concurrent.futures
+import requests
 from bs4 import BeautifulSoup
 import pytest
+
 
 class TestSitemapRequests:
 

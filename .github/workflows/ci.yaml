@@ -13,7 +13,6 @@ jobs:
                 python-versions:
                     - '3.10'
                     - '3.11'
-                    - '3.12-dev'
         name: Test
         runs-on: ${{ matrix.os }} 
         steps:
@@ -34,10 +33,21 @@ jobs:
                 gem install jekyll bundler
                 bundle install
               env:
-                JEKYLL_ENV: development
+                JEKYLL_ENV: production
+            - name: Check broken links to pages
+              run: |
+                bundle exec htmlproofer _site \
+                --check-internal-hash \
+                --assume-extension \
+                --disable-external \
+                --enforce-https false \
+                --allow-missing-href true \
+                --ignore-missing-alt true
+              env:
+                JEKYLL_ENV: production
 
             - name: Install Python dependencies
-              run: pip install -r .github/tests/test_requirements.txt
+              run: pip install -r ../tests/test_requirements.txt
 
             - name: Build Jekyll site
               run: bundle exec jekyll serve
