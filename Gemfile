@@ -23,7 +23,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'html-proofer'
   gem 'jekyll-include-cache'
-  gem 'sass-embedded', '~> 1.63.6'
+  gem 'sass-embedded', '~> 1.54'
 end
 gem 'webrick'
 
