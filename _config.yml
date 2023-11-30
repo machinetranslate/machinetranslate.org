@@ -213,7 +213,6 @@ plugins:
   - jekyll-seo-tag
   - html-proofer
   - jekyll-include-cache
-  - sass-embedded
 
 # Default theme settings
 # Unused
