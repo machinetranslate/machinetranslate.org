@@ -88,7 +88,7 @@ GEM
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    html-proofer (4.4.3)
+    html-proofer (4.3.2)
       addressable (~> 2.3)
       mercenary (~> 0.3)
       nokogiri (~> 1.13)
@@ -275,7 +275,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  html-proofer
+  html-proofer (~> 4.3.0)
   jekyll-feed (~> 0.12)
   jekyll-include-cache
   jekyll-redirect-from
@@ -286,4 +286,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.4.17
+   2.4.22
