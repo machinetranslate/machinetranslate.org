@@ -42,6 +42,7 @@ jobs:
               run: bundle exec jekyll serve
               env:
                 JEKYLL_ENV: production
+                PAGES_REPO_NWO: ${{ github.repository }}
 
             - name: Run tests
               run: pytest
