@@ -16,7 +16,5 @@ soupsieve==2.5
 urllib3==2.1.0
 webencodings==0.5.1
 pytest-pyodide==0.55.1
-python-apt==2.4.0+ubuntu1
 python-dateutil==2.8.2
-python-debian===0.1.43ubuntu1
 pytest-asyncio==0.23.1
