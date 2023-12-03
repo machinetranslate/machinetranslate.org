@@ -36,13 +36,12 @@ jobs:
                 JEKYLL_ENV: production
             - name: Check broken links to pages
               run: |
-                bundle exec htmlproofer _site \
-                --check-internal-hash \
-                --assume-extension \
-                --disable-external \
+                bundle exec htmlproofer ../../_site \
                 --enforce-https false \
+                --disable-external true \
+                --ignore-missing-alt true \
                 --allow-missing-href true \
-                --ignore-missing-alt true
+                --check-internal-hash true
               env:
                 JEKYLL_ENV: production
 
