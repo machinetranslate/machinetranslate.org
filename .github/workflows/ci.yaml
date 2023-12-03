@@ -40,10 +40,6 @@ jobs:
 
             - name: Build Jekyll site
               run: bundle exec jekyll serve --detach
-
-            - name: Wait for Jekyll to start
-              run: sleep 750
-              
               env:
                 JEKYLL_ENV: production
                 PAGES_REPO_NWO: ${{ github.repository }}
