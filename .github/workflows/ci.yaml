@@ -34,16 +34,6 @@ jobs:
                 bundle install
               env:
                 JEKYLL_ENV: production
-            - name: Check broken links to pages
-              run: |
-                bundle exec htmlproofer ../../_site \
-                --enforce-https false \
-                --disable-external true \
-                --ignore-missing-alt true \
-                --allow-missing-href true \
-                --check-internal-hash true
-              env:
-                JEKYLL_ENV: production
 
             - name: Install Python dependencies
               run: pip install -r ../tests/test_requirements.txt
@@ -55,3 +45,14 @@ jobs:
 
             - name: Run tests
               run: pytest
+
+            - name: Check broken links to pages
+              run: |
+                bundle exec htmlproofer ../../_site \
+                --enforce-https false \
+                --disable-external true \
+                --ignore-missing-alt true \
+                --allow-missing-href true \
+                --check-internal-hash true
+              env:
+                JEKYLL_ENV: production
