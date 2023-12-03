@@ -39,7 +39,11 @@ jobs:
               run: pip install -r .github/tests/test_requirements.txt
 
             - name: Build Jekyll site
-              run: bundle exec jekyll serve
+              run: bundle exec jekyll serve --detach
+
+            - name: Wait for Jekyll to start
+              run: sleep 750
+              
               env:
                 JEKYLL_ENV: production
                 PAGES_REPO_NWO: ${{ github.repository }}
