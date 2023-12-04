@@ -17,20 +17,16 @@ click==8.0.3
 cloudpathlib==0.16.0
 colorama==0.4.4
 comm==0.2.0
-command-not-found==0.3
 confection==0.1.4
 cryptography==3.4.8
 cupshelpers==1.0
 cymem==2.0.8
-dbus-python==1.2.18
-debugpy==1.8.0
 decorator==5.1.1
 defer==1.0.6
 distlib==0.3.6
 distro==1.7.0
 docopt==0.6.2
 duplicity==0.8.21
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256=86cc141f63942d4b2c5fcee06630fd6f904788d2f0ab005cce45aadb8fb73889
 enchant==0.0.1
 executing==2.0.1
 fasteners==0.14.1
