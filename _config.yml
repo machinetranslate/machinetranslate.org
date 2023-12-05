@@ -168,13 +168,6 @@ defaults:
       seo:
         type: Article
   - scope:
-      path: about
-      type: pages
-    values:
-      permalink: /:basename
-      seo:
-        type: Article
-  - scope:
       path: more
       type: pages
     values:
@@ -182,14 +175,7 @@ defaults:
       seo:
         type: Article
   - scope:
-      path: community
-      type: pages
-    values:
-      permalink: /:basename
-      seo:
-        type: Article
-  - scope:
-      path: newsletter
+      path: index
       type: pages
     values:
       permalink: /:basename
