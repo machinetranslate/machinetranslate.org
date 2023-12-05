@@ -181,6 +181,13 @@ defaults:
       permalink: /:basename
       seo:
         type: Article
+  - scope:
+      path: newsletter
+      type: pages
+    values:
+      permalink: /:basename
+      seo:
+        type: Article
 
 # Just the Docs
 remote_theme: pmarsceill/just-the-docs@v0.6.1
