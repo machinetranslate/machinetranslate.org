@@ -44,8 +44,11 @@ jobs:
                 JEKYLL_ENV: production
                 PAGES_REPO_NWO: ${{ github.repository }}
 
+            - name: Update pytest
+              run: pip install --upgrade pytest pytest-asyncio
+
             - name: Run tests
-              run: pytest
+              run: pytest .github/tests
 
             - name: Check broken links to pages
               run: |
