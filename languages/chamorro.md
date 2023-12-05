@@ -5,19 +5,22 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: <code>oj</code>
-description: Machine translation for <code>oj</code>
+title: Chamorro
+description: Machine translation for Chamorro
 codes:
-- oj
+- ch
+- cha
+names:
+- Chamorro
 family: []
 supported_apis:
-- id: baidu
-  name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
+- id: niutrans
+  name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for None
+  name: Machine translation for Chamorro
   type: Language
 
 ---

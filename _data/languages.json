@@ -777,7 +777,7 @@
                 "SVO"
             ],
             "morphosyntax": [
-                ""
+                "agglutinative"
             ]
         },
         "territories": [
@@ -3109,10 +3109,17 @@
     },
     {
         "codes": [
-            "knc"
+            "kr",
+            "kau",
+            "knc",
+            "kby",
+            "krt",
+            "bms",
+            "kbl"
         ],
         "names": [
-            "Kanuri"
+            "Kanuri",
+            "Kanembu"
         ],
         "family": [
             "ssa"
@@ -6581,7 +6588,10 @@
     {
         "codes": [
             "zh",
-            "lzh"
+            "lzh",
+            "huyu",
+            "goyu",
+            "cosc"
         ],
         "names": [
             "Chinese",
@@ -6707,7 +6717,138 @@
     },
     {
         "codes": [
-            "huyu"
+            "ch",
+            "cha"
+        ],
+        "names": [
+            "Chamorro"
+        ]
+    },
+    {
+        "codes": [
+            "ia",
+            "ina"
+        ],
+        "names": [
+            "Interlingua"
+        ]
+    },
+    {
+        "codes": [
+            "io",
+            "ido"
+        ],
+        "names": [
+            "Ido"
+        ]
+    },
+    {
+        "codes": [
+            "kl",
+            "kal"
+        ],
+        "names": [
+            "Kalaallisut"
+        ]
+    },
+    {
+        "codes": [
+            "nv",
+            "nav"
+        ],
+        "names": [
+            "Navajo"
+        ]
+    },
+    {
+        "codes": [
+            "oj",
+            "oji"
+        ],
+        "names": [
+            "Ojibwa"
+        ]
+    },
+    {
+        "codes": [
+            "wa",
+            "wln"
+        ],
+        "names": [
+            "Walloon"
+        ]
+    },
+    {
+        "codes": [
+            "vo",
+            "vol"
+        ],
+        "names": [
+            "Volapük"
+        ]
+    },
+    {
+        "codes": [
+            "ng",
+            "ndo"
+        ],
+        "names": [
+            "Ndonga"
+        ]
+    },
+    {
+        "codes": [
+            "nr",
+            "nbl"
+        ],
+        "names": [
+            "South Ndebele"
+        ]
+    },
+    {
+        "codes": [
+            "lu",
+            "lub"
+        ],
+        "names": [
+            "Luba-Katanga"
+        ]
+    },
+    {
+        "codes": [
+            "ie",
+            "ile"
+        ],
+        "names": [
+            "Interlingue",
+            "Occidental"
+        ]
+    },
+    {
+        "codes": [
+            "ho",
+            "hmo"
+        ],
+        "names": [
+            "Hiri Motu"
+        ]
+    },
+    {
+        "codes": [
+            "cr",
+            "cre"
+        ],
+        "names": [
+            "Cree"
+        ]
+    },
+    {
+        "codes": [
+            "hz",
+            "her"
+        ],
+        "names": [
+            "Herero"
         ]
     },
     {
@@ -6718,11 +6859,6 @@
     {
         "codes": [
             "cbk"
-        ]
-    },
-    {
-        "codes": [
-            "ch"
         ]
     },
     {
@@ -6767,27 +6903,12 @@
     },
     {
         "codes": [
-            "ia"
-        ]
-    },
-    {
-        "codes": [
             "iba"
         ]
     },
     {
         "codes": [
-            "ie"
-        ]
-    },
-    {
-        "codes": [
             "inh"
-        ]
-    },
-    {
-        "codes": [
-            "io"
         ]
     },
     {
@@ -6808,16 +6929,6 @@
     {
         "codes": [
             "kha"
-        ]
-    },
-    {
-        "codes": [
-            "kl"
-        ]
-    },
-    {
-        "codes": [
-            "kr"
         ]
     },
     {
@@ -6853,16 +6964,6 @@
     {
         "codes": [
             "niu"
-        ]
-    },
-    {
-        "codes": [
-            "nv"
-        ]
-    },
-    {
-        "codes": [
-            "oj"
         ]
     },
     {
@@ -6912,22 +7013,7 @@
     },
     {
         "codes": [
-            "vo"
-        ]
-    },
-    {
-        "codes": [
-            "wa"
-        ]
-    },
-    {
-        "codes": [
             "ang"
-        ]
-    },
-    {
-        "codes": [
-            "cre"
         ]
     },
     {
@@ -6957,26 +7043,6 @@
     },
     {
         "codes": [
-            "ido"
-        ]
-    },
-    {
-        "codes": [
-            "ina"
-        ]
-    },
-    {
-        "codes": [
-            "kal"
-        ]
-    },
-    {
-        "codes": [
-            "kau"
-        ]
-    },
-    {
-        "codes": [
             "kok"
         ]
     },
@@ -6987,17 +7053,7 @@
     },
     {
         "codes": [
-            "nbl"
-        ]
-    },
-    {
-        "codes": [
             "nqo"
-        ]
-    },
-    {
-        "codes": [
-            "oji"
         ]
     },
     {
@@ -7013,11 +7069,6 @@
     {
         "codes": [
             "son"
-        ]
-    },
-    {
-        "codes": [
-            "wln"
         ]
     },
     {
@@ -7237,11 +7288,6 @@
     },
     {
         "codes": [
-            "cha"
-        ]
-    },
-    {
-        "codes": [
             "chk"
         ]
     },
@@ -7387,17 +7433,7 @@
     },
     {
         "codes": [
-            "her"
-        ]
-    },
-    {
-        "codes": [
             "hlb"
-        ]
-    },
-    {
-        "codes": [
-            "hmo"
         ]
     },
     {
@@ -7562,11 +7598,6 @@
     },
     {
         "codes": [
-            "lub"
-        ]
-    },
-    {
-        "codes": [
             "lue"
         ]
     },
@@ -7627,22 +7658,12 @@
     },
     {
         "codes": [
-            "nav"
-        ]
-    },
-    {
-        "codes": [
             "nba"
         ]
     },
     {
         "codes": [
             "ndc"
-        ]
-    },
-    {
-        "codes": [
-            "ndo"
         ]
     },
     {

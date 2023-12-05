@@ -5,13 +5,13 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: Ido
-description: Machine translation for Ido
+title: Kalaallisut
+description: Machine translation for Kalaallisut
 codes:
-- io
-- ido
+- kl
+- kal
 names:
-- Ido
+- Kalaallisut
 family: []
 supported_apis:
 - id: baidu
@@ -20,7 +20,7 @@ supported_apis:
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for Ido
+  name: Machine translation for Kalaallisut
   type: Language
 
 ---

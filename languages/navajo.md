@@ -5,10 +5,13 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: <code>ch</code>
-description: Machine translation for <code>ch</code>
+title: Navajo
+description: Machine translation for Navajo
 codes:
-- ch
+- nv
+- nav
+names:
+- Navajo
 family: []
 supported_apis:
 - id: alibaba
@@ -17,7 +20,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for None
+  name: Machine translation for Navajo
   type: Language
 
 ---

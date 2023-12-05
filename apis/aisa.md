@@ -62,11 +62,11 @@ supported_languages:
   base_code: hi
   name: Hindi
   variant_name: null
-- slug: null
+- slug: chinese
   code: huyu
-  normalized_code: Huyu
-  base_code: Huyu
-  name: null
+  normalized_code: huyu
+  base_code: huyu
+  name: Chinese
   variant_name: null
 - slug: indonesian
   code: id

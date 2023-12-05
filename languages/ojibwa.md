@@ -5,10 +5,13 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: <code>wa</code>
-description: Machine translation for <code>wa</code>
+title: Ojibwa
+description: Machine translation for Ojibwa
 codes:
-- wa
+- oj
+- oji
+names:
+- Ojibwa
 family: []
 supported_apis:
 - id: baidu
@@ -17,7 +20,7 @@ supported_apis:
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for None
+  name: Machine translation for Ojibwa
   type: Language
 
 ---

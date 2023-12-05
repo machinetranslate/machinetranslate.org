@@ -85,6 +85,11 @@ integrations:
   plugin: true
   custom: true
   active: false
+- slug: translate5
+  name: translate5
+  active: false
+  urls:
+  - https://confluence.translate5.net/display/CON/PangeaMT
 active: true
 seo:
   name: The PangeaMT machine translation API

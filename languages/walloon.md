@@ -5,10 +5,13 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: <code>io</code>
-description: Machine translation for <code>io</code>
+title: Walloon
+description: Machine translation for Walloon
 codes:
-- io
+- wa
+- wln
+names:
+- Walloon
 family: []
 supported_apis:
 - id: baidu
@@ -17,7 +20,7 @@ supported_apis:
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for None
+  name: Machine translation for Walloon
   type: Language
 
 ---

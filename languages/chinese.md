@@ -10,6 +10,9 @@ description: Machine translation for Chinese
 codes:
 - zh
 - lzh
+- huyu
+- goyu
+- cosc
 names:
 - Chinese
 - Mandarin Chinese

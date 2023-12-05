@@ -369,11 +369,11 @@ supported_languages:
   base_code: cfm
   name: null
   variant_name: null
-- slug: cha
+- slug: chamorro
   code: cha
   normalized_code: ch
   base_code: ch
-  name: null
+  name: Chamorro
   variant_name: null
 - slug: chechen
   code: che
@@ -795,11 +795,11 @@ supported_languages:
   base_code: he
   name: Hebrew
   variant_name: null
-- slug: null
+- slug: herero
   code: her
   normalized_code: hz
   base_code: hz
-  name: null
+  name: Herero
   variant_name: null
 - slug: hindi
   code: hi
@@ -819,11 +819,11 @@ supported_languages:
   base_code: hlb
   name: null
   variant_name: null
-- slug: null
+- slug: hiri-motu
   code: hmo
   normalized_code: ho
   base_code: ho
-  name: null
+  name: Hiri Motu
   variant_name: null
 - slug: croatian
   code: hr
@@ -1233,11 +1233,11 @@ supported_languages:
   base_code: lua
   name: Luba-Kasai
   variant_name: null
-- slug: null
+- slug: luba-katanga
   code: lub
   normalized_code: lu
   base_code: lu
-  name: null
+  name: Luba-Katanga
   variant_name: null
 - slug: lue
   code: lue
@@ -1431,11 +1431,11 @@ supported_languages:
   base_code: my
   name: Burmese
   variant_name: null
-- slug: nav
+- slug: navajo
   code: nav
   normalized_code: nv
   base_code: nv
-  name: null
+  name: Navajo
   variant_name: null
 - slug: nba
   code: nba
@@ -1449,11 +1449,11 @@ supported_languages:
   base_code: ndc
   name: null
   variant_name: null
-- slug: null
+- slug: ndonga
   code: ndo
   normalized_code: ng
   base_code: ng
-  name: null
+  name: Ndonga
   variant_name: null
 - slug: nepali
   code: ne

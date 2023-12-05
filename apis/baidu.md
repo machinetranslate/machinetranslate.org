@@ -225,11 +225,11 @@ supported_languages:
   base_code: co
   name: Corsican
   variant_name: null
-- slug: null
+- slug: cree
   code: cre
   normalized_code: cr
   base_code: cr
-  name: null
+  name: Cree
   variant_name: null
 - slug: crimean-tatar
   code: crh
@@ -493,7 +493,7 @@ supported_languages:
   code: ido
   normalized_code: io
   base_code: io
-  name: null
+  name: Ido
   variant_name: null
 - slug: inuktitut
   code: iku
@@ -501,11 +501,11 @@ supported_languages:
   base_code: iu
   name: Inuktitut
   variant_name: null
-- slug: ina
+- slug: interlingua
   code: ina
   normalized_code: ia
   base_code: ia
-  name: null
+  name: Interlingua
   variant_name: null
 - slug: indonesian
   code: ind
@@ -549,11 +549,11 @@ supported_languages:
   base_code: kab
   name: Kabyle
   variant_name: null
-- slug: kal
+- slug: kalaallisut
   code: kal
   normalized_code: kl
   base_code: kl
-  name: null
+  name: Kalaallisut
   variant_name: null
 - slug: kannada
   code: kan
@@ -567,11 +567,11 @@ supported_languages:
   base_code: ks
   name: Kashmiri
   variant_name: null
-- slug: kau
+- slug: kanuri
   code: kau
   normalized_code: kr
   base_code: kr
-  name: null
+  name: Kanuri
   variant_name: null
 - slug: kazakh
   code: kaz
@@ -753,11 +753,11 @@ supported_languages:
   base_code: nap
   name: null
   variant_name: null
-- slug: null
+- slug: south-ndebele
   code: nbl
   normalized_code: nr
   base_code: nr
-  name: null
+  name: South Ndebele
   variant_name: null
 - slug: nds
   code: nds
@@ -819,11 +819,11 @@ supported_languages:
   base_code: oc
   name: Occitan
   variant_name: null
-- slug: oji
+- slug: ojibwa
   code: oji
   normalized_code: oj
   base_code: oj
-  name: null
+  name: Ojibwa
   variant_name: null
 - slug: oriya
   code: ori
@@ -1161,11 +1161,11 @@ supported_languages:
   base_code: vi
   name: Vietnamese
   variant_name: null
-- slug: wln
+- slug: walloon
   code: wln
   normalized_code: wa
   base_code: wa
-  name: null
+  name: Walloon
   variant_name: null
 - slug: wolof
   code: wol

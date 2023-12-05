@@ -5,17 +5,20 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: <code>vo</code>
-description: Machine translation for <code>vo</code>
+title: Hiri Motu
+description: Machine translation for Hiri Motu
 codes:
-- vo
+- ho
+- hmo
+names:
+- Hiri Motu
 family: []
 supported_apis:
-- id: alibaba
-  name: Alibaba Translate
+- id: niutrans
+  name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for None
+  name: Machine translation for Hiri Motu
   type: Language
 
 ---

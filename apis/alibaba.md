@@ -176,11 +176,11 @@ supported_languages:
   base_code: ceb
   name: Cebuano
   variant_name: null
-- slug: ch
+- slug: chamorro
   code: ch
   normalized_code: ch
   base_code: ch
-  name: null
+  name: Chamorro
   variant_name: null
 - slug: chm
   code: chm
@@ -470,11 +470,11 @@ supported_languages:
   base_code: hy
   name: Armenian
   variant_name: null
-- slug: ia
+- slug: interlingua
   code: ia
   normalized_code: ia
   base_code: ia
-  name: null
+  name: Interlingua
   variant_name: null
 - slug: iba
   code: iba
@@ -488,11 +488,11 @@ supported_languages:
   base_code: id
   name: Indonesian
   variant_name: null
-- slug: ie
+- slug: interlingue
   code: ie
   normalized_code: ie
   base_code: ie
-  name: null
+  name: Interlingue
   variant_name: null
 - slug: igbo
   code: ig
@@ -512,11 +512,11 @@ supported_languages:
   base_code: inh
   name: null
   variant_name: null
-- slug: io
+- slug: ido
   code: io
   normalized_code: io
   base_code: io
-  name: null
+  name: Ido
   variant_name: null
 - slug: icelandic
   code: is
@@ -596,11 +596,11 @@ supported_languages:
   base_code: kk
   name: Kazakh
   variant_name: null
-- slug: kl
+- slug: kalaallisut
   code: kl
   normalized_code: kl
   base_code: kl
-  name: null
+  name: Kalaallisut
   variant_name: null
 - slug: khmer
   code: km
@@ -620,11 +620,11 @@ supported_languages:
   base_code: ko
   name: Korean
   variant_name: null
-- slug: kr
+- slug: kanuri
   code: kr
   normalized_code: kr
   base_code: kr
-  name: null
+  name: Kanuri
   variant_name: null
 - slug: kashmiri
   code: ks
@@ -830,11 +830,11 @@ supported_languages:
   base_code: 'no'
   name: Norwegian
   variant_name: null
-- slug: nv
+- slug: navajo
   code: nv
   normalized_code: nv
   base_code: nv
-  name: null
+  name: Navajo
   variant_name: null
 - slug: chichewa
   code: ny
@@ -848,11 +848,11 @@ supported_languages:
   base_code: oc
   name: Occitan
   variant_name: null
-- slug: oj
+- slug: ojibwa
   code: oj
   normalized_code: oj
   base_code: oj
-  name: null
+  name: Ojibwa
   variant_name: null
 - slug: oromo
   code: om
@@ -1226,17 +1226,17 @@ supported_languages:
   base_code: vi
   name: Vietnamese
   variant_name: null
-- slug: vo
+- slug: volapuk
   code: vo
   normalized_code: vo
   base_code: vo
-  name: null
+  name: "Volap\xFCk"
   variant_name: null
-- slug: wa
+- slug: walloon
   code: wa
   normalized_code: wa
   base_code: wa
-  name: null
+  name: Walloon
   variant_name: null
 - slug: waray
   code: war
