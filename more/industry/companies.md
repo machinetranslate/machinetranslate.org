@@ -18,6 +18,11 @@ Since the advent of [statistical machine translation](/statistical-machine-trans
 
 {% include collapsible_toc.html %}
 
+## 2023
+
+### Instantmt
+- [Instantmt.com.io](https://instantmt.com/)
+
 ## 2022
 
 ### Eleven Labs
