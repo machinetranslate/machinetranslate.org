@@ -1,5 +1,5 @@
 ---
-nav_order: 1``
+nav_order: 1
 parent: Contributing
 title: Style
 community_search_exclude: true
