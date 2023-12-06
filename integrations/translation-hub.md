@@ -19,7 +19,10 @@ api_integrations:
   name: Google Translate
 fuzzy_repair: false
 open-source: false
-quality_estimation_integrations: []
+quality_estimation_integrations:
+- slug: google-translation-hub-mtqp
+  custom: false
+  name: Google Translation Hub MTQP
 seo:
   name: Machine translation API integrations in Google Cloud Translation Hub
   type: Product

@@ -158,7 +158,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis:
 - slug: google-translation-hub-mtqp
-  id: translation-hub
+  id: google-translation-hub-mtqp
   name: Google Translation Hub MTQP
 - slug: kantanqes
   id: kantanqes
