@@ -39,7 +39,7 @@ In 2015, it was acquired by Amazon, and became Amazon Translate.
 
 In 2019, Lavie joined [Unbabel](/companies#unbabel) as Head of AI.
 
-In 2023, Lavie joined [Phrase](/phrase) as VP of AI Research.
+In 2023, Lavie joined [Phrase](/phrase-tms) as VP of AI Research.
 
 ---
 
