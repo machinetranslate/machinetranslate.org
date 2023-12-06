@@ -29,4 +29,4 @@ def test_unique_slugs():
 
         # Check that URL is one level deep
         if check_path != 'files':
-            assert check_path == 'localhost:4000', f'{url_element.text}: Paths should be 1 level deep e.g URL/slug'
+            assert check_path == 'machinetranslate.org', f'{url_element.text}: Paths should be 1 level deep e.g URL/slug'
