@@ -225,6 +225,31 @@
         }
     },
     {
+        "id": "kantanstream",
+        "name": "KantanStream",
+        "company": "kantanmt",
+        "tms_url": "https://www.kantanai.io/kantanstream-home/",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "api_integrations": [
+            {
+                "kantanmt": {
+                    "custom": true,
+                    "glossary": true,
+                    "adaptive": true
+                }
+        ],
+        "quality_estimation_integrations": [
+            {
+                "kantanqes": {
+                    "custom": false
+                }
+            }
+        ],
+    },
+    {
         "id": "lilt-tms",
         "name": "Lilt",
         "company": "lilt",
@@ -1429,6 +1454,30 @@
     
         "edit_distance": true
         
+    },
+    {
+        "id": "translation-hub",
+        "name": "Google Cloud Translation Hub",
+        "company": "google",
+        "tms_url": "https://cloud.google.com/translation-hub",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "api_integrations": [
+            {
+                "google": {
+                    "custom": true,
+                    "glossary": true
+                }
+        ],
+        "quality_estimation_integrations": [
+            {
+                "google-translation-hub-mtqp": {
+                    "custom": false
+                }
+            }
+        ],
     },
     {
         "id": "wordbee",
