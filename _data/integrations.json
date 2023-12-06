@@ -240,6 +240,7 @@
                     "glossary": true,
                     "adaptive": true
                 }
+            }
         ],
         "quality_estimation_integrations": [
             {
@@ -1470,6 +1471,7 @@
                     "custom": true,
                     "glossary": true
                 }
+            }
         ],
         "quality_estimation_integrations": [
             {
