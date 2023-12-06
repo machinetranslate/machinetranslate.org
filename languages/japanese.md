@@ -116,7 +116,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis:
 - slug: google-translation-hub-mtqp
-  id: translationhub
+  id: translation-hub
   name: Google Translation Hub MTQP
 - slug: kantanqes
   id: kantanqes
