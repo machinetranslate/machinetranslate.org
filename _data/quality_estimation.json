@@ -4079,7 +4079,7 @@
         ]
     },
     {
-        "id": "translationhub",
+        "id": "translation-hub",
         "name": "Google Translation Hub MTQP",
         "company": "Google",
         "tagline": "Machine translation quality prediction scores",
@@ -4166,7 +4166,7 @@
             ]
         ],
         "only_compatible_mt_api": "google",
-        "only_compatible_tms": "translationhub",
+        "only_compatible_tms": "translation-hub",
         "customisation": false,
         "urls": [
             "https://cloud.google.com/translation-hub/docs/user-post-edit#segment-details",
