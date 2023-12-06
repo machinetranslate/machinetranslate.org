@@ -1646,7 +1646,7 @@
     {
         "id": "omniscien-confidence-scores",
         "name": "Omniscien Confidence Scores",
-        "company": "Omniscien-Technologies",
+        "company": "Omniscien Technologies",
         "tagline": "Translation confidence scoring and quality estimates",
         "languages": [
             [
@@ -3946,7 +3946,7 @@
                 "es"
             ]
         ],
-        "only_compatible_mt_api": "kantanmt",
+        "only_compatible_mt_api": "omniscien",
         "only_compatible_tms": null,
         "customisation": true,
         "urls": [
