@@ -15,7 +15,7 @@ seo:
 | --- | --- | --- |
 |  | **WMT24** |  |
 | September | **AMTA 2024** | Chicago, Illinois |
-| June | **AmericasNLP** | Mexico City, Mexico |
+| June | [**AmericasNLP**](http://turing.iimas.unam.mx/americasnlp/2024_workshop.html) | Mexico City, Mexico |
 | 24 - 27 June | **EAMT 2024** | Sheffield, England |
 
 ## 2023 events
