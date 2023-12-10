@@ -208,9 +208,12 @@ only_compatible_mt_api:
   name: KantanMT
 only_compatible_tms:
 - id: kantanstream
-  name: kantanstream
+  name: KantanStream
 customisation: true
-integrations: []
+integrations:
+- slug: kantanstream
+  name: KantanStream
+  custom: false
 seo:
   name: The KantanQES translation quality estimation API
   type: Product
