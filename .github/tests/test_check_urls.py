@@ -58,4 +58,4 @@ class TestSitemapRequests:
                 not_found_urls.append(url)
 
         # Assert that there are no URLs with non-200 status codes
-        assert len(not_found_urls) == 0
+        assert len(not_found_urls) == 0, f'Not found URLs: {not_found_urls}'
