@@ -170,12 +170,12 @@ In 2022, the *News* machine translation task was renamed the *General* machine t
 | 11:00 - 12:30 | [**SJTU-MTLAB’s Submission to the WMT23 Word-Level Auto Completion Task**](https://aclanthology.org/2023.wmt-1.77.pdf) <br>Xingyu Chen, Rui Wang |
 | 11:00 - 12:30 | [**PRHLT’s Submission to WLAC 2023**](https://aclanthology.org/2023.wmt-1.78.pdf) <br>Angel Navarro, Miguel Domingo, Francisco Casacuberta |
 | 11:00 - 12:30 | [**KnowComp Submission for WMT23 Word-Level AutoCompletion Task**](https://aclanthology.org/2023.wmt-1.79.pdf) <br>Yi Wu, Haochen Shi, Weiqi Wang, Yangqiu Song |
-|     | **Termninology Translation Task** |
-| 11:00 - 12:30 [**Terminology-Aware Translation with Constrained Decoding and Large Language Model Prompting**](https://aclanthology.org/2023.wmt-1.80.pdf) <br>Nikolay Bogoychev, Pinzhen Chen |
-| 11:00 - 12:30 [**Lingua Custodia’s Participation at the WMT 2023 Terminology Shared Task**](https://aclanthology.org/2023.wmt-1.81.pdf) <br>Jingshu Liu, Mariam Nakhlé, Gaëtan Caillout, Raheel Qadar |
-| 11:00 - 12:30 [**Domain Terminology Integration into Machine Translation: Leveraging Large Language Models**](https://aclanthology.org/2023.wmt-1.82.pdf) <br>Yasmin Moslem, Gianfranco Romani, Mahdi Molaei, John D. Kelleher, Rejwanul Haque, Andy Way |
-| 11:00 - 12:30 [**OPUS-CAT Terminology Systems for the WMT23 Terminology Shared Task**](https://aclanthology.org/2023.wmt-1.83.pdf) <br>Tommi Nieminen |
-| 11:00 - 12:30 [**VARCO-MT: NCSOFT’s WMT’23 Terminology Shared Task Submission**](https://aclanthology.org/2023.wmt-1.84.pdf) <br>Geon Woo Park, Junghwa Lee, Meiying Ren, Allison Shindell, Yeonsoo Lee |
+|     | **Terminology Translation Task** |
+| 11:00 - 12:30 | [**Terminology-Aware Translation with Constrained Decoding and Large Language Model Prompting**](https://aclanthology.org/2023.wmt-1.80.pdf) <br>Nikolay Bogoychev, Pinzhen Chen |
+| 11:00 - 12:30 | [**Lingua Custodia’s Participation at the WMT 2023 Terminology Shared Task**](https://aclanthology.org/2023.wmt-1.81.pdf) <br>Jingshu Liu, Mariam Nakhlé, Gaëtan Caillout, Raheel Qadar |
+| 11:00 - 12:30 | [**Domain Terminology Integration into Machine Translation: Leveraging Large Language Models**](https://aclanthology.org/2023.wmt-1.82.pdf) <br>Yasmin Moslem, Gianfranco Romani, Mahdi Molaei, John D. Kelleher, Rejwanul Haque, Andy Way |
+| 11:00 - 12:30 | [**OPUS-CAT Terminology Systems for the WMT23 Terminology Shared Task**](https://aclanthology.org/2023.wmt-1.83.pdf) <br>Tommi Nieminen |
+| 11:00 - 12:30 | [**VARCO-MT: NCSOFT’s WMT’23 Terminology Shared Task Submission**](https://aclanthology.org/2023.wmt-1.84.pdf) <br>Geon Woo Park, Junghwa Lee, Meiying Ren, Allison Shindell, Yeonsoo Lee |
 |     | **Automatic Postediting Task** |
 | 11:00 - 12:30 | [**HW-TSC’s Participation in the WMT 2023 Automatic Post Editing Shared Task**](https://aclanthology.org/2023.wmt-1.85.pdf) <br>Jiawei Yu, Min Zhang, Zhao Yanqing, Xiaofeng Zhao, Yuang Li, Su Chang, Yinglu Li, Ma Miaomiao, shimin tao, Hao Yang |
 |     | **Indic Languages Translation Task** |
