@@ -57,7 +57,7 @@ The **Machine Translate Foundation** is building **open information** and **comm
 The content covers everything about machine translation, from products to research, and from history to news.
 
 > #### Featured events
-> - [WMT23](/wmt23) - 6-7 December, Singapore
+> - [EAMT 2024](/eamt2024) - 24-27 June, Sheffield
 > - [Machine translation meetup](/meetup)
 
 > #### Featured articles
