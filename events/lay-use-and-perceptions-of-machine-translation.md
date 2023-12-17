@@ -27,7 +27,7 @@ seo:
 
 The online symposium was held by the Department of Translation and Interpeting Studies at Bar Ilan University.
 
-> Machine translation (MT) has had an increasing effect on multilingual communication and understanding in a globalized world.
+> Machine translation (MT) has had an increasing effect on multilingual communication and understanding in a globalised world.
 > This symposium presents emerging research on lay use and perceptions of MT.
 
 [translation.biu.ac.il/en/node/848](https://translation.biu.ac.il/en/node/848)

@@ -35,7 +35,7 @@ Silicon Valley Italian Hub
 ## Program
 
 - ***Overview of recent scientific advances in machine translation*** - Marcello Federico, AWS AI Labs
-- ***Customization of NMT on-the-fly using Neural Fuzzy Adaptation*** - Hugh Aitchison, SYSTRAN
+- ***Customisation of NMT on-the-fly using Neural Fuzzy Adaptation*** - Hugh Aitchison, SYSTRAN
 - **Providers panel** - Arjun Rattan, Google; Hugh Aitchison, SYSTRAN
 - **Users panel** - Belinda Mo, Viva Translate
 

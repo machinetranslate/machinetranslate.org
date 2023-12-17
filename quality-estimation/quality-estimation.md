@@ -51,7 +51,7 @@ Document-level scores indicate if a machine translation output can be used witho
 
 ---
 
-In 2012, [Lucia Specia](/lucia-specia) and Google researcher Radu Soricut organized the first *Shared Task on Quality Estimation*.
+In 2012, [Lucia Specia](/lucia-specia) and Google researcher Radu Soricut organised the first *Shared Task on Quality Estimation*.
 
 In 2018, Lucia Specia, Carolina Scarton and Gustavo Henrique Paetzold published the book *Quality Estimation for Machine Translation*.
 There was research on word-level quality estimation and paragraph-level quality estimation.
@@ -145,7 +145,7 @@ Supervised quality estimation trains on parallel data that includes human labels
 
 ### Unsupervised
 Unsupervised quality estimation trains on monolingual data or parallel data only.
-Supervised quality estimation relies on labeled or post-edited data.
+Supervised quality estimation relies on labelled or post-edited data.
 
 ### Glassbox
 Glassbox approaches are tied to the machine translation system itself.

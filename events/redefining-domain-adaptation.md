@@ -28,7 +28,7 @@ seo:
 **Redefining domain adaptation for machine translation and voice recognition - An essential primer** took place online on 16 February, 2023.
 The webinar was organised by [Omniscien](/companies#omniscien-technologies).
 
-> This webinar will demonstrate how Omniscien’s team gathers and synthesizes billions of sentences of training data that is used to teach and adapt AI systems. We will explore best practices and explain the limitations of traditional approaches. We will show how to use AI to create many millions of sentences of training data that can be used as part of domain adaptation. Essentially, this means using one form of AI to teach another AI form new knowledge.
+> This webinar will demonstrate how Omniscien’s team gathers and synthesises billions of sentences of training data that is used to teach and adapt AI systems. We will explore best practices and explain the limitations of traditional approaches. We will show how to use AI to create many millions of sentences of training data that can be used as part of domain adaptation. Essentially, this means using one form of AI to teach another AI form new knowledge.
 
 ### Speakers
 

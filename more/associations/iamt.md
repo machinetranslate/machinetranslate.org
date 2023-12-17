@@ -62,14 +62,14 @@ The bylaws of IAMT were ratified by the General Assembly of the IAMT in Dublin i
 
 ### Article 1. Name and General Structure
 
-The name of this nonprofit association, a corporation organized and existing under the laws of the District of Columbia, United States of America, shall be International Association for Machine Translation, Inc. (IAMT).
+The name of this nonprofit association, a corporation organised and existing under the laws of the District of Columbia, United States of America, shall be International Association for Machine Translation, Inc. (IAMT).
 Provision is made herein for the establishment of three regional divisions within IAMT.
 
 ### Article 2. Purposes
 
 The purposes of the International Association for Machine Translation, Inc., shall be exclusively nonprofit, scientific, and educational.
 It shall bring together users, developers, researchers, sponsors, and other individuals or institutional or corporate entities interested in machine translation for the purpose of studying, evaluating, and understanding the science of machine translation and educating the public on important scientific techniques and principles of machine translation.
-It shall also be responsible to organize and hold a biannual MT Summit conference in odd years.
+It shall also be responsible to organise and hold a biannual MT Summit conference in odd years.
 
 ### Article 3. Membership
 
@@ -129,7 +129,7 @@ In the event of a vacancy occurring on the Executive Committee, the correspondin
 If a member of the Executive Committee is unable to attend a regular or special meeting of the Executive Committee, the corresponding regional association shall delegate another representative to fill the seat in question on an interim basis.
 
 #### Section 4. Powers and Duties.
-The Executive Committee shall have the power and authority to manage the property and finances of IAMT and to regulate and govern its business and affairs; to determine policies and make changes therein; to amend the present Bylaws; to specify and review the work of the elected officers and to devise and carry out such measures as the membership may direct or which, in the judgment of the Executive Committee, are necessary or decide on behalf of IAMT or in furtherance of its nonprofit purposes, objectives, and goals.
+The Executive Committee shall have the power and authority to manage the property and finances of IAMT and to regulate and govern its business and affairs; to determine policies and make changes therein; to amend the present Bylaws; to specify and review the work of the elected officers and to devise and carry out such measures as the membership may direct or which, in the judgement of the Executive Committee, are necessary or decide on behalf of IAMT or in furtherance of its nonprofit purposes, objectives, and goals.
 It shall also have the power to dissolve IAMT.
 
 #### Section 5. Meetings
@@ -170,7 +170,7 @@ a. Record and hold all funds of IAMT in such accounts as the Executive Committee
 
 b. Submit to the Executive Committee a proposed budget for the next fiscal year (beginning each October 1) at least sixty (60) days in advance and obtain the Executive Committee’s approval thereof,
 
-c. Disburse from the funds of IAMT expenditures duly authorized under the budget up to the amounts authorized;
+c. Disburse from the funds of IAMT expenditures duly authorised under the budget up to the amounts authorised;
 
 d. When unexpected expenditures arise in excess of $2,000, or when the cost of scheduled activities exceeds the budget by this amount, consult with the Executive Committee and obtain its approval prior to disbursement, and consult with the Executive Committee and obtain its approval in the event of any individual expenditures in excess of $5,000;
 

@@ -74,7 +74,7 @@ seo:
 *   **[MT Summit 2023](https://machinetranslate.org/mtsummit2023)** - 4 - 8 September - Macau 🇲🇴
 *   **[WAT 2023](https://machinetranslate.org/wat2023)** - 4 September - Macau 🇲🇴
 *   **[CoCo4MT 2023](https://machinetranslate.org/coco4mt-2)** - 4 - 5 September - Macau 🇲🇴
-*   **Seattle area localization meetup** - 13 September - Seattle 🇺🇸
+*   **Seattle area localisation meetup** - 13 September - Seattle 🇺🇸
 *   **[Language Intelligence Summit](https://www.lt-innovate.org/summit)** - 21 - 22 September - Leipzig 🇩🇪 and online 🌏
 *   **[TAUS Annual Conference 2023](https://machinetranslate.org/taus2023)** - 4 - 6 October - Salt Lake City, Utah 🇺🇸
 *   **[AMTA 2023](https://machinetranslate.org/amta2023)** - 8 November - online 🌏
