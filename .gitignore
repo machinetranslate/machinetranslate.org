@@ -8,3 +8,4 @@ vendor
 /venv
 .pytest_cache
 __pycache__
+.github/tests/.pytest_cache
