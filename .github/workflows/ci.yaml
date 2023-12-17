@@ -36,7 +36,9 @@ jobs:
                 JEKYLL_ENV: production
 
             - name: Install Python dependencies
-              run: pip install -r .github/tests/requirements.txt
+              run: |
+                pip install -r .github/tests/requirements.txt
+                python -m spacy download en_core_web_sm
 
             - name: Build Jekyll site
               run: bundle exec jekyll build
