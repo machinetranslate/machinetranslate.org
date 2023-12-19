@@ -1,14 +1,14 @@
 ---
 parent: Events
-title: Seattle Localisation User Group meetup
-description: "Panel Discussion: Applications of Large Language Models (LLMs) in Localisation"
+title: Seattle Localization User Group meetup
+description: "Panel Discussion: Applications of Large Language Models (LLMs) in Localization"
 location: Seattle, Washington
-name: Seattle Localisation User Group meetup
+name: Seattle Localization User Group meetup
 startDate: 2023-09-13
 
 seo:
   type: Event
-  name: Seattle Localisation User Group meetup
+  name: Seattle Localization User Group meetup
   startDate: 2023-09-13
   endDate: 2023-09-13
   eventAttendanceMode: OfflineEventAttendanceMode
@@ -19,9 +19,9 @@ seo:
     name: Washington, United States of America
 ---
 
-The **Seattle Localisation User Group** meetup took place on 13 September, 2023, in Seattle, Washington.
+The **Seattle Localization User Group** meetup took place on 13 September, 2023, in Seattle, Washington.
 
-A panel discussed ***Applications of Large Language Models (LLMs) in Localisation***.
+A panel discussed ***Applications of Large Language Models (LLMs) in Localization***.
 
 > Our panellists have deep subject matter expertise on AI, Generative AI, and LLMs, and have unique perspectives on how these technologies can be used in the context of localisation.
 
@@ -37,8 +37,8 @@ Bellevue, Seattle, Washington
 
 - Huda Khayrallah, Senior Researcher at [Microsoft Translator](/microsoft)
 - Adam Bittlingmayer, Co-Founder & CEO of ModelFront
-- Kincaid Day, Director, AI-Enabled Localisation Solutions at Centific
-- Adam Vance, VP of Localisation & LQA at GlobalStep
+- Kincaid Day, Director, AI-Enabled Localization Solutions at Centific
+- Adam Vance, VP of Localization & LQA at GlobalStep
 
 #### Moderator
 

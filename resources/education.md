@@ -74,7 +74,7 @@ This pre-recorded course is designed for developers with intermediate knowledge 
 
 ## Localization Institute
 
-The **Machine Translation Master Class** is offered by the Localisation Institute and taught by Peng Wang.
+The **Machine Translation Master Class** is offered by the Localization Institute and taught by Peng Wang.
 This interactive class is designed for project managers, vendors, buyers, decision-makers, IT professionals and content managers.
 
 [localizationinstitute.com/course/machine-translation-master-class/](https://www.localizationinstitute.com/course/machine-translation-master-class/)
