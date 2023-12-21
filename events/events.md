@@ -15,6 +15,7 @@ seo:
 | --- | --- | --- |
 |  | **WMT24** |  |
 | September | **AMTA 2024** | Chicago, Illinois |
+| 3 - 6 July 2024 | [**NETTT 2024**](/nettt2024) | Varna, Bulgaria |
 | June | [**AmericasNLP**](http://turing.iimas.unam.mx/americasnlp/2024_workshop.html) | Mexico City, Mexico |
 | 24 - 27 June | [**EAMT 2024**](/eamt2024) | Sheffield, England |
 

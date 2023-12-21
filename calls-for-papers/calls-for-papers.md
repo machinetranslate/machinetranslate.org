@@ -13,6 +13,7 @@ seo:
 | Deadline | Publication | Organisers |
 | --- | --- | --- |
 | **1 April 2024** | [***Machine and Computer-assisted Interpreting***](https://lans-tts.uantwerpen.be/index.php/LANS-TTS/announcement/view/24) | LANS-TTS |
+| **31 March 2024** | [**NETTT 2024**](/nettt2024) |  |
 | **8 March 2024** | [**EAMT 2024**](/eamt2024) | Sheffield, England |
 | 1 October 2023 | [DNLP 2024](https://aisca2024.org/dnlp/index) |  |
 | 10 September 2023 | [*International Journal on Natural Language Computing*](https://airccse.org/journal/ijnlc/) | |
@@ -34,7 +35,7 @@ seo:
 | 15 November 2022 | [*Web-based machine translation in language teaching*](https://calico.org/calico-journal-special-issue-machine-translation-call-for-papers/) | CALICO |
 | 30 September 2022 | [AAMT 2022](https://www.aamt.info/event/aamttokyo2022/aamttokyo2022-kobo/) | AAMT |
 | 30 September 2022 | [AmericasNLP Competition](http://turing.iimas.unam.mx/americasnlp/st.html) | NeurIPS |
-| 7 September 2022 | [WMT22](/wmt22) | [WMT](/wmt) |
+| 7 September 2022 | [WMT22](/wmt22) | [WMT](/wmt22) |
 | 28 July | [MTMA22](/mtma2022) | |
 | 15 July 2022 | [MTM22](/mtm2022) | |
 | 11 July 2022 | [WAT 2022](/wat2022) | |
