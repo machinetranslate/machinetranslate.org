@@ -12,6 +12,7 @@ seo:
 
 | Deadline | Publication | Organisers |
 | --- | --- | --- |
+| **29 April 2024** | [**IWSLT 2024**](/iwslt2024) | IWSLT |
 | **1 April 2024** | [***Machine and Computer-assisted Interpreting***](https://lans-tts.uantwerpen.be/index.php/LANS-TTS/announcement/view/24) | LANS-TTS |
 | **31 March 2024** | [**NETTT 2024**](/nettt2024) |  |
 | **8 March 2024** | [**EAMT 2024**](/eamt2024) | Sheffield, England |
