@@ -61,6 +61,47 @@ It was organised by [WMT](/wmt).
 
 In 2022, the *News* machine translation task was renamed the *General* machine translation task.
 
+## Scientific papers
+
+### Topics
+
+- Machine translation models (neural, statistical etc. )
+- Analysis of neural models
+- Using comparable corpora
+- Selection and preparation of data
+- Semi-supervised and unsupervised learning for machine translation, transfer learning
+- Multilingual machine translation
+- Incorporating linguistic information into machine translation
+- Machine translation inference
+- Manual and automatic methods for evaluating machine translation
+- Quality estimation
+
+### Research Papers
+
+> Research papers should describe original research corresponding to the categories listed above. Research papers that have been or will be submitted to other meetings or publications must indicate this at submission time, and must be withdrawn from the other venues if accepted and published at WMT 2022.
+
+> We will not accept for publication papers that overlap significantly in content or results with papers that have been or will be published elsewhere. It is acceptable to submit work that has been made available as a technical report (or similar, e.g. in arXiv) without citing it.
+
+> For the research track, papers should be anonymised, be between 6 and 10 pages in length (excluding references) and may include supplementary material.
+
+
+### System Papers
+
+> System papers must describe one or more shared task submissions. System paper submissions that we cannot link to a shared task submission will be rejected without review. System papers can overlap with other published work, and do not have to follow the double submission policy. There is no maximum length for system papers, but normally a short paper (4-6 pages) is appropriate. System papers should not be anonymised.
+
+
+## Poster format
+
+- System description papers will be presentated as posters.
+- Poster panels are 3.28 foot (1 meter wide) x 8.20 foot (2.5 meter tall). Portrait orientation is suggested.
+
+
+## Paper submission
+
+- Papers must be submitted [electronically](https://www.softconf.com/emnlp2023/wmt/).
+- Research and system papers have the same deadlines.
+- Research and system papers should follow [EMNLP2022 formatting guidelines](https://2023.emnlp.org/calls/style-and-formatting/).
+
 ## Schedule
 
 ### Day 1
@@ -198,43 +239,45 @@ In 2022, the *News* machine translation task was renamed the *General* machine t
 | 17:15 - 17:30 | [**The Devil Is in the Errors: Leveraging Large Language Models for Fine-grained Machine Translation Evaluation**](https://aclanthology.org/2023.wmt-1.100.pdf) <br>Patrick Fernandes, Daniel Deutsch, Mara Finkelstein, Parker Riley, André Martins, Graham Neubig, Ankush Garg, Jonathan Clark, Markus Freitag, Orhan Firat |
 
 
-## Scientific papers
+## Results
 
-### Topics
+Full results of the shared tasks: 
+- [*Findings of the 2023 Conference on Machine Translation (WMT23): LLMs Are Here but Not Quite There Yet*](https://aclanthology.org/2023.wmt-1.1.pdf)
+- [*Findings of the WMT 2023 Biomedical Translation Shared Task: Evaluation of ChatGPT 3.5 as a Comparison System*](https://aclanthology.org/2023.wmt-1.2.pdf)
+- [*Findings of the WMT 2023 Shared Task on Discourse-Level Literary Translation: A Fresh Orb in the Cosmos of LLMs*](https://aclanthology.org/2023.wmt-1.3.pdf)
+- [*Findings of the Second WMT Shared Task on Sign Language Translation (WMT-SLT23)*](https://aclanthology.org/2023.wmt-1.4.pdf)
+- [*Findings of the WMT 2023 Shared Task on Parallel Data Curation*](https://aclanthology.org/2023.wmt-1.5.pdf)
+- [*Results of WMT23 Metrics Shared Task: Metrics Might Be Guilty but References Are Not Innocent*](https://aclanthology.org/2023.wmt-1.51.pdf)
+- [*Findings of the WMT 2023 Shared Task on Quality Estimation*](https://aclanthology.org/2023.wmt-1.52.pdf)
+- [*Findings of the Word-Level AutoCompletion Shared Task in WMT 2023*](https://aclanthology.org/2023.wmt-1.53.pdf)
+- [*Findings of the WMT 2023 Shared Task on Machine Translation with Terminologies*](https://aclanthology.org/2023.wmt-1.54.pdf)
+- [*Findings of the WMT 2023 Shared Task on Automatic Post-Editing*](https://aclanthology.org/2023.wmt-1.55.pdf)
+- [*Findings of the WMT 2023 Shared Task on Low-Resource Indic Language Translation*](https://aclanthology.org/2023.wmt-1.56.pdf)
 
-- Machine translation models (neural, statistical etc. )
-- Analysis of neural models
-- Using comparable corpora
-- Selection and preparation of data
-- Semi-supervised and unsupervised learning for machine translation, transfer learning
-- Multilingual machine translation
-- Incorporating linguistic information into machine translation
-- Machine translation inference
-- Manual and automatic methods for evaluating machine translation
-- Quality estimation
+### General task
 
-### Research Papers
+The winner systems were listed according to their [average score](/human-evaluation-metrics#average-score-and-average-z-score).
+The results were determined with a bilingual direct assessment with [scalar quality metric](/human-evaluation-metrics#sqm) (SQM) with document context.
 
-> Research papers should describe original research corresponding to the categories listed above. Research papers that have been or will be submitted to other meetings or publications must indicate this at submission time, and must be withdrawn from the other venues if accepted and published at WMT 2022.
+#### → English
 
-> We will not accept for publication papers that overlap significantly in content or results with papers that have been or will be published elsewhere. It is acceptable to submit work that has been made available as a technical report (or similar, e.g. in arXiv) without citing it.
+| Language pair | System | Average score |
+| --- | --- | --- |
+| German → | `GPT4-5shot` | 90.3 |
+| Chinese → | `Lan-BridgeMT`| 82.9 |
+| Japanese → | `GPT4-5shot` | 81.3 |
 
-> For the research track, papers should be anonymised, be between 6 and 10 pages in length (excluding references) and may include supplementary material.
+#### English →
 
+| Language pair | System | Average score |
+| --- | --- | --- |
+| → German | `GPT4-5shot` | 89.0 |
+| → Czech | `ONLINE-W` | 84.1 |
+| → Chinese | `Yishu`| 82.2 |
+| → Japanese | `GPT4-5shot` | 79.5  |
 
-### System Papers
+#### Czech → Ukrainian
 
-> System papers must describe one or more shared task submissions. System paper submissions that we cannot link to a shared task submission will be rejected without review. System papers can overlap with other published work, and do not have to follow the double submission policy. There is no maximum length for system papers, but normally a short paper (4-6 pages) is appropriate. System papers should not be anonymised.
-
-
-## Poster format
-
-- System description papers will be presentated as posters.
-- Poster panels are 3.28 foot (1 meter wide) x 8.20 foot (2.5 meter tall). Portrait orientation is suggested.
-
-
-## Paper submission
-
-- Papers must be submitted [electronically](https://www.softconf.com/emnlp2023/wmt/).
-- Research and system papers have the same deadlines.
-- Research and system papers should follow [EMNLP2022 formatting guidelines](https://2023.emnlp.org/calls/style-and-formatting/).
+| Language pair | System | Average score |
+| --- | --- | --- |
+| Czech → Ukrainian | `ONLINE-B` | 83.7 |
