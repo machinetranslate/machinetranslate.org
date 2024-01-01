@@ -226,9 +226,9 @@ It was organised by [WMT](/wmt).
 
 ## Results
 
-Full results of the shared tasks: [*Findings of the 2021 Conference on Machine Translation (WMT21)*](https://statmt.org/wmt21/pdf/2021.wmt-1.1.pdf)
-
 ### News translation
+
+Full results of the shared task: [*Findings of the 2021 Conference on Machine Translation (WMT21)*](https://statmt.org/wmt21/pdf/2021.wmt-1.1.pdf)
 
 The winner systems were listed according to their [average score and average z-score](/human-evaluation-metrics#average-score-and-average-z-score).
 
