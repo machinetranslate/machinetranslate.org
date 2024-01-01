@@ -322,9 +322,9 @@ Posters must be presented in Gather.Town.
 
 ## Results
 
-Full results of the shared tasks: [*Findings of the 2022 Conference on Machine Translation (WMT22)*](https://statmt.org/wmt22/pdf/2022.wmt-1.1.pdf)
-
 ### General task
+
+Full results of the shared task: [*Findings of the 2022 Conference on Machine Translation (WMT22)*](https://statmt.org/wmt22/pdf/2022.wmt-1.1.pdf)
 
 The winner systems were listed according to their [average score and average z-score](/human-evaluation-metrics#average-score-and-average-z-score).
 
