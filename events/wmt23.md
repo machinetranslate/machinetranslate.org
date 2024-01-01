@@ -241,20 +241,9 @@ In 2022, the *News* machine translation task was renamed the *General* machine t
 
 ## Results
 
-Full results of the shared tasks: 
-- [*Findings of the 2023 Conference on Machine Translation (WMT23): LLMs Are Here but Not Quite There Yet*](https://aclanthology.org/2023.wmt-1.1.pdf)
-- [*Findings of the WMT 2023 Biomedical Translation Shared Task: Evaluation of ChatGPT 3.5 as a Comparison System*](https://aclanthology.org/2023.wmt-1.2.pdf)
-- [*Findings of the WMT 2023 Shared Task on Discourse-Level Literary Translation: A Fresh Orb in the Cosmos of LLMs*](https://aclanthology.org/2023.wmt-1.3.pdf)
-- [*Findings of the Second WMT Shared Task on Sign Language Translation (WMT-SLT23)*](https://aclanthology.org/2023.wmt-1.4.pdf)
-- [*Findings of the WMT 2023 Shared Task on Parallel Data Curation*](https://aclanthology.org/2023.wmt-1.5.pdf)
-- [*Results of WMT23 Metrics Shared Task: Metrics Might Be Guilty but References Are Not Innocent*](https://aclanthology.org/2023.wmt-1.51.pdf)
-- [*Findings of the WMT 2023 Shared Task on Quality Estimation*](https://aclanthology.org/2023.wmt-1.52.pdf)
-- [*Findings of the Word-Level AutoCompletion Shared Task in WMT 2023*](https://aclanthology.org/2023.wmt-1.53.pdf)
-- [*Findings of the WMT 2023 Shared Task on Machine Translation with Terminologies*](https://aclanthology.org/2023.wmt-1.54.pdf)
-- [*Findings of the WMT 2023 Shared Task on Automatic Post-Editing*](https://aclanthology.org/2023.wmt-1.55.pdf)
-- [*Findings of the WMT 2023 Shared Task on Low-Resource Indic Language Translation*](https://aclanthology.org/2023.wmt-1.56.pdf)
-
 ### General task
+
+Full results of the shared task: [*Findings of the 2023 Conference on Machine Translation (WMT23): LLMs Are Here but Not Quite There Yet*](https://aclanthology.org/2023.wmt-1.1.pdf)
 
 The winner systems were listed according to their [average score](/human-evaluation-metrics#average-score-and-average-z-score).
 The results were determined with a bilingual direct assessment with [scalar quality metric](/human-evaluation-metrics#sqm) (SQM) with document context.
