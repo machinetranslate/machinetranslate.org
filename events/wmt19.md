@@ -205,9 +205,9 @@ It was organised by [WMT](/wmt).
 
 ## Results
 
-Full results of the shared tasks: [*Findings of the 2019 Conference on Machine Translation (WMT19)*](https://aclanthology.org/W19-5301.pdf)
-
 ### News translation
+
+Full results of the shared task: [*Findings of the 2019 Conference on Machine Translation (WMT19)*](https://aclanthology.org/W19-5301.pdf)
 
 The winner systems were listed according to their [average score and average z-score](/human-evaluation-metrics#average-score-and-average-z-score).
 
