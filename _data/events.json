@@ -1,0 +1,182 @@
+[
+    {
+        "name": "",
+        "id": "",
+        "description": "",
+        "pastDescription": "",
+        "location": {
+            "name": "",
+            "mode": "",
+            "type": "",
+            "url": ""
+        },
+        "startDate": "",
+        "endDate": "",
+        "eventAttendanceMode": "",
+        "organiser": {
+            "type": "",
+            "name": "",
+            "url": ""
+        },
+        "content": {
+            "openingSentences": [],
+            "blockquotes": [],
+            "urlsAfterBlockquote": [],
+            "location": {
+                "header": "",
+                "title": ""
+            },
+            "link": {
+                "header": "",
+                "url": ""
+            },
+            "importantDates": {
+                "header": "",
+                "h2": [{
+                    "name": "",
+                    "titles": [
+                        {
+                            "title": "date"
+                        },
+                        {
+                            "title": "date"
+                        }
+                    ],
+                    "optionalSentence": ""
+                },
+                {
+                    "name": "",
+                    "titles": [
+                        {
+                            "title": "date"
+                        },
+                        {
+                            "title": "date"
+                        }
+                    ],
+                    "optionalSentence": ""
+                }
+            ]
+            },
+            "keynoteSpeakers": {
+                "header": "Keynote speakers",
+                "blockquotes": [],
+                "optionalSentence": ""
+            },
+            "speakers": {
+                "header": "",
+                "blockquotes": [],
+                "optionalSentence": ""
+            },
+            "workshops": {
+                "header": "",
+                "titles": [
+                    {
+                        "name": "name",
+                        "blockquote": "",
+                        "url": ""
+                    },
+                    {
+                        "name": "name",
+                        "blockquote": "",
+                        "url": ""
+                    }
+                ]
+                
+            },
+            "sharedTasks": {
+                "header": "",
+                "tasks": "",
+                "optionalSentence": ""
+            },
+            "schedule": {
+                "header": "",
+                "days": [{
+                    "day1": {
+                        "header": "",
+                        "schedule": [
+                            {
+                            "time": "",
+                            "title": ""
+                        },
+                        {
+                            "time": "",
+                            "title": ""
+                        }
+                    ],
+                    "optionalSentence": ""
+                    },
+                    "day2": {
+                        "header": "",
+                        "schedule": [
+                            {
+                            "time": "",
+                            "title": ""
+                        },
+                        {
+                            "time": "",
+                            "title": ""
+                        }
+                    ],
+                    "optionalSentence": ""
+                    }
+                }]
+            },
+            "scientificPapers": {
+                "header": "",
+                "topics": {
+                    "header": "",
+                    "titles": []
+                }
+            },
+            "researchPapers": {
+                "header": "",
+                "blockquates": []
+            },
+            "systemPapers": {
+                "header": "",
+                "blockquotes": []
+            },
+            "posterFormat": {
+                "header": "",
+                "titles": []
+
+            },
+            "paperSubmission": {
+                "header": "",
+                "titles": []
+            },
+            "callForPapers": {
+                "header": "",
+                "tracks": [
+                    {
+                        "h2": "",
+                        "h3": "",
+                        "titles": [],
+                        "chairs": ""
+                    },
+                    {
+                        "h2": "",
+                        "h3": "",
+                        "titles": [],
+                        "chairs": ""
+                    }
+                ]
+            },
+            "callForWorkshopsAndTutorials": {
+                "header": "",
+                "openingSentence": "",
+                "chairs": "",
+                "workshops": {
+                    "title": "",
+                    "blockquotes": []
+                },
+                "tutorials": {
+                    "header": "",
+                    "blockquotoes": []
+                }
+            }
+        }
+
+    }
+]
