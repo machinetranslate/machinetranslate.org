@@ -42,21 +42,125 @@ seo:
   </details>
 </section>
 
-## 2024 events
+{% assign amta_events = site.data.events | where_exp: "event", "event.name contains 'AMTA'" %}
+{% assign eamt_events = site.data.events | where_exp: "event", "event.name contains 'EAMT'" %}
+{% assign mt_summit_events = site.data.events | where_exp: "event", "event.name contains 'MT Summit'" %}
 
-| Date | Event | Location |
-| --- | --- | --- |
-| 2 December | Language AI Meetup | Zurich, Switzerland |
-| 12 - 13 November | [**WMT24**](/wmt24) | Florida |
-| 30 September | [**AMTA 2024**](/amta2024) | Chicago, Illinois |
-| 16 September | Language AI Meetup | Zurich, Switzerland |
-| 15 - 16 August | [**IWSLT 2024**](/iwslt2024) | Bangkok, Thailand |
-| 3 - 6 July | [**NETTT 2024**](/nettt2024) | Varna, Bulgaria |
-| June | [**AmericasNLP**](/americasnlp2024) | Mexico City, Mexico |
-| 24 - 27 June | [**EAMT 2024**](/eamt2024) | Sheffield, England |
-| 27 May | **Language AI Meetup** | Zurich, Switzerland |
-| 16 - 17 April | [**TAUS in Tokyo**](/taus-in-tokyo.md) | Tokyo, Japan |
-| 8 February | [Machine translation meetup](/machine-translation-meetup-4) | online |
+
+{% if amta_events.size > 0 %}
+<h3>AMTA</h3>
+<details>
+  <summary>Events</summary>
+    {% for event in amta_events %}
+      <li>
+      {% if event.id %}
+        <a href="/{{ event.id }}">{{ event.name }}</a>
+      {% else %}
+        <strong>{{ event.name }}</strong>
+      {% endif %}
+      </li>
+    {% endfor %}
+      <li>
+        <a href="/amta2023">AMTA 2023</a>
+      </li>
+      <li>
+        <a href="/amta2022">AMTA 2022</a>
+      </li>
+      <li>
+        <a href="/amta2020">AMTA 2020</a>
+      </li>
+</details>
+{% endif %}
+
+{% if eamt_events.size > 0 %}
+<h3>EAMT</h3>
+<details>
+  <summary>Events</summary>
+    {% for event in eamt_events %}
+      <li>
+      {% if event.id %}
+        <a href="/{{ event.id }}">{{ event.name }}</a>
+      {% else %}
+        <strong>{{ event.name }}</strong>
+      {% endif %}
+      </li>
+    {% endfor %}
+      <li>
+        <a href="/eamt2023">EAMT 2023</a>
+      </li>
+      <li>
+        <a href="/eamt2022">EAMT 2022</a>
+      </li>
+      <li>
+        <a href="/eamt2020">EAMT 2020</a>
+      </li>
+</details>
+{% endif %}
+
+<h3>MT Summit</h3>
+<details>
+  <summary>Events</summary>
+    {% for event in mt_summit_events %}
+      <li>
+      {% if event.id %}
+        <a href="/{{ event.id }}">{{ event.name }}</a>
+      {% else %}
+        <strong>{{ event.name }}</strong>
+      {% endif %}      
+      </li>
+    {% endfor %}
+      <li>
+        <a href="/mtsummit2023">MT Summit 2023</a>
+      </li>
+      <li>
+        <a href="/mtsummit2021">MT Summit 2021</a>
+      </li>
+      <li>
+        <a href="/mtsummit2019">MT Summit 2019</a>
+      </li>
+      <li>
+        <a href="/mtsummit2017">MT Summit 2017</a>
+      </li>
+      <li>
+        <a href="/mtsummit2015">MT Summit 2015</a>
+      </li>
+      <li>
+        <a href="/mtsummit2013">MT Summit 2013</a>
+      </li>
+</details>
+
+{% assign all_events = site.data.events | concat: site.data.wmt_events %}
+{% assign events_by_year = all_events | group_by_exp: "event", "event.startDate | date: '%Y'" %}
+{% assign current_date = site.time | date: "%Y-%m-%d" %}
+
+{% for year in events_by_year %}
+  <h2>{{ year.name }} events</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Event</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% assign sorted_events = year.items | sort: "startDate" | reverse %}
+    {% for event in sorted_events %}
+      <tr>
+        <td>{{ event.date }}</td>
+        <td>
+          {% if event.id %}
+            <a href="/{{ event.id }}"{% if event.endDate > current_date %}><strong>{{ event.name }}</strong>{% else %}>{{ event.name }}{% endif %}</a>
+          {% else %}
+            {% if event.endDate > current_date %}<strong>{{ event.name }}</strong>{% else %}{{ event.name }}{% endif %}
+          {% endif %}
+        </td>
+        <td>{{ event.location }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+{% endfor %}
 
 ## 2023 events
 
