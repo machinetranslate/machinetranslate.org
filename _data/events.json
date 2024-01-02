@@ -24,12 +24,6 @@
        "startDate":"2024-08-15",
        "endDate":"2024-08-16",
        "date":"15 - 16 August",
-       "eventAttendanceMode":"MixedEventAttendanceMode",
-       "eventStatus":"EventScheduled",
-       "organiser":{
-          "type":"Person",
-          "url":"https://iwslt.org/2023/#organizers"
-       },
        "openingParagraph":"The International Conference on Spoken Language Translation (<strong>IWSLT</strong>) is an annual scientific conference on spoken language translation.<br> <br> IWSLT 2024 will be co-located at ACL 2024 online and in Bangkok, Thailand from 15 to 16 August, 2024. <br><br> IWSLT 2024 will be a hybrid event.",
        "pastOpeningParagraph":"The nineteenth Machine Translation Summit 2023 (<strong>MTS 2023</strong>) took place from 4 September to 8 September in Macau Special Administrative Region, China. MTS 2023 was organised by [AAMT](/aamt).",
        "impDatesHeader":"Important Dates",
@@ -98,13 +92,6 @@
        "startDate":"2024-07-03",
        "endDate":"2024-07-06",
        "date":"3 - 6 July",
-       "eventAttendanceMode":"OfflineEventAttendanceMode",
-       "eventStatus":"EventScheduled",
-       "organiser":{
-          "type":"Organization",
-          "name":"NeTTT",
-          "url":"http://machinetranslate.org/nettt2022.md#organisershttp://machinetranslate.org/nettt2022.md#organisers"
-       },
        "openingParagraph":"The second New Trends in Translation and Technology (<strong>NeTTT</strong>) conference will take place in Varna, Bulgaria, from 3 July to 6 July, 2024.",
        "blockquotes":[
           "The objective of the conference is (i) to bridge the gap between academia and industry in the field of translation and interpreting by bringing together academics in linguistics, translation studies, machine translation and natural language processing, developers, practitioners, language service providers and vendors who work on or are interested in different aspects of technology for translation and interpreting, and (ii) to be a distinctive event for discussing the latest developments and practices."
