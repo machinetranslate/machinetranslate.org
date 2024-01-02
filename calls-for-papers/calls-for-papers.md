@@ -41,7 +41,7 @@ seo:
     </tr>
     <tr>
         <td>10 September 2023</td>
-        <td><strong><em><a href='https://airccse.org/journal/ijnlc/'>International Journal on Natural Language Computing</a></em></strong></td>
+        <td><em><a href='https://airccse.org/journal/ijnlc/'>International Journal on Natural Language Computing</a></em></td>
         <td></td>
     </tr>
     <tr>
