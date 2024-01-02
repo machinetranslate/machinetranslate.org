@@ -1,0 +1,129 @@
+---
+layout: default
+parent: Events
+---
+
+
+<h1>{{ page.title }}</h1>
+<h2>{{ page.description }}</h2>
+<hr/>
+
+{% assign current_date = site.time | date: "%Y-%m-%d" %}
+
+<p>
+  {% if current_date < page.endDate %}
+    {{ page.openingParagraph }}
+  {% else %}
+    {{ page.pastOpeningParagraph }}
+  {% endif %}
+</p>
+
+{% for blockquote in page.blockquotes %}
+  <blockquote>
+    <p>
+      {{ blockquote }}
+    </p>
+  </blockquote>
+{% endfor %}
+
+{% for url in page.urlsAfterBlockquote %}
+  <p>{{ url }}</p>
+{% endfor %}
+
+<h3>{{ page.locationHeader }}</h3>
+<p>{{ page.locationName }}</p>
+
+<h3>{{ page.linkHeader }}</h3>
+<p>{{ page.linkUrl }}</p>
+
+{% if page.impDatesHeader %}
+  <h2>{{ page.impDatesHeader }}</h2>
+{% endif %}
+{% for impDate in page.impDatesHeaderH4 %}
+  <h4>{{ impDate.h4 }}</h4>
+  <table>
+    <thead>
+      <tr>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for entry in impDate.table %}
+        <tr>
+          <td>{{ entry.date }}</td>
+          <td>{{ entry.name }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endfor %}
+
+<h2>{{ page.bulletKeyNoteSpeakOrTopsHeader }}</h2>
+<ul>
+  {% for name in page.names %}
+    <li>
+      {{ name }}
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>{{ page.blockquoteSpeakersHeader }}</h2>
+{% for speaker in page.speakHeadcontent %}
+  <blockquote>
+    <p>{{ speaker.bshOpeningSentence }}</p>
+    <ul>
+      {% for name in speaker.bulletNames %}
+        <li>{{ name }}</li>
+      {% endfor %}
+    </ul>
+  </blockquote>
+{% endfor %}
+
+<h2>{{ page.workshopsHeader }}</h2>
+{% for workshop in page.wsTitles %}
+  <h3>{{ workshop.name }}</h3>
+  <blockquote>
+    <p>{{ workshop.blockquote }}</p>
+    <p>{{ workshop.url }}</p>
+  </blockquote>
+{% endfor %}
+
+<h2>{{ page.sharedTasksHeader }}</h2>
+{% for task in page.sharedTasksUrls %}
+  <ul>
+    <li>{{ task }}</li>
+  </ul>
+{% endfor %}
+
+<h2>{{ page.scheduleHeader }}</h2>
+{% for day in page.scheduleDays %}
+  <h3>{{ day.header }}</h3>
+  <table>
+    <tr>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+    </tr>
+    {% for d in day.todo %}
+      <tr>
+        <td>{{ d.time }}</td>
+        <td>{{ d.title }}</td>
+        <td>{{ d.channel }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endfor %}
+
+<h2>{{ page.cfpHeader }}</h2>
+{% for cfp in page.cfpContent %}
+  <h3>{{ cfp.h3 }}</h3>
+  <ul>
+    {% for item in cfp.bulletList %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  <p>{{ cfp.optionalSentence }}</p>
+{% endfor %}
+
+{{ content }}

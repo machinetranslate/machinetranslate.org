@@ -1,0 +1,187 @@
+---
+layout: default
+parent: Events
+---
+
+<h1>{{ page.title }}</h1>
+<h2>{{ page.description }}</h2>
+<hr />
+
+{% assign current_date = site.time | date: "%Y-%m-%d" %}
+
+<p>{% if current_date < page.endDate %}{{ page.openingParagraph }}{% else %}{{ page.pastOpeningParagraph }}{% endif
+    %}</p>
+
+    {% for blockquote in page.blockquotes %}
+    <blockquote>
+      <p>
+        {{ blockquote }}
+      </p>
+    </blockquote>
+    {% endfor %}
+
+    {% for url in urlsAfterBlockquote %}
+    <p>{{ url }}</p>
+    {% endfor %}
+
+    {% include toc.html %}
+
+    {% if page.impDatesHeader %}
+    <h2>{{ page.impDatesHeader }}</h2>
+    {% endif %}
+    {% for impDate in page.impDatesHeaderH4 %}
+    <h4>{{ impDate.h4 }}</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>&nbsp;</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for entry in impDate.table %}
+        <tr>
+          <td>{{ entry.date }}</td>
+          <td>{{ entry.name }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% endfor %}
+
+    <h2>{{ page.sharedTasksHeader }}</h2>
+    <ul>
+      {% for task in page.stBulletTasks %}
+      <li>
+        {{ task }}
+      </li>
+      {% endfor %}
+    </ul>
+    <p>{{ page.optionalSentence }}</p>
+
+    <h2>{{ page.generalMachineTranslationHeader }}</h2>
+    {% for name in page.gmtList %}
+    <ul>
+      <li>
+        {{ name.bullet }}
+      </li>
+    </ul>
+    {% if name.blockquote %}
+    <blockquote>{{ name.blockquote }}</blockquote>
+    {% endif %}
+    {% endfor %}
+
+    <h2>{{ page.languagePairsHeader }}</h2>
+    <p>{{ page.lpSubtitle }}</p>
+    {% for language in page.lpBulletList %}
+    <ul>
+      <li>
+        {{ language }}
+      </li>
+    </ul>
+    {% endfor %}
+
+    <h2>{{ page.scientificPapersHeader }}</h2>
+    <h3>{{ page.spTopicsHeader }}</h3>
+    {% for topic in page.spBulletTopics %}
+    <ul>
+      <li>
+        {{ topic }}
+      </li>
+    </ul>
+    {% endfor %}
+
+    <h2>{{ page.researchPapersHeader }}</h2>
+    {% for block in page.rpBlockquotes %}
+    <blockquote>{{ block }}</blockquote>
+    {% endfor %}
+
+    <h2>{{ page.systemPapersHeader }}</h2>
+    {% for block in page.systemPapersHeader %}
+    <blockquote>{{ block }}</blockquote>
+    {% endfor %}
+
+    <h2>{{ page.posterFormatHeader }}</h2>
+    {% for title in page.pfTitles %}
+    <p>{{ title }}</p>
+    {% endfor %}
+
+    <h2>{{ page.paperSubmissionHeader }}</h2>
+    {% for title in page.psBulletTitles %}
+    <ul>
+      <li>
+        {{ title }}
+      </li>
+    </ul>
+    {% endfor %}
+
+    <h2>{{ page.scheduleHeader }}</h2>
+    {% for day in page.scheduleDays %}
+    <h3>{{ day.header }}</h3>
+    <table>
+      <tr>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+      </tr>
+      {% for d in day.todo %}
+      <tr>
+        <td>{{ d.time }}</td>
+        <td>{{ d.title }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    {{ day.optionalSentence }}
+    {% endfor %}
+
+    <h2>{{ page.resultsHeader }}</h2>
+    <p>{{ page.resultsOpeningSentence }}</p>
+    <h3>{{ page.generalTaskHeader }}</h3>
+    <p>{{ page.generalTaskOpeningSentence }}</p>
+
+    {% for i in page.languages %}
+    <h3>{{ i.name }}</h3>
+    <p>{{ i.sentence }}</p>
+    <table>
+      <tr>
+        <th>Language pair</th>
+        <th>System</th>
+        <th>Average score</th>
+        <th>Average z-score</th>
+      </tr>
+      {% for j in i.gtTable %}
+      <tr>
+        <td>{{ j.language_pair }}</td>
+        <td>{{ j.System }}</td>
+        <td>{{ j.Average_score }}</td>
+        <td>{{ j.Average_z_score }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    {% endfor %}
+
+    <h2>{{ page.cfpHeader }}</h2>
+    {% for cfp in page.cfpContent %}
+    <h3>{{ cfp.h2 }}</h3>
+    <ul>
+      {% for item in cfp.bulletList %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    <p>{{ cfp.optionalSentence }}</p>
+    {% endfor %}
+
+    <h2>{{ page.callForWorkshopsAndTutorialsHeader }}</h2>
+    <p>{{ page.cfwOpeningSentence }}</p>
+    <p>{{ page.chairs }}</p>
+
+    <h3>{{ page.cfwWorkshopsHeader }}</h3>
+    {% for block in page.cfwWorkshopsBlockquotes %}
+    <blockquote>{{ block }}</blockquote>
+    {% endfor %}
+
+    <h3>{{ page.tutorialsHeader }}</h3>
+    {% for block in page.tutorialsBlockquotoes %}
+    <blockquote>{{ block }}</blockquote>
+    {% endfor %}
+
+    {{ content }}
