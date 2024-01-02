@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import json
 import yaml
-import datetime
 from os.path import exists
 
 from unidecode import unidecode
