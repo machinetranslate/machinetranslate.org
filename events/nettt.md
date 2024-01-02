@@ -48,3 +48,37 @@ seo:
 
 ---
 
+{% include collapsible_toc.html %}
+
+## Call for papers
+
+> Contributions are invited on any topic related to latest technology and practices in machine translation, translation, subtitling, localisation and interpreting.
+> NeTTT’2024 will feature a Special Theme Track "Future of Translation Technology in the Era of LLMs and Generative AI".
+
+### Important dates
+
+|     |     |
+| --- | --- |
+| Submission deadline | 31 March 2024 |
+| Notification | 5 June 2024 |
+| Final version | 20 June 2024 |
+
+> The second call for papers is expected in December 2023 and registration will be open as from January 2024. 
+
+### Topics
+
+- CAT tools
+- Machine translation
+- Technologies for MT deployment
+- Translation Studies
+- Interpreting studies
+- Interpreting technology
+- Emerging areas in translation and interpreting
+- Subtitling
+- User needs
+- The business of translation and interpreting
+- Teaching translation and interpreting
+- Special Theme Track - Future of Translation Technology in the Era of LLMs and Generative AI
+
+
+[nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf](https://nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf)
