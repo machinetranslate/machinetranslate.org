@@ -26,7 +26,7 @@ The system translated Russian texts into English.
 Later, he worked at Georgetown University on the development of the Serna system, which was also for translating Russian to English.
 
 In 1962, he founded a company which created the systems Autotran and Technotran.
-They were for translating Russian to English and specialized for translating content about atomic energy and medicine.
+They were for translating Russian to English and specialised for translating content about atomic energy and medicine.
 
 In the mid-1960s, Toma programmed the [Systran](/companies#systran) prototype, with the support of the German Research Foundation.
 

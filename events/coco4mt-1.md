@@ -27,7 +27,7 @@ seo:
 
 The first workshop on Corpus Generation and Corpus Augmentation for Machine Translation (**CoCo4MT**) was co-located with [AMTA 2022](/amta2022#workshop-on-corpus-generation-and-corpus-augmentation-for-machine-translation) on 16 September 2022.
 
-It was the first workshop centered around research focusing on corpora creation, cleansing, and augmentation techniques specifically for machine translation.
+It was the first workshop centred around research focusing on corpora creation, cleansing, and augmentation techniques specifically for machine translation.
 
 Topics (not limited):
 

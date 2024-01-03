@@ -23,7 +23,7 @@ The **Seattle Localization User Group** meetup took place on 13 September, 2023,
 
 A panel discussed ***Applications of Large Language Models (LLMs) in Localization***.
 
-> Our panelists have deep subject matter expertise on AI, Generative AI, and LLMs, and have unique perspectives on how these technologies can be used in the context of localization.
+> Our panellists have deep subject matter expertise on AI, Generative AI, and LLMs, and have unique perspectives on how these technologies can be used in the context of localisation.
 
 ### Location
 
@@ -33,7 +33,7 @@ Bellevue, Seattle, Washington
 
 ### Speakers
 
-#### Panelists
+#### Panellists
 
 - Huda Khayrallah, Senior Researcher at [Microsoft Translator](/microsoft)
 - Adam Bittlingmayer, Co-Founder & CEO of ModelFront

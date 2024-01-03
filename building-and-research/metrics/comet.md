@@ -6,7 +6,7 @@ title: COMET
 description: Evaluation metric using embeddings
 ---
 
-**COMET** (**Crosslingual Optimized Metric for Evaluation of Translation**) is a metric for automatic evaluation of machine translation that calculates the similarity between a machine translation output and a reference translation using token or sentence embeddings.
+**COMET** (**Crosslingual Optimised Metric for Evaluation of Translation**) is a metric for automatic evaluation of machine translation that calculates the similarity between a machine translation output and a reference translation using token or sentence embeddings.
 
 It is based on similarity of vector representations.
 

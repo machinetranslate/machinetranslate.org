@@ -83,6 +83,6 @@ This interactive class is designed for project managers, vendors, buyers, decisi
 ## Intento
 
 The **Machine Translation University** is a set of free online learning resources from [Intento](/companies#Intento).
-These resources are designed for localization specialists and buyers.
+These resources are designed for localisation specialists and buyers.
 
 [inten.to/machine-translation-university/](https://inten.to/machine-translation-university/)

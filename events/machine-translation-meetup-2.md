@@ -104,13 +104,13 @@ There was not enough time to answer all of the audience questions during the mee
 > >
 > > As a reviewer, I push back when people label “ablated” datasets, that is, smaller versions of a larger dataset, as low-resource.
 > >
-> > Real low-resource languages are noisier, include code-switching, have different scripts, non standardized orthography (that is, same word can be spelled differently in the same dataset).
+> > Real low-resource languages are noisier, include code-switching, have different scripts, non standardised orthography (that is, same word can be spelled differently in the same dataset).
 >
 > Idris Abdulmumin:
 >
 > > This is sadly true.
 > >
-> > A lot of researchers work on these big datasets and then simulate low resource conditions on the high resource datasets just to generalize their findings.
+> > A lot of researchers work on these big datasets and then simulate low resource conditions on the high resource datasets just to generalise their findings.
 > >
 > > Simulated low resource dataset usually consist of random text and, as a result, lacks the authenticity of document level texts.
 > >

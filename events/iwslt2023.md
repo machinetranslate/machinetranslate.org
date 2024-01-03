@@ -63,11 +63,11 @@ Day 1
 | 08:45 - 09:15 | **Findings of the IWSLT 2023 Evaluation Campaign** |
 | 09:15 - 09:30 | **Q&A** |
 | 09:30 - 10:30 | **Invited Talk** |
-| 10:30 - 11:00 | ☕️ (ACL organized) |
+| 10:30 - 11:00 | ☕️ (ACL organised) |
 | 11:00 - 12:30 | **Session 1**<br> **System Papers (posters)** |
 | 12:30 - 14:00 | 🍴 |
 | 14:00 - 15:30 | **Session 2**<br> **System Papers (posters)** |
-| 15:30 - 16:00 | ☕️ (ACL organized) |
+| 15:30 - 16:00 | ☕️ (ACL organised) |
 | 16:00 - 18:00 | **Session 3**<br> **System and Scientic Papers, including findings of ACL (posters)** |
 | 18:00 | **End of day 1** | 
 
@@ -76,11 +76,11 @@ Day 2
 |     |     |
 | --- | --- |
 | 09:00 - 10:30 | **Session 4**<br> **Scientific Papers (oral)** |
-| 10:30 - 11:00 | ☕️ (ACL organized) |
+| 10:30 - 11:00 | ☕️ (ACL organised) |
 | 11:00 - 12:30 | **2024 planning meeting** |
 | 12:30 - 14:00 | 🍴 |
 | 14:00 - 15:30 | **Panel discussion** |
-| 15:30 - 16:00 | ☕️ (ACL organized) |
+| 15:30 - 16:00 | ☕️ (ACL organised) |
 | 16:00 - 16:15 | **Best paper award** |
 | 16:15 - 16:30 | **Closing remarks** |
 | 16:30 | **End of day 2** |

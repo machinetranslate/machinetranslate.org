@@ -9,7 +9,7 @@ A string is a sequence of characters.
 In computer programming, strings are used to represent text.
 
 By default, a string is _plain text_.
-It does not represent rich formatting or styles, like font size and color.
+It does not represent rich formatting or styles, like font size and colour.
 
 - A string with no characters is the _empty string_.
 - A string can contain even just a single character: `a`

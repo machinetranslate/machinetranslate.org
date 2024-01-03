@@ -56,7 +56,7 @@ MTS 2023 was organised by [AAMT](/aamt).
 > - Dr. Mitesh M. Khapra from AI4Bharat
 > - Dr. Isao Goto from NHK, Japan Broadcasting Corporation
 
-> The User Track will host a panel discussion featuring invited panelists. We have secured presentations from:
+> The User Track will host a panel discussion featuring invited panellists. We have secured presentations from:
 > * Prof. Chan Sin-Wai (Caritas Institute of Higher Education - Hong Kong)
 > * Prof. Akiko Sakamoto (Kansai University) 
 
@@ -92,7 +92,7 @@ MTS 2023 was organised by [AAMT](/aamt).
 - Machine translation for multiple modalities (Speech, OCR, Images)
 - Machine translation for communication (chats, blogs, social networks)
 - Few-shot adaptation of pre-trained machine translation systems
-- Deep integration of machine translation technology within translation and localization pipelines
+- Deep integration of machine translation technology within translation and localisation pipelines
 - Large-scale mining of translation resources
 - Computer Assisted Translation (CAT)
 - Machine translation Evaluation
@@ -108,7 +108,7 @@ mt-summit-2023-research-track@googlegroups.com
 #### Downstream applications of machine translation
 
 - Use of MT in pedagogical, translation and language learning contexts, leading to the development of new technical and linguistic competences
-- Use of machine translation in specialized communication domains and for specialized uses, like healthcare, justice, literature and arts
+- Use of machine translation in specialised communication domains and for specialised uses, like healthcare, justice, literature and arts
 - Development of innovative and fair pricing models for services based on machine translation
 - Consumer rights and producers’ responsibility in machine translation for assimilation and in machine translation for dissemination
 - Impact of the use of machine translation in client-facing environments
@@ -126,7 +126,7 @@ mt-summit-2023-research-track@googlegroups.com
 - Ethical concerns about the uses of MT: impact over users, translators, factors of risk, liability and legal implications
 - Quality control procedures in industrial production scenarios, through the use of industry standards, usage guidelines and quality control metrics, besides integration with terminology, grammar checking and other quality assurance tools and components
 - Exploration and extension of notions related to augmentation of translation, dynamic quality, multidimensionality of translation, based on the use of machine translation in innovative and creative services
-- Proposals for innovative perspectives and conceptualizations over the use of machine translation, which bring about questions not usually addressed by engineering approaches
+- Proposals for innovative perspectives and conceptualisations over the use of machine translation, which bring about questions not usually addressed by engineering approaches
 - Impact of the use of machine translation on the management of concurrent translation online platforms
 - Adoption of machine translation by diverse populations of users, across countries, demographics, cultural and social spectrums
 

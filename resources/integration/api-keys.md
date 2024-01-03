@@ -141,7 +141,7 @@ To use this MT vendor you need to have your regular Google Account. Set it up an
 ![How to obtain an API key_Google_pic14](/api-images/google18.png)  
 ![How to obtain an API key_Google_pic15](/api-images/google19.png)  
 
-15. Wait for the API key to be created. Remember to copy it and store it in a safe location. Click **RESTRICT KEY** to prevent unauthorized use in production.  
+15. Wait for the API key to be created. Remember to copy it and store it in a safe location. Click **RESTRICT KEY** to prevent unauthorised use in production.  
 
 ![How to obtain an API key_Google_pic16](/api-images/google20.png)   
 
