@@ -9,6 +9,39 @@ seo:
     name: List of machine translation events
 ---
 
+<section id="mt-summit">
+  <h2>MT Summit</h2>
+  <details>
+    <summary>Events</summary>
+  <table>
+    <tr>
+      <td><a href="/mtsummit2023">MT Summit 2023</a></td>
+      <td>The nineteenth Machine Translation Summit</td>
+    </tr>
+    <tr>
+      <td><a href="/mtsummit2021">MT Summit 2021</a></td>
+      <td>The eighteenth Machine Translation Summit</td>
+    </tr>
+    <tr>
+      <td><a href="/mtsummit2019">MT Summit 2019</a></td>
+      <td>The seventeenth Machine Translation Summit</td>
+    </tr>
+    <tr>
+      <td><a href="/mtsummit2017">MT Summit 2017</a></td>
+      <td>The sixteenth Machine Translation Summit</td>
+    </tr>
+    <tr>
+      <td><a href="/mtsummit2015">MT Summit 2015</a></td>
+      <td>The fifteenth Machine Translation Summit</td>
+    </tr>
+    <tr>
+      <td><a href="/mtsummit2013">MT Summit 2013</a></td>
+      <td>The fourteenth Machine Translation Summit</td>
+    </tr>
+  </table>
+  </details>
+</section>
+
 ## 2024 events
 
 | Date | Event | Location |
