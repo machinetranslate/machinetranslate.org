@@ -71,7 +71,7 @@ seo:
 | 16 October | [LoResMT 2022](/loresmt2022) | Gyeongju, Republic of Korea |
 | 14 October | [Debunking 'No language left behind', 'Human parity' and other machine translation myths](/debunking-nllb) | online |
 | 12 - 17 October | [WAT 2022](/wat2022) | Gyeongju, Republic of Korea |
-| 11 - 13 October | [Massively Multilingual Conference & Expo](/massively-multilingual-conference-expo) | San Jose, California |
+| 11 - 13 October | [Massively Multilingual Conference & Expo](/taus2022) | San Jose, California |
 | 6 October | [Literary Machine Translation as a Human-Machine Dialectic](/human-machine-dialectic) | Liège, Belgium |
 | 30 September | [MUMTTT 2022](/mumttt2022) | Malaga, Spain |
 | 28 September | [AAMT Seminar](/aamt-seminar-1) | online |

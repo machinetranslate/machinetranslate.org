@@ -241,7 +241,11 @@ social:
 
 lsi: false
 
+# Enable incremental builds by default
 incremental: true
+
+# Add GitHub Metadata (https://github.com/github/pages-gem/issues/399)
+github: [metadata]
 
 # Build settings
 # Note that .files are excluded by default.

@@ -21,7 +21,7 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   # gem 'jekyll-target-blank'
   gem 'jekyll-seo-tag'
-  gem 'html-proofer'
+  gem 'html-proofer', '~> 4.3.0'
   gem 'jekyll-include-cache'
 end
 gem 'webrick'

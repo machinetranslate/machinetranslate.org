@@ -23,7 +23,7 @@ seo:
     url: https://aamt.info/
 ---
 
-The first Asian-Pacific Association for Machine Translation (**[AAMT](/associations/aamt.md) 2020**) Seminar took place online on 28 September, 2022.
+The first Asian-Pacific Association for Machine Translation (**[AAMT](/aamt) 2020**) Seminar took place online on 28 September, 2022.
 
 [aamt.info/event/seminar/20220928](https://www.aamt.info/event/seminar/20220928)
 

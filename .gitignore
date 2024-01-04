@@ -5,3 +5,7 @@ _site
 .jekyll-metadata
 vendor
 .ruby-version
+/venv
+.pytest_cache
+__pycache__
+.github/tests/.pytest_cache

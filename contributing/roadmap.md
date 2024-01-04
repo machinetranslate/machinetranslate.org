@@ -17,7 +17,7 @@ community_search_exclude: true
 - ~~[Zurich Machine Translation Meetup](/zurich-9)~~
 - ~~[MTM](/mtm2019)~~
 - ~~[AAMT](/aamt2021)~~
-- ~~[ASLTRM](/asltrm2021)~~
+- ~~[ASLTRW](/asltrw2021)~~
 - ~~[AT4SSL](/at4ssl2021)~~
 - ~~[IWSLT](/iwslt2022)~~
 - ~~[LoResMT](/loresmt2022)~~
@@ -33,7 +33,7 @@ community_search_exclude: true
 - [History \[#65\]](https://github.com/machinetranslate/machinetranslate.org/issues/65)
 - FAQ
 
-### - ~~[Products](/products)~~
+### ~~[Products]~~
 
 - ~~[Data confidentiality](/data-confidentiality)~~
 - Features
@@ -77,8 +77,8 @@ community_search_exclude: true
   - ~~[Gaming](/gaming)~~
   - ~~[Social networks](/social-networks)~~
   - ~~[Translation and localisation](/translation-and-localisation)~~
-    - ~~[Post-editing](/workflows/post-editing)~~
-    - ~~[Hybrid translation](/workflows/hybrid-translation)~~
+    - ~~[Post-editing](/post-editing)~~
+    - ~~[Hybrid translation](/hybrid-translation)~~
     - [Human-in-the-loop \[#76\]](https://github.com/machinetranslate/machinetranslate.org/issues/76)
   - ~~[Multilingual search](/multilingual-search)~~
   - ~~[Translation for SEO](/seo)~~
@@ -102,7 +102,7 @@ community_search_exclude: true
 - [Open datasets \[#89\]](https://github.com/machinetranslate/machinetranslate.org/issues/89)
 - [Back-translation (and back-copying) \[#81\]](https://github.com/machinetranslate/machinetranslate.org/issues/81)
 - [Crawling \[#72\]](https://github.com/machinetranslate/machinetranslate.org/issues/72)
-- ~~[Filtering](/customisation/filtering)~~
+- ~~[Filtering](/filtering)~~
 - ~~[Tokenisation \[#73\]](https://github.com/machinetranslate/machinetranslate.org/issues/73)~~
 - [Quality evaluation \[#86\]](https://github.com/machinetranslate/machinetranslate.org/issues/86)
 - ~~[Metrics \[#314\]](https://github.com/machinetranslate/machinetranslate.org/issues/314)~~
@@ -120,11 +120,11 @@ community_search_exclude: true
 ### Concepts
 
   - [Corpus \[#109\]](https://github.com/machinetranslate/machinetranslate.org/issues/109)
-  - ~~[String](../concepts/string)~~
+  - ~~[String](/string)~~
   - ~~[Token \[#111\]](https://github.com/machinetranslate/machinetranslate.org/issues/111)~~
   - ~~[n-gram \[#108\]](https://github.com/machinetranslate/machinetranslate.org/issues/108)~~
   - ~~[Vector \[#112\]](https://github.com/machinetranslate/machinetranslate.org/issues/112)~~
-  - ~~[Language model](/concepts/language-model)~~
+  - ~~[Language model](/language-model)~~
   - ~~[Sentence splitting \[#174\]](https://github.com/machinetranslate/machinetranslate.org/issues/174)~~
   - ~~[Word embeddings \[#173\]](https://github.com/machinetranslate/machinetranslate.org/issues/173)~~
   - ~~[Lexicon \[#64\]](https://github.com/machinetranslate/machinetranslate.org/issues/64)~~
@@ -137,14 +137,14 @@ community_search_exclude: true
 - ~~[Libraries / Frameworks](/libraries-and-frameworks)~~
 - ~~[Publications](/publications)~~
 - [Early Years of Machine Translation \[205\]](https://github.com/machinetranslate/machinetranslate.org/issues/205)
-- ~~[Tutorials](/integration/tutorials)~~
+- ~~[Tutorials](/tutorials)~~
 
 ### More
 
 - People
   - ~~[John Hutchins](/john-hutchins)~~
   - ~~[Georges Artsrouni](/georges-artsrouni)~~
-  - ~~[Petr Troianskii](/petr-troianskii)~~
+  - ~~[Petr Troianskii](/petr-troyanskii)~~
   - ~~[Warren Weaver](/warren-weaver)~~
   - [Salim Roukos \[#168\]](https://github.com/machinetranslate/machinetranslate.org/issues/168)
   - [Hermann Ney \[#103\]](https://github.com/machinetranslate/machinetranslate.org/issues/103)

@@ -307,7 +307,7 @@ She researches [quality estimation](/quality/quality-estimation.md) with Kevin J
 For a specific **section** of an article, use the **fragment identifier**.
 
 ```
-She researches quality estimation with Kevin Johnson at [Microsoft](industry/companies.md#microsoft).
+She researches quality estimation with Kevin Johnson at [Microsoft](/companies#microsoft).
 ```
 
 Avoid trailing slashes at the end of links.
