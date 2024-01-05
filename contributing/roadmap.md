@@ -116,7 +116,7 @@ community_search_exclude: true
   - [Input correction \[#93\]](https://github.com/machinetranslate/machinetranslate.org/issues/93)
   - [Transliteration \[#94\]](https://github.com/machinetranslate/machinetranslate.org/issues/94)  
 - ~~[Zero-shot machine translation \[#133\]](https://github.com/machinetranslate/machinetranslate.org/issues/133)~~
-- [Sentence embedding](/https://github.com/machinetranslate/machinetranslate.org/issues/583)
+- [Sentence embedding](https://github.com/machinetranslate/machinetranslate.org/issues/583)
 
 ### Concepts
 
