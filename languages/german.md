@@ -137,13 +137,13 @@ supported_apis:
   name: Niutrans
 supported_qe_apis:
 - slug: google-translation-hub-mtqp
-  id: translationhub
+  id: google-translation-hub-mtqp
   name: Google Translation Hub MTQP
 - slug: kantanqes
   id: kantanqes
   name: KantanQES
 - slug: omniscien-confidence-scores
-  id: omniscien-qe
+  id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
 - slug: phrase-mtqe
   id: phrase-mtqe

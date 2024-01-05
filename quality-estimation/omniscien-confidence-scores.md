@@ -6,7 +6,7 @@ layout: quality_estimation
 title: Omniscien Confidence Scores
 description: The Omniscien Confidence Scores translation quality estimation API
 tagline: Translation confidence scoring and quality estimates
-id: omniscien-qe
+id: omniscien-confidence-scores
 company: Omniscien Technologies
 parent: Quality estimation
 urls:

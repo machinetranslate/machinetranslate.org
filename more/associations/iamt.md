@@ -26,11 +26,11 @@ The IAMT consists of regional associations.
 - [European Association for Machine Translation](/eamt) (EAMT)
 
 ## Events
-The regional associations of IAMT hold the [MT Summit](/mt-summit).
+The regional associations of IAMT hold the [MT Summit](/events#mt-summit).
 
 ## Executive Committee
 
-The current executive committee will serve through MT Summit 2023.
+The current executive committee will serve through [MT Summit 2023](/mtsummit2023).
 
 ### President
 Eiichiro Sumita, National Institute of Information and Communications Technology, Japan (AAMT)  

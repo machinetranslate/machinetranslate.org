@@ -30,7 +30,7 @@ It was organised by [Omniscien](/companies#omniscien-technologies).
 
 ### Speakers
 
-- Professor [Philipp Koehn](/people/philipp-koehn), Chief Scientist at Omniscien and Professor at Johns Hopkins University
+- Professor [Philipp Koehn](/philipp-koehn), Chief Scientist at Omniscien and Professor at Johns Hopkins University
 - Dion Wiggins, Chief Technology Officer at Omniscien
 - Dr Joseph Sweeney, Industry Analyst, Intelligent Business Research Services (IBRS)
 

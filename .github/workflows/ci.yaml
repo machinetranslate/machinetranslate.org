@@ -1,0 +1,73 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+    run-tests:
+        strategy:
+            fail-fast: false
+            matrix:
+                os: [ubuntu-latest]
+                python-versions:
+                    - '3.10'
+                    - '3.11'
+        name: Test
+        runs-on: ${{ matrix.os }} 
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+
+            - name: Set up Ruby
+              uses: ruby/setup-ruby@v1
+              with:
+                ruby-version: 3.2.0 
+
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                python-version: ${{ matrix.python-versions }}
+            - name: Install Jekyll and Bundler
+              run: |
+                gem install jekyll bundler
+                bundle install
+              env:
+                JEKYLL_ENV: production
+
+            - name: Install Python dependencies
+              run: |
+                pip install -r .github/tests/requirements.txt
+                python -m spacy download en_core_web_sm
+
+            - name: Build Jekyll site
+              run: bundle exec jekyll build
+              env:
+                JEKYLL_ENV: development
+                PAGES_REPO_NWO: ${{ github.repository }}
+
+            - name: Check broken links to pages
+              run: |
+                bundle exec htmlproofer _site \
+                --enforce-https false \
+                --disable-external true \
+                --ignore-missing-alt true \
+                --allow-missing-href true \
+                --check-internal-hash true
+              env:
+                JEKYLL_ENV: development
+
+            - name: Serve Jekyll site
+              run: bundle exec jekyll serve --detach
+              env:
+                JEKYLL_ENV: production
+                PAGES_REPO_NWO: ${{ github.repository }}
+
+            - name: Update pytest
+              run: pip install --upgrade pytest pytest-asyncio
+
+            - name: Run tests
+              run: pytest .github/tests
+
+            - name: Stop Jekyll server
+              run: pkill -f 'bundle exec jekyll serve' || true            

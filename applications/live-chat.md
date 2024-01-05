@@ -23,9 +23,9 @@ Many commercial chat applications that have incorporated machine translation for
 
 ## Companies
 
-* [Unbabel](/companies/#unbabel)
-* [Language I/O](/companies/#language-io)
-* [KantanMT](/companies/#kantanmt)
+* [Unbabel](/companies#unbabel)
+* [Language I/O](/companies#language-io)
+* [KantanMT](/companies#kantanmt)
 
 ## See also
 

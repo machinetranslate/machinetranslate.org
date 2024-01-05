@@ -190,7 +190,7 @@ defaults:
         type: Article
 
 # Just the Docs
-remote_theme: pmarsceill/just-the-docs@v0.6.1
+remote_theme: pmarsceill/just-the-docs@v0.7.0
 logo: images/favicon.ico
 color_scheme: swissred
 search:
@@ -241,7 +241,11 @@ social:
 
 lsi: false
 
+# Enable incremental builds by default
 incremental: true
+
+# Add GitHub Metadata (https://github.com/github/pages-gem/issues/399)
+github: [metadata]
 
 # Build settings
 # Note that .files are excluded by default.

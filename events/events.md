@@ -9,6 +9,39 @@ seo:
     name: List of machine translation events
 ---
 
+<section id="mt-summit">
+  <h2>MT Summit</h2>
+  <details>
+    <summary>Events</summary>
+  <table>
+    <tr>
+      <td><a href="/mtsummit2023">MT Summit 2023</a></td>
+      <td>The nineteenth Machine Translation Summit</td>
+    </tr>
+    <tr>
+      <td><a href="/mtsummit2021">MT Summit 2021</a></td>
+      <td>The eighteenth Machine Translation Summit</td>
+    </tr>
+    <tr>
+      <td><a href="/mtsummit2019">MT Summit 2019</a></td>
+      <td>The seventeenth Machine Translation Summit</td>
+    </tr>
+    <tr>
+      <td><a href="/mtsummit2017">MT Summit 2017</a></td>
+      <td>The sixteenth Machine Translation Summit</td>
+    </tr>
+    <tr>
+      <td><a href="/mtsummit2015">MT Summit 2015</a></td>
+      <td>The fifteenth Machine Translation Summit</td>
+    </tr>
+    <tr>
+      <td><a href="/mtsummit2013">MT Summit 2013</a></td>
+      <td>The fourteenth Machine Translation Summit</td>
+    </tr>
+  </table>
+  </details>
+</section>
+
 ## 2024 events
 
 | Date | Event | Location |
@@ -71,7 +104,7 @@ seo:
 | 16 October | [LoResMT 2022](/loresmt2022) | Gyeongju, Republic of Korea |
 | 14 October | [Debunking 'No language left behind', 'Human parity' and other machine translation myths](/debunking-nllb) | online |
 | 12 - 17 October | [WAT 2022](/wat2022) | Gyeongju, Republic of Korea |
-| 11 - 13 October | [Massively Multilingual Conference & Expo](/massively-multilingual-conference-expo) | San Jose, California |
+| 11 - 13 October | [Massively Multilingual Conference & Expo](/taus2022) | San Jose, California |
 | 6 October | [Literary Machine Translation as a Human-Machine Dialectic](/human-machine-dialectic) | Liège, Belgium |
 | 30 September | [MUMTTT 2022](/mumttt2022) | Malaga, Spain |
 | 28 September | [AAMT Seminar](/aamt-seminar-1) | online |

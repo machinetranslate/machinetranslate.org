@@ -94,7 +94,7 @@ supported_qe_apis:
   id: kantanqes
   name: KantanQES
 - slug: omniscien-confidence-scores
-  id: omniscien-qe
+  id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
 - slug: phrase-mtqe
   id: phrase-mtqe
