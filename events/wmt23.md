@@ -90,12 +90,6 @@ In 2022, the *News* machine translation task was renamed the *General* machine t
 > System papers must describe one or more shared task submissions. System paper submissions that we cannot link to a shared task submission will be rejected without review. System papers can overlap with other published work, and do not have to follow the double submission policy. There is no maximum length for system papers, but normally a short paper (4-6 pages) is appropriate. System papers should not be anonymised.
 
 
-## Poster format
-
-- System description papers will be presentated as posters.
-- Poster panels are 3.28 foot (1 meter wide) x 8.20 foot (2.5 meter tall). Portrait orientation is suggested.
-
-
 ## Paper submission
 
 - Papers must be submitted [electronically](https://www.softconf.com/emnlp2023/wmt/).
