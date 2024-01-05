@@ -12,7 +12,7 @@ Automatic post-editing systems should meet multiple requirements:
 
 
 ### Evolution
-The evolution of automatic post-editing systems is similar to that of machine translation. The first systems took [rule-based approaches](/rule-based-machine-translation.md), later systems took [statistical approaches](/statistical-machine-translation.md) and then [neural approaches](/neural-machine-translation.md).
+The evolution of automatic post-editing systems is similar to that of machine translation. The first systems took [rule-based approaches](/rule-based-machine-translation), later systems took [statistical approaches](/statistical-machine-translation) and then [neural approaches](/neural-machine-translation).
 
 
 ### Use cases
@@ -42,7 +42,7 @@ When human post-edited translations are not available, synthetic post-editing da
 
 ### Evaluation
 Automatic post-editing systems can be evaluated like machine translation systems:
--	Automatic, reference-based evaluation metrics, like [TER](/building-and-research/metrics/ter.md) or [BLEU](/building-and-research/metrics/bleu.md)
+-	Automatic, reference-based evaluation metrics, like [TER](/ter) or [BLEU](/bleu)
 -	Human evaluation, like direct assessment
 
 Evaluation reveals how many sentences were improved. Precision can be calculated by dividing the number of improved sentences by the total number of modified sentences. Another common metric is the average number of edits per segment.
