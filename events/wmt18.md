@@ -198,9 +198,9 @@ It was organised by [WMT](/wmt).
 
 ## Results
 
-Full results of the shared tasks: [*Findings of the 2018 Conference on Machine Translation (WMT18)*](https://aclanthology.org/W18-6401.pdf)
-
 ### News translation
+
+Full results of the shared task: [*Findings of the 2018 Conference on Machine Translation (WMT18)*](https://aclanthology.org/W18-6401.pdf)
 
 The results were determined with a monolingual [direct assessment](/human-evaluation-metrics#direct-assessment), the [average score and average z-score](/human-evaluation-metrics#average-score-and-average-z-score).
 

@@ -125,11 +125,6 @@ Confirmed language pairs:
 > System papers must describe one or more shared task submissions. System paper submissions that we cannot link to a shared task submission will be rejected without review. System papers can overlap with other published work, and do not have to follow the double submission policy. There is no maximum length for system papers, but normally a short paper (4-6 pages) is appropriate. System papers should not be anonymised.
 
 
-## Poster format
-
-Posters must be presented in Gather.Town.
-
-
 ## Paper submission
 
 - Papers must be submitted [electronically](https://www.softconf.com/emnlp2022/WMT/).
@@ -322,9 +317,9 @@ Posters must be presented in Gather.Town.
 
 ## Results
 
-Full results of the shared tasks: [*Findings of the 2022 Conference on Machine Translation (WMT22)*](https://statmt.org/wmt22/pdf/2022.wmt-1.1.pdf)
-
 ### General task
+
+Full results of the shared task: [*Findings of the 2022 Conference on Machine Translation (WMT22)*](https://statmt.org/wmt22/pdf/2022.wmt-1.1.pdf)
 
 The winner systems were listed according to their [average score and average z-score](/human-evaluation-metrics#average-score-and-average-z-score).
 

@@ -42,6 +42,7 @@ When human post-edited translations are not available, synthetic post-editing da
 
 ### Evaluation
 Automatic post-editing systems can be evaluated like machine translation systems:
+
 -	Automatic, reference-based evaluation metrics, like [TER](/ter) or [BLEU](/bleu)
 -	Human evaluation, like direct assessment
 
