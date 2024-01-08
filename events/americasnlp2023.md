@@ -11,7 +11,7 @@ seo:
   name: Third AmericasNLP Competition
   startDate: 2023-07-09
   endDate: 2023-07-14
-  eventAttendanceMode: OnlineEventAttendanceMode
+  eventAttendanceMode: OfflineEventAttendanceMode
   eventStatus: EventScheduled
 
   location:
