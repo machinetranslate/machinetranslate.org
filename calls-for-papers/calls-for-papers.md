@@ -15,7 +15,7 @@ seo:
 | **29 April 2024** | [**IWSLT 2024**](/iwslt2024) | IWSLT |
 | **1 April 2024** | [***Machine and Computer-assisted Interpreting***](https://lans-tts.uantwerpen.be/index.php/LANS-TTS/announcement/view/24) | LANS-TTS |
 | **31 March 2024** | [**NETTT 2024**](/nettt2024) |  |
-| **10 March** | [**AmericasNLP 2024**](/americaslnlp2024) | |
+| **10 March** | [**AmericasNLP 2024**](/americasnlp2024) | |
 | **8 March 2024** | [**EAMT 2024**](/eamt2024) | Sheffield, England |
 | 1 October 2023 | [DNLP 2024](https://aisca2024.org/dnlp/index) |  |
 | 10 September 2023 | [*International Journal on Natural Language Computing*](https://airccse.org/journal/ijnlc/) | |
