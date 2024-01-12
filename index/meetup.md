@@ -8,7 +8,32 @@ seo:
   type: ItemList
 ---
 
-The **machine translation meetup** is a regular event organised by the **Machine Translate Foundation**.
+<center><h2><strong>Adaptive machine translation</strong></h2></center>
+<hr />
+<center style="padding: 2em;">
+  <h3>Online panel</h3>
+  <h4 id="date">
+    <script>
+      const d = new Date('2024-02-08T15:00:00+00:00');
+      const dText = new Intl.DateTimeFormat('en-GB', { dateStyle: 'full', timeStyle: 'short' }).format(d);
+      const tzText = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      document.getElementById('date').innerText = dText + ' ' + tzText;
+    </script>
+  </h4>
+</center>
+<hr />
+<center><h4><strong>Panelists:</strong></h4></center>
+<center>John Tinsley</center>
+<center>Joern Wuebker</center>
+<center>Suzanna Sia</center>
+<hr />
+The machine translation meetup is organised by the **Machine Translate Foundation**.
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/appbL6ZoRsMbLL2FV/shrrGw1PiFkrPbdeB?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+
+
+<!-- The **machine translation meetup** is a regular event organised by the **Machine Translate Foundation**.
 It alternates between online and offline formats.
 
 |     |     |     |     |
@@ -24,3 +49,4 @@ It alternates between online and offline formats.
     style="width: 400px; height: 350px; border: none;"
     src="https://cdn.forms-content-1.sg-form.com/6aac1965-352f-11ee-b73f-c6a4e250074b"/>
 </center>
+-->
