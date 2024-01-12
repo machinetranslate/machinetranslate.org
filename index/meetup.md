@@ -23,8 +23,8 @@ seo:
 </center>
 <hr />
 <center><h4><strong>Panelists:</strong></h4></center>
-<center>John Tinsley</center>
 <center>Joern Wuebker</center>
+<center>John Tinsley</center>
 <center>Suzanna Sia</center>
 <hr />
 The machine translation meetup is organised by the **Machine Translate Foundation**.
