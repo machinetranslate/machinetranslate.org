@@ -9,6 +9,11 @@ seo:
 ---
 
 <center><h2><strong>Adaptive machine translation</strong></h2></center>
+
+The next meetup is about [**adaptive machine translation**](/adaptive).
+
+> An **adaptive machine translation** system learns from human feedback and adapts its output on the fly. Adaptive machine translation is applicable to post-editing workflows.
+
 <hr />
 <center style="padding: 2em;">
   <h3>Online panel</h3>
@@ -22,16 +27,15 @@ seo:
   </h4>
 </center>
 <hr />
-<center><h4><strong>Panelists:</strong></h4></center>
-<center>Joern Wuebker</center>
-<center>John Tinsley</center>
-<center>Suzanna Sia</center>
+<center><h4><strong>Panelists</strong></h4></center>
+<center><b>Joern Wuebker</b>, [Lilt](/lilt)</center>
+<center><b>John Tinsley</b>, [ModernMT](/modernmt)</center>
+<center><b>Suzanna Sia</b>, Johns Hopkins University</center>
 <hr />
+
 The machine translation meetup is organised by the **Machine Translate Foundation**.
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/appbL6ZoRsMbLL2FV/shrrGw1PiFkrPbdeB?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-
-
 
 <!-- The **machine translation meetup** is a regular event organised by the **Machine Translate Foundation**.
 It alternates between online and offline formats.
