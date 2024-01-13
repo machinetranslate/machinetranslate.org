@@ -17,7 +17,8 @@ Adaptive machine translation is an example of online machine learning and human-
 ### API support
 
 Adaptive machine translation first became practical with the rise of [neural machine translation](/neural-machine-translation).
-[Lilt](/lilt) launched the first adaptive feature in 2017.
+
+[Lilt](/lilt) launched its adaptive machine translation feature in 2017.
 
 [ModernMT](/modernmt) launched its adaptive feature in 2019.
 [Amazon Translate](/amazon) launched Active Custom Translation in 2020.
