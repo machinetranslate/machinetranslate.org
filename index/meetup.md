@@ -28,8 +28,8 @@ The next meetup is about [**adaptive machine translation**](/adaptive).
 </center>
 <hr />
 <center><h4><strong>Panelists</strong></h4></center>
-<center><b>Joern Wuebker</b>, [Lilt](/lilt)</center>
-<center><b>John Tinsley</b>, [ModernMT](/modernmt)</center>
+<center><b>Joern Wuebker</b>, <a href="https://machinetranslate.org/lilt">Lilt</a></center>
+<center><b>John Tinsley</b>, <a href="https://machinetranslate.org/modernmt">ModernMT</a></center>
 <center><b>Suzanna Sia</b>, Johns Hopkins University</center>
 <hr />
 
