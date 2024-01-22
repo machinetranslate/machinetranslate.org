@@ -55,22 +55,20 @@ def check_spellings(file_path):
                 # Extract only the letters
                 raw_word = re.sub(r'^[^a-zA-Z\'-]*|[^a-zA-Z\'-]*$', '', word)
 
-                if raw_word:
-                    
-                    # Skip CamelCase and all-uppercase words
-                    if is_camel_case(raw_word) or raw_word.isupper():
-                        continue
+                # Skip non-alpha, ALLCAPS and camelCase/CamelCase
+                if not raw_word or raw_word.isupper() or is_camel_case(raw_word):
+                    continue
 
-                    # If a US word but not a UK word
-                    if us.check(raw_word) and not uk.check(raw_word)
-                    
-                        # Check if the word is a proper noun in context
-                        # This is a relatively expensive check.
-                        assert is_proper_noun_in_context(_line, raw_word), f'''US-specific spelling: 
-                                "{ raw_word }" in { file_path }
-                                    line: { line }
-                                    suggestions: { uk.suggest(raw_word) }
-                             '''
+                # If a US word but not a UK word
+                if us.check(raw_word) and not uk.check(raw_word):
+                
+                    # Check if the word is a proper noun in context
+                    # This is a relatively expensive check.
+                    assert is_proper_noun_in_context(_line, raw_word), f'''US-specific spelling: 
+                            "{ raw_word }" in { file_path }
+                                line: { line }
+                                suggestions: { uk.suggest(raw_word) }
+                         '''
 
 EXCLUDE_DIRS = ['vendor']
 EXCLUDE_FILES = ['README.md', 'CHANGELOG.md']
