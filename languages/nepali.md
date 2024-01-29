@@ -29,12 +29,12 @@ typology:
 territories:
 - np
 supported_apis:
-- id: textra
-  name: TexTra
 - id: watson
   name: Watson Language Translator
 - id: yandex
   name: Yandex Translate
+- id: textra
+  name: TexTra
 - id: microsoft
   name: Microsoft Translator
 - id: lingvanex

@@ -28,14 +28,14 @@ typology:
 territories:
 - mn
 supported_apis:
-- id: textra
-  name: TexTra
 - id: apptek
   name: AppTek
 - id: amazon
   name: Amazon Translate
 - id: yandex
   name: Yandex Translate
+- id: textra
+  name: TexTra
 - id: microsoft
   name: Microsoft Translator
 - id: lingvanex

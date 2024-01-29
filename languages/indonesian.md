@@ -48,8 +48,6 @@ supported_apis:
   name: DeepL
 - id: unbabel
   name: Unbabel
-- id: textra
-  name: TexTra
 - id: sap
   name: SAP Translation Hub
 - id: kodensha
@@ -82,6 +80,8 @@ supported_apis:
   name: Amazon Translate
 - id: yandex
   name: Yandex Translate
+- id: textra
+  name: TexTra
 - id: microsoft
   name: Microsoft Translator
 - id: lingvanex

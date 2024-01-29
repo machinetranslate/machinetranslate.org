@@ -32,8 +32,6 @@ territories:
 supported_apis:
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
-- id: textra
-  name: TexTra
 - id: xl8
   name: XL8
 - id: language-weaver
@@ -42,6 +40,8 @@ supported_apis:
   name: Omniscien Technologies
 - id: yandex
   name: Yandex Translate
+- id: textra
+  name: TexTra
 - id: microsoft
   name: Microsoft Translator
 - id: lingvanex

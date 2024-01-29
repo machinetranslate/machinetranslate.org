@@ -29,8 +29,6 @@ territories:
 supported_apis:
 - id: rozetta
   name: Rozetta T-400
-- id: textra
-  name: TexTra
 - id: xl8
   name: XL8
 - id: systran
@@ -53,6 +51,8 @@ supported_apis:
   name: Amazon Translate
 - id: yandex
   name: Yandex Translate
+- id: textra
+  name: TexTra
 - id: microsoft
   name: Microsoft Translator
 - id: lingvanex

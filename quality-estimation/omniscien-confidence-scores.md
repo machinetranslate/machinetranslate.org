@@ -240,8 +240,8 @@ supported_languages:
   name: Chinese
   variant_name: null
 only_compatible_mt_api:
-- id: kantanmt
-  name: KantanMT
+- id: omniscien
+  name: Omniscien Technologies
 only_compatible_tms: null
 customisation: true
 integrations: []

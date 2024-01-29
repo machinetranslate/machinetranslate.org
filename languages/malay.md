@@ -36,8 +36,6 @@ supported_apis:
   name: Tencent Machine Translation
 - id: kakao
   name: Kakao
-- id: textra
-  name: TexTra
 - id: sap
   name: SAP Translation Hub
 - id: kodensha
@@ -68,6 +66,8 @@ supported_apis:
   name: Amazon Translate
 - id: yandex
   name: Yandex Translate
+- id: textra
+  name: TexTra
 - id: microsoft
   name: Microsoft Translator
 - id: lingvanex

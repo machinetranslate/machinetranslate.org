@@ -30,8 +30,6 @@ typology:
 territories:
 - lk
 supported_apis:
-- id: textra
-  name: TexTra
 - id: kantanmt
   name: KantanMT
 - id: watson
@@ -42,6 +40,8 @@ supported_apis:
   name: Amazon Translate
 - id: yandex
   name: Yandex Translate
+- id: textra
+  name: TexTra
 - id: lingvanex
   name: LingvaNex
 - id: youdao

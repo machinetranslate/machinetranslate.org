@@ -48,8 +48,6 @@ supported_apis:
   name: DeepL
 - id: unbabel
   name: Unbabel
-- id: textra
-  name: TexTra
 - id: etranslation
   name: eTranslation
 - id: globalese
@@ -88,6 +86,8 @@ supported_apis:
   name: Amazon Translate
 - id: yandex
   name: Yandex Translate
+- id: textra
+  name: TexTra
 - id: microsoft
   name: Microsoft Translator
 - id: lingvanex

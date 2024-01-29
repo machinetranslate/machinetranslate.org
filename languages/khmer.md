@@ -27,14 +27,14 @@ typology:
 territories:
 - kh
 supported_apis:
-- id: textra
-  name: TexTra
 - id: language-weaver
   name: Language Weaver
 - id: omniscien
   name: Omniscien Technologies
 - id: yandex
   name: Yandex Translate
+- id: textra
+  name: TexTra
 - id: microsoft
   name: Microsoft Translator
 - id: lingvanex
