@@ -37,6 +37,7 @@ It is a bullet-pointed list of news, upcoming events, calls for papers, deadline
 
 ## Recent newsletters
 
+- [January 2024](/january-2024)
 - [December 2023](/december-2023)
 - [November 2023](/november-2023)
 - [October 2023](/october-2023)
