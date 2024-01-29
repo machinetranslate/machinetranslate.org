@@ -63,7 +63,7 @@ supported_languages:
   base_code: bn
   name: Bengali
   variant_name: null
-- slug: null
+- slug: brx
   code: brx
   normalized_code: brx
   base_code: brx
@@ -351,7 +351,7 @@ supported_languages:
   base_code: mni
   name: Meitei
   variant_name: null
-- slug: null
+- slug: moa
   code: moa
   normalized_code: moa
   base_code: moa
@@ -429,7 +429,7 @@ supported_languages:
   base_code: pt
   name: Portuguese
   variant_name: Brazil
-- slug: null
+- slug: rao
   code: rao
   normalized_code: rao
   base_code: rao

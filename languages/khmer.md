@@ -31,10 +31,10 @@ supported_apis:
   name: Language Weaver
 - id: omniscien
   name: Omniscien Technologies
-- id: yandex
-  name: Yandex Translate
 - id: textra
   name: TexTra
+- id: yandex
+  name: Yandex Translate
 - id: microsoft
   name: Microsoft Translator
 - id: lingvanex

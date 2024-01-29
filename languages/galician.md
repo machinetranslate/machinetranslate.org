@@ -40,10 +40,10 @@ supported_apis:
   name: Apertium
 - id: wordlingo
   name: Wordlingo
-- id: yandex
-  name: Yandex Translate
 - id: textra
   name: TexTra
+- id: yandex
+  name: Yandex Translate
 - id: microsoft
   name: Microsoft Translator
 - id: lingvanex

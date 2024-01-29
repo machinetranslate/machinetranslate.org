@@ -31,10 +31,10 @@ supported_apis:
   name: Lilt
 - id: language-weaver
   name: Language Weaver
-- id: yandex
-  name: Yandex Translate
 - id: textra
   name: TexTra
+- id: yandex
+  name: Yandex Translate
 - id: lingvanex
   name: LingvaNex
 - id: youdao

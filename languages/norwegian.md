@@ -68,10 +68,10 @@ supported_apis:
   name: Wordlingo
 - id: amazon
   name: Amazon Translate
-- id: yandex
-  name: Yandex Translate
 - id: textra
   name: TexTra
+- id: yandex
+  name: Yandex Translate
 - id: lingvanex
   name: LingvaNex
 - id: youdao

@@ -24,10 +24,10 @@ typology:
 territories:
 - id
 supported_apis:
-- id: yandex
-  name: Yandex Translate
 - id: textra
   name: TexTra
+- id: yandex
+  name: Yandex Translate
 - id: lingvanex
   name: LingvaNex
 - id: youdao

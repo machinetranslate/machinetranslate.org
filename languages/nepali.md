@@ -31,10 +31,10 @@ territories:
 supported_apis:
 - id: watson
   name: Watson Language Translator
-- id: yandex
-  name: Yandex Translate
 - id: textra
   name: TexTra
+- id: yandex
+  name: Yandex Translate
 - id: microsoft
   name: Microsoft Translator
 - id: lingvanex

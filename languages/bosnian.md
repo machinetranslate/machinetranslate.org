@@ -46,10 +46,10 @@ supported_apis:
   name: AppTek
 - id: amazon
   name: Amazon Translate
-- id: yandex
-  name: Yandex Translate
 - id: textra
   name: TexTra
+- id: yandex
+  name: Yandex Translate
 - id: microsoft
   name: Microsoft Translator
 - id: lingvanex
