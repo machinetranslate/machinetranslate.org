@@ -47,18 +47,22 @@ seo:
 | Date | Event | Location |
 | --- | --- | --- |
 |  | **WMT24** |  |
-| September | **AMTA 2024** | Chicago, Illinois |
+| 2 December | Language AI Meetup | Zurich, Switzerland |
+| 30 September | **AMTA 2024** | Chicago, Illinois |
+| 16 September | Language AI Meetup | Zurich, Switzerland |
 | 15 - 16 August | [**IWSLT 2024**](/iwslt2024) | Bangkok, Thailand |
 | 3 - 6 July | [**NETTT 2024**](/nettt2024) | Varna, Bulgaria |
 | June | [**AmericasNLP**](/americasnlp2024) | Mexico City, Mexico |
 | 24 - 27 June | [**EAMT 2024**](/eamt2024) | Sheffield, England |
+| 27 May | Language AI Meetup | Zurich, Switzerland |
+| 8 February | [Machine translation meetup](/meetup) | online |
 
 ## 2023 events
 
 | Date | Event | Location |
 | --- | --- | --- |
 | 6 - 7 December | [**WMT23**](/wmt23) | Singapore |
-| 4 December | [Language AI Meetup](/zurich-14) |  Zurich, Switzerland |
+| 4 December | [Language AI Meetup](/zurich-14) | Zurich, Switzerland |
 | 8 November | [AMTA 2023](/amta2023) | online |
 | 15 November | [At a loss with technology? Some current research initiatives to assist (or even replace) interpreters](/cts-interpreters) | online |
 | 8 November | [AMTA 2023](/amta2023) | online |
