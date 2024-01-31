@@ -48,7 +48,7 @@ seo:
 | --- | --- | --- |
 |  | **WMT24** |  |
 | 2 December | Language AI Meetup | Zurich, Switzerland |
-| 30 September | **AMTA 2024** | Chicago, Illinois |
+| 30 September | [**AMTA 2024**](/amta2024) | Chicago, Illinois |
 | 16 September | Language AI Meetup | Zurich, Switzerland |
 | 15 - 16 August | [**IWSLT 2024**](/iwslt2024) | Bangkok, Thailand |
 | 3 - 6 July | [**NETTT 2024**](/nettt2024) | Varna, Bulgaria |
