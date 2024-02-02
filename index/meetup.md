@@ -4,7 +4,7 @@ title: Machine translation meetup
 community_search_term: "the meetup"
 description: The machine translation community meetup organized by the Machine Translate Foundation
 seo:
-  name: The machine translation meetup
+  name: The machine translation community meetup organized by the Machine Translate Foundation
   type: ItemList
 ---
 
