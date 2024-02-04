@@ -19,7 +19,7 @@ The next meetup is about [**adaptive machine translation**](/adaptive).
   <h3>Online panel</h3>
   <h4 id="date">
     <script>
-      const d = new Date('2024-02-08T15:00:00+00:00');
+      const d = new Date('2024-02-08T14:00:00+00:00');
       const dText = new Intl.DateTimeFormat('en-GB', { dateStyle: 'full', timeStyle: 'short' }).format(d);
       const tzText = Intl.DateTimeFormat().resolvedOptions().timeZone;
       document.getElementById('date').innerText = dText + ' ' + tzText;
