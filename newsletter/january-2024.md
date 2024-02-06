@@ -42,7 +42,7 @@ seo:
 - Is **Google Translate** launching [**adaptive** machine translation](https://www.reddit.com/r/machinetranslation/comments/18noexj/is_google_launching_adaptive_mt/)?
 - How to [**set up** and evaluate **post-editing**](https://www.reddit.com/r/machinetranslation/comments/18ju9uo/how_to_set_up_and_evaluate_postediting_into/) into **languages you don't know**?
 - What app provides [**accurate** translations **into Wolof**](https://www.reddit.com/r/machinetranslation/comments/18kof1e/question_wolof/)?
-- Does **Rozetta** support [**Persian**](https://www.reddit.com/r/machinetranslation/comments/18kxqin/question_rozetta_t400_does_rosettes_support/?
+- Does **Rozetta** support [**Persian**](https://www.reddit.com/r/machinetranslation/comments/18kxqin/question_rozetta_t400_does_rosettes_support/)?
 - What are some machine translators similar to [**Ichigo Manga** Translator](https://www.reddit.com/r/machinetranslation/comments/18k227x/machine_translators_similar_to_ichigo_manga/)?
 
 [More questions from the community →](https://www.reddit.com/r/machinetranslation/search?q=flair%3Aquestion&restrict_sr=on)
@@ -68,7 +68,7 @@ seo:
 - [**NETTT** 2024](https://machinetranslate.org/nettt2024) - 3 - 6 July - Varna 🇧🇬
 - [**IWSLT** 2024](https://machinetranslate.org/iwslt2024) - 15 - 16 August - Bangkok 🇹🇭
 
-... And the fourth **Machine Translate meetup** will happen on **8 February**. It will be about **adaptive** machine translation! Register [here](https://machinetranslate.org/meetup!
+... And the fourth **Machine Translate meetup** will happen on **8 February**. It will be about **adaptive** machine translation! Register [here](https://machinetranslate.org/meetup)!
 
 [More events →](https://machinetranslate.org/events)
 
