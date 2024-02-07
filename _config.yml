@@ -11,6 +11,7 @@ description: Open information and community for machine translation, to make
 # Pages permalink
 permalink: pretty
 
+
 # TODO: remove this by moving them all under a content/ directory
 defaults:
   - scope:
