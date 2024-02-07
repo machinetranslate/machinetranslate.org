@@ -1,10 +1,5 @@
 [
    {
-     "name":"WMT24",
-     "title":"WMT24",
-     "startDate":"2024-12-6"
-   },
-   {
      "name":"WMT Test",
      "id":"wmt-test",
      "description":"test descripiton",

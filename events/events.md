@@ -125,6 +125,7 @@ seo:
 {% assign sorted_events = year.items | sort: "startDate" | reverse %} 
 | Date | Event | Location |
 | --- | --- | --- |
+|  | **WMT24** |
 {% for event in sorted_events %}
   {%- capture startDay -%}{{- event.startDate | date: "%d" -}}{%- endcapture -%}
   {%- capture endDayMonth %}{{- event.endDate | date: "%d %B" -}}{% endcapture -%}{%- if event.endDate -%}{%- if event.startDate != event.endDate -%}
