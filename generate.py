@@ -4,10 +4,7 @@ import yaml
 from datetime import datetime
 from os.path import exists
 
-from jsonschema import Draft7Validator, validate, ValidationError
-# from jsonschema_strict import validate, ValidationError
-
-# from jsonschema.exceptions import ValidationError
+from jsonschema import validate
 from unidecode import unidecode
 
 
