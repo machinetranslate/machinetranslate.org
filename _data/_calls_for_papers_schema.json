@@ -1,0 +1,19 @@
+{
+    "$schema":"http://json-schema.org/draft-07/schema#",
+    "$id":"https://machinetranslate.org/events-schema",
+    "Title": "Calls For Papers",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "url": {
+            "type": "string"
+        },
+        "callsForPapersDeadline": {
+            "type": "string"
+        }
+    },
+    "required": ["name"],
+    "additionalItems": false,
+    "additionalProperties": false
+}
