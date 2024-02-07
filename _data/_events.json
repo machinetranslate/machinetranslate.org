@@ -1,239 +1,126 @@
 [
    {
-      "name":"",
-      "id":"",
-      "title":"",
-      "description":"",
-      "callsForPapersDeadline":"",
-      "location":"",
-      "startDate":"",
-      "endDate":"",
-      "date":"",
-      "openingParagraph":"",
-      "pastOpeningParagraph":"",
-      "blockquotes":[
-         ""
-      ],
-      "urlsAfterBlockquote":[
-         ""
-      ],
-      "locationHeader":"",
-      "locationName":"",
-      "linkHeader":"",
-      "linkUrl":[
-         ""
-      ],
-      "impDatesHeader":"",
-      "impDatesHeaderH4":[
+     "name": "Name of the event",
+     "id": "The slug for the event: Don't provide 'id' if a dedicated page doesn't need to be created for the event",
+     "description": "Description of the event",
+     "callsForPapersDeadline": "Date format: yyyy-mm-dd, If the event has a calls For Papers",
+     "startDate": "Date format: yyyy-mm-dd",
+     "endDate": "Date format: yyyy-mm-dd",
+     "futureTenseOpeningParagraph": "An opening paragraph in future tense about the event, when/where it's happening.",
+     "pastTenseOpeningParagraph": "An opening paragraph in past tense about the event, when/where it's happening.",
+     "summaries": [
+       "Summary about the event",
+       "Summary about the event",
+       "Summary about the event"
+     ],
+     "location": {
+       "type": "Type of the location: Offline, hybrid, online, etc.",
+       "name": "Country/City",
+       "eventAttendanceMode": "OfflineEventAttendanceMode/OnlineEventAttendanceMode/Hybrid",
+       "optionalUrl": "URL for the location where the event will happen"
+     },
+     "organizer": {
+       "type": "Association/Organization/etc.",
+       "name": "Name of the organizer",
+       "optionalUrl": "URL about the organizer"
+     },
+     "links": [
+       "Any additional links should be added here"
+     ],
+     "importantDates": [
+       {
+         "name": "",
+         "date": ""
+       }
+     ],
+     "speakers": [
+       {
+         "type": "Type of the speaker: Panellist/Invited/Organizer",
+         "about": [
+           "Information about each speaker: Name, Institution",
+           "",
+           "",
+           ""
+         ]
+       },
+       {
+         "type": "Type of the speaker: Panellist/Invited/Organizer",
+         "about": [
+           "Information about each speaker: Name, Institution",
+           "",
+           "",
+           ""
+         ]
+       }
+     ],
+     "workshops": [
+       {
+         "name": "",
+         "description": ""
+       }
+     ],
+     "sharedTasks": [
+       "URLs should be given inside <a></a> tags: <a href='some_url'>output that will be displayed</a>",
+       "",
+       ""
+     ],
+     "multidaySchedule": [ 
+      "Only given if the schedule is for more than one day",
+       [
          {
-            "h4":"",
-            "table":[
-               {
-                  "name":"",
-                  "date":""
-               },
-               {
-                  "name":"",
-                  "date":""
-               },
-               {
-                  "name":"",
-                  "date":""
-               },
-               {
-                  "name":"",
-                  "date":""
-               },
-               {
-                  "name":"",
-                  "date":""
-               }
-            ]
+           "time": "",
+           "title": ""
          },
          {
-            "h4":"",
-            "table":[
-               {
-                  "name":"",
-                  "date":""
-               },
-               {
-                  "name":"",
-                  "date":""
-               },
-               {
-                  "name":"",
-                  "date":""
-               },
-               {
-                  "name":"",
-                  "date":""
-               }
-            ]
-         },
-         {
-            "h4":"",
-            "table":[
-               {
-                  "name":"",
-                  "date":""
-               },
-               {
-                  "name":"",
-                  "date":""
-               },
-               {
-                  "name":"",
-                  "date":""
-               },
-               {
-                  "name":"",
-                  "date":""
-               }
-            ]
-         },
-         {
-            "h4":"",
-            "table":[
-               {
-                  "name":"",
-                  "date":""
-               },
-               {
-                  "name":"",
-                  "date":""
-               }
-            ]
+           "time": "",
+           "title": ""
          }
-      ],
-      "table":[
+       ],
+       [
          {
-            "name":"",
-            "date":""
+           "time": "",
+           "title": ""
          },
          {
-            "name":"",
-            "date":""
-         }
-      ],
-      "bulletKeyNoteSpeakOrTopsHeader":"",
-      "names":[
-         "",
-         "",
-         ""
-      ],
-      "blockquoteSpeakersHeader":"",
-      "speakHeadcontent":[
-         {
-            "bshOpeningSentence":"",
-            "bulletNames":[
-               "",
-               ""
-            ]
+           "time": "",
+           "title": ""
          },
          {
-            "bshOpeningSentence":"",
-            "bulletNames":[
-               "",
-               ""
-            ]
+           "time": "",
+           "title": ""
          }
-      ],
-      "workshopsHeader":"",
-      "wsTitles":[
-         {
-            "name":"",
-            "blockquote":"",
-            "url":""
-         },
-         {
-            "name":"",
-            "blockquote":"",
-            "url":""
-         }
-      ],
-      "sharedTasksHeader":"",
-      "sharedTasksUrls":[
-         "",
-         "",
-         ""
-      ],
-      "scheduleHeader":"",
-      "scheduleDays":[
-         {
-            "header":"",
-            "todo":[
-               {
-                  "time":"",
-                  "title":"",
-                  "channel":""
-               },
-               {
-                  "time":"",
-                  "title":"",
-                  "channel":""
-               }
-            ],
-            "optionalSentence":""
-         },
-         {
-            "header":"",
-            "todo":[
-               {
-                  "time":"",
-                  "title":"",
-                  "channel":""
-               },
-               {
-                  "time":"",
-                  "title":"",
-                  "channel":""
-               }
-            ],
-            "optionalSentence":""
-         }
-      ],
-      "cfpHeader":"",
-      "cfpContent":[
-         {
-            "h3":"",
-            "bulletList":[
-               "",
-               "",
-               "",
-               ""
-            ],
-            "optionalSentence":""
-         },
-         {
-            "h3":"",
-            "bulletList":[
-               "",
-               "",
-               "",
-               ""
-            ],
-            "optionalSentence":""
-         }
-      ],
-      "seo":{
-         "type":"",
-         "name":"",
-         "description":"",
-         "startDate":"",
-         "endDate":"",
-         "eventAttendanceMode":"",
-         "eventStatus":"",
-         "location":{
-            "type":"",
-            "name":"",
-            "url":""
-         },
-         "organizer":{
-            "type":"",
-            "name":"",
-            "url":""
-         }
-      }
+       ]
+     ],
+     "oneDaySchedule": [
+      "Only given if the schedule is for one day only",
+       {
+         "time": "",
+         "title": ""
+       },
+       {
+         "time": "",
+         "title": ""
+       }
+     ],
+     "callsForPapers": [
+       {
+         "title": "",
+         "topics": [
+           "",
+           "",
+           "",
+           ""
+         ]
+       },
+       {
+         "title": "",
+         "topics": [
+           "",
+           "",
+           "",
+           ""
+         ]
+       }
+     ]
    }
 ]

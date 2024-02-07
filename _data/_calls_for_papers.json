@@ -1,0 +1,8 @@
+
+[   "Only external events that have a Calls For Papers should be added here",
+    {
+        "name": "Name of the event",
+        "callsForPapersDeadline": "The deadline",
+        "url": "The URL to the event"
+    }
+]

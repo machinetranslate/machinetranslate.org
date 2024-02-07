@@ -1,250 +1,172 @@
 [
-   {
-      "name":"",
-      "id":"",
-      "title":"",
-      "description":"",
-      "callForPapers":"",
-      "location":"",
-      "startDate":"",
-      "endDate":"",
-      "openingParagraph":[
-         ""
-      ],
-      "pastOpeningParagraph":"",
-      "blockquotes":[
-         
-      ],
-      "urlsAfterBlockquote":[
-         ""
-      ],
-      "impDatesHeader":"",
-      "table":[
-         {
-            "name":"",
-            "date":""
-         },
-         {
-            "name":"",
-            "date":""
-         }
-      ],
-      "sharedTasksHeader":"",
-      "stBulletTasks":[
-         "",
-         "",
-         ""
-      ],
-      "optionalSentence":"",
-      "generalMachineTranslationHeader":"",
-      "gmtList":[
-         {
-            "bullet":"",
-            "blockquote":""
-         },
-         {
-            "bullet":"",
-            "blockquote":""
-         },
-         {
-            "bullet":"",
-            "blockquote":""
-         },
-         {
-            "bullet":"",
-            "blockquote":""
-         },
-         {
-            "bullet":"",
-            "blockquote":""
-         }
-      ],
-      "languagePairsHeader":"",
-      "lpSubtitle":"",
-      "lpBulletList":[
-         "",
-         "",
-         "",
-         ""
-      ],
-      "scientificPapersHeader":"",
-      "spTopicsHeader":"",
-      "spBulletTopics":[
-         "",
-         "",
-         ""
-      ],
-      "researchPapersHeader":"",
-      "rpBlockquotes":[
-         "",
-         "",
-         ""
-      ],
-      "systemPapersHeader":"",
-      "spBlockquotes":[
-         "",
-         "",
-         ""
-      ],
-      "posterFormatHeader":"",
-      "pfTitles":[
-         "",
-         "",
-         ""
-      ],
-      "paperSubmissionHeader":"",
-      "psBulletTitles":[
-         "",
-         "",
-         ""
-      ],
-      "scheduleHeader":"",
-      "scheduleDays":[
-         {
-            "header":"",
-            "todo":[
-               {
-                  "time":"",
-                  "title":""
-               },
-               {
-                  "time":"",
-                  "title":""
-               }
-            ],
-            "optionalSentence":""
-         },
-         {
-            "header":"",
-            "todo":[
-               {
-                  "time":"",
-                  "title":""
-               },
-               {
-                  "time":"",
-                  "title":""
-               }
-            ],
-            "optionalSentence":""
-         }
-      ],
-      "resultsHeader":"",
-      "resultsOpeningSentence":"",
-      "generalTaskHeader":"",
-      "generalTaskOpeningSentence":"",
-      "languages":[
-         {
-            "name":"",
-            "sentence":"",
-            "gtTable":[
-               {
-                  "language_pair":"",
-                  "System":"",
-                  "Average_score":"",
-                  "Average_z_score":""
-               },
-               {
-                  "language_pair":"",
-                  "System":"",
-                  "Average_score":"",
-                  "Average_z_score":""
-               }
-            ]
-         },
-         {
-            "name":"",
-            "sentence":"",
-            "gtTable":[
-               {
-                  "language_pair":"",
-                  "System":"",
-                  "Average_score":"",
-                  "Average_z_score":""
-               },
-               {
-                  "language_pair":"",
-                  "System":"",
-                  "Average_score":"",
-                  "Average_z_score":""
-               }
-            ]
-         },
-         {
-            "name":"",
-            "sentence":"",
-            "gtTable":[
-               {
-                  "language_pair":"",
-                  "System":"",
-                  "Average_score":"",
-                  "Average_z_score":""
-               },
-               {
-                  "language_pair":"",
-                  "System":"",
-                  "Average_score":"",
-                  "Average_z_score":""
-               }
-            ]
-         }
-      ],
-      "cfpHeader":"",
-      "cfpContent":[
-         {
-            "h2":"",
-            "bulletList":[
-               "",
-               "",
-               "",
-               ""
-            ],
-            "optionalSentence":""
-         },
-         {
-            "h2":"",
-            "bulletList":[
-               "",
-               "",
-               "",
-               ""
-            ],
-            "optionalSentence":""
-         }
-      ],
-      "callForWorkshopsAndTutorialsHeader":"",
-      "cfwOpeningSentence":"",
-      "chairs":"",
-      "cfwWorkshopsHeader":"",
-      "cfwWorkshopsBlockquotes":[
-         "",
-         "",
-         ""
-      ],
-      "tutorialsHeader":"",
-      "tutorialsBlockquotoes":[
-         "",
-         "",
-         ""
-      ],
-      "seo":{
-         "type":"",
-         "name":"",
-         "description":"",
-         "startDate":"",
-         "endDate":"",
-         "eventAttendanceMode":"",
-         "eventStatus":"",
-         "location":{
-            "type":"",
-            "name":"",
-            "url":""
-         },
-         "organizer":{
-            "type":"",
-            "name":"",
-            "url":""
-         }
+  {
+    "name": "Name of the event",
+    "id": "The slug for the event: Don't provide 'id' if a dedicated page doesn't need to be created for the event",
+    "description": "Description of the event",
+    "callsForPapersDeadline": "Date format: yyyy-mm-dd, If the event has a calls For Papers",
+    "startDate": "Date format: yyyy-mm-dd",
+    "endDate": "Date format: yyyy-mm-dd",
+    "location": {
+      "type": "Type of the location: Offline, hybrid, online, etc.",
+      "name": "Country/City",
+      "eventAttendanceMode": "OfflineEventAttendanceMode/OnlineEventAttendanceMode/Hybrid",
+      "optionalUrl": "URL for the location where the event will happen"
+    },
+    "organizer": {
+      "type": "Association/Organization/etc.",
+      "name": "Name of the organizer",
+      "optionalUrl": "URL about the organizer"
+    },
+    "futureTenseOpeningParagraph": "An opening paragraph in future tense about the event, when/where it's happening.",
+    "pastTenseOpeningParagraph": "An opening paragraph in past tense about the event, when/where it's happening.",
+    "summaries": [
+      "Summary about the event",
+      "Summary about the event",
+      "Summary about the event"
+    ],
+    "links": [
+      "Any additional links should be added here",
+      ""
+    ],
+    "importantDates": [
+      {
+        "name": "",
+        "date": ""
+      },
+      {
+        "name": "",
+        "date": ""
       }
-   }
+    ],
+    "sharedTasks": [
+      "URLs should be given inside <a></a> tags: <a href='some_url'>output that will be displayed</a>",
+      "",
+      ""
+    ],
+    "generalMachineTranslation": [
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "languagePairs": [
+      "Entry for each pair: English <-> Czech",
+      "",
+      "",
+      ""
+    ],
+    "scientificPapers": [
+      {
+        "topics": [
+          "",
+          ""
+        ]
+      },
+      {
+        "researchPapers": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "systemPapers": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+    "posterFormat": [
+      "",
+      "",
+      ""
+    ],
+    "paperSubmission": [
+      "",
+      "",
+      ""
+    ],
+    "multidaySchedule": [
+      "Only given if the schedule is for more than one day",
+      [
+        {
+          "time": "",
+          "title": ""
+        },
+        {
+          "time": "",
+          "title": ""
+        }
+      ],
+      [
+        {
+          "time": "",
+          "title": ""
+        },
+        {
+          "time": "",
+          "title": ""
+        },
+        {
+          "time": "",
+          "title": ""
+        }
+      ]
+    ],
+    "oneDaySchedule": [
+      "Only given if the schedule is for one day only",
+      {
+        "time": "",
+        "title": ""
+      },
+      {
+        "time": "",
+        "title": ""
+      }
+    ],
+    "results": [
+      {
+        "fullResults": {
+          "title": "Title for where the full results can be found",
+          "url": "URL to the full results."
+        },
+        "scoringTable": [
+          "Both scores are not necessary to be given: Give those that have been used in evaluation unless both have been used",
+          {
+            "language": "",
+            "sentence": "",
+            "language_pair": "",
+            "System": "",
+            "Average_score": "",
+            "Average_z_score": ""
+          },
+          {
+            "language": "",
+            "sentence": "",
+            "language_pair": "",
+            "System": "",
+            "Average_score": "",
+            "Average_z_score": ""
+          }
+        ]
+      }
+    ]
+  }
 ]

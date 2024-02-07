@@ -46,121 +46,93 @@ seo:
 {% assign eamt_events = site.data.events | where_exp: "event", "event.name contains 'EAMT'" %}
 {% assign mt_summit_events = site.data.events | where_exp: "event", "event.name contains 'MT Summit'" %}
 
-
 {% if amta_events.size > 0 %}
-<h3>AMTA</h3>
+### AMTA
+<details>
+<summary>Events</summary>
+
+{% capture amta_content %}
+{% for event in amta_events %}
+{% if event.id %}
+- [{{ event.name }}](/{{ event.id }})
+{%- else -%}
+- **{{ event.name }}**
+{%- endif -%}{% endfor %}
+- [AMTA 2023](/amta2023)
+- [AMTA 2022](/amta2022)
+- [AMTA 2020](/amta2020)
+{% endcapture %}
+
+{{ amta_content | markdownify }}
+
+</details>
+{% endif %}
+
+
+{% if eamt_events.size > 0 %}
+### EAMT
 <details>
   <summary>Events</summary>
-    {% for event in amta_events %}
-      <li>
-      {% if event.id %}
-        <a href="/{{ event.id }}">{{ event.name }}</a>
-      {% else %}
-        <strong>{{ event.name }}</strong>
-      {% endif %}
-      </li>
-    {% endfor %}
-      <li>
-        <a href="/amta2023">AMTA 2023</a>
-      </li>
-      <li>
-        <a href="/amta2022">AMTA 2022</a>
-      </li>
-      <li>
-        <a href="/amta2020">AMTA 2020</a>
-      </li>
+
+{% capture eamt_content %}
+{% for event in eamt_events %}
+{% if event.id %}
+- [{{ event.name }}](/{{ event.id }})
+{%- else -%}
+- **{{ event.name }}**{%- endif -%}{% endfor %}
+- [EAMT 2023](/eamt2023)
+- [EAMT 2022](/eamt2022)
+- [EAMT 2020](/eamt2020)
+{% endcapture %}
+
+{{ eamt_content | markdownify }}
+
 </details>
 {% endif %}
 
 {% if eamt_events.size > 0 %}
-<h3>EAMT</h3>
+### MT Summit
 <details>
   <summary>Events</summary>
-    {% for event in eamt_events %}
-      <li>
-      {% if event.id %}
-        <a href="/{{ event.id }}">{{ event.name }}</a>
-      {% else %}
-        <strong>{{ event.name }}</strong>
-      {% endif %}
-      </li>
-    {% endfor %}
-      <li>
-        <a href="/eamt2023">EAMT 2023</a>
-      </li>
-      <li>
-        <a href="/eamt2022">EAMT 2022</a>
-      </li>
-      <li>
-        <a href="/eamt2020">EAMT 2020</a>
-      </li>
+
+{% capture mtsummit_content %}
+{% for event in mt_summit_events %}
+{% if event.id %}
+- [{{ event.name }}](/{{ event.id }})
+{% else %}
+- **{{ event.name }}**
+{%- endif -%}{% endfor %}
+- [MT Summit 2023](/mtsummit2023)
+- [MT Summit 2021](/mtsummit2021)
+- [MT Summit 2019](/mtsummit2019)
+- [MT Summit 2017](/mtsummit2017)
+- [MT Summit 2015](/mtsummit2015)
+- [MT Summit 2013](/mtsummit2013)
+{% endcapture %}
+
+{{ mtsummit_content | markdownify }}
+
 </details>
 {% endif %}
 
-<h3>MT Summit</h3>
-<details>
-  <summary>Events</summary>
-    {% for event in mt_summit_events %}
-      <li>
-      {% if event.id %}
-        <a href="/{{ event.id }}">{{ event.name }}</a>
-      {% else %}
-        <strong>{{ event.name }}</strong>
-      {% endif %}      
-      </li>
-    {% endfor %}
-      <li>
-        <a href="/mtsummit2023">MT Summit 2023</a>
-      </li>
-      <li>
-        <a href="/mtsummit2021">MT Summit 2021</a>
-      </li>
-      <li>
-        <a href="/mtsummit2019">MT Summit 2019</a>
-      </li>
-      <li>
-        <a href="/mtsummit2017">MT Summit 2017</a>
-      </li>
-      <li>
-        <a href="/mtsummit2015">MT Summit 2015</a>
-      </li>
-      <li>
-        <a href="/mtsummit2013">MT Summit 2013</a>
-      </li>
-</details>
-
 {% assign all_events = site.data.events | concat: site.data.wmt_events %}
-{% assign events_by_year = all_events | group_by_exp: "event", "event.startDate | date: '%Y'" %}
+{% assign events_by_year = all_events | sort: "startDate" | reverse | group_by_exp: "event", "event.startDate | date: '%Y'" %}
 {% assign current_date = site.time | date: "%Y-%m-%d" %}
 
 {% for year in events_by_year %}
-  <h2>{{ year.name }} events</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Event</th>
-        <th>Location</th>
-      </tr>
-    </thead>
-    <tbody>
-    {% assign sorted_events = year.items | sort: "startDate" | reverse %}
-    {% for event in sorted_events %}
-      <tr>
-        <td>{{ event.date }}</td>
-        <td>
-          {% if event.id %}
-            <a href="/{{ event.id }}"{% if event.endDate > current_date %}><strong>{{ event.name }}</strong>{% else %}>{{ event.name }}{% endif %}</a>
-          {% else %}
-            {% if event.endDate > current_date %}<strong>{{ event.name }}</strong>{% else %}{{ event.name }}{% endif %}
-          {% endif %}
-        </td>
-        <td>{{ event.location }}</td>
-      </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-{% endfor %}
+## {{ year.name }} events
+
+{% assign sorted_events = year.items | sort: "startDate" | reverse %} 
+| Date | Event | Location |
+| --- | --- | --- |
+{% for event in sorted_events %}
+  {%- capture startDay -%}{{- event.startDate | date: "%d" -}}{%- endcapture -%}
+  {%- capture endDayMonth %}{{- event.endDate | date: "%d %B" -}}{% endcapture -%}{%- if event.endDate -%}{%- if event.startDate != event.endDate -%}
+  {%- capture date_range -%}{{ startDay }} - {{ endDayMonth }}{%- endcapture -%}{%- else -%}
+  {%- capture date_range -%}{{ event.startDate | date: "%d %B" }}{%- endcapture -%}{%- endif -%}{%- else -%}
+  {%- capture date_range -%}{{ event.startDate | date: "%d %B" }}{%- endcapture -%}{%- endif -%}
+| {{ date_range }} | {% if event.id %}{% if event.startDate > current_date %}**[{{ event.name }}](/{{ event.id }})**{% else %}[{{ event.name }}](/{{ event.id }}){% endif %}{% else %}{% if event.startDate > current_date %}**{{ event.name }}**{% else %}{{ event.name }}{% endif %}{% endif %} | {{ event.location.name }} | 
+{% endfor %}{% endfor %}
 
 ## 2023 events
 

@@ -1,234 +1,318 @@
 [
-    {
-       "name":"AMTA 2024",
-       "title":"AMTA 2024",
-       "startDate":"2024-10-27",
-       "endDate":"2024-11-1",
-       "date":"September",
-       "location":"Chicago, Illinois"
-    },
-    {
-       "name":"<a href='https://turing.iimas.unam.mx/americasnlp/2024_workshop.html'>AmericasNLP</a>",
-       "startDate":"2024-06-30",
-       "endDate":"2024-06-30",
-       "date":"June",
-       "location":"Mexico City, Mexico"
-    },
-    {
-       "name":"IWSLT 2024",
-       "id":"iwslt-2024",
-       "title":"IWSLT 2024",
-       "description":"International Conference on Spoken Language Translation (IWSLT)",
-       "callsForPapersDeadline":"29 April 2024",
-       "location":"Toronto, Canada",
-       "startDate":"2024-08-15",
-       "endDate":"2024-08-16",
-       "date":"15 - 16 August",
-       "openingParagraph":"The International Conference on Spoken Language Translation (<strong>IWSLT</strong>) is an annual scientific conference on spoken language translation.<br> <br> IWSLT 2024 will be co-located at ACL 2024 online and in Bangkok, Thailand from 15 to 16 August, 2024. <br><br> IWSLT 2024 will be a hybrid event.",
-       "pastOpeningParagraph":"The nineteenth Machine Translation Summit 2023 (<strong>MTS 2023</strong>) took place from 4 September to 8 September in Macau Special Administrative Region, China. MTS 2023 was organised by [AAMT](/aamt).",
-       "impDatesHeader":"Important Dates",
-       "impDatesHeaderH4":[
-          {
-             "table":[
-                {
-                   "name":"Release of shared task training and developer data",
-                   "date":"15 January"
-                },
-                {
-                   "name":"Evaluation",
-                   "date":"1 - 15 April"
-                },
-                {
-                   "name":"Paper submission",
-                   "date":"29 April"
-                },
-                {
-                   "name":"Notification of acceptance",
-                   "date":"4 June"
-                },
-                {
-                   "name":"Camera ready deadline",
-                   "date":"24 June"
-                },
-                {
-                   "name":"Pre-recorded video due",
-                   "date":"22 July"
-                },
-                {
-                   "name":"Conference",
-                   "date":"15 - 16 August"
-                }
-             ]
-          }
-       ],
-       "bulletKeyNoteSpeakOrTopsHeader":"Organisers",
-       "names":[
-          "Marine Carpuat, University of Maryland, United States",
-          "Marcello Federico, AWS AI Labs, United States",
-          "Alex Waibel, CMU, United States",
-          "Jan Niehues, KIT, Germany",
-          "Sebastian Stüker, KIT, Germany",
-          "Elizabeth Salesky, JHU, United States",
-          "Atul Kr. Ojha, University of Galway, Ireland"
-       ],
-       "sharedTasksHeader":"Shared tasks",
-       "sharedTasksUrls":[
-          "<a href='https://iwslt.org/2024/s2s'>Speech-to-speech track</a>",
-          "<a href='https://iwslt.org/2024/simultaneous'>Simultaneous track</a>",
-          "<a href='https://iwslt.org/2024/subtitling'>Subtitling track</a>",
-          "<a href='https://iwslt.org/2024/offline'>Offline track</a>",
-          "<a href='https://iwslt.org/2024/dubbing'>Dubbing track</a>",
-          "<a href='https://iwslt.org/2024/low-resource'>Low-resource track</a>",
-          "<a href='https://iwslt.org/2024/indic'>Indic track</a>"
-       ]
-    },
-    {
-       "name":"NeTTT",
-       "id":"nettt",
-       "title":"NeTTT",
-       "description":"New Trends in Translation and Technology",
-       "callsForPapersDeadline":"31 March 2024",
-       "location":"Varna, Bulgaria",
-       "startDate":"2024-07-03",
-       "endDate":"2024-07-06",
-       "date":"3 - 6 July",
-       "openingParagraph":"The second New Trends in Translation and Technology (<strong>NeTTT</strong>) conference will take place in Varna, Bulgaria, from 3 July to 6 July, 2024.",
-       "blockquotes":[
-          "The objective of the conference is (i) to bridge the gap between academia and industry in the field of translation and interpreting by bringing together academics in linguistics, translation studies, machine translation and natural language processing, developers, practitioners, language service providers and vendors who work on or are interested in different aspects of technology for translation and interpreting, and (ii) to be a distinctive event for discussing the latest developments and practices."
-       ],
-       "urlsAfterBlockquote":[
-          "<a href='https://nettt-conference.com/'>nettt-conference.com/</a>"
-       ],
-       "seo":{
-          "type":"Event",
-          "name":"NeTTT",
-          "description":"New Trends in Translation and Technology",
-          "startDate":"2024-07-03",
-          "endDate":"2024-07-06",
-          "eventAttendanceMode":"OfflineEventAttendanceMode",
-          "eventStatus":"EventScheduled",
-          "location":{
-             "type":"Place",
-             "name":"Varna, Bulgaria"
-          },
-          "organizer":{
-             "type":"Organization",
-             "name":"NeTTT",
-             "url":"http://machinetranslate.org/nettt2022.md#organisers"
-          }
-       }
-    },
-    {
-       "name":"EAMT 2024",
-       "id":"eamt-2024",
-       "title":"EAMT 2024",
-       "description":"Conference of the European Association of Machine Translation",
-       "callsForPapersDeadline":"8 March 2024",
-       "location":"Sheffield, England",
-       "startDate":"2024-06-24",
-       "endDate":"2024-06-27",
-       "date":"24 - 27 June",
-       "openingParagraph":"The 25th Annual Conference of the <strong>European Association of Machine Translation 2024</strong> <strong>(<a href='/eamt'>EAMT</a> 2024)</strong> will be hosted in Sheffield, England, from 24 June to 27 June, 2024. <br><br> EAMT 2024 will be jointly organised by EAMT, ZOO Digital and the University of Sheffield. <br><br> <a href='https://eamt2024.sheffield.ac.uk/home'>eamt2024.sheffield.ac.uk/home</a>",
-       "impDatesHeader":"Important Dates",
-       "impDatesHeaderH4":[
-          {
-             "h4":"Papers",
-             "table":[
-                {
-                   "name":"Deadline for paper submission",
-                   "date":"8 March 2024"
-                },
-                {
-                   "name":"Notification to paper authors",
-                   "date":"8 April 2024"
-                },
-                {
-                   "name":"Camera ready deadline",
-                   "date":"22 April 2024"
-                },
-                {
-                   "name":"Author Registration",
-                   "date":"8 May 2024"
-                },
-                {
-                   "name":"Conference",
-                   "date":"24 - 27 June 2024"
-                }
-             ]
-          },
-          {
-             "h4":"Tutorials",
-             "table":[
-                {
-                   "name":"Deadline for tutorial submission",
-                   "date":"8 March 2024"
-                },
-                {
-                   "name":"Notification of tutorial acceptance",
-                   "date":"8 April 2024"
-                },
-                {
-                   "name":"Tutorial slides, abstract, bibliography, any other materials",
-                   "date":"15 May 2024"
-                },
-                {
-                   "name":"Conference",
-                   "date":"27 June 2024"
-                }
-             ]
-          },
-          {
-             "h4":"Workshops",
-             "table":[
-                {
-                   "name":"Deadline for workshop submission",
-                   "date":"31 January 2024"
-                },
-                {
-                   "name":"Notification for workshop submission",
-                   "date":"on a rolling basis (no later than 28th February)"
-                },
-                {
-                   "name":"Conference",
-                   "date":"15 May 2024"
-                },
-                {
-                   "name":"Conference",
-                   "date":"27 June 2024"
-                }
-             ]
-          },
-          {
-             "h4":"Best Thesis Award",
-             "table":[
-                {
-                   "name":"Deadline for thesis submission",
-                   "date":"8 February 2024"
-                },
-                {
-                   "name":"Award notification",
-                   "date":"8 March 2024 "
-                }
-             ]
-          }
-       ],
-       "seo":{
-          "type":"Event",
-          "name":"EAMT 2024",
-          "description":"Conference of the European Association of Machine Translation",
-          "startDate":"2024-06-24",
-          "endDate":"2024-06-27",
-          "eventAttendanceMode":"OfflineEventAttendanceMode",
-          "eventStatus":"EventScheduled",
-          "location":{
-             "type":"Place",
-             "name":"Sheffield, England"
-          },
-          "organizer":{
-             "type":"Organization",
-             "name":"European Association of Machine Translation",
-             "url":"https://eamt.org"
-          }
-       }
-    }
+   {
+      "name":"AMTA 2024",
+      "id": "amta-2024",
+      "description": "16th biennial conference of the Association for Machine Translation in the Americas",
+      "startDate":"2024-09-30",
+      "endDate":"2024-10-02",
+      "location":{
+         "type":"VirtualLocation",
+         "name":"Online",
+         "eventAttendanceMode": "OnlineEventAttendanceMode"
+      },
+      "organizer":{
+         "type":"Organization",
+         "name":"Association for Machine Translation in the Americas",
+         "url":"https://amtaweb.org"
+      },
+      "futureTenseOpeningParagraph": "The sixteenth Biennial Conference of the Association for Machine Translation in the Americas (<strong><a href='/amta'>AMTA</a> 2024</strong>) will be hosted in Chicago, Illinois from 30 September to 2 October, 2024. <br><br> Workshops and tutorials will take place earlier, mid-September. The date is yet to be announced.",
+      "pastTenseOpeningParagraph": "The sixteenth Biennial Conference of the Association for Machine Translation in the Americas (<strong><a href='/amta'>AMTA</a> 2024</strong>) was hosted in Chicago, Illinois from 30 September to 2 October, 2024.",
+      "importantDates": [
+         {
+            "name": "Submission deadline",
+            "date": "6 June "
+         },
+         {
+            "name": "Notification of acceptance",
+            "date": "18 July "
+         },
+         {
+            "name": "Final “camera-ready” papers for proceedings",
+            "date": "16 August"
+         }
+      ]
+   },
+   {
+      "name":"AmericasNLP 2024",
+      "id": "americasnlp-2024",
+      "description": "Machine translation for indigenous languages of the Americas",
+      "startDate":"2024-06-20",
+      "endDate":"2024-06-21",
+      "location":{
+         "type":"Place",
+         "name":"Mexico City, Mexico",
+         "eventAttendanceMode": "OfflineEventAttendanceMode"
+      },
+      "organizer":{
+         "type":"Person",
+         "url":"http://turing.iimas.unam.mx/americasnlp/st.html"
+      },
+      "futureTenseOpeningParagraph": "The <strong>Fourth AmericasNLP Competition</strong> will take place online in June, at NAACL 2024 in Mexico City. The competition focused on creating machine translation systems for indigenous languages from the Americas.",
+      "pastTenseOpeningParagraph": "The <strong>Fourth AmericasNLP Competition</strong> took place online in June, at NAACL 2024 in Mexico City. The competition focused on creating machine translation systems for indigenous languages from the Americas.",
+      "links": [
+         "<a href='http://turing.iimas.unam.mx/americasnlp/2024_workshop.html'>turing.iimas.unam.mx/americasnlp/2024_workshop.html</a>"
+      ],
+      "sharedTasks": [
+         "A machine translation shared task on truly low-resource languages.",
+         "A shared task on morphological adaptation to generate educational examples."
+      ],
+      "speakers": [
+         {
+            "type": "Keynote speakers",
+            "about": [
+               "Graham Neubig",
+               "Jaime Pérez González"
+            ]
+         },
+         {
+            "type": "Organisers",
+            "about": [
+               "Manuel Mager",
+               "Abteen Ebrahimi",
+               "Shruti Rijhwani",
+               "Arturo Oncevay",
+               "Luis Chiruzzo",
+               "Robert Pugh",
+               "Katharina Kann"
+            ]
+         }
+      ],
+      "importantDates": [
+         {
+            "name": "Start of the anonymity period",
+            "date": "10 February"
+         },
+         {
+            "name": "Submission deadline",
+            "date": "10 March"
+         },
+         {
+            "name": "Notification of acceptance",
+            "date": "24 April"
+         },
+         {
+            "name": "Camera ready papers",
+            "date": "24 April"
+         },
+         {
+            "name": "Workshop",
+            "date": "20 or 21 June"
+         }
+      ]
+   },
+   {
+      "name":"IWSLT 2024",
+      "id":"iwslt-2024",
+      "description":"International Conference on Spoken Language Translation (IWSLT)",
+      "callsForPapersDeadline":"2024-04-29",
+      "startDate":"2024-08-15",
+      "endDate":"2024-08-16",
+      "location":{
+         "name":"Bangkok, Thailand",
+         "type":"Place",
+         "eventAttendanceMode":"MixedEventAttendanceMode"
+      },
+      "organizer":{
+         "type":"Person",
+         "url":"https://iwslt.org/2023/#organizers"
+      },
+      "futureTenseOpeningParagraph":"The International Conference on Spoken Language Translation (<strong>IWSLT</strong>) is an annual scientific conference on spoken language translation.<br> <br> IWSLT 2024 will be co-located at ACL 2024 online and in Bangkok, Thailand from 15 to 16 August, 2024. <br><br> IWSLT 2024 will be a hybrid event.",
+      "pastTenseOpeningParagraph":"The nineteenth Machine Translation Summit 2023 (<strong>MTS 2023</strong>) took place from 4 September to 8 September in Macau Special Administrative Region, China. MTS 2023 was organised by [AAMT](/aamt).",
+      "importantDates":[
+         {
+            "name":"Release of shared task training and developer data",
+            "date":"15 January"
+         },
+         {
+            "name":"Evaluation",
+            "date":"1 - 15 April"
+         },
+         {
+            "name":"Paper submission",
+            "date":"29 April"
+         },
+         {
+            "name":"Notification of acceptance",
+            "date":"4 June"
+         },
+         {
+            "name":"Camera ready deadline",
+            "date":"24 June"
+         },
+         {
+            "name":"Pre-recorded video due",
+            "date":"22 July"
+         },
+         {
+            "name":"Conference",
+            "date":"15 - 16 August"
+         }
+      ],
+      "speakers":[
+         {
+            "type":"Organizers",
+            "about":[
+               "Marine Carpuat, University of Maryland, United States",
+               "Marcello Federico, AWS AI Labs, United States",
+               "Alex Waibel, CMU, United States",
+               "Jan Niehues, KIT, Germany",
+               "Sebastian Stüker, KIT, Germany",
+               "Elizabeth Salesky, JHU, United States",
+               "Atul Kr. Ojha, University of Galway, Ireland"
+            ]
+         }
+      ],
+      "sharedTasks":[
+         "<a href='https://iwslt.org/2024/s2s'>Speech-to-speech track</a>",
+         "<a href='https://iwslt.org/2024/simultaneous'>Simultaneous track</a>",
+         "<a href='https://iwslt.org/2024/subtitling'>Subtitling track</a>",
+         "<a href='https://iwslt.org/2024/offline'>Offline track</a>",
+         "<a href='https://iwslt.org/2024/dubbing'>Dubbing track</a>",
+         "<a href='https://iwslt.org/2024/low-resource'>Low-resource track</a>",
+         "<a href='https://iwslt.org/2024/indic'>Indic track</a>"
+      ]
+   },
+   {
+      "name":"NeTTT",
+      "id":"nettt",
+      "description":"New Trends in Translation and Technology",
+      "startDate":"2024-07-03",
+      "endDate":"2024-07-06",
+      "callsForPapersDeadline":"2024-03-31",
+      "location":{
+         "name":"Varna, Bulgaria",
+         "type":"Place",
+         "eventAttendanceMode":"OfflineEventAttendanceMode"
+      },
+      "organizer":{
+         "type":"Organization",
+         "name":"NeTTT",
+         "url":"http://machinetranslate.org/nettt2022.md#organisers"
+      },
+      "futureTenseOpeningParagraph":"The second New Trends in Translation and Technology (<strong>NeTTT</strong>) conference will take place in Varna, Bulgaria, from 3 July to 6 July, 2024.",
+      "pastTenseOpeningParagraph":"The second New Trends in Translation and Technology (<strong>NeTTT</strong>) conference  place in Varna, Bulgaria, from 3 July to 6 July, 2024.",
+      "summaries":[
+         "The objective of the conference is (i) to bridge the gap between academia and industry in the field of translation and interpreting by bringing together academics in linguistics, translation studies, machine translation and natural language processing, developers, practitioners, language service providers and vendors who work on or are interested in different aspects of technology for translation and interpreting, and (ii) to be a distinctive event for discussing the latest developments and practices."
+      ],
+      "links":[
+         "<a href='https://nettt-conference.com/'>nettt-conference.com/</a>",
+         "<a href='https://nettt-conference.com/wp-content/uploads/2023/11/nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf</a>"
+      ]
+   },
+   {
+      "name":"EAMT 2024",
+      "id":"eamt-2024",
+      "title":"EAMT 2024",
+      "description":"Conference of the European Association of Machine Translation",
+      "callsForPapersDeadline":"2024-03-08",
+      "location":{
+         "name":"Sheffield, England",
+         "type":"Place",
+         "eventAttendanceMode":"OfflineEventAttendanceMode"
+      },
+      "organizer":{
+         "type":"Organization",
+         "name":"European Association of Machine Translation",
+         "url":"https://eamt.org"
+      },
+      "startDate":"2024-06-24",
+      "endDate":"2024-06-27",
+      "futureTenseOpeningParagraph":"The 25th Annual Conference of the <strong>European Association of Machine Translation 2024</strong> <strong>(<a href='/eamt'>EAMT</a> 2024)</strong> will be hosted in Sheffield, England, from 24 June to 27 June, 2024. <br><br> EAMT 2024 will be jointly organised by EAMT, ZOO Digital and the University of Sheffield. <br><br>",
+      "links":[
+         "<a href='https://eamt2024.sheffield.ac.uk/home'>eamt2024.sheffield.ac.uk/home</a>"
+      ],
+      "importantDates":[
+         {
+            "name":"Deadline for paper submission",
+            "date":"8 March 2024"
+         },
+         {
+            "name":"Notification to paper authors",
+            "date":"8 April 2024"
+         },
+         {
+            "name":"Camera ready deadline",
+            "date":"22 April 2024"
+         },
+         {
+            "name":"Author Registration",
+            "date":"8 May 2024"
+         },
+         {
+            "name":"Conference",
+            "date":"24 - 27 June 2024"
+         },
+         {
+            "name":"Deadline for tutorial submission",
+            "date":"8 March 2024"
+         },
+         {
+            "name":"Notification of tutorial acceptance",
+            "date":"8 April 2024"
+         },
+         {
+            "name":"Tutorial slides, abstract, bibliography, any other materials",
+            "date":"15 May 2024"
+         },
+         {
+            "name":"Conference",
+            "date":"27 June 2024"
+         },
+         {
+            "name":"Deadline for workshop submission",
+            "date":"31 January 2024"
+         },
+         {
+            "name":"Notification for workshop submission",
+            "date":"on a rolling basis (no later than 28th February)"
+         },
+         {
+            "name":"Conference",
+            "date":"15 May 2024"
+         },
+         {
+            "name":"Conference",
+            "date":"27 June 2024"
+         },
+         {
+            "name":"Deadline for thesis submission",
+            "date":"8 February 2024"
+         },
+         {
+            "name":"Award notification",
+            "date":"8 March 2024 "
+         }
+      ]
+   },
+   {
+      "name": "Language AI Meetup",
+      "startDate": "2024-12-02",
+      "endDate": "2024-12-02",
+      "location":{
+         "name": "Zurich, Switzerland"
+      }
+   },
+   {
+      "name": "Language AI Meetup",
+      "startDate": "2024-09-16",
+      "endDate": "2024-09-16",
+      "location":{
+         "name": "Zurich, Switzerland"
+      }
+   },
+   {
+      "name": "Language AI Meetup",
+      "startDate": "2024-05-27",
+      "endDate": "2024-05-27",
+      "location":{
+         "name": "Zurich, Switzerland"
+      }
+   },
+   {
+      "name": "<a href='/meetup'>Machine translation meetup</a>",
+      "startDate": "2024-02-08",
+      "location":{
+         "name": "Online"
+      }
+   }
 ]
