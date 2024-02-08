@@ -138,7 +138,7 @@ multidaySchedule:
 results:
 - fullResults:
     title: YouTube
-    url: www.youtube.com
+    url: https://www.youtube.com/
   scoringTable:
   - language: ->English
     sentence: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
