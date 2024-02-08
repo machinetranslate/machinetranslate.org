@@ -25,6 +25,8 @@ futureTenseOpeningParagraph: The International Conference on Spoken Language Tra
 pastTenseOpeningParagraph: The nineteenth Machine Translation Summit 2023 (<strong>MTS
   2023</strong>) took place from 4 September to 8 September in Macau Special Administrative
   Region, China. MTS 2023 was organised by [AAMT](/aamt).
+links:
+- <a href='https://iwslt.org/2024/'>iwslt.org/2024/</a>
 importantDates:
 - name: Release of shared task training and developer data
   date: 15 January
@@ -76,6 +78,4 @@ seo:
     url: https://iwslt.org/2023/#organizers
 
 ---
-[iwslt.org/2024/](https://iwslt.org/2024/)
-
-*Last updated on 27 December 2023 fron https://iwslt.org/2024/*
+*Last updated on 27 December 2023 from https://iwslt.org/2024/*

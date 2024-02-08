@@ -118,6 +118,9 @@
       },
       "futureTenseOpeningParagraph":"The International Conference on Spoken Language Translation (<strong>IWSLT</strong>) is an annual scientific conference on spoken language translation.<br> <br> IWSLT 2024 will be co-located at ACL 2024 online and in Bangkok, Thailand from 15 to 16 August, 2024. <br><br> IWSLT 2024 will be a hybrid event.",
       "pastTenseOpeningParagraph":"The nineteenth Machine Translation Summit 2023 (<strong>MTS 2023</strong>) took place from 4 September to 8 September in Macau Special Administrative Region, China. MTS 2023 was organised by [AAMT](/aamt).",
+      "links": [
+         "<a href='https://iwslt.org/2024/'>iwslt.org/2024/</a>"
+      ],
       "importantDates":[
          {
             "name":"Release of shared task training and developer data",
@@ -196,7 +199,7 @@
       ],
       "links":[
          "<a href='https://nettt-conference.com/'>nettt-conference.com/</a>",
-         "<a href='https://nettt-conference.com/wp-content/uploads/2023/11/nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf</a>"
+         "<a href='https://nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf'>nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf</a>"
       ]
    },
    {

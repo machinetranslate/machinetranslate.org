@@ -32,7 +32,7 @@ summaries:
   be a distinctive event for discussing the latest developments and practices.
 links:
 - <a href='https://nettt-conference.com/'>nettt-conference.com/</a>
-- <a href='https://nettt-conference.com/wp-content/uploads/2023/11/nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf</a>
+- <a href='https://nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf'>nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf</a>
 seo:
   type: Event
   name: NeTTT
