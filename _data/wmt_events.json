@@ -1,5 +1,9 @@
 [
    {
+    "name": "WMT24",
+    "startDate": "2024-12-06"
+   },
+   {
      "name":"WMT Test",
      "id":"wmt-test",
      "description":"test descripiton",
