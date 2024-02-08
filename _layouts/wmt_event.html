@@ -59,11 +59,11 @@ parent: Events
 
 {% if page.sharedTasks %}
   <h2>Shared Tasks</h2>
-  {% for task in page.sharedTasks %}
-    <ul>
+  <ul>
+    {% for task in page.sharedTasks %}
       <li>{{ task }}</li>
+    {% endfor %}
     </ul>
-  {% endfor %}
 {% endif %}
 
 {% if page.generalMachineTranslation %}
