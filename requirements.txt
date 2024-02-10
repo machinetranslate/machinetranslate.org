@@ -1,2 +1,3 @@
 pyyaml
 unidecode
+jsonschema==4.20.0
