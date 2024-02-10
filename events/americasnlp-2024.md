@@ -9,23 +9,24 @@ endDate: '2024-06-21'
 name: AmericasNLP 2024
 id: americasnlp-2024
 description: Machine translation for indigenous languages of the Americas
-startDate: '2024-06-20'
+start_date: '2024-06-20'
+end_date: '2024-06-21'
 location:
   type: Place
   name: Mexico City, Mexico
-  eventAttendanceMode: OfflineEventAttendanceMode
+  event_attendance_mode: OfflineEventAttendanceMode
 organizer:
   type: Person
   url: http://turing.iimas.unam.mx/americasnlp/st.html
-futureTenseOpeningParagraph: The <strong>Fourth AmericasNLP Competition</strong> will
-  take place online in June, at NAACL 2024 in Mexico City. The competition focused
+future_tense_opening_paragraph: The <strong>Fourth AmericasNLP Competition</strong>
+  will take place online in June, at NAACL 2024 in Mexico City. The competition focused
   on creating machine translation systems for indigenous languages from the Americas.
-pastTenseOpeningParagraph: The <strong>Fourth AmericasNLP Competition</strong> took
-  place online in June, at NAACL 2024 in Mexico City. The competition focused on creating
-  machine translation systems for indigenous languages from the Americas.
+past_tense_opening_paragraph: The <strong>Fourth AmericasNLP Competition</strong>
+  took place online in June, at NAACL 2024 in Mexico City. The competition focused
+  on creating machine translation systems for indigenous languages from the Americas.
 links:
 - <a href='http://turing.iimas.unam.mx/americasnlp/2024_workshop.html'>turing.iimas.unam.mx/americasnlp/2024_workshop.html</a>
-sharedTasks:
+shared_tasks:
 - A machine translation shared task on truly low-resource languages.
 - A shared task on morphological adaptation to generate educational examples.
 speakers:
@@ -42,17 +43,12 @@ speakers:
   - Luis Chiruzzo
   - Robert Pugh
   - Katharina Kann
-importantDates:
-- name: Start of the anonymity period
-  date: 10 February
-- name: Submission deadline
-  date: 10 March
-- name: Notification of acceptance
-  date: 24 April
-- name: Camera ready papers
-  date: 24 April
-- name: Workshop
-  date: 20 or 21 June
+important_dates:
+  Start of the anonymity period: '2024-02-10'
+  Submission deadline: '2024-03-10'
+  Notification of acceptance: '2024-04-24'
+  Camera ready papers: '2024-04-24'
+  Workshop: '2024-06-20'
 seo:
   type: Event
   name: AmericasNLP 2024
@@ -71,4 +67,15 @@ seo:
     url: http://turing.iimas.unam.mx/americasnlp/st.html
 
 ---
+## Call for papers
+
+- Creation of datasets for natural language processing applications
+- Incorporation of external knowledge into neural systems
+- Linguistic typology and the use of typological features for natural language processing
+- Transfer learning, meta-learning, and active learning
+- Weakly supervised, semi-supervised, and unsupervised learning
+- Machine translation of low-resource languages
+- Morphology and phonology of low-resource languages
+- Natural language processing applications for Indigenous languages of the Americas 
+
 *Last updated from turing.iimas.unam.mx/americasnlp/2024_workshop.html on 8 January, 2024.*

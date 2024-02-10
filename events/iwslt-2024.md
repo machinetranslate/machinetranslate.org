@@ -9,39 +9,35 @@ endDate: '2024-08-16'
 name: IWSLT 2024
 id: iwslt-2024
 description: International Conference on Spoken Language Translation (IWSLT)
-callsForPapersDeadline: '2024-04-29'
-startDate: '2024-08-15'
+calls_for_papers_deadline: '2024-04-29'
+start_date: '2024-08-15'
+end_date: '2024-08-16'
 location:
   name: Bangkok, Thailand
   type: Place
-  eventAttendanceMode: MixedEventAttendanceMode
+  event_attendance_mode: MixedEventAttendanceMode
 organizer:
   type: Person
   url: https://iwslt.org/2023/#organizers
-futureTenseOpeningParagraph: The International Conference on Spoken Language Translation
+future_tense_opening_paragraph: The International Conference on Spoken Language Translation
   (<strong>IWSLT</strong>) is an annual scientific conference on spoken language translation.<br>
   <br> IWSLT 2024 will be co-located at ACL 2024 online and in Bangkok, Thailand from
   15 to 16 August, 2024. <br><br> IWSLT 2024 will be a hybrid event.
-pastTenseOpeningParagraph: The nineteenth Machine Translation Summit 2023 (<strong>MTS
-  2023</strong>) took place from 4 September to 8 September in Macau Special Administrative
-  Region, China. MTS 2023 was organised by [AAMT](/aamt).
+past_tense_opening_paragraph: The International Conference on Spoken Language Translation
+  (<strong>IWSLT</strong>) is an annual scientific conference on spoken language translation.<br>
+  <br> IWSLT 2024 was co-located at ACL 2024 online and in Bangkok, Thailand from
+  15 to 16 August, 2024. <br><br> IWSLT 2024 was a hybrid event.
 links:
 - <a href='https://iwslt.org/2024/'>iwslt.org/2024/</a>
-importantDates:
-- name: Release of shared task training and developer data
-  date: 15 January
-- name: Evaluation
-  date: 1 - 15 April
-- name: Paper submission
-  date: 29 April
-- name: Notification of acceptance
-  date: 4 June
-- name: Camera ready deadline
-  date: 24 June
-- name: Pre-recorded video due
-  date: 22 July
-- name: Conference
-  date: 15 - 16 August
+- 'This is from **markdown**: (iwslt.org/2024/)[https://iwslt.org/2024/]'
+important_dates:
+  Release of shared task training and developer data: '2024-01-15'
+  Evaluation: 1 - 15 April
+  Paper submission: '2024-04-29'
+  Notification of acceptance: '2024-06-04'
+  Camera ready deadline: '2024-06-24'
+  Pre-recorded video due: '2024-07-22'
+  Conference: 15 - 16 August
 speakers:
 - type: Organizers
   about:
@@ -52,7 +48,7 @@ speakers:
   - "Sebastian St\xFCker, KIT, Germany"
   - Elizabeth Salesky, JHU, United States
   - Atul Kr. Ojha, University of Galway, Ireland
-sharedTasks:
+shared_tasks:
 - <a href='https://iwslt.org/2024/s2s'>Speech-to-speech track</a>
 - <a href='https://iwslt.org/2024/simultaneous'>Simultaneous track</a>
 - <a href='https://iwslt.org/2024/subtitling'>Subtitling track</a>

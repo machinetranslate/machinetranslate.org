@@ -9,20 +9,20 @@ endDate: '2024-07-21'
 name: WMT Test
 id: wmt-test
 description: test descripiton
-startDate: '2024-07-21'
-callsForPapersDeadline: '2024-07-23'
+start_date: '2024-07-21'
+calls_for_papers_deadline: '2024-07-23'
 location:
   type: Offline
   name: Armenia, Yerevan
 organizer:
   type: Association
   name: HayArm
-futureTenseOpeningParagraph: 'This is future tense: Lorem Ipsum is simply dummy text
+future_tense_opening_paragraph: 'This is future tense: Lorem Ipsum is simply dummy
+  text of the printing and typesetting industry. Lorem Ipsum has been the industry''s
+  standard dummy text ever since the 1500s, when an unknown printer took a galley
+  of type and scrambled it to make a type specimen book.'
+past_tense_opening_paragraph: 'This is past tense: Lorem Ipsum is simply dummy text
   of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard
-  dummy text ever since the 1500s, when an unknown printer took a galley of type and
-  scrambled it to make a type specimen book.'
-pastTenseOpeningParagraph: 'This is past tense: Lorem Ipsum is simply dummy text of
-  the printing and typesetting industry. Lorem Ipsum has been the industry''s standard
   dummy text ever since the 1500s, when an unknown printer took a galley of type and
   scrambled it to make a type specimen book.'
 summaries:
@@ -35,7 +35,7 @@ links:
 - <a href='https://machinetranslate.org/'>https://machinetranslate.org/</a>
 - <a href='https://machinetranslate.org/'>https://machinetranslate.org/</a>
 - <a href='https://machinetranslate.org/'>https://machinetranslate.org/</a>
-importantDates:
+important_dates:
 - name: name
   date: date
 - name: name
@@ -48,13 +48,13 @@ importantDates:
   date: date
 - name: name
   date: date
-sharedTasks:
+shared_tasks:
 - task
 - task
 - task
 - task
 - task
-generalMachineTranslation:
+general_machine_translation:
 - title: Title
   description: In publishing and graphic design, Lorem ipsum is a placeholder text
     commonly used to demonstrate the visual form of a document or a typeface without
@@ -70,19 +70,19 @@ generalMachineTranslation:
     commonly used to demonstrate the visual form of a document or a typeface without
     relying on meaningful content. Lorem ipsum may be used as a placeholder before
     the final copy is available.
-languagePairs:
+language_pairs:
 - English - Czech
 - English - Russian
 - English - Armenian
 - English - Czech
 - English - Czech
-scientificPapers:
+scientific_papers:
 - topics:
   - first topic
   - sec topic
   - third topic
   - 4th topic
-- researchPapers:
+- research_papers:
   - In publishing and graphic design, Lorem ipsum is a placeholder text commonly used
     to demonstrate the visual form of a document or a typeface without relying on
     meaningful content. Lorem ipsum may be used as a placeholder before the final
@@ -95,69 +95,60 @@ scientificPapers:
     to demonstrate the visual form of a document or a typeface without relying on
     meaningful content. Lorem ipsum may be used as a placeholder before the final
     copy is available.
-- systemPapers:
+- system_papers:
   - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
   - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
   - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
   - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-paperSubmission:
+paper_submission:
 - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-posterFormat:
+poster_format:
 - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-multidaySchedule:
-- - time: 10:30 - 11:00
-    title: Some activity
-  - time: 11:0 - 11:30
-    title: Some activity
-  - time: 12:30 - 13:00
-    title: Some activity
-  - time: 14:30 - 15:00
-    title: Some activity
-  - time: 15:30 - 16:00
-    title: Some activity
-  - time: 16:50 - 17:25
-    title: Some activity
-- - time: 10:30 - 11:00
-    title: Some activity
-  - time: 11:0 - 11:30
-    title: Some activity
-  - time: 12:30 - 13:00
-    title: Some activity
-  - time: 14:30 - 15:00
-    title: Some activity
-  - time: 15:30 - 16:00
-    title: Some activity
-  - time: 16:50 - 17:25
-    title: Some activity
+multiday_schedule:
+- '10:30': Some activity
+  '11:00': Some activity
+  '11:30': Some activity
+  '12:00': Some activity
+  '12:30': Some activity
+- '10:30': Some activity
+  '11:00': Some activity
+  '11:30': Some activity
+  '12:00': Some activity
+  '12:30': Some activity
+- '10:30': Some activity
+  '11:00': Some activity
+  '11:30': Some activity
+  '12:00': Some activity
+  '12:30': Some activity
 results:
-- fullResults:
+- full_results:
     title: YouTube
     url: https://www.youtube.com/
-  scoringTable:
+  scoring_table:
   - language: ->English
     sentence: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     language_pair: English <-> Czech
-    System: System
-    Average_score: '56.7'
-    Average_z_score: '56.7'
+    system: System
+    average_score: '56.7'
+    average_z_score: '56.7'
   - language: Czech <-> English
     sentence: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     language_pair: English <-> Czech
-    System: System
-    Average_score: '567'
-    Average_z_score: '5678'
+    system: System
+    average_score: '567'
+    average_z_score: '5678'
   - language: English->
     sentence: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
     language_pair: English <-> Czech
-    System: System
-    Average_score: '123'
-    Average_z_score: '765'
+    system: System
+    average_score: '123'
+    average_z_score: '765'
 seo:
   type: Event
   name: WMT Test
