@@ -12,19 +12,19 @@
     "description":{
       "type":"string"
     },
-    "callsForPapersDeadline":{
+    "calls_for_papers_deadline":{
       "type":"string"
     },
-    "startDate":{
+    "start_date":{
       "type":"string"
     },
-    "endDate":{
+    "end_date":{
       "type":"string"
     },
-    "futureTenseOpeningParagraph":{
+    "future_tense_opening_paragraph":{
       "type":"string"
     },
-    "pastTenseOpeningParagraph":{
+    "past_tense_opening_paragraph":{
       "type":"string"
     },
     "title":{
@@ -49,10 +49,10 @@
         "name":{
           "type":"string"
         },
-        "eventAttendanceMode":{
+        "event_attendance_mode":{
           "type":"string"
         },
-        "optionalUrl":{
+        "url":{
           "type":"string"
         }
       },
@@ -67,7 +67,7 @@
         "name":{
           "type":"string"
         },
-        "optionalUrl":{
+        "url":{
           "type":"string"
         }
       },
@@ -80,7 +80,7 @@
       },
       "minItems":1
     },
-    "importantDates":{
+    "important_dates":{
       "type":"array",
       "items":{
         "type":"object",
@@ -95,14 +95,14 @@
       },
       "minItems":1
     },
-    "sharedTasks":{
+    "shared_tasks":{
       "type":"array",
       "items":{
         "type":"string"
       },
       "minItems":1
     },
-    "generalMachineTranslation":{
+    "general_machine_translation":{
       "type":"array",
       "items":{
         "type":"object",
@@ -117,14 +117,14 @@
       },
       "minItems":1
     },
-    "languagePairs":{
+    "language_pairs":{
       "type":"array",
       "items":{
         "type":"string"
       },
       "minItems":1
     },
-    "scientificPapers":{
+    "scientific_papers":{
       "type":"array",
       "items":{
         "type":"object",
@@ -135,13 +135,13 @@
               "type":"string"
             }
           },
-          "researchPapers":{
+          "research_papers":{
             "type":"array",
             "items":{
               "type":"string"
             }
           },
-          "systemPapers":{
+          "system_papers":{
             "type":"array",
             "items":{
               "type":"string"
@@ -151,50 +151,34 @@
       },
       "minItems":1
     },
-    "paperSubmission":{
+    "paper_submission":{
       "type":"array",
       "items":{
         "type":"string"
       },
       "minItems":1
     },
-    "posterFormat":{
+    "poster_format":{
       "type":"array",
       "items":{
         "type":"string"
       },
       "minItems":1
     },
-    "multidaySchedule":{
+    "multiday_schedule":{
       "type":"array",
-      "items":{
-        "type":"array",
         "items":{
           "type":"object",
-          "properties":{
-            "time":{
-              "type":"string"
-            },
-            "title":{
-              "type":"string"
-            }
+          "items":{
+            "type":"string"
           }
-        }
       },
       "minItems":1
     },
-    "oneDaySchedule":{
-      "type":"array",
+    "one_day_schedule":{
+      "type":"object",
       "items":{
-        "type":"object",
-        "properties":{
-          "time":{
-            "type":"string"
-          },
-          "title":{
-            "type":"string"
-          }
-        }
+        "type":"string"
       },
       "minItems":1
     },
@@ -203,7 +187,7 @@
       "items":{
         "type":"object",
         "properties":{
-          "fullResults":{
+          "full_results":{
             "type":"object",
             "properties":{
               "title":{
@@ -214,7 +198,7 @@
               }
             }
           },
-          "scoringTable":{
+          "scoring_table":{
             "type":"array",
             "items":{
               "type":"object",
@@ -228,13 +212,13 @@
                 "language_pair":{
                   "type":"string"
                 },
-                "System":{
+                "system":{
                   "type":"string"
                 },
-                "Average_score":{
+                "average_score":{
                   "type":"string"
                 },
-                "Average_z_score":{
+                "average_z_score":{
                   "type":"string"
                 }
               }
@@ -246,7 +230,7 @@
   },
   "required":[
     "name",
-    "startDate"
+    "start_date"
   ],
   "additionalItems":false,
   "additionalProperties":false

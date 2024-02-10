@@ -3,11 +3,11 @@
      "name": "Name of the event",
      "id": "The slug for the event: Don't provide 'id' if a dedicated page doesn't need to be created for the event",
      "description": "Description of the event",
-     "callsForPapersDeadline": "Date format: yyyy-mm-dd, If the event has a calls For Papers",
-     "startDate": "Date format: yyyy-mm-dd",
-     "endDate": "Date format: yyyy-mm-dd",
-     "futureTenseOpeningParagraph": "An opening paragraph in future tense about the event, when/where it's happening.",
-     "pastTenseOpeningParagraph": "An opening paragraph in past tense about the event, when/where it's happening.",
+     "calls_for_papers_deadline": "Date format: yyyy-mm-dd, If the event has a calls For Papers",
+     "start_date": "Date format: yyyy-mm-dd",
+     "end_date": "Date format: yyyy-mm-dd",
+     "future_tense_opening_paragraph": "An opening paragraph in future tense about the event, when/where it's happening.",
+     "past_tense_opening_paragraph": "An opening paragraph in past tense about the event, when/where it's happening.",
      "summaries": [
        "Summary about the event",
        "Summary about the event",
@@ -16,23 +16,21 @@
      "location": {
        "type": "Type of the location: Offline, hybrid, online, etc.",
        "name": "Country/City",
-       "eventAttendanceMode": "OfflineEventAttendanceMode/OnlineEventAttendanceMode/Hybrid",
-       "optionalUrl": "URL for the location where the event will happen"
+       "event_attendance_mode": "OfflineEventAttendanceMode/OnlineEventAttendanceMode/Hybrid/MixedEventAttendanceMode, etc.",
+       "url": "URL for the location where the event will happen"
      },
      "organizer": {
        "type": "Association/Organization/etc.",
        "name": "Name of the organizer",
-       "optionalUrl": "URL about the organizer"
+       "url": "URL about the organizer"
      },
      "links": [
        "Any additional links should be added here"
      ],
-     "importantDates": [
-       {
-         "name": "",
-         "date": ""
-       }
-     ],
+     "important_dates": {
+         "name": "date",
+         "name_2": "date"
+       },
      "speakers": [
        {
          "type": "Type of the speaker: Panellist/Invited/Organizer",
@@ -59,50 +57,43 @@
          "description": ""
        }
      ],
-     "sharedTasks": [
+     "shared_tasks": [
        "URLs should be given inside <a></a> tags: <a href='some_url'>output that will be displayed</a>",
        "",
        ""
      ],
-     "multidaySchedule": [ 
+     "multiday_schedule": [ 
       "Only given if the schedule is for more than one day",
-       [
          {
-           "time": "",
-           "title": ""
+           "start date": "title",
+           "start date_2": "title",
+           "start date_3": "title",
+           "start date_4": "title",
+           "start date_5": "title",
+           "start date_6": "title",
+           "start date_7": "title"
          },
          {
-           "time": "",
-           "title": ""
-         }
-       ],
-       [
-         {
-           "time": "",
-           "title": ""
-         },
-         {
-           "time": "",
-           "title": ""
-         },
-         {
-           "time": "",
-           "title": ""
-         }
-       ]
+          "start date": "title",
+          "start date_2": "title",
+          "start date_3": "title",
+          "start date_4": "title",
+          "start date_5": "title",
+          "start date_6": "title",
+          "start date_7": "title"
+        }
      ],
-     "oneDaySchedule": [
-      "Only given if the schedule is for one day only",
-       {
-         "time": "",
-         "title": ""
-       },
-       {
-         "time": "",
-         "title": ""
-       }
-     ],
-     "callsForPapers": [
+     "one_day_schedule":{
+        "Only given if the schedule is for one day only": "",
+        "start date": "title",
+        "start date_2": "title",
+        "start date_3": "title",
+        "start date_4": "title",
+        "start date_5": "title",
+        "start date_6": "title",
+        "start date_7": "title"
+      },
+     "calls_for_papers": [
        {
          "title": "",
          "topics": [

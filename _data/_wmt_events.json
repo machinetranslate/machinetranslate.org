@@ -3,22 +3,22 @@
     "name": "Name of the event",
     "id": "The slug for the event: Don't provide 'id' if a dedicated page doesn't need to be created for the event",
     "description": "Description of the event",
-    "callsForPapersDeadline": "Date format: yyyy-mm-dd, If the event has a calls For Papers",
-    "startDate": "Date format: yyyy-mm-dd",
-    "endDate": "Date format: yyyy-mm-dd",
+    "calls_for_papers_deadline": "Date format: yyyy-mm-dd, If the event has a calls For Papers",
+    "start_date": "Date format: yyyy-mm-dd",
+    "end_date": "Date format: yyyy-mm-dd",
     "location": {
       "type": "Type of the location: Offline, hybrid, online, etc.",
       "name": "Country/City",
-      "eventAttendanceMode": "OfflineEventAttendanceMode/OnlineEventAttendanceMode/Hybrid",
-      "optionalUrl": "URL for the location where the event will happen"
+      "event_attendance_mode": "OfflineEventAttendanceMode/OnlineEventAttendanceMode/Hybrid",
+      "url": "URL for the location where the event will happen"
     },
     "organizer": {
       "type": "Association/Organization/etc.",
       "name": "Name of the organizer",
-      "optionalUrl": "URL about the organizer"
+      "url": "URL about the organizer"
     },
-    "futureTenseOpeningParagraph": "An opening paragraph in future tense about the event, when/where it's happening.",
-    "pastTenseOpeningParagraph": "An opening paragraph in past tense about the event, when/where it's happening.",
+    "future_tense_opening_paragraph": "An opening paragraph in future tense about the event, when/where it's happening.",
+    "past_tense_opening_paragraph": "An opening paragraph in past tense about the event, when/where it's happening.",
     "summaries": [
       "Summary about the event",
       "Summary about the event",
@@ -28,7 +28,7 @@
       "Any additional links should be added here",
       ""
     ],
-    "importantDates": [
+    "important_dates": [
       {
         "name": "",
         "date": ""
@@ -38,12 +38,12 @@
         "date": ""
       }
     ],
-    "sharedTasks": [
+    "shared_tasks": [
       "URLs should be given inside <a></a> tags: <a href='some_url'>output that will be displayed</a>",
       "",
       ""
     ],
-    "generalMachineTranslation": [
+    "general_machine_translation": [
       {
         "title": "",
         "description": ""
@@ -65,13 +65,13 @@
         "description": ""
       }
     ],
-    "languagePairs": [
+    "language_pairs": [
       "Entry for each pair: English <-> Czech",
       "",
       "",
       ""
     ],
-    "scientificPapers": [
+    "scientific_papers": [
       {
         "topics": [
           "",
@@ -79,91 +79,84 @@
         ]
       },
       {
-        "researchPapers": [
+        "research_papers": [
           "",
           "",
           ""
         ]
       },
       {
-        "systemPapers": [
+        "system_papers": [
           "",
           "",
           ""
         ]
       }
     ],
-    "posterFormat": [
+    "poster_format": [
       "",
       "",
       ""
     ],
-    "paperSubmission": [
+    "paper_submission": [
       "",
       "",
       ""
     ],
-    "multidaySchedule": [
+    "multiday_schedule": [ 
       "Only given if the schedule is for more than one day",
-      [
-        {
-          "time": "",
-          "title": ""
-        },
-        {
-          "time": "",
-          "title": ""
+         {
+           "start date": "title",
+           "start date_2": "title",
+           "start date_3": "title",
+           "start date_4": "title",
+           "start date_5": "title",
+           "start date_6": "title",
+           "start date_7": "title"
+         },
+         {
+          "start date": "title",
+          "start date_2": "title",
+          "start date_3": "title",
+          "start date_4": "title",
+          "start date_5": "title",
+          "start date_6": "title",
+          "start date_7": "title"
         }
-      ],
-      [
-        {
-          "time": "",
-          "title": ""
-        },
-        {
-          "time": "",
-          "title": ""
-        },
-        {
-          "time": "",
-          "title": ""
-        }
-      ]
-    ],
-    "oneDaySchedule": [
-      "Only given if the schedule is for one day only",
-      {
-        "time": "",
-        "title": ""
+     ],
+     "one_day_schedule":{
+        "Only given if the schedule is for one day only": "",
+        "start date": "title",
+        "start date_2": "title",
+        "start date_3": "title",
+        "start date_4": "title",
+        "start date_5": "title",
+        "start date_6": "title",
+        "start date_7": "title"
       },
-      {
-        "time": "",
-        "title": ""
-      }
-    ],
     "results": [
       {
-        "fullResults": {
+        "full_results": {
           "title": "Title for where the full results can be found",
           "url": "URL to the full results."
         },
-        "scoringTable": [
+        "scoring_table": [
           "Both scores are not necessary to be given: Give those that have been used in evaluation unless both have been used",
           {
             "language": "",
             "sentence": "",
             "language_pair": "",
-            "System": "",
-            "Average_score": "",
-            "Average_z_score": ""
+            "system": "",
+            "average_score": "",
+            "average_z_score": ""
           },
           {
             "language": "",
             "sentence": "",
             "language_pair": "",
-            "System": "",
-            "Average_score": "",
-            "Average_z_score": ""
+            "system": "",
+            "average_score": "",
+            "average_z_score": ""
           }
         ]
       }

@@ -11,10 +11,10 @@ parent: Events
 {% assign current_date = site.time | date: "%Y-%m-%d" %}
 
 <p>
-  {% if current_date < page.endDate %}
-    {{ page.futureTenseOpeningParagraph }}
+  {% if current_date < page.end_date %}
+    {{ page.future_tense_opening_paragraph }}
   {% else %}
-    {{ page.pastTenseOpeningParagraph }}
+    {{ page.past_tense_opening_paragraph }}
   {% endif %}
 </p>
 
@@ -48,17 +48,17 @@ parent: Events
   </ul>
 {% endif %}
 
-{% if page.importantDates %}
+{% if page.important_dates %}
   <h2>Important Dates</h2>
   <table>
     <tr>
       <th>&nbsp;</th>
       <th>&nbsp;</th>
     </tr>
-  {% for entry in page.importantDates %}
+  {% for entry in page.important_dates %}
     <tr>
-      <td>{{ entry.date }}</td>
-      <td>{{ entry.name }}</td>
+      <td>{{ entry[0] }}</td>
+      <td>{{ entry[1] | date: "%d %B" }}</td>
     </tr>
   {% endfor %}
   </table>
@@ -87,18 +87,18 @@ parent: Events
   {% endfor %}
 {% endif %}
 
-{% if page.sharedTasks %}
+{% if page.shared_tasks %}
 <h2>Shared Tasks</h2>
   <ul>
-    {% for task in page.sharedTasks %}
+    {% for task in page.shared_tasks %}
       <li>{{ task }}</li>
     {% endfor %}
   </ul>
 {% endif %}
 
-{% if page.multidaySchedule %}
+{% if page.multiday_schedule %}
 <h2>Schedule</h2>
-  {% for schedule in page.multidaySchedule %}
+  {% for schedule in page.multiday_schedule %}
     <h3>Day {{ forloop.index }}</h3>
     <table>
       <tr>
@@ -107,17 +107,17 @@ parent: Events
       </tr>
       {% for d in schedule %}
         <tr>
-          <td>{{ d.time }}</td>
-          <td>{{ d.title }}</td>
+          <td>{{ d[0] }}</td>
+          <td>{{ d[1] }}</td>
         </tr>
       {% endfor %}
     </table>
   {% endfor %}
 {% endif %}
 
-{% if page.oneDaySchedule %}
+{% if page.one_day_schedule %}
 <h2>Schedule</h2>
-  {% for schedule in page.oneDaySchedule %}
+  {% for schedule in page.one_day_schedule %}
     <table>
       <tr>
         <th>&nbsp;</th>
@@ -125,21 +125,23 @@ parent: Events
       </tr>
       {% for d in schedule %}
         <tr>
-          <td>{{ d.time }}</td>
-          <td>{{ d.title }}</td>
+          <td>{{ d[0] }}</td>
+          <td>{{ d[1] }}</td>
         </tr>
       {% endfor %}
     </table>
   {% endfor %}
 {% endif %}
 
-{% if page.callsForPapers %}
+{% if page.calls_for_papers %}
 <h2>Calls For Papers</h2>
-  {% for cfp in page.callsForPapers %}
+  {% for cfp in page.calls_for_papers %}
     <h3>{{ cfp.title }}</h3>
     <ul>
       {% for topic in cfp.topics %}
-        <li>{{ topic }}</li>
+        <li>
+          {{ topic }}
+        </li>
       {% endfor %}
     </ul>
   {% endfor %}

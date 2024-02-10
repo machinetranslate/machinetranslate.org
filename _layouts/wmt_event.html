@@ -9,7 +9,7 @@ parent: Events
 
 {% assign current_date = site.time | date: "%Y-%m-%d" %}
 
-<p>{% if current_date < page.endDate %}{{ page.futureTenseOpeningParagraph }}{% else %}{{ page.pastTenseOpeningParagraph }}{% endif%}</p>
+<p>{% if current_date < page.end_date %}{{ page.future_tense_opening_paragraph }}{% else %}{{ page.past_tense_opening_paragraph }}{% endif %}</p>
 
 {% if page.summaries %}
   {% for summary in page.summaries %}
@@ -41,14 +41,14 @@ parent: Events
   </ul>
 {% endif %}
 
-{% if page.importantDates %}
+{% if page.important_dates %}
   <h2>Important Dates</h2>
     <table>
       <tr>
         <th>&nbsp;</th>
         <th>&nbsp;</th>
       </tr>
-  {% for entry in page.importantDates %}
+  {% for entry in page.important_dates %}
       <tr>
         <td>{{ entry.date }}</td>
         <td>{{ entry.name }}</td>
@@ -57,19 +57,21 @@ parent: Events
     </table>
 {% endif %}
 
-{% if page.sharedTasks %}
+{% if page.shared_tasks %}
   <h2>Shared Tasks</h2>
   <ul>
-    {% for task in page.sharedTasks %}
-      <li>{{ task }}</li>
+    {% for task in page.shared_tasks %}
+      <li>
+        {{ task }}
+      </li>
     {% endfor %}
     </ul>
 {% endif %}
 
-{% if page.generalMachineTranslation %}
+{% if page.general_machine_translation %}
   <h3>General Machine Translation</h3>
-  {% for entry in page.generalMachineTranslation %}
-    <ul>
+  {% for entry in page.general_machine_translation %}
+  <ul>
       <li>
         {{ entry.title }}
       </li>
@@ -80,71 +82,71 @@ parent: Events
   {% endfor %}
 {% endif %}
 
-{% if page.languagePairs %}
+{% if page.language_pairs %}
   <h4>Language Pairs</h4>
   <p>Confirmed language pairs:</p>
-  {% for pair in page.languagePairs %}
   <ul>
-    <li>
-      {{ pair }}
-    </li>
+    {% for pair in page.language_pairs %}
+      <li>
+        {{ pair }}
+      </li>
+    {% endfor %}
   </ul>
-  {% endfor %}
 {% endif %}
 
-{% if page.scientificPapers %}
+{% if page.scientific_papers %}
   <h2>Scientific papers</h2>
-  {% for entry in page.scientificPapers %}
+  {% for entry in page.scientific_papers %}
     {% if entry.topics %}
       <h3>Topics</h3>
-      {% for topic in entry.topics %}
       <ul>
+      {% for topic in entry.topics %}
         <li>
           {{ topic }}
         </li>
+      {% endfor %}
       </ul>
-      {% endfor %}
     {% endif %}
-    {% if entry.researchPapers %}
+    {% if entry.research_papers %}
       <h3>Research Papers</h3>
-      {% for i in entry.researchPapers %}
+      {% for i in entry.research_papers %}
         <blockquote>{{ i }}</blockquote>
       {% endfor %}
     {% endif %}
-    {% if entry.systemPapers %}
+    {% if entry.system_papers %}
       <h3>System Papers</h3>
-      {% for i in entry.systemPapers %}
+      {% for i in entry.system_papers %}
         <blockquote>{{ i }}</blockquote>
       {% endfor %}
     {% endif %}
   {% endfor %}
 {% endif %}
 
-{% if page.posterFormat %}
+{% if page.poster_format %}
   <h2>Poster Format</h2>
-  {% for entry in page.posterFormat %}
   <ul>
+  {% for entry in page.poster_format %}
     <li>
       {{ entry }}
     </li>
-  </ul>
   {% endfor %}
+  </ul>
 {% endif %}
 
-{% if page.paperSubmission %}
+{% if page.paper_submission %}
   <h2>Paper submission</h2>
-  {% for entry in page.paperSubmission %}
   <ul>
-    <li>
-      {{ entry }}
-    </li>
+    {% for entry in page.paper_submission %}
+      <li>
+        {{ entry }}
+      </li>
+    {% endfor %}
   </ul>
-  {% endfor %}
 {% endif %}
 
-{% if page.multidaySchedule %}
+{% if page.multiday_schedule %}
   <h2>Schedule</h2>
-  {% for schedule in page.multidaySchedule %}
+  {% for schedule in page.multiday_schedule %}
     <h3>Day {{ forloop.index }}</h3>
     <table>
       <tr>
@@ -153,17 +155,17 @@ parent: Events
       </tr>
       {% for d in schedule %}
         <tr>
-          <td>{{ d.time }}</td>
-          <td>{{ d.title }}</td>
+          <td>{{ d[0] -}}</td>
+          <td>{{ d[1] }}</td>
         </tr>
       {% endfor %}
     </table>
   {% endfor %}
 {% endif %}
 
-{% if page.oneDaySchedule %}
+{% if page.one_day_schedule %}
   <h2>Schedule</h2>
-  {% for schedule in page.oneDaySchedule %}
+  {% for schedule in page.one_day_schedule %}
     <table>
       <tr>
         <th>&nbsp;</th>
@@ -171,8 +173,8 @@ parent: Events
       </tr>
       {% for d in schedule %}
         <tr>
-          <td>{{ d.time }}</td>
-          <td>{{ d.title }}</td>
+          <td>{{ d[0] -}}</td>
+          <td>{{ d[1] }}</td>
         </tr>
       {% endfor %}
     </table>
@@ -183,20 +185,20 @@ parent: Events
   <h2>Results</h2>
   <h3>General Task</h3>
   {% for entry in page.results %}
-    <p>Full results of the shared task: <a href="{{ entry.fullResults.url }}">{{ entry.fullResults.title }}</a></p>
-    {% for score in entry.scoringTable %}
-      {% if score.Average_score and score.Average_z_score %}
+    <p>Full results of the shared task: <a href="{{ entry.full_results.url }}">{{ entry.full_results.title }}</a></p>
+    {% for score in entry.scoring_table %}
+      {% if score.average_score and score.average_z_score %}
         The winner systems were listed according to their <a href="/human-evaluation-metrics#average-score-and-average-z-score">average score and average z-score</a>.
-      {% elsif score.Average_score %}
+      {% elsif score.average_score %}
         The winner systems were listed according to their <a href="/human-evaluation-metrics#average-score-and-average-z-score">average score</a>.
-      {% elsif score.Average_z_score %}
+      {% elsif score.average_z_score %}
         The winner systems were listed according to their <a href="/human-evaluation-metrics#average-score-and-average-z-score">average z-score</a>.
       {% endif %}
       {% break %}
     {% endfor %}
 
-    {% if entry.scoringTable %}
-      {% for i in entry.scoringTable %}
+    {% if entry.scoring_table %}
+      {% for i in entry.scoring_table %}
         <h4>{{ i.language }}</h4>
         <p>{{ i.sentence }}</p>
           <table>
@@ -208,9 +210,9 @@ parent: Events
             </tr>
             <tr>
               <td>{{ i.language_pair }}</td>
-              <td>{{ i.System }}</td>
-              <td>{{ i.Average_score }}</td>
-              <td>{{ i.Average_z_score }}</td>
+              <td>{{ i.system }}</td>
+              <td>{{ i.average_score }}</td>
+              <td>{{ i.average_z_score }}</td>
             </tr>
           </table>
       {% endfor %}

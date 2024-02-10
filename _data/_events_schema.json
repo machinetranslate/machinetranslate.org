@@ -12,19 +12,19 @@
     "description":{
       "type":"string"
     },
-    "callsForPapersDeadline":{
+    "calls_for_papers_deadline":{
       "type":"string"
     },
-    "startDate":{
+    "start_date":{
       "type":"string"
     },
-    "endDate":{
+    "end_date":{
       "type":"string"
     },
-    "futureTenseOpeningParagraph":{
+    "future_tense_opening_paragraph":{
       "type":"string"
     },
-    "pastTenseOpeningParagraph":{
+    "past_tense_opening_paragraph":{
       "type":"string"
     },
     "title":{
@@ -49,10 +49,10 @@
         "name":{
           "type":"string"
         },
-        "eventAttendanceMode":{
+        "event_attendance_mode":{
           "type":"string"
         },
-        "optionalUrl":{
+        "url":{
           "type":"string"
         }
       },
@@ -67,7 +67,7 @@
         "name":{
           "type":"string"
         },
-        "optionalUrl":{
+        "url":{
           "type":"string"
         }
       },
@@ -80,18 +80,10 @@
       },
       "minItems":1
     },
-    "importantDates":{
-      "type":"array",
+    "important_dates":{
+      "type":"object",
       "items":{
-        "type":"object",
-        "properties":{
-          "name":{
-            "type":"string"
-          },
-          "date":{
-            "type":"string"
-          }
-        }
+        "type":"string"
       },
       "minItems":1
     },
@@ -128,47 +120,31 @@
       },
       "minItems":1
     },
-    "sharedTasks":{
+    "shared_tasks":{
       "type":"array",
       "items":{
         "type":"string"
       },
       "minItems":1
     },
-    "multidaySchedule":{
+    "multiday_schedule":{
       "type":"array",
-      "items":{
-        "type":"array",
         "items":{
           "type":"object",
-          "properties":{
-            "time":{
-              "type":"string"
-            },
-            "title":{
-              "type":"string"
-            }
+          "items":{
+            "type":"string"
           }
-        }
       },
       "minItems":1
     },
-    "oneDaySchedule":{
-      "type":"array",
+    "one_day_schedule":{
+      "type":"object",
       "items":{
-        "type":"object",
-        "properties":{
-          "time":{
-            "type":"string"
-          },
-          "title":{
-            "type":"string"
-          }
-        }
+        "type":"string"
       },
       "minItems":1
     },
-    "callsForPapers":{
+    "calls_for_papers":{
       "type":"array",
       "items":{
         "type":"object",
@@ -189,7 +165,7 @@
   },
   "required":[
     "name",
-    "startDate"
+    "start_date"
   ],
   "additionalItems":false,
   "additionalProperties":false
