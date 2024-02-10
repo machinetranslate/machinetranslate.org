@@ -28,16 +28,12 @@
       "Any additional links should be added here",
       ""
     ],
-    "important_dates": [
-      {
-        "name": "",
-        "date": ""
+    "important_dates":{
+        "name": "date",
+        "name_2": "date",
+        "name_3": "date",
+        "name_4": "date"
       },
-      {
-        "name": "",
-        "date": ""
-      }
-    ],
     "shared_tasks": [
       "URLs should be given inside <a></a> tags: <a href='some_url'>output that will be displayed</a>",
       "",

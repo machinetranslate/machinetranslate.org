@@ -81,18 +81,10 @@
       "minItems":1
     },
     "important_dates":{
-      "type":"array",
+      "type":"object",
       "items":{
-        "type":"object",
-        "properties":{
-          "name":{
-            "type":"string"
-          },
-          "date":{
-            "type":"string"
-          }
-        }
-      },
+        "type":"string"
+        },
       "minItems":1
     },
     "shared_tasks":{
