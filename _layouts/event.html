@@ -58,7 +58,7 @@ parent: Events
   {% for entry in page.important_dates %}
     <tr>
       <td>{{ entry[0] }}</td>
-      <td>{{ entry[1] | date: "%d %B" }}</td>
+      <td style="width: 100px;">{{ entry[1] | date: "%d %B" }}</td>
     </tr>
   {% endfor %}
   </table>
@@ -107,7 +107,7 @@ parent: Events
       </tr>
       {% for d in schedule %}
         <tr>
-          <td>{{ d[0] }}</td>
+          <td style="width: 100px;">{{ d[0] }}</td>
           <td>{{ d[1] }}</td>
         </tr>
       {% endfor %}

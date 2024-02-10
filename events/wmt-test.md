@@ -36,18 +36,10 @@ links:
 - <a href='https://machinetranslate.org/'>https://machinetranslate.org/</a>
 - <a href='https://machinetranslate.org/'>https://machinetranslate.org/</a>
 important_dates:
-- name: name
-  date: date
-- name: name
-  date: date
-- name: name
-  date: date
-- name: name
-  date: date
-- name: name
-  date: date
-- name: name
-  date: date
+  name: '2024-12-12'
+  name_2: '2024-11-11'
+  name_5: '2024-10-20'
+  name_6: '2024-09-01'
 shared_tasks:
 - task
 - task
