@@ -20,6 +20,6 @@ The EAMT was established in 1991 in Switzerland.
 
 ## Events
 
-- [EAMT 2023](/eamt2023)
-- [EAMT 2022](/eamt2022)
-- [EAMT 2020](/eamt2020)
+- [EAMT 2023](/eamt-2023)
+- [EAMT 2022](/eamt-2022)
+- [EAMT 2020](/eamt-2020)

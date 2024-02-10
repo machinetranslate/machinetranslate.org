@@ -11,8 +11,8 @@ community_search_exclude: true
 ### Events
 
 - ~~[WMT](/wmt)~~
-- ~~[EAMT](/eamt2022)~~
-- ~~[AMTA](/amta2022)~~
+- ~~[EAMT](/eamt-2022)~~
+- ~~[AMTA](/amta-2022)~~
 - ~~[MTSummit](/mtsummit2021)~~
 - ~~[Zurich Machine Translation Meetup](/zurich-9)~~
 - ~~[MTM](/mtm2019)~~
