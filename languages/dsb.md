@@ -18,7 +18,7 @@ supported_qe_apis:
   id: modelfront
   name: ModelFront
 seo:
-  name: Machine translation for None
+  name: Machine translation for dsb
   type: Language
 
 ---

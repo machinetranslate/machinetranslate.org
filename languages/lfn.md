@@ -15,7 +15,7 @@ supported_apis:
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for None
+  name: Machine translation for lfn
   type: Language
 
 ---

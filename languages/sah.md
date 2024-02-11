@@ -5,17 +5,17 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: <code>sop</code>
-description: Machine translation for <code>sop</code>
+title: <code>sah</code>
+description: Machine translation for <code>sah</code>
 codes:
-- sop
+- sah
 family: []
 supported_apis:
-- id: niutrans
-  name: Niutrans
+- id: yandex
+  name: Yandex Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for sop
+  name: Machine translation for sah
   type: Language
 
 ---

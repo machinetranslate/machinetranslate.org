@@ -13,7 +13,7 @@ family: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for None
+  name: Machine translation for crp
   type: Language
 
 ---

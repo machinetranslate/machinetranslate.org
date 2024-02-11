@@ -116,7 +116,7 @@ supported_languages:
   base_code: el
   name: Greek
   variant_name: null
-- slug: null
+- slug: emj
   code: emj
   normalized_code: emj
   base_code: emj
@@ -458,7 +458,7 @@ supported_languages:
   base_code: ru
   name: Russian
   variant_name: null
-- slug: null
+- slug: sah
   code: sah
   normalized_code: sah
   base_code: sah
@@ -470,7 +470,7 @@ supported_languages:
   base_code: si
   name: Sinhala
   variant_name: null
-- slug: null
+- slug: sjn
   code: sjn
   normalized_code: sjn
   base_code: sjn

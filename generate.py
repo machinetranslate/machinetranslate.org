@@ -427,6 +427,7 @@ for language in LANGUAGES:
     slug = code
     frontmatter['title'] = f'<code>{code}</code>'
     frontmatter['description'] = f'Machine translation for <code>{code}</code>'
+    frontmatter['seo']['name'] = f'Machine translation for {code}'
 
   filepath = f'languages/{ slug }.md'
 
