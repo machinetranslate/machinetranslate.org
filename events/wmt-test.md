@@ -37,13 +37,13 @@ important_dates:
   name_6: '2024-09-01'
 shared_tasks:
 - name: Some task
-  url: URL to the task
+  url: https://machinetranslate.org/
 - name: Some task
-  url: URL to the task
+  url: https://machinetranslate.org/
 - name: Some task
-  url: URL to the task
+  url: https://machinetranslate.org/
 - name: Some task
-  url: URL to the task
+  url: https://machinetranslate.org/
 general_machine_translation:
 - title: Title
   description: In publishing and graphic design, Lorem ipsum is a placeholder text
