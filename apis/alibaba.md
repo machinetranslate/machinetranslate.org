@@ -1230,7 +1230,7 @@ supported_languages:
   code: vo
   normalized_code: vo
   base_code: vo
-  name: "Volap\xFCk"
+  name: Volapük
   variant_name: null
 - slug: walloon
   code: wa

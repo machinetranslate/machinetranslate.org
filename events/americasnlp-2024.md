@@ -6,6 +6,12 @@ nav_order: 2024
 layout: event
 title: AmericasNLP 2024
 endDate: '2024-06-21'
+future_tense_opening_paragraph: The Machine translation for indigenous languages of
+  the Americas (<strong>AmericasNLP 2024</strong>) will take place in Mexico City,
+  Mexico from 20 to 21 June, 2024.
+past_tense_opening_paragraph: The Machine translation for indigenous languages of
+  the Americas (<strong>AmericasNLP 2024</strong>) took place in Mexico City, Mexico
+  from 20 to 21 June, 2024.
 name: AmericasNLP 2024
 id: americasnlp-2024
 description: Machine translation for indigenous languages of the Americas
@@ -18,24 +24,16 @@ location:
 organizer:
   type: Person
   url: http://turing.iimas.unam.mx/americasnlp/st.html
-future_tense_opening_paragraph: The <strong>Fourth AmericasNLP Competition</strong>
-  will take place online in June, at NAACL 2024 in Mexico City. The competition focused
-  on creating machine translation systems for indigenous languages from the Americas.
-past_tense_opening_paragraph: The <strong>Fourth AmericasNLP Competition</strong>
-  took place online in June, at NAACL 2024 in Mexico City. The competition focused
-  on creating machine translation systems for indigenous languages from the Americas.
 links:
-- <a href='http://turing.iimas.unam.mx/americasnlp/2024_workshop.html'>turing.iimas.unam.mx/americasnlp/2024_workshop.html</a>
+  turing.iimas.unam.mx/americasnlp/2024_workshop.html: http://turing.iimas.unam.mx/americasnlp/2024_workshop.html
 shared_tasks:
-- A machine translation shared task on truly low-resource languages.
-- A shared task on morphological adaptation to generate educational examples.
+- name: A machine translation shared task on truly low-resource languages.
+- name: A shared task on morphological adaptation to generate educational examples.
 speakers:
-- type: Keynote speakers
-  about:
+  Keynote speakers:
   - Graham Neubig
-  - "Jaime P\xE9rez Gonz\xE1lez"
-- type: Organisers
-  about:
+  - Jaime Pérez González
+  Organisers:
   - Manuel Mager
   - Abteen Ebrahimi
   - Shruti Rijhwani

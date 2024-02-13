@@ -6,6 +6,10 @@ nav_order: '2024'
 layout: wmt_event
 title: WMT Test
 endDate: '2024-07-21'
+future_tense_opening_paragraph: The test descripiton (<strong>WMT Test</strong>) will
+  take place in Armenia, Yerevan from 21 to 21 July, 2024.
+past_tense_opening_paragraph: The test descripiton (<strong>WMT Test</strong>) took
+  place in Armenia, Yerevan from 21 to 21 July, 2024.
 name: WMT Test
 id: wmt-test
 description: test descripiton
@@ -17,35 +21,29 @@ location:
 organizer:
   type: Association
   name: HayArm
-future_tense_opening_paragraph: 'This is future tense: Lorem Ipsum is simply dummy
-  text of the printing and typesetting industry. Lorem Ipsum has been the industry''s
-  standard dummy text ever since the 1500s, when an unknown printer took a galley
-  of type and scrambled it to make a type specimen book.'
-past_tense_opening_paragraph: 'This is past tense: Lorem Ipsum is simply dummy text
-  of the printing and typesetting industry. Lorem Ipsum has been the industry''s standard
-  dummy text ever since the 1500s, when an unknown printer took a galley of type and
-  scrambled it to make a type specimen book.'
-summaries:
+more_paragraphs:
 - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
   Ipsum has been the industry's standard dummy text ever since the 1500s, when an
   unknown printer took a galley of type and scrambled it to make a type specimen book.
 links:
-- <a href='https://machinetranslate.org/'>https://machinetranslate.org/</a>
-- <a href='https://machinetranslate.org/'>https://machinetranslate.org/</a>
-- <a href='https://machinetranslate.org/'>https://machinetranslate.org/</a>
-- <a href='https://machinetranslate.org/'>https://machinetranslate.org/</a>
-- <a href='https://machinetranslate.org/'>https://machinetranslate.org/</a>
+  Link 1: https://machinetranslate.org/
+  Link 2: https://machinetranslate.org/
+  Link 3: https://machinetranslate.org/
+  Link 4: https://machinetranslate.org/
 important_dates:
   name: '2024-12-12'
   name_2: '2024-11-11'
   name_5: '2024-10-20'
   name_6: '2024-09-01'
 shared_tasks:
-- task
-- task
-- task
-- task
-- task
+- name: Some task
+  url: URL to the task
+- name: Some task
+  url: URL to the task
+- name: Some task
+  url: URL to the task
+- name: Some task
+  url: URL to the task
 general_machine_translation:
 - title: Title
   description: In publishing and graphic design, Lorem ipsum is a placeholder text
@@ -123,21 +121,21 @@ results:
     title: YouTube
     url: https://www.youtube.com/
   scoring_table:
-  - language: ->English
+  - language: → English
     sentence: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    language_pair: English <-> Czech
+    language_pair: English ↔ Czech
     system: System
     average_score: '56.7'
     average_z_score: '56.7'
-  - language: Czech <-> English
+  - language: Czech ↔ English
     sentence: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    language_pair: English <-> Czech
+    language_pair: English ↔ Czech
     system: System
     average_score: '567'
     average_z_score: '5678'
-  - language: English->
+  - language: English →
     sentence: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    language_pair: English <-> Czech
+    language_pair: English ↔ Czech
     system: System
     average_score: '123'
     average_z_score: '765'

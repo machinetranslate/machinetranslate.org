@@ -17,10 +17,10 @@ codes:
 names:
 - Norwegian
 variant_names:
-- "Bokm\xE5l"
+- Bokmål
 - Nynorsk
-- "Riksm\xE5l"
-- "H\xF8gnorsk"
+- Riksmål
+- Høgnorsk
 family:
 - slug: germanic
   name: Germanic

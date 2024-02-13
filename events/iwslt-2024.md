@@ -6,6 +6,12 @@ nav_order: 2024
 layout: event
 title: IWSLT 2024
 endDate: '2024-08-16'
+future_tense_opening_paragraph: The International Conference on Spoken Language Translation
+  (IWSLT) (<strong>IWSLT 2024</strong>) will take place in Bangkok, Thailand from
+  15 to 16 August, 2024.
+past_tense_opening_paragraph: The International Conference on Spoken Language Translation
+  (IWSLT) (<strong>IWSLT 2024</strong>) took place in Bangkok, Thailand from 15 to
+  16 August, 2024.
 name: IWSLT 2024
 id: iwslt-2024
 description: International Conference on Spoken Language Translation (IWSLT)
@@ -19,17 +25,8 @@ location:
 organizer:
   type: Person
   url: https://iwslt.org/2023/#organizers
-future_tense_opening_paragraph: The International Conference on Spoken Language Translation
-  (<strong>IWSLT</strong>) is an annual scientific conference on spoken language translation.<br>
-  <br> IWSLT 2024 will be co-located at ACL 2024 online and in Bangkok, Thailand from
-  15 to 16 August, 2024. <br><br> IWSLT 2024 will be a hybrid event.
-past_tense_opening_paragraph: The International Conference on Spoken Language Translation
-  (<strong>IWSLT</strong>) is an annual scientific conference on spoken language translation.<br>
-  <br> IWSLT 2024 was co-located at ACL 2024 online and in Bangkok, Thailand from
-  15 to 16 August, 2024. <br><br> IWSLT 2024 was a hybrid event.
 links:
-- <a href='https://iwslt.org/2024/'>iwslt.org/2024/</a>
-- 'This is from **markdown**: (iwslt.org/2024/)[https://iwslt.org/2024/]'
+  iwslt.org/2024/: https://iwslt.org/2024/
 important_dates:
   Release of shared task training and developer data: '2024-01-15'
   Evaluation: 1 - 15 April
@@ -39,23 +36,29 @@ important_dates:
   Pre-recorded video due: '2024-07-22'
   Conference: 15 - 16 August
 speakers:
-- type: Organizers
-  about:
+  Organizers:
   - Marine Carpuat, University of Maryland, United States
   - Marcello Federico, AWS AI Labs, United States
   - Alex Waibel, CMU, United States
   - Jan Niehues, KIT, Germany
-  - "Sebastian St\xFCker, KIT, Germany"
+  - Sebastian Stüker, KIT, Germany
   - Elizabeth Salesky, JHU, United States
   - Atul Kr. Ojha, University of Galway, Ireland
 shared_tasks:
-- <a href='https://iwslt.org/2024/s2s'>Speech-to-speech track</a>
-- <a href='https://iwslt.org/2024/simultaneous'>Simultaneous track</a>
-- <a href='https://iwslt.org/2024/subtitling'>Subtitling track</a>
-- <a href='https://iwslt.org/2024/offline'>Offline track</a>
-- <a href='https://iwslt.org/2024/dubbing'>Dubbing track</a>
-- <a href='https://iwslt.org/2024/low-resource'>Low-resource track</a>
-- <a href='https://iwslt.org/2024/indic'>Indic track</a>
+- name: Speech-to-speech track
+  url: https://iwslt.org/2024/s2s
+- name: Simultaneous track
+  url: https://iwslt.org/2024/simultaneous
+- name: Subtitling track
+  url: https://iwslt.org/2024/subtitling
+- name: Offline track
+  url: https://iwslt.org/2024/offline
+- name: Dubbing track
+  url: https://iwslt.org/2024/dubbing
+- name: Low-resource track
+  url: https://iwslt.org/2024/low-resource
+- name: Indic track
+  url: https://iwslt.org/2024/indic
 seo:
   type: Event
   name: IWSLT 2024

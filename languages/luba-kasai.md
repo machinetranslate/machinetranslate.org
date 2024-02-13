@@ -11,8 +11,8 @@ codes:
 - lua
 names:
 - Luba-Kasai
-- "Cilub\xE0"
-- "Tshilub\xE0"
+- Cilubà
+- Tshilubà
 - Luba-Lulua
 family:
 - slug: bantu

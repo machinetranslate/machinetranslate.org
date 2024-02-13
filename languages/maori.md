@@ -13,8 +13,8 @@ codes:
 - mao
 names:
 - Maori
-- "M\u0101ori"
-- "Te Reo M\u0101ori"
+- Māori
+- Te Reo Māori
 family:
 - slug: austronesian
   name: Austronesian

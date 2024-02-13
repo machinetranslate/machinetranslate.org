@@ -11,11 +11,11 @@ codes:
 - mos
 names:
 - Moore
-- "Moor\xE9"
+- Mooré
 - Mole
 - Moose
 - More
-- "Mor\xE9"
+- Moré
 - Moshi
 - Mossi
 family:

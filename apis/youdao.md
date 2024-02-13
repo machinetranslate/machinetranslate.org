@@ -9,9 +9,7 @@ id: youdao
 parent: APIs
 urls:
 - https://ai.youdao.com/
-- "https://ai.youdao.com/DOCSIRMA/html/\u81EA\u7136\u8BED\u8A00\u7FFB\u8BD1/API\u6587\
-  \u6863/\u6587\u672C\u7FFB\u8BD1\u670D\u52A1/\u6587\u672C\u7FFB\u8BD1\u670D\u52A1\
-  -API\u6587\u6863.html"
+- https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html
 privacy_url: null
 self_serve: true
 customisation: []

@@ -6,6 +6,10 @@ nav_order: 2024
 layout: event
 title: NeTTT
 endDate: '2024-07-06'
+future_tense_opening_paragraph: The New Trends in Translation and Technology (<strong>NeTTT</strong>)
+  will take place in Varna, Bulgaria from 03 to 06 July, 2024.
+past_tense_opening_paragraph: The New Trends in Translation and Technology (<strong>NeTTT</strong>)
+  took place in Varna, Bulgaria from 03 to 06 July, 2024.
 name: NeTTT
 id: nettt
 description: New Trends in Translation and Technology
@@ -20,13 +24,7 @@ organizer:
   type: Organization
   name: NeTTT
   url: http://machinetranslate.org/nettt2022.md#organisers
-future_tense_opening_paragraph: The second New Trends in Translation and Technology
-  (<strong>NeTTT</strong>) conference will take place in Varna, Bulgaria, from 3 July
-  to 6 July, 2024.
-past_tense_opening_paragraph: The second New Trends in Translation and Technology
-  (<strong>NeTTT</strong>) conference  place in Varna, Bulgaria, from 3 July to 6
-  July, 2024.
-summaries:
+more_paragraphs:
 - The objective of the conference is (i) to bridge the gap between academia and industry
   in the field of translation and interpreting by bringing together academics in linguistics,
   translation studies, machine translation and natural language processing, developers,
@@ -34,8 +32,8 @@ summaries:
   in different aspects of technology for translation and interpreting, and (ii) to
   be a distinctive event for discussing the latest developments and practices.
 links:
-- <a href='https://nettt-conference.com/'>nettt-conference.com/</a>
-- <a href='https://nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf'>nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf</a>
+  nettt-conference.com/: https://nettt-conference.com/
+  nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf: https://nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf
 seo:
   type: Event
   name: NeTTT
