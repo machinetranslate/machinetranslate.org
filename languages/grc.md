@@ -15,7 +15,7 @@ supported_apis:
   name: Baidu Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for grc
+  name: Machine translation for <code>grc</code>
   type: Language
 
 ---

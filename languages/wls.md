@@ -15,7 +15,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for wls
+  name: Machine translation for <code>wls</code>
   type: Language
 
 ---

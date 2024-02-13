@@ -20,7 +20,7 @@ supported_qe_apis:
   id: modelfront
   name: ModelFront
 seo:
-  name: Machine translation for nds
+  name: Machine translation for <code>nds</code>
   type: Language
 
 ---

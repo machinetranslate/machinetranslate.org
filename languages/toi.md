@@ -15,7 +15,7 @@ supported_apis:
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for toi
+  name: Machine translation for <code>toi</code>
   type: Language
 
 ---

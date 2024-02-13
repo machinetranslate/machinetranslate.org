@@ -17,7 +17,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for quc
+  name: Machine translation for <code>quc</code>
   type: Language
 
 ---

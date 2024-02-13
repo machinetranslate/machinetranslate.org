@@ -15,7 +15,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for rmn
+  name: Machine translation for <code>rmn</code>
   type: Language
 
 ---

@@ -15,7 +15,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for cjp
+  name: Machine translation for <code>cjp</code>
   type: Language
 
 ---

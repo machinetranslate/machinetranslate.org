@@ -15,7 +15,7 @@ supported_apis:
   name: Yandex Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for emj
+  name: Machine translation for <code>emj</code>
   type: Language
 
 ---

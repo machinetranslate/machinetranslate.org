@@ -18,7 +18,7 @@ supported_qe_apis:
   id: modelfront
   name: ModelFront
 seo:
-  name: Machine translation for dsb
+  name: Machine translation for <code>dsb</code>
   type: Language
 
 ---

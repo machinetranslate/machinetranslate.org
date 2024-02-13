@@ -15,7 +15,7 @@ supported_apis:
   name: TexTra
 supported_qe_apis: []
 seo:
-  name: Machine translation for rao
+  name: Machine translation for <code>rao</code>
   type: Language
 
 ---

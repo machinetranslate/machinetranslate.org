@@ -15,7 +15,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for gur
+  name: Machine translation for <code>gur</code>
   type: Language
 
 ---

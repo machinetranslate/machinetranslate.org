@@ -13,7 +13,7 @@ family: []
 supported_apis: []
 supported_qe_apis: []
 seo:
-  name: Machine translation for crp
+  name: Machine translation for <code>crp</code>
   type: Language
 
 ---

@@ -17,7 +17,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for tvl
+  name: Machine translation for <code>tvl</code>
   type: Language
 
 ---

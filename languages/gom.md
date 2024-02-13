@@ -15,7 +15,7 @@ supported_apis:
   name: Google Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for gom
+  name: Machine translation for <code>gom</code>
   type: Language
 
 ---

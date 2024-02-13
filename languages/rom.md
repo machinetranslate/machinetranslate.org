@@ -17,7 +17,7 @@ supported_apis:
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for rom
+  name: Machine translation for <code>rom</code>
   type: Language
 
 ---

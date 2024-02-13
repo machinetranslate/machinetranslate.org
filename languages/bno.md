@@ -15,7 +15,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for bno
+  name: Machine translation for <code>bno</code>
   type: Language
 
 ---

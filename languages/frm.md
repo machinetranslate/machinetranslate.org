@@ -15,7 +15,7 @@ supported_apis:
   name: Baidu Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for frm
+  name: Machine translation for <code>frm</code>
   type: Language
 
 ---

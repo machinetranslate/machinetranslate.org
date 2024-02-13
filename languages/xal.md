@@ -15,7 +15,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for xal
+  name: Machine translation for <code>xal</code>
   type: Language
 
 ---

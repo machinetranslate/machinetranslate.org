@@ -15,7 +15,7 @@ supported_apis:
   name: Yandex Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for sah
+  name: Machine translation for <code>sah</code>
   type: Language
 
 ---

@@ -17,7 +17,7 @@ supported_apis:
   name: Google Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for doi
+  name: Machine translation for <code>doi</code>
   type: Language
 
 ---

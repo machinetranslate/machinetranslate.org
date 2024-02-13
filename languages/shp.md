@@ -15,7 +15,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for shp
+  name: Machine translation for <code>shp</code>
   type: Language
 
 ---

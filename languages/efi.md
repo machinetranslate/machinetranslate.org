@@ -15,7 +15,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for efi
+  name: Machine translation for <code>efi</code>
   type: Language
 
 ---

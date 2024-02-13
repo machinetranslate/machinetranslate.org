@@ -15,7 +15,7 @@ supported_apis:
   name: Baidu Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for nap
+  name: Machine translation for <code>nap</code>
   type: Language
 
 ---

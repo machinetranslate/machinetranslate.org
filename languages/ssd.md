@@ -15,7 +15,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for ssd
+  name: Machine translation for <code>ssd</code>
   type: Language
 
 ---

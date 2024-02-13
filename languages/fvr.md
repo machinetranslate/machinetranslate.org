@@ -15,7 +15,7 @@ supported_apis:
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for fvr
+  name: Machine translation for <code>fvr</code>
   type: Language
 
 ---

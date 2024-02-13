@@ -17,7 +17,7 @@ supported_apis:
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for inh
+  name: Machine translation for <code>inh</code>
   type: Language
 
 ---

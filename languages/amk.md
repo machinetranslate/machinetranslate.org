@@ -15,7 +15,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for amk
+  name: Machine translation for <code>amk</code>
   type: Language
 
 ---

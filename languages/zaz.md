@@ -15,7 +15,7 @@ supported_apis:
   name: Baidu Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for zaz
+  name: Machine translation for <code>zaz</code>
   type: Language
 
 ---

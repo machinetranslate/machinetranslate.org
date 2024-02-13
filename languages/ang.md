@@ -15,7 +15,7 @@ supported_apis:
   name: Baidu Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for ang
+  name: Machine translation for <code>ang</code>
   type: Language
 
 ---

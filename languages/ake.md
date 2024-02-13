@@ -15,7 +15,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for ake
+  name: Machine translation for <code>ake</code>
   type: Language
 
 ---

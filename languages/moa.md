@@ -15,7 +15,7 @@ supported_apis:
   name: TexTra
 supported_qe_apis: []
 seo:
-  name: Machine translation for moa
+  name: Machine translation for <code>moa</code>
   type: Language
 
 ---

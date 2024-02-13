@@ -15,7 +15,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for srm
+  name: Machine translation for <code>srm</code>
   type: Language
 
 ---

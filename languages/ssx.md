@@ -15,7 +15,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for ssx
+  name: Machine translation for <code>ssx</code>
   type: Language
 
 ---

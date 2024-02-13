@@ -15,7 +15,7 @@ supported_apis:
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for cbk
+  name: Machine translation for <code>cbk</code>
   type: Language
 
 ---

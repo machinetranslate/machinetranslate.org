@@ -17,7 +17,7 @@ supported_apis:
   name: Baidu Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for kok
+  name: Machine translation for <code>kok</code>
   type: Language
 
 ---

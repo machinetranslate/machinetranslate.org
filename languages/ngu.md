@@ -15,7 +15,7 @@ supported_apis:
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for ngu
+  name: Machine translation for <code>ngu</code>
   type: Language
 
 ---
