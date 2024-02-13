@@ -21,19 +21,13 @@
     "end_date":{
       "type":"string"
     },
-    "future_tense_opening_paragraph":{
-      "type":"string"
-    },
-    "past_tense_opening_paragraph":{
-      "type":"string"
-    },
     "title":{
       "type":"string"
     },
     "date":{
       "type":"string"
     },
-    "summaries":{
+    "more_paragraphs":{
       "type":"array",
       "items":{
         "type":"string"
@@ -74,7 +68,7 @@
       "minItems":1
     },
     "links":{
-      "type":"array",
+      "type":"object",
       "items":{
         "type":"string"
       },
@@ -90,7 +84,15 @@
     "shared_tasks":{
       "type":"array",
       "items":{
-        "type":"string"
+        "type":"object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
       },
       "minItems":1
     },

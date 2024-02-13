@@ -17,17 +17,17 @@
       "name": "Name of the organizer",
       "url": "URL about the organizer"
     },
-    "future_tense_opening_paragraph": "An opening paragraph in future tense about the event, when/where it's happening.",
-    "past_tense_opening_paragraph": "An opening paragraph in past tense about the event, when/where it's happening.",
-    "summaries": [
+    "more_paragraphs": [
       "Summary about the event",
       "Summary about the event",
       "Summary about the event"
     ],
-    "links": [
-      "Any additional links should be added here",
-      ""
-    ],
+    "links": {
+      "Any additional links should be added here like the example below": "",
+       "name": "URL",
+       "name_2": "URL",
+       "name_3": "URL"
+     },
     "important_dates":{
         "name": "date",
         "name_2": "date",
@@ -35,9 +35,14 @@
         "name_4": "date"
       },
     "shared_tasks": [
-      "URLs should be given inside <a></a> tags: <a href='some_url'>output that will be displayed</a>",
-      "",
-      ""
+      {
+        "name": "The name of the task",
+        "url": "The URL to the task"
+      },
+      {
+        "name": "The name of the task",
+        "url": "The URL to the task"
+      }
     ],
     "general_machine_translation": [
       {

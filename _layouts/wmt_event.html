@@ -7,15 +7,28 @@ parent: Events
 <h2>{{ page.description }}</h2>
 <hr />
 
-{% assign current_date = site.time | date: "%Y-%m-%d" %}
+<p id="openingParagraph"></p>
 
-<p>{% if current_date < page.end_date %}{{ page.future_tense_opening_paragraph }}{% else %}{{ page.past_tense_opening_paragraph }}{% endif %}</p>
+<script>
+  var currentDate = new Date().toISOString().slice(0,10);
+  var endDate = "{{ page.end_date }}";
+  var futureOpeningParagraph = "{{ page.future_tense_opening_paragraph }}";
+  var pastOpeningParagraph = "{{ page.past_tense_opening_paragraph }}";
+  var openingParagraphElement = document.getElementById('openingParagraph');
 
-{% if page.summaries %}
-  {% for summary in page.summaries %}
+  if (currentDate < endDate) {
+    openingParagraphElement.innerHTML = futureOpeningParagraph;
+  } else {
+    openingParagraphElement.innerHTML = pastOpeningParagraph;
+  }
+  openingParagraphElement.innerHTML = openingParagraphContent;
+</script>
+
+{% if page.more_paragraphs %}
+  {% for paragraph in page.more_paragraphs %}
     <blockquote>
       <p>
-        {{ summary }}
+        {{ paragraph }}
       </p>
     </blockquote>
   {% endfor %}
@@ -34,9 +47,9 @@ parent: Events
   <h3>Links</h3>
   <ul>
     {% for link in page.links %}
-      <li>
-        {{ link }}
-      </li>
+    <li>
+      <a href="{{ link[1] }}">{{ link[0] }}</a>
+    </li>
     {% endfor %}
   </ul>
 {% endif %}
@@ -58,14 +71,20 @@ parent: Events
 {% endif %}
 
 {% if page.shared_tasks %}
-  <h2>Shared Tasks</h2>
+<h2>Shared Tasks</h2>
   <ul>
     {% for task in page.shared_tasks %}
-      <li>
-        {{ task }}
-      </li>
+      {% if task.url %}
+        <li>
+          <a href="{{ task.url }}">{{ task.name }}</a>
+        </li>
+      {% else %}
+        <li>
+          {{ task.name }}
+        </li>
+      {% endif %}
     {% endfor %}
-    </ul>
+  </ul>
 {% endif %}
 
 {% if page.general_machine_translation %}

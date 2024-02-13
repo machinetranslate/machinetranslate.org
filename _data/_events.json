@@ -6,9 +6,7 @@
      "calls_for_papers_deadline": "Date format: yyyy-mm-dd, If the event has a calls For Papers",
      "start_date": "Date format: yyyy-mm-dd",
      "end_date": "Date format: yyyy-mm-dd",
-     "future_tense_opening_paragraph": "An opening paragraph in future tense about the event, when/where it's happening.",
-     "past_tense_opening_paragraph": "An opening paragraph in past tense about the event, when/where it's happening.",
-     "summaries": [
+     "more_paragraphs": [
        "Summary about the event",
        "Summary about the event",
        "Summary about the event"
@@ -24,9 +22,12 @@
        "name": "Name of the organizer",
        "url": "URL about the organizer"
      },
-     "links": [
-       "Any additional links should be added here"
-     ],
+     "links": {
+      "Any additional links should be added here like the example below": "",
+       "name": "URL",
+       "name_2": "URL",
+       "name_3": "URL"
+     },
      "important_dates": {
          "name": "date",
          "name_2": "date"
@@ -57,11 +58,12 @@
          "description": ""
        }
      ],
-     "shared_tasks": [
-       "URLs should be given inside <a></a> tags: <a href='some_url'>output that will be displayed</a>",
-       "",
-       ""
-     ],
+     "shared_tasks": {
+        "name": "url",
+        "name_2": "url",
+        "name_3": "url",
+        "name_4": "url"
+     },
      "multiday_schedule": [ 
       "Only given if the schedule is for more than one day",
          {

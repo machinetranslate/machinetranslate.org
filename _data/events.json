@@ -15,8 +15,6 @@
          "name":"Association for Machine Translation in the Americas",
          "url":"https://amtaweb.org"
       },
-      "future_tense_opening_paragraph": "The sixteenth Biennial Conference of the Association for Machine Translation in the Americas (<strong><a href='/amta'>AMTA</a> 2024</strong>) will be hosted in Chicago, Illinois from 30 September to 2 October, 2024. <br><br> Workshops and tutorials will take place earlier, mid-September. The date is yet to be announced.",
-      "past_tense_opening_paragraph": "The sixteenth Biennial Conference of the Association for Machine Translation in the Americas (<strong><a href='/amta'>AMTA</a> 2024</strong>) was hosted in Chicago, Illinois from 30 September to 2 October, 2024.",
       "important_dates":
          {
             "Submission deadline": "2024-06-06",
@@ -39,36 +37,25 @@
          "type":"Person",
          "url":"http://turing.iimas.unam.mx/americasnlp/st.html"
       },
-      "future_tense_opening_paragraph": "The <strong>Fourth AmericasNLP Competition</strong> will take place online in June, at NAACL 2024 in Mexico City. The competition focused on creating machine translation systems for indigenous languages from the Americas.",
-      "past_tense_opening_paragraph": "The <strong>Fourth AmericasNLP Competition</strong> took place online in June, at NAACL 2024 in Mexico City. The competition focused on creating machine translation systems for indigenous languages from the Americas.",
-      "links": [
-         "<a href='http://turing.iimas.unam.mx/americasnlp/2024_workshop.html'>turing.iimas.unam.mx/americasnlp/2024_workshop.html</a>"
-      ],
+      "links": {
+         "turing.iimas.unam.mx/americasnlp/2024_workshop.html": "http://turing.iimas.unam.mx/americasnlp/2024_workshop.html"
+      },
       "shared_tasks": [
-         "A machine translation shared task on truly low-resource languages.",
-         "A shared task on morphological adaptation to generate educational examples."
-      ],
-      "speakers": [
          {
-            "type": "Keynote speakers",
-            "about": [
-               "Graham Neubig",
-               "Jaime Pérez González"
-            ]
+         "name": "A machine translation shared task on truly low-resource languages."
          },
          {
-            "type": "Organisers",
-            "about": [
-               "Manuel Mager",
-               "Abteen Ebrahimi",
-               "Shruti Rijhwani",
-               "Arturo Oncevay",
-               "Luis Chiruzzo",
-               "Robert Pugh",
-               "Katharina Kann"
-            ]
+         "name": "A shared task on morphological adaptation to generate educational examples."
          }
       ],
+      "speakers": {
+         "Keynote speakers": [
+            "Graham Neubig", "Jaime Pérez González"
+         ],
+         "Organisers": [
+            "Manuel Mager", "Abteen Ebrahimi", "Shruti Rijhwani", "Arturo Oncevay", "Luis Chiruzzo", "Robert Pugh", "Katharina Kann"
+         ]
+      },
       "important_dates": 
          {
             "Start of the anonymity period": "2024-02-10",
@@ -94,12 +81,9 @@
          "type":"Person",
          "url":"https://iwslt.org/2023/#organizers"
       },
-      "future_tense_opening_paragraph":"The International Conference on Spoken Language Translation (<strong>IWSLT</strong>) is an annual scientific conference on spoken language translation.<br> <br> IWSLT 2024 will be co-located at ACL 2024 online and in Bangkok, Thailand from 15 to 16 August, 2024. <br><br> IWSLT 2024 will be a hybrid event.",
-      "past_tense_opening_paragraph":"The International Conference on Spoken Language Translation (<strong>IWSLT</strong>) is an annual scientific conference on spoken language translation.<br> <br> IWSLT 2024 was co-located at ACL 2024 online and in Bangkok, Thailand from 15 to 16 August, 2024. <br><br> IWSLT 2024 was a hybrid event.",
-      "links": [
-         "<a href='https://iwslt.org/2024/'>iwslt.org/2024/</a>",
-         "This is from **markdown**: (iwslt.org/2024/)[https://iwslt.org/2024/]"
-      ],
+      "links": {
+         "iwslt.org/2024/": "https://iwslt.org/2024/"
+      },
       "important_dates":
          {
             "Release of shared task training and developer data":"2024-01-15",
@@ -110,10 +94,9 @@
             "Pre-recorded video due":"2024-07-22",
             "Conference":"15 - 16 August"
          },
-      "speakers":[
+      "speakers":
          {
-            "type":"Organizers",
-            "about":[
+            "Organizers": [
                "Marine Carpuat, University of Maryland, United States",
                "Marcello Federico, AWS AI Labs, United States",
                "Alex Waibel, CMU, United States",
@@ -122,17 +105,37 @@
                "Elizabeth Salesky, JHU, United States",
                "Atul Kr. Ojha, University of Galway, Ireland"
             ]
-         }
-      ],
+         },
       "shared_tasks":[
-         "<a href='https://iwslt.org/2024/s2s'>Speech-to-speech track</a>",
-         "<a href='https://iwslt.org/2024/simultaneous'>Simultaneous track</a>",
-         "<a href='https://iwslt.org/2024/subtitling'>Subtitling track</a>",
-         "<a href='https://iwslt.org/2024/offline'>Offline track</a>",
-         "<a href='https://iwslt.org/2024/dubbing'>Dubbing track</a>",
-         "<a href='https://iwslt.org/2024/low-resource'>Low-resource track</a>",
-         "<a href='https://iwslt.org/2024/indic'>Indic track</a>"
-      ]
+         {
+         "name": "Speech-to-speech track",
+         "url": "https://iwslt.org/2024/s2s"
+         },
+         {
+         "name": "Simultaneous track",
+         "url": "https://iwslt.org/2024/simultaneous"
+         },
+         {
+         "name": "Subtitling track",
+         "url": "https://iwslt.org/2024/subtitling"
+         },
+         {
+         "name": "Offline track",
+         "url": "https://iwslt.org/2024/offline"
+         },
+         {
+         "name": "Dubbing track",
+         "url": "https://iwslt.org/2024/dubbing"
+         },
+         {
+         "name": "Low-resource track",
+         "url": "https://iwslt.org/2024/low-resource"
+         },
+         {
+         "name": "Indic track",
+         "url": "https://iwslt.org/2024/indic"
+         }
+   ]
    },
    {
       "name":"NeTTT",
@@ -151,15 +154,13 @@
          "name":"NeTTT",
          "url":"http://machinetranslate.org/nettt2022.md#organisers"
       },
-      "future_tense_opening_paragraph":"The second New Trends in Translation and Technology (<strong>NeTTT</strong>) conference will take place in Varna, Bulgaria, from 3 July to 6 July, 2024.",
-      "past_tense_opening_paragraph":"The second New Trends in Translation and Technology (<strong>NeTTT</strong>) conference  place in Varna, Bulgaria, from 3 July to 6 July, 2024.",
-      "summaries":[
+      "more_paragraphs":[
          "The objective of the conference is (i) to bridge the gap between academia and industry in the field of translation and interpreting by bringing together academics in linguistics, translation studies, machine translation and natural language processing, developers, practitioners, language service providers and vendors who work on or are interested in different aspects of technology for translation and interpreting, and (ii) to be a distinctive event for discussing the latest developments and practices."
       ],
-      "links":[
-         "<a href='https://nettt-conference.com/'>nettt-conference.com/</a>",
-         "<a href='https://nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf'>nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf</a>"
-      ]
+      "links":{
+         "nettt-conference.com/": "https://nettt-conference.com/",
+         "nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf": "https://nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf"
+      }
    },
    {
       "name":"EAMT 2024",
@@ -179,11 +180,9 @@
       },
       "start_date":"2024-06-24",
       "end_date":"2024-06-27",
-      "future_tense_opening_paragraph":"The 25th Annual Conference of the <strong>European Association of Machine Translation 2024</strong> <strong>(<a href='/eamt'>EAMT</a> 2024)</strong> will be hosted in Sheffield, England, from 24 June to 27 June, 2024. <br><br> EAMT 2024 will be jointly organised by EAMT, ZOO Digital and the University of Sheffield. <br><br>",
-      "past_tense_opening_paragraph":"The 25th Annual Conference of the <strong>European Association of Machine Translation 2024</strong> <strong>(<a href='/eamt'>EAMT</a> 2024)</strong> was hosted in Sheffield, England, from 24 June to 27 June, 2024. <br><br> EAMT 2024 was a jointly organised by EAMT, ZOO Digital and the University of Sheffield. <br><br>",
-      "links":[
-         "<a href='https://eamt2024.sheffield.ac.uk/home'>eamt2024.sheffield.ac.uk/home</a>"
-      ],
+      "links":{
+         "eamt2024.sheffield.ac.uk/home": "https://eamt2024.sheffield.ac.uk/home"
+      },
       "important_dates":
          {
             "Deadline for paper submission":"2024-03-08",
