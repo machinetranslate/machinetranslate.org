@@ -54,8 +54,8 @@ seo:
 | 3 - 6 July | [**NETTT 2024**](/nettt2024) | Varna, Bulgaria |
 | June | [**AmericasNLP**](/americasnlp2024) | Mexico City, Mexico |
 | 24 - 27 June | [**EAMT 2024**](/eamt2024) | Sheffield, England |
-| 27 May | Language AI Meetup | Zurich, Switzerland |
-| 8 February | [Machine translation meetup](/meetup) | online |
+| 27 May | **Language AI Meetup** | Zurich, Switzerland |
+| 8 February | [Machine translation meetup](/machine-translation-meetup-4) | online |
 
 ## 2023 events
 

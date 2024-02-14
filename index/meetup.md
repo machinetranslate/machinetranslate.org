@@ -8,7 +8,7 @@ seo:
   type: ItemList
 ---
 
-<center><h2><strong>Adaptive machine translation</strong></h2></center>
+<!-- <center><h2><strong>Adaptive machine translation</strong></h2></center>
 
 The next meetup is about [**adaptive machine translation**](/adaptive).
 
@@ -36,16 +36,20 @@ The next meetup is about [**adaptive machine translation**](/adaptive).
 The machine translation meetup is organised by the **Machine Translate Foundation**.
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/appbL6ZoRsMbLL2FV/shrrGw1PiFkrPbdeB?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+-->
 
-<!-- The **machine translation meetup** is a regular event organised by the **Machine Translate Foundation**.
+The **machine translation meetup** is a regular event organised by the **Machine Translate Foundation**.
 It alternates between online and offline formats.
 
 |     |     |     |     |
 | --- | --- | --- | --- |
-| **Meetup 4** | Adaptive machine translation | **coming soon** | **online** |
+| [Meetup 4](/machine-translation-meetup-4) | Adaptive machine translation | 8 February 2024 | online |
 | [Meetup 3](/machine-translation-meetup-3) | | 18 April 2023 | London, England | 
 | [Meetup 2](/machine-translation-meetup-2) | Low-resource languages | 21 October 2022 | online |
 | [Meetup 1](/machine-translation-meetup-1) | | 11 May 2022 | Menlo Park, California |
+
+
+The next meetup will be about **speech machine translation**.
 
 <center>
   <h3>Sign up for the next meetup</h3>
@@ -53,4 +57,4 @@ It alternates between online and offline formats.
     style="width: 400px; height: 350px; border: none;"
     src="https://cdn.forms-content-1.sg-form.com/6aac1965-352f-11ee-b73f-c6a4e250074b"/>
 </center>
--->
+
