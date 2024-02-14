@@ -78,7 +78,7 @@ In 2022, the *News* machine translation task was renamed the *General* machine t
 
 ### Research Papers
 
-> Research papers should describe original research corresponding to the categories listed above. Research papers that have been or will be submitted to other meetings or publications must indicate this at submission time, and must be withdrawn from the other venues if accepted and published at WMT 2022.
+> Research papers should describe original research corresponding to the categories listed above. Research papers that have been or will be submitted to other meetings or publications must indicate this at submission time, and must be withdrawn from the other venues if accepted and published at WMT 2023.
 
 > We will not accept for publication papers that overlap significantly in content or results with papers that have been or will be published elsewhere. It is acceptable to submit work that has been made available as a technical report (or similar, e.g. in arXiv) without citing it.
 
@@ -94,7 +94,7 @@ In 2022, the *News* machine translation task was renamed the *General* machine t
 
 - Papers must be submitted [electronically](https://www.softconf.com/emnlp2023/wmt/).
 - Research and system papers have the same deadlines.
-- Research and system papers should follow [EMNLP2022 formatting guidelines](https://2023.emnlp.org/calls/style-and-formatting/).
+- Research and system papers should follow [EMNLP2023 formatting guidelines](https://2023.emnlp.org/calls/style-and-formatting/).
 
 ## Schedule
 
