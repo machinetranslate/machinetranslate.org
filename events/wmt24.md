@@ -34,11 +34,11 @@ It is organised by [WMT](/wmt).
 
 |     |     |
 | --- | --- |
-| Evaluation periods for shared tasks | June-July, 2024 |
-| Paper submission deadline | TBA around 12 August (follows EMNLP) |
-| Paper notification |TBA (follows EMNLP) |
-| Camera-ready version | TBA around 23 September (follows EMNLP) |
-| Conference | 12-13 November, 2024 |
+| Evaluation periods for shared tasks | June-July |
+| Paper submission deadline | To be announced around 12 August (follows EMNLP) |
+| Paper notification | To be announced (follows EMNLP) |
+| Camera-ready version | To be announced around 23 September (follows EMNLP) |
+| Conference | 12-13 November |
 
 ## Shared tasks
 
