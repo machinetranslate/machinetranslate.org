@@ -98,7 +98,7 @@ seo:
   {%- capture date_range -%}{{ startDay }} - {{ endDayMonth }}{%- endcapture -%}{%- else -%}
   {%- capture date_range -%}{{ event.start_date | date: "%d %B" }}{%- endcapture -%}{%- endif -%}{%- else -%}
   {%- capture date_range -%}{{ event.start_date | date: "%d %B" }}{%- endcapture -%}{%- endif -%}
-| {{ date_range }} | {% if event.id %}{% if event.start_date > current_date %}**[{{ event.name }}](/{{ event.id }})**{% else %}[{{ event.name }}](/{{ event.id }}){% endif %}{% else %}{% if event.start_date > current_date %}**{{ event.name }}**{% else %}{{ event.name }}{% endif %}{% endif %} | {{ event.location.name }} | 
+| {{ date_range }} | {% if event.id %}{% if event.start_date > current_date %}**[{{ event.name }}](/{{ event.id }})**{% else %}[{{ event.name }}](/{{ event.id }}){% endif %}{% else %}{% if event.start_date > current_date %}**{{ event.name }}**{% else %}{{ event.name }}{% endif %}{% endif %} | {% if event.location.online %}Online{% else %}{{ event.location.location }}{% endif %} | 
 {% endfor %}{% endfor %}
 
 ## 2023 events

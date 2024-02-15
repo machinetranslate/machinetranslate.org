@@ -1,38 +1,38 @@
 [
-   {
+  {
     "name": "WMT24",
     "start_date": "2024-12-06"
-   },
-   {
-     "name":"WMT Test",
-     "id":"wmt-test",
-     "description":"test descripiton",
-     "start_date":"2024-07-21",
-     "calls_for_papers_deadline":"2024-07-23",
-     "location":{
-       "type":"Offline",
-       "name":"Armenia, Yerevan"
-     },
-     "organizer":{
-       "type":"Association",
-       "name":"HayArm"
-     },
-     "more_paragraphs":[
-       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-     ],
-     "links":{
-       "Link 1": "https://machinetranslate.org/",
-       "Link 2": "https://machinetranslate.org/",
-       "Link 3": "https://machinetranslate.org/",
-       "Link 4": "https://machinetranslate.org/"
-     },
-     "important_dates":{
-         "name":"2024-12-12",
-         "name_2":"2024-11-11",
-         "name_5":"2024-10-20",
-         "name_6":"2024-09-01"
-       },
-     "shared_tasks":[
+  },
+  {
+    "name": "WMT Test",
+    "id": "wmt-test",
+    "description": "test descripiton",
+    "start_date": "2024-07-21",
+    "calls_for_papers_deadline": "2024-07-23",
+    "location": {
+      "type": "Offline",
+      "location": "Armenia, Yerevan"
+    },
+    "organizer": {
+      "type": "Association",
+      "name": "HayArm"
+    },
+    "more_paragraphs": [
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    ],
+    "links": [
+      "https://machinetranslate.org/",
+      "https://machinetranslate.org/",
+      "https://machinetranslate.org/",
+      "https://machinetranslate.org/"
+    ],
+    "important_dates": {
+      "name": "2024-12-12",
+      "name_2": "2024-11-11",
+      "name_5": "2024-10-20",
+      "name_6": "2024-09-01"
+    },
+    "shared_tasks": [
       {
         "name": "Some task",
         "url": "https://machinetranslate.org/"
@@ -49,121 +49,121 @@
         "name": "Some task",
         "url": "https://machinetranslate.org/"
       }
-     ],
-     "general_machine_translation":[
-       {
-         "title":"Title",
-         "description":"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available."
-       },
-       {
-         "title":"Title",
-         "description":"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available."
-       },
-       {
-         "title":"Title",
-         "description":"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available."
-       }
-     ],
-     "language_pairs":[
-       "English - Czech",
-       "English - Russian",
-       "English - Armenian",
-       "English - Czech",
-       "English - Czech"
-     ],
-     "scientific_papers":[
-       {
-         "topics":[
-           "first topic",
-           "sec topic",
-           "third topic",
-           "4th topic"
-         ]
-       },
-       {
-         "research_papers":[
-           "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.",
-           "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.",
-           "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available."
-         ]
-       },
-       {
-         "system_papers":[
-           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-           "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-           "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-         ]
-       }
-     ],
-     "paper_submission":[
-       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-       "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-     ],
-     "poster_format":[
-       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-       "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-     ],
-     "multiday_schedule":[
-         {
-           "10:30":"Some activity",
-           "11:00":"Some activity",
-           "11:30":"Some activity",
-           "12:00":"Some activity",
-           "12:30":"Some activity"
-         },
-         {
-          "10:30":"Some activity",
-          "11:00":"Some activity",
-          "11:30":"Some activity",
-          "12:00":"Some activity",
-          "12:30":"Some activity"
-         },
-         {
-          "10:30":"Some activity",
-          "11:00":"Some activity",
-          "11:30":"Some activity",
-          "12:00":"Some activity",
-          "12:30":"Some activity"
-         }
-     ],
-     "results":[
-       {
-         "full_results":{
-           "title":"YouTube",
-           "url":"https://www.youtube.com/"
-         },
-         "scoring_table":[
-           {
-             "language":"→ English",
-             "sentence":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-             "language_pair":"English ↔ Czech",
-             "system":"System",
-             "average_score":"56.7",
-             "average_z_score":"56.7"
-           },
-           {
-             "language":"Czech ↔ English",
-             "sentence":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-             "language_pair":"English ↔ Czech",
-             "system":"System",
-             "average_score":"567",
-             "average_z_score":"5678"
-           },
-           {
-             "language":"English →",
-             "sentence":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-             "language_pair":"English ↔ Czech",
-             "system":"System",
-             "average_score":"123",
-             "average_z_score":"765"
-           }
-         ]
-       }
-     ]
-   }
+    ],
+    "general_machine_translation": [
+      {
+        "title": "Title",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available."
+      },
+      {
+        "title": "Title",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available."
+      },
+      {
+        "title": "Title",
+        "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available."
+      }
+    ],
+    "language_pairs": [
+      "English - Czech",
+      "English - Russian",
+      "English - Armenian",
+      "English - Czech",
+      "English - Czech"
+    ],
+    "scientific_papers": [
+      {
+        "topics": [
+          "first topic",
+          "sec topic",
+          "third topic",
+          "4th topic"
+        ]
+      },
+      {
+        "research_papers": [
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.",
+          "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available."
+        ]
+      },
+      {
+        "system_papers": [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        ]
+      }
+    ],
+    "paper_submission": [
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    ],
+    "poster_format": [
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    ],
+    "multiday_schedule": [
+      {
+        "10:30": "Some activity",
+        "11:00": "Some activity",
+        "11:30": "Some activity",
+        "12:00": "Some activity",
+        "12:30": "Some activity"
+      },
+      {
+        "10:30": "Some activity",
+        "11:00": "Some activity",
+        "11:30": "Some activity",
+        "12:00": "Some activity",
+        "12:30": "Some activity"
+      },
+      {
+        "10:30": "Some activity",
+        "11:00": "Some activity",
+        "11:30": "Some activity",
+        "12:00": "Some activity",
+        "12:30": "Some activity"
+      }
+    ],
+    "results": [
+      {
+        "full_results": {
+          "title": "YouTube",
+          "url": "https://www.youtube.com/"
+        },
+        "scoring_table": [
+          {
+            "language": "→ English",
+            "sentence": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "language_pair": "English ↔ Czech",
+            "system": "System",
+            "average_score": "56.7",
+            "average_z_score": "56.7"
+          },
+          {
+            "language": "Czech ↔ English",
+            "sentence": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "language_pair": "English ↔ Czech",
+            "system": "System",
+            "average_score": "567",
+            "average_z_score": "5678"
+          },
+          {
+            "language": "English →",
+            "sentence": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "language_pair": "English ↔ Czech",
+            "system": "System",
+            "average_score": "123",
+            "average_z_score": "765"
+          }
+        ]
+      }
+    ]
+  }
 ]

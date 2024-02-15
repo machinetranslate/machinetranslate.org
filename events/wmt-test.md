@@ -5,7 +5,7 @@ parent: Events
 nav_order: '2024'
 layout: wmt_event
 title: WMT Test
-endDate: '2024-07-21'
+end_date: '2024-07-21'
 future_tense_opening_paragraph: The test descripiton (<strong>WMT Test</strong>) will
   take place in Armenia, Yerevan from 21 to 21 July, 2024.
 past_tense_opening_paragraph: The test descripiton (<strong>WMT Test</strong>) took
@@ -15,9 +15,7 @@ id: wmt-test
 description: test descripiton
 start_date: '2024-07-21'
 calls_for_papers_deadline: '2024-07-23'
-location:
-  type: Offline
-  name: Armenia, Yerevan
+location: Armenia, Yerevan
 organizer:
   type: Association
   name: HayArm
@@ -26,10 +24,10 @@ more_paragraphs:
   Ipsum has been the industry's standard dummy text ever since the 1500s, when an
   unknown printer took a galley of type and scrambled it to make a type specimen book.
 links:
-  Link 1: https://machinetranslate.org/
-  Link 2: https://machinetranslate.org/
-  Link 3: https://machinetranslate.org/
-  Link 4: https://machinetranslate.org/
+- https://machinetranslate.org/
+- https://machinetranslate.org/
+- https://machinetranslate.org/
+- https://machinetranslate.org/
 important_dates:
   name: '2024-12-12'
   name_2: '2024-11-11'
@@ -145,10 +143,10 @@ seo:
   description: test descripiton
   startDate: '2024-07-21'
   endDate: '2024-07-21'
-  eventAttendanceMode: null
+  eventAttendanceMode: OfflineEventAttendanceMode
   eventStatus: EventScheduled
   location:
-    type: Offline
+    type: Place
     name: Armenia, Yerevan
     url: null
   organizer:

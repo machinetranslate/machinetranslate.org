@@ -38,7 +38,7 @@ parent: Events
   <h3>Location</h3>
   <ul>
     <li>
-      {{ page.location.name }}
+      {{ page.location }}
     </li>
   </ul>
 {% endif %}
@@ -48,7 +48,7 @@ parent: Events
   <ul>
     {% for link in page.links %}
     <li>
-      <a href="{{ link[1] }}">{{ link[0] }}</a>
+      <a href="{{ link }}">{{ link | split: "://" | last }}</a>
     </li>
     {% endfor %}
   </ul>

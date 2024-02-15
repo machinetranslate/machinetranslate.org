@@ -5,7 +5,7 @@ parent: Events
 nav_order: 2024
 layout: event
 title: AmericasNLP 2024
-endDate: '2024-06-21'
+end_date: '2024-06-21'
 future_tense_opening_paragraph: The Machine translation for indigenous languages of
   the Americas (<strong>AmericasNLP 2024</strong>) will take place in Mexico City,
   Mexico from 20 to 21 June, 2024.
@@ -16,16 +16,12 @@ name: AmericasNLP 2024
 id: americasnlp-2024
 description: Machine translation for indigenous languages of the Americas
 start_date: '2024-06-20'
-end_date: '2024-06-21'
-location:
-  type: Place
-  name: Mexico City, Mexico
-  event_attendance_mode: OfflineEventAttendanceMode
+location: Mexico City, Mexico
 organizer:
   type: Person
   url: http://turing.iimas.unam.mx/americasnlp/st.html
 links:
-  turing.iimas.unam.mx/americasnlp/2024_workshop.html: http://turing.iimas.unam.mx/americasnlp/2024_workshop.html
+- http://turing.iimas.unam.mx/americasnlp/2024_workshop.html
 shared_tasks:
 - name: A machine translation shared task on truly low-resource languages.
 - name: A shared task on morphological adaptation to generate educational examples.

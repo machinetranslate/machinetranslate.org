@@ -5,36 +5,30 @@ parent: Events
 nav_order: 2024
 layout: event
 title: IWSLT 2024
-endDate: '2024-08-16'
+end_date: '2024-08-16'
 future_tense_opening_paragraph: The International Conference on Spoken Language Translation
-  (IWSLT) (<strong>IWSLT 2024</strong>) will take place in Bangkok, Thailand from
-  15 to 16 August, 2024.
+  (IWSLT) (<strong>IWSLT 2024</strong>) will take place in Bangkok, Thailand and online
+  from 15 to 16 August, 2024.
 past_tense_opening_paragraph: The International Conference on Spoken Language Translation
-  (IWSLT) (<strong>IWSLT 2024</strong>) took place in Bangkok, Thailand from 15 to
-  16 August, 2024.
+  (IWSLT) (<strong>IWSLT 2024</strong>) took place in Bangkok, Thailand and online
+  from 15 to 16 August, 2024.
 name: IWSLT 2024
 id: iwslt-2024
 description: International Conference on Spoken Language Translation (IWSLT)
 calls_for_papers_deadline: '2024-04-29'
 start_date: '2024-08-15'
-end_date: '2024-08-16'
-location:
-  name: Bangkok, Thailand
-  type: Place
-  event_attendance_mode: MixedEventAttendanceMode
+location: Bangkok, Thailand and online
 organizer:
-  type: Person
   url: https://iwslt.org/2023/#organizers
 links:
-  iwslt.org/2024/: https://iwslt.org/2024/
+- https://iwslt.org/2024/
 important_dates:
   Release of shared task training and developer data: '2024-01-15'
-  Evaluation: 1 - 15 April
+  Evaluation: '2024-04-01'
   Paper submission: '2024-04-29'
   Notification of acceptance: '2024-06-04'
   Camera ready deadline: '2024-06-24'
   Pre-recorded video due: '2024-07-22'
-  Conference: 15 - 16 August
 speakers:
   Organizers:
   - Marine Carpuat, University of Maryland, United States
@@ -68,11 +62,11 @@ seo:
   eventAttendanceMode: MixedEventAttendanceMode
   eventStatus: EventScheduled
   location:
-    type: Place
-    name: Bangkok, Thailand
+    type: Hybrid
+    name: Bangkok, Thailand and online
     url: null
   organizer:
-    type: Person
+    type: null
     name: null
     url: https://iwslt.org/2023/#organizers
 

@@ -7,14 +7,13 @@
     "start_date": "Date format: yyyy-mm-dd",
     "end_date": "Date format: yyyy-mm-dd",
     "location": {
-      "type": "Type of the location: Offline, hybrid, online, etc.",
-      "name": "Country/City",
-      "event_attendance_mode": "OfflineEventAttendanceMode/OnlineEventAttendanceMode/Hybrid",
+      "online": "true: if the event is online",
+      "location": "Location of the event. If hybrid, add online at the end. For example, 'Banghok, Thailand and online'",
       "url": "URL for the location where the event will happen"
     },
     "organizer": {
       "type": "Association/Organization/etc.",
-      "name": "Name of the organizer",
+      "name": "Name of the organization/association",
       "url": "URL about the organizer"
     },
     "more_paragraphs": [
@@ -22,12 +21,12 @@
       "Summary about the event",
       "Summary about the event"
     ],
-    "links": {
-      "Any additional links should be added here like the example below": "",
-       "name": "URL",
-       "name_2": "URL",
-       "name_3": "URL"
-     },
+    "links": [
+      "Any additional links should be added here like the example below",
+      "link1",
+      "link2",
+      "link3"
+    ],
     "important_dates":{
         "name": "date",
         "name_2": "date",

@@ -1,235 +1,243 @@
 [
    {
-      "name":"AMTA 2024",
-      "id": "amta-2024",
-      "description": "16th biennial conference of the Association for Machine Translation in the Americas",
-      "start_date":"2024-09-30",
-      "end_date":"2024-10-02",
-      "location":{
-         "type":"VirtualLocation",
-         "name":"Online",
-         "event_attendance_mode": "OnlineEventAttendanceMode"
-      },
-      "organizer":{
-         "type":"Organization",
-         "name":"Association for Machine Translation in the Americas",
-         "url":"https://amtaweb.org"
-      },
-      "important_dates":
-         {
-            "Submission deadline": "2024-06-06",
-            "Notification of acceptance":"2024-07-18",
-            "Final “camera-ready” papers for proceedings": "2024-09-16"
-         }
+     "name": "AMTA 2024",
+     "id": "amta-2024",
+     "description": "16th biennial conference of the Association for Machine Translation in the Americas",
+     "start_date": "2024-09-30",
+     "end_date": "2024-10-02",
+     "location": {
+       "online": true
+     },
+     "organizer": {
+       "type": "Organization",
+       "name": "Association for Machine Translation in the Americas",
+       "url": "https://amtaweb.org"
+     },
+     "links": [
+      "https://2024.amta.org/"
+     ],
+     "important_dates": {
+       "Submission deadline": "2024-06-06",
+       "Notification of acceptance": "2024-07-18",
+       "Final “camera-ready” papers for proceedings": "2024-09-16"
+     }
    },
    {
-      "name":"AmericasNLP 2024",
-      "id": "americasnlp-2024",
-      "description": "Machine translation for indigenous languages of the Americas",
-      "start_date":"2024-06-20",
-      "end_date":"2024-06-21",
-      "location":{
-         "type":"Place",
-         "name":"Mexico City, Mexico",
-         "event_attendance_mode": "OfflineEventAttendanceMode"
-      },
-      "organizer":{
-         "type":"Person",
-         "url":"http://turing.iimas.unam.mx/americasnlp/st.html"
-      },
-      "links": {
-         "turing.iimas.unam.mx/americasnlp/2024_workshop.html": "http://turing.iimas.unam.mx/americasnlp/2024_workshop.html"
-      },
-      "shared_tasks": [
-         {
+     "name": "AmericasNLP 2024",
+     "id": "americasnlp-2024",
+     "description": "Machine translation for indigenous languages of the Americas",
+     "start_date": "2024-06-20",
+     "end_date": "2024-06-21",
+     "location": {
+       "location": "Mexico City, Mexico"
+     },
+     "organizer": {
+       "type": "Person",
+       "url": "http://turing.iimas.unam.mx/americasnlp/st.html"
+     },
+     "links": [
+       "http://turing.iimas.unam.mx/americasnlp/2024_workshop.html"
+     ],
+     "shared_tasks": [
+       {
          "name": "A machine translation shared task on truly low-resource languages."
-         },
-         {
+       },
+       {
          "name": "A shared task on morphological adaptation to generate educational examples."
-         }
-      ],
-      "speakers": {
-         "Keynote speakers": [
-            "Graham Neubig", "Jaime Pérez González"
-         ],
-         "Organisers": [
-            "Manuel Mager", "Abteen Ebrahimi", "Shruti Rijhwani", "Arturo Oncevay", "Luis Chiruzzo", "Robert Pugh", "Katharina Kann"
-         ]
-      },
-      "important_dates": 
-         {
-            "Start of the anonymity period": "2024-02-10",
-            "Submission deadline": "2024-03-10",
-            "Notification of acceptance": "2024-04-24",
-            "Camera ready papers": "2024-04-24",
-            "Workshop": "2024-06-20"
-         }
+       }
+     ],
+     "speakers": {
+       "Keynote speakers": [
+         "Graham Neubig",
+         "Jaime Pérez González"
+       ],
+       "Organisers": [
+         "Manuel Mager",
+         "Abteen Ebrahimi",
+         "Shruti Rijhwani",
+         "Arturo Oncevay",
+         "Luis Chiruzzo",
+         "Robert Pugh",
+         "Katharina Kann"
+       ]
+     },
+     "important_dates": {
+       "Start of the anonymity period": "2024-02-10",
+       "Submission deadline": "2024-03-10",
+       "Notification of acceptance": "2024-04-24",
+       "Camera ready papers": "2024-04-24",
+       "Workshop": "2024-06-20"
+     }
    },
    {
-      "name":"IWSLT 2024",
-      "id":"iwslt-2024",
-      "description":"International Conference on Spoken Language Translation (IWSLT)",
-      "calls_for_papers_deadline":"2024-04-29",
-      "start_date":"2024-08-15",
-      "end_date":"2024-08-16",
-      "location":{
-         "name":"Bangkok, Thailand",
-         "type":"Place",
-         "event_attendance_mode":"MixedEventAttendanceMode"
-      },
-      "organizer":{
-         "type":"Person",
-         "url":"https://iwslt.org/2023/#organizers"
-      },
-      "links": {
-         "iwslt.org/2024/": "https://iwslt.org/2024/"
-      },
-      "important_dates":
-         {
-            "Release of shared task training and developer data":"2024-01-15",
-            "Evaluation":"1 - 15 April",
-            "Paper submission":"2024-04-29",
-            "Notification of acceptance":"2024-06-04",
-            "Camera ready deadline":"2024-06-24",
-            "Pre-recorded video due":"2024-07-22",
-            "Conference":"15 - 16 August"
-         },
-      "speakers":
-         {
-            "Organizers": [
-               "Marine Carpuat, University of Maryland, United States",
-               "Marcello Federico, AWS AI Labs, United States",
-               "Alex Waibel, CMU, United States",
-               "Jan Niehues, KIT, Germany",
-               "Sebastian Stüker, KIT, Germany",
-               "Elizabeth Salesky, JHU, United States",
-               "Atul Kr. Ojha, University of Galway, Ireland"
-            ]
-         },
-      "shared_tasks":[
-         {
+     "name": "IWSLT 2024",
+     "id": "iwslt-2024",
+     "description": "International Conference on Spoken Language Translation (IWSLT)",
+     "calls_for_papers_deadline": "2024-04-29",
+     "start_date": "2024-08-15",
+     "end_date": "2024-08-16",
+     "location": {
+       "location": "Bangkok, Thailand and online"
+     },
+     "organizer": {
+       "url": "https://iwslt.org/2023/#organizers"
+     },
+     "links": [
+       "https://iwslt.org/2024/"
+     ],
+     "important_dates": {
+       "Release of shared task training and developer data": "2024-01-15",
+       "Evaluation": "2024-04-01",
+       "Paper submission": "2024-04-29",
+       "Notification of acceptance": "2024-06-04",
+       "Camera ready deadline": "2024-06-24",
+       "Pre-recorded video due": "2024-07-22"
+     },
+     "speakers": {
+       "Organizers": [
+         "Marine Carpuat, University of Maryland, United States",
+         "Marcello Federico, AWS AI Labs, United States",
+         "Alex Waibel, CMU, United States",
+         "Jan Niehues, KIT, Germany",
+         "Sebastian Stüker, KIT, Germany",
+         "Elizabeth Salesky, JHU, United States",
+         "Atul Kr. Ojha, University of Galway, Ireland"
+       ]
+     },
+     "shared_tasks": [
+       {
          "name": "Speech-to-speech track",
          "url": "https://iwslt.org/2024/s2s"
-         },
-         {
+       },
+       {
          "name": "Simultaneous track",
          "url": "https://iwslt.org/2024/simultaneous"
-         },
-         {
+       },
+       {
          "name": "Subtitling track",
          "url": "https://iwslt.org/2024/subtitling"
-         },
-         {
+       },
+       {
          "name": "Offline track",
          "url": "https://iwslt.org/2024/offline"
-         },
-         {
+       },
+       {
          "name": "Dubbing track",
          "url": "https://iwslt.org/2024/dubbing"
-         },
-         {
+       },
+       {
          "name": "Low-resource track",
          "url": "https://iwslt.org/2024/low-resource"
-         },
-         {
+       },
+       {
          "name": "Indic track",
          "url": "https://iwslt.org/2024/indic"
-         }
-   ]
+       }
+     ]
    },
    {
-      "name":"NeTTT",
-      "id":"nettt",
-      "description":"New Trends in Translation and Technology",
-      "start_date":"2024-07-03",
-      "end_date":"2024-07-06",
-      "calls_for_papers_deadline":"2024-03-31",
-      "location":{
-         "name":"Varna, Bulgaria",
-         "type":"Place",
-         "event_attendance_mode":"OfflineEventAttendanceMode"
-      },
-      "organizer":{
-         "type":"Organization",
-         "name":"NeTTT",
-         "url":"http://machinetranslate.org/nettt2022.md#organisers"
-      },
-      "more_paragraphs":[
-         "The objective of the conference is (i) to bridge the gap between academia and industry in the field of translation and interpreting by bringing together academics in linguistics, translation studies, machine translation and natural language processing, developers, practitioners, language service providers and vendors who work on or are interested in different aspects of technology for translation and interpreting, and (ii) to be a distinctive event for discussing the latest developments and practices."
-      ],
-      "links":{
-         "nettt-conference.com/": "https://nettt-conference.com/",
-         "nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf": "https://nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf"
-      }
+     "name": "NeTTT",
+     "id": "nettt",
+     "description": "New Trends in Translation and Technology",
+     "start_date": "2024-07-03",
+     "end_date": "2024-07-06",
+     "calls_for_papers_deadline": "2024-03-31",
+     "location": {
+       "location": "Varna, Bulgaria"
+     },
+     "organizer": {
+       "type": "Organization",
+       "name": "NeTTT",
+       "url": "https://nettt-conference.com/"
+     },
+     "more_paragraphs": [
+       "The objective of the conference is (i) to bridge the gap between academia and industry in the field of translation and interpreting by bringing together academics in linguistics, translation studies, machine translation and natural language processing, developers, practitioners, language service providers and vendors who work on or are interested in different aspects of technology for translation and interpreting, and (ii) to be a distinctive event for discussing the latest developments and practices."
+     ],
+     "links": [
+       "https://nettt-conference.com/",
+       "https://nettt-conference.com/wp-content/uploads/2023/11/First-announcement-NETTT2024.pdf"
+     ]
    },
    {
-      "name":"EAMT 2024",
-      "id":"eamt-2024",
-      "title":"EAMT 2024",
-      "description":"Conference of the European Association of Machine Translation",
-      "calls_for_papers_deadline":"2024-03-08",
-      "location":{
-         "name":"Sheffield, England",
-         "type":"Place",
-         "event_attendance_mode":"OfflineEventAttendanceMode"
-      },
-      "organizer":{
-         "type":"Organization",
-         "name":"European Association of Machine Translation",
-         "url":"https://eamt.org"
-      },
-      "start_date":"2024-06-24",
-      "end_date":"2024-06-27",
-      "links":{
-         "eamt2024.sheffield.ac.uk/home": "https://eamt2024.sheffield.ac.uk/home"
-      },
-      "important_dates":
-         {
-            "Deadline for paper submission":"2024-03-08",
-            "Notification to paper authors":"2024-04-08",
-            "Camera ready deadline":"2024-04-22",
-            "Author Registration":"2024-05-08",
-            "Paper Conference":"24 - 27 June",
-            "Deadline for tutorial submission":"2024-03-08",
-            "Notification of tutorial acceptance":"2024-04-08",
-            "Tutorial slides, abstract, bibliography, any other materials":"2024-05-15",
-            "Tutorial Conference":"2024-06-27",
-            "Deadline for workshop submission":"2024-01-31",
-            "Notification for workshop submission":"on a rolling basis (no later than 28th February)",
-            "Workshop Conference":"2024-05-15",
-            "Deadline for thesis submission":"2024-02-08",
-            "Award notification":"2024-03-08"
-         }
+     "name": "EAMT 2024",
+     "id": "eamt-2024",
+     "title": "EAMT 2024",
+     "description": "Conference of the European Association of Machine Translation",
+     "calls_for_papers_deadline": "2024-03-08",
+     "location": {
+       "location": "Sheffield, England"
+     },
+     "organizer": {
+       "type": "Organization",
+       "name": "European Association of Machine Translation",
+       "url": "https://eamt.org"
+     },
+     "start_date": "2024-06-24",
+     "end_date": "2024-06-27",
+     "links": [
+       "https://eamt2024.sheffield.ac.uk/home"
+     ],
+     "important_dates": {
+       "Deadline for paper submission": "2024-03-08",
+       "Notification to paper authors": "2024-04-08",
+       "Camera ready deadline": "2024-04-22",
+       "Author Registration": "2024-05-08",
+       "Paper Conference": "2024-06-24",
+       "Deadline for tutorial submission": "2024-03-08",
+       "Notification of tutorial acceptance": "2024-04-08",
+       "Tutorial slides, abstract, bibliography, any other materials": "2024-05-15",
+       "Tutorial Conference": "2024-06-27",
+       "Deadline for workshop submission": "2024-01-31",
+       "Notification for workshop submission": "on a rolling basis (no later than 28th February)",
+       "Workshop Conference": "2024-05-15",
+       "Deadline for thesis submission": "2024-02-08",
+       "Award notification": "2024-03-08"
+     }
    },
    {
-      "name": "Language AI Meetup",
-      "start_date": "2024-12-02",
-      "end_date": "2024-12-02",
-      "location":{
-         "name": "Zurich, Switzerland"
-      }
+     "name": "Language AI Meetup",
+     "start_date": "2024-12-02",
+     "end_date": "2024-12-02",
+     "location": {
+       "location": "Zurich, Switzerland"
+     }
    },
    {
-      "name": "Language AI Meetup",
-      "start_date": "2024-09-16",
-      "end_date": "2024-09-16",
-      "location":{
-         "name": "Zurich, Switzerland"
-      }
+     "name": "Language AI Meetup",
+     "start_date": "2024-09-16",
+     "end_date": "2024-09-16",
+     "location": {
+       "location": "Zurich, Switzerland"
+     }
    },
    {
-      "name": "Language AI Meetup",
-      "start_date": "2024-05-27",
-      "end_date": "2024-05-27",
-      "location":{
-         "name": "Zurich, Switzerland"
-      }
+     "name": "Language AI Meetup",
+     "start_date": "2024-05-27",
+     "end_date": "2024-05-27",
+     "location": {
+       "location": "Zurich, Switzerland"
+     }
    },
    {
-      "name": "<a href='/meetup'>Machine translation meetup</a>",
-      "start_date": "2024-02-08",
-      "location":{
-         "name": "Online"
-      }
+     "name": "Machine translation meetup 4",
+     "id": "machine-translation-meetup-4",
+     "description": "Meetup organised by the Machine Translate Foundation",
+     "start_date": "2024-02-08",
+     "location": {
+       "online": true
+     },
+     "more_paragraphs": [
+      "A panel of guests discussed <strong>adaptive machine translation.</strong>"
+     ],
+     "links": [
+      "https://machinetranslate.org/meetup"
+     ],
+     "speakers": {
+      "Panel": [
+        "Joern Wuebker, LILT",
+        "John Tinsley, ModernMT",
+        "Suzanna Sia, Johns Hopkins University"
+      ]
+     }
    }
-]
+ ]
