@@ -1,5 +1,5 @@
 
-[   "Only external events that have a Calls For Papers should be added here",
+[   "Only Calls For Papers for events not listed in events.json (non-machine translation events) should be added here, e.g. ACL.  For events we cover, there are properties in events.json.",
     {
         "name": "Name of the event",
         "callsForPapersDeadline": "The deadline",
