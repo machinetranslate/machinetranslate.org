@@ -759,10 +759,10 @@ for event in EVENTS:
   name = event['name']
 
   # startDate is necessary for listing the event on events.md
-  start_date = datetime.strptime(event['start_date'], "%Y-%m-%d").date()
+  start_date = datetime.strptime(event['start_date'], '%Y-%m-%d').date()
 
   if event.get('end_date', None):
-    end_date = datetime.strptime(event['end_date'], "%Y-%m-%d").date()
+    end_date = datetime.strptime(event['end_date'], '%Y-%m-%d').date()
   else:
     end_date = start_date
   
@@ -773,24 +773,24 @@ for event in EVENTS:
   location_url = _location.get('url', None)
   is_online = _location.get('online', False)
   if is_online:
-      location_type = "VirtualLocation"
-      event_attendance_mode = "OnlineEventAttendanceMode"
-  elif "online" in location_name.lower():
-      location_type = "Hybrid"
-      event_attendance_mode = "MixedEventAttendanceMode"
+      location_type = 'VirtualLocation'
+      event_attendance_mode = 'OnlineEventAttendanceMode'
+  elif 'online' in location_name.lower():
+      location_type = 'Hybrid'
+      event_attendance_mode = 'MixedEventAttendanceMode'
   else:
-      location_type = "Place"
-      event_attendance_mode = "OfflineEventAttendanceMode"
+      location_type = 'Place'
+      event_attendance_mode = 'OfflineEventAttendanceMode'
 
   if event.get('organizer', None):
     organizer_name = event['organizer'].get('name', None)
     organizer_url = event['organizer'].get('url', None)
     organizer_type = event['organizer'].get('type', None)
 
-  date = f"from {datetime.strftime(start_date, "%d") } to {datetime.strftime(end_date, "%d %B, %Y")}" if start_date != end_date else f"on {datetime.strftime(start_date, "%d %B, %Y")}"
-  location = f"in {location_name}" if location_name.lower() != "online" else location_name
-  future_tense_opening_paragraph = f"The {description} (<strong>{name}</strong>) will take place {location} {date}."
-  past_tense_opening_paragraph = f"The {description} (<strong>{name}</strong>) took place {location} {date}."
+  date = f'from {datetime.strftime(start_date, '%d') } to {datetime.strftime(end_date, '%d %B, %Y')}' if start_date != end_date else f'on {datetime.strftime(start_date, '%d %B, %Y')}'
+  location = f'in {location_name}' if location_name.lower() != 'online' else location_name
+  future_tense_opening_paragraph = f'The {description} (<strong>{name}</strong>) will take place {location} {date}.'
+  past_tense_opening_paragraph = f'The {description} (<strong>{name}</strong>) took place {location} {date}.'
 
   
 
@@ -854,10 +854,10 @@ for event in WMT_EVENTS:
   name = event['name']
 
   # startDate is necessary for listing the event on events.md
-  start_date = datetime.strptime(event['start_date'], "%Y-%m-%d").date()
+  start_date = datetime.strptime(event['start_date'], '%Y-%m-%d').date()
 
   if event.get('endDate', None):
-    end_date = datetime.strptime(event['end_date'], "%Y-%m-%d").date()
+    end_date = datetime.strptime(event['end_date'], '%Y-%m-%d').date()
   else:
     end_date = start_date
 
@@ -868,14 +868,14 @@ for event in WMT_EVENTS:
   location_url = location.get('url', None)
   is_online = location.get('online', False)
   if is_online:
-      location_type = "VirtualLocation"
-      event_attendance_mode = "OnlineEventAttendanceMode"
-  elif "online" in location_name.lower():
-      location_type = "Hybrid"
-      event_attendance_mode = "MixedEventAttendanceMode"
+      location_type = 'VirtualLocation'
+      event_attendance_mode = 'OnlineEventAttendanceMode'
+  elif 'online' in location_name.lower():
+      location_type = 'Hybrid'
+      event_attendance_mode = 'MixedEventAttendanceMode'
   else:
-      location_type = "Place"
-      event_attendance_mode = "OfflineEventAttendanceMode"
+      location_type = 'Place'
+      event_attendance_mode = 'OfflineEventAttendanceMode'
 
   if event.get('organizer', None):
     organizer_name = event['organizer'].get('name', None)
@@ -883,10 +883,10 @@ for event in WMT_EVENTS:
     organizer_type = event['organizer'].get('type', None)
 
   # Generate opening pagaraph in future/past tense
-  date = f"from {datetime.strftime(start_date, "%d") } to {datetime.strftime(end_date, "%d %B, %Y")}"
-  location = f"in {location_name}" if location_name.lower() != "online" else location_name
-  future_tense_opening_paragraph = f"The {description} (<strong>{name}</strong>) will take place {location} {date}."
-  past_tense_opening_paragraph = f"The {description} (<strong>{name}</strong>) took place {location} {date}."
+  date = f'from {datetime.strftime(start_date, '%d') } to {datetime.strftime(end_date, '%d %B, %Y')}'
+  location = f'in {location_name}' if location_name.lower() != 'online' else location_name
+  future_tense_opening_paragraph = f'The {description} (<strong>{name}</strong>) will take place {location} {date}.'
+  past_tense_opening_paragraph = f'The {description} (<strong>{name}</strong>) took place {location} {date}.'
 
   frontmatter = {
     'autogenerated': True,
@@ -943,7 +943,7 @@ for event in WMT_EVENTS:
 for entry in CALLS_FOR_PAPERS:
 
   # Validate date format
-  datetime.strptime(entry['calls_for_papers_deadline'], "%Y-%m-%d").date()
+  datetime.strptime(entry['calls_for_papers_deadline'], '%Y-%m-%d').date()
 
   # Validate calls_for_papers.json entries
   validate(instance=entry, schema=CALLS_FOR_PAPERS_SCHEMA)
