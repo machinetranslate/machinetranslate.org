@@ -5,6 +5,8 @@ import spacy
 
 from .find_missing_links import walk_directory
 
+# Checks that we use UK spellings for words that differ between the UK and US
+# Permits US spellings for proper nouns.
 
 # Load the English language model for Spacy
 NLP = spacy.load("en_core_web_sm")
@@ -53,17 +55,20 @@ def check_spellings(file_path):
                 # Extract only the letters
                 raw_word = re.sub(r'^[^a-zA-Z\'-]*|[^a-zA-Z\'-]*$', '', word)
 
-                if raw_word:
-                    # Skip words that have the same spelling in both US and UK English or are wrong for both
-                    if ((us.check(raw_word) == uk.check(raw_word)) or (uk.check(raw_word) and not us.check(raw_word))):
-                        continue
-                    # Skip CamelCase and all-uppercase words
-                    if is_camel_case(raw_word) or raw_word.isupper():
-                        continue
-                    # Check if the word is a proper noun in context
-                    assert is_proper_noun_in_context(_line, raw_word), \
-                        f'US-specific spelling: "{raw_word}" in {file_path} \n\n\t at the line: {line} \n\n\tsuggestions: {uk.suggest(raw_word)} \n'
+                # Skip non-alpha, ALLCAPS and camelCase/CamelCase
+                if not raw_word or raw_word.isupper() or is_camel_case(raw_word):
+                    continue
 
+                # If a US word but not a UK word
+                if us.check(raw_word) and not uk.check(raw_word):
+                
+                    # Check if the word is a proper noun in context
+                    # This is a relatively expensive check.
+                    assert is_proper_noun_in_context(_line, raw_word), f'''US-specific spelling: 
+                            "{ raw_word }" in { file_path }
+                                line: { line }
+                                suggestions: { uk.suggest(raw_word) }
+                         '''
 
 EXCLUDE_DIRS = ['vendor']
 EXCLUDE_FILES = ['README.md', 'CHANGELOG.md']
