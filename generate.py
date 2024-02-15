@@ -409,7 +409,7 @@ for language in LANGUAGES:
     'nav_exclude': True,
     'parent': 'Languages',
     'layout': 'language',
-    'title': name or f"<code>{code}</code>",
+    'title': name or f'<code>{code}</code>',
     'description': desc,
     **language,
     'family': family,
