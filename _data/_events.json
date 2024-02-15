@@ -7,9 +7,9 @@
      "start_date": "Date format: yyyy-mm-dd",
      "end_date": "Date format: yyyy-mm-dd",
      "more_paragraphs": [
-       "Summary about the event",
-       "Summary about the event",
-       "Summary about the event"
+       "About the event",
+       "About the event",
+       "About the event"
      ],
      "location": {
        "online": "true: if the event is online. Default: false",
@@ -31,26 +31,15 @@
          "name": "date",
          "name_2": "date"
        },
-     "speakers": [
+     "speakers": 
        {
-         "type": "Type of the speaker: Panellist/Invited/Organizer",
-         "about": [
+         "type of the speakers": [
            "Information about each speaker: Name, Institution",
            "",
            "",
            ""
          ]
        },
-       {
-         "type": "Type of the speaker: Panellist/Invited/Organizer",
-         "about": [
-           "Information about each speaker: Name, Institution",
-           "",
-           "",
-           ""
-         ]
-       }
-     ],
      "workshops": [
        {
          "name": "",
