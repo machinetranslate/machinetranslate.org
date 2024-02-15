@@ -5,17 +5,17 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: <code>kyu</code>
-description: Machine translation for <code>kyu</code>
+title: <code>emj</code>
+description: Machine translation for <code>emj</code>
 codes:
-- kyu
+- emj
 family: []
 supported_apis:
-- id: niutrans
-  name: Niutrans
+- id: yandex
+  name: Yandex Translate
 supported_qe_apis: []
 seo:
-  name: Machine translation for <code>kyu</code>
+  name: Machine translation for <code>emj</code>
   type: Language
 
 ---
