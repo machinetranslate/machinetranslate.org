@@ -55,6 +55,7 @@ seo:
 | June | [**AmericasNLP**](/americasnlp2024) | Mexico City, Mexico |
 | 24 - 27 June | [**EAMT 2024**](/eamt2024) | Sheffield, England |
 | 27 May | **Language AI Meetup** | Zurich, Switzerland |
+| 16 - 17 April | [**TAUS in Tokyo**](/taus-in-tokyo.md) | Tokyo, Japan |
 | 8 February | [Machine translation meetup](/machine-translation-meetup-4) | online |
 
 ## 2023 events
