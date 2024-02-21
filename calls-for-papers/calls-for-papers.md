@@ -12,7 +12,10 @@ seo:
 
 | Deadline | Publication | Organisers |
 | --- | --- | --- |
-| **6 June 2024** | [**AMTA 2024**](/amta2024) | AMTA |
+| **6 June 2024** | [**AMTA 2024** tutorials](/amta2024) | AMTA |
+| **6 June 2024** | [**AMTA 2024** Best Thesis Award](/amta2024) | AMTA |
+| **6 June 2024** | [**AMTA 2024** papers](/amta2024) | AMTA |
+| **6 May 2024** | [**AMTA 2024** workshops](/amta2024) | AMTA |
 | **29 April 2024** | [**IWSLT 2024**](/iwslt2024) | IWSLT |
 | **1 April 2024** | [***Machine and Computer-assisted Interpreting***](https://lans-tts.uantwerpen.be/index.php/LANS-TTS/announcement/view/24) | LANS-TTS |
 | **31 March 2024** | [**NETTT 2024**](/nettt2024) |  |
