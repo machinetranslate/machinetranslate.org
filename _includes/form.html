@@ -1,0 +1,656 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Enter Event Details</title>
+  <link rel="stylesheet" style="text/css" href="/json_form/deps/opt/bootstrap.css" />
+</head>
+
+<body>
+  <script>
+    const SCHEMAS = {
+      "Events": {
+    "properties": {
+      "name": {
+        "type": "string",
+        "title": "Name"
+      },
+      "id": {
+        "type": "string",
+        "title": "ID",
+        "description": "Slug: Name in lower case and separated with hyphens"
+      },
+      "description": {
+        "type": "string",
+        "title": "Description"
+      },
+      "calls_for_papers_deadline": {
+        "type": "string",
+        "title": "Calls For Papers Deadline",
+        "description": "YYYY-MM-DD"
+      },
+      "start_date": {
+        "type": "string",
+        "title": "Start Date",
+        "description": "YYYY-MM-DD"
+      },
+      "end_date": {
+        "type": "string",
+        "title": "End Date",
+        "description": "YYYY-MM-DD"
+      },
+      "more_paragraphs": {
+        "type": "array",
+        "title": "Paragraphs",
+        "description": "Any additional paragraphs about the event",
+        "items": {
+          "type": "string",
+          "title": "Paragraph"
+        }
+      },
+      "location": {
+        "type": "object",
+        "title": "Location info",
+        "properties": {
+          "url": {
+            "type": "string",
+            "title": "URL",
+            "description": "URL to the event location (if applicable)"
+          },
+          "online": {
+            "type": "boolean",
+            "title": "Online"
+          },
+          "location": {
+            "type": "string",
+            "title": "Location"
+          }
+        }
+      },
+      "organizer": {
+        "type": "object",
+        "title": "Organizer info",
+        "properties": {
+          "type": {
+            "type": "string",
+            "title": "Type",
+            "description": "Organizer type"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name",
+            "description": "Organizer name (Organization/Association, etc.)"
+          },
+          "url": {
+            "type": "string",
+            "title": "URL",
+            "description": "URL to the event organizer"
+          }
+        }
+      },
+      "links": {
+        "type": "array",
+        "title": "Links",
+        "items": {
+          "type": "string",
+          "title": "Link",
+          "description": "Any additional links related to the event"
+        }
+      },
+      "important_dates": {
+        "type": "array",
+        "title": "Important Dates",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "title": "Name"
+            },
+            "date": {
+              "type": "string",
+              "title": "Date"
+            }
+          }
+        }
+      },
+      "speakers": {
+        "type": "array",
+        "title": "Speakers",
+        "items": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "title": "Speaker type"
+            },
+            "about": {
+              "type": "array",
+              "title": "About",
+              "description": "Information about the speaker (Name, Institution)",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "workshops": {
+        "type": "array",
+        "title": "Workshops",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "title": "Name",
+              "description": "Workshop name"
+            },
+            "description": {
+              "type": "string",
+              "title": "Description",
+              "description": "Workshop description"
+            }
+          }
+        }
+      },
+      "shared_tasks": {
+        "type": "array",
+        "title": "Shared Tasks",
+        "items": {
+          "type": "object",
+          "title": "Shared Tasks",
+          "properties": {
+            "name": {
+              "type": "string",
+              "title": "Name"
+            },
+            "url": {
+              "type": "string",
+              "title": "URL",
+              "description": "URL to the shared task"
+            }
+          }
+        }
+      },
+      "multiday_schedule": {
+        "type": "array",
+        "title": "Multiday Schedule",
+        "description": "More than one day schedule",
+        "items": {
+          "type": "array",
+          "properties": {
+            "start_time": {
+              "type": "string",
+              "title": "Start time"
+            },
+            "title": {
+              "type": "string",
+              "title": "Title"
+            }
+          }
+        }
+      },
+      "one_day_schedule": {
+        "type": "array",
+        "title": "One Day Schedule",
+        "items": {
+          "type": "object",
+          "properties": {
+            "start_time": {
+              "type": "string",
+              "title": "Start Time"
+            },
+            "title": {
+              "type": "string",
+              "title": "Title"
+            }
+          }
+        }
+      },
+      "calls_for_papers": {
+        "type": "array",
+        "title": "Calls For Papers",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "title": "Title"
+            },
+            "topics": {
+              "type": "array",
+              "title": "Topics",
+              "items": {
+                "type": "string",
+                "title": "Topic"
+              }
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "name",
+      "start_date"
+    ]
+  },
+  "WMT Events": {
+    "properties": {
+      "name": {
+        "type": "string",
+        "title": "Name"
+      },
+      "id": {
+        "type": "string",
+        "title": "ID",
+        "description": "Slug: Name in lower case and separated with hyphens"
+      },
+      "description": {
+        "type": "string",
+        "title": "Description"
+      },
+      "calls_for_papers_deadline": {
+        "type": "string",
+        "title": "Calls For Papers Deadline",
+        "description": "YYYY-MM-DD"
+      },
+      "start_date": {
+        "type": "string",
+        "title": "Start Date",
+        "description": "YYYY-MM-DD"
+      },
+      "end_date": {
+        "type": "string",
+        "title": "End Date",
+        "description": "YYYY-MM-DD"
+      },
+      "more_paragraphs": {
+        "type": "array",
+        "title": "Paragraphs",
+        "description": "Any additional paragraphs about the event",
+        "items": {
+          "type": "string",
+          "title": "Paragraph"
+        }
+      },
+      "location": {
+        "type": "object",
+        "title": "Location info",
+        "properties": {
+          "url": {
+            "type": "string",
+            "title": "URL",
+            "description": "URL to the event location (if applicable)"
+          },
+          "online": {
+            "type": "boolean",
+            "title": "Online"
+          },
+          "location": {
+            "type": "string",
+            "title": "Location"
+          }
+        }
+      },
+      "organizer": {
+        "type": "object",
+        "title": "Organizer info",
+        "properties": {
+          "type": {
+            "type": "string",
+            "title": "Type",
+            "description": "Organizer type"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name",
+            "description": "Organizer name (Organization/Association, etc.)"
+          },
+          "url": {
+            "type": "string",
+            "title": "URL",
+            "description": "URL to the event organizer"
+          }
+        }
+      },
+      "links": {
+        "type": "array",
+        "title": "Links",
+        "items": {
+          "type": "string",
+          "title": "Link",
+          "description": "Any additional links related to the event"
+        }
+      },
+      "important_dates": {
+        "type": "array",
+        "title": "Important Dates",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "title": "Name"
+            },
+            "date": {
+              "type": "string",
+              "title": "Date"
+            }
+          }
+        }
+      },
+      "shared_tasks": {
+        "type": "array",
+        "title": "Shared Tasks",
+        "items": {
+          "type": "object",
+          "title": "Shared Tasks",
+          "properties": {
+            "name": {
+              "type": "string",
+              "title": "Name"
+            },
+            "url": {
+              "type": "string",
+              "title": "URL",
+              "description": "URL to the shared task"
+            }
+          }
+        }
+      },
+      "general_machine_translation": {
+        "type": "array",
+        "title": "General Machine Translation",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "title": "Title"
+            },
+            "description": {
+              "type": "string",
+              "title": "Description"
+            }
+          }
+        }
+      },
+      "language_pairs": {
+        "type": "array",
+        "title": "Language Pairs",
+        "items": {
+          "type": "string",
+          "title": "Language Pair"
+        }
+      },
+      "scientific_papers": {
+        "type": "array",
+        "title": "Scientific Papers",
+        "items": {
+          "type": "object",
+          "properties": {
+            "topics": {
+              "type": "array",
+              "title": "Topics",
+              "items": {
+                "type": "string",
+                "title": "Topic"
+              }
+            },
+            "research_papers": {
+              "type": "array",
+              "title": "Research Papers",
+              "items": {
+                "type": "string",
+                "title": "Description"
+              }
+            },
+            "system_papers": {
+              "type": "array",
+              "title": "System Papers",
+              "items": {
+                "type": "string",
+                "title": "Description"
+              }
+            }
+          }
+        }
+      },
+      "paper_submission": {
+        "type": "array",
+        "title": "Paper submission",
+        "items": {
+          "type": "string",
+          "title": "Description"
+        }
+      },
+      "poster_format": {
+        "type": "array",
+        "title": "Poster Format",
+        "items": {
+          "type": "string",
+          "title": "Description"
+        }
+      },
+      "multiday_schedule": {
+        "type": "array",
+        "title": "Multiday Schedule",
+        "description": "More than one day schedule",
+        "items": {
+          "type": "array",
+          "properties": {
+            "start_time": {
+              "type": "string",
+              "title": "Start time"
+            },
+            "title": {
+              "type": "string",
+              "title": "Title"
+            }
+          }
+        }
+      },
+      "one_day_schedule": {
+        "type": "array",
+        "title": "One Day Schedule",
+        "items": {
+          "type": "object",
+          "properties": {
+            "start_time": {
+              "type": "string",
+              "title": "Start Time"
+            },
+            "title": {
+              "type": "string",
+              "title": "Title"
+            }
+          }
+        }
+      },
+      "results": {
+        "type": "array",
+        "title": "Results",
+        "items": {
+          "type": "object",
+          "properties": {
+            "full_results": {
+              "type": "object",
+              "title": "Full Results",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "title": "Title",
+                  "description": "Name of the platform where the full results can be found"
+                },
+                "url": {
+                  "type": "string",
+                  "title": "URL",
+                  "description": "URL to the platform where the full results can be found"
+                }
+              }
+            },
+            "scoring_table": {
+              "type": "array",
+              "title": "Scoring Table",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "language": {
+                    "type": "string",
+                    "title": "Language",
+                    "description": "→ Language / Language ← / Language 1 ↔ Language 2"
+                  },
+                  "sentence": {
+                    "type": "string",
+                    "title": "Sentence",
+                    "description": "Opening sentence about how the results were determined"
+                  },
+                  "language_pair": {
+                    "type": "string",
+                    "title": "Languauge Pair",
+                    "description": "Languauge Pair Column"
+                  },
+                  "system": {
+                    "type": "string",
+                    "title": "System"
+                  },
+                  "average_score": {
+                    "type": "string",
+                    "title": "Average Score"
+                  },
+                  "average_z_score": {
+                    "type": "string",
+                    "title": "Average Z-Score"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "required": [
+      "name",
+      "start_date"
+    ]
+  },
+  "Calls For Papers": {
+    "properties": {
+      "name": {
+        "type": "string",
+        "title": "Name"
+      },
+      "url": {
+        "type": "string",
+        "title": "URL",
+        "description": "URL to the calls for papers"
+      },
+      "calls_for_papers_deadline": {
+        "type": "string",
+        "title": "Deadline",
+        "description": "YYYY-MM-DD"
+      }
+    }
+  }
+};
+  </script>
+  <select id="schema-selector">
+    <option value="">Select Form</option>
+    <option value="WMT Events">WMT Events</option>
+    <option value="Events">Events</option>
+    <option value="Calls For Papers">Calls For Papers</option>
+  </select>
+  <h1>Enter Details</h1>
+
+  <div id="jsonFormWrapper">
+    <form></form>
+  </div>
+  <button id="copyToClipboard" class="btn btn-primary">Copy to clipboard</button>
+
+  <script type="text/javascript" src="/json_form/deps/jquery.min.js"></script>
+  <script type="text/javascript" src="/json_form/deps/underscore.js"></script>
+  <script type="text/javascript" src="/json_form/deps/opt/jsv.js"></script>
+  <script type="text/javascript" src="/json_form/lib/jsonform.js"></script>
+  <script>
+   
+    const jsonFormWrapperElement = document.getElementById("jsonFormWrapper");
+
+    function jsonFormSchemaNormalizer(oldSchema) {
+      const normalizedJSONSchema = structuredClone(oldSchema);
+
+      normalizedJSONSchema?.required?.forEach((requiredField) => {
+        normalizedJSONSchema.properties[requiredField]["required"] = true;
+      });
+
+      normalizedJSONSchema.required = undefined;
+      delete normalizedJSONSchema.required;
+
+      const dateFields = ["start_date", "end_date", "calls_for_papers_deadline"];
+      dateFields.forEach(field => {
+        if (normalizedJSONSchema.properties[field]) {
+          normalizedJSONSchema.properties[field]["format"] = "date";
+          normalizedJSONSchema.properties[field]["pattern"] = "^[0-9]{4}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$";
+        }
+      });
+
+      if (normalizedJSONSchema.properties["multiday_schedule"]) {
+      normalizedJSONSchema.properties["multiday_schedule"]["items"] = {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "start_time": {
+              "type": "string",
+              "title": "Start time"
+            },
+            "title": {
+              "type": "string",
+              "title": "Title"
+            }
+          }
+        }
+      };
+    }
+
+    return normalizedJSONSchema;
+    }
+
+    document.getElementById("schema-selector").addEventListener("change", (event) => {
+      const schemaName = event.target.value;
+
+      jsonFormWrapperElement.innerHTML = "";
+
+      const formElement = document.createElement("form");
+      jsonFormWrapperElement.appendChild(formElement);
+
+      $(formElement).jsonForm({
+        schema: jsonFormSchemaNormalizer(SCHEMAS[schemaName]),
+        onSubmit: function (errors, values) {
+          console.log({ errors });
+          if (errors) {
+            for (const error of errors) {
+              const field = $('[name="' + error.path + '"]');
+              field.addClass('error');
+              field.attr('title', error.message);
+            }
+            $('#res').html('<p>Please correct the highlighted errors.</p>');
+          }
+          else {
+            const jsonValues = JSON.stringify(values, null, 2);
+            window.jsonValues = jsonValues;
+            $('#res').html('<pre>' + jsonValues + '</pre>');
+          }
+        }
+      })
+
+    });
+
+    document.getElementById("copyToClipboard").addEventListener("click", () => {
+      navigator.clipboard.writeText(window.jsonValues);
+    });
+  </script>
+  <div id="res" class="alert"></div>
+</body>
+
+</html>
