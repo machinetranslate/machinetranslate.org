@@ -21,12 +21,6 @@
     "end_date":{
       "type":"string"
     },
-    "title":{
-      "type":"string"
-    },
-    "date":{
-      "type":"string"
-    },
     "more_paragraphs":{
       "type":"array",
       "items":{
@@ -72,18 +66,35 @@
       "minItems":1
     },
     "important_dates":{
-      "type":"object",
+      "type":"array",
       "items":{
-        "type":"string"
+        "type":"object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "date":{
+            "type": "string",
+            "format": "date"
+          }
+        }
       },
       "minItems":1
     },
-    "speakers": {
-      "type": "object",
-      "additionalProperties": {
-        "type": "array",
-        "items": {
-          "type": "string"
+    "speakers":{
+      "type":"array",
+      "items":{
+        "type":"object",
+        "properties":{
+          "type":{
+            "type":"string"
+          },
+          "about":{
+            "type":"array",
+            "items":{
+              "type":"string"
+            }
+          }
         }
       },
       "minItems":1
@@ -121,17 +132,30 @@
     "multiday_schedule":{
       "type":"array",
         "items":{
-          "type":"object",
-          "items":{
-            "type":"string"
+          "type":"array",
+          "properties":{
+            "start_time":{
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            }
           }
       },
       "minItems":1
     },
     "one_day_schedule":{
-      "type":"object",
+      "type":"array",
       "items":{
-        "type":"string"
+        "type":"object",
+        "properties":{
+          "start_time":{
+            "type":"string"
+          },
+          "title":{
+            "type":"string"
+          }
+        }
       },
       "minItems":1
     },

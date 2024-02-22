@@ -27,19 +27,40 @@
       "link2",
       "link3"
     ],
-     "important_dates": {
-         "name": "date",
-         "name_2": "date"
-       },
-     "speakers": 
-       {
-         "type of the speakers": [
-           "Information about each speaker: Name, Institution",
-           "",
-           "",
-           ""
-         ]
-       },
+    "important_dates": [
+      {
+        "name": "",
+        "date": ""
+      },
+      {
+        "name": "",
+        "date": ""
+      },
+      {
+        "name": "",
+        "date": ""
+      }
+     ],
+     "speakers": [
+      {
+        "type": "Type of the speaker: Panellist/Invited/Organizer, etc.",
+        "about": [
+          "Information about each speaker: Name and Institution",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "Type of the speaker: Panellist/Invited/Organizer, etc.",
+        "about": [
+          "Information about each speaker: Name and Institution",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
      "workshops": [
        {
          "name": "",
@@ -54,35 +75,38 @@
      },
      "multiday_schedule": [ 
       "Only given if the schedule is for more than one day",
-         {
-           "start date": "title",
-           "start date_2": "title",
-           "start date_3": "title",
-           "start date_4": "title",
-           "start date_5": "title",
-           "start date_6": "title",
-           "start date_7": "title"
-         },
-         {
-          "start date": "title",
-          "start date_2": "title",
-          "start date_3": "title",
-          "start date_4": "title",
-          "start date_5": "title",
-          "start date_6": "title",
-          "start date_7": "title"
+      [
+        {
+          "start_date": "",
+          "title": ""
+        },
+        {
+          "start_date": "",
+          "title": ""
+        }
+      ],
+      [
+        {
+          "start_date": "",
+          "title": ""
+        },
+        {
+          "start_date": "",
+          "title": ""
+        }
+      ]
+     ],
+     "one_day_schedule":[
+        "Only given if the schedule is for one day only",
+        {
+          "start_time": "",
+          "title": ""
+        },
+        {
+          "start_time": "",
+          "title": ""
         }
      ],
-     "one_day_schedule":{
-        "Only given if the schedule is for one day only": "",
-        "start date": "title",
-        "start date_2": "title",
-        "start date_3": "title",
-        "start date_4": "title",
-        "start date_5": "title",
-        "start date_6": "title",
-        "start date_7": "title"
-      },
      "calls_for_papers": [
        {
          "title": "",

@@ -27,12 +27,20 @@
       "link2",
       "link3"
     ],
-    "important_dates":{
-        "name": "date",
-        "name_2": "date",
-        "name_3": "date",
-        "name_4": "date"
+    "important_dates": [
+      {
+        "name": "",
+        "date": ""
       },
+      {
+        "name": "",
+        "date": ""
+      },
+      {
+        "name": "",
+        "date": ""
+      }
+     ],
     "shared_tasks": [
       {
         "name": "The name of the task",
@@ -105,35 +113,38 @@
     ],
     "multiday_schedule": [ 
       "Only given if the schedule is for more than one day",
-         {
-           "start date": "title",
-           "start date_2": "title",
-           "start date_3": "title",
-           "start date_4": "title",
-           "start date_5": "title",
-           "start date_6": "title",
-           "start date_7": "title"
-         },
-         {
-          "start date": "title",
-          "start date_2": "title",
-          "start date_3": "title",
-          "start date_4": "title",
-          "start date_5": "title",
-          "start date_6": "title",
-          "start date_7": "title"
+      [
+        {
+          "start_date": "",
+          "title": ""
+        },
+        {
+          "start_date": "",
+          "title": ""
+        }
+      ],
+      [
+        {
+          "start_date": "",
+          "title": ""
+        },
+        {
+          "start_date": "",
+          "title": ""
+        }
+      ]
+     ],
+     "one_day_schedule":[
+        "Only given if the schedule is for one day only",
+        {
+          "start_time": "",
+          "title": ""
+        },
+        {
+          "start_time": "",
+          "title": ""
         }
      ],
-     "one_day_schedule":{
-        "Only given if the schedule is for one day only": "",
-        "start date": "title",
-        "start date_2": "title",
-        "start date_3": "title",
-        "start date_4": "title",
-        "start date_5": "title",
-        "start date_6": "title",
-        "start date_7": "title"
-      },
     "results": [
       {
         "full_results": {

@@ -16,11 +16,20 @@
      "links": [
       "https://2024.amta.org/"
      ],
-     "important_dates": {
-       "Submission deadline": "2024-06-06",
-       "Notification of acceptance": "2024-07-18",
-       "Final “camera-ready” papers for proceedings": "2024-09-16"
-     }
+     "important_dates": [
+      {
+        "name": "Submission deadline",
+        "date": "2024-06-06"
+      },
+      {
+        "name": "Notification of acceptance",
+        "date": "2024-07-18"
+      },
+      {
+        "name": "Final “camera-ready” papers for proceedings",
+        "date": "2024-09-16"
+      }
+     ]
    },
    {
      "name": "AmericasNLP 2024",
@@ -46,12 +55,17 @@
          "name": "A shared task on morphological adaptation to generate educational examples."
        }
      ],
-     "speakers": {
-       "Keynote speakers": [
+     "speakers": [
+      {
+       "type": "Keynote speakers",
+       "about": [
          "Graham Neubig",
          "Jaime Pérez González"
-       ],
-       "Organisers": [
+       ]
+      },
+      {
+        "type": "Organisers",
+        "about": [
          "Manuel Mager",
          "Abteen Ebrahimi",
          "Shruti Rijhwani",
@@ -60,14 +74,30 @@
          "Robert Pugh",
          "Katharina Kann"
        ]
-     },
-     "important_dates": {
-       "Start of the anonymity period": "2024-02-10",
-       "Submission deadline": "2024-03-10",
-       "Notification of acceptance": "2024-04-24",
-       "Camera ready papers": "2024-04-24",
-       "Workshop": "2024-06-20"
      }
+    ],
+     "important_dates": [
+      {
+        "name": "Start of the anonymity period",
+        "date": "2024-02-10"
+      },
+      {
+        "name": "Submission deadline",
+        "date": "2024-03-10"
+      },
+      {
+        "name": "Notification of acceptance",
+        "date": "2024-04-24"
+      },
+      {
+        "name": "Camera ready papers",
+        "date": "2024-04-24"
+      },
+      {
+        "name": "Workshop",
+        "date": "2024-06-20"
+      }
+     ]
    },
    {
      "name": "IWSLT 2024",
@@ -85,16 +115,36 @@
      "links": [
        "https://iwslt.org/2024/"
      ],
-     "important_dates": {
-       "Release of shared task training and developer data": "2024-01-15",
-       "Evaluation": "2024-04-01",
-       "Paper submission": "2024-04-29",
-       "Notification of acceptance": "2024-06-04",
-       "Camera ready deadline": "2024-06-24",
-       "Pre-recorded video due": "2024-07-22"
-     },
-     "speakers": {
-       "Organizers": [
+     "important_dates": [
+      {
+        "name": "Release of shared task training and developer data",
+        "date": "2024-01-15"
+      },
+      {
+        "name": "Evaluation",
+        "date": "2024-04-01"
+      },
+      {
+        "name": "Paper submission",
+        "date": "2024-04-29"
+      },
+      {
+        "name": "Notification of acceptance",
+        "date": "2024-06-04"
+      },
+      {
+        "name": "Camera ready deadline",
+        "date": "2024-06-24"
+      },
+      {
+        "name": "Pre-recorded video due",
+        "date": "2024-07-22"
+      }
+     ],
+     "speakers": [
+     {
+       "type": "Organisers",
+       "about": [
          "Marine Carpuat, University of Maryland, United States",
          "Marcello Federico, AWS AI Labs, United States",
          "Alex Waibel, CMU, United States",
@@ -103,7 +153,8 @@
          "Elizabeth Salesky, JHU, United States",
          "Atul Kr. Ojha, University of Galway, Ireland"
        ]
-     },
+     }
+    ],
      "shared_tasks": [
        {
          "name": "Speech-to-speech track",
@@ -161,7 +212,6 @@
    {
      "name": "EAMT 2024",
      "id": "eamt-2024",
-     "title": "EAMT 2024",
      "description": "Conference of the European Association of Machine Translation",
      "calls_for_papers_deadline": "2024-03-08",
      "location": {
@@ -177,22 +227,64 @@
      "links": [
        "https://eamt2024.sheffield.ac.uk/home"
      ],
-     "important_dates": {
-       "Deadline for paper submission": "2024-03-08",
-       "Notification to paper authors": "2024-04-08",
-       "Camera ready deadline": "2024-04-22",
-       "Author Registration": "2024-05-08",
-       "Paper Conference": "2024-06-24",
-       "Deadline for tutorial submission": "2024-03-08",
-       "Notification of tutorial acceptance": "2024-04-08",
-       "Tutorial slides, abstract, bibliography, any other materials": "2024-05-15",
-       "Tutorial Conference": "2024-06-27",
-       "Deadline for workshop submission": "2024-01-31",
-       "Notification for workshop submission": "on a rolling basis (no later than 28th February)",
-       "Workshop Conference": "2024-05-15",
-       "Deadline for thesis submission": "2024-02-08",
-       "Award notification": "2024-03-08"
-     }
+     "important_dates": [
+      {
+       "name": "Deadline for paper submission",
+       "date": "2024-03-08"
+      },
+      {
+      "name": "Notification to paper authors",
+      "date": "2024-04-08"
+      },
+      {
+      "name": "Camera ready deadline",
+      "date": "2024-04-22"
+      },
+      {
+      "name":"Author Registration",
+      "date": "2024-05-08"
+      },
+      {
+      "name": "Paper Conference",
+      "date": "2024-06-24"
+      },
+      {
+      "name": "Deadline for tutorial submission",
+      "date": "2024-03-08"
+      },
+      {
+      "name": "Notification of tutorial acceptance",
+      "date": "2024-04-08"
+      },
+      {
+      "name": "Tutorial slides, abstract, bibliography, any other materials",
+      "date": "2024-05-15"
+      },
+      {
+      "name": "Tutorial Conference",
+      "date": "2024-06-27"
+      },
+      {
+      "name": "Deadline for workshop submission",
+      "date": "2024-01-31"
+      },
+      {
+      "name": "Notification for workshop submission",
+      "date": "on a rolling basis (no later than 28th February)"
+      },
+      {
+      "name": "Workshop Conference",
+      "date": "2024-05-15"
+      },
+      {
+      "name": "Deadline for thesis submission",
+      "date": "2024-02-08"
+      },
+      {
+      "name": "Award notification",
+      "date": "2024-03-08"
+      }
+    ]
    },
    {
      "name": "Language AI Meetup",
@@ -232,12 +324,15 @@
      "links": [
       "https://machinetranslate.org/meetup"
      ],
-     "speakers": {
-      "Panel": [
+     "speakers": [
+      {
+      "type": "Panel",
+      "about": [
         "Joern Wuebker, LILT",
         "John Tinsley, ModernMT",
         "Suzanna Sia, Johns Hopkins University"
       ]
      }
+    ]
    }
  ]

@@ -21,12 +21,6 @@
     "end_date":{
       "type":"string"
     },
-    "title":{
-      "type":"string"
-    },
-    "date":{
-      "type":"string"
-    },
     "more_paragraphs":{
       "type":"array",
       "items":{
@@ -72,10 +66,19 @@
       "minItems":1
     },
     "important_dates":{
-      "type":"object",
+      "type":"array",
       "items":{
-        "type":"string"
-        },
+        "type":"object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "date":{
+            "type": "string",
+            "format": "date"
+          }
+        }
+      },
       "minItems":1
     },
     "shared_tasks":{
@@ -159,17 +162,30 @@
     "multiday_schedule":{
       "type":"array",
         "items":{
-          "type":"object",
-          "items":{
-            "type":"string"
+          "type":"array",
+          "properties":{
+            "start_time":{
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            }
           }
       },
       "minItems":1
     },
     "one_day_schedule":{
-      "type":"object",
+      "type":"array",
       "items":{
-        "type":"string"
+        "type":"object",
+        "properties":{
+          "time":{
+            "type":"string"
+          },
+          "title":{
+            "type":"string"
+          }
+        }
       },
       "minItems":1
     },
