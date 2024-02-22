@@ -22,7 +22,8 @@ more_paragraphs:
 links:
 - https://machinetranslate.org/meetup
 speakers:
-  Panel:
+- type: Panel
+  about:
   - Joern Wuebker, LILT
   - John Tinsley, ModernMT
   - Suzanna Sia, Johns Hopkins University

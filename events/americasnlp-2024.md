@@ -26,10 +26,12 @@ shared_tasks:
 - name: A machine translation shared task on truly low-resource languages.
 - name: A shared task on morphological adaptation to generate educational examples.
 speakers:
-  Keynote speakers:
+- type: Keynote speakers
+  about:
   - Graham Neubig
   - Jaime Pérez González
-  Organisers:
+- type: Organisers
+  about:
   - Manuel Mager
   - Abteen Ebrahimi
   - Shruti Rijhwani
@@ -38,11 +40,16 @@ speakers:
   - Robert Pugh
   - Katharina Kann
 important_dates:
-  Start of the anonymity period: '2024-02-10'
-  Submission deadline: '2024-03-10'
-  Notification of acceptance: '2024-04-24'
-  Camera ready papers: '2024-04-24'
-  Workshop: '2024-06-20'
+- name: Start of the anonymity period
+  date: '2024-02-10'
+- name: Submission deadline
+  date: '2024-03-10'
+- name: Notification of acceptance
+  date: '2024-04-24'
+- name: Camera ready papers
+  date: '2024-04-24'
+- name: Workshop
+  date: '2024-06-20'
 seo:
   type: Event
   name: AmericasNLP 2024

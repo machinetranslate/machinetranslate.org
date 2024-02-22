@@ -29,10 +29,12 @@ links:
 - https://machinetranslate.org/
 - https://machinetranslate.org/
 important_dates:
-  name: '2024-12-12'
-  name_2: '2024-11-11'
-  name_5: '2024-10-20'
-  name_6: '2024-09-01'
+- name: Submission deadline
+  date: '2024-06-06'
+- name: Notification of acceptance
+  date: '2024-07-18'
+- name: Final “camera-ready” papers for proceedings
+  date: '2024-09-16'
 shared_tasks:
 - name: Some task
   url: https://machinetranslate.org/
@@ -99,21 +101,26 @@ poster_format:
 - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 multiday_schedule:
-- '10:30': Some activity
-  '11:00': Some activity
-  '11:30': Some activity
-  '12:00': Some activity
-  '12:30': Some activity
-- '10:30': Some activity
-  '11:00': Some activity
-  '11:30': Some activity
-  '12:00': Some activity
-  '12:30': Some activity
-- '10:30': Some activity
-  '11:00': Some activity
-  '11:30': Some activity
-  '12:00': Some activity
-  '12:30': Some activity
+- - start_time: '10:30'
+    title: Something
+  - start_time: '11:30'
+    title: Something
+  - start_time: '12:30'
+    title: Something
+  - start_time: '13:30'
+    title: Something
+  - start_time: '14:30'
+    title: Something
+- - start_time: '10:30'
+    title: Something
+  - start_time: '11:30'
+    title: Something
+  - start_time: '12:30'
+    title: Something
+  - start_time: '13:30'
+    title: Something
+  - start_time: '14:30'
+    title: Something
 results:
 - full_results:
     title: YouTube

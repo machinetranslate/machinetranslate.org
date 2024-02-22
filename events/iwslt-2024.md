@@ -23,14 +23,21 @@ organizer:
 links:
 - https://iwslt.org/2024/
 important_dates:
-  Release of shared task training and developer data: '2024-01-15'
-  Evaluation: '2024-04-01'
-  Paper submission: '2024-04-29'
-  Notification of acceptance: '2024-06-04'
-  Camera ready deadline: '2024-06-24'
-  Pre-recorded video due: '2024-07-22'
+- name: Release of shared task training and developer data
+  date: '2024-01-15'
+- name: Evaluation
+  date: '2024-04-01'
+- name: Paper submission
+  date: '2024-04-29'
+- name: Notification of acceptance
+  date: '2024-06-04'
+- name: Camera ready deadline
+  date: '2024-06-24'
+- name: Pre-recorded video due
+  date: '2024-07-22'
 speakers:
-  Organizers:
+- type: Organisers
+  about:
   - Marine Carpuat, University of Maryland, United States
   - Marcello Federico, AWS AI Labs, United States
   - Alex Waibel, CMU, United States
