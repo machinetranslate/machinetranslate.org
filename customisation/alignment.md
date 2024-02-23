@@ -6,18 +6,17 @@ description: Linking corresponding sentences in the input and output languages
 
 **Alignment** is the process of identifying and linking the corresponding sentences in the input and output languages.
 
-Alignment can be used to create [parallel data](/customisation/parallel-data.md).
+Alignment can be used to create [parallel data](/parallel-data).
 The aligned parallel corpora are then used to train machine translation models.
 The goal is to improve machine translation accuracy through pattern and regularity recognition in data.
 
 ## Approaches
 
-- In manual alignment, human translators align corresponding [segmented sentences](/concepts/sentence-splitting.md) in the input and output languages.
-- Rule-based approaches use linguistic rules and patterns, such as word order, syntactic properties, punctuation, and sentence boundaries.
-- The statistical models rely on statistical algorithms that find and analyse relationship patterns in comparable corpora.
+- In manual alignment, human translators align corresponding [segmented sentences](/sentence-splitting) in the input and output languages.
+- Rule-based approaches use explicit heuristic rules, such as sentence length, word order, or other patterns observed in parallel data.
+- Statistical models rely on statistical algorithms that find and analyse relationship patterns in comparable corpora.
 The statistical relationships are based on the likelihood of observing alignments in a training corpus.
-- With neural approaches, alignment is learned automatically through [neural networks](/approaches/neural-machine-translation.md#neural-networks).
-The neural models can be based on various encoder-decoder architectures, such as convolutional neural networks (CNNs), recurrent neural networks (RNNs), or [transformer](/approaches/transformers.md) models.
+- With neural approaches, alignment is predicted automatically through [neural networks](/neural-machine-translation#neural-networks) by mapping the input and output sentences into [vectors](/vector).
 
 ## Challenges
 
