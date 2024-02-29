@@ -7,8 +7,8 @@ description: Linking corresponding sentences in the input and output languages
 **Alignment** is the process of identifying and linking the corresponding sentences in the input and output languages.
 
 Alignment can be used to create [parallel data](/parallel-data).
-The aligned parallel corpora are then used to train machine translation models.
-The goal is to improve machine translation accuracy through pattern and regularity recognition in data.
+The aligned parallel corpora are then used to [train](/training) machine translation models.
+The goal is to improve machine translation accuracy by recognizing patterns and their frequency in data.
 
 ## Approaches
 
@@ -22,6 +22,8 @@ The statistical relationships are based on the likelihood of observing alignment
 
 - Aligning sentences with varying lengths, punctuation, and complex structures can be challenging for alignment algorithms.
 - Many words and phrases can have multiple meanings or form idiomatic expressions.
-Semantic ambiguity can trigger inaccurate sentence alignments. 
+Semantic ambiguity can trigger inaccurate sentence alignments.
+For example, the English idiom `to make a mountain out of a molehill` corresponds to the German phrase `aus einer Mücke einen Elefanten zu machen`, resulting in misalignment.
 - Typological similarities of languages can result in sentence pairs that share highly similar linguistic properties but have different meanings and translations.
 Similarity-based interference can lead to incorrect alignments.
+For example, the sentence `I saw a man with a telescope.` can be interpreted in two ways, leading to different translations.
