@@ -765,12 +765,11 @@ for event in EVENTS:
     end_date = datetime.strptime(event['end_date'], '%Y-%m-%d').date()
   else:
     end_date = start_date
-  
+
   # Generate SEO and location
   description = event.get('description', None)
   _location = event.get('location', {})
   location_name = _location.get('location', 'Online')
-  location_url = _location.get('url', None)
   is_online = _location.get('online', False)
   if is_online:
       location_type = 'VirtualLocation'
@@ -816,8 +815,7 @@ for event in EVENTS:
       'eventStatus': 'EventScheduled',
       'location': {
         'type': location_type,
-        'name': location_name,
-        'url': location_url
+        'name': location_name
       },
       'organizer': {
         'type': organizer_type,
@@ -865,7 +863,6 @@ for event in WMT_EVENTS:
   description = event.get('description', None)
   location = event.get('location', {})
   location_name = location.get('location', 'Online')
-  location_url = location.get('url', None)
   is_online = location.get('online', False)
   if is_online:
       location_type = 'VirtualLocation'
@@ -910,8 +907,7 @@ for event in WMT_EVENTS:
       'eventStatus': 'EventScheduled',
       'location': {
         'type': location_type,
-        'name': location_name,
-        'url': location_url
+        'name': location_name
       },
       'organizer': {
         'type': organizer_type,

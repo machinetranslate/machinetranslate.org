@@ -23,7 +23,7 @@ links:
 - https://machinetranslate.org/meetup
 speakers:
 - type: Panel
-  about:
+  speakers:
   - Joern Wuebker, LILT
   - John Tinsley, ModernMT
   - Suzanna Sia, Johns Hopkins University
@@ -38,7 +38,6 @@ seo:
   location:
     type: VirtualLocation
     name: Online
-    url: null
   organizer:
     type: Organization
     name: European Association of Machine Translation

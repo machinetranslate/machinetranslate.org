@@ -31,9 +31,6 @@
     "location":{
       "type":"object",
       "properties":{
-        "url":{
-          "type":"string"
-        },
         "online":{
           "type":"boolean"
         },
@@ -89,7 +86,7 @@
           "type":{
             "type":"string"
           },
-          "about":{
+          "speakers":{
             "type":"array",
             "items":{
               "type":"string"

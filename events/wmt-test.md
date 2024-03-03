@@ -155,7 +155,6 @@ seo:
   location:
     type: Place
     name: Armenia, Yerevan
-    url: null
   organizer:
     type: Association
     name: HayArm

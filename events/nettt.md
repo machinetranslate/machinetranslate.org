@@ -41,7 +41,6 @@ seo:
   location:
     type: Place
     name: Varna, Bulgaria
-    url: null
   organizer:
     type: Organization
     name: NeTTT

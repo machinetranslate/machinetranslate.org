@@ -31,9 +31,6 @@
     "location":{
       "type":"object",
       "properties":{
-        "url":{
-          "type":"string"
-        },
         "online":{
           "type":"boolean"
         },

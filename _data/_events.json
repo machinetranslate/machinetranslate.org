@@ -13,8 +13,7 @@
      ],
      "location": {
        "online": "true: if the event is online. Default: false",
-       "location": "Location of the event. If hybrid, add online at the end. For example, 'Banghok, Thailand and online'",
-       "url": "URL for the location where the event will happen"
+       "location": "Location of the event. If hybrid, add online at the end. For example, 'Banghok, Thailand and online'"
      },
      "organizer": {
        "type": "Association/Organization/etc.",

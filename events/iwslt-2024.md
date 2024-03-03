@@ -37,7 +37,7 @@ important_dates:
   date: '2024-07-22'
 speakers:
 - type: Organisers
-  about:
+  speakers:
   - Marine Carpuat, University of Maryland, United States
   - Marcello Federico, AWS AI Labs, United States
   - Alex Waibel, CMU, United States
@@ -71,7 +71,6 @@ seo:
   location:
     type: Hybrid
     name: Bangkok, Thailand and online
-    url: null
   organizer:
     type: null
     name: null

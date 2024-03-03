@@ -41,8 +41,8 @@
        "location": "Mexico City, Mexico"
      },
      "organizer": {
-       "type": "Person",
-       "url": "http://turing.iimas.unam.mx/americasnlp/st.html"
+       "type": "Organization",
+       "url": "http://turing.iimas.unam.mx/"
      },
      "links": [
        "http://turing.iimas.unam.mx/americasnlp/2024_workshop.html"
@@ -58,14 +58,14 @@
      "speakers": [
       {
        "type": "Keynote speakers",
-       "about": [
+       "speakers": [
          "Graham Neubig",
          "Jaime Pérez González"
        ]
       },
       {
         "type": "Organisers",
-        "about": [
+        "speakers": [
          "Manuel Mager",
          "Abteen Ebrahimi",
          "Shruti Rijhwani",
@@ -144,7 +144,7 @@
      "speakers": [
      {
        "type": "Organisers",
-       "about": [
+       "speakers": [
          "Marine Carpuat, University of Maryland, United States",
          "Marcello Federico, AWS AI Labs, United States",
          "Alex Waibel, CMU, United States",
@@ -327,7 +327,7 @@
      "speakers": [
       {
       "type": "Panel",
-      "about": [
+      "speakers": [
         "Joern Wuebker, LILT",
         "John Tinsley, ModernMT",
         "Suzanna Sia, Johns Hopkins University"

@@ -18,8 +18,8 @@ description: Machine translation for indigenous languages of the Americas
 start_date: '2024-06-20'
 location: Mexico City, Mexico
 organizer:
-  type: Person
-  url: http://turing.iimas.unam.mx/americasnlp/st.html
+  type: Organization
+  url: http://turing.iimas.unam.mx/
 links:
 - http://turing.iimas.unam.mx/americasnlp/2024_workshop.html
 shared_tasks:
@@ -27,11 +27,11 @@ shared_tasks:
 - name: A shared task on morphological adaptation to generate educational examples.
 speakers:
 - type: Keynote speakers
-  about:
+  speakers:
   - Graham Neubig
   - Jaime Pérez González
 - type: Organisers
-  about:
+  speakers:
   - Manuel Mager
   - Abteen Ebrahimi
   - Shruti Rijhwani
@@ -61,11 +61,10 @@ seo:
   location:
     type: Place
     name: Mexico City, Mexico
-    url: null
   organizer:
-    type: Person
+    type: Organization
     name: null
-    url: http://turing.iimas.unam.mx/americasnlp/st.html
+    url: http://turing.iimas.unam.mx/
 
 ---
 ## Call for papers
