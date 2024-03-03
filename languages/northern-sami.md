@@ -12,8 +12,8 @@ codes:
 - sme
 names:
 - Northern Sami
-- "North S\xE1mi"
-- "Northern S\xE1mi"
+- North Sámi
+- Northern Sámi
 family:
 - slug: finno-ugric
   name: Finno-Ugric

@@ -1,0 +1,8 @@
+
+[   "Only Calls For Papers for events not listed in events.json (non-machine translation events) should be added here, e.g. ACL.  For events we cover, there are properties in events.json.",
+    {
+        "name": "Name of the event",
+        "callsForPapersDeadline": "The deadline",
+        "url": "The URL to the event"
+    }
+]

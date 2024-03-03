@@ -11,7 +11,7 @@ codes:
 - frp
 names:
 - Arpitan
-- "Franco-Proven\xE7al"
+- Franco-Provençal
 family:
 - slug: romance
   name: Romance

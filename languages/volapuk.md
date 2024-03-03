@@ -5,20 +5,20 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: "Volap\xFCk"
-description: "Machine translation for Volap\xFCk"
+title: Volapük
+description: Machine translation for Volapük
 codes:
 - vo
 - vol
 names:
-- "Volap\xFCk"
+- Volapük
 family: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
 seo:
-  name: "Machine translation for Volap\xFCk"
+  name: Machine translation for Volapük
   type: Language
 
 ---

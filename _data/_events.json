@@ -1,0 +1,130 @@
+[
+   {
+     "name": "Name of the event",
+     "id": "The slug for the event: Don't provide 'id' if a dedicated page doesn't need to be created for the event",
+     "description": "Description of the event",
+     "calls_for_papers_deadline": "Date format: yyyy-mm-dd, If the event has a calls For Papers",
+     "start_date": "Date format: yyyy-mm-dd",
+     "end_date": "Date format: yyyy-mm-dd",
+     "more_paragraphs": [
+       "About the event",
+       "About the event",
+       "About the event"
+     ],
+     "location": {
+       "online": "true: if the event is online. Default: false",
+       "location": "Location of the event. If hybrid, add online at the end. For example, 'Banghok, Thailand and online'"
+     },
+     "organizer": {
+       "type": "Association/Organization/etc.",
+       "name": "Name of the organization/association",
+       "url": "URL about the organizer"
+     },
+     "links": [
+      "Any additional links should be added here like the example below",
+      "link1",
+      "link2",
+      "link3"
+    ],
+    "important_dates": [
+      {
+        "name": "",
+        "date": ""
+      },
+      {
+        "name": "",
+        "date": ""
+      },
+      {
+        "name": "",
+        "date": ""
+      }
+     ],
+     "speakers": [
+      {
+        "type": "Type of the speaker: Panellist/Invited/Organizer, etc.",
+        "about": [
+          "Information about each speaker: Name and Institution",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "Type of the speaker: Panellist/Invited/Organizer, etc.",
+        "about": [
+          "Information about each speaker: Name and Institution",
+          "",
+          "",
+          ""
+        ]
+      }
+    ],
+     "workshops": [
+       {
+         "name": "",
+         "description": ""
+       }
+     ],
+     "shared_tasks": {
+        "name": "url",
+        "name_2": "url",
+        "name_3": "url",
+        "name_4": "url"
+     },
+     "multiday_schedule": [ 
+      "Only given if the schedule is for more than one day",
+      [
+        {
+          "start_date": "",
+          "title": ""
+        },
+        {
+          "start_date": "",
+          "title": ""
+        }
+      ],
+      [
+        {
+          "start_date": "",
+          "title": ""
+        },
+        {
+          "start_date": "",
+          "title": ""
+        }
+      ]
+     ],
+     "one_day_schedule":[
+        "Only given if the schedule is for one day only",
+        {
+          "start_time": "",
+          "title": ""
+        },
+        {
+          "start_time": "",
+          "title": ""
+        }
+     ],
+     "calls_for_papers": [
+       {
+         "title": "",
+         "topics": [
+           "",
+           "",
+           "",
+           ""
+         ]
+       },
+       {
+         "title": "",
+         "topics": [
+           "",
+           "",
+           "",
+           ""
+         ]
+       }
+     ]
+   }
+]

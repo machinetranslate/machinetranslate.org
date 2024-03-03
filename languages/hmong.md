@@ -30,7 +30,7 @@ codes:
 names:
 - Hmong
 - Mong
-- "Miao\u2013Yao"
+- Miao–Yao
 variant_names:
 - Southern Mashan Hmong
 - Central Huishui Hmong
@@ -42,7 +42,7 @@ variant_names:
 - Luopohe Hmong
 - Central Mashan Hmong
 - Mong Northern Mashan Hmong
-- "Hmong D\xF4"
+- Hmong Dô
 - Western Mashan Hmong
 - Southern Guiyang Hmong
 - Hmong Shua

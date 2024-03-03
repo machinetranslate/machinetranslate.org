@@ -13,7 +13,7 @@ names:
 - Northwestern Otomi
 variant_names:
 - Mezquital Otomi
-- "Quer\xE9taro Otomi"
+- Querétaro Otomi
 family:
 - slug: oto-manguean
   name: Oto-Manguean

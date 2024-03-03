@@ -9,54 +9,97 @@ seo:
     name: List of machine translation events
 ---
 
-<section id="mt-summit">
-  <h2>MT Summit</h2>
-  <details>
-    <summary>Events</summary>
-  <table>
-    <tr>
-      <td><a href="/mtsummit2023">MT Summit 2023</a></td>
-      <td>The nineteenth Machine Translation Summit</td>
-    </tr>
-    <tr>
-      <td><a href="/mtsummit2021">MT Summit 2021</a></td>
-      <td>The eighteenth Machine Translation Summit</td>
-    </tr>
-    <tr>
-      <td><a href="/mtsummit2019">MT Summit 2019</a></td>
-      <td>The seventeenth Machine Translation Summit</td>
-    </tr>
-    <tr>
-      <td><a href="/mtsummit2017">MT Summit 2017</a></td>
-      <td>The sixteenth Machine Translation Summit</td>
-    </tr>
-    <tr>
-      <td><a href="/mtsummit2015">MT Summit 2015</a></td>
-      <td>The fifteenth Machine Translation Summit</td>
-    </tr>
-    <tr>
-      <td><a href="/mtsummit2013">MT Summit 2013</a></td>
-      <td>The fourteenth Machine Translation Summit</td>
-    </tr>
-  </table>
-  </details>
-</section>
+{% assign amta_events = site.data.events | where_exp: "event", "event.name contains 'AMTA'" %}
+{% assign eamt_events = site.data.events | where_exp: "event", "event.name contains 'EAMT'" %}
+{% assign mt_summit_events = site.data.events | where_exp: "event", "event.name contains 'MT Summit'" %}
 
-## 2024 events
+{% if amta_events.size > 0 %}
+### AMTA
+<details>
+<summary>Events</summary>
 
+{% capture amta_content %}
+{% for event in amta_events %}
+{% if event.id %}
+- [{{ event.name }}](/{{ event.id }})
+{%- else -%}
+- **{{ event.name }}**
+{%- endif -%}{% endfor %}
+- [AMTA 2023](/amta-2023)
+- [AMTA 2022](/amta-2022)
+- [AMTA 2020](/amta-2020)
+{% endcapture %}
+
+{{ amta_content | markdownify }}
+
+</details>
+{% endif %}
+
+
+{% if eamt_events.size > 0 %}
+### EAMT
+<details>
+  <summary>Events</summary>
+
+{% capture eamt_content %}
+{% for event in eamt_events %}
+{% if event.id %}
+- [{{ event.name }}](/{{ event.id }})
+{%- else -%}
+- **{{ event.name }}**{%- endif -%}{% endfor %}
+- [EAMT 2023](/eamt-2023)
+- [EAMT 2022](/eamt-2022)
+- [EAMT 2020](/eamt-2020)
+{% endcapture %}
+
+{{ eamt_content | markdownify }}
+
+</details>
+{% endif %}
+
+{% if eamt_events.size > 0 %}
+### MT Summit
+<details>
+  <summary>Events</summary>
+
+{% capture mtsummit_content %}
+{% for event in mt_summit_events %}
+{% if event.id %}
+- [{{ event.name }}](/{{ event.id }})
+{% else %}
+- **{{ event.name }}**
+{%- endif -%}{% endfor %}
+- [MT Summit 2023](/mtsummit2023)
+- [MT Summit 2021](/mtsummit2021)
+- [MT Summit 2019](/mtsummit2019)
+- [MT Summit 2017](/mtsummit2017)
+- [MT Summit 2015](/mtsummit2015)
+- [MT Summit 2013](/mtsummit2013)
+{% endcapture %}
+
+{{ mtsummit_content | markdownify }}
+
+</details>
+{% endif %}
+
+{% assign all_events = site.data.events | concat: site.data.wmt_events %}
+{% assign events_by_year = all_events | sort: "start_date" | reverse | group_by_exp: "event", "event.start_date | date: '%Y'" %}
+{% assign current_date = site.time | date: "%Y-%m-%d" %}
+
+{% for year in events_by_year %}
+## {{ year.name }} events
+
+{% assign sorted_events = year.items | sort: "start_date" | reverse %} 
 | Date | Event | Location |
 | --- | --- | --- |
-| 2 December | Language AI Meetup | Zurich, Switzerland |
-| 12 - 13 November | [**WMT24**](/wmt24) | Florida |
-| 30 September | [**AMTA 2024**](/amta2024) | Chicago, Illinois |
-| 16 September | Language AI Meetup | Zurich, Switzerland |
-| 15 - 16 August | [**IWSLT 2024**](/iwslt2024) | Bangkok, Thailand |
-| 3 - 6 July | [**NETTT 2024**](/nettt2024) | Varna, Bulgaria |
-| June | [**AmericasNLP**](/americasnlp2024) | Mexico City, Mexico |
-| 24 - 27 June | [**EAMT 2024**](/eamt2024) | Sheffield, England |
-| 27 May | **Language AI Meetup** | Zurich, Switzerland |
-| 16 - 17 April | [**TAUS in Tokyo**](/taus-in-tokyo.md) | Tokyo, Japan |
-| 8 February | [Machine translation meetup](/machine-translation-meetup-4) | online |
+{% for event in sorted_events %}
+  {%- capture startDay -%}{{- event.start_date | date: "%d" -}}{%- endcapture -%}
+  {%- capture endDayMonth %}{{- event.end_date | date: "%d %B" -}}{% endcapture -%}{%- if event.end_date -%}{%- if event.start_date != event.end_date -%}
+  {%- capture date_range -%}{{ startDay }} - {{ endDayMonth }}{%- endcapture -%}{%- else -%}
+  {%- capture date_range -%}{{ event.start_date | date: "%d %B" }}{%- endcapture -%}{%- endif -%}{%- else -%}
+  {%- capture date_range -%}{{ event.start_date | date: "%d %B" }}{%- endcapture -%}{%- endif -%}
+| {{ date_range }} | {% if event.id %}{% if event.start_date > current_date %}**[{{ event.name }}](/{{ event.id }})**{% else %}[{{ event.name }}](/{{ event.id }}){% endif %}{% else %}{% if event.start_date > current_date %}**{{ event.name }}**{% else %}{{ event.name }}{% endif %}{% endif %} | {% if event.location.online %}Online{% else %}{{ event.location.location }}{% endif %} | 
+{% endfor %}{% endfor %}
 
 ## 2023 events
 
@@ -64,9 +107,9 @@ seo:
 | --- | --- | --- |
 | 6 - 7 December | [**WMT23**](/wmt23) | Singapore |
 | 4 December | [Language AI Meetup](/zurich-14) | Zurich, Switzerland |
-| 8 November | [AMTA 2023](/amta2023) | online |
+| 8 November | [AMTA 2023](/amta-2023) | online |
 | 15 November | [At a loss with technology? Some current research initiatives to assist (or even replace) interpreters](/cts-interpreters) | online |
-| 8 November | [AMTA 2023](/amta2023) | online |
+| 8 November | [AMTA 2023](/amta-2023) | online |
 | 18 October | [The Importance of Data Anonymization to Build Ethical AI](/data-anonymization-ethical-ai) | online |
 | 4 - 6 October | [TAUS Annual Conference 2023](/taus2023) | Salt Lake City, Utah |
 | 18 September | [Machine Translation Meetup 13](/zurich-13) | Zurich, Switzerland |
@@ -79,7 +122,7 @@ seo:
 | 9 - 14 July | [AmericasNLP](/americasnlp2023) | Toronto, Canada |
 | 15 June | [The Future of Language Related AI for Enterprises](/future-language-ai-enterprise) | online |
 | 15 June | [AT4SSL 2023](/at4ssl2023) | Tampere, Finland |
-| 12 - 15 June | [EAMT 2023](/eamt2023) | Tampere, Finland |
+| 12 - 15 June | [EAMT 2023](/eamt-2023) | Tampere, Finland |
 | 5 - 9 June | [MTMA 2023](/mtma2023) | Fairfax, Virginia |
 | 2 - 6 May | [LoResMT 2023](/loresmt2023) | Dubrovnik, Croatia |
 | 25 April | [Rise of the Machines: Balancing Language-Related AI Opportunities and Risks](/ai-opportunities-and-risk) | online |
@@ -114,14 +157,14 @@ seo:
 | 30 September | [MUMTTT 2022](/mumttt2022) | Malaga, Spain |
 | 28 September | [AAMT Seminar](/aamt-seminar-1) | online |
 | 16 September | [CoCo4MT 2022](/coco4mt-1) | Orlando, Florida |
-| 12 - 16 September | [AMTA 2022](/amta2022) | Orlando, Florida |
+| 12 - 16 September | [AMTA 2022](/amta-2022) | Orlando, Florida |
 | 5 - 10 September | [MT Marathon](/mtm2022) | Prague, Czech Republic |
 | 19 August | [Workshop on Pronouns and Machine Translation](/pronouns-and-mt-2022) | online |
 | 18 - 22 July | [MT Marathon in the Americas (MTMA)](/mtma2022) | Redmond, Washington |
 | 15 July | [Automatic Simultaneous Translation 3](/autosimtrans2022) | Seattle, Washington |
 | 2 - 6 July | [NeTTT Conference](/nettt2022) | Rhodes, Greece |
 | 13 June | [Machine Translation Meetup 10](/zurich-10) | Zurich, Switzerland |
-| 1 - 3 June | [EAMT 2022](/eamt2022) | Ghent, Belgium |
+| 1 - 3 June | [EAMT 2022](/eamt-2022) | Ghent, Belgium |
 | 26 - 27 May | [IWSLT 2022](/iwslt2022) | Dublin, Ireland |
 | 16 - 17 May | Fraud: [ICMTCS 2022: 16. International Conference on Machine Translation and Cognitive Science](#icmtcs) | online |
 | 11 May | [Machine translation meetup](/machine-translation-meetup-1) | Menlo Park, California |
@@ -158,9 +201,9 @@ seo:
 | 4 December | [WAT 2020](/wat2020) | online |
 | 2 December | [AAMT 2020](/aamt2020) | online |
 | 10 - 11 November | [**WMT20**](/wmt20) | online |
-| 3 - 5 November | [EAMT 2020](/eamt2022) | Lisbon, Portugal |
+| 3 - 5 November | [EAMT 2020](/eamt-2022) | Lisbon, Portugal |
 | 2 November | [Machine Translation Meetup 8](/zurich-8) | Zurich, Switzerland |
-| 5 - 9 October | [AMTA 2020](/amta2020) | online |
+| 5 - 9 October | [AMTA 2020](/amta-2020) | online |
 | 10 July | Automatic Simultaneous Translation 1 | Seattle, Washington |
 | 19 May | [Machine Translation Meetup 7](/zurich-7) | online |
 | 3 February | [Machine Translation Meetup 6](/zurich-6) | Zurich, Switzerland |

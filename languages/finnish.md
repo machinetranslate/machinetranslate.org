@@ -15,7 +15,7 @@ codes:
 names:
 - Finnish
 variant_names:
-- "Me\xE4nkieli"
+- Meänkieli
 - Kven
 family:
 - slug: finno-ugric

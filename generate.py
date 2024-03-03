@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 import json
 import yaml
-from unidecode import unidecode
+from datetime import datetime
 from os.path import exists
+
+from jsonschema import validate
+from unidecode import unidecode
 
 
 SCRIPTS = None
@@ -10,6 +13,12 @@ LANGUAGES = None
 APIS = None
 LANGUAGE_FAMILIES = None
 QUALITY_ESTIMATION = None
+EVENTS = None
+EVENTS_SCHEMA = None
+WMT_EVENTS = None
+WMT_EVENTS_SCHEMA = None
+CALLS_FOR_PAPERS = None
+CALLS_FOR_PAPERS_SCHEMA = None
 
 
 ### Read scripts
@@ -43,6 +52,27 @@ with open('_data/aggregators.json', 'r', encoding='utf-8') as stream:
 ### Read quality estimation companies
 with open ('_data/quality_estimation.json', 'r', encoding='utf-8') as stream:
   QUALITY_ESTIMATION = json.load(stream)
+
+### Read events and events schema
+with open ('_data/events.json', 'r', encoding='utf-8') as f:
+  EVENTS = json.load(f)
+
+with open('_data/_events_schema.json', 'r', encoding='utf-8') as f:
+  EVENTS_SCHEMA = json.load(f)
+
+### Read WMT events and WMT events schema
+with open ('_data/wmt_events.json', 'r', encoding='utf-8') as f:
+  WMT_EVENTS = json.load(f)
+
+with open('_data/_wmt_events_schema.json', 'r', encoding='utf-8') as f:
+  WMT_EVENTS_SCHEMA = json.load(f)
+
+### Read external Calls For Papers and Calls For Papers schema
+with open ('_data/calls_for_papers.json', 'r', encoding='utf-8') as f:
+  CALLS_FOR_PAPERS = json.load(f)
+
+with open('_data/_calls_for_papers_schema.json', 'r', encoding='utf-8') as f:
+  CALLS_FOR_PAPERS_SCHEMA = json.load(f)
 
 def base_language_code(locale_code):
   locale_code = locale_code.replace('_', '-')
@@ -273,7 +303,7 @@ for api in APIS:
   with open(filepath, 'w', encoding='utf-8') as f:
     f.write(f'''\
 ---
-{ yaml.dump(frontmatter, sort_keys=False) }
+{ yaml.dump(frontmatter, sort_keys=False, allow_unicode=True) }
 ---
 { content }
 ''')
@@ -323,7 +353,7 @@ for code in LANGUAGE_FAMILIES:
   with open(filepath, 'w', encoding='utf-8') as f:
     f.write(f'''\
 ---
-{ yaml.dump(frontmatter, sort_keys=False) }
+{ yaml.dump(frontmatter, sort_keys=False, allow_unicode=True) }
 ---
 { content }
 ''')
@@ -353,7 +383,6 @@ API_SUPPORTED_LANGUAGE_BASE_CODES = supported_language_base_codes(APIS)
 QE_API_SUPPORTED_LANGUAGE_BASE_CODES = supported_language_base_codes(QUALITY_ESTIMATION)
 for language in LANGUAGES:
   code = language['codes'][0]
-
   if not isinstance(language['codes'], list):
     raise Exception(language)
 
@@ -430,7 +459,7 @@ for language in LANGUAGES:
   with open(filepath, 'w', encoding='utf-8') as f:
     f.write(f'''\
 ---
-{ yaml.dump(frontmatter, sort_keys=False) }
+{ yaml.dump(frontmatter, sort_keys=False, allow_unicode=True) }
 ---
 { content }
 ''')
@@ -537,7 +566,7 @@ for tms in INTEGRATIONS:
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(f'''\
 ---
-{ yaml.dump(frontmatter, sort_keys=False) }
+{ yaml.dump(frontmatter, sort_keys=False, allow_unicode=True) }
 ---
 { content }
 ''')
@@ -599,7 +628,7 @@ for a in AGGREGATORS:
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(f'''\
 ---
-{ yaml.dump(frontmatter, sort_keys=False) }
+{ yaml.dump(frontmatter, sort_keys=False, allow_unicode=True) }
 ---
 { content }
 ''')
@@ -715,7 +744,202 @@ for estimation in QUALITY_ESTIMATION:
   with open(filepath, 'w', encoding='utf-8') as f:
     f.write(f'''\
 ---
-{ yaml.dump(frontmatter, sort_keys=False) }
+{ yaml.dump(frontmatter, sort_keys=False, allow_unicode=True) }
 ---
 { content }
 ''')
+
+  
+### Generate Events
+for event in EVENTS:
+
+  # Validate events.json entries
+  validate(instance=event, schema=EVENTS_SCHEMA)
+
+  name = event['name']
+
+  # startDate is necessary for listing the event on events.md
+  start_date = datetime.strptime(event['start_date'], '%Y-%m-%d').date()
+
+  if event.get('end_date', None):
+    end_date = datetime.strptime(event['end_date'], '%Y-%m-%d').date()
+  else:
+    end_date = start_date
+
+  # Generate SEO and location
+  description = event.get('description', None)
+  _location = event.get('location', {})
+  location_name = _location.get('location', 'Online')
+  is_online = _location.get('online', False)
+  if is_online:
+      location_type = 'VirtualLocation'
+      event_attendance_mode = 'OnlineEventAttendanceMode'
+  elif 'online' in location_name.lower():
+      location_type = 'Hybrid'
+      event_attendance_mode = 'MixedEventAttendanceMode'
+  else:
+      location_type = 'Place'
+      event_attendance_mode = 'OfflineEventAttendanceMode'
+
+  if event.get('organizer', None):
+    organizer_name = event['organizer'].get('name', None)
+    organizer_url = event['organizer'].get('url', None)
+    organizer_type = event['organizer'].get('type', None)
+
+  date = f'from {datetime.strftime(start_date, '%d') } to {datetime.strftime(end_date, '%d %B, %Y')}' if start_date != end_date else f'on {datetime.strftime(start_date, '%d %B, %Y')}'
+  location = f'in {location_name}' if location_name.lower() != 'online' else location_name
+  future_tense_opening_paragraph = f'The {description} (<strong>{name}</strong>) will take place {location} {date}.'
+  past_tense_opening_paragraph = f'The {description} (<strong>{name}</strong>) took place {location} {date}.'
+
+  
+
+  frontmatter = {
+    'autogenerated': True,
+    'autogenerated_from': 'events.json',
+    'parent': 'Events',
+    'nav_order': int(event['start_date'].split('-')[0]),
+    'layout': 'event',
+    'title': name,
+    'end_date': str(end_date),
+    'future_tense_opening_paragraph': future_tense_opening_paragraph,
+    'past_tense_opening_paragraph': past_tense_opening_paragraph,
+    **event,
+    'location': location_name,
+    'seo': {
+      'type': 'Event',
+      'name': name,
+      'description': description,
+      'startDate': str(start_date),
+      'endDate': str(end_date),
+      'eventAttendanceMode': event_attendance_mode,
+      'eventStatus': 'EventScheduled',
+      'location': {
+        'type': location_type,
+        'name': location_name
+      },
+      'organizer': {
+        'type': organizer_type,
+        'name': organizer_name,
+        'url': organizer_url
+      }
+    },
+  }
+
+  # Doesn't create a file if it's an external event, since external events should not have an id
+  if not event.get('id', None):
+    continue
+
+  slug = slugify(name)
+  filepath = f'events/{ slug }.md'
+
+  content = read_content(filepath)
+
+  with open(filepath, 'w', encoding='utf-8') as f:
+    f.write(f'''\
+---
+{ yaml.dump(frontmatter, sort_keys=False, allow_unicode=True) }
+---
+{content}
+''')
+
+
+### Generate WMT events
+for event in WMT_EVENTS:
+
+  # Validate wmt_events.json entries
+  validate(instance=event, schema=WMT_EVENTS_SCHEMA)
+
+  name = event['name']
+
+  # startDate is necessary for listing the event on events.md
+  start_date = datetime.strptime(event['start_date'], '%Y-%m-%d').date()
+
+  if event.get('endDate', None):
+    end_date = datetime.strptime(event['end_date'], '%Y-%m-%d').date()
+  else:
+    end_date = start_date
+
+  # Generate SEO and location
+  description = event.get('description', None)
+  location = event.get('location', {})
+  location_name = location.get('location', 'Online')
+  is_online = location.get('online', False)
+  if is_online:
+      location_type = 'VirtualLocation'
+      event_attendance_mode = 'OnlineEventAttendanceMode'
+  elif 'online' in location_name.lower():
+      location_type = 'Hybrid'
+      event_attendance_mode = 'MixedEventAttendanceMode'
+  else:
+      location_type = 'Place'
+      event_attendance_mode = 'OfflineEventAttendanceMode'
+
+  if event.get('organizer', None):
+    organizer_name = event['organizer'].get('name', None)
+    organizer_url = event['organizer'].get('url', None)
+    organizer_type = event['organizer'].get('type', None)
+
+  # Generate opening pagaraph in future/past tense
+  date = f'from {datetime.strftime(start_date, '%d') } to {datetime.strftime(end_date, '%d %B, %Y')}'
+  location = f'in {location_name}' if location_name.lower() != 'online' else location_name
+  future_tense_opening_paragraph = f'The {description} (<strong>{name}</strong>) will take place {location} {date}.'
+  past_tense_opening_paragraph = f'The {description} (<strong>{name}</strong>) took place {location} {date}.'
+
+  frontmatter = {
+    'autogenerated': True,
+    'autogenerated_from': 'wmt_events.json',
+    'parent': 'Events',
+    'nav_order': event['start_date'].split('-')[0],
+    'layout': 'wmt_event',
+    'title': name,
+    'end_date': str(end_date),
+    'future_tense_opening_paragraph': future_tense_opening_paragraph,
+    'past_tense_opening_paragraph': past_tense_opening_paragraph,
+    **event,
+    'location': location_name,
+    'seo': {
+      'type': 'Event',
+      'name': name,
+      'description': description,
+      'startDate': str(start_date),
+      'endDate': str(end_date),
+      'eventAttendanceMode': event_attendance_mode,
+      'eventStatus': 'EventScheduled',
+      'location': {
+        'type': location_type,
+        'name': location_name
+      },
+      'organizer': {
+        'type': organizer_type,
+        'name': organizer_name,
+        'url': organizer_url
+      }
+    }
+  }
+
+  # Doesn't create a file if it's an external event, as external events should not have an id
+  if not event.get('id', None):
+    continue
+
+  slug = slugify(name)
+  filepath = f'events/{ slug }.md'
+
+  content = read_content(filepath)
+
+  with open(filepath, 'w', encoding='utf-8') as f:
+    f.write(f'''\
+---
+{ yaml.dump(frontmatter, sort_keys=False, allow_unicode=True) }
+---
+{content}
+''')
+
+
+### Validate Calls For Papers
+for entry in CALLS_FOR_PAPERS:
+
+  # Validate date format
+  datetime.strptime(entry['calls_for_papers_deadline'], '%Y-%m-%d').date()
+
+  # Validate calls_for_papers.json entries
+  validate(instance=entry, schema=CALLS_FOR_PAPERS_SCHEMA)

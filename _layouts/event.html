@@ -1,0 +1,166 @@
+---
+layout: default
+parent: Events
+---
+
+
+<h1>{{ page.title }}</h1>
+<h2>{{ page.description }}</h2>
+<hr/>
+
+
+<p id="openingParagraph"></p>
+
+<script>
+  var currentDate = new Date().toISOString().slice(0,10);
+  var endDate = "{{ page.end_date }}";
+  var futureOpeningParagraph = "{{ page.future_tense_opening_paragraph }}";
+  var pastOpeningParagraph = "{{ page.past_tense_opening_paragraph }}";
+  var openingParagraphElement = document.getElementById('openingParagraph');
+
+  if (currentDate < endDate) {
+    openingParagraphElement.innerHTML = futureOpeningParagraph;
+  } else {
+    openingParagraphElement.innerHTML = pastOpeningParagraph;
+  }
+  openingParagraphElement.innerHTML = openingParagraphContent;
+</script>
+
+{% if page.more_paragraphs %}
+  {% for paragraph in page.more_paragraphs %}
+    <blockquote>
+      <p>
+        {{ paragraph }}
+      </p>
+    </blockquote>
+  {% endfor %}
+{% endif %}
+
+{% if page.location %}
+  <h3>Location</h3>
+  <ul>
+    <li>
+      {{ page.location }}
+    </li>
+  </ul>
+{% endif %}
+
+{% if page.links %}
+  <h3>Links</h3>
+  <ul>
+    {% for link in page.links %}
+    <li>
+      <a href="{{ link }}">{{ link | split: "://" | last }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if page.important_dates %}
+  <h2>Important Dates</h2>
+  <table>
+    <tr>
+      <th>&nbsp;</th>
+      <th>&nbsp;</th>
+    </tr>
+  {% for entry in page.important_dates %}
+    <tr>
+      <td>{{ entry.name }}</td>
+      <td style="width: 100px;">{{ entry.date | date: "%d %B" }}</td>
+    </tr>
+  {% endfor %}
+  </table>
+{% endif %}
+
+{% if page.speakers %}
+  {% for speaker in page.speakers %}
+  <h2>{{ speaker.type }}</h2>
+  <ul>
+    {% for s in speaker.speakers %}
+      <li>
+        {{ s }}
+      </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+{% endif %}
+
+{% if page.workshops %}
+<h2>Workshops</h2>
+  {% for workshop in page.workshops %}
+    <h3>{{ workshop.name }}</h3>
+    <blockquote>
+      <p>{{ workshop.description }}</p>
+    </blockquote>
+  {% endfor %}
+{% endif %}
+
+{% if page.shared_tasks %}
+<h2>Shared Tasks</h2>
+  <ul>
+    {% for task in page.shared_tasks %}
+      {% if task.url %}
+        <li>
+          <a href="{{ task.url }}">{{ task.name }}</a>
+        </li>
+      {% else %}
+        <li>
+          {{ task.name }}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if page.multiday_schedule %}
+<h2>Schedule</h2>
+  {% for schedule in page.multiday_schedule %}
+    <h3>Day {{ forloop.index }}</h3>
+    <table>
+      <tr>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+      </tr>
+      {% for d in schedule %}
+        <tr>
+          <td style="width: 100px;">{{ d.start_time }}</td>
+          <td>{{ d.title }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+  {% endfor %}
+{% endif %}
+
+{% if page.one_day_schedule %}
+<h2>Schedule</h2>
+  {% for schedule in page.one_day_schedule %}
+    <table>
+      <tr>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+      </tr>
+      {% for d in schedule %}
+        <tr>
+          <td style="width: 100px;">{{ d.start_time }}</td>
+          <td>{{ d.title }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+  {% endfor %}
+{% endif %}
+
+{% if page.calls_for_papers %}
+<h2>Calls For Papers</h2>
+  {% for cfp in page.calls_for_papers %}
+    <h3>{{ cfp.title }}</h3>
+    <ul>
+      {% for topic in cfp.topics %}
+        <li>
+          {{ topic }}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+{% endif %}
+
+{{ content }}
