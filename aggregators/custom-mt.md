@@ -37,6 +37,14 @@ supported_apis:
 - slug: yandex
   name: Yandex Translate
 integrations:
+- slug: memoq
+  name: memoQ
+  urls:
+  - https://custom.mt/memoq-connector/
+- slug: smartling
+  name: Smartling
+  urls:
+  - https://custom.mt/smartling-connector/
 - slug: trados
   name: Trados Studio
   plugin: true
