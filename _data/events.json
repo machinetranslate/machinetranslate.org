@@ -6,7 +6,7 @@
      "start_date": "2024-09-30",
      "end_date": "2024-10-02",
      "location": {
-       "online": true
+       "location":"Chicago, Illinois"
      },
      "organizer": {
        "type": "Organization",

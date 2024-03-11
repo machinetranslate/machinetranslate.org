@@ -43,7 +43,7 @@
      "speakers": [
       {
         "type": "Type of the speaker: Panellist/Invited/Organizer, etc.",
-        "about": [
+        "speakers": [
           "Information about each speaker: Name and Institution",
           "",
           "",
