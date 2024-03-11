@@ -45,3 +45,27 @@ seo:
 
 ---
 The machine translation meetup was organised by the **Machine Translate Foundation**.
+
+## Answers to audience questions
+
+There was not enough time to answer all of the audience questions during the meetup.  The guests kindly answered those questions in writing.
+
+> ### Is reinforcement learning involved in Adaptive Machine Translation?
+>
+> Joern Wuebker:
+>
+> > The short answer is no.
+> > The term reinforcement learning refers to a technique where a system takes an action (for example, producing a translation) and then presented with a reward signal that quantifies the quality of the action. Depending on the signal it learns to either reinforce the behavior that led to this action if the reward is positive, or discourage it if the reward is negative.
+> > Adaptive machine translation uses a different (and arguably stronger) signal to learn from, namely the full correct translation. 
+>
+> ### What is the impact of post-editing disagreement, if a pool of translators work on the same project, with different levels of “care” or expertise?
+>
+> Joern Wuebker:
+>
+> > Generally the models try to learn from all examples that are given to it, even if they disagree. When there are conflicting signals, the model tends to prefer the majority vote, so we have to trust that on average translators are more likely to be correct.
+>
+> ### Do you have some actual products to demonstrate real-time adaptive MT?
+>
+> Joern Wuebker:
+>
+> > I believe ModernMT and LILT would be the relevant ones for this panel.
