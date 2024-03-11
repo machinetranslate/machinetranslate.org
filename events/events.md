@@ -25,6 +25,7 @@ seo:
 {%- else -%}
 - **{{ event.name }}**
 {%- endif -%}{% endfor %}
+- [AMTA 2024](/amta-2024)
 - [AMTA 2023](/amta-2023)
 - [AMTA 2022](/amta-2022)
 - [AMTA 2020](/amta-2020)
@@ -47,6 +48,7 @@ seo:
 - [{{ event.name }}](/{{ event.id }})
 {%- else -%}
 - **{{ event.name }}**{%- endif -%}{% endfor %}
+- [EAMT 2024](/eamt-2024)
 - [EAMT 2023](/eamt-2023)
 - [EAMT 2022](/eamt-2022)
 - [EAMT 2020](/eamt-2020)
