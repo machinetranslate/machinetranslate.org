@@ -1,14 +1,14 @@
 ---
 parent: Events
-title: NeTTT
+title: NeTTT 2022
 description: New Trends in Translation and Technology
 location: Rhodes, Greece
-name: NeTTT
+name: NeTTT 2022
 startDate: 2022-07-02
 
 seo:
   type: Event
-  name: NeTTT
+  name: NeTTT 2022
   description: New Trends in Translation and Technology
   startDate: 2022-07-02
   endDate: 2022-07-06
