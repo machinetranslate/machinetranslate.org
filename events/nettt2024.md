@@ -56,11 +56,10 @@ seo:
 
 |     |     |
 | --- | --- |
-| Submission deadline | 31 March 2024 |
+| Submission deadline | 30 April 2024 |
 | Notification | 5 June 2024 |
 | Final version | 20 June 2024 |
 
-> The second call for papers is expected in December 2023 and registration will be open as from January 2024. 
 
 ### Topics
 
