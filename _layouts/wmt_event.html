@@ -114,7 +114,7 @@ parent: Events
 {% endif %}
 
 {% if page.scientific_papers %}
-  <h2>Scientific papers</h2>
+  <h2>Scientific Papers</h2>
   {% for entry in page.scientific_papers %}
     {% if entry.topics %}
       <h3>Topics</h3>
@@ -153,7 +153,7 @@ parent: Events
 {% endif %}
 
 {% if page.paper_submission %}
-  <h2>Paper submission</h2>
+  <h2>Paper Submission</h2>
   <ul>
     {% for entry in page.paper_submission %}
       <li>
@@ -183,21 +183,19 @@ parent: Events
 {% endif %}
 
 {% if page.one_day_schedule %}
-  <h2>Schedule</h2>
-  {% for schedule in page.one_day_schedule %}
+<h2>Schedule</h2>
     <table>
       <tr>
         <th>&nbsp;</th>
         <th>&nbsp;</th>
       </tr>
-      {% for d in schedule %}
+      {% for schedule in page.one_day_schedule %}
         <tr>
-          <td style="width: 100px;">{{ d.start_time}}</td>
-          <td>{{ d.title }}</td>
+          <td style="width: 100px;">{{ schedule.start_time }}</td>
+          <td>{{ schedule.title }}</td>
         </tr>
       {% endfor %}
     </table>
-  {% endfor %}
 {% endif %}
 
 {% if page.results %}
@@ -205,35 +203,45 @@ parent: Events
   <h3>General Task</h3>
   {% for entry in page.results %}
     <p>Full results of the shared task: <a href="{{ entry.full_results.url }}">{{ entry.full_results.title }}</a></p>
+    {% assign show_average_score = false %}
+    {% assign show_average_z_score = false %}
     {% for score in entry.scoring_table %}
-      {% if score.average_score and score.average_z_score %}
-        The winner systems were listed according to their <a href="/human-evaluation-metrics#average-score-and-average-z-score">average score and average z-score</a>.
-      {% elsif score.average_score %}
-        The winner systems were listed according to their <a href="/human-evaluation-metrics#average-score-and-average-z-score">average score</a>.
-      {% elsif score.average_z_score %}
-        The winner systems were listed according to their <a href="/human-evaluation-metrics#average-score-and-average-z-score">average z-score</a>.
-      {% endif %}
-      {% break %}
+      {% for i in score.evaluations %}
+        {% if i.average_score %}
+          {% assign show_average_score = true %}
+        {% endif %}
+        {% if i.average_z_score %}
+          {% assign show_average_z_score = true %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
-
+    {% if show_average_score and show_average_z_score %}
+      The winner systems were listed according to their <a href="/human-evaluation-metrics#average-score-and-average-z-score">average score and average z-score</a>.
+    {% elsif show_average_score %}
+      The winner systems were listed according to their <a href="/human-evaluation-metrics#average-score-and-average-z-score">average score</a>.
+    {% elsif show_average_z_score %}
+      The winner systems were listed according to their <a href="/human-evaluation-metrics#average-score-and-average-z-score">average z-score</a>.
+    {% endif %}
     {% if entry.scoring_table %}
       {% for i in entry.scoring_table %}
         <h4>{{ i.language }}</h4>
         <p>{{ i.sentence }}</p>
-          <table>
-            <tr>
-              <th>Language pair</th>
-              <th>System</th>
-              <th>Average score</th>
-              <th>Average z-score</th>
-            </tr>
-            <tr>
-              <td>{{ i.language_pair }}</td>
-              <td>{{ i.system }}</td>
-              <td>{{ i.average_score }}</td>
-              <td>{{ i.average_z_score }}</td>
-            </tr>
-          </table>
+        <table>
+          <tr>
+            <th>Language pair</th>
+            <th>System</th>
+            <th>Average score</th>
+            <th>Average z-score</th>
+          </tr>
+          {% for j in i.evaluations %}
+          <tr>
+            <td>{{ j.language_pair }}</td>
+            <td>{{ j.system }}</td>
+            <td>{{ j.average_score }}</td>
+            <td>{{ j.average_z_score }}</td>
+          </tr>
+          {% endfor %}
+        </table>
       {% endfor %}
     {% endif %}
   {% endfor %}
