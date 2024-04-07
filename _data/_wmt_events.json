@@ -144,7 +144,7 @@
           "title": ""
         }
      ],
-    "results": [
+     "results": [
       {
         "full_results": {
           "title": "Title for where the full results can be found",
@@ -153,20 +153,40 @@
         "scoring_table": [
           "Both scores are not necessary to be given: Give those that have been used in evaluation unless both have been used",
           {
-            "language": "",
-            "sentence": "",
-            "language_pair": "",
-            "system": "",
-            "average_score": "",
-            "average_z_score": ""
+            "language": "The main language",
+            "sentence": "Some opening sentence",
+            "evaluations": [
+              {
+                "language_pair": "",
+                "system": "",
+                "average_score": "",
+                "average_z_score": ""
+              },
+              {
+                "language_pair": "",
+                "system": "",
+                "average_score": "",
+                "average_z_score": ""
+              }
+            ]
           },
           {
-            "language": "",
-            "sentence": "",
-            "language_pair": "",
-            "system": "",
-            "average_score": "",
-            "average_z_score": ""
+            "language": "Language 2",
+            "sentence": "Sentence 2",
+            "evaluations": [
+              {
+                "language_pair": "",
+                "system": "",
+                "average_score": "",
+                "average_z_score": ""
+              },
+              {
+                "language_pair": "",
+                "system": "",
+                "average_score": "",
+                "average_z_score": ""
+              }
+            ]
           }
         ]
       }
