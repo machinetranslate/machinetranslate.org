@@ -13,7 +13,7 @@ past_tense_opening_paragraph: The Workshop on Translation Quality Estimation and
   Post-Editing (<strong>Translation Quality Estimation and Automatic Post-Editing</strong>)
   took place in Boston, United States on 21 March, 2019.
 name: Translation Quality Estimation and Automatic Post-Editing
-id: Translation-quality-estimation-and-automatic-post-editing
+id: translation-quality-estimation-and-automatic-post-editing
 description: Workshop on Translation Quality Estimation and Automatic Post-Editing
 start_date: '2019-03-21'
 location: Boston, United States
