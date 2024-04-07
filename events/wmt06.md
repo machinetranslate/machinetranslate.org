@@ -24,7 +24,7 @@ shared_tasks:
 - name: Translation
   url: https://www.statmt.org/wmt06/shared-task/
 multiday_schedule:
-- - start_time: 08:45
+- - start_time: '8:45'
     title: Opening Remarks
   - start_time: '9:00'
     title: 'Session 1: Paper Presentations <br><a href=''https://www.statmt.org/wmt06/proceedings/pdf/WMT01.pdf''>Morpho-syntactic
