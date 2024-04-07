@@ -854,7 +854,7 @@ for event in WMT_EVENTS:
   # startDate is necessary for listing the event on events.md
   start_date = datetime.strptime(event['start_date'], '%Y-%m-%d').date()
 
-  if event.get('endDate', None):
+  if event.get('end_date', None):
     end_date = datetime.strptime(event['end_date'], '%Y-%m-%d').date()
   else:
     end_date = start_date
