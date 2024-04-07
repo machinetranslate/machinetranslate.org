@@ -11,7 +11,7 @@ future_tense_opening_paragraph: The New Trends in Translation and Technology (<s
 past_tense_opening_paragraph: The New Trends in Translation and Technology (<strong>NeTTT
   2024</strong>) took place in Varna, Bulgaria from 03 to 06 July, 2024.
 name: NeTTT 2024
-id: nettt2024
+id: nettt-2024
 description: New Trends in Translation and Technology
 start_date: '2024-07-03'
 calls_for_papers_deadline: '2024-03-31'
@@ -47,4 +47,31 @@ seo:
     url: https://nettt-conference.com/
 
 ---
+## Call for papers
 
+> Contributions are invited on any topic related to latest technology and practices in machine translation, translation, subtitling, localisation and interpreting.
+> NeTTT’2024 will feature a Special Theme Track "Future of Translation Technology in the Era of LLMs and Generative AI".
+
+### Important dates
+
+|     |     |
+| --- | --- |
+| Submission deadline | 30 April 2024 |
+| Notification | 5 June 2024 |
+| Final version | 20 June 2024 |
+
+
+### Topics
+
+- CAT tools
+- Machine translation
+- Technologies for MT deployment
+- Translation Studies
+- Interpreting studies
+- Interpreting technology
+- Emerging areas in translation and interpreting
+- Subtitling
+- User needs
+- The business of translation and interpreting
+- Teaching translation and interpreting
+- Special Theme Track - Future of Translation Technology in the Era of LLMs and Generative AI

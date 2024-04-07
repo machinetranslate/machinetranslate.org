@@ -186,44 +186,52 @@
       },
       "minItems":1
     },
-    "results":{
-      "type":"array",
-      "items":{
-        "type":"object",
-        "properties":{
-          "full_results":{
-            "type":"object",
-            "properties":{
-              "title":{
-                "type":"string"
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "full_results": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
               },
-              "url":{
-                "type":"string"
+              "url": {
+                "type": "string"
               }
             }
           },
-          "scoring_table":{
-            "type":"array",
-            "items":{
-              "type":"object",
-              "properties":{
-                "language":{
-                  "type":"string"
+          "scoring_table": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "language": {
+                  "type": "string"
                 },
-                "sentence":{
-                  "type":"string"
+                "sentence": {
+                  "type": "string"
                 },
-                "language_pair":{
-                  "type":"string"
-                },
-                "system":{
-                  "type":"string"
-                },
-                "average_score":{
-                  "type":"string"
-                },
-                "average_z_score":{
-                  "type":"string"
+                "evaluations": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "language_pair": {
+                        "type": "string"
+                    },
+                      "system": {
+                        "type": "string"
+                    },
+                      "average_score": {
+                        "type": "string"
+                    },
+                      "average_z_score": {
+                        "type": "string"
+                    }
+                    }
+                  }
                 }
               }
             }
@@ -231,11 +239,11 @@
         }
       }
     }
-  },
-  "required":[
-    "name",
-    "start_date"
-  ],
+    },
+    "required":[
+      "name",
+      "start_date"
+    ],
   "additionalItems":false,
   "additionalProperties":false
 }

@@ -13,15 +13,15 @@ community_search_exclude: true
 - ~~[WMT](/wmt)~~
 - ~~[EAMT](/eamt-2022)~~
 - ~~[AMTA](/amta-2022)~~
-- ~~[MTSummit](/mtsummit2021)~~
-- ~~[Zurich Machine Translation Meetup](/zurich-9)~~
-- ~~[MTM](/mtm2019)~~
-- ~~[AAMT](/aamt2021)~~
-- ~~[ASLTRW](/asltrw2021)~~
-- ~~[AT4SSL](/at4ssl2021)~~
-- ~~[IWSLT](/iwslt2022)~~
-- ~~[LoResMT](/loresmt2022)~~
-- ~~[PSLT](/pslt2021)~~
+- ~~[MTSummit](/mt-summit-2021)~~
+- ~~[Zurich Machine Translation Meetup](/zurich-machine-translation-meetup-9)~~
+- ~~[MTM](/mtm-2019)~~
+- ~~[AAMT](/aamt-2021)~~
+- ~~[ASLTRW](/asltrw-2021)~~
+- ~~[AT4SSL](/at4ssl-2021)~~
+- ~~[IWSLT](/iwslt-2022)~~
+- ~~[LoResMT](/loresmt-2022)~~
+- ~~[PSLT](/pslt-2021)~~
 
 
 ### Calls for papers

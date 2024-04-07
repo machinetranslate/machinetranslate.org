@@ -39,8 +39,6 @@ api_integrations:
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647135756/Phrase+connector
   name: Globalese
 - slug: human-science
-  urls:
-  - https://www.science.co.jp/en/nmt/service/memsource.html
   name: Human Science
 - slug: kantanmt
   custom: true

@@ -133,20 +133,18 @@ parent: Events
 
 {% if page.one_day_schedule %}
 <h2>Schedule</h2>
-  {% for schedule in page.one_day_schedule %}
     <table>
       <tr>
         <th>&nbsp;</th>
         <th>&nbsp;</th>
       </tr>
-      {% for d in schedule %}
+      {% for schedule in page.one_day_schedule %}
         <tr>
-          <td style="width: 100px;">{{ d.start_time }}</td>
-          <td>{{ d.title }}</td>
+          <td style="width: 100px;">{{ schedule.start_time }}</td>
+          <td>{{ schedule.title }}</td>
         </tr>
       {% endfor %}
     </table>
-  {% endfor %}
 {% endif %}
 
 {% if page.calls_for_papers %}

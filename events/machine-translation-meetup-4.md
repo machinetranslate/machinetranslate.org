@@ -39,9 +39,9 @@ seo:
     type: VirtualLocation
     name: Online
   organizer:
-    type: Organization
-    name: European Association of Machine Translation
-    url: https://eamt.org
+    type: Person
+    name: null
+    url: https://sites.google.com/site/wnmt18/organization ---
 
 ---
 The machine translation meetup was organised by the **Machine Translate Foundation**.

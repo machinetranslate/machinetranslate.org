@@ -4,5 +4,75 @@
         "name": "Machine and Computer-assisted Interpreting",
         "calls_for_papers_deadline": "2024-04-01",
         "url": "https://lans-tts.uantwerpen.be/index.php/LANS-TTS/announcement/view/24"
-    }
+    },
+    {
+        "name": "DNLP 2024",
+        "url": "https://aisca2024.org/dnlp/index",
+        "calls_for_papers_deadline": "2023-10-01"
+      },
+      {
+        "name": "<em>International Journal on Natural Language Computing</em>",
+        "url": "https://airccse.org/journal/ijnlc/",
+        "calls_for_papers_deadline": "2023-09-10"
+      },
+      {
+        "name": "<em>The Role of Context in Neural Machine Translation Systems and its Evaluation</em>",
+        "url": "https://sites.google.com/dcu.ie/nlecontextnmt/home",
+        "calls_for_papers_deadline": "2023-03-31"
+      },
+      {
+        "name": "<em>Machine translation evaluation in the context of scholarly communication</em>",
+        "url": "https://www.operas-eu.org/machine-translation-evaluation-in-the-context-of-scholarly-communication-open-call/",
+        "calls_for_papers_deadline": "2022-12-23"
+      },
+      {
+        "name": "<em>Web-based machine translation in language teaching</em>",
+        "url": "https://calico.org/calico-journal-special-issue-machine-translation-call-for-papers/",
+        "calls_for_papers_deadline": "2022-11-15"
+      },
+      {
+        "name": "AAMT 2022",
+        "url": "https://www.aamt.info/event/aamttokyo2022/aamttokyo2022-kobo/",
+        "calls_for_papers_deadline": "2022-09-30"
+      },
+      {
+        "name": "AmericasNLP Competition",
+        "url": "http://turing.iimas.unam.mx/americasnlp/st.html",
+        "calls_for_papers_deadline": "2022-09-30"
+      },
+      {
+        "name": "<em>Special Issue on Translation Platforms</em>",
+        "url": "https://www.aclweb.org/portal/content/special-issue-translation-platforms",
+        "calls_for_papers_deadline": "2022-06-30"
+      },
+      {
+        "name": "CoCo4MT",
+        "url": "https://sites.google.com/view/coco4mt",
+        "calls_for_papers_deadline": "2022-06-29"
+      },
+      {
+        "name": "EMNLP 2022",
+        "url": "https://2022.emnlp.org/calls/papers/Overview",
+        "calls_for_papers_deadline": "2022-06-24"
+      },
+      {
+        "name": "Special issue on Translation Automation and Sustainability",
+        "url": "https://jostrans.org/2b.3%20Jostrans%20SI%2041.pdf",
+        "calls_for_papers_deadline": "2022-06-01"
+      },
+      {
+        "name": "Automatic Simultaneous Translation 3",
+        "url": "https://autosimtrans.github.io/cfp",
+        "calls_for_papers_deadline": "2022-05-01"
+      },
+      {
+        "name": "<em>The impact of Machine Translation in the Audiovisual Translation environment</em>",
+        "url": "https://lans-tts.uantwerpen.be/index.php/LANS-TTS/announcement/view/21",
+        "calls_for_papers_deadline": "2022-04-01"
+      },
+      {
+        "name": "NAACL 2022",
+        "url": "https://2022.naacl.org/calls/papers/#paper-submission-details",
+        "calls_for_papers_deadline": "2022-01-15"
+      }
 ]
