@@ -75,6 +75,7 @@ integrations:
   name: Phrase TMS
   glossary: true
 active: true
+file_translation: null
 seo:
   name: The Phrase NextMT machine translation API
   type: Product

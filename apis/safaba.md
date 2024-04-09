@@ -15,6 +15,7 @@ supported_languages: []
 more_languages_by_request: false
 integrations: []
 active: false
+file_translation: null
 seo:
   name: The Safaba machine translation API
   type: Product

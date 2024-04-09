@@ -271,6 +271,7 @@ integrations:
   name: Phrase TMS
   active: false
 active: true
+file_translation: null
 seo:
   name: The Kodensha MT machine translation API
   type: Product

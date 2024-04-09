@@ -57,6 +57,7 @@ integrations:
   name: Multitrans
   url: https://docs.rws.com/785465/786629/sdl-multitrans/configuring-tapta
 active: true
+file_translation: null
 seo:
   name: The TAPTA machine translation API
   type: Product

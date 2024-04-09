@@ -642,6 +642,7 @@ integrations:
 - slug: wordfast
   name: Wordfast
 active: true
+file_translation: true
 seo:
   name: The Yandex Translate machine translation API
   type: Product

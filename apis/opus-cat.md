@@ -28,6 +28,7 @@ integrations:
   - https://helsinki-nlp.github.io/OPUS-CAT/tradosplugin
   - https://appstore.rws.com/Plugins/11
 active: true
+file_translation: null
 seo:
   name: The Opus CAT machine translation API
   type: Product

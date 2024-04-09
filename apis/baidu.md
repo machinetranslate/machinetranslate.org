@@ -1231,6 +1231,7 @@ integrations:
   name: Tolgee
   active: false
 active: true
+file_translation: null
 seo:
   name: The Baidu Translate machine translation API
   type: Product

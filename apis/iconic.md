@@ -368,6 +368,7 @@ integrations:
   name: XTM
   active: false
 active: false
+file_translation: null
 seo:
   name: The Iconic machine translation API
   type: Product

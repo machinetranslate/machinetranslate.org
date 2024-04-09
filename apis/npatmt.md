@@ -21,6 +21,7 @@ integrations:
   urls:
   - https://www.npat.co.jp/EXPRESS_price_list/EXPRESS_price_list.html
 active: true
+file_translation: null
 seo:
   name: The NpatMT machine translation API
   type: Product

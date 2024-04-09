@@ -80,6 +80,7 @@ integrations:
   urls:
   - https://confluence.translate5.net/display/BUS/Lucy
 active: false
+file_translation: null
 seo:
   name: The Lucy machine translation API
   type: Product

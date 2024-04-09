@@ -143,6 +143,7 @@ integrations:
   urls:
   - https://github.com/yoyicue/omegat-tencent-plugin
 active: true
+file_translation: null
 seo:
   name: The Tencent Machine Translation machine translation API
   type: Product

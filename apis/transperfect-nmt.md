@@ -18,6 +18,7 @@ integrations:
 - slug: globallink
   name: GlobalLink
 active: true
+file_translation: null
 seo:
   name: The TransPerfect NMT machine translation API
   type: Product

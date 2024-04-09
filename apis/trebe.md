@@ -58,6 +58,7 @@ integrations:
   urls:
   - https://appstore.rws.com/Plugin/195
 active: true
+file_translation: null
 seo:
   name: The Trebe machine translation API
   type: Product

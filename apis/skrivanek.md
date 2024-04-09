@@ -19,6 +19,7 @@ integrations:
   name: Phrase TMS
   active: false
 active: true
+file_translation: null
 seo:
   name: The Skrivanek machine translation API
   type: Product

@@ -671,6 +671,7 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 active: true
+file_translation: true
 seo:
   name: The LingvaNex machine translation API
   type: Product

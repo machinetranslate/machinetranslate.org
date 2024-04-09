@@ -25,6 +25,7 @@ integrations:
 - slug: xtm
   name: XTM
 active: true
+file_translation: null
 seo:
   name: The Lengoo machine translation API
   type: Product

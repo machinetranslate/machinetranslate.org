@@ -212,6 +212,7 @@ integrations:
   urls:
   - https://docs.memoq.com/current/en/Places/etranslation-mt-plugin-settings.html
 active: true
+file_translation: null
 seo:
   name: The eTranslation machine translation API
   type: Product

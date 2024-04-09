@@ -91,6 +91,7 @@ integrations:
   urls:
   - https://confluence.translate5.net/display/CON/PangeaMT
 active: true
+file_translation: null
 seo:
   name: The PangeaMT machine translation API
   type: Product

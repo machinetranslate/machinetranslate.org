@@ -286,6 +286,7 @@ for api in APIS:
     'more_languages_by_request': more_languages_by_request,
     'integrations': integrations,
     'active': api.get('active', True),
+    'file_translation': api.get('file_translation', None),
     'seo': {
       'name': desc,
       'type': 'Product'

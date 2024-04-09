@@ -267,6 +267,7 @@ integrations:
   urls:
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647037255
 active: true
+file_translation: null
 seo:
   name: The Globalese machine translation API
   type: Product

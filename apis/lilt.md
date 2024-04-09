@@ -357,6 +357,7 @@ integrations:
   urls:
   - https://support.lilt.com/kb/introduction-to-lilt-translate
 active: true
+file_translation: true
 seo:
   name: The Lilt machine translation API
   type: Product

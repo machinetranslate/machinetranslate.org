@@ -1248,6 +1248,7 @@ integrations:
   urls:
   - https://www.wordfast.net/wiki/Connecting_Wordfast_Pro_to_Modern_MT
 active: true
+file_translation: null
 seo:
   name: The ModernMT machine translation API
   type: Product
