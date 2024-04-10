@@ -6,12 +6,22 @@ title: File Translation
 description: Translating various types of files from one language to another while preserving formatting and content
 ---
 
-**File translation** refers to the process of converting data stored in a specific format on one computer or system to a different format that can be used by the same or a different processing system on another computer. This process involves translating data from the source file into a target file that can be read and processed by the target system. File translation is often necessary when transferring information systems from one computer to another, as it allows for the preservation of data integrity and functionality across different systems and platforms.
+**File translation** is the translation of data from an input file into an output file.
+File translation preserves the file data integrity and functionality across different systems and platforms.
 
-File translation can involve various file types, including text files, markdown files, HTML files, XML files, JSON files, Microsoft Office files, and image files, among others. The translation process can be manual, involving the writing of specific translation programs for each file pair, or automated using generalized translation algorithms and machine learning techniques.
+## File Types
 
-The benefits of file translation include the ability to transfer information across linguistic and system barriers, expanding the reach and accessibility of information to a wider audience. File translation also enables the preservation of data integrity and functionality across different systems and platforms, ensuring that data can be used and processed effectively in its translated form.
+File translation can involve various file types:
 
+- Text
+- Markdown
+- HTML
+- XML
+- JSON
+- Microsoft Office
+- Image
+
+The translation process can be manual, involving the writing of specific translation programs for each file pair, or automated using generalised translation algorithms and machine learning techniques.
 
 {% assign apis = site.data.apis | where_exp: 'api', 'api.file_translation == true' %}
 
