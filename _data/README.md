@@ -22,7 +22,7 @@ To add an event, follow these steps:
 > 7. Paste the JSON into the corresponding `.json` file based on the type of event: <br>
      - For regular events, paste it into `events.json.`
 <br> - For WMT events, paste it into `wmt_events.json.`                
-<br> - For calls for papers, paste it into `calls_for_papers.json.`
+     - For calls for papers, paste it into `calls_for_papers.json.`
 > 8. Run ```Python generate.py``` to genarate the event. 
 
 That's it! Your event has been added.
