@@ -22,13 +22,12 @@ links:
 - https://statmt.org/wmt24
 important_dates:
 - name: Evaluation periods for shared tasks
-  date: June-July
 - name: Paper submission deadline
-  date: To be announced around the second week of August (follows EMNLP)
+  date: '2024-08-12'
 - name: Paper notification
   date: To be announced (follows EMNLP)
 - name: Camera-ready version
-  date: To be announced around the end of September (follows EMNLP)
+  date: '2024-09-23'
 - name: Conference
   date: '2024-11-12'
 shared_tasks:
