@@ -8387,5 +8387,99 @@
         ]
       }
     ]
+  },
+  {
+    "name": "WMT24",
+    "id": "wmt24",
+    "description": "Ninth Conference on Machine Translation",
+    "start_date": "2024-11-12",
+    "end_date": "2024-11-13",
+    "location": {
+      "location": "Miami, Florida",
+      "online": false
+    },
+    "organizer": {
+      "type": "Person",
+      "url": "https://statmt.org/wmt24"
+    },
+    "links": [
+      "https://statmt.org/wmt24"
+    ],
+    "important_dates": [
+      {
+        "name": "Evaluation periods for shared tasks"
+      },
+      {
+        "name": "Paper submission deadline",
+        "date": "2024-08-12"
+      },
+      {
+        "name": "Paper notification",
+        "date": "To be announced (follows EMNLP)"
+      },
+      {
+        "name": "Camera-ready version",
+        "date": "2024-09-23"
+      },
+      {
+        "name": "Conference",
+        "date": "2024-11-12"
+      }
+    ],
+    "shared_tasks": [
+      {
+        "name": "General translation",
+        "url": "https://www2.statmt.org/wmt24/translation-task.html"
+      },
+      {
+        "name": "Translation into low-resource languages of Spain",
+        "url": "https://www2.statmt.org/wmt24/romance-task.html"
+      },
+      {
+        "name": "Low-resource Indic language translation",
+        "url": "https://www2.statmt.org/wmt24/indic-mt-task.html"
+      },
+      {
+        "name": "Metrics",
+        "url": "https://www2.statmt.org/wmt24/metrics-task.html"
+      },
+      {
+        "name": "Chat translation",
+        "url": "https://www2.statmt.org/wmt24/chat-task.html"
+      },
+      {
+        "name": "MT test suites",
+        "url": "https://www2.statmt.org/wmt24/testsuite-subtask.html"
+      }
+    ],
+    "scientific_papers": [
+      {
+        "topics": [
+          "Machine translation models (neural, statistical etc.)",
+          "Analysis of neural models",
+          "Using comparable corpora",
+          "Selection and preparation of data",
+          "Semi-supervised and unsupervised learning for machine translation, transfer learning",
+          "Multilingual machine translation",
+          "Incorporating linguistic information into machine translation",
+          "Machine translation inference",
+          "Manual and automatic methods for evaluating machine translation",
+          "Quality estimation"
+        ],
+        "research_papers": [
+          "Research papers should describe original research corresponding to the categories listed above. Research papers that have been or will be submitted to other meetings or publications must indicate this at submission time, and must be withdrawn from the other venues if accepted and published at WMT 2024.",
+          "We will not accept for publication papers that overlap significantly in content or results with papers that have been or will be published elsewhere. It is acceptable to submit work that has been made available as a technical report (or similar, e.g. in arXiv) without citing it.",
+          "For the research track, papers should be anonymised, be between 6 and 10 pages in length (excluding references) and may include supplementary material."
+        ],
+        "system_papers": [
+          "System papers must describe one or more shared task submissions. System paper submissions that we cannot link to a shared task submission will be rejected without review. System papers can overlap with other published work, and do not have to follow the double submission policy. There is no maximum length for system papers, but normally a short paper (4-6 pages) is appropriate. System papers should not be anonymised."
+        ]
+      }
+    ],
+    "paper_submission": [
+      "Papers must be submitted electronically.",
+      "Research and system papers have the same deadlines.",
+      "Research and system papers should follow EMNLP2024 formatting guidelines."
+    ]
   }
 ]

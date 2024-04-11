@@ -6,9 +6,9 @@ nav_order: '2024'
 layout: wmt_event
 title: WMT24
 end_date: '2024-11-13'
-future_tense_opening_paragraph: The <strong>Ninth Conference on Machine Translation</strong> (<strong>WMT24</strong>)
+future_tense_opening_paragraph: The Ninth Conference on Machine Translation (<strong>WMT24</strong>)
   will take place in Miami, Florida from 12 to 13 November, 2024.
-past_tense_opening_paragraph: The <strong>Ninth Conference on Machine Translation</strong> (<strong>WMT24</strong>)
+past_tense_opening_paragraph: The Ninth Conference on Machine Translation (<strong>WMT24</strong>)
   took place in Miami, Florida from 12 to 13 November, 2024.
 name: WMT24
 id: wmt24
@@ -22,15 +22,14 @@ links:
 - https://statmt.org/wmt24
 important_dates:
 - name: Evaluation periods for shared tasks
-  date: June-July
 - name: Paper submission deadline
-  date: To be announced around 12 August (follows EMNLP)
+  date: '2024-08-12'
 - name: Paper notification
   date: To be announced (follows EMNLP)
 - name: Camera-ready version
-  date: To be announced around 23 September (follows EMNLP)
+  date: '2024-09-23'
 - name: Conference
-  date: 12-13 November
+  date: '2024-11-12'
 shared_tasks:
 - name: General translation
   url: https://www2.statmt.org/wmt24/translation-task.html
@@ -75,7 +74,7 @@ scientific_papers:
     but normally a short paper (4-6 pages) is appropriate. System papers should not
     be anonymised.
 paper_submission:
-- 'Papers must be submitted electronically. '
+- Papers must be submitted electronically.
 - Research and system papers have the same deadlines.
 - Research and system papers should follow EMNLP2024 formatting guidelines.
 seo:
