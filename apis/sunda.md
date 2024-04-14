@@ -31,6 +31,7 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 active: true
+file_translation: null
 seo:
   name: The Sunda Translator machine translation API
   type: Product

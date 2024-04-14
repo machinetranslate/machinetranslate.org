@@ -274,6 +274,7 @@ integrations:
 - slug: smartling
   name: Smartling
 active: true
+file_translation: null
 seo:
   name: The PROMT machine translation API
   type: Product

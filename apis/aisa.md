@@ -140,6 +140,7 @@ integrations:
   name: Phrase TMS
   active: false
 active: true
+file_translation: null
 seo:
   name: The AISA machine translation API
   type: Product

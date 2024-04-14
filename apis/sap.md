@@ -262,6 +262,7 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/sap-translation-hub.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-sap-translation-hub-mt-engine.html
 active: true
+file_translation: null
 seo:
   name: The SAP Translation Hub machine translation API
   type: Product

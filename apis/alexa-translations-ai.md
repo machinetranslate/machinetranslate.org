@@ -99,6 +99,7 @@ integrations:
   urls:
   - https://appstore.rws.com/plugin/149/
 active: true
+file_translation: null
 seo:
   name: The Alexa Translations A.I. machine translation API
   type: Product

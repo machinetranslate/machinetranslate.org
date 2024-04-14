@@ -146,6 +146,7 @@ integrations:
   plugin: true
   active: false
 active: true
+file_translation: null
 seo:
   name: The Sogou Translate machine translation API
   type: Product

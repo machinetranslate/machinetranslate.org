@@ -1306,6 +1306,7 @@ integrations:
   urls:
   - https://store.crowdin.com/alibaba
 active: true
+file_translation: null
 seo:
   name: The Alibaba Translate machine translation API
   type: Product

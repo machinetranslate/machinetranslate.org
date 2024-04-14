@@ -25,6 +25,7 @@ integrations:
   plugin: true
   active: false
 active: true
+file_translation: null
 seo:
   name: The Ubiqus NMT machine translation API
   type: Product

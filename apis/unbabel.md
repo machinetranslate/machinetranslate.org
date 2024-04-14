@@ -209,6 +209,7 @@ supported_languages:
 more_languages_by_request: true
 integrations: []
 active: true
+file_translation: true
 seo:
   name: The Unbabel machine translation API
   type: Product

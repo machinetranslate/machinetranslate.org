@@ -30,6 +30,7 @@ integrations:
 - slug: omegat
   name: OmegaT
 active: true
+file_translation: null
 seo:
   name: The Belazar machine translation API
   type: Product

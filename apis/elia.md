@@ -58,6 +58,7 @@ integrations:
   urls:
   - https://appstore.rws.com/Plugins/154
 active: true
+file_translation: null
 seo:
   name: The Elia machine translation API
   type: Product

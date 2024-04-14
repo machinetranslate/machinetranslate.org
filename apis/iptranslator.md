@@ -349,6 +349,7 @@ integrations:
   urls:
   - https://docs.memoq.com/current/en/Places/iptranslator-plugin-settings.html
 active: false
+file_translation: null
 seo:
   name: The IP Translator machine translation API
   type: Product

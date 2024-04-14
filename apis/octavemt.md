@@ -18,6 +18,7 @@ integrations:
 - slug: across
   name: Across
 active: true
+file_translation: null
 seo:
   name: The OctaveMT machine translation API
   type: Product

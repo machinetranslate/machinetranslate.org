@@ -20,6 +20,7 @@ integrations:
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 active: true
+file_translation: null
 seo:
   name: The Lingua Custodia machine translation API
   type: Product

@@ -394,7 +394,8 @@
         "glossary": true,
         "formality": true,
         "adaptive": true,
-        "self-serve": true
+        "self-serve": true,
+        "file_translation": true
     },
     {
         "name": "Acolad",
@@ -4482,7 +4483,8 @@
         ],
         "glossary": true,
         "formality": true,
-        "self-serve": true
+        "self-serve": true,
+        "file_translation": true
     },
     {
         "name": "Elia",
@@ -5062,7 +5064,8 @@
         ],
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": true
+        "self-serve": true,
+        "file_translation": true
     },
     {
         "name": "Iconic",
@@ -5892,7 +5895,8 @@
         "glossary": true,
         "fine-tuning": true,
         "adaptive": true,
-        "self-serve": false
+        "self-serve": false,
+        "file_translation": true
     },
     {
         "name": "Kodensha MT",
@@ -6046,7 +6050,8 @@
             "sv"
         ],
         "more_languages_by_request": true,
-        "self-serve": false
+        "self-serve": false,
+        "file_translation": true
     },
     {
         "name": "Lengoo",
@@ -6128,7 +6133,8 @@
         ],
         "more_languages_by_request": true,
         "adaptive": true,
-        "self-serve": false
+        "self-serve": false,
+        "file_translation": true
     },
     {
         "name": "Lingmo Translation",
@@ -6329,7 +6335,8 @@
             "yo-ng",
             "zu-za"
         ],
-        "self-serve": true
+        "self-serve": true,
+        "file_translation": true
     },
     {
         "name": "LT Gear",
@@ -6556,7 +6563,8 @@
         ],
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": true
+        "self-serve": true,
+        "file_translation": true
     },
     {
         "name": "Mirai Translator",
@@ -8809,7 +8817,8 @@
         ],
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": true
+        "self-serve": true,
+        "file_translation": true
     },
     {
         "name": "TAPTA",
@@ -10744,7 +10753,8 @@
         "adaptive": true,
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": false
+        "self-serve": false,
+        "file_translation": true
     },
     {
         "name": "TranslateMe",
@@ -11011,7 +11021,8 @@
             "zh-tw"
         ],
         "more_languages_by_request": true,
-        "self-serve": false
+        "self-serve": false,
+        "file_translation": true
     },
     {
         "name": "XL8",
@@ -13967,7 +13978,8 @@
                 "zh", 
                 "zu"
         ],
-        "self-serve": true
+        "self-serve": true,
+        "file_translation": true
     },
     {
         "name": "YeeKit",
@@ -14661,7 +14673,8 @@
         ],
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": true
+        "self-serve": true,
+        "file_translation": true
     },
     {
         "name": "Wordlingo",

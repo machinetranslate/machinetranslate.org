@@ -458,6 +458,7 @@ integrations:
 - slug: globallink
   name: GlobalLink
 active: true
+file_translation: null
 seo:
   name: The AppTek machine translation API
   type: Product

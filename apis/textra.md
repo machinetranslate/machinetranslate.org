@@ -635,6 +635,7 @@ integrations:
   urls:
   - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/tool/xtm/edit/
 active: true
+file_translation: null
 seo:
   name: The TexTra machine translation API
   type: Product

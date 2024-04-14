@@ -177,6 +177,7 @@ integrations:
   urls:
   - https://appstore.rws.com/plugin/187/
 active: true
+file_translation: null
 seo:
   name: The Rozetta T-400 machine translation API
   type: Product

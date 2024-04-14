@@ -376,6 +376,7 @@ integrations:
   name: Smartling
   custom: true
 active: true
+file_translation: true
 seo:
   name: The Watson Language Translator machine translation API
   type: Product

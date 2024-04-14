@@ -22,6 +22,7 @@ integrations:
   urls:
   - https://appstore.rws.com/Plugins/178
 active: true
+file_translation: null
 seo:
   name: The LT Gear machine translation API
   type: Product

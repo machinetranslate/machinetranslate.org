@@ -28,6 +28,7 @@ integrations:
   urls:
   - https://confluence.translate5.net/display/BUS/Moses
 active: true
+file_translation: null
 seo:
   name: The Moses machine translation API
   type: Product

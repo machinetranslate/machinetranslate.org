@@ -108,6 +108,7 @@ integrations:
 - slug: phrase-tms
   name: Phrase TMS
 active: true
+file_translation: null
 seo:
   name: The T-tact-AN-ZIN machine translation API
   type: Product

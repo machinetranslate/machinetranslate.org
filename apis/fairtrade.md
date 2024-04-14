@@ -18,6 +18,7 @@ integrations:
 - slug: phrase-tms
   name: Phrase TMS
 active: false
+file_translation: null
 seo:
   name: The Fairtrade machine translation API
   type: Product
