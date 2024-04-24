@@ -9,23 +9,20 @@ description: Machine translation API support for translating entire files
 
 A growing number of machine translation APIs support translating various file types directly.
 
-## File Types
+## File types
 
-File translation can involve various file types:
+There is support for plain text files as well as the most common document formats.
+- text and Markdown files
+- HTML and XML files
+- JSON and YAML files
+- Microsoft Word and PowerPoint files
+- PDF files
 
-- Text
-- Markdown
-- HTML
-- XML
-- JSON
-- Microsoft Office
-- Image
-
-The translation process can be manual, involving the writing of specific translation programs for each file pair, or automated using generalised translation algorithms and machine learning techniques.
+Image files and audio files are typically not supported.
 
 {% assign apis = site.data.apis | where_exp: 'api', 'api.file_translation == true' %}
 
-### API Support
+### API support
 <details>
 <summary>{{apis.size}} machine translation APIs support file translation.</summary>
 
