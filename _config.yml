@@ -246,7 +246,10 @@ lsi: false
 incremental: true
 
 # Add GitHub Metadata (https://github.com/github/pages-gem/issues/399)
-github: [metadata]
+github:
+  metadata:
+    provider: pages
+    repository: machinetranslate/machinetranslate.org
 
 # Build settings
 # Note that .files are excluded by default.
