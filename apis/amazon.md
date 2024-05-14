@@ -478,6 +478,7 @@ integrations:
   name: memoQ
   custom: true
   glossary: true
+  formality: true
   urls:
   - https://docs.memoq.com/current/en/Places/amazon-mt-plugin-settings.html
 - slug: phrase-tms
