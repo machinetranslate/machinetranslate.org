@@ -7,9 +7,10 @@ layout: event
 title: TCC44
 end_date: '2022-11-25'
 future_tense_opening_paragraph: The Translating and the Computer conference (<strong>TCC44</strong>)
-  will take place in Luxembourg City, Luxembourg from 24 to 25 November, 2022.
+  will take place in Luxembourg City, Luxembourg from 24 November to 25 November,
+  2022.
 past_tense_opening_paragraph: The Translating and the Computer conference (<strong>TCC44</strong>)
-  took place in Luxembourg City, Luxembourg from 24 to 25 November, 2022.
+  took place in Luxembourg City, Luxembourg from 24 November to 25 November, 2022.
 name: TCC44
 id: tcc44
 description: Translating and the Computer conference

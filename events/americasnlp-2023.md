@@ -8,10 +8,10 @@ title: AmericasNLP 2023
 end_date: '2023-07-14'
 future_tense_opening_paragraph: The Machine translation for indigenous languages of
   the Americas (<strong>AmericasNLP 2023</strong>) will take place in Toronto, Canada
-  from 09 to 14 July, 2023.
+  from 09 July to 14 July, 2023.
 past_tense_opening_paragraph: The Machine translation for indigenous languages of
   the Americas (<strong>AmericasNLP 2023</strong>) took place in Toronto, Canada from
-  09 to 14 July, 2023.
+  09 July to 14 July, 2023.
 name: AmericasNLP 2023
 id: americasnlp-2023
 description: Machine translation for indigenous languages of the Americas

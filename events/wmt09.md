@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT09
 end_date: '2009-03-31'
 future_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT09</strong>)
-  will take place in Athens, Greece from 30 to 31 March, 2009.
+  will take place in Athens, Greece from 30 March to 31 March, 2009.
 past_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT09</strong>)
-  took place in Athens, Greece from 30 to 31 March, 2009.
+  took place in Athens, Greece from 30 March to 31 March, 2009.
 name: WMT09
 id: wmt09
 description: Workshop on Machine Translation

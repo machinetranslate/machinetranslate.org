@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT17
 end_date: '2017-09-08'
 future_tense_opening_paragraph: The Conference on Machine Translation (<strong>WMT17</strong>)
-  will take place in Copenhagen, Denmark from 07 to 08 September, 2017.
+  will take place in Copenhagen, Denmark from 07 September to 08 September, 2017.
 past_tense_opening_paragraph: The Conference on Machine Translation (<strong>WMT17</strong>)
-  took place in Copenhagen, Denmark from 07 to 08 September, 2017.
+  took place in Copenhagen, Denmark from 07 September to 08 September, 2017.
 name: WMT17
 id: wmt17
 description: Conference on Machine Translation

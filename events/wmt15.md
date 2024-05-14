@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT15
 end_date: '2015-09-18'
 future_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT15</strong>)
-  will take place in Lisbon, Portugal from 17 to 18 September, 2015.
+  will take place in Lisbon, Portugal from 17 September to 18 September, 2015.
 past_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT15</strong>)
-  took place in Lisbon, Portugal from 17 to 18 September, 2015.
+  took place in Lisbon, Portugal from 17 September to 18 September, 2015.
 name: WMT15
 id: wmt15
 description: Workshop on Machine Translation

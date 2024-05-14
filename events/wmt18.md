@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT18
 end_date: '2018-11-01'
 future_tense_opening_paragraph: The Conference on Machine Translation (<strong>WMT18</strong>)
-  will take place in Brussels, Belgium from 31 to 01 November, 2018.
+  will take place in Brussels, Belgium from 31 October to 01 November, 2018.
 past_tense_opening_paragraph: The Conference on Machine Translation (<strong>WMT18</strong>)
-  took place in Brussels, Belgium from 31 to 01 November, 2018.
+  took place in Brussels, Belgium from 31 October to 01 November, 2018.
 name: WMT18
 id: wmt18
 description: Conference on Machine Translation

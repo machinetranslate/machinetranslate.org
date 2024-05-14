@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT11
 end_date: '2011-07-31'
 future_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT11</strong>)
-  will take place in Edinburgh, United Kingdom from 30 to 31 July, 2011.
+  will take place in Edinburgh, United Kingdom from 30 July to 31 July, 2011.
 past_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT11</strong>)
-  took place in Edinburgh, United Kingdom from 30 to 31 July, 2011.
+  took place in Edinburgh, United Kingdom from 30 July to 31 July, 2011.
 name: WMT11
 id: wmt11
 description: Workshop on Machine Translation

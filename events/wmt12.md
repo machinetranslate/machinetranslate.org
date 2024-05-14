@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT12
 end_date: '2012-06-08'
 future_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT12</strong>)
-  will take place in Quebec, Canada from 07 to 08 June, 2012.
+  will take place in Quebec, Canada from 07 June to 08 June, 2012.
 past_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT12</strong>)
-  took place in Quebec, Canada from 07 to 08 June, 2012.
+  took place in Quebec, Canada from 07 June to 08 June, 2012.
 name: WMT12
 id: wmt12
 description: Workshop on Machine Translation

@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT16
 end_date: '2016-08-12'
 future_tense_opening_paragraph: The Conference on Machine Translation (<strong>WMT16</strong>)
-  will take place in Berlin, Germany from 11 to 12 August, 2016.
+  will take place in Berlin, Germany from 11 August to 12 August, 2016.
 past_tense_opening_paragraph: The Conference on Machine Translation (<strong>WMT16</strong>)
-  took place in Berlin, Germany from 11 to 12 August, 2016.
+  took place in Berlin, Germany from 11 August to 12 August, 2016.
 name: WMT16
 id: wmt16
 description: Conference on Machine Translation

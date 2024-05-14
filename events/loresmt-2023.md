@@ -7,9 +7,9 @@ layout: event
 title: LoResMT 2023
 end_date: '2023-05-06'
 future_tense_opening_paragraph: The Workshop on Low-Resource Machine Translation (<strong>LoResMT
-  2023</strong>) will take place in Dubrovnik, Croatia from 02 to 06 May, 2023.
+  2023</strong>) will take place in Dubrovnik, Croatia from 02 May to 06 May, 2023.
 past_tense_opening_paragraph: The Workshop on Low-Resource Machine Translation (<strong>LoResMT
-  2023</strong>) took place in Dubrovnik, Croatia from 02 to 06 May, 2023.
+  2023</strong>) took place in Dubrovnik, Croatia from 02 May to 06 May, 2023.
 name: LoResMT 2023
 id: loresmt-2023
 description: Workshop on Low-Resource Machine Translation

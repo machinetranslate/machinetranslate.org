@@ -7,9 +7,9 @@ layout: event
 title: MT Summit 2021
 end_date: '2021-08-20'
 future_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit
-  2021</strong>) will take place Online from 16 to 20 August, 2021.
+  2021</strong>) will take place Online from 16 August to 20 August, 2021.
 past_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit 2021</strong>)
-  took place Online from 16 to 20 August, 2021.
+  took place Online from 16 August to 20 August, 2021.
 name: MT Summit 2021
 id: mt-summit-2021
 description: Machine Translation Summit

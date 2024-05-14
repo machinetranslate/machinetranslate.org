@@ -787,7 +787,7 @@ for event in EVENTS:
     organizer_url = event['organizer'].get('url', None)
     organizer_type = event['organizer'].get('type', None)
 
-  date = f'from {datetime.strftime(start_date, '%d') } to {datetime.strftime(end_date, '%d %B, %Y')}' if start_date != end_date else f'on {datetime.strftime(start_date, '%d %B, %Y')}'
+  date = f'from {datetime.strftime(start_date, '%d %B') } to {datetime.strftime(end_date, '%d %B, %Y')}' if start_date != end_date else f'on {datetime.strftime(start_date, '%d %B, %Y')}'
   location = f'in {location_name}' if location_name.lower() != 'online' else location_name
   future_tense_opening_paragraph = f'The {description} (<strong>{name}</strong>) will take place {location} {date}.'
   past_tense_opening_paragraph = f'The {description} (<strong>{name}</strong>) took place {location} {date}.'
@@ -881,7 +881,7 @@ for event in WMT_EVENTS:
     organizer_type = event['organizer'].get('type', None)
 
   # Generate opening pagaraph in future/past tense
-  date = f'from {datetime.strftime(start_date, '%d') } to {datetime.strftime(end_date, '%d %B, %Y')}'
+  date = f'from {datetime.strftime(start_date, '%d %B') } to {datetime.strftime(end_date, '%d %B, %Y')}'
   location = f'in {location_name}' if location_name.lower() != 'online' else location_name
   future_tense_opening_paragraph = f'The {description} (<strong>{name}</strong>) will take place {location} {date}.'
   past_tense_opening_paragraph = f'The {description} (<strong>{name}</strong>) took place {location} {date}.'

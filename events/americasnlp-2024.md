@@ -8,10 +8,10 @@ title: AmericasNLP 2024
 end_date: '2024-06-21'
 future_tense_opening_paragraph: The Machine translation for indigenous languages of
   the Americas (<strong>AmericasNLP 2024</strong>) will take place in Mexico City,
-  Mexico from 20 to 21 June, 2024.
+  Mexico from 20 June to 21 June, 2024.
 past_tense_opening_paragraph: The Machine translation for indigenous languages of
   the Americas (<strong>AmericasNLP 2024</strong>) took place in Mexico City, Mexico
-  from 20 to 21 June, 2024.
+  from 20 June to 21 June, 2024.
 name: AmericasNLP 2024
 id: americasnlp-2024
 description: Machine translation for indigenous languages of the Americas

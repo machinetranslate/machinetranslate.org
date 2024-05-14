@@ -8,9 +8,10 @@ title: MT Summit 2023
 end_date: '2023-09-08'
 future_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit
   2023</strong>) will take place in Macau Special Administrative Region, CN from 04
-  to 08 September, 2023.
+  September to 08 September, 2023.
 past_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit 2023</strong>)
-  took place in Macau Special Administrative Region, CN from 04 to 08 September, 2023.
+  took place in Macau Special Administrative Region, CN from 04 September to 08 September,
+  2023.
 name: MT Summit 2023
 id: mt-summit-2023
 description: Machine Translation Summit

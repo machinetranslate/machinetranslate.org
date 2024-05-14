@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT10
 end_date: '2010-07-16'
 future_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT10</strong>)
-  will take place in Uppsala, Sweden from 15 to 16 July, 2010.
+  will take place in Uppsala, Sweden from 15 July to 16 July, 2010.
 past_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT10</strong>)
-  took place in Uppsala, Sweden from 15 to 16 July, 2010.
+  took place in Uppsala, Sweden from 15 July to 16 July, 2010.
 name: WMT10
 id: wmt10
 description: Workshop on Machine Translation
