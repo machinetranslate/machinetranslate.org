@@ -19,9 +19,10 @@ Since the advent of [statistical machine translation](/statistical-machine-trans
 {% include collapsible_toc.html %}
 
 ## 2024
+
 ### Alexa Translations
-- [Alexa Translations](https://https://alexatranslations.com/)
-- 
+- [alexatranslations.com](https://alexatranslations.com/)
+ 
 ## 2023
 
 ### Instantmt
