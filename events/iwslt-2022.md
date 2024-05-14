@@ -8,10 +8,10 @@ title: IWSLT 2022
 end_date: '2022-05-27'
 future_tense_opening_paragraph: The International Conference on Spoken Language Translation
   (IWSLT) (<strong>IWSLT 2022</strong>) will take place in Dublin, Ireland from 26
-  to 27 May, 2022.
+  May to 27 May, 2022.
 past_tense_opening_paragraph: The International Conference on Spoken Language Translation
-  (IWSLT) (<strong>IWSLT 2022</strong>) took place in Dublin, Ireland from 26 to 27
-  May, 2022.
+  (IWSLT) (<strong>IWSLT 2022</strong>) took place in Dublin, Ireland from 26 May
+  to 27 May, 2022.
 name: IWSLT 2022
 id: iwslt-2022
 description: International Conference on Spoken Language Translation (IWSLT)

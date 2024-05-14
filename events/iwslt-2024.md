@@ -8,10 +8,10 @@ title: IWSLT 2024
 end_date: '2024-08-16'
 future_tense_opening_paragraph: The International Conference on Spoken Language Translation
   (IWSLT) (<strong>IWSLT 2024</strong>) will take place in Bangkok, Thailand and online
-  from 15 to 16 August, 2024.
+  from 15 August to 16 August, 2024.
 past_tense_opening_paragraph: The International Conference on Spoken Language Translation
   (IWSLT) (<strong>IWSLT 2024</strong>) took place in Bangkok, Thailand and online
-  from 15 to 16 August, 2024.
+  from 15 August to 16 August, 2024.
 name: IWSLT 2024
 id: iwslt-2024
 description: International Conference on Spoken Language Translation (IWSLT)

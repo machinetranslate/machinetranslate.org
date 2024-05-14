@@ -8,10 +8,10 @@ title: IWSLT 2023
 end_date: '2023-07-14'
 future_tense_opening_paragraph: The International Conference on Spoken Language Translation
   (IWSLT) (<strong>IWSLT 2023</strong>) will take place in Toronto, Canada from 13
-  to 14 July, 2023.
+  July to 14 July, 2023.
 past_tense_opening_paragraph: The International Conference on Spoken Language Translation
-  (IWSLT) (<strong>IWSLT 2023</strong>) took place in Toronto, Canada from 13 to 14
-  July, 2023.
+  (IWSLT) (<strong>IWSLT 2023</strong>) took place in Toronto, Canada from 13 July
+  to 14 July, 2023.
 name: IWSLT 2023
 id: iwslt-2023
 description: International Conference on Spoken Language Translation (IWSLT)

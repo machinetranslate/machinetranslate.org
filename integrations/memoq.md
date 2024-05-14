@@ -20,6 +20,7 @@ api_integrations:
 - slug: amazon
   custom: true
   glossary: true
+  formality: true
   urls:
   - https://docs.memoq.com/current/en/Places/amazon-mt-plugin-settings.html
   name: Amazon Translate

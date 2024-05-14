@@ -7,9 +7,9 @@ layout: event
 title: NeTTT 2022
 end_date: '2022-07-06'
 future_tense_opening_paragraph: The New Trends in Translation and Technology (<strong>NeTTT
-  2022</strong>) will take place in Rhodes, Greece from 02 to 06 July, 2022.
+  2022</strong>) will take place in Rhodes, Greece from 02 July to 06 July, 2022.
 past_tense_opening_paragraph: The New Trends in Translation and Technology (<strong>NeTTT
-  2022</strong>) took place in Rhodes, Greece from 02 to 06 July, 2022.
+  2022</strong>) took place in Rhodes, Greece from 02 July to 06 July, 2022.
 name: NeTTT 2022
 id: nettt-2022
 description: New Trends in Translation and Technology

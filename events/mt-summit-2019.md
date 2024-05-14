@@ -7,9 +7,9 @@ layout: event
 title: MT Summit 2019
 end_date: '2019-08-23'
 future_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit
-  2019</strong>) will take place in Dublin, Ireland from 19 to 23 August, 2019.
+  2019</strong>) will take place in Dublin, Ireland from 19 August to 23 August, 2019.
 past_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit 2019</strong>)
-  took place in Dublin, Ireland from 19 to 23 August, 2019.
+  took place in Dublin, Ireland from 19 August to 23 August, 2019.
 name: MT Summit 2019
 id: mt-summit-2019
 description: Machine Translation Summit

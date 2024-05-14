@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT19
 end_date: '2019-08-02'
 future_tense_opening_paragraph: The Conference on Machine Translation (<strong>WMT19</strong>)
-  will take place in Florence, Italy from 01 to 02 August, 2019.
+  will take place in Florence, Italy from 01 August to 02 August, 2019.
 past_tense_opening_paragraph: The Conference on Machine Translation (<strong>WMT19</strong>)
-  took place in Florence, Italy from 01 to 02 August, 2019.
+  took place in Florence, Italy from 01 August to 02 August, 2019.
 name: WMT19
 id: wmt19
 description: Conference on Machine Translation

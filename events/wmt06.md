@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT06
 end_date: '2006-06-09'
 future_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT06</strong>)
-  will take place in New York, United States of America from 08 to 09 June, 2006.
+  will take place in New York, United States of America from 08 June to 09 June, 2006.
 past_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT06</strong>)
-  took place in New York, United States of America from 08 to 09 June, 2006.
+  took place in New York, United States of America from 08 June to 09 June, 2006.
 name: WMT06
 id: wmt06
 description: Workshop on Machine Translation

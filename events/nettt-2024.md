@@ -7,9 +7,9 @@ layout: event
 title: NeTTT 2024
 end_date: '2024-07-06'
 future_tense_opening_paragraph: The New Trends in Translation and Technology (<strong>NeTTT
-  2024</strong>) will take place in Varna, Bulgaria from 03 to 06 July, 2024.
+  2024</strong>) will take place in Varna, Bulgaria from 03 July to 06 July, 2024.
 past_tense_opening_paragraph: The New Trends in Translation and Technology (<strong>NeTTT
-  2024</strong>) took place in Varna, Bulgaria from 03 to 06 July, 2024.
+  2024</strong>) took place in Varna, Bulgaria from 03 July to 06 July, 2024.
 name: NeTTT 2024
 id: nettt-2024
 description: New Trends in Translation and Technology

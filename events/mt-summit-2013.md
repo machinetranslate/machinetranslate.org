@@ -7,9 +7,10 @@ layout: event
 title: MT Summit 2013
 end_date: '2013-11-06'
 future_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit
-  2013</strong>) will take place in Nice, France from 02 to 06 November, 2013.
+  2013</strong>) will take place in Nice, France from 02 November to 06 November,
+  2013.
 past_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit 2013</strong>)
-  took place in Nice, France from 02 to 06 November, 2013.
+  took place in Nice, France from 02 November to 06 November, 2013.
 name: MT Summit 2013
 id: mt-summit-2013
 description: Machine Translation Summit

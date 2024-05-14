@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT07
 end_date: '2007-06-23'
 future_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT07</strong>)
-  will take place in Prague, Czech Republic from 23 to 23 June, 2007.
+  will take place in Prague, Czech Republic from 23 June to 23 June, 2007.
 past_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT07</strong>)
-  took place in Prague, Czech Republic from 23 to 23 June, 2007.
+  took place in Prague, Czech Republic from 23 June to 23 June, 2007.
 name: WMT07
 id: wmt07
 description: Workshop on Machine Translation

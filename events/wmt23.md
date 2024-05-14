@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT23
 end_date: '2023-12-07'
 future_tense_opening_paragraph: The Eighth Conference on Machine Translation (<strong>WMT23</strong>)
-  will take place in Singapore from 06 to 07 December, 2023.
+  will take place in Singapore from 06 December to 07 December, 2023.
 past_tense_opening_paragraph: The Eighth Conference on Machine Translation (<strong>WMT23</strong>)
-  took place in Singapore from 06 to 07 December, 2023.
+  took place in Singapore from 06 December to 07 December, 2023.
 name: WMT23
 id: wmt23
 description: Eighth Conference on Machine Translation

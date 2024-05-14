@@ -7,9 +7,10 @@ layout: event
 title: MT Summit 2017
 end_date: '2017-09-22'
 future_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit
-  2017</strong>) will take place in Nagoya, Japan from 18 to 22 September, 2017.
+  2017</strong>) will take place in Nagoya, Japan from 18 September to 22 September,
+  2017.
 past_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit 2017</strong>)
-  took place in Nagoya, Japan from 18 to 22 September, 2017.
+  took place in Nagoya, Japan from 18 September to 22 September, 2017.
 name: MT Summit 2017
 id: mt-summit-2017
 description: Machine Translation Summit

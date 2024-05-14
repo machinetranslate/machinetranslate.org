@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT20
 end_date: '2020-11-11'
 future_tense_opening_paragraph: The None (<strong>WMT20</strong>) will take place
-  Online from 10 to 11 November, 2020.
+  Online from 10 November to 11 November, 2020.
 past_tense_opening_paragraph: The None (<strong>WMT20</strong>) took place Online
-  from 10 to 11 November, 2020.
+  from 10 November to 11 November, 2020.
 name: WMT20
 id: wmt20
 start_date: '2020-11-10'

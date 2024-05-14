@@ -7,10 +7,11 @@ layout: event
 title: MT Summit 2015
 end_date: '2015-11-03'
 future_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit
-  2015</strong>) will take place in Florida, United States of America from 29 to 03
-  November, 2015.
+  2015</strong>) will take place in Florida, United States of America from 29 October
+  to 03 November, 2015.
 past_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit 2015</strong>)
-  took place in Florida, United States of America from 29 to 03 November, 2015.
+  took place in Florida, United States of America from 29 October to 03 November,
+  2015.
 name: MT Summit 2015
 id: mt-summit-2015
 description: Machine Translation Summit

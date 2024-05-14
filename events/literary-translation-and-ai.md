@@ -8,10 +8,10 @@ title: Literary Translation and AI
 end_date: '2022-10-21'
 future_tense_opening_paragraph: The Assessing changes in translation theory, practice
   and creativity (<strong>Literary Translation and AI</strong>) will take place in
-  Paris, France from 20 to 21 October, 2022.
+  Paris, France from 20 October to 21 October, 2022.
 past_tense_opening_paragraph: The Assessing changes in translation theory, practice
   and creativity (<strong>Literary Translation and AI</strong>) took place in Paris,
-  France from 20 to 21 October, 2022.
+  France from 20 October to 21 October, 2022.
 name: Literary Translation and AI
 id: literary-translation-and-ai
 description: Assessing changes in translation theory, practice and creativity

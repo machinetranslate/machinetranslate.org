@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT08
 end_date: '2008-06-19'
 future_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT08</strong>)
-  will take place in Columbus, Unites States of America from 19 to 19 June, 2008.
+  will take place in Columbus, Unites States of America from 19 June to 19 June, 2008.
 past_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT08</strong>)
-  took place in Columbus, Unites States of America from 19 to 19 June, 2008.
+  took place in Columbus, Unites States of America from 19 June to 19 June, 2008.
 name: WMT08
 id: wmt08
 description: Workshop on Machine Translation

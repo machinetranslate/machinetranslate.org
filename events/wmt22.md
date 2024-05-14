@@ -7,9 +7,10 @@ layout: wmt_event
 title: WMT22
 end_date: '2022-12-08'
 future_tense_opening_paragraph: The Seventh Conference on Machine Translation (<strong>WMT22</strong>)
-  will take place in Abu Dhabi, United Arab Emirates from 07 to 08 December, 2022.
+  will take place in Abu Dhabi, United Arab Emirates from 07 December to 08 December,
+  2022.
 past_tense_opening_paragraph: The Seventh Conference on Machine Translation (<strong>WMT22</strong>)
-  took place in Abu Dhabi, United Arab Emirates from 07 to 08 December, 2022.
+  took place in Abu Dhabi, United Arab Emirates from 07 December to 08 December, 2022.
 name: WMT22
 id: wmt22
 description: Seventh Conference on Machine Translation

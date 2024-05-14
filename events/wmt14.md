@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT14
 end_date: '2014-06-27'
 future_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT14</strong>)
-  will take place in Maryland, United States of America from 26 to 27 June, 2014.
+  will take place in Maryland, United States of America from 26 June to 27 June, 2014.
 past_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT14</strong>)
-  took place in Maryland, United States of America from 26 to 27 June, 2014.
+  took place in Maryland, United States of America from 26 June to 27 June, 2014.
 name: WMT14
 id: wmt14
 description: Workshop on Machine Translation

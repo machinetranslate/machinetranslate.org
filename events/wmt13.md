@@ -7,9 +7,9 @@ layout: wmt_event
 title: WMT13
 end_date: '2013-08-09'
 future_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT13</strong>)
-  will take place in Sofia, Bulgaria from 08 to 09 August, 2013.
+  will take place in Sofia, Bulgaria from 08 August to 09 August, 2013.
 past_tense_opening_paragraph: The Workshop on Machine Translation (<strong>WMT13</strong>)
-  took place in Sofia, Bulgaria from 08 to 09 August, 2013.
+  took place in Sofia, Bulgaria from 08 August to 09 August, 2013.
 name: WMT13
 id: wmt13
 description: Workshop on Machine Translation

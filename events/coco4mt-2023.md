@@ -8,10 +8,10 @@ title: CoCo4MT 2023
 end_date: '2023-09-05'
 future_tense_opening_paragraph: The Workshop on Corpus Generation and Corpus Augmentation
   for Machine Translation (<strong>CoCo4MT 2023</strong>) will take place in Macau
-  Special Administrative Region, CN from 04 to 05 September, 2023.
+  Special Administrative Region, CN from 04 September to 05 September, 2023.
 past_tense_opening_paragraph: The Workshop on Corpus Generation and Corpus Augmentation
   for Machine Translation (<strong>CoCo4MT 2023</strong>) took place in Macau Special
-  Administrative Region, CN from 04 to 05 September, 2023.
+  Administrative Region, CN from 04 September to 05 September, 2023.
 name: CoCo4MT 2023
 id: coco4mt-2023
 description: Workshop on Corpus Generation and Corpus Augmentation for Machine Translation

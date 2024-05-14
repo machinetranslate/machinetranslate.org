@@ -7,11 +7,11 @@ layout: event
 title: Convergence conference 2023
 end_date: '2023-02-03'
 future_tense_opening_paragraph: The Human-machine integration in translation and interpreting
-  (<strong>Convergence conference 2023</strong>) will take place Online from 01 to
-  03 February, 2023.
+  (<strong>Convergence conference 2023</strong>) will take place Online from 01 February
+  to 03 February, 2023.
 past_tense_opening_paragraph: The Human-machine integration in translation and interpreting
-  (<strong>Convergence conference 2023</strong>) took place Online from 01 to 03 February,
-  2023.
+  (<strong>Convergence conference 2023</strong>) took place Online from 01 February
+  to 03 February, 2023.
 name: Convergence conference 2023
 id: convergence-conference-2023
 description: Human-machine integration in translation and interpreting
