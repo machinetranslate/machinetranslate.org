@@ -1,5 +1,5 @@
 ---
-nav_order: 996
+nav_order: 3
 parent: Newsletter
 title: October 2023 newsletter
 description: News, jobs, community questions and more about machine translation from October 2023

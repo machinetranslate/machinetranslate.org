@@ -1,5 +1,5 @@
 ---
-nav_order: 999
+nav_order: 1
 parent: Newsletter
 title: August 2023 newsletter
 description: News, jobs, community questions and more about machine translation from August 2023
