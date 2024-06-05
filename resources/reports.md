@@ -8,8 +8,9 @@ seo:
 
 |     |     |
 | --- | --- |
+| [Intento](/companies#intento) | [The State of Machine Translation 2024](https://inten.to/machine-translation-report-2024/?u=295861895&utm_source=machine_translate) |
 | [Phrase](/phrase-tms) | [Q2 2023 Machine Translation Report](https://phrase.com/resources/machine-translation-report/) |
-| [Intento](/companies#intento) | [The State of Machine Translation 2023](https://inten.to/machine-translation-report-2023/?utm_campaign=MT%20Report%202023&utm_source=machine_translate) |
+| Intento | [The State of Machine Translation 2023](https://inten.to/machine-translation-report-2023/?utm_campaign=MT%20Report%202023&utm_source=machine_translate) |
 | [Weglot](/weglot) | [The state of machine translation for websites 2023](https://www.weglot.com/ebooks/state-of-machine-translation-report) |
 | Phrase | [Q1 2023 Machine Translation Report](https://phrase.com/resources/machine-translation-report/) |
 | Intento | [The State of Machine Translation 2022](https://inten.to/machine-translation-report-2022/) |
