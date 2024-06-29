@@ -5,11 +5,26 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: <code>tiv</code>
-description: Machine translation for <code>tiv</code>
+title: Tiv
+description: Machine translation for Tiv
 codes:
 - tiv
-family: []
+names:
+- Tiv
+family:
+- slug: niger-congo
+  name: Niger-Congo
+- slug: bantu
+  name: Bantu
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - agglutinative
+territories:
+- ng
 supported_apis:
 - id: google
   name: Google Translate
@@ -17,7 +32,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for <code>tiv</code>
+  name: Machine translation for Tiv
   type: Language
 
 ---

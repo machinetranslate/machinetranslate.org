@@ -159,17 +159,17 @@ supported_languages:
   base_code: bch
   name: null
   variant_name: null
-- slug: bci
+- slug: baule
   code: bci
   normalized_code: bci
   base_code: bci
-  name: null
+  name: Baule
   variant_name: null
-- slug: bcl
+- slug: bikol
   code: bcl
   normalized_code: bcl
   base_code: bcl
-  name: null
+  name: Bikol
   variant_name: null
 - slug: bdh
   code: bdh
@@ -279,11 +279,11 @@ supported_languages:
   base_code: bsn
   name: null
   variant_name: null
-- slug: btx
+- slug: karo
   code: btx
   normalized_code: btx
   base_code: btx
-  name: null
+  name: Karo
   variant_name: null
 - slug: bum
   code: bum
@@ -381,11 +381,11 @@ supported_languages:
   base_code: ce
   name: Chechen
   variant_name: null
-- slug: chk
+- slug: chuukese
   code: chk
   normalized_code: chk
   base_code: chk
-  name: null
+  name: Chuukese
   variant_name: null
 - slug: chq
   code: chq
@@ -429,11 +429,11 @@ supported_languages:
   base_code: cki
   name: null
   variant_name: null
-- slug: cnh
+- slug: hakha-chin
   code: cnh
   normalized_code: cnh
   base_code: cnh
-  name: null
+  name: Hakha Chin
   variant_name: null
 - slug: cni
   code: cni
@@ -465,11 +465,11 @@ supported_languages:
   base_code: crh
   name: Crimean Tatar
   variant_name: null
-- slug: crs
+- slug: seselwa-creole-french
   code: crs
   normalized_code: crs
   base_code: crs
-  name: null
+  name: Seselwa Creole French
   variant_name: null
 - slug: czech
   code: cs
@@ -807,11 +807,11 @@ supported_languages:
   base_code: hi
   name: Hindi
   variant_name: null
-- slug: hil
+- slug: hiligaynon
   code: hil
   normalized_code: hil
   base_code: hil
-  name: null
+  name: Hiligaynon
   variant_name: null
 - slug: hlb
   code: hlb
@@ -867,11 +867,11 @@ supported_languages:
   base_code: hy
   name: Armenian
   variant_name: null
-- slug: iba
+- slug: iban
   code: iba
   normalized_code: iba
   base_code: iba
-  name: null
+  name: Iban
   variant_name: null
 - slug: ibg
   code: ibg
@@ -1047,11 +1047,11 @@ supported_languages:
   base_code: kea
   name: Cape Verdean Creole
   variant_name: null
-- slug: kek
+- slug: qeqchi
   code: kek
   normalized_code: kek
   base_code: kek
-  name: null
+  name: Qeqchi
   variant_name: null
 - slug: keo
   code: keo
@@ -1263,11 +1263,11 @@ supported_languages:
   base_code: lv
   name: Latvian
   variant_name: null
-- slug: mad
+- slug: madurese
   code: mad
   normalized_code: mad
   base_code: mad
-  name: null
+  name: Madurese
   variant_name: null
 - slug: marshallese
   code: mah
@@ -1279,7 +1279,7 @@ supported_languages:
   code: mam
   normalized_code: mam
   base_code: mam
-  name: null
+  name: Mam
   variant_name: null
 - slug: map
   code: map
@@ -1317,11 +1317,11 @@ supported_languages:
   base_code: meu
   name: null
   variant_name: null
-- slug: mfe
+- slug: mauritian-creole
   code: mfe
   normalized_code: mfe
   base_code: mfe
-  name: null
+  name: Mauritian Creole
   variant_name: null
 - slug: malagasy
   code: mg
@@ -1443,11 +1443,11 @@ supported_languages:
   base_code: nba
   name: null
   variant_name: null
-- slug: ndc
+- slug: ndau
   code: ndc
   normalized_code: ndc
   base_code: ndc
-  name: null
+  name: Ndau
   variant_name: null
 - slug: ndonga
   code: ndo
@@ -2011,7 +2011,7 @@ supported_languages:
   code: tiv
   normalized_code: tiv
   base_code: tiv
-  name: null
+  name: Tiv
   variant_name: null
 - slug: turkmen
   code: tk
@@ -2115,11 +2115,11 @@ supported_languages:
   base_code: ty
   name: Tahitian
   variant_name: null
-- slug: tyv
+- slug: tuvinian
   code: tyv
   normalized_code: tyv
   base_code: tyv
-  name: null
+  name: Tuvinian
   variant_name: null
 - slug: tzh
   code: tzh

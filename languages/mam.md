@@ -5,11 +5,25 @@ nav_order: 998
 nav_exclude: true
 parent: Languages
 layout: language
-title: <code>mam</code>
-description: Machine translation for <code>mam</code>
+title: Mam
+description: Machine translation for Mam
 codes:
 - mam
-family: []
+names:
+- Mam
+family:
+- slug: mayan
+  name: Mayan
+scripts:
+- Latn
+typology:
+  word_order:
+  - VOS
+  morphosyntax:
+  - agglutinative
+territories:
+- gt
+- mx
 supported_apis:
 - id: google
   name: Google Translate
@@ -17,7 +31,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis: []
 seo:
-  name: Machine translation for <code>mam</code>
+  name: Machine translation for Mam
   type: Language
 
 ---

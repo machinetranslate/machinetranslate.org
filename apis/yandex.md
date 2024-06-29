@@ -458,11 +458,11 @@ supported_languages:
   base_code: ru
   name: Russian
   variant_name: null
-- slug: sah
+- slug: yakut
   code: sah
   normalized_code: sah
   base_code: sah
-  name: null
+  name: Yakut
   variant_name: null
 - slug: sinhala
   code: si

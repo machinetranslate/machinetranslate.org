@@ -105,11 +105,11 @@ supported_languages:
   base_code: de
   name: German
   variant_name: null
-- slug: doi
+- slug: dogri
   code: doi
   normalized_code: doi
   base_code: doi
-  name: null
+  name: Dogri
   variant_name: null
 - slug: greek
   code: el
@@ -279,11 +279,11 @@ supported_languages:
   base_code: ko
   name: Korean
   variant_name: null
-- slug: kok
+- slug: konkani
   code: kok
   normalized_code: kok
   base_code: kok
-  name: null
+  name: Konkani
   variant_name: null
 - slug: kashmiri
   code: ks

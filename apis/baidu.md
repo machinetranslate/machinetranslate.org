@@ -447,11 +447,11 @@ supported_languages:
   base_code: he
   name: Hebrew
   variant_name: null
-- slug: hil
+- slug: hiligaynon
   code: hil
   normalized_code: hil
   base_code: hil
-  name: null
+  name: Hiligaynon
   variant_name: null
 - slug: hindi
   code: hin
@@ -597,11 +597,11 @@ supported_languages:
   base_code: ky
   name: Kyrgyz
   variant_name: null
-- slug: kok
+- slug: konkani
   code: kok
   normalized_code: kok
   base_code: kok
-  name: null
+  name: Konkani
   variant_name: null
 - slug: kongo
   code: kon
@@ -795,11 +795,11 @@ supported_languages:
   base_code: 'no'
   name: Norwegian
   variant_name: null
-- slug: nqo
+- slug: n'ko
   code: nqo
   normalized_code: nqo
   base_code: nqo
-  name: null
+  name: N'ko
   variant_name: null
 - slug: northern-sotho
   code: nso
@@ -843,11 +843,11 @@ supported_languages:
   base_code: os
   name: Ossetian
   variant_name: null
-- slug: pam
+- slug: kapampangan
   code: pam
   normalized_code: pam
   base_code: pam
-  name: null
+  name: Kapampangan
   variant_name: null
 - slug: punjabi
   code: pan
@@ -903,11 +903,11 @@ supported_languages:
   base_code: rm
   name: Romansh
   variant_name: null
-- slug: rom
+- slug: romani
   code: rom
   normalized_code: rom
   base_code: rom
-  name: null
+  name: Romani
   variant_name: null
 - slug: romanian
   code: ron
