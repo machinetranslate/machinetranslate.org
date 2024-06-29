@@ -36,12 +36,12 @@ supported_apis:
   name: Youdao Translate
 - id: neuralspace
   name: NeuralSpace
-- id: google
-  name: Google Translate
 - id: modernmt
   name: ModernMT
 - id: baidu
   name: Baidu Translate
+- id: google
+  name: Google Translate
 - id: niutrans
   name: Niutrans
 supported_qe_apis:

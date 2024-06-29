@@ -28,12 +28,12 @@ territories:
 supported_apis:
 - id: textra
   name: TexTra
-- id: google
-  name: Google Translate
 - id: modernmt
   name: ModernMT
 - id: baidu
   name: Baidu Translate
+- id: google
+  name: Google Translate
 supported_qe_apis: []
 seo:
   name: Machine translation for Northern Sotho

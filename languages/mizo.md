@@ -27,10 +27,10 @@ territories:
 - in
 - mm
 supported_apis:
-- id: google
-  name: Google Translate
 - id: modernmt
   name: ModernMT
+- id: google
+  name: Google Translate
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []

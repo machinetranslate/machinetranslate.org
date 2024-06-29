@@ -76,10 +76,10 @@ supported_apis:
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: google
-  name: Google Translate
 - id: baidu
   name: Baidu Translate
+- id: google
+  name: Google Translate
 - id: alibaba
   name: Alibaba Translate
 - id: niutrans

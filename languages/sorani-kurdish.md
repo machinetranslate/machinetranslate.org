@@ -31,10 +31,10 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
-- id: google
-  name: Google Translate
 - id: modernmt
   name: ModernMT
+- id: google
+  name: Google Translate
 - id: niutrans
   name: Niutrans
 supported_qe_apis:

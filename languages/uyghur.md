@@ -34,12 +34,12 @@ supported_apis:
   name: LingvaNex
 - id: neuralspace
   name: NeuralSpace
-- id: google
-  name: Google Translate
 - id: modernmt
   name: ModernMT
 - id: baidu
   name: Baidu Translate
+- id: google
+  name: Google Translate
 supported_qe_apis:
 - slug: demt-estimate
   id: demt-estimate

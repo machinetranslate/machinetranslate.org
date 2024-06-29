@@ -29,12 +29,12 @@ territories:
 - in
 - np
 supported_apis:
-- id: google
-  name: Google Translate
 - id: modernmt
   name: ModernMT
 - id: baidu
   name: Baidu Translate
+- id: google
+  name: Google Translate
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []

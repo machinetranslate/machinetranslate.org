@@ -30,10 +30,10 @@ territories:
 supported_apis:
 - id: neuralspace
   name: NeuralSpace
-- id: google
-  name: Google Translate
 - id: baidu
   name: Baidu Translate
+- id: google
+  name: Google Translate
 - id: alibaba
   name: Alibaba Translate
 - id: niutrans

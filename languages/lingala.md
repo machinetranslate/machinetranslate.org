@@ -32,12 +32,12 @@ supported_apis:
   name: TexTra
 - id: neuralspace
   name: NeuralSpace
-- id: google
-  name: Google Translate
 - id: modernmt
   name: ModernMT
 - id: baidu
   name: Baidu Translate
+- id: google
+  name: Google Translate
 - id: alibaba
   name: Alibaba Translate
 - id: niutrans
