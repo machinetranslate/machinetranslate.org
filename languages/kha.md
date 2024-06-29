@@ -11,10 +11,10 @@ codes:
 - kha
 family: []
 supported_apis:
-- id: google
-  name: Google Translate
 - id: alibaba
   name: Alibaba Translate
+- id: google
+  name: Google Translate
 supported_qe_apis: []
 seo:
   name: Machine translation for <code>kha</code>

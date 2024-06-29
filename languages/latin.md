@@ -42,10 +42,10 @@ supported_apis:
   name: ModernMT
 - id: baidu
   name: Baidu Translate
-- id: google
-  name: Google Translate
 - id: alibaba
   name: Alibaba Translate
+- id: google
+  name: Google Translate
 - id: niutrans
   name: Niutrans
 supported_qe_apis:

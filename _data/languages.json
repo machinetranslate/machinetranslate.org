@@ -374,6 +374,36 @@
     },
     {
         "codes": [
+            "ava",
+            "av"
+        ],
+        "names": [
+            "Avar",
+            "Avaric"
+        ],
+        "family": [
+            "ccn"
+        ],
+        "scripts": [
+            "Cyrl"
+        ],
+        "typology": {
+            "word_order": [
+                "SOV"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "ru",
+            "az",
+            "kz",
+            "ge"
+        ]
+    },
+    {
+        "codes": [
             "awa"
         ],
         "names": [
@@ -8174,6 +8204,11 @@
     {
         "codes": [
             "zgh"
+        ]
+    },
+    {
+        "codes": [
+            "mwr"
         ]
     }
 ]

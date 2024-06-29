@@ -39,10 +39,10 @@ territories:
 supported_apis:
 - id: baidu
   name: Baidu Translate
-- id: google
-  name: Google Translate
 - id: alibaba
   name: Alibaba Translate
+- id: google
+  name: Google Translate
 supported_qe_apis: []
 seo:
   name: Machine translation for Balochi

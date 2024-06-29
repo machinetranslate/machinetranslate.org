@@ -74,10 +74,10 @@ supported_apis:
   name: Youdao Translate
 - id: neuralspace
   name: NeuralSpace
-- id: google
-  name: Google Translate
 - id: alibaba
   name: Alibaba Translate
+- id: google
+  name: Google Translate
 - id: niutrans
   name: Niutrans
 supported_qe_apis:

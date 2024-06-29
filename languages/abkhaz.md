@@ -27,10 +27,10 @@ territories:
 supported_apis:
 - id: kantanmt
   name: KantanMT
-- id: google
-  name: Google Translate
 - id: alibaba
   name: Alibaba Translate
+- id: google
+  name: Google Translate
 supported_qe_apis: []
 seo:
   name: Machine translation for Abkhaz

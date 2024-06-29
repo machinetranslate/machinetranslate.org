@@ -88,10 +88,10 @@ supported_apis:
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: google
-  name: Google Translate
 - id: alibaba
   name: Alibaba Translate
+- id: google
+  name: Google Translate
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
