@@ -1184,11 +1184,11 @@ supported_languages:
   base_code: ty
   name: Tahitian
   variant_name: null
-- slug: tuvinian
+- slug: tuvan
   code: tyv
   normalized_code: tyv
   base_code: tyv
-  name: Tuvinian
+  name: Tuvan
   variant_name: null
 - slug: udmurt
   code: udm
