@@ -75,3 +75,72 @@ seo:
 - The business of translation and interpreting
 - Teaching translation and interpreting
 - Special Theme Track - Future of Translation Technology in the Era of LLMs and Generative AI
+
+
+### Schedule
+
+
+Day 1
+
+|     |     |
+| 09:00 – 09:30 | **Registration** |
+| 09:30 – 09:40 | **Opening** |
+| 09:40 – 10:40 | **Keynote speech** <br>Helena Moniz <br>University of Lisbon <br>Unbabel, Portugal <br>President of the European Association of Machine Translation |
+| 10:40 – 11:00 | **Sponsors’ presentation** <br>**Juremy** |
+| 11:00 – 11:30 | ☕️ |
+| 11:30 – 13:00 | **Translation technology session** <br>**Characterization of Institutional Texts for an Automated Golden Standard: Enhancing Machine Translation Quality Assessment between English and Spanish** <br>Luisa Romana, Blanca Hernandez Pardo |
+|     | **Optimising Translation Tools for Post-Editing: Results of a User Survey** <br>Marie Escribe, Miguel A. Candel-Mora |
+|     | **Exploring Students’ Experience with CAT-Integrated MT and Gen AI: Translating Creative Texts in BWX** <br>Viveta Gene, Vilelmini Sosoni, Pilar Sánchez-Gijón, Parthena Charalampidou, María do Campo Bayón |
+| 13:00 – 14:30 | 🍴 |
+| 14:30 – 15:00 | **Sponsors presentation:** <br>**OOONA** |
+| 15:00 – 16:00 | **Machine translation – session 1** <br>**Linguistic Complexity in Domain-Specific Neural Machine Translation** <br>Daria Sokova, Cristina Toledo-Báez |
+|     | **Optimizing Quality Estimation for Low-Resource Language Translations: Exploring the Role of Language Relatedness** <br>Archchana Sindhujan, Diptesh Kanojia, Constantin Orasan |
+| 16:00 – 16:30 | ☕️ |
+| 16:30 – 17:30 | **Machine translation – session 2** <br>**Evaluating Machine Translation for Cross-Lingual Fact-Checking** <br>Irina Temnikova, Silvia Gargova, Tsvetelina Stefanova, Iva Marinova, Ruslana Margova, Nevena Grigorova, Alexander Komarov, Dan Sultanescu, Kalina Bontcheva |
+|     | **Towards A Neural Machine Translation Proposal to Help Everyday Communication for People with Broca’s Aphasia** <br>Mohammed Djameleddine Belgoumri, Chahnez Zakaria, David Langlois, Kamel Smaili |
+
+
+Day 2
+
+|     |     |
+| 09:30 – 10:30 | **Keynote speech** <br>**Languages, Translators and AI: a dangerous liaison?** <br>Carla Parra Escartin <br>RWS Language Weaver |
+| 10:30 – 11:00 | **Sponsor’s presentation** <br>Mitra and STMS |
+| 11:00 – 11:30 | ☕️ |
+| 11:30 – 13:00 | **User studies – session 1** <br>**Comparing Human and Machine Translation: a Survey with Italian University Students Learning Russian** <br>Francesca Biagini, Anna Bonola, Valentina Noseda |
+|     | **From Neural Machine Translation to Large Language Models: Analysing Translation Quality of Chinese Idioms** <br>Yafei Zhu, Daisy Monika Lal, Sofiia Denysiuk, Ruslan Mitkov |
+|     | **Professional translators’ attitudes towards control and autonomy in the Human-Centered AI era: presenting a survey study** <br>Miguel A. Jimenez-Crespo |
+| 13:00 – 14:30 | 🍴 |
+| 14:30 – 15:00 | **Sponsors’ presentation** <br>**Pangeanic** |
+| 15:00 – 16:00 | **User studies – session 2** <br>**Bridging Cultural Divides: A Study of Subtitling English and Arabic Films in Saudi Context** <br>Noha Alowedi |
+|     | **Techno-Linguistic Symbiosis: A Systematic Review of Technological Integration in Arab Translation Studies** <br>Mubarak H. Alkhatnai |
+| 16:00 – 16:30 | ☕️ |
+| 16:30 – 17:30 | **Applications – session 1 (Short papers)** |
+|     | **Building a Large Language Model for Croatian** <br>Gaurish Thakkar, Marko Tadić, Daša Farkaš, Vanja Štefanec |
+|     | **AI in Political Translation: Revolutionizing Communication or Risking Manipulation?** <br>Stavroula Paraskevi Vraila |
+|     | **Enhancing Language Learning through Technology: Introducing a New English-Azerbaijani (Arabic Script) Parallel Corpus** <br>Jalil Nourmohammadi Khiarak, Ammar Ahmadi, Taher Akbari Saeed, Meysam Asgari-Chenaghlu, Toğrul Atabay, Mohammad Reza Baghban Karimi, Ismail Ceferli, Farzad Hasanvand, Seyed Mahboob Mousavi, Morteza Noshad |
+
+
+Day 3
+
+|     |     |
+| 09:30 – 11:00 | **Machine translation – session 3** |
+|     | **A New Space in Corpus-assisted Literary Translation Analyses: Examining the Reasons Behind Literary Metaphors and Their Translations** <br>Ruiqi Zhou |
+|     | **Machine-Translated Subtitles and Education: The Future of more Accessible Learning? – Insights from an Eye-Tracking Study** <br>Frederike Schierl |
+|     | **Machine Translation of Multiword Expressions: double Dutch or crystal clear?** <br>Rozane Rebechi, Nathalia Oliva Marcon, Guilherme de Almeida Faller, Aline Villavicencio |
+| 11:00 – 11:30 | ☕️ |
+| 11:30 – 12:10 | **Applications – session 2 (Short papers)** |
+|     | **Manual Quality Evaluation and Post-editing in Enhancing the Correctness of MateCat’s English-Polish Legal Translations** <br>Edyta Źrałka |
+|     | **Cognitive Approaches to Translation Activity: A Systematic Literature Review** <br>Najia Alghamedi |
+| 12:15 – 13:00 | **VIP workshop** |
+| 13:00 – 14:30 | 🍴 |
+| 14:30 – 15:30 | **Industry presentation** |
+|     | **Lingea: Integration of Language Tools into Workflows** <br>Josef Jon, Isidora Katanić, Efraim Berkovič, Marek Švanda |
+|     | **A.I. and A.D. – OK or N/A?** <br>Joel Snyder |
+| 15:30 – 16:00 | **AI Olympiad** |
+| 16:00 – 16:30 | ☕️ |
+| 16:30 – 17:30 | **Round table and closing** |
+
+
+### Proceedings
+
+[nettt-conference.com/wp-content/uploads/2024/07/NeTTT_proceedings_3Jul2024.pdf](https://nettt-conference.com/wp-content/uploads/2024/07/NeTTT_proceedings_3Jul2024.pdf)
