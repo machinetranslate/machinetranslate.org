@@ -57,7 +57,7 @@ The **Machine Translate Foundation** is building **open information** and **comm
 The content covers everything about machine translation, from products to research, and from history to news.
 
 > #### Featured events
-> - [WMT24](/wmt24) - 12-13 November, Miami 🇺🇸
+> - [WMT24](/wmt24) - 15-16 November, Miami 🇺🇸
 > - [AMTA 2024](/amta-2024) - 30 September-02 October, Chicago 🇺🇸
 > - [Speech machine translation panel](/meetup) - to be determined, online 🌎
 
