@@ -648,10 +648,10 @@ supported_languages:
   base_code: tl
   name: Tagalog
   variant_name: null
-- slug: tonga
+- slug: tongan
   code: to
   base_code: to
-  name: Tonga
+  name: Tongan
   variant_name: null
 - slug: turkish
   code: tr

@@ -5,13 +5,12 @@ nav_order: 993
 nav_exclude: true
 parent: Languages
 layout: language
-title: Tonga
-description: Machine translation for Tonga
+title: Tongan
+description: Machine translation for Tongan
 codes:
 - to
 - ton
 names:
-- Tonga
 - Tongan
 family:
 - slug: austronesian
@@ -45,7 +44,7 @@ supported_qe_apis:
   id: modelfront
   name: ModelFront
 seo:
-  name: Machine translation for Tonga
+  name: Machine translation for Tongan
   type: Language
 
 ---

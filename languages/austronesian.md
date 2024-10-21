@@ -74,8 +74,8 @@ languages:
   name: Tahitian
 - slug: tetum
   name: Tetum
-- slug: tonga
-  name: Tonga
+- slug: tongan
+  name: Tongan
 - slug: waray
   name: Waray
 seo:

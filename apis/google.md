@@ -1313,11 +1313,11 @@ supported_languages:
   base_code: tn
   name: Tswana
   variant_name: null
-- slug: tonga
+- slug: tongan
   code: to
   normalized_code: to
   base_code: to
-  name: Tonga
+  name: Tongan
   variant_name: null
 - slug: tok-pisin
   code: tpi

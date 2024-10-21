@@ -1130,11 +1130,11 @@ supported_languages:
   base_code: tlh
   name: Klingon
   variant_name: null
-- slug: tonga
+- slug: tongan
   code: to
   normalized_code: to
   base_code: to
-  name: Tonga
+  name: Tongan
   variant_name: null
 - slug: toi
   code: toi
