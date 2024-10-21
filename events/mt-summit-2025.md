@@ -16,7 +16,7 @@ description: Machine Translation Summit
 calls_for_papers_deadline: '2025-06-23'
 start_date: '2025-06-27'
 more_paragraphs:
-- MT Summit 2025 was organised by <a href='/eamt'>EAMT</a>. <br> Machine Translation
+- The MT Summit 2025 conference is organised by <a href='/eamt'>EAMT</a>. The <br> Machine Translation
   (MT) Summit is an international conference, which brings together people from the
   academic and commercial world developing MT and users of MT systems. The conference
   overviews state-of-the-art technologies in MT, its major contemporary trends, and
@@ -61,6 +61,8 @@ seo:
     url: https://eamt.org
 
 ---
+
+
 ## Call for papers
 
 ### Research track - Technical
