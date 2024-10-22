@@ -6,17 +6,17 @@ nav_order: 2025
 layout: event
 title: MT Summit 2025
 end_date: '2025-06-27'
-future_tense_opening_paragraph: The Machine Translation (MT) Summit is an international
+future_tense_opening_paragraph: The <strong>Machine Translation (MT) Summit</strong> is an international
   conference, which brings together people from the academic and commercial world
   developing MT and users of MT systems. The conference overviews state-of-the-art
-  technologies in MT, its major contemporary trends, and practical applications.  (<strong>MT
-  Summit 2025</strong>) will take place in Geneva, Switzerland from 23 June to 27
+  technologies in MT, its major contemporary trends, and practical applications.  The MT
+  Summit 2025 will take place in Geneva, Switzerland from 23 June to 27
   June, 2025.
-past_tense_opening_paragraph: The Machine Translation (MT) Summit is an international
+past_tense_opening_paragraph: The <strong>Machine Translation (MT) Summit</strong> is an international
   conference, which brings together people from the academic and commercial world
   developing MT and users of MT systems. The conference overviews state-of-the-art
-  technologies in MT, its major contemporary trends, and practical applications.  (<strong>MT
-  Summit 2025</strong>) took place in Geneva, Switzerland from 23 June to 27 June,
+  technologies in MT, its major contemporary trends, and practical applications.  The MT
+  Summit 2025  took place in Geneva, Switzerland from 23 June to 27 June,
   2025.
 name: MT Summit 2025
 id: mt-summit-2025
