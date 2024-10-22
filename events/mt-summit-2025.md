@@ -5,27 +5,32 @@ parent: Events
 nav_order: 2025
 layout: event
 title: MT Summit 2025
-end_date: '2025-09-08'
-future_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit
-  2025</strong>) will take place in Geneva, Switzerland from 23 June to 27 June, 2025.
-past_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit 2025</strong>)
-  took place in Geneva, Switzerland from 23 June to 27 June, 2025.
+end_date: '2025-06-27'
+future_tense_opening_paragraph: The Machine Translation (MT) Summit is an international
+  conference, which brings together people from the academic and commercial world
+  developing MT and users of MT systems. The conference overviews state-of-the-art
+  technologies in MT, its major contemporary trends, and practical applications.  (<strong>MT
+  Summit 2025</strong>) will take place in Geneva, Switzerland from 23 June to 27
+  June, 2025.
+past_tense_opening_paragraph: The Machine Translation (MT) Summit is an international
+  conference, which brings together people from the academic and commercial world
+  developing MT and users of MT systems. The conference overviews state-of-the-art
+  technologies in MT, its major contemporary trends, and practical applications.  (<strong>MT
+  Summit 2025</strong>) took place in Geneva, Switzerland from 23 June to 27 June,
+  2025.
 name: MT Summit 2025
 id: mt-summit-2025
-description: Machine Translation Summit
-calls_for_papers_deadline: '2025-06-23'
-start_date: '2025-06-27'
-more_paragraphs:
-- The MT Summit 2025 conference is organised by <a href='/eamt'>EAMT</a>. The <br> Machine Translation
-  (MT) Summit is an international conference, which brings together people from the
-  academic and commercial world developing MT and users of MT systems. The conference
-  overviews state-of-the-art technologies in MT, its major contemporary trends, and
-  practical applications.
+description: 'Machine Translation (MT) Summit is an international conference, which
+  brings together people from the academic and commercial world developing MT and
+  users of MT systems. The conference overviews state-of-the-art technologies in MT,
+  its major contemporary trends, and practical applications. '
+calls_for_papers_deadline: '2025-01-27'
+start_date: '2025-06-23'
 location: Geneva, Switzerland
 organizer:
-  type: Organization
-  name: European Association for Machine Translation
-  url: https://eamt.org
+  type: Association
+  name: EAMT
+  url: http://eamt.org
 links:
 - https://mtsummit2025.unige.ch/
 important_dates:
@@ -37,17 +42,19 @@ important_dates:
   date: '2025-01-27'
 - name: Notification of acceptance of papers
   date: '2025-03-24'
-- name: Tutorial abrastract deadline
+- name: Tutorial abstract deadline
   date: '2025-04-07'
 - name: Final “camera-ready” versions of papers
   date: '2025-04-28'
 - name: Tutorial materials deadline
   date: '2025-06-02'
-
 seo:
   type: Event
   name: MT Summit 2025
-  description: Machine Translation Summit
+  description: 'Machine Translation (MT) Summit is an international conference, which
+    brings together people from the academic and commercial world developing MT and
+    users of MT systems. The conference overviews state-of-the-art technologies in
+    MT, its major contemporary trends, and practical applications. '
   startDate: '2025-06-23'
   endDate: '2025-06-27'
   eventAttendanceMode: OfflineEventAttendanceMode
@@ -56,13 +63,11 @@ seo:
     type: Place
     name: Geneva, Switzerland
   organizer:
-    type: Organization
-    name: European Association for Machine Translation
-    url: https://eamt.org
+    type: Association
+    name: EAMT
+    url: http://eamt.org
 
 ---
-
-
 ## Call for papers
 
 ### Research track - Technical

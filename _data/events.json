@@ -985,6 +985,56 @@
     ]
   },
   {
+    "name": "MT Summit 2025",
+    "id": "mt-summit-2025",
+    "description": "Machine Translation Summit",
+    "calls_for_papers_deadline": "2025-01-27",
+    "start_date": "2025-06-23",
+    "end_date": "2025-06-27",
+    "location": {
+      "location": "Geneva, Switzerland",
+      "online": false
+    },
+    "organizer": {
+      "type": "Association",
+      "name": "EAMT",
+      "url": "http://eamt.org"
+    },
+    "links": [
+      "https://mtsummit2025.unige.ch/"
+    ],
+    "important_dates": [
+      {
+        "name": "Workshops and tutorials submission deadline",
+        "date": "2024-11-25"
+      },
+      {
+        "name": "Notification of acceptance of workshops and tutorials",
+        "date": "2024-12-13"
+      },
+      {
+        "name": "Papers submission deadline",
+        "date": "2025-01-27"
+      },
+      {
+        "name": "Notification of acceptance of papers",
+        "date": "2025-03-24"
+      },
+      {
+        "name": "Tutorial abstract deadline",
+        "date": "2025-04-07"
+      },
+      {
+        "name": "Final “camera-ready” versions of papers",
+        "date": "2025-04-28"
+      },
+      {
+        "name": "Tutorial materials deadline",
+        "date": "2025-06-02"
+      }
+    ]
+  },
+  {
     "name": "AMTA 2020",
     "id": "amta-2020",
     "description": "Conference of the Association of Machine Translation in the Americas",
