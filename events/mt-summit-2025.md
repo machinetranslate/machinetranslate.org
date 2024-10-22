@@ -20,10 +20,7 @@ past_tense_opening_paragraph: The Machine Translation (MT) Summit is an internat
   2025.
 name: MT Summit 2025
 id: mt-summit-2025
-description: 'Machine Translation (MT) Summit is an international conference, which
-  brings together people from the academic and commercial world developing MT and
-  users of MT systems. The conference overviews state-of-the-art technologies in MT,
-  its major contemporary trends, and practical applications. '
+description: 'Machine Translation Summit'
 calls_for_papers_deadline: '2025-01-27'
 start_date: '2025-06-23'
 location: Geneva, Switzerland
