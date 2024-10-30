@@ -1185,6 +1185,15 @@
                 }
             },
             {
+                "omniscien": {
+                    "plugin": true,
+                    "custom": true,
+                    "urls": [
+                        "https://appstore.rws.com/Plugin/253",
+                    ]
+                }
+            },
+            {
                 "opus-cat": {
                     "plugin": true,
                     "custom": true,
