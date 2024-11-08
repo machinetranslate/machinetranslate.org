@@ -6918,6 +6918,45 @@
     {
         "codes": [
             "gos"
+        ],
+        "names": [
+            "Gronings",
+            "Grunnegs",
+            "Grönnegs",
+            "Grunnings",
+            "Gronings Low Saxon",
+            "Groningen Low Saxon"
+        ],
+        "variant_names": [
+        "Kollumerpompsters",
+        "Westerkwartiers",
+        "Stadjeders",
+        "Hogelandsters",
+        "Oldambtsters",
+        "Westerwolds",
+        "Veenkoloniaals",
+        "Noord-Drents"
+        ],
+        "family": [
+            "gem",
+            "ine"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "V2",
+                "SVO",
+                "SOV"
+            ],
+            "morphosyntax": [
+                "fusional",
+                "synthetic"
+            ]
+        },
+        "territories": [
+            "nl"
         ]
     },
     {
