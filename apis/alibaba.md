@@ -380,11 +380,11 @@ supported_languages:
   base_code: gn
   name: Guarani
   variant_name: null
-- slug: gos
+- slug: gronings
   code: gos
   normalized_code: gos
   base_code: gos
-  name: null
+  name: Gronings
   variant_name: null
 - slug: gujarati
   code: gu
