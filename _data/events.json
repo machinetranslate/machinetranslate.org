@@ -10413,19 +10413,59 @@
   },
   {
     "name": "Language AI Meetup",
+    "id": "zurich-language-ai-meetup-4",
+    "description": "Language AI meetup - Zurich",
     "start_date": "2024-12-02",
     "end_date": "2024-12-02",
+    "more_paragraphs": [
+      "The topic will be <bold><em>From True Crime to True Innovation</em></bold>. <br>Language AI’s power extends far beyond typical applications, reaching into unexpected areas like forensics and specialised industry tools. In this meetup, we’ll look at a true crime case and share insights from a proof of concept that aims to transform how language service departments work in the financial industry."
+    ],
     "location": {
-      "location": "Zurich, Switzerland"
-    }
+      "location": "Zurich, Switzerland",
+      "online": false
+    },
+    "one_day_schedule": [
+      {
+        "start_time": "18:30",
+        "title": "Door opening and registration"
+      },
+      {
+        "start_time": "19:00",
+        "title": "<bold>The Case of the Phantom Book: A Language AI Investigation</bold><br>Jannis Vamvas, University of Zurich <br><br><bold>Raiffeisen Schweiz in collaboration with Supertext</bold><br>Michael Brülisauer, Raiffeisen) <br>Alex Flückiger, Supertext"
+      },
+      {
+        "start_time": "20:00",
+        "title": "Cocktail"
+      }
+    ]
   },
   {
     "name": "Language AI Meetup",
+    "id": "zurich-language-ai-meetup-3",
+    "description": "Language AI meetup - Zurich",
     "start_date": "2024-09-16",
     "end_date": "2024-09-16",
+    "more_paragraphs": [
+      "The topic will be <bold><em>From From Curious to Productive</em></bold>. <br>With the rise of LLMs and other technologies, language AI is very much in the spotlight. But how can all this media – and management – attention be turned into real productivity for an organisation? And how do experts’ roles need to change to achieve this?"
+    ],
     "location": {
-      "location": "Zurich, Switzerland"
-    }
+      "location": "Zurich, Switzerland",
+      "online": false
+    },
+    "one_day_schedule": [
+      {
+        "start_time": "18:30",
+        "title": "Door opening and registration"
+      },
+      {
+        "start_time": "19:00",
+        "title": "<bold>Stepping Forward in the Age of AI: Language Professionals’ Responsibility to Shine</bold><br>AXA Switzerland <br>Cécile Libiez, Head of Language Services <br><br><bold>Empowering Local AI – Fostering Innovation and Public Service Integration</bold>Canton of Zurich <br>Raphael von Thiessen, Head of the AI Innovation Sandbox <br><br><bold>Future Fluent: How Are LLMs Shaping AI Translation and Is Specialization Still Important?</bold>Supertext x Textshuttle <br>Chantal Amrhein, Head of Research"
+      },
+      {
+        "start_time": "20:00",
+        "title": "Cocktail"
+      }
+    ]
   },
   {
     "name": "Language AI Meetup",
@@ -10467,7 +10507,7 @@
     "start_date": "2018-04-19",
     "end_date": "2018-04-19",
     "location": {
-      "location": "Zurich, Switzerland <br> Wohnzimmer für alle, Tessinerpl. 7",
+      "location": "Zurich, Switzerland",
       "online": false
     },
     "links": [
@@ -10481,7 +10521,7 @@
     "start_date": "2018-10-22",
     "end_date": "2018-10-22",
     "location": {
-      "location": "Zurich, Switzerland <br> Department of Informatics, Campus Zürich Nord, Universität Zürich-Nord",
+      "location": "Zurich, Switzerland",
       "online": false
     },
     "links": [
@@ -10508,7 +10548,7 @@
       "The topic was <bold>Terminology and machine translation</bold>."
     ],
     "location": {
-      "location": "Zurich, Switzerland <br> Impact Hub Zurich - Viadukt",
+      "location": "Zurich, Switzerland",
       "online": false
     },
     "links": [
@@ -10535,7 +10575,7 @@
       "The topic was <bold><em>Machine Translation Use Cases</em></bold>."
     ],
     "location": {
-      "location": "Zurich, Switzerland <br> Impact Hub Zurich - Viadukt",
+      "location": "Zurich, Switzerland",
       "online": false
     },
     "links": [
@@ -10565,7 +10605,7 @@
       "The topic was <bold><em>The Present and Future of MT</em></bold>."
     ],
     "location": {
-      "location": "Zurich, Switzerland <br> Impact Hub Zurich - Viadukt",
+      "location": "Zurich, Switzerland",
       "online": false
     },
     "links": [
@@ -10593,7 +10633,7 @@
       "The topic was <bold><em>Integrating MT with CAT Tools</em></bold>."
     ],
     "location": {
-      "location": "Zurich, Switzerland <br> Impact Hub Zurich - Viadukt",
+      "location": "Zurich, Switzerland",
       "online": false
     },
     "links": [
@@ -10676,7 +10716,7 @@
       "The topic was <bold><em>Terminology integration in machine translation: Does it work in practice?</em></bold>."
     ],
     "location": {
-      "location": "Zurich, Switzerland <br> Impact Hub Zurich - Viadukt",
+      "location": "Zurich, Switzerland",
       "online": false
     },
     "links": [
@@ -10703,7 +10743,7 @@
       "The topic was <bold><em>Less In More Out - Low Resource in NLP</em></bold>."
     ],
     "location": {
-      "location": "Zurich, Switzerland <br> Impact Hub Zurich - Viadukt",
+      "location": "Zurich, Switzerland",
       "online": false
     },
     "links": [
@@ -10735,7 +10775,7 @@
       "The topic was <bold><em>MT for subtitling – pain or gain?</em></bold>."
     ],
     "location": {
-      "location": "Zurich, Switzerland <br> Impact Hub Zurich - Viadukt",
+      "location": "Zurich, Switzerland",
       "online": false
     },
     "links": [
@@ -10765,7 +10805,7 @@
       "The topic was <bold><em>Accuracy or Tone of Voice?</em></bold>. <br> As accuracy levels converge among widely available machine translation offerings, we'll delve into the question whether style and variation will become the key differentiator in AI-powered translation technology."
     ],
     "location": {
-      "location": "Zurich, Switzerland <br> Impact Hub Zurich - Viadukt",
+      "location": "Zurich, Switzerland",
       "online": false
     },
     "links": [
@@ -10815,7 +10855,7 @@
       "The topic was <bold><em>The Nexus between Translation and Language AI</em></bold>. <br> As the field of AI is about to undergo a significant paradigm shift, we wish to broaden our perspectives and usher into the next phase of AI after 12 Meetups on machine translation."
     ],
     "location": {
-      "location": "Zurich, Switzerland <br> Impact Hub Zurich - Viadukt",
+      "location": "Zurich, Switzerland",
       "online": false
     },
     "links": [
@@ -10842,8 +10882,8 @@
     ]
   },
   {
-    "name": "Zurich language AI meetup",
-    "id": "zurich-language-ai-meetup",
+    "name": "Zurich Language AI Meetup",
+    "id": "zurich-language-ai-meetup-1",
     "description": "Language AI meetup - Zurich",
     "start_date": "2023-12-04",
     "end_date": "2023-12-04",
@@ -10851,7 +10891,7 @@
       "The topic was <bold><em>Less Manual Work and Better Decision-making</em></bold>. <br> We’ve all played around with ChatGPT, but how can we use Language AI to expedite tasks with real business impact? <br> The <bold>Language AI meetup</bold> was formerly known as the <bold>MT meetup</bold>."
     ],
     "location": {
-      "location": "Zurich, Switzerland <br> Impact Hub Zurich - Viadukt",
+      "location": "Zurich, Switzerland",
       "online": false
     },
     "links": [

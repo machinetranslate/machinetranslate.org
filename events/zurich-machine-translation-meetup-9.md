@@ -7,11 +7,9 @@ layout: event
 title: Zurich machine translation meetup 9
 end_date: '2021-10-25'
 future_tense_opening_paragraph: The MT Meetup 9 - Zurich (<strong>Zurich machine translation
-  meetup 9</strong>) will take place in Zurich, Switzerland <br> Impact Hub Zurich
-  - Viadukt on 25 October, 2021.
+  meetup 9</strong>) will take place in Zurich, Switzerland on 25 October, 2021.
 past_tense_opening_paragraph: The MT Meetup 9 - Zurich (<strong>Zurich machine translation
-  meetup 9</strong>) took place in Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
-  on 25 October, 2021.
+  meetup 9</strong>) took place in Zurich, Switzerland on 25 October, 2021.
 name: Zurich machine translation meetup 9
 id: zurich-machine-translation-meetup-9
 description: MT Meetup 9 - Zurich
@@ -19,7 +17,7 @@ start_date: '2021-10-25'
 more_paragraphs:
 - 'The topic was <bold><em>Terminology integration in machine translation: Does it
   work in practice?</em></bold>.'
-location: Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
+location: Zurich, Switzerland
 links:
 - https://www.meetup.com/Machine-Translation-Meetup-MTM/events/280963149/
 speakers:
@@ -39,7 +37,7 @@ seo:
   eventStatus: EventScheduled
   location:
     type: Place
-    name: Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
+    name: Zurich, Switzerland
   organizer:
     type: Person
     name: null

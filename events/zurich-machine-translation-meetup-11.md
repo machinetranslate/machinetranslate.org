@@ -7,18 +7,17 @@ layout: event
 title: Zurich machine translation meetup 11
 end_date: '2022-12-12'
 future_tense_opening_paragraph: The MT Meetup 11 - Zurich (<strong>Zurich machine
-  translation meetup 11</strong>) will take place in Zurich, Switzerland <br> Impact
-  Hub Zurich - Viadukt on 12 December, 2022.
+  translation meetup 11</strong>) will take place in Zurich, Switzerland on 12 December,
+  2022.
 past_tense_opening_paragraph: The MT Meetup 11 - Zurich (<strong>Zurich machine translation
-  meetup 11</strong>) took place in Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
-  on 12 December, 2022.
+  meetup 11</strong>) took place in Zurich, Switzerland on 12 December, 2022.
 name: Zurich machine translation meetup 11
 id: zurich-machine-translation-meetup-11
 description: MT Meetup 11 - Zurich
 start_date: '2022-12-12'
 more_paragraphs:
 - The topic was <bold><em>MT for subtitling – pain or gain?</em></bold>.
-location: Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
+location: Zurich, Switzerland
 links:
 - https://www.meetup.com/machine-translation-meetup-mtm/events/289203640/
 - https://drive.google.com/file/d/1PrY8uOxb8wzuUqqBmWCIN_0dpePYZ2Wb/view
@@ -41,7 +40,7 @@ seo:
   eventStatus: EventScheduled
   location:
     type: Place
-    name: Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
+    name: Zurich, Switzerland
   organizer:
     type: Person
     name: null

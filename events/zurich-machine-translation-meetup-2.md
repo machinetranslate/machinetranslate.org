@@ -7,17 +7,14 @@ layout: event
 title: Zurich machine translation meetup 2
 end_date: '2018-10-22'
 future_tense_opening_paragraph: The MT Meetup 2 - Zurich (<strong>Zurich machine translation
-  meetup 2</strong>) will take place in Zurich, Switzerland <br> Department of Informatics,
-  Campus Zürich Nord, Universität Zürich-Nord on 22 October, 2018.
+  meetup 2</strong>) will take place in Zurich, Switzerland on 22 October, 2018.
 past_tense_opening_paragraph: The MT Meetup 2 - Zurich (<strong>Zurich machine translation
-  meetup 2</strong>) took place in Zurich, Switzerland <br> Department of Informatics,
-  Campus Zürich Nord, Universität Zürich-Nord on 22 October, 2018.
+  meetup 2</strong>) took place in Zurich, Switzerland on 22 October, 2018.
 name: Zurich machine translation meetup 2
 id: zurich-machine-translation-meetup-2
 description: MT Meetup 2 - Zurich
 start_date: '2018-10-22'
-location: Zurich, Switzerland <br> Department of Informatics, Campus Zürich Nord,
-  Universität Zürich-Nord
+location: Zurich, Switzerland
 links:
 - https://www.meetup.com/Machine-Translation-Meetup-MTM/events/255294636/
 speakers:
@@ -36,8 +33,7 @@ seo:
   eventStatus: EventScheduled
   location:
     type: Place
-    name: Zurich, Switzerland <br> Department of Informatics, Campus Zürich Nord,
-      Universität Zürich-Nord
+    name: Zurich, Switzerland
   organizer:
     type: Person
     name: null

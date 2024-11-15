@@ -7,11 +7,10 @@ layout: event
 title: Zurich machine translation meetup 13
 end_date: '2023-09-18'
 future_tense_opening_paragraph: The MT Meetup 13 - Zurich (<strong>Zurich machine
-  translation meetup 13</strong>) will take place in Zurich, Switzerland <br> Impact
-  Hub Zurich - Viadukt on 18 September, 2023.
+  translation meetup 13</strong>) will take place in Zurich, Switzerland on 18 September,
+  2023.
 past_tense_opening_paragraph: The MT Meetup 13 - Zurich (<strong>Zurich machine translation
-  meetup 13</strong>) took place in Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
-  on 18 September, 2023.
+  meetup 13</strong>) took place in Zurich, Switzerland on 18 September, 2023.
 name: Zurich machine translation meetup 13
 id: zurich-machine-translation-meetup-13
 description: MT Meetup 13 - Zurich
@@ -21,7 +20,7 @@ more_paragraphs:
   <br> As the field of AI is about to undergo a significant paradigm shift, we wish
   to broaden our perspectives and usher into the next phase of AI after 12 Meetups
   on machine translation.
-location: Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
+location: Zurich, Switzerland
 links:
 - https://www.meetup.com/machine-translation-meetup-mtm/events/295585593
 - https://drive.google.com/file/d/1YUUbuGo-x06Khl9_SMJIirDsKMj6Zntk/view
@@ -47,7 +46,7 @@ seo:
   eventStatus: EventScheduled
   location:
     type: Place
-    name: Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
+    name: Zurich, Switzerland
   organizer:
     type: Person
     name: null

@@ -7,18 +7,16 @@ layout: event
 title: Zurich machine translation meetup 6
 end_date: '2020-02-03'
 future_tense_opening_paragraph: The MT Meetup 6 - Zurich (<strong>Zurich machine translation
-  meetup 6</strong>) will take place in Zurich, Switzerland <br> Impact Hub Zurich
-  - Viadukt on 03 February, 2020.
+  meetup 6</strong>) will take place in Zurich, Switzerland on 03 February, 2020.
 past_tense_opening_paragraph: The MT Meetup 6 - Zurich (<strong>Zurich machine translation
-  meetup 6</strong>) took place in Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
-  on 03 February, 2020.
+  meetup 6</strong>) took place in Zurich, Switzerland on 03 February, 2020.
 name: Zurich machine translation meetup 6
 id: zurich-machine-translation-meetup-6
 description: MT Meetup 6 - Zurich
 start_date: '2020-02-03'
 more_paragraphs:
 - The topic was <bold><em>Integrating MT with CAT Tools</em></bold>.
-location: Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
+location: Zurich, Switzerland
 links:
 - https://www.meetup.com/Machine-Translation-Meetup-MTM/events/267778633/
 - https://drive.google.com/file/d/1YhSyqcblmwUe9oZvOdc8VQOTImKEhTpg/view
@@ -41,7 +39,7 @@ seo:
   eventStatus: EventScheduled
   location:
     type: Place
-    name: Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
+    name: Zurich, Switzerland
   organizer:
     type: Person
     name: null

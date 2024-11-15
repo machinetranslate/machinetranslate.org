@@ -7,11 +7,10 @@ layout: event
 title: Zurich machine translation meetup 12
 end_date: '2022-06-13'
 future_tense_opening_paragraph: The MT Meetup 12 - Zurich (<strong>Zurich machine
-  translation meetup 12</strong>) will take place in Zurich, Switzerland <br> Impact
-  Hub Zurich - Viadukt on 13 June, 2022.
+  translation meetup 12</strong>) will take place in Zurich, Switzerland on 13 June,
+  2022.
 past_tense_opening_paragraph: The MT Meetup 12 - Zurich (<strong>Zurich machine translation
-  meetup 12</strong>) took place in Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
-  on 13 June, 2022.
+  meetup 12</strong>) took place in Zurich, Switzerland on 13 June, 2022.
 name: Zurich machine translation meetup 12
 id: zurich-machine-translation-meetup-12
 description: MT Meetup 12 - Zurich
@@ -21,7 +20,7 @@ more_paragraphs:
   levels converge among widely available machine translation offerings, we'll delve
   into the question whether style and variation will become the key differentiator
   in AI-powered translation technology.
-location: Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
+location: Zurich, Switzerland
 links:
 - https://www.meetup.com/Machine-Translation-Meetup-MTM/events/292426730
 speakers:
@@ -51,7 +50,7 @@ seo:
   eventStatus: EventScheduled
   location:
     type: Place
-    name: Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
+    name: Zurich, Switzerland
   organizer:
     type: Person
     name: null

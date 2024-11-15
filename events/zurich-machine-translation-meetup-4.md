@@ -7,18 +7,16 @@ layout: event
 title: Zurich machine translation meetup 4
 end_date: '2019-06-03'
 future_tense_opening_paragraph: The MT Meetup 4 - Zurich (<strong>Zurich machine translation
-  meetup 4</strong>) will take place in Zurich, Switzerland <br> Impact Hub Zurich
-  - Viadukt on 03 June, 2019.
+  meetup 4</strong>) will take place in Zurich, Switzerland on 03 June, 2019.
 past_tense_opening_paragraph: The MT Meetup 4 - Zurich (<strong>Zurich machine translation
-  meetup 4</strong>) took place in Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
-  on 03 June, 2019.
+  meetup 4</strong>) took place in Zurich, Switzerland on 03 June, 2019.
 name: Zurich machine translation meetup 4
 id: zurich-machine-translation-meetup-4
 description: MT Meetup 4 - Zurich
 start_date: '2019-06-03'
 more_paragraphs:
 - The topic was <bold><em>Machine Translation Use Cases</em></bold>.
-location: Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
+location: Zurich, Switzerland
 links:
 - https://www.meetup.com/Machine-Translation-Meetup-MTM/events/260699678/
 - https://drive.google.com/file/d/1u84vvfMxy-zbKO_2AB_ecCBx2P4Vjdln/view
@@ -40,7 +38,7 @@ seo:
   eventStatus: EventScheduled
   location:
     type: Place
-    name: Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
+    name: Zurich, Switzerland
   organizer:
     type: Person
     name: null

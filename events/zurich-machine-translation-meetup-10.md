@@ -7,18 +7,17 @@ layout: event
 title: Zurich machine translation meetup 10
 end_date: '2022-06-13'
 future_tense_opening_paragraph: The MT Meetup 10 - Zurich (<strong>Zurich machine
-  translation meetup 10</strong>) will take place in Zurich, Switzerland <br> Impact
-  Hub Zurich - Viadukt on 13 June, 2022.
+  translation meetup 10</strong>) will take place in Zurich, Switzerland on 13 June,
+  2022.
 past_tense_opening_paragraph: The MT Meetup 10 - Zurich (<strong>Zurich machine translation
-  meetup 10</strong>) took place in Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
-  on 13 June, 2022.
+  meetup 10</strong>) took place in Zurich, Switzerland on 13 June, 2022.
 name: Zurich machine translation meetup 10
 id: zurich-machine-translation-meetup-10
 description: MT Meetup 10 - Zurich
 start_date: '2022-06-13'
 more_paragraphs:
 - The topic was <bold><em>Less In More Out - Low Resource in NLP</em></bold>.
-location: Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
+location: Zurich, Switzerland
 links:
 - https://www.meetup.com/Machine-Translation-Meetup-MTM/events/285147494/
 - https://drive.google.com/file/d/1argVgV1GlacVf2fdoef-bXL_fev3G1TK/view?usp=sharing
@@ -44,7 +43,7 @@ seo:
   eventStatus: EventScheduled
   location:
     type: Place
-    name: Zurich, Switzerland <br> Impact Hub Zurich - Viadukt
+    name: Zurich, Switzerland
   organizer:
     type: Person
     name: null
