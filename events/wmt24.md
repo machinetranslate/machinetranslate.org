@@ -22,7 +22,6 @@ links:
 - https://statmt.org/wmt24
 important_dates:
 - name: Evaluation periods for shared tasks
-  date: June-July 2024
 - name: Paper submission deadline
   date: '2024-08-12'
 - name: Paper notification
@@ -96,3 +95,181 @@ seo:
 
 ---
 
+## Program
+
+Day 1
+
+|     |     |
+| --- | --- |
+| 08:45 - 9:00 | **Opening Remarks** |
+| 09:00 - 10:30 | **Session 1: Shared Task Overview Papers I** |
+| 09:00 - 9:30 | [**Findings of the WMT24 General Machine Translation Shared Task: The LLM Era Is Here but MT Is Not Solved Yet**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.1.pdf) <br>Tom Kocmi, Eleftherios Avramidis, Rachel Bawden, Ondřej Bojar, Anton Dvorkovich, Christian Federmann, Mark Fishel, Markus Freitag, Thamme Gowda, Roman Grundkiewicz, Barry Haddow, Marzena Karpinska, Philipp Koehn, Benjamin Marie, Christof Monz, Kenton Murray, Masaaki Nagata, Martin Popel, Maja Popović, Mariya Shmatova, Steinþór Steingrímsson, Vilém Zouhar |
+| 09:30 - 9:45 | [**Are LLMs Breaking MT Metrics? Results of the WMT24 Metrics Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.2.pdf) <br>Markus Freitag, Nitika Mathur, Daniel Deutsch, Chi-kiu Lo, Eleftherios Avramidis, Ricardo Rei, Brian Thompson, Frederic Blain, Tom Kocmi, Jiayi Wang, David Ifeoluwa Adelani, Marianna Buchicchio, Chrysoula Zerva , Alon Lavie |
+| 09:45 - 9:55 | [**Findings of the Quality Estimation Shared Task at WMT 2024: Are LLMs Closing the Gap in QE?**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.3.pdf) <br>Chrysoula Zerva, Frederic Blain, José G. C. de Souza, Diptesh Kanojia, Sourabh Dattatray Deoghare, Nuno M. Guerreiro, Giuseppe Attanasio, Ricardo Rei, Constantin Orasan, Matteo Negri, Marco Turchi, Rajen Chatterjee, Pushpak Bhattacharyya, Markus Freitag, André Martins |
+| 09:55 - 10:10 | [**Findings of the WMT 2024 Shared Task of the Open Language Data Initiative**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.4.pdf) <br>Laurie V. Burchell, Jean Maillard, Antonios Anastasopoulos, Christian Federmann, Philipp Koehn, Skyler Wang |
+| 10:10 - 10:20 | [**Results of the WAT/WMT 2024 Shared Task on Patent Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.5.pdf) <br>Shohei Higashiyama |
+| 10:20 - 10:30 | [**Findings of the WMT 2024 Biomedical Translation Shared Task: Test Sets on Abstract Level**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.6.pdf) <br>Mariana Neves, Cristian Grozea, Philippe Thomas, Roland Roller, Rachel Bawden, Aurélie Névéol, Steffen Castle, Vanessa Bonato, Giorgio Maria Di Nunzio, Federica Vezzani, Maika Vicente Navarro, Lana Yeganova, Antonio Jimeno Yepes |
+| 10:30 - 11:00 | ☕️ |
+| 11:00 - 12:00 | **Session 2: Shared Task Posters I** |
+| 11:00 - 12:00 | **General Translation Task** |
+| 11:00 - 12:00 | [**MSLC24 Submissions to the General Machine Translation Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.7.pdf) <br>Samuel Larkin, Chi-kiu Lo, Rebecca Knowles |
+| 11:00 - 12:00 | [**IOL Research Machine Translation Systems for WMT24 General Machine Translation Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.8.pdf) <br>Wenbo Zhang |
+| 11:00 - 12:00 | [**Choose the Final Translation from NMT and LLM Hypotheses Using MBR Decoding: HW-TSC’s Submission to the WMT24 General MT Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.9.pdf) <br>Zhanglin Wu, Daimeng Wei, Zongyao Li, Hengchao Shang, Jiaxin GUO, Shaojun Li, Zhiqiang Rao, Yuanchang Luo, Ning Xie, Hao Yang |
+| 11:00 - 12:00 | [**CycleGN: A Cycle Consistent Approach for Neural Machine Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.10.pdf) <br>Sören Dreano, Derek Molloy, Noel Murphy |
+| 11:00 - 12:00 | [**UvA-MT’s Participation in the WMT24 General Translation Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.11.pdf) <br>Shaomu Tan, David Stap, Seth Aycock, Christof Monz and Di Wu |
+| 11:00 - 12:00 | [**Tower v2: Unbabel-IST 2024 Submission for the General MT Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.12.pdf) <br>Ricardo Rei, Jose Maria Pombal, Nuno M. Guerreiro, João Alves, Pedro Henrique Martins, Patrick Fernandes, Helena Wu, Tania Vaz, Duarte Alves, Amin Farajian, Sweta Agrawal, Antonio Farinhas, José G. C. de Souza, André Martins |
+| 11:00 - 12:00 | [**TSU HITS’s Submissions to the WMT 2024 General Machine Translation Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.13.pdf) <br>Vladimir Mynka, Nikolay Mikhaylovskiy |
+| 11:00 - 12:00 | [**Document-level Translation with LLM Reranking: Team-J at WMT 2024 General Translation Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.14.pdf) <br>Keito Kudo, Hiroyuki Deguchi, Makoto Morishita, Ryo Fujii, Takumi Ito, Shintaro Ozaki, Koki Natsumi, Kai Sato, Kazuki Yano, Ryosuke Takahashi, Subaru Kimura, Tomomasa Hara, Yusuke Sakai, Jun Suzuki |
+| 11:00 - 12:00 | [**DLUT and GTCOM’s Neural Machine Translation Systems for WMT24**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.15.pdf) <br>Hao Zong, Chao Bei, Huan Liu, Conghu Yuan, Wentao Chen and Degen Huang |
+| 11:00 - 12:00 | [**CUNI at WMT24 General Translation Task: LLMs, (Q)LoRA, CPO and Model Merging**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.16.pdf) <br>Miroslav Hrabal, Josef Jon, Martin Popel, Nam Luu, Danil Semin, Ondřej Bojar |
+| 11:00 - 12:00 | [**From General LLM to Translation: How We Dramatically Improve Translation Quality Using Human Evaluation Data for LLM Finetuning**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.17.pdf) <br>Denis Elshin, Nikolay Karpachev, Boris Gruzdev, Ilya Golovanov, Georgy Ivanov, Alexander Antonov, Nickolay Skachkov, Ekaterina Latypova, Vladimir Layner, Ekaterina Enikeeva, Dmitry Popov, Anton Chekashev, Vladislav Negodin, Vera Frantsuzova, Alexander Chernyshev, Kirill Denisov |
+| 11:00 - 12:00 | [**Cogs in a Machine, Doing What They’re Meant to Do – the AMI Submission to the WMT24 General Translation Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.18.pdf) <br>Atli Jasonarson, Hinrik Hafsteinsson, Bjarki Ármannsson, Steinþór Steingrímsson |
+| 11:00 - 12:00 | [**IKUN for WMT24 General MT Task: LLMs Are Here for Multilingual Machine Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.19.pdf) <br>Baohao Liao, Christian Herold, Shahram Khadivi, Christof Monz |
+| 11:00 - 12:00 | [**NTTSU at WMT2024 General Translation Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.20.pdf) <br>Minato Kondo, Ryo Fukuda, Xiaotian Wang, Katsuki Chousa, Masato Nishimura, Kosei Buma, Takatomo Kano, Takehito Utsuro |
+| 11:00 - 12:00 | [**SCIR-MT’s Submission for WMT24 General Machine Translation Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.21.pdf) <br>Baohang Li, Zekai Ye, Yichong Huang, Xiaocheng Feng, Bing Qin |
+| 11:00 - 12:00 | [**AIST AIRC Systems for the WMT 2024 Shared Tasks**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.22.pdf) <br>Matiss Rikters, Makoto Miwa |
+| 11:00 - 12:00 | [**Occiglot at WMT24: European Open-source Large Language Models Evaluated on Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.23.pdf) <br>Eleftherios Avramidis, Annika Grützner-Zahn, Manuel Brack, Patrick Schramowski, Pedro Ortiz Suarez, Malte Ostendorff, Fabio Barth, Shushen Manakhimova, Vivien Macketanz, Georg Rehm, Kristian Kersting |
+| 11:00 - 12:00 | **Test Suites** |
+| 11:00 - 12:00 | [**CoST of breaking the LLMs**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.24.pdf) <br>Ananya Mukherjee, Saumitra Yadav, Manish Shrivastava |
+| 11:00 - 12:00 | [**WMT24 Test Suite: Gender Resolution in Speaker-Listener Dialogue Roles**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.25.pdf) <br>Hillary Dawkins, Isar Nejadgholi, Chi-kiu Lo |
+| 11:00 - 12:00 | [**The GenderQueer Test Suite**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.26.pdf) <br>Steinunn Rut Friðriksdóttir |
+| 11:00 - 12:00 | [**Domain Dynamics: Evaluating Large Language Models in English-Hindi Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.27.pdf) <br>Soham Bhattacharjee, Baban Gain, Asif Ekbal |
+| 11:00 - 12:00 | [**Investigating the Linguistic Performance of Large Language Models in Machine Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.28.pdf) <br>Shushen Manakhimova, Vivien Macketanz, Eleftherios Avramidis, Ekaterina Lapshinova-Koltunski, Sergei Bagdasarov, Sebastian Möller |
+| 11:00 - 12:00 | [**IsoChronoMeter: A Simple and Effective Isochronic Translation Evaluation Metric**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.29.pdf) <br>Nikolai Rozanov, Vikentiy Pankov, Dmitrii Mukhutdinov, Dima Vypirailenko |
+| 11:00 - 12:00 | [**A Test Suite of Prompt Injection Attacks for LLM-based Machine Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.30.pdf) <br>Antonio Valerio Miceli Barone, Zhifan Sun |
+| 11:00 - 12:00 | [**Killing Two Flies with One Stone: An Attempt to Break LLMs Using English→Icelandic Idioms and Proper Names**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.31.pdf) <br>Bjarki Ármannsson, Hinrik Hafsteinsson, Atli Jasonarson, Steinthor Steingrimsson |
+| 12:30 - 13:30 | **Session 3: Shared Task Posters II** |
+| 12:30 - 13:30 | **Metrics Task** |
+| 12:30 - 13:30 | [**MetaMetrics-MT: Tuning Meta-Metrics for Machine Translation via Human Preference Calibration**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.32.pdf) <br>David Anugraha, Garry Kuwanto, Lucky Susanto, Derry Tanti Wijaya, Genta Indra Winata |
+| 12:30 - 13:30 | [**chrF-S: Semantics Is All You Need**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.33.pdf) <br>Ananya Mukherjee, Manish Shrivastava |
+| 12:30 - 13:30 | [**MSLC24: Further Challenges for Metrics on a Wide Landscape of Translation Quality**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.34.pdf) <br>Rebecca Knowles, Samuel Larkin, Chi-kiu Lo |
+| 12:30 - 13:30 | [**MetricX-24: The Google Submission to the WMT 2024 Metrics Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.35.pdf) <br>Juraj Juraska, Daniel Deutsch, Mara Finkelstein, Markus Freitag |
+| 12:30 - 13:30 | [**Evaluating WMT 2024 Metrics Shared Task Submissions on AfriMTE (the African Challenge Set)**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.36.pdf) <br>Jiayi Wang, David Ifeoluwa Adelani, Pontus Stenetorp |
+| 12:30 - 13:30 | [**Machine Translation Metrics Are Better in Evaluating Linguistic Errors on LLMs than on Encoder-Decoder Systems**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.37.pdf) <br>Eleftherios Avramidis, Shushen Manakhimova, Vivien Macketanz, Sebastian Möller |
+| 12:30 - 13:30 | **Quality Estimation Task** |
+| 12:30 - 13:30 | [**TMU-HIT’s Submission for the WMT24 Quality Estimation Shared Task: Is GPT-4 a Good Evaluator for Machine Translation?**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.38.pdf) <br>Ayako Sato, Kyotaro Nakajima, Hwichan Kim, Zhousi Chen, Mamoru Komachi |
+| 12:30 - 13:30 | [**HW-TSC 2024 Submission for the Quality Estimation Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.39.pdf) <br>Weiqiao Shan, Ming Zhu, Yuang Li, Mengyao Piao, Xiaofeng Zhao, Chang Su, Min Zhang, Hao Yang, Yanfei Jiang |
+| 12:30 - 13:30 | [**HW-TSC’s Participation in the WMT 2024 QEAPE Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.40.pdf) <br>Jiawei Yu, Xiaofeng Zhao, Min Zhang, Zhao Yanqing, Yuang Li, Su Chang, Xiaosong Qiao, Ma Miaomiao, Hao Yang |
+| 12:30 - 13:30 | **Open Language Data Initiative** |
+| 12:30 - 13:30 | [**Expanding the FLORES+ Multilingual Benchmark with Translations for Aragonese, Aranese, Asturian, and Valencian**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.41.pdf) <br>Juan Antonio Perez-Ortiz, Felipe Sánchez-Martínez, Víctor M. Sánchez-Cartagena, Miquel Esplà-Gomis, Aaron Galiano Jimenez, Antoni Oliver, Claudi Aventín-Boya, Alejandro Pardos, Cristina Valdés, Jusèp Loís Sans Socasau, Juan Pablo Martínez |
+| 12:30 - 13:30 | [**The Bangla/Bengali Seed Dataset Submission to the WMT24 Open Language Data Initiative Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.42.pdf) <br>Firoz Ahmed, Nitin Venkateswaran, Sarah Moeller |
+| 12:30 - 13:30 | [**A High-quality Seed Dataset for Italian Machine Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.43.pdf) <br>Edoardo Ferrante |
+| 12:30 - 13:30 | [**Correcting FLORES Evaluation Dataset for Four African Languages**]http://www2.statmt.org/wmt24/pdf/2024.wmt-1.44.pdf <br>Idris Abdulmumin, Sthembiso Mkhwanazi, Mahlatse S. Mbooi, Shamsuddeen Hassan Muhammad, Ibrahim Said Ahmad, Neo N. Putini, Miehleketo Mathebula, Matimba Shingange, Tajuddeen Gwadabe, Vukosi Marivate |
+| 12:30 - 13:30 | [**Expanding FLORES+ Benchmark for More Low-Resource Settings: Portuguese-Emakhuwa Machine Translation Evaluation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.45.pdf) <br>Felermino Dario Mario Ali, Henrique Lopes Cardoso, Rui Sousa-Silva |
+| 12:30 - 13:30 | [**Enhancing Tuvan Language Resources through the FLORES Dataset**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.46.pdf) <br>Ali Kuzhuget, Airana Mongush, Nachyn-Enkhedorzhu Oorzhak |
+| 12:30 - 13:30 | [**Machine Translation Evaluation Benchmark for Wu Chinese: Workflow and Analysis**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.47.pdf) <br>Hongjian Yu, Yiming Shi, Zherui Zhou, Christopher Haberland |
+| 12:30 - 13:30 | [**Open Language Data Initiative: Advancing Low-Resource Machine Translation for Karakalpak**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.48.pdf) <br>Mukhammadsaid Mamasaidov, Abror Shopulatov |
+| 12:30 - 13:30 | F[**LORES+ Translation and Machine Translation Evaluation for the Erzya Language**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.49.pdf) <br>Isai Gordeev, Sergey Kuldin, David Dale |
+| 12:30 - 13:30 | [**Spanish Corpus and Provenance with Computer-Aided Translation for the WMT24 OLDI Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.50.pdf) <br>Jose Cols |
+| 12:30 - 13:30 | **Patent Translation Task** |
+| 12:30 - 13:30 | [**Efficient Terminology Integration for LLM-based Translation in Specialized Domains**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.51.pdf) <br>Sejoon Kim, Mingi Sung, Jeonghwan Lee, Hyunkuk Lim, Jorge Froilan Gimenez Perez |
+| 12:30 - 13:30 | [**Rakuten’s Participation in WMT 2024 Patent Translation Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.52.pdf) <br>Ohnmar Htun, Alberto Poncelas |
+| 12:30 - 13:30 | **Biomedical Translation Task** |
+| 12:30 - 13:30 | [**The SETU-ADAPT Submission for WMT 24 Biomedical Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.53.pdf) <br>Antonio Castaldo, Maria Zafar, Prashanth Nayak, Rejwanul Haque, Andy Way, Johanna Monti |
+| 14:00 - 15:00 | **Session 4: Invited Talk by Ricardo Rei and Nuno M. Guerreiro: "What Makes MT Research Special in the LLM Age?"** |
+| 15:00 - 15:30 | ☕️ |
+| 15:00 - 16:30 | **Session 5: Featured Research Papers Oral Presentations** |
+| 15:00 - 15:15 | [**Translating Step-by-Step: Decomposing the Translation Process forImproved Translation Quality of Long-Form Texts**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.54.pdf) <br>Eleftheria Briakou, Jiaming Luo, Colin Cherry, Markus Freitag |
+| 15:15 - 15:30 | [**Is Preference Alignment Always the Best Option to Enhance LLM-Based Translation? An Empirical Analysis**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.55.pdf) <br>Hippolyte Gisserot-Boukhlef, Ricardo Rei, Emmanuel Malherbe, Céline Hudelot, Pierre Colombo, Nuno M. Guerreiro |
+| 15:30 - 15:45 | [**On Instruction-Finetuning Neural Machine Translation Models**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.56.pdf) <br>Vikas Raunak, Roman Grundkiewicz, Marcin Junczys-Dowmunt |
+| 15:45 - 16:00 | [**Quality or Quantity? On Data Scale and Diversity in Adapting Large Language Models for Low-Resource Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.57.pdf) <br>Vivek Iyer, Bhavitvya Malik, Pavel Stepachev, Pinzhen Chen, Barry Haddow, Alexandra Birch |
+| 16:00 - 16:15 | [**Post-edits Are Preferences Too**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.58.pdf) <br>Nathaniel Berger, Stefan Riezler, Miriam Exel, Matthias Huck |
+| 16:15 - 16:30 | [**Benchmarking Visually-Situated Translation of Text in Natural Images**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.59.pdf) <br>Elizabeth Salesky, Philipp Koehn, Matt Post |
+
+Day 2
+
+| 9:00 - 10:30 | **Session 6: Shared Task Overview Papers II** |
+| 9:00 - 9:15 | [**Findings of WMT 2024 Shared Task on Low-Resource Indic Languages Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.60.pdf) <br>Partha Pakray, Santanu Pal, Advaitha Vetagiri, Reddi Mohana Krishna, Arnab Kumar Maji, Sandeep Kumar Dash, Lenin Laitonjam, Lyngdoh Sarah, Riyanka Manna |
+| 9:15 - 9:30 | [**Findings of WMT 2024’s MultiIndic22MT Shared Task for Machine Translation of 22 Indian Languages**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.61.pdf) <br>Raj Dabre, Anoop Kunchukuttan |
+| 9:30 - 9:45 | [**Findings of WMT2024 English-to-Low Resource Multimodal Translation Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.62.pdf) <br>Shantipriya Parida, Ondřej Bojar, Idris Abdulmumin, Shamsuddeen Hassan Muhammad, Ibrahim Said Ahmad |
+| 9:45 - 10:00 | [**Findings of the WMT 2024 Shared Task Translation into Low-Resource Languages of Spain: Blending Rule-Based and Neural Systems**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.63.pdf) <br>Felipe Sánchez-Martínez, Juan Antonio Perez-Ortiz, Aaron Galiano Jimenez, Antoni Oliver |
+| 10:00 - 10:10 | [**Findings of the WMT 2024 Shared Task on Discourse-Level Literary Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.64.pdf) <br>Longyue Wang, Siyou Liu, Chenyang Lyu, Wenxiang Jiao, Xing Wang, Jiahao Xu, Zhaopeng Tu, Yan Gu, Weiyu Chen, Minghao Wu, Liting Zhou, Philipp Koehn, Andy Way, Yulin Yuan |
+| 10:10 - 10:20 | [**Findings of the WMT 2024 Shared Task on Chat Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.65.pdf) <br>Wafaa Mohammed, Sweta Agrawal, Amin Farajian, Vera Cabarrão, Bryan Eikema, Ana C Farinha, José G. C. de Souza |
+| 10:20 - 10:30 | [**Findings of the WMT 2024 Shared Task on Non-Repetitive Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.66.pdf) <br>Kazutaka Kinugawa, Hideya Mino, Isao Goto, Naoto Shirai |
+| 10:30 - 11:00 | ☕️ |
+| 11:00 - 12:00 | **Session 7: Shared Task Posters III** |
+| 11:00 - 12:00 | **Low-Resource Indic Language Translation Task** |
+| 11:00 - 12:00 | [**A3-108 Controlling Token Generation in Low Resource Machine Translation Systems**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.67.pdf) <br>Saumitra Yadav, Ananya Mukherjee, Manish Shrivastava |
+| 11:00 - 12:00 | [**Samsung R&D Institute Philippines @ WMT 2024 Indic MT Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.68.pdf) <br>Matthew Theodore Roque, Carlos Rafael Catalan, Dan John A. Velasco, Manuel Antonio Rufino, Jan Christian Blaise Cruz |
+| 11:00 - 12:00 | [**DLUT-NLP Machine Translation Systems for WMT24 Low-Resource Indic Language Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.69.pdf) <br>Chenfei Ju, Junpeng Liu, Kaiyu Huang, Degen Huang |
+| 11:00 - 12:00 | [**SRIB-NMT’s Submission to the Indic MT Shared Task in WMT 2024**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.70.pdf) <br>Pranamya Ajay Patil, Raghavendra HR, Aditya Raghuwanshi, Kushal Verma |
+| 11:00 - 12:00 | [**MTNLP-IIITH: Machine Translation for Low-Resource Indic Languages**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.71.pdf) <br>Abhinav P M, Ketaki Shetye, Parameswari Krishnamurthy |
+| 11:00 - 12:00 | [**Exploration of the CycleGN Framework for Low-Resource Languages**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.72.pdf) <br>Sören Dreano, Derek Molloy, Noel Murphy |
+| 11:00 - 12:00 | [**The SETU-ADAPT Submissions to the WMT24 Low-Resource Indic Language Translation Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.73.pdf) <br>Neha Gajakos, Prashanth Nayak, Rejwanul Haque, Andy Way |
+| 11:00 - 12:00 | [**SPRING Lab IITM’s Submission to Low Resource Indic Language Translation Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.74.pdf) <br>Advait Joglekar, Hamees Ul Hasan Sayed, Srinivasan Umesh |
+| 11:00 - 12:00 | [**Machine Translation Advancements of Low-Resource Indian Languages by Transfer Learning**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.75.pdf) <br>bin wei, zheng jiawei, Zongyao Li, Zhanglin Wu, Jiaxin Guo, Daimeng Wei, Zhiqiang Rao, Shaojun Li, Yuanchang Luo, Hengchao Shang, Jinlong Yang, Yuhao Xie, Hao Yang |
+| 11:00 - 12:00 | [**NLIP_Lab-IITH Low-Resource MT System for WMT24 Indic MT Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.76.pdf) <br>Pramit Sahoo, Maharaj Brahma, Maunendra Sankar Desarkar |
+| 11:00 - 12:00 | [**Yes-MT’s Submission to the Low-Resource Indic Language Translation Shared Task in WMT 2024**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.77.pdf) <br>Yash Bhaskar, Parameswari Krishnamurthy |
+| 11:00 - 12:00 | **MultiIndic22MT Task** |
+| 11:00 - 12:00 | [**System Description of BV-SLP for Sindhi-English Machine Translation in MultiIndic22MT 2024 Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.78.pdf) <br>Nisheeth Joshi, Pragya Katyayan, Palak Arora, Bharti Nathani |
+| 11:00 - 12:00 | [**WMT24 System Description for the MultiIndic22MT Shared Task on Manipuri Language**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.79.pdf) <br>Ningthoujam Justwant Singh, Kshetrimayum Boynao Singh, Ningthoujam Avichandra Singh, Sanjita Phijam, Thoudam Doren Singh |
+| 11:00 - 12:00 | [**NLIP_Lab-IITH Multilingual MT System for WAT24 MT Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.80.pdf) <br>Maharaj Brahma, Pramit Sahoo, Maunendra Sankar Desarkar |
+| 11:00 - 12:00 | **English-to-Lowres Multi-Modal Translation Task** |
+| 11:00 - 12:00 | [**DCU ADAPT at WMT24: English to Low-resource Multi-Modal Translation Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.81.pdf) <br>Sami Ul Haq, Rudali Huidrom, Sheila Castilho |
+| 11:00 - 12:00 | [**English-to-Low-Resource Translation: A Multimodal Approach for Hindi, Malayalam, Bengali, and Hausa**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.82.pdf) <br>Ali Hatami, Shubhanker Banerjee, Mihael Arcan, Bharathi Raja Chakravarthi, Paul Buitelaar, John Philip McCrae |
+| 11:00 - 12:00 | [**OdiaGenAI’s Participation in WMT2024 English-to-Low Resource Multimodal Translation Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.83.pdf) <br>Shantipriya Parida, Shashikanta Sahoo, Sambit Sekhar, Upendra Kumar Jena, Sushovan Jena, Kusum Lata |
+| 11:00 - 12:00 | [**Arewa NLP’s Participation at WMT24**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.84.pdf) <br>Mahmoud Said Ahmad, Auwal Abubakar Khalid, Lukman Jibril Aliyu, Babangida Sani, Mariya Sunusi Abdullahi |
+| 11:00 - 12:00 | [**Multimodal Machine Translation for Low-Resource Indic Languages: A Chain-of-Thought Approach Using Large Language Models**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.85.pdf) <br>Pawan Kumar Rajpoot, Nagaraj N. Bhat, Ashish Shrivastava |
+| 11:00 - 12:00 | [**Chitranuvad: Adapting Multi-lingual LLMs for Multimodal Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.86.pdf) <br>Shaharukh Khan, Ayush Tarun, Ali Faraz, Palash Kamble, Vivek Dahiya, Praveen Pokala, Ashish Anand Kulkarni, Chandra Khatri, Abhinav Ravi, Shubham Agarwal |
+| 11:00 - 12:00 | [**Brotherhood at WMT 2024: Leveraging LLM-Generated Contextual Conversations for Cross-Lingual Image Captioning**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.87.pdf) <br>Siddharth Betala, Ishan Chokshi |
+| 12:30 - 13:30 | **Session 8: Shared Task Posters IV** |
+| 12:30 - 13:30 | **Translation into Low-Resource Languages of Spain Task** |
+| 12:30 - 13:30 | [**TIM-UNIGE Translation into Low-Resource Languages of Spain for WMT24**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.88.pdf) <br>Jonathan Mutal, Lucía Ormaechea |
+| 12:30 - 13:30 | [**TAN-IBE Participation in the Shared Task: Translation into Low-Resource Languages of Spain**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.89.pdf) <br>Antoni Oliver |
+| 12:30 - 13:30 | [**Enhaced Apertium System: Translation into Low-Resource Languages of Spain Spanish–Asturian**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.90.pdf) <br>Sofía García |
+| 12:30 - 13:30 | [**Universitat d’Alacant’s Submission to the WMT 2024 Shared Task on Translation into Low-Resource Languages of Spain**]http://www2.statmt.org/wmt24/pdf/2024.wmt-1.91.pdf <br>Aaron Galiano Jimenez, Víctor M. Sánchez-Cartagena, Juan Antonio Perez-Ortiz, Felipe Sánchez-Martínez |
+| 12:30 - 13:30 | [**Samsung R&D Institute Philippines @ WMT 2024 Low-resource Languages of Spain Shared Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.92.pdf) <br>Dan John A. Velasco, Manuel Antonio Rufino, Jan Christian Blaise Cruz |
+| 12:30 - 13:30 | [**Back to the Stats: Rescuing Low Resource Neural Machine Translation with Statistical Methods**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.93.pdf) <br>Menan Velayuthan, Dilith Randinu Jayakody, Nisansa de Silva, Aloka Fernando, Surangika Dayani Ranathunga |
+| 12:30 - 13:30 | [**Hybrid Distillation from RBMT and NMT: Helsinki-NLP’s Submission to the Shared Task on Translation into Low-Resource Languages of Spain**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.94.pdf) <br>Ona de Gibert, Mikko Aulamo, Yves Scherrer, Jörg Tiedemann |
+| 12:30 - 13:30 | [**Robustness of Fine-Tuned LLMs for Machine Translation with Varying Noise Levels: Insights for Asturian, Aragonese and Aranese**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.95.pdf) <br>Martin Bär, Elisa Forcada Rodríguez, Maria Garcia-Abadillo Velasco |
+| 12:30 - 13:30 | [**Training and Fine-Tuning NMT Models for Low-Resource Languages Using Apertium-Based Synthetic Corpora**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.96.pdf) <br>Aleix Sant, Daniel Bardanca, José Ramom Pichel Campos, Francesca De Luca Fornaciari, Carlos Escolano, Javier Garcia Gilabert, Pablo Gamallo, Audrey Mash, Xixian Liao, Maite Melero |
+| 12:30 - 13:30 | [**Vicomtech@WMT 2024: Shared Task on Translation into Low-Resource Languages of Spain**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.97.pdf) <br>David Ponce, Harritxu Gete, Thierry Etchegoyhen |
+| 12:30 - 13:30 | [**SJTU System Description for the WMT24 Low-Resource Languages of Spain Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.98.pdf) <br>Tianxiang Hu, Haoxiang Sun, Ruize Gao, Jialong Tang, Pei Zhang, Baosong Yang, Rui Wang |
+| 12:30 - 13:30 | [**Multilingual Transfer and Domain Adaptation for Low-Resource Languages of Spain**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.99.pdf) <br>Yuanchang Luo, Zhanglin Wu, Daimeng Wei, Hengchao Shang, Zongyao Li, Jiaxin GUO, Zhiqiang Rao, Shaojun Li, Jinlong Yang, Yuhao Xie, Zheng Jiawei, Bin Wei, Hao Yang |
+| 12:30 - 13:30 | [**TRIBBLE - TRanslating IBerian languages Based on Limited E-resources**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.100.pdf) <br>Igor Kuzmin, Piotr Przybyła, Euan McGill, Horacio Saggion |
+| 12:30 - 13:30 | **Discourse-Level Literary Translation Task** |
+| 12:30 - 13:30 | [**CloudSheep System for WMT24 Discourse-Level Literary Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.101.pdf) <br>Lisa Liu, Ryan Liu, Angela Tsai, Jingbo Shang |
+| 12:30 - 13:30 | [**Final Submission of SJTULoveFiction to Literary Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.102.pdf) <br>Haoxiang Sun, Tianxiang Hu, Ruize Gao, Jialong Tang, Pei Zhang, Baosong Yang, Rui Wang |
+| 12:30 - 13:30 | [**Context-aware and Style-related Incremental Decoding Framework for Discourse-Level Literary Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.103.pdf) <br>Yuanchang Luo, Jiaxin GUO, Daimeng Wei, Hengchao Shang, Zongyao Li, Zhanglin Wu, Zhiqiang Rao, Shaojun Li, Jinlong Yang, Hao Yang |
+| 12:30 - 13:30 | [**NovelTrans: System for WMT24 Discourse-Level Literary Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.104.pdf) <br>Yuchen Liu, Yutong Yao, Runzhe Zhan, Yuchu Lin, Derek F. Wong |
+| 12:30 - 13:30 | [**LinChance×NTU for Unconstrained WMT2024 Literary Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.105.pdf) <br>Kechen Li, Yaotian Tao, Hongyi Huang, Tianbo Ji |
+| 12:30 - 13:30 | **Chat Translation Task** |
+| 12:30 - 13:30 | [**Improving Context Usage for Translating Bilingual Customer Support Chat with Large Language Models**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.106.pdf) <br>Jose Maria Pombal, Sweta Agrawal, André Martins |
+| 12:30 - 13:30 | [**Optimising LLM-Driven Machine Translation with Context-Aware Sliding Windows**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.107.pdf) <br>Xinye Yang, Yida Mu, Kalina Bontcheva, Xingyi Song |
+| 12:30 - 13:30 | [**Context-Aware LLM Translation System Using Conversation Summarization and Dialogue History**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.108.pdf) <br>Mingi Sung, Seungmin Lee, Jiwon Kim, Sejoon Kim |
+| 12:30 - 13:30 | [**Enhancing Translation Quality: A Comparative Study of Fine-Tuning and Prompt Engineering in Dialog-Oriented Machine Translation Systems. Insights from the MULTITAN-GML Team**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.109.pdf) <br>Lichao Zhu, Maria Zimina, Behnoosh Namdarzadeh, Nicolas Ballier, Jean-Baptiste Yunès |
+| 12:30 - 13:30 | [**The SETU-ADAPT Submissions to WMT 2024 Chat Translation Tasks**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.110.pdf) <br>Maria Zafar, Antonio Castaldo, Prashanth Nayak, Rejwanul Haque, Andy Way |
+| 12:30 - 13:30 | [**Exploring the Traditional NMT Model and Large Language Model for Chat Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.111.pdf) <br>Jinlong Yang, Hengchao Shang, Daimeng Wei, Jiaxin GUO, Zongyao Li, Zhanglin Wu, Zhiqiang Rao, Shaojun Li, Yuhao Xie, Yuanchang Luo, Zheng Jiawei, Bin Wei, Hao Yang |
+| 12:30 - 13:30 | [**Graph Representations for Machine Translation in Dialogue Settings**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.112.pdf) <br>Lea Krause, Selene Baez Santamaria, Jan-Christoph Kalo |
+| 12:30 - 13:30 | **Non-Repetitive Translation Task** |
+| 12:30 - 13:30 | [**Reducing Redundancy in Japanese-to-English Translation: A Multi-Pipeline Approach for Translating Repeated Elements in Japanese**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.113.pdf) <br>Qiao Wang, Yixuan Huang, Zheng Yuan |
+| 12:30 - 13:30 | [**SYSTRAN @ WMT24 Non-Repetitive Translation Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.114.pdf) <br>Marko Avila, Josep Crego |
+| 14:00 - 15:30 | **Session 9: Research Paper Boaster Session** |
+| 15:30 - 16:30 | **Session 10: Research Paper Poster Session I** |
+| 15:30 - 16:30 | [**Mitigating Metric Bias in Minimum Bayes Risk Decoding**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.115.pdf) <br>Geza Kovacs, Daniel Deutsch, Markus Freitag |
+| 15:30 - 16:30 | [**Beyond Human-Only: Evaluating Human-Machine Collaboration for Collecting High-Quality Translation Data**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.1167.pdf) <br>Zhongtao Liu, Parker Riley, Daniel Deutsch, Alison Lui, Mengmeng Niu, Apurva Shah, Markus Freitag |
+| 15:30 - 16:30 | [**How Effective Are State Space Models for Machine Translation?**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.117.pdf) <br>Hugo Pitorro, Pavlo Vasylenko, Marcos Treviso, André Martins |
+| 15:30 - 16:30 | [**Evaluation and Large-scale Training for Contextual Machine Translation**]http://www2.statmt.org/wmt24/pdf/2024.wmt-1.118.pdf <br>Matt Post, Marcin Junczys-Dowmunt |
+| 15:30 - 16:30 | [**A Multi-task Learning Framework for Evaluating Machine Translation of Emotion-loaded User-generated Content**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.119.pdf) <br>Shenbin Qian, Constantin Orasan, Diptesh Kanojia, Félix do Carmo |
+| 15:30 - 16:30 | [**On Instruction-Finetuning Neural Machine Translation Models**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.120.pdf) <br>Vikas Raunak, Roman Grundkiewicz, Marcin Junczys-Dowmunt |
+| 15:30 - 16:30 | [**Benchmarking Visually-Situated Translation of Text in Natural Images**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.121.pdf) <br>Elizabeth Salesky, Philipp Koehn, Matt Post |
+| 15:30 - 16:30 | [**Analysing Translation Artifacts: A Comparative Study of LLMs, NMTs, and Human Translations**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.122.pdf) <br>Fedor Sizov, Cristina España-Bonet, Josef van Genabith, Roy Xie, Koel Dutta Chowdhury |
+| 15:30 - 16:30 | [**How Grammatical Features Impact Machine Translation: A New Test Suite for Chinese-English MT Evaluation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.123.pdf) <br>Huacheng Song, Yi Li, Yiwen Wu, Yu Liu, Jingxia Lin, Hongzhi Xu |
+| 15:30 - 16:30 | [**Improving Statistical Significance in Human Evaluation of Automatic Metrics via Soft Pairwise Accuracy**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.124.pdf) <br>Brian Thompson, Nitika Mathur, Daniel Deutsch, Huda Khayrallah |
+| 15:30 - 16:30 | [**Speech Is More than Words: Do Speech-to-Text Translation Systems Leverage Prosody?**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.125.pdf) <br>Ioannis Tsiamas, Matthias Sperber, Andrew Finch, Sarthak Garg |
+| 15:30 - 16:30 | [**Cultural Adaptation of Menus: A Fine-Grained Approach**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.126.pdf) <br>Zhonghe Zhang, Xiaoyu He, Vivek Iyer, Alexandra Birch |
+| 15:30 - 16:30 | [**Pitfalls and Outlooks in Using COMET**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.127.pdf) <br>Vilém Zouhar, Pinzhen Chen, Tsz Kin Lam, Nikita Moghe, Barry Haddow |
+| 16:30 - 17:00 | ☕️ |
+| 17:00 - 18:00 | **Session 11: Research Paper Poster Session II** |
+| 17:00 - 18:00 | [**Post-edits Are Preferences Too**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.128.pdf) <br>Nathaniel Berger, Stefan Riezler, Miriam Exel, Matthias Huck |
+| 17:00 - 18:00 | [**Translating Step-by-Step: Decomposing the Translation Process forImproved Translation Quality of Long-Form Texts**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.129.pdf) <br>Eleftheria Briakou, Jiaming Luo, Colin Cherry, Markus Freitag |
+| 17:00 - 18:00 | [**Scaling Laws of Decoder-Only Models on the Multilingual Machine Translation Task**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.130.pdf) <br>Gaëtan Caillaut, Mariam Nakhlé, Raheel Qader, Jingshu Liu, Jean-Gabriel Barthélemy |
+| 17:00 - 18:00 | [**Shortcomings of LLMs for Low-Resource Translation: Retrieval and Understanding Are Both the Problem**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.131.pdf) <br>Sara Kay Court, Micha Elsner |
+| 17:00 - 18:00 | [**Introducing the NewsPaLM MBR and QE Dataset: LLM-Generated High-Quality Parallel Data Outperforms Traditional Web-Crawled Data**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.132.pdf) <br>Mara Finkelstein, David Vilar, Markus Freitag |
+| 17:00 - 18:00 | [**Is Preference Alignment Always the Best Option to Enhance LLM-Based Translation? An Empirical Analysis**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.133.pdf) <br>Hippolyte Gisserot-Boukhlef, Ricardo Rei, Emmanuel Malherbe, Céline Hudelot, Pierre Colombo, Nuno M. Guerreiro |
+| 17:00 - 18:00 | [**Quality or Quantity? On Data Scale and Diversity in Adapting Large Language Models for Low-Resource Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.134.pdf) <br>Vivek Iyer, Bhavitvya Malik, Pavel Stepachev, Pinzhen Chen, Barry Haddow, Alexandra Birch |
+| 17:00 - 18:00 | [**Efficient Technical Term Translation: A Knowledge Distillation Approach for Parenthetical Terminology Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.135.pdf) <br>Jiyoon Myung, Jihyeon Park, Jungki Son, Kyungro Lee, Joohyung Han |
+| 17:00 - 18:00 | [**Assessing the Role of Imagery in Multimodal Machine Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.136.pdf) <br>Nicholas Kashani Motlagh, Jim Davis, Jeremy Gwinnup, Grant Erdmann, Tim Anderson |
+| 17:00 - 18:00 | [**Error Span Annotation: A Balanced Approach for Human Evaluation of Machine Translation**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.137.pdf) <br>Tom Kocmi, Vilém Zouhar, Eleftherios Avramidis, Roman Grundkiewicz, Marzena Karpinska, Maja Popović, Mrinmaya Sachan, Mariya Shmatova |
+| 17:00 - 18:00 | [**Neural Methods for Aligning Large-Scale Parallel Corpora from the Web for South and East Asian Languages**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.138.pdf) <br>Philipp Koehn |
+| 17:00 - 18:00 | [**Plug, Play, and Fuse: Zero-Shot Joint Decoding via Word-Level Re-ranking across Diverse Vocabularies**](http://www2.statmt.org/wmt24/pdf/2024.wmt-1.139.pdf) <br>Sai Koneru, Matthias Huck, Miriam Exel, Jan Niehues |
