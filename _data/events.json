@@ -10412,11 +10412,11 @@
     }
   },
   {
-    "name": "Language AI Meetup",
+    "name": "Zurich Language AI Meetup 17",
     "id": "zurich-language-ai-meetup-4",
-    "description": "Language AI meetup - Zurich",
-    "start_date": "2024-12-02",
-    "end_date": "2024-12-02",
+    "description": "Zurich Language AI Meetup 16",
+    "start_date": "2024-12-04",
+    "end_date": "2024-12-04",
     "more_paragraphs": [
       "The topic will be <bold><em>From True Crime to True Innovation</em></bold>. <br>Language AI’s power extends far beyond typical applications, reaching into unexpected areas like forensics and specialised industry tools. In this meetup, we’ll look at a true crime case and share insights from a proof of concept that aims to transform how language service departments work in the financial industry."
     ],
@@ -10440,13 +10440,12 @@
     ]
   },
   {
-    "name": "Language AI Meetup",
-    "id": "zurich-language-ai-meetup-3",
-    "description": "Language AI meetup - Zurich",
+    "name": "Zurich Language AI Meetup 16",
+    "description": "Zurich Language AI Meetup 16",
     "start_date": "2024-09-16",
     "end_date": "2024-09-16",
     "more_paragraphs": [
-      "The topic will be <bold><em>From From Curious to Productive</em></bold>. <br>With the rise of LLMs and other technologies, language AI is very much in the spotlight. But how can all this media – and management – attention be turned into real productivity for an organisation? And how do experts’ roles need to change to achieve this?"
+      "The topic was <bold><em>From From Curious to Productive</em></bold>. <br>With the rise of LLMs and other technologies, language AI is very much in the spotlight. But how can all this media – and management – attention be turned into real productivity for an organisation? And how do experts’ roles need to change to achieve this?"
     ],
     "location": {
       "location": "Zurich, Switzerland",
@@ -10468,9 +10467,12 @@
     ]
   },
   {
-    "name": "Language AI Meetup",
+    "name": "Zurich Language AI Meetup 15",
     "start_date": "2024-05-27",
     "end_date": "2024-05-27",
+    "more_paragraphs": [
+      "The topic was <bold><em>Translation AI in Practice: Build or Buy?</em></bold>."
+    ],
     "location": {
       "location": "Zurich, Switzerland"
     }
