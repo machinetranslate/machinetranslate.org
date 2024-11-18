@@ -6,13 +6,13 @@ nav_order: 2024
 layout: event
 title: Zurich Language AI Meetup 17
 end_date: '2024-12-04'
-future_tense_opening_paragraph: The Zurich Language AI Meetup 16 (<strong>Zurich Language
+future_tense_opening_paragraph: The Zurich Language AI Meetup 17 (<strong>Zurich Language
   AI Meetup 17</strong>) will take place in Zurich, Switzerland on 04 December, 2024.
-past_tense_opening_paragraph: The Zurich Language AI Meetup 16 (<strong>Zurich Language
+past_tense_opening_paragraph: The Zurich Language AI Meetup 17 (<strong>Zurich Language
   AI Meetup 17</strong>) took place in Zurich, Switzerland on 04 December, 2024.
 name: Zurich Language AI Meetup 17
-id: zurich-language-ai-meetup-4
-description: Zurich Language AI Meetup 16
+id: zurich-language-ai-meetup-17
+description: Zurich Language AI Meetup 17
 start_date: '2024-12-04'
 more_paragraphs:
 - The topic will be <bold><em>From True Crime to True Innovation</em></bold>. <br>Language
@@ -33,7 +33,7 @@ one_day_schedule:
 seo:
   type: Event
   name: Zurich Language AI Meetup 17
-  description: Zurich Language AI Meetup 16
+  description: Zurich Language AI Meetup 17
   startDate: '2024-12-04'
   endDate: '2024-12-04'
   eventAttendanceMode: OfflineEventAttendanceMode
