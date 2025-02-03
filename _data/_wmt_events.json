@@ -191,19 +191,5 @@
         ]
       }
     ],
-  },
-  {
-  "name": "WMT25",
-  "id": "wmt25",
-  "description": "Tenth Conference on Machine Translation (WMT25) ",
-  "start_date": "2025-11-05",
-  "end_date": "2025-11-09",
-  "location": {
-    "location": "Suzhou, China",
-    "online": false
-  },
-  "links": [
-    "https://www2.statmt.org/wmt25/"
-  ]
-}
+  }
 ]

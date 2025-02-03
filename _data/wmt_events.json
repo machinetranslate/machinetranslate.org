@@ -8481,5 +8481,23 @@
       "Research and system papers have the same deadlines.",
       "Research and system papers should follow EMNLP2024 formatting guidelines."
     ]
+  },
+  {
+    "name": "WMT25",
+    "id": "wmt25",
+    "description": "Tenth Conference on Machine Translation",
+    "start_date": "2025-11-05",
+    "end_date": "2025-11-09",
+    "location": {
+      "location": "Suzhou, China",
+      "online": false
+    },
+    "organizer": {
+      "type": "Person",
+      "url": "https://statmt.org/wmt25"
+    },
+    "links": [
+      "https://statmt.org/wmt25"
+    ]
   }
 ]
