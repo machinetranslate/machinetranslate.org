@@ -2604,6 +2604,20 @@
       }
     ]
   },
+    {
+    "name": "AmericasNLP 2025",
+    "id": "americasnlp-2025",
+    "description": "Machine translation for indigenous languages of the Americas",
+    "start_date": "2025-05-04",
+    "end_date": "2025-05-04",
+    "location": {
+      "location": "Albuquerque, New Mexico",
+      "online": false
+    },
+    "links": [
+      "http://turing.iimas.unam.mx/americasnlp/2024_workshop.html"
+    ]
+  },
   {
     "name": "CoCo4MT 2022",
     "id": "coco4mt-2022",

@@ -12,7 +12,7 @@ name: AmericasNLP 2025
 id: americasnlp-2025
 description: Machine translation for indigenous languages of the Americas
 start_date: '2025-05-04'
-location: Mexico City, Mexico
+location: Albuquerque, New Mexico
 organizer:
   type: Organization
   url: http://turing.iimas.unam.mx/
