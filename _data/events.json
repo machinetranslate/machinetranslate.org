@@ -4213,6 +4213,25 @@
     ]
   },
   {
+  "name": "LoResMT 2025",
+  "id": "loresmt-2025",
+  "description": "Workshop on Low-Resource Machine Translation",
+  "calls_for_papers_deadline": "2025-02-15",
+  "start_date": "2025-05-03",
+  "end_date": "2025-05-04",
+  "location": {
+    "location": "Albuquerque, New Mexico",
+    "online": false
+  },
+  "organizer": {
+    "type": "Person",
+    "url": "https://sites.google.com/view/loresmt/"
+  },
+  "links": [
+    "https://sites.google.com/view/loresmt/"
+  ]
+  },
+  {
     "name": "Machine translation meetup 1",
     "id": "machine-translation-meetup-1",
     "description": "Bay Area Machine Translation meetup",
