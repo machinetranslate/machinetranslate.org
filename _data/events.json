@@ -1006,7 +1006,7 @@
     "important_dates": [
       {
         "name": "Workshops and tutorials submission deadline",
-        "date": "2024-11-25"
+        "date": "2024-12-04"
       },
       {
         "name": "Notification of acceptance of workshops and tutorials",
@@ -1014,11 +1014,11 @@
       },
       {
         "name": "Papers submission deadline",
-        "date": "2025-01-27"
+        "date": "2025-02-10"
       },
       {
         "name": "Notification of acceptance of papers",
-        "date": "2025-03-24"
+        "date": "2025-03-19"
       },
       {
         "name": "Tutorial abstract deadline",
@@ -1026,7 +1026,7 @@
       },
       {
         "name": "Final “camera-ready” versions of papers",
-        "date": "2025-04-28"
+        "date": "2025-04-27"
       },
       {
         "name": "Tutorial materials deadline",
@@ -10927,5 +10927,5 @@
         "title": "Cocktail"
       }
     ]
-  }
+  },
 ]
