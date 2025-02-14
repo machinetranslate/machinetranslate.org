@@ -30,7 +30,7 @@ territories:
 - si
 supported_apis:
 - id: textshuttle
-  name: Supertext (formerly Textshuttle)
+  name: Supertext
 - id: deepl
   name: DeepL
 - id: etranslation

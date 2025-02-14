@@ -30,7 +30,7 @@ territories:
 - ch
 supported_apis:
 - id: textshuttle
-  name: Supertext (formerly Textshuttle)
+  name: Supertext
 - id: baidu
   name: Baidu Translate
 - id: alibaba

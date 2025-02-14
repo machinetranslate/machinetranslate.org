@@ -63,7 +63,7 @@ supported_apis:
 - id: rozetta
   name: Rozetta T-400
 - id: textshuttle
-  name: Supertext (formerly Textshuttle)
+  name: Supertext
 - id: lingmo
   name: Lingmo Translation
 - id: reverso

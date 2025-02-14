@@ -36,7 +36,7 @@ territories:
 - hr
 supported_apis:
 - id: textshuttle
-  name: Supertext (formerly Textshuttle)
+  name: Supertext
 - id: sap
   name: SAP Translation Hub
 - id: promt

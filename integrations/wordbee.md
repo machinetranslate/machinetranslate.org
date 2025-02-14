@@ -61,7 +61,7 @@ api_integrations:
 - slug: textshuttle
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
-  name: Supertext (formerly Textshuttle)
+  name: Supertext
 - slug: tilde
   custom: true
   urls:

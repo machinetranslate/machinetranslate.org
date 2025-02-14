@@ -30,7 +30,7 @@ api_integrations:
   name: SYSTRAN
 - slug: textshuttle
   glossary: true
-  name: Supertext (formerly Textshuttle)
+  name: Supertext
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []

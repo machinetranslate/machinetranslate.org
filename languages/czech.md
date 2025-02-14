@@ -36,7 +36,7 @@ supported_apis:
 - id: tilde
   name: Tilde
 - id: textshuttle
-  name: Supertext (formerly Textshuttle)
+  name: Supertext
 - id: lingmo
   name: Lingmo Translation
 - id: reverso

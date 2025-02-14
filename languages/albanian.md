@@ -36,7 +36,7 @@ territories:
 - it
 supported_apis:
 - id: textshuttle
-  name: Supertext (formerly Textshuttle)
+  name: Supertext
 - id: xl8
   name: XL8
 - id: systran

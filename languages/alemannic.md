@@ -41,7 +41,7 @@ territories:
 - it
 supported_apis:
 - id: textshuttle
-  name: Supertext (formerly Textshuttle)
+  name: Supertext
 supported_qe_apis: []
 seo:
   name: Machine translation for Alemannic
