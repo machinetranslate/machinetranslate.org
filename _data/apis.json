@@ -9456,14 +9456,13 @@
         "self-serve": true
     },
     {
-        "name": "Textshuttle",
+        "name": "Supertext (formerly Textshuttle)",
         "id": "textshuttle",
         "company": "textshuttle",
         "urls": [
-            "https://www.textshuttle.ai/",
-            "https://www.textshuttle.ai/en/functions"
+            "https://www.supertext.com/"
         ],
-        "privacy_url": "https://www.textshuttle.ai/en/disclaimer",
+        "privacy_url": "https://www.supertext.com/en/privacy",
         "languages": [
             "cs",
             "da",

@@ -33,10 +33,10 @@ supported_apis:
   name: Phrase NextMT
 - id: sogou-translate
   name: Sogou Translate
-- id: textshuttle
-  name: Textshuttle
 - id: tilde
   name: Tilde
+- id: textshuttle
+  name: Supertext (formerly Textshuttle)
 - id: lingmo
   name: Lingmo Translation
 - id: reverso

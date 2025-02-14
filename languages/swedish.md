@@ -35,12 +35,12 @@ supported_apis:
   name: Lingo24
 - id: sogou-translate
   name: Sogou Translate
-- id: textshuttle
-  name: Textshuttle
 - id: tilde
   name: Tilde
 - id: rozetta
   name: Rozetta T-400
+- id: textshuttle
+  name: Supertext (formerly Textshuttle)
 - id: lingmo
   name: Lingmo Translation
 - id: reverso

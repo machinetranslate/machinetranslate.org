@@ -120,7 +120,7 @@ api_integrations:
   plugin: true
   urls:
   - https://www.textshuttle.ai/product/features#cat-connectors
-  name: Textshuttle
+  name: Supertext (formerly Textshuttle)
 - slug: tilde
   custom: true
   glossary: true

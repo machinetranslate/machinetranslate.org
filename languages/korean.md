@@ -43,10 +43,10 @@ supported_apis:
   name: Kakao
 - id: sogou-translate
   name: Sogou Translate
-- id: textshuttle
-  name: Textshuttle
 - id: rozetta
   name: Rozetta T-400
+- id: textshuttle
+  name: Supertext (formerly Textshuttle)
 - id: lingmo
   name: Lingmo Translation
 - id: reverso

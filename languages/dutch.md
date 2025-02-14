@@ -52,10 +52,10 @@ supported_apis:
   name: Kakao
 - id: sogou-translate
   name: Sogou Translate
-- id: textshuttle
-  name: Textshuttle
 - id: tilde
   name: Tilde
+- id: textshuttle
+  name: Supertext (formerly Textshuttle)
 - id: lingmo
   name: Lingmo Translation
 - id: reverso

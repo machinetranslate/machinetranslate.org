@@ -39,7 +39,7 @@ supported_apis:
 - id: language-wire
   name: Language Wire
 - id: textshuttle
-  name: Textshuttle
+  name: Supertext (formerly Textshuttle)
 - id: unbabel
   name: Unbabel
 - id: kodensha

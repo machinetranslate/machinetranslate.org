@@ -31,7 +31,7 @@ supported_apis:
 - slug: tencent
   name: Tencent Machine Translation
 - slug: textshuttle
-  name: Textshuttle
+  name: Supertext (formerly Textshuttle)
 - slug: xl8
   name: XL8
 - slug: yandex

@@ -13,7 +13,7 @@ past_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit 
 name: MT Summit 2025
 id: mt-summit-2025
 description: Machine Translation Summit
-calls_for_papers_deadline: '2025-01-27'
+calls_for_papers_deadline: '2025-02-10'
 start_date: '2025-06-23'
 location: Geneva, Switzerland
 organizer:
@@ -24,17 +24,17 @@ links:
 - https://mtsummit2025.unige.ch/
 important_dates:
 - name: Workshops and tutorials submission deadline
-  date: '2024-11-25'
+  date: '2024-12-04'
 - name: Notification of acceptance of workshops and tutorials
   date: '2024-12-13'
 - name: Papers submission deadline
-  date: '2025-01-27'
+  date: '2025-02-10'
 - name: Notification of acceptance of papers
-  date: '2025-03-24'
+  date: '2025-03-19'
 - name: Tutorial abstract deadline
   date: '2025-04-07'
 - name: Final “camera-ready” versions of papers
-  date: '2025-04-28'
+  date: '2025-04-27'
 - name: Tutorial materials deadline
   date: '2025-06-02'
 seo:

@@ -29,7 +29,7 @@ territories:
 - sk
 supported_apis:
 - id: textshuttle
-  name: Textshuttle
+  name: Supertext (formerly Textshuttle)
 - id: lingmo
   name: Lingmo Translation
 - id: reverso

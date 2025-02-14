@@ -154,7 +154,7 @@ api_integrations:
   plugin: true
   urls:
   - https://appstore.rws.com/plugin/145/
-  name: Textshuttle
+  name: Supertext (formerly Textshuttle)
 - slug: textra
   plugin: true
   active: false

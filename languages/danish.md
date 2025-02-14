@@ -33,10 +33,10 @@ supported_apis:
   name: Lingo24
 - id: sogou-translate
   name: Sogou Translate
-- id: textshuttle
-  name: Textshuttle
 - id: tilde
   name: Tilde
+- id: textshuttle
+  name: Supertext (formerly Textshuttle)
 - id: reverso
   name: Reverso
 - id: deepl

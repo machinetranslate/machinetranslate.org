@@ -5,15 +5,15 @@ parent: Events
 nav_order: '2024'
 layout: wmt_event
 title: WMT24
-end_date: '2024-11-16'
+end_date: '2024-11-13'
 future_tense_opening_paragraph: The Ninth Conference on Machine Translation (<strong>WMT24</strong>)
-  will take place in Miami, Florida from 15 November to 16 November, 2024.
+  will take place in Miami, Florida from 12 November to 13 November, 2024.
 past_tense_opening_paragraph: The Ninth Conference on Machine Translation (<strong>WMT24</strong>)
-  took place in Miami, Florida from 15 November to 16 November, 2024.
+  took place in Miami, Florida from 12 November to 13 November, 2024.
 name: WMT24
 id: wmt24
 description: Ninth Conference on Machine Translation
-start_date: '2024-11-15'
+start_date: '2024-11-12'
 location: Miami, Florida
 organizer:
   type: Person
@@ -25,11 +25,11 @@ important_dates:
 - name: Paper submission deadline
   date: '2024-08-12'
 - name: Paper notification
-  date: '2024-09-20'
+  date: To be announced (follows EMNLP)
 - name: Camera-ready version
-  date: '2024-10-03'
+  date: '2024-09-23'
 - name: Conference
-  date: '2024-11-15'
+  date: '2024-11-12'
 shared_tasks:
 - name: General translation
   url: https://www2.statmt.org/wmt24/translation-task.html
@@ -81,8 +81,8 @@ seo:
   type: Event
   name: WMT24
   description: Ninth Conference on Machine Translation
-  startDate: '2024-11-15'
-  endDate: '2024-11-16'
+  startDate: '2024-11-12'
+  endDate: '2024-11-13'
   eventAttendanceMode: OfflineEventAttendanceMode
   eventStatus: EventScheduled
   location:
@@ -94,7 +94,6 @@ seo:
     url: https://statmt.org/wmt24
 
 ---
-
 ## Program
 
 Day 1
