@@ -1371,7 +1371,8 @@
     },
     {
         "codes": [
-            "dik"
+            "dik",
+            "din"
         ],
         "names": [
             "Dinka"
@@ -8831,32 +8832,6 @@
         },
         "territories": [
             "gt"
-        ]
-    },
-    {
-        "codes": [
-            "din"
-        ],
-        "names": [
-            "Dinka"
-        ],
-        "family": [
-            "ssa",
-            "nic"
-        ],
-        "scripts": [
-            "Latn"
-        ],
-        "typology": {
-            "word_order": [
-                "SVO"
-            ],
-            "morphosyntax": [
-                "isolating"
-            ]
-        },
-        "territories": [
-            "ss"
         ]
     },
     {
