@@ -10,7 +10,7 @@ pytest-asyncio==0.23.1
 pytest-pyodide==0.55.1
 python-dateutil==2.8.2
 PyYAML==6.0.1
-requests==2.31.0
+requests==2.32.4
 six==1.16.0
 soupsieve==2.5
 typing_extensions==4.8.0
