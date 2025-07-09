@@ -34,6 +34,8 @@ supported_apis:
   name: ModernMT
 - id: google
   name: Google Translate
+- id: meta-nllb
+  name: Meta NLLB-200
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []

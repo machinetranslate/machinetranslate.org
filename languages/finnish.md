@@ -47,6 +47,8 @@ supported_apis:
   name: DeepL
 - id: unbabel
   name: Unbabel
+- id: lara
+  name: Lara
 - id: etranslation
   name: eTranslation
 - id: globalese
@@ -63,14 +65,20 @@ supported_apis:
   name: KantanMT
 - id: systran
   name: SYSTRAN
+- id: claude
+  name: Claude AI
 - id: iconic
   name: Iconic
 - id: iptranslator
   name: IP Translator
 - id: lilt
   name: Lilt
+- id: deepseek
+  name: DeepSeek
 - id: watson
   name: Watson Language Translator
+- id: openai-gpt
+  name: OpenAI GPT
 - id: language-weaver
   name: Language Weaver
 - id: omniscien
@@ -101,6 +109,8 @@ supported_apis:
   name: Alibaba Translate
 - id: google
   name: Google Translate
+- id: meta-nllb
+  name: Meta NLLB-200
 - id: niutrans
   name: Niutrans
 supported_qe_apis:

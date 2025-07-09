@@ -13,10 +13,11 @@ family: []
 supported_apis:
 - id: google
   name: Google Translate
+- id: meta-nllb
+  name: Meta NLLB-200
 supported_qe_apis: []
 seo:
   name: Machine translation for <code>mwr</code>
   type: Language
 
 ---
-
