@@ -58,6 +58,8 @@ languages:
   name: Maori
 - slug: minangkabau
   name: Minangkabau
+- slug: nauruan
+  name: Nauruan
 - slug: pangasinan
   name: Pangasinan
 - slug: samoan

@@ -31,8 +31,13 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+<<<<<<< HEAD
 - id: google
   name: Google Translate
+=======
+- id: meta-nllb
+  name: Meta NLLB-200
+>>>>>>> 36db5c73 (Add GenAI apis that are also be used for translation)
 supported_qe_apis: []
 seo:
   name: Machine translation for Tamazight
