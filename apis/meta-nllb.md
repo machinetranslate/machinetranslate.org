@@ -230,11 +230,11 @@ supported_languages:
   base_code: bem
   name: Bemba
   variant_name: null
-- slug: bew
+- slug: betawi
   code: bew
   normalized_code: bew
   base_code: bew
-  name: null
+  name: Betawi
   variant_name: null
 - slug: balochi
   code: bgn
@@ -1148,11 +1148,11 @@ supported_languages:
   base_code: mai
   name: Maithili
   variant_name: null
-- slug: mak
+- slug: makassarese
   code: mak
   normalized_code: mak
   base_code: mak
-  name: null
+  name: Makassarese
   variant_name: null
 - slug: man
   code: man
@@ -1382,11 +1382,11 @@ supported_languages:
   base_code: ne
   name: Nepali
   variant_name: null
-- slug: new
+- slug: newari
   code: new
   normalized_code: new
   base_code: new
-  name: null
+  name: Newari
   variant_name: null
 - slug: ndonga
   code: ng
@@ -1556,11 +1556,11 @@ supported_languages:
   base_code: pms
   name: null
   variant_name: null
-- slug: pnb
+- slug: western-punjabi
   code: pnb
   normalized_code: pnb
   base_code: pnb
-  name: null
+  name: Western Punjabi
   variant_name: null
 - slug: pnt
   code: pnt
