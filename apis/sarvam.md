@@ -33,11 +33,11 @@ supported_languages:
   base_code: brx
   name: null
   variant_name: null
-- slug: doi
+- slug: dogri
   code: doi-in
   normalized_code: doi-in
   base_code: doi
-  name: null
+  name: Dogri
   variant_name: null
 - slug: english
   code: en-in
@@ -63,11 +63,11 @@ supported_languages:
   base_code: kn
   name: Kannada
   variant_name: null
-- slug: kok
+- slug: konkani
   code: kok-in
   normalized_code: kok-in
   base_code: kok
-  name: null
+  name: Konkani
   variant_name: null
 - slug: kashmiri
   code: ks-in

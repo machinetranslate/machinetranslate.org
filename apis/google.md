@@ -143,11 +143,11 @@ supported_languages:
   base_code: bem
   name: Bemba
   variant_name: null
-- slug: betawi
+- slug: bew
   code: bew
   normalized_code: bew
   base_code: bew
-  name: Betawi
+  name: null
   variant_name: null
 - slug: bulgarian
   code: bg
@@ -809,11 +809,11 @@ supported_languages:
   base_code: mai
   name: Maithili
   variant_name: null
-- slug: makassarese
+- slug: mak
   code: mak
   normalized_code: mak
   base_code: mak
-  name: Makassarese
+  name: null
   variant_name: null
 - slug: mam
   code: mam
@@ -923,11 +923,11 @@ supported_languages:
   base_code: ne
   name: Nepali
   variant_name: null
-- slug: newari
+- slug: new
   code: new
   normalized_code: new
   base_code: new
-  name: Newari
+  name: null
   variant_name: null
 - slug: nahuatl-(eastern-huasteca)
   code: nhe
@@ -1031,11 +1031,11 @@ supported_languages:
   base_code: pl
   name: Polish
   variant_name: null
-- slug: western-punjabi
+- slug: pnb
   code: pnb
   normalized_code: pnb
   base_code: pnb
-  name: Western Punjabi
+  name: null
   variant_name: null
 - slug: persian
   code: prs

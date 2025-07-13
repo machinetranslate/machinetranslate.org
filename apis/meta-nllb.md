@@ -212,11 +212,11 @@ supported_languages:
   base_code: bar
   name: null
   variant_name: null
-- slug: bcl
+- slug: bikol
   code: bcl
   normalized_code: bcl
   base_code: bcl
-  name: null
+  name: Bikol
   variant_name: null
 - slug: bej
   code: bej
@@ -596,11 +596,11 @@ supported_languages:
   base_code: goh
   name: null
   variant_name: null
-- slug: gom
+- slug: konkani
   code: gom
   normalized_code: gom
   base_code: gom
-  name: null
+  name: Konkani
   variant_name: null
 - slug: gon
   code: gon
@@ -692,11 +692,11 @@ supported_languages:
   base_code: hz
   name: Herero
   variant_name: null
-- slug: hil
+- slug: hiligaynon
   code: hil
   normalized_code: hil
   base_code: hil
-  name: null
+  name: Hiligaynon
   variant_name: null
 - slug: hindi
   code: hin
@@ -884,11 +884,11 @@ supported_languages:
   base_code: kea
   name: Cape Verdean Creole
   variant_name: null
-- slug: kha
+- slug: khasi
   code: kha
   normalized_code: kha
   base_code: kha
-  name: null
+  name: Khasi
   variant_name: null
 - slug: kho
   code: kho
@@ -1130,11 +1130,11 @@ supported_languages:
   base_code: lv
   name: Latvian
   variant_name: null
-- slug: mad
+- slug: madurese
   code: mad
   normalized_code: mad
   base_code: mad
-  name: null
+  name: Madurese
   variant_name: null
 - slug: magahi
   code: mag
@@ -1190,11 +1190,11 @@ supported_languages:
   base_code: mer
   name: null
   variant_name: null
-- slug: mfe
+- slug: mauritian-creole
   code: mfe
   normalized_code: mfe
   base_code: mfe
-  name: null
+  name: Mauritian Creole
   variant_name: null
 - slug: malagasy
   code: mg
@@ -1526,11 +1526,11 @@ supported_languages:
   base_code: pag
   name: Pangasinan
   variant_name: null
-- slug: pam
+- slug: kapampangan
   code: pam
   normalized_code: pam
   base_code: pam
-  name: null
+  name: Kapampangan
   variant_name: null
 - slug: papiamento
   code: pap
@@ -1628,11 +1628,11 @@ supported_languages:
   base_code: rof
   name: null
   variant_name: null
-- slug: rom
+- slug: romani
   code: rom
   normalized_code: rom
   base_code: rom
-  name: null
+  name: Romani
   variant_name: null
 - slug: root
   code: root
@@ -1670,11 +1670,11 @@ supported_languages:
   base_code: sa
   name: Sanskrit
   variant_name: null
-- slug: sah
+- slug: yakut
   code: sah
   normalized_code: sah
   base_code: sah
-  name: null
+  name: Yakut
   variant_name: null
 - slug: santali
   code: sat
@@ -1910,11 +1910,11 @@ supported_languages:
   base_code: tn
   name: Tswana
   variant_name: null
-- slug: tonga
+- slug: tongan
   code: to
   normalized_code: to
   base_code: to
-  name: Tonga
+  name: Tongan
   variant_name: null
 - slug: tok-pisin
   code: tpi
