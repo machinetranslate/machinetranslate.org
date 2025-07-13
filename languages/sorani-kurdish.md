@@ -33,13 +33,10 @@ supported_apis:
   name: Microsoft Translator
 - id: modernmt
   name: ModernMT
-<<<<<<< HEAD
 - id: google
   name: Google Translate
-=======
 - id: meta-nllb
   name: Meta NLLB-200
->>>>>>> 36db5c73 (Add GenAI apis that are also be used for translation)
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
