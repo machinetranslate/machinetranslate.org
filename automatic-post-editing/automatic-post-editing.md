@@ -1,6 +1,7 @@
 ---
-nav_order: 5
-parent: Building and research
+nav_order: 67
+has_children: true
+# parent: Building and research
 title: Automatic post-editing
 description: Automatic post-editing of machine translation
 ---

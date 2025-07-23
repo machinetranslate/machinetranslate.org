@@ -1,0 +1,98 @@
+---
+layout: default
+parent: Automatic post-editing
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+<h2>
+  {{ page.description }}
+</h2>
+
+<hr/>
+
+<p>
+  {% if page.supported_languages.size > 0 %}
+    The <strong>{{ page.title }}</strong> automatic post-editing API supports <a href="#language-support">{{ page.supported_languages | size }} languages</a>.
+  {% else %}
+    The <strong>{{ page.title }}</strong> automatic post-editing API supports an unknown number of languages.
+  {% endif %}
+</p>
+
+<blockquote>
+
+  <dl>
+
+    <dt>Language support</dt>
+  {% if page.supported_languages.size == 0 %}
+    <dd><a href="#language-support">Unknown number of languages</a></dd>
+  {% else %}
+    <dd><a href="#language-support">{{ page.supported_languages | size }} languages</a>
+    {% if page.more_languages_by_request %}
+      - more languages available by request
+    {% endif %}
+    </dd>
+  {% endif %}
+    
+  </dl>
+
+  {% if page.urls.size > 0 %}
+    <hr/>
+    <ul>
+      {% for url in page.urls %}
+      <li>
+        <a href="{{ url }}" target="_blank">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+</blockquote>
+
+{{ content }}
+
+<section id="language-support">
+  <h2>Language support</h2>
+  {% if page.supported_languages.size > 0 %}
+
+    <details>
+      <summary>
+        {% if page.supported_languages_comment %}
+          {{ page.supported_languages_comment }}
+        {% endif %}
+        {% if page.supported_languages.size == 1 %}
+          <strong>1</strong> language is supported by the {{ page.title }} API.
+        {% else %}
+          <strong>{{ page.supported_languages | size }}</strong> languages are supported by the {{ page.title }} API.
+        {% endif %}
+        <p class="preview hint">
+          {{ page.supported_languages | slice: 0, 5 | map: 'name' | join: ', ' }}
+          {% if page.supported_languages.size > 5 %}, …{% endif %}
+        </p>
+      </summary>
+      <ul>
+        {% for language in page.supported_languages %}
+          <li>
+            <a href="/{{ language.slug }}">
+              <code>{{ language.normalized_code }}</code>
+              {{ language.name }}
+              {% if language.variant_name %}
+                | {{ language.variant_name }}
+              {% endif %}
+            </a>
+              {% if language.normalized_code != language.code %}
+                ⚠️ {{ page.title }} uses <code>{{ language.code }}</code>.
+              {% endif %}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+
+{% else %}
+
+  <p>The {{ page.title }} API supports an unknown number of languages.</p>
+</section>
+
+{% endif %}
