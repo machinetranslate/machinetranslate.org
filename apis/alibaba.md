@@ -13,6 +13,10 @@ urls:
 privacy_url: https://www.alibabacloud.com/help/en/legal/latest/alibaba-cloud-international-website-product-terms-of-service
 self_serve: true
 customisation: []
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: abkhaz
   code: ab
@@ -1307,7 +1311,6 @@ integrations:
   - https://store.crowdin.com/alibaba
 models: []
 active: true
-file_translation: null
 seo:
   name: The Alibaba Translate machine translation API
   type: Product

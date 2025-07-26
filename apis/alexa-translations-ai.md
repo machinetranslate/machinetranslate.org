@@ -12,6 +12,10 @@ urls:
 privacy_url: null
 self_serve: false
 customisation: []
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: arabic
   code: ar
@@ -100,7 +104,6 @@ integrations:
   - https://appstore.rws.com/plugin/149/
 models: []
 active: true
-file_translation: null
 seo:
   name: The Alexa Translations A.I. machine translation API
   type: Product

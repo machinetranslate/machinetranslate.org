@@ -13,6 +13,10 @@ urls:
 privacy_url: null
 self_serve: true
 customisation: []
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: afrikaans
   code: af-za
@@ -672,7 +676,6 @@ more_languages_by_request: false
 integrations: []
 models: []
 active: true
-file_translation: true
 seo:
   name: The LingvaNex machine translation API
   type: Product

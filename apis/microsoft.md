@@ -15,6 +15,10 @@ self_serve: true
 customisation:
 - Glossary
 - Fine-tuning
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: afrikaans
   code: af
@@ -749,7 +753,6 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-microsoft-translator-mt-engine.html
 models: []
 active: true
-file_translation: true
 seo:
   name: The Microsoft Translator machine translation API
   type: Product

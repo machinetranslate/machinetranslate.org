@@ -36,6 +36,8 @@
         "stock_api_domains_urls": [
             "https://www.aisa.digital/e-commerce-translation/"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "glossary": true,
         "self-serve": true
     },
@@ -69,6 +71,8 @@
             "https://alexatranslations.com/financial/",
             "https://alexatranslations.com/legal/"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -303,6 +307,8 @@
         "stock_api_domains_urls": [
             "https://www.alibabacloud.com/help/en/machine-translation/latest/product-introduction-1"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -391,6 +397,7 @@
             "zh",
             "zh-tw"
         ],
+        "text_translation": true,
         "glossary": true,
         "formality": true,
         "adaptive": true,
@@ -406,6 +413,7 @@
             "https://www.acolad.com/en/technology/machine-translation.html"
         ],
         "languages": [],
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -815,6 +823,7 @@
                 "id"
             ]
         ],
+        "text_translation": true,
         "more_languages_by_request": true,
         "self-serve": true
     },
@@ -910,6 +919,8 @@
         "stock_api_domains_urls": [
             "https://www.apptek.com/technology/machine-translation"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "formality": true,
         "self-serve": true
     },
@@ -1125,6 +1136,8 @@
             "zh-tw",
             "zul"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -1138,6 +1151,7 @@
             "be",
             "ru"
         ],
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -1176,6 +1190,7 @@
         "stock_api_domains_urls": [
             "https://cloudtranslation.com/static/api_en.html#_2"
         ],
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -4481,6 +4496,7 @@
                 "uk"
             ]
         ],
+        "text_translation": true,
         "glossary": true,
         "formality": true,
         "self-serve": true,
@@ -4501,6 +4517,8 @@
             "fr",
             "gl"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "glossary": true,
         "self-serve": true
     },
@@ -4553,6 +4571,7 @@
         "stock_api_domains_urls": [
             "https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en"
         ],
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -4574,6 +4593,8 @@
             "https://api.geofluent.com/Translation/v3/ui/index"
         ],
         "languages": [],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -4844,6 +4865,7 @@
             ]
         ],
         "more_languages_by_request": true,
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -5175,10 +5197,13 @@
             "zh-tw",
             "zu"
         ],
+        "voice_translation": true,
+        "text_translation": true,
+        "file_translation": true,
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": true,
-        "file_translation": true
+        "self-serve": true
+        
     },
     {
         "name": "Iconic",
@@ -5347,6 +5372,8 @@
         "stock_api_domains_urls": [
             "https://judic.io/en"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -5378,6 +5405,7 @@
             "vi",
             "zh"
         ],
+        "text_translation": true,
         "formality": true,
         "self-serve": true
     },
@@ -6005,6 +6033,7 @@
         "stock_api_domains_urls": [
             "https://www.kantanai.io/showcase/"
         ],
+        "text_translation": true,
         "glossary": true,
         "fine-tuning": true,
         "adaptive": true,
@@ -6063,6 +6092,7 @@
             "zh-tw"
         ],
         "more_languages_by_request": true,
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -6139,6 +6169,8 @@
             "zh-tw"
         ],
         "more_languages_by_request": true,
+        "voice_translation": true,
+        "text_translation": true,
         "glossary": true,
         "self-serve": true,
         "adaptive": true
@@ -6163,6 +6195,8 @@
             "sv"
         ],
         "more_languages_by_request": true,
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": false,
         "file_translation": true
     },
@@ -6176,6 +6210,8 @@
         "privacy_url": "https://www.lengoo.com/privacy-policy",
         "languages": [],
         "more_languages_by_request": null,
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -6245,6 +6281,8 @@
             "zu"
         ],
         "more_languages_by_request": true,
+        "voice_translation": true,
+        "text_translation": true,
         "adaptive": true,
         "self-serve": false,
         "file_translation": true
@@ -6285,7 +6323,9 @@
             "th-th",
             "tr-tr",
             "zh-cn"
-        ]
+        ],
+        "voice_translation": true,
+        "text_translation": true
     },
     {
         "name": "Lingo24",
@@ -6327,6 +6367,8 @@
         "stock_api_domains": [
             "finance"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -6448,6 +6490,8 @@
             "yo-ng",
             "zu-za"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": true,
         "file_translation": true
     },
@@ -6460,6 +6504,7 @@
             "https://ltgear3.moravia.com//swagger/ui/index"
         ],
         "languages": [],
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -6673,10 +6718,12 @@
             "zh-Hans",
             "zh-Hant"
         ],
+        "voice_translation": true,
+        "text_translation": true,
+        "file_translation": true,
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": true,
-        "file_translation": true
+        "self-serve": true
     },
     {
         "name": "Mirai Translator",
@@ -6798,6 +6845,8 @@
             "financial"
         ],
         "stock_api_domains_urls": "https://miraitranslate.com/en/service/miraitranslator/news/",
+        "voice_translation": true,
+        "text_translation": true,
         "glossary": true,
         "adaptive": true,
         "self-serve": true
@@ -7014,6 +7063,7 @@
             "zu"
         ],
         "adaptive": true,
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -7021,7 +7071,8 @@
         "id": "moraviamt",
         "company": "moravia",
         "urls": [],
-        "languages": []
+        "languages": [],
+        "text_translation": true
     },
     {
         "name": "Moses",
@@ -7033,6 +7084,7 @@
         "languages": [],
         "fine-tuning": true,
         "more_languages_by_request": true,
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -7183,6 +7235,7 @@
             "zh-TW",
             "zu"
         ],
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -7581,6 +7634,8 @@
             "zyb"
         ],
         "glossary": true,
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -7594,7 +7649,8 @@
         "stock_api_domains": [
             "patents"
         ],
-        "adaptive": true
+        "adaptive": true,
+        "text_translation": true
     },
     {
         "name": "OctaveMT",
@@ -7604,6 +7660,7 @@
             "https://info.unitedlanguagegroup.com/contact-us-today-about-octavemt"
         ],
         "languages": [],
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -7709,6 +7766,8 @@
         "stock_api_domains_urls": [
             "https://omniscien.com/machine-translation/industry-domains/"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "glossary": true,
         "formality": true,
         "adaptive": true,
@@ -7723,6 +7782,7 @@
             "https://helsinki-nlp.github.io/OPUS-CAT/"
         ],
         "languages": [],
+        "text_translation": true,
         "fine-tuning": true,
         "self-serve": true
     },
@@ -7746,6 +7806,7 @@
             "zh-tw"
         ],
         "more_languages_by_request": true,
+        "text_translation": true,
         "glossary": true,
         "adaptive": true,
         "self-serve": false
@@ -7824,6 +7885,8 @@
                 "ja"
             ]
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "glossary": true,
         "formality": true,
         "self-serve": true
@@ -7901,6 +7964,8 @@
                 "en"
             ]
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "glossary": true,
         "adaptive": true,
         "self-serve": false
@@ -7968,6 +8033,7 @@
             "zh-tw",
             "zsm"
         ],
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -8005,6 +8071,8 @@
             "uk",
             "zh"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -8053,6 +8121,8 @@
         "stock_api_domains_urls": [
             "https://www.rozetta.jp/t4oo/"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -8454,6 +8524,7 @@
         "stock_api_domains_urls": [
             "https://help.sap.com/docs/SAP_TRANSLATION_HUB/ed6ce7a29bdd42169f5f0d7868bce6eb/35628564620d46ab8d218c04ac0140ea.html?locale=en-US&q=translation%20domains"
         ],
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -8465,6 +8536,8 @@
         ],
         "privacy_url": "https://skrivanek.com/wp-content/uploads/2021/03/processing-and-protection-of-personal-data-in-skrivanek-0.pdf",
         "languages": [],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -8512,7 +8585,9 @@
             "general",
             "biomedical",
             "finance"
-        ]
+        ],
+        "voice_translation": true,
+        "text_translation": true
     },
     {
         "name": "Sunda Translator",
@@ -8534,6 +8609,8 @@
         ],
         "adaptive": true,
         "glossary": true,
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -8927,10 +9004,12 @@
                 "https://www.systran.net/marketplace-catalog/domains/  adaptive": true
             }
         ],
+        "voice_translation": true,
+        "text_translation": true,
+        "file_translation": true,
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": true,
-        "file_translation": true
+        "self-serve": true
     },
     {
         "name": "TAPTA",
@@ -8947,6 +9026,7 @@
             "ru",
             "zh"
         ],
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -8967,6 +9047,8 @@
                 "en"
             ]
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -9452,6 +9534,8 @@
                 "en"
             ]
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -9490,6 +9574,7 @@
         ],
         "custom_languages": "*",
         "more_languages_by_request": true,
+        "text_translation": true,
         "glossary": true,
         "formality": true,
         "self-serve": false
@@ -9605,6 +9690,8 @@
             "zh-tw", 
             "zu"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "glossary": true,
         "self-serve": true
     },
@@ -10864,11 +10951,13 @@
             ]
         ],
         "more_languages_by_request": true,
+        "voice_translation": true,
+        "text_translation": true,
+        "file_translation": true,
         "adaptive": true,
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": false,
-        "file_translation": true
+        "self-serve": false
     },
     {
         "name": "TranslateMe",
@@ -10919,7 +11008,8 @@
                 "zu",
                 "en"
             ]
-        ]
+        ],
+        "text_translation": true
     },
     {
         "name": "TransPerfect NMT",
@@ -10929,6 +11019,9 @@
             "https://www.transperfect.com/technology/artificial-intelligence/neural-machine-translation"
         ],
         "languages": [],
+        "voice_translation": true,
+        "text_translation": true,
+        "file_translation": true,
         "self-serve": false
     },
     {
@@ -10965,6 +11058,8 @@
                 "en"
             ]
         ],
+        "text_translation": true,
+        "file_translation": true,
         "self-serve": false
     },
     {
@@ -11066,6 +11161,7 @@
             "legal",
             "patents"
         ],
+        "text_translation": true,
         "self-serve": false
     },
     {
@@ -11088,6 +11184,7 @@
             "aerospace",
             "luxury"
         ],
+        "text_translation": true,
         "glossary": true,
         "self-serve": false
     },
@@ -11135,8 +11232,10 @@
             "zh-tw"
         ],
         "more_languages_by_request": true,
-        "self-serve": false,
-        "file_translation": true
+        "voice_translation": true,
+        "text_translation": true,
+        "file_translation": true,
+        "self-serve": false
     },
     {
         "name": "XL8",
@@ -13977,6 +14076,8 @@
                 "ko"
             ]
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -14092,8 +14193,10 @@
                 "zh", 
                 "zu"
         ],
-        "self-serve": true,
-        "file_translation": true
+        "voice_translation": true,
+        "text_translation": true,
+        "file_translation": true,
+        "self-serve": true
     },
     {
         "name": "YeeKit",
@@ -14107,6 +14210,8 @@
             "en",
             "zh"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -14240,6 +14345,8 @@
         "stock_api_domains_urls": [
             "https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html"
         ],
+        "voice_translation": true,
+        "text_translation": true,
         "self-serve": true
     },
     {
@@ -14785,10 +14892,12 @@
                 "en"
             ]
         ],
+        "voice_translation": true,
+        "text_translation": true,
+        "file_translation": true,
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": true,
-        "file_translation": true
+        "self-serve": true
     },
     {
         "name": "Wordlingo",
@@ -14865,7 +14974,8 @@
             "yi",
             "zh_cn",
             "zh_tw"
-        ]
+        ],
+        "text_translation": true
     },
     {
         "name": "OpenAI",

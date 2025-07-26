@@ -14,6 +14,10 @@ privacy_url: https://lilt.com/technology/security
 self_serve: false
 customisation:
 - Adaptive
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: afrikaans
   code: af
@@ -358,7 +362,6 @@ integrations:
   - https://support.lilt.com/kb/introduction-to-lilt-translate
 models: []
 active: true
-file_translation: true
 seo:
   name: The Lilt machine translation API
   type: Product

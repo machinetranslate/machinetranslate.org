@@ -13,6 +13,9 @@ urls:
 privacy_url: null
 self_serve: true
 customisation: []
+translation_types:
+- File Translation
+- Text Translation
 supported_languages:
 - slug: afrikaans
   code: af
@@ -300,7 +303,6 @@ integrations:
   name: OmegaT
 models: []
 active: true
-file_translation: null
 seo:
   name: The Apertium machine translation API
   type: Product

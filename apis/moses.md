@@ -14,6 +14,9 @@ privacy_url: null
 self_serve: true
 customisation:
 - Fine-tuning
+translation_types:
+- File Translation
+- Text Translation
 supported_languages: []
 more_languages_by_request: true
 integrations:
@@ -29,7 +32,6 @@ integrations:
   - https://confluence.translate5.net/display/BUS/Moses
 models: []
 active: true
-file_translation: null
 seo:
   name: The Moses machine translation API
   type: Product

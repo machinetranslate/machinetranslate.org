@@ -14,6 +14,9 @@ privacy_url: https://www.modernmt.com/privacy/
 self_serve: true
 customisation:
 - Adaptive
+translation_types:
+- File Translation
+- Text Translation
 supported_languages:
 - slug: acehnese
   code: ace
@@ -1249,7 +1252,6 @@ integrations:
   - https://www.wordfast.net/wiki/Connecting_Wordfast_Pro_to_Modern_MT
 models: []
 active: true
-file_translation: null
 seo:
   name: The ModernMT machine translation API
   type: Product

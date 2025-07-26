@@ -13,6 +13,9 @@ urls:
 privacy_url: null
 self_serve: false
 customisation: []
+translation_types:
+- File Translation
+- Text Translation
 supported_languages:
 - slug: catalan
   code: ca
@@ -59,7 +62,6 @@ integrations:
   - https://appstore.rws.com/Plugin/195
 models: []
 active: true
-file_translation: null
 seo:
   name: The Trebe machine translation API
   type: Product

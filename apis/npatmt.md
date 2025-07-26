@@ -13,6 +13,9 @@ privacy_url: null
 self_serve: null
 customisation:
 - Adaptive
+translation_types:
+- File Translation
+- Text Translation
 supported_languages: []
 more_languages_by_request: false
 integrations:
@@ -22,7 +25,6 @@ integrations:
   - https://www.npat.co.jp/EXPRESS_price_list/EXPRESS_price_list.html
 models: []
 active: true
-file_translation: null
 seo:
   name: The NpatMT machine translation API
   type: Product

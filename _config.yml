@@ -190,6 +190,13 @@ defaults:
       seo:
         type: Article
   - scope:
+      path: input-types
+      type: pages
+    values:
+      permalink: /:basename
+      seo:
+        type: Article
+  - scope:
       path: models
       type: pages
     values:

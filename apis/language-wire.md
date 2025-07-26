@@ -12,6 +12,10 @@ urls:
 privacy_url: https://www.languagewire.com/en/info/terms-and-conditions
 self_serve: false
 customisation: []
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: danish
   code: da
@@ -72,7 +76,6 @@ integrations:
   - https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
 models: []
 active: true
-file_translation: true
 seo:
   name: The Language Wire machine translation API
   type: Product

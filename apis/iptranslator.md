@@ -13,6 +13,8 @@ urls:
 privacy_url: null
 self_serve: null
 customisation: []
+translation_types:
+- File Translation
 supported_languages:
 - slug: afrikaans
   code: af
@@ -350,7 +352,6 @@ integrations:
   - https://docs.memoq.com/current/en/Places/iptranslator-plugin-settings.html
 models: []
 active: false
-file_translation: null
 seo:
   name: The IP Translator machine translation API
   type: Product

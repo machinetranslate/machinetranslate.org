@@ -12,6 +12,9 @@ urls:
 privacy_url: null
 self_serve: false
 customisation: []
+translation_types:
+- File Translation
+- Text Translation
 supported_languages:
 - slug: arabic
   code: ar
@@ -58,7 +61,6 @@ integrations:
   url: https://docs.rws.com/785465/786629/sdl-multitrans/configuring-tapta
 models: []
 active: true
-file_translation: null
 seo:
   name: The TAPTA machine translation API
   type: Product

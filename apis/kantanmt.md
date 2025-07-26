@@ -16,6 +16,9 @@ customisation:
 - Adaptive
 - Glossary
 - Fine-tuning
+translation_types:
+- File Translation
+- Text Translation
 supported_languages:
 - slug: abkhaz
   code: ab
@@ -390,7 +393,6 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-kantanmt-engine.html
 models: []
 active: true
-file_translation: true
 seo:
   name: The KantanMT machine translation API
   type: Product

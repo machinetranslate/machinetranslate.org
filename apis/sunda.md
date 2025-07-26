@@ -15,6 +15,10 @@ self_serve: true
 customisation:
 - Adaptive
 - Glossary
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: english
   code: en
@@ -32,7 +36,6 @@ more_languages_by_request: false
 integrations: []
 models: []
 active: true
-file_translation: null
 seo:
   name: The Sunda Translator machine translation API
   type: Product

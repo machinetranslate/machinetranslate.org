@@ -12,6 +12,10 @@ urls:
 privacy_url: https://www.lengoo.com/privacy-policy
 self_serve: false
 customisation: []
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages: []
 more_languages_by_request: null
 integrations:
@@ -26,7 +30,6 @@ integrations:
   name: XTM
 models: []
 active: true
-file_translation: null
 seo:
   name: The Lengoo machine translation API
   type: Product

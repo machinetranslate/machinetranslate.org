@@ -13,6 +13,9 @@ urls:
 privacy_url: null
 self_serve: false
 customisation: []
+translation_types:
+- File Translation
+- Text Translation
 supported_languages:
 - slug: afrikaans
   code: af
@@ -774,7 +777,6 @@ more_languages_by_request: false
 integrations: []
 models: []
 active: true
-file_translation: null
 seo:
   name: The NeuralSpace machine translation API
   type: Product

@@ -15,6 +15,10 @@ self_serve: true
 customisation:
 - Adaptive
 - Glossary
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: arabic
   code: ar
@@ -423,7 +427,6 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-language-weaver-mt-engine.html
 models: []
 active: true
-file_translation: null
 seo:
   name: The Language Weaver machine translation API
   type: Product

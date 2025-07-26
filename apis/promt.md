@@ -13,6 +13,9 @@ urls:
 privacy_url: null
 self_serve: false
 customisation: []
+translation_types:
+- File Translation
+- Text Translation
 supported_languages:
 - slug: arabic
   code: ar
@@ -275,7 +278,6 @@ integrations:
   name: Smartling
 models: []
 active: true
-file_translation: null
 seo:
   name: The PROMT machine translation API
   type: Product

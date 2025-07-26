@@ -17,6 +17,10 @@ customisation:
 - Glossary
 - Formality
 - Fine-tuning
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: arabic
   code: ar
@@ -409,7 +413,6 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-omniscien-technologies-language-studio-mt-engine.html
 models: []
 active: true
-file_translation: null
 seo:
   name: The Omniscien Technologies machine translation API
   type: Product

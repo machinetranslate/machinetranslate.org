@@ -50,11 +50,33 @@ parent: APIs
   {% if page.customisation contains 'Adaptive' %}
     The API also supports <a href="/adaptive">adaptive</a> customisation.
   {% endif %} <br>
-  {% if page.file_translation %}
-    The API also supports <a href='/file-translation'>file translation</a>.
+
+  {% assign extras = page.translation_types | where_exp: "t", "t != 'Text Translation'" %}
+  {% assign links = "" | split: "" %}
+
+  {% for type in extras %}
+    {% case type %}
+      {% when 'Voice Translation' %}
+        {% assign links = links | push: "<a href='/voice'>voice translation</a>" %}
+      {% when 'File Translation' %}
+        {% assign links = links | push: "<a href='/file-translation'>file translation</a>" %}
+      {% else %}
+        {% assign links = links | push: type %}
+    {% endcase %}
+  {% endfor %}
+  {% if links.size > 0 %}
+    The API also supports 
+    {% for link in links %}
+      {% if forloop.last and links.size > 1 %}
+        and {{ link }}.
+      {% elsif forloop.first %}
+        {{ link }}
+      {% else %}
+        , {{ link }}
+      {% endif %}
+    {% endfor %}
   {% endif %}
 </p>
-
 
 <blockquote>
 

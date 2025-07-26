@@ -16,6 +16,10 @@ self_serve: true
 customisation:
 - Glossary
 - Fine-tuning
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: abkhaz
   code: ab
@@ -1584,7 +1588,6 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-google-translate-mt-engine.html
 models: []
 active: true
-file_translation: true
 seo:
   name: The Google Translate machine translation API
   type: Product

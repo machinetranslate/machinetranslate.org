@@ -13,6 +13,9 @@ urls:
 privacy_url: null
 self_serve: null
 customisation: []
+translation_types:
+- File Translation
+- Text Translation
 supported_languages:
 - slug: german
   code: de
@@ -84,7 +87,6 @@ more_languages_by_request: false
 integrations: []
 models: []
 active: true
-file_translation: null
 seo:
   name: The TranslateMe machine translation API
   type: Product

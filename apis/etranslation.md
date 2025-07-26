@@ -12,6 +12,9 @@ urls:
 privacy_url: https://ec.europa.eu/info/privacy-policy_en
 self_serve: true
 customisation: []
+translation_types:
+- File Translation
+- Text Translation
 supported_languages:
 - slug: arabic
   code: ar
@@ -213,7 +216,6 @@ integrations:
   - https://docs.memoq.com/current/en/Places/etranslation-mt-plugin-settings.html
 models: []
 active: true
-file_translation: null
 seo:
   name: The eTranslation machine translation API
   type: Product

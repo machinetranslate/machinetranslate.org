@@ -14,6 +14,10 @@ self_serve: false
 customisation:
 - Adaptive
 - Glossary
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: czech
   code: cs
@@ -76,7 +80,6 @@ integrations:
   glossary: true
 models: []
 active: true
-file_translation: null
 seo:
   name: The Phrase NextMT machine translation API
   type: Product

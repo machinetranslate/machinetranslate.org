@@ -13,6 +13,9 @@ urls:
 privacy_url: null
 self_serve: null
 customisation: []
+translation_types:
+- File Translation
+- Text Translation
 supported_languages:
 - slug: afrikaans
   code: af
@@ -418,7 +421,6 @@ integrations:
   - https://www.wordfast.com/WFP/4.5/c1060284.html
 models: []
 active: true
-file_translation: null
 seo:
   name: The Wordlingo machine translation API
   type: Product

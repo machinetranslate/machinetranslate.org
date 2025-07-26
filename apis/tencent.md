@@ -13,6 +13,10 @@ urls:
 privacy_url: https://main.qcloudimg.com/raw/document/intl/product/pdf/tencent-cloud_1161_51199_en.pdf
 self_serve: true
 customisation: []
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: arabic
   code: ar
@@ -144,7 +148,6 @@ integrations:
   - https://github.com/yoyicue/omegat-tencent-plugin
 models: []
 active: true
-file_translation: null
 seo:
   name: The Tencent Machine Translation machine translation API
   type: Product

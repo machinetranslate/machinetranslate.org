@@ -1,8 +1,8 @@
 ---
-grand_parent: Building and research
-parent: Other input types
+parent: Input types
 layout: coming_soon
-nav_order: 1
-title: Speech
+nav_order: 2
+has_children: true
+title: Voice
 description: Speech-to-speech machine translation, text-to-speech machine translation, speech-to-text machine translation
 ---

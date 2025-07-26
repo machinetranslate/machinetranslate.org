@@ -13,6 +13,10 @@ urls:
 privacy_url: https://resources.unbabel.com/one-pager-5/the-complete-unbabel-security-guide-5
 self_serve: false
 customisation: []
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: arabic
   code: ar
@@ -210,7 +214,6 @@ more_languages_by_request: true
 integrations: []
 models: []
 active: true
-file_translation: true
 seo:
   name: The Unbabel machine translation API
   type: Product

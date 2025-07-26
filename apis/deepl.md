@@ -15,6 +15,9 @@ self_serve: true
 customisation:
 - Glossary
 - Formality
+translation_types:
+- File Translation
+- Text Translation
 supported_languages:
 - slug: bulgarian
   code: bg
@@ -294,7 +297,6 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-deepl-translator-mt-engine.html
 models: []
 active: true
-file_translation: true
 seo:
   name: The DeepL machine translation API
   type: Product

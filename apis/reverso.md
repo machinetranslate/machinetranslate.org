@@ -12,6 +12,10 @@ urls:
 privacy_url: null
 self_serve: true
 customisation: []
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: arabic
   code: ar
@@ -177,7 +181,6 @@ integrations:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 models: []
 active: true
-file_translation: null
 seo:
   name: The Reverso machine translation API
   type: Product

@@ -14,6 +14,10 @@ privacy_url: https://translate.niutrans.com/privacy
 self_serve: true
 customisation:
 - Glossary
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: acehnese
   code: ace
@@ -2331,7 +2335,6 @@ integrations:
   active: false
 models: []
 active: true
-file_translation: null
 seo:
   name: The Niutrans machine translation API
   type: Product

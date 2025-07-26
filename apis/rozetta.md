@@ -13,6 +13,10 @@ urls:
 privacy_url: null
 self_serve: false
 customisation: []
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: arabic
   code: ar
@@ -178,7 +182,6 @@ integrations:
   - https://appstore.rws.com/plugin/187/
 models: []
 active: true
-file_translation: null
 seo:
   name: The Rozetta T-400 machine translation API
   type: Product

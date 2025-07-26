@@ -13,6 +13,8 @@ urls:
 privacy_url: https://www.lingo24.com/about/privacy-and-terms/
 self_serve: true
 customisation: []
+translation_types:
+- File Translation
 supported_languages:
 - slug: arabic
   code: ar
@@ -107,7 +109,6 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-lingo24-mt-engine.html
 models: []
 active: false
-file_translation: null
 seo:
   name: The Lingo24 machine translation API
   type: Product

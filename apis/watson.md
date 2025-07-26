@@ -15,6 +15,10 @@ self_serve: true
 customisation:
 - Glossary
 - Fine-tuning
+translation_types:
+- File Translation
+- Voice Translation
+- Text Translation
 supported_languages:
 - slug: arabic
   code: ar
@@ -377,7 +381,6 @@ integrations:
   custom: true
 models: []
 active: true
-file_translation: true
 seo:
   name: The Watson Language Translator machine translation API
   type: Product
