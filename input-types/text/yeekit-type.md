@@ -7,7 +7,7 @@ title: YeeKit
 id: yeekit
 translation_types:
 - File Translation
-- Voice Translation
+- Speech Translation
 - Text Translation
 active: true
 grand_parent: Input types

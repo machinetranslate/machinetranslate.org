@@ -14,7 +14,7 @@ self_serve: false
 customisation: []
 translation_types:
 - File Translation
-- Voice Translation
+- Speech Translation
 - Text Translation
 supported_languages: []
 more_languages_by_request: null

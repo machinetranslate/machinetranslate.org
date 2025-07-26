@@ -14,7 +14,7 @@ self_serve: true
 customisation: []
 translation_types:
 - File Translation
-- Voice Translation
+- Speech Translation
 - Text Translation
 supported_languages:
 - slug: arabic

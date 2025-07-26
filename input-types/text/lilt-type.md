@@ -7,7 +7,7 @@ title: Lilt
 id: lilt
 translation_types:
 - File Translation
-- Voice Translation
+- Speech Translation
 - Text Translation
 active: true
 grand_parent: Input types

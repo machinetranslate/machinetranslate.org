@@ -17,7 +17,7 @@ customisation:
 - Formality
 translation_types:
 - File Translation
-- Voice Translation
+- Speech Translation
 - Text Translation
 supported_languages:
 - slug: german

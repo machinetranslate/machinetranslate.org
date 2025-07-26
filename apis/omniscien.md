@@ -19,7 +19,7 @@ customisation:
 - Fine-tuning
 translation_types:
 - File Translation
-- Voice Translation
+- Speech Translation
 - Text Translation
 supported_languages:
 - slug: arabic

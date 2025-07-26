@@ -7,7 +7,7 @@ title: Language Wire
 id: language-wire
 translation_types:
 - File Translation
-- Voice Translation
+- Speech Translation
 - Text Translation
 active: true
 grand_parent: Input types

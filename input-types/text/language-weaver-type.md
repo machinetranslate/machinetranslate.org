@@ -7,7 +7,7 @@ title: Language Weaver
 id: language-weaver
 translation_types:
 - File Translation
-- Voice Translation
+- Speech Translation
 - Text Translation
 active: true
 grand_parent: Input types
