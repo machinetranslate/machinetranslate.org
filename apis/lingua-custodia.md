@@ -11,6 +11,8 @@ urls:
 - https://www.linguacustodia.finance/en/welcome/
 privacy_url: https://www.linguacustodia.finance/en/lingua-custodia-privacy-policy/
 self_serve: false
+mt: true
+gen_ai: true
 customisation: []
 supported_languages: []
 more_languages_by_request: false

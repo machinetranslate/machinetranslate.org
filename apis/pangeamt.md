@@ -12,6 +12,8 @@ urls:
 - https://prod.pangeamt.com/
 privacy_url: null
 self_serve: false
+mt: true
+gen_ai: true
 customisation:
 - Adaptive
 - Glossary

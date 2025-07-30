@@ -12,6 +12,8 @@ urls:
 - https://www.deepl.com/en/docs-api/
 privacy_url: https://www.deepl.com/pro-data-security/
 self_serve: true
+mt: true
+gen_ai: true
 customisation:
 - Glossary
 - Formality

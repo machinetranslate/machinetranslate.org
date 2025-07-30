@@ -12,6 +12,8 @@ urls:
 - http://www.precisiontranslationtools.com/slate/
 privacy_url: null
 self_serve: null
+mt: null
+gen_ai: null
 customisation: []
 supported_languages: []
 more_languages_by_request: false
