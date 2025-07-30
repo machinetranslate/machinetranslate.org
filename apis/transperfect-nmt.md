@@ -11,6 +11,8 @@ urls:
 - https://www.transperfect.com/technology/artificial-intelligence/neural-machine-translation
 privacy_url: null
 self_serve: false
+mt: true
+gen_ai: true
 customisation: []
 inputs:
 - text

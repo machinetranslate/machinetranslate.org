@@ -12,6 +12,8 @@ urls:
 - https://docs.lingvanex.com/reference/user-guide
 privacy_url: null
 self_serve: true
+mt: true
+gen_ai: true
 customisation: []
 inputs:
 - speech

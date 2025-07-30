@@ -12,6 +12,8 @@ urls:
 - https://cloud.ibm.com/docs/language-translator?topic=language-translator-translation-models
 privacy_url: https://www.ibm.com/watson/data-privacy/
 self_serve: true
+mt: true
+gen_ai: null
 customisation:
 - Glossary
 - Fine-tuning

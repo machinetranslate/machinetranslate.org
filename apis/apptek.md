@@ -12,6 +12,8 @@ urls:
 - https://docs.apptek.com/reference/machine-translation
 privacy_url: null
 self_serve: true
+mt: true
+gen_ai: true
 customisation:
 - Formality
 inputs:

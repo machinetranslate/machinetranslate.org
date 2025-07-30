@@ -12,6 +12,8 @@ urls:
 - https://www.tilde.com/developers/machine-translation-api
 privacy_url: https://www.tilde.com/products-and-services/machine-translation/features/security
 self_serve: false
+mt: true
+gen_ai: true
 customisation:
 - Adaptive
 - Glossary

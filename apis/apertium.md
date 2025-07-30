@@ -12,6 +12,8 @@ urls:
 - https://wiki.apertium.org/wiki/Main_Page
 privacy_url: null
 self_serve: true
+mt: true
+gen_ai: null
 customisation: []
 inputs:
 - text

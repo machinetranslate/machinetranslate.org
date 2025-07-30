@@ -12,6 +12,8 @@ urls:
 - https://api.xl8.ai/v1/trans/languages
 privacy_url: https://www.xl8.ai/tos
 self_serve: true
+mt: true
+gen_ai: null
 customisation: []
 inputs:
 - file

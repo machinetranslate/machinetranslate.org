@@ -12,6 +12,8 @@ urls:
 - https://apidoc.trebe.org/
 privacy_url: null
 self_serve: false
+mt: true
+gen_ai: true
 customisation: []
 inputs:
 - text

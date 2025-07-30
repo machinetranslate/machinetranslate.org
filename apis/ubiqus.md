@@ -12,6 +12,8 @@ urls:
 - https://documenter.getpostman.com/view/8281683/SVtSX9x2
 privacy_url: null
 self_serve: false
+mt: true
+gen_ai: null
 customisation:
 - Glossary
 inputs:

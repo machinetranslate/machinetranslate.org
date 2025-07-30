@@ -13,6 +13,8 @@ urls:
 - https://github.com/machinetranslate/machinetranslate.org/issues/268
 privacy_url: null
 self_serve: true
+mt: true
+gen_ai: null
 customisation: []
 inputs:
 - speech

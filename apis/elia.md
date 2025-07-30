@@ -11,6 +11,8 @@ urls:
 - https://elia.eus/start
 privacy_url: null
 self_serve: true
+mt: true
+gen_ai: null
 customisation:
 - Glossary
 inputs:

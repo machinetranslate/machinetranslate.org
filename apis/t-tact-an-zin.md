@@ -11,6 +11,8 @@ urls:
 - https://to-in.com/en/service/mt/an-zin
 privacy_url: https://to-in.com/en/security
 self_serve: false
+mt: true
+gen_ai: null
 customisation: []
 inputs:
 - text

@@ -12,6 +12,8 @@ urls:
 - https://developer.lingo24.com/documentation
 privacy_url: https://www.lingo24.com/about/privacy-and-terms/
 self_serve: true
+mt: null
+gen_ai: null
 customisation: []
 inputs: null
 supported_languages:

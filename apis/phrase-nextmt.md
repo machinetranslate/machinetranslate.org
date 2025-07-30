@@ -11,6 +11,8 @@ urls:
 - https://phrase.com/products/phrase-nextmt/
 privacy_url: null
 self_serve: false
+mt: true
+gen_ai: null
 customisation:
 - Adaptive
 - Glossary

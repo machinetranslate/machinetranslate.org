@@ -11,6 +11,8 @@ urls:
 - https://fanyi.sogou.com/text
 privacy_url: null
 self_serve: null
+mt: true
+gen_ai: null
 customisation: []
 inputs:
 - file

@@ -40,7 +40,8 @@
             "text"
         ],
         "glossary": true,
-        "self-serve": true
+        "self-serve": true,
+        "mt": true
     },
     {
         "name": "Alexa Translations A.I.",
@@ -835,7 +836,8 @@
             "text"
         ],
         "more_languages_by_request": true,
-        "self-serve": true
+        "self-serve": true,
+        "mt": true
     },
     {
         "name": "AppTek",
@@ -934,7 +936,9 @@
             "text"
         ],
         "formality": true,
-        "self-serve": true
+        "self-serve": true,
+        "mt": true,
+        "gen_ai": true
     },
     {
         "name": "Baidu Translate",
@@ -4542,7 +4546,8 @@
             "file"
         ],
         "glossary": true,
-        "self-serve": true
+        "self-serve": true,
+        "mt": true
     },
     {
         "name": "eTranslation",
@@ -5440,7 +5445,8 @@
             "text"
         ],
         "formality": true,
-        "self-serve": true
+        "self-serve": true,
+        "mt": true
     },
     {
         "name": "KantanMT",
@@ -6130,7 +6136,8 @@
             "text"
         ],
         "more_languages_by_request": true,
-        "self-serve": false
+        "self-serve": false,
+        "mt": true
     },
     {
         "name": "Language Weaver",
@@ -6212,7 +6219,9 @@
         ],
         "glossary": true,
         "self-serve": true,
-        "adaptive": true
+        "adaptive": true,
+        "mt": true,
+        "gen_ai": true
     },
     {
         "name": "Language Wire",
@@ -6904,7 +6913,9 @@
         ],
         "glossary": true,
         "adaptive": true,
-        "self-serve": true
+        "self-serve": true,
+        "mt": true,
+        "gen_ai": true
     },
     {
         "name": "ModernMT",
@@ -7845,7 +7856,9 @@
         "formality": true,
         "adaptive": true,
         "fine-tuning": true,
-        "self-serve": false
+        "self-serve": false,
+        "mt": true,
+        "gen_ai": true
     },
     {
         "name": "Opus CAT",
@@ -7859,7 +7872,8 @@
             "text"
         ],
         "fine-tuning": true,
-        "self-serve": true
+        "self-serve": true,
+        "mt": true
     },
     {
         "name": "PangeaMT",
@@ -7886,7 +7900,9 @@
         ],
         "glossary": true,
         "adaptive": true,
-        "self-serve": false
+        "self-serve": false,
+        "mt": true,
+        "gen_ai": true
     },
     {
         "name": "Papago Translation",
@@ -7968,7 +7984,8 @@
         ],
         "glossary": true,
         "formality": true,
-        "self-serve": true
+        "self-serve": true,
+        "mt": true
     },
     {
         "name": "Phrase NextMT",
@@ -8048,7 +8065,8 @@
         ],
         "glossary": true,
         "adaptive": true,
-        "self-serve": false
+        "self-serve": false,
+        "mt": true
     },
     {
         "name": "Plata Vicomtech",
@@ -9684,7 +9702,9 @@
         ],
         "glossary": true,
         "formality": true,
-        "self-serve": false
+        "self-serve": false,
+        "mt": true,
+        "gen_ai": true
     },
     {
         "name": "TexTra",
@@ -9802,7 +9822,8 @@
             "text"
         ],
         "glossary": true,
-        "self-serve": true
+        "self-serve": true,
+        "mt": true
     },
     {
         "name": "Tilde",
@@ -11307,7 +11328,8 @@
             "file"
         ],
         "glossary": true,
-        "self-serve": false
+        "self-serve": false,
+        "mt": true
     },
     {
         "name": "Unbabel",

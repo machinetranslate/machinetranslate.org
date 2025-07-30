@@ -12,6 +12,8 @@ urls:
 - http://live.lingmo-api.com/support/lingmo-translation-languages.html
 privacy_url: null
 self_serve: null
+mt: true
+gen_ai: true
 customisation: []
 inputs:
 - speech

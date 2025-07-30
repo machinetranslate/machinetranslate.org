@@ -11,6 +11,8 @@ urls:
 - https://www.languagewire.com/en/technology/languagewire-translate
 privacy_url: https://www.languagewire.com/en/info/terms-and-conditions
 self_serve: false
+mt: true
+gen_ai: true
 customisation: []
 inputs:
 - text

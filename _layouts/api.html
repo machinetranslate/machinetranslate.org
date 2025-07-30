@@ -150,11 +150,18 @@ parent: APIs
     </ul>
   {% endif %}
 
-  {% if page.self_serve == false %}
     <hr/>
+  {% if page.mt and page.gen_ai %}
+    <p>🤝 MT and GenAI</p>
+  {% elsif page.mt %}
+    <p>🌐 MT</p>
+  {% elsif page.gen_ai %}
+    <p>🧠 GenAI</p>
+  {% endif %}
+  
+  {% if page.self_serve == false %}
     <p>🔒 No self-service</p>
   {% elsif page.self_serve == true %}
-      <hr/>
     <p>🛒 Self-service</p>
   {% endif %}
 
