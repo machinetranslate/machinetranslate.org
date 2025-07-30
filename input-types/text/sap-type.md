@@ -6,8 +6,8 @@ redirect_from: sap-translation-hub
 title: SAP Translation Hub
 id: sap
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 active: true
 grand_parent: Input types
 parent: Text

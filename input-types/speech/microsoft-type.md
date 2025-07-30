@@ -6,9 +6,9 @@ redirect_from: microsoft-translator
 title: Microsoft Translator
 id: microsoft
 translation_types:
-- File Translation
-- Speech Translation
-- Text Translation
+- Text
+- Speech
+- File
 active: true
 grand_parent: Input types
 parent: Speech

@@ -13,9 +13,9 @@ privacy_url: https://skrivanek.com/wp-content/uploads/2021/03/processing-and-pro
 self_serve: false
 customisation: []
 translation_types:
-- File Translation
-- Speech Translation
-- Text Translation
+- Text
+- Speech
+- File
 supported_languages: []
 more_languages_by_request: false
 integrations:

@@ -6,8 +6,8 @@ redirect_from: null
 title: T-tact-AN-ZIN
 id: t-tact-an-zin
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 active: true
 grand_parent: Input types
 parent: Text

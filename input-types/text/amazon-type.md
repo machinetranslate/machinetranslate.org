@@ -6,8 +6,8 @@ redirect_from: amazon-translate
 title: Amazon Translate
 id: amazon
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 active: true
 grand_parent: Input types
 parent: Text

@@ -14,7 +14,7 @@ privacy_url: https://www.lingo24.com/about/privacy-and-terms/
 self_serve: true
 customisation: []
 translation_types:
-- File Translation
+- File
 supported_languages:
 - slug: arabic
   code: ar

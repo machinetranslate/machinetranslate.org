@@ -14,8 +14,8 @@ privacy_url: https://www.globalese-mt.com/wp-content/uploads/2022/07/Termsandcon
 self_serve: true
 customisation: []
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 supported_languages:
 - slug: arabic
   code: ar

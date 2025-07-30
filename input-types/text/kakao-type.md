@@ -6,8 +6,8 @@ redirect_from: null
 title: Kakao
 id: kakao
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 active: true
 grand_parent: Input types
 parent: Text

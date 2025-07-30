@@ -6,9 +6,9 @@ redirect_from: tencent-machine-translation
 title: Tencent Machine Translation
 id: tencent
 translation_types:
-- File Translation
-- Speech Translation
-- Text Translation
+- Text
+- Speech
+- File
 active: true
 grand_parent: Input types
 parent: Speech

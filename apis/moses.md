@@ -15,8 +15,8 @@ self_serve: true
 customisation:
 - Fine-tuning
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 supported_languages: []
 more_languages_by_request: true
 integrations:

@@ -14,8 +14,8 @@ privacy_url: null
 self_serve: true
 customisation: []
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 supported_languages:
 - slug: afrikaans
   code: af

@@ -6,9 +6,9 @@ redirect_from: null
 title: Sogou Translate
 id: sogou-translate
 translation_types:
-- File Translation
-- Speech Translation
-- Text Translation
+- Text
+- Speech
+- File
 active: true
 grand_parent: Input types
 parent: Speech

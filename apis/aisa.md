@@ -14,9 +14,9 @@ self_serve: true
 customisation:
 - Glossary
 translation_types:
-- File Translation
-- Speech Translation
-- Text Translation
+- Text
+- Speech
+- File
 supported_languages:
 - slug: arabic
   code: ar

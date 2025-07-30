@@ -14,7 +14,7 @@ privacy_url: https://web.archive.org/web/20220116104107/https://iconictranslatio
 self_serve: null
 customisation: []
 translation_types:
-- File Translation
+- File
 supported_languages:
 - slug: afrikaans
   code: af

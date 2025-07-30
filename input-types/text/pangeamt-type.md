@@ -6,8 +6,8 @@ redirect_from: null
 title: PangeaMT
 id: pangeamt
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 active: true
 grand_parent: Input types
 parent: Text

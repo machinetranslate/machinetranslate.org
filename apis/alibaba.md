@@ -14,9 +14,9 @@ privacy_url: https://www.alibabacloud.com/help/en/legal/latest/alibaba-cloud-int
 self_serve: true
 customisation: []
 translation_types:
-- File Translation
-- Speech Translation
-- Text Translation
+- Text
+- Speech
+- File
 supported_languages:
 - slug: abkhaz
   code: ab

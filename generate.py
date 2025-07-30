@@ -247,11 +247,11 @@ for api in APIS:
     customisation.append('Fine-tuning')
 
   translation_types = []
-  translation_types.append('File Translation')
-  if api.get('speech_translation', False):
-    translation_types.append('Speech Translation')
   if api.get('text_translation', False):
-    translation_types.append('Text Translation')
+    translation_types.append('Text')
+  if api.get('speech_translation', False):
+    translation_types.append('Speech')
+  translation_types.append('File')
 
   # "Join"
   # TODO: use language/api mapping

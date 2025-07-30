@@ -13,9 +13,9 @@ privacy_url: null
 self_serve: false
 customisation: []
 translation_types:
-- File Translation
-- Speech Translation
-- Text Translation
+- Text
+- Speech
+- File
 supported_languages:
 - slug: arabic
   code: ar

@@ -13,8 +13,8 @@ privacy_url: https://to-in.com/en/security
 self_serve: false
 customisation: []
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 supported_languages:
 - slug: german
   code: de

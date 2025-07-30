@@ -13,9 +13,9 @@ privacy_url: https://www.linguacustodia.finance/en/lingua-custodia-privacy-polic
 self_serve: false
 customisation: []
 translation_types:
-- File Translation
-- Speech Translation
-- Text Translation
+- Text
+- Speech
+- File
 supported_languages: []
 more_languages_by_request: false
 integrations:

@@ -16,9 +16,9 @@ customisation:
 - Glossary
 - Formality
 translation_types:
-- File Translation
-- Speech Translation
-- Text Translation
+- Text
+- Speech
+- File
 supported_languages:
 - slug: german
   code: de

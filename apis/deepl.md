@@ -16,8 +16,8 @@ customisation:
 - Glossary
 - Formality
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 supported_languages:
 - slug: bulgarian
   code: bg

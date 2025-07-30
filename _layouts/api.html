@@ -51,19 +51,22 @@ parent: APIs
     The API also supports <a href="/adaptive">adaptive</a> customisation.
   {% endif %} <br>
 
-  {% assign extras = page.translation_types | where_exp: "t", "t != 'Text Translation'" %}
+  {% assign extras = page.translation_types %}
   {% assign links = "" | split: "" %}
 
   {% for type in extras %}
     {% case type %}
-      {% when 'Voice Translation' %}
-        {% assign links = links | push: "<a href='/voice'>voice translation</a>" %}
-      {% when 'File Translation' %}
+      {% when 'Speech' %}
+        {% assign links = links | push: "<a href='/speech'>speech translation</a>" %}
+      {% when 'File' %}
         {% assign links = links | push: "<a href='/file-translation'>file translation</a>" %}
+      {% when 'Text' %}
+        {% assign links = links | push: "<a href='/text'>text translation</a>" %}
       {% else %}
         {% assign links = links | push: type %}
     {% endcase %}
   {% endfor %}
+
   {% if links.size > 0 %}
     The API also supports 
     {% for link in links %}
@@ -96,6 +99,15 @@ parent: APIs
   {% if page.integrations.size > 0 %}
     <dt>Integrations</dt>
     <dd><a href="#integrations">{{ page.integrations | size }} translation management systems</a></dd>
+  {% endif %}
+
+  {% if page.translation_types.size > 0 %}
+    <dt>Input Types</dt>
+    <dd>
+      {% for translation_type in page.translation_types %}
+        {{ translation_type }}{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </dd>
   {% endif %}
 
   {% if page.models.size > 0 %}

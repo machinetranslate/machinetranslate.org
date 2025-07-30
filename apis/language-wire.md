@@ -13,9 +13,9 @@ privacy_url: https://www.languagewire.com/en/info/terms-and-conditions
 self_serve: false
 customisation: []
 translation_types:
-- File Translation
-- Speech Translation
-- Text Translation
+- Text
+- Speech
+- File
 supported_languages:
 - slug: danish
   code: da

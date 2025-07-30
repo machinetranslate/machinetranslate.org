@@ -17,8 +17,8 @@ customisation:
 - Glossary
 - Fine-tuning
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 supported_languages:
 - slug: abkhaz
   code: ab

@@ -6,8 +6,8 @@ redirect_from: ubiqus-nmt
 title: Ubiqus NMT
 id: ubiqus
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 active: true
 grand_parent: Input types
 parent: Text

@@ -14,9 +14,9 @@ privacy_url: https://main.qcloudimg.com/raw/document/intl/product/pdf/tencent-cl
 self_serve: true
 customisation: []
 translation_types:
-- File Translation
-- Speech Translation
-- Text Translation
+- Text
+- Speech
+- File
 supported_languages:
 - slug: arabic
   code: ar

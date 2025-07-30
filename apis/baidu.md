@@ -15,9 +15,9 @@ privacy_url: null
 self_serve: true
 customisation: []
 translation_types:
-- File Translation
-- Speech Translation
-- Text Translation
+- Text
+- Speech
+- File
 supported_languages:
 - slug: acholi
   code: ach

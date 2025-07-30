@@ -6,8 +6,8 @@ redirect_from: kodensha-mt
 title: Kodensha MT
 id: kodensha
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 active: true
 grand_parent: Input types
 parent: Text

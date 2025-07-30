@@ -14,8 +14,8 @@ privacy_url: https://help.sap.com/docs/SAP_TRANSLATION_HUB/ed6ce7a29bdd42169f5f0
 self_serve: true
 customisation: []
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 supported_languages:
 - slug: arabic
   code: ar

@@ -15,8 +15,8 @@ self_serve: true
 customisation:
 - Adaptive
 translation_types:
-- File Translation
-- Text Translation
+- Text
+- File
 supported_languages:
 - slug: acehnese
   code: ace

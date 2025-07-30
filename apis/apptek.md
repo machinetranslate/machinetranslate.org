@@ -15,9 +15,9 @@ self_serve: true
 customisation:
 - Formality
 translation_types:
-- File Translation
-- Speech Translation
-- Text Translation
+- Text
+- Speech
+- File
 supported_languages:
 - slug: afrikaans
   code: af

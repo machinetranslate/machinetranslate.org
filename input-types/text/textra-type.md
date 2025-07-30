@@ -6,9 +6,9 @@ redirect_from: null
 title: TexTra
 id: textra
 translation_types:
-- File Translation
-- Speech Translation
-- Text Translation
+- Text
+- Speech
+- File
 active: true
 grand_parent: Input types
 parent: Text
