@@ -14933,6 +14933,9 @@
             "vi",
             "zh"
         ],
+        "text_translation": true,
+        "speech_translation": true,
+        "file_translation": true,
         "self-serve": true,
         "gen_ai": true
     },
@@ -14998,6 +15001,8 @@
             "zh",
             "zu"
         ],
+        "text_translation": true,
+        "file_translation": true,
         "self-serve": true,
         "gen_ai": true
     },
@@ -15066,6 +15071,7 @@
             "zh",
             "zu"  
         ],
+        "text_translation": true,
         "self-serve": true,
         "gen_ai": true
     },
@@ -15100,6 +15106,7 @@
         "stock_api_domains_urls": [
             "https://unbabel.com"
         ],
+        "text_translation": true,
         "formality": true,
         "self-serve": false,
         "gen_ai": true
@@ -15164,6 +15171,7 @@
         "stock_api_domains_urls": [
             "https://translated.com/lara"
         ],
+        "text_translation": true,
         "formality": true,
         "self-serve": true,
         "gen_ai": true
@@ -15208,6 +15216,9 @@
         "stock_api_domains_urls": [
             "https://sarvam.ai"
         ],
+        "text_translation": true,
+        "speech_translation": true,
+        "file_translation": true,
         "formality": true,
         "self-serve": true,
         "gen_ai": true
@@ -15575,6 +15586,7 @@
             "zh",
             "zu"
         ],
+        "text_translation": true,
         "self-serve": true,
         "gen_ai": true
     },
@@ -15679,9 +15691,7 @@
         "stock_api_domains_urls": [
             "https://qwenlm.github.io/blog/qwen-mt"
         ],
-        "voice_translation": false,
         "text_translation": true,
-        "file_translation": true,
         "glossary": true,
         "formality": true,
         "adaptive": true,

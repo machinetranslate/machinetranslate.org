@@ -329,7 +329,7 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 active: true
-file_translation: null
+file_translation: true
 seo:
   name: The Claude AI machine translation API
   type: Product
