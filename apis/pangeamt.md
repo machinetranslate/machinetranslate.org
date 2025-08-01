@@ -17,7 +17,6 @@ customisation:
 - Glossary
 translation_types:
 - Text
-- File
 supported_languages:
 - slug: german
   code: de

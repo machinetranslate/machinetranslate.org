@@ -20,7 +20,6 @@ customisation:
 translation_types:
 - Text
 - Speech
-- File
 supported_languages:
 - slug: arabic
   code: ar

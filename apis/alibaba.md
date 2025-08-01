@@ -16,7 +16,6 @@ customisation: []
 translation_types:
 - Text
 - Speech
-- File
 supported_languages:
 - slug: abkhaz
   code: ab

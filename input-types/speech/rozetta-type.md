@@ -8,7 +8,6 @@ id: rozetta
 translation_types:
 - Text
 - Speech
-- File
 active: true
 grand_parent: Input types
 parent: Speech

@@ -15,7 +15,6 @@ customisation: []
 translation_types:
 - Text
 - Speech
-- File
 supported_languages: []
 more_languages_by_request: null
 integrations:

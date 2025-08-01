@@ -7,7 +7,6 @@ title: NeuralSpace
 id: neuralspace
 translation_types:
 - Text
-- File
 active: true
 grand_parent: Input types
 parent: Text

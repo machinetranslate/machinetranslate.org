@@ -251,7 +251,8 @@ for api in APIS:
     translation_types.append('Text')
   if api.get('speech_translation', False):
     translation_types.append('Speech')
-  translation_types.append('File')
+  if api.get('file_translation', False):
+    translation_types.append('File')
 
   # "Join"
   # TODO: use language/api mapping

@@ -16,7 +16,6 @@ customisation:
 - Formality
 translation_types:
 - Text
-- File
 supported_languages:
 - slug: czech
   code: cs

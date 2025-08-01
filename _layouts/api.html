@@ -28,9 +28,9 @@ parent: APIs
 
 <p>
   {% if page.integrations.size == 1 %}
-  <a href="#integrations">1 machine translation management system</a> has integrated the <strong>{{ page.title }}</strong> machine translation API.{% endif %}
-  {% if page.integrations.size > 1 %}
-   <a href="#integrations">{{ page.integrations | size }} machine translation management systems</a> have <strong>{{ page.title }}</strong> integrations.
+    <a href="#integrations">1 machine translation management system</a> has integrated the <strong>{{ page.title }}</strong> machine translation API.{% endif %}
+    {% if page.integrations.size > 1 %}
+    <a href="#integrations">{{ page.integrations | size }} machine translation management systems</a> have <strong>{{ page.title }}</strong> integrations.
   {% endif %}
 </p>
 
@@ -68,7 +68,7 @@ parent: APIs
   {% endfor %}
 
   {% if links.size > 0 %}
-    The API also supports 
+    The API supports 
     {% for link in links %}
       {% if forloop.last and links.size > 1 %}
         and {{ link }}.
@@ -102,7 +102,7 @@ parent: APIs
   {% endif %}
 
   {% if page.translation_types.size > 0 %}
-    <dt>Input Types</dt>
+    <dt>Input Type</dt>
     <dd>
       {% for translation_type in page.translation_types %}
         {{ translation_type }}{% unless forloop.last %}, {% endunless %}

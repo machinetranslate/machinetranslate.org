@@ -12,8 +12,7 @@ urls:
 privacy_url: null
 self_serve: null
 customisation: []
-translation_types:
-- File
+translation_types: []
 supported_languages: []
 more_languages_by_request: false
 integrations:

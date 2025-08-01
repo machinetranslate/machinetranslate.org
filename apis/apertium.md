@@ -15,7 +15,6 @@ self_serve: true
 customisation: []
 translation_types:
 - Text
-- File
 supported_languages:
 - slug: afrikaans
   code: af

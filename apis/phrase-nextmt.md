@@ -17,7 +17,6 @@ customisation:
 translation_types:
 - Text
 - Speech
-- File
 supported_languages:
 - slug: czech
   code: cs

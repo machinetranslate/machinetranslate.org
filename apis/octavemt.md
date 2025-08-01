@@ -14,7 +14,6 @@ self_serve: false
 customisation: []
 translation_types:
 - Text
-- File
 supported_languages: []
 more_languages_by_request: false
 integrations:

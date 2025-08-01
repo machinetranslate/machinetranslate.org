@@ -16,7 +16,6 @@ customisation:
 - Adaptive
 translation_types:
 - Text
-- File
 supported_languages:
 - slug: acehnese
   code: ace
