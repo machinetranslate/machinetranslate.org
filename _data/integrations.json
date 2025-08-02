@@ -795,6 +795,11 @@
                     "custom": false
                }
             }
+            {
+                "modelfront": {
+                    "custom": true
+               }
+            }
         ],
         "routing": true
     },
@@ -1739,7 +1744,14 @@
                 }
             },
             "systran"
-            ]
+        ],
+        "quality_estimation_integrations":[
+            {
+                "modelfront": {
+                    "custom": true
+               }
+            }
+        ],
     },
     {
         "id": "xtm",
@@ -1912,6 +1924,13 @@
                         "https://mt-auto-minhon-mlt.ucri.jgn-x.jp/tool/xtm/edit/"
                     ]
                 }
+            }
+        ],
+        "quality_estimation_integrations":[
+            {
+                "modelfront": {
+                    "custom": true
+               }
             }
         ],
         "local_api_support": true,
