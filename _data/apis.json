@@ -14937,7 +14937,8 @@
         "speech_translation": true,
         "file_translation": true,
         "self-serve": true,
-        "gen_ai": true
+        "type": "gen_ai",
+        "access_method": "model"
     },
     {
         "name": "Claude AI",
@@ -15004,7 +15005,8 @@
         "text_translation": true,
         "file_translation": true,
         "self-serve": true,
-        "gen_ai": true
+        "type": "gen_ai",
+        "access_method": "model"
     },
     {
         "name": "DeepSeek",
@@ -15073,7 +15075,8 @@
         ],
         "text_translation": true,
         "self-serve": true,
-        "gen_ai": true
+        "type": "gen_ai",
+        "access_method": "model"
     },
     {
         "name": "TowerLLM",
@@ -15109,7 +15112,8 @@
         "text_translation": true,
         "formality": true,
         "self-serve": false,
-        "gen_ai": true
+        "type": "translation_gen_ai",
+        "access_method": "model"
     },
     {
         "name": "Lara",
@@ -15169,13 +15173,12 @@
             "support", 
             "legal"
         ],
-        "stock_api_domains_urls": [
-            "https://translated.com/lara"
-        ],
         "text_translation": true,
         "formality": true,
+        "adaptive": true,
         "self-serve": true,
-        "gen_ai": true
+        "type": "translation_gen_ai",
+        "access_method": "api"
     },
     {
         "name": "Sarvam Translate",
@@ -15222,7 +15225,8 @@
         "file_translation": true,
         "formality": true,
         "self-serve": true,
-        "gen_ai": true
+        "type": "translation_gen_ai",
+        "access_method": "api"
     },
     {
         "name": "Meta NLLB-200",
@@ -15588,7 +15592,8 @@
         ],
         "text_translation": true,
         "self-serve": true,
-        "gen_ai": true
+        "type": "translation_gen_ai",
+        "access_method": "model"
     },
     {
         "name": "Qwen3‑MT",
@@ -15696,6 +15701,7 @@
         "formality": true,
         "adaptive": true,
         "self-serve": true,
-        "gen_ai": true
+        "type": "translation_gen_ai",
+        "access_method": "model"
     }
 ]
