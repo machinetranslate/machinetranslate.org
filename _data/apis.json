@@ -15116,8 +15116,9 @@
         "id": "lara",
         "company": "translated",
         "urls": [
+            "https://translated.com/lara",
             "https://developers.laratranslate.com/docs/introduction",
-            "https://translated.com/lara"
+            "http://support.laratranslate.com"
         ],
         "languages": [
             "ar",
@@ -15502,7 +15503,6 @@
             "ro",
             "rof",
             "rom",
-            "root",
             "ru",
             "rup",
             "rw",
