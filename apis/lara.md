@@ -8,11 +8,13 @@ description: The Lara machine translation API
 id: lara
 parent: APIs
 urls:
-- https://developers.laratranslate.com/docs/introduction
 - https://translated.com/lara
+- https://developers.laratranslate.com/docs/introduction
+- http://support.laratranslate.com
 privacy_url: null
 self_serve: true
 customisation:
+- Adaptive
 - Formality
 supported_languages:
 - slug: arabic
