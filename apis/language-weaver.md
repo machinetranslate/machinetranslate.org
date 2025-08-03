@@ -12,8 +12,8 @@ urls:
 - https://docs.rws.com/791593/662987/language-weaver/welcome-to-the-------------language-weaver-documentation
 privacy_url: https://www.rws.com/legal/privacy/privacy-notice/
 self_serve: true
-mt: true
-gen_ai: true
+type: mt
+prompt_required: false
 customisation:
 - Adaptive
 - Glossary

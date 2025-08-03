@@ -11,8 +11,8 @@ urls:
 - https://info.unitedlanguagegroup.com/contact-us-today-about-octavemt
 privacy_url: null
 self_serve: false
-mt: true
-gen_ai: null
+type: mt
+prompt_required: false
 customisation: []
 supported_languages: []
 more_languages_by_request: false
