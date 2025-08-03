@@ -12,8 +12,8 @@ urls:
 - https://yandex.com/dev/translate/doc/dg/concepts/api-overview.html
 privacy_url: https://yandex.com/legal/confidential/
 self_serve: true
-mt: true
-gen_ai: null
+type: mt
+prompt_required: false
 customisation: []
 inputs:
 - text

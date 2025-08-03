@@ -11,8 +11,8 @@ urls:
 - https://www.linguacustodia.finance/en/welcome/
 privacy_url: https://www.linguacustodia.finance/en/lingua-custodia-privacy-policy/
 self_serve: false
-mt: true
-gen_ai: true
+type: translation_gen_ai_and_mt
+prompt_required: false
 customisation: []
 inputs:
 - speech

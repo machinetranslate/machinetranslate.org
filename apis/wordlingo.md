@@ -12,8 +12,8 @@ urls:
 - https://www.worldlingo.com/en/downloads/ServiceAPI.pdf
 privacy_url: null
 self_serve: null
-mt: true
-gen_ai: null
+type: mt
+prompt_required: false
 customisation: []
 inputs:
 - text

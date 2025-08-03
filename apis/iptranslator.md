@@ -12,8 +12,8 @@ urls:
 - https://web.archive.org/web/20190117101142/http://iconictranslation.com/solutions/languages/
 privacy_url: null
 self_serve: null
-mt: null
-gen_ai: null
+type: null
+prompt_required: null
 customisation: []
 inputs: null
 supported_languages:

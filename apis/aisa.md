@@ -11,8 +11,8 @@ urls:
 - https://www.aisa.digital/machine-translation-api
 privacy_url: https://www.aisa.digital/terms-of-use/
 self_serve: true
-mt: true
-gen_ai: null
+type: mt
+prompt_required: false
 customisation:
 - Glossary
 inputs:

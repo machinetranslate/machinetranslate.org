@@ -12,8 +12,8 @@ urls:
 - https://docs.aws.amazon.com/translate/latest/dg/what-is.html
 privacy_url: https://docs.aws.amazon.com/translate/latest/dg/security.html
 self_serve: true
-mt: true
-gen_ai: null
+type: mt
+prompt_required: false
 customisation:
 - Adaptive
 - Glossary

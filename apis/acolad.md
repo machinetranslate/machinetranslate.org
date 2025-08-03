@@ -10,9 +10,9 @@ parent: APIs
 urls:
 - https://www.acolad.com/en/technology/machine-translation.html
 privacy_url: null
-self_serve: false
-mt: true
-gen_ai: true
+self_serve: true
+type: translation_gen_ai_and_mt
+prompt_required: false
 customisation: []
 inputs:
 - text

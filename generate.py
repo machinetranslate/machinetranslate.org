@@ -233,8 +233,17 @@ for api in APIS:
       raise Exception('Use /en/ if valid: ' + name + ' - ' + url)
 
   self_serve = api.get('self-serve', None)
-  mt = api.get('mt', None)
-  gen_ai = api.get('gen_ai', None)
+
+  api_type = api.get('type', None)
+  prompt_required = None
+  if api_type == 'mt':
+    prompt_required = False
+  elif api_type == 'gen_ai':
+    prompt_required = True
+  elif api_type == 'translation_gen_ai_and_mt':
+    prompt_required = False
+  elif api_type == 'translation_gen_ai':
+    prompt_required = False
 
   more_languages_by_request = api.get('more_languages_by_request', False)
 
@@ -302,8 +311,8 @@ for api in APIS:
     'urls': urls,
     'privacy_url': privacy_url,
     'self_serve': self_serve,
-    'mt': mt,
-    'gen_ai': gen_ai,
+    'type': api_type,
+    'prompt_required': prompt_required,
     'customisation': customisation,
     'inputs': inputs,
     'supported_languages': supported_languages,

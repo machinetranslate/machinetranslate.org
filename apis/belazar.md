@@ -11,8 +11,8 @@ urls:
 - http://belazar.info/belazar/index.php?page=belazar&lng=by
 privacy_url: null
 self_serve: true
-mt: true
-gen_ai: null
+type: mt
+prompt_required: false
 customisation: []
 inputs:
 - text

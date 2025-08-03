@@ -151,12 +151,23 @@ parent: APIs
   {% endif %}
 
     <hr/>
-  {% if page.mt and page.gen_ai %}
-    <p>🤝 MT and GenAI</p>
-  {% elsif page.mt %}
-    <p>🌐 MT</p>
-  {% elsif page.gen_ai %}
-    <p>🧠 GenAI</p>
+  {% if page.type %}
+    {% if page.type == 'mt' %}
+      <p>🌐 MT</p>
+    {% endif %}
+    {% if page.type == 'gen_ai' %}
+      <p>🧠 GenAI</p>
+    {% endif %}
+    {% if page.type == 'translation_gen_ai' %}
+      <p>🧠 Translation Specific GenAI</p>
+    {% endif %}
+    {% if page.type == 'translation_gen_ai_and_mt' %}
+      <p>🤝 Translation Specific GenAI and MT</p>
+    {% endif %}    
+  {% endif %}
+
+  {% if page.prompt_required %}
+    <p>📝 Prompt Required</p>
   {% endif %}
   
   {% if page.self_serve == false %}

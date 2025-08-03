@@ -12,8 +12,8 @@ urls:
 - https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html
 privacy_url: null
 self_serve: true
-mt: true
-gen_ai: true
+type: translation_gen_ai_and_mt
+prompt_required: false
 customisation: []
 inputs:
 - speech

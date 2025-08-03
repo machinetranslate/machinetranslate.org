@@ -12,8 +12,8 @@ urls:
 - https://www.kakaoicloud.com/service/detail/6-10
 privacy_url: null
 self_serve: true
-mt: true
-gen_ai: null
+type: mt
+prompt_required: false
 customisation:
 - Formality
 inputs:

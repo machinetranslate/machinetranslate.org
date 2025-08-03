@@ -12,8 +12,8 @@ urls:
 - https://www.promt.com/translation_software/corporate/developer/promt-cloud
 privacy_url: null
 self_serve: false
-mt: true
-gen_ai: null
+type: mt
+prompt_required: false
 customisation: []
 inputs:
 - text
