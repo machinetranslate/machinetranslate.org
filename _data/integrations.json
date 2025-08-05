@@ -871,6 +871,29 @@
         }
     },
     {
+        "id": "simplelocalize",
+        "name": "SimpleLocalize",
+        "company": "SimpleLocalize",
+        "tms_url": "https://simplelocalize.io",
+        "type": [
+            "tms",
+        ],
+        "documentation_url": "https://simplelocalize.io/docs/",
+        "api_integrations": [
+            {
+                "deepl": {
+                    "formality": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://simplelocalize.io/docs/general/auto-translation/"
+                    ]
+                }
+            },
+            "google"
+        ],
+        "multiple_api_suggestions": true
+    },
+    {
         "id": "smartcat",
         "name": "Smartcat",
         "company": "smartcat",
