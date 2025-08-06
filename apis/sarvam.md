@@ -10,6 +10,7 @@ parent: APIs
 urls:
 - https://docs.sarvam.ai
 - https://sarvam.ai
+- https://huggingface.co/sarvamai/sarvam-translate
 privacy_url: null
 self_serve: true
 customisation:
