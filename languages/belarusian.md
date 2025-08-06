@@ -35,8 +35,8 @@ supported_apis:
   name: KantanMT
 - id: lilt
   name: Lilt
-- id: openai-gpt
-  name: OpenAI GPT
+- id: openai
+  name: OpenAI
 - id: omniscien
   name: Omniscien Technologies
 - id: apptek

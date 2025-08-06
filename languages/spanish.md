@@ -132,8 +132,8 @@ supported_apis:
   name: DeepSeek
 - id: watson
   name: Watson Language Translator
-- id: openai-gpt
-  name: OpenAI GPT
+- id: openai
+  name: OpenAI
 - id: language-weaver
   name: Language Weaver
 - id: omniscien
