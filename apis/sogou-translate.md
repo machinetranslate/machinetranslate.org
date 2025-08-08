@@ -12,9 +12,9 @@ urls:
 privacy_url: null
 self_serve: null
 customisation: []
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 supported_languages:
 - slug: arabic
   code: ar

@@ -13,9 +13,9 @@ urls:
 privacy_url: https://www.xl8.ai/tos
 self_serve: true
 customisation: []
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 supported_languages:
 - slug: arabic
   code: ar

@@ -14,9 +14,9 @@ privacy_url: https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/policy/
 self_serve: true
 customisation:
 - Glossary
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 supported_languages:
 - slug: afrikaans
   code: af

@@ -15,10 +15,10 @@ self_serve: true
 customisation:
 - Glossary
 - Fine-tuning
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 supported_languages:
 - slug: afrikaans
   code: af

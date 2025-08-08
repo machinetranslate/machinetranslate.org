@@ -16,9 +16,9 @@ customisation:
 - Adaptive
 - Glossary
 - Formality
-translation_types:
-- Text
-- File
+inputs:
+- text
+- file
 supported_languages:
 - slug: afrikaans
   code: af

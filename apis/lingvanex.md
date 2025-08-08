@@ -13,10 +13,10 @@ urls:
 privacy_url: null
 self_serve: true
 customisation: []
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 supported_languages:
 - slug: afrikaans
   code: af-za

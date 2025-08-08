@@ -14,9 +14,9 @@ self_serve: false
 customisation:
 - Adaptive
 - Glossary
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 supported_languages:
 - slug: czech
   code: cs

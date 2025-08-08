@@ -13,8 +13,8 @@ urls:
 privacy_url: https://www.globalese-mt.com/wp-content/uploads/2022/07/Termsandconditions_V4_version_4_2.pdf
 self_serve: true
 customisation: []
-translation_types:
-- Text
+inputs:
+- text
 supported_languages:
 - slug: arabic
   code: ar

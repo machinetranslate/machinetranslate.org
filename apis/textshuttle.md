@@ -14,8 +14,8 @@ self_serve: false
 customisation:
 - Glossary
 - Formality
-translation_types:
-- Text
+inputs:
+- text
 supported_languages:
 - slug: czech
   code: cs

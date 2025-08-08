@@ -13,9 +13,9 @@ urls:
 privacy_url: https://main.qcloudimg.com/raw/document/intl/product/pdf/tencent-cloud_1161_51199_en.pdf
 self_serve: true
 customisation: []
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 supported_languages:
 - slug: arabic
   code: ar

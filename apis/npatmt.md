@@ -13,8 +13,8 @@ privacy_url: null
 self_serve: null
 customisation:
 - Adaptive
-translation_types:
-- Text
+inputs:
+- text
 supported_languages: []
 more_languages_by_request: false
 integrations:

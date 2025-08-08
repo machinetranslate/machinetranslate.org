@@ -12,8 +12,8 @@ urls:
 privacy_url: https://to-in.com/en/security
 self_serve: false
 customisation: []
-translation_types:
-- Text
+inputs:
+- text
 supported_languages:
 - slug: german
   code: de

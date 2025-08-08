@@ -13,9 +13,9 @@ urls:
 privacy_url: null
 self_serve: false
 customisation: []
-translation_types:
-- Text
-- File
+inputs:
+- text
+- file
 supported_languages:
 - slug: catalan
   code: ca

@@ -12,9 +12,9 @@ urls:
 privacy_url: https://judic.io/en/about
 self_serve: false
 customisation: []
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 supported_languages:
 - slug: german
   code: de

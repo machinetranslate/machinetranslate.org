@@ -13,10 +13,10 @@ urls:
 privacy_url: https://resources.unbabel.com/one-pager-5/the-complete-unbabel-security-guide-5
 self_serve: false
 customisation: []
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 supported_languages:
 - slug: arabic
   code: ar

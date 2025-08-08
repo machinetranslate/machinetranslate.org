@@ -15,8 +15,8 @@ self_serve: false
 customisation:
 - Adaptive
 - Glossary
-translation_types:
-- Text
+inputs:
+- text
 supported_languages:
 - slug: german
   code: de

@@ -14,8 +14,8 @@ privacy_url: https://www.modernmt.com/privacy/
 self_serve: true
 customisation:
 - Adaptive
-translation_types:
-- Text
+inputs:
+- text
 supported_languages:
 - slug: acehnese
   code: ace

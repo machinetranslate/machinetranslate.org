@@ -13,8 +13,8 @@ urls:
 privacy_url: https://help.sap.com/docs/SAP_TRANSLATION_HUB/ed6ce7a29bdd42169f5f0d7868bce6eb/182532dc3252417c86c3d18dea40b68a.html?locale=en-US
 self_serve: true
 customisation: []
-translation_types:
-- Text
+inputs:
+- text
 supported_languages:
 - slug: arabic
   code: ar

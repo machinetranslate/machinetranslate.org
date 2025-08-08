@@ -15,9 +15,9 @@ self_serve: true
 customisation:
 - Glossary
 - Formality
-translation_types:
-- Text
-- File
+inputs:
+- text
+- file
 supported_languages:
 - slug: bulgarian
   code: bg

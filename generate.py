@@ -246,13 +246,7 @@ for api in APIS:
   if api.get('fine-tuning', False):
     customisation.append('Fine-tuning')
 
-  translation_types = []
-  if api.get('text_translation', False):
-    translation_types.append('Text')
-  if api.get('speech_translation', False):
-    translation_types.append('Speech')
-  if api.get('file_translation', False):
-    translation_types.append('File')
+  inputs = api.get('inputs', [False])
 
   # "Join"
   # TODO: use language/api mapping
@@ -307,7 +301,7 @@ for api in APIS:
     'privacy_url': privacy_url,
     'self_serve': self_serve,
     'customisation': customisation,
-    'translation_types': translation_types,
+    'inputs': inputs,
     'supported_languages': supported_languages,
     'more_languages_by_request': more_languages_by_request,
     'integrations': integrations,

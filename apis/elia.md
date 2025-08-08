@@ -13,9 +13,9 @@ privacy_url: null
 self_serve: true
 customisation:
 - Glossary
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 supported_languages:
 - slug: catalan
   code: ca

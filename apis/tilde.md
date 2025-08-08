@@ -16,10 +16,10 @@ customisation:
 - Adaptive
 - Glossary
 - Fine-tuning
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 supported_languages:
 - slug: arabic
   code: ar

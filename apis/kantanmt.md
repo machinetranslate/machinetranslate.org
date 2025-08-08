@@ -16,9 +16,9 @@ customisation:
 - Adaptive
 - Glossary
 - Fine-tuning
-translation_types:
-- Text
-- File
+inputs:
+- text
+- file
 supported_languages:
 - slug: abkhaz
   code: ab

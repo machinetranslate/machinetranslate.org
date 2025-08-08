@@ -12,8 +12,8 @@ urls:
 privacy_url: https://ec.europa.eu/info/privacy-policy_en
 self_serve: true
 customisation: []
-translation_types:
-- Text
+inputs:
+- text
 supported_languages:
 - slug: arabic
   code: ar

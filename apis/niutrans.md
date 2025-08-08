@@ -14,9 +14,9 @@ privacy_url: https://translate.niutrans.com/privacy
 self_serve: true
 customisation:
 - Glossary
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 supported_languages:
 - slug: acehnese
   code: ace

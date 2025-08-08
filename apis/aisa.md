@@ -13,9 +13,9 @@ privacy_url: https://www.aisa.digital/terms-of-use/
 self_serve: true
 customisation:
 - Glossary
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 supported_languages:
 - slug: arabic
   code: ar

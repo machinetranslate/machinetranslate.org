@@ -13,7 +13,8 @@ urls:
 privacy_url: https://web.archive.org/web/20220116104107/https://iconictranslation.com/what-we-do/neural-machine-translation/information-security/
 self_serve: null
 customisation: []
-translation_types: []
+inputs:
+- false
 supported_languages:
 - slug: afrikaans
   code: af

@@ -14,8 +14,8 @@ privacy_url: null
 self_serve: true
 customisation:
 - Formality
-translation_types:
-- Text
+inputs:
+- text
 supported_languages:
 - slug: arabic
   code: ar

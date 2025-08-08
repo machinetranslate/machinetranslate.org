@@ -17,9 +17,9 @@ customisation:
 - Glossary
 - Formality
 - Fine-tuning
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 supported_languages:
 - slug: arabic
   code: ar

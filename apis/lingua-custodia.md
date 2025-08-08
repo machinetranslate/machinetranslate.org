@@ -12,9 +12,9 @@ urls:
 privacy_url: https://www.linguacustodia.finance/en/lingua-custodia-privacy-policy/
 self_serve: false
 customisation: []
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 supported_languages: []
 more_languages_by_request: false
 integrations:

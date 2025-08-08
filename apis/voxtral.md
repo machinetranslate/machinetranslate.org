@@ -14,8 +14,8 @@ urls:
 privacy_url: https://mistral.ai/terms
 self_serve: null
 customisation: []
-translation_types:
-- Speech
+inputs:
+- speech
 supported_languages:
 - slug: arabic
   code: ar

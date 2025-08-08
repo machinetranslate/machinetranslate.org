@@ -15,9 +15,9 @@ self_serve: true
 customisation:
 - Glossary
 - Formality
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 supported_languages:
 - slug: german
   code: de

@@ -12,10 +12,10 @@ urls:
 privacy_url: https://www.languagewire.com/en/info/terms-and-conditions
 self_serve: false
 customisation: []
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 supported_languages:
 - slug: danish
   code: da

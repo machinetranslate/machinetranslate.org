@@ -14,9 +14,9 @@ privacy_url: null
 self_serve: true
 customisation:
 - Formality
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 supported_languages:
 - slug: afrikaans
   code: af
