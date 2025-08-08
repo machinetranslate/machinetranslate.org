@@ -5,9 +5,9 @@ nav_order: 947
 redirect_from: null
 title: DeepL
 id: deepl
-translation_types:
-- Text
-- File
+inputs:
+- text
+- file
 active: true
 grand_parent: Input types
 parent: Text

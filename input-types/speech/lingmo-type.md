@@ -5,9 +5,9 @@ nav_order: 973
 redirect_from: lingmo-translation
 title: Lingmo Translation
 id: lingmo
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

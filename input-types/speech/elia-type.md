@@ -5,9 +5,9 @@ nav_order: 993
 redirect_from: null
 title: Elia
 id: elia
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

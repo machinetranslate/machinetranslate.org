@@ -13,8 +13,7 @@ urls:
 privacy_url: null
 self_serve: null
 customisation: []
-inputs:
-- false
+inputs: null
 supported_languages:
 - slug: afrikaans
   code: af

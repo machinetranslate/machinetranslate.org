@@ -5,10 +5,10 @@ nav_order: 939
 redirect_from: watson-language-translator
 title: Watson Language Translator
 id: watson
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 active: true
 grand_parent: Input types
 parent: Text

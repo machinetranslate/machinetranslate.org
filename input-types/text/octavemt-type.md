@@ -5,8 +5,8 @@ nav_order: 999
 redirect_from: null
 title: OctaveMT
 id: octavemt
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

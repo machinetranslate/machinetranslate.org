@@ -5,9 +5,9 @@ nav_order: 986
 redirect_from: papago-translation
 title: Papago Translation
 id: papago
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

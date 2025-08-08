@@ -5,9 +5,9 @@ nav_order: 979
 redirect_from: null
 title: AISA
 id: aisa
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

@@ -5,8 +5,8 @@ nav_order: 981
 redirect_from: null
 title: Kakao
 id: kakao
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

@@ -5,10 +5,10 @@ nav_order: 934
 redirect_from: null
 title: SYSTRAN
 id: systran
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 active: true
 grand_parent: Input types
 parent: Speech

@@ -5,8 +5,8 @@ nav_order: 998
 redirect_from: null
 title: Opus CAT
 id: opus-cat
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

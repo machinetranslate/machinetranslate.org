@@ -5,9 +5,9 @@ nav_order: 996
 redirect_from: null
 title: Judicio
 id: judicio
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

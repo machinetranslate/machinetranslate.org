@@ -5,9 +5,9 @@ nav_order: 785
 redirect_from: alibaba-translate
 title: Alibaba Translate
 id: alibaba
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Text

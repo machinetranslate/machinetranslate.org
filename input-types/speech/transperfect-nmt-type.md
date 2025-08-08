@@ -5,10 +5,10 @@ nav_order: 999
 redirect_from: null
 title: TransPerfect NMT
 id: transperfect-nmt
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 active: true
 grand_parent: Input types
 parent: Speech

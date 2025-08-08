@@ -5,9 +5,9 @@ nav_order: 797
 redirect_from: baidu-translate
 title: Baidu Translate
 id: baidu
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

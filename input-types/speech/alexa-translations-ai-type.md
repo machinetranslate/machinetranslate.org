@@ -5,9 +5,9 @@ nav_order: 985
 redirect_from: null
 title: Alexa Translations A.I.
 id: alexa-translations-ai
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

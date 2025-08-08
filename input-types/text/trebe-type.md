@@ -5,9 +5,9 @@ nav_order: 993
 redirect_from: null
 title: Trebe
 id: trebe
-translation_types:
-- Text
-- File
+inputs:
+- text
+- file
 active: true
 grand_parent: Input types
 parent: Text

@@ -5,9 +5,9 @@ nav_order: 614
 redirect_from: null
 title: Niutrans
 id: niutrans
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

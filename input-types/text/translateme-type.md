@@ -5,8 +5,8 @@ nav_order: 989
 redirect_from: null
 title: TranslateMe
 id: translateme
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

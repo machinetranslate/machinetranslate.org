@@ -5,9 +5,9 @@ nav_order: 997
 redirect_from: null
 title: Lengoo
 id: lengoo
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

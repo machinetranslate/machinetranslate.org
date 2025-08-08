@@ -5,9 +5,9 @@ nav_order: 978
 redirect_from: null
 title: Sogou Translate
 id: sogou-translate
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

@@ -5,9 +5,9 @@ nav_order: 935
 redirect_from: null
 title: KantanMT
 id: kantanmt
-translation_types:
-- Text
-- File
+inputs:
+- text
+- file
 active: true
 grand_parent: Input types
 parent: Text

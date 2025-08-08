@@ -5,8 +5,8 @@ nav_order: 933
 redirect_from: null
 title: Wordlingo
 id: wordlingo
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

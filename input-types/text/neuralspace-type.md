@@ -5,8 +5,8 @@ nav_order: 874
 redirect_from: null
 title: NeuralSpace
 id: neuralspace
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

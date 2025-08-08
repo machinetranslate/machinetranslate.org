@@ -5,9 +5,9 @@ nav_order: 978
 redirect_from: tencent-machine-translation
 title: Tencent Machine Translation
 id: tencent
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Text

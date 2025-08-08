@@ -5,9 +5,9 @@ nav_order: 999
 redirect_from: null
 title: Geofluent
 id: geofluent
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

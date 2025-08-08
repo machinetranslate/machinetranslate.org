@@ -5,9 +5,9 @@ nav_order: 951
 redirect_from: null
 title: XL8
 id: xl8
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Text

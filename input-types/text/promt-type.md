@@ -5,8 +5,8 @@ nav_order: 955
 redirect_from: null
 title: PROMT
 id: promt
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

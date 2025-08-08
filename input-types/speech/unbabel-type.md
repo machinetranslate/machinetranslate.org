@@ -5,10 +5,10 @@ nav_order: 968
 redirect_from: null
 title: Unbabel
 id: unbabel
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 active: true
 grand_parent: Input types
 parent: Speech

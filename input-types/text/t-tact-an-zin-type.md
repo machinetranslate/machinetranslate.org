@@ -5,8 +5,8 @@ nav_order: 984
 redirect_from: null
 title: T-tact-AN-ZIN
 id: t-tact-an-zin
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

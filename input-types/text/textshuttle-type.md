@@ -5,8 +5,8 @@ nav_order: 971
 redirect_from: supertext
 title: Supertext
 id: textshuttle
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

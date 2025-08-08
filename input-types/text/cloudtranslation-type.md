@@ -5,8 +5,8 @@ nav_order: 992
 redirect_from: null
 title: CloudTranslation
 id: cloudtranslation
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

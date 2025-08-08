@@ -5,9 +5,9 @@ nav_order: 998
 redirect_from: null
 title: YeeKit
 id: yeekit
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

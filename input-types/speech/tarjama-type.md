@@ -5,9 +5,9 @@ nav_order: 998
 redirect_from: tarjama-mt
 title: Tarjama MT
 id: tarjama
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

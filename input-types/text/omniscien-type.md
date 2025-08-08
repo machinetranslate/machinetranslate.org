@@ -5,9 +5,9 @@ nav_order: 934
 redirect_from: omniscien-technologies
 title: Omniscien Technologies
 id: omniscien
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Text

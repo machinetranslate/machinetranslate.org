@@ -5,9 +5,9 @@ nav_order: 928
 redirect_from: null
 title: Language Weaver
 id: language-weaver
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Text

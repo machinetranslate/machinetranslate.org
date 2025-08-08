@@ -5,8 +5,8 @@ nav_order: 987
 redirect_from: null
 title: PangeaMT
 id: pangeamt
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

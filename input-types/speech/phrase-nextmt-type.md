@@ -5,9 +5,9 @@ nav_order: 990
 redirect_from: null
 title: Phrase NextMT
 id: phrase-nextmt
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

@@ -5,9 +5,9 @@ nav_order: 983
 redirect_from: mirai-translator
 title: Mirai Translator
 id: mirai
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Text

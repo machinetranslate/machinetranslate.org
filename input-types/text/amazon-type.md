@@ -5,9 +5,9 @@ nav_order: 916
 redirect_from: amazon-translate
 title: Amazon Translate
 id: amazon
-translation_types:
-- Text
-- File
+inputs:
+- text
+- file
 active: true
 grand_parent: Input types
 parent: Text

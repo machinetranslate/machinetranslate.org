@@ -5,10 +5,10 @@ nav_order: 973
 redirect_from: null
 title: Tilde
 id: tilde
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 active: true
 grand_parent: Input types
 parent: Text

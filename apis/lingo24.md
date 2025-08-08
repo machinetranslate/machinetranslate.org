@@ -13,8 +13,7 @@ urls:
 privacy_url: https://www.lingo24.com/about/privacy-and-terms/
 self_serve: true
 customisation: []
-inputs:
-- false
+inputs: null
 supported_languages:
 - slug: arabic
   code: ar

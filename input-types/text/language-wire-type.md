@@ -5,10 +5,10 @@ nav_order: 990
 redirect_from: null
 title: Language Wire
 id: language-wire
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 active: true
 grand_parent: Input types
 parent: Text

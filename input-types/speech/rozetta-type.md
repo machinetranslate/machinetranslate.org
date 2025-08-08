@@ -5,9 +5,9 @@ nav_order: 973
 redirect_from: rozetta-t-400
 title: Rozetta T-400
 id: rozetta
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

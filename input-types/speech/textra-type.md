@@ -5,9 +5,9 @@ nav_order: 896
 redirect_from: null
 title: TexTra
 id: textra
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Speech

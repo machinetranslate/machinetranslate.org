@@ -5,8 +5,8 @@ nav_order: 959
 redirect_from: sap-translation-hub
 title: SAP Translation Hub
 id: sap
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

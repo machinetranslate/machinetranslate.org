@@ -5,8 +5,8 @@ nav_order: 997
 redirect_from: null
 title: Belazar
 id: belazar
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

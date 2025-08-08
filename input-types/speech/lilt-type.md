@@ -5,10 +5,10 @@ nav_order: 943
 redirect_from: null
 title: Lilt
 id: lilt
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 active: true
 grand_parent: Input types
 parent: Speech

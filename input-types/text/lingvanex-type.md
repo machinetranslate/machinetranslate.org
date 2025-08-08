@@ -5,10 +5,10 @@ nav_order: 891
 redirect_from: null
 title: LingvaNex
 id: lingvanex
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 active: true
 grand_parent: Input types
 parent: Text

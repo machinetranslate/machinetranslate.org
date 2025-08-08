@@ -5,10 +5,9 @@ nav_order: 732
 redirect_from: google-translate
 title: Google Translate
 id: google
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Text

@@ -5,8 +5,8 @@ nav_order: 967
 redirect_from: null
 title: eTranslation
 id: etranslation
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

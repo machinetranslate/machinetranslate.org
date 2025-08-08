@@ -5,9 +5,9 @@ nav_order: 887
 redirect_from: youdao-translate
 title: Youdao Translate
 id: youdao
-translation_types:
-- Text
-- Speech
+inputs:
+- speech
+- text
 active: true
 grand_parent: Input types
 parent: Text

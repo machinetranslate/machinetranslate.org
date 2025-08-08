@@ -5,10 +5,10 @@ nav_order: 892
 redirect_from: yandex-translate
 title: Yandex Translate
 id: yandex
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 active: true
 grand_parent: Input types
 parent: Speech

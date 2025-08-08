@@ -5,10 +5,10 @@ nav_order: 870
 redirect_from: microsoft-translator
 title: Microsoft Translator
 id: microsoft
-translation_types:
-- Text
-- Speech
-- File
+inputs:
+- speech
+- text
+- file
 active: true
 grand_parent: Input types
 parent: Speech

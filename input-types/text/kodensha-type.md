@@ -5,8 +5,8 @@ nav_order: 957
 redirect_from: kodensha-mt
 title: Kodensha MT
 id: kodensha
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text

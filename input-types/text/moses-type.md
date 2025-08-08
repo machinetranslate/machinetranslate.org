@@ -5,8 +5,8 @@ nav_order: 996
 redirect_from: null
 title: Moses
 id: moses
-translation_types:
-- Text
+inputs:
+- text
 active: true
 grand_parent: Input types
 parent: Text
