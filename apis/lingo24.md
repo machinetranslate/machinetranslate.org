@@ -12,8 +12,7 @@ urls:
 - https://developer.lingo24.com/documentation
 privacy_url: https://www.lingo24.com/about/privacy-and-terms/
 self_serve: true
-type: null
-prompt_required: null
+prompt_required: false
 customisation: []
 inputs: null
 supported_languages:

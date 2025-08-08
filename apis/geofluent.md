@@ -12,7 +12,6 @@ urls:
 - https://api.geofluent.com/Translation/v3/ui/index
 privacy_url: null
 self_serve: false
-type: mt
 prompt_required: false
 customisation: []
 inputs:

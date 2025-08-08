@@ -12,8 +12,7 @@ urls:
 - https://docs.neuralspace.ai/machine-translation/overview
 privacy_url: null
 self_serve: false
-type: null
-prompt_required: null
+prompt_required: false
 customisation: []
 inputs:
 - text

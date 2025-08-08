@@ -11,7 +11,6 @@ urls:
 - https://judic.io
 privacy_url: https://judic.io/en/about
 self_serve: false
-type: mt
 prompt_required: false
 customisation: []
 inputs:

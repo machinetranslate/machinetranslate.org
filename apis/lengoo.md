@@ -11,7 +11,6 @@ urls:
 - https://www.lengoo.com/
 privacy_url: https://www.lengoo.com/privacy-policy
 self_serve: false
-type: translation_gen_ai_and_mt
 prompt_required: false
 customisation: []
 inputs:

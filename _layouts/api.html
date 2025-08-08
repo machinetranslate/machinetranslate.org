@@ -34,7 +34,7 @@ parent: APIs
   {% endif %}
 </p>
 
-<p>
+
   {% if page.customisation.size > 0 %}
   <a href="/customisation">Customisation</a> is supported.
   {% endif %}
@@ -151,7 +151,7 @@ parent: APIs
   {% endif %}
 
     <hr/>
-  {% if page.type %}
+  <!-- {% if page.type %}
     {% if page.type == 'mt' %}
       <p>🌐 MT</p>
     {% endif %}
@@ -164,10 +164,18 @@ parent: APIs
     {% if page.type == 'translation_gen_ai_and_mt' %}
       <p>🤝 Translation Specific GenAI and MT</p>
     {% endif %}    
-  {% endif %}
+  {% endif %} -->
+
+  <!-- {% if page.prompt_required %}
+    <p>Prompt required</p>
+  {% else %}
+    <p>Prompt not required</p>
+  {% endif %} -->
 
   {% if page.prompt_required %}
-    <p>📝 Prompt Required</p>
+    <p>Requires prompt</p>
+  {% else %}
+    <p>No prompt required</p>
   {% endif %}
   
   {% if page.self_serve == false %}

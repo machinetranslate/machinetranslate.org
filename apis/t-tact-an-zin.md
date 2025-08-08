@@ -11,7 +11,6 @@ urls:
 - https://to-in.com/en/service/mt/an-zin
 privacy_url: https://to-in.com/en/security
 self_serve: false
-type: mt
 prompt_required: false
 customisation: []
 inputs:

@@ -12,7 +12,6 @@ urls:
 - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069899/Stock+corpora
 privacy_url: https://www.globalese-mt.com/wp-content/uploads/2022/07/Termsandconditions_V4_version_4_2.pdf
 self_serve: true
-type: translation_gen_ai_and_mt
 prompt_required: false
 customisation: []
 inputs:

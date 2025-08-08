@@ -12,7 +12,6 @@ urls:
 - https://docs.lingvanex.com/reference/user-guide
 privacy_url: null
 self_serve: true
-type: translation_gen_ai_and_mt
 prompt_required: false
 customisation: []
 inputs:

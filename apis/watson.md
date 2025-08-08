@@ -12,7 +12,6 @@ urls:
 - https://cloud.ibm.com/docs/language-translator?topic=language-translator-translation-models
 privacy_url: https://www.ibm.com/watson/data-privacy/
 self_serve: true
-type: mt
 prompt_required: false
 customisation:
 - Glossary

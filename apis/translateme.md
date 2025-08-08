@@ -12,7 +12,6 @@ urls:
 - https://translateme.network/api/
 privacy_url: null
 self_serve: null
-type: mt
 prompt_required: false
 customisation: []
 inputs:

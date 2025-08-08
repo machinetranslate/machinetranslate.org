@@ -12,7 +12,6 @@ urls:
 - https://www.modernmt.com/api/#languages
 privacy_url: https://www.modernmt.com/privacy/
 self_serve: true
-type: mt
 prompt_required: false
 customisation:
 - Adaptive

@@ -12,7 +12,6 @@ urls:
 - https://developers.unbabel.com/reference/mt_translation
 privacy_url: https://resources.unbabel.com/one-pager-5/the-complete-unbabel-security-guide-5
 self_serve: false
-type: translation_gen_ai_and_mt
 prompt_required: false
 customisation: []
 inputs:

@@ -12,7 +12,6 @@ urls:
 - https://www.jukkou.com/form/lang.html
 privacy_url: null
 self_serve: false
-type: translation_gen_ai_and_mt
 prompt_required: false
 customisation: []
 inputs:
