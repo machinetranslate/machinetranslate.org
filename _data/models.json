@@ -104,5 +104,19 @@
             "OpenAI"
         ],
         "self_serve": true
-    }
+    },
+    {
+       "name": "Voxtral",
+       "id": "voxtral",
+       "company": "mistral-ai",
+       "urls": [
+           "https://huggingface.co/mistralai/Voxtral-Mini-3B-2507",
+           "https://mistral.ai/news/voxtral",
+           "https://docs.mistral.ai"
+       ],
+       "apis": [
+        "Mistral AI"
+       ],
+       "self_serve": true
+   }
 ]
