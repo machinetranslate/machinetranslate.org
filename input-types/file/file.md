@@ -1,9 +1,8 @@
 ---
 parent: Input types
-layout: coming_soon
 nav_order: 3
 has_children: true
-title: File translation
+title: File
 description: Machine translation API support for translating entire files
 ---
 
