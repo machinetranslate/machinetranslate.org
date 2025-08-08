@@ -15113,35 +15113,6 @@
         ]
     },
     {
-        "name": "Voxtral",
-        "id": "voxtral",
-        "company": "mistral-ai",
-        "urls": [
-            "https://mistral.ai/news/voxtral",
-            "https://huggingface.co/mistralai/Voxtral-Mini-3B-2507",
-            "https://docs.mistral.ai"
-        ],
-        "privacy_url": "https://mistral.ai/terms",
-        "languages": [
-            "ar",
-            "de",
-            "en",
-            "es",
-            "fr",
-            "hi",
-            "it",
-            "ja",
-            "nl",
-            "pt",
-            "zh"
-        ],
-        "inputs": [
-            "speech"
-        ],
-        "self‑serve": true,
-        "gen_ai": true
-    },
-    {
         "name": "OpenAI",
         "id": "openai",
         "company": "openai",
