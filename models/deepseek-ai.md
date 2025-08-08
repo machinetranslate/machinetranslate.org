@@ -12,7 +12,7 @@ urls:
 self_serve: true
 customisation:
 - Fine-tuning
-supported_apis:
+apis:
 - name: DeepSeek
   slug: deepseek
 active: true

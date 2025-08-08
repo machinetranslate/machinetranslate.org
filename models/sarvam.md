@@ -13,7 +13,7 @@ urls:
 self_serve: true
 customisation:
 - Fine-tuning
-supported_apis:
+apis:
 - name: Sarvam Translate
   slug: sarvam-translate
 active: true

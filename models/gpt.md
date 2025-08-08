@@ -10,13 +10,13 @@ parent: Models
 urls:
 - https://platform.openai.com/docs/models
 - https://huggingface.co/openai
-self_serve: null
+self_serve: true
 customisation:
 - Adaptive
 - Glossary
 - Formality
 - Fine-tuning
-supported_apis:
+apis:
 - name: OpenAI
   slug: openai
 active: true

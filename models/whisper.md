@@ -13,7 +13,7 @@ urls:
 - https://github.com/openai/whisper
 self_serve: true
 customisation: []
-supported_apis:
+apis:
 - name: OpenAI
   slug: openai
 active: true

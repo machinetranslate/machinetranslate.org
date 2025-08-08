@@ -11,7 +11,7 @@ urls:
 - https://huggingface.co/Qwen/collections
 self_serve: true
 customisation: []
-supported_apis:
+apis:
 - name: Qwen3‑MT
   slug: qwen3-mt
 active: true
