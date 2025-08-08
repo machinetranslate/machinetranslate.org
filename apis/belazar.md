@@ -29,6 +29,7 @@ more_languages_by_request: false
 integrations:
 - slug: omegat
   name: OmegaT
+models: []
 active: true
 file_translation: null
 seo:

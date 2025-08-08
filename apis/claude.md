@@ -328,6 +328,9 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations: []
+models:
+- name: Sonnet
+  slug: sonnet
 active: true
 file_translation: null
 seo:

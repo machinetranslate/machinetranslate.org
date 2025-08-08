@@ -305,6 +305,7 @@ integrations:
   plugin: true
   urls:
   - https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf
+models: []
 active: true
 file_translation: null
 seo:

@@ -20,6 +20,7 @@ integrations:
   name: Phrase TMS
   urls:
   - https://www.npat.co.jp/EXPRESS_price_list/EXPRESS_price_list.html
+models: []
 active: true
 file_translation: null
 seo:

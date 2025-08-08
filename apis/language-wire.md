@@ -70,6 +70,7 @@ integrations:
   plugin: true
   urls:
   - https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
+models: []
 active: true
 file_translation: true
 seo:

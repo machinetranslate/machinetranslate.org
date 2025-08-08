@@ -24,6 +24,7 @@ integrations:
   name: Trados Studio
   plugin: true
   active: false
+models: []
 active: true
 file_translation: null
 seo:

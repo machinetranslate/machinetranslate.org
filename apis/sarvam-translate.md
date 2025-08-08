@@ -156,6 +156,9 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations: []
+models:
+- name: Sarvam
+  slug: sarvam
 active: true
 file_translation: null
 seo:

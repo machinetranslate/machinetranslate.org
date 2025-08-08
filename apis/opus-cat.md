@@ -27,6 +27,7 @@ integrations:
   urls:
   - https://helsinki-nlp.github.io/OPUS-CAT/tradosplugin
   - https://appstore.rws.com/Plugins/11
+models: []
 active: true
 file_translation: null
 seo:

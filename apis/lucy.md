@@ -79,6 +79,7 @@ integrations:
   name: translate5
   urls:
   - https://confluence.translate5.net/display/BUS/Lucy
+models: []
 active: false
 file_translation: null
 seo:

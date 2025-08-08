@@ -348,6 +348,7 @@ integrations:
   active: false
   urls:
   - https://docs.memoq.com/current/en/Places/iptranslator-plugin-settings.html
+models: []
 active: false
 file_translation: null
 seo:

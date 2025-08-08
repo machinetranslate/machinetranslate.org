@@ -56,6 +56,7 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786629/sdl-multitrans/configuring-tapta
+models: []
 active: true
 file_translation: null
 seo:
