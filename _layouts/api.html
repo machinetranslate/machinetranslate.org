@@ -76,6 +76,15 @@ parent: APIs
     <dd><a href="#integrations">{{ page.integrations | size }} translation management systems</a></dd>
   {% endif %}
 
+  {% if page.models.size > 0 %}
+    <dt>Models</dt>
+    <dd>
+      {% for model in page.models %}
+        <a href="/{{ model.slug }}">{{ model.name }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </dd>
+  {% endif %}
+
   {% if page.customisation.size > 0 %}
     <dt>Customisation</dt>
     <dd>
