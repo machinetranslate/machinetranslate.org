@@ -1,6 +1,8 @@
 ---
+parent: Input types
+layout: coming_soon
 nav_order: 3
-parent: Features
+has_children: true
 title: File translation
 description: Machine translation API support for translating entire files
 ---
@@ -20,7 +22,7 @@ There is support for plain text files as well as the most common document format
 
 Image files and audio files are typically not supported.
 
-{% assign apis = site.data.apis | where_exp: 'api', 'api.file_translation == true' %}
+{% assign apis = site.data.apis | where_exp: 'api', 'api.inputs contains "file"' %}
 
 ### API support
 <details>
