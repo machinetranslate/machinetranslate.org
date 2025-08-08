@@ -26,7 +26,7 @@ typology:
 territories:
 - id
 supported_apis:
-- id: sarvam
+- id: sarvam-translate
   name: Sarvam Translate
 - id: claude
   name: Claude AI

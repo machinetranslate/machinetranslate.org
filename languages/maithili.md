@@ -29,7 +29,7 @@ territories:
 - in
 - np
 supported_apis:
-- id: sarvam
+- id: sarvam-translate
   name: Sarvam Translate
 - id: qwen3-mt
   name: Qwen3‑MT

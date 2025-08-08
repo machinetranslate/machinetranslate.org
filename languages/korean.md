@@ -27,8 +27,6 @@ territories:
 supported_apis:
 - id: cloudtranslation
   name: CloudTranslation
-- id: towerllm
-  name: TowerLLM
 - id: alexa-translations-ai
   name: Alexa Translations A.I.
 - id: papago
@@ -61,6 +59,8 @@ supported_apis:
   name: Lara
 - id: globalese
   name: Globalese
+- id: widn
+  name: Widn
 - id: sap
   name: SAP Translation Hub
 - id: promt

@@ -28,7 +28,7 @@ territories:
 - my
 - sg
 supported_apis:
-- id: sarvam
+- id: sarvam-translate
   name: Sarvam Translate
 - id: kantanmt
   name: KantanMT

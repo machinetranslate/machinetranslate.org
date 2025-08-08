@@ -31,7 +31,7 @@ territories:
 - lk
 - pk
 supported_apis:
-- id: sarvam
+- id: sarvam-translate
   name: Sarvam Translate
 - id: kodensha
   name: Kodensha MT

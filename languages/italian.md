@@ -33,8 +33,6 @@ supported_apis:
   name: PangeaMT
 - id: phrase-nextmt
   name: Phrase NextMT
-- id: towerllm
-  name: TowerLLM
 - id: translateme
   name: TranslateMe
 - id: alexa-translations-ai
@@ -75,6 +73,8 @@ supported_apis:
   name: eTranslation
 - id: globalese
   name: Globalese
+- id: widn
+  name: Widn
 - id: sap
   name: SAP Translation Hub
 - id: promt

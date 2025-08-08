@@ -29,7 +29,7 @@ typology:
 territories:
 - np
 supported_apis:
-- id: sarvam
+- id: sarvam-translate
   name: Sarvam Translate
 - id: deepseek
   name: DeepSeek

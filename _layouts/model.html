@@ -1,0 +1,108 @@
+---
+layout: default
+parent: Models
+---
+
+
+<h1>
+  {{ page.title }}
+</h1>
+<h2>
+  {{ page.description }}
+</h2>
+
+<hr/>
+
+{% if page.active != true %}
+<blockquote>
+ ⚠️ The <strong>{{ page.title }}</strong> large language model is no longer active.
+</blockquote>
+{% endif %}
+
+<p>
+  {% if page.supported_apis.size == 1 %}
+  <a href="#integrations">1 translation API</a> has integrated the <strong>{{ page.title }}</strong> large language model.{% endif %}
+  {% if page.supported_apis.size > 1 %}
+   <a href="#integrations">{{ page.supported_apis | size }} translation APIs</a> have <strong>{{ page.title }}</strong> integrations.
+  {% endif %}
+</p>
+
+<p>
+  {% if page.customisation.size > 0 %}
+  <a href="/customisation">Customisation</a> is supported.
+  {% endif %}
+  {% if page.customisation contains 'Glossary' %}
+    <a href="/glossaries">Glossaries</a> can be used to customise the translation of specific words and phrases.
+  {% endif %}
+  {% if page.customisation contains 'Formality' %}
+    The model can also be customised for <a href="/formality">formality</a>.
+  {% endif %}
+  {% if page.customisation contains 'Fine-tuning' %}
+    <a href="/fine-tuning">Fine-tuning</a> on <a href="/parallel-data">parallel data</a> can be used to fine-tune the model.
+  {% endif %}
+  {% if page.customisation contains 'Adaptive' %}
+    The model also supports <a href="/adaptive">adaptive</a> customisation.
+  {% endif %} <br>
+</p>
+
+
+<blockquote>
+
+  <dl>
+    
+  {% if page.supported_apis.size > 0 %}
+    <dt>Integrations</dt>
+    <dd><a href="#integrations">{{ page.supported_apis | size }} translation API{% if page.supported_apis.size != 1 %}s{% endif %}</a></dd>
+  {% endif %}
+
+  {% if page.customisation.size > 0 %}
+    <dt>Customisation</dt>
+    <dd>
+      {% for customisation_type in page.customisation %}
+        {{ customisation_type }}{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </dd>
+  {% endif %}
+
+  </dl>
+
+  {% if page.urls.size > 0 %}
+    <hr/>
+    <ul>
+      {% for url in page.urls %}
+      <li>
+        <a href="{{ url }}" target="_blank">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if page.self_serve == false %}
+    <hr/>
+    <p>🔒 No self-service</p>
+  {% elsif page.self_serve == true %}
+      <hr/>
+    <p>🛒 Self-service</p>
+  {% endif %}
+
+</blockquote>
+
+<section id="integrations">
+  <h2>Integrations</h2>
+  <details>
+    <summary>
+      {{ page.title }} is integrated in <strong>{{ page.supported_apis | size }}</strong> translation API{% if page.supported_apis.size != 1 %}s{% endif %}.
+      <p class="preview hint">
+        {{ page.integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if page.supported_apis.size > 5 %}, …{% endif %}
+      </p>
+    </summary>
+    <ul>
+      {% for i in page.supported_apis %}
+        <li>
+            <a href="/{{ i.slug }}" >{{ i.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </details>
+</section>

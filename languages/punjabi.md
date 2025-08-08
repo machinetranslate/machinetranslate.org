@@ -32,7 +32,7 @@ territories:
 - pk
 - in
 supported_apis:
-- id: sarvam
+- id: sarvam-translate
   name: Sarvam Translate
 - id: systran
   name: SYSTRAN

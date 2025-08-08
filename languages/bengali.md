@@ -33,7 +33,7 @@ territories:
 supported_apis:
 - id: kakao
   name: Kakao
-- id: sarvam
+- id: sarvam-translate
   name: Sarvam Translate
 - id: rozetta
   name: Rozetta T-400

@@ -5,7 +5,7 @@ nav_order: 977
 layout: api
 title: Sarvam Translate
 description: The Sarvam Translate machine translation API
-id: sarvam
+id: sarvam-translate
 parent: APIs
 urls:
 - https://docs.sarvam.ai
@@ -157,11 +157,10 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 active: true
-file_translation: true
+file_translation: null
 seo:
   name: The Sarvam Translate machine translation API
   type: Product
-redirect_from: sarvam-translate
 
 ---
 
