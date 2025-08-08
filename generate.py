@@ -215,6 +215,14 @@ for api in APIS:
   languages = api['languages']
   if not isinstance(languages, list):
     raise Exception(languages)
+  
+  models = []
+  for model in api.get('models', [None]):
+      if model:
+        models.append({
+          'name': model,
+          'slug': slugify(model)
+        })
 
   urls = api['urls']
   privacy_url = api.get('privacy_url', None)
@@ -294,6 +302,7 @@ for api in APIS:
     'supported_languages': supported_languages,
     'more_languages_by_request': more_languages_by_request,
     'integrations': integrations,
+    'models': models,
     'active': api.get('active', True),
     'file_translation': api.get('file_translation', None),
     'seo': {
@@ -1053,11 +1062,11 @@ for model in MODELS:
   if not isinstance(model_id, str):
     raise Exception(model_id)
 
-  supported_apis = []
-  for supported_api in model['supported_apis']:
-    supported_apis.append({
-      "name": supported_api,
-      "slug": slugify(supported_api)
+  apis = []
+  for api in model['apis']:
+    apis.append({
+      "name": api,
+      "slug": slugify(api)
     })
 
   urls = model['urls']
@@ -1093,7 +1102,7 @@ for model in MODELS:
     'urls': urls,
     'self_serve': self_serve,
     'customisation': customisation,
-    'supported_apis': supported_apis,
+    'apis': apis,
     'active': model.get('active', True),
     'seo': {
       'name': desc,

@@ -7,13 +7,14 @@
             "https://platform.openai.com/docs/models",
             "https://huggingface.co/openai"
         ],
-        "supported_apis": [
+        "apis": [
             "OpenAI"
         ],
         "glossary": true,
         "formality": true,
         "adaptive": true,
-        "fine_tuning": true
+        "fine_tuning": true,
+        "self_serve": true
     },
     {
         "name": "Sonnet",
@@ -22,7 +23,7 @@
         "urls": [
             "https://docs.anthropic.com/en/docs/about-claude/models/overview"
         ],
-        "supported_apis": [
+        "apis": [
             "Claude AI"
         ]
     },
@@ -33,10 +34,9 @@
         "urls": [
             "https://huggingface.co/deepseek-ai"
         ],
-        "supported_apis": [
+        "apis": [
             "DeepSeek"
         ],
-        "open_model": true,
         "fine_tuning": true,
         "self_serve": true
     },
@@ -48,10 +48,9 @@
             "https://huggingface.co/collections/Unbabel/tower-plus-6846ca452a10c0905dc03c0f",
             "https://unbabel.com/meet-towerllm"
         ],
-        "supported_apis": [
+        "apis": [
             "Widn"
         ],
-        "open_model": true,
         "fine_tuning": true,
         "self_serve": true
     },
@@ -63,10 +62,9 @@
             "https://huggingface.co/sarvamai/sarvam-translate",
             "https://www.sarvam.ai/text"
         ],
-        "supported_apis": [
+        "apis": [
             "Sarvam Translate"
         ],
-        "open_model": true,
         "fine_tuning": true,
         "self_serve": true
     },
@@ -78,8 +76,7 @@
             "https://huggingface.co/facebook/nllb-200-distilled-600M",
             "https://ai.facebook.com/research/no-language-left-behin"
         ],
-        "supported_apis": [],
-        "open_model": true,
+        "apis": [],
         "self_serve": true
     },
     {
@@ -89,10 +86,9 @@
         "urls": [
             "https://huggingface.co/Qwen/collections"
         ],
-        "supported_apis": [
+        "apis": [
             "Qwen3‑MT"
         ],
-        "open_model": true,
         "self_serve": true
     },
     {
@@ -104,10 +100,9 @@
             "https://huggingface.co/openai/whisper-large-v3",
             "https://github.com/openai/whisper"
         ],
-        "supported_apis": [
+        "apis": [
             "OpenAI"
         ],
-        "open_model": true,
         "self_serve": true
     }
 ]

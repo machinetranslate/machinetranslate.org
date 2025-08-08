@@ -20,10 +20,10 @@ parent: Models
 {% endif %}
 
 <p>
-  {% if page.supported_apis.size == 1 %}
+  {% if page.apis.size == 1 %}
   <a href="#integrations">1 translation API</a> has integrated the <strong>{{ page.title }}</strong> large language model.{% endif %}
-  {% if page.supported_apis.size > 1 %}
-   <a href="#integrations">{{ page.supported_apis | size }} translation APIs</a> have <strong>{{ page.title }}</strong> integrations.
+  {% if page.apis.size > 1 %}
+   <a href="#integrations">{{ page.apis | size }} translation APIs</a> have <strong>{{ page.title }}</strong> integrations.
   {% endif %}
 </p>
 
@@ -50,9 +50,9 @@ parent: Models
 
   <dl>
     
-  {% if page.supported_apis.size > 0 %}
+  {% if page.apis.size > 0 %}
     <dt>Integrations</dt>
-    <dd><a href="#integrations">{{ page.supported_apis | size }} translation API{% if page.supported_apis.size != 1 %}s{% endif %}</a></dd>
+    <dd><a href="#integrations">{{ page.apis | size }} translation API{% if page.apis.size != 1 %}s{% endif %}</a></dd>
   {% endif %}
 
   {% if page.customisation.size > 0 %}
@@ -91,14 +91,14 @@ parent: Models
   <h2>Integrations</h2>
   <details>
     <summary>
-      {{ page.title }} is integrated in <strong>{{ page.supported_apis | size }}</strong> translation API{% if page.supported_apis.size != 1 %}s{% endif %}.
+      {{ page.title }} is integrated in <strong>{{ page.apis | size }}</strong> translation API{% if page.apis.size != 1 %}s{% endif %}.
       <p class="preview hint">
         {{ page.integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
-        {% if page.supported_apis.size > 5 %}, …{% endif %}
+        {% if page.apis.size > 5 %}, …{% endif %}
       </p>
     </summary>
     <ul>
-      {% for i in page.supported_apis %}
+      {% for i in page.apis %}
         <li>
             <a href="/{{ i.slug }}" >{{ i.name }}</a>
         </li>
