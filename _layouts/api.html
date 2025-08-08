@@ -51,21 +51,23 @@ parent: APIs
     The API also supports <a href="/adaptive">adaptive</a> customisation.
   {% endif %} <br>
 
-  {% assign extras = page.translation_types %}
+  {% assign extras = page.inputs %}
   {% assign links = "" | split: "" %}
 
   {% for type in extras %}
-    {% case type %}
-      {% when 'Speech' %}
+    {% assign type_lower = type | downcase %}
+    {% case type_lower %}
+      {% when 'speech' %}
         {% assign links = links | push: "<a href='/speech'>speech translation</a>" %}
-      {% when 'File' %}
+      {% when 'file' %}
         {% assign links = links | push: "<a href='/file-translation'>file translation</a>" %}
-      {% when 'Text' %}
+      {% when 'text' %}
         {% assign links = links | push: "<a href='/text'>text translation</a>" %}
       {% else %}
         {% assign links = links | push: type %}
     {% endcase %}
   {% endfor %}
+
 
   {% if links.size > 0 %}
     The API supports 
@@ -101,11 +103,11 @@ parent: APIs
     <dd><a href="#integrations">{{ page.integrations | size }} translation management systems</a></dd>
   {% endif %}
 
-  {% if page.translation_types.size > 0 %}
+  {% if page.inputs.size > 0 %}
     <dt>Input Type</dt>
     <dd>
-      {% for translation_type in page.translation_types %}
-        {{ translation_type }}{% unless forloop.last %}, {% endunless %}
+      {% for input in page.inputs %}
+        {{ input | capitalize }}{% unless forloop.last %}, {% endunless %}
       {% endfor %}
     </dd>
   {% endif %}
