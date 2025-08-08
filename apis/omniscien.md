@@ -12,7 +12,6 @@ urls:
 - https://omniscien.com/machine-translation/supported-languages/
 privacy_url: https://omniscien.com/machine-translation/data-security-and-privacy/
 self_serve: false
-type: translation_gen_ai_and_mt
 prompt_required: false
 customisation:
 - Adaptive

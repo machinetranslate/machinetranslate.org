@@ -11,7 +11,6 @@ urls:
 - https://elia.eus/start
 privacy_url: null
 self_serve: true
-type: mt
 prompt_required: false
 customisation:
 - Glossary

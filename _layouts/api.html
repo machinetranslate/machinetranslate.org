@@ -34,24 +34,33 @@ parent: APIs
   {% endif %}
 </p>
 
-<p>
+
   {% if page.customisation.size > 0 %}
-  <a href="/customisation">Customisation</a> is supported.
+    <p>
+      <a href="/customisation">Customisation</a> is supported.
+      {% if page.customisation contains 'Glossary' %}
+        <a href="/glossaries">Glossaries</a> can be used to customise the translation of specific words and phrases.
+      {% endif %}
+      {% if page.customisation contains 'Formality' %}
+        The API can also be customised for <a href="/formality">formality</a>.
+      {% endif %}
+      {% if page.customisation contains 'Fine-tuning' %}
+        <a href="/fine-tuning">Fine-tuning</a> on <a href="/parallel-data">parallel data</a> can be used to fine-tune the model.
+      {% endif %}
+      {% if page.customisation contains 'Adaptive' %}
+        The API also supports <a href="/adaptive">adaptive</a> customisation.
+      {% endif %} <br>
+      {% if page.file_translation %}
+        The API also supports <a href='/file-translation'>file translation</a>.
+      {% endif %}
+    </p>
   {% endif %}
-  {% if page.customisation contains 'Glossary' %}
-    <a href="/glossaries">Glossaries</a> can be used to customise the translation of specific words and phrases.
-  {% endif %}
-  {% if page.customisation contains 'Formality' %}
-    The API can also be customised for <a href="/formality">formality</a>.
-  {% endif %}
-  {% if page.customisation contains 'Fine-tuning' %}
-    <a href="/fine-tuning">Fine-tuning</a> on <a href="/parallel-data">parallel data</a> can be used to fine-tune the model.
-  {% endif %}
-  {% if page.customisation contains 'Adaptive' %}
-    The API also supports <a href="/adaptive">adaptive</a> customisation.
-  {% endif %} <br>
-  {% if page.file_translation %}
-    The API also supports <a href='/file-translation'>file translation</a>.
+
+<p>
+  {% if page.prompt_required == true %}
+    The <strong>{{ page.title }}</strong> API requires a prompt for translation.
+  {% elsif page.prompt_required == false %}
+    The <strong>{{ page.title }}</strong> API does not require a prompt for translation.
   {% endif %}
 </p>
 
@@ -106,7 +115,7 @@ parent: APIs
   {% endif %}
 
     <hr/>
-  {% if page.type %}
+  <!-- {% if page.type %}
     {% if page.type == 'mt' %}
       <p>🌐 MT</p>
     {% endif %}
@@ -119,10 +128,18 @@ parent: APIs
     {% if page.type == 'translation_gen_ai_and_mt' %}
       <p>🤝 Translation Specific GenAI and MT</p>
     {% endif %}    
-  {% endif %}
+  {% endif %} -->
+
+  <!-- {% if page.prompt_required %}
+    <p>Prompt required</p>
+  {% else %}
+    <p>Prompt not required</p>
+  {% endif %} -->
 
   {% if page.prompt_required %}
-    <p>📝 Prompt Required</p>
+    <p>Requires prompt</p>
+  {% else %}
+    <p>No prompt required</p>
   {% endif %}
   
   {% if page.self_serve == false %}

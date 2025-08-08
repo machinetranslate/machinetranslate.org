@@ -13,7 +13,6 @@ urls:
 - https://cloud.google.com/translate/automl/docs/languages
 privacy_url: https://cloud.google.com/translate/data-usage
 self_serve: true
-type: mt
 prompt_required: false
 customisation:
 - Glossary

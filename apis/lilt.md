@@ -12,7 +12,6 @@ urls:
 - https://support.lilt.com/kb/11075725.html
 privacy_url: https://lilt.com/technology/security
 self_serve: false
-type: translation_gen_ai_and_mt
 prompt_required: false
 customisation:
 - Adaptive

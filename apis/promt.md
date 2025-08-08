@@ -12,7 +12,6 @@ urls:
 - https://www.promt.com/translation_software/corporate/developer/promt-cloud-api/
 privacy_url: null
 self_serve: false
-type: mt
 prompt_required: false
 customisation: []
 supported_languages:

@@ -12,7 +12,6 @@ urls:
 - https://documenter.getpostman.com/view/8281683/SVtSX9x2
 privacy_url: null
 self_serve: false
-type: mt
 prompt_required: false
 customisation:
 - Glossary

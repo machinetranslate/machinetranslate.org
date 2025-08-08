@@ -12,7 +12,6 @@ urls:
 - https://docs.systran.net/translatePro/en/index.html
 privacy_url: https://www.systransoft.com/systran/policies/privacy-policy/
 self_serve: true
-type: mt
 prompt_required: false
 customisation:
 - Glossary

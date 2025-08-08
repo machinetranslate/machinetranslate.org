@@ -12,7 +12,6 @@ urls:
 - https://www.ncloud.com/product/aiService/papagoTranslation
 privacy_url: null
 self_serve: true
-type: mt
 prompt_required: false
 customisation:
 - Glossary
