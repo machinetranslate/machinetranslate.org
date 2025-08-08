@@ -14939,7 +14939,7 @@
             "speech"
             ],
         "self-serve": true,
-        "type": "gen_ai",
+        "prompt_required": true,
         "models": [
             "GPT", 
             "Whisper"
@@ -15012,7 +15012,7 @@
             "file"
         ],
         "self-serve": true,
-        "type": "gen_ai",
+        "prompt_required": true,
         "models": [
             "Sonnet"
         ]
@@ -15086,7 +15086,7 @@
             "text"
         ],
         "self-serve": true,
-        "type": "gen_ai",
+        "prompt_required": true,
         "models": [
             "DeepSeek AI"
         ]
@@ -15142,7 +15142,6 @@
             "text"
         ],
         "self-serve": true,
-        "type": "translation_gen_ai",
         "models": [
             "TowerLLM"
         ]
@@ -15210,8 +15209,7 @@
         ],
         "formality": true,
         "adaptive": true,
-        "self-serve": true,
-        "type": "translation_gen_ai"
+        "self-serve": true
     },
     {
         "name": "Sarvam Translate",
@@ -15261,7 +15259,6 @@
         ],
         "formality": true,
         "self-serve": true,
-        "type": "translation_gen_ai",
         "models": [
             "Sarvam"
         ]
@@ -15374,9 +15371,39 @@
         "formality": true,
         "adaptive": true,
         "self-serve": true,
-        "type": "translation_gen_ai",
         "models": [
             "QWEN"
         ]
-    }
+    },
+    {
+       "name": "Mistral AI",
+       "id": "mistral-ai",
+       "company": "mistral-ai",
+       "urls": [
+           "https://mistral.ai/news/voxtral",
+           "https://docs.mistral.ai/api",
+           "https://docs.mistral.ai"
+       ],
+       "privacy_url": "https://mistral.ai/terms",
+       "languages": [
+           "ar",
+           "de",
+           "en",
+           "es",
+           "fr",
+           "hi",
+           "it",
+           "ja",
+           "nl",
+           "pt",
+           "zh"
+       ],
+       "inputs": [
+           "speech"
+       ],
+       "self-serve": true,
+       "models": [
+        "Voxtral"
+       ]
+   }
 ]
