@@ -109,6 +109,7 @@ quality_estimation_integrations:
 - slug: phrase-mtqe
   custom: false
   name: Phrase MTQE
+automatic_post_editing_integrations: []
 seo:
   name: Machine translation API integrations in Phrase TMS
   type: Product

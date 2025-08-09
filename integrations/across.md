@@ -33,6 +33,7 @@ api_integrations:
 fuzzy_repair: true
 open-source: false
 quality_estimation_integrations: []
+automatic_post_editing_integrations: []
 seo:
   name: Machine translation API integrations in Across
   type: Product

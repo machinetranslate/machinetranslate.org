@@ -359,6 +359,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations: []
 seo:
   name: The Language Weaver automatic post-editing API
   type: Product

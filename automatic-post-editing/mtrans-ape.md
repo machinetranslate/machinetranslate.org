@@ -8,7 +8,7 @@ description: The MTrans automatic post-editing API
 id: mtrans-ape
 parent: Automatic post-editing
 urls:
-- https://store.crowdin.com/mtrans
+- https://www.science.co.jp/en/nmt/service/post-edit_booster.html
 supported_languages:
 - slug: arabic
   code: ar
@@ -154,6 +154,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
+integrations: []
 seo:
   name: The MTrans automatic post-editing API
   type: Product

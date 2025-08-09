@@ -165,6 +165,21 @@
                }
             }
         ],
+        "automatic_post_editing_integrations":[
+            {
+                "modelfront-ape": {
+                    "custom": true
+               }
+            },
+            {
+                "taus-epic-ape": {
+                    "custom": true,
+                    "urls": [
+                        "https://crowdin.com/blog/2025/03/31/whats-new-at-crowdin-march-2025#taus-qe--ape-for-crowdin-enterprise"
+                    ]
+                }
+            }
+        ],
         "local_api_support": true,
         "multiple_api_suggestions": true
     },
@@ -553,6 +568,13 @@
             },
             {
                 "demt-estimate": {
+                    "custom": true
+               }
+            }
+        ],
+        "automatic_post_editing_integrations":[
+            {
+                "modelfront-ape": {
                     "custom": true
                }
             }
@@ -1462,7 +1484,13 @@
                }
             }
         ],
-    
+        "automatic_post_editing_integrations":[
+            {
+                "modelfront-ape": {
+                    "custom": true
+               }
+            }
+        ],
         "edit_distance": true
         
     },

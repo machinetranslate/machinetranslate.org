@@ -34,6 +34,11 @@ parent: Automatic post-editing
     {% endif %}
     </dd>
   {% endif %}
+
+  {% if page.integrations.size > 0 %}
+    <dt>Integrations</dt>
+    <dd><a href="#integrations">{{ page.integrations | size }} translation management system{% if page.integrations.size > 1 %}s{% endif %}</a></dd>
+  {% endif %}
     
   </dl>
 
@@ -96,3 +101,23 @@ parent: Automatic post-editing
 </section>
 
 {% endif %}
+
+<section id="integrations">
+  <h2>Integrations</h2>
+  <details>
+    <summary>
+      {{ page.title }} is integrated in <strong>{{ page.integrations | size }}</strong> translation management system{% if page.integrations.size != 1 %}s{% endif %}.
+      <p class="preview hint">
+        {{ page.integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if page.integrations.size > 5 %}, …{% endif %}
+      </p>
+    </summary>
+    <ul>
+      {% for i in page.integrations %}
+        <li>
+            <a href="/{{ i.slug }}" >{{ i.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </details>
+</section>

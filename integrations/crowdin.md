@@ -97,6 +97,15 @@ quality_estimation_integrations:
 - slug: modelfront
   custom: true
   name: ModelFront
+automatic_post_editing_integrations:
+- slug: modelfront-ape
+  custom: true
+  name: ModelFront
+- slug: taus-epic-ape
+  custom: true
+  urls:
+  - https://crowdin.com/blog/2025/03/31/whats-new-at-crowdin-march-2025#taus-qe--ape-for-crowdin-enterprise
+  name: TAUS EPIC
 seo:
   name: Machine translation API integrations in Crowdin
   type: Product

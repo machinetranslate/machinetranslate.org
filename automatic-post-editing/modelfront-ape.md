@@ -9,7 +9,7 @@ id: modelfront-ape
 parent: Automatic post-editing
 urls:
 - https://modelfront.com/docs
-- https://www.modelfront.com/quality-prediction
+- https://www.modelfront.com/quality-prediction#automatic-post-editing
 supported_languages:
 - slug: afrikaans
   code: af
@@ -893,6 +893,16 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+integrations:
+- slug: crowdin
+  name: Crowdin
+  custom: true
+- slug: memoq
+  name: memoQ
+  custom: true
+- slug: translate5
+  name: translate5
+  custom: true
 seo:
   name: The ModelFront automatic post-editing API
   type: Product

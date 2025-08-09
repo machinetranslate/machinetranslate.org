@@ -144,6 +144,10 @@ quality_estimation_integrations:
 - slug: demt-estimate
   custom: true
   name: DeMT Estimate
+automatic_post_editing_integrations:
+- slug: modelfront-ape
+  custom: true
+  name: ModelFront
 seo:
   name: Machine translation API integrations in memoQ
   type: Product

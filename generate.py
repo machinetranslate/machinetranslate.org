@@ -486,6 +486,7 @@ for code, count in sorted(UNLISTED_LANGUAGES.items(), key=lambda x: x[1] * 10 - 
 # Generate TMS files
 QE_APIS_BY_ID = {api['id']: api for api in QUALITY_ESTIMATION}
 APIS_BY_ID = {api['id']: api for api in APIS + AGGREGATORS}
+APE_APIS_BY_ID = {api['id']: api for api in AUTOMATIC_POST_EDITING}
 for tms in INTEGRATIONS:
     tms_id = tms['id']
     print(tms_id)
@@ -534,6 +535,25 @@ for tms in INTEGRATIONS:
       except KeyError:
         pass
 
+    ape_integrations = []
+    for integration in tms.get('automatic_post_editing_integrations', []):
+      try:
+        integration_data = {}
+        if isinstance(integration, dict):
+          integration_slug = list(integration.keys())[0]
+          integration_data['slug'] = integration_slug
+          for k, v in integration[integration_slug].items():
+            integration_data[k] = v 
+        else:
+          integration_slug = integration
+          integration_data['slug'] = integration_slug
+        
+        integration_data['name'] = APE_APIS_BY_ID[integration_slug]['name']
+
+        ape_integrations.append(integration_data)
+      except KeyError:
+        pass
+
     if 'tms' in tms_type:
       tms_type_description = 'translation management system'
     elif 'cat':
@@ -559,6 +579,7 @@ for tms in INTEGRATIONS:
       'fuzzy_repair': fuzzy_repair,
       'open-source': tms_open_source,
       'quality_estimation_integrations': qe_api_integrations,
+      'automatic_post_editing_integrations': ape_integrations,
       'seo': {
         'name': desc,
         'type': 'Product'
@@ -787,6 +808,8 @@ for ape in AUTOMATIC_POST_EDITING:
         'variant_name': variant_name
       })
 
+    integrations = get_tms_by_id_and_key(ape_id, 'automatic_post_editing_integrations')
+
     desc = f'The { ape_name } automatic post-editing API'
 
     frontmatter = {
@@ -800,6 +823,7 @@ for ape in AUTOMATIC_POST_EDITING:
       'parent': 'Automatic post-editing',
       'urls': ape_urls,
       'supported_languages': ape_supported_languages,
+      'integrations': integrations,
       'seo': {
         'name': desc,
         'type': 'Product'

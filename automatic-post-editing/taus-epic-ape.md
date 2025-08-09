@@ -665,6 +665,12 @@ supported_languages:
   base_code: zu
   name: Zulu
   variant_name: null
+integrations:
+- slug: crowdin
+  name: Crowdin
+  custom: true
+  urls:
+  - https://crowdin.com/blog/2025/03/31/whats-new-at-crowdin-march-2025#taus-qe--ape-for-crowdin-enterprise
 seo:
   name: The TAUS EPIC automatic post-editing API
   type: Product

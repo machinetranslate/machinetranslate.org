@@ -24,6 +24,7 @@ quality_estimation_integrations:
 - slug: kantanqes
   custom: false
   name: KantanQES
+automatic_post_editing_integrations: []
 seo:
   name: Machine translation API integrations in KantanStream
   type: Product
