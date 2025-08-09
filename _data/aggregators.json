@@ -409,9 +409,7 @@
         "id": "mtrans",
         "company": "human-science",
         "urls": [
-            "https://store.crowdin.com/mtrans",
-            "https://store.crowdin.com/mtrans/details"
-
+            "https://www.science.co.jp/en/nmt/service/mtrans.html"
         ],
         "supported_apis": [
             "amazon",

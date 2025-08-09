@@ -51,6 +51,10 @@ quality_estimation_integrations:
 - slug: modelfront
   custom: true
   name: ModelFront
+automatic_post_editing_integrations:
+- slug: modelfront-ape
+  custom: true
+  name: ModelFront
 seo:
   name: Machine translation API integrations in translate5
   type: Product

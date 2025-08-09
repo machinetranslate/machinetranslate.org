@@ -8,8 +8,7 @@ description: The MTrans machine translation API aggregator
 id: mtrans
 parent: Aggregators
 urls:
-- https://store.crowdin.com/mtrans
-- https://store.crowdin.com/mtrans/details
+- https://www.science.co.jp/en/nmt/service/mtrans.html
 supported_apis:
 - slug: amazon
   name: Amazon Translate

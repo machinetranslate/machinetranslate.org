@@ -40,6 +40,7 @@ api_integrations:
 fuzzy_repair: true
 open-source: true
 quality_estimation_integrations: []
+automatic_post_editing_integrations: []
 seo:
   name: Machine translation API integrations in OmegaT
   type: Product
