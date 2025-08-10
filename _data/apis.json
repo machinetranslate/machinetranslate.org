@@ -15199,11 +15199,6 @@
             "zh-hk",
             "zh-tw"
         ],
-        "stock_api_domains": [
-            "marketing", 
-            "support", 
-            "legal"
-        ],
         "inputs": [
             "text"
         ],
@@ -15244,13 +15239,6 @@
             "ta-in",
             "te-in",
             "ur-in"
-        ],
-        "stock_api_domains": [
-            "government", 
-            "education"
-        ],
-        "stock_api_domains_urls": [
-            "https://sarvam.ai"
         ],
         "inputs": [
             "text",
@@ -15356,13 +15344,6 @@
             "zh-cn",
             "zh-hk",
             "zh-tw"
-        ],
-        "stock_api_domains": [
-            "general", 
-            "e-commerce"
-        ],
-        "stock_api_domains_urls": [
-            "https://qwenlm.github.io/blog/qwen-mt"
         ],
         "inputs": [
             "text"
