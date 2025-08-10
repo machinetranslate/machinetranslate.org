@@ -190,7 +190,7 @@ defaults:
       seo:
         type: Article
   - scope:
-      path: input-types
+      path: input-modes
       type: pages
     values:
       permalink: /:basename

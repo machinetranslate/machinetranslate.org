@@ -51,10 +51,9 @@ parent: APIs
     The API also supports <a href="/adaptive">adaptive</a> customisation.
   {% endif %} <br>
 
-  {% assign extras = page.inputs %}
   {% assign links = "" | split: "" %}
 
-  {% for type in extras %}
+  {% for type in page.inputs %}
     {% assign type_lower = type | downcase %}
     {% case type_lower %}
       {% when 'speech' %}
@@ -73,13 +72,14 @@ parent: APIs
     The API supports 
     {% for link in links %}
       {% if forloop.last and links.size > 1 %}
-        and {{ link }}.
+        and {{ link }}
       {% elsif forloop.first %}
         {{ link }}
       {% else %}
         , {{ link }}
       {% endif %}
     {% endfor %}
+    input mode{% if links.size > 1 %}s.{% endif %}
   {% endif %}
 </p>
 
@@ -104,7 +104,7 @@ parent: APIs
   {% endif %}
 
   {% if page.inputs.size > 0 %}
-    <dt>Input Type</dt>
+    <dt>Input modes</dt>
     <dd>
       {% for input in page.inputs %}
         {{ input | capitalize }}{% unless forloop.last %}, {% endunless %}
