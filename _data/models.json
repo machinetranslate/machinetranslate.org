@@ -96,7 +96,6 @@
         "id": "whisper",
         "company": "openai",
         "urls": [
-            "https://huggingface.co/openai/models",
             "https://huggingface.co/openai/whisper-large-v3",
             "https://github.com/openai/whisper"
         ],
