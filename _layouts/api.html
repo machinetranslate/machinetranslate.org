@@ -59,8 +59,6 @@ parent: APIs
 <p>
   {% if page.prompt_required == true %}
     The <strong>{{ page.title }}</strong> API requires a prompt for translation.
-  {% elsif page.prompt_required == false %}
-    The <strong>{{ page.title }}</strong> API does not require a prompt for translation.
   {% endif %}
 </p>
 
@@ -118,8 +116,6 @@ parent: APIs
 
   {% if page.prompt_required %}
     <p>Requires prompt</p>
-  {% else %}
-    <p>No prompt required</p>
   {% endif %}
   
   {% if page.self_serve == false %}
