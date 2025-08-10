@@ -58,7 +58,7 @@ parent: APIs
 
 <p>
   {% if page.prompt_required == true %}
-    The <strong>{{ page.title }}</strong> API requires a prompt for translation.
+    The <strong>{{ page.title }}</strong> API is <strong>not translation-specific</strong>, so for translation it <strong>requires a prompt</strong>.
   {% endif %}
 </p>
 
@@ -115,7 +115,7 @@ parent: APIs
     <hr/>
 
   {% if page.prompt_required %}
-    <p>Requires prompt</p>
+    <p>✍️ Prompting required</p>
   {% endif %}
   
   {% if page.self_serve == false %}
