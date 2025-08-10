@@ -74,7 +74,7 @@
         "company": "meta",
         "urls": [
             "https://huggingface.co/facebook/nllb-200-distilled-600M",
-            "https://ai.facebook.com/research/no-language-left-behin"
+            "https://ai.facebook.com/research/no-language-left-behind"
         ],
         "apis": [],
         "self_serve": true
