@@ -12,8 +12,8 @@ urls:
 - https://www.sarvam.ai/text
 self_serve: true
 apis:
-- name: Sarvam Translate
-  slug: sarvam-translate
+- name: Sarvam AI
+  slug: sarvam-ai
 seo:
   name: The Sarvam-Translate model for translation
   type: Product
