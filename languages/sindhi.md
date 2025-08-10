@@ -33,8 +33,8 @@ territories:
 - in
 - pk
 supported_apis:
-- id: sarvam-translate
-  name: Sarvam Translate
+- id: sarvam-ai
+  name: Sarvam AI
 - id: qwen3-mt
   name: Qwen3‑MT
 - id: textra

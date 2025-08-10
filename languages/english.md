@@ -90,8 +90,8 @@ supported_apis:
   name: Sogou Translate
 - id: tilde
   name: Tilde
-- id: sarvam-translate
-  name: Sarvam Translate
+- id: sarvam-ai
+  name: Sarvam AI
 - id: rozetta
   name: Rozetta T-400
 - id: textshuttle

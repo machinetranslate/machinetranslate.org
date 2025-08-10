@@ -11,8 +11,8 @@ codes:
 - brx
 family: []
 supported_apis:
-- id: sarvam-translate
-  name: Sarvam Translate
+- id: sarvam-ai
+  name: Sarvam AI
 - id: textra
   name: TexTra
 supported_qe_apis: []

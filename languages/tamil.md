@@ -28,8 +28,8 @@ territories:
 - my
 - sg
 supported_apis:
-- id: sarvam-translate
-  name: Sarvam Translate
+- id: sarvam-ai
+  name: Sarvam AI
 - id: kantanmt
   name: KantanMT
 - id: systran

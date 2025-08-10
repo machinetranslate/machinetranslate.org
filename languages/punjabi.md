@@ -32,8 +32,8 @@ territories:
 - pk
 - in
 supported_apis:
-- id: sarvam-translate
-  name: Sarvam Translate
+- id: sarvam-ai
+  name: Sarvam AI
 - id: systran
   name: SYSTRAN
 - id: lilt

@@ -28,8 +28,8 @@ territories:
 - in
 - mm
 supported_apis:
-- id: sarvam-translate
-  name: Sarvam Translate
+- id: sarvam-ai
+  name: Sarvam AI
 - id: textra
   name: TexTra
 - id: modernmt
