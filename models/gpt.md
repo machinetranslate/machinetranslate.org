@@ -11,15 +11,9 @@ urls:
 - https://platform.openai.com/docs/models
 - https://huggingface.co/openai
 self_serve: true
-customisation:
-- Adaptive
-- Glossary
-- Formality
-- Fine-tuning
 apis:
 - name: OpenAI
   slug: openai
-active: true
 seo:
   name: The GPT large language model
   type: Product

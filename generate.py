@@ -1078,16 +1078,6 @@ for model in MODELS:
 
   self_serve = model.get('self_serve', None)
 
-  customisation = []
-  if model.get('adaptive', False):
-    customisation.append('Adaptive')
-  if model.get('glossary', False):
-    customisation.append('Glossary')
-  if model.get('formality', False):
-    customisation.append('Formality')
-  if model.get('fine_tuning', False):
-    customisation.append('Fine-tuning')
-
   desc = f'The { name } large language model'
 
   frontmatter = {
@@ -1101,9 +1091,7 @@ for model in MODELS:
     'parent': 'Models',
     'urls': urls,
     'self_serve': self_serve,
-    'customisation': customisation,
     'apis': apis,
-    'active': model.get('active', True),
     'seo': {
       'name': desc,
       'type': 'Product'

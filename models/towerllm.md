@@ -11,12 +11,9 @@ urls:
 - https://huggingface.co/collections/Unbabel/tower-plus-6846ca452a10c0905dc03c0f
 - https://unbabel.com/meet-towerllm
 self_serve: true
-customisation:
-- Fine-tuning
 apis:
 - name: Widn
   slug: widn
-active: true
 seo:
   name: The TowerLLM large language model
   type: Product

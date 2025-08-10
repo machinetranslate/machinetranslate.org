@@ -12,11 +12,9 @@ urls:
 - https://huggingface.co/openai/whisper-large-v3
 - https://github.com/openai/whisper
 self_serve: true
-customisation: []
 apis:
 - name: OpenAI
   slug: openai
-active: true
 seo:
   name: The Whisper large language model
   type: Product

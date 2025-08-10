@@ -11,12 +11,9 @@ urls:
 - https://huggingface.co/sarvamai/sarvam-translate
 - https://www.sarvam.ai/text
 self_serve: true
-customisation:
-- Fine-tuning
 apis:
 - name: Sarvam Translate
   slug: sarvam-translate
-active: true
 seo:
   name: The Sarvam large language model
   type: Product

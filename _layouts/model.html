@@ -13,36 +13,12 @@ parent: Models
 
 <hr/>
 
-{% if page.active != true %}
-<blockquote>
- ⚠️ The <strong>{{ page.title }}</strong> large language model is no longer active.
-</blockquote>
-{% endif %}
-
 <p>
   {% if page.apis.size == 1 %}
   <a href="#integrations">1 translation API</a> has integrated the <strong>{{ page.title }}</strong> large language model.{% endif %}
   {% if page.apis.size > 1 %}
    <a href="#integrations">{{ page.apis | size }} translation APIs</a> have <strong>{{ page.title }}</strong> integrations.
   {% endif %}
-</p>
-
-<p>
-  {% if page.customisation.size > 0 %}
-  <a href="/customisation">Customisation</a> is supported.
-  {% endif %}
-  {% if page.customisation contains 'Glossary' %}
-    <a href="/glossaries">Glossaries</a> can be used to customise the translation of specific words and phrases.
-  {% endif %}
-  {% if page.customisation contains 'Formality' %}
-    The model can also be customised for <a href="/formality">formality</a>.
-  {% endif %}
-  {% if page.customisation contains 'Fine-tuning' %}
-    <a href="/fine-tuning">Fine-tuning</a> on <a href="/parallel-data">parallel data</a> can be used to fine-tune the model.
-  {% endif %}
-  {% if page.customisation contains 'Adaptive' %}
-    The model also supports <a href="/adaptive">adaptive</a> customisation.
-  {% endif %} <br>
 </p>
 
 

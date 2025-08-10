@@ -12,11 +12,9 @@ urls:
 - https://mistral.ai/news/voxtral
 - https://docs.mistral.ai
 self_serve: true
-customisation: []
 apis:
 - name: Mistral AI
   slug: mistral-ai
-active: true
 seo:
   name: The Voxtral large language model
   type: Product

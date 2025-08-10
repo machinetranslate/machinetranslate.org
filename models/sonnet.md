@@ -10,11 +10,9 @@ parent: Models
 urls:
 - https://docs.anthropic.com/en/docs/about-claude/models/overview
 self_serve: null
-customisation: []
 apis:
 - name: Claude AI
   slug: claude-ai
-active: true
 seo:
   name: The Sonnet large language model
   type: Product

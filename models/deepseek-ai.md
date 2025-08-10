@@ -10,12 +10,9 @@ parent: Models
 urls:
 - https://huggingface.co/deepseek-ai
 self_serve: true
-customisation:
-- Fine-tuning
 apis:
 - name: DeepSeek
   slug: deepseek
-active: true
 seo:
   name: The DeepSeek AI large language model
   type: Product

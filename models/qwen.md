@@ -10,11 +10,9 @@ parent: Models
 urls:
 - https://huggingface.co/Qwen/collections
 self_serve: true
-customisation: []
 apis:
 - name: Qwen3‑MT
   slug: qwen3-mt
-active: true
 seo:
   name: The QWEN large language model
   type: Product
