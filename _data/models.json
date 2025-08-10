@@ -65,7 +65,7 @@
             "https://www.sarvam.ai/text"
         ],
         "apis": [
-            "Sarvam Translate"
+            "Sarvam AI"
         ],
         "fine_tuning": true,
         "self_serve": true
