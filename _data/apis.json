@@ -15207,13 +15207,12 @@
         "self-serve": true
     },
     {
-        "name": "Sarvam Translate",
-        "id": "sarvam-translate",
+        "name": "Sarvam AI",
+        "id": "sarvam-ai",
         "company": "sarvam-ai",
         "urls": [
             "https://docs.sarvam.ai",
-            "https://sarvam.ai",
-            "https://huggingface.co/sarvamai/sarvam-translate"
+            "https://sarvam.ai"
         ],
         "languages": [
             "as-in",
