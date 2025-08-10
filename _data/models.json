@@ -5,7 +5,8 @@
         "company": "openai",
         "urls": [
             "https://platform.openai.com/docs/models",
-            "https://huggingface.co/openai"
+            "https://huggingface.co/openai/gpt-oss-120b",
+            "https://huggingface.co/openai/gpt-oss-20b"
         ],
         "apis": [
             "OpenAI"
@@ -32,7 +33,8 @@
         "id": "deepseek-ai",
         "company": "deepseek",
         "urls": [
-            "https://huggingface.co/deepseek-ai"
+            "https://huggingface.co/deepseek-ai",
+            "https://huggingface.co/collections/deepseek-ai/deepseek-llm-65f2964ad8a0a29fe39b71d8"
         ],
         "apis": [
             "DeepSeek"
@@ -73,6 +75,9 @@
         "id": "meta-nllb",
         "company": "meta",
         "urls": [
+            "https://huggingface.co/facebook/nllb-200-3.3B",
+            "https://huggingface.co/facebook/nllb-200-1.3B",
+            "https://huggingface.co/facebook/nllb-200-distilled-1.3B",
             "https://huggingface.co/facebook/nllb-200-distilled-600M",
             "https://ai.facebook.com/research/no-language-left-behind"
         ],
@@ -96,7 +101,18 @@
         "id": "whisper",
         "company": "openai",
         "urls": [
+            "https://huggingface.co/openai/whisper-large-v3-turbo",
             "https://huggingface.co/openai/whisper-large-v3",
+            "https://huggingface.co/openai/whisper-large-v2",
+            "https://huggingface.co/openai/whisper-large",
+            "https://huggingface.co/openai/whisper-medium",
+            "https://huggingface.co/openai/whisper-medium.en",
+            "https://huggingface.co/openai/whisper-small",
+            "https://huggingface.co/openai/whisper-small.en",
+            "https://huggingface.co/openai/whisper-tiny",
+            "https://huggingface.co/openai/whisper-tiny.en",
+            "https://huggingface.co/openai/whisper-base",
+            "https://huggingface.co/openai/whisper-base.en",
             "https://github.com/openai/whisper"
         ],
         "apis": [
@@ -109,6 +125,7 @@
        "id": "voxtral",
        "company": "mistral-ai",
        "urls": [
+        "https://huggingface.co/mistralai/Voxtral-Small-24B-2507",
            "https://huggingface.co/mistralai/Voxtral-Mini-3B-2507",
            "https://mistral.ai/news/voxtral",
            "https://docs.mistral.ai"
