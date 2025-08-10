@@ -69,7 +69,7 @@
         "self_serve": true
     },
     {
-        "name": "Meta NLLB",
+        "name": "NLLB",
         "id": "meta-nllb",
         "company": "meta",
         "urls": [
