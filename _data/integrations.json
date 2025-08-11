@@ -878,15 +878,12 @@
         "type": [
             "tms",
         ],
-        "documentation_url": "https://simplelocalize.io/docs/",
+        "documentation_url": "https://simplelocalize.io/docs/general/auto-translation/",
         "api_integrations": [
             {
                 "deepl": {
                     "formality": true,
                     "glossary": true,
-                    "urls": [
-                        "https://simplelocalize.io/docs/general/auto-translation/"
-                    ]
                 }
             },
             "google"
