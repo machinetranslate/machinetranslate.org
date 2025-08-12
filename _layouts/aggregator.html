@@ -1,26 +1,25 @@
 ---
 layout: default
-parent: Aggregators
+parent: Routers
 ---
 
-<h1>
   {{ page.title }}
 </h1>
-<h2>
+<h2>t
   {{ page.description }}
 </h2>
 
 <hr/>
 
 <p>
-  The <strong>{{ page.title }}</strong> <a href="/aggregators">aggregator</a> supports <a href="#machine-translation">{{ page.supported_apis | size }} machine translation APIs</a>.
+  The <strong>{{ page.title }}</strong> <a href="/routers">router</a> supports <a href="#machine-translation">{{ page.supported_apis | size }} machine translation APIs</a>.
 </p>
 
 <p>
   {% if page.integrations.size == 1 %}
-  <a href="#integrations">1 machine translation management system</a> has integrated the <strong>{{ page.title }}</strong> aggregator.{% endif %}
+  <a href="#integrations">1 machine translation management system</a> has integrated the <strong>{{ page.title }}</strong> router.{% endif %}
   {% if page.integrations.size > 1 %}
-   <a href="#integrations">{{ page.integrations | size }} machine translation management systems</a> have integrated the <strong>{{ page.title }}</strong> aggregator.
+   <a href="#integrations">{{ page.integrations | size }} machine translation management systems</a> have integrated the <strong>{{ page.title }}</strong> router.
   {% endif %}
 </p>
 
@@ -54,7 +53,7 @@ parent: Aggregators
       {% if page.supported_apis.size == 1 %}
         <strong>1</strong> machine translation API supports {{ page.title }}.
       {% else %}
-        <strong>{{ page.supported_apis | size }}</strong> machine translation APIs are supported by the {{ page.title }} aggregator.
+        <strong>{{ page.supported_apis | size }}</strong> machine translation APIs are supported by the {{ page.title }} router.
       {% endif %}
       <p class="preview hint">
         {{ page.supported_apis | slice: 0, 5 | map: 'name' | join: ', ' }}
@@ -76,9 +75,9 @@ parent: Aggregators
   <details>
     <summary>
       {% if page.integrations.size == 1 %}
-        <strong>1</strong> translation management system has integrated the {{ page.title }} aggregator.
+        <strong>1</strong> translation management system has integrated the {{ page.title }} router.
       {% else %}
-        <strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} aggregator.
+        <strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} router.
       {% endif %}
       <p class="preview hint">
         {{ page.integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
