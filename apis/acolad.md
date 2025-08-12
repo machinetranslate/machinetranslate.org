@@ -8,7 +8,7 @@ description: The Acolad machine translation API
 id: acolad
 parent: APIs
 urls:
-- https://www.acolad.cowww.acolad.com/en/technology/machine-tram/en/technology/machine-translation.html
+- https://www.acolad.com/en/technology/machine-translation.html
 privacy_url: null
 self_serve: false
 prompt_required: false
