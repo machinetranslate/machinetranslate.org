@@ -28,8 +28,8 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
-- id: claude
-  name: Claude AI
+- id: anthropic
+  name: Anthropic
 - id: lilt
   name: Lilt
 - id: watson

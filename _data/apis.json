@@ -14946,12 +14946,13 @@
         ]
     },
     {
-        "name": "Claude AI",
-        "id": "claude",
+        "name": "Anthropic",
+        "id": "anthropic",
         "company": "anthropic",
         "urls": [
             "https://docs.anthropic.com",
-            "https://www.anthropic.com"
+            "https://www.anthropic.com",
+            "https://docs.anthropic.com/en/docs/build-with-claude/multilingual-support"
         ],
         "languages": [
             "am",
@@ -15014,7 +15015,7 @@
         "self-serve": true,
         "prompt_required": true,
         "models": [
-            "Sonnet"
+            "Claude Sonnet"
         ]
     },
     {

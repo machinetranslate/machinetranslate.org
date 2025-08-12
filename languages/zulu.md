@@ -29,8 +29,8 @@ territories:
 supported_apis:
 - id: translateme
   name: TranslateMe
-- id: claude
-  name: Claude AI
+- id: anthropic
+  name: Anthropic
 - id: lilt
   name: Lilt
 - id: deepseek

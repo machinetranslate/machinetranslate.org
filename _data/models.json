@@ -18,14 +18,14 @@
         "self_serve": true
     },
     {
-        "name": "Sonnet",
-        "id": "sonnet",
+        "name": "Claude Sonnet",
+        "id": "claude-sonnet",
         "company": "anthropic",
         "urls": [
             "https://docs.anthropic.com/en/docs/about-claude/models/overview"
         ],
         "apis": [
-            "Claude AI"
+            "Anthropic"
         ]
     },
     {

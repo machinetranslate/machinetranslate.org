@@ -28,8 +28,8 @@ typology:
 territories:
 - et
 supported_apis:
-- id: claude
-  name: Claude AI
+- id: anthropic
+  name: Anthropic
 - id: deepseek
   name: DeepSeek
 - id: apptek

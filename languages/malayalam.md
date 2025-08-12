@@ -28,8 +28,8 @@ supported_apis:
   name: Sarvam AI
 - id: rozetta
   name: Rozetta T-400
-- id: claude
-  name: Claude AI
+- id: anthropic
+  name: Anthropic
 - id: lilt
   name: Lilt
 - id: watson

@@ -70,8 +70,8 @@ supported_apis:
   name: KantanMT
 - id: systran
   name: SYSTRAN
-- id: claude
-  name: Claude AI
+- id: anthropic
+  name: Anthropic
 - id: iconic
   name: Iconic
 - id: iptranslator
