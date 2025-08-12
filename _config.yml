@@ -148,7 +148,7 @@ defaults:
       seo:
         type: Article
   - scope:
-      path: aggregators
+      path: routers
       type: pages
     values:
       permalink: /:basename
