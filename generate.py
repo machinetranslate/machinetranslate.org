@@ -239,6 +239,8 @@ for api in APIS:
   more_languages_by_request = api.get('more_languages_by_request', False)
 
   customisation = []
+  if prompt_required:
+    customisation.append('Prompting')
   if api.get('adaptive', False):
     customisation.append('Adaptive')
   if api.get('glossary', False):
