@@ -6,7 +6,6 @@ redirect_from: null
 title: Phrase NextMT
 id: phrase-nextmt
 inputs:
-- speech
 - text
 active: true
 grand_parent: Input modes

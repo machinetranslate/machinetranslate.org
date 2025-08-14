@@ -6,7 +6,7 @@ redirect_from: null
 title: Language Weaver
 id: language-weaver
 inputs:
-- speech
+- file
 - text
 active: true
 grand_parent: Input modes

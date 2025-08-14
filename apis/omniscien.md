@@ -18,7 +18,7 @@ customisation:
 - Formality
 - Fine-tuning
 inputs:
-- speech
+- file
 - text
 supported_languages:
 - slug: arabic

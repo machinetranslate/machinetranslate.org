@@ -14,8 +14,8 @@ self_serve: true
 customisation:
 - Glossary
 inputs:
-- speech
 - text
+- file
 supported_languages:
 - slug: catalan
   code: ca

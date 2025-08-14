@@ -6,8 +6,8 @@ redirect_from: null
 title: Alexa Translations A.I.
 id: alexa-translations-ai
 inputs:
-- speech
 - text
+- file
 active: true
 grand_parent: Input modes
 parent: Text

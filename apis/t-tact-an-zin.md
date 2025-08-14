@@ -14,6 +14,7 @@ self_serve: false
 customisation: []
 inputs:
 - text
+- file
 supported_languages:
 - slug: german
   code: de

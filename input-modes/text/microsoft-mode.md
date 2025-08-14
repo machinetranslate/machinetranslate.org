@@ -6,7 +6,6 @@ redirect_from: microsoft-translator
 title: Microsoft Translator
 id: microsoft
 inputs:
-- speech
 - text
 - file
 active: true

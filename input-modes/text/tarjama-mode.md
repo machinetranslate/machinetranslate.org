@@ -6,7 +6,6 @@ redirect_from: tarjama-mt
 title: Tarjama MT
 id: tarjama
 inputs:
-- speech
 - text
 active: true
 grand_parent: Input modes

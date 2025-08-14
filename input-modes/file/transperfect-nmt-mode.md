@@ -6,7 +6,6 @@ redirect_from: null
 title: TransPerfect NMT
 id: transperfect-nmt
 inputs:
-- speech
 - text
 - file
 active: true

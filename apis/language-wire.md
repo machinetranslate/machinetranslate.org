@@ -13,7 +13,6 @@ privacy_url: https://www.languagewire.com/en/info/terms-and-conditions
 self_serve: false
 customisation: []
 inputs:
-- speech
 - text
 - file
 supported_languages:

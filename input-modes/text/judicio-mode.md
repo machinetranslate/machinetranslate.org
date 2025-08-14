@@ -6,9 +6,8 @@ redirect_from: null
 title: Judicio
 id: judicio
 inputs:
-- speech
 - text
-active: true
+active: false
 grand_parent: Input modes
 parent: Text
 redirect_to: judicio

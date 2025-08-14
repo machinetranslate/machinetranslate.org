@@ -7,6 +7,7 @@ title: SAP Translation Hub
 id: sap
 inputs:
 - text
+- file
 active: true
 grand_parent: Input modes
 parent: Text

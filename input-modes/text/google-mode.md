@@ -6,7 +6,7 @@ redirect_from: google-translate
 title: Google Translate
 id: google
 inputs:
-- speech
+- file
 - text
 active: true
 grand_parent: Input modes

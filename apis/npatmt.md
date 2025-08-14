@@ -15,6 +15,7 @@ customisation:
 - Adaptive
 inputs:
 - text
+- file
 supported_languages: []
 more_languages_by_request: false
 integrations:

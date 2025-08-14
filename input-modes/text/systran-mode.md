@@ -6,7 +6,6 @@ redirect_from: null
 title: SYSTRAN
 id: systran
 inputs:
-- speech
 - text
 - file
 active: true

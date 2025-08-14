@@ -15,7 +15,7 @@ self_serve: true
 customisation:
 - Glossary
 inputs:
-- speech
+- file
 - text
 supported_languages:
 - slug: afrikaans

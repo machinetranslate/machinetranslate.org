@@ -16,7 +16,7 @@ customisation:
 - Adaptive
 - Glossary
 inputs:
-- speech
+- file
 - text
 supported_languages:
 - slug: german

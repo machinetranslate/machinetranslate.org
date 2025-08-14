@@ -6,7 +6,6 @@ redirect_from: null
 title: Tilde
 id: tilde
 inputs:
-- speech
 - text
 - file
 active: true

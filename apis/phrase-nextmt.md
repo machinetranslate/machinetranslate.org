@@ -15,7 +15,6 @@ customisation:
 - Adaptive
 - Glossary
 inputs:
-- speech
 - text
 supported_languages:
 - slug: czech

@@ -16,7 +16,6 @@ customisation:
 - Glossary
 - Fine-tuning
 inputs:
-- speech
 - text
 - file
 supported_languages:

@@ -6,7 +6,7 @@ redirect_from: omniscien-technologies
 title: Omniscien Technologies
 id: omniscien
 inputs:
-- speech
+- file
 - text
 active: true
 grand_parent: Input modes

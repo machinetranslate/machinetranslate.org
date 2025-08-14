@@ -16,6 +16,7 @@ customisation: []
 inputs:
 - speech
 - text
+- file
 supported_languages:
 - slug: arabic
   code: ar

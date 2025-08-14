@@ -6,7 +6,6 @@ redirect_from: watson-language-translator
 title: Watson Language Translator
 id: watson
 inputs:
-- speech
 - text
 - file
 active: true

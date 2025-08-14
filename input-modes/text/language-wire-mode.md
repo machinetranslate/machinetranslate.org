@@ -6,7 +6,6 @@ redirect_from: null
 title: Language Wire
 id: language-wire
 inputs:
-- speech
 - text
 - file
 active: true

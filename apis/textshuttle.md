@@ -8,7 +8,8 @@ description: The Supertext machine translation API
 id: textshuttle
 parent: APIs
 urls:
-- https://www.supertext.com/
+- https://www.supertext.com
+- https://www.supertext.com/en/documentation/api
 privacy_url: https://www.supertext.com/en/privacy
 self_serve: false
 customisation:
@@ -16,6 +17,7 @@ customisation:
 - Formality
 inputs:
 - text
+- file
 supported_languages:
 - slug: czech
   code: cs

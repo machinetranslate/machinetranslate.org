@@ -6,9 +6,7 @@ redirect_from: null
 title: Unbabel
 id: unbabel
 inputs:
-- speech
 - text
-- file
 active: true
 grand_parent: Input modes
 parent: Text

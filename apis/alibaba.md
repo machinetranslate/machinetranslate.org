@@ -14,7 +14,6 @@ privacy_url: https://www.alibabacloud.com/help/en/legal/latest/alibaba-cloud-int
 self_serve: true
 customisation: []
 inputs:
-- speech
 - text
 supported_languages:
 - slug: abkhaz

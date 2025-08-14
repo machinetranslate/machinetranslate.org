@@ -14,7 +14,6 @@ self_serve: true
 customisation:
 - Glossary
 inputs:
-- speech
 - text
 supported_languages:
 - slug: arabic

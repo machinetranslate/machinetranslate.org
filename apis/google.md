@@ -17,7 +17,7 @@ customisation:
 - Glossary
 - Fine-tuning
 inputs:
-- speech
+- file
 - text
 supported_languages:
 - slug: abkhaz

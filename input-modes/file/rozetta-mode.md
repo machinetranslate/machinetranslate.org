@@ -10,7 +10,7 @@ inputs:
 - text
 active: true
 grand_parent: Input modes
-parent: Text
+parent: File
 redirect_to: rozetta
 
 ---

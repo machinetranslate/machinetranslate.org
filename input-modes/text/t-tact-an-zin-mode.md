@@ -7,6 +7,7 @@ title: T-tact-AN-ZIN
 id: t-tact-an-zin
 inputs:
 - text
+- file
 active: true
 grand_parent: Input modes
 parent: Text

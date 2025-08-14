@@ -6,7 +6,6 @@ redirect_from: alibaba-translate
 title: Alibaba Translate
 id: alibaba
 inputs:
-- speech
 - text
 active: true
 grand_parent: Input modes

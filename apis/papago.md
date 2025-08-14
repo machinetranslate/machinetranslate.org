@@ -16,7 +16,7 @@ customisation:
 - Glossary
 - Formality
 inputs:
-- speech
+- file
 - text
 supported_languages:
 - slug: german

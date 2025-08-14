@@ -15,6 +15,7 @@ self_serve: true
 customisation: []
 inputs:
 - text
+- file
 supported_languages:
 - slug: arabic
   code: ar

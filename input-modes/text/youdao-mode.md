@@ -7,6 +7,7 @@ title: Youdao Translate
 id: youdao
 inputs:
 - speech
+- file
 - text
 active: true
 grand_parent: Input modes

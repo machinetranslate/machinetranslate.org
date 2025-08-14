@@ -6,7 +6,6 @@ redirect_from: null
 title: AISA
 id: aisa
 inputs:
-- speech
 - text
 active: true
 grand_parent: Input modes

@@ -6,11 +6,11 @@ redirect_from: sunda-translator
 title: Sunda Translator
 id: sunda
 inputs:
-- speech
+- file
 - text
 active: true
 grand_parent: Input modes
-parent: Speech
+parent: File
 redirect_to: sunda
 
 ---

@@ -14,9 +14,7 @@ privacy_url: https://resources.unbabel.com/one-pager-5/the-complete-unbabel-secu
 self_serve: false
 customisation: []
 inputs:
-- speech
 - text
-- file
 supported_languages:
 - slug: arabic
   code: ar

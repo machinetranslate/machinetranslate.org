@@ -14,9 +14,7 @@ privacy_url: https://yandex.com/legal/confidential/
 self_serve: true
 customisation: []
 inputs:
-- speech
 - text
-- file
 supported_languages:
 - slug: afrikaans
   code: af

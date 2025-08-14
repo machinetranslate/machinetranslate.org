@@ -13,7 +13,6 @@ privacy_url: null
 self_serve: false
 customisation: []
 inputs:
-- speech
 - text
 - file
 supported_languages: []

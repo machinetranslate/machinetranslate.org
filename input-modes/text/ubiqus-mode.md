@@ -7,6 +7,7 @@ title: Ubiqus NMT
 id: ubiqus
 inputs:
 - text
+- file
 active: true
 grand_parent: Input modes
 parent: Text

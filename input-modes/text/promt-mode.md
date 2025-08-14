@@ -7,6 +7,7 @@ title: PROMT
 id: promt
 inputs:
 - text
+- file
 active: true
 grand_parent: Input modes
 parent: Text

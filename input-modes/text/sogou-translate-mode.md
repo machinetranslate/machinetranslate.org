@@ -6,7 +6,7 @@ redirect_from: null
 title: Sogou Translate
 id: sogou-translate
 inputs:
-- speech
+- file
 - text
 active: true
 grand_parent: Input modes

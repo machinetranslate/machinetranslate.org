@@ -6,7 +6,7 @@ redirect_from: null
 title: XL8
 id: xl8
 inputs:
-- speech
+- file
 - text
 active: true
 grand_parent: Input modes

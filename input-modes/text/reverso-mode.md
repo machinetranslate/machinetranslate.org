@@ -6,7 +6,7 @@ redirect_from: null
 title: Reverso
 id: reverso
 inputs:
-- speech
+- file
 - text
 active: true
 grand_parent: Input modes

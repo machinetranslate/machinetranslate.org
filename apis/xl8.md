@@ -14,7 +14,7 @@ privacy_url: https://www.xl8.ai/tos
 self_serve: true
 customisation: []
 inputs:
-- speech
+- file
 - text
 supported_languages:
 - slug: arabic

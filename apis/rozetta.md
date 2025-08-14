@@ -14,7 +14,7 @@ privacy_url: null
 self_serve: false
 customisation: []
 inputs:
-- speech
+- file
 - text
 supported_languages:
 - slug: arabic

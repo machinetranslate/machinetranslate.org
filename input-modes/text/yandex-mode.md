@@ -6,9 +6,7 @@ redirect_from: yandex-translate
 title: Yandex Translate
 id: yandex
 inputs:
-- speech
 - text
-- file
 active: true
 grand_parent: Input modes
 parent: Text

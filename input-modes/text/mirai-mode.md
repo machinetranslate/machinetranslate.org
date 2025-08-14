@@ -6,7 +6,7 @@ redirect_from: mirai-translator
 title: Mirai Translator
 id: mirai
 inputs:
-- speech
+- file
 - text
 active: true
 grand_parent: Input modes
