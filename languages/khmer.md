@@ -57,9 +57,9 @@ supported_qe_apis:
 - slug: omniscien-confidence-scores
   id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
-- slug: demt-estimate
-  id: demt-estimate
-  name: DeMT Estimate
+- slug: taus-qe
+  id: taus-qe
+  name: TAUS QE
 - slug: modelfront
   id: modelfront
   name: ModelFront

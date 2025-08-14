@@ -141,9 +141,6 @@ quality_estimation_integrations:
 - slug: modelfront
   custom: true
   name: ModelFront
-- slug: demt-estimate
-  custom: true
-  name: DeMT Estimate
 automatic_post_editing_integrations:
 - slug: modelfront-ape
   custom: true
