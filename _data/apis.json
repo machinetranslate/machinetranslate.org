@@ -6587,7 +6587,7 @@
         "company": "microsoft",
         "urls": [
             "https://translator.microsoft.com",
-            "https://docs.microsoft.com/en-us/azure/cognitive-service"name"s/translator/language-support"
+            "https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support"
         ],
         "privacy_url": "https://www.microsoft.com/en-us/translator/business/notrace/",
         "languages": [
