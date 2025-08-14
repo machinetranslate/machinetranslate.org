@@ -74,14 +74,11 @@ supported_qe_apis:
   name: Omniscien Confidence Scores
 - id: phrase-mtqe
   name: Phrase MTQE
-- id: demt-estimate
-  name: DeMT Estimate
-- id: modelfront
-  name: ModelFront
-supported_ape_apis:
-- id: taus-epic-ape
-  name: TAUS EPIC
-- id: modelfront-ape
+- slug: taus-qe
+  id: taus-qe
+  name: TAUS QE
+- slug: modelfront
+  id: modelfront
   name: ModelFront
 seo:
   name: Machine translation for Irish

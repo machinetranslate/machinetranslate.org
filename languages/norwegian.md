@@ -95,16 +95,11 @@ supported_qe_apis:
   name: KantanQES
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
-- id: demt-estimate
-  name: DeMT Estimate
-- id: modelfront
-  name: ModelFront
-supported_ape_apis:
-- id: language-weaver-ape
-  name: Language Weaver
-- id: taus-epic-ape
-  name: TAUS EPIC
-- id: modelfront-ape
+- slug: taus-qe
+  id: taus-qe
+  name: TAUS QE
+- slug: modelfront
+  id: modelfront
   name: ModelFront
 seo:
   name: Machine translation for Norwegian

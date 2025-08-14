@@ -65,8 +65,9 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
-- id: demt-estimate
-  name: DeMT Estimate
+- slug: taus-qe
+  id: taus-qe
+  name: TAUS QE
 supported_ape_apis:
 - id: language-weaver-ape
   name: Language Weaver

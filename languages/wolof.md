@@ -42,11 +42,9 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
-- id: demt-estimate
-  name: DeMT Estimate
-supported_ape_apis:
-- id: taus-epic-ape
-  name: TAUS EPIC
+- slug: taus-qe
+  id: taus-qe
+  name: TAUS QE
 seo:
   name: Machine translation for Wolof
   type: Language
