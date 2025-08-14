@@ -3955,8 +3955,8 @@
         ]
     },
     {
-        "id": "demt-estimate",
-        "name": "DeMT Estimate",
+        "id": "taus-qe",
+        "name": "TAUS QE",
         "company": "TAUS",
         "tagline": null,
         "languages": [
