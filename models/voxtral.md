@@ -11,7 +11,7 @@ urls:
 - https://huggingface.co/mistralai/Voxtral-Small-24B-2507
 - https://huggingface.co/mistralai/Voxtral-Mini-3B-2507
 - https://mistral.ai/news/voxtral
-- https://docs.mistral.ai
+- https://docs.mistral.ai/getting-started/models/models_overview
 self_serve: true
 apis:
 - name: Mistral AI

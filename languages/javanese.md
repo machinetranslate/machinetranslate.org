@@ -31,8 +31,8 @@ supported_apis:
   name: Lilt
 - id: language-weaver
   name: Language Weaver
-- id: qwen3-mt
-  name: Qwen3‑MT
+- id: qwen-mt
+  name: Qwen-MT
 - id: textra
   name: TexTra
 - id: yandex

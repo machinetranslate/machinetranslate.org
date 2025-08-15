@@ -33,8 +33,8 @@ supported_apis:
   name: Language Weaver
 - id: omniscien
   name: Omniscien Technologies
-- id: qwen3-mt
-  name: Qwen3‑MT
+- id: qwen-mt
+  name: Qwen-MT
 - id: textra
   name: TexTra
 - id: yandex

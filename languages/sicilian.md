@@ -26,8 +26,8 @@ typology:
 territories:
 - it
 supported_apis:
-- id: qwen3-mt
-  name: Qwen3‑MT
+- id: qwen-mt
+  name: Qwen-MT
 - id: modernmt
   name: ModernMT
 - id: google

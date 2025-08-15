@@ -34,8 +34,8 @@ supported_apis:
   name: Iconic
 - id: iptranslator
   name: IP Translator
-- id: qwen3-mt
-  name: Qwen3‑MT
+- id: qwen-mt
+  name: Qwen-MT
 - id: microsoft
   name: Microsoft Translator
 - id: youdao

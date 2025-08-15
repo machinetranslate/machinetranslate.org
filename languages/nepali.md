@@ -37,8 +37,8 @@ supported_apis:
   name: Watson Language Translator
 - id: openai
   name: OpenAI
-- id: qwen3-mt
-  name: Qwen3‑MT
+- id: qwen-mt
+  name: Qwen-MT
 - id: textra
   name: TexTra
 - id: yandex

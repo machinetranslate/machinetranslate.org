@@ -85,14 +85,14 @@
         "self_serve": true
     },
     {
-        "name": "QWEN",
+        "name": "Qwen",
         "id": "qwen",
         "company": "alibaba-group",
         "urls": [
             "https://huggingface.co/Qwen/collections"
         ],
         "apis": [
-            "Qwen3‑MT"
+            "Qwen-MT"
         ],
         "self_serve": true
     },
@@ -121,18 +121,59 @@
         "self_serve": true
     },
     {
-       "name": "Voxtral",
-       "id": "voxtral",
-       "company": "mistral-ai",
-       "urls": [
-        "https://huggingface.co/mistralai/Voxtral-Small-24B-2507",
-           "https://huggingface.co/mistralai/Voxtral-Mini-3B-2507",
-           "https://mistral.ai/news/voxtral",
-           "https://docs.mistral.ai"
-       ],
-       "apis": [
+        "name": "Voxtral",
+        "id": "voxtral",
+        "company": "mistral-ai",
+        "urls": [
+            "https://huggingface.co/mistralai/Voxtral-Small-24B-2507",
+            "https://huggingface.co/mistralai/Voxtral-Mini-3B-2507",
+            "https://mistral.ai/news/voxtral",
+            "https://docs.mistral.ai/getting-started/models/models_overview"
+        ],
+        "apis": [
+            "Mistral AI"    
+        ],
+        "self_serve": true
+    },
+    {
+        "name": "Mistral",
+        "id": "mistral",
+        "company": "mistral-ai",
+        "urls": [
+            "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+            "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+            "https://huggingface.co/mistralai/Mistral-7B-v0.1",
+            "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+            "https://huggingface.co/mistralai/Mistral-7B-v0.3",
+            "https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407",
+            "https://huggingface.co/mistralai/Mistral-Nemo-Base-2407",
+            "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+            "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1",
+            "https://huggingface.co/mistralai/Mistral-Large-Instruct-2407",
+            "https://huggingface.co/mistralai/Mistral-Large-Instruct-2411",
+            "https://huggingface.co/mistralai/Mistral-Small-24B-Base-2501",
+            "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Base-2503",
+            "https://docs.mistral.ai/getting-started/models/models_overview"
+        ],
+        "apis": [
         "Mistral AI"
-       ],
-       "self_serve": true
+        ],
+        "self_serve": true
+    },
+    {
+        "name": "Mixtral",
+        "id": "mixtral",
+        "company": "mistral-ai",
+        "urls": [
+            "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
+            "https://huggingface.co/mistralai/Mixtral-8x7B-v0.1",
+            "https://huggingface.co/mistralai/Mixtral-8x22B-Instruct-v0.1",
+            "https://huggingface.co/mistralai/Mixtral-8x22B-v0.1",
+            "https://docs.mistral.ai/getting-started/models/models_overview"
+        ],
+        "apis": [
+        "Mistral AI"
+        ],
+        "self_serve": true
    }
 ]

@@ -31,8 +31,8 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
-- id: qwen3-mt
-  name: Qwen3‑MT
+- id: qwen-mt
+  name: Qwen-MT
 - id: textra
   name: TexTra
 - id: modernmt

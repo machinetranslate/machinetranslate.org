@@ -86,6 +86,10 @@ integrations: []
 models:
 - name: Voxtral
   slug: voxtral
+- name: Mistral
+  slug: mistral
+- name: Mixtral
+  slug: mixtral
 active: true
 file_translation: null
 seo:

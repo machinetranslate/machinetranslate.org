@@ -32,8 +32,8 @@ territories:
 supported_apis:
 - id: omniscien
   name: Omniscien Technologies
-- id: qwen3-mt
-  name: Qwen3‑MT
+- id: qwen-mt
+  name: Qwen-MT
 - id: yandex
   name: Yandex Translate
 - id: lingvanex

@@ -14873,7 +14873,9 @@
         "company": "openai",
         "urls": [
             "https://platform.openai.com/docs/guides/gpt",
-            "https://platform.openai.com/docs/guides/prompt-engineering"
+            "https://platform.openai.com/docs/guides/prompt-engineering",
+            "https://github.com/openai/whisper#available-models-and-languages",
+            "https://help.openai.com/en/articles/6742369-how-can-i-use-the-openai-api-with-text-in-different-languages"
         ],
         "languages": [
             "af",
@@ -15252,12 +15254,11 @@
         ]
     },
     {
-        "name": "Qwen3‑MT",
-        "id": "qwen3-mt",
+        "name": "Qwen-MT",
+        "id": "qwen-mt",
         "company": "alibaba-group", 
         "urls": [
             "https://huggingface.co/spaces/Qwen/Qwen3-MT-Demo",
-            "https://modelscope.cn/studios/Qwen/Qwen3-MT-demo",
             "https://www.alibabacloud.com/help/en/model-studio/machine-translation",
             "https://qwenlm.github.io/blog/qwen-mt"
         ],
@@ -15353,7 +15354,7 @@
         "adaptive": true,
         "self-serve": true,
         "models": [
-            "QWEN"
+            "Qwen"
         ]
     },
     {
@@ -15380,11 +15381,15 @@
            "zh"
        ],
        "inputs": [
-           "speech"
+           "speech",
+           "text"
        ],
        "self-serve": true,
+       "prompt_required": true,
        "models": [
-        "Voxtral"
+        "Voxtral",
+        "Mistral",
+        "Mixtral"
        ]
    }
 ]

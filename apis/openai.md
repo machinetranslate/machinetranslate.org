@@ -10,6 +10,8 @@ parent: APIs
 urls:
 - https://platform.openai.com/docs/guides/gpt
 - https://platform.openai.com/docs/guides/prompt-engineering
+- https://github.com/openai/whisper#available-models-and-languages
+- https://help.openai.com/en/articles/6742369-how-can-i-use-the-openai-api-with-text-in-different-languages
 privacy_url: null
 self_serve: true
 customisation: []

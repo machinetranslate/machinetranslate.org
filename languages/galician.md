@@ -42,8 +42,8 @@ supported_apis:
   name: OpenAI
 - id: wordlingo
   name: Wordlingo
-- id: qwen3-mt
-  name: Qwen3‑MT
+- id: qwen-mt
+  name: Qwen-MT
 - id: textra
   name: TexTra
 - id: yandex
