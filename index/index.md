@@ -57,6 +57,7 @@ The **Machine Translate Foundation** is building **open information** and **comm
 The content covers everything about machine translation, from products to research, and from history to news.
 
 > #### Featured events
+> - [AMTA25](/amta-2025) - 25 September 2025, online 🌎 
 > - [WMT25](/wmt25) - 05-09 November 2025, Suzhou, China 🇨🇳
 > - [MT Summit 2025](/mt-summit-2025) - 23-27 June 2025, Geneva 🇨🇭
 > - [Speech machine translation panel](/meetup) - to be determined, online 🌎
