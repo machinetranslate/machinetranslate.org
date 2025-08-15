@@ -1,7 +1,6 @@
 ---
 parent: Input modes
 nav_order: 3
-has_children: true
 has_toc: false
 title: File
 description: Machine translation API support for translating entire files
