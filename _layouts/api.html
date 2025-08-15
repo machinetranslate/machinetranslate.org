@@ -57,11 +57,11 @@ parent: APIs
     {% assign type_lower = type | downcase %}
     {% case type_lower %}
       {% when 'speech' %}
-        {% assign links = links | push: "<a href='/speech'>speech translation</a>" %}
+        {% assign links = links | push: "<a href='/speech'>speech</a>" %}
       {% when 'file' %}
-        {% assign links = links | push: "<a href='/file'>file translation</a>" %}
+        {% assign links = links | push: "<a href='/file'>file</a>" %}
       {% when 'text' %}
-        {% assign links = links | push: "<a href='/text'>text translation</a>" %}
+        {% assign links = links | push: "<a href='/text'>text</a>" %}
       {% else %}
         {% assign links = links | push: type %}
     {% endcase %}
