@@ -21,6 +21,7 @@ integrations:
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/lionbridge-geofluent.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-lionbridge-geofluent-mt-engine.html
+models: []
 active: true
 file_translation: null
 seo:

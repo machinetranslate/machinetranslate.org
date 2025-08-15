@@ -641,6 +641,7 @@ integrations:
   name: Smartcat
 - slug: wordfast
   name: Wordfast
+models: []
 active: true
 file_translation: true
 seo:

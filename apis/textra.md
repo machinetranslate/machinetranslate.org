@@ -634,6 +634,7 @@ integrations:
   active: false
   urls:
   - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/tool/xtm/edit/
+models: []
 active: true
 file_translation: null
 seo:

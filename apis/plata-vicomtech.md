@@ -18,6 +18,7 @@ integrations:
   name: Wordbee
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
+models: []
 active: false
 file_translation: null
 seo:

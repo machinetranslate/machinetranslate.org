@@ -21,6 +21,7 @@ integrations:
   plugin: true
   urls:
   - https://appstore.rws.com/Plugins/178
+models: []
 active: true
 file_translation: null
 seo:

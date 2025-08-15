@@ -176,6 +176,7 @@ integrations:
   custom: true
   urls:
   - https://appstore.rws.com/plugin/187/
+models: []
 active: true
 file_translation: null
 seo:

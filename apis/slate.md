@@ -21,6 +21,7 @@ integrations:
   active: false
   urls:
   - https://docs.memoq.com/current/en/Places/slate-desktop-plugin-settings.html
+models: []
 active: false
 file_translation: null
 seo:

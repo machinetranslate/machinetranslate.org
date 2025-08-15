@@ -407,6 +407,7 @@ integrations:
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/omniscien-language-studio.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-omniscien-technologies-language-studio-mt-engine.html
+models: []
 active: true
 file_translation: null
 seo:

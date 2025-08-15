@@ -211,6 +211,7 @@ integrations:
   name: memoQ
   urls:
   - https://docs.memoq.com/current/en/Places/etranslation-mt-plugin-settings.html
+models: []
 active: true
 file_translation: null
 seo:

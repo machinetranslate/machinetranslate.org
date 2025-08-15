@@ -367,6 +367,7 @@ integrations:
 - slug: xtm
   name: XTM
   active: false
+models: []
 active: false
 file_translation: null
 seo:

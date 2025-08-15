@@ -90,6 +90,7 @@ integrations:
   active: false
   urls:
   - https://confluence.translate5.net/display/CON/PangeaMT
+models: []
 active: true
 file_translation: null
 seo:

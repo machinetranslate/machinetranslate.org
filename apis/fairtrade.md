@@ -17,6 +17,7 @@ more_languages_by_request: false
 integrations:
 - slug: phrase-tms
   name: Phrase TMS
+models: []
 active: false
 file_translation: null
 seo:

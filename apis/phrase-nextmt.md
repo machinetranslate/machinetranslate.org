@@ -74,6 +74,7 @@ integrations:
 - slug: phrase-tms
   name: Phrase TMS
   glossary: true
+models: []
 active: true
 file_translation: null
 seo:

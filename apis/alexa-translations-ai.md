@@ -98,6 +98,7 @@ integrations:
   plugin: true
   urls:
   - https://appstore.rws.com/plugin/149/
+models: []
 active: true
 file_translation: null
 seo:

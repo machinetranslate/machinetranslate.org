@@ -17,6 +17,7 @@ more_languages_by_request: false
 integrations:
 - slug: globallink
   name: GlobalLink
+models: []
 active: true
 file_translation: null
 seo:

@@ -356,6 +356,7 @@ integrations:
   adaptive: true
   urls:
   - https://support.lilt.com/kb/introduction-to-lilt-translate
+models: []
 active: true
 file_translation: true
 seo:

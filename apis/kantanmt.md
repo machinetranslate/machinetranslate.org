@@ -388,6 +388,7 @@ integrations:
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/kantanmt.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-kantanmt-engine.html
+models: []
 active: true
 file_translation: true
 seo:

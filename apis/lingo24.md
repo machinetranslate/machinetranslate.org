@@ -105,6 +105,7 @@ integrations:
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/lingo24.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-lingo24-mt-engine.html
+models: []
 active: false
 file_translation: null
 seo:

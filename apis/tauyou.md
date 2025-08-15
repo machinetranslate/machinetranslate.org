@@ -30,6 +30,7 @@ integrations:
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/tauyou.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-tauyou-mt-engine.html
+models: []
 active: false
 file_translation: null
 seo:

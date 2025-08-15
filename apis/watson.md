@@ -375,6 +375,7 @@ integrations:
 - slug: smartling
   name: Smartling
   custom: true
+models: []
 active: true
 file_translation: true
 seo:
