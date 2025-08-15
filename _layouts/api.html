@@ -76,7 +76,7 @@ parent: APIs
       {% elsif forloop.first %}
         {{ link }}
       {% else %}
-        , {{ link }}
+      , {{ link }}
       {% endif %}
     {% endfor %}
     input mode{% if links.size > 1 %}s.{% endif %}

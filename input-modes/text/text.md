@@ -11,7 +11,7 @@ description: Text-to-text machine translation, text-to-speech machine translatio
 
 ### API support
 <details>
-<summary>{{apis.size}} machine translation APIs support file translation.</summary>
+<summary>{{apis.size}} machine translation APIs support text translation.</summary>
 
 {% capture api_content %}
 {% for api in apis %}
