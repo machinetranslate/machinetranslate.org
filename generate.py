@@ -337,8 +337,7 @@ for api in APIS:
     if 'speech' in [i.lower() for i in inputs]:
       filtered_frontmatter['grand_parent'] = 'Input modes'
       filtered_frontmatter['parent'] = 'Speech'
-      filtered_frontmatter['redirect_to'] = api_id
-      filepath = f'input-modes/speech/{ api_id }-mode.md'
+      filepath = f'input-modes/speech/{ api_id }.md'
       content = read_content(filepath)
       with open(filepath, 'w', encoding='utf-8') as f:
         f.write(f'''\
@@ -348,12 +347,10 @@ for api in APIS:
 { content }
 ''')
         
-    # if api.get('text_translation', False):
     if 'text' in [i.lower() for i in inputs]:
       filtered_frontmatter['grand_parent'] = 'Input modes'
       filtered_frontmatter['parent'] = 'Text'
-      filtered_frontmatter['redirect_to'] = api_id
-      filepath = f'input-modes/text/{ api_id }-mode.md'
+      filepath = f'input-modes/text/{ api_id }.md'
       content = read_content(filepath)
       with open(filepath, 'w', encoding='utf-8') as f:
         f.write(f'''\
@@ -366,8 +363,7 @@ for api in APIS:
     if 'file' in [i.lower() for i in inputs]:
       filtered_frontmatter['grand_parent'] = 'Input modes'
       filtered_frontmatter['parent'] = 'File'
-      filtered_frontmatter['redirect_to'] = api_id
-      filepath = f'input-modes/file/{ api_id }-mode.md'
+      filepath = f'input-modes/file/{ api_id }.md'
       content = read_content(filepath)
       with open(filepath, 'w', encoding='utf-8') as f:
         f.write(f'''\
