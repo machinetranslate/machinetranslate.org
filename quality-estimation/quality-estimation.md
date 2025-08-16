@@ -88,7 +88,7 @@ It is provided as an API, so it can be integrated into other systems and product
 | Provider | Product |
 | --- | --- |
 | [ModelFront](/companies#modelfront) | [ModelFront quality prediction](https://modelfront.com) |
-| TAUS | [DeMT Estimate API](https://www.taus.net/demt) |
+| TAUS | [TAUS QE](https://www.taus.net) |
 
 There are also providers that offer a quality estimation feature or integration within another product.
 
