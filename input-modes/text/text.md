@@ -1,6 +1,5 @@
 ---
 parent: Input modes
-layout: coming_soon
 nav_order: 1
 has_toc: false
 title: Text

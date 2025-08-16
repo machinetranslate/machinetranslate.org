@@ -13,7 +13,7 @@ A growing number of machine translation APIs support translating various file ty
 ## File types
 
 There is support for plain text files as well as the most common document formats.
-- text and Markdown files
+- Text and Markdown files
 - HTML and XML files
 - JSON and YAML files
 - Microsoft Word and PowerPoint files

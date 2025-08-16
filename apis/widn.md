@@ -13,6 +13,8 @@ urls:
 privacy_url: null
 self_serve: true
 customisation: []
+inputs:
+- text
 supported_languages:
 - slug: arabic
   code: ar
@@ -242,7 +244,6 @@ models:
 - name: TowerLLM
   slug: towerllm
 active: true
-file_translation: null
 seo:
   name: The Widn machine translation API
   type: Product

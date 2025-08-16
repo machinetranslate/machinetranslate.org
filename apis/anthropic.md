@@ -14,6 +14,9 @@ urls:
 privacy_url: null
 self_serve: true
 customisation: []
+inputs:
+- text
+- file
 supported_languages:
 - slug: amharic
   code: am
@@ -333,7 +336,6 @@ models:
 - name: Claude Sonnet
   slug: claude-sonnet
 active: true
-file_translation: null
 seo:
   name: The Anthropic machine translation API
   type: Product

@@ -14,6 +14,9 @@ urls:
 privacy_url: https://mistral.ai/terms
 self_serve: true
 customisation: []
+inputs:
+- speech
+- text
 supported_languages:
 - slug: arabic
   code: ar
@@ -91,7 +94,6 @@ models:
 - name: Mixtral
   slug: mixtral
 active: true
-file_translation: null
 seo:
   name: The Mistral AI machine translation API
   type: Product

@@ -1,11 +1,26 @@
 ---
 parent: Input modes
-layout: coming_soon
 nav_order: 2
 has_toc: false
 title: Speech
-description: Speech-to-speech machine translation, text-to-speech machine translation, speech-to-text machine translation
+description: Speech input to machine translation APIs
 ---
+
+Speech input, also known as voice input or audio input, is a feature of machine translation APIs required for speech translation.
+
+There are different types of speech translation.
+
+- Live (simultaneous) speech translation
+- Offline (asynchronous) speech translation
+
+Speech input can be combined with different types of output.
+
+- Speech-to-speech machine translation (dubbing)
+- Speech-to-text machine translation (subtitles)
+
+Often, speech recognition (transcription) and translation are separate APIs or API calls, that can be combined to effectively support speech translation.
+
+Speech translation APIs are typically slower than text translation APIs.
 
 {% assign apis = site.data.apis | where_exp: 'api', 'api.inputs contains "speech"' %}
 
@@ -20,5 +35,4 @@ description: Speech-to-speech machine translation, text-to-speech machine transl
 {% endcapture %}
 
 {{ api_content | markdownify }}
-
 </details>
