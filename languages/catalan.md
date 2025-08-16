@@ -82,6 +82,12 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
+- slug: quality-intelligence
+  id: quality-intelligence
+  name: Quality Intelligence
+- slug: language-weaver
+  id: language-weaver-mtqe
+  name: Language Weaver
 - slug: phrase-mtqe
   id: phrase-mtqe
   name: Phrase MTQE
@@ -91,6 +97,9 @@ supported_qe_apis:
 - slug: modelfront
   id: modelfront
   name: ModelFront
+- slug: modernmt
+  id: modernmt-qe
+  name: ModernMT
 seo:
   name: Machine translation for Catalan
   type: Language

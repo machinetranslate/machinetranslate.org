@@ -31,7 +31,10 @@ supported_apis:
   name: ModernMT
 - id: niutrans
   name: Niutrans
-supported_qe_apis: []
+supported_qe_apis:
+- slug: modernmt
+  id: modernmt-qe
+  name: ModernMT
 seo:
   name: Machine translation for Kimbundu
   type: Language

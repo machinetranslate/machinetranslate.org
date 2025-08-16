@@ -668,9 +668,9 @@ for estimation in QUALITY_ESTIMATION:
   if not isinstance(name, str):
     raise Exception(name)
 
-  company_id = estimation['id']
-  if not isinstance(company_id, str):
-    raise Exception(company_id)
+  estimation_id = estimation['id']
+  if not isinstance(estimation_id, str):
+    raise Exception(estimation_id)
   
   company = estimation['company'].replace('-',' ')
   if not isinstance(company, str):
@@ -720,13 +720,13 @@ for estimation in QUALITY_ESTIMATION:
     language_name = None
     language_slug = None
     for lang in LANGUAGES:
-      normalized_code = normalize_language_code(code, company_id)
+      normalized_code = normalize_language_code(code, estimation_id)
       base_code = base_language_code(normalized_code)
       if base_code in lang['codes']:
         language_name = lang.get('names', [None])[0]
         language_slug = slugify(language_name) if language_name else code
         break
-    variant_name = get_language_variant_name(code, company_id)
+    variant_name = get_language_variant_name(code, estimation_id)
     supported_languages.append({
       'slug': language_slug,
       'code': code,
@@ -735,7 +735,7 @@ for estimation in QUALITY_ESTIMATION:
       'variant_name': variant_name
     })
 
-  integrations = get_tms_by_id_and_key(company_id, 'quality_estimation_integrations')
+  integrations = get_tms_by_id_and_key(estimation_id, 'quality_estimation_integrations')
 
   desc = f'The {name} translation quality estimation API'
 
@@ -747,7 +747,7 @@ for estimation in QUALITY_ESTIMATION:
     'title': name,
     'description': desc,
     'tagline': tagline,
-    'id': company_id,
+    'id': estimation_id,
     'company': company,
     'parent': 'Quality estimation',
     'urls': urls,
@@ -763,9 +763,7 @@ for estimation in QUALITY_ESTIMATION:
     }
   }
 
-  slug = slugify(name)
-
-  filepath = f'quality-estimation/{ slug }.md'
+  filepath = f'quality-estimation/{ estimation_id }.md'
 
   content = read_content(filepath)
 
@@ -776,7 +774,7 @@ for estimation in QUALITY_ESTIMATION:
 ---
 { content }
 ''')
-    
+
 
 ### Generate Automatic post-editing files
 for ape in AUTOMATIC_POST_EDITING:

@@ -41,7 +41,10 @@ supported_apis:
   name: Google Translate
 - id: niutrans
   name: Niutrans
-supported_qe_apis: []
+supported_qe_apis:
+- slug: modernmt
+  id: modernmt-qe
+  name: ModernMT
 seo:
   name: Machine translation for Tsonga
   type: Language
