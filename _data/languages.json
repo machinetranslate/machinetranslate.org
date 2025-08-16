@@ -6747,6 +6747,88 @@
     },
     {
         "codes": [
+            "na",
+            "nau"
+        ],
+        "names": [
+            "Nauruan",
+            "Nauru"
+        ],
+        "family": [
+            "map"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "nr"
+        ]
+    },
+    {
+        "codes": [
+            "nd",
+            "nde"
+        ],
+        "names": [
+            "North Ndebele",
+            "Zimbabwean Ndebele"
+        ],
+        "family": [
+            "bnt"
+        ],
+        "scripts": [
+            "Latn"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "agglutinative"
+            ]
+        },
+        "territories": [
+            "zw"
+        ]
+    },
+    {
+        "codes": [
+            "za",
+            "zha"
+        ],
+        "names": [
+            "Zhuang",
+            "Chuang"
+        ],
+        "family": [
+            "tai"
+        ],
+        "scripts": [
+            "Latn",
+            "Han"
+        ],
+        "typology": {
+            "word_order": [
+                "SVO"
+            ],
+            "morphosyntax": [
+                "analytic"
+            ]
+        },
+        "territories": [
+            "cn"
+        ]
+    },
+    {
+        "codes": [
             "ch",
             "cha"
         ],
@@ -8669,6 +8751,526 @@
     {
         "codes": [
             "sjn"
+        ]
+    },
+    {
+        "codes": [
+            "abr"
+        ]
+    },
+    {
+        "codes": [
+            "acm"
+        ]
+    },
+    {
+        "codes": [
+            "acq"
+        ]
+    },
+    {
+        "codes": [
+            "acw"
+        ]
+    },
+    {
+        "codes": [
+            "acx"
+        ]
+    },
+    {
+        "codes": [
+            "acy"
+        ]
+    },
+    {
+        "codes": [
+            "ady"
+        ]
+    },
+    {
+        "codes": [
+            "aeb"
+        ]
+    },
+    {
+        "codes": [
+            "ajp"
+        ]
+    },
+    {
+        "codes": [
+            "alt"
+        ]
+    },
+    {
+        "codes": [
+            "anp"
+        ]
+    },
+    {
+        "codes": [
+            "arb"
+        ]
+    },
+    {
+        "codes": [
+            "ary"
+        ]
+    },
+    {
+        "codes": [
+            "arz"
+        ]
+    },
+    {
+        "codes": [
+            "bar"
+        ]
+    },
+    {
+        "codes": [
+            "bej"
+        ]
+    },
+    {
+        "codes": [
+            "bym"
+        ]
+    },
+    {
+        "codes": [
+            "dar"
+        ]
+    },
+    {
+        "codes": [
+            "dty"
+        ]
+    },
+    {
+        "codes": [
+            "egl"
+        ]
+    },
+    {
+        "codes": [
+            "emk"
+        ]
+    },
+    {
+        "codes": [
+            "ext"
+        ]
+    },
+    {
+        "codes": [
+            "fan"
+        ]
+    },
+    {
+        "codes": [
+            "fat"
+        ]
+    },
+    {
+        "codes": [
+            "frc"
+        ]
+    },
+    {
+        "codes": [
+            "fro"
+        ]
+    },
+    {
+        "codes": [
+            "gag"
+        ]
+    },
+    {
+        "codes": [
+            "gan"
+        ]
+    },
+    {
+        "codes": [
+            "gez"
+        ]
+    },
+    {
+        "codes": [
+            "glk"
+        ]
+    },
+    {
+        "codes": [
+            "gmh"
+        ]
+    },
+    {
+        "codes": [
+            "goh"
+        ]
+    },
+    {
+        "codes": [
+            "gon"
+        ]
+    },
+    {
+        "codes": [
+            "gor"
+        ]
+    },
+    {
+        "codes": [
+            "got"
+        ]
+    },
+    {
+        "codes": [
+            "guz"
+        ]
+    },
+    {
+        "codes": [
+            "hit"
+        ]
+    },
+    {
+        "codes": [
+            "jpr"
+        ]
+    },
+    {
+        "codes": [
+            "jrb"
+        ]
+    },
+    {
+        "codes": [
+            "kaa"
+        ]
+    },
+    {
+        "codes": [
+            "kaj"
+        ]
+    },
+    {
+        "codes": [
+            "kbd"
+        ]
+    },
+    {
+        "codes": [
+            "kck"
+        ]
+    },
+    {
+        "codes": [
+            "kde"
+        ]
+    },
+    {
+        "codes": [
+            "kho"
+        ]
+    },
+    {
+        "codes": [
+            "khq"
+        ]
+    },
+    {
+        "codes": [
+            "khw"
+        ]
+    },
+    {
+        "codes": [
+            "kln"
+        ]
+    },
+    {
+        "codes": [
+            "kos"
+        ]
+    },
+    {
+        "codes": [
+            "kpe"
+        ]
+    },
+    {
+        "codes": [
+            "krc"
+        ]
+    },
+    {
+        "codes": [
+            "krl"
+        ]
+    },
+    {
+        "codes": [
+            "kru"
+        ]
+    },
+    {
+        "codes": [
+            "kum"
+        ]
+    },
+    {
+        "codes": [
+            "kut"
+        ]
+    },
+    {
+        "codes": [
+            "lad"
+        ]
+    },
+    {
+        "codes": [
+            "lah"
+        ]
+    },
+    {
+        "codes": [
+            "lam"
+        ]
+    },
+    {
+        "codes": [
+            "lez"
+        ]
+    },
+    {
+        "codes": [
+            "lui"
+        ]
+    },
+    {
+        "codes": [
+            "luy"
+        ]
+    },
+    {
+        "codes": [
+            "man"
+        ]
+    },
+    {
+        "codes": [
+            "mas"
+        ]
+    },
+    {
+        "codes": [
+            "mde"
+        ]
+    },
+    {
+        "codes": [
+            "mdf"
+        ]
+    },
+    {
+        "codes": [
+            "men"
+        ]
+    },
+    {
+        "codes": [
+            "mer"
+        ]
+    },
+    {
+        "codes": [
+            "mgh"
+        ]
+    },
+    {
+        "codes": [
+            "mgo"
+        ]
+    },
+    {
+        "codes": [
+            "mic"
+        ]
+    },
+    {
+        "codes": [
+            "moh"
+        ]
+    },
+    {
+        "codes": [
+            "mua"
+        ]
+    },
+    {
+        "codes": [
+            "mwl"
+        ]
+    },
+    {
+        "codes": [
+            "mwr"
+        ]
+    },
+    {
+        "codes": [
+            "myv"
+        ]
+    },
+    {
+        "codes": [
+            "mzn"
+        ]
+    },
+    {
+        "codes": [
+            "naq"
+        ]
+    },
+    {
+        "codes": [
+            "nmg"
+        ]
+    },
+    {
+        "codes": [
+            "nnh"
+        ]
+    },
+    {
+        "codes": [
+            "nwc"
+        ]
+    },
+    {
+        "codes": [
+            "olo"
+        ]
+    },
+    {
+        "codes": [
+            "osa"
+        ]
+    },
+    {
+        "codes": [
+            "ota"
+        ]
+    },
+    {
+        "codes": [
+            "pau"
+        ]
+    },
+    {
+        "codes": [
+            "pms"
+        ]
+    },
+    {
+        "codes": [
+            "pnt"
+        ]
+    },
+    {
+        "codes": [
+            "rap"
+        ]
+    },
+    {
+        "codes": [
+            "rof"
+        ]
+    },
+    {
+        "codes": [
+            "rup"
+        ]
+    },
+    {
+        "codes": [
+            "rwk"
+        ]
+    },
+    {
+        "codes": [
+            "ses"
+        ]
+    },
+    {
+        "codes": [
+            "sma"
+        ]
+    },
+    {
+        "codes": [
+            "smj"
+        ]
+    },
+    {
+        "codes": [
+            "smn"
+        ]
+    },
+    {
+        "codes": [
+            "sms"
+        ]
+    },
+    {
+        "codes": [
+            "tem"
+        ]
+    },
+    {
+        "codes": [
+            "vai"
+        ]
+    },
+    {
+        "codes": [
+            "vot"
+        ]
+    },
+    {
+        "codes": [
+            "wae"
+        ]
+    },
+    {
+        "codes": [
+            "wbp"
+        ]
+    },
+    {
+        "codes": [
+            "wen"
+        ]
+    },
+    {
+        "codes": [
+            "xog"
+        ]
+    },
+    {
+        "codes": [
+            "yav"
+        ]
+    },
+    {
+        "codes": [
+            "zea"
         ]
     },
     {

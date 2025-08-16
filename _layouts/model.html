@@ -1,0 +1,84 @@
+---
+layout: default
+parent: Models
+---
+
+
+<h1>
+  {{ page.title }}
+</h1>
+<h2>
+  {{ page.description }}
+</h2>
+
+<hr/>
+
+<p>
+  {% if page.apis.size == 1 %}
+  <a href="#apis">1 translation API</a> serves the <strong>{{ page.title }}</strong> large language model.{% endif %}
+  {% if page.apis.size > 1 %}
+   <a href="#apis">{{ page.apis | size }} translation APIs</a> serve the <strong>{{ page.title }}</strong> large language model.
+  {% endif %}
+</p>
+
+
+<blockquote>
+
+  <dl>
+    
+  {% if page.apis.size > 0 %}
+    <dt>APIs</dt>
+    <dd><a href="#apis">{{ page.apis | size }} translation API{% if page.apis.size != 1 %}s{% endif %}</a></dd>
+  {% endif %}
+
+  {% if page.customisation.size > 0 %}
+    <dt>Customisation</dt>
+    <dd>
+      {% for customisation_type in page.customisation %}
+        {{ customisation_type }}{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </dd>
+  {% endif %}
+
+  </dl>
+
+  {% if page.urls.size > 0 %}
+    <hr/>
+    <ul>
+      {% for url in page.urls %}
+      <li>
+        <a href="{{ url }}" target="_blank">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if page.self_serve == false %}
+    <hr/>
+    <p>🔒 No self-service</p>
+  {% elsif page.self_serve == true %}
+      <hr/>
+    <p>🛒 Self-service</p>
+  {% endif %}
+
+</blockquote>
+
+<section id="apis">
+  <h2>APIs</h2>
+  <details>
+    <summary>
+      {{ page.title }} is served by <strong>{{ page.apis | size }}</strong> translation API{% if page.apis.size != 1 %}s{% endif %}.
+      <p class="preview hint">
+        {{ page.integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if page.apis.size > 5 %}, …{% endif %}
+      </p>
+    </summary>
+    <ul>
+      {% for i in page.apis %}
+        <li>
+            <a href="/{{ i.slug }}" >{{ i.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </details>
+</section>

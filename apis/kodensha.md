@@ -271,6 +271,7 @@ integrations:
 - slug: phrase-tms
   name: Phrase TMS
   active: false
+models: []
 active: true
 file_translation: null
 seo:

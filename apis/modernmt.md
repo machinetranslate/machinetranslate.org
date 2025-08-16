@@ -1248,6 +1248,7 @@ integrations:
   name: Wordfast
   urls:
   - https://www.wordfast.net/wiki/Connecting_Wordfast_Pro_to_Modern_MT
+models: []
 active: true
 file_translation: null
 seo:

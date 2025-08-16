@@ -28,6 +28,7 @@ integrations:
   name: translate5
   urls:
   - https://confluence.translate5.net/display/BUS/Moses
+models: []
 active: true
 file_translation: null
 seo:

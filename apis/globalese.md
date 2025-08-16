@@ -267,6 +267,7 @@ integrations:
   plugin: true
   urls:
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647037255
+models: []
 active: true
 file_translation: null
 seo:

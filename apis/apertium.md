@@ -299,6 +299,7 @@ integrations:
   name: Phrase TMS
 - slug: omegat
   name: OmegaT
+models: []
 active: true
 file_translation: null
 seo:

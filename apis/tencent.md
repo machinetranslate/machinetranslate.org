@@ -143,6 +143,7 @@ integrations:
   plugin: true
   urls:
   - https://github.com/yoyicue/omegat-tencent-plugin
+models: []
 active: true
 file_translation: null
 seo:

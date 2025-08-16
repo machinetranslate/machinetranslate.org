@@ -274,6 +274,7 @@ integrations:
   glossary: true
 - slug: smartling
   name: Smartling
+models: []
 active: true
 file_translation: null
 seo:

@@ -1231,6 +1231,7 @@ integrations:
 - slug: tolgee
   name: Tolgee
   active: false
+models: []
 active: true
 file_translation: null
 seo:
