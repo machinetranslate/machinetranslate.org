@@ -567,7 +567,7 @@
                }
             },
             {
-                "demt-estimate": {
+                "taus-qe": {
                     "custom": true
                }
             }
