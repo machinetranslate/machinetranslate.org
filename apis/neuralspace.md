@@ -12,6 +12,7 @@ urls:
 - https://docs.neuralspace.ai/machine-translation/overview
 privacy_url: null
 self_serve: false
+prompt_required: false
 customisation: []
 supported_languages:
 - slug: afrikaans
@@ -773,7 +774,7 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 models: []
-active: true
+active: false
 file_translation: null
 seo:
   name: The NeuralSpace machine translation API

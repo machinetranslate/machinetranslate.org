@@ -12,6 +12,7 @@ urls:
 - https://translateme.network/api/
 privacy_url: null
 self_serve: null
+prompt_required: false
 customisation: []
 supported_languages:
 - slug: german

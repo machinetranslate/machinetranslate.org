@@ -12,6 +12,7 @@ urls:
 - https://www.sunda.fi/en/technology-tools.html
 privacy_url: null
 self_serve: true
+prompt_required: false
 customisation:
 - Adaptive
 - Glossary

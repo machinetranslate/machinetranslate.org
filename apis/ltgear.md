@@ -12,6 +12,7 @@ urls:
 - https://ltgear3.moravia.com//swagger/ui/index
 privacy_url: null
 self_serve: false
+prompt_required: false
 customisation: []
 supported_languages: []
 more_languages_by_request: false

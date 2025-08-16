@@ -12,6 +12,7 @@ urls:
 - https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
 privacy_url: https://www.microsoft.com/en-us/translator/business/notrace/
 self_serve: true
+prompt_required: false
 customisation:
 - Glossary
 - Fine-tuning

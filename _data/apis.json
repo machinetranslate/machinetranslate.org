@@ -7183,7 +7183,8 @@
             "zh-TW",
             "zu"
         ],
-        "self-serve": false
+        "self-serve": false,
+        "active": false
     },
     {
         "name": "Niutrans",
