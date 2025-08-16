@@ -13,6 +13,9 @@ urls:
 privacy_url: null
 self_serve: null
 customisation: []
+inputs:
+- speech
+- text
 supported_languages:
 - slug: arabic
   code: ar-sa
@@ -180,7 +183,6 @@ more_languages_by_request: false
 integrations: []
 models: []
 active: true
-file_translation: null
 seo:
   name: The Lingmo Translation machine translation API
   type: Product

@@ -14,6 +14,9 @@ privacy_url: https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/policy/
 self_serve: true
 customisation:
 - Glossary
+inputs:
+- file
+- text
 supported_languages:
 - slug: afrikaans
   code: af
@@ -636,7 +639,6 @@ integrations:
   - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/tool/xtm/edit/
 models: []
 active: true
-file_translation: null
 seo:
   name: The TexTra machine translation API
   type: Product

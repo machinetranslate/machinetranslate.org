@@ -10,7 +10,7 @@ seo:
 The **features** of machine translation vary across [machine translation APIs](/apis) and applications:
 
 - [Language support](/languages)
-- [File translation](/file-translation)
+- [File translation](/file)
 - [Customisation](/customisation)
 - [Data confidentiality](/data-confidentiality)
 - [Pricing](/pricing) and self-service

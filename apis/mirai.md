@@ -15,6 +15,9 @@ self_serve: true
 customisation:
 - Adaptive
 - Glossary
+inputs:
+- file
+- text
 supported_languages:
 - slug: german
   code: de
@@ -114,7 +117,6 @@ integrations:
   active: false
 models: []
 active: true
-file_translation: null
 seo:
   name: The Mirai Translator machine translation API
   type: Product

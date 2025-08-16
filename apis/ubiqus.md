@@ -14,6 +14,9 @@ privacy_url: null
 self_serve: false
 customisation:
 - Glossary
+inputs:
+- text
+- file
 supported_languages: []
 more_languages_by_request: false
 integrations:
@@ -26,7 +29,6 @@ integrations:
   active: false
 models: []
 active: true
-file_translation: null
 seo:
   name: The Ubiqus NMT machine translation API
   type: Product

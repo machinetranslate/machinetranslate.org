@@ -15,6 +15,10 @@ urls:
 privacy_url: null
 self_serve: true
 customisation: []
+inputs:
+- text
+- file
+- speech
 supported_languages:
 - slug: afrikaans
   code: af
@@ -360,7 +364,6 @@ models:
 - name: Whisper
   slug: whisper
 active: true
-file_translation: null
 seo:
   name: The OpenAI machine translation API
   type: Product

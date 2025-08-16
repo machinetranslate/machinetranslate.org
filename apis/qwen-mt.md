@@ -17,6 +17,8 @@ customisation:
 - Adaptive
 - Glossary
 - Formality
+inputs:
+- text
 supported_languages:
 - slug: afrikaans
   code: af
@@ -510,7 +512,6 @@ models:
 - name: Qwen
   slug: qwen
 active: true
-file_translation: null
 seo:
   name: The Qwen-MT machine translation API
   type: Product

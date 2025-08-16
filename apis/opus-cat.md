@@ -13,6 +13,8 @@ privacy_url: null
 self_serve: true
 customisation:
 - Fine-tuning
+inputs:
+- text
 supported_languages: []
 more_languages_by_request: false
 integrations:
@@ -29,7 +31,6 @@ integrations:
   - https://appstore.rws.com/Plugins/11
 models: []
 active: true
-file_translation: null
 seo:
   name: The Opus CAT machine translation API
   type: Product

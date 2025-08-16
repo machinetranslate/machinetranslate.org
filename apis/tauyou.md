@@ -11,6 +11,7 @@ urls: []
 privacy_url: null
 self_serve: null
 customisation: []
+inputs: null
 supported_languages: []
 more_languages_by_request: false
 integrations:
@@ -32,7 +33,6 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-tauyou-mt-engine.html
 models: []
 active: false
-file_translation: null
 seo:
   name: The Tauyou machine translation API
   type: Product

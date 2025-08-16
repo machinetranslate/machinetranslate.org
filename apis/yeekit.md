@@ -13,6 +13,9 @@ urls:
 privacy_url: null
 self_serve: true
 customisation: []
+inputs:
+- file
+- text
 supported_languages:
 - slug: english
   code: en
@@ -30,7 +33,6 @@ more_languages_by_request: false
 integrations: []
 models: []
 active: true
-file_translation: null
 seo:
   name: The YeeKit machine translation API
   type: Product

@@ -246,6 +246,8 @@ for api in APIS:
   if api.get('fine-tuning', False):
     customisation.append('Fine-tuning')
 
+  inputs = api.get('inputs', None)
+
   # "Join"
   # TODO: use language/api mapping
   supported_language_codes = list(set(flatten(languages)))
@@ -299,12 +301,12 @@ for api in APIS:
     'privacy_url': privacy_url,
     'self_serve': self_serve,
     'customisation': customisation,
+    'inputs': inputs,
     'supported_languages': supported_languages,
     'more_languages_by_request': more_languages_by_request,
     'integrations': integrations,
     'models': models,
     'active': api.get('active', True),
-    'file_translation': api.get('file_translation', None),
     'seo': {
       'name': desc,
       'type': 'Product'

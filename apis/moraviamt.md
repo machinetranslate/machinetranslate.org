@@ -11,6 +11,8 @@ urls: []
 privacy_url: null
 self_serve: null
 customisation: []
+inputs:
+- text
 supported_languages: []
 more_languages_by_request: false
 integrations:
@@ -19,7 +21,6 @@ integrations:
   active: false
 models: []
 active: true
-file_translation: null
 seo:
   name: The MoraviaMT machine translation API
   type: Product

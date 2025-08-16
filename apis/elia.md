@@ -13,6 +13,9 @@ privacy_url: null
 self_serve: true
 customisation:
 - Glossary
+inputs:
+- text
+- file
 supported_languages:
 - slug: catalan
   code: ca
@@ -59,7 +62,6 @@ integrations:
   - https://appstore.rws.com/Plugins/154
 models: []
 active: true
-file_translation: null
 seo:
   name: The Elia machine translation API
   type: Product

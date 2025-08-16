@@ -12,6 +12,8 @@ urls:
 privacy_url: https://judic.io/en/about
 self_serve: false
 customisation: []
+inputs:
+- text
 supported_languages:
 - slug: german
   code: de
@@ -40,8 +42,7 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 models: []
-active: true
-file_translation: null
+active: false
 seo:
   name: The Judicio machine translation API
   type: Product

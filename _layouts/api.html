@@ -28,9 +28,9 @@ parent: APIs
 
 <p>
   {% if page.integrations.size == 1 %}
-  <a href="#integrations">1 machine translation management system</a> has integrated the <strong>{{ page.title }}</strong> machine translation API.{% endif %}
-  {% if page.integrations.size > 1 %}
-   <a href="#integrations">{{ page.integrations | size }} machine translation management systems</a> have <strong>{{ page.title }}</strong> integrations.
+    <a href="#integrations">1 machine translation management system</a> has integrated the <strong>{{ page.title }}</strong> machine translation API.{% endif %}
+    {% if page.integrations.size > 1 %}
+    <a href="#integrations">{{ page.integrations | size }} machine translation management systems</a> have <strong>{{ page.title }}</strong> integrations.
   {% endif %}
 </p>
 
@@ -50,11 +50,38 @@ parent: APIs
   {% if page.customisation contains 'Adaptive' %}
     The API also supports <a href="/adaptive">adaptive</a> customisation.
   {% endif %} <br>
-  {% if page.file_translation %}
-    The API also supports <a href='/file-translation'>file translation</a>.
+
+  {% assign links = "" | split: "" %}
+
+  {% for type in page.inputs %}
+    {% assign type_lower = type | downcase %}
+    {% case type_lower %}
+      {% when 'speech' %}
+        {% assign links = links | push: "<a href='/speech'>speech</a>" %}
+      {% when 'file' %}
+        {% assign links = links | push: "<a href='/file'>file</a>" %}
+      {% when 'text' %}
+        {% assign links = links | push: "<a href='/text'>text</a>" %}
+      {% else %}
+        {% assign links = links | push: type %}
+    {% endcase %}
+  {% endfor %}
+
+
+  {% if links.size > 0 %}
+    The API supports 
+    {% for link in links %}
+      {% if forloop.last and links.size > 1 %}
+        and {{ link }}
+      {% elsif forloop.first %}
+        {{ link }}
+      {% else %}
+      , {{ link }}
+      {% endif %}
+    {% endfor %}
+    input mode{% if links.size > 1 %}s.{% endif %}
   {% endif %}
 </p>
-
 
 <blockquote>
 
@@ -74,6 +101,15 @@ parent: APIs
   {% if page.integrations.size > 0 %}
     <dt>Integrations</dt>
     <dd><a href="#integrations">{{ page.integrations | size }} translation management systems</a></dd>
+  {% endif %}
+
+  {% if page.inputs.size > 0 %}
+    <dt>Input modes</dt>
+    <dd>
+      {% for input in page.inputs %}
+        {{ input | capitalize }}{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </dd>
   {% endif %}
 
   {% if page.models.size > 0 %}

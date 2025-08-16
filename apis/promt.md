@@ -9,10 +9,13 @@ id: promt
 parent: APIs
 urls:
 - https://www.promt.com
-- https://www.promt.com/translation_software/corporate/developer/promt-cloud-api/
+- https://www.promt.com/translation_software/corporate/developer/promt-cloud
 privacy_url: null
 self_serve: false
 customisation: []
+inputs:
+- text
+- file
 supported_languages:
 - slug: arabic
   code: ar
@@ -275,7 +278,6 @@ integrations:
   name: Smartling
 models: []
 active: true
-file_translation: null
 seo:
   name: The PROMT machine translation API
   type: Product
