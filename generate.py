@@ -791,6 +791,7 @@ for estimation in QUALITY_ESTIMATION:
     'only_compatible_tms': only_compatible_tms,
     'customisation': customisation,
     'integrations': integrations,
+    'active': estimation.get('active', True),
     'seo': {
       'name': desc,
       'type': 'Product'
