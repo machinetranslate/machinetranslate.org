@@ -71,6 +71,9 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
+- slug: quality-intelligence
+  id: quality-intelligence
+  name: Quality Intelligence
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
 - id: phrase-mtqe
@@ -81,6 +84,9 @@ supported_qe_apis:
 - slug: modelfront
   id: modelfront
   name: ModelFront
+- slug: modernmt
+  id: modernmt-qe
+  name: ModernMT
 seo:
   name: Machine translation for Gujarati
   type: Language

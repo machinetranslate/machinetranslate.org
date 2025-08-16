@@ -49,6 +49,9 @@ supported_qe_apis:
 - slug: modelfront
   id: modelfront
   name: ModelFront
+- slug: modernmt
+  id: modernmt-qe
+  name: ModernMT
 seo:
   name: Machine translation for Sundanese
   type: Language

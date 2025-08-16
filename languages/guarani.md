@@ -39,7 +39,10 @@ supported_apis:
   name: Alibaba Translate
 - id: google
   name: Google Translate
-supported_qe_apis: []
+supported_qe_apis:
+- slug: modernmt
+  id: modernmt-qe
+  name: ModernMT
 supported_ape_apis: []
 seo:
   name: Machine translation for Guarani

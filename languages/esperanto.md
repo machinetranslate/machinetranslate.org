@@ -56,6 +56,9 @@ supported_qe_apis:
 - slug: taus-qe
   id: taus-qe
   name: TAUS QE
+- slug: modernmt
+  id: modernmt-qe
+  name: ModernMT
 seo:
   name: Machine translation for Esperanto
   type: Language

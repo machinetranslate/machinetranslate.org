@@ -62,6 +62,9 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
+- slug: language-weaver
+  id: language-weaver-mtqe
+  name: Language Weaver
 - slug: taus-qe
   id: taus-qe
   name: TAUS QE

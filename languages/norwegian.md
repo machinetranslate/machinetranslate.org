@@ -95,6 +95,9 @@ supported_qe_apis:
   name: KantanQES
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+- slug: language-weaver
+  id: language-weaver-mtqe
+  name: Language Weaver
 - slug: taus-qe
   id: taus-qe
   name: TAUS QE

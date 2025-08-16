@@ -69,6 +69,9 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
+- slug: language-weaver
+  id: language-weaver-mtqe
+  name: Language Weaver
 - id: phrase-mtqe
   name: Phrase MTQE
 - slug: taus-qe
@@ -77,6 +80,9 @@ supported_qe_apis:
 - slug: modelfront
   id: modelfront
   name: ModelFront
+- slug: modernmt
+  id: modernmt-qe
+  name: ModernMT
 seo:
   name: Machine translation for Punjabi
   type: Language

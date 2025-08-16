@@ -61,6 +61,9 @@ supported_qe_apis:
 supported_ape_apis:
 - id: modelfront-ape
   name: ModelFront
+- slug: modernmt
+  id: modernmt-qe
+  name: ModernMT
 seo:
   name: Machine translation for Sindhi
   type: Language
