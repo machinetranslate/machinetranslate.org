@@ -761,6 +761,7 @@ integrations:
 - slug: translate5
   name: translate5
   custom: true
+active: true
 seo:
   name: The ModelFront translation quality estimation API
   type: Product

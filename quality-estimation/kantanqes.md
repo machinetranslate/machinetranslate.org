@@ -214,6 +214,7 @@ integrations:
 - slug: kantanstream
   name: KantanStream
   custom: false
+active: false
 seo:
   name: The KantanQES translation quality estimation API
   type: Product

@@ -11,6 +11,12 @@ parent: Quality estimation
 </h2>
 <hr>
 
+{% if page.active != true %}
+<blockquote>
+ ⚠️ The <strong>{{ page.title }}</strong> quality estimation API is no longer active.
+</blockquote>
+{% endif %}
+
 <p>
   The <strong>{{ page.title }}</strong> quality estimation API is available in
   <a href="#integrations">{{ page.integrations | size }}

@@ -562,6 +562,7 @@ only_compatible_mt_api: null
 only_compatible_tms: null
 customisation: false
 integrations: []
+active: true
 seo:
   name: The TAUS QE translation quality estimation API
   type: Product
