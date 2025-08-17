@@ -108,7 +108,7 @@ There is a quality estimation integration or connector available for most transl
 | Product | Feature | Provider |
 | ---| --- | --- |
 | [translate5](/translate5) | [ModelFront quality prediction plug-in](https://www.modelfront.com/translate5) | [ModelFront](/modelfront) |
-| [memoQ](/memoq) | [Quality estimates (AIQE)](https://www.memoq.com/mt-quality-estimates) | [ModelFront](/modelfront), [DeMT Estimate](/demt-estimate) |
+| [memoQ](/memoq) | [Quality estimates (AIQE)](https://www.memoq.com/mt-quality-estimates) | [ModelFront](/modelfront), [TAUS QE](/taus-qe) |
 | [Crowdin](/crowdin) | [ModelFront quality prediction](https://store.crowdin.com/modelfront) | [ModelFront](/modelfront) |
 | [XTM](/xtm) | ModelFront XTM connector | [ModelFront](/modelfront) | KantanStream | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](/companies#kantanmt) |
 | [PhraseTMS](/phrase-tms) | [MT quality estimation](https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-), ModelFront Phrase connector | [Phrase QE](/phrase-mtqe) |
