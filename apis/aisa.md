@@ -13,6 +13,8 @@ privacy_url: https://www.aisa.digital/terms-of-use/
 self_serve: true
 customisation:
 - Glossary
+inputs:
+- text
 supported_languages:
 - slug: arabic
   code: ar
@@ -141,7 +143,6 @@ integrations:
   active: false
 models: []
 active: true
-file_translation: null
 seo:
   name: The AISA machine translation API
   type: Product

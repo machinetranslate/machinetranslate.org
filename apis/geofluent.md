@@ -13,6 +13,9 @@ urls:
 privacy_url: null
 self_serve: false
 customisation: []
+inputs:
+- speech
+- text
 supported_languages: []
 more_languages_by_request: false
 integrations:
@@ -23,7 +26,6 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-lionbridge-geofluent-mt-engine.html
 models: []
 active: true
-file_translation: null
 seo:
   name: The Geofluent machine translation API
   type: Product

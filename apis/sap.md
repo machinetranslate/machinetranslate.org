@@ -13,6 +13,9 @@ urls:
 privacy_url: https://help.sap.com/docs/SAP_TRANSLATION_HUB/ed6ce7a29bdd42169f5f0d7868bce6eb/182532dc3252417c86c3d18dea40b68a.html?locale=en-US
 self_serve: true
 customisation: []
+inputs:
+- text
+- file
 supported_languages:
 - slug: arabic
   code: ar
@@ -263,7 +266,6 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-sap-translation-hub-mt-engine.html
 models: []
 active: true
-file_translation: null
 seo:
   name: The SAP Translation Hub machine translation API
   type: Product

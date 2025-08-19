@@ -11,6 +11,7 @@ urls: []
 privacy_url: null
 self_serve: null
 customisation: []
+inputs: null
 supported_languages: []
 more_languages_by_request: false
 integrations:
@@ -20,7 +21,6 @@ integrations:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 models: []
 active: false
-file_translation: null
 seo:
   name: The Plata Vicomtech machine translation API
   type: Product

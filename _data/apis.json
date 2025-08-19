@@ -36,6 +36,9 @@
         "stock_api_domains_urls": [
             "https://www.aisa.digital/e-commerce-translation/"
         ],
+        "inputs": [
+            "text"
+        ],
         "glossary": true,
         "self-serve": true
     },
@@ -68,6 +71,10 @@
         "stock_api_domains_urls": [
             "https://alexatranslations.com/financial/",
             "https://alexatranslations.com/legal/"
+        ],
+        "inputs": [
+            "text",
+            "file"
         ],
         "self-serve": false
     },
@@ -303,6 +310,9 @@
         "stock_api_domains_urls": [
             "https://www.alibabacloud.com/help/en/machine-translation/latest/product-introduction-1"
         ],
+        "inputs": [
+            "text"
+        ],
         "self-serve": true
     },
     {
@@ -391,11 +401,14 @@
             "zh",
             "zh-tw"
         ],
+        "inputs": [
+            "text",
+            "file"
+        ],
         "glossary": true,
         "formality": true,
         "adaptive": true,
-        "self-serve": true,
-        "file_translation": true
+        "self-serve": true
     },
     {
         "name": "Acolad",
@@ -406,6 +419,9 @@
             "https://www.acolad.com/en/technology/machine-translation.html"
         ],
         "languages": [],
+        "inputs": [
+            "text"
+        ],
         "self-serve": false
     },
     {
@@ -815,6 +831,9 @@
                 "id"
             ]
         ],
+        "inputs": [
+            "text"
+        ],
         "more_languages_by_request": true,
         "self-serve": true
     },
@@ -909,6 +928,10 @@
         ],
         "stock_api_domains_urls": [
             "https://www.apptek.com/technology/machine-translation"
+        ],
+        "inputs": [
+            "speech",
+            "text"
         ],
         "formality": true,
         "self-serve": true
@@ -1125,6 +1148,10 @@
             "zh-tw",
             "zul"
         ],
+        "inputs": [
+            "speech",
+            "text"
+        ],
         "self-serve": true
     },
     {
@@ -1137,6 +1164,9 @@
         "languages": [
             "be",
             "ru"
+        ],
+        "inputs": [
+            "text"
         ],
         "self-serve": true
     },
@@ -1175,6 +1205,9 @@
         ],
         "stock_api_domains_urls": [
             "https://cloudtranslation.com/static/api_en.html#_2"
+        ],
+        "inputs": [
+            "text"
         ],
         "self-serve": true
     },
@@ -4481,10 +4514,13 @@
                 "uk"
             ]
         ],
+        "inputs": [
+            "text",
+            "file"
+        ],
         "glossary": true,
         "formality": true,
-        "self-serve": true,
-        "file_translation": true
+        "self-serve": true
     },
     {
         "name": "Elia",
@@ -4500,6 +4536,10 @@
             "eu",
             "fr",
             "gl"
+        ],
+        "inputs": [
+            "text",
+            "file"
         ],
         "glossary": true,
         "self-serve": true
@@ -4553,6 +4593,9 @@
         "stock_api_domains_urls": [
             "https://ec.europa.eu/info/resources-partners/machine-translation-public-administrations-etranslation_en"
         ],
+        "inputs": [
+            "text"
+        ],
         "self-serve": true
     },
     {
@@ -4574,6 +4617,10 @@
             "https://api.geofluent.com/Translation/v3/ui/index"
         ],
         "languages": [],
+        "inputs": [
+            "speech",
+            "text"
+        ],
         "self-serve": false
     },
     {
@@ -4844,6 +4891,9 @@
             ]
         ],
         "more_languages_by_request": true,
+        "inputs": [
+            "text"
+        ],
         "self-serve": true
     },
     {
@@ -5175,10 +5225,14 @@
             "zh-tw",
             "zu"
         ],
+        "inputs": [
+            "file",
+            "text"
+        ],
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": true,
-        "file_translation": true
+        "self-serve": true
+        
     },
     {
         "name": "Iconic",
@@ -5347,7 +5401,11 @@
         "stock_api_domains_urls": [
             "https://judic.io/en"
         ],
-        "self-serve": false
+        "inputs": [
+            "text"
+        ],
+        "self-serve": false,
+        "active": false
     },
     {
         "name": "Kakao",
@@ -5377,6 +5435,9 @@
             "tr",
             "vi",
             "zh"
+        ],
+        "inputs": [
+            "text"
         ],
         "formality": true,
         "self-serve": true
@@ -6005,11 +6066,14 @@
         "stock_api_domains_urls": [
             "https://www.kantanai.io/showcase/"
         ],
+        "inputs": [
+            "text",
+            "file"
+        ],
         "glossary": true,
         "fine-tuning": true,
         "adaptive": true,
-        "self-serve": false,
-        "file_translation": true
+        "self-serve": false
     },
     {
         "name": "Kodensha MT",
@@ -6061,6 +6125,9 @@
             "vi",
             "zh-cn",
             "zh-tw"
+        ],
+        "inputs": [
+            "text"
         ],
         "more_languages_by_request": true,
         "self-serve": false
@@ -6139,6 +6206,10 @@
             "zh-tw"
         ],
         "more_languages_by_request": true,
+        "inputs": [
+            "file",
+            "text"
+        ],
         "glossary": true,
         "self-serve": true,
         "adaptive": true
@@ -6163,8 +6234,11 @@
             "sv"
         ],
         "more_languages_by_request": true,
-        "self-serve": false,
-        "file_translation": true
+        "inputs": [
+            "text",
+            "file"
+        ],
+        "self-serve": false
     },
     {
         "name": "Lengoo",
@@ -6176,6 +6250,10 @@
         "privacy_url": "https://www.lengoo.com/privacy-policy",
         "languages": [],
         "more_languages_by_request": null,
+        "inputs": [
+            "speech",
+            "text"
+        ],
         "self-serve": false
     },
     {
@@ -6245,9 +6323,13 @@
             "zu"
         ],
         "more_languages_by_request": true,
+        "inputs": [
+            "speech",
+            "text",
+            "file"
+        ],
         "adaptive": true,
-        "self-serve": false,
-        "file_translation": true
+        "self-serve": false
     },
     {
         "name": "Lingmo Translation",
@@ -6285,6 +6367,10 @@
             "th-th",
             "tr-tr",
             "zh-cn"
+        ],
+        "inputs": [
+            "speech",
+            "text"
         ]
     },
     {
@@ -6326,6 +6412,10 @@
         "languages": [],
         "stock_api_domains": [
             "finance"
+        ],
+        "inputs": [
+            "speech",
+            "text"
         ],
         "self-serve": false
     },
@@ -6448,8 +6538,12 @@
             "yo-ng",
             "zu-za"
         ],
-        "self-serve": true,
-        "file_translation": true
+        "inputs": [
+            "speech",
+            "text",
+            "file"
+        ],
+        "self-serve": true
     },
     {
         "name": "LT Gear",
@@ -6460,6 +6554,9 @@
             "https://ltgear3.moravia.com//swagger/ui/index"
         ],
         "languages": [],
+        "inputs": [
+            "text"
+        ],
         "self-serve": false
     },
     {
@@ -6673,10 +6770,13 @@
             "zh-Hans",
             "zh-Hant"
         ],
+        "inputs": [
+            "text",
+            "file"
+        ],
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": true,
-        "file_translation": true
+        "self-serve": true
     },
     {
         "name": "Mirai Translator",
@@ -6798,6 +6898,10 @@
             "financial"
         ],
         "stock_api_domains_urls": "https://miraitranslate.com/en/service/miraitranslator/news/",
+        "inputs": [
+            "file",
+            "text"
+        ],
         "glossary": true,
         "adaptive": true,
         "self-serve": true
@@ -7014,6 +7118,9 @@
             "zu"
         ],
         "adaptive": true,
+        "inputs": [
+            "text"
+        ],
         "self-serve": true
     },
     {
@@ -7021,7 +7128,10 @@
         "id": "moraviamt",
         "company": "moravia",
         "urls": [],
-        "languages": []
+        "languages": [],
+        "inputs": [
+            "text"
+        ]
     },
     {
         "name": "Moses",
@@ -7033,6 +7143,9 @@
         "languages": [],
         "fine-tuning": true,
         "more_languages_by_request": true,
+        "inputs": [
+            "text"
+        ],
         "self-serve": true
     },
     {
@@ -7182,6 +7295,9 @@
             "zh-CN",
             "zh-TW",
             "zu"
+        ],
+        "inputs": [
+            "text"
         ],
         "self-serve": false
     },
@@ -7581,6 +7697,11 @@
             "zyb"
         ],
         "glossary": true,
+        "inputs": [
+            "speech",
+            "text",
+            "file"
+        ],
         "self-serve": true
     },
     {
@@ -7594,7 +7715,11 @@
         "stock_api_domains": [
             "patents"
         ],
-        "adaptive": true
+        "adaptive": true,
+        "inputs": [
+            "text",
+            "file"
+        ]
     },
     {
         "name": "OctaveMT",
@@ -7604,6 +7729,9 @@
             "https://info.unitedlanguagegroup.com/contact-us-today-about-octavemt"
         ],
         "languages": [],
+        "inputs": [
+            "text"
+        ],
         "self-serve": false
     },
     {
@@ -7709,6 +7837,10 @@
         "stock_api_domains_urls": [
             "https://omniscien.com/machine-translation/industry-domains/"
         ],
+        "inputs": [
+            "file",
+            "text"
+        ],
         "glossary": true,
         "formality": true,
         "adaptive": true,
@@ -7723,6 +7855,9 @@
             "https://helsinki-nlp.github.io/OPUS-CAT/"
         ],
         "languages": [],
+        "inputs": [
+            "text"
+        ],
         "fine-tuning": true,
         "self-serve": true
     },
@@ -7746,6 +7881,9 @@
             "zh-tw"
         ],
         "more_languages_by_request": true,
+        "inputs": [
+            "text"
+        ],
         "glossary": true,
         "adaptive": true,
         "self-serve": false
@@ -7824,6 +7962,10 @@
                 "ja"
             ]
         ],
+        "inputs": [
+            "file",
+            "text"
+        ],
         "glossary": true,
         "formality": true,
         "self-serve": true
@@ -7901,6 +8043,9 @@
                 "en"
             ]
         ],
+        "inputs": [
+            "text"
+        ],
         "glossary": true,
         "adaptive": true,
         "self-serve": false
@@ -7923,7 +8068,7 @@
         "company": "promt",
         "urls": [
             "https://www.promt.com",
-            "https://www.promt.com/translation_software/corporate/developer/promt-cloud-api/"
+            "https://www.promt.com/translation_software/corporate/developer/promt-cloud"
         ],
         "languages": [
             "ar",
@@ -7968,6 +8113,10 @@
             "zh-tw",
             "zsm"
         ],
+        "inputs": [
+            "text",
+            "file"
+        ],
         "self-serve": false
     },
     {
@@ -8004,6 +8153,10 @@
             "tr",
             "uk",
             "zh"
+        ],
+        "inputs": [
+            "file",
+            "text"
         ],
         "self-serve": true
     },
@@ -8052,6 +8205,10 @@
         ],
         "stock_api_domains_urls": [
             "https://www.rozetta.jp/t4oo/"
+        ],
+        "inputs": [
+            "file",
+            "text"
         ],
         "self-serve": false
     },
@@ -8454,6 +8611,10 @@
         "stock_api_domains_urls": [
             "https://help.sap.com/docs/SAP_TRANSLATION_HUB/ed6ce7a29bdd42169f5f0d7868bce6eb/35628564620d46ab8d218c04ac0140ea.html?locale=en-US&q=translation%20domains"
         ],
+        "inputs": [
+            "text",
+            "file"
+        ],
         "self-serve": true
     },
     {
@@ -8465,6 +8626,10 @@
         ],
         "privacy_url": "https://skrivanek.com/wp-content/uploads/2021/03/processing-and-protection-of-personal-data-in-skrivanek-0.pdf",
         "languages": [],
+        "inputs": [
+            "speech",
+            "text"
+        ],
         "self-serve": false
     },
     {
@@ -8512,6 +8677,10 @@
             "general",
             "biomedical",
             "finance"
+        ],
+        "inputs": [
+            "file",
+            "text"
         ]
     },
     {
@@ -8534,6 +8703,10 @@
         ],
         "adaptive": true,
         "glossary": true,
+        "inputs": [
+            "file",
+            "text"
+        ],
         "self-serve": true
     },
     {
@@ -8927,10 +9100,13 @@
                 "https://www.systran.net/marketplace-catalog/domains/  adaptive": true
             }
         ],
+        "inputs": [
+            "text",
+            "file"
+        ],
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": true,
-        "file_translation": true
+        "self-serve": true
     },
     {
         "name": "TAPTA",
@@ -8946,6 +9122,9 @@
             "fr",
             "ru",
             "zh"
+        ],
+        "inputs": [
+            "text"
         ],
         "self-serve": false
     },
@@ -8966,6 +9145,9 @@
                 "ar",
                 "en"
             ]
+        ],
+        "inputs": [
+            "text"
         ],
         "self-serve": false
     },
@@ -9452,6 +9634,11 @@
                 "en"
             ]
         ],
+        "inputs": [
+            "speech",
+            "text",
+            "file"
+        ],
         "self-serve": true
     },
     {
@@ -9459,7 +9646,8 @@
         "id": "textshuttle",
         "company": "textshuttle",
         "urls": [
-            "https://www.supertext.com/"
+            "https://www.supertext.com",
+            "https://www.supertext.com/en/documentation/api"
         ],
         "privacy_url": "https://www.supertext.com/en/privacy",
         "languages": [
@@ -9490,6 +9678,10 @@
         ],
         "custom_languages": "*",
         "more_languages_by_request": true,
+        "inputs": [
+            "text",
+            "file"
+        ],
         "glossary": true,
         "formality": true,
         "self-serve": false
@@ -9604,6 +9796,10 @@
             "zh-cn", 
             "zh-tw", 
             "zu"
+        ],
+        "inputs": [
+            "file",
+            "text"
         ],
         "glossary": true,
         "self-serve": true
@@ -10864,11 +11060,14 @@
             ]
         ],
         "more_languages_by_request": true,
+        "inputs": [
+            "text",
+            "file"
+        ],
         "adaptive": true,
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": false,
-        "file_translation": true
+        "self-serve": false
     },
     {
         "name": "TranslateMe",
@@ -10919,6 +11118,9 @@
                 "zu",
                 "en"
             ]
+        ],
+        "inputs": [
+            "text"
         ]
     },
     {
@@ -10929,6 +11131,10 @@
             "https://www.transperfect.com/technology/artificial-intelligence/neural-machine-translation"
         ],
         "languages": [],
+        "inputs": [
+            "text",
+            "file"
+        ],
         "self-serve": false
     },
     {
@@ -10964,6 +11170,10 @@
                 "es",
                 "en"
             ]
+        ],
+        "inputs": [
+            "text",
+            "file"
         ],
         "self-serve": false
     },
@@ -11066,6 +11276,10 @@
             "legal",
             "patents"
         ],
+        "inputs": [
+            "text",
+            "file"
+        ],
         "self-serve": false
     },
     {
@@ -11087,6 +11301,10 @@
             "industry",
             "aerospace",
             "luxury"
+        ],
+        "inputs": [
+            "text",
+            "file"
         ],
         "glossary": true,
         "self-serve": false
@@ -11135,8 +11353,10 @@
             "zh-tw"
         ],
         "more_languages_by_request": true,
-        "self-serve": false,
-        "file_translation": true
+        "inputs": [
+            "text"
+        ],
+        "self-serve": false
     },
     {
         "name": "XL8",
@@ -13977,6 +14197,10 @@
                 "ko"
             ]
         ],
+        "inputs": [
+            "file",
+            "text"
+        ],
         "self-serve": true
     },
     {
@@ -14092,8 +14316,10 @@
                 "zh", 
                 "zu"
         ],
-        "self-serve": true,
-        "file_translation": true
+        "inputs": [
+            "text"
+        ],
+        "self-serve": true
     },
     {
         "name": "YeeKit",
@@ -14106,6 +14332,10 @@
         "languages": [
             "en",
             "zh"
+        ],
+        "inputs": [
+            "file",
+            "text"
         ],
         "self-serve": true
     },
@@ -14239,6 +14469,11 @@
         ],
         "stock_api_domains_urls": [
             "https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html"
+        ],
+        "inputs": [
+            "speech",
+            "file",
+            "text"
         ],
         "self-serve": true
     },
@@ -14785,10 +15020,13 @@
                 "en"
             ]
         ],
+        "inputs": [
+            "text",
+            "file"
+        ],
         "glossary": true,
         "fine-tuning": true,
-        "self-serve": true,
-        "file_translation": true
+        "self-serve": true
     },
     {
         "name": "Wordlingo",
@@ -14865,6 +15103,9 @@
             "yi",
             "zh_cn",
             "zh_tw"
+        ],
+        "inputs": [
+            "text"
         ]
     },
     {

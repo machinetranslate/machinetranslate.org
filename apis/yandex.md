@@ -13,6 +13,8 @@ urls:
 privacy_url: https://yandex.com/legal/confidential/
 self_serve: true
 customisation: []
+inputs:
+- text
 supported_languages:
 - slug: afrikaans
   code: af
@@ -643,7 +645,6 @@ integrations:
   name: Wordfast
 models: []
 active: true
-file_translation: true
 seo:
   name: The Yandex Translate machine translation API
   type: Product

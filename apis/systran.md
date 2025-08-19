@@ -15,6 +15,9 @@ self_serve: true
 customisation:
 - Glossary
 - Fine-tuning
+inputs:
+- text
+- file
 supported_languages:
 - slug: arabic
   code: ar
@@ -387,7 +390,6 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-systran-pure-neural-mt-engine.html
 models: []
 active: true
-file_translation: true
 seo:
   name: The SYSTRAN machine translation API
   type: Product

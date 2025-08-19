@@ -13,6 +13,10 @@ urls:
 privacy_url: null
 self_serve: true
 customisation: []
+inputs:
+- speech
+- file
+- text
 supported_languages:
 - slug: afrikaans
   code: af
@@ -694,7 +698,6 @@ integrations:
   active: false
 models: []
 active: true
-file_translation: null
 seo:
   name: The Youdao Translate machine translation API
   type: Product

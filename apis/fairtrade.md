@@ -12,6 +12,7 @@ urls:
 privacy_url: null
 self_serve: null
 customisation: []
+inputs: null
 supported_languages: []
 more_languages_by_request: false
 integrations:
@@ -19,7 +20,6 @@ integrations:
   name: Phrase TMS
 models: []
 active: false
-file_translation: null
 seo:
   name: The Fairtrade machine translation API
   type: Product

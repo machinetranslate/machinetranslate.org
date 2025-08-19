@@ -13,6 +13,9 @@ urls:
 privacy_url: https://www.xl8.ai/tos
 self_serve: true
 customisation: []
+inputs:
+- file
+- text
 supported_languages:
 - slug: arabic
   code: ar
@@ -307,7 +310,6 @@ integrations:
   - https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf
 models: []
 active: true
-file_translation: null
 seo:
   name: The XL8 machine translation API
   type: Product

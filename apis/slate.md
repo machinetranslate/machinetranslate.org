@@ -13,6 +13,7 @@ urls:
 privacy_url: null
 self_serve: null
 customisation: []
+inputs: null
 supported_languages: []
 more_languages_by_request: false
 integrations:
@@ -23,7 +24,6 @@ integrations:
   - https://docs.memoq.com/current/en/Places/slate-desktop-plugin-settings.html
 models: []
 active: false
-file_translation: null
 seo:
   name: The Slate Desktop machine translation API
   type: Product

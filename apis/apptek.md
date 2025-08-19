@@ -14,6 +14,9 @@ privacy_url: null
 self_serve: true
 customisation:
 - Formality
+inputs:
+- speech
+- text
 supported_languages:
 - slug: afrikaans
   code: af
@@ -459,7 +462,6 @@ integrations:
   name: GlobalLink
 models: []
 active: true
-file_translation: null
 seo:
   name: The AppTek machine translation API
   type: Product

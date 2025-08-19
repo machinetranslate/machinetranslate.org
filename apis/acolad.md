@@ -12,6 +12,8 @@ urls:
 privacy_url: null
 self_serve: false
 customisation: []
+inputs:
+- text
 supported_languages: []
 more_languages_by_request: false
 integrations:
@@ -22,7 +24,6 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-acolad-mt-engine.html
 models: []
 active: true
-file_translation: null
 seo:
   name: The Acolad machine translation API
   type: Product

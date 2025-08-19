@@ -16,6 +16,9 @@ customisation:
 - Adaptive
 - Glossary
 - Formality
+inputs:
+- text
+- file
 supported_languages:
 - slug: afrikaans
   code: af
@@ -509,7 +512,6 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-amazon-translate-mt-engine.html
 models: []
 active: true
-file_translation: true
 seo:
   name: The Amazon Translate machine translation API
   type: Product

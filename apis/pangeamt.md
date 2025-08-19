@@ -15,6 +15,8 @@ self_serve: false
 customisation:
 - Adaptive
 - Glossary
+inputs:
+- text
 supported_languages:
 - slug: german
   code: de
@@ -92,7 +94,6 @@ integrations:
   - https://confluence.translate5.net/display/CON/PangeaMT
 models: []
 active: true
-file_translation: null
 seo:
   name: The PangeaMT machine translation API
   type: Product

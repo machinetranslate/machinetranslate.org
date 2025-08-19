@@ -1,7 +1,8 @@
 ---
+parent: Input modes
 nav_order: 3
-parent: Features
-title: File translation
+has_toc: false
+title: File
 description: Machine translation API support for translating entire files
 ---
 
@@ -12,7 +13,7 @@ A growing number of machine translation APIs support translating various file ty
 ## File types
 
 There is support for plain text files as well as the most common document formats.
-- text and Markdown files
+- Text and Markdown files
 - HTML and XML files
 - JSON and YAML files
 - Microsoft Word and PowerPoint files
@@ -20,7 +21,7 @@ There is support for plain text files as well as the most common document format
 
 Image files and audio files are typically not supported.
 
-{% assign apis = site.data.apis | where_exp: 'api', 'api.file_translation == true' %}
+{% assign apis = site.data.apis | where_exp: 'api', 'api.inputs contains "file"' %}
 
 ### API support
 <details>

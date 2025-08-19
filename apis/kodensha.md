@@ -12,6 +12,8 @@ urls:
 privacy_url: null
 self_serve: false
 customisation: []
+inputs:
+- text
 supported_languages:
 - slug: arabic
   code: ar
@@ -272,7 +274,6 @@ integrations:
   active: false
 models: []
 active: true
-file_translation: null
 seo:
   name: The Kodensha MT machine translation API
   type: Product

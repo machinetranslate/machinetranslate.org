@@ -16,6 +16,9 @@ customisation:
 - Adaptive
 - Glossary
 - Fine-tuning
+inputs:
+- text
+- file
 supported_languages:
 - slug: arabic
   code: ar
@@ -176,7 +179,6 @@ integrations:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 models: []
 active: true
-file_translation: true
 seo:
   name: The Tilde machine translation API
   type: Product

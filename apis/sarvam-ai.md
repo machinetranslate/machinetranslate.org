@@ -14,6 +14,10 @@ privacy_url: null
 self_serve: true
 customisation:
 - Formality
+inputs:
+- text
+- speech
+- file
 supported_languages:
 - slug: assamese
   code: as-in
@@ -159,7 +163,6 @@ models:
 - name: Sarvam-Translate
   slug: sarvam-translate
 active: true
-file_translation: null
 seo:
   name: The Sarvam AI machine translation API
   type: Product

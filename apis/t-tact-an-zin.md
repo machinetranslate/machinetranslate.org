@@ -12,6 +12,9 @@ urls:
 privacy_url: https://to-in.com/en/security
 self_serve: false
 customisation: []
+inputs:
+- text
+- file
 supported_languages:
 - slug: german
   code: de
@@ -109,7 +112,6 @@ integrations:
   name: Phrase TMS
 models: []
 active: true
-file_translation: null
 seo:
   name: The T-tact-AN-ZIN machine translation API
   type: Product

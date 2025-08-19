@@ -14,6 +14,9 @@ urls:
 privacy_url: null
 self_serve: true
 customisation: []
+inputs:
+- speech
+- text
 supported_languages:
 - slug: acholi
   code: ach
@@ -1232,7 +1235,6 @@ integrations:
   active: false
 models: []
 active: true
-file_translation: null
 seo:
   name: The Baidu Translate machine translation API
   type: Product

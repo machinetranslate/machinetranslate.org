@@ -12,6 +12,8 @@ urls:
 privacy_url: null
 self_serve: true
 customisation: []
+inputs:
+- text
 supported_languages:
 - slug: belarusian
   code: be
@@ -31,7 +33,6 @@ integrations:
   name: OmegaT
 models: []
 active: true
-file_translation: null
 seo:
   name: The Belazar machine translation API
   type: Product

@@ -12,6 +12,9 @@ urls:
 privacy_url: https://skrivanek.com/wp-content/uploads/2021/03/processing-and-protection-of-personal-data-in-skrivanek-0.pdf
 self_serve: false
 customisation: []
+inputs:
+- speech
+- text
 supported_languages: []
 more_languages_by_request: false
 integrations:
@@ -20,7 +23,6 @@ integrations:
   active: false
 models: []
 active: true
-file_translation: null
 seo:
   name: The Skrivanek machine translation API
   type: Product

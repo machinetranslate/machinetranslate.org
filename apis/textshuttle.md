@@ -8,12 +8,16 @@ description: The Supertext machine translation API
 id: textshuttle
 parent: APIs
 urls:
-- https://www.supertext.com/
+- https://www.supertext.com
+- https://www.supertext.com/en/documentation/api
 privacy_url: https://www.supertext.com/en/privacy
 self_serve: false
 customisation:
 - Glossary
 - Formality
+inputs:
+- text
+- file
 supported_languages:
 - slug: czech
   code: cs
@@ -182,7 +186,6 @@ integrations:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 models: []
 active: true
-file_translation: null
 seo:
   name: The Supertext machine translation API
   type: Product
