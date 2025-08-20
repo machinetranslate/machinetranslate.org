@@ -83,6 +83,12 @@ parent: APIs
   {% endif %}
 </p>
 
+<p>
+  {% if page.prompt_required == true %}
+    The <strong>{{ page.title }}</strong> API is <strong>not translation-specific</strong>, so for translation it <strong>requires a prompt</strong>.
+  {% endif %}
+</p>
+
 <blockquote>
 
   <dl>
