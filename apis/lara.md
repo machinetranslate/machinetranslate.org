@@ -13,6 +13,7 @@ urls:
 - http://support.laratranslate.com
 privacy_url: null
 self_serve: true
+prompt_required: false
 customisation:
 - Adaptive
 - Formality

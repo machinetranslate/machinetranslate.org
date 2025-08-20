@@ -13,6 +13,7 @@ urls:
 - https://qwenlm.github.io/blog/qwen-mt
 privacy_url: https://www.alibabacloud.com/help/en/legal/latest/alibaba-cloud-international-website-product-terms-of-service
 self_serve: true
+prompt_required: false
 customisation:
 - Adaptive
 - Glossary
