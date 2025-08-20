@@ -21,6 +21,7 @@ CALLS_FOR_PAPERS = None
 CALLS_FOR_PAPERS_SCHEMA = None
 MODELS = None
 AUTOMATIC_POST_EDITING = None
+COMPANIES = None
 
 
 ### Read scripts
@@ -82,6 +83,10 @@ with open('_data/models.json', 'r', encoding='utf-8') as f:
 ### Read automatic post-editing companies
 with open ('_data/automatic_post_editing.json', 'r', encoding='utf-8') as stream:
   AUTOMATIC_POST_EDITING = json.load(stream)
+
+### Read companies
+with open ('_data/companies.json', 'r', encoding='utf-8') as stream:
+  COMPANIES = json.load(stream)
 
 def base_language_code(locale_code):
   locale_code = locale_code.replace('_', '-')
