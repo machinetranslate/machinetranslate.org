@@ -6,7 +6,7 @@ title: Speech
 description: Speech input to machine translation APIs
 ---
 
-Speech input, also known as voice input or audio input, is a feature of machine translation APIs required for speech translation.
+**Speech input**, also known as **voice input** or **audio input**, is a feature of machine translation APIs required for speech translation.
 
 There are different types of speech translation.
 
@@ -20,7 +20,7 @@ Speech input can be combined with different types of output.
 
 Often, speech recognition (transcription) and translation are separate APIs or API calls, that can be combined to effectively support speech translation.
 
-Speech translation APIs are typically slower than text translation APIs.
+Speech translation APIs are typically slower than [text](/text) translation APIs.
 
 {% assign apis = site.data.apis | where_exp: 'api', 'api.inputs contains "speech"' %}
 
