@@ -6,7 +6,7 @@ title: Automatic post-editing
 description: Automatic post-editing of machine translation
 ---
 
-**Automatic post-editing (APE)** is the task of automatically correcting the output of a machine translation system. Like in manual human post-editing, the objective is to improve the quality of a machine translation output. For example, automatic post-editing can be used to correct errors or apply a certain style.
+**Automatic post-editing (APE)** is the task of automatically correcting the output of a machine translation system. Like in manual human [post-editing](/post-editing), the objective is to improve the quality of a machine translation output. For example, automatic post-editing can be used to correct errors or apply a certain style.
 Automatic post-editing systems should meet multiple requirements:
 - detect and fix machine translation errors
 - avoid making overcorrections, especially those that add new errors
@@ -31,7 +31,7 @@ Automatic post-editing systems are usually trained with parallel triplets contai
 
 | Source | Machine translation | Human post-edited translation|
 | How are you?	| ¿Cómo estás?	| ¿Cómo está?|
-| Computer| Computadora| Ordenadora|
+| Computer| Computadora| Ordenador|
 | … | … | …|
 
 
@@ -44,8 +44,8 @@ When human post-edited translations are not available, synthetic post-editing da
 ### Evaluation
 Automatic post-editing systems can be evaluated like machine translation systems:
 
--	Automatic, reference-based evaluation metrics, like [TER](/ter) or [BLEU](/bleu)
--	Human evaluation, like direct assessment
+-	Automatic, reference-based evaluation [metrics](/metrics), like [TER](/ter) or [BLEU](/bleu)
+-	[Human evaluation](/human-evaluation-metrics), like [direct assessment](/human-evaluation-metrics#direct-assessment)
 
 Evaluation reveals how many sentences were improved. Precision can be calculated by dividing the number of improved sentences by the total number of modified sentences. Another common metric is the average number of edits per segment.
 
