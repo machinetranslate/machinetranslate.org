@@ -1,0 +1,309 @@
+---
+layout: default
+parent: Companies
+---
+
+<h1>
+  {{ page.title }}
+</h1>
+<h2>
+  {{ page.description }}
+</h2>
+
+<hr/>
+
+{% if page.active != true %}
+<blockquote>
+ ⚠️ <strong>{{ page.title }}</strong> is no longer active.
+</blockquote>
+{% endif %}
+
+{% if page.acquired_by %}
+<blockquote>
+  <strong>{{ page.title }}</strong> has been acquired by <a href="/{{ page.acquired_by | replace: '.', '' | slugify }}">{{ page.acquired_by }}</a>.
+</blockquote>
+{% endif %}
+
+<p>
+    {{ page.title }} was founded in {{ page.founded }}, in {{ page.location }}.
+</p>
+
+{% if page.note %}
+<blockquote>
+  “{{ page.note }}”
+</blockquote>
+{% endif %}
+
+<p>
+  {% assign services_list = "" | split: "" %}
+
+{% if page.apis and page.apis.size > 0 %}
+  {% assign api_text = '<a href="#apis">' | append: page.apis.size | append: ' machine translation API' %}
+  {% if page.apis.size != 1 %}{% assign api_text = api_text | append: 's' %}{% endif %}
+  {% assign api_text = api_text | append: '</a>' %}
+  {% assign services_list = services_list | push: api_text %}
+{% endif %}
+
+{% if page.quality_estimation and page.quality_estimation.size > 0 %}
+  {% assign qe_text = '<a href="#qe">' | append: page.quality_estimation.size | append: ' quality estimation API' %}
+  {% if page.quality_estimation.size != 1 %}{% assign qe_text = qe_text | append: 's' %}{% endif %}
+  {% assign qe_text = qe_text | append: '</a>' %}
+  {% assign services_list = services_list | push: qe_text %}
+{% endif %}
+
+{% if page.automatic_post_editing and page.automatic_post_editing.size > 0 %}
+  {% assign ape_text = '<a href="#ape">' | append: page.automatic_post_editing.size | append: ' automatic post-editing API' %}
+  {% if page.automatic_post_editing.size != 1 %}{% assign ape_text = ape_text | append: 's' %}{% endif %}
+  {% assign ape_text = ape_text | append: '</a>' %}
+  {% assign services_list = services_list | push: ape_text %}
+{% endif %}
+
+{% if page.tms and page.tms.size > 0 %}
+  {% assign tms_text = '<a href="#tms">' | append: page.tms.size | append: ' ' | append: page.tms[0].type %}
+  {% if page.tms.size != 1 %}{% assign tms_text = tms_text | append: 's' %}{% endif %}
+  {% assign tms_text = tms_text | append: '</a>' %}
+  {% assign services_list = services_list | push: tms_text %}
+{% endif %}
+
+{% if page.routers and page.routers.size > 0 %}
+  {% assign routers_text = '<a href="#routers">' | append: page.routers.size | append: ' routing' %}
+  {% if page.routers.size != 1 %}{% assign routers_text = routers_text | append: 's' %}{% endif %}
+  {% assign routers_text = routers_text | append: '</a>' %}
+  {% assign services_list = services_list | push: routers_text %}
+{% endif %}
+
+{% if page.models and page.models.size > 0 %}
+  {% assign models_text = '<a href="#models">' | append: page.models.size | append: ' large language model' %}
+  {% if page.models.size != 1 %}{% assign models_text = models_text | append: 's' %}{% endif %}
+  {% assign models_text = models_text | append: '</a>' %}
+  {% assign services_list = services_list | push: models_text %}
+{% endif %}
+
+{% assign services_count = services_list | size %}
+
+{% if services_count > 0 %}
+  <p>
+    <strong>{{ page.title }}</strong> offers
+    {% for s in services_list -%}
+      {% if forloop.first -%}
+        {{ s }}
+      {% elsif forloop.last -%}
+        {% if services_count == 2 -%} and {% else %}, and {% endif -%}{{ s }}
+      {% else -%}
+        , {{ s }}
+      {%- endif -%}
+    {%- endfor -%}.
+
+  </p>
+{% endif %}
+</p>
+
+
+<blockquote>
+
+  <dl>
+
+  {% if page.apis.size > 0 %}
+    <dt>APIs</dt>
+    <dd><a href="#apis">{{ page.apis | size }} API{% if page.apis.size > 1 %}s{% endif %}</a></dd>
+  {% endif %}
+
+  {% if page.tms.size > 0 %}
+    <dt>{{ page.tms[0].type | capitalize }}</dt>
+    <dd><a href="#tms">{{ page.tms | size }} {{ page.tms[0].type }}{% if page.tms.size > 1 %}s{% endif %}</a></dd>
+  {% endif %}
+
+  {% if page.routers.size > 0 %}
+    <dt>Routers</dt>
+    <dd><a href="#routers">{{ page.routers | size }} router{% if page.routers.size > 1 %}s{% endif %}</a></dd>
+  {% endif %}
+    
+  {% if page.quality_estimation.size > 0 %}
+    <dt>Quality estimation</dt>
+    <dd><a href="#qe">{{ page.quality_estimation | size }} quality estimation API{% if page.quality_estimation.size > 1 %}s{% endif %}</a></dd>
+  {% endif %}
+
+  {% if page.automatic_post_editing.size > 0 %}
+    <dt>Automatic post-editing</dt>
+    <dd><a href="#ape">{{ page.automatic_post_editing | size }} automatic post-editing API{% if page.automatic_post_editing.size > 1 %}s{% endif %}</a></dd>
+  {% endif %}
+
+  {% if page.models.size > 0 %}
+    <dt>Models</dt>
+    <dd><a href="#models">{{ page.models | size }} large language model{% if page.models.size > 1 %}s{% endif %}</a></dd>
+  {% endif %}
+
+  </dl>
+
+  {% if page.urls.size > 0 %}
+    <hr/>
+    <ul>
+      {% for url in page.urls %}
+      <li>
+        <a href="{{ url }}" target="_blank">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+</blockquote>
+
+{{ content }}
+
+{% if page.apis.size > 0 %}
+<section id="apis">
+  <h2>APIs</h2>
+    <details>
+      <summary>
+        {% if page.apis.size == 1 %}
+          <strong>1</strong> API is offered by {{ page.title }}.
+        {% else %}
+          <strong>{{ page.apis | size }}</strong> APIs are offered by {{ page.title }}.
+        {% endif %}
+        <p class="preview hint">
+          {{ page.apis | slice: 0, 5 | map: 'name' | join: ', ' }}
+          {% if page.apis.size > 5 %}, …{% endif %}
+        </p>
+      </summary>
+      <ul>
+        {% for api in page.apis %}
+          <li>
+            <a href="/{{ api.slug }}">
+              {{ api.name }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+</section>
+{% endif %}
+
+{% if page.tms.size > 0 %}
+  <section id="tms">
+    <h2>{% if page.tms[0].type contains 'translation management system' %}TMS{% else %}CAT{% endif %}</h2>
+    <details>
+      <summary>
+        {% if page.tms.size == 1 %}
+          <strong>1</strong> {{ page.tms[0].type }} is offered by {{ page.title }}.
+        {% else %}
+          <strong>{{ page.tms | size }}</strong> {{ page.tms[0].type }}s are offered by {{ page.title }}.
+        {% endif %}
+        <p class="preview hint">
+          {{ page.tms | slice: 0, 5 | map: 'name' | join: ', ' }}
+          {% if page.tms.size > 5 %}, …{% endif %}
+        </p>
+      </summary>
+      <ul>
+        {% for i in page.tms %}
+          <li>
+              <a href="/{{ i.slug }}" >{{ i.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+  </section>
+{% endif %}
+
+{% if page.routers.size > 0 %}
+  <section id="routers">
+    <h2>Routers</h2>
+    <details>
+      <summary>
+        {% if page.routers.size == 1 %}
+          <strong>1</strong> router is offered by {{ page.title }}.
+        {% else %}
+          <strong>{{ page.routers | size }}</strong> routers are offered by {{ page.title }}.
+        {% endif %}
+        <p class="preview hint">
+          {{ page.routers | slice: 0, 5 | map: 'name' | join: ', ' }}
+          {% if page.routers.size > 5 %}, …{% endif %}
+        </p>
+      </summary>
+      <ul>
+        {% for i in page.routers %}
+          <li>
+              <a href="/{{ i.slug }}" >{{ i.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+  </section>
+{% endif %}
+
+{% if page.quality_estimation.size > 0 %}
+  <section id="qe">
+    <h2>Quality estimation</h2>
+    <details>
+      <summary>
+        {% if page.quality_estimation.size == 1 %}
+          <strong>1</strong> quality estimation API is offered by {{ page.title }}.
+        {% else %}
+          <strong>{{ page.quality_estimation | size }}</strong> quality estimation APIs are offered by {{ page.title }}.
+        {% endif %}
+        <p class="preview hint">
+          {{ page.quality_estimation | slice: 0, 5 | map: 'name' | join: ', ' }}
+          {% if page.quality_estimation.size > 5 %}, …{% endif %}
+        </p>
+      </summary>
+      <ul>
+        {% for i in page.quality_estimation %}
+          <li>
+              <a href="/{{ i.slug }}" >{{ i.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+  </section>
+{% endif %}
+
+{% if page.automatic_post_editing.size > 0 %}
+  <section id="ape">
+    <h2>Automatic post-editing</h2>
+    <details>
+      <summary>
+        {% if page.automatic_post_editing.size == 1 %}
+          <strong>1</strong> automatic post-editing API is offered by {{ page.title }}.
+        {% else %}
+          <strong>{{ page.automatic_post_editing | size }}</strong> automatic post-editing APIs are offered by {{ page.title }}.
+        {% endif %}
+        <p class="preview hint">
+          {{ page.automatic_post_editing | slice: 0, 5 | map: 'name' | join: ', ' }}
+          {% if page.automatic_post_editing.size > 5 %}, …{% endif %}
+        </p>
+      </summary>
+      <ul>
+        {% for i in page.automatic_post_editing %}
+          <li>
+              <a href="/{{ i.slug }}" >{{ i.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+  </section>
+{% endif %}
+
+{% if page.models.size > 0 %}
+  <section id="models">
+    <h2>Models</h2>
+    <details>
+      <summary>
+        {% if page.models.size == 1 %}
+          <strong>1</strong> large language model is offered by {{ page.title }}.
+        {% else %}
+          <strong>{{ page.models | size }}</strong> large language models are offered by {{ page.title }}.
+        {% endif %}
+        <p class="preview hint">
+          {{ page.models | slice: 0, 5 | map: 'name' | join: ', ' }}
+          {% if page.models.size > 5 %}, …{% endif %}
+        </p>
+      </summary>
+      <ul>
+        {% for i in page.models %}
+          <li>
+              <a href="/{{ i.slug }}" >{{ i.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </details>
+  </section>
+{% endif %}
