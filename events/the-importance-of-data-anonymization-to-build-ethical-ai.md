@@ -17,8 +17,8 @@ id: the-importance-of-data-anonymization-to-build-ethical-ai
 description: Lecture in the Convergence Lecture Series
 start_date: '2023-10-18'
 more_paragraphs:
-- 'The speaker was Manuel Herranz, CEO of <a href=''/pangeanic''>Pangeanic.</a>
-  <br> Data provenance and the use and inclusion of personal data have not been historically
+- 'The speaker was Manuel Herranz, CEO of <a href=''/pangeanic''>Pangeanic.</a> <br>
+  Data provenance and the use and inclusion of personal data have not been historically
   a consideration in the building of machine translation systems and, lately, Large
   Language Models (LLMs). Manuel’s convergence lecture will touch upon concepts such
   as Ethical AI and the need to build ethics all along the data generation and data
