@@ -27,7 +27,7 @@ territories:
 - cg
 - cd
 supported_apis:
-- id: google
+- id: google-translate
   name: Google Translate
 supported_qe_apis: []
 seo:

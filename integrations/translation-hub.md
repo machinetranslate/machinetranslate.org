@@ -13,7 +13,7 @@ type:
 type_description: translation management system
 tms_url: https://cloud.google.com/translation-hub
 api_integrations:
-- slug: google
+- slug: google-translate
   custom: true
   glossary: true
   name: Google Translate

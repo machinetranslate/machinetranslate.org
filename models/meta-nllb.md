@@ -18,7 +18,6 @@ apis: []
 seo:
   name: The NLLB model for translation
   type: Product
-redirect_from: nllb
 
 ---
 

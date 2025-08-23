@@ -27,15 +27,15 @@ typology:
 territories:
 - de
 supported_apis:
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis:
 - slug: modelfront
-  id: modelfront
+  id: modelfront-qe
   name: ModelFront
 seo:
   name: Machine translation for Upper Sorbian

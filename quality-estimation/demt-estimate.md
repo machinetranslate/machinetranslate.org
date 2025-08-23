@@ -7,7 +7,7 @@ title: DeMT Estimate
 description: The DeMT Estimate translation quality estimation API
 tagline: null
 id: demt-estimate
-company: TAUS
+company: taus
 parent: Quality estimation
 urls:
 - https://www.taus.net

@@ -1302,7 +1302,7 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: crowdin
+- slug: crowdin-tms
   name: Crowdin
   plugin: true
   urls:
@@ -1312,7 +1312,6 @@ active: true
 seo:
   name: The Alibaba Translate machine translation API
   type: Product
-redirect_from: alibaba-translate
 
 ---
 

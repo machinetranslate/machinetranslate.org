@@ -29,11 +29,11 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
-- id: google
+- id: google-translate
   name: Google Translate
 supported_qe_apis:
 - slug: modelfront
-  id: modelfront
+  id: modelfront-qe
   name: ModelFront
 seo:
   name: Machine translation for Lombard

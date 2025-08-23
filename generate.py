@@ -318,10 +318,6 @@ for api in APIS:
     }
   }
 
-  name_slug = slugify(name)
-  if name_slug != api_id:
-    frontmatter['redirect_from'] = name_slug
-
   filepath = f'apis/{ api_id }.md'
 
   content = read_content(filepath)
@@ -782,9 +778,7 @@ for estimation in QUALITY_ESTIMATION:
     }
   }
 
-  slug = slugify(name)
-
-  filepath = f'quality-estimation/{ slug }.md'
+  filepath = f'quality-estimation/{ company_id }.md'
 
   content = read_content(filepath)
 
@@ -1104,10 +1098,6 @@ for model in MODELS:
       'type': 'Product'
     }
   }
-
-  name_slug = slugify(name)
-  if name_slug != model_id:
-    frontmatter['redirect_from'] = name_slug
 
   filepath = f'models/{ model_id }.md'
 

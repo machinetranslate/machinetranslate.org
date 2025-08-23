@@ -25,21 +25,21 @@ typology:
 territories:
 - ng
 supported_apis:
-- id: lilt
+- id: lilt-api
   name: Lilt
-- id: lingvanex
+- id: lingvanex-api
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace
+- id: neuralspace-api
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans
@@ -48,7 +48,7 @@ supported_qe_apis:
   id: demt-estimate
   name: DeMT Estimate
 - slug: modelfront
-  id: modelfront
+  id: modelfront-qe
   name: ModelFront
 seo:
   name: Machine translation for Igbo

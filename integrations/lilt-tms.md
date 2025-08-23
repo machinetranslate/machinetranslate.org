@@ -12,7 +12,7 @@ type:
 type_description: computer-aided translation tool
 tms_url: https://www.lilt.com
 api_integrations:
-- slug: lilt
+- slug: lilt-api
   custom: true
   glossary: true
   adaptive: true

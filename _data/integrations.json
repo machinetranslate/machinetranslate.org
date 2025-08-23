@@ -10,22 +10,22 @@
         ],
         "api_integrations": [
             {
-                "deepl": {
+                "deepl-api": {
                     "formality": true
                 }
             },
-            "google",
+            "google-translate",
             "kantanmt",
-            "language-wire",
+            "language-wire-api",
             "octavemt",
-            "promt",
-            "systran",
-            "textshuttle"
+            "promt-api",
+            "systran-api",
+            "supertext"
         ],
         "fuzzy_repair": true
     },
     {
-        "id": "crowdin",
+        "id": "crowdin-tms",
         "name": "Crowdin",
         "company": "crowdin",
         "tms_url": "https://www.crowdin.com",
@@ -44,7 +44,7 @@
                 }
             },
             {
-                "amazon": {
+                "amazon-translate": {
                     "glossary": true,
                     "urls": [
                         "https://support.crowdin.com/enterprise/machine-translation/#amazon-translate"
@@ -52,7 +52,7 @@
                 }
             },
             {
-                "deepl": {
+                "deepl-api": {
                     "formality": true,
                     "urls": [
                         "https://support.crowdin.com/enterprise/machine-translation/#deepl-translator"
@@ -60,7 +60,7 @@
                 }
             },
             {
-                "google": {
+                "google-translate": {
                     "custom": true,
                     "glossary": true,
                     "urls": [
@@ -70,7 +70,7 @@
                 }
             },
             {
-                "globalese": {
+                "globalese-api": {
                     "plugin": true,
                     "urls": [
                         "https://store.crowdin.com/globalese"
@@ -96,7 +96,7 @@
                 }
             },
             {
-                "microsoft": {
+                "microsoft-translator": {
                     "custom": true,
                     "urls": [
                         "https://support.crowdin.com/enterprise/machine-translation/#microsoft-translator"
@@ -123,7 +123,7 @@
                 }
             },
             {
-                "systran": {
+                "systran-api": {
                     "plugin": true,
                     "urls": [
                         "https://store.crowdin.com/systran"
@@ -131,7 +131,7 @@
                 }
             },
             {
-                "tencent": {
+                "tencent-machine-translation": {
                     "plugin": true,
                     "urls": [
                         "https://store.crowdin.com/tencent"
@@ -146,14 +146,14 @@
                 }
             },
             {
-                "xl8": {
+                "xl8-api": {
                     "urls": [
                         "https://store.crowdin.com/xl8"
                     ]
                 }
             },
             {
-                "yandex": {
+                "yandex-translate": {
                     "active": false
                 }
             }
@@ -186,15 +186,15 @@
     {
         "id": "eluna",
         "name": "eLUNa",
-        "company": "United Nations",
+        "company": "united-nations",
         "tms_url": "https://ls-ets.unog.ch/tools/untermeluna",
         "type": [
             "tms",
             "cat"
         ],
         "api_integrations": [
-            "deepl",
-            "microsoft",
+            "deepl-api",
+            "microsoft-translator",
             "tapta"
         ]
     },
@@ -212,15 +212,15 @@
             }
         ],
         "api_integrations": [
-            "apptek",
-            "google",
+            "apptek-api",
+            "google-translate",
             "kantanmt",
-            "lilt",
-            "microsoft",
+            "lilt-api",
+            "microsoft-translator",
             "moses",
             "omniscien",
-            "systran",
-            "tauyou",
+            "systran-api",
+            "tauyou-api",
             "transperfect-nmt"
         ]
     },
@@ -276,7 +276,7 @@
         "documentation_url": "https://support.lilt.com/kb/",
         "api_integrations": [
             {
-                "lilt": {
+                "lilt-api": {
                     "custom": true,
                     "glossary": true,
                     "adaptive": true,
@@ -297,14 +297,14 @@
         ],
         "documentation_url": "https://guides.matecat.com/",
         "api_integrations": [
-            "apertium",
+            "apertium-api",
             {
-                "google": {
+                "google-translate": {
                     "custom": true
                 }
             },
             {
-                "iconic": {
+                "iconic-translation": {
                     "urls": [
                         "https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/"
                     ],
@@ -326,7 +326,7 @@
             },
             "language-weaver",
             {
-                "microsoft": {
+                "microsoft-translator": {
                     "custom": true
                 }
             },
@@ -342,13 +342,13 @@
             "moses",
             "prompsit",
             "smartmate",
-            "tauyou",
+            "tauyou-api",
             {
-                "tilde": {
+                "tilde-api": {
                     "custom": true
                 }
             },
-            "yandex"
+            "yandex-translate"
         ]
     },
     {
@@ -363,14 +363,14 @@
         "documentation_url": "https://docs.memoq.com/current/en/Welcome/welcome-memoq-docs.html",
         "api_integrations": [
             {
-                "alexa-translations-ai": {
+                "alexa-translations-ai-api": {
                     "urls": [
                         "https://docs.memoq.com/current/en/Places/alexa-ai-plugin-settings.html"
                     ]
                 }
             },
             {
-                "amazon": {
+                "amazon-translate": {
                     "custom": true,
                     "glossary": true,
                     "formality": true,
@@ -387,7 +387,7 @@
                 }
             },
             {
-                "deepl": {
+                "deepl-api": {
                     "glossary": true,
                     "formality": true,
                     "urls": [
@@ -403,7 +403,7 @@
                 }
             },
             {
-                "globalese": {
+                "globalese-api": {
                     "plugin": true,
                     "urls": [
                         "https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069984/memoQ+connector"
@@ -411,7 +411,7 @@
                 }
             },
             {
-                "google": {
+                "google-translate": {
                     "custom": true,
                     "glossary": true,
                     "urls": [
@@ -421,7 +421,7 @@
                 }
             },
             {
-                "iconic": {
+                "iconic-translation": {
                     "active": false,
                     "urls": [
                         "https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/"
@@ -461,7 +461,7 @@
                 }
             },
             {
-                "microsoft": {
+                "microsoft-translator": {
                     "custom": true,
                     "urls": [
                         "https://docs.memoq.com/current/en/Places/microsoft-mt-plugin-settings.html"
@@ -513,7 +513,7 @@
                 }
             },
             {
-                "systran": {
+                "systran-api": {
                     "custom": true,
                     "adaptive": true,
                     "urls": [
@@ -529,15 +529,15 @@
                 }
             },
             {
-                "textshuttle": {
+                "supertext": {
                     "plugin": true,
                     "urls": [
-                        "https://www.textshuttle.ai/product/features#cat-connectors"
+                        "https://www.supertext.ai/product/features#cat-connectors"
                     ]
                 }
             },
             {
-                "tilde": {
+                "tilde-api": {
                     "custom": true,
                     "glossary": true,
                     "urls": [
@@ -553,7 +553,7 @@
                 }
             },
             {
-                "xl8": {
+                "xl8-api": {
                     "urls": [
                         "https://docs.google.com/document/d/1aYbIpDCme7D-FIVgqRvSmoIiiUJ4QhAZEPAP-tJNwPs/edit"
                     ]
@@ -595,23 +595,23 @@
         "documentation_url": "https://docs.rws.com/785465/752728/sdl-multitrans",
         "api_integrations": [
             {
-                "deepl": {
+                "deepl-api": {
                     "url": "https://docs.rws.com/785465/786901/sdl-multitrans/configuring-deepl"
                 }
             },
             {
-                "google": {
+                "google-translate": {
                     "url": "https://docs.rws.com/785465/786605/sdl-multitrans/configuring-google-translate-server"
                 }
             },
             {
-                "iconic": {
+                "iconic-translation": {
                     "active": false,
                     "url": "https://docs.rws.com/785465/786609/sdl-multitrans/configuring-iconic-plugin"
                 }
             },
             {
-                "microsoft": {
+                "microsoft-translator": {
                     "url": "https://docs.rws.com/785465/786613/sdl-multitrans/configuring-microsoft-translator"
                 }
             },
@@ -621,12 +621,12 @@
                 }
             },
             {
-                "promt": {
+                "promt-api": {
                     "url": "https://docs.rws.com/785465/786621/sdl-multitrans/configuring-promt"
                 }
             },
             {
-                "systran": {
+                "systran-api": {
                     "url": "https://docs.rws.com/785465/786625/sdl-multitrans/configuring-systran"
                 }
             },
@@ -653,28 +653,28 @@
                     "active": false
                 }
             },
-            "alexa-translations-ai",
+            "alexa-translations-ai-api",
             {
-                "amazon": {
+                "amazon-translate": {
                     "glossary": true
                 }
             },
-            "apertium",
+            "apertium-api",
             "crosslang",
             {
-                "deepl": {
+                "deepl-api": {
                     "glossary": true
                 }
             },
             "fairtrade",
             {
-                "google": {
+                "google-translate": {
                     "custom": true,
                     "glossary": true
                 }
             },
             {
-                "globalese": {
+                "globalese-api": {
                     "urls": [
                         "https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647135756/Phrase+connector"
                     ]
@@ -687,13 +687,13 @@
                 }
             },
             {
-                "kodensha": {
+                "kodensha-mt": {
                     "active": false
                 }
             },
             "lengoo",
             {
-                "microsoft": {
+                "microsoft-translator": {
                     "custom": true,
                     "glossary": true
                 }
@@ -737,13 +737,13 @@
                 }
             },
             {
-                "promt": {
+                "promt-api": {
                     "custom": true,
                     "glossary": true
                 }
             },
             {
-                "rozetta": {
+                "rozetta-t-400": {
                     "custom": true,
                     "glossary": true
                 }
@@ -755,24 +755,24 @@
                 }
             },
             {
-                "skrivanek": {
+                "skrivanek-api": {
                     "active": false
                 }
             },
             "sundamt",
             {
-                "systran": {
+                "systran-api": {
                     "custom": true
                 }
             },
             {
-                "tauyou": {
+                "tauyou-api": {
                     "active": false
                 }
             },
-            "tencent",
+            "tencent-machine-translation",
             {
-                "tilde": {
+                "tilde-api": {
                     "custom": true
                 }
             },
@@ -783,11 +783,11 @@
             },
             "t-tact-an-zin",
             {
-                "ubiqus": {
+                "ubiqus-nmt": {
                     "glossary": true
                 }
             },
-            "yandex"
+            "yandex-translate"
         ],
         "quality_estimation_integrations":[
             {
@@ -799,7 +799,7 @@
         "routing": true
     },
     {
-        "id": "omegat",
+        "id": "omegat-cat",
         "name": "OmegaT",
         "company": "omegat",
         "tms_url": "https://www.omegat.org",
@@ -809,15 +809,15 @@
         "open_source": true,
         "documentation_url": "https://omegat.org/documentation",
         "api_integrations": [
-            "apertium",
-            "belazar",
-            "deepl",
-            "google",
+            "apertium-api",
+            "belazar-api",
+            "deepl-api",
+            "google-translate",
             "watson",
-            "microsoft",
+            "microsoft-translator",
             "moses",
             {
-                "tencent": {
+                "tencent-machine-translation": {
                     "plugin": true,
                     "urls": [
                         "https://github.com/yoyicue/omegat-tencent-plugin"
@@ -830,7 +830,7 @@
                     "urls": "https://codeberg.org/miurahr/omegat-textra-plugin"
                 }
             },
-            "yandex"
+            "yandex-translate"
         ],
         "local_api_support": true,
         "fuzzy_repair": true,
@@ -852,7 +852,7 @@
         "documentation_url": "https://docs.rws.com/914743/262054/passolo-help/welcome-to-the-------------passolo-documentation",
         "api_integrations": [
             {
-                "deepl": {
+                "deepl-api": {
                     "plugin": true,
                     "urls": [
                         "https://appstore.rws.com/language/app/deepl-mt-provider-for-passolo/1088/"
@@ -860,7 +860,7 @@
                 }
             },
             {
-                "google": {
+                "google-translate": {
                     "custom": true
                 }
             },
@@ -870,7 +870,7 @@
                 }
             },
             {
-                "microsoft": {
+                "microsoft-translator": {
                     "custom": true
                 }
             }
@@ -893,7 +893,7 @@
         }
     },
     {
-        "id": "smartcat",
+        "id": "smartcat-tms",
         "name": "Smartcat",
         "company": "smartcat",
         "tms_url": "https://www.smartcat.ai",
@@ -904,26 +904,26 @@
         "documentation_url": "https://help.smartcat.com/hc/en-us/",
         "api_integrations": [
             {
-                "amazon": {
+                "amazon-translate": {
                     "custom": true
                 }
             },
             {
-                "baidu": {
+                "baidu-translate": {
                     "urls": [
                         "https://www.smartcat.com/integrations/baidu-translate/"
                     ]
                 }
             },
             {
-                "deepl": {
+                "deepl-api": {
                     "urls": [
                         "https://www.smartcat.com/integrations/deepl/"
                     ]
                 }
             },
             {
-                "globalese": {
+                "globalese-api": {
                     "plugin": true,
                     "custom": true,
                     "urls": [
@@ -932,7 +932,7 @@
                 }
             },
             {
-                "google": {
+                "google-translate": {
                     "custom": true,
                     "glossary": true
                 }
@@ -948,7 +948,7 @@
                 }
             },
             {
-                "microsoft": {
+                "microsoft-translator": {
                     "custom": true,
                     "urls": [
                         "https://www.smartcat.com/integrations/microsoft-translator/"
@@ -960,12 +960,12 @@
                     "custom": true
                 }
             },
-            "yandex"
+            "yandex-translate"
         ],
         "multiple_api_suggestions": true
     },
     {
-        "id": "smartling",
+        "id": "smartling-tms",
         "name": "Smartling",
         "company": "smartling",
         "tms_url": "https://www.smartling.com",
@@ -975,10 +975,10 @@
         ],
         "documentation_url": "https://help.smartling.com/hc/en-us",
         "api_integrations": [
-            "amazon",
-            "deepl",
+            "amazon-translate",
+            "deepl-api",
             {
-                "google": {
+                "google-translate": {
                     "custom": true,
                     "glossary": true,
                     "urls": [
@@ -996,13 +996,13 @@
                 }
             },
             {
-                "microsoft": {
+                "microsoft-translator": {
                     "custom": true
                 }
             },
             "prompsit",
-            "promt",
-            "systran",
+            "promt-api",
+            "systran-api",
             {
                 "watson": {
                     "custom": true
@@ -1013,9 +1013,9 @@
         "routing": true
     },
     {
-        "id": "tolgee",
+        "id": "tolgee-tms",
         "name": "Tolgee",
-        "company": "Tolgee",
+        "company": "tolgee",
         "tms_url": "https://tolgee.io",
         "type": [
             "tms",
@@ -1024,15 +1024,15 @@
         "documentation_url": "https://tolgee.io/platform",
         "open_source": true,
         "api_integrations": [
-            "amazon",
-            "deepl",
-            "google",
+            "amazon-translate",
+            "deepl-api",
+            "google-translate",
             {
-                "baidu": {
+                "baidu-translate": {
                     "active": false
                 }
             },
-            "microsoft"
+            "microsoft-translator"
         ],
         "multiple_api_suggestions": true
     },
@@ -1047,7 +1047,7 @@
         "documentation_url": "https://docs.rws.com/980998/261377/trados-studio-2022/welcome-to-the-------------trados-studio-2022-documentation",
         "api_integrations": [
             {
-                "alexa-translations-ai": {
+                "alexa-translations-ai-api": {
                     "plugin": true,
                     "urls": [
                         "https://appstore.rws.com/plugin/149/"
@@ -1055,7 +1055,7 @@
                 }
             },
             {
-                "amazon": {
+                "amazon-translate": {
                     "plugin": true,
                     "urls": [
                         "https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3315/amazon-translate-mt-provider"
@@ -1077,7 +1077,7 @@
                 }
             },
             {
-                "deepl": {
+                "deepl-api": {
                     "plugin": true,
                     "urls": [
                         "https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3266/deepl-translation-provider"
@@ -1093,7 +1093,7 @@
                 }
             },
             {
-                "globalese": {
+                "globalese-api": {
                     "plugin": true,
                     "custom": true,
                     "urls": [
@@ -1103,7 +1103,7 @@
                 }
             },
             {
-                "google": {
+                "google-translate": {
                     "plugin": true,
                     "custom": true,
                     "glossary": true,
@@ -1113,7 +1113,7 @@
                 }
             },
             {
-                "iconic": {
+                "iconic-translation": {
                     "urls": [
                         "https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/"
                     ],
@@ -1144,7 +1144,7 @@
                 }
             },
             {
-                "language-wire": {
+                "language-wire-api": {
                     "plugin": true,
                     "urls": [
                         "https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin"
@@ -1168,7 +1168,7 @@
                 }
             },
             {
-                "lucy": {
+                "lucy-api": {
                     "plugin": true,
                     "urls": [
                         "https://web.archive.org/web/20180922112123/http://www.lucysoftware.com/english/machine-translation/integration-capabilities/lucy-lt-integration-capabilities.html"
@@ -1177,7 +1177,7 @@
                 }
             },
             {
-                "microsoft": {
+                "microsoft-translator": {
                     "plugin": true,
                     "custom": true,
                     "urls": [
@@ -1233,7 +1233,7 @@
                 }
             },
             {
-                "rozetta": {
+                "rozetta-t-400": {
                     "plugin": true,
                     "custom": true,
                     "urls": [
@@ -1258,7 +1258,7 @@
                 }
             },
             {
-                "systran": {
+                "systran-api": {
                     "plugin": true,
                     "custom": true,
                     "urls": [
@@ -1267,7 +1267,7 @@
                 }
             },
             {
-                "textshuttle": {
+                "supertext": {
                     "plugin": true,
                     "urls": [
                         "https://appstore.rws.com/plugin/145/"
@@ -1281,7 +1281,7 @@
                 }
             },
             {
-                "tilde": {
+                "tilde-api": {
                     "plugin": true,
                     "custom": true,
                     "urls": [
@@ -1307,13 +1307,13 @@
                 }
             },
             {
-                "ubiqus": {
+                "ubiqus-nmt": {
                     "plugin": true,
                     "active": false
                 }
             },
             {
-                "xl8": {
+                "xl8-api": {
                     "plugin": true,
                     "urls": [
                         "https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf"
@@ -1332,7 +1332,7 @@
         "fuzzy_repair": true
     },
     {
-        "id": "transifex",
+        "id": "transifex-tms",
         "name": "Transifex",
         "company": "transifex",
         "tms_url": "http://www.transifex.com",
@@ -1343,7 +1343,7 @@
         "documentation_url": "https://docs.transifex.com/",
         "api_integrations": [
             {
-                "amazon": {
+                "amazon-translate": {
                     "glossary": true,
                     "urls": [
                         "https://docs.transifex.com/machine-translation/glossary-for-amazon-machine-translation-mt"
@@ -1351,12 +1351,12 @@
                 }
             },
             {
-                "deepl": {
+                "deepl-api": {
                     "formality": true
                 }
             },
             {
-                "google": {
+                "google-translate": {
                     "custom": true
                 }
             },
@@ -1368,7 +1368,7 @@
                     ]
                 }
             },
-            "microsoft"
+            "microsoft-translator"
         ],
         "local_api_support": true
     },
@@ -1384,27 +1384,27 @@
         "documentation_url": "https://www.star-group.net/en/downloads/transit-termstar.html",
         "api_integrations": [
             {
-                "deepl": {
+                "deepl-api": {
                     "glossary": true,
                     "formality": true
                 }
             },
-            "globalese",
-            "google",
+            "globalese-api",
+            "google-translate",
             {
                 "kantanmt": {
                     "custom": true
                 }
             },
-            "microsoft",
+            "microsoft-translator",
             {
                 "smartmate": {
                     "glossary": true
                 }
             },
-            "systran",
+            "systran-api",
             {
-                "textshuttle": {
+                "supertext": {
                     "glossary": true
                 }
             }
@@ -1415,7 +1415,7 @@
     {
         "id": "translate5",
         "name": "translate5",
-        "company": "MittagQI",
+        "company": "mittagqi",
         "tms_url": "https://translate5.net",
         "type": [
             "tms",
@@ -1425,7 +1425,7 @@
         "documentation_url": "https://confluence.translate5.net/spacedirectory/view.action",
         "api_integrations": [
             {
-                "deepl": {
+                "deepl-api": {
                     "plugin": true,
                     "urls": [
                         "https://confluence.translate5.net/display/CON/DeepL"
@@ -1433,21 +1433,21 @@
                 }
             },
             {
-                "globalese": {
+                "globalese-api": {
                     "urls": [
                         "https://confluence.translate5.net/display/CON/GlobalesePreTranslation"
                     ]
                 }
             },
             {
-                "google": {
+                "google-translate": {
                     "urls": [
                         "https://confluence.translate5.net/display/BUS/Google"
                     ]
                 }
             },
             {
-                "lucy": {
+                "lucy-api": {
                     "urls": [
                         "https://confluence.translate5.net/display/BUS/Lucy"
                     ]
@@ -1461,7 +1461,7 @@
                 }
             },
             {
-                "microsoft": {
+                "microsoft-translator": {
                     "urls": [
                         "https://confluence.translate5.net/display/BUS/MS+Translator+Microsoft"
                     ]
@@ -1505,7 +1505,7 @@
         ],
         "api_integrations": [
             {
-                "google": {
+                "google-translate": {
                     "custom": true,
                     "glossary": true
                 }
@@ -1520,7 +1520,7 @@
         ]
     },
     {
-        "id": "wordbee",
+        "id": "wordbee-tms",
         "name": "Wordbee",
         "company": "wordbee",
         "tms_url": "http://www.wordbee.com",
@@ -1531,14 +1531,14 @@
         "documentation_url": "https://wordbee.atlassian.net/wiki/spaces/WBT/overview",
         "api_integrations": [
             {
-                "deepl": {
+                "deepl-api": {
                     "urls": [
                         "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
                     ]
                 }
             },
             {
-                "globalese": {
+                "globalese-api": {
                     "plugin": true,
                     "urls": [
                         "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
@@ -1546,7 +1546,7 @@
                 }
             },
             {
-                "google": {
+                "google-translate": {
                     "custom": true,
                     "urls": [
                         "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
@@ -1571,14 +1571,14 @@
                 }
             },
             {
-                "lingua-custodia": {
+                "lingua-custodia-api": {
                     "urls": [
                         "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
                     ]
                 }
             },
             {
-                "microsoft": {
+                "microsoft-translator": {
                     "urls": [
                         "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
                     ]
@@ -1592,28 +1592,28 @@
                 }
             },
             {
-                "reverso": {
+                "reverso-api": {
                     "urls": [
                         "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
                     ]
                 }
             },
             {
-                "tauyou": {
+                "tauyou-api": {
                     "urls": [
                         "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
                     ]
                 }
             },
             {
-                "textshuttle": {
+                "supertext": {
                     "urls": [
                         "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
                     ]
                 }
             },
             {
-                "tilde": {
+                "tilde-api": {
                     "custom": true,
                     "urls": [
                         "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
@@ -1625,7 +1625,7 @@
         "multiple_api_suggestions": true
     },
     {
-        "id": "wordfast",
+        "id": "wordfast-tms",
         "name": "Wordfast",
         "company": "wordfast",
         "tms_url": "http://www.wordfast.com",
@@ -1636,22 +1636,22 @@
         "documentation_url": "https://www.wordfast.com/WFP/5.8/t2117287.html",
         "api_integrations": [
             {
-                "deepl": {
+                "deepl-api": {
                     "formality": true
                 }
             },
             {
-                "globalese": {
+                "globalese-api": {
                     "urls": "https://globalese.atlassian.net/wiki/spaces/DOCS/pages/2339569665/Cloud+text+translation+plugin+for+Wordfast+Anywhere"
                 }
             },
             {
-                "google": {
+                "google-translate": {
                     "custom": true
                 }
             },
             {
-                "iconic": {
+                "iconic-translation": {
                     "urls": [
                         "https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/"
                     ],
@@ -1673,7 +1673,7 @@
                 }
             },
             {
-                "microsoft": {
+                "microsoft-translator": {
                     "urls": [
                         "https://learn.microsoft.com/en-us/azure/cognitive-services/Translator/create-translator-resource"
                     ]
@@ -1687,7 +1687,7 @@
                 }
             },
             {
-                "systran": {
+                "systran-api": {
                     "custom": true,
                     "urls": [
                         "https://www.wordfast.net/wiki/Machine_Translation_Wordfast_Classic"
@@ -1695,19 +1695,19 @@
                 }
             },
             {
-                "wordlingo": {
+                "wordlingo-api": {
                     "urls": [
                         "https://www.wordfast.com/WFP/4.5/c1060284.html"
                     ]
                 }
             },
-            "yandex"
+            "yandex-translate"
         ],
         "local_api_support": true,
         "multiple_api_suggestions": true
     },
     {
-        "id": "weglot",
+        "id": "weglot-api",
         "name": "Weglot",
         "company": "weglot",
         "tms_url": "https://www.weglot.com/",
@@ -1716,9 +1716,9 @@
             "cat"
         ],
         "api_integrations": [
-            "google",
-            "deepl",
-            "microsoft"
+            "google-translate",
+            "deepl-api",
+            "microsoft-translator"
         ]
     },
     {
@@ -1738,11 +1738,11 @@
                     "glossary": true
                 }
             },
-            "systran"
+            "systran-api"
             ]
     },
     {
-        "id": "xtm",
+        "id": "xtm-tms",
         "name": "XTM",
         "company": "xtm",
         "tms_url": "http://xtm.cloud",
@@ -1753,7 +1753,7 @@
         "documentation_url": "https://xtm.cloud/documentation/",
         "api_integrations": [
             {
-                "amazon": {
+                "amazon-translate": {
                     "glossary": true,
                     "urls": [
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/amazon-translate.html",
@@ -1762,7 +1762,7 @@
                 }
             },
             {
-                "acolad": {
+                "acolad-api": {
                     "urls": [
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/acolad.html",
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-acolad-mt-engine.html"
@@ -1779,7 +1779,7 @@
                 }
             },
             {
-                "deepl": {
+                "deepl-api": {
                     "glossary": true,
                     "formality": true,
                     "urls": [
@@ -1797,7 +1797,7 @@
                 }
             },
             {
-                "google": {
+                "google-translate": {
                     "custom": true,
                     "urls": [
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/google-machine-translation.html",
@@ -1806,7 +1806,7 @@
                 }
             },
             {
-                "globalese": {
+                "globalese-api": {
                     "plugin": true,
                     "urls": [
                         "https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647037255"
@@ -1814,7 +1814,7 @@
                 }
             },
             {
-                "iconic": {
+                "iconic-translation": {
                     "active": false
                 }
             },
@@ -1847,7 +1847,7 @@
             },
             "lengoo",
             {
-                "lingo24": {
+                "lingo24-api": {
                     "urls": [
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/lingo24.html",
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-lingo24-mt-engine.html"
@@ -1855,7 +1855,7 @@
                 }
             },
             {
-                "microsoft": {
+                "microsoft-translator": {
                     "custom": true,
                     "urls": [
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/microsoft-translator.html",
@@ -1881,7 +1881,7 @@
                 }
             },
             {
-                "sap": {
+                "sap-translation-hub": {
                     "urls": [
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/sap-translation-hub.html",
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-sap-translation-hub-mt-engine.html"
@@ -1890,7 +1890,7 @@
             },
             "smartmate",
             {
-                "systran": {
+                "systran-api": {
                     "urls": [
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/systran-pure-neural-.html",
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-systran-pure-neural-mt-engine.html"
@@ -1898,7 +1898,7 @@
                 }
             },
             {
-                "tauyou": {
+                "tauyou-api": {
                     "urls": [
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/tauyou.html",
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-tauyou-mt-engine.html"

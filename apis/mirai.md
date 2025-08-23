@@ -120,7 +120,6 @@ active: true
 seo:
   name: The Mirai Translator machine translation API
   type: Product
-redirect_from: mirai-translator
 
 ---
 

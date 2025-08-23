@@ -28,7 +28,6 @@ active: true
 seo:
   name: The LT Gear machine translation API
   type: Product
-redirect_from: lt-gear
 
 ---
 

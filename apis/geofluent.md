@@ -19,7 +19,7 @@ inputs:
 supported_languages: []
 more_languages_by_request: false
 integrations:
-- slug: xtm
+- slug: xtm-tms
   name: XTM
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/lionbridge-geofluent.html

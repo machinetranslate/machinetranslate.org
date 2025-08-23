@@ -22,7 +22,7 @@ scripts:
 territories:
 - mx
 supported_apis:
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
 - id: youdao
   name: Youdao Translate
@@ -30,7 +30,7 @@ supported_apis:
   name: Niutrans
 supported_qe_apis:
 - slug: modelfront
-  id: modelfront
+  id: modelfront-qe
   name: ModelFront
 seo:
   name: Machine translation for Northwestern Otomi

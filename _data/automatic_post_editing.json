@@ -2,7 +2,7 @@
   {
     "name": "ModelFront",
     "id": "modelfront-ape",
-    "company": "ModelFront",
+    "company": "modelfront",
     "urls": [
       "https://modelfront.com/docs",
       "https://www.modelfront.com/quality-prediction#automatic-post-editing"
@@ -160,7 +160,7 @@
   {
     "name": "TAUS EPIC",
     "id": "taus-epic-ape",
-    "company": "TAUS",
+    "company": "taus",
     "urls": [
       "https://www.taus.net",
       "https://api.taus.net/2.0/estimate/documentation"
@@ -280,7 +280,7 @@
   {
     "name": "Language Weaver",
     "id": "language-weaver-ape",
-    "company": "RWS",
+    "company": "rws",
     "urls": [
       "https://www.rws.com/language-weaver",
       "https://www.rws.com/language-weaver/automatic-post-editing"
@@ -349,7 +349,7 @@
   {
     "name": "MTrans",
     "id": "mtrans-ape",
-    "company": "Human Science",
+    "company": "human-science",
     "urls": [
       "https://www.science.co.jp/en/nmt/service/post-edit_booster.html"
     ],

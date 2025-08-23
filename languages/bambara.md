@@ -29,13 +29,13 @@ typology:
 territories:
 - ml
 supported_apis:
-- id: neuralspace
+- id: neuralspace-api
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans
