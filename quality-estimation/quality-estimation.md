@@ -56,7 +56,7 @@ In 2012, [Lucia Specia](/lucia-specia) and Google researcher Radu Soricut organi
 In 2018, Lucia Specia, Carolina Scarton and Gustavo Henrique Paetzold published the book *Quality Estimation for Machine Translation*.
 There was research on word-level quality estimation and paragraph-level quality estimation.
 
-In 2020, [ModelFront](/companies#modelfront) launched a multilingual quality estimation API.
+In 2020, [ModelFront](/modelfront) launched a multilingual quality estimation API.
 Tharindu Ranasinghe released pretrained models.
 Facebook Research launched unsupervised quality estimation internally.
 
@@ -98,8 +98,8 @@ A few machine translation providers have launched generally available features f
 
 | Product | Feature | Provider|
 | --- | --- | --- |
-| [KantanMT](/kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](/companies#kantanmt) |
-| [Omniscien](/omniscien) | [Translation Confidence Scoring and Quality Estimates](https://omniscien.com/products/language-studio/) | [Omniscien](/companies#omniscien-technologies) |
+| [KantanMT](/kantanmt) | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](/kantanmt) |
+| [Omniscien](/omniscien) | [Translation Confidence Scoring and Quality Estimates](https://omniscien.com/products/language-studio/) | [Omniscien](/omniscien-technologies) |
 
 ### Integrations
 
@@ -110,7 +110,7 @@ There is a quality estimation integration or connector available for most transl
 | [translate5](/translate5) | [ModelFront quality prediction plug-in](https://www.modelfront.com/translate5) | [ModelFront](/modelfront) |
 | [memoQ](/memoq) | [Quality estimates (AIQE)](https://www.memoq.com/mt-quality-estimates) | [ModelFront](/modelfront), [TAUS QE](/taus-qe) |
 | [Crowdin](/crowdin) | [ModelFront quality prediction](https://store.crowdin.com/modelfront) | [ModelFront](/modelfront) |
-| [XTM](/xtm) | ModelFront XTM connector | [ModelFront](/modelfront) | KantanStream | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](/companies#kantanmt) |
+| [XTM](/xtm) | ModelFront XTM connector | [ModelFront](/modelfront) | KantanStream | [KantanQES](https://www.kantanai.io/kantanqes-home/) | [KantanAI](/kantanmt) |
 | [PhraseTMS](/phrase-tms) | [MT quality estimation](https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-), ModelFront Phrase connector | [Phrase QE](/phrase-mtqe) |
 | GlobalDoc LangXpert | [Effort estimation](https://globaldoc.com/about-us/our-technology/langxpert-modelfront-technology-partnership/) | [ModelFront](/modelfront) |
 | Google Cloud Translation Hub | [Machine translation quality prediction](https://cloud.google.com/translation-hub/docs/translator-edit#segment-details) | [Google Cloud Translation Hub - MTQP](/google-translation-hub-mtqp) |

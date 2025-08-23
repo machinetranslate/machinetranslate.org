@@ -25,7 +25,7 @@ His early contributions to machine translation include:
 * the Europarl corpus
 * organising the machine translation research community, including [WMT](/wmt)
 
-He became a professor at the University of Edinburgh and then Johns Hopkins University, and joined [Omniscien Technologies](/companies#omniscien-technologies) as Chief Scientist.
+He became a professor at the University of Edinburgh and then Johns Hopkins University, and joined [Omniscien Technologies](/omniscien-technologies) as Chief Scientist.
 
 In 2021, he joined Facebook AI Research as a Research Scientist, while continuing his affiliatons with Johns Hopkins University and Omniscien.
 

@@ -17,7 +17,9 @@ acquired_by: United Language Group
 urls:
 - http://www.lucysoftware.com
 - https://www.crunchbase.com/organization/lucy-software-and-services
-apis: []
+apis:
+- slug: lucy-api
+  name: Lucy
 quality_estimation: []
 automatic_post_editing: []
 tms: []

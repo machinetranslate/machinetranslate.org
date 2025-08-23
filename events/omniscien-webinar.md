@@ -18,7 +18,7 @@ description: 'The Future of Language Related AI for Enterprises: Local Agents an
   Fine-Tuned Large Language Models (LLMs)'
 start_date: '2023-06-15'
 more_paragraphs:
-- The webinar was organised by <a href='/companies#omniscien-technologies'>Omniscien</a>.
+- The webinar was organised by <a href='/omniscien-technologies'>Omniscien</a>.
   <br>Artificial Intelligence (AI) has fundamentally reshaped our understanding and
   processing of human language, led by Large Language Models (LLMs) and AI agents.
   These powerful systems comprehend and generate human-like text using deep learning
