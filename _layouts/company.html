@@ -84,15 +84,15 @@ parent: Companies
 {% if services_count > 0 %}
   <p>
     <strong>{{ page.title }}</strong> offers
-    {% for s in services_list -%}
-      {% if forloop.first -%}
+    {% for s in services_list %}
+      {% if forloop.first %}
         {{ s }}
       {% elsif forloop.last -%}
-        {% if services_count == 2 -%} and {% else %}, and {% endif -%}{{ s }}
-      {% else -%}
+        {% if services_count == 2 %} and {% else %}, and {% endif %}{{ s }}
+      {% else %}
         , {{ s }}
-      {%- endif -%}
-    {%- endfor -%}.
+      {% endif %}
+    {% endfor %}.
 
   </p>
 {% endif %}
