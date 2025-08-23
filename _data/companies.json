@@ -697,6 +697,9 @@
         "acquired_by": {
             "company": "United Language Group"
         },
+        "apis": [
+            "lucy-api"
+        ],
         "active": false
     },
     {
@@ -1951,6 +1954,52 @@
         ],
         "quality_estimation": [
             "kantanqes"
+        ]
+    },
+    {
+        "name": "Zoom",
+        "id": "zoom",
+        "type": [
+            "video-communications"
+        ],
+        "location": "United States",
+        "founded": 2011,
+        "urls": [
+            "https://www.zoom.com",
+            "https://www.crunchbase.com/organization/zoom-video-communications"
+        ]
+    },
+    {
+        "name": "United Language Group",
+        "id": "united-language-group",
+        "type": [
+            "machine-translation-provider"
+        ],
+        "location": "United States",
+        "founded": 2016,
+        "urls": [
+            "https://www.unitedlanguagegroup.com",
+            "https://www.crunchbase.com/organization/united-language-group-2"
+        ],
+        "apis": [
+            "lucy-api",
+            "octavemt"
+        ]
+    },
+    {
+        "name": "PARC Partners",
+        "id": "parc-partners",
+        "type": [
+            "machine-translation-provider"
+        ],
+        "location": "United States",
+        "founded": 2016,
+        "urls": [
+            "https://www.linkedin.com/company/parcpartners",
+            "https://www.crunchbase.com/organization/parc-partners"
+        ],
+        "tms": [
+            "transifex-tms"
         ]
     }
 ]
