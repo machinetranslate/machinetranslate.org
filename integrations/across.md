@@ -16,19 +16,19 @@ translation_api_integrations:
 - slug: deepl
   formality: true
   name: DeepL
-- slug: google
+- slug: google-translate
   name: Google Translate
 - slug: kantanmt
   name: KantanMT
-- slug: language-wire
+- slug: language-wire-api
   name: Language Wire
 - slug: octavemt
   name: OctaveMT
-- slug: promt
+- slug: promt-api
   name: PROMT
-- slug: systran
+- slug: systran-api
   name: SYSTRAN
-- slug: textshuttle
+- slug: supertext
   name: Supertext
 fuzzy_repair: true
 open-source: false

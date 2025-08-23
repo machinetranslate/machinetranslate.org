@@ -5,7 +5,7 @@ layout: integration
 nav_order: 995
 title: Tolgee
 description: Machine translation API integrations in Tolgee
-id: tolgee
+id: tolgee-tms
 parent: Integrations
 type:
 - tms
@@ -15,14 +15,14 @@ tms_url: https://tolgee.io
 translation_api_integrations:
 - slug: amazon
   name: Amazon Translate
-- slug: deepl
+- slug: deepl-api
   name: DeepL
-- slug: google
+- slug: google-translate
   name: Google Translate
-- slug: baidu
+- slug: baidu-translate
   active: false
   name: Baidu Translate
-- slug: microsoft
+- slug: microsoft-translator
   name: Microsoft Translator
 fuzzy_repair: false
 open-source: true

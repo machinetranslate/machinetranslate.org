@@ -35,41 +35,41 @@ territories:
 - me
 - it
 supported_apis:
-- id: textshuttle
+- id: supertext
   name: Supertext
-- id: xl8
+- id: xl8-api
   name: XL8
-- id: systran
+- id: systran-api
   name: SYSTRAN
-- id: lilt
+- id: lilt-api
   name: Lilt
 - id: language-weaver
   name: Language Weaver
 - id: omniscien
   name: Omniscien Technologies
-- id: apptek
+- id: apptek-api
   name: AppTek
-- id: wordlingo
+- id: wordlingo-api
   name: Wordlingo
-- id: amazon
+- id: amazon-translate
   name: Amazon Translate
 - id: textra
   name: TexTra
-- id: yandex
+- id: yandex-translate
   name: Yandex Translate
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
-- id: lingvanex
+- id: lingvanex-api
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace
+- id: neuralspace-api
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

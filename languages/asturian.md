@@ -27,13 +27,13 @@ typology:
 territories:
 - es
 supported_apis:
-- id: apertium
+- id: apertium-api
   name: Apertium
 - id: qwen-mt
   name: Qwen-MT
 - id: modernmt
   name: ModernMT
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate

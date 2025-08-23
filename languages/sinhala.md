@@ -32,33 +32,33 @@ territories:
 supported_apis:
 - id: kantanmt
   name: KantanMT
-- id: deepseek
+- id: deepseek-api
   name: DeepSeek
 - id: watson
   name: Watson Language Translator
 - id: omniscien
   name: Omniscien Technologies
-- id: amazon
+- id: amazon-translate
   name: Amazon Translate
 - id: qwen-mt
   name: Qwen-MT
 - id: textra
   name: TexTra
-- id: yandex
+- id: yandex-translate
   name: Yandex Translate
-- id: lingvanex
+- id: lingvanex-api
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace
+- id: neuralspace-api
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

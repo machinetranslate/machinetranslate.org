@@ -24,7 +24,7 @@ typology:
 territories:
 - sc
 supported_apis:
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

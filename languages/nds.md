@@ -11,7 +11,7 @@ codes:
 - nds
 family: []
 supported_apis:
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate

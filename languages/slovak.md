@@ -28,79 +28,79 @@ typology:
 territories:
 - sk
 supported_apis:
-- id: textshuttle
+- id: supertext
   name: Supertext
-- id: lingmo
+- id: lingmo-translation
   name: Lingmo Translation
-- id: reverso
+- id: reverso-api
   name: Reverso
-- id: deepl
+- id: deepl-api
   name: DeepL
 - id: lara
   name: Lara
 - id: etranslation
   name: eTranslation
-- id: globalese
+- id: globalese-api
   name: Globalese
 - id: widn
   name: Widn
-- id: sap
+- id: sap-translation-hub
   name: SAP Translation Hub
-- id: promt
+- id: promt-api
   name: PROMT
-- id: kodensha
+- id: kodensha-mt
   name: Kodensha MT
-- id: xl8
+- id: xl8-api
   name: XL8
 - id: kantanmt
   name: KantanMT
-- id: systran
+- id: systran-api
   name: SYSTRAN
-- id: anthropic
+- id: anthropic-api
   name: Anthropic
 - id: iconic
   name: Iconic
 - id: iptranslator
   name: IP Translator
-- id: lilt
+- id: lilt-api
   name: Lilt
-- id: deepseek
+- id: deepseek-api
   name: DeepSeek
 - id: watson
   name: Watson Language Translator
-- id: openai
+- id: openai-api
   name: OpenAI
 - id: language-weaver
   name: Language Weaver
 - id: omniscien
   name: Omniscien Technologies
-- id: apptek
+- id: apptek-api
   name: AppTek
-- id: wordlingo
+- id: wordlingo-api
   name: Wordlingo
-- id: amazon
+- id: amazon-translate
   name: Amazon Translate
 - id: qwen-mt
   name: Qwen-MT
 - id: textra
   name: TexTra
-- id: yandex
+- id: yandex-translate
   name: Yandex Translate
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
-- id: lingvanex
+- id: lingvanex-api
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace
+- id: neuralspace-api
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

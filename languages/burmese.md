@@ -32,9 +32,9 @@ territories:
 supported_apis:
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
-- id: xl8
+- id: xl8-api
   name: XL8
-- id: deepseek
+- id: deepseek-api
   name: DeepSeek
 - id: language-weaver
   name: Language Weaver
@@ -44,23 +44,23 @@ supported_apis:
   name: Qwen-MT
 - id: textra
   name: TexTra
-- id: yandex
+- id: yandex-translate
   name: Yandex Translate
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
-- id: lingvanex
+- id: lingvanex-api
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace
+- id: neuralspace-api
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

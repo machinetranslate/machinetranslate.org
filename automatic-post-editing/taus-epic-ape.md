@@ -666,7 +666,7 @@ supported_languages:
   name: Zulu
   variant_name: null
 integrations:
-- slug: crowdin
+- slug: crowdin-tms
   name: Crowdin
   custom: true
   urls:

@@ -32,31 +32,31 @@ supported_apis:
   name: Elia
 - id: trebe
   name: Trebe
-- id: lucy
+- id: lucy-api
   name: Lucy
-- id: apertium
+- id: apertium-api
   name: Apertium
 - id: watson
   name: Watson Language Translator
-- id: wordlingo
+- id: wordlingo-api
   name: Wordlingo
 - id: qwen-mt
   name: Qwen-MT
-- id: yandex
+- id: yandex-translate
   name: Yandex Translate
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
-- id: lingvanex
+- id: lingvanex-api
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace
+- id: neuralspace-api
   name: NeuralSpace
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

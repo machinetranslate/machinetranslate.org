@@ -27,7 +27,7 @@ typology:
 territories:
 - id
 supported_apis:
-- id: google
+- id: google-translate
   name: Google Translate
 supported_qe_apis: []
 supported_ape_apis: []

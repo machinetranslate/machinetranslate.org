@@ -28,7 +28,6 @@ active: false
 seo:
   name: The Slate Desktop machine translation API
   type: Product
-redirect_from: slate-desktop
 
 ---
 

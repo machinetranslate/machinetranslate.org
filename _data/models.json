@@ -59,7 +59,7 @@
     {
         "name": "Sarvam-Translate",
         "id": "sarvam-translate",
-        "company": "sarvam-ai",
+        "company": "sarvam",
         "urls": [
             "https://huggingface.co/sarvamai/sarvam-translate",
             "https://www.sarvam.ai/text"
@@ -156,7 +156,7 @@
             "https://docs.mistral.ai/getting-started/models/models_overview"
         ],
         "apis": [
-        "Mistral AI"
+            "Mistral AI"
         ],
         "self_serve": true
     },
@@ -172,7 +172,7 @@
             "https://docs.mistral.ai/getting-started/models/models_overview"
         ],
         "apis": [
-        "Mistral AI"
+            "Mistral AI"
         ],
         "self_serve": true
    }

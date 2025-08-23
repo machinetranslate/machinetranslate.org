@@ -34,37 +34,37 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
-- id: systran
+- id: systran-api
   name: SYSTRAN
-- id: lilt
+- id: lilt-api
   name: Lilt
 - id: watson
   name: Watson Language Translator
 - id: omniscien
   name: Omniscien Technologies
-- id: apptek
+- id: apptek-api
   name: AppTek
-- id: amazon
+- id: amazon-translate
   name: Amazon Translate
 - id: textra
   name: TexTra
-- id: yandex
+- id: yandex-translate
   name: Yandex Translate
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
-- id: lingvanex
+- id: lingvanex-api
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace
+- id: neuralspace-api
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

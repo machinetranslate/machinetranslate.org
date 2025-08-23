@@ -46,57 +46,57 @@ territories:
 - ir
 - af
 supported_apis:
-- id: rozetta
+- id: rozetta-t-400
   name: Rozetta T-400
-- id: reverso
+- id: reverso-api
   name: Reverso
-- id: promt
+- id: promt-api
   name: PROMT
-- id: kodensha
+- id: kodensha-mt
   name: Kodensha MT
 - id: kantanmt
   name: KantanMT
-- id: systran
+- id: systran-api
   name: SYSTRAN
-- id: anthropic
+- id: anthropic-api
   name: Anthropic
 - id: iconic
   name: Iconic
 - id: iptranslator
   name: IP Translator
-- id: lilt
+- id: lilt-api
   name: Lilt
-- id: openai
+- id: openai-api
   name: OpenAI
 - id: language-weaver
   name: Language Weaver
 - id: omniscien
   name: Omniscien Technologies
-- id: apptek
+- id: apptek-api
   name: AppTek
-- id: wordlingo
+- id: wordlingo-api
   name: Wordlingo
-- id: amazon
+- id: amazon-translate
   name: Amazon Translate
 - id: qwen-mt
   name: Qwen-MT
 - id: textra
   name: TexTra
-- id: yandex
+- id: yandex-translate
   name: Yandex Translate
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
-- id: lingvanex
+- id: lingvanex-api
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace
+- id: neuralspace-api
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

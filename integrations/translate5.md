@@ -18,15 +18,15 @@ translation_api_integrations:
   urls:
   - https://confluence.translate5.net/display/CON/DeepL
   name: DeepL
-- slug: globalese
+- slug: globalese-api
   urls:
   - https://confluence.translate5.net/display/CON/GlobalesePreTranslation
   name: Globalese
-- slug: google
+- slug: google-translate
   urls:
   - https://confluence.translate5.net/display/BUS/Google
   name: Google Translate
-- slug: lucy
+- slug: lucy-api
   urls:
   - https://confluence.translate5.net/display/BUS/Lucy
   name: Lucy
@@ -34,7 +34,7 @@ translation_api_integrations:
   urls:
   - https://confluence.translate5.net/display/BUS/Moses
   name: Moses
-- slug: microsoft
+- slug: microsoft-translator
   urls:
   - https://confluence.translate5.net/display/BUS/MS+Translator+Microsoft
   name: Microsoft Translator
@@ -47,10 +47,7 @@ translation_api_integrations:
   name: PangeaMT
 fuzzy_repair: false
 open-source: true
-quality_estimation_integrations:
-- slug: modelfront
-  custom: true
-  name: ModelFront
+quality_estimation_integrations: []
 automatic_post_editing_integrations:
 - slug: modelfront-ape
   custom: true

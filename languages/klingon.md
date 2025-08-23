@@ -22,11 +22,11 @@ typology:
   - agglutinative
 territories: []
 supported_apis:
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
 - id: youdao
   name: Youdao Translate
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate

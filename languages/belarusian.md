@@ -27,41 +27,41 @@ typology:
 territories:
 - by
 supported_apis:
-- id: belazar
+- id: belazar-api
   name: Belazar
-- id: apertium
+- id: apertium-api
   name: Apertium
 - id: kantanmt
   name: KantanMT
-- id: lilt
+- id: lilt-api
   name: Lilt
-- id: openai
+- id: openai-api
   name: OpenAI
 - id: omniscien
   name: Omniscien Technologies
-- id: apptek
+- id: apptek-api
   name: AppTek
-- id: wordlingo
+- id: wordlingo-api
   name: Wordlingo
 - id: qwen-mt
   name: Qwen-MT
 - id: textra
   name: TexTra
-- id: yandex
+- id: yandex-translate
   name: Yandex Translate
-- id: lingvanex
+- id: lingvanex-api
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace
+- id: neuralspace-api
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

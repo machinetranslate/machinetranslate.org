@@ -17,21 +17,12 @@ translation_api_integrations:
   urls:
   - https://appstore.rws.com/plugin/149/
   name: Alexa Translations A.I.
-- slug: amazon
+- slug: amazon-translate
   plugin: true
   urls:
   - https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3315/amazon-translate-mt-provider
   name: Amazon Translate
-- slug: crosslang
-  plugin: true
-  active: false
-  name: Crosslang MT Gateway
-- slug: custom-mt
-  plugin: true
-  urls:
-  - https://custom.mt/trados-connector/
-  name: Custom.MT
-- slug: deepl
+- slug: deepl-api
   plugin: true
   urls:
   - https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3266/deepl-translation-provider
@@ -41,31 +32,20 @@ translation_api_integrations:
   urls:
   - https://appstore.rws.com/Plugins/154
   name: Elia
-- slug: globalese
+- slug: globalese-api
   plugin: true
   custom: true
   urls:
   - https://globalese.atlassian.net/servicedesk/customer/portal/2/article/2232746052
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647135792/Document+translation+plugin+for+Trados+Studio
   name: Globalese
-- slug: google
+- slug: google-translate
   plugin: true
   custom: true
   glossary: true
   urls:
   - https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
   name: Google Translate
-- slug: iconic
-  urls:
-  - https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/
-  active: false
-  name: Iconic
-- slug: intento
-  plugin: true
-  glossary: true
-  urls:
-  - https://help.inten.to/hc/en-us/articles/360016112939-Installing-and-Configuring-Intento-MT-Hub-for-Trados-Studio
-  name: Intento
 - slug: kantanmt
   plugin: true
   custom: true
@@ -75,7 +55,7 @@ translation_api_integrations:
 - slug: language-weaver
   custom: true
   name: Language Weaver
-- slug: language-wire
+- slug: language-wire-api
   plugin: true
   urls:
   - https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
@@ -90,13 +70,13 @@ translation_api_integrations:
   urls:
   - https://appstore.rws.com/Plugins/178
   name: LT Gear
-- slug: lucy
+- slug: lucy-api
   plugin: true
   urls:
   - https://web.archive.org/web/20180922112123/http://www.lucysoftware.com/english/machine-translation/integration-capabilities/lucy-lt-integration-capabilities.html
   active: false
   name: Lucy
-- slug: microsoft
+- slug: microsoft-translator
   plugin: true
   custom: true
   urls:
@@ -134,7 +114,7 @@ translation_api_integrations:
   custom: true
   active: false
   name: PangeaMT
-- slug: rozetta
+- slug: rozetta-t-400
   plugin: true
   custom: true
   urls:
@@ -144,13 +124,13 @@ translation_api_integrations:
   plugin: true
   active: false
   name: Sogou Translate
-- slug: systran
+- slug: systran-api
   plugin: true
   custom: true
   urls:
   - https://help.systrangroup.com/hc/en-us/articles/360025571833--Plugins-SDL-Trados-studio-connector-How-to-add-Systran-server-in-SDL-Trados-Studio
   name: SYSTRAN
-- slug: textshuttle
+- slug: supertext
   plugin: true
   urls:
   - https://appstore.rws.com/plugin/145/
@@ -159,28 +139,22 @@ translation_api_integrations:
   plugin: true
   active: false
   name: TexTra
-- slug: tilde
+- slug: tilde-api
   plugin: true
   custom: true
   urls:
   - https://appstore.rws.com/plugin/118/
   name: Tilde
-- slug: tmxmall
-  plugin: true
-  urls:
-  - https://www.tmxmall.com/products/plugin
-  active: false
-  name: TMXmall
 - slug: trebe
   plugin: true
   urls:
   - https://appstore.rws.com/Plugin/195
   name: Trebe
-- slug: ubiqus
+- slug: ubiqus-nmt
   plugin: true
   active: false
   name: Ubiqus NMT
-- slug: xl8
+- slug: xl8-api
   plugin: true
   urls:
   - https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf

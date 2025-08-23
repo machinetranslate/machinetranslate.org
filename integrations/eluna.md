@@ -15,7 +15,7 @@ tms_url: https://ls-ets.unog.ch/tools/untermeluna
 translation_api_integrations:
 - slug: deepl
   name: DeepL
-- slug: microsoft
+- slug: microsoft-translator
   name: Microsoft Translator
 - slug: tapta
   name: TAPTA

@@ -355,7 +355,6 @@ active: false
 seo:
   name: The IP Translator machine translation API
   type: Product
-redirect_from: ip-translator
 
 ---
 

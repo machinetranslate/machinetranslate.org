@@ -11,7 +11,7 @@ codes:
 - emj
 family: []
 supported_apis:
-- id: yandex
+- id: yandex-translate
   name: Yandex Translate
 supported_qe_apis: []
 supported_ape_apis: []

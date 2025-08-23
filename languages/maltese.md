@@ -29,11 +29,11 @@ territories:
 supported_apis:
 - id: etranslation
   name: eTranslation
-- id: globalese
+- id: globalese-api
   name: Globalese
-- id: kodensha
+- id: kodensha-mt
   name: Kodensha MT
-- id: apertium
+- id: apertium-api
   name: Apertium
 - id: kantanmt
   name: KantanMT
@@ -41,7 +41,7 @@ supported_apis:
   name: Iconic
 - id: iptranslator
   name: IP Translator
-- id: deepseek
+- id: deepseek-api
   name: DeepSeek
 - id: watson
   name: Watson Language Translator
@@ -49,29 +49,29 @@ supported_apis:
   name: Language Weaver
 - id: omniscien
   name: Omniscien Technologies
-- id: wordlingo
+- id: wordlingo-api
   name: Wordlingo
-- id: amazon
+- id: amazon-translate
   name: Amazon Translate
 - id: qwen-mt
   name: Qwen-MT
-- id: yandex
+- id: yandex-translate
   name: Yandex Translate
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
-- id: lingvanex
+- id: lingvanex-api
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace
+- id: neuralspace-api
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

@@ -34,9 +34,9 @@ territories:
 - bf
 - cm
 supported_apis:
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
-- id: google
+- id: google-translate
   name: Google Translate
 supported_qe_apis: []
 supported_ape_apis: []

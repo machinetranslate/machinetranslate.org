@@ -5,7 +5,7 @@ layout: integration
 nav_order: 990
 title: OmegaT
 description: Machine translation API integrations in OmegaT
-id: omegat
+id: omegat-cat
 parent: Integrations
 type:
 - cat
@@ -14,19 +14,19 @@ tms_url: https://www.omegat.org
 translation_api_integrations:
 - slug: apertium
   name: Apertium
-- slug: belazar
+- slug: belazar-api
   name: Belazar
-- slug: deepl
+- slug: deepl-api
   name: DeepL
-- slug: google
+- slug: google-translate
   name: Google Translate
 - slug: watson
   name: Watson Language Translator
-- slug: microsoft
+- slug: microsoft-translator
   name: Microsoft Translator
 - slug: moses
   name: Moses
-- slug: tencent
+- slug: tencent-machine-translation
   plugin: true
   urls:
   - https://github.com/yoyicue/omegat-tencent-plugin
@@ -35,7 +35,7 @@ translation_api_integrations:
   plugin: true
   urls: https://codeberg.org/miurahr/omegat-textra-plugin
   name: TexTra
-- slug: yandex
+- slug: yandex-translate
   name: Yandex Translate
 fuzzy_repair: true
 open-source: true

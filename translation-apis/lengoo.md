@@ -26,7 +26,7 @@ integrations:
   plugin: true
   urls:
   - https://appstore.rws.com/Plugin/204
-- slug: xtm
+- slug: xtm-tms
   name: XTM
 models: []
 active: true

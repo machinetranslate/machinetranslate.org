@@ -28,11 +28,11 @@ typology:
 territories:
 - gb
 supported_apis:
-- id: kodensha
+- id: kodensha-mt
   name: Kodensha MT
-- id: apertium
+- id: apertium-api
   name: Apertium
-- id: systran
+- id: systran-api
   name: SYSTRAN
 - id: iconic
   name: Iconic
@@ -40,33 +40,33 @@ supported_apis:
   name: IP Translator
 - id: watson
   name: Watson Language Translator
-- id: openai
+- id: openai-api
   name: OpenAI
-- id: wordlingo
+- id: wordlingo-api
   name: Wordlingo
-- id: amazon
+- id: amazon-translate
   name: Amazon Translate
 - id: qwen-mt
   name: Qwen-MT
 - id: textra
   name: TexTra
-- id: yandex
+- id: yandex-translate
   name: Yandex Translate
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
-- id: lingvanex
+- id: lingvanex-api
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace
+- id: neuralspace-api
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

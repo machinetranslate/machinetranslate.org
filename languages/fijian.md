@@ -29,7 +29,7 @@ supported_apis:
   name: Iconic
 - id: iptranslator
   name: IP Translator
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
 - id: youdao
   name: Youdao Translate
@@ -37,7 +37,7 @@ supported_apis:
   name: ModernMT
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

@@ -702,7 +702,6 @@ active: true
 seo:
   name: The Youdao Translate machine translation API
   type: Product
-redirect_from: youdao-translate
 
 ---
 

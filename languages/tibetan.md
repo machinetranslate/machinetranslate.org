@@ -30,13 +30,13 @@ territories:
 - np
 - in
 supported_apis:
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
 - id: modernmt
   name: ModernMT
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
-- id: google
+- id: google-translate
   name: Google Translate
 supported_qe_apis:
 - id: taus-qe

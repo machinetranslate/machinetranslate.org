@@ -32,7 +32,7 @@ typology:
 territories:
 - dz
 supported_apis:
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 supported_qe_apis: []
 supported_ape_apis: []

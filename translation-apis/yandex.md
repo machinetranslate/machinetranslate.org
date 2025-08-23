@@ -5,8 +5,13 @@ nav_order: 892
 layout: translation_api
 title: Yandex Translate
 description: The Yandex Translate machine translation API
+<<<<<<<< HEAD:translation-apis/yandex.md
 id: yandex
 parent: Translation APIs
+========
+id: yandex-translate
+parent: APIs
+>>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/yandex-translate.md
 urls:
 - https://translate.yandex.com/
 - https://yandex.com/dev/translate/doc/dg/concepts/api-overview.html
@@ -631,25 +636,24 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: crowdin
+- slug: crowdin-tms
   name: Crowdin
   active: false
 - slug: matecat
   name: MateCat
 - slug: phrase-tms
   name: Phrase TMS
-- slug: omegat
+- slug: omegat-cat
   name: OmegaT
-- slug: smartcat
+- slug: smartcat-tms
   name: Smartcat
-- slug: wordfast
+- slug: wordfast-tms
   name: Wordfast
 models: []
 active: true
 seo:
   name: The Yandex Translate machine translation API
   type: Product
-redirect_from: yandex-translate
 
 ---
 

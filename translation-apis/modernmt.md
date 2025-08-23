@@ -1220,7 +1220,7 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: crowdin
+- slug: crowdin-tms
   name: Crowdin
   custom: true
   adaptive: true
@@ -1237,7 +1237,7 @@ integrations:
   name: memoQ
   urls:
   - https://www.memoq.com/integrations/machine-translation/public-plugin/modernmt
-- slug: smartcat
+- slug: smartcat-tms
   name: Smartcat
   custom: true
 - slug: trados
@@ -1246,7 +1246,7 @@ integrations:
   custom: true
   urls:
   - https://s3.amazonaws.com/modernmt.prod.public.us-east-1/downloads/ModernMT+Plugin+Guide+for+SDL+Trados+Studio.pdf
-- slug: wordfast
+- slug: wordfast-tms
   name: Wordfast
   urls:
   - https://www.wordfast.net/wiki/Connecting_Wordfast_Pro_to_Modern_MT

@@ -22,7 +22,7 @@ scripts:
 territories:
 - mx
 supported_apis:
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
 - id: youdao
   name: Youdao Translate

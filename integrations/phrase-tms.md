@@ -16,39 +16,35 @@ translation_api_integrations:
 - slug: aisa
   active: false
   name: AISA
-- slug: alexa-translations-ai
+- slug: alexa-translations-ai-api
   name: Alexa Translations A.I.
-- slug: amazon
+- slug: amazon-translate
   glossary: true
   name: Amazon Translate
-- slug: apertium
+- slug: apertium-api
   name: Apertium
-- slug: crosslang
-  name: Crosslang MT Gateway
-- slug: deepl
+- slug: deepl-api
   glossary: true
   name: DeepL
 - slug: fairtrade
   name: Fairtrade
-- slug: google
+- slug: google-translate
   custom: true
   glossary: true
   name: Google Translate
-- slug: globalese
+- slug: globalese-api
   urls:
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647135756/Phrase+connector
   name: Globalese
-- slug: human-science
-  name: Human Science
 - slug: kantanmt
   custom: true
   name: KantanMT
-- slug: kodensha
+- slug: kodensha-mt
   active: false
   name: Kodensha MT
 - slug: lengoo
   name: Lengoo
-- slug: microsoft
+- slug: microsoft-translator
   custom: true
   glossary: true
   name: Microsoft Translator
@@ -70,11 +66,11 @@ translation_api_integrations:
 - slug: phrase-nextmt
   glossary: true
   name: Phrase NextMT
-- slug: promt
+- slug: promt-api
   custom: true
   glossary: true
   name: PROMT
-- slug: rozetta
+- slug: rozetta-t-400
   custom: true
   glossary: true
   name: Rozetta T-400
@@ -82,26 +78,26 @@ translation_api_integrations:
   custom: true
   offline_glossary: true
   name: Language Weaver
-- slug: skrivanek
+- slug: skrivanek-api
   active: false
   name: Skrivanek
-- slug: systran
+- slug: systran-api
   custom: true
   name: SYSTRAN
-- slug: tauyou
+- slug: tauyou-api
   active: false
   name: Tauyou
-- slug: tencent
+- slug: tencent-machine-translation
   name: Tencent Machine Translation
-- slug: tilde
+- slug: tilde-api
   custom: true
   name: Tilde
 - slug: t-tact-an-zin
   name: T-tact-AN-ZIN
-- slug: ubiqus
+- slug: ubiqus-nmt
   glossary: true
   name: Ubiqus NMT
-- slug: yandex
+- slug: yandex-translate
   name: Yandex Translate
 fuzzy_repair: false
 open-source: false

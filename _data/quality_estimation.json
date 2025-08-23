@@ -1,8 +1,8 @@
 [
     {
-        "id": "modelfront",
+        "id": "modelfront-qe",
         "name": "ModelFront",
-        "company": "ModelFront",
+        "company": "modelfront",
         "tagline": "Translation quality prediction",
         "languages": [
             "af",
@@ -164,7 +164,7 @@
     {
         "id": "kantanqes",
         "name": "KantanQES",
-        "company": "Kantan-AI",
+        "company": "kantan-ai",
         "tagline": "Quality estimation score",
         "languages": [
             [
@@ -724,7 +724,7 @@
     {
         "id": "phrase-mtqe",
         "name": "Phrase MTQE",
-        "company": "Phrase",
+        "company": "phrase",
         "tagline": "Machine translation quality estimation",
         "languages": [
             [
@@ -1647,7 +1647,7 @@
     {
         "id": "omniscien-confidence-scores",
         "name": "Omniscien Confidence Scores",
-        "company": "Omniscien Technologies",
+        "company": "omniscien-technologies",
         "tagline": "Translation confidence scoring and quality estimates",
         "languages": [
             [
@@ -4082,7 +4082,7 @@
     {
         "id": "google-translation-hub-mtqp",
         "name": "Google Translation Hub MTQP",
-        "company": "Google",
+        "company": "google",
         "tagline": "Machine translation quality prediction scores",
         "languages": [
             [
@@ -4166,7 +4166,7 @@
                 "en"
             ]
         ],
-        "only_compatible_mt_api": "google",
+        "only_compatible_mt_api": "google-translate",
         "only_compatible_tms": "translation-hub",
         "customisation": false,
         "urls": [

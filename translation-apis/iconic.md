@@ -341,34 +341,7 @@ supported_languages:
   name: Chinese
   variant_name: Traditional Chinese
 more_languages_by_request: true
-integrations:
-- slug: matecat
-  name: MateCat
-  urls:
-  - https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/
-  active: false
-- slug: memoq
-  name: memoQ
-  active: false
-  urls:
-  - https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/
-- slug: multitrans
-  name: Multitrans
-  active: false
-  url: https://docs.rws.com/785465/786609/sdl-multitrans/configuring-iconic-plugin
-- slug: trados
-  name: Trados Studio
-  urls:
-  - https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/
-  active: false
-- slug: wordfast
-  name: Wordfast
-  urls:
-  - https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/
-  active: false
-- slug: xtm
-  name: XTM
-  active: false
+integrations: []
 models: []
 active: false
 seo:

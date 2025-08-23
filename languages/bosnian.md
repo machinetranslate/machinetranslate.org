@@ -34,7 +34,7 @@ territories:
 - sr
 - me
 supported_apis:
-- id: xl8
+- id: xl8-api
   name: XL8
 - id: iconic
   name: Iconic
@@ -42,33 +42,33 @@ supported_apis:
   name: IP Translator
 - id: watson
   name: Watson Language Translator
-- id: openai
+- id: openai-api
   name: OpenAI
-- id: apptek
+- id: apptek-api
   name: AppTek
-- id: amazon
+- id: amazon-translate
   name: Amazon Translate
 - id: qwen-mt
   name: Qwen-MT
 - id: textra
   name: TexTra
-- id: yandex
+- id: yandex-translate
   name: Yandex Translate
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
-- id: lingvanex
+- id: lingvanex-api
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace
+- id: neuralspace-api
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

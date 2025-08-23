@@ -29,9 +29,9 @@ typology:
 territories:
 - ch
 supported_apis:
-- id: textshuttle
+- id: supertext
   name: Supertext
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate

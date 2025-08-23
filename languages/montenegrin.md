@@ -32,7 +32,7 @@ territories:
 supported_apis:
 - id: watson
   name: Watson Language Translator
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate

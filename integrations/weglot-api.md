@@ -5,7 +5,7 @@ layout: integration
 nav_order: 997
 title: Weglot
 description: Machine translation API integrations in Weglot
-id: weglot
+id: weglot-api
 parent: Integrations
 type:
 - tms
@@ -15,9 +15,9 @@ tms_url: https://www.weglot.com/
 translation_api_integrations:
 - slug: google
   name: Google Translate
-- slug: deepl
+- slug: deepl-api
   name: DeepL
-- slug: microsoft
+- slug: microsoft-translator
   name: Microsoft Translator
 fuzzy_repair: false
 open-source: false

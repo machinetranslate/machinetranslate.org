@@ -28,7 +28,7 @@ typology:
 territories:
 - ci
 supported_apis:
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

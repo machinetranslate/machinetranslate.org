@@ -1124,10 +1124,6 @@ for model in MODELS:
     }
   }
 
-  name_slug = slugify(name)
-  if name_slug != model_id:
-    frontmatter['redirect_from'] = name_slug
-
   filepath = f'models/{ model_id }.md'
 
   content = read_content(filepath)
