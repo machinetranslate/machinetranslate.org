@@ -21,7 +21,7 @@ apis: []
 quality_estimation: []
 automatic_post_editing: []
 tms:
-- slug: across
+- slug: across-tms
   name: Across
   type: translation management system
 routers: []

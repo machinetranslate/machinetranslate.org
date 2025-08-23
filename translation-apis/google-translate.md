@@ -1510,7 +1510,7 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: across
+- slug: across-tms
   name: Across
 - slug: crowdin-tms
   name: Crowdin

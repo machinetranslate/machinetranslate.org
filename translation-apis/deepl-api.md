@@ -231,7 +231,7 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
-- slug: across
+- slug: across-tms
   name: Across
   formality: true
 - slug: crowdin-tms
