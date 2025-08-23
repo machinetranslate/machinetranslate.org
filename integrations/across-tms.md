@@ -5,7 +5,7 @@ layout: integration
 nav_order: 992
 title: Across
 description: Machine translation API integrations in Across
-id: across
+id: across-tms
 parent: Integrations
 type:
 - tms

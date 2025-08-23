@@ -66,7 +66,7 @@ supported_languages:
   variant_name: null
 more_languages_by_request: true
 integrations:
-- slug: across
+- slug: across-tms
   name: Across
 - slug: trados
   name: Trados Studio
