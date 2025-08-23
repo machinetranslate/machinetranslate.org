@@ -18,7 +18,7 @@ description: A perspective on domain adaptation for machine translation and auto
   speech recognition
 start_date: '2023-02-16'
 more_paragraphs:
-- The webinar was organised by <a href='/companies#omniscien-technologies'>Omniscien</a>.
+- The webinar was organised by <a href='/omniscien-technologies'>Omniscien</a>.
   <br> This webinar will demonstrate how Omniscien’s team gathers and synthesizes
   billions of sentences of training data that is used to teach and adapt AI systems.
   We will explore best practices and explain the limitations of traditional approaches.
