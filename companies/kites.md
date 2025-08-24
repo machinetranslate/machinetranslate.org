@@ -13,7 +13,9 @@ location: Germany
 founded: 2016
 note: null
 active: false
-acquired_by: Zoom
+acquired_by:
+- name: Zoom
+  id: zoom
 urls:
 - https://kites.ai
 - https://www.crunchbase.com/organization/kites-edaf

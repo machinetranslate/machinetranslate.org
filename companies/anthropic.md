@@ -13,7 +13,7 @@ location: United States
 founded: 2021
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.anthropic.com
 - https://www.crunchbase.com/organization/anthropic

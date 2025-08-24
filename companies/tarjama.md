@@ -14,7 +14,7 @@ location: United Arab Emirates
 founded: 2008
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.tarjama.com
 - https://www.crunchbase.com/organization/tarjama-and-ureed

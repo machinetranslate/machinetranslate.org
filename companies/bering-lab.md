@@ -13,7 +13,7 @@ location: South Korea
 founded: 2020
 note: Funded by NAVER D2 Startup Factory and others
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.beringlab.com/
 - https://www.crunchbase.com/organization/bering-lab

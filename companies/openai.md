@@ -13,7 +13,7 @@ location: United States
 founded: 2015
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://openai.com
 - https://www.crunchbase.com/organization/openai

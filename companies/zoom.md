@@ -13,7 +13,7 @@ location: United States
 founded: 2011
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.zoom.com
 - https://www.crunchbase.com/organization/zoom-video-communications

@@ -13,7 +13,7 @@ location: United Kingdom
 founded: 2002
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.xtm.cloud
 - https://www.crunchbase.com/organization/xml-intl

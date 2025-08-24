@@ -13,7 +13,7 @@ location: China
 founded: 2012
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://niutrans.com
 - https://www.crunchbase.com/organization/xiaoniu-fanyi

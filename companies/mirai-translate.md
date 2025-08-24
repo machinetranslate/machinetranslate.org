@@ -13,7 +13,7 @@ location: Japan
 founded: 2014
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://miraitranslate.com
 - https://www.crunchbase.com/organization/mirai-translate-inc

@@ -13,7 +13,9 @@ location: Luxembourg
 founded: 2001
 note: null
 active: true
-acquired_by: Acolad
+acquired_by:
+- name: Acolad
+  id: acolad
 urls:
 - https://www.crunchbase.com/organization/amplexor
 apis: []

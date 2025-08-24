@@ -13,7 +13,7 @@ location: South Africa
 founded: 2016
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://translateme.network/
 apis: []

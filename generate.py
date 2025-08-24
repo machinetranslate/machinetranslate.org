@@ -1155,9 +1155,13 @@ for company in COMPANIES:
   company_note = company.get('note', None)
   is_active = company.get('active', True)
 
-  acquired_by = False
-  if company.get('acquired_by', False):
-    acquired_by = company['acquired_by']['company']
+  acquired_by = []
+  if company.get('acquired_by', []):
+    acquired_by.append({
+      'name': company['acquired_by']['company'],
+      'id': slugify(company['acquired_by']['company'])
+    })
+    # = company['acquired_by']['company']
 
   apis = []
   for api in company.get('apis', []):

@@ -14,7 +14,7 @@ location: Japan
 founded: 1985
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.science.co.jp/
 - https://www.crunchbase.com/organization/human-science

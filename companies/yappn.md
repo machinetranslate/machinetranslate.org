@@ -13,7 +13,9 @@ location: Canada
 founded: 2013
 note: null
 active: true
-acquired_by: Alexa Translations A.I.
+acquired_by:
+- name: Alexa Translations A.I.
+  id: alexa-translations-ai
 urls:
 - https://yappn.com/
 - https://www.crunchbase.com/organization/yappn

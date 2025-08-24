@@ -13,7 +13,7 @@ location: United States
 founded: 1992
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.transperfect.com
 - https://www.crunchbase.com/organization/transperfect

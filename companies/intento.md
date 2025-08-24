@@ -13,7 +13,7 @@ location: United States
 founded: 2016
 note: Raised $4M from Berkeley Skydeck and angels
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://inten.to/
 - https://www.crunchbase.com/organization/intento

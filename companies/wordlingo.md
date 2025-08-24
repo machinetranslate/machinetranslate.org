@@ -13,7 +13,9 @@ location: United States
 founded: 1998
 note: null
 active: true
-acquired_by: Transperfect
+acquired_by:
+- name: Transperfect
+  id: transperfect
 urls:
 - https://www.worldlingo.com
 - https://www.crunchbase.com/organization/worldlingo

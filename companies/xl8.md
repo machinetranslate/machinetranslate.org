@@ -13,7 +13,7 @@ location: United States
 founded: 2019
 note: Funded by FuturePlay
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.xl8.ai/
 - https://www.crunchbase.com/organization/xl8-inc

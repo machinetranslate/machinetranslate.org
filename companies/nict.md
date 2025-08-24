@@ -14,7 +14,7 @@ founded: 1896
 note: NICT products include a text machine translation TexTra and a voice machine
   translation, VoiceTra.
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.nict.go.jp/en/index.html
 - https://www.crunchbase.com/organization/national-institute-of-information-and-communications-technology-japan

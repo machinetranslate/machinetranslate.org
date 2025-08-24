@@ -13,7 +13,7 @@ location: India
 founded: 2017
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - http://panlingua.co.in/
 - https://github.com/panlingua

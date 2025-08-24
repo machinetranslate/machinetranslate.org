@@ -13,7 +13,9 @@ location: China
 founded: 2004
 note: null
 active: true
-acquired_by: Tencent
+acquired_by:
+- name: Tencent
+  id: tencent
 urls:
 - https://fanyi.sogou.com/text
 - https://fanyi.sogou.com/download/pc/introduce

@@ -13,7 +13,7 @@ location: India
 founded: 2018
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.imagetranslate.com/
 - https://www.crunchbase.com/organization/imgtranslate

@@ -13,7 +13,7 @@ location: China
 founded: 2017
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://cloudtranslation.com/
 - https://www.crunchbase.com/organization/cloudtranslation

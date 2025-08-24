@@ -14,7 +14,7 @@ location: United States
 founded: 2015
 note: Raised $37.5M from Sequoia, Redpoint, XSeed, Zetta and In-Q-Tel
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://lilt.com/
 - https://www.crunchbase.com/organization/lilt

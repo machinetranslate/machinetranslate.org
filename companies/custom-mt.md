@@ -13,7 +13,7 @@ location: Prague
 founded: 2020
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://custom.mt
 apis: []

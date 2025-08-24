@@ -13,7 +13,9 @@ location: United States
 founded: 2009
 note: null
 active: false
-acquired_by: Amazon
+acquired_by:
+- name: Amazon
+  id: amazon
 urls:
 - https://www.safaba.com
 - https://www.crunchbase.com/organization/safaba-translation-solutions

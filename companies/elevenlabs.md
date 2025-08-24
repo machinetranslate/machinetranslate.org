@@ -13,7 +13,7 @@ location: United States
 founded: 2022
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://elevenlabs.io
 - https://www.crunchbase.com/organization/elevenlabs

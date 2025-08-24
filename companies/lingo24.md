@@ -14,7 +14,9 @@ location: United Kingdom
 founded: 2001
 note: null
 active: true
-acquired_by: Unbabel
+acquired_by:
+- name: Unbabel
+  id: unbabel
 urls:
 - https://www.lingo24.com
 - https://www.crunchbase.com/organization/lingmo

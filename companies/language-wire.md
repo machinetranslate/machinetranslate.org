@@ -13,7 +13,9 @@ location: Denmark
 founded: 2000
 note: null
 active: true
-acquired_by: Bridgepoint
+acquired_by:
+- name: Bridgepoint
+  id: bridgepoint
 urls:
 - https://www.languagewire.com/
 - https://www.crunchbase.com/organization/languagewire

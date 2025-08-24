@@ -13,7 +13,7 @@ location: United States
 founded: 1994
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://aws.amazon.com/translate/
 - https://www.crunchbase.com/organization/amazon

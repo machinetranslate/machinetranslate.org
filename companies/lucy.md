@@ -13,7 +13,9 @@ location: Germany
 founded: 2006
 note: null
 active: false
-acquired_by: United Language Group
+acquired_by:
+- name: United Language Group
+  id: united-language-group
 urls:
 - http://www.lucysoftware.com
 - https://www.crunchbase.com/organization/lucy-software-and-services

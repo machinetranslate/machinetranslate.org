@@ -13,7 +13,7 @@ location: Ireland
 founded: 2013
 note: null
 active: false
-acquired_by: false
+acquired_by: []
 urls: []
 apis: []
 quality_estimation: []

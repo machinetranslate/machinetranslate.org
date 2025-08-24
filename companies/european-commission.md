@@ -13,7 +13,7 @@ location: Belgium
 founded: 2017
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://commission.europa.eu/index_en
 - https://www.crunchbase.com/organization/european-commission

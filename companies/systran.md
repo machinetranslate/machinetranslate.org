@@ -13,7 +13,7 @@ location: France
 founded: 1968
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.systransoft.com/
 - https://www.crunchbase.com/organization/systran-9361

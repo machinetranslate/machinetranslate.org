@@ -13,7 +13,7 @@ location: Cyprus
 founded: 2016
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://lingvanex.com/
 - https://www.crunchbase.com/organization/lingvanex

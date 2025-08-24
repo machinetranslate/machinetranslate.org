@@ -13,7 +13,7 @@ location: Russia
 founded: 1991
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.promt.com
 - https://www.crunchbase.com/organization/promt

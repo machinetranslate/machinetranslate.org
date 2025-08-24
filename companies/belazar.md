@@ -13,7 +13,7 @@ location: Belarus
 founded: 2010
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - http://belazar.info/
 apis:

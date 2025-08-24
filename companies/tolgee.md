@@ -13,7 +13,7 @@ location: Czechia
 founded: 2021
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://tolgee.io
 - https://www.crunchbase.com/organization/tolgee

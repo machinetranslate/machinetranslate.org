@@ -13,7 +13,7 @@ location: Canada
 founded: 2002
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://alexatranslations.com/
 - https://www.crunchbase.com/organization/alexa-translations-a-i

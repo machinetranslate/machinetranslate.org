@@ -13,7 +13,9 @@ location: France
 founded: 1991
 note: null
 active: true
-acquired_by: Acolad
+acquired_by:
+- name: Acolad
+  id: acolad
 urls:
 - https://www.ubiqus.com
 - https://www.crunchbase.com/organization/ubiqus

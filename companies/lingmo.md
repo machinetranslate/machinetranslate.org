@@ -14,7 +14,7 @@ location: Australia
 founded: 2016
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://linktr.ee/lingmo_ai
 - https://www.crunchbase.com/organization/lingmo

@@ -13,7 +13,7 @@ location: France
 founded: 2020
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.edenai.co/
 - https://www.crunchbase.com/organization/eden-ai

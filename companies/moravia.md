@@ -13,7 +13,9 @@ location: Czechia
 founded: 2014
 note: null
 active: true
-acquired_by: RWS
+acquired_by:
+- name: RWS
+  id: rws
 urls:
 - http://www.moravia.com/
 - https://www.crunchbase.com/organization/moravia

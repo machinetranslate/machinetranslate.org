@@ -13,7 +13,7 @@ location: Switzerland
 founded: 2021
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://vidby.com/
 - https://www.crunchbase.com/organization/vidby

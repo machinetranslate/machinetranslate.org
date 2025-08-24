@@ -14,7 +14,7 @@ location: Italy
 founded: 1999
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://translated.com
 - https://www.crunchbase.com/organization/translated

@@ -13,7 +13,7 @@ location: United Kingdom
 founded: 1975
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.microsoft.com
 - https://www.crunchbase.com/organization/microsoft

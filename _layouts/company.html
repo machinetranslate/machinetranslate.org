@@ -18,9 +18,9 @@ parent: Companies
 </blockquote>
 {% endif %}
 
-{% if page.acquired_by %}
+{% if page.acquired_by.size > 0 %}
 <blockquote>
-  <strong>{{ page.title }}</strong> has been acquired by <a href="/{{ page.acquired_by | replace: '.', '' | slugify }}">{{ page.acquired_by }}</a>.
+  <strong>{{ page.title }}</strong> has been acquired by {% if page.acquired_by[0].id %}<a href="/{{ page.acquired_by[0].id }}">{{ page.acquired_by[0].name }}</a>{% else %}{{ page.acquired_by[0].name }}{% endif %}.
 </blockquote>
 {% endif %}
 

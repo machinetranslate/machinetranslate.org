@@ -13,7 +13,7 @@ location: Japan
 founded: 1963
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://to-in.com/en/service/mt
 - https://www.crunchbase.com/organization/toin

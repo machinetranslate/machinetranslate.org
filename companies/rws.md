@@ -15,7 +15,7 @@ location: United Kingdom
 founded: 1958
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.rws.com
 - https://www.crunchbase.com/organization/rws-group

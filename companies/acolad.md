@@ -13,7 +13,7 @@ location: France
 founded: 1993
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.acolad.com
 - https://www.crunchbase.com/organization/technicis

@@ -14,7 +14,7 @@ founded: 2020
 note: Raised pre-seed from Blue Ridge founded and $4M from General Catalyst, AIX Ventures,
   Fellows Fund, Hyphen Capital, First Check Ventures and angels
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.vivatranslate.com/
 - https://www.crunchbase.com/organization/viva-translate

@@ -13,7 +13,7 @@ location: India
 founded: 2023
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://sarvam.ai
 - https://www.crunchbase.com/organization/sarvam
