@@ -28,15 +28,15 @@ territories:
 - ru
 - ua
 supported_apis:
-- id: apertium
+- id: apertium-api
   name: Apertium
 - id: modernmt
   name: ModernMT
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

@@ -7,7 +7,7 @@ title: KantanQES
 description: The KantanQES translation quality estimation API
 tagline: Quality estimation score
 id: kantanqes
-company: Kantan AI
+company: kantan ai
 parent: Quality estimation
 urls:
 - https://www.kantanai.io/kantanqes-home/

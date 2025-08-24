@@ -418,7 +418,7 @@ integrations:
   name: WorldServer
   custom: true
   glossary: true
-- slug: xtm
+- slug: xtm-tms
   name: XTM
   glossary: true
   urls:

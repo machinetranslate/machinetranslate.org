@@ -75,7 +75,7 @@ But human evaluation is slow, expensive and subjective.
 
 ### Evolution
 >
-> ##### Slide from [Unbabel](/companies#unbabel) for [AMTA 2022](/amta-2022)
+> ##### Slide from [Unbabel](/unbabel) for [AMTA 2022](/amta-2022)
 > <img title='Evaluation timeline' src='/building-and-research/metrics/timeline.jpg' width='700' style='padding: 1em;' />
 
 

@@ -344,7 +344,7 @@ integrations:
 - slug: matecat
   name: MateCat
   active: false
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   active: false
   urls:
@@ -354,7 +354,6 @@ active: false
 seo:
   name: The IP Translator machine translation API
   type: Product
-redirect_from: ip-translator
 
 ---
 

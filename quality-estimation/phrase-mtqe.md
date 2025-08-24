@@ -7,7 +7,7 @@ title: Phrase MTQE
 description: The Phrase MTQE translation quality estimation API
 tagline: Machine translation quality estimation
 id: phrase-mtqe
-company: Phrase
+company: phrase
 parent: Quality estimation
 urls:
 - https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-

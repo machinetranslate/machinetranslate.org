@@ -105,7 +105,7 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   urls:
   - https://docs.memoq.com/current/en/Places/mirai-mt-plugin.html
@@ -120,7 +120,6 @@ active: true
 seo:
   name: The Mirai Translator machine translation API
   type: Product
-redirect_from: mirai-translator
 
 ---
 

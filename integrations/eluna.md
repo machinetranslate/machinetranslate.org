@@ -13,9 +13,9 @@ type:
 type_description: translation management system
 tms_url: https://ls-ets.unog.ch/tools/untermeluna
 api_integrations:
-- slug: deepl
+- slug: deepl-api
   name: DeepL
-- slug: microsoft
+- slug: microsoft-translator
   name: Microsoft Translator
 - slug: tapta
   name: TAPTA

@@ -13,23 +13,23 @@ type:
 type_description: computer-aided translation tool
 tms_url: https://globallink.translations.com/
 api_integrations:
-- slug: apptek
+- slug: apptek-api
   name: AppTek
-- slug: google
+- slug: google-translate
   name: Google Translate
 - slug: kantanmt
   name: KantanMT
-- slug: lilt
+- slug: lilt-api
   name: Lilt
-- slug: microsoft
+- slug: microsoft-translator
   name: Microsoft Translator
 - slug: moses
   name: Moses
 - slug: omniscien
   name: Omniscien Technologies
-- slug: systran
+- slug: systran-api
   name: SYSTRAN
-- slug: tauyou
+- slug: tauyou-api
   name: Tauyou
 - slug: transperfect-nmt
   name: TransPerfect NMT

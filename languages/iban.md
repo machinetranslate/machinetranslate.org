@@ -28,7 +28,7 @@ territories:
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans

@@ -7,7 +7,7 @@ title: Omniscien Confidence Scores
 description: The Omniscien Confidence Scores translation quality estimation API
 tagline: Translation confidence scoring and quality estimates
 id: omniscien-confidence-scores
-company: Omniscien Technologies
+company: omniscien technologies
 parent: Quality estimation
 urls:
 - https://omniscien.com/products/language-studio/

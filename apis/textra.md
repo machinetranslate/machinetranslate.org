@@ -620,11 +620,11 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   urls:
   - https://docs.memoq.com/current/en/Places/textra-plugin-settings.html
-- slug: omegat
+- slug: omegat-cat
   name: OmegaT
   plugin: true
   urls: https://codeberg.org/miurahr/omegat-textra-plugin
@@ -632,7 +632,7 @@ integrations:
   name: Trados Studio
   plugin: true
   active: false
-- slug: xtm
+- slug: xtm-tms
   name: XTM
   active: false
   urls:

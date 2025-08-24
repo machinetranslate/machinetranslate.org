@@ -894,10 +894,10 @@ supported_languages:
   name: Zulu
   variant_name: null
 integrations:
-- slug: crowdin
+- slug: crowdin-tms
   name: Crowdin
   custom: true
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   custom: true
 - slug: translate5

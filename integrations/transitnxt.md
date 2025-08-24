@@ -13,22 +13,22 @@ type:
 type_description: translation management system
 tms_url: https://www.star-group.net/en/products/translation-localization.html
 api_integrations:
-- slug: deepl
+- slug: deepl-api
   glossary: true
   formality: true
   name: DeepL
-- slug: globalese
+- slug: globalese-api
   name: Globalese
-- slug: google
+- slug: google-translate
   name: Google Translate
 - slug: kantanmt
   custom: true
   name: KantanMT
-- slug: microsoft
+- slug: microsoft-translator
   name: Microsoft Translator
-- slug: systran
+- slug: systran-api
   name: SYSTRAN
-- slug: textshuttle
+- slug: supertext
   glossary: true
   name: Supertext
 fuzzy_repair: false

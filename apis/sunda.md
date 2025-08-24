@@ -38,7 +38,6 @@ active: true
 seo:
   name: The Sunda Translator machine translation API
   type: Product
-redirect_from: sunda-translator
 
 ---
 

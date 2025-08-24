@@ -32,21 +32,21 @@ typology:
 territories:
 - mv
 supported_apis:
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
-- id: neuralspace
+- id: neuralspace-api
   name: NeuralSpace
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
 - slug: modelfront
-  id: modelfront
+  id: modelfront-qe
   name: ModelFront
 seo:
   name: Machine translation for Divehi

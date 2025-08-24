@@ -391,7 +391,7 @@ more_languages_by_request: true
 integrations:
 - slug: globallink
   name: GlobalLink
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   urls:
   - https://www.memoq.com/integrations/machine-translation/public-plugin/omniscien
@@ -404,7 +404,7 @@ integrations:
   custom: true
   urls:
   - https://appstore.rws.com/Plugin/253
-- slug: xtm
+- slug: xtm-tms
   name: XTM
   custom: true
   urls:
@@ -415,7 +415,6 @@ active: true
 seo:
   name: The Omniscien Technologies machine translation API
   type: Product
-redirect_from: omniscien-technologies
 
 ---
 

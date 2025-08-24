@@ -12,18 +12,18 @@ type:
 type_description: computer-aided translation tool
 tms_url: https://www.trados.com/products/passolo/
 api_integrations:
-- slug: deepl
+- slug: deepl-api
   plugin: true
   urls:
   - https://appstore.rws.com/language/app/deepl-mt-provider-for-passolo/1088/
   name: DeepL
-- slug: google
+- slug: google-translate
   custom: true
   name: Google Translate
 - slug: language-weaver
   custom: true
   name: Language Weaver
-- slug: microsoft
+- slug: microsoft-translator
   custom: true
   name: Microsoft Translator
 fuzzy_repair: false

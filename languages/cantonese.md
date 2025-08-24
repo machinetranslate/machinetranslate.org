@@ -36,21 +36,21 @@ supported_apis:
   name: IP Translator
 - id: qwen-mt
   name: Qwen-MT
-- id: microsoft
+- id: microsoft-translator
   name: Microsoft Translator
 - id: youdao
   name: Youdao Translate
-- id: baidu
+- id: baidu-translate
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
 - slug: modelfront
-  id: modelfront
+  id: modelfront-qe
   name: ModelFront
 seo:
   name: Machine translation for Cantonese

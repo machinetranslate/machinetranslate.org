@@ -34,7 +34,7 @@ supported_apis:
   name: ModernMT
 - id: alibaba
   name: Alibaba Translate
-- id: google
+- id: google-translate
   name: Google Translate
 - id: niutrans
   name: Niutrans
