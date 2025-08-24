@@ -27,30 +27,42 @@ The **Machine Translate Foundation** is building **open information** and **comm
   }
 </style>
 
-<div style="display: flex; justify-content: center; gap: 20%; padding: 1em;">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; padding: 1em; max-width: 800px; margin: auto; text-align: center;">
   <div>
-    <center>
-      <a href="/apis">
-        <span class="big">{{ site.data.apis | size }}</span><br/>
-        APIs
-      </a>
-    </center>
+    <a href="/apis">
+      <span class="big">{{ site.data.apis | size }}</span><br/>
+      APIs
+    </a>
   </div>
   <div>
-    <center>
-      <a href="/integrations">
-        <span class="big">{{ integration_count }}</span><br/>
-        integrations
-      </a>
-    </center>
+    <a href="/integrations">
+      <span class="big">{{ integration_count }}</span><br/>
+      integrations
+    </a>
   </div>
   <div>
-    <center>
-      <a href="/languages">
-        <span class="big">{{ site.data.languages | size }}</span><br/>
-        languages
+    <a href="/languages">
+      <span class="big">{{ site.data.languages | size }}</span><br/>
+      languages
+    </a>
+  </div>
+  <div>
+    <a href="/models">
+        <span class="big">{{ site.data.models | size }}</span><br/>
+        models
+    </a>
+  </div>
+  <div>
+    <a href="/quality-estimation">
+        <span class="big">{{ site.data.quality_estimation | size }}</span><br/>
+        quality estimation
+    </a>
+  </div>
+  <div>
+    <a href="/automatic-post-editing">
+        <span class="big">{{ site.data.automatic_post_editing | size }}</span><br/>
+        automatic post-editing
       </a>
-    </center>
   </div>
 </div>
 
