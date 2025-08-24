@@ -15,7 +15,7 @@ The most common type of customisation is [fine-tuning](/fine-tuning) on [paralle
 {% assign customisable_apis = '' | split: ',' %}
 
 {% for api in site.data.apis %}
-  {% if api.custom_languages or api.glossary or api.formality or api.adaptive or api.fine-tuning %}
+  {% if api.custom_languages or api.glossary or api.formality or api.adaptive or api.fine-tuning or api.prompt_required %}
     {% unless customisable_apis contains api %}
       {% assign customisable_apis = customisable_apis | push: api %}
     {% endunless %}
@@ -40,11 +40,12 @@ The most common type of customisation is [fine-tuning](/fine-tuning) on [paralle
     <ul>
     {% for api in customisable_apis %}
       <li>
-          <a href="/{{ api.slug }}">{{ api.name }}</a> {% if api.plugin %}(plugin){% endif %}
+          <a href="/{{ api.id }}">{{ api.name }}</a> {% if api.plugin %}(plugin){% endif %}
             {% if api.custom_languages or api.fine-tuning %}| <strong>fine-tuning</strong> support{% endif %}
             {% if api.glossary %}| <strong>glossary</strong> support{% endif %}
             {% if api.formality %}| <strong>formality</strong> support{% endif %}
             {% if api.adaptive %}| <strong>adaptive</strong> support{% endif %}
+            {% if api.prompt_required %}| <strong>prompt</strong> support{% endif %}
       </li>
     {% endfor %}
     </ul>
@@ -62,7 +63,7 @@ The most common type of customisation is [fine-tuning](/fine-tuning) on [paralle
     <ul>
     {% for qe in customisable_qe_apis %}
       <li>
-        <a href="/{{ qe.slug }}">{{ qe.name }}</a> {% if qe.plugin %}(plugin){% endif %}
+        <a href="/{{ qe.id }}">{{ qe.name }}</a> {% if qe.plugin %}(plugin){% endif %}
             | <strong>fine-tuning</strong> support
       </li>
     {% endfor %}
