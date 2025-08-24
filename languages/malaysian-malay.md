@@ -30,7 +30,10 @@ supported_apis:
   name: PROMT
 - id: modernmt
   name: ModernMT
-supported_qe_apis: []
+supported_qe_apis:
+- slug: modernmt
+  id: modernmt-qe
+  name: ModernMT
 seo:
   name: Machine translation for Malaysian Malay
   type: Language

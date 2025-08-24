@@ -11,8 +11,7 @@ company: Omniscien Technologies
 parent: Quality estimation
 urls:
 - https://omniscien.com/products/language-studio/
-- https://languagestudio.attachments5.freshdesk.com/data/helpdesk/attachments/production/12038641906/original/LSRestAPI_v5_Reference_Document_v1.0_20180531.pdf?response-content-type=application%2Fpdf&Expires=1662038771&Signature=QrS5lsOBmkFloMMh70jqVO9Qud2IdwLyPI7AOLClr5GLVXjNdYz1k9CXNGoQbVtdflRJU42E5YvqMeZyTSV36VRhrKUUFvYFLPouJwt98hZ7p0MLmbqgCyONa2Agc3GNHBavYYRYPgfwzEi3D1sMZxuhgLqg-Fs82o-~hj~2dA~77aUNc0hGpTrUN5flpfSg1AYcHP7GreZiCrAehfBHmZRnnGrU7B8EQLfDKrCZKi6YB2JxpuJEFuXp8ynkE85wXx6FEW0svsqsXfsEUHXWAsAGR0tKkJ0r2ndkoJiOK0hroU3MWPY4Yc28eFKAbnTNfrbNetx0M1QCV411n3IWug__&Key-Pair-Id=APKAJ7JARUX3F6RQIXLA
-  ]
+- https://omniscien.com/machine-translation/hybrid-machine-translation/#confidence-scores
 supported_languages:
 - slug: arabic
   code: ar
@@ -245,6 +244,7 @@ only_compatible_mt_api:
 only_compatible_tms: null
 customisation: true
 integrations: []
+active: true
 seo:
   name: The Omniscien Confidence Scores translation quality estimation API
   type: Product

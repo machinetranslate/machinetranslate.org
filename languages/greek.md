@@ -105,21 +105,30 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
+- slug: quality-intelligence
+  id: quality-intelligence
+  name: Quality Intelligence
 - slug: kantanqes
   id: kantanqes
   name: KantanQES
 - slug: omniscien-confidence-scores
   id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+- slug: language-weaver
+  id: language-weaver-mtqe
+  name: Language Weaver
 - slug: phrase-mtqe
   id: phrase-mtqe
   name: Phrase MTQE
-- slug: demt-estimate
-  id: demt-estimate
-  name: DeMT Estimate
+- slug: taus-qe
+  id: taus-qe
+  name: TAUS QE
 - slug: modelfront
   id: modelfront
   name: ModelFront
+- slug: modernmt
+  id: modernmt-qe
+  name: ModernMT
 seo:
   name: Machine translation for Greek
   type: Language

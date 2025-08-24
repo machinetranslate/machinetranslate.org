@@ -28,7 +28,10 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
-supported_qe_apis: []
+supported_qe_apis:
+- slug: modernmt
+  id: modernmt-qe
+  name: ModernMT
 seo:
   name: Machine translation for Tamasheq
   type: Language
