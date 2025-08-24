@@ -12,6 +12,7 @@ urls:
 - https://web.archive.org/web/20200610012330/https://iconictranslation.com/what-we-do/bespoke-solutions/languages/
 privacy_url: https://web.archive.org/web/20220116104107/https://iconictranslation.com/what-we-do/neural-machine-translation/information-security/
 self_serve: null
+prompt_required: false
 customisation: []
 inputs: null
 supported_languages:

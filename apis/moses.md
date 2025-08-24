@@ -12,6 +12,7 @@ urls:
 - https://github.com/moses-smt/mosesdecoder
 privacy_url: null
 self_serve: true
+prompt_required: false
 customisation:
 - Fine-tuning
 inputs:

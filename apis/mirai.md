@@ -12,6 +12,7 @@ urls:
 - https://miraitranslate.com/en/service/miraitranslator/
 privacy_url: https://miraitranslate.com/en/security/
 self_serve: true
+prompt_required: false
 customisation:
 - Adaptive
 - Glossary

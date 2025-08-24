@@ -10,6 +10,7 @@ parent: APIs
 urls: []
 privacy_url: null
 self_serve: null
+prompt_required: false
 customisation: []
 inputs:
 - text

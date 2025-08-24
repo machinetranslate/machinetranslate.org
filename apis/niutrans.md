@@ -12,6 +12,7 @@ urls:
 - https://niutrans.com/documents/contents/trans_text#languageList
 privacy_url: https://translate.niutrans.com/privacy
 self_serve: true
+prompt_required: false
 customisation:
 - Glossary
 inputs:

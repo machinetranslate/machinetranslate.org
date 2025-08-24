@@ -12,6 +12,7 @@ urls:
 - https://docs.systran.net/translatePro/en/index.html
 privacy_url: https://www.systransoft.com/systran/policies/privacy-policy/
 self_serve: true
+prompt_required: false
 customisation:
 - Glossary
 - Fine-tuning

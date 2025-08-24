@@ -12,6 +12,7 @@ urls:
 - https://cloud.tencent.com/document/api/551/15619
 privacy_url: https://main.qcloudimg.com/raw/document/intl/product/pdf/tencent-cloud_1161_51199_en.pdf
 self_serve: true
+prompt_required: false
 customisation: []
 inputs:
 - speech

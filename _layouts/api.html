@@ -34,7 +34,7 @@ parent: APIs
   {% endif %}
 </p>
 
-<p>
+
   {% if page.customisation.size > 0 %}
   <a href="/customisation">Customisation</a> is supported.
   {% endif %}
@@ -45,7 +45,7 @@ parent: APIs
     The API can also be customised for <a href="/formality">formality</a>.
   {% endif %}
   {% if page.customisation contains 'Fine-tuning' %}
-    <a href="/fine-tuning">Fine-tuning</a> on <a href="/parallel-data">parallel data</a> can be used to fine-tune the model.
+    <a href="/fine-tuning">Fine-tuning</a> on <a href="/parallel-data">parallel data</a> can be used to customise the model.
   {% endif %}
   {% if page.customisation contains 'Adaptive' %}
     The API also supports <a href="/adaptive">adaptive</a> customisation.
@@ -80,6 +80,12 @@ parent: APIs
       {% endif %}
     {% endfor %}
     input mode{% if links.size > 1 %}s.{% endif %}
+  {% endif %}
+</p>
+
+<p>
+  {% if page.prompt_required == true %}
+    The <strong>{{ page.title }}</strong> API is <strong>not translation-specific</strong>, so for translation it <strong>requires a prompt</strong>.
   {% endif %}
 </p>
 
@@ -150,11 +156,15 @@ parent: APIs
     </ul>
   {% endif %}
 
-  {% if page.self_serve == false %}
     <hr/>
+
+  {% if page.prompt_required %}
+    <p>✍️ Prompting required</p>
+  {% endif %}
+  
+  {% if page.self_serve == false %}
     <p>🔒 No self-service</p>
   {% elsif page.self_serve == true %}
-      <hr/>
     <p>🛒 Self-service</p>
   {% endif %}
 

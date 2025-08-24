@@ -11,6 +11,7 @@ urls:
 - https://www.un.org/dgacm/en/content/gtext
 privacy_url: null
 self_serve: false
+prompt_required: false
 customisation: []
 inputs:
 - text

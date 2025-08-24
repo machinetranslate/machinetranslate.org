@@ -11,6 +11,7 @@ urls:
 - https://www.lengoo.com/
 privacy_url: https://www.lengoo.com/privacy-policy
 self_serve: false
+prompt_required: false
 customisation: []
 inputs:
 - speech

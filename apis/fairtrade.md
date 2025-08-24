@@ -11,6 +11,7 @@ urls:
 - https://web.archive.org/web/20170613150555/https://fairtradetranslation.com/
 privacy_url: null
 self_serve: null
+prompt_required: false
 customisation: []
 inputs: null
 supported_languages: []

@@ -12,6 +12,7 @@ urls:
 - https://www.kakaoicloud.com/service/detail/6-10
 privacy_url: null
 self_serve: true
+prompt_required: false
 customisation:
 - Formality
 inputs:

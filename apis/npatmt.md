@@ -11,6 +11,7 @@ urls:
 - https://www.npat.co.jp/
 privacy_url: null
 self_serve: null
+prompt_required: false
 customisation:
 - Adaptive
 inputs:

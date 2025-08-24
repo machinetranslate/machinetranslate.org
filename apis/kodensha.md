@@ -11,6 +11,7 @@ urls:
 - https://kodensha.j-server.com/LUCKDS/ns/tl.cgi/https://www.kodensha.jp/index/products/category/cloud/?SLANG=ja&TLANG=en&XMODE=0&XPARAM=q,SURL,trans_src,&XCHARSET=UTF-8&XPORG=,687474703a2f2f,,&XJSID=0#heading
 privacy_url: null
 self_serve: false
+prompt_required: false
 customisation: []
 inputs:
 - text

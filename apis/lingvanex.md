@@ -12,6 +12,7 @@ urls:
 - https://docs.lingvanex.com/reference/user-guide
 privacy_url: null
 self_serve: true
+prompt_required: false
 customisation: []
 inputs:
 - speech

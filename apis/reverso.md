@@ -11,6 +11,7 @@ urls:
 - https://www.reverso.net/text-translation
 privacy_url: null
 self_serve: true
+prompt_required: false
 customisation: []
 inputs:
 - file

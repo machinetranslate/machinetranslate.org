@@ -11,6 +11,7 @@ urls:
 - https://helsinki-nlp.github.io/OPUS-CAT/
 privacy_url: null
 self_serve: true
+prompt_required: false
 customisation:
 - Fine-tuning
 inputs:

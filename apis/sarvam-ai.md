@@ -12,6 +12,7 @@ urls:
 - https://sarvam.ai
 privacy_url: null
 self_serve: true
+prompt_required: false
 customisation:
 - Formality
 inputs:

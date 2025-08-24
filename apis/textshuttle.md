@@ -12,6 +12,7 @@ urls:
 - https://www.supertext.com/en/documentation/api
 privacy_url: https://www.supertext.com/en/privacy
 self_serve: false
+prompt_required: false
 customisation:
 - Glossary
 - Formality

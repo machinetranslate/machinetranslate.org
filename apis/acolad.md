@@ -11,6 +11,7 @@ urls:
 - https://www.acolad.com/en/technology/machine-translation.html
 privacy_url: null
 self_serve: false
+prompt_required: false
 customisation: []
 inputs:
 - text

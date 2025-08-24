@@ -12,6 +12,7 @@ urls:
 - https://www.jukkou.com/form/lang.html
 privacy_url: null
 self_serve: false
+prompt_required: false
 customisation: []
 inputs:
 - file

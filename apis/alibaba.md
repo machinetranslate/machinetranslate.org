@@ -12,6 +12,7 @@ urls:
 - https://www.alibabacloud.com/help/en/machine-translation/latest/general-version-of-machine-translation
 privacy_url: https://www.alibabacloud.com/help/en/legal/latest/alibaba-cloud-international-website-product-terms-of-service
 self_serve: true
+prompt_required: false
 customisation: []
 inputs:
 - text

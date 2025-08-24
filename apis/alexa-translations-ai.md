@@ -11,6 +11,7 @@ urls:
 - https://alexatranslations.com/alexa-translations-a-i
 privacy_url: null
 self_serve: false
+prompt_required: false
 customisation: []
 inputs:
 - text

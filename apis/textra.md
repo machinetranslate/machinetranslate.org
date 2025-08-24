@@ -12,6 +12,7 @@ urls:
 - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/api/
 privacy_url: https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/policy/
 self_serve: true
+prompt_required: false
 customisation:
 - Glossary
 inputs:

@@ -12,6 +12,7 @@ urls:
 - https://cloudtranslation.com/static/api_en.html
 privacy_url: null
 self_serve: true
+prompt_required: false
 customisation: []
 inputs:
 - text

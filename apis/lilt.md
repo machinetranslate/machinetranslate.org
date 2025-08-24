@@ -12,6 +12,7 @@ urls:
 - https://support.lilt.com/kb/11075725.html
 privacy_url: https://lilt.com/technology/security
 self_serve: false
+prompt_required: false
 customisation:
 - Adaptive
 inputs:
