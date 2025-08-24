@@ -32,6 +32,7 @@ supported_apis:
 - id: apertium
   name: Apertium
 supported_qe_apis: []
+supported_ape_apis: []
 seo:
   name: Machine translation for Arpitan
   type: Language

@@ -37,6 +37,7 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis: []
+supported_ape_apis: []
 seo:
   name: Machine translation for Berber
   type: Language

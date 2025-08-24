@@ -16,6 +16,7 @@ supported_apis:
 - id: textra
   name: TexTra
 supported_qe_apis: []
+supported_ape_apis: []
 seo:
   name: Machine translation for <code>brx</code>
   type: Language

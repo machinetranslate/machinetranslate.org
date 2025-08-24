@@ -402,6 +402,7 @@ for code, _ in UNLISTED_LANGUAGES.items():
 ### Write languages
 API_SUPPORTED_LANGUAGE_BASE_CODES = supported_language_base_codes(APIS)
 QE_API_SUPPORTED_LANGUAGE_BASE_CODES = supported_language_base_codes(QUALITY_ESTIMATION)
+APE_API_SUPPORTED_LANGUAGE_BASE_CODES = supported_language_base_codes(AUTOMATIC_POST_EDITING)
 for language in LANGUAGES:
   code = language['codes'][0]
   if not isinstance(language['codes'], list):
@@ -430,7 +431,6 @@ for language in LANGUAGES:
         'name': api['name'],
         'supported_language_count': len(codes)
       })
-
   supported_apis.sort(key=lambda api: api['supported_language_count'])
   for api in supported_apis:
     del api['supported_language_count']
@@ -440,15 +440,26 @@ for language in LANGUAGES:
     codes = QE_API_SUPPORTED_LANGUAGE_BASE_CODES[qe_api['id']]
     if code in codes:
       supported_qe_apis.append({
-        'slug': slugify(qe_api['name']),
         'id': qe_api['id'],
         'name': qe_api['name'],
         'supported_language_count': len(codes)
       })
-
   supported_qe_apis.sort(key=lambda api: api['supported_language_count'])
   for qe_api in supported_qe_apis:
     del qe_api['supported_language_count']
+
+  supported_ape_apis =[]
+  for ape_api in AUTOMATIC_POST_EDITING:
+    codes = APE_API_SUPPORTED_LANGUAGE_BASE_CODES[ape_api['id']]
+    if code in codes:
+      supported_ape_apis.append({
+        'id': ape_api['id'],
+        'name': ape_api['name'],
+        'supported_language_count': len(codes)
+      })
+  supported_ape_apis.sort(key=lambda api: api['supported_language_count'])
+  for ape_api in supported_ape_apis:
+    del ape_api['supported_language_count']
 
   desc = f'Machine translation for { name or f"<code>{code}</code>"}'
 
@@ -465,6 +476,7 @@ for language in LANGUAGES:
     'family': family,
     'supported_apis': supported_apis,
     'supported_qe_apis': supported_qe_apis,
+    'supported_ape_apis': supported_ape_apis,
     'seo': {
       'name': desc,
       'type': 'Language'
