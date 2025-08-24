@@ -14,7 +14,7 @@ location: Latvia
 founded: 1991
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.tilde.com
 - https://www.crunchbase.com/organization/tilde-6e11

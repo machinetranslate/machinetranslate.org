@@ -13,7 +13,7 @@ location: Finland
 founded: 2004
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.sunda.fi/en/company
 apis:

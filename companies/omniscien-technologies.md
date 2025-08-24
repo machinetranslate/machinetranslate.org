@@ -13,7 +13,7 @@ location: The Netherlands
 founded: 2006
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.omniscien.com
 - https://www.crunchbase.com/organization/omniscien-technologies-trading

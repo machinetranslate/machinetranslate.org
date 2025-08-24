@@ -13,7 +13,7 @@ location: Switzerland
 founded: 2009
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.textshuttle.ai/en/
 - https://www.crunchbase.com/organization/textshuttle

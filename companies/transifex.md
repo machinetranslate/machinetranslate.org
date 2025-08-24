@@ -13,7 +13,9 @@ location: United States
 founded: 2009
 note: null
 active: true
-acquired_by: PARC Partners
+acquired_by:
+- name: PARC Partners
+  id: parc-partners
 urls:
 - https://www.transifex.com
 - https://www.crunchbase.com/organization/transifex

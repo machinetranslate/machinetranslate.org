@@ -13,7 +13,7 @@ location: Estonia
 founded: 2009
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://crowdin.com/
 - https://www.crunchbase.com/organization/crowdin

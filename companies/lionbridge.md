@@ -13,7 +13,9 @@ location: United States
 founded: 1996
 note: null
 active: true
-acquired_by: H.I.G. Capital
+acquired_by:
+- name: H.I.G. Capital
+  id: hig-capital
 urls:
 - https://www.lionbridge.com/
 - https://www.crunchbase.com/organization/lionbridge

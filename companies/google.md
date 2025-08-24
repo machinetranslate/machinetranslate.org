@@ -13,7 +13,7 @@ location: United States
 founded: 1998
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://cloud.google.com/
 - https://www.crunchbase.com/organization/google-cloud-platform

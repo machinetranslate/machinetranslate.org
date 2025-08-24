@@ -13,7 +13,7 @@ location: Spain
 founded: 2006
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://prompsit.com/
 - https://www.crunchbase.com/organization/prompsit-language-engineering

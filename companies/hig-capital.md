@@ -13,7 +13,7 @@ location: United States
 founded: 1993
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://hig.com
 - https://www.crunchbase.com/organization/hig-capital

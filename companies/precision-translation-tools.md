@@ -13,7 +13,7 @@ location: United States
 founded: 2017
 note: null
 active: false
-acquired_by: false
+acquired_by: []
 urls:
 - http://www.precisiontranslationtools.com/
 apis:

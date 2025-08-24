@@ -13,7 +13,7 @@ location: United Kingdom
 founded: 1984
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.bridgepointgroup.com
 - https://www.crunchbase.com/organization/bridgepoint-eu

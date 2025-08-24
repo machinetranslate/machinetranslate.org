@@ -15,7 +15,7 @@ location: The Netherlands
 founded: 2005
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.taus.net
 - https://www.crunchbase.com/organization/taus

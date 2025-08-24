@@ -13,7 +13,7 @@ location: China
 founded: 2023
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://deepseek.com
 - https://www.crunchbase.com/organization/deepseek

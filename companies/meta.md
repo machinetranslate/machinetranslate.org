@@ -13,7 +13,7 @@ location: United States
 founded: 2004
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://ai.meta.com
 - https://www.crunchbase.com/organization/facebook

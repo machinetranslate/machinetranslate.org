@@ -13,7 +13,7 @@ location: Spain
 founded: 2001
 note: Vicomtech, in partnership with MondragonLingua, developed PLATA in 2012.
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.vicomtech.org/
 - https://www.crunchbase.com/organization/vicomtech

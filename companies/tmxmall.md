@@ -14,7 +14,7 @@ location: China
 founded: 2014
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.tmxmall.com/
 - https://www.crunchbase.com/organization/tmxmall

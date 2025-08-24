@@ -14,7 +14,7 @@ location: Japan
 founded: 1979
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://kodensha.j-server.com/LUCKDS/ns/tl.cgi/https://www.kodensha.jp/index/?SLANG=ja&TLANG=en&XMODE=0&XPARAM=q,&XCHARSET=UTF-8&XPORG=,&XJSID=0
 - https://www.crunchbase.com/organization/kodensha-031d

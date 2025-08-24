@@ -13,7 +13,7 @@ location: United States
 founded: 2015
 note: Raised from Slow Ventures and dissolved
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://lexy.io/
 - https://www.crunchbase.com/organization/dessert-labs

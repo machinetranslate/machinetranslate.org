@@ -14,7 +14,7 @@ location: Belgium
 founded: 2002
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://crosslang.com/
 - https://www.crunchbase.com/organization/crosslang

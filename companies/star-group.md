@@ -13,7 +13,7 @@ location: Germany
 founded: 1994
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.star-group.net/en/home.html
 - https://www.crunchbase.com/organization/star-group

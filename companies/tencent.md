@@ -13,7 +13,7 @@ location: China
 founded: 1998
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https:///www.tencent.com/en-us
 - https://www.crunchbase.com/organization/tencent

@@ -13,7 +13,7 @@ location: China
 founded: 1973
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.gtcom.com.cn/
 - https://www.crunchbase.com/organization/global-tone-communication

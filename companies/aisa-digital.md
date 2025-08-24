@@ -13,7 +13,7 @@ location: Singapore
 founded: 2018
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.aisa.digital/
 - https://www.crunchbase.com/organization/aisa-digital

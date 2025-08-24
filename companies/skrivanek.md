@@ -13,7 +13,7 @@ location: Germany
 founded: 2004
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://skrivanek.com/
 - https://www.crunchbase.com/organization/skrivanek

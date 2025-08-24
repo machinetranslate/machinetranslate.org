@@ -13,7 +13,9 @@ location: Spain
 founded: 2006
 note: null
 active: true
-acquired_by: Transperfect
+acquired_by:
+- name: Transperfect
+  id: transperfect
 urls:
 - https://www.tauyou.com
 - https://www.crunchbase.com/organization/ta-with-you

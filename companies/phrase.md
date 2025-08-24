@@ -13,7 +13,7 @@ location: Germany
 founded: 2010
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://phrase.com/
 - https://www.crunchbase.com/organization/phrase

@@ -13,7 +13,7 @@ location: South Korea
 founded: 2010
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.kakaocorp.com/
 - https://www.crunchbase.com/organization/kakao

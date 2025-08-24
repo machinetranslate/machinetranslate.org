@@ -13,7 +13,7 @@ location: United States
 founded: 2016
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.linkedin.com/company/parcpartners
 - https://www.crunchbase.com/organization/parc-partners

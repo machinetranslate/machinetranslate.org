@@ -13,7 +13,7 @@ location: France
 founded: 2011
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.linguacustodia.finance/en/welcome/
 - https://www.crunchbase.com/organization/lingua-custodia

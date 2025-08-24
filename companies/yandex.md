@@ -13,7 +13,7 @@ location: Russia
 founded: 1997
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.yandex.ru
 - https://www.crunchbase.com/organization/yandex

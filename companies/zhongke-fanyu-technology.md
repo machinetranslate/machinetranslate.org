@@ -13,7 +13,7 @@ location: China
 founded: 2018
 note: Incubated by the Institute of Automation at the Chinese Academy of Sciences
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - http://www.zkfy.com/
 - https://www.crunchbase.com/organization/zhongke-fanyu-technology

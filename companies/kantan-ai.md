@@ -13,7 +13,9 @@ location: Ireland
 founded: 2012
 note: null
 active: true
-acquired_by: Keywords Studios
+acquired_by:
+- name: Keywords Studios
+  id: keywords-studios
 urls:
 - https://www.kantanai.io/
 - https://www.crunchbase.com/organization/kantanmt

@@ -13,7 +13,7 @@ location: Ireland
 founded: 1998
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.keywordsstudios.com
 - https://www.crunchbase.com/organization/keywords-studios

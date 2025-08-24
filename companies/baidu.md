@@ -13,7 +13,7 @@ location: China
 founded: 1999
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - http://www.baidu.com/
 - https://www.crunchbase.com/organization/baidu

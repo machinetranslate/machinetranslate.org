@@ -13,7 +13,7 @@ location: United States
 founded: 2014
 note: null
 active: false
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.linkedin.com/company/symbyonics-llc/
 apis:

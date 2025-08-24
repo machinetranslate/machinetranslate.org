@@ -13,7 +13,7 @@ location: Japan
 founded: 2004
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.rozetta.jp/
 - https://www.crunchbase.com/organization/rozetta-corp

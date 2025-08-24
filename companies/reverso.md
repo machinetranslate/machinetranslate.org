@@ -13,7 +13,7 @@ location: France
 founded: 1998
 note: null
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://www.reverso.net/text-translation
 - https://www.crunchbase.com/organization/reverso

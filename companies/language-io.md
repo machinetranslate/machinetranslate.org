@@ -13,7 +13,7 @@ location: United States
 founded: 2017
 note: Raised $5.5M from Gutbrain, PBJ, Omega and angels
 active: true
-acquired_by: false
+acquired_by: []
 urls:
 - https://languageio.com/
 - https://www.crunchbase.com/organization/language-i-o
