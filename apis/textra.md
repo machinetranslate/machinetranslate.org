@@ -620,7 +620,7 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   urls:
   - https://docs.memoq.com/current/en/Places/textra-plugin-settings.html

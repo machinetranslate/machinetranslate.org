@@ -5,7 +5,7 @@ layout: integration
 nav_order: 997
 title: Weglot
 description: Machine translation API integrations in Weglot
-id: weglot-api
+id: weglot-tms
 parent: Integrations
 type:
 - tms

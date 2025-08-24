@@ -477,7 +477,7 @@ integrations:
   glossary: true
   urls:
   - https://support.crowdin.com/enterprise/machine-translation/#amazon-translate
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   custom: true
   glossary: true

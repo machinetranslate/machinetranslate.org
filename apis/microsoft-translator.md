@@ -693,7 +693,7 @@ integrations:
 - slug: matecat
   name: MateCat
   custom: true
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   custom: true
   urls:
@@ -742,7 +742,7 @@ integrations:
   name: Wordfast
   urls:
   - https://learn.microsoft.com/en-us/azure/cognitive-services/Translator/create-translator-resource
-- slug: weglot-api
+- slug: weglot-tms
   name: Weglot
 - slug: xtm-tms
   name: XTM

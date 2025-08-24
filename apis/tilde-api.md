@@ -157,7 +157,7 @@ integrations:
 - slug: matecat
   name: MateCat
   custom: true
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   custom: true
   glossary: true

@@ -20,7 +20,10 @@ urls:
 apis: []
 quality_estimation: []
 automatic_post_editing: []
-tms: []
+tms:
+- slug: weglot-tms
+  name: Weglot
+  type: translation management system
 routers: []
 models: []
 seo:

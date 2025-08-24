@@ -715,7 +715,7 @@
             "https://www.crunchbase.com/organization/memoq"
         ],
         "tms": [
-            "memoq"
+            "memoq-tms"
         ]
     },
     {
@@ -1524,8 +1524,8 @@
             "https://weglot.com/",
             "https://www.crunchbase.com/organization/weglot"
         ],
-        "apis": [
-            "weglot-api"
+        "tms": [
+            "weglot-tms"
         ]
     },
     {
