@@ -305,7 +305,7 @@ integrations:
   name: Crowdin
   urls:
   - https://store.crowdin.com/xl8
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   urls:
   - https://docs.google.com/document/d/1aYbIpDCme7D-FIVgqRvSmoIiiUJ4QhAZEPAP-tJNwPs/edit

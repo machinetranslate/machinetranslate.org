@@ -5,7 +5,7 @@ layout: integration
 nav_order: 977
 title: memoQ
 description: Machine translation API integrations in memoQ
-id: memoq
+id: memoq-tms
 parent: Integrations
 type:
 - tms

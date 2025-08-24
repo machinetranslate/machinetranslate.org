@@ -355,7 +355,7 @@ integrations:
   custom: true
   glossary: true
   adaptive: true
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   custom: true
   urls:

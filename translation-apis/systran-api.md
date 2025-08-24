@@ -360,7 +360,7 @@ integrations:
   - https://store.crowdin.com/systran
 - slug: globallink
   name: GlobalLink
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   custom: true
   adaptive: true

@@ -1233,7 +1233,7 @@ integrations:
   adaptive: true
   urls:
   - https://guides.matecat.com/modernmt-mmt-plug-in
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   urls:
   - https://www.memoq.com/integrations/machine-translation/public-plugin/modernmt

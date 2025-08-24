@@ -361,7 +361,7 @@
         ]
     },
     {
-        "id": "memoq",
+        "id": "memoq-tms",
         "name": "memoQ",
         "company": "memoq",
         "tms_url": "https://www.memoq.com",
@@ -1752,7 +1752,7 @@
         "multiple_api_suggestions": true
     },
     {
-        "id": "weglot-api",
+        "id": "weglot-tms",
         "name": "Weglot",
         "company": "weglot",
         "tms_url": "https://www.weglot.com/",

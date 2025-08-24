@@ -241,7 +241,7 @@ integrations:
   - https://support.crowdin.com/enterprise/machine-translation/#deepl-translator
 - slug: eluna
   name: eLUNa
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   glossary: true
   formality: true
@@ -300,7 +300,7 @@ integrations:
 - slug: wordfast-tms
   name: Wordfast
   formality: true
-- slug: weglot-api
+- slug: weglot-tms
   name: Weglot
 - slug: xtm-tms
   name: XTM

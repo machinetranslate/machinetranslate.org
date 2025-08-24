@@ -562,7 +562,7 @@ only_compatible_mt_api: null
 only_compatible_tms: null
 customisation: false
 integrations:
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   custom: true
 active: true

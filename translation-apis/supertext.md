@@ -173,7 +173,7 @@ more_languages_by_request: true
 integrations:
 - slug: across-tms
   name: Across
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   plugin: true
   urls:

@@ -1524,7 +1524,7 @@ integrations:
 - slug: matecat
   name: MateCat
   custom: true
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   custom: true
   glossary: true
@@ -1589,7 +1589,7 @@ integrations:
 - slug: wordfast-tms
   name: Wordfast
   custom: true
-- slug: weglot-api
+- slug: weglot-tms
   name: Weglot
 - slug: xtm-tms
   name: XTM

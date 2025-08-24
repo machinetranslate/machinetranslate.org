@@ -897,7 +897,7 @@ integrations:
 - slug: crowdin-tms
   name: Crowdin
   custom: true
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   custom: true
 - slug: phrase-tms

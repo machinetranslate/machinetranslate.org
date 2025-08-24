@@ -75,7 +75,7 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: true
 integrations:
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   glossary: true
   urls:

@@ -392,7 +392,7 @@ more_languages_by_request: true
 integrations:
 - slug: globallink
   name: GlobalLink
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   urls:
   - https://www.memoq.com/integrations/machine-translation/public-plugin/omniscien

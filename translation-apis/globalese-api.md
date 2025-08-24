@@ -233,7 +233,7 @@ integrations:
   plugin: true
   urls:
   - https://store.crowdin.com/globalese
-- slug: memoq
+- slug: memoq-tms
   name: memoQ
   plugin: true
   urls:
