@@ -14,8 +14,10 @@ supported_apis:
 - id: baidu
   name: Baidu Translate
 supported_qe_apis:
-- slug: modelfront
-  id: modelfront
+- id: modelfront
+  name: ModelFront
+supported_ape_apis:
+- id: modelfront-ape
   name: ModelFront
 seo:
   name: Machine translation for <code>dsb</code>

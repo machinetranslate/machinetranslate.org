@@ -36,6 +36,7 @@ supported_apis:
 - id: google
   name: Google Translate
 supported_qe_apis: []
+supported_ape_apis: []
 seo:
   name: Machine translation for Latgalian
   type: Language

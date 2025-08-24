@@ -29,6 +29,7 @@ supported_apis:
 - id: modernmt
   name: ModernMT
 supported_qe_apis: []
+supported_ape_apis: []
 seo:
   name: Machine translation for Tamasheq
   type: Language

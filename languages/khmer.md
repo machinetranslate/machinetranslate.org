@@ -58,14 +58,18 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
-- slug: omniscien-confidence-scores
-  id: omniscien-confidence-scores
+- id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
-- slug: demt-estimate
-  id: demt-estimate
+- id: demt-estimate
   name: DeMT Estimate
-- slug: modelfront
-  id: modelfront
+- id: modelfront
+  name: ModelFront
+supported_ape_apis:
+- id: language-weaver-ape
+  name: Language Weaver
+- id: taus-epic-ape
+  name: TAUS EPIC
+- id: modelfront-ape
   name: ModelFront
 seo:
   name: Machine translation for Khmer

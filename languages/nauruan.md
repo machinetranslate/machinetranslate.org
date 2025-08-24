@@ -27,6 +27,7 @@ territories:
 - nr
 supported_apis: []
 supported_qe_apis: []
+supported_ape_apis: []
 seo:
   name: Machine translation for Nauruan
   type: Language

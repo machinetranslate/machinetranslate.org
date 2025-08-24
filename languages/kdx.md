@@ -14,6 +14,7 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis: []
+supported_ape_apis: []
 seo:
   name: Machine translation for <code>kdx</code>
   type: Language

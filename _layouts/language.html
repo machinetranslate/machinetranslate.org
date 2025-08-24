@@ -31,6 +31,9 @@ parent: Languages
 <p>
   Quality estimation for the <strong>{{ page.title }}</strong> language is supported by <a href="#quality-estimation">{{ page.supported_qe_apis | size }} quality estimation APIs</a>.
 </p>
+<p>
+  Automatic post-editing for the <strong>{{ page.title }}</strong> language is supported by <a href="#automatic-post-editing">{{ page.supported_ape_apis | size }} automatic post-editing APIs</a>.
+</p>
 
 <blockquote>
 
@@ -112,8 +115,34 @@ parent: Languages
     <ul>
       {% for qe_api in page.supported_qe_apis %}
         <li>
-          <a href="/{{ qe_api.slug }}">
+          <a href="/{{ qe_api.id }}">
             {{ qe_api.name }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </details>
+</section>
+
+<section id="automatic-post-editing">
+  <h2>Automatic post-editing</h2>
+  <details>
+    <summary>
+      {% if page.supported_ape_apis.size == 1 %}
+        <strong>1</strong> automatic post-editing API supports {{ page.title }}.
+      {% else %}
+        <strong>{{ page.supported_ape_apis | size }}</strong> automatic post-editing APIs support {{ page.title }}.
+      {% endif %}
+      <p class="preview hint">
+        {{ page.supported_ape_apis | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if page.supported_ape_apis.size > 5 %}, …{% endif %}
+      </p>
+    </summary>
+    <ul>
+      {% for ape_api in page.supported_ape_apis %}
+        <li>
+          <a href="/{{ ape_api.id }}">
+            {{ ape_api.name }}
           </a>
         </li>
       {% endfor %}
