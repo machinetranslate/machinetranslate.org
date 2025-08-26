@@ -876,14 +876,14 @@
         "company": "SimpleLocalize",
         "tms_url": "https://simplelocalize.io",
         "type": [
-            "tms",
+            "tms"
         ],
         "documentation_url": "https://simplelocalize.io/docs/general/auto-translation/",
         "api_integrations": [
             {
                 "deepl": {
                     "formality": true,
-                    "glossary": true,
+                    "glossary": true
                 }
             },
             "google"
