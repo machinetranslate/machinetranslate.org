@@ -27,7 +27,7 @@ The **Machine Translate Foundation** is building **open information** and **comm
   }
 </style>
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; padding: 1em; max-width: 800px; margin: auto; text-align: center;">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 800px; margin: auto; text-align: center; transform: translateX(-5%)">
   <div>
     <a href="/apis">
       <span class="big">{{ site.data.apis | size }}</span><br/>
