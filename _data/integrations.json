@@ -794,6 +794,18 @@
                 "phrase-mtqe": {
                     "custom": false
                }
+            },
+            {
+                "modelfront": {
+                    "custom": true
+               }
+            }
+        ],
+        "automatic_post_editing_integrations":[
+            {
+                "modelfront-ape": {
+                    "custom": true
+               }
             }
         ],
         "routing": true
@@ -1739,7 +1751,21 @@
                 }
             },
             "systran"
-            ]
+        ],
+        "quality_estimation_integrations":[
+            {
+                "modelfront": {
+                    "custom": true
+               }
+            }
+        ],
+        "automatic_post_editing_integrations":[
+            {
+                "modelfront-ape": {
+                    "custom": true
+               }
+            }
+        ]
     },
     {
         "id": "xtm",
@@ -1912,6 +1938,20 @@
                         "https://mt-auto-minhon-mlt.ucri.jgn-x.jp/tool/xtm/edit/"
                     ]
                 }
+            }
+        ],
+        "quality_estimation_integrations":[
+            {
+                "modelfront": {
+                    "custom": true
+               }
+            }
+        ],
+        "automatic_post_editing_integrations":[
+            {
+                "modelfront-ape": {
+                    "custom": true
+               }
             }
         ],
         "local_api_support": true,
