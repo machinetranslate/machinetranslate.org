@@ -18,7 +18,7 @@ With [statistical machine translation](/statistical-machine-translation), system
 
 With [neural machine translation](/neural-machine-translation), that was replaced by one end-to-end model. Increasingly, one model is used for many language pairs.
 
-Unlike machine translation APIs or apps, raw machine translation models typically still do not handle basic requirements of a production system, like [language identification](/language-identification), [segmentation](/segmentation) or [bridging](/bridging).
+Unlike machine translation APIs or apps, raw machine translation models typically still do not handle basic requirements of a production system, like [language identification](/language-identification), [segmentation](/segment) or [bridging](/bridging).
 
 Each model typically consists of multiple model versions, that vary by size or release date.
 
