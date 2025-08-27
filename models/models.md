@@ -5,12 +5,30 @@ title: Models
 description: Large language models
 ---
 
-**Large language models** (**LLMs**) are a type of generative AI (GenAI) trained on very large collections of text. They learn patterns and can generate text that is fluent and coherent.
+Machine translation **models** are machine learning models for generating a translation.
 
-LLMs are general-purpose. They can translate, summarize or answer questions when given instructions. These instructions are called *prompts*.
+[APIs](/apis) provide convenient access to underlying models. Models can also be trained and deployed directly.
 
-Unlike traditional machine translation, like [neural machine translation](/neural-machine-translation), they are not trained only for translation.
+## Evolution
 
-LLMs can use context because they pay attention to the sentences before and after the input to give more natural results.
+With [statistical machine translation](/statistical-machine-translation), systems required multiple models:
 
-LLMs can make mistakes or give inconsistent results and they require significant computing resources.
+- [Language model](/statistical-machine-translation#language-model)
+- [Translation model](/statistical-machine-translation#translation-model)
+
+With [neural machine translation](/neural-machine-translation), that was replaced by one end-to-end model. Increasingly, one model is used for many language pairs.
+
+Unlike machine translation APIs or apps, raw machine translation models typically still do not handle basic requirements of a production system, like [language identification](/language-identification), [segmentation](/segmentation) or [bridging](/bridging).
+
+Each model typically consists of multiple model versions, that vary by size or release date.
+
+## More types
+
+In addition to neural machine translation models, there are various types of models currently used by machine translation APIs and related APIs.
+
+- Generic generative AI (chat) models, that require [prompting](/prompting) to generate translations
+- Translation-focused generative AI (chat) models
+- [Quality evaluation](/quality-evaluation) models
+- [Quality estimation](/quality-estimation) models
+- [Automatic post-editing](/automatic-post-editing) models
+
