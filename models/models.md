@@ -26,7 +26,7 @@ Each model typically consists of multiple model versions, that vary by size or r
 
 In addition to neural machine translation models, there are various types of models currently used by machine translation APIs and related APIs.
 
-- Generic generative AI (chat) models, that require [prompting](/prompting) to generate translations
+- Generic generative AI (chat) models, that require prompting to generate translations
 - Translation-focused generative AI (chat) models
 - [Quality evaluation](/quality-evaluation) models
 - [Quality estimation](/quality-estimation) models
