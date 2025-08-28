@@ -71,10 +71,11 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
-- slug: quality-intelligence
-  id: quality-intelligence
-  name: Quality Intelligence
-- id: omniscien-confidence-scores
+- slug: unbabel-qi
+  id: unbabel-qi
+  name: Unbabel QI
+- slug: omniscien-confidence-scores
+  id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
 - id: phrase-mtqe
   name: Phrase MTQE

@@ -74,12 +74,15 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
-- slug: quality-intelligence
-  id: quality-intelligence
-  name: Quality Intelligence
+- slug: unbabel-qi
+  id: unbabel-qi
+  name: Unbabel QI
 - slug: language-weaver
   id: language-weaver-mtqe
   name: Language Weaver
+- slug: smart-review
+  id: smart-review
+  name: Smart Review
 - id: phrase-mtqe
   name: Phrase MTQE
 - slug: taus-qe

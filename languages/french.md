@@ -160,16 +160,20 @@ supported_apis:
 supported_qe_apis:
 - id: google-translation-hub-mtqp
   name: Google Translation Hub MTQP
-- slug: quality-intelligence
-  id: quality-intelligence
-  name: Quality Intelligence
-- id: kantanqes
+- slug: unbabel-qi
+  id: unbabel-qi
+  name: Unbabel QI
+- slug: kantanqes
+  id: kantanqes
   name: KantanQES
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
 - slug: language-weaver
   id: language-weaver-mtqe
   name: Language Weaver
+- slug: smart-review
+  id: smart-review
+  name: Smart Review
 - id: phrase-mtqe
   name: Phrase MTQE
 - slug: taus-qe

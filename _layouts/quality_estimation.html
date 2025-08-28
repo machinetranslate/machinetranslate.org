@@ -82,6 +82,11 @@ parent: Quality estimation
 <blockquote>
 
   <dl>
+    <dt>Company</dt>
+        <dd>
+          {{ page.company | capitalize }}
+        </dd>
+
     <dt>Language support</dt>
   {% if page.supported_languages.size == 0 %}
     <dd><a href="#language-support">Unknown number of languages</a></dd>

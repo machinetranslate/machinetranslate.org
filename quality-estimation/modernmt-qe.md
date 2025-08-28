@@ -1021,8 +1021,6 @@ customisation: true
 integrations:
 - slug: matecat
   name: MateCat
-  custom: true
-  adaptive: true
   urls:
   - https://guides.matecat.com/modernmt-mmt-plug-in
 active: true

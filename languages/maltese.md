@@ -81,6 +81,9 @@ supported_qe_apis:
 - slug: language-weaver
   id: language-weaver-mtqe
   name: Language Weaver
+- slug: smart-review
+  id: smart-review
+  name: Smart Review
 - id: phrase-mtqe
   name: Phrase MTQE
 - slug: taus-qe

@@ -54,8 +54,6 @@ fuzzy_repair: false
 open-source: false
 quality_estimation_integrations:
 - slug: modernmt-qe
-  custom: true
-  adaptive: true
   urls:
   - https://guides.matecat.com/modernmt-mmt-plug-in
   name: ModernMT
