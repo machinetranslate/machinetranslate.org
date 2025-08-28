@@ -770,6 +770,7 @@ integrations:
 - slug: xtm
   name: XTM
   custom: true
+active: true
 seo:
   name: The ModelFront translation quality estimation API
   type: Product

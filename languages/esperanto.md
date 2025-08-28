@@ -53,12 +53,13 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
-- slug: taus-qe
-  id: taus-qe
+- id: taus-qe
   name: TAUS QE
-- slug: modernmt
-  id: modernmt-qe
+- id: modernmt-qe
   name: ModernMT
+supported_ape_apis:
+- id: taus-epic-ape
+  name: TAUS EPIC
 seo:
   name: Machine translation for Esperanto
   type: Language

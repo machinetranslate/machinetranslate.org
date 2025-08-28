@@ -32,8 +32,7 @@ supported_apis:
 - id: google
   name: Google Translate
 supported_qe_apis:
-- slug: modernmt
-  id: modernmt-qe
+- id: modernmt-qe
   name: ModernMT
 supported_ape_apis: []
 seo:

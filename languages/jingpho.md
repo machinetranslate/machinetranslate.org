@@ -37,8 +37,7 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
-- slug: modernmt
-  id: modernmt-qe
+- id: modernmt-qe
   name: ModernMT
 supported_ape_apis: []
 seo:

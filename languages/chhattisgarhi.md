@@ -33,8 +33,7 @@ supported_apis:
 - id: modernmt
   name: ModernMT
 supported_qe_apis:
-- slug: modernmt
-  id: modernmt-qe
+- id: modernmt-qe
   name: ModernMT
 supported_ape_apis: []
 seo:

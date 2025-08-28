@@ -66,21 +66,21 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
-- slug: language-weaver
-  id: language-weaver-mtqe
+- id: language-weaver-mtqe
   name: Language Weaver
-- slug: smart-review
-  id: smart-review
+- id: smart-review
   name: Smart Review
-- slug: taus-qe
-  id: taus-qe
+- id: taus-qe
   name: TAUS QE
-- slug: modelfront
-  id: modelfront
+- id: modelfront
   name: ModelFront
-- slug: modernmt
-  id: modernmt-qe
+- id: modernmt-qe
   name: ModernMT
+supported_ape_apis:
+- id: taus-epic-ape
+  name: TAUS EPIC
+- id: modelfront-ape
+  name: ModelFront
 seo:
   name: Machine translation for Macedonian
   type: Language
