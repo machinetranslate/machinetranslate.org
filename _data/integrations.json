@@ -349,6 +349,15 @@
                 }
             },
             "yandex"
+        ],
+        "quality_estimation_integrations": [
+            {
+                "modernmt-qe": {
+                    "urls": [
+                        "https://guides.matecat.com/modernmt-mmt-plug-in"
+                    ]
+                }
+            }
         ]
     },
     {
@@ -567,7 +576,7 @@
                }
             },
             {
-                "demt-estimate": {
+                "taus-qe": {
                     "custom": true
                }
             }
@@ -1358,6 +1367,10 @@
                     "active": false
                 }
             }
+        ],
+        "quality_estimation_integrations": [
+            "language-weaver-mtqe",
+            "smart-review"
         ],
         "local_api_support": true,
         "multiple_api_suggestions": true,

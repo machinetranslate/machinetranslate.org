@@ -141,9 +141,9 @@ quality_estimation_integrations:
 - slug: modelfront
   custom: true
   name: ModelFront
-- slug: demt-estimate
+- slug: taus-qe
   custom: true
-  name: DeMT Estimate
+  name: TAUS QE
 automatic_post_editing_integrations:
 - slug: modelfront-ape
   custom: true

@@ -42,7 +42,9 @@ supported_apis:
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-supported_qe_apis: []
+supported_qe_apis:
+- id: modernmt-qe
+  name: ModernMT
 supported_ape_apis: []
 seo:
   name: Machine translation for Kashmiri

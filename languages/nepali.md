@@ -66,10 +66,12 @@ supported_qe_apis:
   name: Omniscien Confidence Scores
 - id: phrase-mtqe
   name: Phrase MTQE
-- id: demt-estimate
-  name: DeMT Estimate
+- id: taus-qe
+  name: TAUS QE
 - id: modelfront
   name: ModelFront
+- id: modernmt-qe
+  name: ModernMT
 supported_ape_apis:
 - id: mtrans-ape
   name: MTrans

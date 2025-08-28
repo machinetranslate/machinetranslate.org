@@ -97,14 +97,22 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
+- id: unbabel-qi
+  name: Unbabel QI
 - id: kantanqes
   name: KantanQES
+- id: language-weaver-mtqe
+  name: Language Weaver
+- id: smart-review
+  name: Smart Review
 - id: phrase-mtqe
   name: Phrase MTQE
-- id: demt-estimate
-  name: DeMT Estimate
+- id: taus-qe
+  name: TAUS QE
 - id: modelfront
   name: ModelFront
+- id: modernmt-qe
+  name: ModernMT
 supported_ape_apis:
 - id: language-weaver-ape
   name: Language Weaver
