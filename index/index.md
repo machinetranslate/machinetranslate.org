@@ -34,10 +34,10 @@ The **Machine Translate Foundation** is building **open information** and **comm
       APIs
     </a>
   </div>
-  <div>
-    <a href="/integrations">
-      <span class="big">{{ integration_count }}</span><br/>
-      integrations
+    <div>
+    <a href="/models">
+        <span class="big">{{ site.data.models | size }}</span><br/>
+        models
     </a>
   </div>
   <div>
@@ -47,9 +47,9 @@ The **Machine Translate Foundation** is building **open information** and **comm
     </a>
   </div>
   <div>
-    <a href="/models">
-        <span class="big">{{ site.data.models | size }}</span><br/>
-        models
+    <a href="/integrations">
+      <span class="big">{{ integration_count }}</span><br/>
+      integrations
     </a>
   </div>
   <div>
