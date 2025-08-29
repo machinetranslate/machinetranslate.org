@@ -325,7 +325,7 @@ for api in TRANSLATION_APIS:
   if name_slug != api_id:
     frontmatter['redirect_from'] = name_slug
 
-  filepath = f'translation_apis/{ api_id }.md'
+  filepath = f'translation-apis/{ api_id }.md'
 
   content = read_content(filepath)
 
