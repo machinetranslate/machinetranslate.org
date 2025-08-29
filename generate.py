@@ -36,7 +36,7 @@ with open('_data/language_families.json', 'r', encoding='utf-8') as stream:
   LANGUAGE_FAMILIES = json.load(stream)
 
 ### Read APIs
-with open('_data/apis.json', 'r', encoding='utf-8') as stream:
+with open('_data/translation_apis.json', 'r', encoding='utf-8') as stream:
   TRANSLATION_APIS = json.load(stream)
 
 ### Read API-language conversions
