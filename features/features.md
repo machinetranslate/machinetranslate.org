@@ -7,7 +7,7 @@ seo:
     name: Features of machine translation APIs
 ---
 
-The **features** of machine translation vary across [machine translation APIs](/apis) and applications:
+The **features** of machine translation vary across [machine translation APIs](/translation-apis) and applications:
 
 - [Language support](/languages)
 - [File translation](/file)

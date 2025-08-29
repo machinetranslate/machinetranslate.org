@@ -10,7 +10,7 @@ Machine translation is a key technology in professional **translation and locali
 
 ### Integrations
 
-Translation software, like [translation management systems](/integrations) (TMS) and computer-aided translation tools (CAT), integrate [machine translation APIs](/apis), directly or via plugins.
+Translation software, like [translation management systems](/integrations) (TMS) and computer-aided translation tools (CAT), integrate [machine translation APIs](/translation-apis), directly or via plugins.
 
 ### Workflow
 
