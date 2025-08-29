@@ -14,7 +14,7 @@ parent: Integrations
 
 <p>
   The <strong>{{ page.title }}</strong> {{ page.type_description }} has
-  <a href="#machine-translation">{{ page.api_integrations | size }} machine translation API integration{% if page.api_integrations.size != 1 %}s{% endif %}</a>,
+  <a href="#machine-translation">{{ page.translation_api_integrations | size }} machine translation API integration{% if page.translation_api_integrations.size != 1 %}s{% endif %}</a>,
   <a href="#quality-estimation">{{ page.quality_estimation_integrations | size }} translation quality estimation API integration{% if page.quality_estimation_integrations.size != 1 %}s{% endif %}</a> and 
   <a href="#automatic-post-editing">{{ page.automatic_post_editing_integrations | size }} automatic post editing API integration{% if page.automatic_post_editing_integrations.size != 1 %}s{% endif %}</a>.
 </p>
@@ -24,7 +24,7 @@ parent: Integrations
 
     <dt>API support</dt>
     <dd>
-      <a href="#machine-translation">{{ page.api_integrations.size }} machine translation API{% if page.api_integrations.size != 1 %}s{% endif %}</a>,
+      <a href="#machine-translation">{{ page.translation_api_integrations.size }} machine translation API{% if page.translation_api_integrations.size != 1 %}s{% endif %}</a>,
     </dd>
     <dd>
       <a href="#quality-estimation">{{ page.quality_estimation_integrations.size }} quality estimation API{% if page.quality_estimation_integrations.size != 1 %}s{% endif %}</a>,
@@ -49,14 +49,14 @@ parent: Integrations
   <h2>Machine translation</h2>
   <details>
     <summary>
-      <strong>{{ page.api_integrations | size }}</strong> machine translation API integrations are available for {{ page.title }}.
+      <strong>{{ page.translation_api_integrations | size }}</strong> machine translation API integrations are available for {{ page.title }}.
       <p class="preview hint">
-        {{ page.api_integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
-        {% if page.api_integrations.size > 5 %}, …{% endif %}
+        {{ page.translation_api_integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if page.translation_api_integrations.size > 5 %}, …{% endif %}
       </p>
     </summary>
     <ul>
-    {% for api in page.api_integrations %}
+    {% for api in page.translation_api_integrations %}
       <li>
           <a href="/{{ api.slug }}">{{ api.name }}</a> {% if api.plugin %}(plugin){% endif %}
           {% if api.custom or api.glossary or api.formality %}
