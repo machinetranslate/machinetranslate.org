@@ -8,7 +8,7 @@
             "tms",
             "cat"
         ],
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "deepl": {
                     "formality": true
@@ -34,7 +34,7 @@
             "cat"
         ],
         "documentation_url": "https://support.crowdin.com/configuring-machine-translation-engines/",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "alibaba": {
                     "plugin": true,
@@ -192,7 +192,7 @@
             "tms",
             "cat"
         ],
-        "api_integrations": [
+        "translation_api_integrations": [
             "deepl",
             "microsoft",
             "tapta"
@@ -211,7 +211,7 @@
                 "cat": true
             }
         ],
-        "api_integrations": [
+        "translation_api_integrations": [
             "apptek",
             "google",
             "kantanmt",
@@ -232,7 +232,7 @@
         "type": [
             "tms"
         ],
-        "api_integrations": {
+        "translation_api_integrations": {
             "language-weaver": {
                     "custom": true,
                     "glossary": true
@@ -248,7 +248,7 @@
             "tms",
             "cat"
         ],
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "kantanmt": {
                     "custom": true,
@@ -274,7 +274,7 @@
             "cat"
         ],
         "documentation_url": "https://support.lilt.com/kb/",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "lilt": {
                     "custom": true,
@@ -296,7 +296,7 @@
             "cat"
         ],
         "documentation_url": "https://guides.matecat.com/",
-        "api_integrations": [
+        "translation_api_integrations": [
             "apertium",
             {
                 "google": {
@@ -370,7 +370,7 @@
             "cat"
         ],
         "documentation_url": "https://docs.memoq.com/current/en/Welcome/welcome-memoq-docs.html",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "alexa-translations-ai": {
                     "urls": [
@@ -602,7 +602,7 @@
             "cat"
         ],
         "documentation_url": "https://docs.rws.com/785465/752728/sdl-multitrans",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "deepl": {
                     "url": "https://docs.rws.com/785465/786901/sdl-multitrans/configuring-deepl"
@@ -656,7 +656,7 @@
             "cat"
         ],
         "documentation_url": "https://support.phrase.com/hc/en-us/categories/5709486381084-Phrase-TMS",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "aisa": {
                     "active": false
@@ -829,7 +829,7 @@
         ],
         "open_source": true,
         "documentation_url": "https://omegat.org/documentation",
-        "api_integrations": [
+        "translation_api_integrations": [
             "apertium",
             "belazar",
             "deepl",
@@ -871,7 +871,7 @@
             "cat"
         ],
         "documentation_url": "https://docs.rws.com/914743/262054/passolo-help/welcome-to-the-------------passolo-documentation",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "deepl": {
                     "plugin": true,
@@ -906,7 +906,7 @@
         "type": [
             "tms"
         ],
-        "api_integrations": {
+        "translation_api_integrations": {
             "language-weaver": {
                     "custom": true,
                     "glossary": true
@@ -922,7 +922,7 @@
             "tms"
         ],
         "documentation_url": "https://simplelocalize.io/docs/general/auto-translation/",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "deepl": {
                     "formality": true,
@@ -943,7 +943,7 @@
             "cat"
         ],
         "documentation_url": "https://help.smartcat.com/hc/en-us/",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "amazon": {
                     "custom": true
@@ -1015,7 +1015,7 @@
             "cat"
         ],
         "documentation_url": "https://help.smartling.com/hc/en-us",
-        "api_integrations": [
+        "translation_api_integrations": [
             "amazon",
             "deepl",
             {
@@ -1064,7 +1064,7 @@
         ],
         "documentation_url": "https://tolgee.io/platform",
         "open_source": true,
-        "api_integrations": [
+        "translation_api_integrations": [
             "amazon",
             "deepl",
             "google",
@@ -1086,7 +1086,7 @@
             "cat"
         ],
         "documentation_url": "https://docs.rws.com/980998/261377/trados-studio-2022/welcome-to-the-------------trados-studio-2022-documentation",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "alexa-translations-ai": {
                     "plugin": true,
@@ -1386,7 +1386,7 @@
             "cat"
         ],
         "documentation_url": "https://docs.transifex.com/",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "amazon": {
                     "glossary": true,
@@ -1427,7 +1427,7 @@
             "cat"
         ],
         "documentation_url": "https://www.star-group.net/en/downloads/transit-termstar.html",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "deepl": {
                     "glossary": true,
@@ -1468,7 +1468,7 @@
         ],
         "open_source": true,
         "documentation_url": "https://confluence.translate5.net/spacedirectory/view.action",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "deepl": {
                     "plugin": true,
@@ -1548,7 +1548,7 @@
             "tms",
             "cat"
         ],
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "google": {
                     "custom": true,
@@ -1574,7 +1574,7 @@
             "cat"
         ],
         "documentation_url": "https://wordbee.atlassian.net/wiki/spaces/WBT/overview",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "deepl": {
                     "urls": [
@@ -1679,7 +1679,7 @@
             "cat"
         ],
         "documentation_url": "https://www.wordfast.com/WFP/5.8/t2117287.html",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "deepl": {
                     "formality": true
@@ -1760,7 +1760,7 @@
             "tms",
             "cat"
         ],
-        "api_integrations": [
+        "translation_api_integrations": [
             "google",
             "deepl",
             "microsoft"
@@ -1774,7 +1774,7 @@
         "type": [
             "tms"
         ],
-        "api_integrations": [
+        "translation_api_integrations": [
 
             {
                 "language-weaver": 
@@ -1810,7 +1810,7 @@
             "cat"
         ],
         "documentation_url": "https://xtm.cloud/documentation/",
-        "api_integrations": [
+        "translation_api_integrations": [
             {
                 "amazon": {
                     "glossary": true,
