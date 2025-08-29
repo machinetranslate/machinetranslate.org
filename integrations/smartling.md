@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://www.smartling.com
-api_integrations:
+translation_api_integrations:
 - slug: amazon
   name: Amazon Translate
 - slug: deepl

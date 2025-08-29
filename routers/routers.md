@@ -8,7 +8,7 @@ seo:
     name: List of machine translation API routers
 ---
 
-Machine translation API **routers** provide access to multiple machine translation [APIs](/apis).
+Machine translation API **routers** provide access to multiple machine translation [APIs](/translation-apis).
 
 They may effectively provide [integrations](/integrations) in translation management systems for APIs that the translation management system has not integrated directly.
 

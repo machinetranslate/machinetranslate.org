@@ -12,7 +12,7 @@ type:
 - cat: true
 type_description: computer-aided translation tool
 tms_url: https://globallink.translations.com/
-api_integrations:
+translation_api_integrations:
 - slug: apptek
   name: AppTek
 - slug: google

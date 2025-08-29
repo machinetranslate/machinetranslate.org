@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://ls-ets.unog.ch/tools/untermeluna
-api_integrations:
+translation_api_integrations:
 - slug: deepl
   name: DeepL
 - slug: microsoft

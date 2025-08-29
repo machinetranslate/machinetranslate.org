@@ -11,7 +11,7 @@ type:
 - cat
 type_description: computer-aided translation tool
 tms_url: https://www.omegat.org
-api_integrations:
+translation_api_integrations:
 - slug: apertium
   name: Apertium
 - slug: belazar

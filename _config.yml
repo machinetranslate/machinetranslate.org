@@ -85,7 +85,7 @@ defaults:
       seo:
         type: Event
   - scope:
-      path: apis
+      path: translation-apis
       type: pages
     values:
       permalink: /:basename

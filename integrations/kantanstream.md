@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://www.kantanai.io/kantanstream-home/
-api_integrations:
+translation_api_integrations:
 - slug: kantanmt
   custom: true
   glossary: true

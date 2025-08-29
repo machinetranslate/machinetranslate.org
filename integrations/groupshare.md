@@ -11,7 +11,7 @@ type:
 - tms
 type_description: translation management system
 tms_url: https://docs.rws.com/publications/Trados%20GroupShare/SDL%20Trados%20GroupShare%202020%20SR1
-api_integrations:
+translation_api_integrations:
 - slug: language-weaver
   name: Language Weaver
 fuzzy_repair: false

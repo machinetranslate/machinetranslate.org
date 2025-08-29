@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: http://www.wordbee.com
-api_integrations:
+translation_api_integrations:
 - slug: deepl
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings

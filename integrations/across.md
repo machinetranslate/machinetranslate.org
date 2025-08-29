@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://www.across.net/
-api_integrations:
+translation_api_integrations:
 - slug: deepl
   formality: true
   name: DeepL

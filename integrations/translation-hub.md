@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://cloud.google.com/translation-hub
-api_integrations:
+translation_api_integrations:
 - slug: google
   custom: true
   glossary: true
