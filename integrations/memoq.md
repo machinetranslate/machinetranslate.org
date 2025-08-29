@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://www.memoq.com
-api_integrations:
+translation_api_integrations:
 - slug: alexa-translations-ai
   urls:
   - https://docs.memoq.com/current/en/Places/alexa-ai-plugin-settings.html

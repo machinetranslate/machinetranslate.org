@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://www.crowdin.com
-api_integrations:
+translation_api_integrations:
 - slug: alibaba
   plugin: true
   urls:

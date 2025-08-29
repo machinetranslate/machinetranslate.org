@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://www.smartcat.ai
-api_integrations:
+translation_api_integrations:
 - slug: amazon
   custom: true
   name: Amazon Translate

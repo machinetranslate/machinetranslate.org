@@ -11,7 +11,7 @@ type:
 - tms
 type_description: translation management system
 tms_url: https://docs.rws.com/975503/262470/worldserver-11-8-user-documentation/welcome-to-the-------------worldserver-documentation
-api_integrations:
+translation_api_integrations:
 - slug: language-weaver
   custom: true
   glossary: true

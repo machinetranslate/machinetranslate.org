@@ -11,7 +11,7 @@ type:
 - cat
 type_description: computer-aided translation tool
 tms_url: https://www.trados.com/products/trados-studio
-api_integrations:
+translation_api_integrations:
 - slug: alexa-translations-ai
   plugin: true
   urls:

@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://phrase.com/products/phrase-tms/
-api_integrations:
+translation_api_integrations:
 - slug: aisa
   active: false
   name: AISA

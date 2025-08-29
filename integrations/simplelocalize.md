@@ -11,7 +11,7 @@ type:
 - tms
 type_description: translation management system
 tms_url: https://simplelocalize.io
-api_integrations:
+translation_api_integrations:
 - slug: deepl
   formality: true
   glossary: true

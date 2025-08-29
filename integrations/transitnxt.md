@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://www.star-group.net/en/products/translation-localization.html
-api_integrations:
+translation_api_integrations:
 - slug: deepl
   glossary: true
   formality: true

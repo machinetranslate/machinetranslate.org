@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: http://xtm.cloud
-api_integrations:
+translation_api_integrations:
 - slug: amazon
   glossary: true
   urls:
