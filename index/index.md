@@ -29,42 +29,27 @@ The **Machine Translate Foundation** is building **open information** and **comm
   }
 </style>
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); padding: 3em; gap: 3em; max-width: 800px; margin: auto; text-align: center; transform: translateX(-5%)">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); padding: 2em; gap: 2em; max-width: 800px; margin: auto; text-align: center; transform: translateX(-5%)">
   <div>
     <a href="/translation-apis">
       <span class="big">{{ site.data.translation_apis | size }}</span><br/>
       translation APIs
     </a>
   </div>
-    <div>
-    <a href="/models">
-      <span class="big">{{ site.data.models | size }}</span><br/>
-      models
-    </a>
+  <div>
+    <a href="/models"><span class="big">{{ site.data.models | size }}</span><br/>models</a>
   </div>
   <div>
-    <a href="/languages">
-      <span class="big">{{ site.data.languages | size }}</span><br/>
-      languages
-    </a>
+    <a href="/languages"><span class="big">{{ site.data.languages | size }}</span><br/>languages</a>
   </div>
   <div>
-    <a href="/integrations">
-      <span class="big">{{ integration_count }}</span><br/>
-      integrations
-    </a>
+    <a href="/integrations"><span class="big">{{ integration_count }}</span><br/>integrations</a>
   </div>
   <div>
-    <a href="/quality-estimation">
-      <span class="big">{{ site.data.quality_estimation | size }}</span><br/>
-      quality estimation APIs
-    </a>
+    <a href="/quality-estimation"><span class="big">{{ site.data.quality_estimation | size }}</span><br/>quality estimation APIs</a>
   </div>
   <div>
-    <a href="/automatic-post-editing">
-      <span class="big">{{ site.data.automatic_post_editing | size }}</span><br/>
-      automatic post-editing APIs
-    </a>
+    <a href="/automatic-post-editing"><span class="big">{{ site.data.automatic_post_editing | size }}</span><br/>automatic post-editing APIs</a>
   </div>
 </div>
 
