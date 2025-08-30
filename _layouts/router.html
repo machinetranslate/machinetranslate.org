@@ -1,0 +1,100 @@
+---
+layout: default
+parent: Routers
+---
+<h1>
+  {{ page.title }}
+</h1>
+<h2>
+  {{ page.description }}
+</h2>
+
+<hr/>
+
+<p>
+  The <strong>{{ page.title }}</strong> <a href="/routers">router</a> supports <a href="#machine-translation">{{ page.supported_apis | size }} machine translation APIs</a>.
+</p>
+
+<p>
+  {% if page.integrations.size == 1 %}
+  <a href="#integrations">1 machine translation management system</a> has integrated the <strong>{{ page.title }}</strong> router.{% endif %}
+  {% if page.integrations.size > 1 %}
+   <a href="#integrations">{{ page.integrations | size }} machine translation management systems</a> have integrated the <strong>{{ page.title }}</strong> router.
+  {% endif %}
+</p>
+
+<blockquote>
+  <dl>
+    <dt>Supported APIs</dt>
+    <dd><a href="#machine-translation">{{ page.supported_apis | size }} machine translation APIs</a></dd>
+  </dl>
+  <dl>
+    <dt>Integrations</dt>
+    <dd><a href="#integrations">{{ page.integrations | size }} translation management systems</a></dd>
+  </dl>
+  {% if page.urls.size > 0 %}
+    <hr/>
+    <ul>
+      {% for url in page.urls %}
+      <li>
+        <a href="{{ url }}" target="_blank">{{ url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</blockquote>
+
+{{ content }}
+
+<section id="machine-translation">
+  <h2>Machine translation</h2>
+  <details>
+    <summary>
+      {% if page.supported_apis.size == 1 %}
+        <strong>1</strong> machine translation API supports {{ page.title }}.
+      {% else %}
+        <strong>{{ page.supported_apis | size }}</strong> machine translation APIs are supported by the {{ page.title }} router.
+      {% endif %}
+      <p class="preview hint">
+        {{ page.supported_apis | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if page.supported_apis.size > 5 %}, …{% endif %}
+      </p>
+    </summary>
+    <ul>
+      {% for api in page.supported_apis %}
+      <li>
+        <a href="/{{ api.slug }}">{{ api.name }}</a>
+    </li>
+      {% endfor %}
+    </ul>
+  </details>
+</section>
+
+<section id="integrations">
+  <h2>Integrations</h2>
+  <details>
+    <summary>
+      {% if page.integrations.size == 1 %}
+        <strong>1</strong> translation management system has integrated the {{ page.title }} router.
+      {% else %}
+        <strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} router.
+      {% endif %}
+      <p class="preview hint">
+        {{ page.integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if page.integrations.size > 5 %}, …{% endif %}
+      </p>
+    </summary>
+    <ul>
+      {% for i in page.integrations %}
+      <li>
+        <a href="/{{ i.slug }}">{{ i.name }}</a> {% if i.plugin %}(plugin){% endif %}
+        {% if i.custom or i.glossary or i.formality %}
+          {% if i.custom %}| <strong>fine-tuning</strong> support{% endif %}
+          {% if i.glossary %}| <strong>glossary</strong> support{% endif %}
+          {% if i.formality %}| <strong>formality</strong> support{% endif %}
+        {% endif %}
+    </li>
+      {% endfor %}
+    </ul>
+  </details>
+</section>

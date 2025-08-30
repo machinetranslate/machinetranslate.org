@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://www.rws.com/localization/products/additional-solutions/
-api_integrations:
+translation_api_integrations:
 - slug: deepl
   url: https://docs.rws.com/785465/786901/sdl-multitrans/configuring-deepl
   name: DeepL
@@ -41,6 +41,7 @@ api_integrations:
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
+automatic_post_editing_integrations: []
 seo:
   name: Machine translation API integrations in Multitrans
   type: Product

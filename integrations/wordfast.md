@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: http://www.wordfast.com
-api_integrations:
+translation_api_integrations:
 - slug: deepl
   formality: true
   name: DeepL
@@ -58,6 +58,7 @@ api_integrations:
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
+automatic_post_editing_integrations: []
 seo:
   name: Machine translation API integrations in Wordfast
   type: Product

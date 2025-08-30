@@ -14,7 +14,7 @@ The **Machine Translate Foundation** is building **open information** and **comm
 
 {% assign integration_count = 0 %}
 {% for tms in site.data.integrations %}
-  {% assign s = tms.api_integrations | size %}
+  {% assign s = tms.translation_api_integrations | size %}
   {% assign integration_count = integration_count | plus: s %}
 {% endfor %}
 
@@ -27,36 +27,49 @@ The **Machine Translate Foundation** is building **open information** and **comm
   }
 </style>
 
-<div style="display: flex; justify-content: center; gap: 20%; padding: 1em;">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 800px; margin: auto; text-align: center; transform: translateX(-5%)">
   <div>
-    <center>
-      <a href="/apis">
-        <span class="big">{{ site.data.apis | size }}</span><br/>
-        APIs
-      </a>
-    </center>
+    <a href="/translation-apis">
+      <span class="big">{{ site.data.translation_apis | size }}</span><br/>
+      Translation APIs
+    </a>
+  </div>
+    <div>
+    <a href="/models">
+        <span class="big">{{ site.data.models | size }}</span><br/>
+        models
+    </a>
   </div>
   <div>
-    <center>
-      <a href="/integrations">
-        <span class="big">{{ integration_count }}</span><br/>
-        integrations
-      </a>
-    </center>
+    <a href="/languages">
+      <span class="big">{{ site.data.languages | size }}</span><br/>
+      languages
+    </a>
   </div>
   <div>
-    <center>
-      <a href="/languages">
-        <span class="big">{{ site.data.languages | size }}</span><br/>
-        languages
+    <a href="/integrations">
+      <span class="big">{{ integration_count }}</span><br/>
+      integrations
+    </a>
+  </div>
+  <div>
+    <a href="/quality-estimation">
+        <span class="big">{{ site.data.quality_estimation | size }}</span><br/>
+        quality estimation
+    </a>
+  </div>
+  <div>
+    <a href="/automatic-post-editing">
+        <span class="big">{{ site.data.automatic_post_editing | size }}</span><br/>
+        automatic post-editing
       </a>
-    </center>
   </div>
 </div>
 
 The content covers everything about machine translation, from products to research, and from history to news.
 
 > #### Featured events
+> - [AMTA25](/amta-2025) - 25 September 2025, online 🌎 
 > - [WMT25](/wmt25) - 05-09 November 2025, Suzhou, China 🇨🇳
 > - [MT Summit 2025](/mt-summit-2025) - 23-27 June 2025, Geneva 🇨🇭
 > - [Speech machine translation panel](/meetup) - to be determined, online 🌎

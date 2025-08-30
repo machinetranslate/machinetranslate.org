@@ -43,6 +43,7 @@ supported_apis:
 - id: textshuttle
   name: Supertext
 supported_qe_apis: []
+supported_ape_apis: []
 seo:
   name: Machine translation for Alemannic
   type: Language

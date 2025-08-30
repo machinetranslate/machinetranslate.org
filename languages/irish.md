@@ -68,20 +68,26 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
-- slug: kantanqes
-  id: kantanqes
+- id: kantanqes
   name: KantanQES
-- slug: omniscien-confidence-scores
-  id: omniscien-confidence-scores
+- id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
-- slug: phrase-mtqe
-  id: phrase-mtqe
+- id: language-weaver-mtqe
+  name: Language Weaver
+- id: smart-review
+  name: Smart Review
+- id: phrase-mtqe
   name: Phrase MTQE
-- slug: demt-estimate
-  id: demt-estimate
-  name: DeMT Estimate
-- slug: modelfront
-  id: modelfront
+- id: taus-qe
+  name: TAUS QE
+- id: modelfront
+  name: ModelFront
+- id: modernmt-qe
+  name: ModernMT
+supported_ape_apis:
+- id: taus-epic-ape
+  name: TAUS EPIC
+- id: modelfront-ape
   name: ModelFront
 seo:
   name: Machine translation for Irish

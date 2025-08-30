@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://cloud.google.com/translation-hub
-api_integrations:
+translation_api_integrations:
 - slug: google
   custom: true
   glossary: true
@@ -23,6 +23,7 @@ quality_estimation_integrations:
 - slug: google-translation-hub-mtqp
   custom: false
   name: Google Translation Hub MTQP
+automatic_post_editing_integrations: []
 seo:
   name: Machine translation API integrations in Google Cloud Translation Hub
   type: Product

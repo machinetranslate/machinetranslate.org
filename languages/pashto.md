@@ -61,8 +61,18 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
-- slug: modelfront
-  id: modelfront
+- id: language-weaver-mtqe
+  name: Language Weaver
+- id: smart-review
+  name: Smart Review
+- id: modelfront
+  name: ModelFront
+- id: modernmt-qe
+  name: ModernMT
+supported_ape_apis:
+- id: language-weaver-ape
+  name: Language Weaver
+- id: modelfront-ape
   name: ModelFront
 seo:
   name: Machine translation for Pashto
