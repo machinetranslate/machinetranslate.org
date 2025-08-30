@@ -21,9 +21,7 @@ apis: []
 quality_estimation: []
 automatic_post_editing: []
 tms: []
-routers:
-- slug: edenai-router
-  name: Eden AI
+routers: []
 models: []
 seo:
   name: The Eden AI profile with an overview of its translation technologies and solutions

@@ -5,11 +5,21 @@ nav_order: 999
 layout: translation_api
 title: Acolad
 description: The Acolad machine translation API
+<<<<<<< HEAD:translation-apis/acolad.md
+=======
+<<<<<<<< HEAD:translation-apis/acolad-api.md
+>>>>>>> b08f2b1d (Rename names back to their previous names):apis/acolad.md
 <<<<<<<< HEAD:translation-apis/acolad.md
 id: acolad
 parent: Translation APIs
 ========
 id: acolad-api
+<<<<<<< HEAD:translation-apis/acolad.md
+=======
+========
+id: acolad
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/acolad.md
+>>>>>>> b08f2b1d (Rename names back to their previous names):apis/acolad.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/acolad-api.md
 urls:
@@ -23,7 +33,11 @@ inputs:
 supported_languages: []
 more_languages_by_request: false
 integrations:
+<<<<<<< HEAD:translation-apis/acolad.md
 - slug: xtm-tms
+=======
+- slug: xtm
+>>>>>>> b08f2b1d (Rename names back to their previous names):apis/acolad.md
   name: XTM
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/acolad.html

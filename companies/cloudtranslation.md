@@ -18,7 +18,7 @@ urls:
 - https://cloudtranslation.com/
 - https://www.crunchbase.com/organization/cloudtranslation
 apis:
-- slug: cloudtranslation-api
+- slug: cloudtranslation
   name: CloudTranslation
 quality_estimation: []
 automatic_post_editing: []

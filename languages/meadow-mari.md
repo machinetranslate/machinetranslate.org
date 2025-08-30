@@ -25,9 +25,9 @@ typology:
 territories:
 - ru
 supported_apis:
-- id: yandex-translate
+- id: yandex
   name: Yandex Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

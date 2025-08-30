@@ -12,7 +12,7 @@
             "https://www.crunchbase.com/organization/across-systems"
         ],
         "tms": [
-            "across-tms"
+            "across"
         ]
     },
     {
@@ -44,7 +44,7 @@
             "https://www.crunchbase.com/organization/alexa-translations-a-i"
         ],
         "apis": [
-            "alexa-translations-ai-api"
+            "alexa-translations-ai"
         ]
     },
     {
@@ -80,8 +80,8 @@
             "https://www.crunchbase.com/organization/amazon"
         ],
         "apis": [
-            "amazon-translate",
-            "safaba-api"
+            "amazon",
+            "safaba"
         ]
     },
     {
@@ -111,7 +111,7 @@
             "https://apertium.org/"
         ],
         "apis": [
-            "apertium-api"
+            "apertium"
         ]
     },
     {
@@ -127,7 +127,7 @@
             "https://www.crunchbase.com/organization/apptek"
         ],
         "apis": [
-            "apptek-api"
+            "apptek"
         ]
     },
     {
@@ -143,7 +143,7 @@
             "https://www.crunchbase.com/organization/baidu"
         ],
         "apis": [
-            "baidu-translate"
+            "baidu"
         ]
     },
     {
@@ -158,7 +158,7 @@
             "http://belazar.info/"
         ],
         "apis": [
-            "belazar-api"
+            "belazar"
         ]
     },
     {
@@ -188,7 +188,7 @@
             "https://www.crunchbase.com/organization/cloudtranslation"
         ],
         "apis": [
-            "cloudtranslation-api"
+            "cloudtranslation"
         ]
     },
     {
@@ -224,7 +224,7 @@
             "https://www.crunchbase.com/organization/crowdin"
         ],
         "tms": [
-            "crowdin-tms"
+            "crowdin"
         ]
     },
     {
@@ -255,7 +255,7 @@
             "https://www.crunchbase.com/organization/linguee"
         ],
         "apis": [
-            "deepl-api"
+            "deepl"
         ]
     },
     {
@@ -332,7 +332,7 @@
             "https://www.crunchbase.com/organization/globalese"
         ],
         "apis": [
-            "globalese-api"
+            "globalese"
         ]
     },
     {
@@ -348,7 +348,7 @@
             "https://www.crunchbase.com/organization/google-cloud-platform"
         ],
         "apis": [
-            "google-translate"
+            "google"
         ],
         "tms": [
             "translation-hub"
@@ -391,7 +391,7 @@
             "mtrans"
         ],
         "automatic_post_editing": [
-            "mtrans-ape"
+            "mtrans"
         ]
     },
     {
@@ -523,7 +523,7 @@
             "https://www.crunchbase.com/organization/kodensha-031d"
         ],
         "apis": [
-            "kodensha-mt"
+            "kodensha"
         ]
     },
     {
@@ -553,7 +553,7 @@
             "https://www.crunchbase.com/organization/languagewire"
         ],
         "apis": [
-            "language-wire-api"
+            "language-wire"
         ],
         "acquired_by": {
             "company": "Bridgepoint"
@@ -587,10 +587,10 @@
             "https://www.crunchbase.com/organization/lilt"
         ],
         "apis": [
-            "lilt-api"
+            "lilt"
         ],
         "tms": [
-            "lilt-tms"
+            "lilt"
         ],
         "note": "Raised $37.5M from Sequoia, Redpoint, XSeed, Zetta and In-Q-Tel"
     },
@@ -608,7 +608,7 @@
             "https://www.crunchbase.com/organization/lingmo"
         ],
         "apis": [
-            "lingmo-translation"
+            "lingmo"
         ]
     },
     {
@@ -625,7 +625,7 @@
             "https://www.crunchbase.com/organization/lingmo"
         ],
         "apis": [
-            "lingo24-api"
+            "lingo24"
         ],
         "acquired_by": {
             "company": "Unbabel"
@@ -644,7 +644,7 @@
             "https://www.crunchbase.com/organization/lingua-custodia"
         ],
         "apis": [
-            "lingua-custodia-api"
+            "lingua-custodia"
         ]
     },
     {
@@ -660,7 +660,7 @@
             "https://www.crunchbase.com/organization/lingvanex"
         ],
         "apis": [
-            "lingvanex-api"
+            "lingvanex"
         ]
     },
     {
@@ -698,7 +698,7 @@
             "company": "United Language Group"
         },
         "apis": [
-            "lucy-api"
+            "lucy"
         ],
         "active": false
     },
@@ -715,7 +715,7 @@
             "https://www.crunchbase.com/organization/memoq"
         ],
         "tms": [
-            "memoq-tms"
+            "memoq"
         ]
     },
     {
@@ -731,12 +731,12 @@
             "https://www.crunchbase.com/organization/microsoft"
         ],
         "apis": [
-            "microsoft-translator"
+            "microsoft"
         ]
     },
     {
         "name": "Mirai Translate",
-        "id": "mirai-translate",
+        "id": "mirai",
         "type": [
             "machine-translation-provider"
         ],
@@ -763,10 +763,10 @@
             "https://www.crunchbase.com/organization/modelfront"
         ],
         "quality_estimation": [
-            "modelfront-qe"
+            "modelfront"
         ],
         "automatic_post_editing": [
-            "modelfront-ape"
+            "modelfront"
         ]
     },
     {
@@ -834,7 +834,7 @@
             "https://www.crunchbase.com/organization/neural-space"
         ],
         "apis": [
-            "neuralspace-api"
+            "neuralspace"
         ]
     },
     {
@@ -950,7 +950,7 @@
             "phrase-nextmt"
         ],
         "tms": [
-            "phrase-tms"
+            "phrase"
         ],
         "quality_estimation": [
             "phrase-mtqe"
@@ -998,7 +998,7 @@
             "https://www.crunchbase.com/organization/promt"
         ],
         "apis": [
-            "promt-api"
+            "promt"
         ]
     },
     {
@@ -1014,7 +1014,7 @@
             "https://www.crunchbase.com/organization/rozetta-corp"
         ],
         "apis": [
-            "rozetta-t-400"
+            "rozetta"
         ]
     },
     {
@@ -1030,7 +1030,7 @@
             "https://www.crunchbase.com/organization/reverso"
         ],
         "apis": [
-            "reverso-api"
+            "reverso"
         ]
     },
     {
@@ -1061,11 +1061,11 @@
             "groupshare",
             "multitrans",
             "passolo",
-            "sdl-tms",
+            "sdl",
             "trados"
         ],
         "automatic_post_editing": [
-            "language-weaver-ape"
+            "language-weaver"
         ]
     },
     {
@@ -1082,7 +1082,7 @@
             "https://www.crunchbase.com/organization/safaba-translation-solutions"
         ],
         "apis": [
-            "safaba-api"
+            "safaba"
         ],
         "acquired_by": {
             "company": "Amazon"
@@ -1101,7 +1101,7 @@
             "https://www.crunchbase.com/organization/sap"
         ],
         "apis": [
-            "sap-translation-hub"
+            "sap"
         ]
     },
     {
@@ -1117,7 +1117,7 @@
             "https://www.crunchbase.com/organization/skrivanek"
         ],
         "apis": [
-            "skrivanek-api"
+            "skrivanek"
         ]
     },
     {
@@ -1133,7 +1133,7 @@
             "https://www.crunchbase.com/organization/smartcat"
         ],
         "tms": [
-            "smartcat-tms"
+            "smartcat"
         ]
     },
     {
@@ -1149,7 +1149,7 @@
             "https://www.crunchbase.com/organization/smartling"
         ],
         "tms": [
-            "smartling-tms"
+            "smartling"
         ]
     },
     {
@@ -1231,7 +1231,7 @@
             "https://www.crunchbase.com/organization/systran-9361"
         ],
         "apis": [
-            "systran-api"
+            "systran"
         ]
     },
     {
@@ -1264,7 +1264,7 @@
             "https://www.crunchbase.com/organization/ta-with-you"
         ],
         "apis": [
-            "tauyou-api"
+            "tauyou"
         ],
         "acquired_by": {
             "company": "Transperfect"
@@ -1283,7 +1283,7 @@
             "https://www.crunchbase.com/organization/tencent"
         ],
         "apis": [
-            "tencent-machine-translation",
+            "tencent",
             "sogou-translate"
         ]
     },
@@ -1317,7 +1317,7 @@
             "https://www.crunchbase.com/organization/tilde-6e11"
         ],
         "apis": [
-            "tilde-api"
+            "tilde"
         ]
     },
     {
@@ -1366,7 +1366,7 @@
             "https://www.crunchbase.com/organization/transifex"
         ],
         "tms": [
-            "transifex-tms"
+            "transifex"
         ],
         "acquired_by": {
             "company": "PARC Partners"
@@ -1419,8 +1419,8 @@
         ],
         "apis": [
             "transperfect-nmt",
-            "wordlingo-api",
-            "tauyou-api"
+            "wordlingo",
+            "tauyou"
         ],
         "tms": [
             "globallink"
@@ -1439,7 +1439,7 @@
             "https://www.crunchbase.com/organization/ubiqus"
         ],
         "apis": [
-            "ubiqus-nmt"
+            "ubiqus"
         ],
         "acquired_by": {
             "company": "Acolad"
@@ -1458,10 +1458,10 @@
             "https://www.crunchbase.com/organization/unbabel"
         ],
         "apis": [
-            "unbabel-api",
+            "unbabel",
             "widn",
-            "lingo24-api",
-            "ubiqus-nmt"
+            "lingo24",
+            "ubiqus"
         ],
         "models": [
             "towerllm"
@@ -1525,7 +1525,7 @@
             "https://www.crunchbase.com/organization/weglot"
         ],
         "tms": [
-            "weglot-tms"
+            "weglot"
         ]
     },
     {
@@ -1541,7 +1541,7 @@
             "https://www.crunchbase.com/organization/wordbee"
         ],
         "tms": [
-            "wordbee-tms"
+            "wordbee"
         ]
     },
     {
@@ -1557,7 +1557,7 @@
             "https://www.crunchbase.com/organization/wordfast"
         ],
         "tms": [
-            "wordfast-tms"
+            "wordfast"
         ]
     },
     {
@@ -1589,7 +1589,7 @@
             "https://www.crunchbase.com/organization/xl8-inc"
         ],
         "apis": [
-            "xl8-api"
+            "xl8"
         ],
         "note": "Funded by FuturePlay"
     },
@@ -1606,7 +1606,7 @@
             "https://www.crunchbase.com/organization/xml-intl"
         ],
         "tms": [
-            "xtm-tms"
+            "xtm"
         ]
     },
     {
@@ -1622,7 +1622,7 @@
             "https://www.crunchbase.com/organization/yandex"
         ],
         "apis": [
-            "yandex-translate"
+            "yandex"
         ]
     },
     {
@@ -1667,7 +1667,7 @@
             "https://www.crunchbase.com/organization/worldlingo"
         ],
         "apis": [
-            "wordlingo-api"
+            "wordlingo"
         ],
         "acquired_by": {
             "company": "Transperfect"
@@ -1700,7 +1700,7 @@
             "https://www.crunchbase.com/organization/openai"
         ],
         "apis": [
-            "openai-api"
+            "openai"
         ],
         "models": [
             "gpt",
@@ -1720,7 +1720,7 @@
             "https://www.crunchbase.com/organization/anthropic"
         ],
         "apis": [
-            "anthropic-api"
+            "anthropic"
         ],
         "models": [
             "claude-sonnet"
@@ -1739,7 +1739,7 @@
             "https://www.crunchbase.com/organization/deepseek"
         ],
         "apis": [
-            "deepseek-api"
+            "deepseek"
         ],
         "models": [
             "deepseek-ai"
@@ -1777,7 +1777,7 @@
             "https://www.crunchbase.com/organization/mistral-ai"
         ],
         "apis": [
-            "mistral-ai-api"
+            "mistral-ai"
         ],
         "models": [
             "voxtral",
@@ -1801,10 +1801,10 @@
             "https://www.crunchbase.com/organization/taus"
         ],
         "quality_estimation": [
-            "taus-qe"
+            "taus"
         ],
         "automatic_post_editing": [
-            "taus-epic-ape"
+            "taus-epic"
         ]
     },
     {
@@ -1867,7 +1867,7 @@
             "https://www.crunchbase.com/organization/tolgee"
         ],
         "tms": [
-            "tolgee-tms"
+            "tolgee"
         ]
     },
     {
@@ -1898,8 +1898,8 @@
             "https://www.crunchbase.com/organization/technicis"
         ],
         "apis": [
-            "acolad-api",
-            "ubiqus-nmt"
+            "acolad",
+            "ubiqus"
         ]
     },
     {
@@ -1931,7 +1931,7 @@
             "https://www.crunchbase.com/organization/bridgepoint-eu"
         ],
         "apis": [
-            "language-wire-api"
+            "language-wire"
         ]
     },
     {
@@ -1982,7 +1982,7 @@
             "https://www.crunchbase.com/organization/united-language-group-2"
         ],
         "apis": [
-            "lucy-api",
+            "lucy",
             "octavemt"
         ]
     },
@@ -1999,7 +1999,7 @@
             "https://www.crunchbase.com/organization/parc-partners"
         ],
         "tms": [
-            "transifex-tms"
+            "transifex"
         ]
     }
 ]

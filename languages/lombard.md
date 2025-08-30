@@ -29,7 +29,7 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
-- id: google-translate
+- id: google
   name: Google Translate
 supported_qe_apis:
 - id: modelfront

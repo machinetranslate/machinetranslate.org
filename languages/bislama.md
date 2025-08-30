@@ -26,7 +26,7 @@ typology:
 territories:
 - vu
 supported_apis:
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate

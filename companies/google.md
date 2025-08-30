@@ -18,7 +18,7 @@ urls:
 - https://cloud.google.com/
 - https://www.crunchbase.com/organization/google-cloud-platform
 apis:
-- slug: google-translate
+- slug: google
   name: Google Translate
 quality_estimation:
 - slug: google-translation-hub-mtqp

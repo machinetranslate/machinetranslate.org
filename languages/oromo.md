@@ -29,13 +29,13 @@ territories:
 - ke
 - et
 supported_apis:
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

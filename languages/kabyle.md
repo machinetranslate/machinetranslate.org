@@ -28,7 +28,7 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate

@@ -34,7 +34,7 @@ territories:
 - zw
 - mz
 supported_apis:
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

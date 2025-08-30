@@ -19,7 +19,7 @@ urls:
 - https://kodensha.j-server.com/LUCKDS/ns/tl.cgi/https://www.kodensha.jp/index/?SLANG=ja&TLANG=en&XMODE=0&XPARAM=q,&XCHARSET=UTF-8&XPORG=,&XJSID=0
 - https://www.crunchbase.com/organization/kodensha-031d
 apis:
-- slug: kodensha-mt
+- slug: kodensha
   name: Kodensha MT
 quality_estimation: []
 automatic_post_editing: []

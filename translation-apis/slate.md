@@ -18,7 +18,7 @@ inputs: null
 supported_languages: []
 more_languages_by_request: false
 integrations:
-- slug: memoq-tms
+- slug: memoq
   name: memoQ
   active: false
   urls:

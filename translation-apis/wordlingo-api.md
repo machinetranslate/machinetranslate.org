@@ -5,11 +5,15 @@ nav_order: 933
 layout: translation_api
 title: Wordlingo
 description: The Wordlingo machine translation API
+<<<<<<<< HEAD:translation-apis/wordlingo-api.md
 <<<<<<<< HEAD:translation-apis/wordlingo.md
 id: wordlingo
 parent: Translation APIs
 ========
 id: wordlingo-api
+========
+id: wordlingo
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/wordlingo.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/wordlingo-api.md
 urls:
@@ -420,7 +424,7 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
-- slug: wordfast-tms
+- slug: wordfast
   name: Wordfast
   urls:
   - https://www.wordfast.com/WFP/4.5/c1060284.html

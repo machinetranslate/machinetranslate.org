@@ -341,9 +341,9 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: true
 integrations:
-- slug: across-tms
+- slug: across
   name: Across
-- slug: crowdin-tms
+- slug: crowdin
   name: Crowdin
   plugin: true
   urls:
@@ -355,12 +355,12 @@ integrations:
   custom: true
   glossary: true
   adaptive: true
-- slug: memoq-tms
+- slug: memoq
   name: memoQ
   custom: true
   urls:
   - https://docs.memoq.com/current/en/Places/kantanmt-plugin-settings.html
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
 - slug: trados
@@ -369,7 +369,7 @@ integrations:
   custom: true
   urls:
   - https://appstore.rws.com/plugin/165/
-- slug: transifex-tms
+- slug: transifex
   name: Transifex
   custom: true
   urls:
@@ -377,16 +377,16 @@ integrations:
 - slug: transitnxt
   name: TransitNXT
   custom: true
-- slug: wordbee-tms
+- slug: wordbee
   name: Wordbee
   custom: true
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
-- slug: wordfast-tms
+- slug: wordfast
   name: Wordfast
   custom: true
   online_custom_training: true
-- slug: xtm-tms
+- slug: xtm
   name: XTM
   custom: false
   urls:

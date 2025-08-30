@@ -22,11 +22,11 @@ typology:
 territories:
 - mx
 supported_apis:
-- id: microsoft-translator
+- id: microsoft
   name: Microsoft Translator
 - id: youdao
   name: Youdao Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

@@ -30,7 +30,7 @@ supported_apis:
   name: Qwen-MT
 - id: modernmt
   name: ModernMT
-- id: google-translate
+- id: google
   name: Google Translate
 supported_qe_apis:
 - id: modernmt-qe

@@ -16,7 +16,7 @@ translation_api_integrations:
   custom: true
   glossary: true
   name: Language Weaver
-- slug: systran-api
+- slug: systran
   name: SYSTRAN
 fuzzy_repair: false
 open-source: false

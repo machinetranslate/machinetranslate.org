@@ -18,7 +18,7 @@ urls:
 - https://www.sap.com
 - https://www.crunchbase.com/organization/sap
 apis:
-- slug: sap-translation-hub
+- slug: sap
   name: SAP Translation Hub
 quality_estimation: []
 automatic_post_editing: []

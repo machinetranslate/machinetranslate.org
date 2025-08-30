@@ -18,9 +18,9 @@ urls:
 - https://aws.amazon.com/translate/
 - https://www.crunchbase.com/organization/amazon
 apis:
-- slug: amazon-translate
+- slug: amazon
   name: Amazon Translate
-- slug: safaba-api
+- slug: safaba
   name: Safaba
 quality_estimation: []
 automatic_post_editing: []

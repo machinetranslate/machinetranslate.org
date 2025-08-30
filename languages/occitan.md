@@ -30,19 +30,19 @@ territories:
 - it
 - mc
 supported_apis:
-- id: apertium-api
+- id: apertium
   name: Apertium
 - id: qwen-mt
   name: Qwen-MT
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 supported_qe_apis:
 - id: modernmt-qe

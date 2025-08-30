@@ -5,11 +5,21 @@ nav_order: 916
 layout: translation_api
 title: Amazon Translate
 description: The Amazon Translate machine translation API
+<<<<<<< HEAD:translation-apis/amazon.md
+=======
+<<<<<<<< HEAD:translation-apis/amazon-translate.md
+>>>>>>> b08f2b1d (Rename names back to their previous names):apis/amazon.md
 <<<<<<<< HEAD:translation-apis/amazon.md
 id: amazon
 parent: Translation APIs
 ========
 id: amazon-translate
+<<<<<<< HEAD:translation-apis/amazon.md
+=======
+========
+id: amazon
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/amazon.md
+>>>>>>> b08f2b1d (Rename names back to their previous names):apis/amazon.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/amazon-translate.md
 urls:
@@ -478,7 +488,11 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
+<<<<<<< HEAD:translation-apis/amazon.md
 - slug: crowdin-tms
+=======
+- slug: crowdin
+>>>>>>> b08f2b1d (Rename names back to their previous names):apis/amazon.md
   name: Crowdin
   glossary: true
   urls:
@@ -490,6 +504,7 @@ integrations:
   formality: true
   urls:
   - https://docs.memoq.com/current/en/Places/amazon-mt-plugin-settings.html
+<<<<<<< HEAD:translation-apis/amazon.md
 - slug: phrase-tms
   name: Phrase TMS
   glossary: true
@@ -499,18 +514,37 @@ integrations:
 - slug: smartling-tms
   name: Smartling
 - slug: tolgee-tms
+=======
+- slug: phrase
+  name: Phrase TMS
+  glossary: true
+- slug: smartcat
+  name: Smartcat
+  custom: true
+- slug: smartling
+  name: Smartling
+- slug: tolgee
+>>>>>>> b08f2b1d (Rename names back to their previous names):apis/amazon.md
   name: Tolgee
 - slug: trados
   name: Trados Studio
   plugin: true
   urls:
   - https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3315/amazon-translate-mt-provider
+<<<<<<< HEAD:translation-apis/amazon.md
 - slug: transifex-tms
+=======
+- slug: transifex
+>>>>>>> b08f2b1d (Rename names back to their previous names):apis/amazon.md
   name: Transifex
   glossary: true
   urls:
   - https://docs.transifex.com/machine-translation/glossary-for-amazon-machine-translation-mt
+<<<<<<< HEAD:translation-apis/amazon.md
 - slug: xtm-tms
+=======
+- slug: xtm
+>>>>>>> b08f2b1d (Rename names back to their previous names):apis/amazon.md
   name: XTM
   glossary: true
   urls:

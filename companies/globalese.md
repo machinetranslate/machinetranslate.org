@@ -18,7 +18,7 @@ urls:
 - https://www.globalese-mt.com/
 - https://www.crunchbase.com/organization/globalese
 apis:
-- slug: globalese-api
+- slug: globalese
   name: Globalese
 quality_estimation: []
 automatic_post_editing: []

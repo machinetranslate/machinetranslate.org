@@ -21,7 +21,7 @@ apis: []
 quality_estimation: []
 automatic_post_editing: []
 tms:
-- slug: xtm-tms
+- slug: xtm
   name: XTM
   type: translation management system
 routers: []

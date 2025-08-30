@@ -44,7 +44,7 @@
     },
     {
         "name": "Alexa Translations A.I.",
-        "id": "alexa-translations-ai-api",
+        "id": "alexa-translations-ai",
         "company": "alexa-translations-ai",
         "urls": [
             "https://alexatranslations.com/alexa-translations-a-i"
@@ -317,7 +317,7 @@
     },
     {
         "name": "Amazon Translate",
-        "id": "amazon-translate",
+        "id": "amazon",
         "company": "amazon",
         "urls": [
             "https://aws.amazon.com/en/translate",
@@ -413,7 +413,7 @@
     {
         "name": "Acolad",
         "alternative_names": "Amplexor MT",
-        "id": "acolad-api",
+        "id": "acolad",
         "company": "acolad",
         "urls": [
             "https://www.acolad.com/en/technology/machine-translation.html"
@@ -427,7 +427,7 @@
     {
         "name": "Apertium",
         "alternative_names": "Prompsit",
-        "id": "apertium-api",
+        "id": "apertium",
         "company": "apertium",
         "urls": [
             "https://www.apertium.org",
@@ -839,7 +839,7 @@
     },
     {
         "name": "AppTek",
-        "id": "apptek-api",
+        "id": "apptek",
         "company": "apptek",
         "urls": [
             "https://www.apptek.com",
@@ -938,7 +938,7 @@
     },
     {
         "name": "Baidu Translate",
-        "id": "baidu-translate",
+        "id": "baidu",
         "company": "baidu",
         "urls": [
             "https://ai.baidu.com/tech/mt/text_trans",
@@ -1156,7 +1156,7 @@
     },
     {
         "name": "Belazar",
-        "id": "belazar-api",
+        "id": "belazar",
         "company": "belazar",
         "urls": [
             "http://belazar.info/belazar/index.php?page=belazar&lng=by"
@@ -1172,7 +1172,7 @@
     },
     {
         "name": "CloudTranslation",
-        "id": "cloudtranslation-api",
+        "id": "cloudtranslation",
         "company": "cloudtranslation",
         "urls": [
             "https://www.cloudtranslation.com",
@@ -1213,7 +1213,7 @@
     },
     {
         "name": "DeepL",
-        "id": "deepl-api",
+        "id": "deepl",
         "company": "deepl",
         "urls": [
             "https://www.deepl.com",
@@ -4625,7 +4625,7 @@
     },
     {
         "name": "Globalese",
-        "id": "globalese-api",
+        "id": "globalese",
         "company": "globalese",
         "urls": [
             "https://www.globalese-mt.com",
@@ -4902,7 +4902,7 @@
             "Google Cloud Translation API",
             "Google Cloud Translation AutoML"
         ],
-        "id": "google-translate",
+        "id": "google",
         "company": "google",
         "urls": [
             "https://console.cloud.google.com/apis/library/translate.googleapis.com",
@@ -6077,7 +6077,7 @@
     },
     {
         "name": "Kodensha MT",
-        "id": "kodensha-mt",
+        "id": "kodensha",
         "company": "kodensha",
         "urls": [
             "https://kodensha.j-server.com/LUCKDS/ns/tl.cgi/https://www.kodensha.jp/index/products/category/cloud/?SLANG=ja&TLANG=en&XMODE=0&XPARAM=q,SURL,trans_src,&XCHARSET=UTF-8&XPORG=,687474703a2f2f,,&XJSID=0#heading"
@@ -6216,7 +6216,7 @@
     },
     {
         "name": "Language Wire",
-        "id": "language-wire-api",
+        "id": "language-wire",
         "company": "language-wire",
         "urls": [
             "https://www.languagewire.com/en/technology/languagewire-translate"
@@ -6258,7 +6258,7 @@
     },
     {
         "name": "Lilt",
-        "id": "lilt-api",
+        "id": "lilt",
         "company": "lilt",
         "urls": [
             "https://lilt.com",
@@ -6333,7 +6333,7 @@
     },
     {
         "name": "Lingmo Translation",
-        "id": "lingmo-translation",
+        "id": "lingmo",
         "company": "lingmo",
         "urls": [
             "https://lingmointernationalnet.wordpress.com",
@@ -6375,7 +6375,7 @@
     },
     {
         "name": "Lingo24",
-        "id": "lingo24-api",
+        "id": "lingo24",
         "company": "unbabel",
         "urls": [
             "https://www.lingo24.com",
@@ -6403,7 +6403,7 @@
     },
     {
         "name": "Lingua Custodia",
-        "id": "lingua-custodia-api",
+        "id": "lingua-custodia",
         "company": "lingua-custodia",
         "urls": [
             "https://www.linguacustodia.finance/en/welcome/"
@@ -6421,7 +6421,7 @@
     },
     {
         "name": "LingvaNex",
-        "id": "lingvanex-api",
+        "id": "lingvanex",
         "company": "lingvanex",
         "urls": [
             "https://lingvanex.com",
@@ -6561,7 +6561,7 @@
     },
     {
         "name": "Lucy",
-        "id": "lucy-api",
+        "id": "lucy",
         "company": "lucy",
         "urls": [
             "https://web.archive.org/web/20181215110852/http://www.lucysoftware.com/english/machine-translation/"
@@ -6583,7 +6583,7 @@
     },
     {
         "name": "Microsoft Translator",
-        "id": "microsoft-translator",
+        "id": "microsoft",
         "company": "microsoft",
         "urls": [
             "https://translator.microsoft.com",
@@ -7150,7 +7150,7 @@
     },
     {
         "name": "NeuralSpace",
-        "id": "neuralspace-api",
+        "id": "neuralspace",
         "company": "neuralspace",
         "urls": [
             "https://www.neuralspace.ai/",
@@ -8064,7 +8064,7 @@
     },
     {
         "name": "PROMT",
-        "id": "promt-api",
+        "id": "promt",
         "company": "promt",
         "urls": [
             "https://www.promt.com",
@@ -8121,7 +8121,7 @@
     },
     {
         "name": "Reverso",
-        "id": "reverso-api",
+        "id": "reverso",
         "company": "reverso",
         "urls": [
             "https://www.reverso.net/text-translation"
@@ -8162,7 +8162,7 @@
     },
     {
         "name": "Rozetta T-400",
-        "id": "rozetta-t-400",
+        "id": "rozetta",
         "company": "rozetta",
         "urls": [
             "https://www.jukkou.com",
@@ -8214,7 +8214,7 @@
     },
     {
         "name": "Safaba",
-        "id": "safaba-api",
+        "id": "safaba",
         "company": "safaba",
         "urls": [],
         "languages": [],
@@ -8222,7 +8222,7 @@
     },
     {
         "name": "SAP Translation Hub",
-        "id": "sap-translation-hub",
+        "id": "sap",
         "company": "sap",
         "urls": [
             "https://www.sapstore.com/solutions/40076/SAP-Translation-Hub",
@@ -8619,7 +8619,7 @@
     },
     {
         "name": "Skrivanek",
-        "id": "skrivanek-api",
+        "id": "skrivanek",
         "company": "skrivanek",
         "urls": [
             "https://skrivanek.com/other-services/machine-translation/"
@@ -8711,7 +8711,7 @@
     },
     {
         "name": "SYSTRAN",
-        "id": "systran-api",
+        "id": "systran",
         "company": "systran",
         "urls": [
             "https://www.systransoft.com",
@@ -9153,7 +9153,7 @@
     },
     {
         "name": "Tauyou",
-        "id": "tauyou-api",
+        "id": "tauyou",
         "company": "tauyou",
         "urls": [],
         "languages": [],
@@ -9161,7 +9161,7 @@
     },
     {
         "name": "Tencent Machine Translation",
-        "id": "tencent-machine-translation",
+        "id": "tencent",
         "company": "tencent",
         "urls": [
             "https://cloud.tencent.com/product/tmt",
@@ -9806,7 +9806,7 @@
     },
     {
         "name": "Tilde",
-        "id": "tilde-api",
+        "id": "tilde",
         "company": "tilde",
         "urls": [
             "https://www.tilde.com/products-and-services/machine-translation",
@@ -11071,7 +11071,7 @@
     },
     {
         "name": "TranslateMe",
-        "id": "translateme-api",
+        "id": "translateme",
         "company": "translateme",
         "urls": [
             "https://translateme.network",
@@ -11284,7 +11284,7 @@
     },
     {
         "name": "Ubiqus NMT",
-        "id": "ubiqus-nmt",
+        "id": "ubiqus",
         "company": "acolad",
         "urls": [
             "https://www.ubiqus.com/",
@@ -11311,7 +11311,7 @@
     },
     {
         "name": "Unbabel",
-        "id": "unbabel-api",
+        "id": "unbabel",
         "company": "unbabel",
         "urls": [
             "https://unbabel.com",
@@ -11360,7 +11360,7 @@
     },
     {
         "name": "XL8",
-        "id": "xl8-api",
+        "id": "xl8",
         "company": "xl8",
         "urls": [
             "https://www.xl8.ai",
@@ -14205,7 +14205,7 @@
     },
     {
         "name": "Yandex Translate",
-        "id": "yandex-translate",
+        "id": "yandex",
         "company": "yandex",
         "urls": [
             "https://translate.yandex.com/",
@@ -15030,7 +15030,7 @@
     },
     {
         "name": "Wordlingo",
-        "id": "wordlingo-api",
+        "id": "wordlingo",
         "company": "transperfect",
         "urls": [
             "https://www.worldlingo.com/en/products/worldlingo_api.html",
@@ -15110,7 +15110,7 @@
     },
     {
         "name": "OpenAI",
-        "id": "openai-api",
+        "id": "openai",
         "company": "openai",
         "urls": [
             "https://platform.openai.com/docs/guides/gpt",
@@ -15190,7 +15190,7 @@
     },
     {
         "name": "Anthropic",
-        "id": "anthropic-api",
+        "id": "anthropic",
         "company": "anthropic",
         "urls": [
             "https://docs.anthropic.com",
@@ -15263,7 +15263,7 @@
     },
     {
         "name": "DeepSeek",
-        "id": "deepseek-api",
+        "id": "deepseek",
         "company": "deepseek",
         "urls": [
             "https://deepseek.com",
@@ -15600,7 +15600,7 @@
     },
     {
        "name": "Mistral AI",
-       "id": "mistral-ai-api",
+       "id": "mistral-ai",
        "company": "mistral-ai",
        "urls": [
            "https://mistral.ai/news/voxtral",

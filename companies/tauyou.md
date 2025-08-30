@@ -20,7 +20,7 @@ urls:
 - https://www.tauyou.com
 - https://www.crunchbase.com/organization/ta-with-you
 apis:
-- slug: tauyou-api
+- slug: tauyou
   name: Tauyou
 quality_estimation: []
 automatic_post_editing: []

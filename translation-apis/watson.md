@@ -370,13 +370,13 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
-- slug: crowdin-tms
+- slug: crowdin
   name: Crowdin
   urls:
   - https://support.crowdin.com/enterprise/machine-translation/#watson-ibm-translator
 - slug: omegat-cat
   name: OmegaT
-- slug: smartling-tms
+- slug: smartling
   name: Smartling
   custom: true
 models: []

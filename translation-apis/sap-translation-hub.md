@@ -5,11 +5,15 @@ nav_order: 959
 layout: translation_api
 title: SAP Translation Hub
 description: The SAP Translation Hub machine translation API
+<<<<<<<< HEAD:translation-apis/sap-translation-hub.md
 <<<<<<<< HEAD:translation-apis/sap.md
 id: sap
 parent: Translation APIs
 ========
 id: sap-translation-hub
+========
+id: sap
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/sap.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/sap-translation-hub.md
 urls:
@@ -265,7 +269,7 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
-- slug: xtm-tms
+- slug: xtm
   name: XTM
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/sap-translation-hub.html

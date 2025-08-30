@@ -18,7 +18,7 @@ urls:
 - https://lingvanex.com/
 - https://www.crunchbase.com/organization/lingvanex
 apis:
-- slug: lingvanex-api
+- slug: lingvanex
   name: LingvaNex
 quality_estimation: []
 automatic_post_editing: []

@@ -21,12 +21,10 @@ urls:
 apis: []
 quality_estimation: []
 automatic_post_editing:
-- slug: mtrans-ape
+- slug: mtrans
   name: MTrans
 tms: []
 routers:
-- slug: human-science-router
-  name: Human Science
 - slug: mtrans
   name: MTrans
 models: []

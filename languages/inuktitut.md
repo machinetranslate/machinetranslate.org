@@ -29,9 +29,9 @@ typology:
 territories:
 - ca
 supported_apis:
-- id: microsoft-translator
+- id: microsoft
   name: Microsoft Translator
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate

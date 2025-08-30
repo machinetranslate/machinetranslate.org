@@ -106,11 +106,11 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
-- slug: memoq-tms
+- slug: memoq
   name: memoQ
   urls:
   - https://docs.memoq.com/current/en/Places/mirai-mt-plugin.html
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
 - slug: trados
   name: Trados Studio

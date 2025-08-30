@@ -16,7 +16,7 @@ inputs: null
 supported_languages: []
 more_languages_by_request: false
 integrations:
-- slug: wordbee-tms
+- slug: wordbee
   name: Wordbee
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings

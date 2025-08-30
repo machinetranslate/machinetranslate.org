@@ -19,7 +19,7 @@ urls:
 - https://linktr.ee/lingmo_ai
 - https://www.crunchbase.com/organization/lingmo
 apis:
-- slug: lingmo-translation
+- slug: lingmo
   name: Lingmo Translation
 quality_estimation: []
 automatic_post_editing: []

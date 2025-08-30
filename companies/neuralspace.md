@@ -18,7 +18,7 @@ urls:
 - https://www.neuralspace.ai/
 - https://www.crunchbase.com/organization/neural-space
 apis:
-- slug: neuralspace-api
+- slug: neuralspace
   name: NeuralSpace
 quality_estimation: []
 automatic_post_editing: []

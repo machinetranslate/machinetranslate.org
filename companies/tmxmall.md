@@ -22,7 +22,9 @@ apis: []
 quality_estimation: []
 automatic_post_editing: []
 tms: []
-routers: []
+routers:
+- slug: tmxmall
+  name: TMXmall
 models: []
 seo:
   name: The Tmxmall profile with an overview of its translation technologies and solutions

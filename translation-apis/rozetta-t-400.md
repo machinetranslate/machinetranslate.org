@@ -5,11 +5,15 @@ nav_order: 973
 layout: translation_api
 title: Rozetta T-400
 description: The Rozetta T-400 machine translation API
+<<<<<<<< HEAD:translation-apis/rozetta-t-400.md
 <<<<<<<< HEAD:translation-apis/rozetta.md
 id: rozetta
 parent: Translation APIs
 ========
 id: rozetta-t-400
+========
+id: rozetta
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/rozetta.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/rozetta-t-400.md
 urls:
@@ -175,7 +179,7 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
   glossary: true

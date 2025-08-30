@@ -10,39 +10,44 @@ id: custom-mt
 parent: Routers
 ========
 description: The Custom.MT machine translation API aggregator
-id: custom-mt-router
+id: custom-mt
 parent: Aggregators
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):routers/custom-mt-router.md
 urls:
 - https://custom.mt/
 supported_apis:
-- slug: amazon-translate
+- slug: amazon
   name: Amazon Translate
-- slug: deepl-api
+- slug: deepl
   name: DeepL
-- slug: globalese-api
+- slug: globalese
   name: Globalese
-- slug: google-translate
+- slug: google
   name: Google Translate
-- slug: language-wire-api
+- slug: language-wire
   name: Language Wire
-- slug: microsoft-translator
+- slug: microsoft
   name: Microsoft Translator
 - slug: modernmt
   name: ModernMT
 - slug: pangeamt
   name: PangeaMT
-- slug: systran-api
+- slug: systran
   name: SYSTRAN
-- slug: tencent-machine-translation
+- slug: tencent
   name: Tencent Machine Translation
 - slug: supertext
   name: Supertext
-- slug: xl8-api
+- slug: xl8
   name: XL8
-- slug: yandex-translate
+- slug: yandex
   name: Yandex Translate
-integrations: []
+integrations:
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  urls:
+  - https://custom.mt/trados-connector/
 self-serve: true
 seo:
   name: The Custom.MT machine translation API router

@@ -21,7 +21,7 @@ urls:
 - https://www.lingo24.com
 - https://www.crunchbase.com/organization/lingmo
 apis:
-- slug: lingo24-api
+- slug: lingo24
   name: Lingo24
 quality_estimation: []
 automatic_post_editing: []

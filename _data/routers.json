@@ -1,24 +1,24 @@
 [
     {
         "name": "Crosslang MT Gateway",
-        "id": "crosslang-mt-gateway",
+        "id": "crosslang",
         "company": "crosslang",
         "urls": [
             "https://crosslang.com/products/machine-translation-gateway/"
         ],
         "supported_apis": [
-            "amazon-translate",
+            "amazon",
             "judicio",
-            "deepl-api",
-            "google-translate",
-            "microsoft-translator",
-            "systran-api"
+            "deepl",
+            "google",
+            "microsoft",
+            "systran"
         ],
         "self-serve": false
     },
     {
         "name": "Custom.MT",
-        "id": "custom-mt-router",
+        "id": "custom-mt",
         "company": "custom-mt",
         "urls": [
             "https://custom.mt/"
@@ -27,25 +27,25 @@
             "https://custom.mt/privacy-policy/"
         ],
         "supported_apis": [
-            "amazon-translate",
-            "deepl-api",
-            "globalese-api",
-            "google-translate",
-            "language-wire-api",
-            "microsoft-translator",
+            "amazon",
+            "deepl",
+            "globalese",
+            "google",
+            "language-wire",
+            "microsoft",
             "modernmt",
             "pangeamt",
-            "systran-api",
-            "tencent-machine-translation",
+            "systran",
+            "tencent",
             "supertext",
-            "xl8-api",
-            "yandex-translate"
+            "xl8",
+            "yandex"
         ],
         "self-serve": true
     },
     {
         "name": "Eden AI",
-        "id": "edenai-router",
+        "id": "edenai",
         "company": "edenai",
         "urls": [
             "https://www.edenai.co/",
@@ -316,11 +316,11 @@
             "zu"            
         ],
         "supported_apis": [
-            "amazon-translate",
-            "deepl-api",
-            "google-translate",
-            "microsoft-translator",
-            "neuralspace-api",
+            "amazon",
+            "deepl",
+            "google",
+            "microsoft",
+            "neuralspace",
             "modernmt",
             "watson"
         ],
@@ -328,7 +328,7 @@
     },
     {
         "name": "Human Science",
-        "id": "human-science-router",
+        "id": "human-science",
         "company": "human-science",
         "urls": [
             "https://www.science.co.jp/nmt/index.html",
@@ -364,8 +364,8 @@
             "zh-tw"
         ],
         "supported_apis": [
-            "google-translate",
-            "microsoft-translator",
+            "google",
+            "microsoft",
             "nict"
         ],
         "glossary": true,
@@ -373,7 +373,7 @@
     },
     {
         "name": "Intento",
-        "id": "intento-router",
+        "id": "intento",
         "company": "intento",
         "urls": [
             "https://inten.to/",
@@ -385,20 +385,20 @@
         ],
         "supported_apis": [
             "alibaba",
-            "amazon-translate",
-            "baidu-translate",
-            "deepl-api",
-            "google-translate",
+            "amazon",
+            "baidu",
+            "deepl",
+            "google",
             "watson",
             "kakao",
-            "microsoft-translator",
+            "microsoft",
             "modernmt",
             "oracle",
             "papago",
-            "promt-api",
-            "systran-api",
-            "tencent-machine-translation",
-            "yandex-translate",
+            "promt",
+            "systran",
+            "tencent",
+            "yandex",
             "youdao"
         ],
         "glossary": true,
@@ -412,10 +412,10 @@
             "https://www.science.co.jp/en/nmt/service/mtrans.html"
         ],
         "supported_apis": [
-            "amazon-translate",
-            "deepl-api",
-            "google-translate",
-            "microsoft-translator",
+            "amazon",
+            "deepl",
+            "google",
+            "microsoft",
             "papago"
         ],
         "glossary": true,
@@ -423,7 +423,7 @@
     },
     {
         "name": "TMXmall",
-        "id": "tmxmall-router",
+        "id": "tmxmall",
         "company": "tmxmall",
         "urls": [
             "https://www.tmxmall.com/"
@@ -431,16 +431,16 @@
         "privacy_url": null,
         "supported_apis": [
             "alibaba",
-            "amazon-translate",
-            "baidu-translate",
-            "cloudtranslation-api",
-            "deepl-api",
-            "google-translate",
-            "microsoft-translator",
+            "amazon",
+            "baidu",
+            "cloudtranslation",
+            "deepl",
+            "google",
+            "microsoft",
             "niutrans",
-            "tencent-machine-translation",
-            "sogou",
-            "yandex-translate",
+            "tencent",
+            "sogou-translate",
+            "yandex",
             "youdao"
         ]
     }

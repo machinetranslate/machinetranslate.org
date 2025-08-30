@@ -5,11 +5,15 @@ nav_order: 916
 layout: translation_api
 title: Amazon Translate
 description: The Amazon Translate machine translation API
+<<<<<<<< HEAD:translation-apis/amazon-translate.md
 <<<<<<<< HEAD:translation-apis/amazon.md
 id: amazon
 parent: Translation APIs
 ========
 id: amazon-translate
+========
+id: amazon
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/amazon.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/amazon-translate.md
 urls:
@@ -478,39 +482,39 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
-- slug: crowdin-tms
+- slug: crowdin
   name: Crowdin
   glossary: true
   urls:
   - https://support.crowdin.com/enterprise/machine-translation/#amazon-translate
-- slug: memoq-tms
+- slug: memoq
   name: memoQ
   custom: true
   glossary: true
   formality: true
   urls:
   - https://docs.memoq.com/current/en/Places/amazon-mt-plugin-settings.html
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   glossary: true
-- slug: smartcat-tms
+- slug: smartcat
   name: Smartcat
   custom: true
-- slug: smartling-tms
+- slug: smartling
   name: Smartling
-- slug: tolgee-tms
+- slug: tolgee
   name: Tolgee
 - slug: trados
   name: Trados Studio
   plugin: true
   urls:
   - https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3315/amazon-translate-mt-provider
-- slug: transifex-tms
+- slug: transifex
   name: Transifex
   glossary: true
   urls:
   - https://docs.transifex.com/machine-translation/glossary-for-amazon-machine-translation-mt
-- slug: xtm-tms
+- slug: xtm
   name: XTM
   glossary: true
   urls:

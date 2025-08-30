@@ -345,7 +345,7 @@ integrations:
 - slug: matecat
   name: MateCat
   active: false
-- slug: memoq-tms
+- slug: memoq
   name: memoQ
   active: false
   urls:

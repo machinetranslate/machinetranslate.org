@@ -20,7 +20,7 @@ urls:
 - https://www.languagewire.com/
 - https://www.crunchbase.com/organization/languagewire
 apis:
-- slug: language-wire-api
+- slug: language-wire
   name: Language Wire
 quality_estimation: []
 automatic_post_editing: []

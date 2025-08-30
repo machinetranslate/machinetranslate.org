@@ -5,7 +5,7 @@ layout: integration
 nav_order: 992
 title: Across
 description: Machine translation API integrations in Across
-id: across-tms
+id: across
 parent: Integrations
 type:
 - tms
@@ -16,17 +16,17 @@ translation_api_integrations:
 - slug: deepl
   formality: true
   name: DeepL
-- slug: google-translate
+- slug: google
   name: Google Translate
 - slug: kantanmt
   name: KantanMT
-- slug: language-wire-api
+- slug: language-wire
   name: Language Wire
 - slug: octavemt
   name: OctaveMT
-- slug: promt-api
+- slug: promt
   name: PROMT
-- slug: systran-api
+- slug: systran
   name: SYSTRAN
 - slug: supertext
   name: Supertext

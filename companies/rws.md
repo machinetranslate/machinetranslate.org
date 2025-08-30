@@ -30,7 +30,7 @@ apis:
   name: MoraviaMT
 quality_estimation: []
 automatic_post_editing:
-- slug: language-weaver-ape
+- slug: language-weaver
   name: Language Weaver
 tms:
 - slug: worldserver
@@ -45,7 +45,7 @@ tms:
 - slug: passolo
   name: Passolo
   type: computer-aided translation tool
-- slug: sdl-tms
+- slug: sdl
   name: SDL TMS
   type: translation management system
 - slug: trados

@@ -22,7 +22,7 @@ urls:
 apis: []
 quality_estimation: []
 automatic_post_editing:
-- slug: taus-epic-ape
+- slug: taus-epic
   name: TAUS EPIC
 tms: []
 routers: []

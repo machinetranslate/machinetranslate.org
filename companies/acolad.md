@@ -18,9 +18,9 @@ urls:
 - https://www.acolad.com
 - https://www.crunchbase.com/organization/technicis
 apis:
-- slug: acolad-api
+- slug: acolad
   name: Acolad
-- slug: ubiqus-nmt
+- slug: ubiqus
   name: Ubiqus NMT
 quality_estimation: []
 automatic_post_editing: []

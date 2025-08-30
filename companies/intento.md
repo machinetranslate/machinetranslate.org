@@ -21,9 +21,7 @@ apis: []
 quality_estimation: []
 automatic_post_editing: []
 tms: []
-routers:
-- slug: intento-router
-  name: Intento
+routers: []
 models: []
 seo:
   name: The Intento profile with an overview of its translation technologies and solutions

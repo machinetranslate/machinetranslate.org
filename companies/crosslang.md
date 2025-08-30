@@ -24,9 +24,7 @@ apis:
 quality_estimation: []
 automatic_post_editing: []
 tms: []
-routers:
-- slug: crosslang-mt-gateway
-  name: Crosslang MT Gateway
+routers: []
 models: []
 seo:
   name: The Crosslang profile with an overview of its translation technologies and

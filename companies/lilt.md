@@ -19,12 +19,12 @@ urls:
 - https://lilt.com/
 - https://www.crunchbase.com/organization/lilt
 apis:
-- slug: lilt-api
+- slug: lilt
   name: Lilt
 quality_estimation: []
 automatic_post_editing: []
 tms:
-- slug: lilt-tms
+- slug: lilt
   name: Lilt
   type: computer-aided translation tool
 routers: []

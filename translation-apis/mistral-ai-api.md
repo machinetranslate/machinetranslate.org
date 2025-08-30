@@ -10,7 +10,7 @@ id: mistral-ai
 parent: Translation APIs
 ========
 description: The Mistral AI machine translation API
-id: mistral-ai-api
+id: mistral-ai
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/mistral-ai-api.md
 urls:

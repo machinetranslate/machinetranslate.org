@@ -351,10 +351,10 @@ supported_languages:
 only_compatible_mt_api: null
 only_compatible_tms:
 - id: phrase-tms
-  name: Phrase TMS
+  name: phrase-tms
 customisation: false
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: false
 active: true

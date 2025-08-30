@@ -1,6 +1,6 @@
 [
     {
-        "id": "modelfront-qe",
+        "id": "modelfront",
         "name": "ModelFront",
         "company": "modelfront",
         "tagline": "Translation quality prediction",

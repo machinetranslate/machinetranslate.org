@@ -18,7 +18,7 @@ urls:
 - https://www.unitedlanguagegroup.com
 - https://www.crunchbase.com/organization/united-language-group-2
 apis:
-- slug: lucy-api
+- slug: lucy
   name: Lucy
 - slug: octavemt
   name: OctaveMT

@@ -5,11 +5,15 @@ nav_order: 874
 layout: translation_api
 title: NeuralSpace
 description: The NeuralSpace machine translation API
+<<<<<<<< HEAD:translation-apis/neuralspace-api.md
 <<<<<<<< HEAD:translation-apis/neuralspace.md
 id: neuralspace
 parent: Translation APIs
 ========
 id: neuralspace-api
+========
+id: neuralspace
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/neuralspace.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/neuralspace-api.md
 urls:

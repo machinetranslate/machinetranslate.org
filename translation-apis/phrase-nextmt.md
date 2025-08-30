@@ -74,7 +74,7 @@ supported_languages:
   variant_name: Simplified Chinese
 more_languages_by_request: false
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   glossary: true
 models: []

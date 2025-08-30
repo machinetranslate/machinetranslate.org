@@ -19,7 +19,7 @@ urls:
 - https://www.tilde.com
 - https://www.crunchbase.com/organization/tilde-6e11
 apis:
-- slug: tilde-api
+- slug: tilde
   name: Tilde
 quality_estimation: []
 automatic_post_editing: []

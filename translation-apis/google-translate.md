@@ -5,11 +5,15 @@ nav_order: 731
 layout: translation_api
 title: Google Translate
 description: The Google Translate machine translation API
+<<<<<<<< HEAD:translation-apis/google-translate.md
 <<<<<<<< HEAD:translation-apis/google.md
 id: google
 parent: Translation APIs
 ========
 id: google-translate
+========
+id: google
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/google.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/google-translate.md
 urls:
@@ -1510,9 +1514,9 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: across-tms
+- slug: across
   name: Across
-- slug: crowdin-tms
+- slug: crowdin
   name: Crowdin
   custom: true
   glossary: true
@@ -1524,7 +1528,7 @@ integrations:
 - slug: matecat
   name: MateCat
   custom: true
-- slug: memoq-tms
+- slug: memoq
   name: memoQ
   custom: true
   glossary: true
@@ -1534,7 +1538,7 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786605/sdl-multitrans/configuring-google-translate-server
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
   glossary: true
@@ -1543,6 +1547,7 @@ integrations:
 - slug: passolo
   name: Passolo
   custom: true
+<<<<<<<< HEAD:translation-apis/google-translate.md
 <<<<<<<< HEAD:translation-apis/google.md
 - slug: simplelocalize
   name: SimpleLocalize
@@ -1550,16 +1555,19 @@ integrations:
 ========
 - slug: smartcat-tms
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/google-translate.md
+========
+- slug: smartcat
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/google.md
   name: Smartcat
   custom: true
   glossary: true
-- slug: smartling-tms
+- slug: smartling
   name: Smartling
   custom: true
   glossary: true
   urls:
   - https://help.smartling.com/hc/en-us/articles/1260805168070-Translating-with-Google-AutoML
-- slug: tolgee-tms
+- slug: tolgee
   name: Tolgee
 - slug: trados
   name: Trados Studio
@@ -1568,7 +1576,7 @@ integrations:
   glossary: true
   urls:
   - https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
-- slug: transifex-tms
+- slug: transifex
   name: Transifex
   custom: true
 - slug: transitnxt
@@ -1581,17 +1589,17 @@ integrations:
   name: Google Cloud Translation Hub
   custom: true
   glossary: true
-- slug: wordbee-tms
+- slug: wordbee
   name: Wordbee
   custom: true
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
-- slug: wordfast-tms
+- slug: wordfast
   name: Wordfast
   custom: true
-- slug: weglot-tms
+- slug: weglot
   name: Weglot
-- slug: xtm-tms
+- slug: xtm
   name: XTM
   custom: true
   urls:

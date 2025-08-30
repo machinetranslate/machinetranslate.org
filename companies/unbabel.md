@@ -18,13 +18,13 @@ urls:
 - https://www.unbabel.com
 - https://www.crunchbase.com/organization/unbabel
 apis:
-- slug: unbabel-api
+- slug: unbabel
   name: Unbabel
 - slug: widn
   name: Widn
-- slug: lingo24-api
+- slug: lingo24
   name: Lingo24
-- slug: ubiqus-nmt
+- slug: ubiqus
   name: Ubiqus NMT
 quality_estimation: []
 automatic_post_editing: []

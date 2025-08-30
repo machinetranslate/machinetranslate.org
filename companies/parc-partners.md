@@ -21,7 +21,7 @@ apis: []
 quality_estimation: []
 automatic_post_editing: []
 tms:
-- slug: transifex-tms
+- slug: transifex
   name: Transifex
   type: translation management system
 routers: []

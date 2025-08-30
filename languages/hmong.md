@@ -66,17 +66,17 @@ territories:
 - la
 - mm
 supported_apis:
-- id: microsoft-translator
+- id: microsoft
   name: Microsoft Translator
-- id: lingvanex-api
+- id: lingvanex
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

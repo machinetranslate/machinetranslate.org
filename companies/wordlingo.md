@@ -20,7 +20,7 @@ urls:
 - https://www.worldlingo.com
 - https://www.crunchbase.com/organization/worldlingo
 apis:
-- slug: wordlingo-api
+- slug: wordlingo
   name: Wordlingo
 quality_estimation: []
 automatic_post_editing: []

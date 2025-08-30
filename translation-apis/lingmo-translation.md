@@ -5,11 +5,15 @@ nav_order: 973
 layout: translation_api
 title: Lingmo Translation
 description: The Lingmo Translation machine translation API
+<<<<<<<< HEAD:translation-apis/lingmo-translation.md
 <<<<<<<< HEAD:translation-apis/lingmo.md
 id: lingmo
 parent: Translation APIs
 ========
 id: lingmo-translation
+========
+id: lingmo
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/lingmo.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/lingmo-translation.md
 urls:

@@ -5,11 +5,15 @@ nav_order: 989
 layout: translation_api
 title: TranslateMe
 description: The TranslateMe machine translation API
+<<<<<<<< HEAD:translation-apis/translateme-api.md
 <<<<<<<< HEAD:translation-apis/translateme.md
 id: translateme
 parent: Translation APIs
 ========
 id: translateme-api
+========
+id: translateme
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/translateme.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/translateme-api.md
 urls:

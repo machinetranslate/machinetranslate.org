@@ -5,11 +5,15 @@ nav_order: 926
 layout: translation_api
 title: AppTek
 description: The AppTek machine translation API
+<<<<<<<< HEAD:translation-apis/apptek-api.md
 <<<<<<<< HEAD:translation-apis/apptek.md
 id: apptek
 parent: Translation APIs
 ========
 id: apptek-api
+========
+id: apptek
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/apptek.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/apptek-api.md
 urls:

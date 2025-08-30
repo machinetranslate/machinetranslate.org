@@ -5,11 +5,15 @@ nav_order: 985
 layout: translation_api
 title: Alexa Translations A.I.
 description: The Alexa Translations A.I. machine translation API
+<<<<<<<< HEAD:translation-apis/alexa-translations-ai-api.md
 <<<<<<<< HEAD:translation-apis/alexa-translations-ai.md
 id: alexa-translations-ai
 parent: Translation APIs
 ========
 id: alexa-translations-ai-api
+========
+id: alexa-translations-ai
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/alexa-translations-ai.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/alexa-translations-ai-api.md
 urls:
@@ -96,11 +100,11 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: memoq-tms
+- slug: memoq
   name: memoQ
   urls:
   - https://docs.memoq.com/current/en/Places/alexa-ai-plugin-settings.html
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
 - slug: trados
   name: Trados Studio

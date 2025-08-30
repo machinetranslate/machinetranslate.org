@@ -10,7 +10,7 @@ id: deepseek
 parent: Translation APIs
 ========
 description: The DeepSeek machine translation API
-id: deepseek-api
+id: deepseek
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/deepseek-api.md
 urls:

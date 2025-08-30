@@ -5,7 +5,7 @@ layout: integration
 nav_order: 967
 title: Phrase TMS
 description: Machine translation API integrations in Phrase TMS
-id: phrase-tms
+id: phrase
 parent: Integrations
 type:
 - tms
@@ -16,35 +16,39 @@ translation_api_integrations:
 - slug: aisa
   active: false
   name: AISA
-- slug: alexa-translations-ai-api
+- slug: alexa-translations-ai
   name: Alexa Translations A.I.
-- slug: amazon-translate
+- slug: amazon
   glossary: true
   name: Amazon Translate
-- slug: apertium-api
+- slug: apertium
   name: Apertium
-- slug: deepl-api
+- slug: crosslang
+  name: Crosslang MT Gateway
+- slug: deepl
   glossary: true
   name: DeepL
 - slug: fairtrade
   name: Fairtrade
-- slug: google-translate
+- slug: google
   custom: true
   glossary: true
   name: Google Translate
-- slug: globalese-api
+- slug: globalese
   urls:
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647135756/Phrase+connector
   name: Globalese
+- slug: human-science
+  name: Human Science
 - slug: kantanmt
   custom: true
   name: KantanMT
-- slug: kodensha-mt
+- slug: kodensha
   active: false
   name: Kodensha MT
 - slug: lengoo
   name: Lengoo
-- slug: microsoft-translator
+- slug: microsoft
   custom: true
   glossary: true
   name: Microsoft Translator
@@ -66,11 +70,11 @@ translation_api_integrations:
 - slug: phrase-nextmt
   glossary: true
   name: Phrase NextMT
-- slug: promt-api
+- slug: promt
   custom: true
   glossary: true
   name: PROMT
-- slug: rozetta-t-400
+- slug: rozetta
   custom: true
   glossary: true
   name: Rozetta T-400
@@ -78,26 +82,26 @@ translation_api_integrations:
   custom: true
   offline_glossary: true
   name: Language Weaver
-- slug: skrivanek-api
+- slug: skrivanek
   active: false
   name: Skrivanek
-- slug: systran-api
+- slug: systran
   custom: true
   name: SYSTRAN
-- slug: tauyou-api
+- slug: tauyou
   active: false
   name: Tauyou
-- slug: tencent-machine-translation
+- slug: tencent
   name: Tencent Machine Translation
-- slug: tilde-api
+- slug: tilde
   custom: true
   name: Tilde
 - slug: t-tact-an-zin
   name: T-tact-AN-ZIN
-- slug: ubiqus-nmt
+- slug: ubiqus
   glossary: true
   name: Ubiqus NMT
-- slug: yandex-translate
+- slug: yandex
   name: Yandex Translate
 fuzzy_repair: false
 open-source: false

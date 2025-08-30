@@ -10,22 +10,22 @@ id: edenai
 parent: Routers
 ========
 description: The Eden AI machine translation API aggregator
-id: edenai-router
+id: edenai
 parent: Aggregators
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):routers/edenai-router.md
 urls:
 - https://www.edenai.co/
 - https://docs.edenai.co/reference/start-your-ai-journey-with-edenai
 supported_apis:
-- slug: amazon-translate
+- slug: amazon
   name: Amazon Translate
-- slug: deepl-api
+- slug: deepl
   name: DeepL
-- slug: google-translate
+- slug: google
   name: Google Translate
-- slug: microsoft-translator
+- slug: microsoft
   name: Microsoft Translator
-- slug: neuralspace-api
+- slug: neuralspace
   name: NeuralSpace
 - slug: modernmt
   name: ModernMT

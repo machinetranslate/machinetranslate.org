@@ -1,7 +1,7 @@
 [
   {
     "name": "ModelFront",
-    "id": "modelfront-ape",
+    "id": "modelfront",
     "company": "modelfront",
     "urls": [
       "https://modelfront.com/docs",
@@ -159,7 +159,7 @@
   },
   {
     "name": "TAUS EPIC",
-    "id": "taus-epic-ape",
+    "id": "taus-epic",
     "company": "taus",
     "urls": [
       "https://www.taus.net",
@@ -279,7 +279,7 @@
   },
   {
     "name": "Language Weaver",
-    "id": "language-weaver-ape",
+    "id": "language-weaver",
     "company": "rws",
     "urls": [
       "https://www.rws.com/language-weaver",
@@ -348,7 +348,7 @@
   },
   {
     "name": "MTrans",
-    "id": "mtrans-ape",
+    "id": "mtrans",
     "company": "human-science",
     "urls": [
       "https://www.science.co.jp/en/nmt/service/post-edit_booster.html"

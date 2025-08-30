@@ -14,7 +14,7 @@ names:
 - Walloon
 family: []
 supported_apis:
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate

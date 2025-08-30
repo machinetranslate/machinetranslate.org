@@ -5,11 +5,15 @@ nav_order: 997
 layout: translation_api
 title: Belazar
 description: The Belazar machine translation API
+<<<<<<<< HEAD:translation-apis/belazar-api.md
 <<<<<<<< HEAD:translation-apis/belazar.md
 id: belazar
 parent: Translation APIs
 ========
 id: belazar-api
+========
+id: belazar
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/belazar.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/belazar-api.md
 urls:

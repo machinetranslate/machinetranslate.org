@@ -18,7 +18,7 @@ urls:
 - https://mistral.ai
 - https://www.crunchbase.com/organization/mistral-ai
 apis:
-- slug: mistral-ai-api
+- slug: mistral-ai
   name: Mistral AI
 quality_estimation: []
 automatic_post_editing: []

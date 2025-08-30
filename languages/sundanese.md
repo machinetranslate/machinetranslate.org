@@ -26,19 +26,19 @@ territories:
 supported_apis:
 - id: textra
   name: TexTra
-- id: yandex-translate
+- id: yandex
   name: Yandex Translate
-- id: lingvanex-api
+- id: lingvanex
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

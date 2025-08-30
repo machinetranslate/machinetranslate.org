@@ -18,7 +18,7 @@ urls:
 - https://www.anthropic.com
 - https://www.crunchbase.com/organization/anthropic
 apis:
-- slug: anthropic-api
+- slug: anthropic
   name: Anthropic
 quality_estimation: []
 automatic_post_editing: []

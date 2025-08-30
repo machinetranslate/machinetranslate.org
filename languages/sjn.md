@@ -11,7 +11,7 @@ codes:
 - sjn
 family: []
 supported_apis:
-- id: yandex-translate
+- id: yandex
   name: Yandex Translate
 supported_qe_apis: []
 supported_ape_apis: []

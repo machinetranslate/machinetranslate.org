@@ -19,10 +19,10 @@ urls:
 - https://www.crunchbase.com/organization/modelfront
 apis: []
 quality_estimation:
-- slug: modelfront-qe
+- slug: modelfront
   name: ModelFront
 automatic_post_editing:
-- slug: modelfront-ape
+- slug: modelfront
   name: ModelFront
 tms: []
 routers: []

@@ -18,7 +18,7 @@ urls:
 - https://www.deepl.com/
 - https://www.crunchbase.com/organization/linguee
 apis:
-- slug: deepl-api
+- slug: deepl
   name: DeepL
 quality_estimation: []
 automatic_post_editing: []

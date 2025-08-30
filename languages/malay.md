@@ -32,7 +32,7 @@ territories:
 supported_apis:
 - id: aisa
   name: AISA
-- id: tencent-machine-translation
+- id: tencent
   name: Tencent Machine Translation
 - id: kakao
   name: Kakao
@@ -40,61 +40,61 @@ supported_apis:
   name: Lara
 - id: widn
   name: Widn
-- id: sap-translation-hub
+- id: sap
   name: SAP Translation Hub
-- id: kodensha-mt
+- id: kodensha
   name: Kodensha MT
-- id: xl8-api
+- id: xl8
   name: XL8
-- id: apertium-api
+- id: apertium
   name: Apertium
-- id: systran-api
+- id: systran
   name: SYSTRAN
-- id: anthropic-api
+- id: anthropic
   name: Anthropic
 - id: iconic
   name: Iconic
 - id: iptranslator
   name: IP Translator
-- id: lilt-api
+- id: lilt
   name: Lilt
-- id: deepseek-api
+- id: deepseek
   name: DeepSeek
 - id: watson
   name: Watson Language Translator
-- id: openai-api
+- id: openai
   name: OpenAI
 - id: language-weaver
   name: Language Weaver
 - id: omniscien
   name: Omniscien Technologies
-- id: apptek-api
+- id: apptek
   name: AppTek
-- id: wordlingo-api
+- id: wordlingo
   name: Wordlingo
-- id: amazon-translate
+- id: amazon
   name: Amazon Translate
 - id: qwen-mt
   name: Qwen-MT
 - id: textra
   name: TexTra
-- id: yandex-translate
+- id: yandex
   name: Yandex Translate
-- id: microsoft-translator
+- id: microsoft
   name: Microsoft Translator
-- id: lingvanex-api
+- id: lingvanex
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

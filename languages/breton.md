@@ -29,15 +29,15 @@ typology:
 territories:
 - fr
 supported_apis:
-- id: apertium-api
+- id: apertium
   name: Apertium
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

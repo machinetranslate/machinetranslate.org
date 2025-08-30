@@ -19,14 +19,14 @@ inputs:
 supported_languages: []
 more_languages_by_request: null
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
 - slug: trados
   name: Trados Studio
   plugin: true
   urls:
   - https://appstore.rws.com/Plugin/204
-- slug: xtm-tms
+- slug: xtm
   name: XTM
 models: []
 active: true

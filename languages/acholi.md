@@ -26,9 +26,9 @@ typology:
 territories:
 - ug
 supported_apis:
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

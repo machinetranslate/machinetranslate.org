@@ -18,7 +18,7 @@ urls:
 - https://www.systransoft.com/
 - https://www.crunchbase.com/organization/systran-9361
 apis:
-- slug: systran-api
+- slug: systran
   name: SYSTRAN
 quality_estimation: []
 automatic_post_editing: []

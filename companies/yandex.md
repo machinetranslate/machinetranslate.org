@@ -18,7 +18,7 @@ urls:
 - https://www.yandex.ru
 - https://www.crunchbase.com/organization/yandex
 apis:
-- slug: yandex-translate
+- slug: yandex
   name: Yandex Translate
 quality_estimation: []
 automatic_post_editing: []

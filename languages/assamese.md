@@ -34,17 +34,17 @@ supported_apis:
   name: Qwen-MT
 - id: textra
   name: TexTra
-- id: microsoft-translator
+- id: microsoft
   name: Microsoft Translator
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 supported_qe_apis:
 - id: phrase-mtqe

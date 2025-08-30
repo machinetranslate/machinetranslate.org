@@ -5,7 +5,7 @@ layout: automatic_post_editing
 nav_order: 942
 title: Language Weaver
 description: The Language Weaver automatic post-editing API
-id: language-weaver-ape
+id: language-weaver
 parent: Automatic post-editing
 urls:
 - https://www.rws.com/language-weaver

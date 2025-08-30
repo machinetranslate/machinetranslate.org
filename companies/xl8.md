@@ -18,7 +18,7 @@ urls:
 - https://www.xl8.ai/
 - https://www.crunchbase.com/organization/xl8-inc
 apis:
-- slug: xl8-api
+- slug: xl8
   name: XL8
 quality_estimation: []
 automatic_post_editing: []

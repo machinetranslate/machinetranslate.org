@@ -18,7 +18,7 @@ urls:
 - https://skrivanek.com/
 - https://www.crunchbase.com/organization/skrivanek
 apis:
-- slug: skrivanek-api
+- slug: skrivanek
   name: Skrivanek
 quality_estimation: []
 automatic_post_editing: []

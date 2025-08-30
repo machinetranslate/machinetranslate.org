@@ -70,7 +70,7 @@ supported_languages:
   variant_name: null
 only_compatible_mt_api:
 - id: google-translate
-  name: Google Translate
+  name: google-translate
 only_compatible_tms:
 - id: translation-hub
   name: Google Cloud Translation Hub

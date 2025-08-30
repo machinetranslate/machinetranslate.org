@@ -392,11 +392,11 @@ more_languages_by_request: true
 integrations:
 - slug: globallink
   name: GlobalLink
-- slug: memoq-tms
+- slug: memoq
   name: memoQ
   urls:
   - https://www.memoq.com/integrations/machine-translation/public-plugin/omniscien
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
 - slug: trados
@@ -405,7 +405,7 @@ integrations:
   custom: true
   urls:
   - https://appstore.rws.com/Plugin/253
-- slug: xtm-tms
+- slug: xtm
   name: XTM
   custom: true
   urls:

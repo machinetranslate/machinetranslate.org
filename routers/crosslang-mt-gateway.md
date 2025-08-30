@@ -10,25 +10,41 @@ id: crosslang
 parent: Routers
 ========
 description: The Crosslang MT Gateway machine translation API aggregator
-id: crosslang-mt-gateway
+id: crosslang
 parent: Aggregators
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):routers/crosslang-mt-gateway.md
 urls:
 - https://crosslang.com/products/machine-translation-gateway/
 supported_apis:
-- slug: amazon-translate
+- slug: amazon
   name: Amazon Translate
 - slug: judicio
   name: Judicio
-- slug: deepl-api
+- slug: deepl
   name: DeepL
-- slug: google-translate
+- slug: google
   name: Google Translate
-- slug: microsoft-translator
+- slug: microsoft
   name: Microsoft Translator
-- slug: systran-api
+- slug: systran
   name: SYSTRAN
-integrations: []
+integrations:
+- slug: memoq
+  name: memoQ
+  urls:
+  - https://docs.memoq.com/current/en/Places/crosslang-gateway-settings.html
+- slug: phrase
+  name: Phrase TMS
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  active: false
+- slug: xtm
+  name: XTM
+  plugin: true
+  urls:
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/crosslang.html
+  - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-crosslang-mt-engine.html
 self-serve: false
 seo:
   name: The Crosslang MT Gateway machine translation API router

@@ -171,9 +171,9 @@ supported_languages:
   variant_name: null
 more_languages_by_request: true
 integrations:
-- slug: across-tms
+- slug: across
   name: Across
-- slug: memoq-tms
+- slug: memoq
   name: memoQ
   plugin: true
   urls:
@@ -186,7 +186,7 @@ integrations:
 - slug: transitnxt
   name: TransitNXT
   glossary: true
-- slug: wordbee-tms
+- slug: wordbee
   name: Wordbee
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings

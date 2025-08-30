@@ -14,19 +14,19 @@ tms_url: https://www.omegat.org
 translation_api_integrations:
 - slug: apertium
   name: Apertium
-- slug: belazar-api
+- slug: belazar
   name: Belazar
-- slug: deepl-api
+- slug: deepl
   name: DeepL
-- slug: google-translate
+- slug: google
   name: Google Translate
 - slug: watson
   name: Watson Language Translator
-- slug: microsoft-translator
+- slug: microsoft
   name: Microsoft Translator
 - slug: moses
   name: Moses
-- slug: tencent-machine-translation
+- slug: tencent
   plugin: true
   urls:
   - https://github.com/yoyicue/omegat-tencent-plugin
@@ -35,7 +35,7 @@ translation_api_integrations:
   plugin: true
   urls: https://codeberg.org/miurahr/omegat-textra-plugin
   name: TexTra
-- slug: yandex-translate
+- slug: yandex
   name: Yandex Translate
 fuzzy_repair: true
 open-source: true

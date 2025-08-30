@@ -2326,7 +2326,7 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: memoq-tms
+- slug: memoq
   name: memoQ
   urls:
   - https://www.memoq.com/integrations/machine-translation/private-plugin/niutrans

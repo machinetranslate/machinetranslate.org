@@ -18,7 +18,7 @@ urls:
 - https://www.reverso.net/text-translation
 - https://www.crunchbase.com/organization/reverso
 apis:
-- slug: reverso-api
+- slug: reverso
   name: Reverso
 quality_estimation: []
 automatic_post_editing: []

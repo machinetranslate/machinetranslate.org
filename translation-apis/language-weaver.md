@@ -401,14 +401,14 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786890/sdl-multitrans/configuring-sdl-mt-cloud
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
   offline_glossary: true
 - slug: passolo
   name: Passolo
   custom: true
-- slug: sdl-tms
+- slug: sdl
   name: SDL TMS
 - slug: trados
   name: Trados Studio
@@ -419,7 +419,7 @@ integrations:
   name: WorldServer
   custom: true
   glossary: true
-- slug: xtm-tms
+- slug: xtm
   name: XTM
   glossary: true
   urls:

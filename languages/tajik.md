@@ -33,27 +33,27 @@ territories:
 - tj
 - af
 supported_apis:
-- id: promt-api
+- id: promt
   name: PROMT
 - id: kantanmt
   name: KantanMT
-- id: systran-api
+- id: systran
   name: SYSTRAN
-- id: yandex-translate
+- id: yandex
   name: Yandex Translate
-- id: lingvanex-api
+- id: lingvanex
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

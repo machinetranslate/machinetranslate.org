@@ -18,7 +18,7 @@ urls:
 - https://www.microsoft.com
 - https://www.crunchbase.com/organization/microsoft
 apis:
-- slug: microsoft-translator
+- slug: microsoft
   name: Microsoft Translator
 quality_estimation: []
 automatic_post_editing: []

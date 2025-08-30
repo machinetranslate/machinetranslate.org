@@ -33,7 +33,7 @@ supported_apis:
   name: TexTra
 - id: modernmt
   name: ModernMT
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

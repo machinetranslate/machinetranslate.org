@@ -26,15 +26,15 @@ territories:
 - fo
 - da
 supported_apis:
-- id: microsoft-translator
+- id: microsoft
   name: Microsoft Translator
 - id: modernmt
   name: ModernMT
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

@@ -18,7 +18,7 @@ urls:
 - https:///www.tencent.com/en-us
 - https://www.crunchbase.com/organization/tencent
 apis:
-- slug: tencent-machine-translation
+- slug: tencent
   name: Tencent Machine Translation
 - slug: sogou-translate
   name: Sogou Translate

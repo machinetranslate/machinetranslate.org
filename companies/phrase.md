@@ -25,7 +25,7 @@ quality_estimation:
   name: Phrase MTQE
 automatic_post_editing: []
 tms:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   type: translation management system
 routers: []

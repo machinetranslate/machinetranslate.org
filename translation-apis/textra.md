@@ -621,7 +621,7 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: memoq-tms
+- slug: memoq
   name: memoQ
   urls:
   - https://docs.memoq.com/current/en/Places/textra-plugin-settings.html
@@ -633,7 +633,7 @@ integrations:
   name: Trados Studio
   plugin: true
   active: false
-- slug: xtm-tms
+- slug: xtm
   name: XTM
   active: false
   urls:

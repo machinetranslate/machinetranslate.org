@@ -32,7 +32,7 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

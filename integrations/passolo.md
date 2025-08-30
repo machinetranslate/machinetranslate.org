@@ -17,13 +17,13 @@ translation_api_integrations:
   urls:
   - https://appstore.rws.com/language/app/deepl-mt-provider-for-passolo/1088/
   name: DeepL
-- slug: google-translate
+- slug: google
   custom: true
   name: Google Translate
 - slug: language-weaver
   custom: true
   name: Language Weaver
-- slug: microsoft-translator
+- slug: microsoft
   custom: true
   name: Microsoft Translator
 fuzzy_repair: false

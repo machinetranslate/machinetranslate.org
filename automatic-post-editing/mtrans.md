@@ -5,7 +5,7 @@ layout: automatic_post_editing
 nav_order: 976
 title: MTrans
 description: The MTrans automatic post-editing API
-id: mtrans-ape
+id: mtrans
 parent: Automatic post-editing
 urls:
 - https://www.science.co.jp/en/nmt/service/post-edit_booster.html

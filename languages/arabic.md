@@ -54,97 +54,97 @@ supported_apis:
   name: Tarjama MT
 - id: tapta
   name: TAPTA
-- id: mistral-ai-api
+- id: mistral-ai
   name: Mistral AI
-- id: alexa-translations-ai-api
+- id: alexa-translations-ai
   name: Alexa Translations A.I.
-- id: lingo24-api
+- id: lingo24
   name: Lingo24
 - id: aisa
   name: AISA
-- id: tencent-machine-translation
+- id: tencent
   name: Tencent Machine Translation
 - id: kakao
   name: Kakao
 - id: sogou-translate
   name: Sogou Translate
-- id: tilde-api
+- id: tilde
   name: Tilde
-- id: rozetta-t-400
+- id: rozetta
   name: Rozetta T-400
-- id: lingmo-translation
+- id: lingmo
   name: Lingmo Translation
-- id: reverso-api
+- id: reverso
   name: Reverso
-- id: unbabel-api
+- id: unbabel
   name: Unbabel
 - id: lara
   name: Lara
 - id: etranslation
   name: eTranslation
-- id: globalese-api
+- id: globalese
   name: Globalese
 - id: widn
   name: Widn
-- id: sap-translation-hub
+- id: sap
   name: SAP Translation Hub
-- id: promt-api
+- id: promt
   name: PROMT
-- id: kodensha-mt
+- id: kodensha
   name: Kodensha MT
-- id: xl8-api
+- id: xl8
   name: XL8
-- id: apertium-api
+- id: apertium
   name: Apertium
 - id: kantanmt
   name: KantanMT
-- id: systran-api
+- id: systran
   name: SYSTRAN
-- id: anthropic-api
+- id: anthropic
   name: Anthropic
 - id: iconic
   name: Iconic
 - id: iptranslator
   name: IP Translator
-- id: lilt-api
+- id: lilt
   name: Lilt
-- id: deepseek-api
+- id: deepseek
   name: DeepSeek
 - id: watson
   name: Watson Language Translator
-- id: openai-api
+- id: openai
   name: OpenAI
 - id: language-weaver
   name: Language Weaver
 - id: omniscien
   name: Omniscien Technologies
-- id: apptek-api
+- id: apptek
   name: AppTek
-- id: wordlingo-api
+- id: wordlingo
   name: Wordlingo
-- id: amazon-translate
+- id: amazon
   name: Amazon Translate
 - id: qwen-mt
   name: Qwen-MT
 - id: textra
   name: TexTra
-- id: yandex-translate
+- id: yandex
   name: Yandex Translate
-- id: microsoft-translator
+- id: microsoft
   name: Microsoft Translator
-- id: lingvanex-api
+- id: lingvanex
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

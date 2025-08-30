@@ -1,5 +1,4 @@
 ---
-# parent: Building and research
 nav_order: 66
 title: Quality estimation
 description: Machine translation quality estimation

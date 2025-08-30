@@ -28,7 +28,7 @@ territories:
 - br
 - de
 supported_apis:
-- id: google-translate
+- id: google
   name: Google Translate
 supported_qe_apis: []
 supported_ape_apis: []

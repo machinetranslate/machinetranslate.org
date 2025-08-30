@@ -20,9 +20,7 @@ apis: []
 quality_estimation: []
 automatic_post_editing: []
 tms: []
-routers:
-- slug: custom-mt-router
-  name: Custom.MT
+routers: []
 models: []
 seo:
   name: The Custom.MT profile with an overview of its translation technologies and

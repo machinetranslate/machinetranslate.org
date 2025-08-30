@@ -29,7 +29,7 @@ territories:
 - fr
 - it
 supported_apis:
-- id: apertium-api
+- id: apertium
   name: Apertium
 supported_qe_apis: []
 supported_ape_apis: []

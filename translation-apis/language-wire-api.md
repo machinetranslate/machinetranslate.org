@@ -5,11 +5,15 @@ nav_order: 990
 layout: translation_api
 title: Language Wire
 description: The Language Wire machine translation API
+<<<<<<<< HEAD:translation-apis/language-wire-api.md
 <<<<<<<< HEAD:translation-apis/language-wire.md
 id: language-wire
 parent: Translation APIs
 ========
 id: language-wire-api
+========
+id: language-wire
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/language-wire.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/language-wire-api.md
 urls:
@@ -72,7 +76,7 @@ supported_languages:
   variant_name: null
 more_languages_by_request: true
 integrations:
-- slug: across-tms
+- slug: across
   name: Across
 - slug: trados
   name: Trados Studio

@@ -27,7 +27,7 @@ typology:
 territories:
 - id
 supported_apis:
-- id: lilt-api
+- id: lilt
   name: Lilt
 - id: language-weaver
   name: Language Weaver
@@ -35,21 +35,21 @@ supported_apis:
   name: Qwen-MT
 - id: textra
   name: TexTra
-- id: yandex-translate
+- id: yandex
   name: Yandex Translate
-- id: lingvanex-api
+- id: lingvanex
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

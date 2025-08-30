@@ -21,7 +21,7 @@ apis: []
 quality_estimation: []
 automatic_post_editing: []
 tms:
-- slug: wordfast-tms
+- slug: wordfast
   name: Wordfast
   type: translation management system
 routers: []

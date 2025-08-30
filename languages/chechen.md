@@ -26,9 +26,9 @@ typology:
 territories:
 - ru
 supported_apis:
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

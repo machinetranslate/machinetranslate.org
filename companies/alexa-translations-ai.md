@@ -18,7 +18,7 @@ urls:
 - https://alexatranslations.com/
 - https://www.crunchbase.com/organization/alexa-translations-a-i
 apis:
-- slug: alexa-translations-ai-api
+- slug: alexa-translations-ai
   name: Alexa Translations A.I.
 quality_estimation: []
 automatic_post_editing: []

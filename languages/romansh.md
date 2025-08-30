@@ -31,7 +31,7 @@ territories:
 supported_apis:
 - id: supertext
   name: Supertext
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate

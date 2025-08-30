@@ -21,7 +21,7 @@ apis: []
 quality_estimation: []
 automatic_post_editing: []
 tms:
-- slug: weglot-tms
+- slug: weglot
   name: Weglot
   type: translation management system
 routers: []

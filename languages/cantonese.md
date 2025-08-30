@@ -36,15 +36,15 @@ supported_apis:
   name: IP Translator
 - id: qwen-mt
   name: Qwen-MT
-- id: microsoft-translator
+- id: microsoft
   name: Microsoft Translator
 - id: youdao
   name: Youdao Translate
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

@@ -18,7 +18,7 @@ urls:
 - https://www.linguacustodia.finance/en/welcome/
 - https://www.crunchbase.com/organization/lingua-custodia
 apis:
-- slug: lingua-custodia-api
+- slug: lingua-custodia
   name: Lingua Custodia
 quality_estimation: []
 automatic_post_editing: []

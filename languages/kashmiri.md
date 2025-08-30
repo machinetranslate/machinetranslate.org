@@ -38,7 +38,7 @@ supported_apis:
   name: TexTra
 - id: modernmt
   name: ModernMT
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate

@@ -10,18 +10,20 @@ id: human-science
 parent: Routers
 ========
 description: The Human Science machine translation API aggregator
-id: human-science-router
+id: human-science
 parent: Aggregators
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):routers/human-science-router.md
 urls:
 - https://www.science.co.jp/nmt/index.html
 - https://www.science.co.jp/english/machinetranslation/machinetranslation.html
 supported_apis:
-- slug: google-translate
+- slug: google
   name: Google Translate
-- slug: microsoft-translator
+- slug: microsoft
   name: Microsoft Translator
-integrations: []
+integrations:
+- slug: phrase
+  name: Phrase TMS
 self-serve: false
 seo:
   name: The Human Science machine translation API router

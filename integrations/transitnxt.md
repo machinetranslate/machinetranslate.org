@@ -17,16 +17,16 @@ translation_api_integrations:
   glossary: true
   formality: true
   name: DeepL
-- slug: globalese-api
+- slug: globalese
   name: Globalese
-- slug: google-translate
+- slug: google
   name: Google Translate
 - slug: kantanmt
   custom: true
   name: KantanMT
-- slug: microsoft-translator
+- slug: microsoft
   name: Microsoft Translator
-- slug: systran-api
+- slug: systran
   name: SYSTRAN
 - slug: supertext
   glossary: true

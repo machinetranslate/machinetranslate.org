@@ -36,57 +36,57 @@ typology:
 territories:
 - 'no'
 supported_apis:
-- id: language-wire-api
+- id: language-wire
   name: Language Wire
 - id: supertext
   name: Supertext
-- id: unbabel-api
+- id: unbabel
   name: Unbabel
 - id: widn
   name: Widn
-- id: kodensha-mt
+- id: kodensha
   name: Kodensha MT
-- id: xl8-api
+- id: xl8
   name: XL8
-- id: apertium-api
+- id: apertium
   name: Apertium
 - id: kantanmt
   name: KantanMT
-- id: systran-api
+- id: systran
   name: SYSTRAN
 - id: iconic
   name: Iconic
 - id: iptranslator
   name: IP Translator
-- id: lilt-api
+- id: lilt
   name: Lilt
-- id: deepseek-api
+- id: deepseek
   name: DeepSeek
-- id: openai-api
+- id: openai
   name: OpenAI
 - id: language-weaver
   name: Language Weaver
 - id: omniscien
   name: Omniscien Technologies
-- id: apptek-api
+- id: apptek
   name: AppTek
-- id: wordlingo-api
+- id: wordlingo
   name: Wordlingo
-- id: amazon-translate
+- id: amazon
   name: Amazon Translate
 - id: textra
   name: TexTra
-- id: yandex-translate
+- id: yandex
   name: Yandex Translate
-- id: lingvanex-api
+- id: lingvanex
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

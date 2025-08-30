@@ -21,7 +21,7 @@ apis: []
 quality_estimation: []
 automatic_post_editing: []
 tms:
-- slug: wordbee-tms
+- slug: wordbee
   name: Wordbee
   type: translation management system
 routers: []

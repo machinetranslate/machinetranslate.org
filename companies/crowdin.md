@@ -21,7 +21,7 @@ apis: []
 quality_estimation: []
 automatic_post_editing: []
 tms:
-- slug: crowdin-tms
+- slug: crowdin
   name: Crowdin
   type: translation management system
 routers: []

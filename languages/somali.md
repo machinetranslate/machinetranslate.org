@@ -32,35 +32,35 @@ territories:
 - ke
 - so
 supported_apis:
-- id: systran-api
+- id: systran
   name: SYSTRAN
 - id: language-weaver
   name: Language Weaver
 - id: omniscien
   name: Omniscien Technologies
-- id: apptek-api
+- id: apptek
   name: AppTek
-- id: wordlingo-api
+- id: wordlingo
   name: Wordlingo
-- id: amazon-translate
+- id: amazon
   name: Amazon Translate
 - id: textra
   name: TexTra
-- id: microsoft-translator
+- id: microsoft
   name: Microsoft Translator
-- id: lingvanex-api
+- id: lingvanex
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

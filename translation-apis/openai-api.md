@@ -10,7 +10,7 @@ id: openai
 parent: Translation APIs
 ========
 description: The OpenAI machine translation API
-id: openai-api
+id: openai
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/openai-api.md
 urls:

@@ -20,7 +20,7 @@ urls:
 - https://www.ubiqus.com
 - https://www.crunchbase.com/organization/ubiqus
 apis:
-- slug: ubiqus-nmt
+- slug: ubiqus
   name: Ubiqus NMT
 quality_estimation: []
 automatic_post_editing: []

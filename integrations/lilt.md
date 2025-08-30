@@ -5,7 +5,7 @@ layout: integration
 nav_order: 999
 title: Lilt
 description: Machine translation API integrations in Lilt
-id: lilt-tms
+id: lilt
 parent: Integrations
 type:
 - cat

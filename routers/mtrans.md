@@ -10,18 +10,18 @@ parent: Routers
 urls:
 - https://www.science.co.jp/en/nmt/service/mtrans.html
 supported_apis:
-- slug: amazon-translate
+- slug: amazon
   name: Amazon Translate
-- slug: deepl-api
+- slug: deepl
   name: DeepL
-- slug: google-translate
+- slug: google
   name: Google Translate
-- slug: microsoft-translator
+- slug: microsoft
   name: Microsoft Translator
 - slug: papago
   name: Papago Translation
 integrations:
-- slug: crowdin-tms
+- slug: crowdin
   name: Crowdin
   plugin: true
   glossary: true

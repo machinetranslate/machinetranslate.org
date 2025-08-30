@@ -17,7 +17,7 @@ acquired_by: []
 urls:
 - https://apertium.org/
 apis:
-- slug: apertium-api
+- slug: apertium
   name: Apertium
 quality_estimation: []
 automatic_post_editing: []

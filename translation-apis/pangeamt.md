@@ -75,12 +75,12 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: true
 integrations:
-- slug: memoq-tms
+- slug: memoq
   name: memoQ
   glossary: true
   urls:
   - https://docs.memoq.com/current/en/Places/pangeamt-plugin-settings.html
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
 - slug: trados

@@ -21,7 +21,7 @@ apis: []
 quality_estimation: []
 automatic_post_editing: []
 tms:
-- slug: memoq-tms
+- slug: memoq
   name: memoQ
   type: translation management system
 routers: []

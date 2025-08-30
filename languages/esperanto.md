@@ -28,27 +28,27 @@ typology:
   - agglutinative
 territories: []
 supported_apis:
-- id: apertium-api
+- id: apertium
   name: Apertium
-- id: deepseek-api
+- id: deepseek
   name: DeepSeek
-- id: wordlingo-api
+- id: wordlingo
   name: Wordlingo
-- id: yandex-translate
+- id: yandex
   name: Yandex Translate
-- id: lingvanex-api
+- id: lingvanex
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

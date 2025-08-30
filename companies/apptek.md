@@ -18,7 +18,7 @@ urls:
 - https://www.apptek.com/
 - https://www.crunchbase.com/organization/apptek
 apis:
-- slug: apptek-api
+- slug: apptek
   name: AppTek
 quality_estimation: []
 automatic_post_editing: []

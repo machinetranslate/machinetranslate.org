@@ -20,7 +20,7 @@ urls:
 - https://www.safaba.com
 - https://www.crunchbase.com/organization/safaba-translation-solutions
 apis:
-- slug: safaba-api
+- slug: safaba
   name: Safaba
 quality_estimation: []
 automatic_post_editing: []

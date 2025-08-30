@@ -14,15 +14,20 @@ tms_url: https://www.matecat.com
 translation_api_integrations:
 - slug: apertium
   name: Apertium
-- slug: google-translate
+- slug: google
   custom: true
   name: Google Translate
+- slug: intento
+  plugin: true
+  urls:
+  - https://help.inten.to/hc/en-us/articles/360017381939-How-to-set-up-Intento-as-the-MT-engine-in-MateCat
+  name: Intento
 - slug: iptranslator
   active: false
   name: IP Translator
 - slug: language-weaver
   name: Language Weaver
-- slug: microsoft-translator
+- slug: microsoft
   custom: true
   name: Microsoft Translator
 - slug: modernmt
@@ -33,12 +38,12 @@ translation_api_integrations:
   name: ModernMT
 - slug: moses
   name: Moses
-- slug: tauyou-api
+- slug: tauyou
   name: Tauyou
-- slug: tilde-api
+- slug: tilde
   custom: true
   name: Tilde
-- slug: yandex-translate
+- slug: yandex
   name: Yandex Translate
 fuzzy_repair: false
 open-source: false

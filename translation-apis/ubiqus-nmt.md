@@ -5,11 +5,15 @@ nav_order: 998
 layout: translation_api
 title: Ubiqus NMT
 description: The Ubiqus NMT machine translation API
+<<<<<<<< HEAD:translation-apis/ubiqus-nmt.md
 <<<<<<<< HEAD:translation-apis/ubiqus.md
 id: ubiqus
 parent: Translation APIs
 ========
 id: ubiqus-nmt
+========
+id: ubiqus
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/ubiqus.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/ubiqus-nmt.md
 urls:
@@ -26,7 +30,7 @@ inputs:
 supported_languages: []
 more_languages_by_request: false
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   glossary: true
 - slug: trados

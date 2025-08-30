@@ -20,9 +20,9 @@ urls:
 apis:
 - slug: transperfect-nmt
   name: TransPerfect NMT
-- slug: wordlingo-api
+- slug: wordlingo
   name: Wordlingo
-- slug: tauyou-api
+- slug: tauyou
   name: Tauyou
 quality_estimation: []
 automatic_post_editing: []

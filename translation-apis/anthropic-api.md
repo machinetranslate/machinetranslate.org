@@ -10,7 +10,7 @@ id: anthropic
 parent: Translation APIs
 ========
 description: The Anthropic machine translation API
-id: anthropic-api
+id: anthropic
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/anthropic-api.md
 urls:

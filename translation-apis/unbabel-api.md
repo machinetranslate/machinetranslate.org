@@ -5,11 +5,15 @@ nav_order: 968
 layout: translation_api
 title: Unbabel
 description: The Unbabel machine translation API
+<<<<<<<< HEAD:translation-apis/unbabel-api.md
 <<<<<<<< HEAD:translation-apis/unbabel.md
 id: unbabel
 parent: Translation APIs
 ========
 id: unbabel-api
+========
+id: unbabel
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/unbabel.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/unbabel-api.md
 urls:

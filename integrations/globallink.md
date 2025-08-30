@@ -15,21 +15,21 @@ tms_url: https://globallink.translations.com/
 translation_api_integrations:
 - slug: apptek
   name: AppTek
-- slug: google-translate
+- slug: google
   name: Google Translate
 - slug: kantanmt
   name: KantanMT
-- slug: lilt-api
+- slug: lilt
   name: Lilt
-- slug: microsoft-translator
+- slug: microsoft
   name: Microsoft Translator
 - slug: moses
   name: Moses
 - slug: omniscien
   name: Omniscien Technologies
-- slug: systran-api
+- slug: systran
   name: SYSTRAN
-- slug: tauyou-api
+- slug: tauyou
   name: Tauyou
 - slug: transperfect-nmt
   name: TransPerfect NMT

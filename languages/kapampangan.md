@@ -26,9 +26,9 @@ typology:
 territories:
 - ph
 supported_apis:
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
-- id: google-translate
+- id: google
   name: Google Translate
 supported_qe_apis: []
 supported_ape_apis: []

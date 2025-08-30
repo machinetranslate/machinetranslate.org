@@ -5,7 +5,7 @@ layout: integration
 nav_order: 995
 title: Transifex
 description: Machine translation API integrations in Transifex
-id: transifex-tms
+id: transifex
 parent: Integrations
 type:
 - tms
@@ -18,10 +18,10 @@ translation_api_integrations:
   urls:
   - https://docs.transifex.com/machine-translation/glossary-for-amazon-machine-translation-mt
   name: Amazon Translate
-- slug: deepl-api
+- slug: deepl
   formality: true
   name: DeepL
-- slug: google-translate
+- slug: google
   custom: true
   name: Google Translate
 - slug: kantanmt
@@ -29,7 +29,7 @@ translation_api_integrations:
   urls:
   - https://docs.transifex.com/machine-translation/working-with-kantan-mt
   name: KantanMT
-- slug: microsoft-translator
+- slug: microsoft
   name: Microsoft Translator
 fuzzy_repair: false
 open-source: false

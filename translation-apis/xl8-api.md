@@ -5,11 +5,15 @@ nav_order: 951
 layout: translation_api
 title: XL8
 description: The XL8 machine translation API
+<<<<<<<< HEAD:translation-apis/xl8-api.md
 <<<<<<<< HEAD:translation-apis/xl8.md
 id: xl8
 parent: Translation APIs
 ========
 id: xl8-api
+========
+id: xl8
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/xl8.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/xl8-api.md
 urls:
@@ -301,11 +305,11 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
-- slug: crowdin-tms
+- slug: crowdin
   name: Crowdin
   urls:
   - https://store.crowdin.com/xl8
-- slug: memoq-tms
+- slug: memoq
   name: memoQ
   urls:
   - https://docs.google.com/document/d/1aYbIpDCme7D-FIVgqRvSmoIiiUJ4QhAZEPAP-tJNwPs/edit

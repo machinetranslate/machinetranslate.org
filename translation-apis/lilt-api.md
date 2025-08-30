@@ -5,11 +5,15 @@ nav_order: 943
 layout: translation_api
 title: Lilt
 description: The Lilt machine translation API
+<<<<<<<< HEAD:translation-apis/lilt-api.md
 <<<<<<<< HEAD:translation-apis/lilt.md
 id: lilt
 parent: Translation APIs
 ========
 id: lilt-api
+========
+id: lilt
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/lilt.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/lilt-api.md
 urls:
@@ -359,7 +363,7 @@ more_languages_by_request: true
 integrations:
 - slug: globallink
   name: GlobalLink
-- slug: lilt-tms
+- slug: lilt
   name: Lilt
   custom: true
   glossary: true

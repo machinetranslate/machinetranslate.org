@@ -28,17 +28,17 @@ typology:
 territories:
 - cn
 supported_apis:
-- id: microsoft-translator
+- id: microsoft
   name: Microsoft Translator
-- id: lingvanex-api
+- id: lingvanex
   name: LingvaNex
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
-- id: google-translate
+- id: google
   name: Google Translate
 supported_qe_apis:
 - id: taus-qe

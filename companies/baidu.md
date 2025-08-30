@@ -18,7 +18,7 @@ urls:
 - http://www.baidu.com/
 - https://www.crunchbase.com/organization/baidu
 apis:
-- slug: baidu-translate
+- slug: baidu
   name: Baidu Translate
 quality_estimation: []
 automatic_post_editing: []

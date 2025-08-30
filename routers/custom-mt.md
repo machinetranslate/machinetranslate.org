@@ -10,12 +10,17 @@ id: custom-mt
 parent: Routers
 ========
 description: The Custom.MT machine translation API aggregator
+<<<<<<< HEAD:routers/custom-mt.md
 id: custom-mt-router
+=======
+id: custom-mt
+>>>>>>> b08f2b1d (Rename names back to their previous names):aggregators/custom-mt.md
 parent: Aggregators
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):routers/custom-mt-router.md
 urls:
 - https://custom.mt/
 supported_apis:
+<<<<<<< HEAD:routers/custom-mt.md
 - slug: amazon-translate
   name: Amazon Translate
 - slug: deepl-api
@@ -27,11 +32,25 @@ supported_apis:
 - slug: language-wire-api
   name: Language Wire
 - slug: microsoft-translator
+=======
+- slug: amazon
+  name: Amazon Translate
+- slug: deepl
+  name: DeepL
+- slug: globalese
+  name: Globalese
+- slug: google
+  name: Google Translate
+- slug: language-wire
+  name: Language Wire
+- slug: microsoft
+>>>>>>> b08f2b1d (Rename names back to their previous names):aggregators/custom-mt.md
   name: Microsoft Translator
 - slug: modernmt
   name: ModernMT
 - slug: pangeamt
   name: PangeaMT
+<<<<<<< HEAD:routers/custom-mt.md
 - slug: systran-api
   name: SYSTRAN
 - slug: tencent-machine-translation
@@ -43,6 +62,24 @@ supported_apis:
 - slug: yandex-translate
   name: Yandex Translate
 integrations: []
+=======
+- slug: systran
+  name: SYSTRAN
+- slug: tencent
+  name: Tencent Machine Translation
+- slug: supertext
+  name: Supertext
+- slug: xl8
+  name: XL8
+- slug: yandex
+  name: Yandex Translate
+integrations:
+- slug: trados
+  name: Trados Studio
+  plugin: true
+  urls:
+  - https://custom.mt/trados-connector/
+>>>>>>> b08f2b1d (Rename names back to their previous names):aggregators/custom-mt.md
 self-serve: true
 seo:
   name: The Custom.MT machine translation API router

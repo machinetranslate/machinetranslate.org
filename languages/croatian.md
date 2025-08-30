@@ -34,33 +34,33 @@ territories:
 - rs
 - at
 supported_apis:
-- id: tilde-api
+- id: tilde
   name: Tilde
 - id: lara
   name: Lara
 - id: etranslation
   name: eTranslation
-- id: globalese-api
+- id: globalese
   name: Globalese
 - id: widn
   name: Widn
-- id: sap-translation-hub
+- id: sap
   name: SAP Translation Hub
-- id: promt-api
+- id: promt
   name: PROMT
-- id: xl8-api
+- id: xl8
   name: XL8
 - id: kantanmt
   name: KantanMT
-- id: systran-api
+- id: systran
   name: SYSTRAN
-- id: anthropic-api
+- id: anthropic
   name: Anthropic
 - id: iconic
   name: Iconic
 - id: iptranslator
   name: IP Translator
-- id: lilt-api
+- id: lilt
   name: Lilt
 - id: watson
   name: Watson Language Translator
@@ -68,31 +68,31 @@ supported_apis:
   name: Language Weaver
 - id: omniscien
   name: Omniscien Technologies
-- id: apptek-api
+- id: apptek
   name: AppTek
-- id: wordlingo-api
+- id: wordlingo
   name: Wordlingo
-- id: amazon-translate
+- id: amazon
   name: Amazon Translate
 - id: qwen-mt
   name: Qwen-MT
 - id: textra
   name: TexTra
-- id: yandex-translate
+- id: yandex
   name: Yandex Translate
-- id: microsoft-translator
+- id: microsoft
   name: Microsoft Translator
-- id: lingvanex-api
+- id: lingvanex
   name: LingvaNex
 - id: youdao
   name: Youdao Translate
-- id: neuralspace-api
+- id: neuralspace
   name: NeuralSpace
 - id: modernmt
   name: ModernMT
-- id: baidu-translate
+- id: baidu
   name: Baidu Translate
-- id: google-translate
+- id: google
   name: Google Translate
 - id: niutrans
   name: Niutrans

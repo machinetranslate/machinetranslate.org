@@ -18,7 +18,7 @@ urls:
 - https://www.promt.com
 - https://www.crunchbase.com/organization/promt
 apis:
-- slug: promt-api
+- slug: promt
   name: PROMT
 quality_estimation: []
 automatic_post_editing: []

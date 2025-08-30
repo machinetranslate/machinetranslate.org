@@ -5,11 +5,15 @@ nav_order: 985
 layout: translation_api
 title: Lingo24
 description: The Lingo24 machine translation API
+<<<<<<<< HEAD:translation-apis/lingo24-api.md
 <<<<<<<< HEAD:translation-apis/lingo24.md
 id: lingo24
 parent: Translation APIs
 ========
 id: lingo24-api
+========
+id: lingo24
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/lingo24.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/lingo24-api.md
 urls:
@@ -107,7 +111,7 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: xtm-tms
+- slug: xtm
   name: XTM
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/lingo24.html

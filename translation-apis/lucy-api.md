@@ -5,11 +5,15 @@ nav_order: 989
 layout: translation_api
 title: Lucy
 description: The Lucy machine translation API
+<<<<<<<< HEAD:translation-apis/lucy-api.md
 <<<<<<<< HEAD:translation-apis/lucy.md
 id: lucy
 parent: Translation APIs
 ========
 id: lucy-api
+========
+id: lucy
+>>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/lucy.md
 parent: APIs
 >>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/lucy-api.md
 urls:

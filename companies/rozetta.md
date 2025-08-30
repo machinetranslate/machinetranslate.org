@@ -18,7 +18,7 @@ urls:
 - https://www.rozetta.jp/
 - https://www.crunchbase.com/organization/rozetta-corp
 apis:
-- slug: rozetta-t-400
+- slug: rozetta
   name: Rozetta T-400
 quality_estimation: []
 automatic_post_editing: []

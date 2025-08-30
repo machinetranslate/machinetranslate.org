@@ -18,7 +18,7 @@ urls:
 - https://deepseek.com
 - https://www.crunchbase.com/organization/deepseek
 apis:
-- slug: deepseek-api
+- slug: deepseek
   name: DeepSeek
 quality_estimation: []
 automatic_post_editing: []

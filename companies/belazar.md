@@ -17,7 +17,7 @@ acquired_by: []
 urls:
 - http://belazar.info/
 apis:
-- slug: belazar-api
+- slug: belazar
   name: Belazar
 quality_estimation: []
 automatic_post_editing: []

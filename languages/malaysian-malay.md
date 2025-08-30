@@ -26,7 +26,7 @@ territories:
 - my
 - sg
 supported_apis:
-- id: promt-api
+- id: promt
   name: PROMT
 - id: modernmt
   name: ModernMT

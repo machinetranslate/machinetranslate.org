@@ -20,7 +20,7 @@ urls:
 - http://www.lucysoftware.com
 - https://www.crunchbase.com/organization/lucy-software-and-services
 apis:
-- slug: lucy-api
+- slug: lucy
   name: Lucy
 quality_estimation: []
 automatic_post_editing: []

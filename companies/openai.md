@@ -18,7 +18,7 @@ urls:
 - https://openai.com
 - https://www.crunchbase.com/organization/openai
 apis:
-- slug: openai-api
+- slug: openai
   name: OpenAI
 quality_estimation: []
 automatic_post_editing: []
