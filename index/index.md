@@ -14,8 +14,10 @@ The **Machine Translate Foundation** is building **open information** and **comm
 
 {% assign integration_count = 0 %}
 {% for tms in site.data.integrations %}
-  {% assign s = tms.translation_api_integrations | size %}
-  {% assign integration_count = integration_count | plus: s %}
+  {% assign integration_count = integration_count 
+    | plus: tms.translation_api_integrations.size 
+    | plus: tms.quality_estimation_api_integrations.size 
+    | plus: tms.automatic_post_editing_api_integrations.size %}
 {% endfor %}
 
 <style>
@@ -27,17 +29,17 @@ The **Machine Translate Foundation** is building **open information** and **comm
   }
 </style>
 
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 800px; margin: auto; text-align: center; transform: translateX(-5%)">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); padding: 3em; gap: 3em; max-width: 800px; margin: auto; text-align: center; transform: translateX(-5%)">
   <div>
     <a href="/translation-apis">
       <span class="big">{{ site.data.translation_apis | size }}</span><br/>
-      Translation APIs
+      translation APIs
     </a>
   </div>
     <div>
     <a href="/models">
-        <span class="big">{{ site.data.models | size }}</span><br/>
-        models
+      <span class="big">{{ site.data.models | size }}</span><br/>
+      models
     </a>
   </div>
   <div>
@@ -54,15 +56,15 @@ The **Machine Translate Foundation** is building **open information** and **comm
   </div>
   <div>
     <a href="/quality-estimation">
-        <span class="big">{{ site.data.quality_estimation | size }}</span><br/>
-        quality estimation
+      <span class="big">{{ site.data.quality_estimation | size }}</span><br/>
+      quality estimation APIs
     </a>
   </div>
   <div>
     <a href="/automatic-post-editing">
-        <span class="big">{{ site.data.automatic_post_editing | size }}</span><br/>
-        automatic post-editing
-      </a>
+      <span class="big">{{ site.data.automatic_post_editing | size }}</span><br/>
+      automatic post-editing APIs
+    </a>
   </div>
 </div>
 
