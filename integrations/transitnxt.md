@@ -35,6 +35,14 @@ fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+company:
+  id: star-group
+  name: STAR Group
+more_by_company:
+- tms:
+  - id: transitnxt
+    name: TransitNXT
+    type: Translation management systems
 seo:
   name: Machine translation API integrations in TransitNXT
   type: Product

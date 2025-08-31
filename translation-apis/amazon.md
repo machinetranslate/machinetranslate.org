@@ -551,6 +551,15 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/amazon-translate.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-amazon-translate-mt-engine.html
 models: []
+company:
+  id: amazon
+  name: Amazon
+more_by_company:
+- translation_apis:
+  - id: amazon
+    name: Amazon Translate
+  - id: safaba
+    name: Safaba
 active: true
 seo:
   name: The Amazon Translate machine translation API

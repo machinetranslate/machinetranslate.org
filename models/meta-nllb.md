@@ -15,6 +15,13 @@ urls:
 - https://ai.facebook.com/research/no-language-left-behind
 self_serve: true
 apis: []
+company:
+  id: meta
+  name: Meta
+more_by_company:
+- models:
+  - id: meta-nllb
+    name: NLLB
 seo:
   name: The NLLB model for translation
   type: Product

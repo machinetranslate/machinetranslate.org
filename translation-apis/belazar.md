@@ -38,6 +38,13 @@ integrations:
 - slug: omegat-cat
   name: OmegaT
 models: []
+company:
+  id: belazar
+  name: Belazar
+more_by_company:
+- translation_apis:
+  - id: belazar
+    name: Belazar
 active: true
 seo:
   name: The Belazar machine translation API

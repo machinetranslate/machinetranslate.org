@@ -43,6 +43,16 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 models: []
+company:
+  id: crosslang
+  name: Crosslang
+more_by_company:
+- translation_apis:
+  - id: judicio
+    name: Judicio
+- routers:
+  - id: crosslang
+    name: Crosslang MT Gateway
 active: false
 seo:
   name: The Judicio machine translation API

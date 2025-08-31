@@ -106,6 +106,14 @@ automatic_post_editing_integrations:
   urls:
   - https://crowdin.com/blog/2025/03/31/whats-new-at-crowdin-march-2025#taus-qe--ape-for-crowdin-enterprise
   name: TAUS EPIC
+company:
+  id: crowdin
+  name: Crowdin
+more_by_company:
+- tms:
+  - id: crowdin
+    name: Crowdin
+    type: Translation management systems
 seo:
   name: Machine translation API integrations in Crowdin
   type: Product

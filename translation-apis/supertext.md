@@ -191,6 +191,13 @@ integrations:
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 models: []
+company:
+  id: textshuttle
+  name: TextShuttle
+more_by_company:
+- translation_apis:
+  - id: supertext
+    name: Supertext
 active: true
 seo:
   name: The Supertext machine translation API

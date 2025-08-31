@@ -116,6 +116,21 @@ automatic_post_editing_integrations:
 - slug: modelfront-ape
   custom: true
   name: ModelFront
+automatic_post_editing_integrations: []
+company:
+  id: phrase
+  name: Phrase
+more_by_company:
+- translation_apis:
+  - id: phrase-nextmt
+    name: Phrase NextMT
+- tms:
+  - id: phrase
+    name: Phrase TMS
+    type: Translation management systems
+- quality_estimation_apis:
+  - id: phrase-mtqe
+    name: Phrase MTQE
 seo:
   name: Machine translation API integrations in Phrase TMS
   type: Product

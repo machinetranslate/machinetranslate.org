@@ -94,6 +94,13 @@ integrations:
   urls:
   - https://confluence.translate5.net/display/CON/PangeaMT
 models: []
+company:
+  id: pangeanic
+  name: Pangeanic
+more_by_company:
+- translation_apis:
+  - id: pangeamt
+    name: PangeaMT
 active: true
 seo:
   name: The PangeaMT machine translation API

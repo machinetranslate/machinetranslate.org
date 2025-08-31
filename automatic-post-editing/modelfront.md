@@ -912,6 +912,16 @@ integrations:
 - slug: xtm
   name: XTM
   custom: true
+company:
+  id: modelfront
+  name: ModelFront
+more_by_company:
+- automatic_post_editing_apis:
+  - id: modelfront
+    name: ModelFront
+- quality_estimation_apis:
+  - id: modelfront
+    name: ModelFront
 seo:
   name: The ModelFront automatic post-editing API
   type: Product

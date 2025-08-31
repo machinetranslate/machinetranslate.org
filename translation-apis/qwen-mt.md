@@ -512,6 +512,18 @@ integrations: []
 models:
 - name: Qwen
   slug: qwen
+company:
+  id: alibaba-group
+  name: Alibaba Group
+more_by_company:
+- translation_apis:
+  - id: alibaba
+    name: Alibaba Translate
+  - id: qwen-mt
+    name: Qwen-MT
+- models:
+  - id: qwen
+    name: Qwen
 active: true
 seo:
   name: The Qwen-MT machine translation API

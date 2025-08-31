@@ -24,6 +24,10 @@ integrations:
   urls:
   - https://docs.memoq.com/current/en/Places/slate-desktop-plugin-settings.html
 models: []
+company:
+  id: Precision Translation Tools
+  name: Precision Translation Tools
+more_by_company: []
 active: false
 seo:
   name: The Slate Desktop machine translation API

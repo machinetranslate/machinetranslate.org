@@ -108,6 +108,13 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/intento.html
   - https://help.inten.to/hc/en-us/articles/360021776920-XTM-Custom-MT-for-Intento-Quick-Guide
 self-serve: true
+company:
+  id: intento
+  name: Intento
+more_by_company:
+- routers:
+  - id: intento
+    name: Intento
 seo:
 <<<<<<< HEAD:routers/intento.md
   name: The Intento machine translation API router

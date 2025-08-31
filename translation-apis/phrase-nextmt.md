@@ -78,6 +78,20 @@ integrations:
   name: Phrase TMS
   glossary: true
 models: []
+company:
+  id: phrase
+  name: Phrase
+more_by_company:
+- translation_apis:
+  - id: phrase-nextmt
+    name: Phrase NextMT
+- tms:
+  - id: phrase
+    name: Phrase TMS
+    type: Translation management systems
+- quality_estimation_apis:
+  - id: phrase-mtqe
+    name: Phrase MTQE
 active: true
 seo:
   name: The Phrase NextMT machine translation API

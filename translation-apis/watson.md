@@ -380,6 +380,13 @@ integrations:
   name: Smartling
   custom: true
 models: []
+company:
+  id: ibm
+  name: IBM
+more_by_company:
+- translation_apis:
+  - id: watson
+    name: Watson Language Translator
 active: true
 seo:
   name: The Watson Language Translator machine translation API

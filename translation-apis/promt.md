@@ -283,6 +283,13 @@ integrations:
 - slug: smartling-tms
   name: Smartling
 models: []
+company:
+  id: promt
+  name: PROMT
+more_by_company:
+- translation_apis:
+  - id: promt
+    name: PROMT
 active: true
 seo:
   name: The PROMT machine translation API

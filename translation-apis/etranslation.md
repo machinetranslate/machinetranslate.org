@@ -215,6 +215,13 @@ integrations:
   urls:
   - https://docs.memoq.com/current/en/Places/etranslation-mt-plugin-settings.html
 models: []
+company:
+  id: european-commission
+  name: European Commission
+more_by_company:
+- translation_apis:
+  - id: etranslation
+    name: eTranslation
 active: true
 seo:
   name: The eTranslation machine translation API

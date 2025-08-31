@@ -25,6 +25,18 @@ self_serve: true
 apis:
 - name: OpenAI
   slug: openai
+company:
+  id: openai
+  name: OpenAI
+more_by_company:
+- translation_apis:
+  - id: openai
+    name: OpenAI
+- models:
+  - id: gpt
+    name: GPT
+  - id: whisper
+    name: Whisper
 seo:
   name: The Whisper model for translation
   type: Product

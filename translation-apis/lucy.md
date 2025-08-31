@@ -87,6 +87,13 @@ integrations:
   urls:
   - https://confluence.translate5.net/display/BUS/Lucy
 models: []
+company:
+  id: lucy
+  name: Lucy
+more_by_company:
+- translation_apis:
+  - id: lucy
+    name: Lucy
 active: false
 seo:
   name: The Lucy machine translation API

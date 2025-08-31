@@ -55,6 +55,14 @@ fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+company:
+  id: smartcat
+  name: Smartcat
+more_by_company:
+- tms:
+  - id: smartcat
+    name: Smartcat
+    type: Translation management systems
 seo:
   name: Machine translation API integrations in Smartcat
   type: Product

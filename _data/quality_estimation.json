@@ -1637,7 +1637,7 @@
             ]
         ],
         "only_compatible_mt_api": null,
-        "only_compatible_tms": "phrase-tms",
+        "only_compatible_tms": "phrase",
         "customisation": false,
         "urls": [
             "https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-",
@@ -3956,9 +3956,9 @@
         ]
     },
     {
-        "id": "taus-qe",
-        "name": "TAUS QE",
-        "company": "TAUS",
+        "id": "taus",
+        "name": "TAUS",
+        "company": "taus",
         "tagline": null,
         "languages": [
             "af",
@@ -4166,7 +4166,7 @@
                 "en"
             ]
         ],
-        "only_compatible_mt_api": "google-translate",
+        "only_compatible_mt_api": "google",
         "only_compatible_tms": "translation-hub",
         "customisation": false,
         "urls": [

@@ -34,6 +34,14 @@ fuzzy_repair: true
 open-source: false
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+company:
+  id: across
+  name: Across
+more_by_company:
+- tms:
+  - id: across
+    name: Across
+    type: Translation management systems
 seo:
   name: Machine translation API integrations in Across
   type: Product

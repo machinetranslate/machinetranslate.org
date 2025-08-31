@@ -275,6 +275,13 @@ integrations:
   urls:
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647037255
 models: []
+company:
+  id: globalese
+  name: Globalese
+more_by_company:
+- translation_apis:
+  - id: globalese
+    name: Globalese
 active: true
 seo:
   name: The Globalese machine translation API

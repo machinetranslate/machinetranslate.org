@@ -208,7 +208,7 @@
             "judicio"
         ],
         "routers": [
-            "crosslang-mt-gateway"
+            "crosslang"
         ]
     },
     {
@@ -239,7 +239,7 @@
             "https://custom.mt"
         ],
         "routers": [
-            "custom-mt-router"
+            "custom-mt"
         ]
     },
     {
@@ -271,7 +271,7 @@
             "https://www.crunchbase.com/organization/eden-ai"
         ],
         "routers": [
-            "edenai-router"
+            "edenai"
         ]
     },
     {
@@ -387,7 +387,7 @@
             "https://www.crunchbase.com/organization/human-science"
         ],
         "routers": [
-            "human-science-router",
+            "human-science",
             "mtrans"
         ],
         "automatic_post_editing": [
@@ -450,7 +450,7 @@
             "https://www.crunchbase.com/organization/intento"
         ],
         "routers": [
-            "intento-router"
+            "intento"
         ],
         "note": "Raised $4M from Berkeley Skydeck and angels"
     },

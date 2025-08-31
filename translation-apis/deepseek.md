@@ -353,6 +353,16 @@ integrations: []
 models:
 - name: DeepSeek AI
   slug: deepseek-ai
+company:
+  id: deepseek
+  name: DeepSeek
+more_by_company:
+- translation_apis:
+  - id: deepseek
+    name: DeepSeek
+- models:
+  - id: deepseek-ai
+    name: DeepSeek AI
 active: true
 seo:
   name: The DeepSeek API for machine translation

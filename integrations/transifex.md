@@ -35,6 +35,14 @@ fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+company:
+  id: transifex
+  name: Transifex
+more_by_company:
+- tms:
+  - id: transifex
+    name: Transifex
+    type: Translation management systems
 seo:
   name: Machine translation API integrations in Transifex
   type: Product

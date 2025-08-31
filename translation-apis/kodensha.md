@@ -279,6 +279,13 @@ integrations:
   name: Phrase TMS
   active: false
 models: []
+company:
+  id: kodensha
+  name: Kodensha
+more_by_company:
+- translation_apis:
+  - id: kodensha
+    name: Kodensha MT
 active: true
 seo:
   name: The Kodensha MT machine translation API

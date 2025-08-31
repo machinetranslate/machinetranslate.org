@@ -1240,6 +1240,13 @@ integrations:
   name: Tolgee
   active: false
 models: []
+company:
+  id: baidu
+  name: Baidu
+more_by_company:
+- translation_apis:
+  - id: baidu
+    name: Baidu Translate
 active: true
 seo:
   name: The Baidu Translate machine translation API

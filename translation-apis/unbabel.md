@@ -217,6 +217,22 @@ supported_languages:
 more_languages_by_request: true
 integrations: []
 models: []
+company:
+  id: unbabel
+  name: Unbabel
+more_by_company:
+- translation_apis:
+  - id: unbabel
+    name: Unbabel
+  - id: widn
+    name: Widn
+  - id: lingo24
+    name: Lingo24
+  - id: ubiqus
+    name: Ubiqus NMT
+- models:
+  - id: towerllm
+    name: TowerLLM
 active: true
 seo:
   name: The Unbabel machine translation API

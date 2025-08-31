@@ -53,6 +53,19 @@ quality_estimation_integrations:
   - https://guides.matecat.com/modernmt-mmt-plug-in
   name: ModernMT
 automatic_post_editing_integrations: []
+company:
+  id: translated
+  name: Translated
+more_by_company:
+- translation_apis:
+  - id: lara
+    name: Lara
+  - id: modernmt
+    name: ModernMT
+- tms:
+  - id: matecat
+    name: MateCat
+    type: Computer-aided translation tools
 seo:
   name: Machine translation API integrations in MateCat
   type: Product

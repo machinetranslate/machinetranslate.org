@@ -143,6 +143,14 @@ automatic_post_editing_integrations:
 - slug: modelfront
   custom: true
   name: ModelFront
+company:
+  id: memoq
+  name: memoQ
+more_by_company:
+- tms:
+  - id: memoq
+    name: memoQ
+    type: Translation management systems
 seo:
   name: Machine translation API integrations in memoQ
   type: Product

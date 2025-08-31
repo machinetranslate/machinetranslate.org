@@ -69,6 +69,11 @@ supported_ape_apis:
 - id: taus-epic-ape
   name: TAUS EPIC
 - id: modelfront-ape
+- slug: taus
+  id: taus
+  name: TAUS
+- slug: modelfront
+  id: modelfront
   name: ModelFront
 seo:
   name: Machine translation for Amharic

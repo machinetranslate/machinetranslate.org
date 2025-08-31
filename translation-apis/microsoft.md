@@ -757,6 +757,13 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/microsoft-translator.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-microsoft-translator-mt-engine.html
 models: []
+company:
+  id: microsoft
+  name: Microsoft
+more_by_company:
+- translation_apis:
+  - id: microsoft
+    name: Microsoft Translator
 active: true
 seo:
   name: The Microsoft Translator machine translation API

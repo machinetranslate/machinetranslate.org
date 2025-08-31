@@ -110,6 +110,15 @@ parent: Quality estimation
   {% else %}
     <dd>API integration with any machine translation API</dd>
   {% endif %}
+
+  <dt>Company</dt>
+    <dd>
+      {% if page.more_by_company.size > 1 %}
+        <a href="#more-by-company">{{ page.company.name }}</a>
+      {% else %}
+        {{ page.company.name }}
+      {% endif %}
+    </dd>
   </dl>  
 
   {% if page.urls.size > 0 %}
@@ -191,3 +200,121 @@ parent: Quality estimation
     </ul>
   </details>
 </section>
+
+{% assign feature_types = "translation_apis,quality_estimation_apis,automatic_post_editing_apis,tms,routers,models" | split: "," %}
+{% assign feature_summaries = "Translation APIs,Quality estimation,Automatic post-editing,,Routers,Models" | split: "," %}
+
+{% assign total_visible_items = 0 %}
+
+{% for company in page.more_by_company %}
+  {% for feature in feature_types %}
+    {% assign items = company[feature] %}
+    {% if items %}
+      {% assign visible_items = "" | split: "" %}
+      {% for i in items %}
+        {% if feature == "quality_estimation_apis" %}
+          {% if i.id != page.id %}
+            {% assign visible_items = visible_items | push: i %}
+          {% endif %}
+        {% else %}
+          {% assign visible_items = visible_items | push: i %}
+        {% endif %}
+      {% endfor %}
+
+      {% if visible_items.size > 0 %}
+        {% assign total_visible_items = total_visible_items | plus: visible_items.size %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% if total_visible_items > 0 %}
+<section id="more-by-company">
+  <h2>More by {{ page.company.name }}</h2>
+
+  {% for company in page.more_by_company %}
+
+    {% assign items = company.translation_apis %}
+    {% if items %}
+        <details>
+          <summary>Machine translation</summary>
+          <ul>
+            {% for i in items %}
+              <li><a href="/{{ i.id }}">{{ i.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </details>
+    {% endif %}
+
+    {% assign items = company.quality_estimation_apis %}
+    {% if items %}
+    {% assign visible_items = "" | split: "" %}
+      {% for i in items %}
+        {% if i.id != page.id %}
+          {% assign visible_items = visible_items | push: i %}
+        {% endif %}
+      {% endfor %}
+
+      {% if visible_items.size > 0 %}
+      <details>
+        <summary>Quality Estimation</summary>
+        <ul>
+          {% for i in visible_items %}
+            <li><a href="/quality-estimation/{{ i.id }}">{{ i.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+      {% endif %}
+    {% endif %}
+
+    {% assign items = company.automatic_post_editing_apis %}
+    {% if items %}
+      <details>
+        <summary>Automatic post-editing</summary>
+        <ul>
+          {% for i in items %}
+            <li><a href="/automatic-post-editing/{{ i.id }}">{{ i.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+
+    {% assign items = company.tms %}
+    {% if items %}
+      <details>
+        <summary>{{ items[0].type }}</summary>
+        <ul>
+          {% for i in items %}
+            <li><a href="/integrations/{{ i.id }}">{{ i.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+
+    {% assign items = company.routers %}
+    {% if items %}
+      <details>
+        <summary>Routers</summary>
+        <ul>
+          {% for i in items %}
+            <li><a href="/aggregators/{{ i.id }}">{{ i.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+
+    {% assign items = company.models %}
+    {% if items %}
+      <details>
+        <summary>Models</summary>
+        <ul>
+          {% for i in items %}
+            <li><a href="/models/{{ i.id }}">{{ i.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+
+  {% endfor %}
+</section>
+{% endif %}

@@ -7,7 +7,9 @@ title: ModelFront
 description: The ModelFront translation quality estimation API
 tagline: Translation quality prediction
 id: modelfront
-company: modelfront
+company:
+  id: modelfront
+  name: ModelFront
 parent: Quality estimation
 urls:
 - https://modelfront.com
@@ -771,6 +773,13 @@ integrations:
   name: XTM
   custom: true
 active: true
+more_by_company:
+- automatic_post_editing_apis:
+  - id: modelfront
+    name: ModelFront
+- quality_estimation_apis:
+  - id: modelfront
+    name: ModelFront
 seo:
   name: The ModelFront translation quality estimation API
   type: Product

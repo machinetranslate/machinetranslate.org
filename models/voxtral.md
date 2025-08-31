@@ -16,6 +16,20 @@ self_serve: true
 apis:
 - name: Mistral AI
   slug: mistral-ai
+company:
+  id: mistral-ai
+  name: Mistral AI
+more_by_company:
+- translation_apis:
+  - id: mistral-ai
+    name: Mistral AI
+- models:
+  - id: voxtral
+    name: Voxtral
+  - id: mistral
+    name: Mistral
+  - id: mixtral
+    name: Mixtral
 seo:
   name: The Voxtral model for translation
   type: Product

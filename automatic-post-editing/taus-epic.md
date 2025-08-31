@@ -671,6 +671,16 @@ integrations:
   custom: true
   urls:
   - https://crowdin.com/blog/2025/03/31/whats-new-at-crowdin-march-2025#taus-qe--ape-for-crowdin-enterprise
+company:
+  id: taus
+  name: TAUS
+more_by_company:
+- automatic_post_editing_apis:
+  - id: taus-epic
+    name: TAUS EPIC
+- quality_estimation_apis:
+  - id: taus
+    name: TAUS
 seo:
   name: The TAUS EPIC automatic post-editing API
   type: Product

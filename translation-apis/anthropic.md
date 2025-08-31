@@ -343,6 +343,16 @@ integrations: []
 models:
 - name: Claude Sonnet
   slug: claude-sonnet
+company:
+  id: anthropic
+  name: Anthropic
+more_by_company:
+- translation_apis:
+  - id: anthropic
+    name: Anthropic
+- models:
+  - id: claude-sonnet
+    name: Claude Sonnet
 active: true
 seo:
   name: The Anthropic API for machine translation

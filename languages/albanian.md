@@ -82,18 +82,11 @@ supported_qe_apis:
   name: Smart Review
 - id: phrase-mtqe
   name: Phrase MTQE
-- id: taus-qe
-  name: TAUS QE
-- id: modelfront
-  name: ModelFront
-- id: modernmt-qe
-  name: ModernMT
-supported_ape_apis:
-- id: language-weaver-ape
-  name: Language Weaver
-- id: taus-epic-ape
-  name: TAUS EPIC
-- id: modelfront-ape
+- slug: taus
+  id: taus
+  name: TAUS
+- slug: modelfront
+  id: modelfront
   name: ModelFront
 seo:
   name: Machine translation for Albanian

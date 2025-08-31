@@ -25,6 +25,8 @@ automatic_post_editing:
   name: MTrans
 tms: []
 routers:
+- slug: human-science
+  name: Human Science
 - slug: mtrans
   name: MTrans
 models: []

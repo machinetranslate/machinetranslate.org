@@ -25,6 +25,18 @@ integrations:
 - slug: phrase
   name: Phrase TMS
 self-serve: false
+company:
+  id: human-science
+  name: Human Science
+more_by_company:
+- routers:
+  - id: human-science
+    name: Human Science
+  - id: mtrans
+    name: MTrans
+- automatic_post_editing_apis:
+  - id: mtrans
+    name: MTrans
 seo:
   name: The Human Science machine translation API router
   type: Product

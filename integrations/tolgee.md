@@ -28,6 +28,14 @@ fuzzy_repair: false
 open-source: true
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+company:
+  id: tolgee
+  name: Tolgee
+more_by_company:
+- tms:
+  - id: tolgee
+    name: Tolgee
+    type: Translation management systems
 seo:
   name: Machine translation API integrations in Tolgee
   type: Product

@@ -155,6 +155,18 @@ supported_languages:
   name: Chinese
   variant_name: Traditional Chinese
 integrations: []
+company:
+  id: human-science
+  name: Human Science
+more_by_company:
+- routers:
+  - id: human-science
+    name: Human Science
+  - id: mtrans
+    name: MTrans
+- automatic_post_editing_apis:
+  - id: mtrans
+    name: MTrans
 seo:
   name: The MTrans automatic post-editing API
   type: Product

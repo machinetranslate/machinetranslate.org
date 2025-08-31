@@ -120,6 +120,14 @@ automatic_post_editing_integrations:
 - slug: modelfront-ape
   custom: true
   name: ModelFront
+company:
+  id: xtm
+  name: XTM
+more_by_company:
+- tms:
+  - id: xtm
+    name: XTM
+    type: Translation management systems
 seo:
   name: Machine translation API integrations in XTM
   type: Product

@@ -37,6 +37,21 @@ fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+company:
+  id: transperfect
+  name: Transperfect
+more_by_company:
+- translation_apis:
+  - id: transperfect-nmt
+    name: TransPerfect NMT
+  - id: wordlingo
+    name: Wordlingo
+  - id: tauyou
+    name: Tauyou
+- tms:
+  - id: globallink
+    name: GlobalLink
+    type: Computer-aided translation tools
 seo:
   name: Machine translation API integrations in GlobalLink
   type: Product

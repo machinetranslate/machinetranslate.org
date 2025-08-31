@@ -29,6 +29,10 @@ integrations:
 - slug: xtm
   name: XTM
 models: []
+company:
+  id: lengoo
+  name: Lengoo
+more_by_company: []
 active: true
 seo:
   name: The Lengoo machine translation API

@@ -143,6 +143,13 @@ integrations:
   name: Phrase TMS
   active: false
 models: []
+company:
+  id: aisa-digital
+  name: AISA Digital
+more_by_company:
+- translation_apis:
+  - id: aisa
+    name: AISA
 active: true
 seo:
   name: The AISA machine translation API

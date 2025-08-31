@@ -310,6 +310,13 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/deepl.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-deepl-translator-mt-engine.html
 models: []
+company:
+  id: deepl
+  name: DeepL
+more_by_company:
+- translation_apis:
+  - id: deepl
+    name: DeepL
 active: true
 seo:
   name: The DeepL machine translation API

@@ -28,6 +28,41 @@ automatic_post_editing_integrations:
 - slug: modelfront-ape
   custom: true
   name: ModelFront
+company:
+  id: rws
+  name: RWS
+more_by_company:
+- translation_apis:
+  - id: iconic
+    name: Iconic
+  - id: language-weaver
+    name: Language Weaver
+  - id: ltgear
+    name: LT Gear
+  - id: moraviamt
+    name: MoraviaMT
+- tms:
+  - id: worldserver
+    name: WorldServer
+    type: Translation management systems
+  - id: groupshare
+    name: GroupShare
+    type: Translation management systems
+  - id: multitrans
+    name: Multitrans
+    type: Translation management systems
+  - id: passolo
+    name: Passolo
+    type: Computer-aided translation tools
+  - id: sdl
+    name: SDL TMS
+    type: Translation management systems
+  - id: trados
+    name: Trados Studio
+    type: Computer-aided translation tools
+- automatic_post_editing_apis:
+  - id: language-weaver
+    name: Language Weaver
 seo:
   name: Machine translation API integrations in WorldServer
   type: Product

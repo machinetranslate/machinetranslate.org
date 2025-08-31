@@ -188,6 +188,13 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 models: []
+company:
+  id: lingmo
+  name: Lingmo
+more_by_company:
+- translation_apis:
+  - id: lingmo
+    name: Lingmo Translation
 active: true
 seo:
   name: The Lingmo Translation machine translation API

@@ -23,6 +23,13 @@ fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+company:
+  id: united-nations
+  name: United Nations
+more_by_company:
+- translation_apis:
+  - id: tapta
+    name: TAPTA
 seo:
   name: Machine translation API integrations in eLUNa
   type: Product

@@ -153,6 +153,15 @@ integrations:
   urls:
   - https://github.com/yoyicue/omegat-tencent-plugin
 models: []
+company:
+  id: tencent
+  name: Tencent
+more_by_company:
+- translation_apis:
+  - id: tencent
+    name: Tencent Machine Translation
+  - id: sogou-translate
+    name: Sogou Translate
 active: true
 seo:
   name: The Tencent Machine Translation machine translation API

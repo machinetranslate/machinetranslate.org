@@ -1251,6 +1251,19 @@ integrations:
   urls:
   - https://www.wordfast.net/wiki/Connecting_Wordfast_Pro_to_Modern_MT
 models: []
+company:
+  id: translated
+  name: Translated
+more_by_company:
+- translation_apis:
+  - id: lara
+    name: Lara
+  - id: modernmt
+    name: ModernMT
+- tms:
+  - id: matecat
+    name: MateCat
+    type: Computer-aided translation tools
 active: true
 seo:
   name: The ModernMT machine translation API

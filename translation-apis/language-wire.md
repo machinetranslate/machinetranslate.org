@@ -80,6 +80,13 @@ integrations:
   urls:
   - https://www.languagewire.com/en/about-us/freelancers/guides-for-language-experts/trados-plugin
 models: []
+company:
+  id: language-wire
+  name: Language Wire
+more_by_company:
+- translation_apis:
+  - id: language-wire
+    name: Language Wire
 active: true
 seo:
   name: The Language Wire machine translation API

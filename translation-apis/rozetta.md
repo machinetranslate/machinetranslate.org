@@ -186,6 +186,13 @@ integrations:
   urls:
   - https://appstore.rws.com/plugin/187/
 models: []
+company:
+  id: rozetta
+  name: Rozetta
+more_by_company:
+- translation_apis:
+  - id: rozetta
+    name: Rozetta T-400
 active: true
 seo:
   name: The Rozetta T-400 machine translation API

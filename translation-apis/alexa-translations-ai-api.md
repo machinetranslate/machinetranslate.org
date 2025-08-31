@@ -112,6 +112,13 @@ integrations:
   urls:
   - https://appstore.rws.com/plugin/149/
 models: []
+company:
+  id: alexa-translations-ai
+  name: Alexa Translations A.I.
+more_by_company:
+- translation_apis:
+  - id: alexa-translations-ai
+    name: Alexa Translations A.I.
 active: true
 seo:
   name: The Alexa Translations A.I. machine translation API

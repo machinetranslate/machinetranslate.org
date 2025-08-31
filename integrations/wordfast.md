@@ -54,6 +54,14 @@ fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+company:
+  id: wordfast
+  name: Wordfast
+more_by_company:
+- tms:
+  - id: wordfast
+    name: Wordfast
+    type: Translation management systems
 seo:
   name: Machine translation API integrations in Wordfast
   type: Product

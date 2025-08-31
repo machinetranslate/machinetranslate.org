@@ -112,6 +112,13 @@ integrations:
 - slug: phrase
   name: Phrase TMS
 models: []
+company:
+  id: toin
+  name: TOIN
+more_by_company:
+- translation_apis:
+  - id: t-tact-an-zin
+    name: T-tact-AN-ZIN
 active: true
 seo:
   name: The T-tact-AN-ZIN machine translation API

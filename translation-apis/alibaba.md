@@ -1309,6 +1309,18 @@ integrations:
   urls:
   - https://store.crowdin.com/alibaba
 models: []
+company:
+  id: alibaba-group
+  name: Alibaba Group
+more_by_company:
+- translation_apis:
+  - id: alibaba
+    name: Alibaba Translate
+  - id: qwen-mt
+    name: Qwen-MT
+- models:
+  - id: qwen
+    name: Qwen
 active: true
 seo:
   name: The Alibaba Translate machine translation API

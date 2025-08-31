@@ -113,6 +113,22 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/lingo24.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-lingo24-mt-engine.html
 models: []
+company:
+  id: unbabel
+  name: Unbabel
+more_by_company:
+- translation_apis:
+  - id: unbabel
+    name: Unbabel
+  - id: widn
+    name: Widn
+  - id: lingo24
+    name: Lingo24
+  - id: ubiqus
+    name: Ubiqus NMT
+- models:
+  - id: towerllm
+    name: TowerLLM
 active: false
 seo:
   name: The Lingo24 machine translation API

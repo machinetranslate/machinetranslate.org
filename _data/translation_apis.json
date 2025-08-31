@@ -4525,7 +4525,7 @@
     {
         "name": "Elia",
         "id": "elia",
-        "company": "Elhuyar",
+        "company": "elhuyar",
         "urls": [
             "https://elia.eus/start"
         ],
@@ -7136,6 +7136,7 @@
     {
         "name": "Moses",
         "id": "moses",
+        "company": "mosessmt",
         "urls": [
             "http://www2.statmt.org/moses/",
             "https://github.com/moses-smt/mosesdecoder"

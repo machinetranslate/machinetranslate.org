@@ -150,6 +150,13 @@ integrations:
   plugin: true
   active: false
 models: []
+company:
+  id: sogou
+  name: Sogou
+more_by_company:
+- translation_apis:
+  - id: sogou-translate
+    name: Sogou Translate
 active: true
 seo:
   name: The Sogou Translate machine translation API

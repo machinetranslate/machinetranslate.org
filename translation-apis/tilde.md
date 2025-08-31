@@ -184,6 +184,13 @@ integrations:
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 models: []
+company:
+  id: tilde
+  name: Tilde
+more_by_company:
+- translation_apis:
+  - id: tilde
+    name: Tilde
 active: true
 seo:
   name: The Tilde machine translation API

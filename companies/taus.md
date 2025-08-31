@@ -20,7 +20,9 @@ urls:
 - https://www.taus.net
 - https://www.crunchbase.com/organization/taus
 apis: []
-quality_estimation: []
+quality_estimation:
+- slug: taus
+  name: TAUS
 automatic_post_editing:
 - slug: taus-epic
   name: TAUS EPIC

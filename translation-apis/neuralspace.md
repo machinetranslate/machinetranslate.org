@@ -781,6 +781,13 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 models: []
+company:
+  id: neuralspace
+  name: NeuralSpace
+more_by_company:
+- translation_apis:
+  - id: neuralspace
+    name: NeuralSpace
 active: true
 seo:
   name: The NeuralSpace machine translation API

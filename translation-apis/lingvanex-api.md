@@ -675,6 +675,13 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 models: []
+company:
+  id: lingvanex
+  name: LingvaNex
+more_by_company:
+- translation_apis:
+  - id: lingvanex
+    name: LingvaNex
 active: true
 seo:
   name: The LingvaNex machine translation API

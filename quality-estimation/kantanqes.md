@@ -7,7 +7,9 @@ title: KantanQES
 description: The KantanQES translation quality estimation API
 tagline: Quality estimation score
 id: kantanqes
-company: kantan ai
+company:
+  id: kantan-ai
+  name: KantanAI
 parent: Quality estimation
 urls:
 - https://www.kantanai.io/kantanqes-home/
@@ -215,6 +217,18 @@ integrations:
   name: KantanStream
   custom: false
 active: false
+integrations: []
+more_by_company:
+- translation_apis:
+  - id: kantanmt
+    name: KantanMT
+- tms:
+  - id: kantanstream
+    name: KantanStream
+    type: Translation management systems
+- quality_estimation_apis:
+  - id: kantanqes
+    name: KantanQES
 seo:
   name: The KantanQES translation quality estimation API
   type: Product

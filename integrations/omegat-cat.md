@@ -41,6 +41,14 @@ fuzzy_repair: true
 open-source: true
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+company:
+  id: omegat
+  name: OmegaT
+more_by_company:
+- tms:
+  - id: omegat-cat
+    name: OmegaT
+    type: Computer-aided translation tools
 seo:
   name: Machine translation API integrations in OmegaT
   type: Product

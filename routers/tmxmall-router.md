@@ -58,6 +58,13 @@ integrations:
   - https://www.tmxmall.com/products/plugin
   active: false
 self-serve: false
+company:
+  id: tmxmall
+  name: Tmxmall
+more_by_company:
+- routers:
+  - id: tmxmall
+    name: TMXmall
 seo:
   name: The TMXmall machine translation API router
   type: Product

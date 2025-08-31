@@ -315,6 +315,13 @@ integrations:
   urls:
   - https://s3.amazonaws.com/static.xl8.ai/doc/XL8+Skroll+SDL+Plugin.pdf
 models: []
+company:
+  id: xl8
+  name: XL8
+more_by_company:
+- translation_apis:
+  - id: xl8
+    name: XL8
 active: true
 seo:
   name: The XL8 machine translation API

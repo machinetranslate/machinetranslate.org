@@ -49,6 +49,13 @@ integrations:
   urls:
   - https://custom.mt/trados-connector/
 self-serve: true
+company:
+  id: custom-mt
+  name: Custom.MT
+more_by_company:
+- routers:
+  - id: custom-mt
+    name: Custom.MT
 seo:
   name: The Custom.MT machine translation API router
   type: Product

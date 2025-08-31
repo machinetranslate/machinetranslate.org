@@ -33,6 +33,13 @@ supported_apis:
   name: Watson Language Translator
 integrations: []
 self-serve: true
+company:
+  id: edenai
+  name: Eden AI
+more_by_company:
+- routers:
+  - id: edenai
+    name: Eden AI
 seo:
   name: The Eden AI machine translation API router
   type: Product

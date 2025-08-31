@@ -73,6 +73,13 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 models: []
+company:
+  id: cloudtranslation
+  name: CloudTranslation
+more_by_company:
+- translation_apis:
+  - id: cloudtranslation
+    name: CloudTranslation
 active: true
 seo:
   name: The CloudTranslation machine translation API

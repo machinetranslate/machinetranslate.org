@@ -34,6 +34,15 @@ integrations:
   plugin: true
   active: false
 models: []
+company:
+  id: acolad
+  name: Acolad
+more_by_company:
+- translation_apis:
+  - id: acolad
+    name: Acolad
+  - id: ubiqus
+    name: Ubiqus NMT
 active: true
 seo:
   name: The Ubiqus NMT machine translation API

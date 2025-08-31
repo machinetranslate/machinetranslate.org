@@ -107,6 +107,13 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 models: []
+company:
+  id: naver
+  name: Naver
+more_by_company:
+- translation_apis:
+  - id: papago
+    name: Papago Translation
 active: true
 seo:
   name: The Papago Translation machine translation API

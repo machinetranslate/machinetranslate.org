@@ -71,6 +71,14 @@ fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+company:
+  id: wordbee
+  name: Wordbee
+more_by_company:
+- tms:
+  - id: wordbee
+    name: Wordbee
+    type: Translation management systems
 seo:
   name: Machine translation API integrations in Wordbee
   type: Product

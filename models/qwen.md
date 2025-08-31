@@ -13,6 +13,18 @@ self_serve: true
 apis:
 - name: Qwen-MT
   slug: qwen-mt
+company:
+  id: alibaba-group
+  name: Alibaba Group
+more_by_company:
+- translation_apis:
+  - id: alibaba
+    name: Alibaba Translate
+  - id: qwen-mt
+    name: Qwen-MT
+- models:
+  - id: qwen
+    name: Qwen
 seo:
   name: The Qwen model for translation
   type: Product
