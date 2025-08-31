@@ -224,12 +224,12 @@ def get_more_by_company(company_id):
     for api_id in company['apis']:
       api_data = _APIS_BY_ID.get(api_id)
       translation_apis.append({
-          "id": api_id,
-          "name": api_data['name']
+          'id': api_id,
+          'name': api_data['name']
       })
     if translation_apis:
       more_by_company.append({
-          "translation_apis": translation_apis
+          'translation_apis': translation_apis
       })
   
   if company.get('tms', False):
@@ -237,13 +237,13 @@ def get_more_by_company(company_id):
     for tms_id in company['tms']:
       tms_data = TMS_BY_ID.get(tms_id)
       tms.append({
-          "id": tms_id,
-          "name": tms_data['name'],
+          'id': tms_id,
+          'name': tms_data['name'],
           'type': 'Translation management systems' if 'tms' in TMS_BY_ID[tms_id]['type'] else 'Computer-aided translation tools'
       })
     if tms:
       more_by_company.append({
-          "tms": tms
+          'tms': tms
       })
     
   if company.get('routers', False):
@@ -251,12 +251,12 @@ def get_more_by_company(company_id):
     for router_id in company['routers']:
       router_data = ROUTERS_BY_ID.get(router_id)
       routers.append({
-          "id": router_id,
-          "name": router_data['name']
+          'id': router_id,
+          'name': router_data['name']
       })
     if routers:
       more_by_company.append({
-          "routers": routers
+          'routers': routers
       })
     
   if company.get('models', False):
@@ -264,12 +264,12 @@ def get_more_by_company(company_id):
     for model_id in company['models']:
       model_data = MODELS_BY_ID.get(model_id)
       models.append({
-          "id": model_id,
-          "name": model_data['name']
+          'id': model_id,
+          'name': model_data['name']
       })
     if models:
       more_by_company.append({
-          "models": models
+          'models': models
       })
     
   if company.get('automatic_post_editing', False):
@@ -277,12 +277,12 @@ def get_more_by_company(company_id):
     for automatic_post_editing_id in company['automatic_post_editing']:
       automatic_post_editing_data = APE_APIS_BY_ID.get(automatic_post_editing_id)
       automatic_post_editing_apis.append({
-          "id": automatic_post_editing_id,
-          "name": automatic_post_editing_data['name']
+          'id': automatic_post_editing_id,
+          'name': automatic_post_editing_data['name']
       })
     if automatic_post_editing_apis:
       more_by_company.append({
-          "automatic_post_editing_apis": automatic_post_editing_apis
+          'automatic_post_editing_apis': automatic_post_editing_apis
       })
     
   if company.get('quality_estimation', False):
@@ -290,12 +290,12 @@ def get_more_by_company(company_id):
     for quality_estimation_id in company['quality_estimation']:
       quality_estimation_data = QE_APIS_BY_ID.get(quality_estimation_id)
       quality_estimation_apis.append({
-          "id": quality_estimation_id,
-          "name": quality_estimation_data['name']
+          'id': quality_estimation_id,
+          'name': quality_estimation_data['name']
       })
     if quality_estimation_apis:
       more_by_company.append({
-          "quality_estimation_apis": quality_estimation_apis
+          'quality_estimation_apis': quality_estimation_apis
       })
       
   return more_by_company
@@ -321,7 +321,7 @@ for api in TRANSLATION_APIS:
   company_info = COMPANIES_BY_ID.get(company_id, {})
   company_name = company_info.get('name')
   if not company_name:
-      company_name = company_id.replace("-", " ").title()
+      company_name = company_id.replace('-', ' ').title()
   company = {
       'id': company_id,
       'name': company_name
@@ -651,7 +651,7 @@ for tms in INTEGRATIONS:
     company_info = COMPANIES_BY_ID.get(company_id, {})
     company_name = company_info.get('name')
     if not company_name:
-        company_name = company_id.replace("-", " ").title()
+        company_name = company_id.replace('-', ' ').title()
     company = {
         'id': company_id,
         'name': company_name
@@ -774,7 +774,7 @@ for r in ROUTERS:
     company_info = COMPANIES_BY_ID.get(company_id, {})
     company_name = company_info.get('name')
     if not company_name:
-        company_name = company_id.replace("-", " ").title()
+        company_name = company_id.replace('-', ' ').title()
     company = {
         'id': company_id,
         'name': company_name
@@ -868,7 +868,7 @@ for estimation in QUALITY_ESTIMATION:
   company_info = COMPANIES_BY_ID.get(company_id, {})
   company_name = company_info.get('name')
   if not company_name:
-      company_name = company_id.replace("-", " ").title()
+      company_name = company_id.replace('-', ' ').title()
   company = {
       'id': company_id,
       'name': company_name
@@ -979,7 +979,7 @@ for ape in AUTOMATIC_POST_EDITING:
     company_info = COMPANIES_BY_ID.get(company_id, {})
     company_name = company_info.get('name')
     if not company_name:
-        company_name = company_id.replace("-", " ").title()
+        company_name = company_id.replace('-', ' ').title()
     company = {
         'id': company_id,
         'name': company_name
@@ -1257,8 +1257,8 @@ for model in MODELS:
   apis = []
   for api in model['apis']:
     apis.append({
-      "name": api,
-      "slug": slugify(api)
+      'name': api,
+      'slug': slugify(api)
     })
 
   urls = model['urls']
@@ -1274,7 +1274,7 @@ for model in MODELS:
   company_info = COMPANIES_BY_ID.get(company_id, {})
   company_name = company_info.get('name')
   if not company_name:
-      company_name = company_id.replace("-", " ").title()
+      company_name = company_id.replace('-', ' ').title()
   company = {
       'id': company_id,
       'name': company_name
@@ -1305,127 +1305,6 @@ for model in MODELS:
   }
 
   filepath = f'models/{ model_id }.md'
-
-  content = read_content(filepath)
-
-  with open(filepath, 'w', encoding='utf-8') as f:
-    f.write(f'''\
----
-{ yaml.dump(frontmatter, sort_keys=False, allow_unicode=True) }
----
-{ content }
-''')
-
-
-### Generate companies
-for company in COMPANIES:
-  company_name = company['name']
-  company_id = company['id']
-  company_type = company['type']
-  company_location = company['location']
-  company_founded_year = company['founded']
-  company_urls = company.get('urls', [])
-  company_note = company.get('note', None)
-  is_active = company.get('active', True)
-
-  acquired_by = []
-  if company.get('acquired_by', []):
-    acquired_by.append({
-      'name': company['acquired_by']['company'],
-      'id': slugify(company['acquired_by']['company'])
-    })
-
-  apis = []
-  for api in company.get('apis', []):
-    try:
-      api_data = {}
-      api_data['slug'] = api
-      api_data['name'] = _APIS_BY_ID[api]['name']
-      apis.append(api_data)
-    except KeyError:
-      pass
-
-  quality_estimation_apis = []
-  for qe in company.get('quality_estimation', []):
-    try:
-      qe_data = {}
-      qe_data['slug'] = qe
-      qe_data['name'] = QE_APIS_BY_ID[qe]['name']
-      quality_estimation_apis.append(qe_data)
-    except KeyError:
-      pass
-
-  automatic_post_editing_apis = []
-  for ape in company.get('automatic_post_editing', []):
-    try:
-      ape_data = {}
-      ape_data['slug'] = ape
-      ape_data['name'] = APE_APIS_BY_ID[ape]['name']
-      automatic_post_editing_apis.append(ape_data)
-    except KeyError:
-      pass
-
-  tms_and_cats = []
-  for tms in company.get('tms', []):
-    try:
-      tms_data = {}
-      tms_data['slug'] = tms
-      tms_data['name'] = TMS_BY_ID[tms]['name']
-      tms_data['type'] = 'translation management system' if 'tms' in TMS_BY_ID[tms]['type'] else 'computer-aided translation tool'
-      tms_and_cats.append(tms_data)
-    except KeyError:
-      pass
-    
-  routers = []
-  for router in company.get('routers', []):
-    try:
-      router_data = {}
-      router_data['slug'] = router
-      router_data['name'] = ROUTERS_BY_ID[router]['name']
-      routers.append(router_data)
-    except KeyError:
-      pass
-
-  models = []
-  for model in company.get('models', []):
-    try:
-      model_data = {}
-      model_data['slug'] = model
-      model_data['name'] = MODELS_BY_ID[model]['name']
-      models.append(model_data)
-    except KeyError:
-      pass
-
-  desc = f'The {company_name} profile with an overview of its translation technologies and solutions'
-
-  frontmatter = {
-    'autogenerated': True,
-    'autogenerated_from': 'companies.json',
-    'layout': 'company',
-    'parent': 'Companies',
-    'title': company_name,
-    'description': desc,
-    'id': company_id,
-    'type': company_type,
-    'location': company_location,
-    'founded': company_founded_year,
-    'note': company_note,
-    'active': is_active,
-    'acquired_by': acquired_by,
-    'urls': company_urls,
-    'apis': apis,
-    'quality_estimation': quality_estimation_apis,
-    'automatic_post_editing': automatic_post_editing_apis,
-    'tms': tms_and_cats,
-    'routers': routers,
-    'models': models,
-    'seo': {
-      'name': desc,
-      'type': 'Product'
-    }
-  }
-
-  filepath = f'companies/{ company_id }.md'
 
   content = read_content(filepath)
 
