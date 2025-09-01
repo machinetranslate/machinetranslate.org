@@ -1,9 +1,10 @@
 ---
 nav_order: 235
 title: Companies
-Parent: More
+parent: More
 description: List of machine translation companies
 featured: true
+search_exclude: true
 seo:
   name: List of machine translation companies
 ---

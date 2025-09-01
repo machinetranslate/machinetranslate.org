@@ -4,6 +4,7 @@ title: Quality estimation
 description: Machine translation quality estimation
 has_children: true
 featured: true
+permalink: /:basename
 redirect_from:
   - /quality-prediction
 ---

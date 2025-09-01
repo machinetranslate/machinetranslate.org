@@ -1,6 +1,7 @@
 ---
 nav_order: 63
 has_children: true
+permalink: /:basename
 title: Integrations
 description: List of machine translation API integrations in translation management systems and computer-aided translation tools
 seo:

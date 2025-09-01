@@ -6,6 +6,7 @@ layout: quality_estimation
 title: ModelFront
 description: The ModelFront translation quality estimation API
 tagline: Translation quality prediction
+permalink: quality-estimation/:basename
 id: modelfront
 company:
   id: modelfront
