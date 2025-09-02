@@ -195,7 +195,7 @@
         "name": "Crosslang",
         "id": "crosslang",
         "type": [
-            "machine-translation-aggregator",
+            "machine-translation-router",
             "machine-translation-provider"
         ],
         "location": "Belgium",
@@ -231,7 +231,7 @@
         "name": "Custom.MT",
         "id": "custom-mt",
         "type": [
-            "machine-translation-aggregator"
+            "machine-translation-router"
         ],
         "location": "Prague",
         "founded": 2020,
@@ -262,7 +262,7 @@
         "name": "Eden AI",
         "id": "edenai",
         "type": [
-            "natural-language-processing-aggregator"
+            "natural-language-processing-router"
         ],
         "location": "France",
         "founded": 2020,
@@ -378,7 +378,7 @@
         "id": "human-science",
         "type": [
             "human-translation-service",
-            "machine-translation-aggregator"
+            "machine-translation-router"
         ],
         "founded": 1985,
         "location": "Japan",
@@ -441,7 +441,7 @@
         "name": "Intento",
         "id": "intento",
         "type": [
-            "machine-translation-aggregator"
+            "machine-translation-router"
         ],
         "location": "United States",
         "founded": 2016,
@@ -1325,7 +1325,7 @@
         "id": "tmxmall",
         "type": [
             "technology-provider",
-            "machine-translation-aggregator"
+            "machine-translation-router"
         ],
         "location": "China",
         "founded": 2014,
