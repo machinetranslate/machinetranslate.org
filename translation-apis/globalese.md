@@ -5,13 +5,8 @@ nav_order: 956
 layout: translation_api
 title: Globalese
 description: The Globalese machine translation API
-<<<<<<<< HEAD:translation-apis/globalese.md
 id: globalese
 parent: Translation APIs
-========
-id: globalese-api
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/globalese-api.md
 urls:
 - https://www.globalese-mt.com
 - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069899/Stock+corpora
@@ -228,7 +223,7 @@ supported_languages:
   variant_name: Simplified Chinese
 more_languages_by_request: true
 integrations:
-- slug: crowdin-tms
+- slug: crowdin
   name: Crowdin
   plugin: true
   urls:
@@ -238,11 +233,11 @@ integrations:
   plugin: true
   urls:
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069984/memoQ+connector
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   urls:
   - https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647135756/Phrase+connector
-- slug: smartcat-tms
+- slug: smartcat
   name: Smartcat
   plugin: true
   custom: true
@@ -261,15 +256,15 @@ integrations:
   name: translate5
   urls:
   - https://confluence.translate5.net/display/CON/GlobalesePreTranslation
-- slug: wordbee-tms
+- slug: wordbee
   name: Wordbee
   plugin: true
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
-- slug: wordfast-tms
+- slug: wordfast
   name: Wordfast
   urls: https://globalese.atlassian.net/wiki/spaces/DOCS/pages/2339569665/Cloud+text+translation+plugin+for+Wordfast+Anywhere
-- slug: xtm-tms
+- slug: xtm
   name: XTM
   plugin: true
   urls:

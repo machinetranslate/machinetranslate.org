@@ -136,9 +136,6 @@ quality_estimation_integrations:
 - slug: modelfront
   custom: true
   name: ModelFront
-- slug: taus-qe
-  custom: true
-  name: TAUS QE
 automatic_post_editing_integrations:
 - slug: modelfront
   custom: true

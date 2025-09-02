@@ -5,13 +5,8 @@ nav_order: 957
 layout: translation_api
 title: Kodensha MT
 description: The Kodensha MT machine translation API
-<<<<<<<< HEAD:translation-apis/kodensha.md
 id: kodensha
 parent: Translation APIs
-========
-id: kodensha-mt
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/kodensha-mt.md
 urls:
 - https://kodensha.j-server.com/LUCKDS/ns/tl.cgi/https://www.kodensha.jp/index/products/category/cloud/?SLANG=ja&TLANG=en&XMODE=0&XPARAM=q,SURL,trans_src,&XCHARSET=UTF-8&XPORG=,687474703a2f2f,,&XJSID=0#heading
 privacy_url: null
@@ -275,7 +270,7 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: true
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   active: false
 models: []
@@ -290,6 +285,7 @@ active: true
 seo:
   name: The Kodensha MT machine translation API
   type: Product
+redirect_from: kodensha-mt
 
 ---
 

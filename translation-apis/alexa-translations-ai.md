@@ -5,23 +5,8 @@ nav_order: 985
 layout: translation_api
 title: Alexa Translations A.I.
 description: The Alexa Translations A.I. machine translation API
-<<<<<<< HEAD:translation-apis/alexa-translations-ai.md
-=======
-<<<<<<<< HEAD:translation-apis/alexa-translations-ai-api.md
->>>>>>> b08f2b1d (Rename names back to their previous names):apis/alexa-translations-ai.md
-<<<<<<<< HEAD:translation-apis/alexa-translations-ai.md
 id: alexa-translations-ai
 parent: Translation APIs
-========
-id: alexa-translations-ai-api
-<<<<<<< HEAD:translation-apis/alexa-translations-ai.md
-=======
-========
-id: alexa-translations-ai
->>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/alexa-translations-ai.md
->>>>>>> b08f2b1d (Rename names back to their previous names):apis/alexa-translations-ai.md
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/alexa-translations-ai-api.md
 urls:
 - https://alexatranslations.com/alexa-translations-a-i
 privacy_url: null
@@ -110,11 +95,7 @@ integrations:
   name: memoQ
   urls:
   - https://docs.memoq.com/current/en/Places/alexa-ai-plugin-settings.html
-<<<<<<< HEAD:translation-apis/alexa-translations-ai.md
-- slug: phrase-tms
-=======
 - slug: phrase
->>>>>>> b08f2b1d (Rename names back to their previous names):apis/alexa-translations-ai.md
   name: Phrase TMS
 - slug: trados
   name: Trados Studio
@@ -122,6 +103,13 @@ integrations:
   urls:
   - https://appstore.rws.com/plugin/149/
 models: []
+company:
+  id: alexa-translations-ai
+  name: Alexa Translations A.I.
+more_by_company:
+- translation_apis:
+  - id: alexa-translations-ai
+    name: Alexa Translations A.I.
 active: true
 seo:
   name: The Alexa Translations A.I. machine translation API

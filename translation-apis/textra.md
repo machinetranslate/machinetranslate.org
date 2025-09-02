@@ -625,7 +625,7 @@ integrations:
   name: memoQ
   urls:
   - https://docs.memoq.com/current/en/Places/textra-plugin-settings.html
-- slug: omegat-cat
+- slug: omegat
   name: OmegaT
   plugin: true
   urls: https://codeberg.org/miurahr/omegat-textra-plugin

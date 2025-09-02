@@ -7,7 +7,9 @@ title: Smart Review
 description: The Smart Review translation quality estimation API
 tagline: Trados Copilot Smart Review
 id: smart-review
-company: rws
+company:
+  id: rws
+  name: RWS
 parent: Quality estimation
 urls:
 - https://docs.rws.com/en-US/trados-enterprise-%26-accelerate-791595/using-smart-review-1140149
@@ -357,6 +359,38 @@ customisation: true
 integrations:
 - slug: trados
   name: Trados Studio
+more_by_company:
+- translation_apis:
+  - id: iconic
+    name: Iconic
+  - id: language-weaver
+    name: Language Weaver
+  - id: ltgear
+    name: LT Gear
+  - id: moraviamt
+    name: MoraviaMT
+- tms:
+  - id: worldserver
+    name: WorldServer
+    type: Translation management systems
+  - id: groupshare
+    name: GroupShare
+    type: Translation management systems
+  - id: multitrans
+    name: Multitrans
+    type: Translation management systems
+  - id: passolo
+    name: Passolo
+    type: Computer-aided translation tools
+  - id: sdl
+    name: SDL TMS
+    type: Translation management systems
+  - id: trados
+    name: Trados Studio
+    type: Computer-aided translation tools
+- automatic_post_editing_apis:
+  - id: language-weaver
+    name: Language Weaver
 active: true
 seo:
   name: The Smart Review translation quality estimation API

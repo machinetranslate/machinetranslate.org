@@ -5,23 +5,8 @@ nav_order: 999
 layout: translation_api
 title: Acolad
 description: The Acolad machine translation API
-<<<<<<< HEAD:translation-apis/acolad.md
-=======
-<<<<<<<< HEAD:translation-apis/acolad-api.md
->>>>>>> b08f2b1d (Rename names back to their previous names):apis/acolad.md
-<<<<<<<< HEAD:translation-apis/acolad.md
 id: acolad
 parent: Translation APIs
-========
-id: acolad-api
-<<<<<<< HEAD:translation-apis/acolad.md
-=======
-========
-id: acolad
->>>>>>>> b08f2b1d (Rename names back to their previous names):translation-apis/acolad.md
->>>>>>> b08f2b1d (Rename names back to their previous names):apis/acolad.md
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/acolad-api.md
 urls:
 - https://www.acolad.com/en/technology/machine-translation.html
 privacy_url: null
@@ -33,16 +18,21 @@ inputs:
 supported_languages: []
 more_languages_by_request: false
 integrations:
-<<<<<<< HEAD:translation-apis/acolad.md
-- slug: xtm-tms
-=======
 - slug: xtm
->>>>>>> b08f2b1d (Rename names back to their previous names):apis/acolad.md
   name: XTM
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/acolad.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-acolad-mt-engine.html
 models: []
+company:
+  id: acolad
+  name: Acolad
+more_by_company:
+- translation_apis:
+  - id: acolad
+    name: Acolad
+  - id: ubiqus
+    name: Ubiqus NMT
 active: true
 seo:
   name: The Acolad machine translation API

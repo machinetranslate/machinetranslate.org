@@ -5,13 +5,8 @@ nav_order: 951
 layout: translation_api
 title: Apertium
 description: The Apertium machine translation API
-<<<<<<<< HEAD:translation-apis/apertium.md
 id: apertium
 parent: Translation APIs
-========
-id: apertium-api
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/apertium-api.md
 urls:
 - https://www.apertium.org
 - https://wiki.apertium.org/wiki/Main_Page
@@ -302,9 +297,9 @@ more_languages_by_request: true
 integrations:
 - slug: matecat
   name: MateCat
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
-- slug: omegat-cat
+- slug: omegat
   name: OmegaT
 models: []
 company:

@@ -5,13 +5,8 @@ nav_order: 973
 layout: translation_api
 title: Rozetta T-400
 description: The Rozetta T-400 machine translation API
-<<<<<<<< HEAD:translation-apis/rozetta.md
 id: rozetta
 parent: Translation APIs
-========
-id: rozetta-t-400
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/rozetta-t-400.md
 urls:
 - https://www.jukkou.com
 - https://www.jukkou.com/form/lang.html
@@ -175,7 +170,7 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
   glossary: true
@@ -197,6 +192,7 @@ active: true
 seo:
   name: The Rozetta T-400 machine translation API
   type: Product
+redirect_from: rozetta-t-400
 
 ---
 

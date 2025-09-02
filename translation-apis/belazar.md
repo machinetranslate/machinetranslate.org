@@ -5,13 +5,8 @@ nav_order: 997
 layout: translation_api
 title: Belazar
 description: The Belazar machine translation API
-<<<<<<<< HEAD:translation-apis/belazar.md
 id: belazar
 parent: Translation APIs
-========
-id: belazar-api
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/belazar-api.md
 urls:
 - http://belazar.info/belazar/index.php?page=belazar&lng=by
 privacy_url: null
@@ -35,7 +30,7 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: omegat-cat
+- slug: omegat
   name: OmegaT
 models: []
 company:

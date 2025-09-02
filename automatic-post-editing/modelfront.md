@@ -900,17 +900,8 @@ integrations:
 - slug: memoq
   name: memoQ
   custom: true
-- slug: phrase-tms
-  name: Phrase TMS
-  custom: true
 - slug: translate5
   name: translate5
-  custom: true
-- slug: worldserver
-  name: WorldServer
-  custom: true
-- slug: xtm
-  name: XTM
   custom: true
 company:
   id: modelfront

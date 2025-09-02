@@ -820,7 +820,7 @@
         "routing": true
     },
     {
-        "id": "omegat-cat",
+        "id": "omegat",
         "name": "OmegaT",
         "company": "omegat",
         "tms_url": "https://www.omegat.org",

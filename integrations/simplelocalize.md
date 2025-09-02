@@ -22,6 +22,10 @@ fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+company:
+  id: SimpleLocalize
+  name: Simplelocalize
+more_by_company: []
 seo:
   name: Machine translation API integrations in SimpleLocalize
   type: Product

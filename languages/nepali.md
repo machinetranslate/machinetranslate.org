@@ -66,18 +66,18 @@ supported_qe_apis:
   name: Omniscien Confidence Scores
 - id: phrase-mtqe
   name: Phrase MTQE
-- id: taus-qe
-  name: TAUS QE
+- id: taus
+  name: TAUS
 - id: modelfront
   name: ModelFront
 - id: modernmt-qe
   name: ModernMT
 supported_ape_apis:
-- id: mtrans-ape
+- id: mtrans
   name: MTrans
-- id: taus-epic-ape
+- id: taus-epic
   name: TAUS EPIC
-- id: modelfront-ape
+- id: modelfront
   name: ModelFront
 seo:
   name: Machine translation for Nepali

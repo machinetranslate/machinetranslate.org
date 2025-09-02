@@ -426,6 +426,7 @@ active: true
 seo:
   name: The Omniscien Technologies machine translation API
   type: Product
+redirect_from: omniscien-technologies
 
 ---
 

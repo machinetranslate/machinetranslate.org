@@ -5,13 +5,8 @@ nav_order: 990
 layout: translation_api
 title: Language Wire
 description: The Language Wire machine translation API
-<<<<<<<< HEAD:translation-apis/language-wire.md
 id: language-wire
 parent: Translation APIs
-========
-id: language-wire-api
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/language-wire-api.md
 urls:
 - https://www.languagewire.com/en/technology/languagewire-translate
 privacy_url: https://www.languagewire.com/en/info/terms-and-conditions

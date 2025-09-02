@@ -5,13 +5,8 @@ nav_order: 973
 layout: translation_api
 title: Reverso
 description: The Reverso machine translation API
-<<<<<<<< HEAD:translation-apis/reverso.md
 id: reverso
 parent: Translation APIs
-========
-id: reverso-api
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/reverso-api.md
 urls:
 - https://www.reverso.net/text-translation
 privacy_url: null
@@ -180,7 +175,7 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: wordbee-tms
+- slug: wordbee
   name: Wordbee
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings

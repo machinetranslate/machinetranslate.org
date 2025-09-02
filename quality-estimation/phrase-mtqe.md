@@ -354,10 +354,11 @@ only_compatible_mt_api: null
 only_compatible_tms:
 - id: phrase
   name: Phrase TMS
-  custom: false
-active: true
 customisation: false
-integrations: []
+integrations:
+- slug: phrase
+  name: Phrase TMS
+  custom: false
 more_by_company:
 - translation_apis:
   - id: phrase-nextmt
@@ -369,6 +370,7 @@ more_by_company:
 - quality_estimation_apis:
   - id: phrase-mtqe
     name: Phrase MTQE
+active: true
 seo:
   name: The Phrase MTQE translation quality estimation API
   type: Product

@@ -5,13 +5,8 @@ nav_order: 1000
 layout: translation_api
 title: Safaba
 description: The Safaba machine translation API
-<<<<<<<< HEAD:translation-apis/safaba.md
 id: safaba
 parent: Translation APIs
-========
-id: safaba-api
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/safaba-api.md
 urls: []
 privacy_url: null
 self_serve: null

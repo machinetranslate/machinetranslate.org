@@ -216,8 +216,6 @@ integrations:
 - slug: kantanstream
   name: KantanStream
   custom: false
-active: false
-integrations: []
 more_by_company:
 - translation_apis:
   - id: kantanmt
@@ -229,6 +227,7 @@ more_by_company:
 - quality_estimation_apis:
   - id: kantanqes
     name: KantanQES
+active: false
 seo:
   name: The KantanQES translation quality estimation API
   type: Product

@@ -5,13 +5,8 @@ nav_order: 978
 layout: translation_api
 title: Tencent Machine Translation
 description: The Tencent Machine Translation machine translation API
-<<<<<<<< HEAD:translation-apis/tencent.md
 id: tencent
 parent: Translation APIs
-========
-id: tencent-machine-translation
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/tencent-machine-translation.md
 urls:
 - https://cloud.tencent.com/product/tmt
 - https://cloud.tencent.com/document/api/551/15619
@@ -140,14 +135,14 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
-- slug: crowdin-tms
+- slug: crowdin
   name: Crowdin
   plugin: true
   urls:
   - https://store.crowdin.com/tencent
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
-- slug: omegat-cat
+- slug: omegat
   name: OmegaT
   plugin: true
   urls:
@@ -166,6 +161,7 @@ active: true
 seo:
   name: The Tencent Machine Translation machine translation API
   type: Product
+redirect_from: tencent-machine-translation
 
 ---
 

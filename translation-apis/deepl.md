@@ -5,13 +5,8 @@ nav_order: 946
 layout: translation_api
 title: DeepL
 description: The DeepL machine translation API
-<<<<<<<< HEAD:translation-apis/deepl.md
 id: deepl
 parent: Translation APIs
-========
-id: deepl-api
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/deepl-api.md
 urls:
 - https://www.deepl.com
 - https://www.deepl.com/en/docs-api/
@@ -234,7 +229,7 @@ integrations:
 - slug: across
   name: Across
   formality: true
-- slug: crowdin-tms
+- slug: crowdin
   name: Crowdin
   formality: true
   urls:
@@ -250,38 +245,34 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786901/sdl-multitrans/configuring-deepl
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   glossary: true
-- slug: omegat-cat
+- slug: omegat
   name: OmegaT
 - slug: passolo
   name: Passolo
   plugin: true
   urls:
   - https://appstore.rws.com/language/app/deepl-mt-provider-for-passolo/1088/
-<<<<<<<< HEAD:translation-apis/deepl.md
 - slug: simplelocalize
   name: SimpleLocalize
   formality: true
   glossary: true
 - slug: smartcat
-========
-- slug: smartcat-tms
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/deepl-api.md
   name: Smartcat
   urls:
   - https://www.smartcat.com/integrations/deepl/
-- slug: smartling-tms
+- slug: smartling
   name: Smartling
-- slug: tolgee-tms
+- slug: tolgee
   name: Tolgee
 - slug: trados
   name: Trados Studio
   plugin: true
   urls:
   - https://community.rws.com/product-groups/trados-portfolio/rws-appstore/w/wiki/3266/deepl-translation-provider
-- slug: transifex-tms
+- slug: transifex
   name: Transifex
   formality: true
 - slug: transitnxt
@@ -293,16 +284,16 @@ integrations:
   plugin: true
   urls:
   - https://confluence.translate5.net/display/CON/DeepL
-- slug: wordbee-tms
+- slug: wordbee
   name: Wordbee
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
-- slug: wordfast-tms
+- slug: wordfast
   name: Wordfast
   formality: true
-- slug: weglot-api
+- slug: weglot
   name: Weglot
-- slug: xtm-tms
+- slug: xtm
   name: XTM
   glossary: true
   formality: true

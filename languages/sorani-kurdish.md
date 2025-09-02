@@ -43,7 +43,7 @@ supported_qe_apis:
 - id: modernmt-qe
   name: ModernMT
 supported_ape_apis:
-- id: modelfront-ape
+- id: modelfront
   name: ModelFront
 seo:
   name: Machine translation for Sorani Kurdish

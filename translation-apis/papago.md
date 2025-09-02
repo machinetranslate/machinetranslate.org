@@ -118,6 +118,7 @@ active: true
 seo:
   name: The Papago Translation machine translation API
   type: Product
+redirect_from: papago-translation
 
 ---
 

@@ -5,13 +5,8 @@ nav_order: 934
 layout: translation_api
 title: SYSTRAN
 description: The SYSTRAN machine translation API
-<<<<<<<< HEAD:translation-apis/systran.md
 id: systran
 parent: Translation APIs
-========
-id: systran-api
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/systran-api.md
 urls:
 - https://www.systransoft.com
 - https://docs.systran.net/translatePro/en/index.html
@@ -353,7 +348,7 @@ more_languages_by_request: false
 integrations:
 - slug: across
   name: Across
-- slug: crowdin-tms
+- slug: crowdin
   name: Crowdin
   plugin: true
   urls:
@@ -369,10 +364,10 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786625/sdl-multitrans/configuring-systran
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
-- slug: smartling-tms
+- slug: smartling
   name: Smartling
 - slug: trados
   name: Trados Studio
@@ -382,14 +377,14 @@ integrations:
   - https://help.systrangroup.com/hc/en-us/articles/360025571833--Plugins-SDL-Trados-studio-connector-How-to-add-Systran-server-in-SDL-Trados-Studio
 - slug: transitnxt
   name: TransitNXT
-- slug: wordfast-tms
+- slug: wordfast
   name: Wordfast
   custom: true
   urls:
   - https://www.wordfast.net/wiki/Machine_Translation_Wordfast_Classic
 - slug: worldserver
   name: WorldServer
-- slug: xtm-tms
+- slug: xtm
   name: XTM
   urls:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/systran-pure-neural-.html

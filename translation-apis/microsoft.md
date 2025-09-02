@@ -5,13 +5,8 @@ nav_order: 870
 layout: translation_api
 title: Microsoft Translator
 description: The Microsoft Translator machine translation API
-<<<<<<<< HEAD:translation-apis/microsoft.md
 id: microsoft
 parent: Translation APIs
-========
-id: microsoft-translator
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/microsoft-translator.md
 urls:
 - https://translator.microsoft.com
 - https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
@@ -309,8 +304,8 @@ supported_languages:
   variant_name: null
 - slug: kurdish
   code: kmr
-  normalized_code: kmr
-  base_code: kmr
+  normalized_code: ku
+  base_code: ku
   name: Kurdish
   variant_name: null
 - slug: kannada
@@ -325,11 +320,11 @@ supported_languages:
   base_code: ko
   name: Korean
   variant_name: null
-- slug: kurdish
+- slug: sorani-kurdish
   code: ku
-  normalized_code: ku
-  base_code: ku
-  name: Kurdish
+  normalized_code: ckb
+  base_code: ckb
+  name: Sorani Kurdish
   variant_name: null
 - slug: kyrgyz
   code: ky
@@ -687,7 +682,7 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: crowdin-tms
+- slug: crowdin
   name: Crowdin
   custom: true
   urls:
@@ -707,24 +702,24 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786613/sdl-multitrans/configuring-microsoft-translator
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
   glossary: true
-- slug: omegat-cat
+- slug: omegat
   name: OmegaT
 - slug: passolo
   name: Passolo
   custom: true
-- slug: smartcat-tms
+- slug: smartcat
   name: Smartcat
   custom: true
   urls:
   - https://www.smartcat.com/integrations/microsoft-translator/
-- slug: smartling-tms
+- slug: smartling
   name: Smartling
   custom: true
-- slug: tolgee-tms
+- slug: tolgee
   name: Tolgee
 - slug: trados
   name: Trados Studio
@@ -732,7 +727,7 @@ integrations:
   custom: true
   urls:
   - https://appstore.rws.com/language/app/mt-enhanced-plugin-for-trados-studio/604/
-- slug: transifex-tms
+- slug: transifex
   name: Transifex
 - slug: transitnxt
   name: TransitNXT
@@ -740,17 +735,17 @@ integrations:
   name: translate5
   urls:
   - https://confluence.translate5.net/display/BUS/MS+Translator+Microsoft
-- slug: wordbee-tms
+- slug: wordbee
   name: Wordbee
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
-- slug: wordfast-tms
+- slug: wordfast
   name: Wordfast
   urls:
   - https://learn.microsoft.com/en-us/azure/cognitive-services/Translator/create-translator-resource
-- slug: weglot-api
+- slug: weglot
   name: Weglot
-- slug: xtm-tms
+- slug: xtm
   name: XTM
   custom: true
   urls:
@@ -768,6 +763,7 @@ active: true
 seo:
   name: The Microsoft Translator machine translation API
   type: Product
+redirect_from: microsoft-translator
 
 ---
 

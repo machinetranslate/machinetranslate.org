@@ -5,13 +5,8 @@ nav_order: 998
 layout: translation_api
 title: Tarjama MT
 description: The Tarjama MT machine translation API
-<<<<<<<< HEAD:translation-apis/tarjama.md
-id: tarjama
-parent: Translation APIs
-========
 id: tarjama-mt
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/tarjama-mt.md
+parent: Translation APIs
 urls:
 - https://www.tarjama.com/amt/
 - https://github.com/machinetranslate/machinetranslate.org/blob/c7a75040f1bdfce144272231a7d253273b58cb33/files/C-TarjamaMTAPIDescription-150622-0817.pdf

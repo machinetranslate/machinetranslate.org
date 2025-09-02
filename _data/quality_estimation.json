@@ -4342,7 +4342,7 @@
     },
     {
         "name": "ModernMT",
-        "id": "modernmt-qe",
+        "id": "modernmt",
         "company": "translated", 
         "tagline": "Adaptive quality estimation",
         "languages": [

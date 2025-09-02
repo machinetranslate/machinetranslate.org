@@ -112,10 +112,6 @@ quality_estimation_integrations:
 - slug: modelfront
   custom: true
   name: ModelFront
-automatic_post_editing_integrations:
-- slug: modelfront-ape
-  custom: true
-  name: ModelFront
 automatic_post_editing_integrations: []
 company:
   id: phrase

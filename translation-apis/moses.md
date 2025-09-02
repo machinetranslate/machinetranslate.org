@@ -24,7 +24,7 @@ integrations:
   name: GlobalLink
 - slug: matecat
   name: MateCat
-- slug: omegat-cat
+- slug: omegat
   name: OmegaT
 - slug: translate5
   name: translate5

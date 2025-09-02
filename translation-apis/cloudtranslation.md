@@ -5,13 +5,8 @@ nav_order: 992
 layout: translation_api
 title: CloudTranslation
 description: The CloudTranslation machine translation API
-<<<<<<<< HEAD:translation-apis/cloudtranslation.md
 id: cloudtranslation
 parent: Translation APIs
-========
-id: cloudtranslation-api
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/cloudtranslation-api.md
 urls:
 - https://www.cloudtranslation.com
 - https://cloudtranslation.com/static/api_en.html

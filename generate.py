@@ -203,11 +203,11 @@ def supported_language_base_codes(file_name):
     SUPPORTED_LANGUAGE_BASE_CODES[api_id] = list(set(codes))
   return SUPPORTED_LANGUAGE_BASE_CODES
 
-_APIS_BY_ID = {api['id']: api for api in APIS}
+_APIS_BY_ID = {api['id']: api for api in TRANSLATION_APIS}
 QE_APIS_BY_ID = {api['id']: api for api in QUALITY_ESTIMATION}
 APE_APIS_BY_ID = {api['id']: api for api in AUTOMATIC_POST_EDITING}
 TMS_BY_ID = {tms['id']: tms for tms in INTEGRATIONS}
-ROUTERS_BY_ID = {router['id']: router for router in AGGREGATORS}
+ROUTERS_BY_ID = {router['id']: router for router in ROUTERS}
 MODELS_BY_ID = {model['id']: model for model in MODELS}
 COMPANIES_BY_ID = {company['id']: company for company in COMPANIES}
 
@@ -770,7 +770,7 @@ for r in ROUTERS:
     r_urls = r['urls']
     r_self_serve = r.get('self-serve', False)
     
-    company_id = a['company']
+    company_id = r['company']
     company_info = COMPANIES_BY_ID.get(company_id, {})
     company_name = company_info.get('name')
     if not company_name:
@@ -780,7 +780,7 @@ for r in ROUTERS:
         'name': company_name
     }
     
-    more_by_company = get_more_by_company(a['company'])
+    more_by_company = get_more_by_company(r['company'])
 
     r_supported_apis = []
     for r in r['supported_apis']:

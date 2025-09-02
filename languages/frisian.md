@@ -45,14 +45,14 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
-- id: taus-qe
-  name: TAUS QE
+- id: taus
+  name: TAUS
 - id: modelfront
   name: ModelFront
 supported_ape_apis:
-- id: taus-epic-ape
+- id: taus-epic
   name: TAUS EPIC
-- id: modelfront-ape
+- id: modelfront
   name: ModelFront
 seo:
   name: Machine translation for Frisian

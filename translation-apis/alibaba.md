@@ -1325,6 +1325,7 @@ active: true
 seo:
   name: The Alibaba Translate machine translation API
   type: Product
+redirect_from: alibaba-translate
 
 ---
 

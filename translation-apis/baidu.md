@@ -5,13 +5,8 @@ nav_order: 797
 layout: translation_api
 title: Baidu Translate
 description: The Baidu Translate machine translation API
-<<<<<<<< HEAD:translation-apis/baidu.md
 id: baidu
 parent: Translation APIs
-========
-id: baidu-translate
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/baidu-translate.md
 urls:
 - https://ai.baidu.com/tech/mt/text_trans
 - https://ai.baidu.com/ai-doc/MT/4kqryjku9#语种列表
@@ -1232,11 +1227,11 @@ supported_languages:
   variant_name: null
 more_languages_by_request: false
 integrations:
-- slug: smartcat-tms
+- slug: smartcat
   name: Smartcat
   urls:
   - https://www.smartcat.com/integrations/baidu-translate/
-- slug: tolgee-tms
+- slug: tolgee
   name: Tolgee
   active: false
 models: []
@@ -1251,6 +1246,7 @@ active: true
 seo:
   name: The Baidu Translate machine translation API
   type: Product
+redirect_from: baidu-translate
 
 ---
 

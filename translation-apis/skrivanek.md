@@ -5,13 +5,8 @@ nav_order: 999
 layout: translation_api
 title: Skrivanek
 description: The Skrivanek machine translation API
-<<<<<<<< HEAD:translation-apis/skrivanek.md
 id: skrivanek
 parent: Translation APIs
-========
-id: skrivanek-api
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/skrivanek-api.md
 urls:
 - https://skrivanek.com/other-services/machine-translation/
 privacy_url: https://skrivanek.com/wp-content/uploads/2021/03/processing-and-protection-of-personal-data-in-skrivanek-0.pdf
@@ -24,7 +19,7 @@ inputs:
 supported_languages: []
 more_languages_by_request: false
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   active: false
 models: []

@@ -5,13 +5,8 @@ nav_order: 973
 layout: translation_api
 title: Tilde
 description: The Tilde machine translation API
-<<<<<<<< HEAD:translation-apis/tilde.md
 id: tilde
 parent: Translation APIs
-========
-id: tilde-api
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/tilde-api.md
 urls:
 - https://www.tilde.com/products-and-services/machine-translation
 - https://www.tilde.com/developers/machine-translation-api
@@ -169,7 +164,7 @@ integrations:
   glossary: true
   urls:
   - https://docs.memoq.com/current/en/Places/tilde-mt-plugin-settings.html
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
 - slug: trados
@@ -178,7 +173,7 @@ integrations:
   custom: true
   urls:
   - https://appstore.rws.com/plugin/118/
-- slug: wordbee-tms
+- slug: wordbee
   name: Wordbee
   custom: true
   urls:

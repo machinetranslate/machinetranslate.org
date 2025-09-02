@@ -374,7 +374,7 @@ integrations:
   name: Crowdin
   urls:
   - https://support.crowdin.com/enterprise/machine-translation/#watson-ibm-translator
-- slug: omegat-cat
+- slug: omegat
   name: OmegaT
 - slug: smartling
   name: Smartling
@@ -391,6 +391,7 @@ active: true
 seo:
   name: The Watson Language Translator machine translation API
   type: Product
+redirect_from: watson-language-translator
 
 ---
 

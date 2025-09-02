@@ -7,7 +7,9 @@ title: ModernMT
 description: The ModernMT translation quality estimation API
 tagline: Adaptive quality estimation
 id: modernmt-qe
-company: translated
+company:
+  id: translated
+  name: Translated
 parent: Quality estimation
 urls:
 - https://www.modernmt.com
@@ -1023,6 +1025,16 @@ integrations:
   name: MateCat
   urls:
   - https://guides.matecat.com/modernmt-mmt-plug-in
+more_by_company:
+- translation_apis:
+  - id: lara
+    name: Lara
+  - id: modernmt
+    name: ModernMT
+- tms:
+  - id: matecat
+    name: MateCat
+    type: Computer-aided translation tools
 active: true
 seo:
   name: The ModernMT translation quality estimation API

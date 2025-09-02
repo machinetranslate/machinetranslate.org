@@ -5,13 +5,8 @@ nav_order: 999
 layout: translation_api
 title: Lingua Custodia
 description: The Lingua Custodia machine translation API
-<<<<<<<< HEAD:translation-apis/lingua-custodia.md
 id: lingua-custodia
 parent: Translation APIs
-========
-id: lingua-custodia-api
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/lingua-custodia-api.md
 urls:
 - https://www.linguacustodia.finance/en/welcome/
 privacy_url: https://www.linguacustodia.finance/en/lingua-custodia-privacy-policy/
@@ -24,7 +19,7 @@ inputs:
 supported_languages: []
 more_languages_by_request: false
 integrations:
-- slug: wordbee-tms
+- slug: wordbee
   name: Wordbee
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings

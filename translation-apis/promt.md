@@ -5,13 +5,8 @@ nav_order: 955
 layout: translation_api
 title: PROMT
 description: The PROMT machine translation API
-<<<<<<<< HEAD:translation-apis/promt.md
 id: promt
 parent: Translation APIs
-========
-id: promt-api
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/promt-api.md
 urls:
 - https://www.promt.com
 - https://www.promt.com/translation_software/corporate/developer/promt-cloud
@@ -276,11 +271,11 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786621/sdl-multitrans/configuring-promt
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
   glossary: true
-- slug: smartling-tms
+- slug: smartling
   name: Smartling
 models: []
 company:

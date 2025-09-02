@@ -246,7 +246,6 @@ only_compatible_mt_api:
 only_compatible_tms: null
 customisation: true
 integrations: []
-active: true
 more_by_company:
 - translation_apis:
   - id: omniscien
@@ -254,6 +253,7 @@ more_by_company:
 - quality_estimation_apis:
   - id: omniscien-confidence-scores
     name: Omniscien Confidence Scores
+active: true
 seo:
   name: The Omniscien Confidence Scores translation quality estimation API
   type: Product

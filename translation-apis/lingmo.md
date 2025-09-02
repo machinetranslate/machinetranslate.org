@@ -5,13 +5,8 @@ nav_order: 973
 layout: translation_api
 title: Lingmo Translation
 description: The Lingmo Translation machine translation API
-<<<<<<<< HEAD:translation-apis/lingmo.md
 id: lingmo
 parent: Translation APIs
-========
-id: lingmo-translation
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/lingmo-translation.md
 urls:
 - https://lingmointernationalnet.wordpress.com
 - http://live.lingmo-api.com/support/lingmo-translation-languages.html
@@ -199,6 +194,7 @@ active: true
 seo:
   name: The Lingmo Translation machine translation API
   type: Product
+redirect_from: lingmo-translation
 
 ---
 

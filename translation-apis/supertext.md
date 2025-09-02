@@ -5,13 +5,8 @@ nav_order: 971
 layout: translation_api
 title: Supertext
 description: The Supertext machine translation API
-<<<<<<<< HEAD:translation-apis/textshuttle.md
-id: textshuttle
-parent: Translation APIs
-========
 id: supertext
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/supertext.md
+parent: Translation APIs
 urls:
 - https://www.supertext.com
 - https://www.supertext.com/en/documentation/api

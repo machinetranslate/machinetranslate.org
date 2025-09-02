@@ -5,13 +5,8 @@ nav_order: 989
 layout: translation_api
 title: Lucy
 description: The Lucy machine translation API
-<<<<<<<< HEAD:translation-apis/lucy.md
 id: lucy
 parent: Translation APIs
-========
-id: lucy-api
-parent: APIs
->>>>>>>> 061d7506 (Change IDs to avoid duplicate slugs):translation-apis/lucy-api.md
 urls:
 - https://web.archive.org/web/20181215110852/http://www.lucysoftware.com/english/machine-translation/
 privacy_url: https://web.archive.org/web/20180922112117/http://www.lucysoftware.com/english/machine-translation/data-security/lucy-lt-data-security.html
