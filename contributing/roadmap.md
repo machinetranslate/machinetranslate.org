@@ -41,7 +41,7 @@ community_search_exclude: true
 - [Pricing \[#77\]](https://github.com/machinetranslate/machinetranslate.org/issues/77)
 - [Licensing and terms \[#78\]](https://github.com/machinetranslate/machinetranslate.org/issues/78)
 
-### ~~[Translation APIs](/translation-apis)~~
+### ~~[Translation APIs](/apis)~~
 
 ### Languages
 
