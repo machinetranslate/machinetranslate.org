@@ -151,7 +151,7 @@ defaults:
       path: routers
       type: pages
     values:
-      permalink: /aggregators/:basename
+      permalink: /routers/:basename
       seo:
         type: ItemList
   - scope:
