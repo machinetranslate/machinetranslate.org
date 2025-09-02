@@ -20,13 +20,7 @@ supported_apis:
   name: Microsoft Translator
 - slug: papago
   name: Papago Translation
-integrations:
-- slug: crowdin
-  name: Crowdin
-  plugin: true
-  glossary: true
-  urls:
-  - https://store.crowdin.com/mtrans
+integrations: []
 self-serve: false
 company:
   id: human-science

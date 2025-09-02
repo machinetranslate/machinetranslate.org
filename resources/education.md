@@ -51,7 +51,7 @@ This course is no longer offered, it is now a part of the course “Natural lang
 ## Karlsruhe Institute of Technology
 
 The **Machine Translation** course is a massive open online course from Karlsruhe Institute of Technology.
-This pre-recorded course is taught by Alexander Waibel, the co-founder of [KITES](/kites), and Jan Niehus.
+This pre-recorded course is taught by Alexander Waibel, the co-founder of [KITES](/companies#kites), and Jan Niehus.
 
 [coursera.org/learn/machinetranslation](https://www.coursera.org/learn/machinetranslation)
 
@@ -82,7 +82,7 @@ This interactive class is designed for project managers, vendors, buyers, decisi
 
 ## Intento
 
-The **Machine Translation University** is a set of free online learning resources from [Intento](/intento).
+The **Machine Translation University** is a set of free online learning resources from [Intento](/routers/intento).
 These resources are designed for localization specialists and buyers.
 
 [inten.to/machine-translation-university/](https://inten.to/machine-translation-university/)

@@ -15,8 +15,6 @@ supported_apis:
   name: Baidu Translate
 - id: alibaba
   name: Alibaba Translate
-- id: meta-nllb
-  name: Meta NLLB-200
 supported_qe_apis: []
 seo:
   name: Machine translation for <code>rom</code>

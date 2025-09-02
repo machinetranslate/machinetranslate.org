@@ -100,7 +100,7 @@ parent: Routers
     <ul>
       {% for i in page.integrations %}
       <li>
-        <a href="/{{ i.slug }}">{{ i.name }}</a> {% if i.plugin %}(plugin){% endif %}
+        <a href="/integrations/{{ i.slug }}">{{ i.name }}</a> {% if i.plugin %}(plugin){% endif %}
         {% if i.custom or i.glossary or i.formality %}
           {% if i.custom %}| <strong>fine-tuning</strong> support{% endif %}
           {% if i.glossary %}| <strong>glossary</strong> support{% endif %}
@@ -207,7 +207,7 @@ parent: Routers
           <summary>Routers</summary>
           <ul>
             {% for i in visible_items %}
-              <li><a href="/aggregators/{{ i.id }}">{{ i.name }}</a></li>
+              <li><a href="/routers/{{ i.id }}">{{ i.name }}</a></li>
             {% endfor %}
           </ul>
         </details>

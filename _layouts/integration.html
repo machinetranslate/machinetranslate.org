@@ -91,7 +91,7 @@ parent: Integrations
     <ul>
     {% for qe in page.quality_estimation_integrations %}
       <li>
-        <a href="/{{ qe.slug }}">{{ qe.name }}</a> {% if qe.plugin %}(plugin){% endif %}
+        <a href="/quality-estimation/{{ qe.slug }}">{{ qe.name }}</a> {% if qe.plugin %}(plugin){% endif %}
           {% if qe.custom %}
             {% if qe.custom %}| <strong>fine-tuning</strong> support{% endif %}
           {% endif %}
@@ -113,7 +113,7 @@ parent: Integrations
     <ul>
     {% for ape in page.automatic_post_editing_integrations %}
       <li>
-        <a href="/{{ ape.slug }}">{{ ape.name }}</a> {% if ape.plugin %}(plugin){% endif %}
+        <a href="/automatic-post-editing/{{ ape.slug }}">{{ ape.name }}</a> {% if ape.plugin %}(plugin){% endif %}
           {% if ape.custom %}
             {% if ape.custom %}| <strong>fine-tuning</strong> support{% endif %}
           {% endif %}
@@ -223,7 +223,7 @@ parent: Integrations
         <summary>Routers</summary>
         <ul>
           {% for i in items %}
-            <li><a href="/aggregators/{{ i.id }}">{{ i.name }}</a></li>
+            <li><a href="/routers/{{ i.id }}">{{ i.name }}</a></li>
           {% endfor %}
         </ul>
       </details>

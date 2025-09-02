@@ -29,7 +29,7 @@ description:
 <ul>
   {% for api in fine_tuning_qe_apis %}
     <li>
-    <a href="/{{ api.id }}">
+    <a href="/quality-estimation/{{ api.id }}">
         {{ api.name }}
     </a>
     </li>

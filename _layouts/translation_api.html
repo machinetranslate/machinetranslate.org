@@ -122,7 +122,7 @@ parent: Translation APIs
     <dt>Models</dt>
     <dd>
       {% for model in page.models %}
-        <a href="/{{ model.slug }}">{{ model.name }}</a>{% unless forloop.last %}, {% endunless %}
+        <a href="/models/{{ model.slug }}">{{ model.name }}</a>{% unless forloop.last %}, {% endunless %}
       {% endfor %}
     </dd>
   {% endif %}
@@ -244,7 +244,7 @@ parent: Translation APIs
     <ul>
       {% for i in page.integrations %}
         <li>
-            <a href="/{{ i.slug }}" >{{ i.name }}</a>
+            <a href="/integrations/{{ i.slug }}" >{{ i.name }}</a>
         </li>
       {% endfor %}
     </ul>
@@ -347,7 +347,7 @@ parent: Translation APIs
         <summary>Routers</summary>
         <ul>
           {% for i in items %}
-            <li><a href="/aggregators/{{ i.id }}">{{ i.name }}</a></li>
+            <li><a href="/routers/{{ i.id }}">{{ i.name }}</a></li>
           {% endfor %}
         </ul>
       </details>
