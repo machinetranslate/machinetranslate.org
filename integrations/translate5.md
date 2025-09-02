@@ -55,6 +55,7 @@ automatic_post_editing_integrations:
 - slug: modelfront
   custom: true
   name: ModelFront
+router_api_integrations: []
 company:
   id: mittagqi
   name: MittagQI

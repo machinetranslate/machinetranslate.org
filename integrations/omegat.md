@@ -41,6 +41,7 @@ fuzzy_repair: true
 open-source: true
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+router_api_integrations: []
 company:
   id: omegat
   name: OmegaT

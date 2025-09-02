@@ -24,6 +24,7 @@ quality_estimation_integrations:
   custom: false
   name: Google Translation Hub MTQP
 automatic_post_editing_integrations: []
+router_api_integrations: []
 company:
   id: google
   name: Google

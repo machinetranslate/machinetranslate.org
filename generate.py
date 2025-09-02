@@ -169,24 +169,28 @@ def read_content(filepath):
     i += len('\n---\n')
     return page[i:].strip()
   
-def get_tms_by_id_and_key(id, key: str):
-  integrations = []
-  for tms in INTEGRATIONS:
-    for i in tms.get(key, []):
-      if i == id:
-        integrations.append({
-          'slug': tms['id'],
-          'name': tms['name']
-        })
-      elif isinstance(i, dict):
-        _id = next(iter(i))
-        if _id == id:
-          integrations.append({
-            'slug': tms['id'],
-            'name': tms['name'],
-            **i[id]
-          })
-  return integrations
+def get_tms_by_id_and_key(id, *keys: str):
+    integrations = []
+    for tms in INTEGRATIONS:
+        combined = []
+        for key in keys:
+            combined.extend(tms.get(key, []))
+
+        for i in combined:
+            if i == id:
+                integrations.append({
+                    'slug': tms['id'],
+                    'name': tms['name']
+                })
+            elif isinstance(i, dict):
+                _id = next(iter(i))
+                if _id == id:
+                    integrations.append({
+                        'slug': tms['id'],
+                        'name': tms['name'],
+                        **i[id]
+                    })
+    return integrations
 
 def supported_language_base_codes(file_name):
   SUPPORTED_LANGUAGE_BASE_CODES = {}
@@ -203,7 +207,7 @@ def supported_language_base_codes(file_name):
     SUPPORTED_LANGUAGE_BASE_CODES[api_id] = list(set(codes))
   return SUPPORTED_LANGUAGE_BASE_CODES
 
-_APIS_BY_ID = {api['id']: api for api in TRANSLATION_APIS}
+APIS_BY_ID = {api['id']: api for api in TRANSLATION_APIS}
 QE_APIS_BY_ID = {api['id']: api for api in QUALITY_ESTIMATION}
 APE_APIS_BY_ID = {api['id']: api for api in AUTOMATIC_POST_EDITING}
 TMS_BY_ID = {tms['id']: tms for tms in INTEGRATIONS}
@@ -222,7 +226,7 @@ def get_more_by_company(company_id):
   if company.get('apis', False):
     translation_apis = []
     for api_id in company['apis']:
-      api_data = _APIS_BY_ID.get(api_id)
+      api_data = APIS_BY_ID.get(api_id)
       translation_apis.append({
           'id': api_id,
           'name': api_data['name']
@@ -401,7 +405,7 @@ for api in TRANSLATION_APIS:
       else:
         UNLISTED_LANGUAGES[base_code] = 1
 
-  integrations = get_tms_by_id_and_key(api_id, 'translation_api_integrations')
+  integrations = get_tms_by_id_and_key(api_id, 'translation_api_integrations', 'router_api_integrations')
 
   if prompt_required:
     desc = f'The { name } API for machine translation'
@@ -634,9 +638,6 @@ for code, count in sorted(UNLISTED_LANGUAGES.items(), key=lambda x: x[1] * 10 - 
 
 
 # Generate TMS files
-QE_APIS_BY_ID = {api['id']: api for api in QUALITY_ESTIMATION}
-TRANSLATION_APIS_BY_ID = {api['id']: api for api in TRANSLATION_APIS + ROUTERS}
-APE_APIS_BY_ID = {api['id']: api for api in AUTOMATIC_POST_EDITING}
 for tms in INTEGRATIONS:
     tms_id = tms['id']
     # print(tms_id)
@@ -691,7 +692,7 @@ for tms in INTEGRATIONS:
           integration_slug = integration
           integration_data['slug'] = integration_slug
         
-        integration_data['name'] = TRANSLATION_APIS_BY_ID[integration_slug]['name']
+        integration_data['name'] = APIS_BY_ID[integration_slug]['name']
 
         translation_api_integrations.append(integration_data)
       except KeyError:
@@ -713,6 +714,25 @@ for tms in INTEGRATIONS:
         integration_data['name'] = APE_APIS_BY_ID[integration_slug]['name']
 
         ape_integrations.append(integration_data)
+      except KeyError:
+        pass
+      
+    router_integrations = []
+    for router in tms.get('router_api_integrations', []):
+      try:
+        router_data = {}
+        if isinstance(router, dict):
+          router_slug = list(router.keys())[0]
+          router_data['slug'] = router_slug
+          for k, v in router[router_slug].items():
+            router_data[k] = v 
+        else:
+          router_slug = router
+          router_data['slug'] = router_slug
+        
+        router_data['name'] = ROUTERS_BY_ID[router_slug]['name']
+
+        router_integrations.append(router_data)
       except KeyError:
         pass
 
@@ -742,6 +762,7 @@ for tms in INTEGRATIONS:
       'open-source': tms_open_source,
       'quality_estimation_integrations': qe_api_integrations,
       'automatic_post_editing_integrations': ape_integrations,
+      'router_api_integrations': router_integrations,
       'company': company,
       'more_by_company': more_by_company,
       'seo': {
@@ -795,14 +816,14 @@ for r in ROUTERS:
           r_slug = r
           r_data['slug'] = r_slug
         
-        r_data['name'] = TRANSLATION_APIS_BY_ID[r_slug]['name']
+        r_data['name'] = APIS_BY_ID[r_slug]['name']
 
         r_supported_apis.append(r_data)
       except KeyError:
         pass
     
-    integrations = get_tms_by_id_and_key(r_id, 'translation_api_integrations')
-
+    integrations = get_tms_by_id_and_key(r_id, 'router_api_integrations')
+    
     desc = f'The { r_name } machine translation API router'
 
     frontmatter = {

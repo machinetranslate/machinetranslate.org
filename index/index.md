@@ -16,6 +16,7 @@ The **Machine Translate Foundation** is building **open information** and **comm
 {% for tms in site.data.integrations %}
   {% assign integration_count = integration_count 
     | plus: tms.translation_api_integrations.size 
+    | plus: tms.router_api_integrations.size 
     | plus: tms.quality_estimation_api_integrations.size 
     | plus: tms.automatic_post_editing_api_integrations.size %}
 {% endfor %}

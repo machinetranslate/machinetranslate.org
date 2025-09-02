@@ -154,13 +154,7 @@ supported_languages:
   base_code: zh
   name: Chinese
   variant_name: Traditional Chinese
-integrations:
-- slug: crowdin
-  name: Crowdin
-  plugin: true
-  glossary: true
-  urls:
-  - https://store.crowdin.com/mtrans
+integrations: []
 company:
   id: human-science
   name: Human Science

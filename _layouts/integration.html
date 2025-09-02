@@ -12,11 +12,12 @@ parent: Integrations
 
 <hr/>
 
+{% assign combined = page.translation_api_integrations | concat: page.router_api_integrations %}
 <p>
   The <strong>{{ page.title }}</strong> {{ page.type_description }} has
-  <a href="#machine-translation">{{ page.translation_api_integrations | size }} machine translation API integration{% if page.translation_api_integrations.size != 1 %}s{% endif %}</a>,
+  <a href="#machine-translation">{{ combined | size }} machine translation API integration{% if combined.size != 1 %}s{% endif %}</a>,
   <a href="#quality-estimation">{{ page.quality_estimation_integrations | size }} translation quality estimation API integration{% if page.quality_estimation_integrations.size != 1 %}s{% endif %}</a> and 
-  <a href="#automatic-post-editing">{{ page.automatic_post_editing_integrations | size }} automatic post editing API integration{% if page.automatic_post_editing_integrations.size != 1 %}s{% endif %}</a>.
+  <a href="#automatic-post-editing">{{ page.automatic_post_editing_integrations | size }} aßutomatic post editing API integration{% if page.automatic_post_editing_integrations.size != 1 %}s{% endif %}</a>.
 </p>
 
 <blockquote>
@@ -24,7 +25,7 @@ parent: Integrations
 
     <dt>API support</dt>
     <dd>
-      <a href="#machine-translation">{{ page.translation_api_integrations.size }} machine translation API{% if page.translation_api_integrations.size != 1 %}s{% endif %}</a>,
+      <a href="#machine-translation">{{ combined | size }} machine translation API{% if combined.size != 1 %}s{% endif %}</a>,
     </dd>
     <dd>
       <a href="#quality-estimation">{{ page.quality_estimation_integrations.size }} quality estimation API{% if page.quality_estimation_integrations.size != 1 %}s{% endif %}</a>,
@@ -58,10 +59,10 @@ parent: Integrations
   <h2>Machine translation</h2>
   <details>
     <summary>
-      <strong>{{ page.translation_api_integrations | size }}</strong> machine translation API integrations are available for {{ page.title }}.
+      <strong>{{ combined | size }}</strong> machine translation API integrations are available for {{ page.title }}.
       <p class="preview hint">
-        {{ page.translation_api_integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
-        {% if page.translation_api_integrations.size > 5 %}, …{% endif %}
+        {{ combined | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if combined.size > 5 %}, …{% endif %}
       </p>
     </summary>
     <ul>
@@ -75,6 +76,17 @@ parent: Integrations
           {% endif %}
       </li>
     {% endfor %}
+    {% for api in page.router_api_integrations %}
+      <li>
+          <a href="/routers/{{ api.slug }}">{{ api.name }}</a> {% if api.plugin %}(plugin){% endif %}
+          {% if api.custom or api.glossary or api.formality %}
+            {% if api.custom %}| <strong>fine-tuning</strong> support{% endif %}
+            {% if api.glossary %}| <strong>glossary</strong> support{% endif %}
+            {% if api.formality %}| <strong>formality</strong> support{% endif %}
+          {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
   </details>
 </section>
 
@@ -97,6 +109,7 @@ parent: Integrations
           {% endif %}
       </li>
     {% endfor %}
+    </ul>
   </details>
 </section>
 

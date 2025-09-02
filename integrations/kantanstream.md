@@ -25,6 +25,7 @@ quality_estimation_integrations:
   custom: false
   name: KantanQES
 automatic_post_editing_integrations: []
+router_api_integrations: []
 company:
   id: kantanmt
   name: Kantanmt

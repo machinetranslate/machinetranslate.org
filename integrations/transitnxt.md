@@ -35,6 +35,7 @@ fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+router_api_integrations: []
 company:
   id: star-group
   name: STAR Group
