@@ -38,7 +38,7 @@ supported_apis:
 - id: alibaba
   name: Alibaba Translate
 supported_qe_apis:
-- id: modernmt-qe
+- id: modernmt
   name: ModernMT
 supported_ape_apis: []
 seo:

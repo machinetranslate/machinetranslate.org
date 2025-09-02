@@ -563,7 +563,10 @@ supported_languages:
 only_compatible_mt_api: null
 only_compatible_tms: null
 customisation: false
-integrations: []
+integrations:
+- slug: memoq
+  name: memoQ
+  custom: true
 more_by_company:
 - automatic_post_editing_apis:
   - id: taus-epic

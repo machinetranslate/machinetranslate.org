@@ -116,7 +116,10 @@ quality_estimation_integrations:
 - slug: modelfront
   custom: true
   name: ModelFront
-automatic_post_editing_integrations: []
+automatic_post_editing_integrations:
+- slug: modelfront
+  custom: true
+  name: ModelFront
 company:
   id: xtm
   name: XTM

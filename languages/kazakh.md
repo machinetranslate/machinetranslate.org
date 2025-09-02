@@ -72,7 +72,7 @@ supported_qe_apis:
   name: TAUS
 - id: modelfront
   name: ModelFront
-- id: modernmt-qe
+- id: modernmt
   name: ModernMT
 supported_ape_apis:
 - id: taus-epic

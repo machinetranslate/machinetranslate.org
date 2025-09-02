@@ -352,7 +352,7 @@
         ],
         "quality_estimation_integrations": [
             {
-                "modernmt-qe": {
+                "modernmt": {
                     "urls": [
                         "https://guides.matecat.com/modernmt-mmt-plug-in"
                     ]
@@ -576,7 +576,7 @@
                }
             },
             {
-                "taus-qe": {
+                "taus": {
                     "custom": true
                }
             }
@@ -812,7 +812,7 @@
         ],
         "automatic_post_editing_integrations":[
             {
-                "modelfront-ape": {
+                "modelfront": {
                     "custom": true
                }
             }
@@ -1794,7 +1794,7 @@
         ],
         "automatic_post_editing_integrations":[
             {
-                "modelfront-ape": {
+                "modelfront": {
                     "custom": true
                }
             }
@@ -1982,7 +1982,7 @@
         ],
         "automatic_post_editing_integrations":[
             {
-                "modelfront-ape": {
+                "modelfront": {
                     "custom": true
                }
             }

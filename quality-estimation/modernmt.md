@@ -6,7 +6,7 @@ layout: quality_estimation
 title: ModernMT
 description: The ModernMT translation quality estimation API
 tagline: Adaptive quality estimation
-id: modernmt-qe
+id: modernmt
 company:
   id: translated
   name: Translated

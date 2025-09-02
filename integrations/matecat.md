@@ -48,7 +48,7 @@ translation_api_integrations:
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations:
-- slug: modernmt-qe
+- slug: modernmt
   urls:
   - https://guides.matecat.com/modernmt-mmt-plug-in
   name: ModernMT

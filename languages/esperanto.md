@@ -55,7 +55,7 @@ supported_apis:
 supported_qe_apis:
 - id: taus
   name: TAUS
-- id: modernmt-qe
+- id: modernmt
   name: ModernMT
 supported_ape_apis:
 - id: taus-epic
