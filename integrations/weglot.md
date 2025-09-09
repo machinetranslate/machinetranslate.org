@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://www.weglot.com/
-api_integrations:
+translation_api_integrations:
 - slug: google
   name: Google Translate
 - slug: deepl
@@ -22,6 +22,7 @@ api_integrations:
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
+automatic_post_editing_integrations: []
 seo:
   name: Machine translation API integrations in Weglot
   type: Product

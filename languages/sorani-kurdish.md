@@ -38,8 +38,12 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
-- slug: modelfront
-  id: modelfront
+- id: modelfront
+  name: ModelFront
+- id: modernmt-qe
+  name: ModernMT
+supported_ape_apis:
+- id: modelfront-ape
   name: ModelFront
 seo:
   name: Machine translation for Sorani Kurdish

@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://www.memoq.com
-api_integrations:
+translation_api_integrations:
 - slug: alexa-translations-ai
   urls:
   - https://docs.memoq.com/current/en/Places/alexa-ai-plugin-settings.html
@@ -141,9 +141,13 @@ quality_estimation_integrations:
 - slug: modelfront
   custom: true
   name: ModelFront
-- slug: demt-estimate
+- slug: taus-qe
   custom: true
-  name: DeMT Estimate
+  name: TAUS QE
+automatic_post_editing_integrations:
+- slug: modelfront-ape
+  custom: true
+  name: ModelFront
 seo:
   name: Machine translation API integrations in memoQ
   type: Product

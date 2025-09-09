@@ -11,7 +11,7 @@ type:
 - cat
 type_description: computer-aided translation tool
 tms_url: https://www.omegat.org
-api_integrations:
+translation_api_integrations:
 - slug: apertium
   name: Apertium
 - slug: belazar
@@ -40,6 +40,7 @@ api_integrations:
 fuzzy_repair: true
 open-source: true
 quality_estimation_integrations: []
+automatic_post_editing_integrations: []
 seo:
   name: Machine translation API integrations in OmegaT
   type: Product

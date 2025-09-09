@@ -357,6 +357,7 @@ integrations:
 - slug: phrase-tms
   name: Phrase TMS
   custom: false
+active: true
 seo:
   name: The Phrase MTQE translation quality estimation API
   type: Product

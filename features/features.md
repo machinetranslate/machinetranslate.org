@@ -1,5 +1,5 @@
 ---
-nav_order: 12
+nav_order: 13
 title: Features
 has_children: true
 description: Features of machine translation APIs
@@ -7,10 +7,10 @@ seo:
     name: Features of machine translation APIs
 ---
 
-The **features** of machine translation vary across [machine translation APIs](/apis) and applications:
+The **features** of machine translation vary across [machine translation APIs](/translation-apis) and applications:
 
 - [Language support](/languages)
-- [File translation](/file-translation)
+- [File translation](/file)
 - [Customisation](/customisation)
 - [Data confidentiality](/data-confidentiality)
 - [Pricing](/pricing) and self-service

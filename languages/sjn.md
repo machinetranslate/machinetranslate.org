@@ -14,6 +14,7 @@ supported_apis:
 - id: yandex
   name: Yandex Translate
 supported_qe_apis: []
+supported_ape_apis: []
 seo:
   name: Machine translation for <code>sjn</code>
   type: Language

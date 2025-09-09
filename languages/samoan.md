@@ -48,11 +48,16 @@ supported_apis:
 - id: niutrans
   name: Niutrans
 supported_qe_apis:
-- slug: demt-estimate
-  id: demt-estimate
-  name: DeMT Estimate
-- slug: modelfront
-  id: modelfront
+- id: taus-qe
+  name: TAUS QE
+- id: modelfront
+  name: ModelFront
+- id: modernmt-qe
+  name: ModernMT
+supported_ape_apis:
+- id: taus-epic-ape
+  name: TAUS EPIC
+- id: modelfront-ape
   name: ModelFront
 seo:
   name: Machine translation for Samoan

@@ -79,6 +79,7 @@ integrations:
 - slug: translation-hub
   name: Google Cloud Translation Hub
   custom: false
+active: true
 seo:
   name: The Google Translation Hub MTQP translation quality estimation API
   type: Product

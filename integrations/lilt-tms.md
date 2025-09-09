@@ -11,7 +11,7 @@ type:
 - cat
 type_description: computer-aided translation tool
 tms_url: https://www.lilt.com
-api_integrations:
+translation_api_integrations:
 - slug: lilt
   custom: true
   glossary: true
@@ -22,6 +22,7 @@ api_integrations:
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
+automatic_post_editing_integrations: []
 seo:
   name: Machine translation API integrations in Lilt
   type: Product

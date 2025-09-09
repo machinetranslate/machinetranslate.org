@@ -12,7 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://www.star-group.net/en/products/translation-localization.html
-api_integrations:
+translation_api_integrations:
 - slug: deepl
   glossary: true
   formality: true
@@ -34,6 +34,7 @@ api_integrations:
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
+automatic_post_editing_integrations: []
 seo:
   name: Machine translation API integrations in TransitNXT
   type: Product
