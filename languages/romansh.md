@@ -29,7 +29,7 @@ typology:
 territories:
 - ch
 supported_apis:
-- id: textshuttle
+- id: supertext
   name: Supertext
 - id: baidu
   name: Baidu Translate

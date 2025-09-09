@@ -17,11 +17,11 @@ id: artificial-intelligence-and-language-technologies
 description: Omniscien Technologies webinar
 start_date: '2022-11-21'
 more_paragraphs:
-- The event is organised by <a href='/companies#omniscien-technologies'>Omniscien
-  Technologies.</a> <br> The speakers will be <a href='/philipp-koehn'>Philipp Koehn</a>
-  and Dion Wiggins. <br> <br> We will look at trends in Neural Machine Translation,
-  Speech Recognition, Text to Speech, Natural Language Processing, Artificial Intelligence,
-  Machine Learning, Data Mining, Text Analytics, and more.
+- The event is organised by <a href='/omniscien-technologies'>Omniscien Technologies.</a>
+  <br> The speakers will be <a href='/philipp-koehn'>Philipp Koehn</a> and Dion Wiggins.
+  <br> <br> We will look at trends in Neural Machine Translation, Speech Recognition,
+  Text to Speech, Natural Language Processing, Artificial Intelligence, Machine Learning,
+  Data Mining, Text Analytics, and more.
 location: Online
 organizer:
   type: Organization

@@ -95,6 +95,20 @@ models:
   slug: mistral
 - name: Mixtral
   slug: mixtral
+company:
+  id: mistral-ai
+  name: Mistral AI
+more_by_company:
+- translation_apis:
+  - id: mistral-ai
+    name: Mistral AI
+- models:
+  - id: voxtral
+    name: Voxtral
+  - id: mistral
+    name: Mistral
+  - id: mixtral
+    name: Mixtral
 active: true
 seo:
   name: The Mistral AI API for machine translation

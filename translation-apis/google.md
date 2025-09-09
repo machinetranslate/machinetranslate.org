@@ -1529,7 +1529,7 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786605/sdl-multitrans/configuring-google-translate-server
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
   glossary: true
@@ -1589,6 +1589,20 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/google-machine-translation.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-google-translate-mt-engine.html
 models: []
+company:
+  id: google
+  name: Google
+more_by_company:
+- translation_apis:
+  - id: google
+    name: Google Translate
+- tms:
+  - id: translation-hub
+    name: Google Cloud Translation Hub
+    type: Translation management systems
+- quality_estimation_apis:
+  - id: google-translation-hub-mtqp
+    name: Google Translation Hub MTQP
 active: true
 seo:
   name: The Google Translate machine translation API

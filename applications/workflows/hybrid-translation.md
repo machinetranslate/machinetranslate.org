@@ -14,9 +14,9 @@ Hybrid translation requires good machine translation.
 A signification portion of the machine translated segments should be usable as-is.
 
 > ### Workflow diagram
-> The hybrid translation workflow was first presented by Microsoft, VMWare and [Unbabel](/companies#unbabel).
+> The hybrid translation workflow was first presented by Microsoft, VMWare and [Unbabel](/unbabel).
 >
-> ##### Slide from a [ModelFront](/companies#modelfront) presentation
+> ##### Slide from a [ModelFront](/quality-estimation/modelfront) presentation
 > <img title='Hybrid translation workflow' src='/applications/workflows/hybrid-translation-workflow.png' width='700' style='padding: 1em;' />
 
 A risk **threshold** is set.
@@ -35,9 +35,9 @@ The key technology for a hybrid translation workflow is translation [**quality p
 
 ### Adoption
 
-At first, companies like Microsoft, [Unbabel](/companies#unbabel), VMWare and Wayfair implemented hybrid translation by researching and developing their own machine translation quality estimation.
+At first, companies like Microsoft, [Unbabel](/unbabel), VMWare and Wayfair implemented hybrid translation by researching and developing their own machine translation quality estimation.
 
-With the launch of the [ModelFront](/companies#modelfront) translation quality prediction API, more companies started to adopt the hybrid translation workflow within commercially available translation management systems.
+With the launch of the [ModelFront](/quality-estimation/modelfront) translation quality prediction API, more companies started to adopt the hybrid translation workflow within commercially available translation management systems.
 
 
 ---

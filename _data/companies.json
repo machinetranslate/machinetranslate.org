@@ -10,6 +10,9 @@
         "urls": [
             "https://www.across.net/en",
             "https://www.crunchbase.com/organization/across-systems"
+        ],
+        "tms": [
+            "across"
         ]
     },
     {
@@ -23,6 +26,9 @@
         "urls": [
             "https://www.aisa.digital/",
             "https://www.crunchbase.com/organization/aisa-digital"
+        ],
+        "apis": [
+            "aisa"
         ]
     },
     {
@@ -36,6 +42,9 @@
         "urls": [
             "https://alexatranslations.com/",
             "https://www.crunchbase.com/organization/alexa-translations-a-i"
+        ],
+        "apis": [
+            "alexa-translations-ai"
         ]
     },
     {
@@ -49,6 +58,13 @@
         "urls": [
             "https://www.alibabagroup.com/",
             "https://www.crunchbase.com/organization/alibaba"
+        ],
+        "apis": [
+            "alibaba",
+            "qwen-mt"
+        ],
+        "models": [
+            "qwen"
         ]
     },
     {
@@ -62,6 +78,10 @@
         "urls": [
             "https://aws.amazon.com/translate/",
             "https://www.crunchbase.com/organization/amazon"
+        ],
+        "apis": [
+            "amazon",
+            "safaba"
         ]
     },
     {
@@ -89,6 +109,9 @@
         "founded": 2004,
         "urls": [
             "https://apertium.org/"
+        ],
+        "apis": [
+            "apertium"
         ]
     },
     {
@@ -102,6 +125,9 @@
         "urls": [
             "https://www.apptek.com/",
             "https://www.crunchbase.com/organization/apptek"
+        ],
+        "apis": [
+            "apptek"
         ]
     },
     {
@@ -115,6 +141,9 @@
         "urls": [
             "http://www.baidu.com/",
             "https://www.crunchbase.com/organization/baidu"
+        ],
+        "apis": [
+            "baidu"
         ]
     },
     {
@@ -127,6 +156,9 @@
         "founded": 2010,
         "urls": [
             "http://belazar.info/"
+        ],
+        "apis": [
+            "belazar"
         ]
     },
     {
@@ -154,13 +186,16 @@
         "urls": [
             "https://cloudtranslation.com/",
             "https://www.crunchbase.com/organization/cloudtranslation"
+        ],
+        "apis": [
+            "cloudtranslation"
         ]
     },
     {
         "name": "Crosslang",
         "id": "crosslang",
         "type": [
-            "machine-translation-aggregator",
+            "machine-translation-router",
             "machine-translation-provider"
         ],
         "location": "Belgium",
@@ -168,6 +203,12 @@
         "urls": [
             "https://crosslang.com/",
             "https://www.crunchbase.com/organization/crosslang"
+        ],
+        "apis": [
+            "judicio"
+        ],
+        "routers": [
+            "crosslang"
         ]
     },
     {
@@ -181,18 +222,24 @@
         "urls": [
             "https://crowdin.com/",
             "https://www.crunchbase.com/organization/crowdin"
+        ],
+        "tms": [
+            "crowdin"
         ]
     },
     {
         "name": "Custom.MT",
         "id": "custom-mt",
         "type": [
-            "machine-translation-aggregator"
+            "machine-translation-router"
         ],
         "location": "Prague",
         "founded": 2020,
         "urls": [
             "https://custom.mt"
+        ],
+        "routers": [
+            "custom-mt"
         ]
     },
     {
@@ -206,19 +253,25 @@
         "urls": [
             "https://www.deepl.com/",
             "https://www.crunchbase.com/organization/linguee"
+        ],
+        "apis": [
+            "deepl"
         ]
     },
     {
         "name": "Eden AI",
         "id": "edenai",
         "type": [
-            "natural-language-processing-aggregator"
+            "natural-language-processing-router"
         ],
         "location": "France",
         "founded": 2020,
         "urls": [
             "https://www.edenai.co/",
             "https://www.crunchbase.com/organization/eden-ai"
+        ],
+        "routers": [
+            "edenai"
         ]
     },
     {
@@ -245,6 +298,9 @@
         "urls": [
             "https://www.elhuyar.eus/en",
             "https://www.crunchbase.com/organization/elhuyar"
+        ],
+        "apis": [
+            "elia"
         ]
     },
     {
@@ -258,6 +314,9 @@
         "urls": [
             "https://commission.europa.eu/index_en",
             "https://www.crunchbase.com/organization/european-commission"
+        ],
+        "apis": [
+            "etranslation"
         ]
     },
     {
@@ -271,6 +330,9 @@
         "urls": [
             "https://www.globalese-mt.com/",
             "https://www.crunchbase.com/organization/globalese"
+        ],
+        "apis": [
+            "globalese"
         ]
     },
     {
@@ -284,10 +346,20 @@
         "urls": [
             "https://cloud.google.com/",
             "https://www.crunchbase.com/organization/google-cloud-platform"
+        ],
+        "apis": [
+            "google"
+        ],
+        "tms": [
+            "translation-hub"
+        ],
+        "quality_estimation": [
+            "google-translation-hub-mtqp"
         ]
     },
     {
         "name": "GTCOM",
+        "id": "gtcom",
         "type": [
             "technology-provider"
         ],
@@ -296,6 +368,9 @@
         "urls": [
             "https://www.gtcom.com.cn/",
             "https://www.crunchbase.com/organization/global-tone-communication"
+        ],
+        "apis": [
+            "yeekit"
         ]
     },
     {
@@ -303,13 +378,20 @@
         "id": "human-science",
         "type": [
             "human-translation-service",
-            "machine-translation-aggregator"
+            "machine-translation-router"
         ],
         "founded": 1985,
         "location": "Japan",
         "urls": [
             "https://www.science.co.jp/",
             "https://www.crunchbase.com/organization/human-science"
+        ],
+        "routers": [
+            "human-science",
+            "mtrans"
+        ],
+        "automatic_post_editing": [
+            "mtrans"
         ]
     },
     {
@@ -323,11 +405,14 @@
         "urls": [
             "https://www.ibm.com/",
             "https://www.crunchbase.com/organization/ibm"
+        ],
+        "apis": [
+            "watson"
         ]
     },
     {
         "name": "Iconic Translation",
-        "id": "iconic",
+        "id": "iconic-translation",
         "type": [
             "machine-translation-provider"
         ],
@@ -356,7 +441,7 @@
         "name": "Intento",
         "id": "intento",
         "type": [
-            "machine-translation-aggregator"
+            "machine-translation-router"
         ],
         "location": "United States",
         "founded": 2016,
@@ -364,11 +449,14 @@
             "https://inten.to/",
             "https://www.crunchbase.com/organization/intento"
         ],
+        "routers": [
+            "intento"
+        ],
         "note": "Raised $4M from Berkeley Skydeck and angels"
     },
     {
         "name": "Kakao Corp",
-        "id": "kakao",
+        "id": "kakao-corp",
         "type": [
             "technology-provider"
         ],
@@ -391,8 +479,17 @@
             "https://www.kantanai.io/",
             "https://www.crunchbase.com/organization/kantanmt"
         ],
+        "apis": [
+            "kantanmt"
+        ],
+        "tms": [
+            "kantanstream"
+        ],
+        "quality_estimation": [
+            "kantanqes"
+        ],
         "acquired_by": {
-            "company": "Keyword Studios"
+            "company": "Keywords Studios"
         }
     },
     {
@@ -424,6 +521,9 @@
         "urls": [
             "https://kodensha.j-server.com/LUCKDS/ns/tl.cgi/https://www.kodensha.jp/index/?SLANG=ja&TLANG=en&XMODE=0&XPARAM=q,&XCHARSET=UTF-8&XPORG=,&XJSID=0",
             "https://www.crunchbase.com/organization/kodensha-031d"
+        ],
+        "apis": [
+            "kodensha"
         ]
     },
     {
@@ -451,6 +551,9 @@
         "urls": [
             "https://www.languagewire.com/",
             "https://www.crunchbase.com/organization/languagewire"
+        ],
+        "apis": [
+            "language-wire"
         ],
         "acquired_by": {
             "company": "Bridgepoint"
@@ -483,6 +586,12 @@
             "https://lilt.com/",
             "https://www.crunchbase.com/organization/lilt"
         ],
+        "apis": [
+            "lilt"
+        ],
+        "tms": [
+            "lilt"
+        ],
         "note": "Raised $37.5M from Sequoia, Redpoint, XSeed, Zetta and In-Q-Tel"
     },
     {
@@ -497,6 +606,9 @@
         "urls": [
             "https://linktr.ee/lingmo_ai",
             "https://www.crunchbase.com/organization/lingmo"
+        ],
+        "apis": [
+            "lingmo"
         ]
     },
     {
@@ -512,9 +624,11 @@
             "https://www.lingo24.com",
             "https://www.crunchbase.com/organization/lingmo"
         ],
+        "apis": [
+            "lingo24"
+        ],
         "acquired_by": {
-            "api_id": "unbabel",
-            "id": "unbabel"
+            "company": "Unbabel"
         }
     },
     {
@@ -528,6 +642,9 @@
         "urls": [
             "https://www.linguacustodia.finance/en/welcome/",
             "https://www.crunchbase.com/organization/lingua-custodia"
+        ],
+        "apis": [
+            "lingua-custodia"
         ]
     },
     {
@@ -541,6 +658,9 @@
         "urls": [
             "https://lingvanex.com/",
             "https://www.crunchbase.com/organization/lingvanex"
+        ],
+        "apis": [
+            "lingvanex"
         ]
     },
     {
@@ -555,8 +675,11 @@
             "https://www.lionbridge.com/",
             "https://www.crunchbase.com/organization/lionbridge"
         ],
+        "apis": [
+            "geofluent"
+        ],
         "acquired_by": {
-            "company": "H.I.G. International"
+            "company": "H.I.G. Capital"
         }
     },
     {
@@ -573,7 +696,11 @@
         ],
         "acquired_by": {
             "company": "United Language Group"
-        }
+        },
+        "apis": [
+            "lucy"
+        ],
+        "active": false
     },
     {
         "name": "memoQ",
@@ -586,6 +713,9 @@
         "urls": [
             "https://www.memoq.com",
             "https://www.crunchbase.com/organization/memoq"
+        ],
+        "tms": [
+            "memoq"
         ]
     },
     {
@@ -597,21 +727,27 @@
         "location": "United Kingdom",
         "founded": 1975,
         "urls": [
-            "https://www.microsoft.com/",
+            "https://www.microsoft.com",
             "https://www.crunchbase.com/organization/microsoft"
+        ],
+        "apis": [
+            "microsoft"
         ]
     },
     {
         "name": "Mirai Translate",
-        "id": "mirai-translate",
+        "id": "mirai",
         "type": [
             "machine-translation-provider"
         ],
         "location": "Japan",
         "founded": 2014,
         "urls": [
-            "https://miraitranslate.com/",
+            "https://miraitranslate.com",
             "https://www.crunchbase.com/organization/mirai-translate-inc"
+        ],
+        "apis": [
+            "mirai"
         ]
     },
     {
@@ -623,8 +759,14 @@
         "location": "United States",
         "founded": 2019,
         "urls": [
-            "https://www.modelfront.com/",
+            "https://www.modelfront.com",
             "https://www.crunchbase.com/organization/modelfront"
+        ],
+        "quality_estimation": [
+            "modelfront"
+        ],
+        "automatic_post_editing": [
+            "modelfront"
         ]
     },
     {
@@ -638,6 +780,9 @@
         "urls": [
             "http://www.moravia.com/",
             "https://www.crunchbase.com/organization/moravia"
+        ],
+        "apis": [
+            "moraviamt"
         ],
         "acquired_by": {
             "company": "RWS"
@@ -654,6 +799,9 @@
         "urls": [
             "https://www.navercloudcorp.com/",
             "https://www.crunchbase.com/organization/naver-cloud"
+        ],
+        "apis": [
+            "papago"
         ]
     },
     {
@@ -668,6 +816,9 @@
             "https://www.nict.go.jp/en/index.html",
             "https://www.crunchbase.com/organization/national-institute-of-information-and-communications-technology-japan"
         ],
+        "apis": [
+            "textra"
+        ],
         "note": "NICT products include a text machine translation TexTra and a voice machine translation, VoiceTra."
     },
     {
@@ -681,6 +832,9 @@
         "urls": [
             "https://www.neuralspace.ai/",
             "https://www.crunchbase.com/organization/neural-space"
+        ],
+        "apis": [
+            "neuralspace"
         ]
     },
     {
@@ -694,11 +848,14 @@
         "urls": [
             "https://www.neteasegames.com",
             "https://www.crunchbase.com/organization/netease-com"
+        ],
+        "apis": [
+            "youdao"
         ]
     },
     {
-        "name": "NpatMT",
-        "id": "npatmt",
+        "name": "Npat",
+        "id": "npat",
         "type": [
             "machine-translation-provider"
         ],
@@ -706,6 +863,9 @@
         "founded": 2015,
         "urls": [
             "https://www.npat.co.jp/"
+        ],
+        "apis": [
+            "npatmt"
         ]
     },
     {
@@ -722,6 +882,12 @@
         "urls": [
             "https://www.omniscien.com",
             "https://www.crunchbase.com/organization/omniscien-technologies-trading"
+        ],
+        "apis": [
+            "omniscien"
+        ],
+        "quality_estimation": [
+            "omniscien-confidence-scores"
         ]
     },
     {
@@ -750,6 +916,9 @@
         "urls": [
             "https://www.pangeanic.com/",
             "https://www.crunchbase.com/organization/pangeanic"
+        ],
+        "apis": [
+            "pangeamt"
         ]
     },
     {
@@ -776,17 +945,31 @@
         "urls": [
             "https://phrase.com/",
             "https://www.crunchbase.com/organization/phrase"
+        ],
+        "apis": [
+            "phrase-nextmt"
+        ],
+        "tms": [
+            "phrase"
+        ],
+        "quality_estimation": [
+            "phrase-mtqe"
         ]
     },
     {
         "name": "Precision Translation Tools",
         "id": "precision-translation-tools",
+        "location": "United States",
+        "founded": 2017,
         "type": [
             "technology-provider"
         ],
         "active": false,
         "urls": [
             "http://www.precisiontranslationtools.com/"
+        ],
+        "apis": [
+            "slate"
         ]
     },
     {
@@ -813,6 +996,9 @@
         "urls": [
             "https://www.promt.com",
             "https://www.crunchbase.com/organization/promt"
+        ],
+        "apis": [
+            "promt"
         ]
     },
     {
@@ -826,6 +1012,9 @@
         "urls": [
             "https://www.rozetta.jp/",
             "https://www.crunchbase.com/organization/rozetta-corp"
+        ],
+        "apis": [
+            "rozetta"
         ]
     },
     {
@@ -839,6 +1028,9 @@
         "urls": [
             "https://www.reverso.net/text-translation",
             "https://www.crunchbase.com/organization/reverso"
+        ],
+        "apis": [
+            "reverso"
         ]
     },
     {
@@ -857,6 +1049,23 @@
         "urls": [
             "https://www.rws.com",
             "https://www.crunchbase.com/organization/rws-group"
+        ],
+        "apis": [
+            "iconic",
+            "language-weaver",
+            "ltgear",
+            "moraviamt"
+        ],
+        "tms": [
+            "worldserver",
+            "groupshare",
+            "multitrans",
+            "passolo",
+            "sdl",
+            "trados"
+        ],
+        "automatic_post_editing": [
+            "language-weaver"
         ]
     },
     {
@@ -872,8 +1081,11 @@
             "https://www.safaba.com",
             "https://www.crunchbase.com/organization/safaba-translation-solutions"
         ],
+        "apis": [
+            "safaba"
+        ],
         "acquired_by": {
-            "id": "amazon"
+            "company": "Amazon"
         }
     },
     {
@@ -887,6 +1099,9 @@
         "urls": [
             "https://www.sap.com",
             "https://www.crunchbase.com/organization/sap"
+        ],
+        "apis": [
+            "sap"
         ]
     },
     {
@@ -900,6 +1115,9 @@
         "urls": [
             "https://skrivanek.com/",
             "https://www.crunchbase.com/organization/skrivanek"
+        ],
+        "apis": [
+            "skrivanek"
         ]
     },
     {
@@ -913,6 +1131,9 @@
         "urls": [
             "https://www.smartcat.com/",
             "https://www.crunchbase.com/organization/smartcat"
+        ],
+        "tms": [
+            "smartcat"
         ]
     },
     {
@@ -926,6 +1147,9 @@
         "urls": [
             "https://smartling.com/",
             "https://www.crunchbase.com/organization/smartling"
+        ],
+        "tms": [
+            "smartling"
         ]
     },
     {
@@ -940,8 +1164,11 @@
             "https://fanyi.sogou.com/text",
             "https://fanyi.sogou.com/download/pc/introduce"
         ],
+        "apis": [
+            "sogou-translate"
+        ],
         "acquired_by": {
-            "company_id": "tencent"
+            "company": "Tencent"
         }
     },
     {
@@ -955,6 +1182,9 @@
         "urls": [
             "https://www.star-group.net/en/home.html",
             "https://www.crunchbase.com/organization/star-group"
+        ],
+        "tms": [
+            "transitnxt"
         ]
     },
     {
@@ -964,17 +1194,28 @@
             "machine-translation-provider"
         ],
         "location": "Finland",
+        "founded": 2004,
         "urls": [
             "https://www.sunda.fi/en/company"
+        ],
+        "apis": [
+            "sunda"
         ]
     },
     {
         "name": "Symbyonics",
         "id": "symbyonics",
+        "type": [
+            "machine-translation-provider"
+        ],
+        "location": "United States",
         "founded": 2014,
         "active": false,
         "urls": [
             "https://www.linkedin.com/company/symbyonics-llc/"
+        ],
+        "apis": [
+            "fairtrade"
         ]
     },
     {
@@ -988,6 +1229,9 @@
         "urls": [
             "https://www.systransoft.com/",
             "https://www.crunchbase.com/organization/systran-9361"
+        ],
+        "apis": [
+            "systran"
         ]
     },
     {
@@ -1002,6 +1246,9 @@
         "urls": [
             "https://www.tarjama.com",
             "https://www.crunchbase.com/organization/tarjama-and-ureed"
+        ],
+        "apis": [
+            "tarjama-mt"
         ]
     },
     {
@@ -1016,8 +1263,11 @@
             "https://www.tauyou.com",
             "https://www.crunchbase.com/organization/ta-with-you"
         ],
+        "apis": [
+            "tauyou"
+        ],
         "acquired_by": {
-            "company_id": "transperfect"
+            "company": "Transperfect"
         }
     },
     {
@@ -1031,6 +1281,10 @@
         "urls": [
             "https:///www.tencent.com/en-us",
             "https://www.crunchbase.com/organization/tencent"
+        ],
+        "apis": [
+            "tencent",
+            "sogou-translate"
         ]
     },
     {
@@ -1044,6 +1298,9 @@
         "urls": [
             "https://www.textshuttle.ai/en/",
             "https://www.crunchbase.com/organization/textshuttle"
+        ],
+        "apis": [
+            "supertext"
         ]
     },
     {
@@ -1058,6 +1315,9 @@
         "urls": [
             "https://www.tilde.com",
             "https://www.crunchbase.com/organization/tilde-6e11"
+        ],
+        "apis": [
+            "tilde"
         ]
     },
     {
@@ -1065,13 +1325,16 @@
         "id": "tmxmall",
         "type": [
             "technology-provider",
-            "machine-translation-aggregator"
+            "machine-translation-router"
         ],
         "location": "China",
         "founded": 2014,
         "urls": [
             "https://www.tmxmall.com/",
             "https://www.crunchbase.com/organization/tmxmall"
+        ],
+        "routers": [
+            "tmxmall"
         ]
     },
     {
@@ -1085,6 +1348,9 @@
         "urls": [
             "https://to-in.com/en/service/mt",
             "https://www.crunchbase.com/organization/toin"
+        ],
+        "apis": [
+            "t-tact-an-zin"
         ]
     },
     {
@@ -1099,8 +1365,11 @@
             "https://www.transifex.com",
             "https://www.crunchbase.com/organization/transifex"
         ],
+        "tms": [
+            "transifex"
+        ],
         "acquired_by": {
-            "company_id": "PARC Partners"
+            "company": "PARC Partners"
         }
     },
     {
@@ -1115,6 +1384,13 @@
         "urls": [
             "https://translated.com",
             "https://www.crunchbase.com/organization/translated"
+        ],
+        "apis": [
+            "lara",
+            "modernmt"
+        ],
+        "tms": [
+            "matecat"
         ]
     },
     {
@@ -1140,6 +1416,14 @@
         "urls": [
             "https://www.transperfect.com",
             "https://www.crunchbase.com/organization/transperfect"
+        ],
+        "apis": [
+            "transperfect-nmt",
+            "wordlingo",
+            "tauyou"
+        ],
+        "tms": [
+            "globallink"
         ]
     },
     {
@@ -1153,6 +1437,9 @@
         "urls": [
             "https://www.ubiqus.com",
             "https://www.crunchbase.com/organization/ubiqus"
+        ],
+        "apis": [
+            "ubiqus"
         ],
         "acquired_by": {
             "company": "Acolad"
@@ -1169,6 +1456,15 @@
         "urls": [
             "https://www.unbabel.com",
             "https://www.crunchbase.com/organization/unbabel"
+        ],
+        "apis": [
+            "unbabel",
+            "widn",
+            "lingo24",
+            "ubiqus"
+        ],
+        "models": [
+            "towerllm"
         ]
     },
     {
@@ -1195,6 +1491,10 @@
         "urls": [
             "https://www.vicomtech.org/",
             "https://www.crunchbase.com/organization/vicomtech"
+        ],
+        "apis": [
+            "plata-vicomtech",
+            "trebe"
         ],
         "note": "Vicomtech, in partnership with MondragonLingua, developed PLATA in 2012."
     },
@@ -1223,6 +1523,9 @@
         "urls": [
             "https://weglot.com/",
             "https://www.crunchbase.com/organization/weglot"
+        ],
+        "tms": [
+            "weglot"
         ]
     },
     {
@@ -1236,6 +1539,9 @@
         "urls": [
             "https://wordbee.com/",
             "https://www.crunchbase.com/organization/wordbee"
+        ],
+        "tms": [
+            "wordbee"
         ]
     },
     {
@@ -1249,6 +1555,9 @@
         "urls": [
             "https://www.wordfast.com/",
             "https://www.crunchbase.com/organization/wordfast"
+        ],
+        "tms": [
+            "wordfast"
         ]
     },
     {
@@ -1262,6 +1571,9 @@
         "urls": [
             "https://niutrans.com",
             "https://www.crunchbase.com/organization/xiaoniu-fanyi"
+        ],
+        "apis": [
+            "niutrans"
         ]
     },
     {
@@ -1276,6 +1588,9 @@
             "https://www.xl8.ai/",
             "https://www.crunchbase.com/organization/xl8-inc"
         ],
+        "apis": [
+            "xl8"
+        ],
         "note": "Funded by FuturePlay"
     },
     {
@@ -1289,6 +1604,9 @@
         "urls": [
             "https://www.xtm.cloud",
             "https://www.crunchbase.com/organization/xml-intl"
+        ],
+        "tms": [
+            "xtm"
         ]
     },
     {
@@ -1302,6 +1620,9 @@
         "urls": [
             "https://www.yandex.ru",
             "https://www.crunchbase.com/organization/yandex"
+        ],
+        "apis": [
+            "yandex"
         ]
     },
     {
@@ -1317,7 +1638,7 @@
             "https://www.crunchbase.com/organization/yappn"
         ],
         "acquired_by": {
-            "company_id": "alexa-translations-ai"
+            "company": "Alexa Translations A.I."
         }
     },
     {
@@ -1345,8 +1666,11 @@
             "https://www.worldlingo.com",
             "https://www.crunchbase.com/organization/worldlingo"
         ],
+        "apis": [
+            "wordlingo"
+        ],
         "acquired_by": {
-            "id": "transperfect"
+            "company": "Transperfect"
         }
     },
     {
@@ -1362,5 +1686,320 @@
             "https://www.crunchbase.com/organization/zhongke-fanyu-technology"
         ],
         "note": "Incubated by the Institute of Automation at the Chinese Academy of Sciences"
+    },
+    {
+        "name": "OpenAI",
+        "id": "openai",
+        "type": [
+            "technology-provider"
+        ],
+        "location": "United States",
+        "founded": 2015,
+        "urls": [
+            "https://openai.com",
+            "https://www.crunchbase.com/organization/openai"
+        ],
+        "apis": [
+            "openai"
+        ],
+        "models": [
+            "gpt",
+            "whisper"
+        ]
+    },
+    {
+        "name": "Anthropic",
+        "id": "anthropic",
+        "type": [
+            "technology-provider"
+        ],
+        "location": "United States",
+        "founded": 2021,
+        "urls": [
+            "https://www.anthropic.com",
+            "https://www.crunchbase.com/organization/anthropic"
+        ],
+        "apis": [
+            "anthropic"
+        ],
+        "models": [
+            "claude-sonnet"
+        ]
+    },
+    {
+        "name": "DeepSeek",
+        "id": "deepseek",
+        "type": [
+            "technology-provider"
+        ],
+        "location": "China",
+        "founded": 2023,
+        "urls": [
+            "https://deepseek.com",
+            "https://www.crunchbase.com/organization/deepseek"
+        ],
+        "apis": [
+            "deepseek"
+        ],
+        "models": [
+            "deepseek-ai"
+        ]
+    },
+    {
+        "name": "Sarvam",
+        "id": "sarvam",
+        "type": [
+            "technology-provider"
+        ],
+        "location": "India",
+        "founded": 2023,
+        "urls": [
+            "https://sarvam.ai",
+            "https://www.crunchbase.com/organization/sarvam"
+        ],
+        "apis": [
+            "sarvam-ai"
+        ],
+        "models": [
+            "sarvam-translate"
+        ]
+    },
+    {
+        "name": "Mistral AI",
+        "id": "mistral-ai",
+        "type": [
+            "technology-provider"
+        ],
+        "location": "France",
+        "founded": 2023,
+        "urls": [
+            "https://mistral.ai",
+            "https://www.crunchbase.com/organization/mistral-ai"
+        ],
+        "apis": [
+            "mistral-ai"
+        ],
+        "models": [
+            "voxtral",
+            "mistral",
+            "mixtral"
+        ]
+    },
+    {
+        "name": "TAUS",
+        "id": "taus",
+        "type": [
+            "machine-translation-provider",
+            "quality-prediction-provider",
+            "automatic-post-editing-provider"
+
+        ],
+        "location": "The Netherlands",
+        "founded": 2005,
+        "urls": [
+            "https://www.taus.net",
+            "https://www.crunchbase.com/organization/taus"
+        ],
+        "quality_estimation": [
+            "taus"
+        ],
+        "automatic_post_editing": [
+            "taus-epic"
+        ]
+    },
+    {
+        "name": "Meta",
+        "id": "meta",
+        "type": [
+            "technology-provider"
+        ],
+        "location": "United States",
+        "founded": 2004,
+        "urls": [
+            "https://ai.meta.com",
+            "https://www.crunchbase.com/organization/facebook"
+        ],
+        "models": [
+            "meta-nllb"
+        ]
+    },
+    {
+        "name": "United Nations",
+        "id": "united-nations",
+        "type": [
+            "organisation"
+        ],
+        "location": "United States",
+        "founded": 1945,
+        "urls": [
+            "https://www.un.org",
+            "https://www.crunchbase.com/organization/united-nations"
+        ],
+        "apis": [
+            "tapta"
+        ]
+    },
+    {
+        "name": "OmegaT",
+        "id": "omegat",
+        "type": [
+            "translation-management-software-developer"
+        ],
+        "location": "United States",
+        "founded": 2004,
+        "urls": [
+            "https://www.omegat.org"
+        ],
+        "tms": [
+            "omegat"
+        ]
+    },
+    {
+        "name": "Tolgee",
+        "id": "tolgee",
+        "type": [
+            "translation-management-software-developer"
+        ],
+        "location": "Czechia",
+        "founded": 2021,
+        "urls": [
+            "https://tolgee.io",
+            "https://www.crunchbase.com/organization/tolgee"
+        ],
+        "tms": [
+            "tolgee"
+        ]
+    },
+    {
+        "name": "MittagQI",
+        "id": "mittagqi",
+        "type": [
+            "translation-management-software-developer"
+        ],
+        "location": "Germany",
+        "founded": 2009,
+        "urls": [
+            "https://www.mittagqi.com"
+        ],
+        "tms": [
+            "translate5"
+        ]
+    },
+    {
+        "name": "Acolad",
+        "id": "acolad",
+        "type": [
+            "machine-translation-provider"
+        ],
+        "location": "France",
+        "founded": 1993,
+        "urls": [
+            "https://www.acolad.com",
+            "https://www.crunchbase.com/organization/technicis"
+        ],
+        "apis": [
+            "acolad",
+            "ubiqus"
+        ]
+    },
+    {
+        "name": "H.I.G. Capital",
+        "id": "hig-capital",
+        "type": [
+            "investment-firm"
+        ],
+        "location": "United States",
+        "founded": 1993,
+        "urls": [
+            "https://hig.com",
+            "https://www.crunchbase.com/organization/hig-capital"
+        ],
+        "apis": [
+            "geofluent"
+        ]
+    },
+    {
+        "name": "Bridgepoint",
+        "id": "bridgepoint",
+        "type": [
+            "asset-management-firm"
+        ],
+        "location": "United Kingdom",
+        "founded": 1984,
+        "urls": [
+            "https://www.bridgepointgroup.com",
+            "https://www.crunchbase.com/organization/bridgepoint-eu"
+        ],
+        "apis": [
+            "language-wire"
+        ]
+    },
+    {
+        "name": "Keywords Studios",
+        "id": "keywords-studios",
+        "type": [
+            "creative-and-technical-services"
+        ],
+        "location": "Ireland",
+        "founded": 1998,
+        "urls": [
+            "https://www.keywordsstudios.com",
+            "https://www.crunchbase.com/organization/keywords-studios"
+        ],
+        "apis": [
+            "kantanmt"
+        ],
+        "tms": [
+            "kantanstream"
+        ],
+        "quality_estimation": [
+            "kantanqes"
+        ]
+    },
+    {
+        "name": "Zoom",
+        "id": "zoom",
+        "type": [
+            "video-communications"
+        ],
+        "location": "United States",
+        "founded": 2011,
+        "urls": [
+            "https://www.zoom.com",
+            "https://www.crunchbase.com/organization/zoom-video-communications"
+        ]
+    },
+    {
+        "name": "United Language Group",
+        "id": "united-language-group",
+        "type": [
+            "machine-translation-provider"
+        ],
+        "location": "United States",
+        "founded": 2016,
+        "urls": [
+            "https://www.unitedlanguagegroup.com",
+            "https://www.crunchbase.com/organization/united-language-group-2"
+        ],
+        "apis": [
+            "lucy",
+            "octavemt"
+        ]
+    },
+    {
+        "name": "PARC Partners",
+        "id": "parc-partners",
+        "type": [
+            "machine-translation-provider"
+        ],
+        "location": "United States",
+        "founded": 2016,
+        "urls": [
+            "https://www.linkedin.com/company/parcpartners",
+            "https://www.crunchbase.com/organization/parc-partners"
+        ],
+        "tms": [
+            "transifex"
+        ]
     }
 ]

@@ -139,10 +139,17 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   active: false
 models: []
+company:
+  id: aisa-digital
+  name: AISA Digital
+more_by_company:
+- translation_apis:
+  - id: aisa
+    name: AISA
 active: true
 seo:
   name: The AISA machine translation API

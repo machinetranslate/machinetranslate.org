@@ -135,6 +135,10 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 models: []
+company:
+  id: kakao-cloud
+  name: Kakao Cloud
+more_by_company: []
 active: true
 seo:
   name: The Kakao machine translation API

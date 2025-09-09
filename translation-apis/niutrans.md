@@ -2335,6 +2335,13 @@ integrations:
   plugin: true
   active: false
 models: []
+company:
+  id: xiaoniu-fanyi
+  name: Xiaoniu Fanyi
+more_by_company:
+- translation_apis:
+  - id: niutrans
+    name: Niutrans
 active: true
 seo:
   name: The Niutrans machine translation API

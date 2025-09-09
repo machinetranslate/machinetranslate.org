@@ -109,9 +109,16 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: false
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
 models: []
+company:
+  id: toin
+  name: TOIN
+more_by_company:
+- translation_apis:
+  - id: t-tact-an-zin
+    name: T-tact-AN-ZIN
 active: true
 seo:
   name: The T-tact-AN-ZIN machine translation API

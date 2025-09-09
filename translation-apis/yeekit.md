@@ -33,6 +33,13 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 models: []
+company:
+  id: gtcom
+  name: GTCOM
+more_by_company:
+- translation_apis:
+  - id: yeekit
+    name: YeeKit
 active: true
 seo:
   name: The YeeKit machine translation API

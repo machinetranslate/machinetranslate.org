@@ -2,7 +2,7 @@
     {
         "id": "modelfront",
         "name": "ModelFront",
-        "company": "ModelFront",
+        "company": "modelfront",
         "tagline": "Translation quality prediction",
         "languages": [
             "af",
@@ -164,7 +164,7 @@
     {
         "id": "kantanqes",
         "name": "KantanQES",
-        "company": "Kantan-AI",
+        "company": "kantan-ai",
         "tagline": "Quality estimation score",
         "languages": [
             [
@@ -724,7 +724,7 @@
     {
         "id": "phrase-mtqe",
         "name": "Phrase MTQE",
-        "company": "Phrase",
+        "company": "phrase",
         "tagline": "Machine translation quality estimation",
         "languages": [
             [
@@ -1637,7 +1637,7 @@
             ]
         ],
         "only_compatible_mt_api": null,
-        "only_compatible_tms": "phrase-tms",
+        "only_compatible_tms": "phrase",
         "customisation": false,
         "urls": [
             "https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-",
@@ -1647,7 +1647,7 @@
     {
         "id": "omniscien-confidence-scores",
         "name": "Omniscien Confidence Scores",
-        "company": "Omniscien Technologies",
+        "company": "omniscien-technologies",
         "tagline": "Translation confidence scoring and quality estimates",
         "languages": [
             [
@@ -3956,9 +3956,9 @@
         ]
     },
     {
-        "id": "taus-qe",
-        "name": "TAUS QE",
-        "company": "TAUS",
+        "id": "taus",
+        "name": "TAUS",
+        "company": "taus",
         "tagline": null,
         "languages": [
             "af",
@@ -4082,7 +4082,7 @@
     {
         "id": "google-translation-hub-mtqp",
         "name": "Google Translation Hub MTQP",
-        "company": "Google",
+        "company": "google",
         "tagline": "Machine translation quality prediction scores",
         "languages": [
             [
@@ -4342,7 +4342,7 @@
     },
     {
         "name": "ModernMT",
-        "id": "modernmt-qe",
+        "id": "modernmt",
         "company": "translated", 
         "tagline": "Adaptive quality estimation",
         "languages": [

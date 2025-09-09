@@ -180,6 +180,13 @@ integrations:
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 models: []
+company:
+  id: reverso
+  name: Reverso
+more_by_company:
+- translation_apis:
+  - id: reverso
+    name: Reverso
 active: true
 seo:
   name: The Reverso machine translation API

@@ -7,7 +7,9 @@ title: Phrase MTQE
 description: The Phrase MTQE translation quality estimation API
 tagline: Machine translation quality estimation
 id: phrase-mtqe
-company: Phrase
+company:
+  id: phrase
+  name: Phrase
 parent: Quality estimation
 urls:
 - https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-
@@ -350,13 +352,24 @@ supported_languages:
   variant_name: Traditional Chinese
 only_compatible_mt_api: null
 only_compatible_tms:
-- id: phrase-tms
+- id: phrase
   name: Phrase TMS
 customisation: false
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: false
+more_by_company:
+- translation_apis:
+  - id: phrase-nextmt
+    name: Phrase NextMT
+- tms:
+  - id: phrase
+    name: Phrase TMS
+    type: Translation management systems
+- quality_estimation_apis:
+  - id: phrase-mtqe
+    name: Phrase MTQE
 active: true
 seo:
   name: The Phrase MTQE translation quality estimation API

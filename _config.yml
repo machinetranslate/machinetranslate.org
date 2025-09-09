@@ -95,7 +95,7 @@ defaults:
       path: integrations
       type: pages
     values:
-      permalink: /:basename
+      permalink: /integrations/:basename
       seo:
         type: Product
   - scope:
@@ -123,7 +123,7 @@ defaults:
       path: quality-estimation
       type: pages
     values:
-      permalink: /:basename
+      permalink: quality-estimation/:basename
       seo:
         type: Product
   - scope:
@@ -151,7 +151,7 @@ defaults:
       path: routers
       type: pages
     values:
-      permalink: /:basename
+      permalink: /routers/:basename
       seo:
         type: ItemList
   - scope:
@@ -200,13 +200,13 @@ defaults:
       path: models
       type: pages
     values:
-      permalink: /:basename
+      permalink: /models/:basename
       seo:
         type: Article
   - scope:
       path: automatic-post-editing
     values:
-      permalink: /:basename
+      permalink: /automatic-post-editing/:basename
       seo:
         type: Product
 

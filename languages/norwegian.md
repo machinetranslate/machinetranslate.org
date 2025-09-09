@@ -38,7 +38,7 @@ territories:
 supported_apis:
 - id: language-wire
   name: Language Wire
-- id: textshuttle
+- id: supertext
   name: Supertext
 - id: unbabel
   name: Unbabel
@@ -99,16 +99,16 @@ supported_qe_apis:
   name: Language Weaver
 - id: smart-review
   name: Smart Review
-- id: taus-qe
-  name: TAUS QE
+- id: taus
+  name: TAUS
 - id: modelfront
   name: ModelFront
 supported_ape_apis:
-- id: language-weaver-ape
+- id: language-weaver
   name: Language Weaver
-- id: taus-epic-ape
+- id: taus-epic
   name: TAUS EPIC
-- id: modelfront-ape
+- id: modelfront
   name: ModelFront
 seo:
   name: Machine translation for Norwegian

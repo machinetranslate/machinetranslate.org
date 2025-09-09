@@ -5,7 +5,7 @@ nav_order: 998
 layout: translation_api
 title: Tarjama MT
 description: The Tarjama MT machine translation API
-id: tarjama
+id: tarjama-mt
 parent: Translation APIs
 urls:
 - https://www.tarjama.com/amt/
@@ -32,11 +32,17 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 models: []
+company:
+  id: tarjama
+  name: Tarjama
+more_by_company:
+- translation_apis:
+  - id: tarjama-mt
+    name: Tarjama MT
 active: true
 seo:
   name: The Tarjama MT machine translation API
   type: Product
-redirect_from: tarjama-mt
 
 ---
 

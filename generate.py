@@ -21,6 +21,7 @@ CALLS_FOR_PAPERS = None
 CALLS_FOR_PAPERS_SCHEMA = None
 MODELS = None
 AUTOMATIC_POST_EDITING = None
+COMPANIES = None
 
 
 ### Read scripts
@@ -82,6 +83,10 @@ with open('_data/models.json', 'r', encoding='utf-8') as f:
 ### Read automatic post-editing companies
 with open ('_data/automatic_post_editing.json', 'r', encoding='utf-8') as stream:
   AUTOMATIC_POST_EDITING = json.load(stream)
+
+### Read companies
+with open ('_data/companies.json', 'r', encoding='utf-8') as stream:
+  COMPANIES = json.load(stream)
 
 def base_language_code(locale_code):
   locale_code = locale_code.replace('_', '-')
@@ -164,24 +169,28 @@ def read_content(filepath):
     i += len('\n---\n')
     return page[i:].strip()
   
-def get_tms_by_id_and_key(id, key: str):
-  integrations = []
-  for tms in INTEGRATIONS:
-    for i in tms.get(key, []):
-      if i == id:
-        integrations.append({
-          'slug': tms['id'],
-          'name': tms['name']
-        })
-      elif isinstance(i, dict):
-        _id = next(iter(i))
-        if _id == id:
-          integrations.append({
-            'slug': tms['id'],
-            'name': tms['name'],
-            **i[id]
-          })
-  return integrations
+def get_tms_by_id_and_key(id, *keys: str):
+    integrations = []
+    for tms in INTEGRATIONS:
+        combined = []
+        for key in keys:
+            combined.extend(tms.get(key, []))
+
+        for i in combined:
+            if i == id:
+                integrations.append({
+                    'slug': tms['id'],
+                    'name': tms['name']
+                })
+            elif isinstance(i, dict):
+                _id = next(iter(i))
+                if _id == id:
+                    integrations.append({
+                        'slug': tms['id'],
+                        'name': tms['name'],
+                        **i[id]
+                    })
+    return integrations
 
 def supported_language_base_codes(file_name):
   SUPPORTED_LANGUAGE_BASE_CODES = {}
@@ -198,6 +207,102 @@ def supported_language_base_codes(file_name):
     SUPPORTED_LANGUAGE_BASE_CODES[api_id] = list(set(codes))
   return SUPPORTED_LANGUAGE_BASE_CODES
 
+APIS_BY_ID = {api['id']: api for api in TRANSLATION_APIS}
+QE_APIS_BY_ID = {api['id']: api for api in QUALITY_ESTIMATION}
+APE_APIS_BY_ID = {api['id']: api for api in AUTOMATIC_POST_EDITING}
+TMS_BY_ID = {tms['id']: tms for tms in INTEGRATIONS}
+ROUTERS_BY_ID = {router['id']: router for router in ROUTERS}
+MODELS_BY_ID = {model['id']: model for model in MODELS}
+COMPANIES_BY_ID = {company['id']: company for company in COMPANIES}
+
+def get_more_by_company(company_id):
+  more_by_company = []
+  companies_by_id = {c['id']: c for c in COMPANIES}
+  company = companies_by_id.get(company_id.lower(), False)
+  
+  if not company:
+    return []
+  
+  if company.get('apis', False):
+    translation_apis = []
+    for api_id in company['apis']:
+      api_data = APIS_BY_ID.get(api_id)
+      translation_apis.append({
+          'id': api_id,
+          'name': api_data['name']
+      })
+    if translation_apis:
+      more_by_company.append({
+          'translation_apis': translation_apis
+      })
+  
+  if company.get('tms', False):
+    tms = []
+    for tms_id in company['tms']:
+      tms_data = TMS_BY_ID.get(tms_id)
+      tms.append({
+          'id': tms_id,
+          'name': tms_data['name'],
+          'type': 'Translation management systems' if 'tms' in TMS_BY_ID[tms_id]['type'] else 'Computer-aided translation tools'
+      })
+    if tms:
+      more_by_company.append({
+          'tms': tms
+      })
+    
+  if company.get('routers', False):
+    routers = []
+    for router_id in company['routers']:
+      router_data = ROUTERS_BY_ID.get(router_id)
+      routers.append({
+          'id': router_id,
+          'name': router_data['name']
+      })
+    if routers:
+      more_by_company.append({
+          'routers': routers
+      })
+    
+  if company.get('models', False):
+    models = []
+    for model_id in company['models']:
+      model_data = MODELS_BY_ID.get(model_id)
+      models.append({
+          'id': model_id,
+          'name': model_data['name']
+      })
+    if models:
+      more_by_company.append({
+          'models': models
+      })
+    
+  if company.get('automatic_post_editing', False):
+    automatic_post_editing_apis = []
+    for automatic_post_editing_id in company['automatic_post_editing']:
+      automatic_post_editing_data = APE_APIS_BY_ID.get(automatic_post_editing_id)
+      automatic_post_editing_apis.append({
+          'id': automatic_post_editing_id,
+          'name': automatic_post_editing_data['name']
+      })
+    if automatic_post_editing_apis:
+      more_by_company.append({
+          'automatic_post_editing_apis': automatic_post_editing_apis
+      })
+    
+  if company.get('quality_estimation', False):
+    quality_estimation_apis = []
+    for quality_estimation_id in company['quality_estimation']:
+      quality_estimation_data = QE_APIS_BY_ID.get(quality_estimation_id)
+      quality_estimation_apis.append({
+          'id': quality_estimation_id,
+          'name': quality_estimation_data['name']
+      })
+    if quality_estimation_apis:
+      more_by_company.append({
+          'quality_estimation_apis': quality_estimation_apis
+      })
+      
+  return more_by_company
 
 UNLISTED_LANGUAGES = {}
 
@@ -215,6 +320,18 @@ for api in TRANSLATION_APIS:
   languages = api['languages']
   if not isinstance(languages, list):
     raise Exception(languages)
+  
+  company_id = api['company']
+  company_info = COMPANIES_BY_ID.get(company_id, {})
+  company_name = company_info.get('name')
+  if not company_name:
+      company_name = company_id.replace('-', ' ').title()
+  company = {
+      'id': company_id,
+      'name': company_name
+  }
+  
+  more_by_company = get_more_by_company(api['company'])
   
   models = []
   for model in api.get('models', [None]):
@@ -288,7 +405,7 @@ for api in TRANSLATION_APIS:
       else:
         UNLISTED_LANGUAGES[base_code] = 1
 
-  integrations = get_tms_by_id_and_key(api_id, 'translation_api_integrations')
+  integrations = get_tms_by_id_and_key(api_id, 'translation_api_integrations', 'router_api_integrations')
 
   if prompt_required:
     desc = f'The { name } API for machine translation'
@@ -314,6 +431,8 @@ for api in TRANSLATION_APIS:
     'more_languages_by_request': more_languages_by_request,
     'integrations': integrations,
     'models': models,
+    'company': company,
+    'more_by_company': more_by_company,
     'active': api.get('active', True),
     'seo': {
       'name': desc,
@@ -519,18 +638,27 @@ for code, count in sorted(UNLISTED_LANGUAGES.items(), key=lambda x: x[1] * 10 - 
 
 
 # Generate TMS files
-QE_APIS_BY_ID = {api['id']: api for api in QUALITY_ESTIMATION}
-TRANSLATION_APIS_BY_ID = {api['id']: api for api in TRANSLATION_APIS + ROUTERS}
-APE_APIS_BY_ID = {api['id']: api for api in AUTOMATIC_POST_EDITING}
 for tms in INTEGRATIONS:
     tms_id = tms['id']
-    print(tms_id)
+    # print(tms_id)
     tms_name = tms['name']
     tms_url = tms['tms_url']
     tms_type = tms['type']
     fuzzy_repair = tms.get('fuzzy_repair', False)
     tms_open_source = tms.get('open_source', False)
     tms_qe_api_integrations = tms.get('quality_estimation_integrations', [])
+    
+    company_id = tms['company']
+    company_info = COMPANIES_BY_ID.get(company_id, {})
+    company_name = company_info.get('name')
+    if not company_name:
+        company_name = company_id.replace('-', ' ').title()
+    company = {
+        'id': company_id,
+        'name': company_name
+    }
+    
+    more_by_company = get_more_by_company(tms['company'])
 
     qe_api_integrations = []
     for qe_integration in tms_qe_api_integrations:
@@ -564,7 +692,7 @@ for tms in INTEGRATIONS:
           integration_slug = integration
           integration_data['slug'] = integration_slug
         
-        integration_data['name'] = TRANSLATION_APIS_BY_ID[integration_slug]['name']
+        integration_data['name'] = APIS_BY_ID[integration_slug]['name']
 
         translation_api_integrations.append(integration_data)
       except KeyError:
@@ -586,6 +714,25 @@ for tms in INTEGRATIONS:
         integration_data['name'] = APE_APIS_BY_ID[integration_slug]['name']
 
         ape_integrations.append(integration_data)
+      except KeyError:
+        pass
+      
+    router_integrations = []
+    for router in tms.get('router_api_integrations', []):
+      try:
+        router_data = {}
+        if isinstance(router, dict):
+          router_slug = list(router.keys())[0]
+          router_data['slug'] = router_slug
+          for k, v in router[router_slug].items():
+            router_data[k] = v 
+        else:
+          router_slug = router
+          router_data['slug'] = router_slug
+        
+        router_data['name'] = ROUTERS_BY_ID[router_slug]['name']
+
+        router_integrations.append(router_data)
       except KeyError:
         pass
 
@@ -615,6 +762,9 @@ for tms in INTEGRATIONS:
       'open-source': tms_open_source,
       'quality_estimation_integrations': qe_api_integrations,
       'automatic_post_editing_integrations': ape_integrations,
+      'router_api_integrations': router_integrations,
+      'company': company,
+      'more_by_company': more_by_company,
       'seo': {
         'name': desc,
         'type': 'Product'
@@ -640,6 +790,18 @@ for r in ROUTERS:
     r_name = r['name']
     r_urls = r['urls']
     r_self_serve = r.get('self-serve', False)
+    
+    company_id = r['company']
+    company_info = COMPANIES_BY_ID.get(company_id, {})
+    company_name = company_info.get('name')
+    if not company_name:
+        company_name = company_id.replace('-', ' ').title()
+    company = {
+        'id': company_id,
+        'name': company_name
+    }
+    
+    more_by_company = get_more_by_company(r['company'])
 
     r_supported_apis = []
     for r in r['supported_apis']:
@@ -654,14 +816,14 @@ for r in ROUTERS:
           r_slug = r
           r_data['slug'] = r_slug
         
-        r_data['name'] = TRANSLATION_APIS_BY_ID[r_slug]['name']
+        r_data['name'] = APIS_BY_ID[r_slug]['name']
 
         r_supported_apis.append(r_data)
       except KeyError:
         pass
     
-    integrations = get_tms_by_id_and_key(r_id, 'translation_api_integrations')
-
+    integrations = get_tms_by_id_and_key(r_id, 'router_api_integrations')
+    
     desc = f'The { r_name } machine translation API router'
 
     frontmatter = {
@@ -677,6 +839,8 @@ for r in ROUTERS:
       'supported_apis': r_supported_apis,
       'integrations': integrations,
       'self-serve': r_self_serve,
+      'company': company,
+      'more_by_company': more_by_company,
       'seo': {
         'name': desc,
         'type': 'Product'
@@ -720,6 +884,18 @@ for estimation in QUALITY_ESTIMATION:
     raise Exception(urls)
 
   tagline = estimation.get('tagline', False)
+  
+  company_id = estimation['company']
+  company_info = COMPANIES_BY_ID.get(company_id, {})
+  company_name = company_info.get('name')
+  if not company_name:
+      company_name = company_id.replace('-', ' ').title()
+  company = {
+      'id': company_id,
+      'name': company_name
+  }
+  
+  more_by_company = get_more_by_company(estimation['company'])
 
   only_compatible_mt_api = []
   only_compatible_mt_api_id = estimation.get('only_compatible_mt_api', False)
@@ -791,6 +967,8 @@ for estimation in QUALITY_ESTIMATION:
     'only_compatible_tms': only_compatible_tms,
     'customisation': customisation,
     'integrations': integrations,
+    'company': company,
+    'more_by_company': more_by_company,
     'active': estimation.get('active', True),
     'seo': {
       'name': desc,
@@ -817,6 +995,18 @@ for ape in AUTOMATIC_POST_EDITING:
     ape_name = ape['name']
     ape_urls = ape['urls']
     ape_languages = ape['languages']
+    
+    company_id = ape['company']
+    company_info = COMPANIES_BY_ID.get(company_id, {})
+    company_name = company_info.get('name')
+    if not company_name:
+        company_name = company_id.replace('-', ' ').title()
+    company = {
+        'id': company_id,
+        'name': company_name
+    }
+    
+    more_by_company = get_more_by_company(ape['company'])
 
     supported_language_codes = list(set(flatten(ape_languages)))
     supported_language_codes.sort()
@@ -858,6 +1048,8 @@ for ape in AUTOMATIC_POST_EDITING:
       'urls': ape_urls,
       'supported_languages': ape_supported_languages,
       'integrations': integrations,
+      'company': company,
+      'more_by_company': more_by_company,
       'seo': {
         'name': desc,
         'type': 'Product'
@@ -1072,7 +1264,7 @@ for entry in CALLS_FOR_PAPERS:
   validate(instance=entry, schema=CALLS_FOR_PAPERS_SCHEMA)
 
 
-#Generate models
+### Generate models
 for model in MODELS:
 
   name = model['name']
@@ -1086,8 +1278,8 @@ for model in MODELS:
   apis = []
   for api in model['apis']:
     apis.append({
-      "name": api,
-      "slug": slugify(api)
+      'name': api,
+      'slug': slugify(api)
     })
 
   urls = model['urls']
@@ -1098,6 +1290,18 @@ for model in MODELS:
       raise Exception('Use /en/ if valid: ' + name + ' - ' + url)
 
   self_serve = model.get('self_serve', None)
+  
+  company_id = model['company']
+  company_info = COMPANIES_BY_ID.get(company_id, {})
+  company_name = company_info.get('name')
+  if not company_name:
+      company_name = company_id.replace('-', ' ').title()
+  company = {
+      'id': company_id,
+      'name': company_name
+  }
+  
+  more_by_company = get_more_by_company(model['company'])
 
   desc = f'The { name } model for translation'
 
@@ -1113,15 +1317,13 @@ for model in MODELS:
     'urls': urls,
     'self_serve': self_serve,
     'apis': apis,
+    'company': company,
+    'more_by_company': more_by_company,
     'seo': {
       'name': desc,
       'type': 'Product'
     }
   }
-
-  name_slug = slugify(name)
-  if name_slug != model_id:
-    frontmatter['redirect_from'] = name_slug
 
   filepath = f'models/{ model_id }.md'
 

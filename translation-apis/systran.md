@@ -364,7 +364,7 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786625/sdl-multitrans/configuring-systran
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
 - slug: smartling
@@ -390,6 +390,13 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/systran-pure-neural-.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-systran-pure-neural-mt-engine.html
 models: []
+company:
+  id: systran
+  name: SYSTRAN
+more_by_company:
+- translation_apis:
+  - id: systran
+    name: SYSTRAN
 active: true
 seo:
   name: The SYSTRAN machine translation API

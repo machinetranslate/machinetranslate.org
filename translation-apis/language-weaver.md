@@ -401,14 +401,14 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786890/sdl-multitrans/configuring-sdl-mt-cloud
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
   offline_glossary: true
 - slug: passolo
   name: Passolo
   custom: true
-- slug: sdl-tms
+- slug: sdl
   name: SDL TMS
 - slug: trados
   name: Trados Studio
@@ -426,6 +426,41 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/language-weaver.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-language-weaver-mt-engine.html
 models: []
+company:
+  id: rws
+  name: RWS
+more_by_company:
+- translation_apis:
+  - id: iconic
+    name: Iconic
+  - id: language-weaver
+    name: Language Weaver
+  - id: ltgear
+    name: LT Gear
+  - id: moraviamt
+    name: MoraviaMT
+- tms:
+  - id: worldserver
+    name: WorldServer
+    type: Translation management systems
+  - id: groupshare
+    name: GroupShare
+    type: Translation management systems
+  - id: multitrans
+    name: Multitrans
+    type: Translation management systems
+  - id: passolo
+    name: Passolo
+    type: Computer-aided translation tools
+  - id: sdl
+    name: SDL TMS
+    type: Translation management systems
+  - id: trados
+    name: Trados Studio
+    type: Computer-aided translation tools
+- automatic_post_editing_apis:
+  - id: language-weaver
+    name: Language Weaver
 active: true
 seo:
   name: The Language Weaver machine translation API

@@ -5,7 +5,7 @@ layout: integration
 nav_order: 999
 title: Lilt
 description: Machine translation API integrations in Lilt
-id: lilt-tms
+id: lilt
 parent: Integrations
 type:
 - cat
@@ -23,6 +23,18 @@ fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+router_api_integrations: []
+company:
+  id: lilt
+  name: Lilt
+more_by_company:
+- translation_apis:
+  - id: lilt
+    name: Lilt
+- tms:
+  - id: lilt
+    name: Lilt
+    type: Computer-aided translation tools
 seo:
   name: Machine translation API integrations in Lilt
   type: Product

@@ -5,7 +5,7 @@ nav_order: 971
 layout: translation_api
 title: Supertext
 description: The Supertext machine translation API
-id: textshuttle
+id: supertext
 parent: Translation APIs
 urls:
 - https://www.supertext.com
@@ -172,7 +172,7 @@ integrations:
   name: memoQ
   plugin: true
   urls:
-  - https://www.textshuttle.ai/product/features#cat-connectors
+  - https://www.supertext.ai/product/features#cat-connectors
 - slug: trados
   name: Trados Studio
   plugin: true
@@ -186,11 +186,17 @@ integrations:
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 models: []
+company:
+  id: textshuttle
+  name: TextShuttle
+more_by_company:
+- translation_apis:
+  - id: supertext
+    name: Supertext
 active: true
 seo:
   name: The Supertext machine translation API
   type: Product
-redirect_from: supertext
 
 ---
 

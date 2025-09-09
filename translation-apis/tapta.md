@@ -60,6 +60,13 @@ integrations:
   name: Multitrans
   url: https://docs.rws.com/785465/786629/sdl-multitrans/configuring-tapta
 models: []
+company:
+  id: united-nations
+  name: United Nations
+more_by_company:
+- translation_apis:
+  - id: tapta
+    name: TAPTA
 active: true
 seo:
   name: The TAPTA machine translation API

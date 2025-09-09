@@ -354,7 +354,7 @@ more_languages_by_request: true
 integrations:
 - slug: globallink
   name: GlobalLink
-- slug: lilt-tms
+- slug: lilt
   name: Lilt
   custom: true
   glossary: true
@@ -362,6 +362,17 @@ integrations:
   urls:
   - https://support.lilt.com/kb/introduction-to-lilt-translate
 models: []
+company:
+  id: lilt
+  name: Lilt
+more_by_company:
+- translation_apis:
+  - id: lilt
+    name: Lilt
+- tms:
+  - id: lilt
+    name: Lilt
+    type: Computer-aided translation tools
 active: true
 seo:
   name: The Lilt machine translation API

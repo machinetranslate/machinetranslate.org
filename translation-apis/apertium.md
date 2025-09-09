@@ -297,11 +297,18 @@ more_languages_by_request: true
 integrations:
 - slug: matecat
   name: MateCat
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
 - slug: omegat
   name: OmegaT
 models: []
+company:
+  id: apertium
+  name: Apertium
+more_by_company:
+- translation_apis:
+  - id: apertium
+    name: Apertium
 active: true
 seo:
   name: The Apertium machine translation API

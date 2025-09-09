@@ -30,7 +30,7 @@ supported_apis:
   name: SYSTRAN
 - slug: tencent
   name: Tencent Machine Translation
-- slug: textshuttle
+- slug: supertext
   name: Supertext
 - slug: xl8
   name: XL8
@@ -43,6 +43,13 @@ integrations:
   urls:
   - https://custom.mt/trados-connector/
 self-serve: true
+company:
+  id: custom-mt
+  name: Custom.MT
+more_by_company:
+- routers:
+  - id: custom-mt
+    name: Custom.MT
 seo:
   name: The Custom.MT machine translation API router
   type: Product

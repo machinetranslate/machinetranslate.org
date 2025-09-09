@@ -5,7 +5,7 @@ layout: automatic_post_editing
 nav_order: 942
 title: Language Weaver
 description: The Language Weaver automatic post-editing API
-id: language-weaver-ape
+id: language-weaver
 parent: Automatic post-editing
 urls:
 - https://www.rws.com/language-weaver
@@ -360,6 +360,41 @@ supported_languages:
   name: Chinese
   variant_name: Traditional Chinese
 integrations: []
+company:
+  id: rws
+  name: RWS
+more_by_company:
+- translation_apis:
+  - id: iconic
+    name: Iconic
+  - id: language-weaver
+    name: Language Weaver
+  - id: ltgear
+    name: LT Gear
+  - id: moraviamt
+    name: MoraviaMT
+- tms:
+  - id: worldserver
+    name: WorldServer
+    type: Translation management systems
+  - id: groupshare
+    name: GroupShare
+    type: Translation management systems
+  - id: multitrans
+    name: Multitrans
+    type: Translation management systems
+  - id: passolo
+    name: Passolo
+    type: Computer-aided translation tools
+  - id: sdl
+    name: SDL TMS
+    type: Translation management systems
+  - id: trados
+    name: Trados Studio
+    type: Computer-aided translation tools
+- automatic_post_editing_apis:
+  - id: language-weaver
+    name: Language Weaver
 seo:
   name: The Language Weaver automatic post-editing API
   type: Product

@@ -20,11 +20,18 @@ inputs:
 supported_languages: []
 more_languages_by_request: false
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   urls:
   - https://www.npat.co.jp/EXPRESS_price_list/EXPRESS_price_list.html
 models: []
+company:
+  id: npat
+  name: Npat
+more_by_company:
+- translation_apis:
+  - id: npatmt
+    name: NpatMT
 active: true
 seo:
   name: The NpatMT machine translation API

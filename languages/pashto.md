@@ -67,12 +67,12 @@ supported_qe_apis:
   name: Smart Review
 - id: modelfront
   name: ModelFront
-- id: modernmt-qe
+- id: modernmt
   name: ModernMT
 supported_ape_apis:
-- id: language-weaver-ape
+- id: language-weaver
   name: Language Weaver
-- id: modelfront-ape
+- id: modelfront
   name: ModelFront
 seo:
   name: Machine translation for Pashto

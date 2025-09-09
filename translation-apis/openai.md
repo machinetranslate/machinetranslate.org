@@ -365,6 +365,18 @@ models:
   slug: gpt
 - name: Whisper
   slug: whisper
+company:
+  id: openai
+  name: OpenAI
+more_by_company:
+- translation_apis:
+  - id: openai
+    name: OpenAI
+- models:
+  - id: gpt
+    name: GPT
+  - id: whisper
+    name: Whisper
 active: true
 seo:
   name: The OpenAI API for machine translation

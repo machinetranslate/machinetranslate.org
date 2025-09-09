@@ -27,7 +27,7 @@ integrations:
   name: memoQ
   urls:
   - https://docs.memoq.com/current/en/Places/crosslang-gateway-settings.html
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
 - slug: trados
   name: Trados Studio
@@ -40,6 +40,16 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/crosslang.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-crosslang-mt-engine.html
 self-serve: false
+company:
+  id: crosslang
+  name: Crosslang
+more_by_company:
+- translation_apis:
+  - id: judicio
+    name: Judicio
+- routers:
+  - id: crosslang
+    name: Crosslang MT Gateway
 seo:
   name: The Crosslang MT Gateway machine translation API router
   type: Product

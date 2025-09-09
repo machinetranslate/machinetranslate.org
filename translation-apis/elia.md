@@ -62,6 +62,13 @@ integrations:
   urls:
   - https://appstore.rws.com/Plugins/154
 models: []
+company:
+  id: elhuyar
+  name: Elhuyar
+more_by_company:
+- translation_apis:
+  - id: elia
+    name: Elia
 active: true
 seo:
   name: The Elia machine translation API

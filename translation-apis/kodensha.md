@@ -270,10 +270,17 @@ supported_languages:
   variant_name: Traditional Chinese
 more_languages_by_request: true
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   active: false
 models: []
+company:
+  id: kodensha
+  name: Kodensha
+more_by_company:
+- translation_apis:
+  - id: kodensha
+    name: Kodensha MT
 active: true
 seo:
   name: The Kodensha MT machine translation API

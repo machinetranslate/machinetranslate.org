@@ -28,12 +28,21 @@ translation_api_integrations:
   name: PROMT
 - slug: systran
   name: SYSTRAN
-- slug: textshuttle
+- slug: supertext
   name: Supertext
 fuzzy_repair: true
 open-source: false
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+router_api_integrations: []
+company:
+  id: across
+  name: Across
+more_by_company:
+- tms:
+  - id: across
+    name: Across
+    type: Translation management systems
 seo:
   name: Machine translation API integrations in Across
   type: Product

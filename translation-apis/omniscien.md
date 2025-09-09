@@ -396,7 +396,7 @@ integrations:
   name: memoQ
   urls:
   - https://www.memoq.com/integrations/machine-translation/public-plugin/omniscien
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
 - slug: trados
@@ -412,6 +412,16 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/omniscien-language-studio.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-omniscien-technologies-language-studio-mt-engine.html
 models: []
+company:
+  id: omniscien-technologies
+  name: Omniscien Technologies
+more_by_company:
+- translation_apis:
+  - id: omniscien
+    name: Omniscien Technologies
+- quality_estimation_apis:
+  - id: omniscien-confidence-scores
+    name: Omniscien Confidence Scores
 active: true
 seo:
   name: The Omniscien Technologies machine translation API

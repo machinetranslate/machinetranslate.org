@@ -420,6 +420,21 @@ integrations:
   urls:
   - https://www.wordfast.com/WFP/4.5/c1060284.html
 models: []
+company:
+  id: transperfect
+  name: Transperfect
+more_by_company:
+- translation_apis:
+  - id: transperfect-nmt
+    name: TransPerfect NMT
+  - id: wordlingo
+    name: Wordlingo
+  - id: tauyou
+    name: Tauyou
+- tms:
+  - id: globallink
+    name: GlobalLink
+    type: Computer-aided translation tools
 active: true
 seo:
   name: The Wordlingo machine translation API

@@ -13,8 +13,6 @@ family: []
 supported_apis:
 - id: yandex
   name: Yandex Translate
-- id: meta-nllb
-  name: Meta NLLB-200
 supported_qe_apis: []
 seo:
   name: Machine translation for <code>sah</code>

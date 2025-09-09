@@ -14,6 +14,16 @@ self_serve: true
 apis:
 - name: DeepSeek
   slug: deepseek
+company:
+  id: deepseek
+  name: DeepSeek
+more_by_company:
+- translation_apis:
+  - id: deepseek
+    name: DeepSeek
+- models:
+  - id: deepseek-ai
+    name: DeepSeek AI
 seo:
   name: The DeepSeek AI model for translation
   type: Product

@@ -17,10 +17,17 @@ inputs:
 supported_languages: []
 more_languages_by_request: false
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   active: false
 models: []
+company:
+  id: moravia
+  name: Moravia
+more_by_company:
+- translation_apis:
+  - id: moraviamt
+    name: MoraviaMT
 active: true
 seo:
   name: The MoraviaMT machine translation API

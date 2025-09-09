@@ -21,6 +21,15 @@ integrations:
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 models: []
+company:
+  id: vicomtech
+  name: Vicomtech
+more_by_company:
+- translation_apis:
+  - id: plata-vicomtech
+    name: Plata Vicomtech
+  - id: trebe
+    name: Trebe
 active: false
 seo:
   name: The Plata Vicomtech machine translation API

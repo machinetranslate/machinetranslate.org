@@ -23,6 +23,15 @@ fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []
 automatic_post_editing_integrations: []
+router_api_integrations: []
+company:
+  id: weglot
+  name: Weglot
+more_by_company:
+- tms:
+  - id: weglot
+    name: Weglot
+    type: Translation management systems
 seo:
   name: Machine translation API integrations in Weglot
   type: Product

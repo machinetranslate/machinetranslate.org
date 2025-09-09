@@ -20,7 +20,7 @@
             "octavemt",
             "promt",
             "systran",
-            "textshuttle"
+            "supertext"
         ],
         "fuzzy_repair": true
     },
@@ -78,16 +78,6 @@
                 }
             },
             {
-                "intento": {
-                    "plugin": true,
-                    "custom": true,
-                    "urls": [
-                        "https://store.crowdin.com/intento-mthub",
-                        "https://help.inten.to/hc/en-us/articles/4412027688466-How-to-install-and-configure-Intento-plugin-for-Crowdin"
-                    ]
-                }
-            },
-            {
                 "kantanmt": {
                     "plugin": true,
                     "urls": [
@@ -110,15 +100,6 @@
                     "urls": [
                         "https://support.crowdin.com/enterprise/machine-translation/#modernmt",
                         "https://store.crowdin.com/adaptive-modernmt"
-                    ]
-                }
-            },
-            {
-                "mtrans": {
-                    "plugin": true,
-                    "glossary": true,
-                    "urls": [
-                        "https://store.crowdin.com/mtrans"
                     ]
                 }
             },
@@ -158,6 +139,27 @@
                 }
             }
         ],
+        "router_api_integrations": [
+            {
+                "intento": {
+                    "plugin": true,
+                    "custom": true,
+                    "urls": [
+                        "https://store.crowdin.com/intento-mthub",
+                        "https://help.inten.to/hc/en-us/articles/4412027688466-How-to-install-and-configure-Intento-plugin-for-Crowdin"
+                    ]
+                }
+            },
+            {
+                "mtrans": {
+                    "plugin": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://store.crowdin.com/mtrans"
+                    ]
+                }
+            }
+        ],
         "quality_estimation_integrations":[
             {
                 "modelfront": {
@@ -167,12 +169,12 @@
         ],
         "automatic_post_editing_integrations":[
             {
-                "modelfront-ape": {
+                "modelfront": {
                     "custom": true
                }
             },
             {
-                "taus-epic-ape": {
+                "taus-epic": {
                     "custom": true,
                     "urls": [
                         "https://crowdin.com/blog/2025/03/31/whats-new-at-crowdin-march-2025#taus-qe--ape-for-crowdin-enterprise"
@@ -186,7 +188,7 @@
     {
         "id": "eluna",
         "name": "eLUNa",
-        "company": "United Nations",
+        "company": "united-nations",
         "tms_url": "https://ls-ets.unog.ch/tools/untermeluna",
         "type": [
             "tms",
@@ -266,7 +268,7 @@
         ]
     },
     {
-        "id": "lilt-tms",
+        "id": "lilt",
         "name": "Lilt",
         "company": "lilt",
         "tms_url": "https://www.lilt.com",
@@ -304,19 +306,11 @@
                 }
             },
             {
-                "iconic": {
+                "iconic-translation": {
                     "urls": [
                         "https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/"
                     ],
                     "active": false
-                }
-            },
-            {
-                "intento": {
-                    "plugin": true,
-                    "urls": [
-                        "https://help.inten.to/hc/en-us/articles/360017381939-How-to-set-up-Intento-as-the-MT-engine-in-MateCat"
-                    ]
                 }
             },
             {
@@ -350,9 +344,19 @@
             },
             "yandex"
         ],
+        "router_api_integrations": [
+            {
+                "intento": {
+                    "plugin": true,
+                    "urls": [
+                        "https://help.inten.to/hc/en-us/articles/360017381939-How-to-set-up-Intento-as-the-MT-engine-in-MateCat"
+                    ]
+                }
+            }
+        ],
         "quality_estimation_integrations": [
             {
-                "modernmt-qe": {
+                "modernmt": {
                     "urls": [
                         "https://guides.matecat.com/modernmt-mmt-plug-in"
                     ]
@@ -385,13 +389,6 @@
                     "formality": true,
                     "urls": [
                         "https://docs.memoq.com/current/en/Places/amazon-mt-plugin-settings.html"
-                    ]
-                }
-            },
-            {
-                "crosslang": {
-                    "urls": [
-                        "https://docs.memoq.com/current/en/Places/crosslang-gateway-settings.html"
                     ]
                 }
             },
@@ -430,19 +427,10 @@
                 }
             },
             {
-                "iconic": {
+                "iconic-translation": {
                     "active": false,
                     "urls": [
                         "https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/"
-                    ]
-                }
-            },
-            {
-                "intento": {
-                    "plugin": true,
-                    "glossary": true,
-                    "urls": [
-                        "https://docs.memoq.com/current/en/Places/intento-plugin-settings.html"
                     ]
                 }
             },
@@ -538,10 +526,10 @@
                 }
             },
             {
-                "textshuttle": {
+                "supertext": {
                     "plugin": true,
                     "urls": [
-                        "https://www.textshuttle.ai/product/features#cat-connectors"
+                        "https://www.supertext.ai/product/features#cat-connectors"
                     ]
                 }
             },
@@ -555,6 +543,24 @@
                 }
             },
             {
+                "xl8": {
+                    "urls": [
+                        "https://docs.google.com/document/d/1aYbIpDCme7D-FIVgqRvSmoIiiUJ4QhAZEPAP-tJNwPs/edit"
+                    ]
+                }
+            }
+        ],
+        "router_api_integrations": [
+            {
+                "intento": {
+                    "plugin": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://docs.memoq.com/current/en/Places/intento-plugin-settings.html"
+                    ]
+                }
+            },
+            {
                 "tmxmall": {
                     "urls": [
                         "https://docs.memoq.com/current/en/Places/tmxmall-mt-plugin-settings.html"
@@ -562,9 +568,9 @@
                 }
             },
             {
-                "xl8": {
+                "crosslang": {
                     "urls": [
-                        "https://docs.google.com/document/d/1aYbIpDCme7D-FIVgqRvSmoIiiUJ4QhAZEPAP-tJNwPs/edit"
+                        "https://docs.memoq.com/current/en/Places/crosslang-gateway-settings.html"
                     ]
                 }
             }
@@ -576,14 +582,14 @@
                }
             },
             {
-                "taus-qe": {
+                "taus": {
                     "custom": true
                }
             }
         ],
         "automatic_post_editing_integrations":[
             {
-                "modelfront-ape": {
+                "modelfront": {
                     "custom": true
                }
             }
@@ -614,7 +620,7 @@
                 }
             },
             {
-                "iconic": {
+                "iconic-translation": {
                     "active": false,
                     "url": "https://docs.rws.com/785465/786609/sdl-multitrans/configuring-iconic-plugin"
                 }
@@ -647,7 +653,7 @@
         ]
     },
     {
-        "id": "phrase-tms",
+        "id": "phrase",
         "name": "Phrase TMS",
         "company": "phrase",
         "tms_url": "https://phrase.com/products/phrase-tms/",
@@ -669,7 +675,6 @@
                 }
             },
             "apertium",
-            "crosslang",
             {
                 "deepl": {
                     "glossary": true
@@ -689,7 +694,6 @@
                     ]
                 }
             },
-            "human-science",
             {
                 "kantanmt": {
                     "custom": true
@@ -798,6 +802,10 @@
             },
             "yandex"
         ],
+        "router_api_integrations": [
+            "crosslang",
+            "human-science"
+        ],
         "quality_estimation_integrations":[
             {
                 "phrase-mtqe": {
@@ -812,7 +820,7 @@
         ],
         "automatic_post_editing_integrations":[
             {
-                "modelfront-ape": {
+                "modelfront": {
                     "custom": true
                }
             }
@@ -899,7 +907,7 @@
         "multiple_api_suggestions": true
     },
     {
-        "id": "sdl-tms",
+        "id": "sdl",
         "name": "SDL TMS",
         "company": "rws",
         "tms_url": "https://docs.rws.com/publications/TMS/TMS%2012.7",
@@ -979,16 +987,6 @@
                 }
             },
             {
-                "intento": {
-                    "plugin": true,
-                    "glossary": true,
-                    "urls": [
-                        "https://www.smartcat.com/integrations/intento/",
-                        "https://help.inten.to/hc/en-us/articles/360021395679-How-to-set-up-Intento-connector-for-Smartcat"
-                    ]
-                }
-            },
-            {
                 "microsoft": {
                     "custom": true,
                     "urls": [
@@ -1002,6 +1000,18 @@
                 }
             },
             "yandex"
+        ],
+        "router_api_integrations": [
+            {
+                "intento": {
+                    "plugin": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://www.smartcat.com/integrations/intento/",
+                        "https://help.inten.to/hc/en-us/articles/360021395679-How-to-set-up-Intento-connector-for-Smartcat"
+                    ]
+                }
+            }
         ],
         "multiple_api_suggestions": true
     },
@@ -1028,15 +1038,6 @@
                 }
             },
             {
-                "intento": {
-                    "plugin": true,
-                    "urls": [
-                        "https://help.inten.to/hc/en-us/articles/4417002496018-How-to-create-an-MT-profile-in-your-Smartling-account",
-                        "https://help.inten.to/hc/en-us/articles/4417019865490-How-to-add-an-MT-profile-to-the-workflow-in-your-Smartling-project-"
-                    ]
-                }
-            },
-            {
                 "microsoft": {
                     "custom": true
                 }
@@ -1050,13 +1051,24 @@
                 }
             }
         ],
+        "router_api_integrations": [
+            {
+                "intento": {
+                    "plugin": true,
+                    "urls": [
+                        "https://help.inten.to/hc/en-us/articles/4417002496018-How-to-create-an-MT-profile-in-your-Smartling-account",
+                        "https://help.inten.to/hc/en-us/articles/4417019865490-How-to-add-an-MT-profile-to-the-workflow-in-your-Smartling-project-"
+                    ]
+                }
+            }
+        ],
         "local_api_support": true,
         "routing": true
     },
     {
         "id": "tolgee",
         "name": "Tolgee",
-        "company": "Tolgee",
+        "company": "tolgee",
         "tms_url": "https://tolgee.io",
         "type": [
             "tms",
@@ -1104,20 +1116,6 @@
                 }
             },
             {
-                "crosslang": {
-                    "plugin": true,
-                    "active": false
-                }
-            },
-            {
-                "custom-mt": {
-                    "plugin": true,
-                    "urls": [
-                        "https://custom.mt/trados-connector/"
-                    ]
-                }
-            },
-            {
                 "deepl": {
                     "plugin": true,
                     "urls": [
@@ -1154,20 +1152,11 @@
                 }
             },
             {
-                "iconic": {
+                "iconic-translation": {
                     "urls": [
                         "https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/"
                     ],
                     "active": false
-                }
-            },
-            {
-                "intento": {
-                    "plugin": true,
-                    "glossary": true,
-                    "urls": [
-                        "https://help.inten.to/hc/en-us/articles/360016112939-Installing-and-Configuring-Intento-MT-Hub-for-Trados-Studio"
-                    ]
                 }
             },
             {
@@ -1308,7 +1297,7 @@
                 }
             },
             {
-                "textshuttle": {
+                "supertext": {
                     "plugin": true,
                     "urls": [
                         "https://appstore.rws.com/plugin/145/"
@@ -1328,15 +1317,6 @@
                     "urls": [
                         "https://appstore.rws.com/plugin/118/"
                     ]
-                }
-            },
-            {
-                "tmxmall": {
-                    "plugin": true,
-                    "urls": [
-                        "https://www.tmxmall.com/products/plugin"
-                    ],
-                    "active": false
                 }
             },
             {
@@ -1363,6 +1343,40 @@
             },
             {
                 "youdao": {
+                    "plugin": true,
+                    "active": false
+                }
+            }
+        ],
+        "router_api_integrations": [
+            {
+                "intento": {
+                    "plugin": true,
+                    "glossary": true,
+                    "urls": [
+                        "https://help.inten.to/hc/en-us/articles/360016112939-Installing-and-Configuring-Intento-MT-Hub-for-Trados-Studio"
+                    ]
+                }
+            },
+            {
+                "custom-mt": {
+                    "plugin": true,
+                    "urls": [
+                        "https://custom.mt/trados-connector/"
+                    ]
+                }
+            },
+            {
+                "tmxmall": {
+                    "plugin": true,
+                    "urls": [
+                        "https://www.tmxmall.com/products/plugin"
+                    ],
+                    "active": false
+                }
+            },
+            {
+                "crosslang": {
                     "plugin": true,
                     "active": false
                 }
@@ -1449,7 +1463,7 @@
             },
             "systran",
             {
-                "textshuttle": {
+                "supertext": {
                     "glossary": true
                 }
             }
@@ -1460,7 +1474,7 @@
     {
         "id": "translate5",
         "name": "translate5",
-        "company": "MittagQI",
+        "company": "mittagqi",
         "tms_url": "https://translate5.net",
         "type": [
             "tms",
@@ -1531,7 +1545,7 @@
         ],
         "automatic_post_editing_integrations":[
             {
-                "modelfront-ape": {
+                "modelfront": {
                     "custom": true
                }
             }
@@ -1599,15 +1613,6 @@
                 }
             },
             {
-                "intento": {
-                    "plugin": true,
-                    "urls": [
-                        "https://help.inten.to/hc/en-us/articles/360017136300-Configure-your-Intento-connector-in-Wordbee",
-                        "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/808157633/How+to+machine+translate+with+Intento+API"
-                    ]
-                }
-            },
-            {
                 "kantanmt": {
                     "custom": true,
                     "urls": [
@@ -1651,7 +1656,7 @@
                 }
             },
             {
-                "textshuttle": {
+                "supertext": {
                     "urls": [
                         "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
                     ]
@@ -1662,6 +1667,17 @@
                     "custom": true,
                     "urls": [
                         "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
+                    ]
+                }
+            }
+        ],
+        "router_api_integrations": [
+            {
+                "intento": {
+                    "plugin": true,
+                    "urls": [
+                        "https://help.inten.to/hc/en-us/articles/360017136300-Configure-your-Intento-connector-in-Wordbee",
+                        "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/808157633/How+to+machine+translate+with+Intento+API"
                     ]
                 }
             }
@@ -1696,19 +1712,11 @@
                 }
             },
             {
-                "iconic": {
+                "iconic-translation": {
                     "urls": [
                         "https://web.archive.org/web/20200610012354/https://iconictranslation.com/what-we-do/bespoke-solutions/connectors-plugins/"
                     ],
                     "active": false
-                }
-            },
-            {
-                "intento": {
-                    "plugin": true,
-                    "urls": [
-                        "https://help.inten.to/hc/en-us/articles/360018425379-How-to-set-up-Intento-plugin-for-Wordfast-Anywhere"
-                    ]
                 }
             },
             {
@@ -1747,6 +1755,16 @@
                 }
             },
             "yandex"
+        ],
+        "router_api_integrations": [
+            {
+                "intento": {
+                    "plugin": true,
+                    "urls": [
+                        "https://help.inten.to/hc/en-us/articles/360018425379-How-to-set-up-Intento-plugin-for-Wordfast-Anywhere"
+                    ]
+                }
+            }
         ],
         "local_api_support": true,
         "multiple_api_suggestions": true
@@ -1794,7 +1812,7 @@
         ],
         "automatic_post_editing_integrations":[
             {
-                "modelfront-ape": {
+                "modelfront": {
                     "custom": true
                }
             }
@@ -1825,15 +1843,6 @@
                     "urls": [
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/acolad.html",
                         "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-acolad-mt-engine.html"
-                    ]
-                }
-            },
-            {
-                "crosslang": {
-                    "plugin": true,
-                    "urls": [
-                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/crosslang.html",
-                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-crosslang-mt-engine.html"
                     ]
                 }
             },
@@ -1873,17 +1882,8 @@
                 }
             },
             {
-                "iconic": {
+                "iconic-translation": {
                     "active": false
-                }
-            },
-            {
-                "intento": {
-                    "plugin": true,
-                    "urls": [
-                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/intento.html",
-                        "https://help.inten.to/hc/en-us/articles/360021776920-XTM-Custom-MT-for-Intento-Quick-Guide"
-                    ]
                 }
             },
             {
@@ -1973,6 +1973,26 @@
                 }
             }
         ],
+        "router_api_integrations": [
+            {
+                "intento": {
+                    "plugin": true,
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/intento.html",
+                        "https://help.inten.to/hc/en-us/articles/360021776920-XTM-Custom-MT-for-Intento-Quick-Guide"
+                    ]
+                }
+            },
+            {
+                "crosslang": {
+                    "plugin": true,
+                    "urls": [
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/crosslang.html",
+                        "https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-crosslang-mt-engine.html"
+                    ]
+                }
+            }
+        ],
         "quality_estimation_integrations":[
             {
                 "modelfront": {
@@ -1982,7 +2002,7 @@
         ],
         "automatic_post_editing_integrations":[
             {
-                "modelfront-ape": {
+                "modelfront": {
                     "custom": true
                }
             }

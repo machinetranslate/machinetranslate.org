@@ -14,6 +14,16 @@ self_serve: true
 apis:
 - name: Sarvam AI
   slug: sarvam-ai
+company:
+  id: sarvam
+  name: Sarvam
+more_by_company:
+- translation_apis:
+  - id: sarvam-ai
+    name: Sarvam AI
+- models:
+  - id: sarvam-translate
+    name: Sarvam-Translate
 seo:
   name: The Sarvam-Translate model for translation
   type: Product

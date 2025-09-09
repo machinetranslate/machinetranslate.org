@@ -7,7 +7,9 @@ title: Unbabel QI
 description: The Unbabel QI translation quality estimation API
 tagline: Quality Intelligence AI
 id: unbabel-qi
-company: unbabel
+company:
+  id: unbabel
+  name: Unbabel
 parent: Quality estimation
 urls:
 - https://qi.unbabel.com
@@ -134,6 +136,19 @@ only_compatible_mt_api:
 only_compatible_tms: null
 customisation: true
 integrations: []
+more_by_company:
+- translation_apis:
+  - id: unbabel
+    name: Unbabel
+  - id: widn
+    name: Widn
+  - id: lingo24
+    name: Lingo24
+  - id: ubiqus
+    name: Ubiqus NMT
+- models:
+  - id: towerllm
+    name: TowerLLM
 active: true
 seo:
   name: The Unbabel QI translation quality estimation API

@@ -24,6 +24,15 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/acolad.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-acolad-mt-engine.html
 models: []
+company:
+  id: acolad
+  name: Acolad
+more_by_company:
+- translation_apis:
+  - id: acolad
+    name: Acolad
+  - id: ubiqus
+    name: Ubiqus NMT
 active: true
 seo:
   name: The Acolad machine translation API

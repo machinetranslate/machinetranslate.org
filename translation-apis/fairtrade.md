@@ -17,9 +17,16 @@ inputs: null
 supported_languages: []
 more_languages_by_request: false
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
 models: []
+company:
+  id: symbyonics
+  name: Symbyonics
+more_by_company:
+- translation_apis:
+  - id: fairtrade
+    name: Fairtrade
 active: false
 seo:
   name: The Fairtrade machine translation API

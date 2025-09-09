@@ -17,6 +17,13 @@ supported_languages: []
 more_languages_by_request: false
 integrations: []
 models: []
+company:
+  id: safaba
+  name: Safaba
+more_by_company:
+- translation_apis:
+  - id: safaba
+    name: Safaba
 active: false
 seo:
   name: The Safaba machine translation API

@@ -1,6 +1,7 @@
 ---
 nav_order: 12
 has_children: true
+permalink: /:basename
 title: Models
 description: Large language models
 ---

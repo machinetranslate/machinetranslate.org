@@ -13,6 +13,16 @@ self_serve: null
 apis:
 - name: Anthropic
   slug: anthropic
+company:
+  id: anthropic
+  name: Anthropic
+more_by_company:
+- translation_apis:
+  - id: anthropic
+    name: Anthropic
+- models:
+  - id: claude-sonnet
+    name: Claude Sonnet
 seo:
   name: The Claude Sonnet model for translation
   type: Product

@@ -32,7 +32,7 @@ supported_qe_apis:
 - id: modelfront
   name: ModelFront
 supported_ape_apis:
-- id: modelfront-ape
+- id: modelfront
   name: ModelFront
 seo:
   name: Machine translation for Northwestern Otomi

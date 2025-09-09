@@ -275,6 +275,19 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 models: []
+company:
+  id: translated
+  name: Translated
+more_by_company:
+- translation_apis:
+  - id: lara
+    name: Lara
+  - id: modernmt
+    name: ModernMT
+- tms:
+  - id: matecat
+    name: MateCat
+    type: Computer-aided translation tools
 active: true
 seo:
   name: The Lara machine translation API

@@ -40,7 +40,7 @@ territories:
 - at
 - it
 supported_apis:
-- id: textshuttle
+- id: supertext
   name: Supertext
 supported_qe_apis: []
 supported_ape_apis: []

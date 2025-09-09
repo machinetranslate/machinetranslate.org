@@ -21,6 +21,15 @@ integrations:
 - slug: across
   name: Across
 models: []
+company:
+  id: united-language-group
+  name: United Language Group
+more_by_company:
+- translation_apis:
+  - id: lucy
+    name: Lucy
+  - id: octavemt
+    name: OctaveMT
 active: true
 seo:
   name: The OctaveMT machine translation API

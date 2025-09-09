@@ -462,6 +462,13 @@ integrations:
 - slug: globallink
   name: GlobalLink
 models: []
+company:
+  id: apptek
+  name: AppTek
+more_by_company:
+- translation_apis:
+  - id: apptek
+    name: AppTek
 active: true
 seo:
   name: The AppTek machine translation API

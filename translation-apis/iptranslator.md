@@ -351,6 +351,10 @@ integrations:
   urls:
   - https://docs.memoq.com/current/en/Places/iptranslator-plugin-settings.html
 models: []
+company:
+  id: iconic-translation
+  name: Iconic Translation
+more_by_company: []
 active: false
 seo:
   name: The IP Translator machine translation API

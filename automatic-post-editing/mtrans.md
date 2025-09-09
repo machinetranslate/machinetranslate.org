@@ -5,7 +5,7 @@ layout: automatic_post_editing
 nav_order: 976
 title: MTrans
 description: The MTrans automatic post-editing API
-id: mtrans-ape
+id: mtrans
 parent: Automatic post-editing
 urls:
 - https://www.science.co.jp/en/nmt/service/post-edit_booster.html
@@ -155,6 +155,18 @@ supported_languages:
   name: Chinese
   variant_name: Traditional Chinese
 integrations: []
+company:
+  id: human-science
+  name: Human Science
+more_by_company:
+- routers:
+  - id: human-science
+    name: Human Science
+  - id: mtrans
+    name: MTrans
+- automatic_post_editing_apis:
+  - id: mtrans
+    name: MTrans
 seo:
   name: The MTrans automatic post-editing API
   type: Product

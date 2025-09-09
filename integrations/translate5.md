@@ -52,9 +52,18 @@ quality_estimation_integrations:
   custom: true
   name: ModelFront
 automatic_post_editing_integrations:
-- slug: modelfront-ape
+- slug: modelfront
   custom: true
   name: ModelFront
+router_api_integrations: []
+company:
+  id: mittagqi
+  name: MittagQI
+more_by_company:
+- tms:
+  - id: translate5
+    name: translate5
+    type: Translation management systems
 seo:
   name: Machine translation API integrations in translate5
   type: Product

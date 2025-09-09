@@ -24,6 +24,13 @@ integrations:
   urls:
   - https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings
 models: []
+company:
+  id: lingua-custodia
+  name: Lingua Custodia
+more_by_company:
+- translation_apis:
+  - id: lingua-custodia
+    name: Lingua Custodia
 active: true
 seo:
   name: The Lingua Custodia machine translation API

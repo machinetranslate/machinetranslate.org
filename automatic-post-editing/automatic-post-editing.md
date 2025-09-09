@@ -1,6 +1,7 @@
 ---
 nav_order: 67
 has_children: true
+permalink: /:basename
 # parent: Building and research
 title: Automatic post-editing
 description: Automatic post-editing of machine translation

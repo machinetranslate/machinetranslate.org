@@ -20,7 +20,7 @@ integrations:
   name: GlobalLink
 - slug: matecat
   name: MateCat
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   active: false
 - slug: wordbee
@@ -33,6 +33,13 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/tauyou.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-tauyou-mt-engine.html
 models: []
+company:
+  id: tauyou
+  name: Tauyou
+more_by_company:
+- translation_apis:
+  - id: tauyou
+    name: Tauyou
 active: false
 seo:
   name: The Tauyou machine translation API

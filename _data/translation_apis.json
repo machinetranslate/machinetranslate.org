@@ -4525,7 +4525,7 @@
     {
         "name": "Elia",
         "id": "elia",
-        "company": "Elhuyar",
+        "company": "elhuyar",
         "urls": [
             "https://elia.eus/start"
         ],
@@ -5314,7 +5314,7 @@
     {
         "name": "IP Translator",
         "id": "iptranslator",
-        "company": "iconic",
+        "company": "iconic-translation",
         "urls": [
             "https://web.archive.org/web/20181223111834/http://iconictranslation.com/products/iptranslator/",
             "https://web.archive.org/web/20190117101142/http://iconictranslation.com/solutions/languages/"
@@ -7136,6 +7136,7 @@
     {
         "name": "Moses",
         "id": "moses",
+        "company": "mosessmt",
         "urls": [
             "http://www2.statmt.org/moses/",
             "https://github.com/moses-smt/mosesdecoder"
@@ -7724,7 +7725,7 @@
     {
         "name": "OctaveMT",
         "id": "octavemt",
-        "company": "United Language Group",
+        "company": "united-language-group",
         "urls": [
             "https://info.unitedlanguagegroup.com/contact-us-today-about-octavemt"
         ],
@@ -9130,7 +9131,7 @@
     },
     {
         "name": "Tarjama MT",
-        "id": "tarjama",
+        "id": "tarjama-mt",
         "company": "tarjama",
         "urls": [
             "https://www.tarjama.com/amt/",
@@ -9643,7 +9644,7 @@
     },
     {
         "name": "Supertext",
-        "id": "textshuttle",
+        "id": "supertext",
         "company": "textshuttle",
         "urls": [
             "https://www.supertext.com",
@@ -11285,7 +11286,7 @@
     {
         "name": "Ubiqus NMT",
         "id": "ubiqus",
-        "company": "ubiqus",
+        "company": "acolad",
         "urls": [
             "https://www.ubiqus.com/",
             "https://documenter.getpostman.com/view/8281683/SVtSX9x2"
@@ -15453,7 +15454,7 @@
     {
         "name": "Sarvam AI",
         "id": "sarvam-ai",
-        "company": "sarvam-ai",
+        "company": "sarvam",
         "urls": [
             "https://docs.sarvam.ai",
             "https://sarvam.ai"

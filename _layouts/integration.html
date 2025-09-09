@@ -12,11 +12,12 @@ parent: Integrations
 
 <hr/>
 
+{% assign combined = page.translation_api_integrations | concat: page.router_api_integrations %}
 <p>
   The <strong>{{ page.title }}</strong> {{ page.type_description }} has
-  <a href="#machine-translation">{{ page.translation_api_integrations | size }} machine translation API integration{% if page.translation_api_integrations.size != 1 %}s{% endif %}</a>,
+  <a href="#machine-translation">{{ combined | size }} machine translation API integration{% if combined.size != 1 %}s{% endif %}</a>,
   <a href="#quality-estimation">{{ page.quality_estimation_integrations | size }} translation quality estimation API integration{% if page.quality_estimation_integrations.size != 1 %}s{% endif %}</a> and 
-  <a href="#automatic-post-editing">{{ page.automatic_post_editing_integrations | size }} automatic post editing API integration{% if page.automatic_post_editing_integrations.size != 1 %}s{% endif %}</a>.
+  <a href="#automatic-post-editing">{{ page.automatic_post_editing_integrations | size }} aßutomatic post editing API integration{% if page.automatic_post_editing_integrations.size != 1 %}s{% endif %}</a>.
 </p>
 
 <blockquote>
@@ -24,13 +25,22 @@ parent: Integrations
 
     <dt>API support</dt>
     <dd>
-      <a href="#machine-translation">{{ page.translation_api_integrations.size }} machine translation API{% if page.translation_api_integrations.size != 1 %}s{% endif %}</a>,
+      <a href="#machine-translation">{{ combined | size }} machine translation API{% if combined.size != 1 %}s{% endif %}</a>,
     </dd>
     <dd>
       <a href="#quality-estimation">{{ page.quality_estimation_integrations.size }} quality estimation API{% if page.quality_estimation_integrations.size != 1 %}s{% endif %}</a>,
     </dd>
     <dd>
       <a href="#automatic-post-editing">{{ page.automatic_post_editing_integrations.size }} automatic post editing API{% if page.automatic_post_editing_integrations.size > 1 %}s{% endif %} </a>
+    </dd>
+
+    <dt>Company</dt>
+    <dd>
+      {% if page.more_by_company.size > 1 %}
+        <a href="#more-by-company">{{ page.company.name }}</a>
+      {% else %}
+        {{ page.company.name }}
+      {% endif %}
     </dd>
     
   </dl>
@@ -49,10 +59,10 @@ parent: Integrations
   <h2>Machine translation</h2>
   <details>
     <summary>
-      <strong>{{ page.translation_api_integrations | size }}</strong> machine translation API integrations are available for {{ page.title }}.
+      <strong>{{ combined | size }}</strong> machine translation API integrations are available for {{ page.title }}.
       <p class="preview hint">
-        {{ page.translation_api_integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
-        {% if page.translation_api_integrations.size > 5 %}, …{% endif %}
+        {{ combined | slice: 0, 5 | map: 'name' | join: ', ' }}
+        {% if combined.size > 5 %}, …{% endif %}
       </p>
     </summary>
     <ul>
@@ -66,6 +76,17 @@ parent: Integrations
           {% endif %}
       </li>
     {% endfor %}
+    {% for api in page.router_api_integrations %}
+      <li>
+          <a href="/routers/{{ api.slug }}">{{ api.name }}</a> {% if api.plugin %}(plugin){% endif %}
+          {% if api.custom or api.glossary or api.formality %}
+            {% if api.custom %}| <strong>fine-tuning</strong> support{% endif %}
+            {% if api.glossary %}| <strong>glossary</strong> support{% endif %}
+            {% if api.formality %}| <strong>formality</strong> support{% endif %}
+          {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
   </details>
 </section>
 
@@ -82,12 +103,13 @@ parent: Integrations
     <ul>
     {% for qe in page.quality_estimation_integrations %}
       <li>
-        <a href="/{{ qe.slug }}">{{ qe.name }}</a> {% if qe.plugin %}(plugin){% endif %}
+        <a href="/quality-estimation/{{ qe.slug }}">{{ qe.name }}</a> {% if qe.plugin %}(plugin){% endif %}
           {% if qe.custom %}
             {% if qe.custom %}| <strong>fine-tuning</strong> support{% endif %}
           {% endif %}
       </li>
     {% endfor %}
+    </ul>
   </details>
 </section>
 
@@ -104,7 +126,7 @@ parent: Integrations
     <ul>
     {% for ape in page.automatic_post_editing_integrations %}
       <li>
-        <a href="/{{ ape.slug }}">{{ ape.name }}</a> {% if ape.plugin %}(plugin){% endif %}
+        <a href="/automatic-post-editing/{{ ape.slug }}">{{ ape.name }}</a> {% if ape.plugin %}(plugin){% endif %}
           {% if ape.custom %}
             {% if ape.custom %}| <strong>fine-tuning</strong> support{% endif %}
           {% endif %}
@@ -116,4 +138,122 @@ parent: Integrations
 {% if page.fuzzy_repair %}
   <h2>Other machine translation features</h2>
   <p>{{ page.description }} offers <strong>fuzzy repair</strong>.</p>
+{% endif %}
+
+{% assign feature_types = "translation_apis,quality_estimation_apis,automatic_post_editing_apis,tms,routers,models" | split: "," %}
+{% assign feature_summaries = "Translation APIs,Quality estimation,Automatic post-editing,,Routers,Models" | split: "," %}
+
+{% assign total_visible_items = 0 %}
+
+{% for company in page.more_by_company %}
+  {% for feature in feature_types %}
+    {% assign items = company[feature] %}
+    {% if items %}
+      {% assign visible_items = "" | split: "" %}
+      {% for i in items %}
+        {% if feature == "tms" %}
+          {% if i.id != page.id %}
+            {% assign visible_items = visible_items | push: i %}
+          {% endif %}
+        {% else %}
+          {% assign visible_items = visible_items | push: i %}
+        {% endif %}
+      {% endfor %}
+
+      {% if visible_items.size > 0 %}
+        {% assign total_visible_items = total_visible_items | plus: visible_items.size %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% if total_visible_items > 0 %}
+<section id="more-by-company">
+  <h2>More by {{ page.company.name }}</h2>
+
+  {% for company in page.more_by_company %}
+
+    {% assign items = company.translation_apis %}
+    {% if items %}
+        <details>
+          <summary>Machine translation</summary>
+          <ul>
+            {% for i in items %}
+              <li><a href="/{{ i.id }}">{{ i.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </details>
+    {% endif %}
+
+    {% assign items = company.quality_estimation_apis %}
+    {% if items %}
+      <details>
+        <summary>Quality Estimation</summary>
+        <ul>
+          {% for i in items %}
+            <li><a href="/quality-estimation/{{ i.id }}">{{ i.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+
+    {% assign items = company.automatic_post_editing_apis %}
+    {% if items %}
+        <details>
+          <summary>Automatic post-editing</summary>
+          <ul>
+            {% for i in items %}
+              <li><a href="/automatic-post-editing/{{ i.id }}">{{ i.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </details>
+    {% endif %}
+
+  {% assign items = company.tms %}
+  {% if items %}
+    {% assign visible_items = "" | split: "" %}
+      {% for i in items %}
+        {% if i.id != page.id %}
+          {% assign visible_items = visible_items | push: i %}
+        {% endif %}
+      {% endfor %}
+
+    {% if visible_items.size > 0 %}
+      <details>
+        <summary>{{ items[0].type }}</summary>
+        <ul>
+          {% for i in visible_items %}
+            <li><a href="/integrations/{{ i.id }}">{{ i.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+  {% endif %}
+
+    {% assign items = company.routers %}
+    {% if items %}
+      <details>
+        <summary>Routers</summary>
+        <ul>
+          {% for i in items %}
+            <li><a href="/routers/{{ i.id }}">{{ i.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+
+    {% assign items = company.models %}
+    {% if items %}
+      <details>
+        <summary>Models</summary>
+        <ul>
+          {% for i in items %}
+            <li><a href="/models/{{ i.id }}">{{ i.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+
+  {% endfor %}
+</section>
 {% endif %}

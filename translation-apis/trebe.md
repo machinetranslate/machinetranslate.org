@@ -62,6 +62,15 @@ integrations:
   urls:
   - https://appstore.rws.com/Plugin/195
 models: []
+company:
+  id: vicomtech
+  name: Vicomtech
+more_by_company:
+- translation_apis:
+  - id: plata-vicomtech
+    name: Plata Vicomtech
+  - id: trebe
+    name: Trebe
 active: true
 seo:
   name: The Trebe machine translation API

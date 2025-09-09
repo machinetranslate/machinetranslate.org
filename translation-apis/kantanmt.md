@@ -360,7 +360,7 @@ integrations:
   custom: true
   urls:
   - https://docs.memoq.com/current/en/Places/kantanmt-plugin-settings.html
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
 - slug: trados
@@ -393,6 +393,20 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/kantanmt.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-kantanmt-engine.html
 models: []
+company:
+  id: kantan-ai
+  name: KantanAI
+more_by_company:
+- translation_apis:
+  - id: kantanmt
+    name: KantanMT
+- tms:
+  - id: kantanstream
+    name: KantanStream
+    type: Translation management systems
+- quality_estimation_apis:
+  - id: kantanqes
+    name: KantanQES
 active: true
 seo:
   name: The KantanMT machine translation API

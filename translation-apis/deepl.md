@@ -245,7 +245,7 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786901/sdl-multitrans/configuring-deepl
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   glossary: true
 - slug: omegat
@@ -301,6 +301,13 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/deepl.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-deepl-translator-mt-engine.html
 models: []
+company:
+  id: deepl
+  name: DeepL
+more_by_company:
+- translation_apis:
+  - id: deepl
+    name: DeepL
 active: true
 seo:
   name: The DeepL machine translation API

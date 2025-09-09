@@ -639,6 +639,13 @@ integrations:
   urls:
   - https://mt-auto-minhon-mlt.ucri.jgn-x.jp/tool/xtm/edit/
 models: []
+company:
+  id: nict
+  name: National Institute of Information and Communications Technology
+more_by_company:
+- translation_apis:
+  - id: textra
+    name: TexTra
 active: true
 seo:
   name: The TexTra machine translation API

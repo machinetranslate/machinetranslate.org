@@ -1,6 +1,7 @@
 ---
 nav_order: 64
 has_children: true
+permalink: /:basename
 title: Routers
 description: List of machine translation API routers
 seo:

@@ -63,7 +63,7 @@ The most common type of customisation is [fine-tuning](/fine-tuning) on [paralle
     <ul>
     {% for qe in customisable_qe_apis %}
       <li>
-        <a href="/{{ qe.id }}">{{ qe.name }}</a> {% if qe.plugin %}(plugin){% endif %}
+        <a href="/quality-estimation/{{ qe.id }}">{{ qe.name }}</a> {% if qe.plugin %}(plugin){% endif %}
             | <strong>fine-tuning</strong> support
       </li>
     {% endfor %}

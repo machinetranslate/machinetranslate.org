@@ -36,7 +36,7 @@ supported_apis:
 - id: baidu
   name: Baidu Translate
 supported_qe_apis:
-- id: modernmt-qe
+- id: modernmt
   name: ModernMT
 supported_ape_apis: []
 seo:

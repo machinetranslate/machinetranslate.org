@@ -271,13 +271,20 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786621/sdl-multitrans/configuring-promt
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
   glossary: true
 - slug: smartling
   name: Smartling
 models: []
+company:
+  id: promt
+  name: PROMT
+more_by_company:
+- translation_apis:
+  - id: promt
+    name: PROMT
 active: true
 seo:
   name: The PROMT machine translation API

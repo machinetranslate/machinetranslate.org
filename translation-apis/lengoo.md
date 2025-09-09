@@ -19,7 +19,7 @@ inputs:
 supported_languages: []
 more_languages_by_request: null
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
 - slug: trados
   name: Trados Studio
@@ -29,6 +29,10 @@ integrations:
 - slug: xtm
   name: XTM
 models: []
+company:
+  id: lengoo
+  name: Lengoo
+more_by_company: []
 active: true
 seo:
   name: The Lengoo machine translation API

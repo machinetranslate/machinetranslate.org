@@ -31,6 +31,10 @@ integrations:
   urls:
   - https://confluence.translate5.net/display/BUS/Moses
 models: []
+company:
+  id: mosessmt
+  name: Mosessmt
+more_by_company: []
 active: true
 seo:
   name: The Moses machine translation API

@@ -7,7 +7,9 @@ title: Google Translation Hub MTQP
 description: The Google Translation Hub MTQP translation quality estimation API
 tagline: Machine translation quality prediction scores
 id: google-translation-hub-mtqp
-company: Google
+company:
+  id: google
+  name: Google
 parent: Quality estimation
 urls:
 - https://cloud.google.com/translation-hub/docs/user-post-edit#segment-details
@@ -79,6 +81,17 @@ integrations:
 - slug: translation-hub
   name: Google Cloud Translation Hub
   custom: false
+more_by_company:
+- translation_apis:
+  - id: google
+    name: Google Translate
+- tms:
+  - id: translation-hub
+    name: Google Cloud Translation Hub
+    type: Translation management systems
+- quality_estimation_apis:
+  - id: google-translation-hub-mtqp
+    name: Google Translation Hub MTQP
 active: true
 seo:
   name: The Google Translation Hub MTQP translation quality estimation API

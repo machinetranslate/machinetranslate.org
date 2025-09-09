@@ -86,6 +86,10 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 models: []
+company:
+  id: translateme
+  name: TranslateMe
+more_by_company: []
 active: true
 seo:
   name: The TranslateMe machine translation API

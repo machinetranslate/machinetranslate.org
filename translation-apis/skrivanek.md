@@ -19,10 +19,17 @@ inputs:
 supported_languages: []
 more_languages_by_request: false
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   active: false
 models: []
+company:
+  id: skrivanek
+  name: Skrivanek
+more_by_company:
+- translation_apis:
+  - id: skrivanek
+    name: Skrivanek
 active: true
 seo:
   name: The Skrivanek machine translation API

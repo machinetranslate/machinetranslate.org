@@ -21,7 +21,7 @@ inputs:
 supported_languages: []
 more_languages_by_request: false
 integrations:
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   glossary: true
 - slug: trados
@@ -29,6 +29,15 @@ integrations:
   plugin: true
   active: false
 models: []
+company:
+  id: acolad
+  name: Acolad
+more_by_company:
+- translation_apis:
+  - id: acolad
+    name: Acolad
+  - id: ubiqus
+    name: Ubiqus NMT
 active: true
 seo:
   name: The Ubiqus NMT machine translation API

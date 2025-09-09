@@ -37,7 +37,7 @@
             "pangeamt",
             "systran",
             "tencent",
-            "textshuttle",
+            "supertext",
             "xl8",
             "yandex"
         ],
@@ -439,7 +439,7 @@
             "microsoft",
             "niutrans",
             "tencent",
-            "sogou",
+            "sogou-translate",
             "yandex",
             "youdao"
         ]

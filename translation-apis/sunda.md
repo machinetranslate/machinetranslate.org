@@ -35,6 +35,13 @@ supported_languages:
 more_languages_by_request: false
 integrations: []
 models: []
+company:
+  id: sunda-systems
+  name: Sunda Systems
+more_by_company:
+- translation_apis:
+  - id: sunda
+    name: Sunda Translator
 active: true
 seo:
   name: The Sunda Translator machine translation API

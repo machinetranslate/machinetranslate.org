@@ -698,6 +698,13 @@ integrations:
   plugin: true
   active: false
 models: []
+company:
+  id: netease
+  name: NetEase
+more_by_company:
+- translation_apis:
+  - id: youdao
+    name: Youdao Translate
 active: true
 seo:
   name: The Youdao Translate machine translation API

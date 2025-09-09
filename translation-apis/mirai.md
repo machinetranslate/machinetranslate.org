@@ -110,13 +110,17 @@ integrations:
   name: memoQ
   urls:
   - https://docs.memoq.com/current/en/Places/mirai-mt-plugin.html
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
 - slug: trados
   name: Trados Studio
   plugin: true
   active: false
 models: []
+company:
+  id: mirai-translate
+  name: Mirai Translate
+more_by_company: []
 active: true
 seo:
   name: The Mirai Translator machine translation API

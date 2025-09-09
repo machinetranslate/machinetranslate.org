@@ -25,6 +25,11 @@ quality_estimation_integrations:
   custom: false
   name: KantanQES
 automatic_post_editing_integrations: []
+router_api_integrations: []
+company:
+  id: kantanmt
+  name: Kantanmt
+more_by_company: []
 seo:
   name: Machine translation API integrations in KantanStream
   type: Product

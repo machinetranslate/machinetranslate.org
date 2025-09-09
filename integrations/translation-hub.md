@@ -24,6 +24,21 @@ quality_estimation_integrations:
   custom: false
   name: Google Translation Hub MTQP
 automatic_post_editing_integrations: []
+router_api_integrations: []
+company:
+  id: google
+  name: Google
+more_by_company:
+- translation_apis:
+  - id: google
+    name: Google Translate
+- tms:
+  - id: translation-hub
+    name: Google Cloud Translation Hub
+    type: Translation management systems
+- quality_estimation_apis:
+  - id: google-translation-hub-mtqp
+    name: Google Translation Hub MTQP
 seo:
   name: Machine translation API integrations in Google Cloud Translation Hub
   type: Product

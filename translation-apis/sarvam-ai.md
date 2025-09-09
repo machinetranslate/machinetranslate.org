@@ -163,6 +163,16 @@ integrations: []
 models:
 - name: Sarvam-Translate
   slug: sarvam-translate
+company:
+  id: sarvam
+  name: Sarvam
+more_by_company:
+- translation_apis:
+  - id: sarvam-ai
+    name: Sarvam AI
+- models:
+  - id: sarvam-translate
+    name: Sarvam-Translate
 active: true
 seo:
   name: The Sarvam AI machine translation API

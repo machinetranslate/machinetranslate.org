@@ -702,7 +702,7 @@ integrations:
 - slug: multitrans
   name: Multitrans
   url: https://docs.rws.com/785465/786613/sdl-multitrans/configuring-microsoft-translator
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
   custom: true
   glossary: true
@@ -752,6 +752,13 @@ integrations:
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/microsoft-translator.html
   - https://help.xtm.cloud/en/xtm-cloud/13.2/en/connecting-xtm-to-your-microsoft-translator-mt-engine.html
 models: []
+company:
+  id: microsoft
+  name: Microsoft
+more_by_company:
+- translation_apis:
+  - id: microsoft
+    name: Microsoft Translator
 active: true
 seo:
   name: The Microsoft Translator machine translation API

@@ -636,7 +636,7 @@ integrations:
   active: false
 - slug: matecat
   name: MateCat
-- slug: phrase-tms
+- slug: phrase
   name: Phrase TMS
 - slug: omegat
   name: OmegaT
@@ -645,6 +645,13 @@ integrations:
 - slug: wordfast
   name: Wordfast
 models: []
+company:
+  id: yandex
+  name: Yandex
+more_by_company:
+- translation_apis:
+  - id: yandex
+    name: Yandex Translate
 active: true
 seo:
   name: The Yandex Translate machine translation API
