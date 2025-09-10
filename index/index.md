@@ -32,8 +32,8 @@ The **Machine Translate Foundation** is building **open information** and **comm
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); padding: 2em; gap: 2em; max-width: 800px; margin: auto; text-align: center; transform: translateX(-5%)">
   <div>
-    <a href="/translation-apis">
-      <span class="big">{{ site.data.translation_apis | size }}</span><br/>
+    <a href="/apis">
+      <span class="big">{{ site.data.apis | size }}</span><br/>
       translation APIs
     </a>
   </div>

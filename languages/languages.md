@@ -8,7 +8,7 @@ seo:
     name: List of languages supported by machine translation APIs
 ---
 
-Hundreds of **languages** and [locales](/locale) are supported by [machine translation APIs](/translation-apis) and machine translation [quality estimation APIs](/quality-estimation).
+Hundreds of **languages** and [locales](/locale) are supported by [machine translation APIs](/apis) and machine translation [quality estimation APIs](/quality-estimation).
 
 The top one hundred languages are supported by more than one API.
 

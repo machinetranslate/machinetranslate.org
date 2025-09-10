@@ -85,7 +85,7 @@ defaults:
       seo:
         type: Event
   - scope:
-      path: translation-apis
+      path: apis
       type: pages
     values:
       permalink: /:basename
@@ -287,3 +287,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - venv

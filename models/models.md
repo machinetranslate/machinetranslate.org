@@ -8,7 +8,7 @@ description: Large language models
 
 Machine translation **models** are machine learning models for generating a translation.
 
-[APIs](/translation-apis) provide convenient access to underlying models. Models can also be trained and deployed directly.
+[APIs](/apis) provide convenient access to underlying models. Models can also be trained and deployed directly.
 
 ## Evolution
 
