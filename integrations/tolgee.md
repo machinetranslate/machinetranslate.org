@@ -36,7 +36,7 @@ more_by_company:
 - tms:
   - id: tolgee
     name: Tolgee
-    type: Translation management systems
+    type: Translation management system
 seo:
   name: Machine translation API integrations in Tolgee
   type: Product

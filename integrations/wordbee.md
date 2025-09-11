@@ -79,7 +79,7 @@ more_by_company:
 - tms:
   - id: wordbee
     name: Wordbee
-    type: Translation management systems
+    type: Translation management system
 seo:
   name: Machine translation API integrations in Wordbee
   type: Product

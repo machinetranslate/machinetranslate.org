@@ -66,7 +66,7 @@ more_by_company:
 - tms:
   - id: matecat
     name: MateCat
-    type: Computer-aided translation tools
+    type: Computer-aided translation tool
 seo:
   name: Machine translation API integrations in MateCat
   type: Product

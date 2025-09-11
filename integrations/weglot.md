@@ -31,7 +31,7 @@ more_by_company:
 - tms:
   - id: weglot
     name: Weglot
-    type: Translation management systems
+    type: Translation management system
 seo:
   name: Machine translation API integrations in Weglot
   type: Product

@@ -49,7 +49,7 @@ more_by_company:
 - tms:
   - id: omegat
     name: OmegaT
-    type: Computer-aided translation tools
+    type: Computer-aided translation tool
 seo:
   name: Machine translation API integrations in OmegaT
   type: Product

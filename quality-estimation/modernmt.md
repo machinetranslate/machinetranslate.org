@@ -1034,7 +1034,7 @@ more_by_company:
 - tms:
   - id: matecat
     name: MateCat
-    type: Computer-aided translation tools
+    type: Computer-aided translation tool
 active: true
 seo:
   name: The ModernMT translation quality estimation API

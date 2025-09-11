@@ -42,7 +42,7 @@ more_by_company:
 - tms:
   - id: across
     name: Across
-    type: Translation management systems
+    type: Translation management system
 seo:
   name: Machine translation API integrations in Across
   type: Product

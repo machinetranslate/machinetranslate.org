@@ -43,7 +43,7 @@ more_by_company:
 - tms:
   - id: transifex
     name: Transifex
-    type: Translation management systems
+    type: Translation management system
 seo:
   name: Machine translation API integrations in Transifex
   type: Product
