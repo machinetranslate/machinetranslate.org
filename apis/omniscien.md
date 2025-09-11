@@ -19,8 +19,8 @@ customisation:
 - Formality
 - Fine-tuning
 inputs:
-- file
 - text
+- file
 supported_languages:
 - slug: arabic
   code: ar

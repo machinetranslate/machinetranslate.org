@@ -15,9 +15,9 @@ self_serve: true
 prompt_required: false
 customisation: []
 inputs:
+- text
 - speech
 - file
-- text
 supported_languages:
 - slug: afrikaans
   code: af

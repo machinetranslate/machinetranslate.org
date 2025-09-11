@@ -12,7 +12,7 @@ privacy_url: null
 self_serve: null
 prompt_required: false
 customisation: []
-inputs: null
+inputs: []
 supported_languages: []
 more_languages_by_request: false
 integrations: []

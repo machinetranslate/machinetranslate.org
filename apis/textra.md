@@ -16,8 +16,8 @@ prompt_required: false
 customisation:
 - Glossary
 inputs:
-- file
 - text
+- file
 supported_languages:
 - slug: afrikaans
   code: af

@@ -14,7 +14,7 @@ privacy_url: https://web.archive.org/web/20220116104107/https://iconictranslatio
 self_serve: null
 prompt_required: false
 customisation: []
-inputs: null
+inputs: []
 supported_languages:
 - slug: afrikaans
   code: af
@@ -359,22 +359,22 @@ more_by_company:
 - tms:
   - id: worldserver
     name: WorldServer
-    type: Translation management systems
+    type: Translation management system
   - id: groupshare
     name: GroupShare
-    type: Translation management systems
+    type: Translation management system
   - id: multitrans
     name: Multitrans
-    type: Translation management systems
+    type: Translation management system
   - id: passolo
     name: Passolo
-    type: Computer-aided translation tools
+    type: Computer-aided translation tool
   - id: sdl
     name: SDL TMS
-    type: Translation management systems
+    type: Translation management system
   - id: trados
     name: Trados Studio
-    type: Computer-aided translation tools
+    type: Computer-aided translation tool
 - automatic_post_editing_apis:
   - id: language-weaver
     name: Language Weaver

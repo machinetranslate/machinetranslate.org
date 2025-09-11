@@ -16,8 +16,8 @@ self_serve: true
 prompt_required: false
 customisation: []
 inputs:
-- speech
 - text
+- speech
 supported_languages:
 - slug: acholi
   code: ach

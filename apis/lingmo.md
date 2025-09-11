@@ -15,8 +15,8 @@ self_serve: null
 prompt_required: false
 customisation: []
 inputs:
-- speech
 - text
+- speech
 supported_languages:
 - slug: arabic
   code: ar-sa
