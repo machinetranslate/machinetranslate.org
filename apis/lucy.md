@@ -13,7 +13,7 @@ privacy_url: https://web.archive.org/web/20180922112117/http://www.lucysoftware.
 self_serve: null
 prompt_required: false
 customisation: []
-inputs: null
+inputs: []
 supported_languages:
 - slug: catalan
   code: ca

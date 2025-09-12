@@ -17,8 +17,8 @@ customisation:
 - Adaptive
 - Glossary
 inputs:
-- file
 - text
+- file
 supported_languages:
 - slug: english
   code: en

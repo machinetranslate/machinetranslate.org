@@ -36,7 +36,7 @@ more_by_company:
 - tms:
   - id: globallink
     name: GlobalLink
-    type: Computer-aided translation tools
+    type: Computer-aided translation tool
 active: true
 seo:
   name: The TransPerfect NMT machine translation API

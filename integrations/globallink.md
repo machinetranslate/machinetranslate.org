@@ -52,7 +52,7 @@ more_by_company:
 - tms:
   - id: globallink
     name: GlobalLink
-    type: Computer-aided translation tools
+    type: Computer-aided translation tool
 seo:
   name: Machine translation API integrations in GlobalLink
   type: Product

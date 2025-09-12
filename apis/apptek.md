@@ -16,8 +16,8 @@ prompt_required: false
 customisation:
 - Formality
 inputs:
-- speech
 - text
+- speech
 supported_languages:
 - slug: afrikaans
   code: af

@@ -15,8 +15,8 @@ self_serve: false
 prompt_required: false
 customisation: []
 inputs:
-- speech
 - text
+- speech
 supported_languages: []
 more_languages_by_request: false
 integrations:

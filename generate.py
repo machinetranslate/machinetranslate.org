@@ -243,7 +243,7 @@ def get_more_by_company(company_id):
       tms.append({
           'id': tms_id,
           'name': tms_data['name'],
-          'type': 'Translation management systems' if 'tms' in TMS_BY_ID[tms_id]['type'] else 'Computer-aided translation tools'
+          'type': 'Translation management system' if 'tms' in TMS_BY_ID[tms_id]['type'] else 'Computer-aided translation tool'
       })
     if tms:
       more_by_company.append({
@@ -367,7 +367,9 @@ for api in TRANSLATION_APIS:
   if api.get('fine-tuning', False):
     customisation.append('Fine-tuning')
 
-  inputs = api.get('inputs', None)
+  inputs = api.get('inputs', [])
+  if "text" in inputs:
+    inputs = ["text"] + [i for i in inputs if i != "text"]
 
   # "Join"
   # TODO: use language/api mapping

@@ -114,7 +114,7 @@ more_by_company:
 - tms:
   - id: crowdin
     name: Crowdin
-    type: Translation management systems
+    type: Translation management system
 seo:
   name: Machine translation API integrations in Crowdin
   type: Product

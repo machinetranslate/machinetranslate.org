@@ -14,7 +14,7 @@ privacy_url: null
 self_serve: null
 prompt_required: false
 customisation: []
-inputs: null
+inputs: []
 supported_languages:
 - slug: afrikaans
   code: af

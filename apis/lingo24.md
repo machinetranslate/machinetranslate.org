@@ -14,7 +14,7 @@ privacy_url: https://www.lingo24.com/about/privacy-and-terms/
 self_serve: true
 prompt_required: false
 customisation: []
-inputs: null
+inputs: []
 supported_languages:
 - slug: arabic
   code: ar

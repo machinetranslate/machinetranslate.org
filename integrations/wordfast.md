@@ -62,7 +62,7 @@ more_by_company:
 - tms:
   - id: wordfast
     name: Wordfast
-    type: Translation management systems
+    type: Translation management system
 seo:
   name: Machine translation API integrations in Wordfast
   type: Product

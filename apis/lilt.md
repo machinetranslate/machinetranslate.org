@@ -16,8 +16,8 @@ prompt_required: false
 customisation:
 - Adaptive
 inputs:
-- speech
 - text
+- speech
 - file
 supported_languages:
 - slug: afrikaans
@@ -372,7 +372,7 @@ more_by_company:
 - tms:
   - id: lilt
     name: Lilt
-    type: Computer-aided translation tools
+    type: Computer-aided translation tool
 active: true
 seo:
   name: The Lilt machine translation API

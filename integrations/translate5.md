@@ -63,7 +63,7 @@ more_by_company:
 - tms:
   - id: translate5
     name: translate5
-    type: Translation management systems
+    type: Translation management system
 seo:
   name: Machine translation API integrations in translate5
   type: Product

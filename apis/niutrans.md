@@ -16,8 +16,8 @@ prompt_required: false
 customisation:
 - Glossary
 inputs:
-- speech
 - text
+- speech
 - file
 supported_languages:
 - slug: acehnese

@@ -366,7 +366,7 @@ more_by_company:
 - tms:
   - id: phrase
     name: Phrase TMS
-    type: Translation management systems
+    type: Translation management system
 - quality_estimation_apis:
   - id: phrase-mtqe
     name: Phrase MTQE

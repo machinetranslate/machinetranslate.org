@@ -15,8 +15,8 @@ self_serve: true
 prompt_required: false
 customisation: []
 inputs:
-- file
 - text
+- file
 supported_languages:
 - slug: arabic
   code: ar

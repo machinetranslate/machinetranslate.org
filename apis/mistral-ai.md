@@ -17,8 +17,8 @@ prompt_required: true
 customisation:
 - Prompting
 inputs:
-- speech
 - text
+- speech
 supported_languages:
 - slug: arabic
   code: ar

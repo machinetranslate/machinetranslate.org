@@ -403,7 +403,7 @@ more_by_company:
 - tms:
   - id: kantanstream
     name: KantanStream
-    type: Translation management systems
+    type: Translation management system
 - quality_estimation_apis:
   - id: kantanqes
     name: KantanQES

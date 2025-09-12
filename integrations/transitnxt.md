@@ -43,7 +43,7 @@ more_by_company:
 - tms:
   - id: transitnxt
     name: TransitNXT
-    type: Translation management systems
+    type: Translation management system
 seo:
   name: Machine translation API integrations in TransitNXT
   type: Product
