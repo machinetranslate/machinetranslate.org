@@ -15396,7 +15396,7 @@
         "id": "lara",
         "company": "translated",
         "urls": [
-            "https://translated.com/lara",
+            "https://laratranslate.com",
             "https://developers.laratranslate.com/docs/introduction",
             "http://support.laratranslate.com"
         ],
@@ -15445,7 +15445,9 @@
             "zh-tw"
         ],
         "inputs": [
-            "text"
+            "text",
+            "speech",
+            "file"
         ],
         "formality": true,
         "adaptive": true,
