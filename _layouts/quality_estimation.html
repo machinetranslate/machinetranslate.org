@@ -39,10 +39,23 @@ parent: Quality estimation
 
 {{ content }}
 
-{% if page.customisation %}
+{% if page.customisation.size > 0 %}
 <p>
-  The <strong>{{ page.title }}</strong> quality estimation API supports <a href="/customisation">customisation</a>. 
+  <a href="/customisation">Customisation</a> is supported.
+  {% endif %}
+  {% if page.customisation contains 'Glossary' %}
+    <a href="/glossaries">Glossaries</a> can be used to customise the translation of specific words and phrases.
+  {% endif %}
+  {% if page.customisation contains 'Formality' %}
+    The API can also be customised for <a href="/formality">formality</a>.
+  {% endif %}
+  {% if page.customisation contains 'Fine-tuning' %}
+    <a href="/fine-tuning">Fine-tuning</a> on <a href="/parallel-data">parallel data</a> can be used to customise the model.
+  {% endif %}
+  {% if page.customisation contains 'Adaptive' %}
+    The API also supports <a href="/adaptive">adaptive</a> customisation.
 {% endif %}
+
 {% if page.only_compatible_tms != nil %}
   {% if page.only_compatible_tms.size > 1 %}
     {% if page.only_compatible_mt_api != nil %}
