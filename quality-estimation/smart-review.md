@@ -355,7 +355,7 @@ only_compatible_mt_api: null
 only_compatible_tms:
 - id: trados
   name: Trados Studio
-customisation: true
+customisation: []
 integrations:
 - slug: trados
   name: Trados Studio

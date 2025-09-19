@@ -752,7 +752,7 @@ supported_languages:
   variant_name: null
 only_compatible_mt_api: null
 only_compatible_tms: null
-customisation: true
+customisation: []
 integrations:
 - slug: crowdin
   name: Crowdin

@@ -354,7 +354,7 @@ only_compatible_mt_api: null
 only_compatible_tms:
 - id: phrase
   name: Phrase TMS
-customisation: false
+customisation: []
 integrations:
 - slug: phrase
   name: Phrase TMS

@@ -76,7 +76,7 @@ only_compatible_mt_api:
 only_compatible_tms:
 - id: translation-hub
   name: Google Cloud Translation Hub
-customisation: false
+customisation: []
 integrations:
 - slug: translation-hub
   name: Google Cloud Translation Hub
