@@ -1019,7 +1019,8 @@ only_compatible_mt_api: null
 only_compatible_tms:
 - id: matecat
   name: MateCat
-customisation: []
+customisation:
+- Adaptive
 integrations:
 - slug: matecat
   name: MateCat

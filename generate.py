@@ -884,9 +884,9 @@ for estimation in QUALITY_ESTIMATION:
     raise Exception(urls)
   
   customisation = []
-  if api.get('adaptive', False):
+  if estimation.get('adaptive', False):
     customisation.append('Adaptive')
-  if api.get('fine-tuning', False):
+  if estimation.get('fine-tuning', False):
     customisation.append('Fine-tuning')
 
   tagline = estimation.get('tagline', False)

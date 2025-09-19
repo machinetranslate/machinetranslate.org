@@ -43,12 +43,6 @@ parent: Quality estimation
 <p>
   <a href="/customisation">Customisation</a> is supported.
   {% endif %}
-  {% if page.customisation contains 'Glossary' %}
-    <a href="/glossaries">Glossaries</a> can be used to customise the translation of specific words and phrases.
-  {% endif %}
-  {% if page.customisation contains 'Formality' %}
-    The API can also be customised for <a href="/formality">formality</a>.
-  {% endif %}
   {% if page.customisation contains 'Fine-tuning' %}
     <a href="/fine-tuning">Fine-tuning</a> on <a href="/parallel-data">parallel data</a> can be used to customise the model.
   {% endif %}
@@ -122,6 +116,15 @@ parent: Quality estimation
     {% endfor %}
   {% else %}
     <dd>API integration with any machine translation API</dd>
+  {% endif %}
+
+  {% if page.customisation.size > 0 %}
+    <dt>Customisation</dt>
+    <dd>
+      {% for customisation_type in page.customisation %}
+        {{ customisation_type }}{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </dd>
   {% endif %}
 
   <dt>Company</dt>
