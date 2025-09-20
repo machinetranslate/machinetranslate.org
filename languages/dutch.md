@@ -38,132 +38,259 @@ territories:
 supported_apis:
 - id: judicio
   name: Judicio
+  codes:
+  - nl
 - id: language-wire
   name: Language Wire
+  codes:
+  - nl
 - id: phrase-nextmt
   name: Phrase NextMT
+  codes:
+  - nl
 - id: translateme
   name: TranslateMe
+  codes:
+  - nl
 - id: mistral-ai
   name: Mistral AI
+  codes:
+  - nl
 - id: alexa-translations-ai
   name: Alexa Translations A.I.
+  codes:
+  - nl
 - id: lingo24
   name: Lingo24
+  codes:
+  - nl
 - id: kakao
   name: Kakao
+  codes:
+  - nl
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - nl
 - id: tilde
   name: Tilde
+  codes:
+  - nl
 - id: supertext
   name: Supertext
+  codes:
+  - nl
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - nl-nl
 - id: reverso
   name: Reverso
+  codes:
+  - nl
 - id: deepl
   name: DeepL
+  codes:
+  - nl
 - id: unbabel
   name: Unbabel
+  codes:
+  - nl
 - id: lara
   name: Lara
+  codes:
+  - nl-be
+  - nl-nl
 - id: etranslation
   name: eTranslation
+  codes:
+  - nl
 - id: globalese
   name: Globalese
+  codes:
+  - nl
 - id: widn
   name: Widn
+  codes:
+  - nl
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - nl
 - id: promt
   name: PROMT
+  codes:
+  - nl
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - nl
 - id: xl8
   name: XL8
+  codes:
+  - nl
 - id: apertium
   name: Apertium
+  codes:
+  - nl
 - id: kantanmt
   name: KantanMT
+  codes:
+  - nl
 - id: systran
   name: SYSTRAN
+  codes:
+  - nl
 - id: anthropic
   name: Anthropic
+  codes:
+  - nl
 - id: iconic
   name: Iconic
+  codes:
+  - nl
 - id: iptranslator
   name: IP Translator
+  codes:
+  - nl
 - id: lilt
   name: Lilt
+  codes:
+  - nl
 - id: deepseek
   name: DeepSeek
+  codes:
+  - nl
 - id: watson
   name: Watson Language Translator
+  codes:
+  - nl
 - id: openai
   name: OpenAI
+  codes:
+  - nl
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - nl
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - nl
 - id: apptek
   name: AppTek
+  codes:
+  - nl
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - nl
 - id: amazon
   name: Amazon Translate
+  codes:
+  - nl
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - nl
 - id: textra
   name: TexTra
+  codes:
+  - nl
 - id: yandex
   name: Yandex Translate
+  codes:
+  - nl
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - nl
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - nl-nl
 - id: youdao
   name: Youdao Translate
+  codes:
+  - nl
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - nl
 - id: modernmt
   name: ModernMT
+  codes:
+  - nl
 - id: baidu
   name: Baidu Translate
+  codes:
+  - nl
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - nl
 - id: google
   name: Google Translate
+  codes:
+  - nl
 - id: niutrans
   name: Niutrans
+  codes:
+  - nl
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - nl
 - id: kantanqes
   name: KantanQES
+  codes:
+  - nl
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - nl
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - nl
 - id: smart-review
   name: Smart Review
+  codes:
+  - nl
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - nl
 - id: taus
   name: TAUS
+  codes:
+  - nl
 - id: modelfront
   name: ModelFront
+  codes:
+  - nl
 - id: modernmt
   name: ModernMT
+  codes:
+  - nl
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - nl
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - nl
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - nl
 - id: modelfront
   name: ModelFront
+  codes:
+  - nl
 seo:
   name: Machine translation for Dutch
   type: Language

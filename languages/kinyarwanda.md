@@ -31,30 +31,54 @@ territories:
 supported_apis:
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - rw-rw
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - rw
 - id: modernmt
   name: ModernMT
+  codes:
+  - rw
 - id: baidu
   name: Baidu Translate
+  codes:
+  - rw
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - rw
 - id: google
   name: Google Translate
+  codes:
+  - rw
 - id: niutrans
   name: Niutrans
+  codes:
+  - rw
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - rw
 - id: modelfront
   name: ModelFront
+  codes:
+  - rw
 - id: modernmt
   name: ModernMT
+  codes:
+  - rw
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - rw
 - id: modelfront
   name: ModelFront
+  codes:
+  - rw
 seo:
   name: Machine translation for Kinyarwanda
   type: Language

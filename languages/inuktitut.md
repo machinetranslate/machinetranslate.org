@@ -31,16 +31,27 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - iu
+  - iu-Latn
 - id: baidu
   name: Baidu Translate
+  codes:
+  - iu
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - iu
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - iu
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - iu
 seo:
   name: Machine translation for Inuktitut
   type: Language

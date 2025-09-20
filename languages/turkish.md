@@ -28,120 +28,234 @@ territories:
 supported_apis:
 - id: translateme
   name: TranslateMe
+  codes:
+  - tr
 - id: alexa-translations-ai
   name: Alexa Translations A.I.
+  codes:
+  - tr
 - id: lingo24
   name: Lingo24
+  codes:
+  - tr
 - id: tencent
   name: Tencent Machine Translation
+  codes:
+  - tr
 - id: kakao
   name: Kakao
+  codes:
+  - tr
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - tr
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - tr
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - tr-tr
 - id: reverso
   name: Reverso
+  codes:
+  - tr
 - id: deepl
   name: DeepL
+  codes:
+  - tr
 - id: unbabel
   name: Unbabel
+  codes:
+  - tr
 - id: lara
   name: Lara
+  codes:
+  - tr
 - id: etranslation
   name: eTranslation
+  codes:
+  - tr
 - id: globalese
   name: Globalese
+  codes:
+  - tr
 - id: widn
   name: Widn
+  codes:
+  - tr
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - tr
 - id: promt
   name: PROMT
+  codes:
+  - tr
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - tr
 - id: xl8
   name: XL8
+  codes:
+  - tr
 - id: apertium
   name: Apertium
+  codes:
+  - tr
 - id: kantanmt
   name: KantanMT
+  codes:
+  - tr
 - id: systran
   name: SYSTRAN
+  codes:
+  - tr
 - id: anthropic
   name: Anthropic
+  codes:
+  - tr
 - id: iconic
   name: Iconic
+  codes:
+  - tr
 - id: iptranslator
   name: IP Translator
+  codes:
+  - tr
 - id: lilt
   name: Lilt
+  codes:
+  - tr
 - id: deepseek
   name: DeepSeek
+  codes:
+  - tr
 - id: watson
   name: Watson Language Translator
+  codes:
+  - tr
 - id: openai
   name: OpenAI
+  codes:
+  - tr
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - tr
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - tr
 - id: apptek
   name: AppTek
+  codes:
+  - tr
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - tr
 - id: amazon
   name: Amazon Translate
+  codes:
+  - tr
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - tr
 - id: textra
   name: TexTra
+  codes:
+  - tr
 - id: yandex
   name: Yandex Translate
+  codes:
+  - tr
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - tr
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - tr-tr
 - id: youdao
   name: Youdao Translate
+  codes:
+  - tr
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - tr
 - id: modernmt
   name: ModernMT
+  codes:
+  - tr
 - id: baidu
   name: Baidu Translate
+  codes:
+  - tr
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - tr
 - id: google
   name: Google Translate
+  codes:
+  - tr
 - id: niutrans
   name: Niutrans
+  codes:
+  - tr
 supported_qe_apis:
 - id: kantanqes
   name: KantanQES
+  codes:
+  - tr
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - tr
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - tr
 - id: smart-review
   name: Smart Review
+  codes:
+  - tr
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - tr
 - id: taus
   name: TAUS
+  codes:
+  - tr
 - id: modelfront
   name: ModelFront
+  codes:
+  - tr
 - id: modernmt
   name: ModernMT
+  codes:
+  - tr
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - tr
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - tr
 - id: modelfront
   name: ModelFront
+  codes:
+  - tr
 seo:
   name: Machine translation for Turkish
   type: Language

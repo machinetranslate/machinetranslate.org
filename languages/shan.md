@@ -25,15 +25,25 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - shn
 - id: baidu
   name: Baidu Translate
+  codes:
+  - shn
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - shn
 - id: google
   name: Google Translate
+  codes:
+  - shn
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - shn
 supported_ape_apis: []
 seo:
   name: Machine translation for Shan

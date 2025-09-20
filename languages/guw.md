@@ -13,6 +13,8 @@ family: []
 supported_apis:
 - id: niutrans
   name: Niutrans
+  codes:
+  - guw
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

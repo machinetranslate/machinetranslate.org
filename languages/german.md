@@ -35,150 +35,300 @@ territories:
 supported_apis:
 - id: judicio
   name: Judicio
+  codes:
+  - de
 - id: cloudtranslation
   name: CloudTranslation
+  codes:
+  - de
 - id: language-wire
   name: Language Wire
+  codes:
+  - de
 - id: pangeamt
   name: PangeaMT
+  codes:
+  - de
 - id: lucy
   name: Lucy
+  codes:
+  - de
 - id: phrase-nextmt
   name: Phrase NextMT
+  codes:
+  - de
 - id: translateme
   name: TranslateMe
+  codes:
+  - de
 - id: mistral-ai
   name: Mistral AI
+  codes:
+  - de
 - id: alexa-translations-ai
   name: Alexa Translations A.I.
+  codes:
+  - de
 - id: papago
   name: Papago Translation
+  codes:
+  - de
 - id: lingo24
   name: Lingo24
+  codes:
+  - de
 - id: mirai
   name: Mirai Translator
+  codes:
+  - de
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
+  codes:
+  - de
 - id: aisa
   name: AISA
+  codes:
+  - de
 - id: tencent
   name: Tencent Machine Translation
+  codes:
+  - de
 - id: kakao
   name: Kakao
+  codes:
+  - de
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - de
 - id: tilde
   name: Tilde
+  codes:
+  - de
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - de
 - id: supertext
   name: Supertext
+  codes:
+  - de
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - de-de
 - id: reverso
   name: Reverso
+  codes:
+  - de
 - id: deepl
   name: DeepL
+  codes:
+  - de
 - id: unbabel
   name: Unbabel
+  codes:
+  - de
 - id: lara
   name: Lara
+  codes:
+  - de
 - id: etranslation
   name: eTranslation
+  codes:
+  - de
 - id: globalese
   name: Globalese
+  codes:
+  - de
 - id: widn
   name: Widn
+  codes:
+  - de
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - de
 - id: promt
   name: PROMT
+  codes:
+  - de
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - de
 - id: xl8
   name: XL8
+  codes:
+  - de
 - id: kantanmt
   name: KantanMT
+  codes:
+  - de
 - id: systran
   name: SYSTRAN
+  codes:
+  - de
 - id: anthropic
   name: Anthropic
+  codes:
+  - de
 - id: iconic
   name: Iconic
+  codes:
+  - de
 - id: iptranslator
   name: IP Translator
+  codes:
+  - de
 - id: lilt
   name: Lilt
+  codes:
+  - de
 - id: deepseek
   name: DeepSeek
+  codes:
+  - de
 - id: watson
   name: Watson Language Translator
+  codes:
+  - de
 - id: openai
   name: OpenAI
+  codes:
+  - de
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - de
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - de
 - id: apptek
   name: AppTek
+  codes:
+  - de
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - de
 - id: amazon
   name: Amazon Translate
+  codes:
+  - de
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - de
 - id: textra
   name: TexTra
+  codes:
+  - de
 - id: yandex
   name: Yandex Translate
+  codes:
+  - de
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - de
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - de-de
 - id: youdao
   name: Youdao Translate
+  codes:
+  - de
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - de
 - id: modernmt
   name: ModernMT
+  codes:
+  - de
 - id: baidu
   name: Baidu Translate
+  codes:
+  - de
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - de
 - id: google
   name: Google Translate
+  codes:
+  - de
 - id: niutrans
   name: Niutrans
+  codes:
+  - de
 supported_qe_apis:
 - id: google-translation-hub-mtqp
   name: Google Translation Hub MTQP
+  codes:
+  - de
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - de
 - id: kantanqes
   name: KantanQES
+  codes:
+  - de
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - de
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - de
 - id: smart-review
   name: Smart Review
+  codes:
+  - de
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - de
 - id: taus
   name: TAUS
+  codes:
+  - de
 - id: modelfront
   name: ModelFront
+  codes:
+  - de
+  - de-at
+  - de-ch
+  - de-de
 - id: modernmt
   name: ModernMT
+  codes:
+  - de
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - de
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - de
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - de
 - id: modelfront
   name: ModelFront
+  codes:
+  - de
+  - de-at
+  - de-ch
+  - de-de
 seo:
   name: Machine translation for German
   type: Language

@@ -27,10 +27,16 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - doi-in
 - id: textra
   name: TexTra
+  codes:
+  - doi
 - id: google
   name: Google Translate
+  codes:
+  - doi
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

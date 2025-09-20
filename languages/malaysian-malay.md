@@ -28,11 +28,17 @@ territories:
 supported_apis:
 - id: promt
   name: PROMT
+  codes:
+  - zsm
 - id: modernmt
   name: ModernMT
+  codes:
+  - zsm
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - zsm
 supported_ape_apis: []
 seo:
   name: Machine translation for Malaysian Malay

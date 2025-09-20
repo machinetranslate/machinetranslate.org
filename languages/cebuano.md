@@ -28,36 +28,66 @@ territories:
 supported_apis:
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - ceb
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ceb
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ceb-ph
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ceb
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ceb
 - id: modernmt
   name: ModernMT
+  codes:
+  - ceb
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ceb
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ceb
 - id: google
   name: Google Translate
+  codes:
+  - ceb
 - id: niutrans
   name: Niutrans
+  codes:
+  - ceb
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - ceb
 - id: modelfront
   name: ModelFront
+  codes:
+  - ceb
 - id: modernmt
   name: ModernMT
+  codes:
+  - ceb
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ceb
 - id: modelfront
   name: ModelFront
+  codes:
+  - ceb
 seo:
   name: Machine translation for Cebuano
   type: Language

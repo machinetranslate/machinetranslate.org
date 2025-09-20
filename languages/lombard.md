@@ -29,16 +29,26 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - lmo
 - id: google
   name: Google Translate
+  codes:
+  - lmo
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - lmo
 - id: modernmt
   name: ModernMT
+  codes:
+  - lmo
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - lmo
 seo:
   name: Machine translation for Lombard
   type: Language

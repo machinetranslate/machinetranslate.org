@@ -38,78 +38,150 @@ territories:
 supported_apis:
 - id: language-wire
   name: Language Wire
+  codes:
+  - 'no'
 - id: supertext
   name: Supertext
+  codes:
+  - 'no'
 - id: unbabel
   name: Unbabel
+  codes:
+  - 'no'
 - id: widn
   name: Widn
+  codes:
+  - 'no'
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - 'no'
 - id: xl8
   name: XL8
+  codes:
+  - 'no'
 - id: apertium
   name: Apertium
+  codes:
+  - 'no'
 - id: kantanmt
   name: KantanMT
+  codes:
+  - 'no'
 - id: systran
   name: SYSTRAN
+  codes:
+  - 'no'
 - id: iconic
   name: Iconic
+  codes:
+  - 'no'
 - id: iptranslator
   name: IP Translator
+  codes:
+  - 'no'
 - id: lilt
   name: Lilt
+  codes:
+  - 'no'
 - id: deepseek
   name: DeepSeek
+  codes:
+  - 'no'
 - id: openai
   name: OpenAI
+  codes:
+  - 'no'
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - 'no'
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - 'no'
 - id: apptek
   name: AppTek
+  codes:
+  - 'no'
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - 'no'
 - id: amazon
   name: Amazon Translate
+  codes:
+  - 'no'
 - id: textra
   name: TexTra
+  codes:
+  - 'no'
 - id: yandex
   name: Yandex Translate
+  codes:
+  - 'no'
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - no-no
 - id: youdao
   name: Youdao Translate
+  codes:
+  - 'no'
 - id: baidu
   name: Baidu Translate
+  codes:
+  - 'no'
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - 'no'
 - id: google
   name: Google Translate
+  codes:
+  - 'no'
 - id: niutrans
   name: Niutrans
+  codes:
+  - 'no'
 supported_qe_apis:
 - id: kantanqes
   name: KantanQES
+  codes:
+  - 'no'
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - 'no'
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - 'no'
 - id: smart-review
   name: Smart Review
+  codes:
+  - 'no'
 - id: taus
   name: TAUS
+  codes:
+  - 'no'
 - id: modelfront
   name: ModelFront
+  codes:
+  - 'no'
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - 'no'
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - 'no'
 - id: modelfront
   name: ModelFront
+  codes:
+  - 'no'
 seo:
   name: Machine translation for Norwegian
   type: Language

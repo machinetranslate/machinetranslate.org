@@ -27,16 +27,28 @@ territories:
 supported_apis:
 - id: yandex
   name: Yandex Translate
+  codes:
+  - cv
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - cv
 - id: baidu
   name: Baidu Translate
+  codes:
+  - cv
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - cv
 - id: google
   name: Google Translate
+  codes:
+  - cv
 - id: niutrans
   name: Niutrans
+  codes:
+  - cv
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

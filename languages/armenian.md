@@ -35,60 +35,114 @@ territories:
 supported_apis:
 - id: promt
   name: PROMT
+  codes:
+  - hy
 - id: kantanmt
   name: KantanMT
+  codes:
+  - hy
 - id: lilt
   name: Lilt
+  codes:
+  - hy
 - id: openai
   name: OpenAI
+  codes:
+  - hy
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - hy
 - id: apptek
   name: AppTek
+  codes:
+  - hy
 - id: amazon
   name: Amazon Translate
+  codes:
+  - hy
 - id: textra
   name: TexTra
+  codes:
+  - hy
 - id: yandex
   name: Yandex Translate
+  codes:
+  - hy
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - hy
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - hy-am
 - id: youdao
   name: Youdao Translate
+  codes:
+  - hy
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - hy
 - id: modernmt
   name: ModernMT
+  codes:
+  - hy
 - id: baidu
   name: Baidu Translate
+  codes:
+  - hy
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - hy
 - id: google
   name: Google Translate
+  codes:
+  - hy
 - id: niutrans
   name: Niutrans
+  codes:
+  - hy
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - hy
 - id: smart-review
   name: Smart Review
+  codes:
+  - hy
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - hy
 - id: taus
   name: TAUS
+  codes:
+  - hy
 - id: modelfront
   name: ModelFront
+  codes:
+  - hy
 - id: modernmt
   name: ModernMT
+  codes:
+  - hy
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - hy
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - hy
 - id: modelfront
   name: ModelFront
+  codes:
+  - hy
 seo:
   name: Machine translation for Armenian
   type: Language

@@ -34,46 +34,86 @@ territories:
 supported_apis:
 - id: systran
   name: SYSTRAN
+  codes:
+  - ps
 - id: lilt
   name: Lilt
+  codes:
+  - ps
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ps
 - id: apptek
   name: AppTek
+  codes:
+  - ps
 - id: amazon
   name: Amazon Translate
+  codes:
+  - ps
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ps
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ps-af
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ps
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ps
 - id: modernmt
   name: ModernMT
+  codes:
+  - ps
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ps
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ps
 - id: google
   name: Google Translate
+  codes:
+  - ps
 - id: niutrans
   name: Niutrans
+  codes:
+  - ps
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - ps
 - id: smart-review
   name: Smart Review
+  codes:
+  - ps
 - id: modelfront
   name: ModelFront
+  codes:
+  - ps
 - id: modernmt
   name: ModernMT
+  codes:
+  - ps
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ps
 - id: modelfront
   name: ModelFront
+  codes:
+  - ps
 seo:
   name: Machine translation for Pashto
   type: Language

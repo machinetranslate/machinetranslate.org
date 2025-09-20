@@ -27,6 +27,8 @@ territories:
 supported_apis:
 - id: google
   name: Google Translate
+  codes:
+  - ckk
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

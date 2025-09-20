@@ -31,98 +31,190 @@ territories:
 supported_apis:
 - id: tilde
   name: Tilde
+  codes:
+  - et
 - id: deepl
   name: DeepL
+  codes:
+  - et
 - id: etranslation
   name: eTranslation
+  codes:
+  - et
 - id: globalese
   name: Globalese
+  codes:
+  - et
 - id: widn
   name: Widn
+  codes:
+  - et
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - et
 - id: promt
   name: PROMT
+  codes:
+  - et
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - et
 - id: xl8
   name: XL8
+  codes:
+  - et
 - id: kantanmt
   name: KantanMT
+  codes:
+  - et
 - id: systran
   name: SYSTRAN
+  codes:
+  - et
 - id: anthropic
   name: Anthropic
+  codes:
+  - et
 - id: iconic
   name: Iconic
+  codes:
+  - et
 - id: iptranslator
   name: IP Translator
+  codes:
+  - et
 - id: deepseek
   name: DeepSeek
+  codes:
+  - et
 - id: watson
   name: Watson Language Translator
+  codes:
+  - et
 - id: openai
   name: OpenAI
+  codes:
+  - et
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - et
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - et
 - id: apptek
   name: AppTek
+  codes:
+  - et
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - et
 - id: amazon
   name: Amazon Translate
+  codes:
+  - et
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - et
 - id: textra
   name: TexTra
+  codes:
+  - et
 - id: yandex
   name: Yandex Translate
+  codes:
+  - et
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - et
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - et-ee
 - id: youdao
   name: Youdao Translate
+  codes:
+  - et
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - et
 - id: modernmt
   name: ModernMT
+  codes:
+  - et
 - id: baidu
   name: Baidu Translate
+  codes:
+  - et
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - et
 - id: google
   name: Google Translate
+  codes:
+  - et
 - id: niutrans
   name: Niutrans
+  codes:
+  - et
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - et
 - id: kantanqes
   name: KantanQES
+  codes:
+  - et
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - et
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - et
 - id: smart-review
   name: Smart Review
+  codes:
+  - et
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - et
 - id: taus
   name: TAUS
+  codes:
+  - et
 - id: modelfront
   name: ModelFront
+  codes:
+  - et
 - id: modernmt
   name: ModernMT
+  codes:
+  - et
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - et
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - et
 - id: modelfront
   name: ModelFront
+  codes:
+  - et
 seo:
   name: Machine translation for Estonian
   type: Language

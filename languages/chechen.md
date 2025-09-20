@@ -28,10 +28,16 @@ territories:
 supported_apis:
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ce
 - id: google
   name: Google Translate
+  codes:
+  - ce
 - id: niutrans
   name: Niutrans
+  codes:
+  - ce
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

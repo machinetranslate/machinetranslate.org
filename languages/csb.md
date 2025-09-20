@@ -13,8 +13,12 @@ family: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
+  codes:
+  - csb
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - csb
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

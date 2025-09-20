@@ -39,10 +39,16 @@ territories:
 supported_apis:
 - id: baidu
   name: Baidu Translate
+  codes:
+  - bal
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - bal
 - id: google
   name: Google Translate
+  codes:
+  - bal
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

@@ -32,40 +32,74 @@ territories:
 supported_apis:
 - id: promt
   name: PROMT
+  codes:
+  - tk
 - id: kantanmt
   name: KantanMT
+  codes:
+  - tk
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - tk
 - id: apptek
   name: AppTek
+  codes:
+  - tk
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - tk
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - tk-tk
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - tk
 - id: modernmt
   name: ModernMT
+  codes:
+  - tk
 - id: baidu
   name: Baidu Translate
+  codes:
+  - tk
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - tk
 - id: google
   name: Google Translate
+  codes:
+  - tk
 - id: niutrans
   name: Niutrans
+  codes:
+  - tk
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - tk
 - id: modelfront
   name: ModelFront
+  codes:
+  - tk
 - id: modernmt
   name: ModernMT
+  codes:
+  - tk
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - tk
 - id: modelfront
   name: ModelFront
+  codes:
+  - tk
 seo:
   name: Machine translation for Turkmen
   type: Language

@@ -31,21 +31,37 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - mai-in
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - mai
 - id: textra
   name: TexTra
+  codes:
+  - mai
 - id: modernmt
   name: ModernMT
+  codes:
+  - mai
 - id: baidu
   name: Baidu Translate
+  codes:
+  - mai
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - mai
 - id: google
   name: Google Translate
+  codes:
+  - mai
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - mai
 supported_ape_apis: []
 seo:
   name: Machine translation for Maithili

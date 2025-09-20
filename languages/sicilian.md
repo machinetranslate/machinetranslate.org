@@ -28,13 +28,21 @@ territories:
 supported_apis:
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - scn
 - id: modernmt
   name: ModernMT
+  codes:
+  - scn
 - id: google
   name: Google Translate
+  codes:
+  - scn
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - scn
 supported_ape_apis: []
 seo:
   name: Machine translation for Sicilian

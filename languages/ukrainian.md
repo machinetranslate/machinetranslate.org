@@ -31,98 +31,190 @@ territories:
 supported_apis:
 - id: tilde
   name: Tilde
+  codes:
+  - uk
 - id: reverso
   name: Reverso
+  codes:
+  - uk
 - id: deepl
   name: DeepL
+  codes:
+  - uk
 - id: unbabel
   name: Unbabel
+  codes:
+  - uk
 - id: lara
   name: Lara
+  codes:
+  - uk
 - id: etranslation
   name: eTranslation
+  codes:
+  - uk
 - id: globalese
   name: Globalese
+  codes:
+  - uk
 - id: widn
   name: Widn
+  codes:
+  - uk
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - uk
 - id: promt
   name: PROMT
+  codes:
+  - uk
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - uk
 - id: xl8
   name: XL8
+  codes:
+  - uk
 - id: apertium
   name: Apertium
+  codes:
+  - uk
 - id: kantanmt
   name: KantanMT
+  codes:
+  - uk
 - id: systran
   name: SYSTRAN
+  codes:
+  - uk
 - id: iconic
   name: Iconic
+  codes:
+  - uk
 - id: iptranslator
   name: IP Translator
+  codes:
+  - uk
 - id: lilt
   name: Lilt
+  codes:
+  - uk
 - id: deepseek
   name: DeepSeek
+  codes:
+  - uk
 - id: watson
   name: Watson Language Translator
+  codes:
+  - uk
 - id: openai
   name: OpenAI
+  codes:
+  - uk
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - uk
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - uk
 - id: apptek
   name: AppTek
+  codes:
+  - uk
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - uk
 - id: amazon
   name: Amazon Translate
+  codes:
+  - uk
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - uk
 - id: textra
   name: TexTra
+  codes:
+  - uk
 - id: yandex
   name: Yandex Translate
+  codes:
+  - uk
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - uk
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - uk-ua
 - id: youdao
   name: Youdao Translate
+  codes:
+  - uk
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - uk
 - id: modernmt
   name: ModernMT
+  codes:
+  - uk
 - id: baidu
   name: Baidu Translate
+  codes:
+  - uk
 - id: google
   name: Google Translate
+  codes:
+  - uk
 - id: niutrans
   name: Niutrans
+  codes:
+  - uk
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - uk
 - id: smart-review
   name: Smart Review
+  codes:
+  - uk
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - uk
 - id: taus
   name: TAUS
+  codes:
+  - uk
 - id: modelfront
   name: ModelFront
+  codes:
+  - uk
 - id: modernmt
   name: ModernMT
+  codes:
+  - uk
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - uk
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - uk
 - id: modelfront
   name: ModelFront
+  codes:
+  - uk
 seo:
   name: Machine translation for Ukrainian
   type: Language

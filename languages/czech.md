@@ -31,114 +31,222 @@ territories:
 supported_apis:
 - id: phrase-nextmt
   name: Phrase NextMT
+  codes:
+  - cs
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - cs
 - id: tilde
   name: Tilde
+  codes:
+  - cs
 - id: supertext
   name: Supertext
+  codes:
+  - cs
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - cs-cz
 - id: reverso
   name: Reverso
+  codes:
+  - cs
 - id: deepl
   name: DeepL
+  codes:
+  - cs
 - id: unbabel
   name: Unbabel
+  codes:
+  - cs
 - id: lara
   name: Lara
+  codes:
+  - cs
 - id: etranslation
   name: eTranslation
+  codes:
+  - cs
 - id: globalese
   name: Globalese
+  codes:
+  - cs
 - id: widn
   name: Widn
+  codes:
+  - cs
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - cs
 - id: promt
   name: PROMT
+  codes:
+  - cs
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - cs
 - id: xl8
   name: XL8
+  codes:
+  - cs
 - id: kantanmt
   name: KantanMT
+  codes:
+  - cs
 - id: systran
   name: SYSTRAN
+  codes:
+  - cs
 - id: anthropic
   name: Anthropic
+  codes:
+  - cs
 - id: iconic
   name: Iconic
+  codes:
+  - cs
 - id: iptranslator
   name: IP Translator
+  codes:
+  - cs
 - id: lilt
   name: Lilt
+  codes:
+  - cs
 - id: deepseek
   name: DeepSeek
+  codes:
+  - cs
 - id: watson
   name: Watson Language Translator
+  codes:
+  - cs
 - id: openai
   name: OpenAI
+  codes:
+  - cs
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - cs
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - cs
 - id: apptek
   name: AppTek
+  codes:
+  - cs
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - cs
 - id: amazon
   name: Amazon Translate
+  codes:
+  - cs
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - cs
 - id: textra
   name: TexTra
+  codes:
+  - cs
 - id: yandex
   name: Yandex Translate
+  codes:
+  - cs
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - cs
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - cs-cz
 - id: youdao
   name: Youdao Translate
+  codes:
+  - cs
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - cs
 - id: modernmt
   name: ModernMT
+  codes:
+  - cs
 - id: baidu
   name: Baidu Translate
+  codes:
+  - cs
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - cs
 - id: google
   name: Google Translate
+  codes:
+  - cs
 - id: niutrans
   name: Niutrans
+  codes:
+  - cs
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - cs
 - id: kantanqes
   name: KantanQES
+  codes:
+  - cs
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - cs
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - cs
 - id: smart-review
   name: Smart Review
+  codes:
+  - cs
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - cs
 - id: taus
   name: TAUS
+  codes:
+  - cs
 - id: modelfront
   name: ModelFront
+  codes:
+  - cs
 - id: modernmt
   name: ModernMT
+  codes:
+  - cs
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - cs
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - cs
 - id: modelfront
   name: ModelFront
+  codes:
+  - cs
 seo:
   name: Machine translation for Czech
   type: Language

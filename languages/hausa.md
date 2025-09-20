@@ -30,48 +30,90 @@ territories:
 supported_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ha
 - id: apptek
   name: AppTek
+  codes:
+  - ha
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - ha
 - id: amazon
   name: Amazon Translate
+  codes:
+  - ha
 - id: textra
   name: TexTra
+  codes:
+  - ha
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ha-ne
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ha
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ha
 - id: modernmt
   name: ModernMT
+  codes:
+  - ha
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ha
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ha
 - id: google
   name: Google Translate
+  codes:
+  - ha
 - id: niutrans
   name: Niutrans
+  codes:
+  - ha
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - ha
 - id: smart-review
   name: Smart Review
+  codes:
+  - ha
 - id: taus
   name: TAUS
+  codes:
+  - ha
 - id: modelfront
   name: ModelFront
+  codes:
+  - ha
 - id: modernmt
   name: ModernMT
+  codes:
+  - ha
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ha
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ha
 - id: modelfront
   name: ModelFront
+  codes:
+  - ha
 seo:
   name: Machine translation for Hausa
   type: Language

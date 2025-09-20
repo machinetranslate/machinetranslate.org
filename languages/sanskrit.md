@@ -31,19 +31,33 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - sa-in
 - id: textra
   name: TexTra
+  codes:
+  - sa
 - id: modernmt
   name: ModernMT
+  codes:
+  - sa
 - id: baidu
   name: Baidu Translate
+  codes:
+  - sa
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - sa
 - id: google
   name: Google Translate
+  codes:
+  - sa
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - sa
 supported_ape_apis: []
 seo:
   name: Machine translation for Sanskrit

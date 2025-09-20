@@ -27,19 +27,33 @@ territories:
 supported_apis:
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - tw
 - id: modernmt
   name: ModernMT
+  codes:
+  - tw
 - id: baidu
   name: Baidu Translate
+  codes:
+  - tw
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - tw
 - id: google
   name: Google Translate
+  codes:
+  - tw
 - id: niutrans
   name: Niutrans
+  codes:
+  - tw
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - tw
 supported_ape_apis: []
 seo:
   name: Machine translation for Twi

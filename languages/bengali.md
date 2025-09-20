@@ -33,76 +33,146 @@ territories:
 supported_apis:
 - id: kakao
   name: Kakao
+  codes:
+  - bn
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - bn-in
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - bn
 - id: systran
   name: SYSTRAN
+  codes:
+  - bn
 - id: anthropic
   name: Anthropic
+  codes:
+  - bn
 - id: lilt
   name: Lilt
+  codes:
+  - bn
 - id: deepseek
   name: DeepSeek
+  codes:
+  - bn
 - id: watson
   name: Watson Language Translator
+  codes:
+  - bn
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - bn
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - bn
 - id: apptek
   name: AppTek
+  codes:
+  - bn
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - bn
 - id: amazon
   name: Amazon Translate
+  codes:
+  - bn
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - bn
 - id: textra
   name: TexTra
+  codes:
+  - bn
 - id: yandex
   name: Yandex Translate
+  codes:
+  - bn
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - bn
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - bn-bd
 - id: youdao
   name: Youdao Translate
+  codes:
+  - bn
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - bn
 - id: modernmt
   name: ModernMT
+  codes:
+  - bn
 - id: baidu
   name: Baidu Translate
+  codes:
+  - bn
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - bn
 - id: google
   name: Google Translate
+  codes:
+  - bn
 - id: niutrans
   name: Niutrans
+  codes:
+  - bn
 supported_qe_apis:
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - bn
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - bn
 - id: smart-review
   name: Smart Review
+  codes:
+  - bn
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - bn
 - id: taus
   name: TAUS
+  codes:
+  - bn
 - id: modelfront
   name: ModelFront
+  codes:
+  - bn
 - id: modernmt
   name: ModernMT
+  codes:
+  - bn
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - bn
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - bn
 - id: modelfront
   name: ModelFront
+  codes:
+  - bn
 seo:
   name: Machine translation for Bengali
   type: Language

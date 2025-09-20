@@ -31,94 +31,182 @@ territories:
 supported_apis:
 - id: tilde
   name: Tilde
+  codes:
+  - lv
 - id: deepl
   name: DeepL
+  codes:
+  - lv
 - id: etranslation
   name: eTranslation
+  codes:
+  - lv
 - id: globalese
   name: Globalese
+  codes:
+  - lv
 - id: widn
   name: Widn
+  codes:
+  - lv
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - lv
 - id: promt
   name: PROMT
+  codes:
+  - lv
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - lv
 - id: xl8
   name: XL8
+  codes:
+  - lv
 - id: kantanmt
   name: KantanMT
+  codes:
+  - lv
 - id: systran
   name: SYSTRAN
+  codes:
+  - lv
 - id: anthropic
   name: Anthropic
+  codes:
+  - lv
 - id: iconic
   name: Iconic
+  codes:
+  - lv
 - id: iptranslator
   name: IP Translator
+  codes:
+  - lv
 - id: watson
   name: Watson Language Translator
+  codes:
+  - lv
 - id: openai
   name: OpenAI
+  codes:
+  - lv
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - lv
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - lv
 - id: apptek
   name: AppTek
+  codes:
+  - lv
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - lv
 - id: amazon
   name: Amazon Translate
+  codes:
+  - lv
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - lv
 - id: textra
   name: TexTra
+  codes:
+  - lv
 - id: yandex
   name: Yandex Translate
+  codes:
+  - lv
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - lv
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - lv-lv
 - id: youdao
   name: Youdao Translate
+  codes:
+  - lv
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - lv
 - id: modernmt
   name: ModernMT
+  codes:
+  - lv
 - id: baidu
   name: Baidu Translate
+  codes:
+  - lv
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - lv
 - id: google
   name: Google Translate
+  codes:
+  - lv
 - id: niutrans
   name: Niutrans
+  codes:
+  - lv
 supported_qe_apis:
 - id: kantanqes
   name: KantanQES
+  codes:
+  - lv
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - lv
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - lv
 - id: smart-review
   name: Smart Review
+  codes:
+  - lv
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - lv
 - id: taus
   name: TAUS
+  codes:
+  - lv
 - id: modelfront
   name: ModelFront
+  codes:
+  - lv
 - id: modernmt
   name: ModernMT
+  codes:
+  - lv
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - lv
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - lv
 - id: modelfront
   name: ModelFront
+  codes:
+  - lv
 seo:
   name: Machine translation for Latvian
   type: Language

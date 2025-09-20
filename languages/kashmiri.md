@@ -34,17 +34,29 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - ks-in
 - id: textra
   name: TexTra
+  codes:
+  - ks
 - id: modernmt
   name: ModernMT
+  codes:
+  - ks
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ks
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ks
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ks
 supported_ape_apis: []
 seo:
   name: Machine translation for Kashmiri

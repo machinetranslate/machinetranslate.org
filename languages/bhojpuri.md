@@ -31,15 +31,25 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - bho
 - id: baidu
   name: Baidu Translate
+  codes:
+  - bho
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - bho
 - id: google
   name: Google Translate
+  codes:
+  - bho
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - bho
 supported_ape_apis: []
 seo:
   name: Machine translation for Bhojpuri

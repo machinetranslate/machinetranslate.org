@@ -27,10 +27,16 @@ territories:
 supported_apis:
 - id: kantanmt
   name: KantanMT
+  codes:
+  - ab
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ab
 - id: google
   name: Google Translate
+  codes:
+  - ab
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

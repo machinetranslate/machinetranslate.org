@@ -48,80 +48,164 @@ territories:
 supported_apis:
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - fa
 - id: reverso
   name: Reverso
+  codes:
+  - fa
 - id: promt
   name: PROMT
+  codes:
+  - fa
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - fa
 - id: kantanmt
   name: KantanMT
+  codes:
+  - fa
 - id: systran
   name: SYSTRAN
+  codes:
+  - fa
+  - fa-af
 - id: anthropic
   name: Anthropic
+  codes:
+  - fa
 - id: iconic
   name: Iconic
+  codes:
+  - fa
 - id: iptranslator
   name: IP Translator
+  codes:
+  - fa
 - id: lilt
   name: Lilt
+  codes:
+  - fa
+  - fa-af
 - id: openai
   name: OpenAI
+  codes:
+  - fa
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - fa
+  - fa-af
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - fa
 - id: apptek
   name: AppTek
+  codes:
+  - fa
+  - fa-af
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - fa
 - id: amazon
   name: Amazon Translate
+  codes:
+  - fa
+  - fa-af
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - fa
 - id: textra
   name: TexTra
+  codes:
+  - fa
 - id: yandex
   name: Yandex Translate
+  codes:
+  - fa
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - fa
+  - fa-af
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - fa-ir
 - id: youdao
   name: Youdao Translate
+  codes:
+  - fa
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - fa
 - id: modernmt
   name: ModernMT
+  codes:
+  - fa-af
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - fa
 - id: google
   name: Google Translate
+  codes:
+  - fa
+  - fa-af
 - id: niutrans
   name: Niutrans
+  codes:
+  - fa
 supported_qe_apis:
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - fa
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - fa
 - id: smart-review
   name: Smart Review
+  codes:
+  - fa
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - fa
 - id: taus
   name: TAUS
+  codes:
+  - fa
 - id: modelfront
   name: ModelFront
+  codes:
+  - fa
+  - fa-af
 - id: modernmt
   name: ModernMT
+  codes:
+  - fa-af
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - fa
+  - fa-af
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - fa
 - id: modelfront
   name: ModelFront
+  codes:
+  - fa
+  - fa-af
 seo:
   name: Machine translation for Persian
   type: Language

@@ -13,12 +13,18 @@ family: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
+  codes:
+  - dsb
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - dsb
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - dsb
 seo:
   name: Machine translation for <code>dsb</code>
   type: Language

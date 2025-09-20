@@ -32,28 +32,50 @@ territories:
 supported_apis:
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - fy-nl
 - id: youdao
   name: Youdao Translate
+  codes:
+  - fy
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - fy
 - id: baidu
   name: Baidu Translate
+  codes:
+  - fy
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - fy
 - id: google
   name: Google Translate
+  codes:
+  - fy
 - id: niutrans
   name: Niutrans
+  codes:
+  - fy
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - fy
 - id: modelfront
   name: ModelFront
+  codes:
+  - fy
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - fy
 - id: modelfront
   name: ModelFront
+  codes:
+  - fy
 seo:
   name: Machine translation for Frisian
   type: Language

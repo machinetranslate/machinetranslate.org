@@ -24,18 +24,30 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - yua
 - id: youdao
   name: Youdao Translate
+  codes:
+  - yua
 - id: google
   name: Google Translate
+  codes:
+  - yua
 - id: niutrans
   name: Niutrans
+  codes:
+  - yua
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - yua
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - yua
 seo:
   name: Machine translation for Yucatec Maya
   type: Language

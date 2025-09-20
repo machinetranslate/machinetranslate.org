@@ -27,10 +27,16 @@ territories:
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - mfe
 - id: google
   name: Google Translate
+  codes:
+  - mfe
 - id: niutrans
   name: Niutrans
+  codes:
+  - mfe
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

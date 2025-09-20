@@ -29,106 +29,206 @@ territories:
 supported_apis:
 - id: tilde
   name: Tilde
+  codes:
+  - bg
 - id: deepl
   name: DeepL
+  codes:
+  - bg
 - id: unbabel
   name: Unbabel
+  codes:
+  - bg
 - id: lara
   name: Lara
+  codes:
+  - bg
 - id: etranslation
   name: eTranslation
+  codes:
+  - bg
 - id: globalese
   name: Globalese
+  codes:
+  - bg
 - id: widn
   name: Widn
+  codes:
+  - bg
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - bg
 - id: promt
   name: PROMT
+  codes:
+  - bg
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - bg
 - id: xl8
   name: XL8
+  codes:
+  - bg
 - id: apertium
   name: Apertium
+  codes:
+  - bg
 - id: kantanmt
   name: KantanMT
+  codes:
+  - bg
 - id: systran
   name: SYSTRAN
+  codes:
+  - bg
 - id: anthropic
   name: Anthropic
+  codes:
+  - bg
 - id: iconic
   name: Iconic
+  codes:
+  - bg
 - id: iptranslator
   name: IP Translator
+  codes:
+  - bg
 - id: lilt
   name: Lilt
+  codes:
+  - bg
 - id: deepseek
   name: DeepSeek
+  codes:
+  - bg
 - id: watson
   name: Watson Language Translator
+  codes:
+  - bg
 - id: openai
   name: OpenAI
+  codes:
+  - bg
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - bg
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - bg
 - id: apptek
   name: AppTek
+  codes:
+  - bg
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - bg
 - id: amazon
   name: Amazon Translate
+  codes:
+  - bg
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - bg
 - id: textra
   name: TexTra
+  codes:
+  - bg
 - id: yandex
   name: Yandex Translate
+  codes:
+  - bg
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - bg
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - bg-bg
 - id: youdao
   name: Youdao Translate
+  codes:
+  - bg
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - bg
 - id: modernmt
   name: ModernMT
+  codes:
+  - bg
 - id: baidu
   name: Baidu Translate
+  codes:
+  - bg
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - bg
 - id: google
   name: Google Translate
+  codes:
+  - bg
 - id: niutrans
   name: Niutrans
+  codes:
+  - bg
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - bg
 - id: kantanqes
   name: KantanQES
+  codes:
+  - bg
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - bg
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - bg
 - id: smart-review
   name: Smart Review
+  codes:
+  - bg
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - bg
 - id: taus
   name: TAUS
+  codes:
+  - bg
 - id: modelfront
   name: ModelFront
+  codes:
+  - bg
 - id: modernmt
   name: ModernMT
+  codes:
+  - bg
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - bg
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - bg
 - id: modelfront
   name: ModelFront
+  codes:
+  - bg
 seo:
   name: Machine translation for Bulgarian
   type: Language

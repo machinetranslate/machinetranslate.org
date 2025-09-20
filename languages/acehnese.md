@@ -27,15 +27,25 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ace
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ace
 - id: google
   name: Google Translate
+  codes:
+  - ace
 - id: niutrans
   name: Niutrans
+  codes:
+  - ace
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ace
 supported_ape_apis: []
 seo:
   name: Machine translation for Acehnese

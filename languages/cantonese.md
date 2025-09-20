@@ -32,28 +32,50 @@ territories:
 supported_apis:
 - id: iconic
   name: Iconic
+  codes:
+  - yue
 - id: iptranslator
   name: IP Translator
+  codes:
+  - yue
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - yue
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - yue
 - id: youdao
   name: Youdao Translate
+  codes:
+  - yue
 - id: baidu
   name: Baidu Translate
+  codes:
+  - yue
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - yue
 - id: google
   name: Google Translate
+  codes:
+  - yue
 - id: niutrans
   name: Niutrans
+  codes:
+  - yue
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - yue
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - yue
 seo:
   name: Machine translation for Cantonese
   type: Language

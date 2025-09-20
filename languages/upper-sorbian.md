@@ -29,16 +29,26 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - hsb
 - id: baidu
   name: Baidu Translate
+  codes:
+  - hsb
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - hsb
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - hsb
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - hsb
 seo:
   name: Machine translation for Upper Sorbian
   type: Language

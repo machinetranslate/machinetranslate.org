@@ -26,17 +26,29 @@ territories:
 supported_apis:
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - pag
 - id: modernmt
   name: ModernMT
+  codes:
+  - pag
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - pag
 - id: google
   name: Google Translate
+  codes:
+  - pag
 - id: niutrans
   name: Niutrans
+  codes:
+  - pag
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - pag
 supported_ape_apis: []
 seo:
   name: Machine translation for Pangasinan

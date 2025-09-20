@@ -32,13 +32,21 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - kac
 - id: google
   name: Google Translate
+  codes:
+  - kac
 - id: niutrans
   name: Niutrans
+  codes:
+  - kac
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - kac
 supported_ape_apis: []
 seo:
   name: Machine translation for Jingpho

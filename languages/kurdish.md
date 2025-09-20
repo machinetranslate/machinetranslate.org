@@ -46,36 +46,66 @@ territories:
 supported_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ku
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - ku
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ku
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ku-ir
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ku
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ku
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ku
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ku
 - id: google
   name: Google Translate
+  codes:
+  - ku
 - id: niutrans
   name: Niutrans
+  codes:
+  - ku
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - ku
 - id: smart-review
   name: Smart Review
+  codes:
+  - ku
 - id: taus
   name: TAUS
+  codes:
+  - ku
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ku
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ku
 seo:
   name: Machine translation for Kurdish
   type: Language

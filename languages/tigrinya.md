@@ -31,28 +31,50 @@ territories:
 supported_apis:
 - id: apptek
   name: AppTek
+  codes:
+  - ti
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ti
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ti
 - id: modernmt
   name: ModernMT
+  codes:
+  - ti
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ti
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ti
 - id: google
   name: Google Translate
+  codes:
+  - ti
 - id: niutrans
   name: Niutrans
+  codes:
+  - ti
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - ti
 - id: modernmt
   name: ModernMT
+  codes:
+  - ti
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - ti
 seo:
   name: Machine translation for Tigrinya
   type: Language

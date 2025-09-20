@@ -29,17 +29,29 @@ territories:
 supported_apis:
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - war
 - id: modernmt
   name: ModernMT
+  codes:
+  - war
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - war
 - id: google
   name: Google Translate
+  codes:
+  - war
 - id: niutrans
   name: Niutrans
+  codes:
+  - war
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - war
 supported_ape_apis: []
 seo:
   name: Machine translation for Waray

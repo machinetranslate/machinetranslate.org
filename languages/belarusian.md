@@ -29,54 +29,102 @@ territories:
 supported_apis:
 - id: belazar
   name: Belazar
+  codes:
+  - be
 - id: apertium
   name: Apertium
+  codes:
+  - be
 - id: kantanmt
   name: KantanMT
+  codes:
+  - be
 - id: lilt
   name: Lilt
+  codes:
+  - be
 - id: openai
   name: OpenAI
+  codes:
+  - be
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - be
 - id: apptek
   name: AppTek
+  codes:
+  - be
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - be
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - be
 - id: textra
   name: TexTra
+  codes:
+  - be
 - id: yandex
   name: Yandex Translate
+  codes:
+  - be
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - be-by
 - id: youdao
   name: Youdao Translate
+  codes:
+  - be
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - be
 - id: modernmt
   name: ModernMT
+  codes:
+  - be
 - id: baidu
   name: Baidu Translate
+  codes:
+  - be
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - be
 - id: google
   name: Google Translate
+  codes:
+  - be
 - id: niutrans
   name: Niutrans
+  codes:
+  - be
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - be
 - id: modelfront
   name: ModelFront
+  codes:
+  - be
 - id: modernmt
   name: ModernMT
+  codes:
+  - be
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - be
 - id: modelfront
   name: ModelFront
+  codes:
+  - be
 seo:
   name: Machine translation for Belarusian
   type: Language

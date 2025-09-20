@@ -30,46 +30,86 @@ territories:
 supported_apis:
 - id: elia
   name: Elia
+  codes:
+  - eu
 - id: trebe
   name: Trebe
+  codes:
+  - eu
 - id: lucy
   name: Lucy
+  codes:
+  - eu
 - id: apertium
   name: Apertium
+  codes:
+  - eu
 - id: watson
   name: Watson Language Translator
+  codes:
+  - eu
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - eu
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - eu
 - id: yandex
   name: Yandex Translate
+  codes:
+  - eu
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - eu
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - eu-es
 - id: youdao
   name: Youdao Translate
+  codes:
+  - eu
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - eu
 - id: baidu
   name: Baidu Translate
+  codes:
+  - eu
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - eu
 - id: google
   name: Google Translate
+  codes:
+  - eu
 - id: niutrans
   name: Niutrans
+  codes:
+  - eu
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - eu
 - id: modelfront
   name: ModelFront
+  codes:
+  - eu
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - eu
 - id: modelfront
   name: ModelFront
+  codes:
+  - eu
 seo:
   name: Machine translation for Basque
   type: Language

@@ -30,17 +30,29 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - mni-in
 - id: textra
   name: TexTra
+  codes:
+  - mni
 - id: modernmt
   name: ModernMT
+  codes:
+  - mni
 - id: google
   name: Google Translate
+  codes:
+  - mni
 - id: niutrans
   name: Niutrans
+  codes:
+  - mni
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - mni
 supported_ape_apis: []
 seo:
   name: Machine translation for Meitei

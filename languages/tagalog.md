@@ -29,78 +29,150 @@ territories:
 supported_apis:
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - tl
 - id: xl8
   name: XL8
+  codes:
+  - tl
 - id: systran
   name: SYSTRAN
+  codes:
+  - tl
 - id: anthropic
   name: Anthropic
+  codes:
+  - tl
 - id: iconic
   name: Iconic
+  codes:
+  - tl
 - id: iptranslator
   name: IP Translator
+  codes:
+  - tl
 - id: lilt
   name: Lilt
+  codes:
+  - tl
 - id: deepseek
   name: DeepSeek
+  codes:
+  - tl
 - id: openai
   name: OpenAI
+  codes:
+  - tl
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - tl
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - tl
 - id: apptek
   name: AppTek
+  codes:
+  - tl
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - tl
 - id: amazon
   name: Amazon Translate
+  codes:
+  - tl
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - tl
 - id: textra
   name: TexTra
+  codes:
+  - tl
 - id: yandex
   name: Yandex Translate
+  codes:
+  - tl
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - tl
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - tl-ph
 - id: youdao
   name: Youdao Translate
+  codes:
+  - tl
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - tl
 - id: modernmt
   name: ModernMT
+  codes:
+  - tl
 - id: baidu
   name: Baidu Translate
+  codes:
+  - tl
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - tl
 - id: google
   name: Google Translate
+  codes:
+  - tl
 - id: niutrans
   name: Niutrans
+  codes:
+  - tl
 supported_qe_apis:
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - tl
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - tl
 - id: smart-review
   name: Smart Review
+  codes:
+  - tl
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - tl
 - id: taus
   name: TAUS
+  codes:
+  - tl
 - id: modelfront
   name: ModelFront
+  codes:
+  - tl
 - id: modernmt
   name: ModernMT
+  codes:
+  - tl
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - tl
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - tl
 - id: modelfront
   name: ModelFront
+  codes:
+  - tl
 seo:
   name: Machine translation for Tagalog
   type: Language

@@ -24,12 +24,21 @@ territories: []
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - tlh-Latn
+  - tlh-Piqd
 - id: youdao
   name: Youdao Translate
+  codes:
+  - tlh
 - id: baidu
   name: Baidu Translate
+  codes:
+  - tlh
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - tlh
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

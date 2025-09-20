@@ -29,116 +29,226 @@ territories:
 supported_apis:
 - id: language-wire
   name: Language Wire
+  codes:
+  - da
 - id: lingo24
   name: Lingo24
+  codes:
+  - da
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - da
 - id: tilde
   name: Tilde
+  codes:
+  - da
 - id: supertext
   name: Supertext
+  codes:
+  - da
 - id: reverso
   name: Reverso
+  codes:
+  - da
 - id: deepl
   name: DeepL
+  codes:
+  - da
 - id: unbabel
   name: Unbabel
+  codes:
+  - da
 - id: lara
   name: Lara
+  codes:
+  - da
 - id: etranslation
   name: eTranslation
+  codes:
+  - da
 - id: globalese
   name: Globalese
+  codes:
+  - da
 - id: widn
   name: Widn
+  codes:
+  - da
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - da
 - id: promt
   name: PROMT
+  codes:
+  - da
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - da
 - id: xl8
   name: XL8
+  codes:
+  - da
 - id: apertium
   name: Apertium
+  codes:
+  - da
 - id: kantanmt
   name: KantanMT
+  codes:
+  - da
 - id: systran
   name: SYSTRAN
+  codes:
+  - da
 - id: anthropic
   name: Anthropic
+  codes:
+  - da
 - id: iconic
   name: Iconic
+  codes:
+  - da
 - id: iptranslator
   name: IP Translator
+  codes:
+  - da
 - id: lilt
   name: Lilt
+  codes:
+  - da
 - id: deepseek
   name: DeepSeek
+  codes:
+  - da
 - id: watson
   name: Watson Language Translator
+  codes:
+  - da
 - id: openai
   name: OpenAI
+  codes:
+  - da
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - da
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - da
 - id: apptek
   name: AppTek
+  codes:
+  - da
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - da
 - id: amazon
   name: Amazon Translate
+  codes:
+  - da
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - da
 - id: textra
   name: TexTra
+  codes:
+  - da
 - id: yandex
   name: Yandex Translate
+  codes:
+  - da
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - da
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - da-dk
 - id: youdao
   name: Youdao Translate
+  codes:
+  - da
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - da
 - id: modernmt
   name: ModernMT
+  codes:
+  - da
 - id: baidu
   name: Baidu Translate
+  codes:
+  - da
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - da
 - id: google
   name: Google Translate
+  codes:
+  - da
 - id: niutrans
   name: Niutrans
+  codes:
+  - da
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - da
 - id: kantanqes
   name: KantanQES
+  codes:
+  - da
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - da
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - da
 - id: smart-review
   name: Smart Review
+  codes:
+  - da
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - da
 - id: taus
   name: TAUS
+  codes:
+  - da
 - id: modelfront
   name: ModelFront
+  codes:
+  - da
 - id: modernmt
   name: ModernMT
+  codes:
+  - da
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - da
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - da
 - id: modelfront
   name: ModelFront
+  codes:
+  - da
 seo:
   name: Machine translation for Danish
   type: Language

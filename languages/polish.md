@@ -30,118 +30,230 @@ territories:
 supported_apis:
 - id: lingo24
   name: Lingo24
+  codes:
+  - pl
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - pl
 - id: tilde
   name: Tilde
+  codes:
+  - pl
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - pl
 - id: supertext
   name: Supertext
+  codes:
+  - pl
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - pl-pl
 - id: reverso
   name: Reverso
+  codes:
+  - pl
 - id: deepl
   name: DeepL
+  codes:
+  - pl
 - id: unbabel
   name: Unbabel
+  codes:
+  - pl
 - id: lara
   name: Lara
+  codes:
+  - pl
 - id: etranslation
   name: eTranslation
+  codes:
+  - pl
 - id: globalese
   name: Globalese
+  codes:
+  - pl
 - id: widn
   name: Widn
+  codes:
+  - pl
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - pl
 - id: promt
   name: PROMT
+  codes:
+  - pl
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - pl
 - id: xl8
   name: XL8
+  codes:
+  - pl
 - id: apertium
   name: Apertium
+  codes:
+  - pl
 - id: kantanmt
   name: KantanMT
+  codes:
+  - pl
 - id: systran
   name: SYSTRAN
+  codes:
+  - pl
 - id: anthropic
   name: Anthropic
+  codes:
+  - pl
 - id: iconic
   name: Iconic
+  codes:
+  - pl
 - id: iptranslator
   name: IP Translator
+  codes:
+  - pl
 - id: lilt
   name: Lilt
+  codes:
+  - pl
 - id: deepseek
   name: DeepSeek
+  codes:
+  - pl
 - id: watson
   name: Watson Language Translator
+  codes:
+  - pl
 - id: openai
   name: OpenAI
+  codes:
+  - pl
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - pl
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - pl
 - id: apptek
   name: AppTek
+  codes:
+  - pl
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - pl
 - id: amazon
   name: Amazon Translate
+  codes:
+  - pl
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - pl
 - id: textra
   name: TexTra
+  codes:
+  - pl
 - id: yandex
   name: Yandex Translate
+  codes:
+  - pl
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - pl
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - pl-pl
 - id: youdao
   name: Youdao Translate
+  codes:
+  - pl
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - pl
 - id: modernmt
   name: ModernMT
+  codes:
+  - pl
 - id: baidu
   name: Baidu Translate
+  codes:
+  - pl
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - pl
 - id: google
   name: Google Translate
+  codes:
+  - pl
 - id: niutrans
   name: Niutrans
+  codes:
+  - pl
 supported_qe_apis:
 - id: kantanqes
   name: KantanQES
+  codes:
+  - pl
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - pl
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - pl
 - id: smart-review
   name: Smart Review
+  codes:
+  - pl
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - pl
 - id: taus
   name: TAUS
+  codes:
+  - pl
 - id: modelfront
   name: ModelFront
+  codes:
+  - pl
 - id: modernmt
   name: ModernMT
+  codes:
+  - pl
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - pl
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - pl
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - pl
 - id: modelfront
   name: ModelFront
+  codes:
+  - pl
 seo:
   name: Machine translation for Polish
   type: Language

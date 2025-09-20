@@ -32,60 +32,115 @@ territories:
 supported_apis:
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
+  codes:
+  - my
 - id: xl8
   name: XL8
+  codes:
+  - my
+  - my-zawgyi
 - id: deepseek
   name: DeepSeek
+  codes:
+  - my
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - my
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - my
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - my
 - id: textra
   name: TexTra
+  codes:
+  - my
 - id: yandex
   name: Yandex Translate
+  codes:
+  - my
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - my
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - my-mm
 - id: youdao
   name: Youdao Translate
+  codes:
+  - my
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - my
 - id: modernmt
   name: ModernMT
+  codes:
+  - my
 - id: baidu
   name: Baidu Translate
+  codes:
+  - my
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - my
 - id: google
   name: Google Translate
+  codes:
+  - my
 - id: niutrans
   name: Niutrans
+  codes:
+  - my
 supported_qe_apis:
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - my
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - my
 - id: smart-review
   name: Smart Review
+  codes:
+  - my
 - id: taus
   name: TAUS
+  codes:
+  - my
 - id: modelfront
   name: ModelFront
+  codes:
+  - my
 - id: modernmt
   name: ModernMT
+  codes:
+  - my
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - my
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - my
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - my
 - id: modelfront
   name: ModelFront
+  codes:
+  - my
 seo:
   name: Machine translation for Burmese
   type: Language

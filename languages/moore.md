@@ -39,11 +39,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - mos
 - id: niutrans
   name: Niutrans
+  codes:
+  - mos
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - mos
 supported_ape_apis: []
 seo:
   name: Machine translation for Moore

@@ -34,56 +34,106 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - mr-in
 - id: anthropic
   name: Anthropic
+  codes:
+  - mr
 - id: lilt
   name: Lilt
+  codes:
+  - mr
 - id: watson
   name: Watson Language Translator
+  codes:
+  - mr
 - id: openai
   name: OpenAI
+  codes:
+  - mr
 - id: apptek
   name: AppTek
+  codes:
+  - mr
 - id: amazon
   name: Amazon Translate
+  codes:
+  - mr
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - mr
 - id: textra
   name: TexTra
+  codes:
+  - mr
 - id: yandex
   name: Yandex Translate
+  codes:
+  - mr
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - mr
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - mr-in
 - id: youdao
   name: Youdao Translate
+  codes:
+  - mr
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - mr
 - id: modernmt
   name: ModernMT
+  codes:
+  - mr
 - id: baidu
   name: Baidu Translate
+  codes:
+  - mr
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - mr
 - id: google
   name: Google Translate
+  codes:
+  - mr
 - id: niutrans
   name: Niutrans
+  codes:
+  - mr
 supported_qe_apis:
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - mr
 - id: taus
   name: TAUS
+  codes:
+  - mr
 - id: modelfront
   name: ModelFront
+  codes:
+  - mr
 - id: modernmt
   name: ModernMT
+  codes:
+  - mr
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - mr
 - id: modelfront
   name: ModelFront
+  codes:
+  - mr
 seo:
   name: Machine translation for Marathi
   type: Language

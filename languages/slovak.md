@@ -30,104 +30,202 @@ territories:
 supported_apis:
 - id: supertext
   name: Supertext
+  codes:
+  - sk
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - sk-sk
 - id: reverso
   name: Reverso
+  codes:
+  - sk
 - id: deepl
   name: DeepL
+  codes:
+  - sk
 - id: lara
   name: Lara
+  codes:
+  - sk
 - id: etranslation
   name: eTranslation
+  codes:
+  - sk
 - id: globalese
   name: Globalese
+  codes:
+  - sk
 - id: widn
   name: Widn
+  codes:
+  - sk
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - sk
 - id: promt
   name: PROMT
+  codes:
+  - sk
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - sk
 - id: xl8
   name: XL8
+  codes:
+  - sk
 - id: kantanmt
   name: KantanMT
+  codes:
+  - sk
 - id: systran
   name: SYSTRAN
+  codes:
+  - sk
 - id: anthropic
   name: Anthropic
+  codes:
+  - sk
 - id: iconic
   name: Iconic
+  codes:
+  - sk
 - id: iptranslator
   name: IP Translator
+  codes:
+  - sk
 - id: lilt
   name: Lilt
+  codes:
+  - sk
 - id: deepseek
   name: DeepSeek
+  codes:
+  - sk
 - id: watson
   name: Watson Language Translator
+  codes:
+  - sk
 - id: openai
   name: OpenAI
+  codes:
+  - sk
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - sk
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - sk
 - id: apptek
   name: AppTek
+  codes:
+  - sk
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - sk
 - id: amazon
   name: Amazon Translate
+  codes:
+  - sk
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - sk
 - id: textra
   name: TexTra
+  codes:
+  - sk
 - id: yandex
   name: Yandex Translate
+  codes:
+  - sk
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - sk
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - sk-sk
 - id: youdao
   name: Youdao Translate
+  codes:
+  - sk
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - sk
 - id: modernmt
   name: ModernMT
+  codes:
+  - sk
 - id: baidu
   name: Baidu Translate
+  codes:
+  - sk
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - sk
 - id: google
   name: Google Translate
+  codes:
+  - sk
 - id: niutrans
   name: Niutrans
+  codes:
+  - sk
 supported_qe_apis:
 - id: kantanqes
   name: KantanQES
+  codes:
+  - sk
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - sk
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - sk
 - id: smart-review
   name: Smart Review
+  codes:
+  - sk
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - sk
 - id: taus
   name: TAUS
+  codes:
+  - sk
 - id: modelfront
   name: ModelFront
+  codes:
+  - sk
 - id: modernmt
   name: ModernMT
+  codes:
+  - sk
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - sk
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - sk
 - id: modelfront
   name: ModelFront
+  codes:
+  - sk
 seo:
   name: Machine translation for Slovak
   type: Language

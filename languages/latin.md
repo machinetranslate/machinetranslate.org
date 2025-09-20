@@ -30,36 +30,66 @@ territories: []
 supported_apis:
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - la
 - id: yandex
   name: Yandex Translate
+  codes:
+  - la
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - la-vat
 - id: youdao
   name: Youdao Translate
+  codes:
+  - la
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - la
 - id: modernmt
   name: ModernMT
+  codes:
+  - la
 - id: baidu
   name: Baidu Translate
+  codes:
+  - la
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - la
 - id: google
   name: Google Translate
+  codes:
+  - la
 - id: niutrans
   name: Niutrans
+  codes:
+  - la
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - la
 - id: modelfront
   name: ModelFront
+  codes:
+  - la
 - id: modernmt
   name: ModernMT
+  codes:
+  - la
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - la
 - id: modelfront
   name: ModelFront
+  codes:
+  - la
 seo:
   name: Machine translation for Latin
   type: Language

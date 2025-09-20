@@ -26,30 +26,54 @@ territories:
 supported_apis:
 - id: deepseek
   name: DeepSeek
+  codes:
+  - haw
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - haw-us
 - id: youdao
   name: Youdao Translate
+  codes:
+  - haw
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - haw
 - id: baidu
   name: Baidu Translate
+  codes:
+  - haw
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - haw
 - id: google
   name: Google Translate
+  codes:
+  - haw
 - id: niutrans
   name: Niutrans
+  codes:
+  - haw
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - haw
 - id: modelfront
   name: ModelFront
+  codes:
+  - haw
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - haw
 - id: modelfront
   name: ModelFront
+  codes:
+  - haw
 seo:
   name: Machine translation for Hawaiian
   type: Language

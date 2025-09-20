@@ -32,48 +32,90 @@ territories:
 supported_apis:
 - id: kantanmt
   name: KantanMT
+  codes:
+  - si
 - id: deepseek
   name: DeepSeek
+  codes:
+  - si
 - id: watson
   name: Watson Language Translator
+  codes:
+  - si
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - si
 - id: amazon
   name: Amazon Translate
+  codes:
+  - si
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - si
 - id: textra
   name: TexTra
+  codes:
+  - si
 - id: yandex
   name: Yandex Translate
+  codes:
+  - si
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - si-lk
 - id: youdao
   name: Youdao Translate
+  codes:
+  - si
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - si
 - id: modernmt
   name: ModernMT
+  codes:
+  - si
 - id: baidu
   name: Baidu Translate
+  codes:
+  - si
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - si
 - id: google
   name: Google Translate
+  codes:
+  - si
 - id: niutrans
   name: Niutrans
+  codes:
+  - si
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - si
 - id: modelfront
   name: ModelFront
+  codes:
+  - si
 - id: modernmt
   name: ModernMT
+  codes:
+  - si
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - si
 - id: modelfront
   name: ModelFront
+  codes:
+  - si
 seo:
   name: Machine translation for Sinhala
   type: Language

@@ -31,54 +31,102 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - ne-in
 - id: deepseek
   name: DeepSeek
+  codes:
+  - ne
 - id: watson
   name: Watson Language Translator
+  codes:
+  - ne
 - id: openai
   name: OpenAI
+  codes:
+  - ne
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - ne
 - id: textra
   name: TexTra
+  codes:
+  - ne
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ne
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ne
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ne-np
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ne
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ne
 - id: modernmt
   name: ModernMT
+  codes:
+  - ne
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ne
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ne
 - id: google
   name: Google Translate
+  codes:
+  - ne
 - id: niutrans
   name: Niutrans
+  codes:
+  - ne
 supported_qe_apis:
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - ne
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - ne
 - id: taus
   name: TAUS
+  codes:
+  - ne
 - id: modelfront
   name: ModelFront
+  codes:
+  - ne
 - id: modernmt
   name: ModernMT
+  codes:
+  - ne
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - ne
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ne
 - id: modelfront
   name: ModelFront
+  codes:
+  - ne
 seo:
   name: Machine translation for Nepali
   type: Language

@@ -30,17 +30,29 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - kg
 - id: baidu
   name: Baidu Translate
+  codes:
+  - kg
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - kg
 - id: google
   name: Google Translate
+  codes:
+  - kg
 - id: niutrans
   name: Niutrans
+  codes:
+  - kg
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - kg
 supported_ape_apis: []
 seo:
   name: Machine translation for Kongo

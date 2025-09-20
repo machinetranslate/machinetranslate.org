@@ -27,28 +27,50 @@ territories:
 supported_apis:
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ba
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ba
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ba
 - id: modernmt
   name: ModernMT
+  codes:
+  - ba
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ba
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ba
 - id: google
   name: Google Translate
+  codes:
+  - ba
 - id: niutrans
   name: Niutrans
+  codes:
+  - ba
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - ba
 - id: modernmt
   name: ModernMT
+  codes:
+  - ba
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - ba
 seo:
   name: Machine translation for Bashkir
   type: Language

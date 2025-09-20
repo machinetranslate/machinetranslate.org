@@ -40,34 +40,62 @@ territories:
 supported_apis:
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - yi
 - id: textra
   name: TexTra
+  codes:
+  - yi
 - id: yandex
   name: Yandex Translate
+  codes:
+  - yi
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - yi-il
 - id: youdao
   name: Youdao Translate
+  codes:
+  - yi
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - yi
 - id: baidu
   name: Baidu Translate
+  codes:
+  - yi
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - yi
 - id: google
   name: Google Translate
+  codes:
+  - yi
 - id: niutrans
   name: Niutrans
+  codes:
+  - yi
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - yi
 - id: modelfront
   name: ModelFront
+  codes:
+  - yi
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - yi
 - id: modelfront
   name: ModelFront
+  codes:
+  - yi
 seo:
   name: Machine translation for Yiddish
   type: Language

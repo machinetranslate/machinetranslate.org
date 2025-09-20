@@ -29,17 +29,29 @@ territories:
 supported_apis:
 - id: apertium
   name: Apertium
+  codes:
+  - ast
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - ast
 - id: modernmt
   name: ModernMT
+  codes:
+  - ast
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ast
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ast
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ast
 supported_ape_apis: []
 seo:
   name: Machine translation for Asturian

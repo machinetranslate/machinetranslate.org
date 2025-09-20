@@ -30,19 +30,33 @@ territories:
 supported_apis:
 - id: apertium
   name: Apertium
+  codes:
+  - crh
 - id: modernmt
   name: ModernMT
+  codes:
+  - crh
 - id: baidu
   name: Baidu Translate
+  codes:
+  - crh
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - crh
 - id: google
   name: Google Translate
+  codes:
+  - crh
 - id: niutrans
   name: Niutrans
+  codes:
+  - crh
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - crh
 supported_ape_apis: []
 seo:
   name: Machine translation for Crimean Tatar

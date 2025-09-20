@@ -30,11 +30,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ki
 - id: niutrans
   name: Niutrans
+  codes:
+  - ki
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ki
 supported_ape_apis: []
 seo:
   name: Machine translation for Kikuyu

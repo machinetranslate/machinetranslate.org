@@ -31,88 +31,170 @@ territories:
 supported_apis:
 - id: elia
   name: Elia
+  codes:
+  - ca
 - id: trebe
   name: Trebe
+  codes:
+  - ca
 - id: lucy
   name: Lucy
+  codes:
+  - ca
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - ca-es
 - id: lara
   name: Lara
+  codes:
+  - ca
 - id: widn
   name: Widn
+  codes:
+  - ca
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - ca
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - ca
 - id: apertium
   name: Apertium
+  codes:
+  - ca
 - id: systran
   name: SYSTRAN
+  codes:
+  - ca
 - id: anthropic
   name: Anthropic
+  codes:
+  - ca
 - id: iconic
   name: Iconic
+  codes:
+  - ca
 - id: iptranslator
   name: IP Translator
+  codes:
+  - ca
 - id: watson
   name: Watson Language Translator
+  codes:
+  - ca
 - id: openai
   name: OpenAI
+  codes:
+  - ca
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ca
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - ca
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - ca
 - id: amazon
   name: Amazon Translate
+  codes:
+  - ca
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - ca
 - id: textra
   name: TexTra
+  codes:
+  - ca
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ca
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ca
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ca-es
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ca
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ca
 - id: modernmt
   name: ModernMT
+  codes:
+  - ca
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ca
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ca
 - id: google
   name: Google Translate
+  codes:
+  - ca
 - id: niutrans
   name: Niutrans
+  codes:
+  - ca
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - ca
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - ca
 - id: smart-review
   name: Smart Review
+  codes:
+  - ca
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - ca
 - id: taus
   name: TAUS
+  codes:
+  - ca
 - id: modelfront
   name: ModelFront
+  codes:
+  - ca
 - id: modernmt
   name: ModernMT
+  codes:
+  - ca
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ca
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ca
 - id: modelfront
   name: ModelFront
+  codes:
+  - ca
 seo:
   name: Machine translation for Catalan
   type: Language

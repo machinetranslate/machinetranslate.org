@@ -31,52 +31,103 @@ territories:
 supported_apis:
 - id: promt
   name: PROMT
+  codes:
+  - uz
 - id: kantanmt
   name: KantanMT
+  codes:
+  - uz
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - uz
 - id: apptek
   name: AppTek
+  codes:
+  - uz
 - id: amazon
   name: Amazon Translate
+  codes:
+  - uz
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - uz
 - id: textra
   name: TexTra
+  codes:
+  - uz
 - id: yandex
   name: Yandex Translate
+  codes:
+  - uz
+  - uz-cyr
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - uz
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - uz-uz
 - id: youdao
   name: Youdao Translate
+  codes:
+  - uz
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - uz
 - id: baidu
   name: Baidu Translate
+  codes:
+  - uz
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - uz
 - id: google
   name: Google Translate
+  codes:
+  - uz
 - id: niutrans
   name: Niutrans
+  codes:
+  - uz
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - uz
 - id: smart-review
   name: Smart Review
+  codes:
+  - uz
 - id: taus
   name: TAUS
+  codes:
+  - uz
 - id: modelfront
   name: ModelFront
+  codes:
+  - uz
+  - uz-Cyrl
+  - uz-Latn
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - uz
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - uz
 - id: modelfront
   name: ModelFront
+  codes:
+  - uz
+  - uz-Cyrl
+  - uz-Latn
 seo:
   name: Machine translation for Uzbek
   type: Language

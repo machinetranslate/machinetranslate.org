@@ -30,28 +30,50 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ug
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ug-ug
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ug
 - id: modernmt
   name: ModernMT
+  codes:
+  - ug
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ug
 - id: google
   name: Google Translate
+  codes:
+  - ug
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - ug
 - id: modelfront
   name: ModelFront
+  codes:
+  - ug
 - id: modernmt
   name: ModernMT
+  codes:
+  - ug
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ug
 - id: modelfront
   name: ModelFront
+  codes:
+  - ug
 seo:
   name: Machine translation for Uyghur
   type: Language

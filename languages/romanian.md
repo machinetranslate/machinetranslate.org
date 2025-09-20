@@ -34,102 +34,198 @@ territories:
 supported_apis:
 - id: tilde
   name: Tilde
+  codes:
+  - ro
 - id: reverso
   name: Reverso
+  codes:
+  - ro
 - id: deepl
   name: DeepL
+  codes:
+  - ro
 - id: unbabel
   name: Unbabel
+  codes:
+  - ro
 - id: etranslation
   name: eTranslation
+  codes:
+  - ro
 - id: globalese
   name: Globalese
+  codes:
+  - ro
 - id: widn
   name: Widn
+  codes:
+  - ro
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - ro
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - ro
 - id: xl8
   name: XL8
+  codes:
+  - ro
 - id: apertium
   name: Apertium
+  codes:
+  - ro
 - id: kantanmt
   name: KantanMT
+  codes:
+  - ro
 - id: systran
   name: SYSTRAN
+  codes:
+  - ro
 - id: anthropic
   name: Anthropic
+  codes:
+  - ro
 - id: iconic
   name: Iconic
+  codes:
+  - ro
 - id: iptranslator
   name: IP Translator
+  codes:
+  - ro
 - id: lilt
   name: Lilt
+  codes:
+  - ro
 - id: deepseek
   name: DeepSeek
+  codes:
+  - ro
 - id: watson
   name: Watson Language Translator
+  codes:
+  - ro
 - id: openai
   name: OpenAI
+  codes:
+  - ro
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ro
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - ro
 - id: apptek
   name: AppTek
+  codes:
+  - ro
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - ro
 - id: amazon
   name: Amazon Translate
+  codes:
+  - ro
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - ro
 - id: textra
   name: TexTra
+  codes:
+  - ro
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ro
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ro
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ro-ro
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ro
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ro
 - id: modernmt
   name: ModernMT
+  codes:
+  - ro
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ro
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ro
 - id: google
   name: Google Translate
+  codes:
+  - ro
 - id: niutrans
   name: Niutrans
+  codes:
+  - ro
 supported_qe_apis:
 - id: kantanqes
   name: KantanQES
+  codes:
+  - ro
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - ro
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - ro
 - id: smart-review
   name: Smart Review
+  codes:
+  - ro
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - ro
 - id: taus
   name: TAUS
+  codes:
+  - ro
 - id: modelfront
   name: ModelFront
+  codes:
+  - ro
 - id: modernmt
   name: ModernMT
+  codes:
+  - ro
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ro
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ro
 - id: modelfront
   name: ModelFront
+  codes:
+  - ro
 seo:
   name: Machine translation for Romanian
   type: Language

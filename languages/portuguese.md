@@ -34,140 +34,301 @@ territories:
 supported_apis:
 - id: pangeamt
   name: PangeaMT
+  codes:
+  - pt
 - id: lucy
   name: Lucy
+  codes:
+  - pt
 - id: translateme
   name: TranslateMe
+  codes:
+  - pt
 - id: mistral-ai
   name: Mistral AI
+  codes:
+  - pt
 - id: alexa-translations-ai
   name: Alexa Translations A.I.
+  codes:
+  - pt-br
 - id: lingo24
   name: Lingo24
+  codes:
+  - pt-br
+  - pt-pt
 - id: mirai
   name: Mirai Translator
+  codes:
+  - pt-pt
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
+  codes:
+  - pt
 - id: aisa
   name: AISA
+  codes:
+  - pt-pt
 - id: tencent
   name: Tencent Machine Translation
+  codes:
+  - pt
 - id: kakao
   name: Kakao
+  codes:
+  - pt
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - pt
 - id: tilde
   name: Tilde
+  codes:
+  - pt
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - pt
 - id: supertext
   name: Supertext
+  codes:
+  - pt
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - pt-br
 - id: reverso
   name: Reverso
+  codes:
+  - pt
 - id: deepl
   name: DeepL
+  codes:
+  - pt
+  - pt-br
+  - pt-pt
 - id: unbabel
   name: Unbabel
+  codes:
+  - pt
+  - pt-br
 - id: lara
   name: Lara
+  codes:
+  - pt-br
+  - pt-pt
 - id: etranslation
   name: eTranslation
+  codes:
+  - pt
 - id: globalese
   name: Globalese
+  codes:
+  - pt
 - id: widn
   name: Widn
+  codes:
+  - pt
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - pt-br
 - id: promt
   name: PROMT
+  codes:
+  - pt
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - pt
 - id: xl8
   name: XL8
+  codes:
+  - pt
+  - pt-br
 - id: apertium
   name: Apertium
+  codes:
+  - pt
 - id: kantanmt
   name: KantanMT
+  codes:
+  - pt
+  - pt-br
 - id: systran
   name: SYSTRAN
+  codes:
+  - pt
 - id: anthropic
   name: Anthropic
+  codes:
+  - pt
 - id: iconic
   name: Iconic
+  codes:
+  - pt
 - id: iptranslator
   name: IP Translator
+  codes:
+  - pt
 - id: lilt
   name: Lilt
+  codes:
+  - pt
 - id: deepseek
   name: DeepSeek
+  codes:
+  - pt
 - id: watson
   name: Watson Language Translator
+  codes:
+  - pt
 - id: openai
   name: OpenAI
+  codes:
+  - pt
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - pt
+  - pt-br
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - pt-br
+  - pt-pt
 - id: apptek
   name: AppTek
+  codes:
+  - pt-br
+  - pt-pt
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - pt
 - id: amazon
   name: Amazon Translate
+  codes:
+  - pt
+  - pt-pt
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - pt
 - id: textra
   name: TexTra
+  codes:
+  - pt
+  - pt-br
 - id: yandex
   name: Yandex Translate
+  codes:
+  - pt
+  - pt-br
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - pt
+  - pt-pt
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - pt-pt
 - id: youdao
   name: Youdao Translate
+  codes:
+  - pt
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - pt
 - id: modernmt
   name: ModernMT
+  codes:
+  - pt-br
+  - pt-pt
 - id: baidu
   name: Baidu Translate
+  codes:
+  - pt-br
+  - pt-pt
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - pt
 - id: google
   name: Google Translate
+  codes:
+  - pt
+  - pt-br
+  - pt-pt
 - id: niutrans
   name: Niutrans
+  codes:
+  - pt
 supported_qe_apis:
 - id: google-translation-hub-mtqp
   name: Google Translation Hub MTQP
+  codes:
+  - pt
 - id: kantanqes
   name: KantanQES
+  codes:
+  - pt
+  - pt-br
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - pt
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - pt
+  - pt-br
 - id: smart-review
   name: Smart Review
+  codes:
+  - pt
+  - pt-br
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - pt
 - id: taus
   name: TAUS
+  codes:
+  - pt
 - id: modelfront
   name: ModelFront
+  codes:
+  - pt
+  - pt-br
+  - pt-pt
 - id: modernmt
   name: ModernMT
+  codes:
+  - pt-br
+  - pt-pt
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - pt
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - pt
+  - pt-br
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - pt
 - id: modelfront
   name: ModelFront
+  codes:
+  - pt
+  - pt-br
+  - pt-pt
 seo:
   name: Machine translation for Portuguese
   type: Language

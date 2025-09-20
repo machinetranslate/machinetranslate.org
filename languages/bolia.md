@@ -30,6 +30,8 @@ territories:
 supported_apis:
 - id: baidu
   name: Baidu Translate
+  codes:
+  - bli
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

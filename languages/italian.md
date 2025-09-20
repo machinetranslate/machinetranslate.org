@@ -31,142 +31,282 @@ territories:
 supported_apis:
 - id: pangeamt
   name: PangeaMT
+  codes:
+  - it
 - id: phrase-nextmt
   name: Phrase NextMT
+  codes:
+  - it
 - id: translateme
   name: TranslateMe
+  codes:
+  - it
 - id: mistral-ai
   name: Mistral AI
+  codes:
+  - it
 - id: alexa-translations-ai
   name: Alexa Translations A.I.
+  codes:
+  - it
 - id: papago
   name: Papago Translation
+  codes:
+  - it
 - id: lingo24
   name: Lingo24
+  codes:
+  - it
 - id: mirai
   name: Mirai Translator
+  codes:
+  - it
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
+  codes:
+  - it
 - id: aisa
   name: AISA
+  codes:
+  - it
 - id: tencent
   name: Tencent Machine Translation
+  codes:
+  - it
 - id: kakao
   name: Kakao
+  codes:
+  - it
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - it
 - id: tilde
   name: Tilde
+  codes:
+  - it
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - it
 - id: supertext
   name: Supertext
+  codes:
+  - it
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - it-it
 - id: reverso
   name: Reverso
+  codes:
+  - it
 - id: deepl
   name: DeepL
+  codes:
+  - it
 - id: unbabel
   name: Unbabel
+  codes:
+  - it
 - id: lara
   name: Lara
+  codes:
+  - it
 - id: etranslation
   name: eTranslation
+  codes:
+  - it
 - id: globalese
   name: Globalese
+  codes:
+  - it
 - id: widn
   name: Widn
+  codes:
+  - it
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - it
 - id: promt
   name: PROMT
+  codes:
+  - it
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - it
 - id: xl8
   name: XL8
+  codes:
+  - it
 - id: apertium
   name: Apertium
+  codes:
+  - it
 - id: kantanmt
   name: KantanMT
+  codes:
+  - it
 - id: systran
   name: SYSTRAN
+  codes:
+  - it
 - id: anthropic
   name: Anthropic
+  codes:
+  - it
 - id: iconic
   name: Iconic
+  codes:
+  - it
 - id: iptranslator
   name: IP Translator
+  codes:
+  - it
 - id: lilt
   name: Lilt
+  codes:
+  - it
 - id: deepseek
   name: DeepSeek
+  codes:
+  - it
 - id: watson
   name: Watson Language Translator
+  codes:
+  - it
 - id: openai
   name: OpenAI
+  codes:
+  - it
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - it
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - it
 - id: apptek
   name: AppTek
+  codes:
+  - it
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - it
 - id: amazon
   name: Amazon Translate
+  codes:
+  - it
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - it
 - id: textra
   name: TexTra
+  codes:
+  - it
 - id: yandex
   name: Yandex Translate
+  codes:
+  - it
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - it
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - it-it
 - id: youdao
   name: Youdao Translate
+  codes:
+  - it
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - it
 - id: modernmt
   name: ModernMT
+  codes:
+  - it
 - id: baidu
   name: Baidu Translate
+  codes:
+  - it
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - it
 - id: google
   name: Google Translate
+  codes:
+  - it
 - id: niutrans
   name: Niutrans
+  codes:
+  - it
 supported_qe_apis:
 - id: google-translation-hub-mtqp
   name: Google Translation Hub MTQP
+  codes:
+  - it
 - id: kantanqes
   name: KantanQES
+  codes:
+  - it
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - it
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - it
 - id: smart-review
   name: Smart Review
+  codes:
+  - it
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - it
 - id: taus
   name: TAUS
+  codes:
+  - it
 - id: modelfront
   name: ModelFront
+  codes:
+  - it
+  - it-ch
+  - it-it
 - id: modernmt
   name: ModernMT
+  codes:
+  - it
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - it
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - it
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - it
 - id: modelfront
   name: ModelFront
+  codes:
+  - it
+  - it-ch
+  - it-it
 seo:
   name: Machine translation for Italian
   type: Language

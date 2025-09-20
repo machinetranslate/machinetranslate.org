@@ -35,70 +35,134 @@ territories:
 supported_apis:
 - id: systran
   name: SYSTRAN
+  codes:
+  - sw
 - id: anthropic
   name: Anthropic
+  codes:
+  - sw
 - id: iconic
   name: Iconic
+  codes:
+  - sw
 - id: iptranslator
   name: IP Translator
+  codes:
+  - sw
 - id: lilt
   name: Lilt
+  codes:
+  - sw
 - id: deepseek
   name: DeepSeek
+  codes:
+  - sw
 - id: openai
   name: OpenAI
+  codes:
+  - sw
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - sw
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - sw
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - sw
 - id: amazon
   name: Amazon Translate
+  codes:
+  - sw
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - sw
 - id: textra
   name: TexTra
+  codes:
+  - sw
 - id: yandex
   name: Yandex Translate
+  codes:
+  - sw
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - sw
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - sw-tz
 - id: youdao
   name: Youdao Translate
+  codes:
+  - sw
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - sw
 - id: modernmt
   name: ModernMT
+  codes:
+  - sw
 - id: baidu
   name: Baidu Translate
+  codes:
+  - sw
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - sw
 - id: google
   name: Google Translate
+  codes:
+  - sw
 - id: niutrans
   name: Niutrans
+  codes:
+  - sw
 supported_qe_apis:
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - sw
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - sw
 - id: smart-review
   name: Smart Review
+  codes:
+  - sw
 - id: taus
   name: TAUS
+  codes:
+  - sw
 - id: modelfront
   name: ModelFront
+  codes:
+  - sw
 - id: modernmt
   name: ModernMT
+  codes:
+  - sw
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - sw
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - sw
 - id: modelfront
   name: ModelFront
+  codes:
+  - sw
 seo:
   name: Machine translation for Swahili
   type: Language

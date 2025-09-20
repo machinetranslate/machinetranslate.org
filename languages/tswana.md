@@ -31,15 +31,25 @@ territories:
 supported_apis:
 - id: textra
   name: TexTra
+  codes:
+  - tn
 - id: modernmt
   name: ModernMT
+  codes:
+  - tn
 - id: google
   name: Google Translate
+  codes:
+  - tn
 - id: niutrans
   name: Niutrans
+  codes:
+  - tn
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - tn
 supported_ape_apis: []
 seo:
   name: Machine translation for Tswana

@@ -30,36 +30,66 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - as-in
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - as
 - id: textra
   name: TexTra
+  codes:
+  - as
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - as
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - as
 - id: modernmt
   name: ModernMT
+  codes:
+  - as
 - id: baidu
   name: Baidu Translate
+  codes:
+  - as
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - as
 - id: google
   name: Google Translate
+  codes:
+  - as
 supported_qe_apis:
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - as
 - id: taus
   name: TAUS
+  codes:
+  - as
 - id: modelfront
   name: ModelFront
+  codes:
+  - as
 - id: modernmt
   name: ModernMT
+  codes:
+  - as
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - as
 - id: modelfront
   name: ModelFront
+  codes:
+  - as
 seo:
   name: Machine translation for Assamese
   type: Language

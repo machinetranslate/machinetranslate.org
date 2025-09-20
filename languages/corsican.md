@@ -27,28 +27,50 @@ territories:
 supported_apis:
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - co-fr
 - id: youdao
   name: Youdao Translate
+  codes:
+  - co
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - co
 - id: baidu
   name: Baidu Translate
+  codes:
+  - co
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - co
 - id: google
   name: Google Translate
+  codes:
+  - co
 - id: niutrans
   name: Niutrans
+  codes:
+  - co
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - co
 - id: modelfront
   name: ModelFront
+  codes:
+  - co
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - co
 - id: modelfront
   name: ModelFront
+  codes:
+  - co
 seo:
   name: Machine translation for Corsican
   type: Language

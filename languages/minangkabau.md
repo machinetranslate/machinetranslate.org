@@ -25,11 +25,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - min
 - id: google
   name: Google Translate
+  codes:
+  - min
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - min
 supported_ape_apis: []
 seo:
   name: Machine translation for Minangkabau

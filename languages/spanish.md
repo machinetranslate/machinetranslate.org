@@ -50,154 +50,317 @@ territories:
 supported_apis:
 - id: elia
   name: Elia
+  codes:
+  - es
 - id: tapta
   name: TAPTA
+  codes:
+  - es
 - id: trebe
   name: Trebe
+  codes:
+  - es
 - id: cloudtranslation
   name: CloudTranslation
+  codes:
+  - es
 - id: language-wire
   name: Language Wire
+  codes:
+  - es
 - id: pangeamt
   name: PangeaMT
+  codes:
+  - es
 - id: lucy
   name: Lucy
+  codes:
+  - es
 - id: phrase-nextmt
   name: Phrase NextMT
+  codes:
+  - es
 - id: translateme
   name: TranslateMe
+  codes:
+  - es
 - id: mistral-ai
   name: Mistral AI
+  codes:
+  - es
 - id: alexa-translations-ai
   name: Alexa Translations A.I.
+  codes:
+  - es-419
 - id: papago
   name: Papago Translation
+  codes:
+  - es
 - id: lingo24
   name: Lingo24
+  codes:
+  - es
 - id: mirai
   name: Mirai Translator
+  codes:
+  - es-es
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
+  codes:
+  - es
 - id: aisa
   name: AISA
+  codes:
+  - es-es
 - id: tencent
   name: Tencent Machine Translation
+  codes:
+  - es
 - id: kakao
   name: Kakao
+  codes:
+  - es
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - es
 - id: tilde
   name: Tilde
+  codes:
+  - es
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - es
 - id: supertext
   name: Supertext
+  codes:
+  - es
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - es-es
 - id: reverso
   name: Reverso
+  codes:
+  - es
 - id: deepl
   name: DeepL
+  codes:
+  - es
 - id: unbabel
   name: Unbabel
+  codes:
+  - es
+  - es-419
 - id: lara
   name: Lara
+  codes:
+  - es-419
+  - es-ar
+  - es-es
+  - es-mx
 - id: etranslation
   name: eTranslation
+  codes:
+  - es
 - id: globalese
   name: Globalese
+  codes:
+  - es
 - id: widn
   name: Widn
+  codes:
+  - es
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - es-es
 - id: promt
   name: PROMT
+  codes:
+  - es
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - es
 - id: xl8
   name: XL8
+  codes:
+  - es
+  - es-419
 - id: apertium
   name: Apertium
+  codes:
+  - es
 - id: kantanmt
   name: KantanMT
+  codes:
+  - es
 - id: systran
   name: SYSTRAN
+  codes:
+  - es
 - id: anthropic
   name: Anthropic
+  codes:
+  - es
 - id: iconic
   name: Iconic
+  codes:
+  - es
 - id: iptranslator
   name: IP Translator
+  codes:
+  - es
 - id: lilt
   name: Lilt
+  codes:
+  - es
 - id: deepseek
   name: DeepSeek
+  codes:
+  - es
 - id: watson
   name: Watson Language Translator
+  codes:
+  - es
 - id: openai
   name: OpenAI
+  codes:
+  - es
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - es
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - es
 - id: apptek
   name: AppTek
+  codes:
+  - es-es
+  - es-mx
+  - es-us
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - es
 - id: amazon
   name: Amazon Translate
+  codes:
+  - es
+  - es-mx
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - es
 - id: textra
   name: TexTra
+  codes:
+  - es
 - id: yandex
   name: Yandex Translate
+  codes:
+  - es
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - es
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - es-es
 - id: youdao
   name: Youdao Translate
+  codes:
+  - es
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - es
 - id: modernmt
   name: ModernMT
+  codes:
+  - es-419
+  - es-es
 - id: baidu
   name: Baidu Translate
+  codes:
+  - es
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - es
 - id: google
   name: Google Translate
+  codes:
+  - es
 - id: niutrans
   name: Niutrans
+  codes:
+  - es
 supported_qe_apis:
 - id: google-translation-hub-mtqp
   name: Google Translation Hub MTQP
+  codes:
+  - es
 - id: kantanqes
   name: KantanQES
+  codes:
+  - es
+  - es-419
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - es
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - es
 - id: smart-review
   name: Smart Review
+  codes:
+  - es
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - es
 - id: taus
   name: TAUS
+  codes:
+  - es
 - id: modelfront
   name: ModelFront
+  codes:
+  - es
+  - es-419
+  - es-es
 - id: modernmt
   name: ModernMT
+  codes:
+  - es-419
+  - es-es
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - es
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - es
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - es
 - id: modelfront
   name: ModelFront
+  codes:
+  - es
+  - es-419
+  - es-es
 seo:
   name: Machine translation for Spanish
   type: Language

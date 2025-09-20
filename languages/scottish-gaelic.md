@@ -31,34 +31,62 @@ territories:
 supported_apis:
 - id: textra
   name: TexTra
+  codes:
+  - gd
 - id: yandex
   name: Yandex Translate
+  codes:
+  - gd
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - gd-gb
 - id: youdao
   name: Youdao Translate
+  codes:
+  - gd
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - gd
 - id: modernmt
   name: ModernMT
+  codes:
+  - gd
 - id: baidu
   name: Baidu Translate
+  codes:
+  - gd
 - id: google
   name: Google Translate
+  codes:
+  - gd
 - id: niutrans
   name: Niutrans
+  codes:
+  - gd
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - gd
 - id: modelfront
   name: ModelFront
+  codes:
+  - gd
 - id: modernmt
   name: ModernMT
+  codes:
+  - gd
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - gd
 - id: modelfront
   name: ModelFront
+  codes:
+  - gd
 seo:
   name: Machine translation for Scottish Gaelic
   type: Language

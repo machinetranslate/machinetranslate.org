@@ -26,11 +26,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - kea
 - id: niutrans
   name: Niutrans
+  codes:
+  - kea
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - kea
 supported_ape_apis: []
 seo:
   name: Machine translation for Cape Verdean Creole

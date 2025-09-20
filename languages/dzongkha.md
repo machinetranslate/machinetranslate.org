@@ -30,13 +30,21 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - dz
 - id: google
   name: Google Translate
+  codes:
+  - dz
 - id: niutrans
   name: Niutrans
+  codes:
+  - dz
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - dz
 supported_ape_apis: []
 seo:
   name: Machine translation for Dzongkha

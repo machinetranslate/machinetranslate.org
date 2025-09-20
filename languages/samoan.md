@@ -27,38 +27,70 @@ territories:
 supported_apis:
 - id: iconic
   name: Iconic
+  codes:
+  - sm
 - id: iptranslator
   name: IP Translator
+  codes:
+  - sm
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - sm
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - sm-ws
 - id: youdao
   name: Youdao Translate
+  codes:
+  - sm
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - sm
 - id: modernmt
   name: ModernMT
+  codes:
+  - sm
 - id: baidu
   name: Baidu Translate
+  codes:
+  - sm
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - sm
 - id: google
   name: Google Translate
+  codes:
+  - sm
 - id: niutrans
   name: Niutrans
+  codes:
+  - sm
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - sm
 - id: modelfront
   name: ModelFront
+  codes:
+  - sm
 - id: modernmt
   name: ModernMT
+  codes:
+  - sm
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - sm
 - id: modelfront
   name: ModelFront
+  codes:
+  - sm
 seo:
   name: Machine translation for Samoan
   type: Language

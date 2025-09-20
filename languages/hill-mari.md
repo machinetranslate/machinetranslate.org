@@ -27,8 +27,12 @@ territories:
 supported_apis:
 - id: yandex
   name: Yandex Translate
+  codes:
+  - mrj
 - id: niutrans
   name: Niutrans
+  codes:
+  - mrj
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

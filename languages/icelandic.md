@@ -30,70 +30,134 @@ territories:
 supported_apis:
 - id: etranslation
   name: eTranslation
+  codes:
+  - is
 - id: apertium
   name: Apertium
+  codes:
+  - is
 - id: kantanmt
   name: KantanMT
+  codes:
+  - is
 - id: systran
   name: SYSTRAN
+  codes:
+  - is
 - id: deepseek
   name: DeepSeek
+  codes:
+  - is
 - id: openai
   name: OpenAI
+  codes:
+  - is
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - is
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - is
 - id: apptek
   name: AppTek
+  codes:
+  - is
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - is
 - id: amazon
   name: Amazon Translate
+  codes:
+  - is
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - is
 - id: textra
   name: TexTra
+  codes:
+  - is
 - id: yandex
   name: Yandex Translate
+  codes:
+  - is
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - is
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - is-is
 - id: youdao
   name: Youdao Translate
+  codes:
+  - is
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - is
 - id: modernmt
   name: ModernMT
+  codes:
+  - is
 - id: baidu
   name: Baidu Translate
+  codes:
+  - is
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - is
 - id: google
   name: Google Translate
+  codes:
+  - is
 - id: niutrans
   name: Niutrans
+  codes:
+  - is
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - is
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - is
 - id: smart-review
   name: Smart Review
+  codes:
+  - is
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - is
 - id: taus
   name: TAUS
+  codes:
+  - is
 - id: modelfront
   name: ModelFront
+  codes:
+  - is
 - id: modernmt
   name: ModernMT
+  codes:
+  - is
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - is
 - id: modelfront
   name: ModelFront
+  codes:
+  - is
 seo:
   name: Machine translation for Icelandic
   type: Language

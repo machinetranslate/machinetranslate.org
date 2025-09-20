@@ -30,36 +30,66 @@ territories: []
 supported_apis:
 - id: apertium
   name: Apertium
+  codes:
+  - eo
 - id: deepseek
   name: DeepSeek
+  codes:
+  - eo
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - eo
 - id: yandex
   name: Yandex Translate
+  codes:
+  - eo
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - eo
 - id: youdao
   name: Youdao Translate
+  codes:
+  - eo
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - eo
 - id: modernmt
   name: ModernMT
+  codes:
+  - eo
 - id: baidu
   name: Baidu Translate
+  codes:
+  - eo
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - eo
 - id: google
   name: Google Translate
+  codes:
+  - eo
 - id: niutrans
   name: Niutrans
+  codes:
+  - eo
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - eo
 - id: modernmt
   name: ModernMT
+  codes:
+  - eo
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - eo
 seo:
   name: Machine translation for Esperanto
   type: Language

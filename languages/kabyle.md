@@ -28,15 +28,25 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - kab
 - id: baidu
   name: Baidu Translate
+  codes:
+  - kab
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - kab
 - id: niutrans
   name: Niutrans
+  codes:
+  - kab
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - kab
 supported_ape_apis: []
 seo:
   name: Machine translation for Kabyle

@@ -26,54 +26,102 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - ml-in
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - ml
 - id: anthropic
   name: Anthropic
+  codes:
+  - ml
 - id: lilt
   name: Lilt
+  codes:
+  - ml
 - id: watson
   name: Watson Language Translator
+  codes:
+  - ml
 - id: apptek
   name: AppTek
+  codes:
+  - ml
 - id: amazon
   name: Amazon Translate
+  codes:
+  - ml
 - id: textra
   name: TexTra
+  codes:
+  - ml
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ml
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ml
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ml-in
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ml
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ml
 - id: modernmt
   name: ModernMT
+  codes:
+  - ml
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ml
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ml
 - id: google
   name: Google Translate
+  codes:
+  - ml
 - id: niutrans
   name: Niutrans
+  codes:
+  - ml
 supported_qe_apis:
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - ml
 - id: taus
   name: TAUS
+  codes:
+  - ml
 - id: modelfront
   name: ModelFront
+  codes:
+  - ml
 - id: modernmt
   name: ModernMT
+  codes:
+  - ml
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ml
 - id: modelfront
   name: ModelFront
+  codes:
+  - ml
 seo:
   name: Machine translation for Malayalam
   type: Language

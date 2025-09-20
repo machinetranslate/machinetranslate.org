@@ -32,21 +32,37 @@ territories:
 supported_apis:
 - id: apertium
   name: Apertium
+  codes:
+  - oc
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - oc
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - oc
 - id: modernmt
   name: ModernMT
+  codes:
+  - oc
 - id: baidu
   name: Baidu Translate
+  codes:
+  - oc
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - oc
 - id: google
   name: Google Translate
+  codes:
+  - oc
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - oc
 supported_ape_apis: []
 seo:
   name: Machine translation for Occitan

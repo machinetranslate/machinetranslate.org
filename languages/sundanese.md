@@ -26,34 +26,62 @@ territories:
 supported_apis:
 - id: textra
   name: TexTra
+  codes:
+  - su
 - id: yandex
   name: Yandex Translate
+  codes:
+  - su
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - su-id
 - id: youdao
   name: Youdao Translate
+  codes:
+  - su
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - su
 - id: modernmt
   name: ModernMT
+  codes:
+  - su
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - su
 - id: google
   name: Google Translate
+  codes:
+  - su
 - id: niutrans
   name: Niutrans
+  codes:
+  - su
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - su
 - id: modelfront
   name: ModelFront
+  codes:
+  - su
 - id: modernmt
   name: ModernMT
+  codes:
+  - su
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - su
 - id: modelfront
   name: ModelFront
+  codes:
+  - su
 seo:
   name: Machine translation for Sundanese
   type: Language

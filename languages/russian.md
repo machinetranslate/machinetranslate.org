@@ -34,142 +34,278 @@ territories:
 supported_apis:
 - id: belazar
   name: Belazar
+  codes:
+  - ru
 - id: tapta
   name: TAPTA
+  codes:
+  - ru
 - id: lucy
   name: Lucy
+  codes:
+  - ru
 - id: phrase-nextmt
   name: Phrase NextMT
+  codes:
+  - ru
 - id: translateme
   name: TranslateMe
+  codes:
+  - ru
 - id: papago
   name: Papago Translation
+  codes:
+  - ru
 - id: lingo24
   name: Lingo24
+  codes:
+  - ru
 - id: mirai
   name: Mirai Translator
+  codes:
+  - ru
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
+  codes:
+  - ru
 - id: aisa
   name: AISA
+  codes:
+  - ru
 - id: tencent
   name: Tencent Machine Translation
+  codes:
+  - ru
 - id: kakao
   name: Kakao
+  codes:
+  - ru
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - ru
 - id: tilde
   name: Tilde
+  codes:
+  - ru
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - ru
 - id: supertext
   name: Supertext
+  codes:
+  - ru
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - ru-ru
 - id: reverso
   name: Reverso
+  codes:
+  - ru
 - id: deepl
   name: DeepL
+  codes:
+  - ru
 - id: unbabel
   name: Unbabel
+  codes:
+  - ru
 - id: lara
   name: Lara
+  codes:
+  - ru
 - id: etranslation
   name: eTranslation
+  codes:
+  - ru
 - id: globalese
   name: Globalese
+  codes:
+  - ru
 - id: widn
   name: Widn
+  codes:
+  - ru
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - ru
 - id: promt
   name: PROMT
+  codes:
+  - ru
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - ru
 - id: xl8
   name: XL8
+  codes:
+  - ru
 - id: apertium
   name: Apertium
+  codes:
+  - ru
 - id: kantanmt
   name: KantanMT
+  codes:
+  - ru
 - id: systran
   name: SYSTRAN
+  codes:
+  - ru
 - id: anthropic
   name: Anthropic
+  codes:
+  - ru
 - id: iconic
   name: Iconic
+  codes:
+  - ru
 - id: iptranslator
   name: IP Translator
+  codes:
+  - ru
 - id: lilt
   name: Lilt
+  codes:
+  - ru
 - id: deepseek
   name: DeepSeek
+  codes:
+  - ru
 - id: watson
   name: Watson Language Translator
+  codes:
+  - ru
 - id: openai
   name: OpenAI
+  codes:
+  - ru
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ru
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - ru
 - id: apptek
   name: AppTek
+  codes:
+  - ru
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - ru
 - id: amazon
   name: Amazon Translate
+  codes:
+  - ru
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - ru
 - id: textra
   name: TexTra
+  codes:
+  - ru
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ru
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ru
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ru-ru
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ru
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ru
 - id: modernmt
   name: ModernMT
+  codes:
+  - ru
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ru
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ru
 - id: google
   name: Google Translate
+  codes:
+  - ru
 - id: niutrans
   name: Niutrans
+  codes:
+  - ru
 supported_qe_apis:
 - id: google-translation-hub-mtqp
   name: Google Translation Hub MTQP
+  codes:
+  - ru
 - id: kantanqes
   name: KantanQES
+  codes:
+  - ru
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - ru
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - ru
 - id: smart-review
   name: Smart Review
+  codes:
+  - ru
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - ru
 - id: taus
   name: TAUS
+  codes:
+  - ru
 - id: modelfront
   name: ModelFront
+  codes:
+  - ru
 - id: modernmt
   name: ModernMT
+  codes:
+  - ru
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - ru
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ru
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ru
 - id: modelfront
   name: ModelFront
+  codes:
+  - ru
 seo:
   name: Machine translation for Russian
   type: Language

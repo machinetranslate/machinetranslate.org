@@ -47,144 +47,332 @@ territories:
 supported_apis:
 - id: yeekit
   name: YeeKit
+  codes:
+  - zh
 - id: tapta
   name: TAPTA
+  codes:
+  - zh
 - id: cloudtranslation
   name: CloudTranslation
+  codes:
+  - zh-Hans
 - id: pangeamt
   name: PangeaMT
+  codes:
+  - zh
+  - zh-Hant
 - id: phrase-nextmt
   name: Phrase NextMT
+  codes:
+  - zh-Hans
 - id: translateme
   name: TranslateMe
+  codes:
+  - zh
 - id: mistral-ai
   name: Mistral AI
+  codes:
+  - zh
 - id: alexa-translations-ai
   name: Alexa Translations A.I.
+  codes:
+  - zh
 - id: papago
   name: Papago Translation
+  codes:
+  - zh
+  - zh-Hans
+  - zh-Hant
 - id: mirai
   name: Mirai Translator
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: aisa
   name: AISA
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: tencent
   name: Tencent Machine Translation
+  codes:
+  - zh
+  - zh-Hans
+  - zh-Hant
 - id: kakao
   name: Kakao
+  codes:
+  - zh
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - zh
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: supertext
   name: Supertext
+  codes:
+  - zh
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - zh-Hans
 - id: reverso
   name: Reverso
+  codes:
+  - zh
 - id: deepl
   name: DeepL
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: unbabel
   name: Unbabel
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: lara
   name: Lara
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: etranslation
   name: eTranslation
+  codes:
+  - zh
 - id: globalese
   name: Globalese
+  codes:
+  - zh-Hans
 - id: widn
   name: Widn
+  codes:
+  - zh
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: promt
   name: PROMT
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: xl8
   name: XL8
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: kantanmt
   name: KantanMT
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: systran
   name: SYSTRAN
+  codes:
+  - zh
+  - zh-Hant
 - id: anthropic
   name: Anthropic
+  codes:
+  - zh
 - id: iconic
   name: Iconic
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: iptranslator
   name: IP Translator
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: lilt
   name: Lilt
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: deepseek
   name: DeepSeek
+  codes:
+  - zh
 - id: watson
   name: Watson Language Translator
+  codes:
+  - zh
+  - zh-Hant
 - id: openai
   name: OpenAI
+  codes:
+  - zh
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: apptek
   name: AppTek
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: amazon
   name: Amazon Translate
+  codes:
+  - zh
+  - zh-Hant
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - zh
+  - zh-Hans
+  - zh-Hant
 - id: textra
   name: TexTra
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: yandex
   name: Yandex Translate
+  codes:
+  - zh
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - zh-Hans-cn
+  - zh-Hant-tw
 - id: youdao
   name: Youdao Translate
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: modernmt
   name: ModernMT
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: baidu
   name: Baidu Translate
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - zh
+  - zh-Hant
 - id: google
   name: Google Translate
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: niutrans
   name: Niutrans
+  codes:
+  - zh
 supported_qe_apis:
 - id: google-translation-hub-mtqp
   name: Google Translation Hub MTQP
+  codes:
+  - zh
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: kantanqes
   name: KantanQES
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - zh
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: smart-review
   name: Smart Review
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: taus
   name: TAUS
+  codes:
+  - zh
 - id: modelfront
   name: ModelFront
+  codes:
+  - zh
+  - zh-Hans
+  - zh-Hant
 - id: modernmt
   name: ModernMT
+  codes:
+  - zh-Hans
+  - zh-Hant
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - zh
 - id: modelfront
   name: ModelFront
+  codes:
+  - zh
+  - zh-Hans
+  - zh-Hant
 seo:
   name: Machine translation for Chinese
   type: Language

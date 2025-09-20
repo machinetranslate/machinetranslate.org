@@ -30,21 +30,37 @@ territories:
 supported_apis:
 - id: textra
   name: TexTra
+  codes:
+  - ln
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ln
 - id: modernmt
   name: ModernMT
+  codes:
+  - ln
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ln
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ln
 - id: google
   name: Google Translate
+  codes:
+  - ln
 - id: niutrans
   name: Niutrans
+  codes:
+  - ln
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ln
 supported_ape_apis: []
 seo:
   name: Machine translation for Lingala

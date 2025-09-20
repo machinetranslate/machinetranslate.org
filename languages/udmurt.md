@@ -26,12 +26,20 @@ territories:
 supported_apis:
 - id: yandex
   name: Yandex Translate
+  codes:
+  - udm
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - udm
 - id: google
   name: Google Translate
+  codes:
+  - udm
 - id: niutrans
   name: Niutrans
+  codes:
+  - udm
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

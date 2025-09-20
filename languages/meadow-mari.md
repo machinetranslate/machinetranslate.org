@@ -27,10 +27,16 @@ territories:
 supported_apis:
 - id: yandex
   name: Yandex Translate
+  codes:
+  - mhr
 - id: google
   name: Google Translate
+  codes:
+  - mhr
 - id: niutrans
   name: Niutrans
+  codes:
+  - mhr
 supported_qe_apis: []
 supported_ape_apis: []
 seo:
