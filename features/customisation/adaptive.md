@@ -28,12 +28,27 @@ Adaptive machine translation first became practical with the rise of [neural mac
   {% assign adaptive_apis = site.data.apis | where: "adaptive", true %}
   {% for api in adaptive_apis %}
     <li>
-    <a href="/{{ api.id }}">
-        {{ api.name }}
-    </a>
+      <a href="/{{ api.id }}">
+          {{ api.name }}
+      </a>
     </li>
   {% endfor %}
 </ul>
+
+{% assign adaptive_qe_apis = site.data.quality_estimation | where: "adaptive", true %}
+{% if adaptive_qe_apis.size > 0 %}
+### Quality estimation
+
+<ul>
+  {% for qe in adaptive_qe_apis %}
+    <li>
+      <a href="/quality-estimation/{{ qe.id }}">
+          {{ qe.name }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+{% endif %}
 
 ### Workflow
 

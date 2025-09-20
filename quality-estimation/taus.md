@@ -562,7 +562,8 @@ supported_languages:
   variant_name: null
 only_compatible_mt_api: null
 only_compatible_tms: null
-customisation: false
+customisation:
+- Fine-tuning
 integrations:
 - slug: memoq
   name: memoQ

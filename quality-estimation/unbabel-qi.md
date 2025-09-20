@@ -134,7 +134,7 @@ only_compatible_mt_api:
 - id: unbabel
   name: Unbabel
 only_compatible_tms: null
-customisation: true
+customisation: []
 integrations: []
 more_by_company:
 - translation_apis:

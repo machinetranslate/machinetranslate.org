@@ -211,7 +211,7 @@ only_compatible_mt_api:
 only_compatible_tms:
 - id: kantanstream
   name: KantanStream
-customisation: true
+customisation: []
 integrations:
 - slug: kantanstream
   name: KantanStream

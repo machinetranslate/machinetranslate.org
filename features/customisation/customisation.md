@@ -23,7 +23,15 @@ The most common type of customisation is [fine-tuning](/fine-tuning) on [paralle
 {% endfor %}
 
 
-{% assign customisable_qe_apis = site.data.quality_estimation | where: "customisation" , true %}
+{% assign customisable_qe_apis = '' | split: ',' %}
+
+{% for qe in site.data.quality_estimation %}
+  {% if qe.custom_languages or qe.adaptive or qe.fine-tuning %}
+    {% unless customisable_qe_apis contains qe %}
+      {% assign customisable_qe_apis = customisable_qe_apis | push: qe %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
 
 {{ customisable_apis | size }} machine translation APIs and {{ customisable_qe_apis | size }} quality estimation APIs support customisation.
 
@@ -40,12 +48,12 @@ The most common type of customisation is [fine-tuning](/fine-tuning) on [paralle
     <ul>
     {% for api in customisable_apis %}
       <li>
-          <a href="/{{ api.id }}">{{ api.name }}</a> {% if api.plugin %}(plugin){% endif %}
-            {% if api.custom_languages or api.fine-tuning %}| <strong>fine-tuning</strong> support{% endif %}
-            {% if api.glossary %}| <strong>glossary</strong> support{% endif %}
-            {% if api.formality %}| <strong>formality</strong> support{% endif %}
-            {% if api.adaptive %}| <strong>adaptive</strong> support{% endif %}
-            {% if api.prompt_required %}| <strong>prompt</strong> support{% endif %}
+        <a href="/{{ api.id }}">{{ api.name }}</a> {% if api.plugin %}(plugin){% endif %}
+          {% if api.custom_languages or api.fine-tuning %}| <strong>fine-tuning</strong> support{% endif %}
+          {% if api.glossary %}| <strong>glossary</strong> support{% endif %}
+          {% if api.formality %}| <strong>formality</strong> support{% endif %}
+          {% if api.adaptive %}| <strong>adaptive</strong> support{% endif %}
+          {% if api.prompt_required %}| <strong>prompt</strong> support{% endif %}
       </li>
     {% endfor %}
     </ul>
@@ -64,7 +72,8 @@ The most common type of customisation is [fine-tuning](/fine-tuning) on [paralle
     {% for qe in customisable_qe_apis %}
       <li>
         <a href="/quality-estimation/{{ qe.id }}">{{ qe.name }}</a> {% if qe.plugin %}(plugin){% endif %}
-            | <strong>fine-tuning</strong> support
+          {% if qe.custom_languages or qe.fine-tuning %}| <strong>fine-tuning</strong> support{% endif %}
+          {% if qe.adaptive %}| <strong>adaptive</strong> support{% endif %}
       </li>
     {% endfor %}
     </ul>

@@ -22,16 +22,16 @@ description:
 </ul>
 
 ## Quality estimation
-{% assign fine_tuning_qe_apis = site.data.quality_estimation | where: "customisation", true %}
+{% assign fine_tuning_qe_apis = site.data.quality_estimation | where: "fine-tuning", true %}
 <summary>
   <strong>{{ fine_tuning_qe_apis | size }}</strong> quality estimation APIs support fine-tuning.
 </summary>
 <ul>
-  {% for api in fine_tuning_qe_apis %}
+  {% for qe in fine_tuning_qe_apis %}
     <li>
-    <a href="/quality-estimation/{{ api.id }}">
-        {{ api.name }}
-    </a>
+      <a href="/quality-estimation/{{ qe.id }}">
+          {{ qe.name }}
+      </a>
     </li>
   {% endfor %}
 </ul>

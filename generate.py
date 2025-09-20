@@ -884,6 +884,12 @@ for estimation in QUALITY_ESTIMATION:
   urls = estimation['urls']
   if not isinstance(urls, list):
     raise Exception(urls)
+  
+  customisation = []
+  if estimation.get('adaptive', False):
+    customisation.append('Adaptive')
+  if estimation.get('fine-tuning', False):
+    customisation.append('Fine-tuning')
 
   tagline = estimation.get('tagline', False)
   
@@ -922,8 +928,6 @@ for estimation in QUALITY_ESTIMATION:
     })
   else:
     only_compatible_tms = only_compatible_tms_id
-
-  customisation = estimation.get('customisation', False)
 
   supported_language_codes = list(set(flatten(languages)))
   supported_language_codes.sort()

@@ -155,7 +155,7 @@
         ],
         "only_compatible_mt_api": null,
         "only_compatible_tms": null,
-        "customisation": true,
+        "fine-tuning": true,
         "urls": [
             "https://modelfront.com",
             "https://docs.modelfront.com/api/"
@@ -714,7 +714,6 @@
         ],
         "only_compatible_mt_api": "kantanmt",
         "only_compatible_tms": "kantanstream",
-        "customisation": true,
         "urls": [
             "https://www.kantanai.io/kantanqes-home/",
             "https://kantanmt.docs.apiary.io/#reference/0/calculateqes/calculate-qes"
@@ -1638,7 +1637,6 @@
         ],
         "only_compatible_mt_api": null,
         "only_compatible_tms": "phrase",
-        "customisation": false,
         "urls": [
             "https://support.phrase.com/hc/en-us/articles/5709672289180-MT-Quality-Estimation-TMS-",
             "https://support.phrase.com/hc/en-us/articles/5709672289180#UUID-d435d748-e1b8-88e6-7089-9cc73e1320d2_UUID-214925cb-c5c0-5f9a-fc53-7fb3e60045d2"
@@ -3949,7 +3947,6 @@
         ],
         "only_compatible_mt_api": "omniscien",
         "only_compatible_tms": null,
-        "customisation": true,
         "urls": [
             "https://omniscien.com/products/language-studio/",
             "https://omniscien.com/machine-translation/hybrid-machine-translation/#confidence-scores"
@@ -4073,7 +4070,7 @@
         ],
         "only_compatible_mt_api": null,
         "only_compatible_tms": null,
-        "customisation": false,
+        "fine-tuning": true,
         "urls": [
             "https://www.taus.net",
             "https://developer.taus.net"
@@ -4168,7 +4165,6 @@
         ],
         "only_compatible_mt_api": "google",
         "only_compatible_tms": "translation-hub",
-        "customisation": false,
         "urls": [
             "https://cloud.google.com/translation-hub/docs/user-post-edit#segment-details",
             "https://cloud.google.com/translation-hub/docs/supported-languages#machine_translation_quality_prediction_model"
@@ -4254,8 +4250,7 @@
             "https://docs.rws.com/en-US/trados-enterprise-accelerate-791595/using-translation-quality-estimation-1152353"
         ],
         "only_compatible_mt_api": null,
-        "only_compatible_tms": "trados",
-        "customisation": true
+        "only_compatible_tms": "trados"
     },
     {
         "name": "Smart Review",
@@ -4337,14 +4332,12 @@
             "https://docs.rws.com/en-US/trados-enterprise-accelerate-791595/using-translation-quality-estimation-1152353"
         ],
         "only_compatible_mt_api": null,
-        "only_compatible_tms": "trados",
-        "customisation": true
+        "only_compatible_tms": "trados"
     },
     {
         "name": "ModernMT",
         "id": "modernmt",
-        "company": "translated", 
-        "tagline": "Adaptive quality estimation",
+        "company": "translated",
         "languages": [
             "ace",
             "af",
@@ -4552,9 +4545,7 @@
             "https://www.modernmt.com/api#quality-estimation"
         ],
         "only_compatible_mt_api": null,
-        "only_compatible_tms": "matecat",
-        "customisation": true
-        
+        "only_compatible_tms": "matecat"  
     },
     {   "name": "Unbabel QI",
         "id": "unbabel-qi",
@@ -4590,7 +4581,6 @@
             "https://developers.unbabel.com/docs/api-reference/31a1ddcfb9a7f-unbabel-qi-api"
         ],
         "only_compatible_mt_api": "unbabel",
-        "only_compatible_tms": null,
-        "customisation": true
+        "only_compatible_tms": null
     }
 ]
