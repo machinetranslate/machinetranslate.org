@@ -4337,8 +4337,7 @@
     {
         "name": "ModernMT",
         "id": "modernmt",
-        "company": "translated", 
-        "tagline": "Adaptive quality estimation",
+        "company": "translated",
         "languages": [
             "ace",
             "af",
@@ -4546,9 +4545,7 @@
             "https://www.modernmt.com/api#quality-estimation"
         ],
         "only_compatible_mt_api": null,
-        "only_compatible_tms": "matecat",
-        "adaptive": true
-        
+        "only_compatible_tms": "matecat"  
     },
     {   "name": "Unbabel QI",
         "id": "unbabel-qi",

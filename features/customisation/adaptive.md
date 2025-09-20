@@ -35,10 +35,11 @@ Adaptive machine translation first became practical with the rise of [neural mac
   {% endfor %}
 </ul>
 
+{% assign adaptive_qe_apis = site.data.quality_estimation | where: "adaptive", true %}
+{% if adaptive_qe_apis.size > 0 %}
 ### Quality estimation
 
 <ul>
-  {% assign adaptive_qe_apis = site.data.quality_estimation | where: "adaptive", true %}
   {% for qe in adaptive_qe_apis %}
     <li>
       <a href="/quality-estimation/{{ qe.id }}">
@@ -47,6 +48,7 @@ Adaptive machine translation first became practical with the rise of [neural mac
     </li>
   {% endfor %}
 </ul>
+{% endif %}
 
 ### Workflow
 

@@ -5,7 +5,7 @@ nav_order: 800
 layout: quality_estimation
 title: ModernMT
 description: The ModernMT translation quality estimation API
-tagline: Adaptive quality estimation
+tagline: false
 id: modernmt
 company:
   id: translated
@@ -1019,8 +1019,7 @@ only_compatible_mt_api: null
 only_compatible_tms:
 - id: matecat
   name: MateCat
-customisation:
-- Adaptive
+customisation: []
 integrations:
 - slug: matecat
   name: MateCat
