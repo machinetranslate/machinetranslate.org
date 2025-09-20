@@ -63,7 +63,7 @@ more_by_company:
 - tms:
   - id: smartcat
     name: Smartcat
-    type: Translation management systems
+    type: Translation management system
 seo:
   name: Machine translation API integrations in Smartcat
   type: Product

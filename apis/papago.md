@@ -17,8 +17,8 @@ customisation:
 - Glossary
 - Formality
 inputs:
-- file
 - text
+- file
 supported_languages:
 - slug: german
   code: de

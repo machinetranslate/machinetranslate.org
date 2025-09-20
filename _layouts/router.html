@@ -147,50 +147,38 @@ parent: Routers
 
       {% assign items = company.translation_apis %}
       {% if items %}
-        <details>
-          <summary>Machine translation</summary>
-          <ul>
-            {% for i in items %}
-              <li><a href="/{{ i.id }}">{{ i.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </details>
+        <ul>
+          {% for i in items %}
+            <li><a href="/{{ i.id }}">{{ i.name }} machine translation</a></li>
+          {% endfor %}
+        </ul>
       {% endif %}
 
       {% assign items = company.quality_estimation_apis %}
       {% if items %}
-        <details>
-          <summary>Quality Estimation</summary>
-          <ul>
-            {% for i in items %}
-              <li><a href="/quality-estimation/{{ i.id }}">{{ i.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </details>
+        <ul>
+          {% for i in items %}
+            <li><a href="/quality-estimation/{{ i.id }}">{{ i.name }} quality estimation</a></li>
+          {% endfor %}
+        </ul>
       {% endif %}
 
       {% assign items = company.automatic_post_editing_apis %}
       {% if items %}
-        <details>
-          <summary>Automatic post-editing</summary>
-          <ul>
-            {% for i in items %}
-              <li><a href="/automatic-post-editing/{{ i.id }}">{{ i.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </details>
+        <ul>
+          {% for i in items %}
+            <li><a href="/automatic-post-editing/{{ i.id }}">{{ i.name }} automatic post-editing</a></li>
+          {% endfor %}
+        </ul>
       {% endif %}
 
     {% assign items = company.tms %}
     {% if items %}
-      <details>
-        <summary>{{ items[0].type }}</summary>
-        <ul>
-          {% for i in items %}
-            <li><a href="/integrations/{{ i.id }}">{{ i.name }}</a></li>
-          {% endfor %}
-        </ul>
-      </details>
+      <ul>
+        {% for i in items %}
+          <li><a href="/integrations/{{ i.id }}">{{ i.name }} {{ items[0].type | downcase }}</a></li>
+        {% endfor %}
+      </ul>
     {% endif %}
 
     {% assign items = company.routers %}
@@ -203,27 +191,21 @@ parent: Routers
       {% endfor %}
       
       {% if visible_items.size > 0 %}
-        <details>
-          <summary>Routers</summary>
-          <ul>
-            {% for i in visible_items %}
-              <li><a href="/routers/{{ i.id }}">{{ i.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </details>
+        <ul>
+          {% for i in visible_items %}
+            <li><a href="/routers/{{ i.id }}">{{ i.name }} router</a></li>
+          {% endfor %}
+        </ul>
       {% endif %}
     {% endif %}
 
       {% assign items = company.models %}
       {% if items %}
-        <details>
-          <summary>Models</summary>
-          <ul>
-            {% for i in items %}
-              <li><a href="/models/{{ i.id }}">{{ i.name }}</a></li>
-            {% endfor %}
-          </ul>
-        </details>
+        <ul>
+          {% for i in items %}
+            <li><a href="/models/{{ i.id }}">{{ i.name }} model</a></li>
+          {% endfor %}
+        </ul>
       {% endif %}
 
     {% endfor %}

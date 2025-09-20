@@ -35,7 +35,7 @@ more_by_company:
 - tms:
   - id: translation-hub
     name: Google Cloud Translation Hub
-    type: Translation management systems
+    type: Translation management system
 - quality_estimation_apis:
   - id: google-translation-hub-mtqp
     name: Google Translation Hub MTQP

@@ -15,8 +15,8 @@ self_serve: true
 prompt_required: false
 customisation: []
 inputs:
-- speech
 - text
+- speech
 - file
 supported_languages:
 - slug: afrikaans

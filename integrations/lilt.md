@@ -34,7 +34,7 @@ more_by_company:
 - tms:
   - id: lilt
     name: Lilt
-    type: Computer-aided translation tools
+    type: Computer-aided translation tool
 seo:
   name: Machine translation API integrations in Lilt
   type: Product
