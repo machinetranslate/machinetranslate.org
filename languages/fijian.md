@@ -27,28 +27,50 @@ territories:
 supported_apis:
 - id: iconic
   name: Iconic
+  codes:
+  - fj
 - id: iptranslator
   name: IP Translator
+  codes:
+  - fj
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - fj
 - id: youdao
   name: Youdao Translate
+  codes:
+  - fj
 - id: modernmt
   name: ModernMT
+  codes:
+  - fj
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - fj
 - id: google
   name: Google Translate
+  codes:
+  - fj
 - id: niutrans
   name: Niutrans
+  codes:
+  - fj
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - fj
 - id: modernmt
   name: ModernMT
+  codes:
+  - fj
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - fj
 seo:
   name: Machine translation for Fijian
   type: Language

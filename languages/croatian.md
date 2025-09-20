@@ -36,90 +36,174 @@ territories:
 supported_apis:
 - id: tilde
   name: Tilde
+  codes:
+  - hr
 - id: lara
   name: Lara
+  codes:
+  - hr
 - id: etranslation
   name: eTranslation
+  codes:
+  - hr
 - id: globalese
   name: Globalese
+  codes:
+  - hr
 - id: widn
   name: Widn
+  codes:
+  - hr
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - hr
 - id: promt
   name: PROMT
+  codes:
+  - hr
 - id: xl8
   name: XL8
+  codes:
+  - hr
 - id: kantanmt
   name: KantanMT
+  codes:
+  - hr
 - id: systran
   name: SYSTRAN
+  codes:
+  - hr
 - id: anthropic
   name: Anthropic
+  codes:
+  - hr
 - id: iconic
   name: Iconic
+  codes:
+  - hr
 - id: iptranslator
   name: IP Translator
+  codes:
+  - hr
 - id: lilt
   name: Lilt
+  codes:
+  - hr
 - id: watson
   name: Watson Language Translator
+  codes:
+  - hr
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - hr
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - hr
 - id: apptek
   name: AppTek
+  codes:
+  - hr
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - hr
 - id: amazon
   name: Amazon Translate
+  codes:
+  - hr
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - hr
 - id: textra
   name: TexTra
+  codes:
+  - hr
 - id: yandex
   name: Yandex Translate
+  codes:
+  - hr
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - hr
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - hr-hr
 - id: youdao
   name: Youdao Translate
+  codes:
+  - hr
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - hr
 - id: modernmt
   name: ModernMT
+  codes:
+  - hr
 - id: baidu
   name: Baidu Translate
+  codes:
+  - hr
 - id: google
   name: Google Translate
+  codes:
+  - hr
 - id: niutrans
   name: Niutrans
+  codes:
+  - hr
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - hr
 - id: kantanqes
   name: KantanQES
+  codes:
+  - hr
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - hr
 - id: smart-review
   name: Smart Review
+  codes:
+  - hr
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - hr
 - id: taus
   name: TAUS
+  codes:
+  - hr
 - id: modelfront
   name: ModelFront
+  codes:
+  - hr
 - id: modernmt
   name: ModernMT
+  codes:
+  - hr
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - hr
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - hr
 - id: modelfront
   name: ModelFront
+  codes:
+  - hr
 seo:
   name: Machine translation for Croatian
   type: Language

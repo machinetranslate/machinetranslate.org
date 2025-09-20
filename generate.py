@@ -192,7 +192,7 @@ def get_tms_by_id_and_key(id, *keys: str):
                     })
     return integrations
 
-def supported_language_base_codes(file_name):
+def supported_language_base_codes(file_name, return_base_code=True):
   SUPPORTED_LANGUAGE_BASE_CODES = {}
   for api in file_name:
     api_id = api['id']
@@ -202,7 +202,8 @@ def supported_language_base_codes(file_name):
       return normalize_language_code(code, api_id)
     
     codes = map(normalize, codes)
-    codes = map(base_language_code, codes)
+    if return_base_code:
+      codes = map(base_language_code, codes)
 
     SUPPORTED_LANGUAGE_BASE_CODES[api_id] = list(set(codes))
   return SUPPORTED_LANGUAGE_BASE_CODES
@@ -550,41 +551,54 @@ for language in LANGUAGES:
       'name': language_family_name
     })
 
-  # "Join"
+  # "Join"  
   supported_apis = []
+  FULL_CODES = supported_language_base_codes(TRANSLATION_APIS, return_base_code=False)
   for api in TRANSLATION_APIS:
-    codes = API_SUPPORTED_LANGUAGE_BASE_CODES[api['id']]
-    if code in codes:
-      supported_apis.append({
-        'id': api['id'],
-        'name': api['name'],
-        'supported_language_count': len(codes)
-      })
+      base_codes = API_SUPPORTED_LANGUAGE_BASE_CODES[api['id']]
+      full_codes = flatten(FULL_CODES[api['id']])
+      relevant_codes = [c for c in full_codes if c == code or c.startswith(f"{code}-")]
+      if code in base_codes:
+          supported_apis.append({
+              'id': api['id'],
+              'name': api['name'],
+              'codes': sorted(relevant_codes),
+              'supported_language_count': len(base_codes)
+          })
   supported_apis.sort(key=lambda api: api['supported_language_count'])
   for api in supported_apis:
-    del api['supported_language_count']
+      del api['supported_language_count']
+
 
   supported_qe_apis =[]
+  FULL_CODES = supported_language_base_codes(QUALITY_ESTIMATION, return_base_code=False)
   for qe_api in QUALITY_ESTIMATION:
-    codes = QE_API_SUPPORTED_LANGUAGE_BASE_CODES[qe_api['id']]
-    if code in codes:
+    base_codes = QE_API_SUPPORTED_LANGUAGE_BASE_CODES[qe_api['id']]
+    full_codes = flatten(FULL_CODES[qe_api['id']])
+    relevant_codes = [c for c in full_codes if c == code or c.startswith(f"{code}-")]
+    if code in base_codes:
       supported_qe_apis.append({
         'id': qe_api['id'],
         'name': qe_api['name'],
-        'supported_language_count': len(codes)
+        'codes': sorted(relevant_codes),
+        'supported_language_count': len(base_codes)
       })
   supported_qe_apis.sort(key=lambda api: api['supported_language_count'])
   for qe_api in supported_qe_apis:
     del qe_api['supported_language_count']
 
   supported_ape_apis =[]
+  FULL_CODES = supported_language_base_codes(AUTOMATIC_POST_EDITING, return_base_code=False)
   for ape_api in AUTOMATIC_POST_EDITING:
-    codes = APE_API_SUPPORTED_LANGUAGE_BASE_CODES[ape_api['id']]
-    if code in codes:
+    base_codes = APE_API_SUPPORTED_LANGUAGE_BASE_CODES[ape_api['id']]
+    full_codes = flatten(FULL_CODES[ape_api['id']])
+    relevant_codes = [c for c in full_codes if c == code or c.startswith(f"{code}-")]
+    if code in base_codes:
       supported_ape_apis.append({
         'id': ape_api['id'],
         'name': ape_api['name'],
-        'supported_language_count': len(codes)
+        'codes': sorted(relevant_codes),
+        'supported_language_count': len(base_codes)
       })
   supported_ape_apis.sort(key=lambda api: api['supported_language_count'])
   for ape_api in supported_ape_apis:

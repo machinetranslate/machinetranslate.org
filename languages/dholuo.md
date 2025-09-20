@@ -30,11 +30,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - luo
 - id: google
   name: Google Translate
+  codes:
+  - luo
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - luo
 supported_ape_apis: []
 seo:
   name: Machine translation for Dholuo

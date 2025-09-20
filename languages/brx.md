@@ -13,8 +13,12 @@ family: []
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - brx-in
 - id: textra
   name: TexTra
+  codes:
+  - brx
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

@@ -24,17 +24,29 @@ territories:
 supported_apis:
 - id: apertium
   name: Apertium
+  codes:
+  - szl
 - id: modernmt
   name: ModernMT
+  codes:
+  - szl
 - id: baidu
   name: Baidu Translate
+  codes:
+  - szl
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - szl
 - id: google
   name: Google Translate
+  codes:
+  - szl
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - szl
 supported_ape_apis: []
 seo:
   name: Machine translation for Silesian

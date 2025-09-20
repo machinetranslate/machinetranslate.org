@@ -31,6 +31,8 @@ territories:
 supported_apis:
 - id: apertium
   name: Apertium
+  codes:
+  - frp
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

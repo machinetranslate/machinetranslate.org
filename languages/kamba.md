@@ -31,11 +31,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - kam
 - id: niutrans
   name: Niutrans
+  codes:
+  - kam
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - kam
 supported_ape_apis: []
 seo:
   name: Machine translation for Kamba

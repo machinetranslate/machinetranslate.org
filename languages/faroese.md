@@ -28,19 +28,33 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - fo
 - id: modernmt
   name: ModernMT
+  codes:
+  - fo
 - id: baidu
   name: Baidu Translate
+  codes:
+  - fo
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - fo
 - id: google
   name: Google Translate
+  codes:
+  - fo
 - id: niutrans
   name: Niutrans
+  codes:
+  - fo
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - fo
 supported_ape_apis: []
 seo:
   name: Machine translation for Faroese

@@ -68,28 +68,50 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - hmn
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - hmn-cn
 - id: youdao
   name: Youdao Translate
+  codes:
+  - hmn
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - hmn
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - hmn
 - id: google
   name: Google Translate
+  codes:
+  - hmn
 - id: niutrans
   name: Niutrans
+  codes:
+  - hmn
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - hmn
 - id: modelfront
   name: ModelFront
+  codes:
+  - hmn
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - hmn
 - id: modelfront
   name: ModelFront
+  codes:
+  - hmn
 seo:
   name: Machine translation for Hmong
   type: Language

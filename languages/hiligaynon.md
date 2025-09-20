@@ -28,12 +28,20 @@ territories:
 supported_apis:
 - id: baidu
   name: Baidu Translate
+  codes:
+  - hil
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - hil
 - id: google
   name: Google Translate
+  codes:
+  - hil
 - id: niutrans
   name: Niutrans
+  codes:
+  - hil
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

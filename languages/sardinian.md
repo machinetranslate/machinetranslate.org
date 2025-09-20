@@ -31,13 +31,21 @@ territories:
 supported_apis:
 - id: apertium
   name: Apertium
+  codes:
+  - sc
 - id: modernmt
   name: ModernMT
+  codes:
+  - sc
 - id: baidu
   name: Baidu Translate
+  codes:
+  - sc
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - sc
 supported_ape_apis: []
 seo:
   name: Machine translation for Sardinian

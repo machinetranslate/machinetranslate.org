@@ -28,30 +28,54 @@ territories:
 supported_apis:
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - sn-zw
 - id: youdao
   name: Youdao Translate
+  codes:
+  - sn
 - id: modernmt
   name: ModernMT
+  codes:
+  - sn
 - id: baidu
   name: Baidu Translate
+  codes:
+  - sn
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - sn
 - id: google
   name: Google Translate
+  codes:
+  - sn
 - id: niutrans
   name: Niutrans
+  codes:
+  - sn
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - sn
 - id: modelfront
   name: ModelFront
+  codes:
+  - sn
 - id: modernmt
   name: ModernMT
+  codes:
+  - sn
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - sn
 - id: modelfront
   name: ModelFront
+  codes:
+  - sn
 seo:
   name: Machine translation for Shona
   type: Language

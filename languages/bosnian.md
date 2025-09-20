@@ -36,62 +36,118 @@ territories:
 supported_apis:
 - id: xl8
   name: XL8
+  codes:
+  - bs
 - id: iconic
   name: Iconic
+  codes:
+  - bs
 - id: iptranslator
   name: IP Translator
+  codes:
+  - bs
 - id: watson
   name: Watson Language Translator
+  codes:
+  - bs
 - id: openai
   name: OpenAI
+  codes:
+  - bs
 - id: apptek
   name: AppTek
+  codes:
+  - bs
 - id: amazon
   name: Amazon Translate
+  codes:
+  - bs
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - bs
 - id: textra
   name: TexTra
+  codes:
+  - bs
 - id: yandex
   name: Yandex Translate
+  codes:
+  - bs
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - bs
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - bs-ba
 - id: youdao
   name: Youdao Translate
+  codes:
+  - bs
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - bs
 - id: modernmt
   name: ModernMT
+  codes:
+  - bs
 - id: baidu
   name: Baidu Translate
+  codes:
+  - bs
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - bs
 - id: google
   name: Google Translate
+  codes:
+  - bs
 - id: niutrans
   name: Niutrans
+  codes:
+  - bs
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - bs
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - bs
 - id: smart-review
   name: Smart Review
+  codes:
+  - bs
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - bs
 - id: taus
   name: TAUS
+  codes:
+  - bs
 - id: modelfront
   name: ModelFront
+  codes:
+  - bs
 - id: modernmt
   name: ModernMT
+  codes:
+  - bs
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - bs
 - id: modelfront
   name: ModelFront
+  codes:
+  - bs
 seo:
   name: Machine translation for Bosnian
   type: Language

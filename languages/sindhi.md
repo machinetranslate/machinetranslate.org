@@ -35,34 +35,62 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - sd-in
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - sd
 - id: textra
   name: TexTra
+  codes:
+  - sd
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - sd-pk
 - id: youdao
   name: Youdao Translate
+  codes:
+  - sd
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - sd
 - id: modernmt
   name: ModernMT
+  codes:
+  - sd
 - id: baidu
   name: Baidu Translate
+  codes:
+  - sd
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - sd
 - id: google
   name: Google Translate
+  codes:
+  - sd
 - id: niutrans
   name: Niutrans
+  codes:
+  - sd
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - sd
 - id: modernmt
   name: ModernMT
+  codes:
+  - sd
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - sd
 seo:
   name: Machine translation for Sindhi
   type: Language

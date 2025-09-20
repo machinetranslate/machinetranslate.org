@@ -30,54 +30,102 @@ territories:
 supported_apis:
 - id: elia
   name: Elia
+  codes:
+  - gl
 - id: trebe
   name: Trebe
+  codes:
+  - gl
 - id: lucy
   name: Lucy
+  codes:
+  - gl
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - gl-es
 - id: apertium
   name: Apertium
+  codes:
+  - gl
 - id: openai
   name: OpenAI
+  codes:
+  - gl
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - gl
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - gl
 - id: textra
   name: TexTra
+  codes:
+  - gl
 - id: yandex
   name: Yandex Translate
+  codes:
+  - gl
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - gl
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - gl-es
 - id: youdao
   name: Youdao Translate
+  codes:
+  - gl
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - gl
 - id: modernmt
   name: ModernMT
+  codes:
+  - gl
 - id: baidu
   name: Baidu Translate
+  codes:
+  - gl
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - gl
 - id: google
   name: Google Translate
+  codes:
+  - gl
 - id: niutrans
   name: Niutrans
+  codes:
+  - gl
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - gl
 - id: modelfront
   name: ModelFront
+  codes:
+  - gl
 - id: modernmt
   name: ModernMT
+  codes:
+  - gl
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - gl
 - id: modelfront
   name: ModelFront
+  codes:
+  - gl
 seo:
   name: Machine translation for Galician
   type: Language

@@ -30,66 +30,126 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - ta-in
 - id: kantanmt
   name: KantanMT
+  codes:
+  - ta
 - id: systran
   name: SYSTRAN
+  codes:
+  - ta
 - id: anthropic
   name: Anthropic
+  codes:
+  - ta
 - id: lilt
   name: Lilt
+  codes:
+  - ta
 - id: deepseek
   name: DeepSeek
+  codes:
+  - ta
 - id: watson
   name: Watson Language Translator
+  codes:
+  - ta
 - id: openai
   name: OpenAI
+  codes:
+  - ta
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - ta
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - ta
 - id: amazon
   name: Amazon Translate
+  codes:
+  - ta
 - id: textra
   name: TexTra
+  codes:
+  - ta
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ta
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ta
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ta-in
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ta
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ta
 - id: modernmt
   name: ModernMT
+  codes:
+  - ta
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ta
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ta
 - id: google
   name: Google Translate
+  codes:
+  - ta
 - id: niutrans
   name: Niutrans
+  codes:
+  - ta
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - ta
 - id: smart-review
   name: Smart Review
+  codes:
+  - ta
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - ta
 - id: taus
   name: TAUS
+  codes:
+  - ta
 - id: modelfront
   name: ModelFront
+  codes:
+  - ta
 - id: modernmt
   name: ModernMT
+  codes:
+  - ta
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ta
 - id: modelfront
   name: ModelFront
+  codes:
+  - ta
 seo:
   name: Machine translation for Tamil
   type: Language

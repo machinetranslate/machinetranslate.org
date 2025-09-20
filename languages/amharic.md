@@ -30,46 +30,86 @@ territories:
 supported_apis:
 - id: anthropic
   name: Anthropic
+  codes:
+  - am
 - id: deepseek
   name: DeepSeek
+  codes:
+  - am
 - id: apptek
   name: AppTek
+  codes:
+  - am
 - id: amazon
   name: Amazon Translate
+  codes:
+  - am
 - id: textra
   name: TexTra
+  codes:
+  - am
 - id: yandex
   name: Yandex Translate
+  codes:
+  - am
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - am
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - am-et
 - id: youdao
   name: Youdao Translate
+  codes:
+  - am
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - am
 - id: modernmt
   name: ModernMT
+  codes:
+  - am
 - id: baidu
   name: Baidu Translate
+  codes:
+  - am
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - am
 - id: google
   name: Google Translate
+  codes:
+  - am
 - id: niutrans
   name: Niutrans
+  codes:
+  - am
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - am
 - id: modelfront
   name: ModelFront
+  codes:
+  - am
 - id: modernmt
   name: ModernMT
+  codes:
+  - am
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - am
 - id: modelfront
   name: ModelFront
+  codes:
+  - am
 seo:
   name: Machine translation for Amharic
   type: Language

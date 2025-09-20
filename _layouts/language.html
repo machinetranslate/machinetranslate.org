@@ -92,6 +92,9 @@ parent: Languages
           <a href="/{{ api.id }}">
             {{ api.name }}
           </a>
+          {% for code in api.codes %}
+            <code>{{ code }}</code>
+          {% endfor %}
         </li>
       {% endfor %}
     </ul>
@@ -118,6 +121,9 @@ parent: Languages
           <a href="/quality-estimation/{{ qe_api.id }}">
             {{ qe_api.name }}
           </a>
+          {% for code in qe_api.codes %}
+            <code>{{ code }}</code>
+          {% endfor %}
         </li>
       {% endfor %}
     </ul>
@@ -144,6 +150,9 @@ parent: Languages
           <a href="/automatic-post-editing/{{ ape_api.id }}">
             {{ ape_api.name }}
           </a>
+          {% for code in ape_api.codes %}
+            <code>{{ code }}</code>
+          {% endfor %}
         </li>
       {% endfor %}
     </ul>

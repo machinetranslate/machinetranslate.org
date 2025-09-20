@@ -27,62 +27,118 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - te-in
 - id: anthropic
   name: Anthropic
+  codes:
+  - te
 - id: lilt
   name: Lilt
+  codes:
+  - te
 - id: deepseek
   name: DeepSeek
+  codes:
+  - te
 - id: watson
   name: Watson Language Translator
+  codes:
+  - te
 - id: apptek
   name: AppTek
+  codes:
+  - te
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - te
 - id: amazon
   name: Amazon Translate
+  codes:
+  - te
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - te
 - id: textra
   name: TexTra
+  codes:
+  - te
 - id: yandex
   name: Yandex Translate
+  codes:
+  - te
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - te
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - te-in
 - id: youdao
   name: Youdao Translate
+  codes:
+  - te
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - te
 - id: modernmt
   name: ModernMT
+  codes:
+  - te
 - id: baidu
   name: Baidu Translate
+  codes:
+  - te
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - te
 - id: google
   name: Google Translate
+  codes:
+  - te
 - id: niutrans
   name: Niutrans
+  codes:
+  - te
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - te
 - id: smart-review
   name: Smart Review
+  codes:
+  - te
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - te
 - id: taus
   name: TAUS
+  codes:
+  - te
 - id: modelfront
   name: ModelFront
+  codes:
+  - te
 - id: modernmt
   name: ModernMT
+  codes:
+  - te
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - te
 - id: modelfront
   name: ModelFront
+  codes:
+  - te
 seo:
   name: Machine translation for Telugu
   type: Language

@@ -29,60 +29,114 @@ territories:
 supported_apis:
 - id: promt
   name: PROMT
+  codes:
+  - ka
 - id: kantanmt
   name: KantanMT
+  codes:
+  - ka
 - id: systran
   name: SYSTRAN
+  codes:
+  - ka
 - id: anthropic
   name: Anthropic
+  codes:
+  - ka
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ka
 - id: apptek
   name: AppTek
+  codes:
+  - ka
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - ka
 - id: amazon
   name: Amazon Translate
+  codes:
+  - ka
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - ka
 - id: textra
   name: TexTra
+  codes:
+  - ka
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ka
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ka
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ka-ge
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ka
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ka
 - id: modernmt
   name: ModernMT
+  codes:
+  - ka
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ka
 - id: google
   name: Google Translate
+  codes:
+  - ka
 - id: niutrans
   name: Niutrans
+  codes:
+  - ka
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - ka
 - id: smart-review
   name: Smart Review
+  codes:
+  - ka
 - id: taus
   name: TAUS
+  codes:
+  - ka
 - id: modelfront
   name: ModelFront
+  codes:
+  - ka
 - id: modernmt
   name: ModernMT
+  codes:
+  - ka
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ka
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ka
 - id: modelfront
   name: ModelFront
+  codes:
+  - ka
 seo:
   name: Machine translation for Georgian
   type: Language

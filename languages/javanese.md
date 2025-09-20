@@ -29,48 +29,90 @@ territories:
 supported_apis:
 - id: lilt
   name: Lilt
+  codes:
+  - jv
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - jv
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - jv
 - id: textra
   name: TexTra
+  codes:
+  - jv
 - id: yandex
   name: Yandex Translate
+  codes:
+  - jv
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - jv-id
 - id: youdao
   name: Youdao Translate
+  codes:
+  - jv
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - jv
 - id: modernmt
   name: ModernMT
+  codes:
+  - jv
 - id: baidu
   name: Baidu Translate
+  codes:
+  - jv
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - jv
 - id: google
   name: Google Translate
+  codes:
+  - jv
 - id: niutrans
   name: Niutrans
+  codes:
+  - jv
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - jv
 - id: smart-review
   name: Smart Review
+  codes:
+  - jv
 - id: taus
   name: TAUS
+  codes:
+  - jv
 - id: modelfront
   name: ModelFront
+  codes:
+  - jv
 - id: modernmt
   name: ModernMT
+  codes:
+  - jv
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - jv
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - jv
 - id: modelfront
   name: ModelFront
+  codes:
+  - jv
 seo:
   name: Machine translation for Javanese
   type: Language

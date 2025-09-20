@@ -30,9 +30,13 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - quy
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - quy
 supported_ape_apis: []
 seo:
   name: Machine translation for Ayacucho

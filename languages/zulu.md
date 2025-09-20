@@ -29,46 +29,86 @@ territories:
 supported_apis:
 - id: translateme
   name: TranslateMe
+  codes:
+  - zu
 - id: anthropic
   name: Anthropic
+  codes:
+  - zu
 - id: lilt
   name: Lilt
+  codes:
+  - zu
 - id: deepseek
   name: DeepSeek
+  codes:
+  - zu
 - id: textra
   name: TexTra
+  codes:
+  - zu
 - id: yandex
   name: Yandex Translate
+  codes:
+  - zu
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - zu
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - zu-za
 - id: youdao
   name: Youdao Translate
+  codes:
+  - zu
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - zu
 - id: modernmt
   name: ModernMT
+  codes:
+  - zu
 - id: baidu
   name: Baidu Translate
+  codes:
+  - zu
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - zu
 - id: google
   name: Google Translate
+  codes:
+  - zu
 - id: niutrans
   name: Niutrans
+  codes:
+  - zu
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - zu
 - id: modelfront
   name: ModelFront
+  codes:
+  - zu
 - id: modernmt
   name: ModernMT
+  codes:
+  - zu
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - zu
 - id: modelfront
   name: ModelFront
+  codes:
+  - zu
 seo:
   name: Machine translation for Zulu
   type: Language

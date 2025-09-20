@@ -32,104 +32,202 @@ territories:
 supported_apis:
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - el
 - id: reverso
   name: Reverso
+  codes:
+  - el
 - id: deepl
   name: DeepL
+  codes:
+  - el
 - id: unbabel
   name: Unbabel
+  codes:
+  - el
 - id: lara
   name: Lara
+  codes:
+  - el
 - id: etranslation
   name: eTranslation
+  codes:
+  - el
 - id: globalese
   name: Globalese
+  codes:
+  - el
 - id: widn
   name: Widn
+  codes:
+  - el
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - el
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - el
 - id: xl8
   name: XL8
+  codes:
+  - el
 - id: kantanmt
   name: KantanMT
+  codes:
+  - el
 - id: systran
   name: SYSTRAN
+  codes:
+  - el
 - id: anthropic
   name: Anthropic
+  codes:
+  - el
 - id: iconic
   name: Iconic
+  codes:
+  - el
 - id: iptranslator
   name: IP Translator
+  codes:
+  - el
 - id: lilt
   name: Lilt
+  codes:
+  - el
 - id: deepseek
   name: DeepSeek
+  codes:
+  - el
 - id: watson
   name: Watson Language Translator
+  codes:
+  - el
 - id: openai
   name: OpenAI
+  codes:
+  - el
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - el
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - el
 - id: apptek
   name: AppTek
+  codes:
+  - el
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - el
 - id: amazon
   name: Amazon Translate
+  codes:
+  - el
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - el
 - id: textra
   name: TexTra
+  codes:
+  - el
 - id: yandex
   name: Yandex Translate
+  codes:
+  - el
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - el
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - el-gr
 - id: youdao
   name: Youdao Translate
+  codes:
+  - el
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - el
 - id: modernmt
   name: ModernMT
+  codes:
+  - el
 - id: baidu
   name: Baidu Translate
+  codes:
+  - el
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - el
 - id: google
   name: Google Translate
+  codes:
+  - el
 - id: niutrans
   name: Niutrans
+  codes:
+  - el
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - el
 - id: kantanqes
   name: KantanQES
+  codes:
+  - el
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - el
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - el
 - id: smart-review
   name: Smart Review
+  codes:
+  - el
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - el
 - id: taus
   name: TAUS
+  codes:
+  - el
 - id: modelfront
   name: ModelFront
+  codes:
+  - el
 - id: modernmt
   name: ModernMT
+  codes:
+  - el
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - el
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - el
 - id: modelfront
   name: ModelFront
+  codes:
+  - el
 seo:
   name: Machine translation for Greek
   type: Language

@@ -29,11 +29,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - kmb
 - id: niutrans
   name: Niutrans
+  codes:
+  - kmb
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - kmb
 supported_ape_apis: []
 seo:
   name: Machine translation for Kimbundu

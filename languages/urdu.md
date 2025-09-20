@@ -33,82 +33,158 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - ur-in
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - ur
 - id: apertium
   name: Apertium
+  codes:
+  - ur
 - id: systran
   name: SYSTRAN
+  codes:
+  - ur
 - id: anthropic
   name: Anthropic
+  codes:
+  - ur
 - id: iconic
   name: Iconic
+  codes:
+  - ur
 - id: iptranslator
   name: IP Translator
+  codes:
+  - ur
 - id: lilt
   name: Lilt
+  codes:
+  - ur
 - id: deepseek
   name: DeepSeek
+  codes:
+  - ur
 - id: watson
   name: Watson Language Translator
+  codes:
+  - ur
 - id: openai
   name: OpenAI
+  codes:
+  - ur
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ur
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - ur
 - id: apptek
   name: AppTek
+  codes:
+  - ur
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - ur
 - id: amazon
   name: Amazon Translate
+  codes:
+  - ur
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - ur
 - id: textra
   name: TexTra
+  codes:
+  - ur
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ur
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ur
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ur-pk
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ur
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ur
 - id: modernmt
   name: ModernMT
+  codes:
+  - ur
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ur
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ur
 - id: google
   name: Google Translate
+  codes:
+  - ur
 - id: niutrans
   name: Niutrans
+  codes:
+  - ur
 supported_qe_apis:
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - ur
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - ur
 - id: smart-review
   name: Smart Review
+  codes:
+  - ur
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - ur
 - id: taus
   name: TAUS
+  codes:
+  - ur
 - id: modelfront
   name: ModelFront
+  codes:
+  - ur
 - id: modernmt
   name: ModernMT
+  codes:
+  - ur
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ur
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ur
 - id: modelfront
   name: ModelFront
+  codes:
+  - ur
 seo:
   name: Machine translation for Urdu
   type: Language

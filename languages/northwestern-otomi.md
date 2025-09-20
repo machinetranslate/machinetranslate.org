@@ -24,16 +24,26 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - otq
 - id: youdao
   name: Youdao Translate
+  codes:
+  - otq
 - id: niutrans
   name: Niutrans
+  codes:
+  - otq
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - otq
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - otq
 seo:
   name: Machine translation for Northwestern Otomi
   type: Language

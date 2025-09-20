@@ -33,12 +33,20 @@ territories:
 supported_apis:
 - id: apertium
   name: Apertium
+  codes:
+  - se
 - id: baidu
   name: Baidu Translate
+  codes:
+  - se
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - se
 - id: google
   name: Google Translate
+  codes:
+  - se
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

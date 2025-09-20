@@ -29,74 +29,142 @@ territories:
 supported_apis:
 - id: etranslation
   name: eTranslation
+  codes:
+  - mt
 - id: globalese
   name: Globalese
+  codes:
+  - mt
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - mt
 - id: apertium
   name: Apertium
+  codes:
+  - mt
 - id: kantanmt
   name: KantanMT
+  codes:
+  - mt
 - id: iconic
   name: Iconic
+  codes:
+  - mt
 - id: iptranslator
   name: IP Translator
+  codes:
+  - mt
 - id: deepseek
   name: DeepSeek
+  codes:
+  - mt
 - id: watson
   name: Watson Language Translator
+  codes:
+  - mt
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - mt
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - mt
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - mt
 - id: amazon
   name: Amazon Translate
+  codes:
+  - mt
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - mt
 - id: yandex
   name: Yandex Translate
+  codes:
+  - mt
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - mt
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - mt-mt
 - id: youdao
   name: Youdao Translate
+  codes:
+  - mt
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - mt
 - id: modernmt
   name: ModernMT
+  codes:
+  - mt
 - id: baidu
   name: Baidu Translate
+  codes:
+  - mt
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - mt
 - id: google
   name: Google Translate
+  codes:
+  - mt
 - id: niutrans
   name: Niutrans
+  codes:
+  - mt
 supported_qe_apis:
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - mt
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - mt
 - id: smart-review
   name: Smart Review
+  codes:
+  - mt
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - mt
 - id: taus
   name: TAUS
+  codes:
+  - mt
 - id: modelfront
   name: ModelFront
+  codes:
+  - mt
 - id: modernmt
   name: ModernMT
+  codes:
+  - mt
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - mt
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - mt
 - id: modelfront
   name: ModelFront
+  codes:
+  - mt
 seo:
   name: Machine translation for Maltese
   type: Language

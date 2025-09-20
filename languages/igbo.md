@@ -27,34 +27,62 @@ territories:
 supported_apis:
 - id: lilt
   name: Lilt
+  codes:
+  - ig
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ig-ng
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ig
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ig
 - id: modernmt
   name: ModernMT
+  codes:
+  - ig
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ig
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ig
 - id: google
   name: Google Translate
+  codes:
+  - ig
 - id: niutrans
   name: Niutrans
+  codes:
+  - ig
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - ig
 - id: modelfront
   name: ModelFront
+  codes:
+  - ig
 - id: modernmt
   name: ModernMT
+  codes:
+  - ig
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ig
 - id: modelfront
   name: ModelFront
+  codes:
+  - ig
 seo:
   name: Machine translation for Igbo
   type: Language

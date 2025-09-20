@@ -29,15 +29,25 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ak
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ak
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ak
 - id: google
   name: Google Translate
+  codes:
+  - ak
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ak
 supported_ape_apis: []
 seo:
   name: Machine translation for Akan

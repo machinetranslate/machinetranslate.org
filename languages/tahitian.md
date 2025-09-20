@@ -27,24 +27,42 @@ territories:
 supported_apis:
 - id: iconic
   name: Iconic
+  codes:
+  - ty
 - id: iptranslator
   name: IP Translator
+  codes:
+  - ty
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ty
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ty
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ty
 - id: google
   name: Google Translate
+  codes:
+  - ty
 - id: niutrans
   name: Niutrans
+  codes:
+  - ty
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - ty
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - ty
 seo:
   name: Machine translation for Tahitian
   type: Language

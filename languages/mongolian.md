@@ -30,44 +30,83 @@ territories:
 supported_apis:
 - id: apptek
   name: AppTek
+  codes:
+  - mn
 - id: amazon
   name: Amazon Translate
+  codes:
+  - mn
 - id: textra
   name: TexTra
+  codes:
+  - mn
 - id: yandex
   name: Yandex Translate
+  codes:
+  - mn
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - mn-Cyrl
+  - mn-Mong
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - mn-mn
 - id: youdao
   name: Youdao Translate
+  codes:
+  - mn
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - mn
 - id: modernmt
   name: ModernMT
+  codes:
+  - mn
 - id: baidu
   name: Baidu Translate
+  codes:
+  - mn
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - mn
 - id: google
   name: Google Translate
+  codes:
+  - mn
 - id: niutrans
   name: Niutrans
+  codes:
+  - mn
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - mn
 - id: modelfront
   name: ModelFront
+  codes:
+  - mn
 - id: modernmt
   name: ModernMT
+  codes:
+  - mn
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - mn
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - mn
 - id: modelfront
   name: ModelFront
+  codes:
+  - mn
 seo:
   name: Machine translation for Mongolian
   type: Language

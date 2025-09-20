@@ -32,62 +32,118 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - gu-in
 - id: anthropic
   name: Anthropic
+  codes:
+  - gu
 - id: lilt
   name: Lilt
+  codes:
+  - gu
 - id: watson
   name: Watson Language Translator
+  codes:
+  - gu
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - gu
 - id: apptek
   name: AppTek
+  codes:
+  - gu
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - gu
 - id: amazon
   name: Amazon Translate
+  codes:
+  - gu
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - gu
 - id: textra
   name: TexTra
+  codes:
+  - gu
 - id: yandex
   name: Yandex Translate
+  codes:
+  - gu
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - gu
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - gu-in
 - id: youdao
   name: Youdao Translate
+  codes:
+  - gu
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - gu
 - id: modernmt
   name: ModernMT
+  codes:
+  - gu
 - id: baidu
   name: Baidu Translate
+  codes:
+  - gu
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - gu
 - id: google
   name: Google Translate
+  codes:
+  - gu
 - id: niutrans
   name: Niutrans
+  codes:
+  - gu
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - gu
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - gu
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - gu
 - id: taus
   name: TAUS
+  codes:
+  - gu
 - id: modelfront
   name: ModelFront
+  codes:
+  - gu
 - id: modernmt
   name: ModernMT
+  codes:
+  - gu
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - gu
 - id: modelfront
   name: ModelFront
+  codes:
+  - gu
 seo:
   name: Machine translation for Gujarati
   type: Language

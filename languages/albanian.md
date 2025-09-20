@@ -37,64 +37,122 @@ territories:
 supported_apis:
 - id: supertext
   name: Supertext
+  codes:
+  - sq
 - id: xl8
   name: XL8
+  codes:
+  - sq
 - id: systran
   name: SYSTRAN
+  codes:
+  - sq
 - id: lilt
   name: Lilt
+  codes:
+  - sq
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - sq
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - sq
 - id: apptek
   name: AppTek
+  codes:
+  - sq
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - sq
 - id: amazon
   name: Amazon Translate
+  codes:
+  - sq
 - id: textra
   name: TexTra
+  codes:
+  - sq
 - id: yandex
   name: Yandex Translate
+  codes:
+  - sq
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - sq
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - sq-al
 - id: youdao
   name: Youdao Translate
+  codes:
+  - sq
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - sq
 - id: modernmt
   name: ModernMT
+  codes:
+  - sq
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - sq
 - id: google
   name: Google Translate
+  codes:
+  - sq
 - id: niutrans
   name: Niutrans
+  codes:
+  - sq
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - sq
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - sq
 - id: smart-review
   name: Smart Review
+  codes:
+  - sq
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - sq
 - id: taus
   name: TAUS
+  codes:
+  - sq
 - id: modelfront
   name: ModelFront
+  codes:
+  - sq
 - id: modernmt
   name: ModernMT
+  codes:
+  - sq
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - sq
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - sq
 - id: modelfront
   name: ModelFront
+  codes:
+  - sq
 seo:
   name: Machine translation for Albanian
   type: Language

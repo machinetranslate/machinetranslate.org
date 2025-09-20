@@ -32,24 +32,42 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - bo
 - id: modernmt
   name: ModernMT
+  codes:
+  - bo
 - id: baidu
   name: Baidu Translate
+  codes:
+  - bo
 - id: google
   name: Google Translate
+  codes:
+  - bo
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - bo
 - id: modelfront
   name: ModelFront
+  codes:
+  - bo
 - id: modernmt
   name: ModernMT
+  codes:
+  - bo
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - bo
 - id: modelfront
   name: ModelFront
+  codes:
+  - bo
 seo:
   name: Machine translation for Tibetan
   type: Language

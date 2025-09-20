@@ -28,58 +28,110 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - kn-in
 - id: anthropic
   name: Anthropic
+  codes:
+  - kn
 - id: lilt
   name: Lilt
+  codes:
+  - kn
 - id: watson
   name: Watson Language Translator
+  codes:
+  - kn
 - id: openai
   name: OpenAI
+  codes:
+  - kn
 - id: apptek
   name: AppTek
+  codes:
+  - kn
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - kn
 - id: amazon
   name: Amazon Translate
+  codes:
+  - kn
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - kn
 - id: textra
   name: TexTra
+  codes:
+  - kn
 - id: yandex
   name: Yandex Translate
+  codes:
+  - kn
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - kn
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - kn-in
 - id: youdao
   name: Youdao Translate
+  codes:
+  - kn
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - kn
 - id: modernmt
   name: ModernMT
+  codes:
+  - kn
 - id: baidu
   name: Baidu Translate
+  codes:
+  - kn
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - kn
 - id: google
   name: Google Translate
+  codes:
+  - kn
 - id: niutrans
   name: Niutrans
+  codes:
+  - kn
 supported_qe_apis:
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - kn
 - id: taus
   name: TAUS
+  codes:
+  - kn
 - id: modelfront
   name: ModelFront
+  codes:
+  - kn
 - id: modernmt
   name: ModernMT
+  codes:
+  - kn
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - kn
 - id: modelfront
   name: ModelFront
+  codes:
+  - kn
 seo:
   name: Machine translation for Kannada
   type: Language

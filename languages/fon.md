@@ -31,11 +31,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - fon
 - id: google
   name: Google Translate
+  codes:
+  - fon
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - fon
 supported_ape_apis: []
 seo:
   name: Machine translation for Fon

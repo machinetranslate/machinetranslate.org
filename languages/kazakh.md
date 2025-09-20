@@ -29,56 +29,106 @@ territories:
 supported_apis:
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - kk
 - id: promt
   name: PROMT
+  codes:
+  - kk
 - id: apertium
   name: Apertium
+  codes:
+  - kk
 - id: kantanmt
   name: KantanMT
+  codes:
+  - kk
 - id: openai
   name: OpenAI
+  codes:
+  - kk
 - id: apptek
   name: AppTek
+  codes:
+  - kk
 - id: amazon
   name: Amazon Translate
+  codes:
+  - kk
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - kk
 - id: textra
   name: TexTra
+  codes:
+  - kk
 - id: yandex
   name: Yandex Translate
+  codes:
+  - kk
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - kk
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - kk-kz
 - id: youdao
   name: Youdao Translate
+  codes:
+  - kk
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - kk
 - id: modernmt
   name: ModernMT
+  codes:
+  - kk
 - id: baidu
   name: Baidu Translate
+  codes:
+  - kk
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - kk
 - id: google
   name: Google Translate
+  codes:
+  - kk
 - id: niutrans
   name: Niutrans
+  codes:
+  - kk
 supported_qe_apis:
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - kk
 - id: taus
   name: TAUS
+  codes:
+  - kk
 - id: modelfront
   name: ModelFront
+  codes:
+  - kk
 - id: modernmt
   name: ModernMT
+  codes:
+  - kk
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - kk
 - id: modelfront
   name: ModelFront
+  codes:
+  - kk
 seo:
   name: Machine translation for Kazakh
   type: Language

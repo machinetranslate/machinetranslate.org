@@ -29,54 +29,102 @@ territories:
 supported_apis:
 - id: deepseek
   name: DeepSeek
+  codes:
+  - km
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - km
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - km
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - km
 - id: textra
   name: TexTra
+  codes:
+  - km
 - id: yandex
   name: Yandex Translate
+  codes:
+  - km
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - km
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - km-kh
 - id: youdao
   name: Youdao Translate
+  codes:
+  - km
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - km
 - id: modernmt
   name: ModernMT
+  codes:
+  - km
 - id: baidu
   name: Baidu Translate
+  codes:
+  - km
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - km
 - id: google
   name: Google Translate
+  codes:
+  - km
 - id: niutrans
   name: Niutrans
+  codes:
+  - km
 supported_qe_apis:
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - km
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - km
 - id: smart-review
   name: Smart Review
+  codes:
+  - km
 - id: taus
   name: TAUS
+  codes:
+  - km
 - id: modelfront
   name: ModelFront
+  codes:
+  - km
 - id: modernmt
   name: ModernMT
+  codes:
+  - km
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - km
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - km
 - id: modelfront
   name: ModelFront
+  codes:
+  - km
 seo:
   name: Machine translation for Khmer
   type: Language

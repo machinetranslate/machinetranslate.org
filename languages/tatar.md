@@ -30,38 +30,70 @@ territories:
 supported_apis:
 - id: promt
   name: PROMT
+  codes:
+  - tt
 - id: apertium
   name: Apertium
+  codes:
+  - tt
 - id: yandex
   name: Yandex Translate
+  codes:
+  - tt
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - tt
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - tt-tt
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - tt
 - id: modernmt
   name: ModernMT
+  codes:
+  - tt
 - id: baidu
   name: Baidu Translate
+  codes:
+  - tt
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - tt
 - id: google
   name: Google Translate
+  codes:
+  - tt
 - id: niutrans
   name: Niutrans
+  codes:
+  - tt
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - tt
 - id: modelfront
   name: ModelFront
+  codes:
+  - tt
 - id: modernmt
   name: ModernMT
+  codes:
+  - tt
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - tt
 - id: modelfront
   name: ModelFront
+  codes:
+  - tt
 seo:
   name: Machine translation for Tatar
   type: Language

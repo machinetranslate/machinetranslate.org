@@ -26,8 +26,12 @@ territories:
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - kha
 - id: google
   name: Google Translate
+  codes:
+  - kha
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

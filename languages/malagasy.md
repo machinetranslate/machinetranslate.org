@@ -52,42 +52,78 @@ territories:
 supported_apis:
 - id: iconic
   name: Iconic
+  codes:
+  - mg
 - id: iptranslator
   name: IP Translator
+  codes:
+  - mg
 - id: textra
   name: TexTra
+  codes:
+  - mg
 - id: yandex
   name: Yandex Translate
+  codes:
+  - mg
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - mg
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - mg-mg
 - id: youdao
   name: Youdao Translate
+  codes:
+  - mg
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - mg
 - id: modernmt
   name: ModernMT
+  codes:
+  - mg
 - id: baidu
   name: Baidu Translate
+  codes:
+  - mg
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - mg
 - id: google
   name: Google Translate
+  codes:
+  - mg
 - id: niutrans
   name: Niutrans
+  codes:
+  - mg
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - mg
 - id: modelfront
   name: ModelFront
+  codes:
+  - mg
 - id: modernmt
   name: ModernMT
+  codes:
+  - mg
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - mg
 - id: modelfront
   name: ModelFront
+  codes:
+  - mg
 seo:
   name: Machine translation for Malagasy
   type: Language

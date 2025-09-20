@@ -28,10 +28,16 @@ territories:
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - kek
 - id: google
   name: Google Translate
+  codes:
+  - kek
 - id: niutrans
   name: Niutrans
+  codes:
+  - kek
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

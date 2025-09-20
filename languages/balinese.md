@@ -26,11 +26,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ban
 - id: google
   name: Google Translate
+  codes:
+  - ban
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ban
 supported_ape_apis: []
 seo:
   name: Machine translation for Balinese

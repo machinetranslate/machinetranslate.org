@@ -27,32 +27,58 @@ territories:
 supported_apis:
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ny-mw
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ny
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ny
 - id: modernmt
   name: ModernMT
+  codes:
+  - ny
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ny
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ny
 - id: google
   name: Google Translate
+  codes:
+  - ny
 - id: niutrans
   name: Niutrans
+  codes:
+  - ny
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - ny
 - id: modelfront
   name: ModelFront
+  codes:
+  - ny
 - id: modernmt
   name: ModernMT
+  codes:
+  - ny
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ny
 - id: modelfront
   name: ModelFront
+  codes:
+  - ny
 seo:
   name: Machine translation for Chichewa
   type: Language

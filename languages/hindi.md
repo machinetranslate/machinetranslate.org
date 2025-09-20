@@ -38,114 +38,222 @@ territories:
 supported_apis:
 - id: mistral-ai
   name: Mistral AI
+  codes:
+  - hi
 - id: aisa
   name: AISA
+  codes:
+  - hi
 - id: tencent
   name: Tencent Machine Translation
+  codes:
+  - hi
 - id: kakao
   name: Kakao
+  codes:
+  - hi
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - hi-in
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - hi
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - hi-in
 - id: reverso
   name: Reverso
+  codes:
+  - hi
 - id: unbabel
   name: Unbabel
+  codes:
+  - hi
 - id: widn
   name: Widn
+  codes:
+  - hi
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - hi
 - id: promt
   name: PROMT
+  codes:
+  - hi
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - hi
 - id: xl8
   name: XL8
+  codes:
+  - hi
 - id: apertium
   name: Apertium
+  codes:
+  - hi
 - id: kantanmt
   name: KantanMT
+  codes:
+  - hi
 - id: systran
   name: SYSTRAN
+  codes:
+  - hi
 - id: anthropic
   name: Anthropic
+  codes:
+  - hi
 - id: iconic
   name: Iconic
+  codes:
+  - hi
 - id: iptranslator
   name: IP Translator
+  codes:
+  - hi
 - id: lilt
   name: Lilt
+  codes:
+  - hi
 - id: deepseek
   name: DeepSeek
+  codes:
+  - hi
 - id: watson
   name: Watson Language Translator
+  codes:
+  - hi
 - id: openai
   name: OpenAI
+  codes:
+  - hi
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - hi
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - hi
 - id: apptek
   name: AppTek
+  codes:
+  - hi
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - hi
 - id: amazon
   name: Amazon Translate
+  codes:
+  - hi
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - hi
 - id: yandex
   name: Yandex Translate
+  codes:
+  - hi
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - hi
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - hi-in
 - id: youdao
   name: Youdao Translate
+  codes:
+  - hi
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - hi
 - id: modernmt
   name: ModernMT
+  codes:
+  - hi
 - id: baidu
   name: Baidu Translate
+  codes:
+  - hi
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - hi
 - id: google
   name: Google Translate
+  codes:
+  - hi
 - id: niutrans
   name: Niutrans
+  codes:
+  - hi
 supported_qe_apis:
 - id: google-translation-hub-mtqp
   name: Google Translation Hub MTQP
+  codes:
+  - hi
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - hi
 - id: kantanqes
   name: KantanQES
+  codes:
+  - hi
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - hi
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - hi
 - id: smart-review
   name: Smart Review
+  codes:
+  - hi
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - hi
 - id: taus
   name: TAUS
+  codes:
+  - hi
 - id: modelfront
   name: ModelFront
+  codes:
+  - hi
 - id: modernmt
   name: ModernMT
+  codes:
+  - hi
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - hi
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - hi
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - hi
 - id: modelfront
   name: ModelFront
+  codes:
+  - hi
 seo:
   name: Machine translation for Hindi
   type: Language

@@ -34,54 +34,102 @@ territories:
 supported_apis:
 - id: systran
   name: SYSTRAN
+  codes:
+  - so
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - so
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - so
 - id: apptek
   name: AppTek
+  codes:
+  - so
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - so
 - id: amazon
   name: Amazon Translate
+  codes:
+  - so
 - id: textra
   name: TexTra
+  codes:
+  - so
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - so
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - so-so
 - id: youdao
   name: Youdao Translate
+  codes:
+  - so
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - so
 - id: modernmt
   name: ModernMT
+  codes:
+  - so
 - id: baidu
   name: Baidu Translate
+  codes:
+  - so
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - so
 - id: google
   name: Google Translate
+  codes:
+  - so
 - id: niutrans
   name: Niutrans
+  codes:
+  - so
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - so
 - id: smart-review
   name: Smart Review
+  codes:
+  - so
 - id: taus
   name: TAUS
+  codes:
+  - so
 - id: modelfront
   name: ModelFront
+  codes:
+  - so
 - id: modernmt
   name: ModernMT
+  codes:
+  - so
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - so
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - so
 - id: modelfront
   name: ModelFront
+  codes:
+  - so
 seo:
   name: Machine translation for Somali
   type: Language

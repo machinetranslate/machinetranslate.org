@@ -30,42 +30,78 @@ territories:
 supported_apis:
 - id: deepseek
   name: DeepSeek
+  codes:
+  - mi
 - id: openai
   name: OpenAI
+  codes:
+  - mi
 - id: yandex
   name: Yandex Translate
+  codes:
+  - mi
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - mi
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - mi-nz
 - id: youdao
   name: Youdao Translate
+  codes:
+  - mi
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - mi
 - id: modernmt
   name: ModernMT
+  codes:
+  - mi
 - id: baidu
   name: Baidu Translate
+  codes:
+  - mi
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - mi
 - id: google
   name: Google Translate
+  codes:
+  - mi
 - id: niutrans
   name: Niutrans
+  codes:
+  - mi
 supported_qe_apis:
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - mi
 - id: taus
   name: TAUS
+  codes:
+  - mi
 - id: modelfront
   name: ModelFront
+  codes:
+  - mi
 - id: modernmt
   name: ModernMT
+  codes:
+  - mi
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - mi
 - id: modelfront
   name: ModelFront
+  codes:
+  - mi
 seo:
   name: Machine translation for Maori
   type: Language

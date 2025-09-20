@@ -13,6 +13,8 @@ family: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
+  codes:
+  - nap
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

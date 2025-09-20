@@ -31,24 +31,42 @@ territories:
 supported_apis:
 - id: textra
   name: TexTra
+  codes:
+  - wo
 - id: modernmt
   name: ModernMT
+  codes:
+  - wo
 - id: baidu
   name: Baidu Translate
+  codes:
+  - wo
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - wo
 - id: google
   name: Google Translate
+  codes:
+  - wo
 - id: niutrans
   name: Niutrans
+  codes:
+  - wo
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - wo
 - id: modernmt
   name: ModernMT
+  codes:
+  - wo
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - wo
 seo:
   name: Machine translation for Wolof
   type: Language

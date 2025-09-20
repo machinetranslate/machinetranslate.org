@@ -27,9 +27,13 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - bjn
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - bjn
 supported_ape_apis: []
 seo:
   name: Machine translation for Banjar

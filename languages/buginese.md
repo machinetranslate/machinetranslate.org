@@ -27,9 +27,13 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - bug
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - bug
 supported_ape_apis: []
 seo:
   name: Machine translation for Buginese

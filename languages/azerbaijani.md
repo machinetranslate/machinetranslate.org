@@ -41,58 +41,110 @@ territories:
 supported_apis:
 - id: promt
   name: PROMT
+  codes:
+  - az
 - id: kantanmt
   name: KantanMT
+  codes:
+  - az
 - id: openai
   name: OpenAI
+  codes:
+  - az
 - id: apptek
   name: AppTek
+  codes:
+  - az
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - az
 - id: amazon
   name: Amazon Translate
+  codes:
+  - az
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - az
 - id: textra
   name: TexTra
+  codes:
+  - az
 - id: yandex
   name: Yandex Translate
+  codes:
+  - az
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - az
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - az-az
 - id: youdao
   name: Youdao Translate
+  codes:
+  - az
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - az
 - id: modernmt
   name: ModernMT
+  codes:
+  - az
 - id: baidu
   name: Baidu Translate
+  codes:
+  - az
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - az
 - id: google
   name: Google Translate
+  codes:
+  - az
 - id: niutrans
   name: Niutrans
+  codes:
+  - az
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - az
 - id: smart-review
   name: Smart Review
+  codes:
+  - az
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - az
 - id: taus
   name: TAUS
+  codes:
+  - az
 - id: modelfront
   name: ModelFront
+  codes:
+  - az
 - id: modernmt
   name: ModernMT
+  codes:
+  - az
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - az
 - id: modelfront
   name: ModelFront
+  codes:
+  - az
 seo:
   name: Machine translation for Azerbaijani
   type: Language
