@@ -13,14 +13,22 @@ family: []
 supported_apis:
 - id: baidu
   name: Baidu Translate
+  codes:
+  - nds
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - nds
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - nds
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - nds
 seo:
   name: Machine translation for <code>nds</code>
   type: Language

@@ -34,13 +34,21 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - dyu
 - id: google
   name: Google Translate
+  codes:
+  - dyu
 - id: niutrans
   name: Niutrans
+  codes:
+  - dyu
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - dyu
 supported_ape_apis: []
 seo:
   name: Machine translation for Dyula

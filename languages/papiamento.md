@@ -27,19 +27,33 @@ territories:
 supported_apis:
 - id: yandex
   name: Yandex Translate
+  codes:
+  - pap
 - id: modernmt
   name: ModernMT
+  codes:
+  - pap
 - id: baidu
   name: Baidu Translate
+  codes:
+  - pap
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - pap
 - id: google
   name: Google Translate
+  codes:
+  - pap
 - id: niutrans
   name: Niutrans
+  codes:
+  - pap
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - pap
 supported_ape_apis: []
 seo:
   name: Machine translation for Papiamento

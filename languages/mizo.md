@@ -29,13 +29,21 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - lus
 - id: google
   name: Google Translate
+  codes:
+  - lus
 - id: niutrans
   name: Niutrans
+  codes:
+  - lus
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - lus
 supported_ape_apis: []
 seo:
   name: Machine translation for Mizo

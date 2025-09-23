@@ -30,8 +30,12 @@ territories:
 supported_apis:
 - id: google
   name: Google Translate
+  codes:
+  - bcl
 - id: niutrans
   name: Niutrans
+  codes:
+  - bcl
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

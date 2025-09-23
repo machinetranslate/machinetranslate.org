@@ -33,114 +33,222 @@ territories:
 supported_apis:
 - id: sunda
   name: Sunda Translator
+  codes:
+  - fi
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - fi
 - id: tilde
   name: Tilde
+  codes:
+  - fi
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - fi
 - id: supertext
   name: Supertext
+  codes:
+  - fi
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - fi-fi
 - id: deepl
   name: DeepL
+  codes:
+  - fi
 - id: unbabel
   name: Unbabel
+  codes:
+  - fi
 - id: lara
   name: Lara
+  codes:
+  - fi
 - id: etranslation
   name: eTranslation
+  codes:
+  - fi
 - id: globalese
   name: Globalese
+  codes:
+  - fi
 - id: widn
   name: Widn
+  codes:
+  - fi
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - fi
 - id: promt
   name: PROMT
+  codes:
+  - fi
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - fi
 - id: xl8
   name: XL8
+  codes:
+  - fi
 - id: kantanmt
   name: KantanMT
+  codes:
+  - fi
 - id: systran
   name: SYSTRAN
+  codes:
+  - fi
 - id: anthropic
   name: Anthropic
+  codes:
+  - fi
 - id: iconic
   name: Iconic
+  codes:
+  - fi
 - id: iptranslator
   name: IP Translator
+  codes:
+  - fi
 - id: lilt
   name: Lilt
+  codes:
+  - fi
 - id: deepseek
   name: DeepSeek
+  codes:
+  - fi
 - id: watson
   name: Watson Language Translator
+  codes:
+  - fi
 - id: openai
   name: OpenAI
+  codes:
+  - fi
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - fi
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - fi
 - id: apptek
   name: AppTek
+  codes:
+  - fi
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - fi
 - id: amazon
   name: Amazon Translate
+  codes:
+  - fi
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - fi
 - id: textra
   name: TexTra
+  codes:
+  - fi
 - id: yandex
   name: Yandex Translate
+  codes:
+  - fi
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - fi
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - fi-fi
 - id: youdao
   name: Youdao Translate
+  codes:
+  - fi
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - fi
 - id: modernmt
   name: ModernMT
+  codes:
+  - fi
 - id: baidu
   name: Baidu Translate
+  codes:
+  - fi
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - fi
 - id: google
   name: Google Translate
+  codes:
+  - fi
 - id: niutrans
   name: Niutrans
+  codes:
+  - fi
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - fi
 - id: kantanqes
   name: KantanQES
+  codes:
+  - fi
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - fi
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - fi
 - id: smart-review
   name: Smart Review
+  codes:
+  - fi
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - fi
 - id: taus
   name: TAUS
+  codes:
+  - fi
 - id: modelfront
   name: ModelFront
+  codes:
+  - fi
 - id: modernmt
   name: ModernMT
+  codes:
+  - fi
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - fi
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - fi
 - id: modelfront
   name: ModelFront
+  codes:
+  - fi
 seo:
   name: Machine translation for Finnish
   type: Language

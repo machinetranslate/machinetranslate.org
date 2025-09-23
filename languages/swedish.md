@@ -31,120 +31,234 @@ territories:
 supported_apis:
 - id: language-wire
   name: Language Wire
+  codes:
+  - sv
 - id: lingo24
   name: Lingo24
+  codes:
+  - sv
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - sv
 - id: tilde
   name: Tilde
+  codes:
+  - sv
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - sv
 - id: supertext
   name: Supertext
+  codes:
+  - sv
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - sv-se
 - id: reverso
   name: Reverso
+  codes:
+  - sv
 - id: deepl
   name: DeepL
+  codes:
+  - sv
 - id: unbabel
   name: Unbabel
+  codes:
+  - sv
 - id: lara
   name: Lara
+  codes:
+  - sv
 - id: etranslation
   name: eTranslation
+  codes:
+  - sv
 - id: globalese
   name: Globalese
+  codes:
+  - sv
 - id: widn
   name: Widn
+  codes:
+  - sv
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - sv
 - id: promt
   name: PROMT
+  codes:
+  - sv
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - sv
 - id: xl8
   name: XL8
+  codes:
+  - sv
 - id: apertium
   name: Apertium
+  codes:
+  - sv
 - id: kantanmt
   name: KantanMT
+  codes:
+  - sv
 - id: systran
   name: SYSTRAN
+  codes:
+  - sv
 - id: anthropic
   name: Anthropic
+  codes:
+  - sv
 - id: iconic
   name: Iconic
+  codes:
+  - sv
 - id: iptranslator
   name: IP Translator
+  codes:
+  - sv
 - id: lilt
   name: Lilt
+  codes:
+  - sv
 - id: deepseek
   name: DeepSeek
+  codes:
+  - sv
 - id: watson
   name: Watson Language Translator
+  codes:
+  - sv
 - id: openai
   name: OpenAI
+  codes:
+  - sv
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - sv
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - sv
 - id: apptek
   name: AppTek
+  codes:
+  - sv
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - sv
 - id: amazon
   name: Amazon Translate
+  codes:
+  - sv
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - sv
 - id: textra
   name: TexTra
+  codes:
+  - sv
 - id: yandex
   name: Yandex Translate
+  codes:
+  - sv
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - sv
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - sv-se
 - id: youdao
   name: Youdao Translate
+  codes:
+  - sv
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - sv
 - id: modernmt
   name: ModernMT
+  codes:
+  - sv
 - id: baidu
   name: Baidu Translate
+  codes:
+  - sv
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - sv
 - id: google
   name: Google Translate
+  codes:
+  - sv
 - id: niutrans
   name: Niutrans
+  codes:
+  - sv
 supported_qe_apis:
 - id: kantanqes
   name: KantanQES
+  codes:
+  - sv
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - sv
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - sv
 - id: smart-review
   name: Smart Review
+  codes:
+  - sv
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - sv
 - id: taus
   name: TAUS
+  codes:
+  - sv
 - id: modelfront
   name: ModelFront
+  codes:
+  - sv
 - id: modernmt
   name: ModernMT
+  codes:
+  - sv
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - sv
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - sv
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - sv
 - id: modelfront
   name: ModelFront
+  codes:
+  - sv
 seo:
   name: Machine translation for Swedish
   type: Language

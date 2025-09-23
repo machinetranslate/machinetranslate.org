@@ -29,42 +29,78 @@ territories:
 supported_apis:
 - id: promt
   name: PROMT
+  codes:
+  - ky
 - id: apptek
   name: AppTek
+  codes:
+  - ky
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ky
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ky
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ky-kg
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ky
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ky
 - id: modernmt
   name: ModernMT
+  codes:
+  - ky
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ky
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ky
 - id: google
   name: Google Translate
+  codes:
+  - ky
 - id: niutrans
   name: Niutrans
+  codes:
+  - ky
 supported_qe_apis:
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - ky
 - id: taus
   name: TAUS
+  codes:
+  - ky
 - id: modelfront
   name: ModelFront
+  codes:
+  - ky
 - id: modernmt
   name: ModernMT
+  codes:
+  - ky
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ky
 - id: modelfront
   name: ModelFront
+  codes:
+  - ky
 seo:
   name: Machine translation for Kyrgyz
   type: Language

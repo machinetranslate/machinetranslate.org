@@ -31,20 +31,34 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ckb
 - id: modernmt
   name: ModernMT
+  codes:
+  - ckb
 - id: google
   name: Google Translate
+  codes:
+  - ckb
 - id: niutrans
   name: Niutrans
+  codes:
+  - ckb
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - ckb
 - id: modernmt
   name: ModernMT
+  codes:
+  - ckb
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - ckb
 seo:
   name: Machine translation for Sorani Kurdish
   type: Language

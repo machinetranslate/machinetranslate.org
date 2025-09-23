@@ -31,15 +31,25 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - sg
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - sg
 - id: google
   name: Google Translate
+  codes:
+  - sg
 - id: niutrans
   name: Niutrans
+  codes:
+  - sg
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - sg
 supported_ape_apis: []
 seo:
   name: Machine translation for Sango

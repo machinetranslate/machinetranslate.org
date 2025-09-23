@@ -32,12 +32,20 @@ territories:
 supported_apis:
 - id: watson
   name: Watson Language Translator
+  codes:
+  - cnr
 - id: baidu
   name: Baidu Translate
+  codes:
+  - cnr
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - cnr
 - id: niutrans
   name: Niutrans
+  codes:
+  - cnr
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

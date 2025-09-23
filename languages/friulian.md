@@ -29,15 +29,25 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - fur
 - id: baidu
   name: Baidu Translate
+  codes:
+  - fur
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - fur
 - id: google
   name: Google Translate
+  codes:
+  - fur
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - fur
 supported_ape_apis: []
 seo:
   name: Machine translation for Friulian

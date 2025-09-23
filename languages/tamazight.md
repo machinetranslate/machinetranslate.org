@@ -31,11 +31,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - tzm
 - id: google
   name: Google Translate
+  codes:
+  - tzm
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - tzm
 supported_ape_apis: []
 seo:
   name: Machine translation for Tamazight

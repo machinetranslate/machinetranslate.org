@@ -29,15 +29,25 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ltg
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ltg
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ltg
 - id: google
   name: Google Translate
+  codes:
+  - ltg
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ltg
 supported_ape_apis: []
 seo:
   name: Machine translation for Latgalian

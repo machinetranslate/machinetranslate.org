@@ -29,13 +29,21 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - umb
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - umb
 - id: niutrans
   name: Niutrans
+  codes:
+  - umb
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - umb
 supported_ape_apis: []
 seo:
   name: Machine translation for Umbundu

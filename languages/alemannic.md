@@ -42,6 +42,8 @@ territories:
 supported_apis:
 - id: supertext
   name: Supertext
+  codes:
+  - gsw
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

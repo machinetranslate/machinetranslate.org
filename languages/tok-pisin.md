@@ -26,15 +26,25 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - tpi
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - tpi
 - id: google
   name: Google Translate
+  codes:
+  - tpi
 - id: niutrans
   name: Niutrans
+  codes:
+  - tpi
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - tpi
 supported_ape_apis: []
 seo:
   name: Machine translation for Tok Pisin

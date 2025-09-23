@@ -30,10 +30,16 @@ territories:
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - tyv
 - id: google
   name: Google Translate
+  codes:
+  - tyv
 - id: niutrans
   name: Niutrans
+  codes:
+  - tyv
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

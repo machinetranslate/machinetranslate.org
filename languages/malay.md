@@ -32,96 +32,186 @@ territories:
 supported_apis:
 - id: aisa
   name: AISA
+  codes:
+  - ms
 - id: tencent
   name: Tencent Machine Translation
+  codes:
+  - ms
 - id: kakao
   name: Kakao
+  codes:
+  - ms
 - id: lara
   name: Lara
+  codes:
+  - ms
 - id: widn
   name: Widn
+  codes:
+  - ms
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - ms
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - ms
 - id: xl8
   name: XL8
+  codes:
+  - ms
 - id: apertium
   name: Apertium
+  codes:
+  - ms
 - id: systran
   name: SYSTRAN
+  codes:
+  - ms
 - id: anthropic
   name: Anthropic
+  codes:
+  - ms
 - id: iconic
   name: Iconic
+  codes:
+  - ms
 - id: iptranslator
   name: IP Translator
+  codes:
+  - ms
 - id: lilt
   name: Lilt
+  codes:
+  - ms
 - id: deepseek
   name: DeepSeek
+  codes:
+  - ms
 - id: watson
   name: Watson Language Translator
+  codes:
+  - ms
 - id: openai
   name: OpenAI
+  codes:
+  - ms
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ms
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - ms
 - id: apptek
   name: AppTek
+  codes:
+  - ms
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - ms
 - id: amazon
   name: Amazon Translate
+  codes:
+  - ms
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - ms
 - id: textra
   name: TexTra
+  codes:
+  - ms
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ms
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ms
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ms-my
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ms
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ms
 - id: modernmt
   name: ModernMT
+  codes:
+  - ms
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ms
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ms
 - id: google
   name: Google Translate
+  codes:
+  - ms
 - id: niutrans
   name: Niutrans
+  codes:
+  - ms
 supported_qe_apis:
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - ms
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - ms
 - id: smart-review
   name: Smart Review
+  codes:
+  - ms
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - ms
 - id: taus
   name: TAUS
+  codes:
+  - ms
 - id: modelfront
   name: ModelFront
+  codes:
+  - ms
 - id: modernmt
   name: ModernMT
+  codes:
+  - ms
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - ms
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ms
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ms
 - id: modelfront
   name: ModelFront
+  codes:
+  - ms
 seo:
   name: Machine translation for Malay
   type: Language

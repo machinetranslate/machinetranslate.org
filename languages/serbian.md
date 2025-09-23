@@ -37,76 +37,156 @@ territories:
 supported_apis:
 - id: supertext
   name: Supertext
+  codes:
+  - sr
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - sr-Latn
 - id: promt
   name: PROMT
+  codes:
+  - sr
 - id: xl8
   name: XL8
+  codes:
+  - sr
 - id: systran
   name: SYSTRAN
+  codes:
+  - sr
 - id: anthropic
   name: Anthropic
+  codes:
+  - sr
 - id: iconic
   name: Iconic
+  codes:
+  - sr
 - id: iptranslator
   name: IP Translator
+  codes:
+  - sr
 - id: deepseek
   name: DeepSeek
+  codes:
+  - sr
 - id: watson
   name: Watson Language Translator
+  codes:
+  - sr
 - id: openai
   name: OpenAI
+  codes:
+  - sr
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - sr
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - sr
 - id: apptek
   name: AppTek
+  codes:
+  - sr
+  - sr-Latn
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - sr
 - id: amazon
   name: Amazon Translate
+  codes:
+  - sr
 - id: textra
   name: TexTra
+  codes:
+  - sr
 - id: yandex
   name: Yandex Translate
+  codes:
+  - sr
+  - sr-Latn
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - sr-Cyrl
+  - sr-Latn
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - sr-Cyrl-rs
 - id: youdao
   name: Youdao Translate
+  codes:
+  - sr-Cyrl
+  - sr-Latn
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - sr
 - id: modernmt
   name: ModernMT
+  codes:
+  - sr-Cyrl
+  - sr-Latn
 - id: baidu
   name: Baidu Translate
+  codes:
+  - sr
 - id: google
   name: Google Translate
+  codes:
+  - sr
 - id: niutrans
   name: Niutrans
+  codes:
+  - sr
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - sr
 - id: smart-review
   name: Smart Review
+  codes:
+  - sr
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - sr
 - id: taus
   name: TAUS
+  codes:
+  - sr
 - id: modelfront
   name: ModelFront
+  codes:
+  - sr
+  - sr-Cyrl
+  - sr-Latn
 - id: modernmt
   name: ModernMT
+  codes:
+  - sr-Cyrl
+  - sr-Latn
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - sr
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - sr
 - id: modelfront
   name: ModelFront
+  codes:
+  - sr
+  - sr-Cyrl
+  - sr-Latn
 seo:
   name: Machine translation for Serbian
   type: Language

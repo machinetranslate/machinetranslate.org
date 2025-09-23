@@ -34,22 +34,38 @@ territories:
 supported_apis:
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - dv
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - dv
 - id: baidu
   name: Baidu Translate
+  codes:
+  - dv
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - dv
 - id: google
   name: Google Translate
+  codes:
+  - dv
 - id: niutrans
   name: Niutrans
+  codes:
+  - dv
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - dv
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - dv
 seo:
   name: Machine translation for Divehi
   type: Language

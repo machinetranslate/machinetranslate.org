@@ -13,6 +13,8 @@ family: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - toi
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

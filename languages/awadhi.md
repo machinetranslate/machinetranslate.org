@@ -32,11 +32,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - awa
 - id: google
   name: Google Translate
+  codes:
+  - awa
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - awa
 supported_ape_apis: []
 seo:
   name: Machine translation for Awadhi

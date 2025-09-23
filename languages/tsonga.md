@@ -31,19 +31,33 @@ territories:
 supported_apis:
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ts
 - id: modernmt
   name: ModernMT
+  codes:
+  - ts
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ts
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ts
 - id: google
   name: Google Translate
+  codes:
+  - ts
 - id: niutrans
   name: Niutrans
+  codes:
+  - ts
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ts
 supported_ape_apis: []
 seo:
   name: Machine translation for Tsonga

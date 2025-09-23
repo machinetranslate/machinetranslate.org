@@ -31,17 +31,29 @@ territories:
 supported_apis:
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - gn
 - id: modernmt
   name: ModernMT
+  codes:
+  - gn
 - id: baidu
   name: Baidu Translate
+  codes:
+  - gn
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - gn
 - id: google
   name: Google Translate
+  codes:
+  - gn
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - gn
 supported_ape_apis: []
 seo:
   name: Machine translation for Guarani

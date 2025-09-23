@@ -31,56 +31,106 @@ territories:
 supported_apis:
 - id: apertium
   name: Apertium
+  codes:
+  - mk
 - id: openai
   name: OpenAI
+  codes:
+  - mk
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - mk
 - id: apptek
   name: AppTek
+  codes:
+  - mk
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - mk
 - id: amazon
   name: Amazon Translate
+  codes:
+  - mk
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - mk
 - id: textra
   name: TexTra
+  codes:
+  - mk
 - id: yandex
   name: Yandex Translate
+  codes:
+  - mk
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - mk
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - mk-mk
 - id: youdao
   name: Youdao Translate
+  codes:
+  - mk
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - mk
 - id: modernmt
   name: ModernMT
+  codes:
+  - mk
 - id: baidu
   name: Baidu Translate
+  codes:
+  - mk
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - mk
 - id: google
   name: Google Translate
+  codes:
+  - mk
 - id: niutrans
   name: Niutrans
+  codes:
+  - mk
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - mk
 - id: smart-review
   name: Smart Review
+  codes:
+  - mk
 - id: taus
   name: TAUS
+  codes:
+  - mk
 - id: modelfront
   name: ModelFront
+  codes:
+  - mk
 - id: modernmt
   name: ModernMT
+  codes:
+  - mk
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - mk
 - id: modelfront
   name: ModelFront
+  codes:
+  - mk
 seo:
   name: Machine translation for Macedonian
   type: Language

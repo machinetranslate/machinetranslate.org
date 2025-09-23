@@ -34,58 +34,111 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - pa-in
 - id: systran
   name: SYSTRAN
+  codes:
+  - pa
 - id: lilt
   name: Lilt
+  codes:
+  - pa
 - id: watson
   name: Watson Language Translator
+  codes:
+  - pa
+  - pa-pk
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - pa
 - id: apptek
   name: AppTek
+  codes:
+  - pa
 - id: amazon
   name: Amazon Translate
+  codes:
+  - pa
 - id: textra
   name: TexTra
+  codes:
+  - pa
 - id: yandex
   name: Yandex Translate
+  codes:
+  - pa
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - pa
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - pa-pk
 - id: youdao
   name: Youdao Translate
+  codes:
+  - pa
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - pa
 - id: modernmt
   name: ModernMT
+  codes:
+  - pa
 - id: baidu
   name: Baidu Translate
+  codes:
+  - pa
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - pa
 - id: google
   name: Google Translate
+  codes:
+  - pa
 - id: niutrans
   name: Niutrans
+  codes:
+  - pa
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - pa
 - id: smart-review
   name: Smart Review
+  codes:
+  - pa
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - pa
 - id: taus
   name: TAUS
+  codes:
+  - pa
 - id: modelfront
   name: ModelFront
+  codes:
+  - pa
 - id: modernmt
   name: ModernMT
+  codes:
+  - pa
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - pa
 - id: modelfront
   name: ModelFront
+  codes:
+  - pa
 seo:
   name: Machine translation for Punjabi
   type: Language

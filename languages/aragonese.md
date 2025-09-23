@@ -30,12 +30,20 @@ territories:
 supported_apis:
 - id: apertium
   name: Apertium
+  codes:
+  - an
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - an
 - id: baidu
   name: Baidu Translate
+  codes:
+  - an
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - an
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

@@ -27,126 +27,246 @@ territories:
 supported_apis:
 - id: cloudtranslation
   name: CloudTranslation
+  codes:
+  - ko
 - id: alexa-translations-ai
   name: Alexa Translations A.I.
+  codes:
+  - ko
 - id: papago
   name: Papago Translation
+  codes:
+  - ko
 - id: mirai
   name: Mirai Translator
+  codes:
+  - ko
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
+  codes:
+  - ko
 - id: aisa
   name: AISA
+  codes:
+  - ko
 - id: tencent
   name: Tencent Machine Translation
+  codes:
+  - ko
 - id: kakao
   name: Kakao
+  codes:
+  - ko
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - ko
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - ko
 - id: supertext
   name: Supertext
+  codes:
+  - ko
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - ko-kr
 - id: reverso
   name: Reverso
+  codes:
+  - ko
 - id: deepl
   name: DeepL
+  codes:
+  - ko
 - id: unbabel
   name: Unbabel
+  codes:
+  - ko
 - id: lara
   name: Lara
+  codes:
+  - ko
 - id: globalese
   name: Globalese
+  codes:
+  - ko
 - id: widn
   name: Widn
+  codes:
+  - ko
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - ko
 - id: promt
   name: PROMT
+  codes:
+  - ko
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - ko
 - id: xl8
   name: XL8
+  codes:
+  - ko
 - id: kantanmt
   name: KantanMT
+  codes:
+  - ko
 - id: systran
   name: SYSTRAN
+  codes:
+  - ko
 - id: anthropic
   name: Anthropic
+  codes:
+  - ko
 - id: iconic
   name: Iconic
+  codes:
+  - ko
 - id: iptranslator
   name: IP Translator
+  codes:
+  - ko
 - id: lilt
   name: Lilt
+  codes:
+  - ko
 - id: deepseek
   name: DeepSeek
+  codes:
+  - ko
 - id: watson
   name: Watson Language Translator
+  codes:
+  - ko
 - id: openai
   name: OpenAI
+  codes:
+  - ko
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ko
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - ko
 - id: apptek
   name: AppTek
+  codes:
+  - ko
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - ko
 - id: amazon
   name: Amazon Translate
+  codes:
+  - ko
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - ko
 - id: textra
   name: TexTra
+  codes:
+  - ko
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ko
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ko
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ko-kr
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ko
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ko
 - id: modernmt
   name: ModernMT
+  codes:
+  - ko
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ko
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ko
 - id: google
   name: Google Translate
+  codes:
+  - ko
 - id: niutrans
   name: Niutrans
+  codes:
+  - ko
 supported_qe_apis:
 - id: kantanqes
   name: KantanQES
+  codes:
+  - ko
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - ko
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - ko
 - id: smart-review
   name: Smart Review
+  codes:
+  - ko
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - ko
 - id: taus
   name: TAUS
+  codes:
+  - ko
 - id: modelfront
   name: ModelFront
+  codes:
+  - ko
 - id: modernmt
   name: ModernMT
+  codes:
+  - ko
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - ko
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ko
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ko
 - id: modelfront
   name: ModelFront
+  codes:
+  - ko
 seo:
   name: Machine translation for Korean
   type: Language

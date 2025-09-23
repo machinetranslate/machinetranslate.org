@@ -30,34 +30,62 @@ territories:
 supported_apis:
 - id: yandex
   name: Yandex Translate
+  codes:
+  - xh
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - xh-za
 - id: youdao
   name: Youdao Translate
+  codes:
+  - xh
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - xh
 - id: modernmt
   name: ModernMT
+  codes:
+  - xh
 - id: baidu
   name: Baidu Translate
+  codes:
+  - xh
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - xh
 - id: google
   name: Google Translate
+  codes:
+  - xh
 - id: niutrans
   name: Niutrans
+  codes:
+  - xh
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - xh
 - id: modelfront
   name: ModelFront
+  codes:
+  - xh
 - id: modernmt
   name: ModernMT
+  codes:
+  - xh
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - xh
 - id: modelfront
   name: ModelFront
+  codes:
+  - xh
 seo:
   name: Machine translation for Xhosa
   type: Language

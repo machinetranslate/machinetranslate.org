@@ -31,13 +31,21 @@ territories:
 supported_apis:
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - vec
 - id: modernmt
   name: ModernMT
+  codes:
+  - vec
 - id: google
   name: Google Translate
+  codes:
+  - vec
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - vec
 supported_ape_apis: []
 seo:
   name: Machine translation for Venetian

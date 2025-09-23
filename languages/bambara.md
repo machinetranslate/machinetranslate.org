@@ -31,17 +31,29 @@ territories:
 supported_apis:
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - bm
 - id: modernmt
   name: ModernMT
+  codes:
+  - bm
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - bm
 - id: google
   name: Google Translate
+  codes:
+  - bm
 - id: niutrans
   name: Niutrans
+  codes:
+  - bm
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - bm
 supported_ape_apis: []
 seo:
   name: Machine translation for Bambara

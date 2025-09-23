@@ -30,13 +30,21 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - tum
 - id: google
   name: Google Translate
+  codes:
+  - tum
 - id: niutrans
   name: Niutrans
+  codes:
+  - tum
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - tum
 supported_ape_apis: []
 seo:
   name: Machine translation for Tumbuka

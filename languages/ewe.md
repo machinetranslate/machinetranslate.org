@@ -32,15 +32,25 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ee
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ee
 - id: google
   name: Google Translate
+  codes:
+  - ee
 - id: niutrans
   name: Niutrans
+  codes:
+  - ee
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ee
 supported_ape_apis: []
 seo:
   name: Machine translation for Ewe

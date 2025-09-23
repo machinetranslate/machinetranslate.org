@@ -35,17 +35,29 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - bem
 - id: baidu
   name: Baidu Translate
+  codes:
+  - bem
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - bem
 - id: google
   name: Google Translate
+  codes:
+  - bem
 - id: niutrans
   name: Niutrans
+  codes:
+  - bem
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - bem
 supported_ape_apis: []
 seo:
   name: Machine translation for Bemba

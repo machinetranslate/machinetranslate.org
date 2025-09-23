@@ -33,15 +33,25 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - rn
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - rn
 - id: google
   name: Google Translate
+  codes:
+  - rn
 - id: niutrans
   name: Niutrans
+  codes:
+  - rn
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - rn
 supported_ape_apis: []
 seo:
   name: Machine translation for Kirundi

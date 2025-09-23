@@ -13,6 +13,8 @@ family: []
 supported_apis:
 - id: textra
   name: TexTra
+  codes:
+  - moa
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

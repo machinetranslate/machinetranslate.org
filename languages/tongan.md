@@ -27,24 +27,42 @@ territories:
 supported_apis:
 - id: iconic
   name: Iconic
+  codes:
+  - to
 - id: iptranslator
   name: IP Translator
+  codes:
+  - to
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - to
 - id: youdao
   name: Youdao Translate
+  codes:
+  - to
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - to
 - id: google
   name: Google Translate
+  codes:
+  - to
 - id: niutrans
   name: Niutrans
+  codes:
+  - to
 supported_qe_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - to
 supported_ape_apis:
 - id: modelfront
   name: ModelFront
+  codes:
+  - to
 seo:
   name: Machine translation for Tongan
   type: Language

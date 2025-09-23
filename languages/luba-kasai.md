@@ -30,11 +30,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - lua
 - id: niutrans
   name: Niutrans
+  codes:
+  - lua
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - lua
 supported_ape_apis: []
 seo:
   name: Machine translation for Luba-Kasai

@@ -28,116 +28,226 @@ territories:
 supported_apis:
 - id: cloudtranslation
   name: CloudTranslation
+  codes:
+  - id
 - id: papago
   name: Papago Translation
+  codes:
+  - id
 - id: mirai
   name: Mirai Translator
+  codes:
+  - id
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
+  codes:
+  - id
 - id: aisa
   name: AISA
+  codes:
+  - id
 - id: tencent
   name: Tencent Machine Translation
+  codes:
+  - id
 - id: kakao
   name: Kakao
+  codes:
+  - id
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - id
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - id-id
 - id: deepl
   name: DeepL
+  codes:
+  - id
 - id: unbabel
   name: Unbabel
+  codes:
+  - id
 - id: lara
   name: Lara
+  codes:
+  - id
 - id: widn
   name: Widn
+  codes:
+  - id
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - id
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - id
 - id: xl8
   name: XL8
+  codes:
+  - id
 - id: apertium
   name: Apertium
+  codes:
+  - id
 - id: kantanmt
   name: KantanMT
+  codes:
+  - id
 - id: systran
   name: SYSTRAN
+  codes:
+  - id
 - id: anthropic
   name: Anthropic
+  codes:
+  - id
 - id: iconic
   name: Iconic
+  codes:
+  - id
 - id: iptranslator
   name: IP Translator
+  codes:
+  - id
 - id: lilt
   name: Lilt
+  codes:
+  - id
 - id: watson
   name: Watson Language Translator
+  codes:
+  - id
 - id: openai
   name: OpenAI
+  codes:
+  - id
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - id
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - id
 - id: apptek
   name: AppTek
+  codes:
+  - id
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - id
 - id: amazon
   name: Amazon Translate
+  codes:
+  - id
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - id
 - id: textra
   name: TexTra
+  codes:
+  - id
 - id: yandex
   name: Yandex Translate
+  codes:
+  - id
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - id
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - id-id
 - id: youdao
   name: Youdao Translate
+  codes:
+  - id
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - id
 - id: modernmt
   name: ModernMT
+  codes:
+  - id
 - id: baidu
   name: Baidu Translate
+  codes:
+  - id
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - id
 - id: google
   name: Google Translate
+  codes:
+  - id
 - id: niutrans
   name: Niutrans
+  codes:
+  - id
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - id
 - id: kantanqes
   name: KantanQES
+  codes:
+  - id
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - id
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - id
 - id: smart-review
   name: Smart Review
+  codes:
+  - id
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - id
 - id: taus
   name: TAUS
+  codes:
+  - id
 - id: modelfront
   name: ModelFront
+  codes:
+  - id
 - id: modernmt
   name: ModernMT
+  codes:
+  - id
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - id
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - id
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - id
 - id: modelfront
   name: ModelFront
+  codes:
+  - id
 seo:
   name: Machine translation for Indonesian
   type: Language

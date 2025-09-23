@@ -31,64 +31,122 @@ territories:
 supported_apis:
 - id: etranslation
   name: eTranslation
+  codes:
+  - ga
 - id: globalese
   name: Globalese
+  codes:
+  - ga
 - id: kantanmt
   name: KantanMT
+  codes:
+  - ga
 - id: watson
   name: Watson Language Translator
+  codes:
+  - ga
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ga
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - ga
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - ga
 - id: amazon
   name: Amazon Translate
+  codes:
+  - ga
 - id: textra
   name: TexTra
+  codes:
+  - ga
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ga
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ga
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ga-ie
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ga
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ga
 - id: modernmt
   name: ModernMT
+  codes:
+  - ga
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ga
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ga
 - id: google
   name: Google Translate
+  codes:
+  - ga
 - id: niutrans
   name: Niutrans
+  codes:
+  - ga
 supported_qe_apis:
 - id: kantanqes
   name: KantanQES
+  codes:
+  - ga
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - ga
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - ga
 - id: smart-review
   name: Smart Review
+  codes:
+  - ga
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - ga
 - id: taus
   name: TAUS
+  codes:
+  - ga
 - id: modelfront
   name: ModelFront
+  codes:
+  - ga
 - id: modernmt
   name: ModernMT
+  codes:
+  - ga
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ga
 - id: modelfront
   name: ModelFront
+  codes:
+  - ga
 seo:
   name: Machine translation for Irish
   type: Language

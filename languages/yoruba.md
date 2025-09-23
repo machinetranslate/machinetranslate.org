@@ -26,38 +26,70 @@ territories: []
 supported_apis:
 - id: anthropic
   name: Anthropic
+  codes:
+  - yo
 - id: deepseek
   name: DeepSeek
+  codes:
+  - yo
 - id: textra
   name: TexTra
+  codes:
+  - yo
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - yo-ng
 - id: youdao
   name: Youdao Translate
+  codes:
+  - yo
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - yo
 - id: modernmt
   name: ModernMT
+  codes:
+  - yo
 - id: baidu
   name: Baidu Translate
+  codes:
+  - yo
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - yo
 - id: google
   name: Google Translate
+  codes:
+  - yo
 - id: niutrans
   name: Niutrans
+  codes:
+  - yo
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - yo
 - id: modelfront
   name: ModelFront
+  codes:
+  - yo
 - id: modernmt
   name: ModernMT
+  codes:
+  - yo
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - yo
 - id: modelfront
   name: ModelFront
+  codes:
+  - yo
 seo:
   name: Machine translation for Yoruba
   type: Language

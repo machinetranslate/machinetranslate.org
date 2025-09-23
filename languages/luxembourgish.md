@@ -32,38 +32,70 @@ territories:
 supported_apis:
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - lb
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - lb
 - id: yandex
   name: Yandex Translate
+  codes:
+  - lb
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - lb-lu
 - id: youdao
   name: Youdao Translate
+  codes:
+  - lb
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - lb
 - id: modernmt
   name: ModernMT
+  codes:
+  - lb
 - id: baidu
   name: Baidu Translate
+  codes:
+  - lb
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - lb
 - id: google
   name: Google Translate
+  codes:
+  - lb
 - id: niutrans
   name: Niutrans
+  codes:
+  - lb
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - lb
 - id: modelfront
   name: ModelFront
+  codes:
+  - lb
 - id: modernmt
   name: ModernMT
+  codes:
+  - lb
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - lb
 - id: modelfront
   name: ModelFront
+  codes:
+  - lb
 seo:
   name: Machine translation for Luxembourgish
   type: Language

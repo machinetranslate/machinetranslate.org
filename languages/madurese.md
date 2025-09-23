@@ -26,8 +26,12 @@ territories:
 supported_apis:
 - id: google
   name: Google Translate
+  codes:
+  - mad
 - id: niutrans
   name: Niutrans
+  codes:
+  - mad
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

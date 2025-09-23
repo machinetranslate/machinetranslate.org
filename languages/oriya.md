@@ -32,40 +32,74 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - or-in
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - or
 - id: textra
   name: TexTra
+  codes:
+  - or
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - or
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - or-or
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - or
 - id: modernmt
   name: ModernMT
+  codes:
+  - or
 - id: baidu
   name: Baidu Translate
+  codes:
+  - or
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - or
 - id: google
   name: Google Translate
+  codes:
+  - or
 - id: niutrans
   name: Niutrans
+  codes:
+  - or
 supported_qe_apis:
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - or
 - id: taus
   name: TAUS
+  codes:
+  - or
 - id: modelfront
   name: ModelFront
+  codes:
+  - or
 - id: modernmt
   name: ModernMT
+  codes:
+  - or
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - or
 - id: modelfront
   name: ModelFront
+  codes:
+  - or
 seo:
   name: Machine translation for Oriya
   type: Language

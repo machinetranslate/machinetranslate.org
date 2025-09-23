@@ -28,134 +28,263 @@ territories:
 supported_apis:
 - id: cloudtranslation
   name: CloudTranslation
+  codes:
+  - ja
 - id: pangeamt
   name: PangeaMT
+  codes:
+  - ja
 - id: mistral-ai
   name: Mistral AI
+  codes:
+  - ja
 - id: alexa-translations-ai
   name: Alexa Translations A.I.
+  codes:
+  - ja
 - id: papago
   name: Papago Translation
+  codes:
+  - ja
 - id: mirai
   name: Mirai Translator
+  codes:
+  - ja
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
+  codes:
+  - ja
 - id: aisa
   name: AISA
+  codes:
+  - ja
 - id: tencent
   name: Tencent Machine Translation
+  codes:
+  - ja
 - id: kakao
   name: Kakao
+  codes:
+  - ja
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - ja
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - ja
 - id: supertext
   name: Supertext
+  codes:
+  - ja
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - ja-jp
 - id: reverso
   name: Reverso
+  codes:
+  - ja
 - id: deepl
   name: DeepL
+  codes:
+  - ja
 - id: unbabel
   name: Unbabel
+  codes:
+  - ja
 - id: lara
   name: Lara
+  codes:
+  - ja
 - id: etranslation
   name: eTranslation
+  codes:
+  - ja
 - id: globalese
   name: Globalese
+  codes:
+  - ja
 - id: widn
   name: Widn
+  codes:
+  - ja
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - ja
 - id: promt
   name: PROMT
+  codes:
+  - ja
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - ja
 - id: xl8
   name: XL8
+  codes:
+  - ja
 - id: kantanmt
   name: KantanMT
+  codes:
+  - ja
 - id: systran
   name: SYSTRAN
+  codes:
+  - ja
 - id: anthropic
   name: Anthropic
+  codes:
+  - ja
 - id: iconic
   name: Iconic
+  codes:
+  - ja
 - id: iptranslator
   name: IP Translator
+  codes:
+  - ja
 - id: lilt
   name: Lilt
+  codes:
+  - ja
 - id: deepseek
   name: DeepSeek
+  codes:
+  - ja
 - id: watson
   name: Watson Language Translator
+  codes:
+  - ja
 - id: openai
   name: OpenAI
+  codes:
+  - ja
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ja
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - ja
 - id: apptek
   name: AppTek
+  codes:
+  - ja
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - ja
 - id: amazon
   name: Amazon Translate
+  codes:
+  - ja
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - ja
 - id: textra
   name: TexTra
+  codes:
+  - ja
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ja
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ja
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ja-jp
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ja
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ja
 - id: modernmt
   name: ModernMT
+  codes:
+  - ja
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ja
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ja
 - id: google
   name: Google Translate
+  codes:
+  - ja
 - id: niutrans
   name: Niutrans
+  codes:
+  - ja
 supported_qe_apis:
 - id: google-translation-hub-mtqp
   name: Google Translation Hub MTQP
+  codes:
+  - ja
 - id: kantanqes
   name: KantanQES
+  codes:
+  - ja
+  - ja-ja
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - ja
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - ja
 - id: smart-review
   name: Smart Review
+  codes:
+  - ja
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - ja
 - id: taus
   name: TAUS
+  codes:
+  - ja
 - id: modelfront
   name: ModelFront
+  codes:
+  - ja
 - id: modernmt
   name: ModernMT
+  codes:
+  - ja
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - ja
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - ja
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ja
 - id: modelfront
   name: ModelFront
+  codes:
+  - ja
 seo:
   name: Machine translation for Japanese
   type: Language

@@ -28,10 +28,16 @@ territories:
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - iba
 - id: google
   name: Google Translate
+  codes:
+  - iba
 - id: niutrans
   name: Niutrans
+  codes:
+  - iba
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

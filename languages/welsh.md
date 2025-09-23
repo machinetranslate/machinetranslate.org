@@ -30,60 +30,114 @@ territories:
 supported_apis:
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - cy
 - id: apertium
   name: Apertium
+  codes:
+  - cy
 - id: systran
   name: SYSTRAN
+  codes:
+  - cy
 - id: iconic
   name: Iconic
+  codes:
+  - cy
 - id: iptranslator
   name: IP Translator
+  codes:
+  - cy
 - id: watson
   name: Watson Language Translator
+  codes:
+  - cy
 - id: openai
   name: OpenAI
+  codes:
+  - cy
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - cy
 - id: amazon
   name: Amazon Translate
+  codes:
+  - cy
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - cy
 - id: textra
   name: TexTra
+  codes:
+  - cy
 - id: yandex
   name: Yandex Translate
+  codes:
+  - cy
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - cy
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - cy-gb
 - id: youdao
   name: Youdao Translate
+  codes:
+  - cy
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - cy
 - id: modernmt
   name: ModernMT
+  codes:
+  - cy
 - id: baidu
   name: Baidu Translate
+  codes:
+  - cy
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - cy
 - id: google
   name: Google Translate
+  codes:
+  - cy
 - id: niutrans
   name: Niutrans
+  codes:
+  - cy
 supported_qe_apis:
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - cy
 - id: taus
   name: TAUS
+  codes:
+  - cy
 - id: modelfront
   name: ModelFront
+  codes:
+  - cy
 - id: modernmt
   name: ModernMT
+  codes:
+  - cy
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - cy
 - id: modelfront
   name: ModelFront
+  codes:
+  - cy
 seo:
   name: Machine translation for Welsh
   type: Language

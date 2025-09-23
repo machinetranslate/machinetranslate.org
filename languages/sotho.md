@@ -32,30 +32,54 @@ territories:
 supported_apis:
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - st-ls
 - id: youdao
   name: Youdao Translate
+  codes:
+  - st
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - st
 - id: modernmt
   name: ModernMT
+  codes:
+  - st
 - id: baidu
   name: Baidu Translate
+  codes:
+  - st
 - id: google
   name: Google Translate
+  codes:
+  - st
 - id: niutrans
   name: Niutrans
+  codes:
+  - st
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - st
 - id: modelfront
   name: ModelFront
+  codes:
+  - st
 - id: modernmt
   name: ModernMT
+  codes:
+  - st
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - st
 - id: modelfront
   name: ModelFront
+  codes:
+  - st
 seo:
   name: Machine translation for Sotho
   type: Language

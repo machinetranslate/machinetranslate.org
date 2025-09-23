@@ -33,62 +33,118 @@ territories:
 supported_apis:
 - id: apertium
   name: Apertium
+  codes:
+  - af
 - id: kantanmt
   name: KantanMT
+  codes:
+  - af
 - id: iconic
   name: Iconic
+  codes:
+  - af
 - id: iptranslator
   name: IP Translator
+  codes:
+  - af
 - id: lilt
   name: Lilt
+  codes:
+  - af
 - id: deepseek
   name: DeepSeek
+  codes:
+  - af
 - id: openai
   name: OpenAI
+  codes:
+  - af
 - id: apptek
   name: AppTek
+  codes:
+  - af
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - af
 - id: amazon
   name: Amazon Translate
+  codes:
+  - af
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - af
 - id: textra
   name: TexTra
+  codes:
+  - af
 - id: yandex
   name: Yandex Translate
+  codes:
+  - af
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - af
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - af-za
 - id: youdao
   name: Youdao Translate
+  codes:
+  - af
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - af
 - id: modernmt
   name: ModernMT
+  codes:
+  - af
 - id: baidu
   name: Baidu Translate
+  codes:
+  - af
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - af
 - id: google
   name: Google Translate
+  codes:
+  - af
 - id: niutrans
   name: Niutrans
+  codes:
+  - af
 supported_qe_apis:
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - af
 - id: taus
   name: TAUS
+  codes:
+  - af
 - id: modelfront
   name: ModelFront
+  codes:
+  - af
 - id: modernmt
   name: ModernMT
+  codes:
+  - af
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - af
 - id: modelfront
   name: ModelFront
+  codes:
+  - af
 seo:
   name: Machine translation for Afrikaans
   type: Language

@@ -28,52 +28,98 @@ territories:
 supported_apis:
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - ht
 - id: iconic
   name: Iconic
+  codes:
+  - ht
 - id: iptranslator
   name: IP Translator
+  codes:
+  - ht
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - ht
 - id: amazon
   name: Amazon Translate
+  codes:
+  - ht
 - id: textra
   name: TexTra
+  codes:
+  - ht
 - id: yandex
   name: Yandex Translate
+  codes:
+  - ht
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - ht
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - ht-ht
 - id: youdao
   name: Youdao Translate
+  codes:
+  - ht
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - ht
 - id: modernmt
   name: ModernMT
+  codes:
+  - ht
 - id: baidu
   name: Baidu Translate
+  codes:
+  - ht
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ht
 - id: google
   name: Google Translate
+  codes:
+  - ht
 - id: niutrans
   name: Niutrans
+  codes:
+  - ht
 supported_qe_apis:
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - ht
 - id: smart-review
   name: Smart Review
+  codes:
+  - ht
 - id: taus
   name: TAUS
+  codes:
+  - ht
 - id: modelfront
   name: ModelFront
+  codes:
+  - ht
 - id: modernmt
   name: ModernMT
+  codes:
+  - ht
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - ht
 - id: modelfront
   name: ModelFront
+  codes:
+  - ht
 seo:
   name: Machine translation for Haitian
   type: Language

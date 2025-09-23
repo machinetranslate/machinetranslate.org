@@ -35,40 +35,74 @@ territories:
 supported_apis:
 - id: promt
   name: PROMT
+  codes:
+  - tg
 - id: kantanmt
   name: KantanMT
+  codes:
+  - tg
 - id: systran
   name: SYSTRAN
+  codes:
+  - tg
 - id: yandex
   name: Yandex Translate
+  codes:
+  - tg
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - tg-tj
 - id: youdao
   name: Youdao Translate
+  codes:
+  - tg
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - tg
 - id: modernmt
   name: ModernMT
+  codes:
+  - tg
 - id: baidu
   name: Baidu Translate
+  codes:
+  - tg
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - tg
 - id: google
   name: Google Translate
+  codes:
+  - tg
 - id: niutrans
   name: Niutrans
+  codes:
+  - tg
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - tg
 - id: modelfront
   name: ModelFront
+  codes:
+  - tg
 - id: modernmt
   name: ModernMT
+  codes:
+  - tg
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - tg
 - id: modelfront
   name: ModelFront
+  codes:
+  - tg
 seo:
   name: Machine translation for Tajik
   type: Language

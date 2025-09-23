@@ -28,11 +28,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - nus
 - id: google
   name: Google Translate
+  codes:
+  - nus
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - nus
 supported_ape_apis: []
 seo:
   name: Machine translation for Nuer

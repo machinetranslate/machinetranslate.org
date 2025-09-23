@@ -16,8 +16,12 @@ family: []
 supported_apis:
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - nv
 - id: niutrans
   name: Niutrans
+  codes:
+  - nv
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

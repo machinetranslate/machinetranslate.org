@@ -27,15 +27,25 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ilo
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - ilo
 - id: google
   name: Google Translate
+  codes:
+  - ilo
 - id: niutrans
   name: Niutrans
+  codes:
+  - ilo
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ilo
 supported_ape_apis: []
 seo:
   name: Machine translation for Ilocano

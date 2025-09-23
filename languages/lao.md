@@ -27,40 +27,74 @@ territories:
 supported_apis:
 - id: deepseek
   name: DeepSeek
+  codes:
+  - lo
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - lo
 - id: yandex
   name: Yandex Translate
+  codes:
+  - lo
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - lo
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - lo-la
 - id: youdao
   name: Youdao Translate
+  codes:
+  - lo
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - lo
 - id: modernmt
   name: ModernMT
+  codes:
+  - lo
 - id: baidu
   name: Baidu Translate
+  codes:
+  - lo
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - lo
 - id: google
   name: Google Translate
+  codes:
+  - lo
 - id: niutrans
   name: Niutrans
+  codes:
+  - lo
 supported_qe_apis:
 - id: taus
   name: TAUS
+  codes:
+  - lo
 - id: modelfront
   name: ModelFront
+  codes:
+  - lo
 - id: modernmt
   name: ModernMT
+  codes:
+  - lo
 supported_ape_apis:
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - lo
 - id: modelfront
   name: ModelFront
+  codes:
+  - lo
 seo:
   name: Machine translation for Lao
   type: Language

@@ -33,110 +33,214 @@ territories:
 supported_apis:
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - hu
 - id: tilde
   name: Tilde
+  codes:
+  - hu
 - id: supertext
   name: Supertext
+  codes:
+  - hu
 - id: lingmo
   name: Lingmo Translation
+  codes:
+  - hu-hu
 - id: reverso
   name: Reverso
+  codes:
+  - hu
 - id: deepl
   name: DeepL
+  codes:
+  - hu
 - id: unbabel
   name: Unbabel
+  codes:
+  - hu
 - id: lara
   name: Lara
+  codes:
+  - hu
 - id: etranslation
   name: eTranslation
+  codes:
+  - hu
 - id: globalese
   name: Globalese
+  codes:
+  - hu
 - id: widn
   name: Widn
+  codes:
+  - hu
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - hu
 - id: promt
   name: PROMT
+  codes:
+  - hu
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - hu
 - id: xl8
   name: XL8
+  codes:
+  - hu
 - id: kantanmt
   name: KantanMT
+  codes:
+  - hu
 - id: systran
   name: SYSTRAN
+  codes:
+  - hu
 - id: anthropic
   name: Anthropic
+  codes:
+  - hu
 - id: iconic
   name: Iconic
+  codes:
+  - hu
 - id: iptranslator
   name: IP Translator
+  codes:
+  - hu
 - id: lilt
   name: Lilt
+  codes:
+  - hu
 - id: deepseek
   name: DeepSeek
+  codes:
+  - hu
 - id: watson
   name: Watson Language Translator
+  codes:
+  - hu
 - id: openai
   name: OpenAI
+  codes:
+  - hu
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - hu
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - hu
 - id: apptek
   name: AppTek
+  codes:
+  - hu
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - hu
 - id: amazon
   name: Amazon Translate
+  codes:
+  - hu
 - id: textra
   name: TexTra
+  codes:
+  - hu
 - id: yandex
   name: Yandex Translate
+  codes:
+  - hu
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - hu
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - hu-hu
 - id: youdao
   name: Youdao Translate
+  codes:
+  - hu
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - hu
 - id: modernmt
   name: ModernMT
+  codes:
+  - hu
 - id: baidu
   name: Baidu Translate
+  codes:
+  - hu
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - hu
 - id: google
   name: Google Translate
+  codes:
+  - hu
 - id: niutrans
   name: Niutrans
+  codes:
+  - hu
 supported_qe_apis:
 - id: unbabel-qi
   name: Unbabel QI
+  codes:
+  - hu
 - id: kantanqes
   name: KantanQES
+  codes:
+  - hu
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - hu
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - hu
 - id: smart-review
   name: Smart Review
+  codes:
+  - hu
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - hu
 - id: taus
   name: TAUS
+  codes:
+  - hu
 - id: modelfront
   name: ModelFront
+  codes:
+  - hu
 - id: modernmt
   name: ModernMT
+  codes:
+  - hu
 supported_ape_apis:
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - hu
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - hu
 - id: modelfront
   name: ModelFront
+  codes:
+  - hu
 seo:
   name: Machine translation for Hungarian
   type: Language

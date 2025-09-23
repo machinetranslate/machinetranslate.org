@@ -30,15 +30,25 @@ territories:
 supported_apis:
 - id: sarvam-ai
   name: Sarvam AI
+  codes:
+  - sat-in
 - id: textra
   name: TexTra
+  codes:
+  - sat
 - id: modernmt
   name: ModernMT
+  codes:
+  - sat
 - id: google
   name: Google Translate
+  codes:
+  - sat
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - sat
 supported_ape_apis: []
 seo:
   name: Machine translation for Santali

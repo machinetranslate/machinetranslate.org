@@ -33,15 +33,25 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - li
 - id: baidu
   name: Baidu Translate
+  codes:
+  - li
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - li
 - id: google
   name: Google Translate
+  codes:
+  - li
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - li
 supported_ape_apis: []
 seo:
   name: Machine translation for Limburgish

@@ -29,104 +29,202 @@ territories:
 supported_apis:
 - id: papago
   name: Papago Translation
+  codes:
+  - vi
 - id: mirai
   name: Mirai Translator
+  codes:
+  - vi
 - id: t-tact-an-zin
   name: T-tact-AN-ZIN
+  codes:
+  - vi
 - id: aisa
   name: AISA
+  codes:
+  - vi
 - id: tencent
   name: Tencent Machine Translation
+  codes:
+  - vi
 - id: kakao
   name: Kakao
+  codes:
+  - vi
 - id: sogou-translate
   name: Sogou Translate
+  codes:
+  - vi
 - id: rozetta
   name: Rozetta T-400
+  codes:
+  - vi
 - id: unbabel
   name: Unbabel
+  codes:
+  - vi
 - id: globalese
   name: Globalese
+  codes:
+  - vi
 - id: widn
   name: Widn
+  codes:
+  - vi
 - id: sap
   name: SAP Translation Hub
+  codes:
+  - vi
 - id: kodensha
   name: Kodensha MT
+  codes:
+  - vi
 - id: xl8
   name: XL8
+  codes:
+  - vi
 - id: systran
   name: SYSTRAN
+  codes:
+  - vi
 - id: anthropic
   name: Anthropic
+  codes:
+  - vi
 - id: iconic
   name: Iconic
+  codes:
+  - vi
 - id: iptranslator
   name: IP Translator
+  codes:
+  - vi
 - id: lilt
   name: Lilt
+  codes:
+  - vi
 - id: deepseek
   name: DeepSeek
+  codes:
+  - vi
 - id: watson
   name: Watson Language Translator
+  codes:
+  - vi
 - id: openai
   name: OpenAI
+  codes:
+  - vi
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - vi
 - id: omniscien
   name: Omniscien Technologies
+  codes:
+  - vi
 - id: wordlingo
   name: Wordlingo
+  codes:
+  - vi
 - id: amazon
   name: Amazon Translate
+  codes:
+  - vi
 - id: qwen-mt
   name: Qwen-MT
+  codes:
+  - vi
 - id: textra
   name: TexTra
+  codes:
+  - vi
 - id: yandex
   name: Yandex Translate
+  codes:
+  - vi
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - vi
 - id: lingvanex
   name: LingvaNex
+  codes:
+  - vi-vn
 - id: youdao
   name: Youdao Translate
+  codes:
+  - vi
 - id: neuralspace
   name: NeuralSpace
+  codes:
+  - vi
 - id: modernmt
   name: ModernMT
+  codes:
+  - vi
 - id: baidu
   name: Baidu Translate
+  codes:
+  - vi
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - vi
 - id: google
   name: Google Translate
+  codes:
+  - vi
 - id: niutrans
   name: Niutrans
+  codes:
+  - vi
 supported_qe_apis:
 - id: omniscien-confidence-scores
   name: Omniscien Confidence Scores
+  codes:
+  - vi
 - id: language-weaver-mtqe
   name: Language Weaver
+  codes:
+  - vi
 - id: smart-review
   name: Smart Review
+  codes:
+  - vi
 - id: phrase-mtqe
   name: Phrase MTQE
+  codes:
+  - vi
 - id: taus
   name: TAUS
+  codes:
+  - vi
 - id: modelfront
   name: ModelFront
+  codes:
+  - vi
 - id: modernmt
   name: ModernMT
+  codes:
+  - vi
 supported_ape_apis:
 - id: mtrans
   name: MTrans
+  codes:
+  - vi
 - id: language-weaver
   name: Language Weaver
+  codes:
+  - vi
 - id: taus-epic
   name: TAUS EPIC
+  codes:
+  - vi
 - id: modelfront
   name: ModelFront
+  codes:
+  - vi
 seo:
   name: Machine translation for Vietnamese
   type: Language

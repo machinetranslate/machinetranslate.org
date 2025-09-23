@@ -31,13 +31,21 @@ territories:
 supported_apis:
 - id: textra
   name: TexTra
+  codes:
+  - ss
 - id: modernmt
   name: ModernMT
+  codes:
+  - ss
 - id: google
   name: Google Translate
+  codes:
+  - ss
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - ss
 supported_ape_apis: []
 seo:
   name: Machine translation for Swati

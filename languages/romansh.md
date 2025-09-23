@@ -31,10 +31,16 @@ territories:
 supported_apis:
 - id: supertext
   name: Supertext
+  codes:
+  - rm
 - id: baidu
   name: Baidu Translate
+  codes:
+  - rm
 - id: alibaba
   name: Alibaba Translate
+  codes:
+  - rm
 supported_qe_apis: []
 supported_ape_apis: []
 seo:

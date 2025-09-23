@@ -39,11 +39,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - cjk
 - id: niutrans
   name: Niutrans
+  codes:
+  - cjk
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - cjk
 supported_ape_apis: []
 seo:
   name: Machine translation for Chokwe

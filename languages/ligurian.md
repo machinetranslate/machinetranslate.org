@@ -31,11 +31,17 @@ territories:
 supported_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - lij
 - id: google
   name: Google Translate
+  codes:
+  - lij
 supported_qe_apis:
 - id: modernmt
   name: ModernMT
+  codes:
+  - lij
 supported_ape_apis: []
 seo:
   name: Machine translation for Ligurian
