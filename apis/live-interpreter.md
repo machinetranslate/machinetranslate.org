@@ -576,6 +576,8 @@ more_by_company:
 - translation_apis:
   - id: microsoft
     name: Microsoft Translator
+  - id: live-interpreter
+    name: Live Interpreter
 active: true
 seo:
   name: The Live Interpreter machine translation API
