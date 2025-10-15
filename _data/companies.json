@@ -731,7 +731,8 @@
             "https://www.crunchbase.com/organization/microsoft"
         ],
         "apis": [
-            "microsoft"
+            "microsoft",
+            "live-interpreter"
         ]
     },
     {
