@@ -3,6 +3,7 @@ nav_order: 11
 has_children: true
 title: Translation APIs
 description: List of machine translation APIs
+has_toc: false
 seo:
     name: List of machine translation APIs
     type: ItemList
@@ -20,3 +21,27 @@ Most of the underlying machine translation systems are now based on [neural mach
 ---
 
 Here the APIs are ordered by the number of languages and [locales](/locale) that each support.
+
+{% assign api_pages = "" | split: "" %}
+
+{% for page in site.pages %}
+  {% if page.path contains 'apis/' %}
+    {% unless page.path == 'apis/apis.md' %}
+        {% assign api_pages = api_pages | push: page %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% assign max_count = 0 %}
+{% for page in api_pages %}
+  {% assign lang_count = page.supported_languages | size | default: 0 %}
+  {% if lang_count > max_count %}
+    {% assign max_count = lang_count %}
+  {% endif %}
+{% endfor %}
+
+{% for count in (0..max_count) reversed -%}
+  {% for page in api_pages -%}
+    {% assign lang_count = page.supported_languages | size | default: 0 -%}
+    {% if lang_count == count %}
+- [{{ page.title }}](/{{ page.id }}) {% if page.active == false %}`inactive`{% endif %}{% endif %}{% endfor %}{% endfor %}

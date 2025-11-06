@@ -3,6 +3,7 @@ nav_order: 66
 title: Quality estimation
 description: Machine translation quality estimation
 has_children: true
+has_toc: false
 featured: true
 permalink: /:basename
 redirect_from:
@@ -184,3 +185,29 @@ Multilingual quality estimation uses one model or system for many language pairs
 ### References
 
 - [*Learn about machine translation quality prediction*](https://www.modelfront.com/quality-prediction)
+
+---
+
+{% assign qe_pages = "" | split: "" %}
+
+{% for page in site.pages %}
+  {% if page.path contains 'quality-estimation/' %}
+    {% unless page.path == 'quality-estimation/quality-estimation.md' %}
+        {% assign qe_pages = qe_pages | push: page %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% assign max_count = 0 %}
+{% for page in qe_pages %}
+  {% assign lang_count = page.supported_languages | size | default: 0 %}
+  {% if lang_count > max_count %}
+    {% assign max_count = lang_count %}
+  {% endif %}
+{% endfor %}
+
+{% for count in (0..max_count) reversed -%}
+  {% for page in qe_pages -%}
+    {% assign lang_count = page.supported_languages | size | default: 0 -%}
+    {% if lang_count == count %}
+- [{{ page.title }}](/quality-estimation/{{ page.id }}) {% if page.active == false %}`inactive`{% endif %}{% endif %}{% endfor %}{% endfor %}

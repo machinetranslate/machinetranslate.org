@@ -1,6 +1,7 @@
 ---
 nav_order: 67
 has_children: true
+has_toc: false
 permalink: /:basename
 # parent: Building and research
 title: Automatic post-editing
@@ -50,3 +51,28 @@ Automatic post-editing systems can be evaluated like machine translation systems
 
 Evaluation reveals how many sentences were improved. Precision can be calculated by dividing the number of improved sentences by the total number of modified sentences. Another common metric is the average number of edits per segment.
 
+---
+
+{% assign ape_pages = "" | split: "" %}
+
+{% for page in site.pages %}
+  {% if page.path contains 'automatic-post-editing/' %}
+    {% unless page.path == 'automatic-post-editing/automatic-post-editing.md' %}
+        {% assign ape_pages = ape_pages | push: page %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% assign max_count = 0 %}
+{% for page in ape_pages %}
+  {% assign lang_count = page.supported_languages | size | default: 0 %}
+  {% if lang_count > max_count %}
+    {% assign max_count = lang_count %}
+  {% endif %}
+{% endfor %}
+
+{% for count in (0..max_count) reversed -%}
+  {% for page in ape_pages -%}
+    {% assign lang_count = page.supported_languages | size | default: 0 -%}
+    {% if lang_count == count %}
+- [{{ page.title }}](/automatic-post-editing/{{ page.id }}) {% if page.active == false %}`inactive`{% endif %}{% endif %}{% endfor %}{% endfor %}
