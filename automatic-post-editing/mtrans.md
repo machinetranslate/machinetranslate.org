@@ -167,6 +167,7 @@ more_by_company:
 - automatic_post_editing_apis:
   - id: mtrans
     name: MTrans
+active: true
 seo:
   name: The MTrans automatic post-editing API
   type: Product
