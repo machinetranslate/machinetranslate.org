@@ -14,9 +14,9 @@ parent: Automatic post-editing
 
 <p>
   {% if page.supported_languages.size > 0 %}
-    The <strong>{{ page.title }}</strong> <a href="/automatic-post-editing">automatic post-editing</a> API supports <a href="#language-support">{{ page.supported_languages | size }} languages</a>.
+    The <strong>{{ page.title }}</strong> <a href="/automatic-post-editing">automatic post-editing</a> API {% if page.active != true %}supported{% else %}supports{% endif %} <a href="#language-support">{{ page.supported_languages | size }} languages</a>.
   {% else %}
-    The <strong>{{ page.title }}</strong> <a href="/automatic-post-editing">automatic post-editing</a> API supports an unknown number of languages.
+    The <strong>{{ page.title }}</strong> <a href="/automatic-post-editing">automatic post-editing</a> API {% if page.active != true %}supported{% else %}supports{% endif %} an unknown number of languages.
   {% endif %}
 </p>
 
@@ -30,7 +30,7 @@ parent: Automatic post-editing
   {% else %}
     <dd><a href="#language-support">{{ page.supported_languages | size }} languages</a>
     {% if page.more_languages_by_request %}
-      - more languages available by request
+      - more languages {% if page.active != true %}were{% endif %} available by request
     {% endif %}
     </dd>
   {% endif %}
@@ -76,9 +76,9 @@ parent: Automatic post-editing
           {{ page.supported_languages_comment }}
         {% endif %}
         {% if page.supported_languages.size == 1 %}
-          <strong>1</strong> language is supported by the {{ page.title }} API.
+          <strong>1</strong> language {% if page.active != true %}was{% else %}is{% endif %} supported by the {{ page.title }} API.
         {% else %}
-          <strong>{{ page.supported_languages | size }}</strong> languages are supported by the {{ page.title }} API.
+          <strong>{{ page.supported_languages | size }}</strong> languages {% if page.active != true %}were{% else %}are{% endif %} supported by the {{ page.title }} API.
         {% endif %}
         <p class="preview hint">
           {{ page.supported_languages | slice: 0, 5 | map: 'name' | join: ', ' }}
@@ -106,7 +106,7 @@ parent: Automatic post-editing
 
 {% else %}
 
-  <p>The {{ page.title }} API supports an unknown number of languages.</p>
+  <p>The {{ page.title }} API {% if page.active != true %}supported{% else %}supports{% endif %} an unknown number of languages.</p>
 </section>
 
 {% endif %}
@@ -115,7 +115,7 @@ parent: Automatic post-editing
   <h2>Integrations</h2>
   <details>
     <summary>
-      {{ page.title }} is integrated in <strong>{{ page.integrations | size }}</strong> translation management system{% if page.integrations.size != 1 %}s{% endif %}.
+      {{ page.title }} {% if page.active != true %}was{% else %}is{% endif %} integrated in <strong>{{ page.integrations | size }}</strong> translation management system{% if page.integrations.size != 1 %}s{% endif %}.
       <p class="preview hint">
         {{ page.integrations | slice: 0, 5 | map: 'name' | join: ', ' }}
         {% if page.integrations.size > 5 %}, …{% endif %}
