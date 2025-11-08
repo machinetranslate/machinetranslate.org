@@ -922,6 +922,7 @@ more_by_company:
 - quality_estimation_apis:
   - id: modelfront
     name: ModelFront
+active: true
 seo:
   name: The ModelFront automatic post-editing API
   type: Product

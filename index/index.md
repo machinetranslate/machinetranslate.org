@@ -12,6 +12,27 @@ seo:
 
 The **Machine Translate Foundation** is building **open information** and **community** for machine translation.
 
+{% assign api_count = 0 %}
+{% for api in site.data.apis %}
+  {% if api.active != false %}
+    {% assign api_count = api_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% assign qe_count = 0 %}
+{% for qe in site.data.quality_estimation %}
+  {% if qe.active != false %}
+    {% assign qe_count = qe_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% assign ape_count = 0 %}
+{% for ape in site.data.automatic_post_editing %}
+  {% if ape.active != false %}
+    {% assign ape_count = ape_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
 {% assign integration_count = 0 %}
 {% for tms in site.data.integrations %}
   {% assign integration_count = integration_count 
@@ -32,10 +53,7 @@ The **Machine Translate Foundation** is building **open information** and **comm
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); padding: 2em; gap: 2em; max-width: 800px; margin: auto; text-align: center; transform: translateX(-5%)">
   <div>
-    <a href="/apis">
-      <span class="big">{{ site.data.apis | size }}</span><br/>
-      translation APIs
-    </a>
+    <a href="/apis"><span class="big">{{ api_count }}</span><br/>translation APIs</a>
   </div>
   <div>
     <a href="/models"><span class="big">{{ site.data.models | size }}</span><br/>models</a>
@@ -47,10 +65,10 @@ The **Machine Translate Foundation** is building **open information** and **comm
     <a href="/integrations"><span class="big">{{ integration_count }}</span><br/>integrations</a>
   </div>
   <div>
-    <a href="/quality-estimation"><span class="big">{{ site.data.quality_estimation | size }}</span><br/>quality estimation APIs</a>
+    <a href="/quality-estimation"><span class="big">{{ qe_count }}</span><br/>quality estimation APIs</a>
   </div>
   <div>
-    <a href="/automatic-post-editing"><span class="big">{{ site.data.automatic_post_editing | size }}</span><br/>automatic post-editing APIs</a>
+    <a href="/automatic-post-editing"><span class="big">{{ ape_count }}</span><br/>automatic post-editing APIs</a>
   </div>
 </div>
 

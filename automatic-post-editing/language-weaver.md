@@ -395,6 +395,7 @@ more_by_company:
 - automatic_post_editing_apis:
   - id: language-weaver
     name: Language Weaver
+active: true
 seo:
   name: The Language Weaver automatic post-editing API
   type: Product

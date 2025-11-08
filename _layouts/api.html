@@ -20,35 +20,35 @@ parent: Translation APIs
 
 <p>
   {% if page.supported_languages.size > 0 %}
-    The <strong>{{ page.title }}</strong> machine translation API supports <a href="#language-support">{{ page.supported_languages | size }} languages</a>.
+    The <strong>{{ page.title }}</strong> machine translation API {% if page.active != true %}supported{% else %}supports{% endif %} <a href="#language-support">{{ page.supported_languages | size }} languages</a>.
   {% else %}
-    The <strong>{{ page.title }}</strong> machine translation API supports an unknown number of languages.
+    The <strong>{{ page.title }}</strong> machine translation API {% if page.active != true %}supported{% else %}supports{% endif %} an unknown number of languages.
   {% endif %}
 </p>
 
 <p>
   {% if page.integrations.size == 1 %}
-    <a href="#integrations">1 machine translation management system</a> has integrated the <strong>{{ page.title }}</strong> machine translation API.{% endif %}
+    <a href="#integrations">1 machine translation management system</a> {% if page.active != true %}had{% else %}has{% endif %} integrated the <strong>{{ page.title }}</strong> machine translation API.{% endif %}
     {% if page.integrations.size > 1 %}
-    <a href="#integrations">{{ page.integrations | size }} machine translation management systems</a> have <strong>{{ page.title }}</strong> integrations.
+    <a href="#integrations">{{ page.integrations | size }} machine translation management systems</a> {% if page.active != true %}had{% else %}have{% endif %} <strong>{{ page.title }}</strong> integrations.
   {% endif %}
 </p>
 
 
   {% if page.customisation.size > 0 %}
-  <a href="/customisation">Customisation</a> is supported.
+  <a href="/customisation">Customisation</a> {% if page.active != true %}was{% else %}is{% endif %} supported.
   {% endif %}
   {% if page.customisation contains 'Glossary' %}
-    <a href="/glossaries">Glossaries</a> can be used to customise the translation of specific words and phrases.
+    <a href="/glossaries">Glossaries</a> {% if page.active != true %}could{% else %}can{% endif %} be used to customise the translation of specific words and phrases.
   {% endif %}
   {% if page.customisation contains 'Formality' %}
-    The API can also be customised for <a href="/formality">formality</a>.
+    The API {% if page.active != true %}could{% else %}can{% endif %} also be customised for <a href="/formality">formality</a>.
   {% endif %}
   {% if page.customisation contains 'Fine-tuning' %}
-    <a href="/fine-tuning">Fine-tuning</a> on <a href="/parallel-data">parallel data</a> can be used to customise the model.
+    <a href="/fine-tuning">Fine-tuning</a> on <a href="/parallel-data">parallel data</a> {% if page.active != true %}could{% else %}can{% endif %} be used to customise the model.
   {% endif %}
   {% if page.customisation contains 'Adaptive' %}
-    The API also supports <a href="/adaptive">adaptive</a> customisation.
+    The API also {% if page.active != true %}supported{% else %}supports{% endif %} <a href="/adaptive">adaptive</a> customisation.
   {% endif %} <br>
 
   {% assign links = "" | split: "" %}
@@ -69,7 +69,7 @@ parent: Translation APIs
 
 
   {% if links.size > 0 %}
-    The API supports 
+    The API {% if page.active != true %}supported{% else %}supports{% endif %} 
     {% for link in links %}
       {% if forloop.last and links.size > 1 %}
         and {{ link }}
@@ -85,7 +85,7 @@ parent: Translation APIs
 
 <p>
   {% if page.prompt_required == true %}
-    The <strong>{{ page.title }}</strong> API is <strong>not translation-specific</strong>, so for translation it <strong>requires a <a href="/prompting">prompt</a></strong>.
+    The <strong>{{ page.title }}</strong> API {% if page.active != true %}was{% else %}is{% endif %} <strong>not translation-specific</strong>, so for translation it <strong>{% if page.active != true %}required{% else %}requirs{% endif %} a <a href="/prompting">prompt</a></strong>.
   {% endif %}
 </p>
 
@@ -99,7 +99,7 @@ parent: Translation APIs
   {% else %}
     <dd><a href="#language-support">{{ page.supported_languages | size }} languages</a>
     {% if page.more_languages_by_request %}
-      - more languages available by request
+      - more languages {% if page.active != true %}were{% endif %} available by request
     {% endif %}
     </dd>
   {% endif %}
@@ -191,9 +191,9 @@ parent: Translation APIs
           {{ page.supported_languages_comment }}
         {% endif %}
         {% if page.supported_languages.size == 1 %}
-          <strong>1</strong> language is supported by the {{ page.title }} API.
+          <strong>1</strong> language {% if page.active != true %}was{% else %}is{% endif %} supported by the {{ page.title }} API.
         {% else %}
-          <strong>{{ page.supported_languages | size }}</strong> languages are supported by the {{ page.title }} API.
+          <strong>{{ page.supported_languages | size }}</strong> languages {% if page.active != true %}were{% else %}are{% endif %} supported by the {{ page.title }} API.
         {% endif %}
         <p class="preview hint">
           {{ page.supported_languages | slice: 0, 5 | map: 'name' | join: ', ' }}
@@ -221,7 +221,7 @@ parent: Translation APIs
 
 {% else %}
 
-  <p>The {{ page.title }} API supports an unknown number of languages.</p>
+  <p>The {{ page.title }} API {% if page.active != true %}supported{% else %}supports{% endif %} an unknown number of languages.</p>
 </section>
 
 {% endif %}
@@ -232,9 +232,9 @@ parent: Translation APIs
   <details>
     <summary>
       {% if page.integrations.size == 1 %}
-        <strong>1</strong> translation management system has integrated the {{ page.title }} API.
+        <strong>1</strong> translation management system {% if page.active != true %}had{% else %}has{% endif %} integrated the {{ page.title }} API.
       {% else %}
-        <strong>{{ page.integrations | size }}</strong> translation management systems have integrated the {{ page.title }} API.
+        <strong>{{ page.integrations | size }}</strong> translation management systems {% if page.active != true %}had{% else %}have{% endif %} integrated the {{ page.title }} API.
       {% endif %}
       <p class="preview hint">
         {{ page.integrations | slice: 0, 5 | map: 'name' | join: ', ' }}

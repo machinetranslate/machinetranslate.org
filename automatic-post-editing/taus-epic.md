@@ -681,6 +681,7 @@ more_by_company:
 - quality_estimation_apis:
   - id: taus
     name: TAUS
+active: true
 seo:
   name: The TAUS EPIC automatic post-editing API
   type: Product

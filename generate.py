@@ -1070,6 +1070,7 @@ for ape in AUTOMATIC_POST_EDITING:
       'integrations': integrations,
       'company': company,
       'more_by_company': more_by_company,
+      'active': ape.get('active', True),
       'seo': {
         'name': desc,
         'type': 'Product'
