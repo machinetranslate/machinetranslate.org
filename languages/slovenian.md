@@ -33,10 +33,6 @@ supported_apis:
   name: Supertext
   codes:
   - sl
-- id: deepl
-  name: DeepL
-  codes:
-  - sl
 - id: etranslation
   name: eTranslation
   codes:
@@ -139,6 +135,10 @@ supported_apis:
   - sl
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - sl
+- id: deepl
+  name: DeepL
   codes:
   - sl
 - id: lingvanex

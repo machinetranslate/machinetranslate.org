@@ -31,10 +31,6 @@ supported_apis:
   name: Tilde
   codes:
   - lt
-- id: deepl
-  name: DeepL
-  codes:
-  - lt
 - id: etranslation
   name: eTranslation
   codes:
@@ -129,6 +125,10 @@ supported_apis:
   - lt
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - lt
+- id: deepl
+  name: DeepL
   codes:
   - lt
 - id: lingvanex

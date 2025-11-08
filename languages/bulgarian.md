@@ -31,10 +31,6 @@ supported_apis:
   name: Tilde
   codes:
   - bg
-- id: deepl
-  name: DeepL
-  codes:
-  - bg
 - id: unbabel
   name: Unbabel
   codes:
@@ -149,6 +145,10 @@ supported_apis:
   - bg
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - bg
+- id: deepl
+  name: DeepL
   codes:
   - bg
 - id: lingvanex

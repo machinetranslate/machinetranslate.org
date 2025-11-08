@@ -130,11 +130,6 @@ supported_apis:
   name: Reverso
   codes:
   - zh
-- id: deepl
-  name: DeepL
-  codes:
-  - zh-Hans
-  - zh-Hant
 - id: unbabel
   name: Unbabel
   codes:
@@ -266,6 +261,11 @@ supported_apis:
   - zh
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - zh-Hans
+  - zh-Hant
+- id: deepl
+  name: DeepL
   codes:
   - zh-Hans
   - zh-Hant

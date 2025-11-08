@@ -40,10 +40,6 @@ supported_apis:
   name: Reverso
   codes:
   - sk
-- id: deepl
-  name: DeepL
-  codes:
-  - sk
 - id: lara
   name: Lara
   codes:
@@ -150,6 +146,10 @@ supported_apis:
   - sk
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - sk
+- id: deepl
+  name: DeepL
   codes:
   - sk
 - id: lingvanex
