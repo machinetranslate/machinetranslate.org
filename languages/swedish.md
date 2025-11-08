@@ -61,10 +61,6 @@ supported_apis:
   name: Reverso
   codes:
   - sv
-- id: deepl
-  name: DeepL
-  codes:
-  - sv
 - id: unbabel
   name: Unbabel
   codes:
@@ -179,6 +175,10 @@ supported_apis:
   - sv
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - sv
+- id: deepl
+  name: DeepL
   codes:
   - sv
 - id: lingvanex

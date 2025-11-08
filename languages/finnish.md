@@ -55,10 +55,6 @@ supported_apis:
   name: Lingmo Translation
   codes:
   - fi-fi
-- id: deepl
-  name: DeepL
-  codes:
-  - fi
 - id: unbabel
   name: Unbabel
   codes:
@@ -169,6 +165,10 @@ supported_apis:
   - fi
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - fi
+- id: deepl
+  name: DeepL
   codes:
   - fi
 - id: lingvanex

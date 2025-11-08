@@ -133,10 +133,6 @@ supported_apis:
   name: Reverso
   codes:
   - fr
-- id: deepl
-  name: DeepL
-  codes:
-  - fr
 - id: unbabel
   name: Unbabel
   codes:
@@ -263,6 +259,10 @@ supported_apis:
   codes:
   - fr
   - fr-ca
+- id: deepl
+  name: DeepL
+  codes:
+  - fr
 - id: lingvanex
   name: LingvaNex
   codes:

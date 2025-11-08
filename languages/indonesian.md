@@ -62,10 +62,6 @@ supported_apis:
   name: Lingmo Translation
   codes:
   - id-id
-- id: deepl
-  name: DeepL
-  codes:
-  - id
 - id: unbabel
   name: Unbabel
   codes:
@@ -164,6 +160,10 @@ supported_apis:
   - id
 - id: microsoft
   name: Microsoft Translator
+  codes:
+  - id
+- id: deepl
+  name: DeepL
   codes:
   - id
 - id: lingvanex
