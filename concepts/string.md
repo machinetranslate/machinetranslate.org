@@ -25,12 +25,14 @@ So a string can even be used for a paragraph or book.
 
 ## Encoding
 
-In software, every character has a unique number.
+Computers deal with numbers, not with characters.  In order to represent a character, it has to be encoded into a series of bits.  Since computers deal with bytes (8 bits), a character is typically encoded into one or several bytes of data.
 
-The computer does not know what letters are, only numbers.
-So every character needs to be represented by a unique number (codepoint).
+First, one has to decide how many characters we care to represent.   That's what is called the **character set**.   Each characted is typically assigned a **codepoint**.
+Then, one has to decide how to encode these characters, i.e. which byte values to assign for that codepoint.
 
-For example, the **ASCII** standard maps English and other particularly useful characters to numbers.
+A character set can have one or several possible encodings. 
+
+The **ASCII** standard defines 128 characters and a single encoding.  Here is an example of a few ASCII characters and their decimal byte values:
 
 | Character | Decimal representation |
 | ... | ... |
@@ -46,13 +48,16 @@ ASCII only has 128 characters.
 - the letters of the Latin alphabet required for basic English
 - common punctuation characters
 - control characters
+
 ASCII cannot represent `β`, `喂`, or even `é`.
 
-In the early days of the internet, multiple standards evolved to represent text content in more languages.
-In the 2000s, the **UTF-8** standard became the most popular encoding on the internet.
+As the computer world became more international, a better character set quickly became necessary. Early attempts consisted in extending ASCII to multiple code pages, with each codepage being able to represent a group of characters used in a given set of languages.  That started with DOS, and continued with Windows 3.x and future versions. But that was poorly interchangeable, as the same byte values could represent different characters depending on which codepage was used.
 
-The most common problem is when text is encoded with one standard, but decoded with another.
-The result is often unreadable.
+In 1991, a new standard emerged called Unicode.  Its goal was to represent as many characters as possible in a single character set and solve the interoperability issue. Its first version contained over 7000 characters.  As of September 2022, Unicode is in version 15.0 and contains 149,186 characters or codepoints!
+
+Unicode has many different encodings. The most common one is **UTF-8**, but other exist like **UTF-16** or even **UTF-32**.  UTF-8 is a variable length encoding, while UTF-32 is fixed length (as long as the character set doesnt try to represent more than 4 billion chars!). UTF-32 is a memory hog, but it is predictable since it's fixed length and it has the advantage that the byte values are an exact match to the codepoint value.  UTF-16 is also variable length, not fixed length, a mistake often made by newbie developers.  In UTF-16, in order to represent characters beyond the first plane of Unicode (Basic Multilingual plane), the encoding uses **surrogate pairs**.  Don't ever assume that a character is always encoded with 2 bytes in UTF-16!
+
+A common problem is that legacy character sets and their encodings are still supported by many operating systems (for compatibility reasons with old software), while newer systems may use a Unicode encoding. When text is encoded with one standard, but decoded with another, the result is often unreadable.
 
 > Example of an encoding problem
 > The text  
