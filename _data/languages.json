@@ -1,4 +1,33 @@
 [
+   {
+    "codes": [
+        "guw"
+    ],
+    "names": [
+        "Gungbe",
+        "Gun"
+        
+    ],
+    "family": [
+        "Niger–Congo",
+        "Gbe"
+    ],
+    "scripts": [
+        "Latn"
+    ],
+    "typology": {
+        "word_order": [
+            "SVO"
+        ],
+        "morphosyntax": [
+            "analytic"
+        ]
+    },
+    "territories": [
+        "bj",
+        "ng"
+    ]
+},
     {
         "codes": [
             "ab"
