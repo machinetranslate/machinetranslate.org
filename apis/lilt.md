@@ -9,7 +9,7 @@ id: lilt
 parent: Translation APIs
 urls:
 - https://lilt.com
-- https://support.lilt.com/kb/11075725.html
+- https://support.lilt.com/kb/what-s-new-in-the-lilt-platform
 privacy_url: https://lilt.com/technology/security
 self_serve: false
 prompt_required: false

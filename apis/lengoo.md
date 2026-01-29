@@ -33,7 +33,7 @@ company:
   id: lengoo
   name: Lengoo
 more_by_company: []
-active: true
+active: false
 seo:
   name: The Lengoo machine translation API
   type: Product

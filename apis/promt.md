@@ -9,7 +9,7 @@ id: promt
 parent: Translation APIs
 urls:
 - https://www.promt.com
-- https://www.promt.com/translation_software/corporate/developer/promt-cloud
+- https://www.promt.com/translation_software/corporate/promt-translation-server-neural/
 privacy_url: null
 self_serve: false
 prompt_required: false

@@ -9,8 +9,7 @@
         
     ],
     "family": [
-        "Niger–Congo",
-        "Gbe"
+        "nic"
     ],
     "scripts": [
         "Latn"
@@ -8021,11 +8020,6 @@
     {
         "codes": [
             "gur"
-        ]
-    },
-    {
-        "codes": [
-            "guw"
         ]
     },
     {

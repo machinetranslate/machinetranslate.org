@@ -783,7 +783,7 @@ more_by_company:
 - translation_apis:
   - id: neuralspace
     name: NeuralSpace
-active: true
+active: false
 seo:
   name: The NeuralSpace machine translation API
   type: Product
