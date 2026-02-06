@@ -38,6 +38,29 @@ The **Scalar Quality Metric** (**SQM**) evaluation gathers scalar ratings at the
 A table row displays every source segment and its corresponding translated segment from the document. 
 For each segment, humans choose a rating on a seven-point scale.
 
+### Direct assessment
+
+In **direct assessment**, for each input, humans rate the output from each system with an absolute score or label.
+The sequence-level ratings can then be used to calculate system-level ranking.
+
+Direct assessment was first added as an investigatory ranking for WMT16.
+Direct assessment is the official ranking for the translation shared task since WMT17.
+
+There are different types of direct assessment.
+
+- Monolingual: Human raters see the system output only.
+- Bilingual: Human raters see the system input and output.
+- Reference-based: Human raters see the system output and a reference output.
+
+For [WMT22](/wmt22), a combination of direct assessment and [SQM](#sqm) was used for the evaluation of out-of-english and non-english translation pairs.
+
+### ESA
+
+**Error Span Annotation** (**ESA**) is a combination of lightweight veersion of MQM and direct assessment.
+In this case, annotators first mark the error spans with severity (minor or major) but still assign a final score for each segment.
+An AI-assisted version of this annotation protocol, dubbed **ESA<sup>AI</sup>** has the error spans pre-filled with a quality-estimation model, which the annotator post-edits and assigns a final score on.
+This protocol is the default for WMT sice [WMT23](/wmt23).
+
 ### Average score and average z-score
 
 For the **average score**, human assessment scores for translations are standardised according to each human assessor’s overall mean and standard deviation.
@@ -46,11 +69,11 @@ Then a system-level score is computed.
 **Average z-score** is a normalised version.
 It shows the distance between the average score for a system and the mean average score across all systems.
 
-Average score and average z-score are the main metrics used in the results for the translation shared task since [WMT17](/wmt17).
+Average score and average z-score are the main metrics used in the results for the translation shared from [WMT17](/wmt17) to [WMT22](/wmt22).
 
 ### TrueSkill
 
-**TrueSkill** is a gaming rating system.
+**TrueSkill** is a gaming rating system that is able to estimate model performance given a partial list of relative ranking comparisons.
 Microsoft Research originally developed it for the Xbox Live gaming community.
 For [WMT](/wmt), TrueSkill was adapted to machine translation evaluation.
 
@@ -85,18 +108,23 @@ The acceptability score measures the per cent of a system translation that was j
 
 Yes or no constituent judgement was added as an official ranking for WMT08.
 
-### Direct assessment
 
-In **direct assessment**, for each input, humans rate the output from each system with an absolute score or label.
-The sequence-level ratings can then be used to calculate system-level ranking.
+## Tools
 
-Direct assessment was first added as an investigatory ranking for WMT16.
-Direct assessment is the official ranking for the translation shared task since WMT17.
+The annotation protocols are formal description of how human assessments of translation quality are solicited.
+This is independent of the actual implementation.
 
-There are different types of direct assessment.
+### Appraise
 
-- Monolingual: Human raters see the system output only.
-- Bilingual: Human raters see the system input and output.
-- Reference-based: Human raters see the system output and a reference output.
+The Appraise tool has been used by the translation shared task since [WMT16](/wmt16) until [WMT25](/wmt25) and implements many of the above protocols.
+>
+> ##### SQM protocol example in the Appraise tool
+> <img title='SQM protocol example for Chinese to English translation in the Appraise tool' src='/building-and-research/metrics/appraise.png' width='700' style='padding: 1em;' />
 
-For [WMT22](/wmt22), a combination of direct assessment and [SQM](#sqm) was used for the evaluation of out-of-english and non-english translation pairs.
+
+### Pearmut
+
+To help with the ease of use, reproducibility, and ultimately increase the presence of human evaluation, Pearmut was proposed as a lightweight alternative that implements most of the above protocols.
+>
+> ##### ESA protocol example in the Pearmut tool
+> <img title='ESA protocol example for English to Czech translation in the Pearmut tool' src='/building-and-research/metrics/pearmut.png' width='700' style='padding: 1em;' />
