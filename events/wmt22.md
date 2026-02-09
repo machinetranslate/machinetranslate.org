@@ -794,7 +794,7 @@ results:
     url: https://statmt.org/wmt22/pdf/2022.wmt-1.1.pdf
   scoring_table:
   - language: → English
-    sentence: The results were determined with a monolingual <a href='/human-evaluation-metrics#direct-assessment'>direct
+    sentence: The results were determined with a monolingual <a href='/human-annotation-protocols#direct-assessment'>direct
       assessment</a> with document context.
     evaluations:
     - language_pair: Czech →
@@ -827,7 +827,7 @@ results:
       average_z_score: −0.026
   - language: English →
     sentence: 'The results were determined with a bilingual direct assessment with
-      <a href=''/human-evaluation-metrics#sqm''>scalar quality metric</a> (SQM) in
+      <a href=''/human-annotation-protocols#sqm''>scalar quality metric</a> (SQM) in
       a full document. For English → Livonian, the results were determined with a
       bilingual direct assessment without document context. '
     evaluations:

@@ -56,19 +56,21 @@ The score can correlate well with human evaluation scores.
 But the scores are not explainable or fair, so they cannot be used in a research competition.
 
 
-## Human evaluation metrics
+## Human annotation protocols
 
 Human evaluation is the gold standard.
 
-- [MQM](/human-evaluation-metrics#mqm)
-- [SQM](/human-evaluation-metrics#sqm)
-- [Average score and average z-score](/human-evaluation-metrics#average-score-and-average-z-score)
-- [TrueSkill](/human-evaluation-metrics#trueskill)
-- [Adecuacy and fluency judgement](/human-evaluation-metrics#adequacy-and-fluency-judgement)
-- [Relative ranking](/human-evaluation-metrics#relative-ranking)
-- [Constituent ranking](/human-evaluation-metrics#constituent-ranking)
-- [Yes or no constituent judgement](/human-evaluation-metrics#yes-or-no-constituent-judgement)
-- [Direct assessment](/human-evaluation-metrics#direct-assessment)
+- [Direct assessment](/human-annotation-protocols#direct-assessment)
+- [MQM](/human-annotation-protocols#mqm)
+- [ESA](/human-annotation-protocols#esa)
+- [ESA<sup>AI</sup>](/human-annotation-protocols#esa)
+- [Average score and average z-score](/human-annotation-protocols#average-score-and-average-z-score)
+- [TrueSkill](/human-annotation-protocols#trueskill)
+- [Adecuacy and fluency judgement](/human-annotation-protocols#adequacy-and-fluency-judgement)
+- [Relative ranking](/human-annotation-protocols#relative-ranking)
+- [Constituent ranking](/human-annotation-protocols#constituent-ranking)
+- [Yes or no constituent judgement](/human-annotation-protocols#yes-or-no-constituent-judgement)
+- [Direct assessment](/human-annotation-protocols#direct-assessment)
 
 But human evaluation is slow, expensive and subjective.
 
