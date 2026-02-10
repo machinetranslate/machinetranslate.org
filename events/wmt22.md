@@ -827,7 +827,7 @@ results:
       average_z_score: −0.026
   - language: English →
     sentence: 'The results were determined with a bilingual direct assessment with
-      <a href=''/human-annotation-protocols#sqm''>scalar quality metric</a> (SQM) in
+      <a href=''/human-annotation-protocols#direct-assessment''>scalar quality metric</a> (SQM) in
       a full document. For English → Livonian, the results were determined with a
       bilingual direct assessment without document context. '
     evaluations:
