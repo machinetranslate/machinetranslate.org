@@ -76,16 +76,16 @@ supported_apis:
   name: Tilde
   codes:
   - nl
-- id: supertext
-  name: Supertext
-  codes:
-  - nl
 - id: lingmo
   name: Lingmo Translation
   codes:
   - nl-nl
 - id: reverso
   name: Reverso
+  codes:
+  - nl
+- id: supertext
+  name: Supertext
   codes:
   - nl
 - id: unbabel

@@ -89,16 +89,16 @@ supported_apis:
   name: Rozetta T-400
   codes:
   - it
-- id: supertext
-  name: Supertext
-  codes:
-  - it
 - id: lingmo
   name: Lingmo Translation
   codes:
   - it-it
 - id: reverso
   name: Reverso
+  codes:
+  - it
+- id: supertext
+  name: Supertext
   codes:
   - it
 - id: unbabel

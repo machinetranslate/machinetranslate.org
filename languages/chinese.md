@@ -118,16 +118,16 @@ supported_apis:
   codes:
   - zh-Hans
   - zh-Hant
-- id: supertext
-  name: Supertext
-  codes:
-  - zh
 - id: lingmo
   name: Lingmo Translation
   codes:
   - zh-Hans
 - id: reverso
   name: Reverso
+  codes:
+  - zh
+- id: supertext
+  name: Supertext
   codes:
   - zh
 - id: unbabel

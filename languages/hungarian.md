@@ -39,16 +39,16 @@ supported_apis:
   name: Tilde
   codes:
   - hu
-- id: supertext
-  name: Supertext
-  codes:
-  - hu
 - id: lingmo
   name: Lingmo Translation
   codes:
   - hu-hu
 - id: reverso
   name: Reverso
+  codes:
+  - hu
+- id: supertext
+  name: Supertext
   codes:
   - hu
 - id: unbabel

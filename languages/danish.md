@@ -43,12 +43,12 @@ supported_apis:
   name: Tilde
   codes:
   - da
-- id: supertext
-  name: Supertext
-  codes:
-  - da
 - id: reverso
   name: Reverso
+  codes:
+  - da
+- id: supertext
+  name: Supertext
   codes:
   - da
 - id: unbabel

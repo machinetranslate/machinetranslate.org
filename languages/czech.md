@@ -41,16 +41,16 @@ supported_apis:
   name: Tilde
   codes:
   - cs
-- id: supertext
-  name: Supertext
-  codes:
-  - cs
 - id: lingmo
   name: Lingmo Translation
   codes:
   - cs-cz
 - id: reverso
   name: Reverso
+  codes:
+  - cs
+- id: supertext
+  name: Supertext
   codes:
   - cs
 - id: unbabel

@@ -37,7 +37,6 @@ seo:
     url: https://statmt.org/wmt26
 
 ---
-
 ## Shared tasks
 
 - [General MT (News)](https://www2.statmt.org/wmt26/translation-task.html)
@@ -59,4 +58,3 @@ seo:
 - MT inference
 - Manual and automatic methods for evaluating MT
 - Quality estimation for MT
-

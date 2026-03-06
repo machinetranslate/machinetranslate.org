@@ -28,16 +28,16 @@ typology:
 territories:
 - sk
 supported_apis:
-- id: supertext
-  name: Supertext
-  codes:
-  - sk
 - id: lingmo
   name: Lingmo Translation
   codes:
   - sk-sk
 - id: reverso
   name: Reverso
+  codes:
+  - sk
+- id: supertext
+  name: Supertext
   codes:
   - sk
 - id: lara

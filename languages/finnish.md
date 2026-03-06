@@ -47,14 +47,14 @@ supported_apis:
   name: Rozetta T-400
   codes:
   - fi
-- id: supertext
-  name: Supertext
-  codes:
-  - fi
 - id: lingmo
   name: Lingmo Translation
   codes:
   - fi-fi
+- id: supertext
+  name: Supertext
+  codes:
+  - fi
 - id: unbabel
   name: Unbabel
   codes:
