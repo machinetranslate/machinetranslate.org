@@ -9,7 +9,7 @@ id: lingmo
 parent: Translation APIs
 urls:
 - https://lingmointernationalnet.wordpress.com
-- http://live.lingmo-api.com/support/lingmo-translation-languages.html
+- https://lingmointernationalnet.wordpress.com/lingmo-languages/
 privacy_url: null
 self_serve: null
 prompt_required: false

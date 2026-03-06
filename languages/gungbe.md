@@ -5,11 +5,26 @@ nav_order: 999
 nav_exclude: true
 parent: Languages
 layout: language
-title: <code>guw</code>
-description: Machine translation for <code>guw</code>
+title: Gungbe
+description: Machine translation for Gungbe
 codes:
 - guw
-family: []
+names:
+- Gungbe
+- Gun
+family:
+- slug: niger-congo
+  name: Niger-Congo
+scripts:
+- Latn
+typology:
+  word_order:
+  - SVO
+  morphosyntax:
+  - analytic
+territories:
+- bj
+- ng
 supported_apis:
 - id: niutrans
   name: Niutrans
@@ -18,7 +33,7 @@ supported_apis:
 supported_qe_apis: []
 supported_ape_apis: []
 seo:
-  name: Machine translation for <code>guw</code>
+  name: Machine translation for Gungbe
   type: Language
 
 ---

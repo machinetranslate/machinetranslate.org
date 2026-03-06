@@ -764,11 +764,11 @@ supported_languages:
   base_code: gur
   name: null
   variant_name: null
-- slug: guw
+- slug: gungbe
   code: guw
   normalized_code: guw
   base_code: guw
-  name: null
+  name: Gungbe
   variant_name: null
 - slug: manx
   code: gv

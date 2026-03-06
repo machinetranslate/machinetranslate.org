@@ -30,7 +30,7 @@ more_by_company:
     name: Lucy
   - id: octavemt
     name: OctaveMT
-active: true
+active: false
 seo:
   name: The OctaveMT machine translation API
   type: Product

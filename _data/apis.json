@@ -82,6 +82,7 @@
         "name": "Alibaba Translate",
         "id": "alibaba",
         "company": "alibaba-group",
+        "languages_url": "https://www.alibabacloud.com/help/en/machine-translation/product-overview/general-version-of-machine-translation",
         "urls": [
             "https://www.alibabacloud.com/en/product/machine-translation",
             "https://www.alibabacloud.com/help/en/machine-translation/latest/general-version-of-machine-translation"
@@ -319,6 +320,7 @@
         "name": "Amazon Translate",
         "id": "amazon",
         "company": "amazon",
+        "languages_url": "https://docs.aws.amazon.com/translate/latest/dg/what-is-languages.html",
         "urls": [
             "https://aws.amazon.com/en/translate",
             "https://docs.aws.amazon.com/translate/latest/dg/what-is.html"
@@ -429,6 +431,7 @@
         "alternative_names": "Prompsit",
         "id": "apertium",
         "company": "apertium",
+        "languages_url": "https://wiki.apertium.org/wiki/Main_Page",
         "urls": [
             "https://www.apertium.org",
             "https://wiki.apertium.org/wiki/Main_Page"
@@ -841,6 +844,7 @@
         "name": "AppTek",
         "id": "apptek",
         "company": "apptek",
+        "languages_url": "https://www.apptek.ai/technology/machine-translation",
         "urls": [
             "https://www.apptek.com",
             "https://docs.apptek.com/reference/machine-translation"
@@ -940,6 +944,7 @@
         "name": "Baidu Translate",
         "id": "baidu",
         "company": "baidu",
+        "languages_url": "https://ai.baidu.com/ai-doc/MT/4kqryjku9#%E8%AF%AD%E7%A7%8D%E5%88%97%E8%A1%A8",
         "urls": [
             "https://ai.baidu.com/tech/mt/text_trans",
             "https://ai.baidu.com/ai-doc/MT/4kqryjku9#语种列表",
@@ -1158,6 +1163,7 @@
         "name": "Belazar",
         "id": "belazar",
         "company": "belazar",
+        "languages_url": "http://belazar.info/belazar/index.php?page=belazar&lng=ru",
         "urls": [
             "http://belazar.info/belazar/index.php?page=belazar&lng=by"
         ],
@@ -1174,6 +1180,7 @@
         "name": "CloudTranslation",
         "id": "cloudtranslation",
         "company": "cloudtranslation",
+        "languages_url": "https://cloudtranslation.com/static/api_en.html#/support",
         "urls": [
             "https://www.cloudtranslation.com",
             "https://cloudtranslation.com/static/api_en.html"
@@ -1215,6 +1222,7 @@
         "name": "DeepL",
         "id": "deepl",
         "company": "deepl",
+        "languages_url": "https://developers.deepl.com/docs/getting-started/supported-languages",
         "urls": [
             "https://www.deepl.com",
             "https://www.deepl.com/en/docs-api/"
@@ -4601,6 +4609,7 @@
         "name": "Elia",
         "id": "elia",
         "company": "elhuyar",
+        "languages_url": "https://elia.eus/translator",
         "urls": [
             "https://elia.eus/start"
         ],
@@ -4702,6 +4711,7 @@
         "name": "Globalese",
         "id": "globalese",
         "company": "globalese",
+        "languages_url": "https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069899/Stock+corpora",
         "urls": [
             "https://www.globalese-mt.com",
             "https://globalese.atlassian.net/wiki/spaces/DOCS/pages/647069899/Stock+corpora"
@@ -4979,6 +4989,7 @@
         ],
         "id": "google",
         "company": "google",
+        "languages_url": "https://docs.cloud.google.com/translate/docs/languages",
         "urls": [
             "https://console.cloud.google.com/apis/library/translate.googleapis.com",
             "https://cloud.google.com/translate/docs/languages",
@@ -6154,8 +6165,9 @@
         "name": "Kodensha MT",
         "id": "kodensha",
         "company": "kodensha",
+        "languages_url": "https://kodensha.j-server.com/LUCKDS/ns/tl.cgi/https://www.kodensha.jp/index/products/jsoc/?SLANG=ja&TLANG=en&XMODE=0&XPARAM=q,&XCHARSET=UTF-8&XPORG=,&XJSID=0",
         "urls": [
-            "https://kodensha.j-server.com/LUCKDS/ns/tl.cgi/https://www.kodensha.jp/index/products/category/cloud/?SLANG=ja&TLANG=en&XMODE=0&XPARAM=q,SURL,trans_src,&XCHARSET=UTF-8&XPORG=,687474703a2f2f,,&XJSID=0#heading"
+            "https://www.kodensha.jp/index/products/category/cloud/?SLANG=ja&TLANG=en&XMODE=0&XPARAM=q,SURL,trans_src,&XCHARSET=UTF-8&XPORG=,687474703a2f2f,,&XJSID=0#heading"
         ],
         "languages": [
             "ar",
@@ -6211,6 +6223,7 @@
         "name": "Language Weaver",
         "id": "language-weaver",
         "company": "rws",
+        "languages_url": "https://www.rws.com/language-weaver/supported-languages/",
         "urls": [
             "https://www.rws.com/language-weaver",
             "https://docs.rws.com/791593/662987/language-weaver/welcome-to-the-------------language-weaver-documentation"
@@ -6293,6 +6306,7 @@
         "name": "Language Wire",
         "id": "language-wire",
         "company": "language-wire",
+        "languages_url": "https://www.languagewire.com/products/languagewire-translate/",
         "urls": [
             "https://www.languagewire.com/en/technology/languagewire-translate"
         ],
@@ -6329,15 +6343,17 @@
             "speech",
             "text"
         ],
-        "self-serve": false
+        "self-serve": false,
+        "active": false
     },
     {
         "name": "Lilt",
         "id": "lilt",
         "company": "lilt",
+        "languages_url": "https://support.lilt.com/kb/supported-languages",
         "urls": [
             "https://lilt.com",
-            "https://support.lilt.com/kb/11075725.html"
+            "https://support.lilt.com/kb/what-s-new-in-the-lilt-platform"
         ],
         "privacy_url": "https://lilt.com/technology/security",
         "languages": [
@@ -6410,9 +6426,10 @@
         "name": "Lingmo Translation",
         "id": "lingmo",
         "company": "lingmo",
+        "languages_url": "https://lingmointernationalnet.wordpress.com/lingmo-languages/",
         "urls": [
             "https://lingmointernationalnet.wordpress.com",
-            "http://live.lingmo-api.com/support/lingmo-translation-languages.html"
+            "https://lingmointernationalnet.wordpress.com/lingmo-languages/"
         ],
         "languages": [
             "ar-sa",
@@ -6498,6 +6515,7 @@
         "name": "LingvaNex",
         "id": "lingvanex",
         "company": "lingvanex",
+        "languages_url": "https://docs.lingvanex.com/language-support",
         "urls": [
             "https://lingvanex.com",
             "https://docs.lingvanex.com/reference/user-guide"
@@ -6660,6 +6678,7 @@
         "name": "Microsoft Translator",
         "id": "microsoft",
         "company": "microsoft",
+        "languages_url": "https://learn.microsoft.com/en-us/azure/ai-services/translator/language-support",
         "urls": [
             "https://translator.microsoft.com",
             "https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support"
@@ -6857,6 +6876,7 @@
         "name": "Mirai Translator",
         "id": "mirai",
         "company": "mirai-translate",
+        "languages_url": "https://miraitranslate.com/api-translate/",
         "urls": [
             "https://miraitranslate.com/en/",
             "https://miraitranslate.com/en/service/miraitranslator/"
@@ -6985,6 +7005,7 @@
         "name": "ModernMT",
         "id": "modernmt",
         "company": "translated",
+        "languages_url": "https://www.modernmt.com/api/#languages",
         "urls": [
             "https://modernmt.com",
             "https://www.modernmt.com/api/#languages"
@@ -7375,12 +7396,14 @@
         "inputs": [
             "text"
         ],
-        "self-serve": false
+        "self-serve": false,
+        "active": false
     },
     {
         "name": "Niutrans",
         "id": "niutrans",
         "company": "xiaoniu-fanyi",
+        "languages_url": "https://niutrans.com/documents/contents/trans_text#languageList",
         "urls": [
             "https://niutrans.com",
             "https://niutrans.com/documents/contents/trans_text#languageList"
@@ -7808,7 +7831,8 @@
         "inputs": [
             "text"
         ],
-        "self-serve": false
+        "self-serve": false,
+        "active": false
     },
     {
         "name": "Omniscien Technologies",
@@ -7817,6 +7841,7 @@
         ],
         "id": "omniscien",
         "company": "omniscien-technologies",
+        "languages_url": "https://omniscien.com/machine-translation/supported-languages/",
         "urls": [
             "https://omniscien.com",
             "https://omniscien.com/machine-translation/supported-languages/"
@@ -7941,6 +7966,7 @@
         "name": "PangeaMT",
         "id": "pangeamt",
         "company": "pangeanic",
+        "languages_url": "https://pangeanic.com/languages/we-can-translate-more-than-500?hsCtaTracking=d2342ba6-5444-4569-b511-35ddcc53f644%7Cf96564f2-6e2d-4911-8eef-8aa7970f84bb",
         "urls": [
             "https://languagetechnology.pangeanic.com/machine-translation/",
             "https://prod.pangeamt.com/"
@@ -7968,6 +7994,7 @@
         "name": "Papago Translation",
         "id": "papago",
         "company": "naver",
+        "languages_url": "https://guide.ncloud-docs.com/docs/en/papagotranslation-api#papago-text-translation-api",
         "urls": [
             "https://papago.naver.com/business",
             "https://www.ncloud.com/product/aiService/papagoTranslation"
@@ -8050,6 +8077,7 @@
         "name": "Phrase NextMT",
         "id": "phrase-nextmt",
         "company": "phrase",
+        "languages_url": "https://support.phrase.com/hc/en-us/articles/6638250705436-Phrase-NextMT#supported-language-pairs-in-both-directions--0-3",
         "urls": [
             "https://phrase.com/products/phrase-nextmt/"
         ],
@@ -8142,9 +8170,10 @@
         "name": "PROMT",
         "id": "promt",
         "company": "promt",
+        "languages_url": "https://www.promt.com/translation_software/directions/",
         "urls": [
             "https://www.promt.com",
-            "https://www.promt.com/translation_software/corporate/developer/promt-cloud"
+            "https://www.promt.com/translation_software/corporate/promt-translation-server-neural/"
         ],
         "languages": [
             "ar",
@@ -8199,6 +8228,7 @@
         "name": "Reverso",
         "id": "reverso",
         "company": "reverso",
+        "languages_url": "https://www.reverso.net/text-translation",
         "urls": [
             "https://www.reverso.net/text-translation"
         ],
@@ -8300,6 +8330,7 @@
         "name": "SAP Translation Hub",
         "id": "sap",
         "company": "sap",
+        "languages_url": "https://help.sap.com/docs/translation-hub/sap-translation-hub/supported-languages-6854bbb1bd824ffebc3a097a7c0fd45d?q=languages",
         "urls": [
             "https://www.sapstore.com/solutions/40076/SAP-Translation-Hub",
             "https://help.sap.com/docs/SAP_TRANSLATION_HUB/9f73362817cd48339dd8a6acba160f7f/c07bd4ee447b477b9ccb31b3abf5dae3.html?locale=en-US"
@@ -8697,6 +8728,7 @@
         "name": "Skrivanek",
         "id": "skrivanek",
         "company": "skrivanek",
+        "languages_url": "https://skrivanek.com/translations/#:~:text=Languages%20we%20offer",
         "urls": [
             "https://skrivanek.com/other-services/machine-translation/"
         ],
@@ -8723,6 +8755,7 @@
         "name": "Sogou Translate",
         "id": "sogou-translate",
         "company": "sogou",
+        "languages_url": "https://fanyi.sogou.com/text?fr=common_index_nav_pc_product",
         "urls": [
             "https://fanyi.sogou.com/text"
         ],
@@ -8763,6 +8796,7 @@
         "name": "Sunda Translator",
         "id": "sunda",
         "company": "sunda-systems",
+        "languages_url": "https://www.sunda.fi/en",
         "urls": [
             "https://www.sunda.fi",
             "https://www.sunda.fi/en/technology-tools.html"
@@ -8789,6 +8823,7 @@
         "name": "SYSTRAN",
         "id": "systran",
         "company": "systran",
+        "languages_url": "https://www.systransoft.com/resources/language-catalog/",
         "urls": [
             "https://www.systransoft.com",
             "https://docs.systran.net/translatePro/en/index.html"
@@ -9188,6 +9223,7 @@
         "name": "TAPTA",
         "id": "tapta",
         "company": "united-nations",
+        "languages_url": "https://www.un.org/dgacm/en/content/translation",
         "urls": [
             "https://www.un.org/dgacm/en/content/gtext"
         ],
@@ -9208,6 +9244,7 @@
         "name": "Tarjama MT",
         "id": "tarjama-mt",
         "company": "tarjama",
+        "languages_url": "https://translate.tarjama.com/",
         "urls": [
             "https://www.tarjama.com/amt/",
             "https://github.com/machinetranslate/machinetranslate.org/blob/c7a75040f1bdfce144272231a7d253273b58cb33/files/C-TarjamaMTAPIDescription-150622-0817.pdf"
@@ -9239,6 +9276,7 @@
         "name": "Tencent Machine Translation",
         "id": "tencent",
         "company": "tencent",
+        "languages_url": "https://cloud.tencent.com/document/api/551/15619#2.-.E8.BE.93.E5.85.A5.E5.8F.82.E6.95.B0",
         "urls": [
             "https://cloud.tencent.com/product/tmt",
             "https://cloud.tencent.com/document/api/551/15619"
@@ -9721,6 +9759,8 @@
         "name": "Supertext",
         "id": "supertext",
         "company": "supertext",
+        "company": "textshuttle",
+        "languages_url": "https://www.supertext.com/en/",
         "urls": [
           "https://www.supertext.com",
           "https://www.supertext.com/en/documentation/api"
@@ -9770,6 +9810,7 @@
         "name": "TexTra",
         "id": "textra",
         "company": "nict",
+        "languages_url": "https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/api/",
         "urls": [
             "https://mt-auto-minhon-mlt.ucri.jgn-x.jp/",
             "https://mt-auto-minhon-mlt.ucri.jgn-x.jp/content/api/"
@@ -9888,6 +9929,7 @@
         "name": "Tilde",
         "id": "tilde",
         "company": "tilde",
+        "languages_url": "https://help.tilde.ai/tilde-mt/language-support",
         "urls": [
             "https://www.tilde.com/products-and-services/machine-translation",
             "https://www.tilde.com/developers/machine-translation-api"
@@ -11153,6 +11195,7 @@
         "name": "TranslateMe",
         "id": "translateme",
         "company": "translateme",
+        "languages_url": "https://translateme.network/api/",
         "urls": [
             "https://translateme.network",
             "https://translateme.network/api/"
@@ -11221,6 +11264,7 @@
         "name": "Trebe",
         "id": "trebe",
         "company": "vicomtech",
+        "languages_url": "https://apidoc.trebe.org/",
         "urls": [
             "https://demo.trebe.org/en/",
             "https://apidoc.trebe.org/"
@@ -11393,6 +11437,7 @@
         "name": "Unbabel",
         "id": "unbabel",
         "company": "unbabel",
+        "languages_url": "https://unbabel.com/supported-languages/",
         "urls": [
             "https://unbabel.com",
             "https://developers.unbabel.com/reference/mt_translation"
@@ -11442,6 +11487,7 @@
         "name": "XL8",
         "id": "xl8",
         "company": "xl8",
+        "languages_url": "https://api.xl8.ai/v1/trans/languages",
         "urls": [
             "https://www.xl8.ai",
             "https://api.xl8.ai/v1/trans/languages"
@@ -14287,6 +14333,7 @@
         "name": "Yandex Translate",
         "id": "yandex",
         "company": "yandex",
+        "languages_url": "https://yandex.cloud/en/docs/translate/concepts/supported-languages",
         "urls": [
             "https://translate.yandex.com/",
             "https://yandex.com/dev/translate/doc/dg/concepts/api-overview.html"
@@ -14405,6 +14452,7 @@
         "name": "YeeKit",
         "id": "yeekit",
         "company": "gtcom",
+        "languages_url": "https://yeekit.com/site/translate/",
         "urls": [
             "https://api.yeekit.com/mannual.php#docs",
             "https://api.yeekit.com"
@@ -14423,6 +14471,7 @@
         "name": "Youdao Translate",
         "id": "youdao",
         "company": "netease",
+        "languages_url": "https://ai.youdao.com/DOCSIRMA/html/trans/api/wbfy/index.html#section-12",
         "urls": [
             "https://ai.youdao.com/",
             "https://ai.youdao.com/DOCSIRMA/html/自然语言翻译/API文档/文本翻译服务/文本翻译服务-API文档.html"
@@ -15112,6 +15161,7 @@
         "name": "Wordlingo",
         "id": "wordlingo",
         "company": "transperfect",
+        "languages_url": "https://www.worldlingo.com/en/downloads/ServiceAPI.pdf",
         "urls": [
             "https://www.worldlingo.com/en/products/worldlingo_api.html",
             "https://www.worldlingo.com/en/downloads/ServiceAPI.pdf"
@@ -15192,6 +15242,7 @@
         "name": "OpenAI",
         "id": "openai",
         "company": "openai",
+        "languages_url": "https://platform.openai.com/docs/guides/speech-to-text#supported-languages",
         "urls": [
             "https://platform.openai.com/docs/guides/gpt",
             "https://platform.openai.com/docs/guides/prompt-engineering",
@@ -15272,6 +15323,7 @@
         "name": "Anthropic",
         "id": "anthropic",
         "company": "anthropic",
+        "languages_url": "https://platform.claude.com/docs/en/build-with-claude/multilingual-support",
         "urls": [
             "https://docs.anthropic.com",
             "https://www.anthropic.com",
@@ -15419,6 +15471,7 @@
         "name": "Widn",
         "id": "widn",
         "company": "unbabel",
+        "languages_url": "https://www.widn.ai/",
         "urls": [
             "https://www.widn.ai",
             "https://www.widn.ai/api-docs"
@@ -15474,6 +15527,7 @@
         "name": "Lara",
         "id": "lara",
         "company": "translated",
+        "languages_url": "https://developers.laratranslate.com/docs/supported-languages#list-supported-languages",
         "urls": [
             "https://laratranslate.com",
             "https://developers.laratranslate.com/docs/introduction",
@@ -15536,6 +15590,7 @@
         "name": "Sarvam AI",
         "id": "sarvam-ai",
         "company": "sarvam",
+        "languages_url": "https://docs.sarvam.ai/api-reference-docs/text/translate-text",
         "urls": [
             "https://docs.sarvam.ai",
             "https://sarvam.ai"
@@ -15579,7 +15634,8 @@
     {      
         "name": "Qwen-MT",
         "id": "qwen-mt",
-        "company": "alibaba-group", 
+        "company": "alibaba-group",
+        "languages_url": "https://www.alibabacloud.com/help/en/model-studio/machine-translation#14735a54e0rwb",
         "urls": [
             "https://huggingface.co/spaces/Qwen/Qwen3-MT-Demo",
             "https://www.alibabacloud.com/help/en/model-studio/machine-translation",
@@ -15719,6 +15775,7 @@
         "name": "Live Interpreter",
         "id": "live-interpreter",
         "company": "microsoft",
+        "languages_url": "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/language-support?tabs=speech-translation#translate-to-text-languages",
         "urls": [
           "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/how-to-translate-speech?tabs=terminal&pivots=programming-language-csharp#using-live-interpreter-preview-for-real-time-speech-to-speech-translation-with-personal-voice",
           "https://learn.microsoft.com/en-us/azure/ai-services/speech-service/personal-voice-overview",

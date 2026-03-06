@@ -17,7 +17,7 @@ The **features** of machine translation vary across [machine translation APIs](/
 
 APIs usually offer many features not included in raw models:
 - [language identification](/language-identification)
-- segmentation
+- [segmentation](/segment)
 - [bridging](/bridging) (pivoting)
 - [glossary](/glossaries)
 - encoding options
