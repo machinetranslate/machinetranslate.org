@@ -38,3 +38,25 @@ seo:
 
 ---
 
+## Shared tasks
+
+- [General MT (News)](https://www2.statmt.org/wmt26/translation-task.html)
+- [Terminology](https://www2.statmt.org/wmt26/terminology.html)
+- [Open Data](https://www2.statmt.org/wmt26/open-data.html)
+- [Multilingual Instruction](https://www2.statmt.org/wmt26/multilingual-instruction.html)
+
+## Call for papers
+
+### Topics
+
+- MT models (neural, statistical etc.)
+- Analysis of neural models for MT
+- Using comparable corpora for MT
+- Selection and preparation of data for MT
+- Semi-supervised and unsupervised learning for MT, transfer learning
+- Multilingual MT
+- Incorporating linguistic information into MT
+- MT inference
+- Manual and automatic methods for evaluating MT
+- Quality estimation for MT
+
