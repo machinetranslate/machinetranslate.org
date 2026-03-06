@@ -8504,8 +8504,8 @@
     "name": "WMT26",
     "id": "wmt26",
     "description": "Tenth Conference on Machine Translation",
-    "start_date": "2025-11-01",
-    "end_date": "2025-11-01",
+    "start_date": "2026-11-01",
+    "end_date": "2026-11-01",
     "location": {
       "location": "Budapest, Hungary",
       "online": false
