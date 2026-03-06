@@ -1305,6 +1305,23 @@
         ]
     },
     {
+        "name": "Supertext",
+        "id": "supertext",
+        "type": [
+          "machine-translation-provider",
+          "human-translation-service"
+        ],
+        "location": "Switzerland",
+        "founded": 2005,
+        "urls": [
+          "https://www.supertext.com",
+          "https://www.crunchbase.com/organization/supertext-ag"
+        ],
+        "apis": [
+          "supertext"
+        ]
+    },
+    {
         "name": "Tilde",
         "id": "tilde",
         "type": [
