@@ -7893,6 +7893,64 @@
     ]
   },
   {
+    "name": "EAMT 2026",
+    "id": "eamt-2026",
+    "description": "EAMT 2026",
+    "calls_for_papers_deadline": "2025-02-10",
+    "start_date": "2025-06-23",
+    "end_date": "2025-06-27",
+    "location": {
+      "location": "Geneva, Switzerland",
+      "online": false
+    },
+    "organizer": {
+      "type": "Association",
+      "name": "EAMT",
+      "url": "https://eamt.org/"
+    },
+    "links": [
+      "https://eamt2026.org/"
+    ],
+    "important_dates": [
+      {
+        "name": "Workshops submission deadline",
+        "date": "2025-11-12"
+      },
+      {
+        "name": "Notification of acceptance of workshops",
+        "date": "2025-12-01"
+      },
+      {
+        "name": "Tutorials submission deadline",
+        "date": "2026-03-18"
+      },
+      {
+        "name": "Notification of acceptance of tutorials",
+        "date": "2026-04-24"
+      },
+      {
+        "name": "Papers submission deadline",
+        "date": "2026-03-18"
+      },
+      {
+        "name": "Notification of acceptance of papers",
+        "date": "2026-04-24"
+      },
+      {
+        "name": "Workshops",
+        "date": "2026-06-15"
+      },
+      {
+        "name": "Final “camera-ready” versions of papers",
+        "date": "2026-05-08"
+      },
+      {
+        "name": "Tutorial materials deadline",
+        "date": "2026-05-08"
+      }
+    ]
+  },
+  {
     "name": "EAMT 2024",
     "id": "eamt-2024",
     "description": "Conference of the European Association of Machine Translation",
