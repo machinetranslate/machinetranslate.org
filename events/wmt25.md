@@ -38,3 +38,196 @@ seo:
 
 ---
 
+## Schedule
+
+### Day 1
+
+|  |  |
+| --- | --- |
+| 9:00 - 9:10 | **Opening Remarks: 20 Years of WMT** |
+| 9:10 - 10:30 | **Session 1: Shared Task Overview Papers I** |
+| 9:10 - 9:40 | [Findings of the WMT25 General Machine Translation Shared Task: Time to Stop Evaluating on Easy Test Sets](https://aclanthology.org/2025.wmt-1.22.pdf) <br>Tom Kocmi, Ekaterina Artemova, Eleftherios Avramidis, Rachel Bawden, Ondřej Bojar, Konstantin Dranch, Anton Dvorkovich, Sergey Dukanov, Mark Fishel, Markus Freitag, Thamme Gowda, Roman Grundkiewicz, Barry Haddow, Marzena Karpinska, Philipp Koehn, Howard Lakougna, Jessica Lundin, Christof Monz, Kenton Murray, Masaaki Nagata, Stefano Perrella, Lorenzo Proietti, Martin Popel, Maja Popović, Parker Riley, Mariya Shmatova, Steinþór Steingrímsson, Lisa Yankovskaya, Vilém Zouhar |
+| 9:40 - 10:10 | [Findings of the WMT25 Multilingual Instruction Shared Task: Persistent Hurdles in Reasoning, Generation, and Evaluation](https://aclanthology.org/2025.wmt-1.23.pdf) <br>Tom Kocmi, Sweta Agrawal, Ekaterina Artemova, Eleftherios Avramidis, Eleftheria Briakou, Pinzhen Chen, Marzieh Fadaee, Markus Freitag, Roman Grundkiewicz, Yupeng Hou, Philipp Koehn, Julia Kreutzer, Saab Mansour, Stefano Perrella, Lorenzo Proietti, Parker Riley, Eduardo Sánchez, Patricia Schmidtova, Mariya Shmatova, Vilém Zouhar |
+| 10:10 - 10:30 | [Findings of the WMT25 Shared Task on Automated Translation Evaluation Systems: Linguistic Diversity is Challenging and References Still Help](https://aclanthology.org/2025.wmt-1.24.pdf) <br>Alon Lavie, Greg Hanneman, Sweta Agrawal, Diptesh Kanojia, Chi-kiu Lo, Vilém Zouhar, Frederic Blain, Chrysoula Zerva, Eleftherios Avramidis, Sourabh Dattatray Deoghare, Archchana Sindhujan, Jiayi Wang, David Ifeoluwa Adelani, Brian Thompson, Tom Kocmi, Markus Freitag, Daniel Deutsch |
+| 10:30 - 11:00 | ☕️ |
+| 11:00 - 12:00 | **Session 2: Shared Task Posters I** |
+| <br>| General Translation Task |
+| 11:00 - 12:00 | [Midheind at WMT25 General Machine Translation Task](https://aclanthology.org/2025.wmt-1.31.pdf) <br>Svanhvít Lilja Ingólfsdóttir, Haukur Páll Jónsson, Kári Steinn Aðalsteinsson, Róbert Fjölnir Birkisson, Sveinbjörn Þórðarson, Þorvaldur Páll Helgason |
+| 11:00 - 12:00 | [A Preliminary Study of AI Agent Model in Machine Translation](https://aclanthology.org/2025.wmt-1.32.pdf) <br>Ahrii Kim |
+| 11:00 - 12:00 | [Marco Large Translation Model at WMT2025: Transforming Translation Capability in LLMs via Quality-Aware Training and Decoding](https://aclanthology.org/2025.wmt-1.33.pdf) <br>Hao Wang, Linlong Xu, Heng Liu, Yangyang Liu, Xiaohu Zhao, Bo Zeng, Longyue Wang, Weihua Luo, Kaifu Zhang |
+| 11:00 - 12:00 | [Evaluation of QWEN-3 for English to Ukrainian Translation](https://aclanthology.org/2025.wmt-1.34.pdf) <br>Cristian Grozea, Oleg Verbitsky |
+| 11:00 - 12:00 | [SYSTRAN @ WMT 2025 General Translation Task](https://aclanthology.org/2025.wmt-1.35.pdf) <br>Dakun Zhang, Yara Khater, Ramzi Rahli, Anna Rebollo, Josep Crego |
+| 11:00 - 12:00 | [Shy-hunyuan-MT at WMT25 General Machine Translation Shared Task](https://aclanthology.org/2025.wmt-1.36.pdf) <br>Mao Zheng, Zheng Li, Yang Du, Bingxin Qu, Mingyang Song |
+| 11:00 - 12:00 | [From SALAMANDRA to SALAMANDRATA: BSC Submission for WMT25 General Machine Translation Shared Task](https://aclanthology.org/2025.wmt-1.37.pdf) <br>Javier Garcia Gilabert, Xixian Liao, Severino Da Dalt, Ella Bohman, Audrey Mash, Francesca De Luca Fornaciari, Irene Baucells, Joan Llop, Miguel Claramunt, Carlos Escolano, Maite Melero |
+| 11:00 - 12:00 | [Instruction-Tuned English to Bhojpuri Neural Machine Translation Using Contrastive Preference Optimization](https://aclanthology.org/2025.wmt-1.38.pdf) <br>Kshetrimayum Boynao Singh, Deepak Kumar, Asif Ekbal |
+| 11:00 - 12:00 | [SH at WMT25 General Machine Translation Task](https://aclanthology.org/2025.wmt-1.39.pdf) <br>Hayate Shiroma |
+| 11:00 - 12:00 | [Simple Test Time Scaling for Machine Translation: Kaze-MT at the WMT25 General Translation Task](https://aclanthology.org/2025.wmt-1.40.pdf) <br>Shaomu Tan |
+| 11:00 - 12:00 | [NTTSU at WMT2025 General Translation Task](https://aclanthology.org/2025.wmt-1.41.pdf) <br>Zhang Yin, Hiroyuki Deguchi, Haruto Azami, Guanyu Ouyang, Kosei Buma, Yingyi Fu, Katsuki Chousa, Takehito Utsuro |
+| 11:00 - 12:00 | [A* decoding for Machine Translation in LLMs - SRPOL participation in WMT2025](https://aclanthology.org/2025.wmt-1.42.pdf) <br>Adam Dobrowolski, Paweł Przewłocki, Paweł Przybysz, Marcin Szymański, Dawid Siwicki |
+| 11:00 - 12:00 | [In2x at WMT25 Translation Task](https://aclanthology.org/2025.wmt-1.43.pdf) <br>Lei Pang, Hanyi Mao, Quanjia Xiao, Chen Ruihan, Jingjun Zhang, Haixiao Liu, Xiangyi Li |
+| 11:00 - 12:00 | [CUNI at WMT25 General Translation Task](https://aclanthology.org/2025.wmt-1.44.pdf) <br>Josef Jon, Miroslav Hrabal, Martin Popel, Ondřej Bojar |
+| 11:00 - 12:00 | [UvA-MT's Participation in the WMT25 General Translation Shared Task](https://aclanthology.org/2025.wmt-1.45.pdf) <br>Di Wu, Yan Meng, Maya Konstantinovna Nachesa, Seth Aycock, Christof Monz |
+| 11:00 - 12:00 | [AMI at WMT25 General Translation Task: How Low Can We Go? Finetuning Lightweight Llama models for Low Resource Machine Translation](https://aclanthology.org/2025.wmt-1.46.pdf) <br>Atli Jasonarson, Steinthor Steingrimsson |
+| 11:00 - 12:00 | [KIKIS at WMT 2025 General Translation Task](https://aclanthology.org/2025.wmt-1.47.pdf) <br>Koichi Iwakawa, Keito Kudo, Subaru Kimura, Takumi Ito, Jun Suzuki |
+| 11:00 - 12:00 | [Google Translate's Research Submission to WMT2025](https://aclanthology.org/2025.wmt-1.48.pdf) <br>Mara Finkelstein, Geza Kovacs, Isaac Caswell, Tobias Domhan, Jan-Thorsten Peter, Juraj Juraska, Markus Freitag, David Vilar |
+| 11:00 - 12:00 | [DLUT and GTCOM's Large Language Model Based Translation System for WMT25](https://aclanthology.org/2025.wmt-1.49.pdf) <br>Hao Zong, Chao Bei, Wentao Chen, Conghu Yuan, Huan Liu, Degen Huang |
+| 11:00 - 12:00 | [Yandex Submission to the WMT25 General Machine Translation Task](https://aclanthology.org/2025.wmt-1.50.pdf) <br>Nikolay Karpachev, Ekaterina Enikeeva, Dmitry Popov, Arsenii Bulgakov, Daniil Panteleev, Dmitrii Ulianov, Artem Kryukov, Artem Mekhraliev |
+| 11:00 - 12:00 | [IRB-MT at WMT25 Translation Task: A Simple Agentic System Using an Off-the-Shelf LLM](https://aclanthology.org/2025.wmt-1.51.pdf) <br>Ivan Grubišić, Damir Korencic |
+| 11:00 - 12:00 | [Improving Low-Resource Japanese Translation with Fine-Tuning and Backtranslation for the WMT 25 General Translation Task](https://aclanthology.org/2025.wmt-1.52.pdf) <br>Felipe Fujita, Hideyuki Takada |
+| 11:00 - 12:00 | [Multi-agentMT: Deploying AI Agent in the WMT25 Shared Task](https://aclanthology.org/2025.wmt-1.53.pdf) <br>Ahrii Kim |
+| 11:00 - 12:00 | [Laniqo at WMT25 General Translation Task: Self-Improved and Retrieval-Augmented Translation](https://aclanthology.org/2025.wmt-1.54.pdf) <br>Kamil Guttmann, Zofia Rostek, Adrian Charkiewicz, Antoni Solarski, Mikołaj Pokrywka, Artur Nowakowski |
+| 11:00 - 12:00 | [Command-A-Translate: Raising the Bar of Machine Translation with Difficulty Filtering](https://aclanthology.org/2025.wmt-1.55.pdf) <br>Tom Kocmi, Arkady Arkhangorodsky, Alexandre Berard, Phil Blunsom, Samuel Cahyawijaya, Théo Dehaze, Marzieh Fadaee, Nicholas Frosst, Matthias Galle, Aidan Gomez, Nithya Govindarajan, Wei-Yin Ko, Julia Kreutzer, Kelly Marchisio, Ahmet Üstün, Sebastian Vincent, Ivan Zhang |
+| <br>| MT Test Suites Shared Task |
+| 11:00 - 12:00 | [GENDER1PERSON: Test Suite for estimating gender bias of first-person singular forms](https://aclanthology.org/2025.wmt-1.56.pdf) <br>Maja Popović, Ekaterina Lapshinova-Koltunski |
+| 11:00 - 12:00 | [Evaluation of LLM for English to Hindi Legal Domain Machine Translation Systems](https://aclanthology.org/2025.wmt-1.57.pdf) <br>Kshetrimayum Boynao Singh, Deepak Kumar, Asif Ekbal |
+| 11:00 - 12:00 | [RoCS-MT v2 at WMT 2025: Robust Challenge Set for Machine Translation](https://aclanthology.org/2025.wmt-1.58.pdf) <br>Rachel Bawden, Benoît Sagot |
+| 11:00 - 12:00 | [Automated Evaluation for Terminology Translation related to the EEA Agreement](https://aclanthology.org/2025.wmt-1.59.pdf) <br>Selma Dis Hauksdottir, Steinthor Steingrimsson |
+| 11:00 - 12:00 | [Up to Par? MT Systems Take a Shot at Sports Terminology](https://aclanthology.org/2025.wmt-1.60.pdf) <br>Einar Sigurdsson, Magnús Már Magnússon, Atli Jasonarson, Steinthor Steingrimsson |
+| 11:00 - 12:00 | [Fine-Grained Evaluation of English-Russian MT in 2025: Linguistic Challenges Mirroring Human Translator Training](https://aclanthology.org/2025.wmt-1.61.pdf) <br>Shushen Manakhimova, Maria Kunilovskaya, Ekaterina Lapshinova-Koltunski, Eleftherios Avramidis |
+| <br>| Translation Quality Evaluation Shared Task |
+| 11:00 - 12:00 | [Tagged Span Annotation for Detecting Translation Errors in Reasoning LLMs](https://aclanthology.org/2025.wmt-1.62.pdf) <br>Taemin Yeom, Yonghyun Ryu, Yoonjung Choi, JinYeong Bak |
+| 11:00 - 12:00 | [COMET-poly: Machine Translation Metric Grounded in Other Candidates](https://aclanthology.org/2025.wmt-1.63.pdf) <br>Maike Züfle, Vilém Zouhar, Tu Anh Dinh, Felipe Maia Polo, Jan Niehues, Mrinmaya Sachan |
+| 11:00 - 12:00 | [Long-context Reference-based MT Quality Estimation](https://aclanthology.org/2025.wmt-1.64.pdf) <br>Sami Ul Haq, Chinonso Cynthia Osuji, Sheila Castilho, Brian Davis, Thiago Castro Ferreira |
+| 11:00 - 12:00 | [Evaluating WMT 2025 Metrics Shared Task Submissions on the SSA-MTE African Challenge Set](https://aclanthology.org/2025.wmt-1.65.pdf) <br>Senyu Li, Felermino Dario Mario Ali, Jiayi Wang, Rui Sousa-Silva, Henrique Lopes Cardoso, Pontus Stenetorp, Colin Cherry, David Ifeoluwa Adelani |
+| 11:00 - 12:00 | [Nvidia-Nemo's WMT 2025 Metrics Shared Task Submission](https://aclanthology.org/2025.wmt-1.66.pdf) <br>Brian Yan, Shuoyang Ding, Kuang-Da Wang, Siqi Ouyang, Oleksii Hrinchuk, Vitaly Lavrukhin, Boris Ginsburg |
+| 11:00 - 12:00 | [GEMBA V2: Ten Judgments Are Better Than One](https://aclanthology.org/2025.wmt-1.67.pdf) <br>Marcin Junczys-Dowmunt |
+| 11:00 - 12:00 | [CUNI and Phrase at WMT25 MT Evaluation Task](https://aclanthology.org/2025.wmt-1.68.pdf) <br>Miroslav Hrabal, Ondrej Glembek, Aleš Tamchyna, Almut Silja Hildebrand, Alan Eckhard, Miroslav Štola, Sergio Penkale, Zuzana Šimečková, Ondřej Bojar, Alon Lavie, Craig Stewart |
+| 11:00 - 12:00 | [MSLC25: Metric Performance on Low-Quality Machine Translation, Empty Strings, and Language Variants](https://aclanthology.org/2025.wmt-1.69.pdf) <br>Rebecca Knowles, Samuel Larkin, Chi-kiu Lo |
+| 11:00 - 12:00 | [MetricX-25 and GemSpanEval: Google Translate Submissions to the WMT25 Evaluation Shared Task](https://aclanthology.org/2025.wmt-1.70.pdf) <br>Juraj Juraska, Tobias Domhan, Mara Finkelstein, Tetsuji Nakagawa, Geza Kovacs, Daniel Deutsch, Pidong Wang, Markus Freitag |
+| 11:00 - 12:00 | [HW-TSC's submissions to the WMT 2025 Segment-level quality score prediction Task](https://aclanthology.org/2025.wmt-1.71.pdf) <br>Yuanchang Luo, Jiaxin Guo, Daimeng Wei, Hengchao Shang, Zongyao Li, Zhiqiang Rao, Jinlong Yang, Zhanglin Wu, Xiaoyu Chen, Hao Yang |
+| 11:00 - 12:00 | [UvA-MT at WMT25 Evaluation Task: LLM Uncertainty as a Proxy for Translation Quality](https://aclanthology.org/2025.wmt-1.72.pdf) <br>Di Wu, Christof Monz |
+| 11:00 - 12:00 | [Submission for WMT25 Task 3](https://aclanthology.org/2025.wmt-1.73.pdf) <br>Govardhan Padmanabhan |
+| 11:00 - 12:00 | [RankedCOMET: Elevating a 2022 Baseline to a Top-5 Finish in the WMT 2025 QE Task](https://aclanthology.org/2025.wmt-1.74.pdf) <br>Sujal Maharjan, Astha Shrestha |
+| 11:00 - 12:00 | [Quality-Informed Segment-Level Error Correction Using Natural Language Explanations from xTower and Large Language Models](https://aclanthology.org/2025.wmt-1.75.pdf) <br>Prashant K. Sharma |
+| 11:00 - 12:00 | [TASER: Translation Assessment via Systematic Evaluation and Reasoning](https://aclanthology.org/2025.wmt-1.76.pdf) <br>Monishwaran Maheswaran, Marco Carini, Christian Federmann, Tony Diaz |
+| 12:00 - 14:00 | 🍴 |
+| 14:00 - 15:00 | **Session 3: Invited Talk by Longyue Wang (Alibaba): "A Paradigm Shift in Industrial-Scale Multilingual Translation"** |
+| 15:00 - 16:00 | ☕️ |
+| 16:00 - 17:30 | **Session 4: Research Papers Oral Presentations** |
+| 16:00 - 16:15 | [An Empirical Analysis of Machine Translation for Expanding Multilingual Benchmarks](https://aclanthology.org/2025.wmt-1.1.pdf) <br>Sara Rajaee, Rochelle Choenni, Ekaterina Shutova, Christof Monz |
+| 16:15 - 16:30 | [Cross-lingual Human-Preference Alignment for Neural Machine Translation with Direct Quality Optimization](https://aclanthology.org/2025.wmt-1.2.pdf) <br>Kaden Uhlig, Joern Wuebker, Raphael Reinauer, John DeNero |
+| 16:30 - 16:45 | [Audio-Based Crowd-Sourced Evaluation of Machine Translation Quality](https://aclanthology.org/2025.wmt-1.3.pdf) <br>Sami Ul Haq, Sheila Castilho, Yvette Graham |
+| 16:45 - 17:00 | [Meaningful Pose-Based Sign Language Evaluation](https://aclanthology.org/2025.wmt-1.4.pdf) <br>Zifan Jiang, Colin Leong, Amit Moryossef, Oliver Cory, Maksym Ivashechkin, Neha Tarigopula, Biao Zhang, Anne Göhring, Annette Rios, Rico Sennrich, Sarah Ebling |
+| 17:00 - 17:15 | [Context Is Ubiquitous, but Rarely Changes Judgments: Revisiting Document-Level MT Evaluation](https://aclanthology.org/2025.wmt-1.5.pdf) <br>Ahrii Kim |
+| 17:15 - 17:30 | [GIIFT: Graph-guided Inductive Image-free Multimodal Machine Translation](https://aclanthology.org/2025.wmt-1.6.pdf) <br>Jiafeng Xiong, Yuting Zhao |
+
+### Day 2
+
+| <br>| <br>|
+| --- | --- |
+| 9:00 - 10:30 | **Session 5: Shared Task Overview Papers II** |
+| 9:00 - 9:15 | [Findings of the WMT 2025 Shared Task on Model Compression: Early Insights on Compressing LLMs for Machine Translation](https://aclanthology.org/2025.wmt-1.25.pdf) <br>Marco Gaido, Roman Grundkiewicz, Thamme Gowda, Matteo Negri |
+| 9:15 - 9:30 | [Findings of the WMT 2025 Shared Task of the Open Language Data Initiative](https://aclanthology.org/2025.wmt-1.26.pdf) <br>David Dale, Laurie V. Burchell, Jean Maillard, Idris Abdulmumin, Antonios Anastasopoulos, Isaac Caswell, Philipp Koehn |
+| 9:30 - 9:45 | [Findings of the WMT 2025 Shared Task LLMs with Limited Resources for Slavic Languages: MT and QA](https://aclanthology.org/2025.wmt-1.27.pdf) <br>Shu Okabe, Daryna Dementieva, Marion Di Marco, Lukas Edman, Katharina Haemmerl, Marko Měškank, Anita Hendrichowa, Alexander Fraser |
+| 9:45 - 10:00 | [Findings of the First Shared Task for Creole Language Machine Translation at WMT25](https://aclanthology.org/2025.wmt-1.28.pdf) <br>Nathaniel Romney Robinson, Claire Bizon Monroc, Rasul Dent, Stefan Watson, Kenton Murray, Raj Dabre, Andre Coy, Heather Lent |
+| 10:00 - 10:15 | [Findings of WMT 2025 Shared Task on Low-resource Indic Languages Translation](https://aclanthology.org/2025.wmt-1.29.pdf) <br>Partha Pakray, Reddi Mohana Krishna, Santanu Pal, Advaitha Vetagiri, Sandeep Kumar Dash, Arnab Kumar Maji, Saralin A. Lyngdoh, Lenin Laitonjam, Anupam Jamatia, Koj Sambyo, Ajit Das, Riyanka Manna |
+| 10:15 - 10:30 | [Findings of the WMT25 Terminology Translation Task: Terminology is Useful Especially for Good MTs](https://aclanthology.org/2025.wmt-1.30.pdf) <br>Kirill Semenov, Xu Huang, Vilém Zouhar, Nathaniel Berger, Dawei Zhu, Arturo Oncevay, Pinzhen Chen |
+| 10:30 - 11:00 | ☕️ |
+| 11:00 - 12:00 | **Session 6: Shared Task Posters II** |
+| <br>| Model Compression Shared Task |
+| 11:00 - 12:00 | [Vicomtech@WMT 2025: Evolutionary Model Compression for Machine Translation](https://aclanthology.org/2025.wmt-1.77.pdf) <br>David Ponce, Harritxu Gete, Thierry Etchegoyhen |
+| 11:00 - 12:00 | [Iterative Layer Pruning for Efficient Translation Inference](https://aclanthology.org/2025.wmt-1.78.pdf) <br>Yasmin Moslem, Muhammad Hazim Al Farouq, John D. Kelleher |
+| <br>| Open Language Data Initiative |
+| 11:00 - 12:00 | [Expanding the WMT24++ Benchmark with Rumantsch Grischun, Sursilvan, Sutsilvan, Surmiran, Puter, and Vallader](https://aclanthology.org/2025.wmt-1.79.pdf) <br>Jannis Vamvas, Ignacio Pérez Prat, Not Battesta Soliva, Sandra Baltermia-Guetg, Andrina Beeli, Simona Beeli, Madlaina Capeder, Laura Decurtins, Gian Peder Gregori, Flavia Hobi, Gabriela Holderegger, Arina Lazzarini, Viviana Lazzarini, Walter Rosselli, Bettina Vital, Anna Rutkiewicz, Rico Sennrich |
+| 11:00 - 12:00 | [A French Version of the OLDI Seed Corpus](https://aclanthology.org/2025.wmt-1.80.pdf) <br>Malik Marmonier, Benoît Sagot, Rachel Bawden |
+| 11:00 - 12:00 | [Bringing Ladin to FLORES+](https://aclanthology.org/2025.wmt-1.81.pdf) <br>Samuel Frontull, Thomas Ströhle, Carlo Zoli, Werner Pescosta, Ulrike Frenademez, Matteo Ruggeri, Daria Valentin, Karin Comploj, Gabriel Perathoner, Silvia Liotto, Paolo Anvidalfarei |
+| 11:00 - 12:00 | [Correcting the Tamazight Portions of FLORES+ and OLDI Seed Datasets](https://aclanthology.org/2025.wmt-1.82.pdf) <br>Alp Oktem, Mohamed Aymane Farhi, Brahim Essaidi, Naceur Jabouja, Farida Boudichat |
+| 11:00 - 12:00 | [Filling the Gap for Uzbek: Creating Translation Resources for Southern Uzbek](https://aclanthology.org/2025.wmt-1.83.pdf) <br>Mukhammadsaid Mamasaidov, Azizullah Aral, Abror Shopulatov, Mironshoh Inomjonov |
+| 11:00 - 12:00 | [The Kyrgyz Seed Dataset Submission to the WMT25 Open Language Data Initiative Shared Task](https://aclanthology.org/2025.wmt-1.84.pdf) <br>Murat Jumashev, Alina Tillabaeva, Aida Kasieva, Turgunbek Omurkanov, Akylai Musaeva, Meerim Emil kyzy, Gulaiym Chagataeva, Jonathan North Washington |
+| 11:00 - 12:00 | [SMOL: Professionally translated parallel data for 115 under-represented languages](https://aclanthology.org/2025.wmt-1.85.pdf) <br>Isaac Caswell, Elizabeth Nielsen, Jiaming Luo, Colin Cherry, Geza Kovacs, Hadar Shemtov, Partha Talukdar, Dinesh Tewari, Moussa Koulako Bala Doumbouya, Djibrila Diane, Baba Mamadi Diane, Solo Farabado, Edoardo Ferrante, Alessandro Guasoni, Mamadou K. Keita, Sudhamoy DebBarma, Ali Kuzhuget, David Anugraha, Muhammad Ravi Shulthan Habibi, Sina Ahmadi, Mingfei Liu, Jonathan Eng |
+| 11:00 - 12:00 | [Improved Norwegian Bokmål Translations for FLORES](https://aclanthology.org/2025.wmt-1.86.pdf) <br>Petter Mæhlum, Anders Næss Evensen, Yves Scherrer |
+| <br>| Slavic Languages Shared Task |
+| 11:00 - 12:00 | [NRC Systems for the WMT2025-LRSL Shared Task](https://aclanthology.org/2025.wmt-1.87.pdf) <br>Samuel Larkin, Chi-kiu Lo, Rebecca Knowles |
+| 11:00 - 12:00 | [TartuNLP at WMT25 LLMs with Limited Resources for Slavic Languages Shared Task](https://aclanthology.org/2025.wmt-1.88.pdf) <br>Taido Purason, Mark Fishel |
+| 11:00 - 12:00 | [JGU Mainz's Submission to the WMT25 Shared Task on LLMs with Limited Resources for Slavic Languages: MT and QA](https://aclanthology.org/2025.wmt-1.89.pdf) <br>Hossain Shaikh Saadi, Minh Duc Bui, Mario Sanz-Guerrero, Katharina von der Wense |
+| <br>| Creole Language Translation Shared Task |
+| 11:00 - 12:00 | [Krey-All WMT 2025 CreoleMT System Description: Language Agnostic Strategies for Low-Resource Translation](https://aclanthology.org/2025.wmt-1.90.pdf) <br>Ananya Ayasi |
+| 11:00 - 12:00 | [EdinHelsOW WMT 2025 CreoleMT System Description: Improving Lusophone Creole Translation through Data Augmentation, Model Merging and LLM Post-editing](https://aclanthology.org/2025.wmt-1.91.pdf) <br>Jacqueline Rowe, Ona de Gibert, Mateusz Klimaszewski, Coleman Haley, Alexandra Birch, Yves Scherrer |
+| 11:00 - 12:00 | [KozKreolMRU WMT 2025 CreoleMT System Description: Koz Kreol: Multi-Stage Training for English–Mauritian Creole MT](https://aclanthology.org/2025.wmt-1.92.pdf) <br>Yush Rajcoomar |
+| 11:00 - 12:00 | [JHU WMT 2025 CreoleMT System Description: Data for Belizean Kriol and French Guianese Creole MT](https://aclanthology.org/2025.wmt-1.93.pdf) <br>Nathaniel Romney Robinson |
+| 11:00 - 12:00 | [WMT 2025 CreoleMT Systems Description: Martinican Creole and French](https://aclanthology.org/2025.wmt-1.94.pdf) <br>Ludovic V. Mompelat |
+| <br>| Low-Resource Indic Language Translation Shared Task |
+| 11:00 - 12:00 | [JU-NLP: Improving Low-Resource Indic Translation System with Efficient LoRA-Based Adaptation](https://aclanthology.org/2025.wmt-1.95.pdf) <br>Priyobroto Acharya, Haranath Mondal, Dipanjan Saha, Dipankar Das, Sivaji Bandyopadhyay |
+| 11:00 - 12:00 | [An Attention-Based Neural Translation System for English to Bodo](https://aclanthology.org/2025.wmt-1.96.pdf) <br>Subhash Kumar Wary, Birhang Borgoyary, Akher Uddin Ahmed, Mohanji Prasad Sah, Apurbalal Senapati |
+| 11:00 - 12:00 | [Tackling Low-Resource NMT with Instruction-Tuned LLaMA: A Study on Kokborok and Bodo](https://aclanthology.org/2025.wmt-1.97.pdf) <br>Deepak Kumar, Kshetrimayum Boynao Singh, Asif Ekbal |
+| 11:00 - 12:00 | [DELAB-IIITM WMT25: Enhancing Low-Resource Machine Translation for Manipuri and Assamese](https://aclanthology.org/2025.wmt-1.98.pdf) <br>Dingku Singh Oinam, Navanath Saharia |
+| 11:00 - 12:00 | [Transformers: Leveraging OpenNMT and Transfer Learning for Low-Resource Indian Language Translation](https://aclanthology.org/2025.wmt-1.99.pdf) <br>Bhagyashree Wagh, Harish Bapat, Neha Gupta, Saurabh Salunkhe |
+| 11:00 - 12:00 | [RBG-AI: Benefits of Multilingual Language Models for Low-Resource Languages](https://aclanthology.org/2025.wmt-1.100.pdf) <br>Barathi Ganesh HB, Michal Ptaszynski |
+| 11:00 - 12:00 | [ANVITA: A Multi-pronged Approach For Enhancing Machine Translation Of Extremely Low-Resource Indian Languages](https://aclanthology.org/2025.wmt-1.101.pdf) <br>SIVABHAVANI J, Daneshwari Kankanwadi, Abhinav Mishra, Biswajit Paul |
+| 11:00 - 12:00 | [DoDS-IITPKD: Submissions to the WMT25 Low-Resource Indic Language Translation Task](https://aclanthology.org/2025.wmt-1.102.pdf) <br>Ontiwell Khongthaw, G.L. John Salvin, Shrikant Tryambak Budde, Abigairl Nyasha Chigwededza, Dhruvadeep Malkar, Swapnil Hingmire |
+| 11:00 - 12:00 | [A Preliminary Exploration of Phrase-Based SMT and Multi-BPE Segmentations through Concatenated Tokenised Corpora for Low-Resource Indian Languages](https://aclanthology.org/2025.wmt-1.103.pdf) <br>Saumitra Yadav, Manish Shrivastava |
+| 11:00 - 12:00 | [AkibaNLP-TUT: Injecting Language-Specific Word-Level Noise for Low-Resource Language Translation](https://aclanthology.org/2025.wmt-1.104.pdf) <br>Shoki Hamada, Tomoyosi Akiba, Hajime Tsukada |
+| 11:00 - 12:00 | [BVSLP: Machine Translation using Linguistic Embellishments for IndicMT Shared Task 2025](https://aclanthology.org/2025.wmt-1.105.pdf) <br>Nisheeth Joshi, Palak Arora, Anju Krishnia, Riya Lonchenpa, Mhasilenuo Vizo |
+| 11:00 - 12:00 | [TranssionMT's Submission to the Indic MT Shared Task in WMT 2025](https://aclanthology.org/2025.wmt-1.106.pdf) <br>Zebiao Zhou, Hui Li, Xiangxun Zhu, Kangzhen Liu |
+| <br>| Terminology Translation Shared Task |
+| 11:00 - 12:00 | [Laniqo at WMT25 Terminology Translation Task: A Multi-Objective Reranking Strategy for Terminology-Aware Translation via Pareto-Optimal Decoding](https://aclanthology.org/2025.wmt-1.107.pdf) <br>Kamil Guttmann, Adrian Charkiewicz, Zofia Rostek, Mikołaj Pokrywka, Artur Nowakowski |
+| 11:00 - 12:00 | [Fine-tuning NMT Models and LLMs for Specialised EN-ES Translation Using Aligned Corpora, Glossaries, and Synthetic Data: MULTITAN at WMT25 Terminology Shared Task](https://aclanthology.org/2025.wmt-1.108.pdf) <br>Lichao Zhu, Maria Zimina-Poirot, Stephane Patin, Cristian Valdez |
+| 11:00 - 12:00 | [Contextual Selection of Pseudo-terminology Constraints for Terminology-aware Neural Machine Translation in the IT Domain](https://aclanthology.org/2025.wmt-1.109.pdf) <br>Benjamin Pong |
+| 11:00 - 12:00 | [IRB-MT at WMT25 Terminology Translation Task: Metric-guided Multi-agent Approach](https://aclanthology.org/2025.wmt-1.110.pdf) <br>Ivan Grubišić, Damir Korencic |
+| 11:00 - 12:00 | [Terminology-Constrained Translation from Monolingual Data using GRPO](https://aclanthology.org/2025.wmt-1.111.pdf) <br>Javier Garcia Gilabert, Carlos Escolano, Xixian Liao, Maite Melero |
+| 11:00 - 12:00 | [It Takes Two: A Dual Stage Approach for Terminology-Aware Translation](https://aclanthology.org/2025.wmt-1.112.pdf)<br>Akshat Singh Jaswal |
+| 12:30 - 14:00 | 🍴 |
+| 14:00 - 15:30 | **Session 7: Research Paper Boaster Session** |
+| 14:00 - 15:30 | [Specification-Aware Machine Translation and Evaluation for Purpose Alignment](https://aclanthology.org/2025.wmt-1.7.pdf) <br>Yoko Kayano, Saku Sugawara |
+| 14:00 - 15:30 | [OpenWHO: A Document-Level Parallel Corpus for Health Translation in Low-Resource Languages](https://aclanthology.org/2025.wmt-1.8.pdf) <br>Raphael Merx, Hanna Suominen, Trevor Cohn, Ekaterina Vylomova |
+| 14:00 - 15:30 | [Factors Affecting Translation Quality in In-context Learning for Multilingual Medical Domain](https://aclanthology.org/2025.wmt-1.9.pdf) <br>Jonathan Mutal, Raphael Rubino, Pierrette Bouillon |
+| 14:00 - 15:30 | [Character-Aware English-to-Japanese Translation of Fictional Dialogue Using Speaker Embeddings and Back-Translation](https://aclanthology.org/2025.wmt-1.10.pdf) <br>Ayuna Nagato, Takuya Matsuzaki |
+| 14:00 - 15:30 | [DTW-Align: Bridging the Modality Gap in End-to-End Speech Translation with Dynamic Time Warping Alignment](https://aclanthology.org/2025.wmt-1.11.pdf) <br>Abderrahmane Issam, Yusuf Can Semerci, Jan Scholtes, Gerasimos Spanakis |
+| 14:00 - 15:30 | [Targeted Source Text Editing for Machine Translation: Exploiting Quality Estimators and Large Language Models](https://aclanthology.org/2025.wmt-1.12.pdf) <br>Hyuga Koretaka, Atsushi Fujita, Tomoyuki Kajiwara |
+| 14:00 - 15:30 | [Self-Retrieval from Distant Contexts for Document-Level Machine Translation](https://aclanthology.org/2025.wmt-1.13.pdf) <br>Ziqian Peng, Rachel Bawden, François Yvon |
+| 14:00 - 15:30 | [Using Encipherment to Isolate Conditions for the Successful Fine-tuning of Massively Multilingual Translation Models](https://aclanthology.org/2025.wmt-1.14.pdf) <br>Carter Louchheim, Denis Sotnichenko, Yukina Yamaguchi, Mark Hopkins |
+| 14:00 - 15:30 | [Translate, Then Detect: Leveraging Machine Translation for Cross-Lingual Toxicity Classification](https://aclanthology.org/2025.wmt-1.15.pdf) <br>Samuel J. Bell, Eduardo Sánchez, David Dale, Pontus Stenetorp, Mikel Artetxe, Marta R. Costa-jussà |
+| 14:00 - 15:30 | [Feeding Two Birds or Favoring One? Adequacy–Fluency Tradeoffs in Evaluation and Meta-Evaluation of Machine Translation](https://aclanthology.org/2025.wmt-1.16.pdf) <br>Behzad Shayegh, Jan-Thorsten Peter, David Vilar, Tobias Domhan, Juraj Juraska, Markus Freitag, Lili Mou |
+| 14:00 - 15:30 | [DocHPLT: A Massively Multilingual Document-Level Translation Dataset](https://aclanthology.org/2025.wmt-1.17.pdf) <br>Dayyán O'Brien, Bhavitvya Malik, Ona de Gibert, Pinzhen Chen, Barry Haddow, Jörg Tiedemann |
+| 14:00 - 15:30 | [SONAR-SLT: Multilingual Sign Language Translation via Language-Agnostic Sentence Embedding Supervision](https://aclanthology.org/2025.wmt-1.18.pdf) <br>Yasser Hamidullah, Shakib Yazdani, Cennet Oguz, Josef van Genabith, Cristina España-Bonet |
+| 14:00 - 15:30 | [GAMBIT+: A Challenge Set for Evaluating Gender Bias in Machine Translation Quality Estimation Metrics](https://aclanthology.org/2025.wmt-1.19.pdf) <br>George Filandrianos, Orfeas Menis Mastromichalakis, Wafaa Mohammed, Giuseppe Attanasio, Chrysoula Zerva |
+| 14:00 - 15:30 | [Implementing and Evaluating Multi-source Retrieval-Augmented Translation](https://aclanthology.org/2025.wmt-1.20.pdf) <br>Tommi Nieminen, Jörg Tiedemann, Sami Virpioja |
+| 14:00 - 15:30 | [A Cross-Lingual Perspective on Neural Machine Translation Difficulty](https://aclanthology.org/2025.wmt-1.21.pdf) <br>Esther Ploeger, Johannes Bjerva, Jörg Tiedemann, Robert Oestling |
+| 15:30 - 16:00 | ☕️ |
+| 16:00 - 17:00 | **Session 8: Research Paper Poster Session** |
+
+## Results
+
+
+### General Task
+
+Full results of the shared task: [*Findings of the WMT25 General Machine Translation Shared Task: Time to Stop Evaluating on Easy Test Sets*](https://aclanthology.org/2025.wmt-1.22.pdf)
+
+The results were determined by professional human annotators using the [Error Span Annotation](https://machinetranslate.org/human-evaluation-metrics#error-span-annotation-esa) (ESA) protocol for most language pairs, and [Multidimensional Quality Metrics](https://machinetranslate.org/human-evaluation-metrics#multidimensional-quality-metrics-mqm) (MQM) for English→Korean and Japanese→Chinese.
+
+Systems were compared within two tracks: **constrained** (open-source models up to 20B parameters) and **unconstrained** (no restrictions on model size or licensing).
+
+The best overall system was **Gemini 2.5 Pro**, which placed in the top cluster for 14 out of 15 evaluated language pairs. The best constrained system was **Shy-hunyuan-MT**, which placed in the winning cluster for 11 language pairs within the constrained category.
+
+Human references placed in the winning cluster for only 6 out of 15 language pairs.
+
+#### English →
+
+| Language pair | Winner (unconstrained) | Winner (constrained) |
+| --- | --- | --- |
+| → Arabic (Egyptian) | Gemini 2.5 Pro | Shy-hunyuan-MT |
+| → Chinese (Simplified) | Algharb | Algharb |
+| → Czech | Gemini 2.5 Pro | Shy-hunyuan-MT |
+| → Estonian | Gemini 2.5 Pro | Shy-hunyuan-MT |
+| → Icelandic | Human reference | Erlendur |
+| → Italian | Gemini 2.5 Pro | GemTrans |
+| → Japanese | Gemini 2.5 Pro | Shy-hunyuan-MT |
+| → Korean | Gemini 2.5 Pro | Shy-hunyuan-MT |
+| → Russian | Gemini 2.5 Pro | Shy-hunyuan-MT |
+| → Serbian (Cyrillic) | Gemini 2.5 Pro | Shy-hunyuan-MT |
+| → Ukrainian | Gemini 2.5 Pro | Wenyiil |
+
+#### Czech →
+
+| Language pair | Winner (unconstrained) | Winner (constrained) |
+| --- | --- | --- |
+| → German | Gemini 2.5 Pro | Shy-hunyuan-MT |
+| → Ukrainian | GPT-4.1 | Shy-hunyuan-MT |
+
+#### Japanese →
+
+| Language pair | Winner (unconstrained) | Winner (constrained) |
+| --- | --- | --- |
+| → Chinese (Simplified) | Gemini 2.5 Pro | Shy-hunyuan-MT |
+
+The results were determined using ESA (Error Span Annotation), a human evaluation protocol where annotators highlight error spans and assign severity ratings before giving a segment-level score from 0 to 100. MQM was used for English→Korean and Japanese→Chinese.
