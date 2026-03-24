@@ -1,5 +1,25 @@
 [
   {
+  "name": "NeTTIT 2026",
+  "id": "nettit-2026",
+  "description": "New Trends in Translation and Technology",
+  "calls_for_papers_deadline": "2026-04-27",
+  "start_date": "2026-06-24",
+  "end_date": "2026-06-27",
+  "location": {
+    "location": "Dubrovnik, Croatia",
+    "online": false
+  },
+  "organizer": {
+    "type": "Organisation",
+    "name": "NETTIT",
+    "url": "https://nettt-conference.com/2026/programme-committee/"
+  },
+  "links": [
+    "https://nettt-conference.com/2026/"
+  ]
+  },
+  {
     "name": "AAMT Seminar",
     "id": "aamt-seminar",
     "description": "First Seminar of the Asian-Pacific Association for Machine Translation",
