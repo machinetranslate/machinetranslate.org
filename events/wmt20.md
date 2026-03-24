@@ -664,7 +664,7 @@ results:
     url: https://aclanthology.org/2020.wmt-1.1.pdf
   scoring_table:
   - language: → English
-    sentence: The results were determined with a monolingual <a href='/human-evaluation-metrics#direct-assessment'>direct
+    sentence: The results were determined with a monolingual <a href='/human-annotation-protocols#direct-assessment'>direct
       assessment</a> with document context.
     evaluations:
     - language_pair: Chinese →
