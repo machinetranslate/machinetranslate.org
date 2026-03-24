@@ -37,7 +37,6 @@ seo:
     url: https://statmt.org/wmt25
 
 ---
-
 ## Schedule
 
 ### Day 1

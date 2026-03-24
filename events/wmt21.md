@@ -7,10 +7,10 @@ layout: wmt_event
 title: WMT21
 end_date: '2021-11-11'
 future_tense_opening_paragraph: The Conference on Machine Translation (<strong>WMT21</strong>)
-  will take place in LaAltagracia, Dominican Republic from 10 November to 11 November,
+  will take place in La Altagracia, Dominican Republic from 10 November to 11 November,
   2021.
 past_tense_opening_paragraph: The Conference on Machine Translation (<strong>WMT21</strong>)
-  took place in LaAltagracia, Dominican Republic from 10 November to 11 November,
+  took place in La Altagracia, Dominican Republic from 10 November to 11 November,
   2021.
 name: WMT21
 id: wmt21
@@ -18,7 +18,7 @@ description: Conference on Machine Translation
 start_date: '2021-11-10'
 more_paragraphs:
 - It was organised by <a href='/wmt'>WMT</a>.
-location: LaAltagracia, Dominican Republic
+location: La Altagracia, Dominican Republic
 organizer:
   type: Person
   url: https://www.statmt.org/wmt21/
@@ -779,7 +779,7 @@ seo:
   eventStatus: EventScheduled
   location:
     type: Place
-    name: LaAltagracia, Dominican Republic
+    name: La Altagracia, Dominican Republic
   organizer:
     type: Person
     name: null
