@@ -44,7 +44,8 @@ The scores generally do not correlate well with human evaluation scores when tra
 
 Machine learning-based metrics use [sentence embeddings](/sentence-embeddings) to calculate the difference between the generated target sentence and the reference translation, or even between the target sentence and the source sentence.
 
-Examples:/
+Examples:
+
 - [COMET](/comet)
 - [YiSi](/yisi)
 - [BERTscore](/bertscore)
