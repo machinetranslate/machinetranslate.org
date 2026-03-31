@@ -616,4 +616,4 @@ seo:
     url: https://statmt.org/wmt23
 
 ---
-The results were determined with a bilingual direct assessment with [scalar quality metric](/human-evaluation-metrics#sqm) (SQM) with document context.
+The results were determined with a bilingual direct assessment with [scalar quality metric](/human-annotation-protocols#direct-assessment) (SQM) with document context.

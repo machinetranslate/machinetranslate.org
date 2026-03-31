@@ -365,7 +365,7 @@ seo:
 ---
 ### News translation
 
-The results were determined with a monolingual [direct assessment](/human-evaluation-metrics#direct-assessment), the [average score and average z-score](/human-evaluation-metrics#average-score-and-average-z-score).
+The results were determined with a monolingual [direct assessment](/human-annotation-protocols#direct-assessment), the [average score and average z-score](/human-annotation-protocols#average-score-and-average-z-score).
 
 #### → English
 
