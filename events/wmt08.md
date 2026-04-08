@@ -184,7 +184,7 @@ seo:
 ---
 ### Translation
 
-The results were determined with a [relative ranking](/human-evaluation-metrics#relative-ranking), the `≥ others` (“greater than or equal to others”) score, a [constituent ranking](/human-evaluation-metrics#constituent-ranking), and a [yes or no constituent judgement](/human-evaluation-metrics#yes-or-no-constituent-judgement).
+The results were determined with a [relative ranking](/human-annotation-protocols#relative-ranking), the `≥ others` (“greater than or equal to others”) score, a [constituent ranking](/human-annotation-protocols#constituent-ranking), and a [yes or no constituent judgement](/human-annotation-protocols#yes-or-no-constituent-judgement).
 
 #### → English
 
