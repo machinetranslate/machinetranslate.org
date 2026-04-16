@@ -31,6 +31,5 @@ In 2018, he joined Facebook.
 
 ## See more
 
-- [Personal webpage](https://www.fjoch.com/)
 - [Google Scholar](https://scholar.google.com/citations?user=7quZWfcAAAAJ)
 - [Wikipedia](https://en.wikipedia.org/wiki/Franz_Josef_Och)
