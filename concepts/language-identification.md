@@ -1,4 +1,5 @@
 ---
+grand_parent: Features
 parent: Customisation
 title: Language identification
 description: Identifying the language of a text
