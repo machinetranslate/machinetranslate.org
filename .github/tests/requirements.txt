@@ -2,7 +2,7 @@ beautifulsoup4==4.11.1
 bs4==0.0.1
 charset-normalizer==2.1.1
 html5lib==1.1
-lxml==4.9.3
+lxml==6.1.0
 pluggy==1.3.0
 pyenchant==3.2.2
 pytest==7.4.3
