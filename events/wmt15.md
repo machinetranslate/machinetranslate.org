@@ -281,7 +281,7 @@ The tuning task is a continuation of the [WMT11](/wmt11) tunable metrics task.
 
 ### News translation
 
-The results were determined with a [relative ranking](/human-evaluation-metrics#relative-ranking) through the [TrueSkill](/human-evaluation-metrics#trueskill) model.
+The results were determined with a [relative ranking](/human-annotation-protocols#relative-ranking) through the [TrueSkill](/human-annotation-protocols#trueskill) model.
 
 #### → English
 

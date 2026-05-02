@@ -281,7 +281,7 @@ seo:
 ---
 ### News translation
 
-The results were determined with a [relative ranking](/human-evaluation-metrics#relative-ranking).
+The results were determined with a [relative ranking](/human-annotation-protocols#relative-ranking).
 
 #### → English
 

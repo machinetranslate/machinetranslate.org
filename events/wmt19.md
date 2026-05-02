@@ -475,7 +475,7 @@ results:
     url: https://aclanthology.org/W19-5301.pdf
   scoring_table:
   - language: → English
-    sentence: The results were determined with a monolingual <a href='/human-evaluation-metrics#direct-assessment'>direct
+    sentence: The results were determined with a monolingual <a href='/human-annotation-protocols#direct-assessment'>direct
       assessment</a> without document context.
     evaluations:
     - language_pair: Gujarati →
