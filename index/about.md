@@ -8,7 +8,7 @@ seo:
   name: About the Machine Translate Foundation
 ---
 
-**Machine Translation** is a non-profit foundation building open information and community for machine translation.
+**Machine Translate** is a non-profit foundation building open information and community for machine translation.
 
 > <span style="font-size:x-large;">“Open information and community for machine translation”</span>
 
