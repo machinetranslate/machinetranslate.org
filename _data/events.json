@@ -1,5 +1,46 @@
 [
   {
+  "name": "IWSLT 2026",
+  "id": "iwslt-2026",
+  "description": "23rd International Conference on Spoken Language Translation",
+  "calls_for_papers_deadline": "2026-03-15",
+  "start_date": "2026-07-06",
+  "end_date": "2026-07-07",
+  "location": {
+    "location": "San Diego, CA, USA",
+    "online": true
+  },
+  "organizer": {
+    "type": "Organisation",
+    "name": "SIGSLT (ACL/ISCA/ELRA)",
+    "url": "https://iwslt.org/"
+  },
+  "links": [
+    "https://iwslt.org/2026/",
+    "https://iwslt.org/2026/compression"
+  ]
+  },
+  {
+  "name": "MT Marathon 2026",
+  "id": "mt-marathon-2026",
+  "description": "A week-long gathering of MT researchers, developers, students and users",
+  "calls_for_papers_deadline": "2026-09-05",
+  "start_date": "2026-09-14",
+  "end_date": "2026-09-18",
+  "location": {
+    "location": "Karlsruhe, Germany",
+    "online": false
+  },
+  "organizer": {
+    "type": "Organisation",
+    "name": "Karlsruhe Institute of Technology",
+    "url": "https://mtm2026.iar.kit.edu/"
+  },
+  "links": [
+    "https://mtm2026.iar.kit.edu/"
+  ]
+  },
+  {
   "name": "NeTTIT 2026",
   "id": "nettit-2026",
   "description": "New Trends in Translation and Technology",
