@@ -6,10 +6,10 @@ nav_order: 2026
 layout: event
 title: MT Marathon 2026
 end_date: '2026-09-18'
-future_tense_opening_paragraph: The A week-long gathering of MT researchers, developers,
+future_tense_opening_paragraph: The week-long gathering of MT researchers, developers,
   students and users (<strong>MT Marathon 2026</strong>) will take place in Karlsruhe,
   Germany from 14 September to 18 September, 2026.
-past_tense_opening_paragraph: The A week-long gathering of MT researchers, developers,
+past_tense_opening_paragraph: The week-long gathering of MT researchers, developers,
   students and users (<strong>MT Marathon 2026</strong>) took place in Karlsruhe,
   Germany from 14 September to 18 September, 2026.
 name: MT Marathon 2026
