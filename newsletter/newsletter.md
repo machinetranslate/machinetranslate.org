@@ -1,6 +1,6 @@
 ---
 nav_order: 1100
-has_children: false
+has_children: true
 community_search_exclude: true
 title: Newsletter
 description: The monthly newsletter on machine translation from the Machine Translate Foundation
