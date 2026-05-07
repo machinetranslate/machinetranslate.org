@@ -8,7 +8,7 @@ seo:
 ---
 
 
-🗞️ News
+🗞️ **News**
   
 
 *   **Alon Lavie** and **Craig Stewart**, both formerly at YC startup Unbabel, joined **Phrase** to work on generative AI.
@@ -18,7 +18,7 @@ seo:
   
   
 
-🚀 Launches
+🚀 **Launches**
   
 
 *   **memoQ** launched [**ModelFront** and **TAUS** integrations](https://www.reddit.com/r/machinetranslation/comments/13y8yd6/memoq_launches_modelfront_integration_for_machine/) for machine translation **quality prediction**.
@@ -32,7 +32,7 @@ seo:
   
   
 
-❔ Questions
+❔ **Questions**
   
 
 *   How to add [**ModernMT** in **XTM**](https://www.reddit.com/r/machinetranslation/comments/13wqdl1/how_to_add_modernmt_in_xtm/)?
@@ -48,7 +48,7 @@ seo:
   
   
 
-🎙️ Podcasts
+🎙️ **Podcasts**
   
 
 *   **SlatorPod** on [**DeepL vs ChatGPT**](https://www.reddit.com/r/machinetranslation/comments/156v6vd/slatorpod_with_graham_neubig_on_deepl_vs_chatgpt/) with Carnegie Mellon professor **Graham Neubig**
@@ -57,7 +57,7 @@ seo:
   
   
 
-⏰️ Deadlines
+⏰️ **Deadlines**
   
 
 *   **[AMTA 2023](https://machinetranslate.org/amta2023)** call for papers - 15 August
@@ -68,7 +68,7 @@ seo:
   
   
 
-📆 Events
+📆 **Events**
   
 
 *   **[MT Summit 2023](https://machinetranslate.org/mtsummit2023)** - 4 - 8 September - Macau 🇲🇴
@@ -88,7 +88,7 @@ seo:
   
   
 
-💻 Jobs
+💻 **Jobs**
   
 
 *   [**Machine Translation Specialist**](https://www.reddit.com/r/machinetranslation/comments/155vvah/tolingo_gmbh_is_looking_for_a_machine_translation/) at **Tolingo** - Hamburg, Germany 🇩🇪
