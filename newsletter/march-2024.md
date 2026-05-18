@@ -1,5 +1,5 @@
 ---
-nav_order: 8
+nav_order: 93
 parent: Newsletter
 title: March 2024 newsletter
 description: News, jobs, community questions and more about machine translation from March 2024

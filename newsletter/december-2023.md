@@ -1,5 +1,5 @@
 ---
-nav_order: 5
+nav_order: 96
 parent: Newsletter
 title: December 2023 newsletter
 description: News, jobs, community questions and more about machine translation from December 2023
