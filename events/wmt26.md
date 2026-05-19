@@ -37,12 +37,30 @@ important_dates:
 shared_tasks:
 - name: General MT (News)
   url: https://www2.statmt.org/wmt26/translation-task.html
+-name: Indic MT
+  url: https://www2.statmt.org/wmt26/indic-mt-task.html
+-name: Arabic-Asian MT
+  url: https://www2.statmt.org/wmt26/arabic-asian-mt-task.html
+-name: Chinese-Southeast Asian MT
+  url: https://www2.statmt.org/wmt26/chinese-southeast-asian.html
+-name: Creole MT
+  url: https://www2.statmt.org/wmt26/creole-mt-task.html
 - name: Terminology
   url: https://www2.statmt.org/wmt26/terminology.html
+- name: Model Compression
+  url: https://www2.statmt.org/wmt26/model-compression.html
+- name: Video Subtitle Translation
+  url: https://www2.statmt.org/wmt26/video-subtitle-translation.html
+- name: MT Test Suites
+  url: https://www2.statmt.org/wmt26/testsuite-subtask.html
+- name: Automated MT Evaluation
+  url: https://www2.statmt.org/wmt26/mteval-task.html
 - name: Open Data
   url: https://www2.statmt.org/wmt26/open-data.html
 - name: Multilingual Instruction
   url: https://www2.statmt.org/wmt26/multilingual-instruction.html
+- name: Limited Resources LLM
+  url: https://www2.statmt.org/wmt26/limited-resources-llm.html
 general_machine_translation:
 - title: General MT (News)
   description: Translation task focused on news domain. See task page for language pairs and details.
@@ -101,30 +119,7 @@ seo:
     url: https://statmt.org/wmt26
 
 ---
-## Shared tasks
 
-### Translation tasks
-
-- [General MT (News)](https://www2.statmt.org/wmt26/translation-task.html)
-- [Indic MT](https://www2.statmt.org/wmt26/indic-mt-task.html)
-- [Arabic-Asian MT](https://www2.statmt.org/wmt26/arabic-asian-mt-task.html)
-- [Chinese-Southeast Asian MT](https://www2.statmt.org/wmt26/chinese-southeast-asian.html)
-- [Creole MT](https://www2.statmt.org/wmt26/creole-mt-task.html)
-- [Terminology](https://www2.statmt.org/wmt26/terminology.html)
-- [Model Compression](https://www2.statmt.org/wmt26/model-compression.html)
-- [Video Subtitle Translation](https://www2.statmt.org/wmt26/video-subtitle-translation.html)
-
-
-### Evaluation tasks
-
-- [MT Test Suites](https://www2.statmt.org/wmt26/testsuite-subtask.html)
-- [Automated MT Evaluation](https://www2.statmt.org/wmt26/mteval-task.html)
-
-### Other tasks
-
-- [Open Data](https://www2.statmt.org/wmt26/open-data.html)
-- [Multilingual Instruction](https://www2.statmt.org/wmt26/multilingual-instruction.html)
-- [Limited Resources LLM](https://www2.statmt.org/wmt26/limited-resources-llm.html)
 
 ## Call for papers
 
