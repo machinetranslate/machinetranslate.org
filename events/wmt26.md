@@ -37,13 +37,13 @@ important_dates:
 shared_tasks:
 - name: General MT (News)
   url: https://www2.statmt.org/wmt26/translation-task.html
--name: Indic MT
+- name: Indic MT
   url: https://www2.statmt.org/wmt26/indic-mt-task.html
--name: Arabic-Asian MT
+- name: Arabic-Asian MT
   url: https://www2.statmt.org/wmt26/arabic-asian-mt-task.html
--name: Chinese-Southeast Asian MT
+- name: Chinese-Southeast Asian MT
   url: https://www2.statmt.org/wmt26/chinese-southeast-asian.html
--name: Creole MT
+- name: Creole MT
   url: https://www2.statmt.org/wmt26/creole-mt-task.html
 - name: Terminology
   url: https://www2.statmt.org/wmt26/terminology.html
