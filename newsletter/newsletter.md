@@ -19,7 +19,7 @@ It is a bullet-pointed list of news, upcoming events, calls for papers, deadline
 
 ## Recent newsletters
 
-- [May 2026](may-2026)
+- [May 2026](/may-2026)
 - [May 2024](/may-2024)
 - [April 2024](/april-2024)
 - [March 2024](/march-2024)
