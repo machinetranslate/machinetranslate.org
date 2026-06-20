@@ -47,7 +47,7 @@ When human post-edited translations are not available, synthetic post-editing da
 Automatic post-editing systems can be evaluated like machine translation systems:
 
 -	Automatic, reference-based evaluation [metrics](/metrics), like [TER](/ter) or [BLEU](/bleu)
--	[Human evaluation](/human-evaluation-metrics), like [direct assessment](/human-evaluation-metrics#direct-assessment)
+-	[Human evaluation](/human-annotation-protocols), like [direct assessment](/human-annotation-protocols#direct-assessment)
 
 Evaluation reveals how many sentences were improved. Precision can be calculated by dividing the number of improved sentences by the total number of modified sentences. Another common metric is the average number of edits per segment.
 

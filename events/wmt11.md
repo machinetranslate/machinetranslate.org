@@ -289,7 +289,7 @@ The tunable metrics shared task was invitation-only.
 
 ### News translation
 
-The results were determined with a [relative ranking](/human-evaluation-metrics#relative-ranking), the `≥ others` (“greater than or equal to others”) score.
+The results were determined with a [relative ranking](/human-annotation-protocols#relative-ranking), the `≥ others` (“greater than or equal to others”) score.
 
 It measures how often a system was judged to be better than or equal to any other system.
 
