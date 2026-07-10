@@ -40,3 +40,99 @@ seo:
 
 ---
 
+# Schedule
+
+## Pre-conference tutorials
+24 June 2026
+
+| | | |
+| --- | --- | --- |
+| 9:00 – 11:00 | Post-editing and AI-augmented translation | |
+| | Marie Escribe (LanguageWire and Polytechnic University of Valencia) | |
+| | | |
+| 11:30 – 13:30 | Automatic Speech Recognition as a supporting tool for interpreters | |
+| | Constantin Orasan (University of Surrey) | |
+| | | |
+| 15:00 – 17:00 | Machine Translation Quality Evaluation | |
+| | Tharindu Ranasinghe (Lancaster University) | |
+
+
+## Day 1
+25 June 2026
+
+| | | |
+| --- | --- | --- | 
+| 8:30 – 9:00 | Registration | |
+| 9:00 – 9:15 | Welcome remarks | |
+| 9:15 – 10:15 | Invited talk: Marko Grobelnik | |
+| | Introduced by Marko Tadić | |
+| 10:15 – 10:55 | **Translation in high-stake environments**  <br/>Sessing Chair: **Marie Escribe** | |
+| | [**Navigating the “Fluency Trap”: Cognitive Risks and Structural Challenges in Korean-English Patent Translation Post-Editing**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.9.pdf) <br/> Jinam Lee, Jaehee Ryu, Janet Sohlhee Yu | |
+| | [**Translation Quality Assessment of legal translations by MateCat and its use in future translation didactics**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.27.pdf) <br/>Edyta Źrałka | |
+| 10:55 – 11:25 | Coffee break | |
+| 11:25 – 13:05 | **Linguistic patterns in AI translation** <br/>Session Chair: **Vilelmini Sosoni** | |
+| | [**Do readers prefer AI-generated Italian short stories?**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.1.pdf) <br/>Michael Farrell | |
+| | [**Semantic typology and audio description. A corpus-based study of motion events**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.2.pdf) <br/>Teresa Molés Cases | |
+| | [**Punctuation Patterns in Translated and Original Chinese-English Literary Texts: A Weibull Distribution Analysis**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.5.pdf) <br/>Jiawei Shi, Sihui He | |
+| | [**How Decoding Settings Shape Lexical Variation in Iterative LLM-Translation Workflows: A Case Study of Chinese-English Literary Translation**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.14.pdf) <br/>Lulu Wang, Hengtian Zhang, Lieve Macken and Kanglong Liu | |
+| 13:05 – 14:30 | Lunch break | |
+| 14:30 – 15:45 | **AI-Augmented Translation Ecosystems** <br/>Session Chair: Laura Noriega | |
+| | [**Enhancing Persian-Arabic OCR for Translation Workflows: A Benchmark-Driven Optimization Approach**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.17.pdf) <br/>Masoud Shahnazari, Abied Alsulaiman | |
+| | [**Benchmarking Multilingual Terminology Translation for UNDRR-ISC Hazard Information Profiles**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.26.pdf) <br/>Maria Carmen Staiano, Johanna Monti, Francesca Chiusaroli, Slava Tykhonov, Ken Hawkins, Hélène Jacot des Combes, Saini Yang, Urbano Fra Paleo, Virginia Murray | |
+| | [**Translation Memory Systems: Evolution, Retrieval Methods, and Human-Centred Perspectives**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.29.pdf) <br/>Alicia Picazo-Izquierdo, Salima Lamsiyah, Ruslan Mitkov | |
+| 15:45 – 16:15 | Coffee break | |
+| 16:15 – 17:15 | **Interpreting and speech processing** <br/>Session Chair: Xiaojing Zhao | |
+| | [**Training Interpreting Learners to Collaborate with Captions and Subtitles during Simultaneous Interpreting**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.4.pdf) <br/>Huang Yujie, Han Xu | |
+| | [**Does AI-INT Training Transfer Across Interpreting Modes? Evidence from Eye-Tracking**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.22.pdf) <br/>Jingyi Li, Yu Weng | |
+| | [**COPECO-Speech: Integrating Speech and LLMs for Post-Editing in Translation Workflows**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.28.pdf) <br/>Jeevanthi Uthpala Liyanapathirana, Pierrette Bouillon, Jonathan David Mutal, Sabrina Girletti, Lise Volkart | |
+| 17:45 | Guided city tour | |
+| 20:30 |  Welcome reception | |
+
+
+## Day 2
+26 June 2026
+
+| | | |
+| --- | --- | --- |
+| 9:30 – 10:30 | Invited speaker: **Yves Champollion** <br/>Introduced by **Ruslan Mitkov** | |
+| 10:30 – 10:50 | **AI in professional environments** <br/>Session chair by **Ruslan Mitkov** | |
+| | [**From SOP to AI-Native Pipeline: Design and Evaluation of a Translation-Memory-Grounded LLM Workflow (Nixa AI)**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.6.pdf) <br/>Ana Dumančić Acar | |
+| 10:50 – 11:20 | Coffee break | |
+| 11:20 – 13:00 | **Translation in high stakes environments and social media** <br/>Session Chair: **Michael Farrell** | |
+| | [**Dual-Metric Compliance and Quality Evaluation of Knowledge Graph Mediated Translation in Regulated Domains: An Enhanced Architectural Framework**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.15.pdf) <br/>Viveta Gene, Vilelmini Sosoni | |
+| | [**Fine-tuning Arabic-English NMT Engines for Investment Laws**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.19.pdf) <br/>Najat B. Al-Huthali, Yuan Zou, Constantin Orasan | |
+| | [**How Well Can Large Language Models Detect, Classify, and Correct Errors in Chinese-English Public Sign Translations?**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.3.pdf) <br/>Shuyin Zhang, Xindi Hao, Zhenhai Li | |
+| | [**#MTFails to #MTWins: Investigating User Perspectives on Machine Translation in Social Media**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.20.pdf) <br/>Khetam Al Sharou | |
+| 13:00 – 14:30 | Lunch break | |
+| 14:30 – 16:10 | **LLMs in translation workflows** <br/>Session chair: **Constantin Orasan** | |
+| | [**A Comparative Study of LLMs for Idiomatic Expression Identification and Translation Equivalent Extraction in an English–Portuguese Subtitle Corpus**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.8.pdf) <br/>Rozane Rebechi, Diego Alves | |
+| | [**From Diagnosis to Action: An Evidence Based Maturity Model for AI Integration in Translation**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.16.pdf) <br/>Viveta Gene, Valeria Cannavina | |
+| | [**Project HRVOJE-M: integration of Croatian LLM with a TBMS**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.30.pdf) <br/>Marko Tadić, Mladen Stojak | |
+| | [**Comparative analysis of the double-stage revision phase (English-Italian) with an AI chatbot assistance**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.21.pdf) <br/>Sofía Calvo del Barrio, Pilar Sánchez Gijón | |
+| 16:30 | Excursion & Conference dinner | |
+
+
+## Day 3
+27 June 2026
+
+| | | |
+| --- | --- | --- |
+| 9:30 – 11:10 | **Computational and Corpus-Based Approaches to Specialized Translation and Interpreting** <br/>Session chair: **Tharindu Ranasinghe** | |
+| | [**Investigating How Machine Translation Systems and Human Interpreters Convey Meaning – A Corpus-based Analysis of Semantic Similarity**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.10.pdf) <br/>Kaifusai Julaiti, Andrew K. F. Cheung | |
+| | [**A Corpus-based Approach to Translating Specialised Terminology in Literature: A Two-step Protocol**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.18.pdf) <br/>Laura Noriega, Gloria Corpas Pastor | |
+| | [**Exploring Sentiment Transfer in Cantonese–English Court Interpreting: A Computational Analysis Using Multilingual BERT**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.13.pdf) <br/>Sihui He, Jiawei Shi | |
+| | [**Building a European Multilingual Evaluation Dataset: The MMLU Localisation Project within the EMT Network**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.7.pdf) <br/>Pilar Sánchez-Gijón, Susana Valdez, Sofía Calvo Del Barrio, Florence Bellemont, Anna Kokkinidou, Mihai Cristian Brasoveanu | |
+| 11:10 – 11:40 | Coffee break | |
+| 11:40 – 13:20 | **Dimensions of AI Translation** <br/>Session chair: **Alicia Picazo Izquierdo** | |
+| | Can AI Bridge the Language Barrier? A Systematic Review of AI Translation Accuracy and Safety in Healthcare <br/>Cyril O’Brien | |
+| | [**Using LLMs for Glossary-Constrained Terminology Correction in Machine Translation**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.23.pdf) <br/>Seyda Portillo Palma, Sergi Alvarez Vidal, Antoni Oliver Gonzalez | |
+| | [**Flow as Regulated Engagement in Chinese–English Translation: Evidence from Self-Report, Eye Tracking, and Physiological Measures**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.24.pdf) <br/>Yanze Li, Yu Weng | |
+| | [**Generated Voices: Examining Patterns and Shifts in AI Translation of Online Feminist Discourse**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.11.pdf)<br/>Ailin Li | |
+| | [**Challenges in Code translation using Large Language Models**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.12.pdf)<br/>Lukas Theuerkauf, Ksenia Neumann, Abdulrahman Nahhas, Damanpreet Singh Walia, Maria Chernigovskaya | |
+| 13:20 – 13:30 | **Closing** | |
+
+## Online
+
+| | | |
+| --- | --- | --- |
+| | [**Development of an Uzbek–English Parallel Corpus Search System: A Case Study of Literary Works**](https://acl-bg.org/proceedings/2026/NeTTIT%202026/pdf/2026.nettit-1.25.pdf) <br/>Shahlo Khamroyeva Mirdjonovna, Gulirano Baxtiyor qizi Nuriddinova, Mehriniso Kilicheva Kadirovna, Gulrukh Erkin kizi Boltaeva, Nodira Roziqovna Qurbonova, Aziza Islomovna Kamalova | |
