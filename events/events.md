@@ -77,17 +77,30 @@ seo:
 {% for year in events_by_year %}
 ## {{ year.name }} events
 
-{% assign sorted_events = year.items | sort: "start_date" | reverse %} 
+{% assign sorted_events = year.items | sort: "start_date" | reverse %}
 | Date | Event | Location |
 | --- | --- | --- |
 {% for event in sorted_events %}
   {%- capture startDay -%}{{- event.start_date | date: "%d" -}}{%- endcapture -%}
-  {%- capture endDayMonth %}{{- event.end_date | date: "%d %B" -}}{% endcapture -%}{%- if event.end_date -%}{%- if event.start_date != event.end_date -%}
-  {%- capture date_range -%}{{ startDay }} - {{ endDayMonth }}{%- endcapture -%}{%- else -%}
-  {%- capture date_range -%}{{ event.start_date | date: "%d %B" }}{%- endcapture -%}{%- endif -%}{%- else -%}
-  {%- capture date_range -%}{{ event.start_date | date: "%d %B" }}{%- endcapture -%}{%- endif -%}
-| {{ date_range }} | {% if event.id %}{% if event.start_date > current_date %}**[{{ event.name }}](/{{ event.id }})**{% else %}[{{ event.name }}](/{{ event.id }}){% endif %}{% else %}{% if event.start_date > current_date %}**{{ event.name }}**{% else %}{{ event.name }}{% endif %}{% endif %} | {% if event.location.online %}Online{% else %}{{ event.location.location }}{% endif %} | 
-{% endfor %}{% endfor %}
+  {%- capture startMonth -%}{{- event.start_date | date: "%B" -}}{%- endcapture -%}
+  {%- capture endMonth -%}{{- event.end_date | date: "%B" -}}{%- endcapture -%}
+  {%- capture endDayMonth -%}{{- event.end_date | date: "%d %B" -}}{%- endcapture -%}
+  {%- if event.end_date -%}
+    {%- if event.start_date != event.end_date -%}
+      {%- if startMonth != endMonth -%}
+        {%- capture date_range -%}{{ startDay }} {{ startMonth }} - {{ endDayMonth }}{%- endcapture -%}
+      {%- else -%}
+        {%- capture date_range -%}{{ startDay }} - {{ endDayMonth }}{%- endcapture -%}
+      {%- endif -%}
+    {%- else -%}
+      {%- capture date_range -%}{{ event.start_date | date: "%d %B" }}{%- endcapture -%}
+    {%- endif -%}
+  {%- else -%}
+    {%- capture date_range -%}{{ event.start_date | date: "%d %B" }}{%- endcapture -%}
+  {%- endif -%}
+| {{ date_range }} | {% if event.id %}{% if event.start_date > current_date %}**[{{ event.name }}](/{{ event.id }})**{% else %}[{{ event.name }}](/{{ event.id }}){% endif %}{% else %}{% if event.start_date > current_date %}**{{ event.name }}**{% else %}{{ event.name }}{% endif %}{% endif %} | {% if event.location.online %}Online{% else %}{{ event.location.location }}{% endif %} |
+{% endfor %}
+{% endfor %}
 
 ## 2005 events
 
