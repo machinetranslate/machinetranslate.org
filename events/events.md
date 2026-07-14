@@ -98,7 +98,7 @@ seo:
   {%- else -%}
     {%- capture date_range -%}{{ event.start_date | date: "%d %B" }}{%- endcapture -%}
   {%- endif -%}
-| {{ date_range }} | {% if event.id %}{% if event.start_date > current_date %}**[{{ event.name }}](/{{ event.id }})**{% else %}[{{ event.name }}](/{{ event.id }}){% endif %}{% else %}{% if event.start_date > current_date %}**{{ event.name }}**{% else %}{{ event.name }}{% endif %}{% endif %} | {% if event.location.online %}Online{% else %}{{ event.location.location }}{% endif %} |
+| {{ date_range }} | {% if event.id %}{% if event.start_date > current_date %}**[{{ event.name }}](/{{ event.id }})**{% else %}[{{ event.name }}](/{{ event.id }}){% endif %}{% else %}{% if event.start_date > current_date %}**{{ event.name }}**{% else %}{{ event.name }}{% endif %}{% endif %} | {% if event.location.hybrid %}{{ event.location.location }} + Online{% elsif event.location.online %}Online{% else %}{{ event.location.location }}{% endif %} |
 {% endfor %}
 {% endfor %}
 

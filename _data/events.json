@@ -920,6 +920,47 @@
     ]
   },
   {
+    "name": "AAMT 2026",
+    "id": "aamt-2026",
+    "description": "Conference of the Asian-Pacific Association for Machine Translation",
+    "start_date": "2026-09-13",
+    "end_date": "2026-09-14",
+    "more_paragraphs": [
+      "The topic will be <bold>New co-evolution of translation and humans for the LLM era</bold>."
+    ],
+    "location": {
+      "location": "Nara, Japan",
+      "online": true,
+      "hybrid": true
+    },
+    "organizer": {
+      "type": "Organization",
+      "name": "Asian-Pacific Association for Machine Translation",
+      "url": "https://aamt.info/"
+    },
+    "links": [
+      "https://www.aamtnara2026.com/en/index.html"
+    ],
+    "important_dates": [
+      {
+        "name": "Call for proposals",
+        "date": "2026-07-31"
+      },
+      {
+        "name": "Notification of acceptance",
+        "date": "2026-08-07"
+      },
+      {
+        "name": "Registration/participation fee transfer deadline",
+        "date": "2026-08-28"
+      },
+      {
+        "name": "Presentation submission deadline",
+        "date": "2026-09-07"
+      }
+    ]
+  },
+  {
     "name": "AAMT 2022",
     "id": "aamt-2022",
     "description": "Conference of the Asian-Pacific Association for Machine Translation",
