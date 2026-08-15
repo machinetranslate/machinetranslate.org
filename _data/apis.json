@@ -8793,6 +8793,34 @@
         ]
     },
     {
+      "name": "SonikaAI",
+      "id": "sonikaai",
+      "company": "sonikaai",
+      "urls": [
+        "https://sonikaai.com",
+        "https://sonikaai.com/openapi.yaml"
+      ],
+      "self-serve": false,
+      "inputs": [
+        "file"
+      ],
+      "languages": [
+        "en",
+        "uk",
+        "de",
+        "fr",
+        "es",
+        "it",
+        "pt",
+        "nl",
+        "pl",
+        "ru",
+        "ja",
+        "ko",
+        "zh"
+      ]
+    },
+    {
         "name": "Sunda Translator",
         "id": "sunda",
         "company": "sunda-systems",
