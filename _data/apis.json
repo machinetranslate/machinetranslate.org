@@ -8797,8 +8797,7 @@
       "id": "sonikaai",
       "company": "sonikaai",
       "urls": [
-        "https://sonikaai.com",
-        "https://sonikaai.com/openapi.yaml"
+        "https://sonikaai.com"
       ],
       "self-serve": false,
       "inputs": [
