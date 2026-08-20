@@ -7,7 +7,7 @@ description: Machine translation supported by human post-editing or evaluation
 **Human-in-the-loop** consists of using human feedback for additional [training](/training) of translation engines.
 Human feedback can be obtained from different tasks:
 - Humans correct post-edited machine translation – see [adaptive machine translation](/adaptive)
-- Humans annotate errors in the machine translation output – see [human evaluation metrics](/human-evaluation-metrics)
+- Humans annotate errors in the machine translation output – see [human annotation protocols](/human-annotation-protocols)
 
 Other human-machine interactions are also considered human-in-the-loop:
 - Humans improve source content for better translatability

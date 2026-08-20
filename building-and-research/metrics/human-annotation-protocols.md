@@ -48,7 +48,10 @@ Error dimensions:
 - Style
 - Locale conventions
 - Audience appropriateness
-- Design and ma### ESA
+- Design and markup
+
+
+### ESA
 
 [**Error Span Annotation**](https://aclanthology.org/2024.wmt-1.131/) (**ESA**) is a combination of a lightweight version of MQM and direct assessment.
 With ESA, annotators first mark the error spans with severity (minor or major) but still assign a final score for each segment.
