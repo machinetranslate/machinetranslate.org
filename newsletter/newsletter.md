@@ -19,6 +19,8 @@ It is a bullet-pointed list of news, upcoming events, calls for papers, deadline
 
 ## Recent newsletters
 
+- [September 2026](/september-2026)
+- [August 2026](/august-2026)
 - [July 2026](/july-2026)
 - [June 2026](/june-2026)
 - [May 2026](/may-2026)
