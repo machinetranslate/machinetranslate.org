@@ -1,4 +1,4 @@
 {%- capture newline %}
 {% endcapture -%}
-"mt_alt_names": {{ include.page.names | join " | " | replace:newline,' ' | strip_html | normalize_whitespace | strip | jsonify }},
+"mtorg_alt_names": {{ include.page.names | join:" | " | replace:newline,' ' | normalize_whitespace | strip | jsonify }},
 
