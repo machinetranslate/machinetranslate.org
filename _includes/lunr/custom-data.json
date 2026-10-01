@@ -1,4 +1,5 @@
 {%- capture newline %}
 {% endcapture -%}
+{% # For custom search indexing in Just the Docs %}
 "mtorg_alt_names": {{ include.page.names | join:" | " | replace:newline,' ' | normalize_whitespace | strip | jsonify }},
 
