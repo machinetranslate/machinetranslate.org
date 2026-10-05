@@ -176,7 +176,7 @@
     attempted_path = attempted_path.slice(0, -1);
   }
 
-  if (attempted_path != "404") {
+  if (attempted_path != "404" && attempted_path != "404.html") {
     var elements = document.getElementsByClassName("community_search_term");
     for (var i = 0; i < elements.length; i++) {
       elements[i].textContent = attempted_path;
@@ -185,8 +185,8 @@
     var safe_attempted_path = encodeURIComponent(attempted_path);
 
     document.getElementById("search_community_link").href = document.getElementById("search_community_link").href.replace("404", safe_attempted_path);
-    document.getElementById("ask_question_link").href = document.getElementById("ask_question_link").href.replace("404", safe_attempted_path);
-    document.getElementById("create_article_link").href = document.getElementById("create_article_link").href.replace(/404(?=\.md)/, safe_attempted_path);
+    document.getElementById("ask_question_link").href = document.getElementById("ask_question_link").href.replaceAll("404", safe_attempted_path);
+    document.getElementById("create_article_link").href = document.getElementById("create_article_link").href.replace(/index\/404(?=\.md)/, safe_attempted_path);
   }
 </script>
 {% endif %}
