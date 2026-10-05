@@ -6,7 +6,7 @@
   {% elsif page.layout == 'coming_soon'  %}
     Want to learn about {{ page.title }}?
   {% else %}
-    Want to learn more about {{ page.title }}?
+    Want to learn more about <span class="community_search_term">{{ page.title }}</span>?
   {% endif %}
   </p>
 
@@ -35,16 +35,16 @@
       {% assign community_search_term = page.title | downcase %}
     {% endif %}
     <p>
-      <a href="https://www.reddit.com/r/machinetranslation/search?q={{ page.title | downcase | url_encode }}&restrict_sr=on" class="no-arrow" target="_blank">
+      <a id="search_community_link" href="https://www.reddit.com/r/machinetranslation/search?q={{ page.title | downcase | url_encode }}&restrict_sr=on" class="no-arrow" target="_blank">
         <button id="airtable-button">
-          Search the community for {{ community_search_term }}
+          Search the community for <span class="community_search_term">{{ community_search_term }}</span>
         </button>
       </a>
     </p>
     <p>
-      <a href="https://www.reddit.com/r/machinetranslation/submit?selftext=true&title=Question: %20{{ page.title | url_encode }}%20...%20%3F&text={{ page.title | url_encode }}%20...%20%3F" class="no-arrow" target="_blank">
+      <a id="ask_question_link" href="https://www.reddit.com/r/machinetranslation/submit?selftext=true&title=Question: %20{{ page.title | url_encode }}%20...%20%3F&text={{ page.title | url_encode }}%20...%20%3F" class="no-arrow" target="_blank">
         <button id="airtable-button">
-          Ask a question about {{ community_search_term }}
+          Ask a question about <span class="community_search_term">{{ community_search_term }}</span>
         </button>
       </a>
     </p>
@@ -60,6 +60,7 @@
     <p>
       <a
         target="_blank"
+        id="create_article_link"
         href="https://github.com/machinetranslate/machinetranslate.org/new/master/{{ page.path }}">
         <strong>Create this article →</strong>
       </a>
@@ -164,3 +165,28 @@
     ul.insertBefore(hr, li);
   }
 </script>
+
+{% if page.title == '404' %}
+<script>
+  var attempted_path = window.location.pathname;
+  if (attempted_path.startsWith("/")) {
+    attempted_path = attempted_path.slice(1);
+  }
+  if (attempted_path.endsWith("/")) {
+    attempted_path = attempted_path.slice(0, -1);
+  }
+
+  if (attempted_path != "404") {
+    var elements = document.getElementsByClassName("community_search_term");
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].textContent = attempted_path;
+    }
+
+    var safe_attempted_path = encodeURIComponent(attempted_path);
+
+    document.getElementById("search_community_link").href = document.getElementById("search_community_link").href.replace("404", safe_attempted_path);
+    document.getElementById("ask_question_link").href = document.getElementById("ask_question_link").href.replace("404", safe_attempted_path);
+    document.getElementById("create_article_link").href = document.getElementById("create_article_link").href.replace(/404(?=\.md)/, safe_attempted_path);
+  }
+</script>
+{% endif %}
