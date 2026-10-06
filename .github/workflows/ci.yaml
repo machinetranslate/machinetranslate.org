@@ -55,7 +55,7 @@ jobs:
                 --allow-missing-href true \
                 --check-internal-hash true
               env:
-                JEKYLL_ENV: production
+                JEKYLL_ENV: development
 
             - name: Update pytest
               run: pip install --upgrade pytest pytest-asyncio
