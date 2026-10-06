@@ -43,7 +43,7 @@ jobs:
             - name: Build Jekyll site
               run: bundle exec jekyll build
               env:
-                JEKYLL_ENV: development
+                JEKYLL_ENV: production
                 PAGES_REPO_NWO: ${{ github.repository }}
 
             - name: Check broken links to pages
@@ -55,19 +55,10 @@ jobs:
                 --allow-missing-href true \
                 --check-internal-hash true
               env:
-                JEKYLL_ENV: development
-
-            - name: Serve Jekyll site
-              run: bundle exec jekyll serve --detach
-              env:
                 JEKYLL_ENV: production
-                PAGES_REPO_NWO: ${{ github.repository }}
 
             - name: Update pytest
               run: pip install --upgrade pytest pytest-asyncio
 
             - name: Run tests
               run: pytest .github/tests
-
-            - name: Stop Jekyll server
-              run: pkill -f 'bundle exec jekyll serve' || true            
