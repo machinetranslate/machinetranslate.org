@@ -50,7 +50,7 @@ How it works:
 - A Cloudflare Page Rule is configured to remove the directory from the path - in production only.
 
 This way, everything works:
-- Paths resolve on GitHub (→ `/quality/quality-estimation.md`).
+- Paths resolve on GitHub (→ `/quality-estimation/quality-estimation.md`).
 - Paths resolve on the website locally (→ `http://localhost:4000/quality-estimation`).
 - Paths resolve on website in production (→ `https://machinetranslate.org/quality-estimation`).
 
