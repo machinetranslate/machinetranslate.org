@@ -222,7 +222,7 @@ When creating a new article, give the file a name that does not exist in Machine
 Upload image files to the corresponding article directory.
 
 ```
-- workflows
+- applications/workflows
   - hybrid-translation.md
   - hybrid-translation-workflow.png
 ```
@@ -230,7 +230,7 @@ Upload image files to the corresponding article directory.
 Embed images in articles using the `<img>` tag.
 
 ```
-<img title='Hybrid translation workflow' src='/workflows/hybrid-translation-workflow.png' width='700' style='padding: 1em;' />
+<img title='Hybrid translation workflow' src='/applications/workflows/hybrid-translation-workflow.png' width='700' style='padding: 1em;' />
 ```
 
 # 🛠 Markdown
@@ -301,7 +301,7 @@ She researches quality estimation with [Kevin Johnson](kevin-johnson.md) at Micr
 For articles in any **other directory**, use an **absolute** path.
 
 ```
-She researches [quality estimation](/quality/quality-estimation.md) with Kevin Johnson at Microsoft.
+She researches [quality estimation](/quality-estimation/quality-estimation.md) with Kevin Johnson at Microsoft.
 ```
 
 For a specific **section** of an article, use the **fragment identifier**.
