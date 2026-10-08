@@ -1,6 +1,6 @@
 *This README is for machinetranslate.org infrastructure, not Machine Translate content.*
 
-*For the Machine Translate landing page, visit **[index.md](index.md)**!*
+*For the Machine Translate landing page, visit **[index.md](index/index.md)**!*
 
 ### Infrastructure
 
