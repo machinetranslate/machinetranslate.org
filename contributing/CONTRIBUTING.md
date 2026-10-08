@@ -45,8 +45,8 @@ Many articles are automatically generated from [data files](https://github.com/m
 
 > #### How to add a language
 > To add a new language:
-> - Add the language to [languages.yml](https://github.com/machinetranslate/machinetranslate.org/blob/master/_data/languages.yml).
-> - Add the language family to [language-families.yml](https://github.com/machinetranslate/machinetranslate.org/blob/master/_data/language-families.yml), if it does not exist yet.
+> - Add the language to [languages.json](https://github.com/machinetranslate/machinetranslate.org/blob/master/_data/languages.json).
+> - Add the language family to [language_families.json](https://github.com/machinetranslate/machinetranslate.org/blob/master/_data/language_families.json), if it does not exist yet.
 >
 > The articles of the APIs that support that language will automatically be updated the next time that [generate.py](https://github.com/machinetranslate/machinetranslate.org/blob/master/generate.py) is run.
 
