@@ -1,6 +1,6 @@
 *This README is for machinetranslate.org infrastructure, not Machine Translate content.*
 
-*For the Machine Translate landing page, visit **[index.md](index.md)**!*
+*For the Machine Translate landing page, visit **[index.md](index/index.md)**!*
 
 ### Infrastructure
 
@@ -13,8 +13,6 @@ The machinetranslate.org technology stack:
 ### Running Jekyll locally
 
 Follow the [Jekyll Quickstart Instructions](https://jekyllrb.com/docs/#instructions):
-
-Jekyll requires Ruby version 2.5 or later, but as of July 2023, Ruby version 3.2 was too new, it had incompatibilities.
 
 > 1. Install all [prerequisites](https://jekyllrb.com/docs/installation/).
 > 2. Install the jekyll and bundler [gems](https://jekyllrb.com/docs/ruby-101/#gems).
@@ -52,7 +50,7 @@ How it works:
 - A Cloudflare Page Rule is configured to remove the directory from the path - in production only.
 
 This way, everything works:
-- Paths resolve on GitHub (→ `/quality/quality-estimation.md`).
+- Paths resolve on GitHub (→ `/quality-estimation/quality-estimation.md`).
 - Paths resolve on the website locally (→ `http://localhost:4000/quality-estimation`).
 - Paths resolve on website in production (→ `https://machinetranslate.org/quality-estimation`).
 
