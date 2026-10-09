@@ -179,7 +179,7 @@ seo:
 ---
 ### Translation
 
-The results were determined with a <a href='/human-evaluation-metrics#relative-ranking'>relative ranking</a>, the `> others` (“greater than others”) score, an <a href='/human-evaluation-metrics#adequacy-and-fluency-judgement'>adequacy and fluency judgement</a>, and a <a href='/human-evaluation-metrics#constituent-ranking'>constituent ranking</a>.
+The results were determined with a <a href='/human-annotation-protocols#relative-ranking'>relative ranking</a>, the `> others` (“greater than others”) score, an <a href='/human-annotation-protocols#adequacy-and-fluency-judgement'>adequacy and fluency judgement</a>, and a <a href='/human-annotation-protocols#constituent-ranking'>constituent ranking</a>.
 
 The automatic evaluation results were excluded from the article as the findings conclude the human judgments to be authoritative.
 
