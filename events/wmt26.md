@@ -5,109 +5,27 @@ parent: Events
 nav_order: '2026'
 layout: wmt_event
 title: WMT26
-end_date: '2026-11-01'
+end_date: '2026-10-29'
 future_tense_opening_paragraph: The Tenth Conference on Machine Translation (<strong>WMT26</strong>)
-  will take place in Budapest, Hungary in November, 2026.
+  will take place in Budapest, Hungary from 28 October to 29 October, 2026.
 past_tense_opening_paragraph: The Tenth Conference on Machine Translation (<strong>WMT26</strong>)
-  took place in Budapest, Hungary from in November, 2026.
+  took place in Budapest, Hungary from 28 October to 29 October, 2026.
 name: WMT26
 id: wmt26
 description: Tenth Conference on Machine Translation
-start_date: '2026-11-01'
-calls_for_papers_deadline: '2026-11-01'
+start_date: '2026-10-28'
 location: Budapest, Hungary
 organizer:
   type: Person
   url: https://statmt.org/wmt26
 links:
 - https://statmt.org/wmt26
-important_dates:
-- name: Evaluation periods for shared tasks
-  date: 'June-July 2026'
-- name: Paper submission deadline
-  date: 'August 2026'
-- name: ARR commitment deadline
-  date: 'September 2026'
-- name: Paper notification
-  date: 'September 2026'
-- name: Camera-ready version
-  date: 'September 2026'
-- name: Conference
-  date: 'November 2026'
-shared_tasks:
-- name: General MT (News)
-  url: https://www2.statmt.org/wmt26/translation-task.html
-- name: Indic MT
-  url: https://www2.statmt.org/wmt26/indic-mt-task.html
-- name: Arabic-Asian MT
-  url: https://www2.statmt.org/wmt26/arabic-asian-mt-task.html
-- name: Chinese-Southeast Asian MT
-  url: https://www2.statmt.org/wmt26/chinese-southeast-asian.html
-- name: Creole MT
-  url: https://www2.statmt.org/wmt26/creole-mt-task.html
-- name: Terminology
-  url: https://www2.statmt.org/wmt26/terminology.html
-- name: Model Compression
-  url: https://www2.statmt.org/wmt26/model-compression.html
-- name: Video Subtitle Translation
-  url: https://www2.statmt.org/wmt26/video-subtitle-translation.html
-- name: MT Test Suites
-  url: https://www2.statmt.org/wmt26/testsuite-subtask.html
-- name: Automated MT Evaluation
-  url: https://www2.statmt.org/wmt26/mteval-task.html
-- name: Open Data
-  url: https://www2.statmt.org/wmt26/open-data.html
-- name: Multilingual Instruction
-  url: https://www2.statmt.org/wmt26/multilingual-instruction.html
-- name: Limited Resources LLM
-  url: https://www2.statmt.org/wmt26/limited-resources-llm.html
-general_machine_translation:
-- title: General MT (News)
-  description: Translation task focused on news domain. See task page for language pairs and details.
-language_pairs: []
-scientific_papers:
-- topics:
-  - MT models (neural, statistical etc.)
-  - Analysis of neural models for MT
-  - Using comparable corpora for MT
-  - Selection and preparation of data for MT
-  - Semi-supervised and unsupervised learning for MT, transfer learning
-  - Multilingual MT
-  - Incorporating linguistic information into MT
-  - MT inference
-  - Manual and automatic methods for evaluating MT
-  - Quality estimation for MT
-  research_papers:
-  - Research papers should describe original research corresponding to the categories
-    listed above. Research papers that have been or will be submitted to other meetings
-    or publications must indicate this at submission time, and must be withdrawn from
-    the other venues if accepted and published at WMT 2026.
-  - We will not accept for publication papers that overlap significantly in content
-    or results with papers that have been or will be published elsewhere. It is acceptable
-    to submit work that has been made available as a technical report (or similar,
-    e.g. in arXiv) without citing it.
-  - For the research track, papers should be anonymised, be between 6 and 10 pages
-    in length (excluding limitations, references, appendices).
-  system_papers:
-  - System papers must describe one or more shared task submissions. System paper
-    submissions that we cannot link to a shared task submission will be rejected without
-    review. System papers can overlap with other published work, and do not have to
-    follow the double submission policy. There is no maximum length for system papers,
-    but normally a short paper (4-6 pages) is appropriate. System papers should not
-    be anonymised.
-paper_submission:
-- Papers must be submitted <a href='https://softconf.com/emnlp2026/wmt2026/'>electronically</a>.
-- Research and system papers have the same deadlines.
-- Research and system papers should follow <a href='https://github.com/acl-org/acl-style-files'>EMNLP formatting guidelines</a>.
-- WMT participates in the ACL Rolling Review. ARR-reviewed papers with all reviews
-  and meta-reviews available by the ARR commitment deadline will be considered for
-  publication.
 seo:
   type: Event
   name: WMT26
   description: Tenth Conference on Machine Translation
-  startDate: '2026-11-01'
-  endDate: '2026-11-01'
+  startDate: '2026-10-28'
+  endDate: '2026-10-29'
   eventAttendanceMode: OfflineEventAttendanceMode
   eventStatus: EventScheduled
   location:
@@ -119,8 +37,6 @@ seo:
     url: https://statmt.org/wmt26
 
 ---
-
-
 ## Call for papers
 
 ### Topics

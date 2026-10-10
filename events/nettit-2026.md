@@ -39,7 +39,6 @@ seo:
     url: https://nettt-conference.com/2026/programme-committee/
 
 ---
-
 # Schedule
 
 ## Pre-conference tutorials

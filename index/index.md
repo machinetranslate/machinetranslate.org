@@ -75,7 +75,6 @@ The **Machine Translate Foundation** is building **open information** and **comm
 The content covers everything about machine translation, from products to research, and from history to news.
 
 > #### Featured events
-> - [AMTA 2026](/amta-2026) - 31 August-02 October 2026, Québec City, Canada 🇨🇦
 > - [WMT26](/wmt26) - November 2025, Budapest, Hungary 🇭🇺
 > - [Speech machine translation panel](/meetup) - to be determined, online 🌎
 
