@@ -4,6 +4,7 @@ parent: Contributing
 title: Style
 community_search_exclude: true
 description: The Machine Translate style guide
+render_latex: true
 ---
 
 The Machine Translate Foundation was founded as open information and community for people who want to use machine translation in their work, products or services.
@@ -317,13 +318,23 @@ Avoid trailing slashes at the end of links.
 
 ## Mathematical notation
 
-To render short mathematical formulas, like <img src="https://render.githubusercontent.com/render/math?math=p(t_i|s_{1\ldots |s|}, t_{1\ldots (i-1)})">, use [LaTeX](https://www.latex-project.org/about/) notation and insert the LaTeX code after `=` in the below URL.
+To render short mathematical formulas, like $$p(t_i \mid s_{1\ldots \vert s \vert}, t_{1\ldots (i-1)})$$, use [LaTeX](https://www.latex-project.org/about/) notation.
 
-`<img src="https://render.githubusercontent.com/render/math?math=[LaTeX Code]">`
-
-
-Include the complete URL to add the mathematical formula in the article.
+Put the LaTeX between `$$` and `$$`.
 
 ```
-<img src="https://render.githubusercontent.com/render/math?math=p(t_i|s_{1\ldots |s|}, t_{1\ldots (i-1)})">
+... computational access to the history: $$p(t_i \mid s_{1\ldots \vert s \vert}, t_{1\ldots (i-1)})$$.
 ```
+
+Add `math: true` to the Front Matter of the article so that it properly includes the KaTeX Javascript to render the equation.
+
+```
+---
+parent: Concepts
+title: Language model
+description: Probability of a word in a sequence
+math: true
+---
+```
+
+Use `\vert` or `\mid` instead of `|`. Otherwise the line can be mistaken for a table by the markdown processor.
