@@ -326,14 +326,14 @@ Put the LaTeX between `$$` and `$$`.
 ... computational access to the history: $$p(t_i \mid s_{1\ldots \vert s \vert}, t_{1\ldots (i-1)})$$.
 ```
 
-Add `math: true` to the Front Matter of the article so that it properly includes the KaTeX Javascript to render the equation.
+Add `render_latex: true` to the Front Matter of the article so that it properly includes the KaTeX Javascript to render the equation.
 
 ```
 ---
 parent: Concepts
 title: Language model
 description: Probability of a word in a sequence
-math: true
+render_latex: true
 ---
 ```
 
