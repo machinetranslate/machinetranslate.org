@@ -3,6 +3,7 @@ parent: Concepts
 title: Language model
 community_search_term: "language models"
 description: Probability of a word in a sequence
+render_latex: true
 ---
 
 # Language model
@@ -50,9 +51,9 @@ There are many different ways in which language models are created.
 
 
 The easiest one is to count a number of occurrences of a phrase, in this case a pair,
-<img src="https://render.githubusercontent.com/render/math?math=(w_1, w_2)"> and divide that by the number of occurrences of just
-<img src="https://render.githubusercontent.com/render/math?math=w_1">.
-The result is the probability that with the history (now truncated to just <img src="https://render.githubusercontent.com/render/math?math=w_1">) the next word is <img src="https://render.githubusercontent.com/render/math?math=w_2">.
+$$(w_1, w_2)$$ and divide that by the number of occurrences of just
+$$w_1$$.
+The result is the probability that with the history (now truncated to just $$w_1$$) the next word is $$w_2$$.
 
 Under the **Markov assumption**, the input is limited to the last word only.
 This model is quite restricted because it can’t model well any even mid-term sentence dependencies.
@@ -82,4 +83,4 @@ In phrase-based machine translation, increasing the weight of the language model
 ## Neural machine translation
 
 The usage of language models in [neural machine translation](/neural-machine-translation) is more subtle.
-The decoder can be viewed as a language model because the output is a probability across the target [vocabulary](/vocabulary) and it has computational access to the history: <img src="https://render.githubusercontent.com/render/math?math=p(t_i|s_{1\ldots |s|}, t_{1\ldots (i-1)})">.
+The decoder can be viewed as a language model because the output is a probability across the target [vocabulary](/vocabulary) and it has computational access to the history: $$p(t_i \mid s_{1\ldots \vert s \vert}, t_{1\ldots (i-1)})$$.

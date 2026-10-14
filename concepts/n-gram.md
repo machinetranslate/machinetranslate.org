@@ -3,6 +3,7 @@ parent: Concepts
 title: N-gram
 community_search_term: "N-grams"
 description: A short sequence of word types
+render_latex: true
 ---
 
 An **n-gram** is a short sequence of word types.
@@ -14,13 +15,11 @@ N-grams have many applications in machine translation:
 - evaluation [metrics](/metrics), such as [BLEU](/bleu)
 - [language identification](/language-identification)
 
-<!-- Note: "https://render.githubusercontent.com/render/math?math=..." wasn't working on all equations so we switched to "https://latex.codecogs.com/svg.image?..." but it requires escaping to survive the Markdown table processor -->
-
 | Number of words | Common name | Sequence notation | N-gram language model notation |
 | ----------- | ----------- | ----------- | ----------- |
-| 1 | Unigram | <img src="https://latex.codecogs.com/svg.image?%28w%29" /> | <img src="https://latex.codecogs.com/svg.image?P%28w%29" /> |
-| 2 | Bigram | <img src="https://latex.codecogs.com/svg.image?%28w_1%2C%20w_2%29" /> | <img src="https://latex.codecogs.com/svg.image?P%28w%20%5Cvert%20w_%7B-1%7D%29" /> |
-| 3 | Trigram | <img src="https://latex.codecogs.com/svg.image?%28w_1%2C%20w_2%2C%20w_3%29" /> | <img src="https://latex.codecogs.com/svg.image?P%28w%20%5Cvert%20w_%7B-1%7D%2C%20w_%7B-2%7D%29" /> |
+| 1 | Unigram | $$(w)$$ | $$P(w)$$ |
+| 2 | Bigram | $$(w_1, w_2)$$ | $$P(w \vert w_{-1})$$ |
+| 3 | Trigram | $$(w_1, w_2, w_3)$$ | $$P(w \vert w_{-1}, w_{-2})$$ |
 
 ## Example
 
