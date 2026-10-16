@@ -11274,6 +11274,31 @@
         ]
     },
     {
+        "name": "TranslateMyImage",
+        "id": "translatemyimage",
+        "company": "translatemyimage",
+        "urls": [
+            "https://translatemyimage.com",
+            "https://translatemyimage.com/api-docs"
+        ],
+        "privacy_url": "https://translatemyimage.com/privacy-policy",
+        "self-serve": true,
+        "inputs": [
+            "file"
+        ],
+        "languages": [
+            "de",
+            "en",
+            "es",
+            "fr",
+            "it",
+            "ja",
+            "ko",
+            "pt",
+            "zh"
+        ]
+    },
+    {
         "name": "TranslateX",
         "id": "translatex",
         "company": "gtranslate",
