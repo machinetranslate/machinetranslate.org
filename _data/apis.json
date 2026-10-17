@@ -5471,6 +5471,7 @@
         "name": "Judicio",
         "id": "judicio",
         "company": "crosslang",
+        "urls": [],
         "languages": [
             "de",
             "en",
