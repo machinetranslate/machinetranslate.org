@@ -7,9 +7,8 @@ title: Judicio
 description: The Judicio machine translation API
 id: judicio
 parent: Translation APIs
-urls:
-- https://judic.io
-privacy_url: https://judic.io/en/about
+urls: []
+privacy_url: null
 self_serve: false
 prompt_required: false
 customisation: []
