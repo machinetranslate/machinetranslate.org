@@ -5471,10 +5471,6 @@
         "name": "Judicio",
         "id": "judicio",
         "company": "crosslang",
-        "urls": [
-            "https://judic.io"
-        ],
-        "privacy_url": "https://judic.io/en/about",
         "languages": [
             "de",
             "en",
@@ -5483,9 +5479,6 @@
         ],
         "stock_api_domains": [
             "legal"
-        ],
-        "stock_api_domains_urls": [
-            "https://judic.io/en"
         ],
         "inputs": [
             "text"
