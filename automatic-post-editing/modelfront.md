@@ -894,6 +894,9 @@ supported_languages:
   name: Zulu
   variant_name: null
 integrations:
+- slug: openloc
+  name: OpenLoc
+  custom: true
 - slug: crowdin
   name: Crowdin
   custom: true

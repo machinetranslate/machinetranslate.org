@@ -755,6 +755,9 @@ only_compatible_tms: null
 customisation:
 - Fine-tuning
 integrations:
+- slug: openloc
+  name: OpenLoc
+  custom: true
 - slug: crowdin
   name: Crowdin
   custom: true

@@ -1,5 +1,38 @@
 [
     {
+        "id": "openloc",
+        "name": "OpenLoc",
+        "company": "modelfront",
+        "tms_url": "https://openloc.com",
+        "type": [
+            "tms",
+            "cat"
+        ],
+        "translation_api_integrations": [
+            {
+                "deepl": {
+                    "formality": false
+                }
+            },
+            "google",
+            "libretranslate"
+        ],
+        "quality_estimation_integrations":[
+            {
+                "modelfront": {
+                    "custom": true
+               }
+            }
+        ],
+        "automatic_post_editing_integrations":[
+            {
+                "modelfront": {
+                    "custom": true
+               }
+            }
+    ]
+    },
+    {
         "id": "across",
         "name": "Across",
         "company": "across",
