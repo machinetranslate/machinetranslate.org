@@ -114,7 +114,7 @@ multiday_schedule:
       Marcin Chochowski, Bartłomiej Boczek, Mikołaj Koszowski, Adam Dobrowolski, Marcin
       Szymański, Paweł Przybysz
   - start_time: '11:00'
-    title: '<a href="https://https://aclanthology.org/2020.wmt-1.17.pdf">Speed-optimized,
+    title: '<a href="https://aclanthology.org/2020.wmt-1.17.pdf">Speed-optimized,
       Compact Student Models that Distill Knowledge from a Larger Teacher Model: the
       UEDIN-CUNI Submission to the WMT 2020 News Translation Task</a> <br>Ulrich Germann,
       Roman Grundkiewicz, Martin Popel, Radina Dobreva, Nikolay Bogoychev, Kenneth

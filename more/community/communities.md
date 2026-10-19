@@ -79,10 +79,7 @@ MaCoCu is co-financed by Connecting Europe Facility, from the European Union.
 Turkic Interlingua was founded in September 2020.
 By 2022 it had over 100 members, mainly natural language processing enthusiasts, from more than 10 countries and regions.
 
-- Website: [turkic-interlingua.org/](https://turkic-interlingua.org/)
-- People: [https://turkic-interlingua.org/team](https://turkic-interlingua.org/team)
 - Papers: [https://github.com/turkic-interlingua/til-mt](https://github.com/turkic-interlingua/til-mt)
-- Datasets: [https://huggingface.co/datasets/turkic_xwmt](https://huggingface.co/datasets/turkic_xwmt)
 
 ### LibreTranslate
 
