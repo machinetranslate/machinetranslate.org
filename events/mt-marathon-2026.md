@@ -14,7 +14,7 @@ past_tense_opening_paragraph: The week-long gathering of MT researchers, develop
   Germany from 14 September to 18 September, 2026.
 name: MT Marathon 2026
 id: mt-marathon-2026
-description: week-long gathering of MT researchers, developers, students and users
+description: A week-long gathering of MT researchers, developers, students and users
 calls_for_papers_deadline: '2026-09-05'
 start_date: '2026-09-14'
 location: Karlsruhe, Germany
