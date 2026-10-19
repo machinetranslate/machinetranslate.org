@@ -27,7 +27,7 @@ links:
 seo:
   type: Event
   name: MT Marathon 2026
-  description: week-long gathering of MT researchers, developers, students and users
+  description: A week-long gathering of MT researchers, developers, students and users
   startDate: '2026-09-14'
   endDate: '2026-09-18'
   eventAttendanceMode: OfflineEventAttendanceMode
