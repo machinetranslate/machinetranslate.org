@@ -1,5 +1,25 @@
 [
   {
+  "name": "MT Summit 2027",
+  "id": "mt-summit-2027",
+  "description": "Machine Translation Summit",
+  "calls_for_papers_deadline": "2027-10-01",
+  "start_date": "2027-10-01",
+  "end_date": "2027-10-01",
+  "location": {
+    "location": "Montreal, Canada",
+    "online": false
+  },
+  "organizer": {
+    "type": "Organisation",
+    "name": "AMTA",
+    "url": "https://amtaweb.org/"
+  },
+  "links": [
+    ""
+  ]
+  },
+  {
     "name": "EAMT 2027",
     "id": "eamt-2027",
     "description": "Conference of the European Association of Machine Translation",
