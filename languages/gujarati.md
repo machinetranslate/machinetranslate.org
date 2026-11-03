@@ -127,6 +127,10 @@ supported_qe_apis:
   name: Omniscien Confidence Scores
   codes:
   - gu
+- id: pangeanic-mtqe
+  name: Pangeanic MTQE
+  codes:
+  - gu
 - id: phrase-mtqe
   name: Phrase MTQE
   codes:

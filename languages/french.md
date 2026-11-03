@@ -336,6 +336,11 @@ supported_qe_apis:
   codes:
   - fr
   - fr-ca
+- id: pangeanic-mtqe
+  name: Pangeanic MTQE
+  codes:
+  - fr-ca
+  - fr-fr
 - id: phrase-mtqe
   name: Phrase MTQE
   codes:

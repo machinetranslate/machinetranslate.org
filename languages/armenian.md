@@ -126,6 +126,10 @@ supported_qe_apis:
   name: Smart Review
   codes:
   - hy
+- id: pangeanic-mtqe
+  name: Pangeanic MTQE
+  codes:
+  - hy
 - id: phrase-mtqe
   name: Phrase MTQE
   codes:

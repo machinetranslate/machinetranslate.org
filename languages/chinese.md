@@ -351,6 +351,11 @@ supported_qe_apis:
   codes:
   - zh-Hans
   - zh-Hant
+- id: pangeanic-mtqe
+  name: Pangeanic MTQE
+  codes:
+  - zh-Hans
+  - zh-Hant
 - id: phrase-mtqe
   name: Phrase MTQE
   codes:

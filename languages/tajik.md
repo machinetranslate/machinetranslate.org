@@ -86,6 +86,10 @@ supported_apis:
   codes:
   - tg
 supported_qe_apis:
+- id: pangeanic-mtqe
+  name: Pangeanic MTQE
+  codes:
+  - tg
 - id: taus
   name: TAUS
   codes:

@@ -112,6 +112,10 @@ supported_apis:
   codes:
   - kk
 supported_qe_apis:
+- id: pangeanic-mtqe
+  name: Pangeanic MTQE
+  codes:
+  - kk
 - id: phrase-mtqe
   name: Phrase MTQE
   codes:

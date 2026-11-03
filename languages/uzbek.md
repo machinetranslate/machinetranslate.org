@@ -107,6 +107,10 @@ supported_qe_apis:
   name: Smart Review
   codes:
   - uz
+- id: pangeanic-mtqe
+  name: Pangeanic MTQE
+  codes:
+  - uz
 - id: taus
   name: TAUS
   codes:

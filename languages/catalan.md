@@ -182,6 +182,11 @@ supported_qe_apis:
   name: Smart Review
   codes:
   - ca
+- id: pangeanic-mtqe
+  name: Pangeanic MTQE
+  codes:
+  - ca
+  - ca-es-valencia
 - id: phrase-mtqe
   name: Phrase MTQE
   codes:
