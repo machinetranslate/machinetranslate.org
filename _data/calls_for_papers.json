@@ -1,13 +1,18 @@
 [
     {
+        "name": "EAMT 2027",
+        "url": "https://www.eamt2027.org/calls/#papers",
+        "calls_for_papers_deadline": "2027-01-31"
+    },
+    {
         "name": "EAMT 2027 Workshops",
         "url": "https://www.eamt2027.org/calls/#workshops",
-        "calls_for_papers_deadline": "2026-10-31"
+        "calls_for_papers_deadline": "2026-11-10"
     },
     {
         "name": "EAMT 2027 Tutorials",
         "url": "https://www.eamt2027.org/calls/#tutorials",
-        "calls_for_papers_deadline": "2026-10-31"
+        "calls_for_papers_deadline": "2026-11-10"
     },
     {
         "name": "<em>Machine Translation Quality Estimation: Advances and Emerging Challenges</em>",

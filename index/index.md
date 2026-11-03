@@ -75,8 +75,8 @@ The **Machine Translate Foundation** is building **open information** and **comm
 The content covers everything about machine translation, from products to research, and from history to news.
 
 > #### Featured events
+> - [EAMT 2027](/eamt-2027) - 3-6 May 2026, Barcelona, Spain 🇪🇸
 > - [MT Summit 2027](/mt-summit-2027) - 2026, Montreal, Canada 🇨🇦
-> - [WMT26](/wmt26) - 28-29 October 2026, Budapest, Hungary 🇭🇺
 > - [Speech machine translation panel](/meetup) - to be determined, online 🌎
 
 > #### Featured articles
