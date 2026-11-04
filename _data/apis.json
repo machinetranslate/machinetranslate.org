@@ -1247,6 +1247,48 @@
         "self-serve": true
     },
     {
+        "name": "Bhashini",
+        "id": "bhashini",
+        "company": "digital-india-bhashini-division",
+        "urls": [
+            "https://bhashini.gov.in/services",
+            "https://bhashini.gitbook.io/bhashini-apis/"
+        ],
+        "languages": [
+            "as",
+            "bn",
+            "brx",
+            "doi",
+            "en",
+            "gu",
+            "hi",
+            "kn",
+            "kok",
+            "ks",
+            "mai",
+            "ml",
+            "mni",
+            "mr",
+            "ne",
+            "or",
+            "pa",
+            "sa",
+            "sat",
+            "sd",
+            "ta",
+            "te",
+            "ur"
+        ],
+        "stock_api_domains": [
+            "government"
+        ],
+        "inputs": [
+            "speech",
+            "text"
+        ],
+        "self-serve": true
+    },
+    {
         "name": "CloudTranslation",
         "id": "cloudtranslation",
         "company": "cloudtranslation",
