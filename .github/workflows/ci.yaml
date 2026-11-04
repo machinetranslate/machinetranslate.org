@@ -57,8 +57,5 @@ jobs:
               env:
                 JEKYLL_ENV: development
 
-            - name: Update pytest
-              run: pip install --upgrade pytest pytest-asyncio
-
             - name: Run tests
               run: pytest .github/tests
