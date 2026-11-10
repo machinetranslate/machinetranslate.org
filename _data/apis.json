@@ -8364,12 +8364,12 @@
                 "zh"
             ],
             [
-                "en-GB",
-                "en-US"
+                "en-gb",
+                "en-us"
             ],
             [
-                "en-US",
-                "en-GB"
+                "en-us",
+                "en-gb"
             ],
             [
                 "es",
@@ -8401,27 +8401,27 @@
             ],
             [
                 "es",
-                "pt-BR"
+                "pt-br"
             ],
             [
-                "es-ES",
-                "es-LA"
+                "es-es",
+                "es-la"
             ],
             [
-                "es-LA",
-                "es-ES"
+                "es-la",
+                "es-es"
             ],
             [
                 "fr",
                 "en"
             ],
             [
-                "fr-CA",
-                "fr-FR"
+                "fr-ca",
+                "fr-fr"
             ],
             [
-                "fr-FR",
-                "fr-CA"
+                "fr-fr",
+                "fr-ca"
             ],
             [
                 "gl",
@@ -8472,12 +8472,12 @@
                 "es"
             ],
             [
-                "pt-BR",
-                "pt-PT"
+                "pt-br",
+                "pt-pt"
             ],
             [
-                "pt-PT",
-                "pt-BR"
+                "pt-pt",
+                "pt-br"
             ],
             [
                 "ru",

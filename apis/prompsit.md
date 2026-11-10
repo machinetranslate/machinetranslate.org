@@ -67,13 +67,13 @@ supported_languages:
   name: English
   variant_name: null
 - slug: english
-  code: en-GB
+  code: en-gb
   normalized_code: en-gb
   base_code: en
   name: English
   variant_name: Great Britain
 - slug: english
-  code: en-US
+  code: en-us
   normalized_code: en-us
   base_code: en
   name: English
@@ -85,13 +85,13 @@ supported_languages:
   name: Spanish
   variant_name: null
 - slug: spanish
-  code: es-ES
+  code: es-es
   normalized_code: es-es
   base_code: es
   name: Spanish
   variant_name: Spain
 - slug: spanish
-  code: es-LA
+  code: es-la
   normalized_code: es-419
   base_code: es
   name: Spanish
@@ -103,13 +103,13 @@ supported_languages:
   name: French
   variant_name: null
 - slug: french
-  code: fr-CA
+  code: fr-ca
   normalized_code: fr-ca
   base_code: fr
   name: French
   variant_name: Canada
 - slug: french
-  code: fr-FR
+  code: fr-fr
   normalized_code: fr-fr
   base_code: fr
   name: French
@@ -169,13 +169,13 @@ supported_languages:
   name: Portuguese
   variant_name: null
 - slug: portuguese
-  code: pt-BR
+  code: pt-br
   normalized_code: pt-br
   base_code: pt
   name: Portuguese
   variant_name: Brazil
 - slug: portuguese
-  code: pt-PT
+  code: pt-pt
   normalized_code: pt-pt
   base_code: pt
   name: Portuguese
