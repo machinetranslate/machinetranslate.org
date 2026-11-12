@@ -76,7 +76,7 @@ The content covers everything about machine translation, from products to resear
 
 > #### Featured events
 > - [EAMT 2027](/eamt-2027) - 3-6 May 2026, Barcelona, Spain 🇪🇸
-> - [MT Summit 2027](/mt-summit-2027) - 2026, Montreal, Canada 🇨🇦
+> - [MT Summit 2027](/mt-summit-2027) - 18-20 August 2026, Montreal, Canada 🇨🇦
 > - [Speech machine translation panel](/meetup) - to be determined, online 🌎
 
 > #### Featured articles
