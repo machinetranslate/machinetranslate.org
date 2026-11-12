@@ -3,9 +3,9 @@
   "name": "MT Summit 2027",
   "id": "mt-summit-2027",
   "description": "Machine Translation Summit",
-  "calls_for_papers_deadline": "2027-10-01",
-  "start_date": "2027-10-01",
-  "end_date": "2027-10-01",
+  "calls_for_papers_deadline": "2027-06-01",
+  "start_date": "2027-08-18",
+  "end_date": "2027-08-20",
   "location": {
     "location": "Montreal, Canada",
     "online": false

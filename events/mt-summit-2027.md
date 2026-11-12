@@ -5,16 +5,17 @@ parent: Events
 nav_order: 2027
 layout: event
 title: MT Summit 2027
-end_date: '2027-10-01'
+end_date: '2027-08-20'
 future_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit
-  2027</strong>) will take place in Montreal, Canada on 01 October, 2027.
+  2027</strong>) will take place in Montreal, Canada from 18 August to 20 August,
+  2027.
 past_tense_opening_paragraph: The Machine Translation Summit (<strong>MT Summit 2027</strong>)
-  took place in Montreal, Canada on 01 October, 2027.
+  took place in Montreal, Canada from 18 August to 20 August, 2027.
 name: MT Summit 2027
 id: mt-summit-2027
 description: Machine Translation Summit
-calls_for_papers_deadline: '2027-10-01'
-start_date: '2027-10-01'
+calls_for_papers_deadline: '2027-06-01'
+start_date: '2027-08-18'
 location: Montreal, Canada
 organizer:
   type: Organisation
@@ -26,8 +27,8 @@ seo:
   type: Event
   name: MT Summit 2027
   description: Machine Translation Summit
-  startDate: '2027-10-01'
-  endDate: '2027-10-01'
+  startDate: '2027-08-18'
+  endDate: '2027-08-20'
   eventAttendanceMode: OfflineEventAttendanceMode
   eventStatus: EventScheduled
   location:
