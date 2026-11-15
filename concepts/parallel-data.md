@@ -51,6 +51,7 @@ Many of the largest data sets are publicly available.
 | [Hansard](https://catalog.ldc.upenn.edu/LDC95T20) | Data set |
 | [JESC](https://nlp.stanford.edu/projects/jesc/) | Data set |
 | [MaCoCu](https://macocu.eu/) | Data set |
+| [MeloLingua CEFR-Graded Stories](https://github.com/MeloLingua/melolingua-language-stories-dataset) | Data set |
 | [Mozilla Common Voice](https://commonvoice.mozilla.org/en/datasets) | Data set |
 | [OpenSubtitles](https://opus.nlpl.eu/OpenSubtitles-v2018.php) | Data repository |
 | [ParaCrawl](https://paracrawl.eu/) | Data repository |
