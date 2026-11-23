@@ -659,6 +659,7 @@ for tms in INTEGRATIONS:
     # print(tms_id)
     tms_name = tms['name']
     tms_url = tms['tms_url']
+    tms_source_code_url = tms.get('source_code_url')
     tms_type = tms['type']
     fuzzy_repair = tms.get('fuzzy_repair', False)
     tms_open_source = tms.get('open_source', False)
@@ -773,6 +774,7 @@ for tms in INTEGRATIONS:
       'type': tms_type,
       'type_description': tms_type_description,
       'tms_url': tms_url,
+      'source_code_url': tms_source_code_url,
       'translation_api_integrations': translation_api_integrations,
       'fuzzy_repair': fuzzy_repair,
       'open-source': tms_open_source,

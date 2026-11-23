@@ -12,6 +12,7 @@ type:
 - cat
 type_description: translation management system
 tms_url: https://openloc.com
+source_code_url: https://github.com/modelfront/openloc
 translation_api_integrations:
 - slug: deepl
   formality: false

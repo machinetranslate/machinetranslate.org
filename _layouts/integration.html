@@ -50,6 +50,11 @@ parent: Integrations
       <li>
         <a href="{{ page.tms_url }}" target="_blank">{{ page.tms_url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
       </li>
+      {% if page.source_code_url %}
+      <li>
+        <a href="{{ page.source_code_url }}" target="_blank">{{ page.source_code_url | remove_first: 'https://' | remove_first: 'http://' | remove_first: 'www.' | truncate: 50 }}</a>
+      </li>
+      {% endif %}
     </ul>
 </blockquote>
 

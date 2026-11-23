@@ -4,6 +4,7 @@
         "name": "OpenLoc",
         "company": "modelfront",
         "tms_url": "https://openloc.com",
+        "source_code_url": "https://github.com/modelfront/openloc",
         "type": [
             "tms",
             "cat"
