@@ -11,7 +11,7 @@ type:
 - cat
 type_description: computer-aided translation tool
 tms_url: https://www.matecat.com
-source_code_url: null
+source_code_url: https://github.com/matecat/MateCat
 translation_api_integrations:
 - slug: apertium
   name: Apertium
@@ -44,7 +44,7 @@ translation_api_integrations:
 - slug: yandex
   name: Yandex Translate
 fuzzy_repair: false
-open-source: false
+open-source: true
 quality_estimation_integrations:
 - slug: modernmt
   urls:
