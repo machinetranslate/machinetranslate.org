@@ -282,7 +282,7 @@ seo:
 ---
 ### News translation
 
-The results were determined with a [relative ranking](/human-evaluation-metrics#relative-ranking) through the [TrueSkill](/human-evaluation-metrics#trueskill) model.
+The results were determined with a [relative ranking](/human-annotation-protocols#relative-ranking) through the [TrueSkill](/human-annotation-protocols#trueskill) model.
 
 #### → English
 

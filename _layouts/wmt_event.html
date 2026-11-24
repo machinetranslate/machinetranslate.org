@@ -216,11 +216,11 @@ parent: Events
       {% endfor %}
     {% endfor %}
     {% if show_average_score and show_average_z_score %}
-      The winner systems were listed according to their <a href="/human-evaluation-metrics#average-score-and-average-z-score">average score and average z-score</a>.
+      The winner systems were listed according to their <a href="/human-annotation-protocols#average-score-and-average-z-score">average score and average z-score</a>.
     {% elsif show_average_score %}
-      The winner systems were listed according to their <a href="/human-evaluation-metrics#average-score-and-average-z-score">average score</a>.
+      The winner systems were listed according to their <a href="/human-annotation-protocols#average-score-and-average-z-score">average score</a>.
     {% elsif show_average_z_score %}
-      The winner systems were listed according to their <a href="/human-evaluation-metrics#average-score-and-average-z-score">average z-score</a>.
+      The winner systems were listed according to their <a href="/human-annotation-protocols#average-score-and-average-z-score">average z-score</a>.
     {% endif %}
     {% if entry.scoring_table %}
       {% for i in entry.scoring_table %}
