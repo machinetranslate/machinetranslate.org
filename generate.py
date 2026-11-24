@@ -660,6 +660,7 @@ for tms in INTEGRATIONS:
     tms_name = tms['name']
     tms_url = tms['tms_url']
     tms_source_code_url = tms.get('source_code_url')
+    tms_active = tms.get('active', True)
     tms_type = tms['type']
     fuzzy_repair = tms.get('fuzzy_repair', False)
     tms_open_source = tms.get('open_source', False)
@@ -710,6 +711,9 @@ for tms in INTEGRATIONS:
           integration_data['slug'] = integration_slug
         
         integration_data['name'] = APIS_BY_ID[integration_slug]['name']
+        # LLM APIs are the ones that need a prompt to translate
+        if APIS_BY_ID[integration_slug].get('prompt_required'):
+          integration_data['llm'] = True
 
         translation_api_integrations.append(integration_data)
       except KeyError:
@@ -788,6 +792,9 @@ for tms in INTEGRATIONS:
         'type': 'Product'
       }
     }
+    # Only inactive integrations need the flag; the layout treats a missing value as active
+    if not tms_active:
+      frontmatter['active'] = False
 
     filepath = f'integrations/{tms_id}.md'
 

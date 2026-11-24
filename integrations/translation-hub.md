@@ -48,6 +48,7 @@ more_by_company:
 seo:
   name: Machine translation API integrations in Google Cloud Translation Hub
   type: Product
+active: false
 
 ---
 

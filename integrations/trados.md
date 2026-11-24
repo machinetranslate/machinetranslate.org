@@ -169,6 +169,7 @@ translation_api_integrations:
   urls:
   - https://appstore.rws.com/Plugin/249
   name: OpenAI
+  llm: true
 fuzzy_repair: true
 open-source: false
 quality_estimation_integrations:

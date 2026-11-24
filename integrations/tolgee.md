@@ -29,14 +29,17 @@ translation_api_integrations:
   urls:
   - https://docs.tolgee.io/platform/projects_and_organizations/llm-providers
   name: Anthropic
+  llm: true
 - slug: openai
   urls:
   - https://docs.tolgee.io/platform/projects_and_organizations/llm-providers
   name: OpenAI
+  llm: true
 - slug: gemini
   urls:
   - https://docs.tolgee.io/platform/projects_and_organizations/llm-providers
   name: Gemini
+  llm: true
 fuzzy_repair: false
 open-source: true
 quality_estimation_integrations: []

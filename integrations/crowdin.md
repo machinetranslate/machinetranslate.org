@@ -84,21 +84,25 @@ translation_api_integrations:
   - https://support.crowdin.com/crowdin-ai/
   - https://store.crowdin.com/anthropic
   name: Anthropic
+  llm: true
 - slug: deepseek
   urls:
   - https://support.crowdin.com/crowdin-ai/
   - https://store.crowdin.com/deepseek
   name: DeepSeek
+  llm: true
 - slug: mistral-ai
   urls:
   - https://support.crowdin.com/crowdin-ai/
   - https://store.crowdin.com/mistral-ai
   name: Mistral AI
+  llm: true
 - slug: openai
   urls:
   - https://support.crowdin.com/crowdin-ai/
   - https://store.crowdin.com/openai
   name: OpenAI
+  llm: true
 - slug: qwen-mt
   plugin: true
   urls:
@@ -109,6 +113,7 @@ translation_api_integrations:
   - https://support.crowdin.com/crowdin-ai/
   - https://store.crowdin.com/google-gemini
   name: Gemini
+  llm: true
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations:

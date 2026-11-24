@@ -36,14 +36,17 @@ translation_api_integrations:
   urls:
   - https://www.star-group.net/-downloads-/file/1933/Transit-TermStar-NXT-Release-Notes.css
   name: Anthropic
+  llm: true
 - slug: deepseek
   urls:
   - https://www.star-group.net/-downloads-/file/1933/Transit-TermStar-NXT-Release-Notes.css
   name: DeepSeek
+  llm: true
 - slug: openai
   urls:
   - https://www.star-group.net/-downloads-/file/1933/Transit-TermStar-NXT-Release-Notes.css
   name: OpenAI
+  llm: true
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []

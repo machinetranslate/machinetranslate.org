@@ -97,7 +97,7 @@ more_by_company:
 - quality_estimation_apis:
   - id: google-translation-hub-mtqp
     name: Google Translation Hub MTQP
-active: true
+active: false
 seo:
   name: The Google Translation Hub MTQP translation quality estimation API
   type: Product

@@ -103,6 +103,7 @@ translation_api_integrations:
   urls:
   - https://xtm-cloud.atlassian.net/wiki/spaces/EXKB/pages/4013948958
   name: OpenAI
+  llm: true
 fuzzy_repair: true
 open-source: false
 quality_estimation_integrations:

@@ -49,14 +49,17 @@ translation_api_integrations:
   urls:
   - https://help.smartcat.com/ai-translation-profiles/
   name: Anthropic
+  llm: true
 - slug: openai
   urls:
   - https://help.smartcat.com/how-to-use-openai-gpt-in-smartcat
   name: OpenAI
+  llm: true
 - slug: gemini
   urls:
   - https://help.smartcat.com/ai-translation-profiles/
   name: Gemini
+  llm: true
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []

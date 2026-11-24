@@ -23,14 +23,17 @@ translation_api_integrations:
   urls:
   - https://simplelocalize.io/docs/general/auto-translation/
   name: Anthropic
+  llm: true
 - slug: openai
   urls:
   - https://simplelocalize.io/docs/general/auto-translation/
   name: OpenAI
+  llm: true
 - slug: gemini
   urls:
   - https://simplelocalize.io/docs/general/auto-translation/
   name: Gemini
+  llm: true
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []

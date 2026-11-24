@@ -50,22 +50,27 @@ translation_api_integrations:
   urls:
   - https://anywhere.wordfast.com/help/releaseNotes.html
   name: Anthropic
+  llm: true
 - slug: deepseek
   urls:
   - https://anywhere.wordfast.com/help/releaseNotes.html
   name: DeepSeek
+  llm: true
 - slug: mistral-ai
   urls:
   - https://anywhere.wordfast.com/help/releaseNotes.html
   name: Mistral AI
+  llm: true
 - slug: openai
   urls:
   - https://anywhere.wordfast.com/help/releaseNotes.html
   name: OpenAI
+  llm: true
 - slug: gemini
   urls:
   - https://anywhere.wordfast.com/help/releaseNotes.html
   name: Gemini
+  llm: true
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []

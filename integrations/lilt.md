@@ -24,10 +24,12 @@ translation_api_integrations:
   urls:
   - https://support.lilt.com/kb/anthropic-configuration.md
   name: Anthropic
+  llm: true
 - slug: openai
   urls:
   - https://support.lilt.com/kb/openai-configuration.md
   name: OpenAI
+  llm: true
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []

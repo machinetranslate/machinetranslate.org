@@ -40,10 +40,12 @@ translation_api_integrations:
   urls:
   - https://help.smartling.com/hc/en-us/articles/38781764803867
   name: OpenAI
+  llm: true
 - slug: gemini
   urls:
   - https://help.smartling.com/hc/en-us/articles/36904931829787
   name: Gemini
+  llm: true
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []

@@ -66,10 +66,12 @@ translation_api_integrations:
   urls:
   - https://help.wordbee.com/wbt/mistral-ai
   name: Mistral AI
+  llm: true
 - slug: openai
   urls:
   - https://help.wordbee.com/wbt/open-ai
   name: OpenAI
+  llm: true
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations: []

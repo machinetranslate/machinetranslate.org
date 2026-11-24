@@ -17,6 +17,7 @@ translation_api_integrations:
 - slug: anthropic
   glossary: true
   name: Anthropic
+  llm: true
 - slug: deepl
   formality: true
   glossary: true
@@ -28,6 +29,7 @@ translation_api_integrations:
 - slug: openai
   glossary: true
   name: OpenAI
+  llm: true
 fuzzy_repair: false
 open-source: false
 quality_estimation_integrations:

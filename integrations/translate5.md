@@ -50,6 +50,7 @@ translation_api_integrations:
   urls:
   - https://confluence.translate5.net/x/AwAfJg
   name: OpenAI
+  llm: true
 fuzzy_repair: false
 open-source: true
 quality_estimation_integrations:

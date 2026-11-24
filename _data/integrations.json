@@ -1788,6 +1788,7 @@
     {
         "id": "translation-hub",
         "name": "Google Cloud Translation Hub",
+        "active": false,
         "company": "google",
         "tms_url": "https://cloud.google.com/translation-hub",
         "type": [
