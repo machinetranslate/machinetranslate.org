@@ -11,12 +11,23 @@
         ],
         "translation_api_integrations": [
             {
+                "anthropic": {
+                    "glossary": true
+                }
+            },
+            {
                 "deepl": {
-                    "formality": false
+                    "formality": true,
+                    "glossary": true
                 }
             },
             "google",
-            "libretranslate"
+            "libretranslate",
+            {
+                "openai": {
+                    "glossary": true
+                }
+            }
         ],
         "quality_estimation_integrations":[
             {
@@ -171,6 +182,54 @@
                 "yandex": {
                     "active": false
                 }
+            },
+            {
+                "anthropic": {
+                    "urls": [
+                        "https://support.crowdin.com/crowdin-ai/",
+                        "https://store.crowdin.com/anthropic"
+                    ]
+                }
+            },
+            {
+                "deepseek": {
+                    "urls": [
+                        "https://support.crowdin.com/crowdin-ai/",
+                        "https://store.crowdin.com/deepseek"
+                    ]
+                }
+            },
+            {
+                "mistral-ai": {
+                    "urls": [
+                        "https://support.crowdin.com/crowdin-ai/",
+                        "https://store.crowdin.com/mistral-ai"
+                    ]
+                }
+            },
+            {
+                "openai": {
+                    "urls": [
+                        "https://support.crowdin.com/crowdin-ai/",
+                        "https://store.crowdin.com/openai"
+                    ]
+                }
+            },
+            {
+                "qwen-mt": {
+                    "plugin": true,
+                    "urls": [
+                        "https://store.crowdin.com/alibaba-cloud-model-studio"
+                    ]
+                }
+            },
+            {
+                "gemini": {
+                    "urls": [
+                        "https://support.crowdin.com/crowdin-ai/",
+                        "https://store.crowdin.com/google-gemini"
+                    ]
+                }
             }
         ],
         "router_api_integrations": [
@@ -320,6 +379,20 @@
                         "https://support.lilt.com/kb/introduction-to-lilt-translate"
                     ]
                 }
+            },
+            {
+                "anthropic": {
+                    "urls": [
+                        "https://support.lilt.com/kb/anthropic-configuration.md"
+                    ]
+                }
+            },
+            {
+                "openai": {
+                    "urls": [
+                        "https://support.lilt.com/kb/openai-configuration.md"
+                    ]
+                }
             }
         ]
     },
@@ -352,6 +425,13 @@
             {
                 "iptranslator": {
                     "active": false
+                }
+            },
+            {
+                "lara": {
+                    "urls": [
+                        "https://guides.matecat.com/machine-translation-engines"
+                    ]
                 }
             },
             "language-weaver",
@@ -974,7 +1054,28 @@
                     "glossary": true
                 }
             },
-            "google"
+            "google",
+            {
+                "anthropic": {
+                    "urls": [
+                        "https://simplelocalize.io/docs/general/auto-translation/"
+                    ]
+                }
+            },
+            {
+                "openai": {
+                    "urls": [
+                        "https://simplelocalize.io/docs/general/auto-translation/"
+                    ]
+                }
+            },
+            {
+                "gemini": {
+                    "urls": [
+                        "https://simplelocalize.io/docs/general/auto-translation/"
+                    ]
+                }
+            }
         ],
         "multiple_api_suggestions": true
     },
@@ -1036,7 +1137,28 @@
                     "custom": true
                 }
             },
-            "yandex"
+            "yandex",
+            {
+                "anthropic": {
+                    "urls": [
+                        "https://help.smartcat.com/ai-translation-profiles/"
+                    ]
+                }
+            },
+            {
+                "openai": {
+                    "urls": [
+                        "https://help.smartcat.com/how-to-use-openai-gpt-in-smartcat"
+                    ]
+                }
+            },
+            {
+                "gemini": {
+                    "urls": [
+                        "https://help.smartcat.com/ai-translation-profiles/"
+                    ]
+                }
+            }
         ],
         "router_api_integrations": [
             {
@@ -1086,6 +1208,20 @@
                 "watson": {
                     "custom": true
                 }
+            },
+            {
+                "openai": {
+                    "urls": [
+                        "https://help.smartling.com/hc/en-us/articles/38781764803867"
+                    ]
+                }
+            },
+            {
+                "gemini": {
+                    "urls": [
+                        "https://help.smartling.com/hc/en-us/articles/36904931829787"
+                    ]
+                }
             }
         ],
         "router_api_integrations": [
@@ -1123,7 +1259,28 @@
                     "active": false
                 }
             },
-            "microsoft"
+            "microsoft",
+            {
+                "anthropic": {
+                    "urls": [
+                        "https://docs.tolgee.io/platform/projects_and_organizations/llm-providers"
+                    ]
+                }
+            },
+            {
+                "openai": {
+                    "urls": [
+                        "https://docs.tolgee.io/platform/projects_and_organizations/llm-providers"
+                    ]
+                }
+            },
+            {
+                "gemini": {
+                    "urls": [
+                        "https://docs.tolgee.io/platform/projects_and_organizations/llm-providers"
+                    ]
+                }
+            }
         ],
         "multiple_api_suggestions": true
     },
@@ -1384,6 +1541,14 @@
                     "plugin": true,
                     "active": false
                 }
+            },
+            {
+                "openai": {
+                    "plugin": true,
+                    "urls": [
+                        "https://appstore.rws.com/Plugin/249"
+                    ]
+                }
             }
         ],
         "router_api_integrations": [
@@ -1504,6 +1669,27 @@
                 "supertext": {
                     "glossary": true
                 }
+            },
+            {
+                "anthropic": {
+                    "urls": [
+                        "https://www.star-group.net/-downloads-/file/1933/Transit-TermStar-NXT-Release-Notes.css"
+                    ]
+                }
+            },
+            {
+                "deepseek": {
+                    "urls": [
+                        "https://www.star-group.net/-downloads-/file/1933/Transit-TermStar-NXT-Release-Notes.css"
+                    ]
+                }
+            },
+            {
+                "openai": {
+                    "urls": [
+                        "https://www.star-group.net/-downloads-/file/1933/Transit-TermStar-NXT-Release-Notes.css"
+                    ]
+                }
             }
         ],
         "local_api_support": true,
@@ -1571,6 +1757,13 @@
                     "active": false,
                     "urls": [
                         "https://confluence.translate5.net/display/CON/PangeaMT"
+                    ]
+                }
+            },
+            {
+                "openai": {
+                    "urls": [
+                        "https://confluence.translate5.net/x/AwAfJg"
                     ]
                 }
             }
@@ -1708,6 +1901,20 @@
                         "https://wordbee.atlassian.net/wiki/spaces/WBT/pages/711232/Machine+Translation+Settings"
                     ]
                 }
+            },
+            {
+                "mistral-ai": {
+                    "urls": [
+                        "https://help.wordbee.com/wbt/mistral-ai"
+                    ]
+                }
+            },
+            {
+                "openai": {
+                    "urls": [
+                        "https://help.wordbee.com/wbt/open-ai"
+                    ]
+                }
             }
         ],
         "router_api_integrations": [
@@ -1793,7 +2000,42 @@
                     ]
                 }
             },
-            "yandex"
+            "yandex",
+            {
+                "anthropic": {
+                    "urls": [
+                        "https://anywhere.wordfast.com/help/releaseNotes.html"
+                    ]
+                }
+            },
+            {
+                "deepseek": {
+                    "urls": [
+                        "https://anywhere.wordfast.com/help/releaseNotes.html"
+                    ]
+                }
+            },
+            {
+                "mistral-ai": {
+                    "urls": [
+                        "https://anywhere.wordfast.com/help/releaseNotes.html"
+                    ]
+                }
+            },
+            {
+                "openai": {
+                    "urls": [
+                        "https://anywhere.wordfast.com/help/releaseNotes.html"
+                    ]
+                }
+            },
+            {
+                "gemini": {
+                    "urls": [
+                        "https://anywhere.wordfast.com/help/releaseNotes.html"
+                    ]
+                }
+            }
         ],
         "router_api_integrations": [
             {
@@ -2008,6 +2250,13 @@
                     "active": false,
                     "urls": [
                         "https://mt-auto-minhon-mlt.ucri.jgn-x.jp/tool/xtm/edit/"
+                    ]
+                }
+            },
+            {
+                "openai": {
+                    "urls": [
+                        "https://xtm-cloud.atlassian.net/wiki/spaces/EXKB/pages/4013948958"
                     ]
                 }
             }

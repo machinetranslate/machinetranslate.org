@@ -678,7 +678,8 @@ more_languages_by_request: false
 integrations:
 - slug: openloc
   name: OpenLoc
-  formality: false
+  formality: true
+  glossary: true
 - slug: across
   name: Across
   formality: true

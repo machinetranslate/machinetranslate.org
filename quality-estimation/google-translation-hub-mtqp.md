@@ -85,10 +85,15 @@ more_by_company:
 - translation_apis:
   - id: google
     name: Google Translate
+  - id: gemini
+    name: Gemini
 - tms:
   - id: translation-hub
     name: Google Cloud Translation Hub
     type: Translation management system
+- models:
+  - id: gemini
+    name: Gemini
 - quality_estimation_apis:
   - id: google-translation-hub-mtqp
     name: Google Translation Hub MTQP

@@ -29,6 +29,19 @@
         ]
     },
     {
+        "name": "Gemini",
+        "id": "gemini",
+        "company": "google",
+        "urls": [
+            "https://deepmind.google/models/gemini/",
+            "https://ai.google.dev/gemini-api/docs/models"
+        ],
+        "apis": [
+            "Gemini"
+        ],
+        "self_serve": true
+    },
+    {
         "name": "DeepSeek AI",
         "id": "deepseek-ai",
         "company": "deepseek",

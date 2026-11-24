@@ -348,7 +348,11 @@
             "https://www.crunchbase.com/organization/google-cloud-platform"
         ],
         "apis": [
-            "google"
+            "google",
+            "gemini"
+        ],
+        "models": [
+            "gemini"
         ],
         "tms": [
             "translation-hub"

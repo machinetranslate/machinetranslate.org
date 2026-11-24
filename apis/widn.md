@@ -260,7 +260,7 @@ more_by_company:
 - models:
   - id: towerllm
     name: TowerLLM
-active: true
+active: false
 seo:
   name: The Widn machine translation API
   type: Product
